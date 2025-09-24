@@ -1,0 +1,20 @@
+{
+  "heroes": {
+    "1": {
+      "default": [
+        "Vamos lá, estou pronta para a próxima aventura!",
+        "Espero que essa missão renda boas histórias."
+      ],
+      "2": [
+        "Desde que vencemos na Montanha Sombria, me sinto mais confiante.",
+        "Nada pode nos parar agora, já superamos desafios maiores."
+      ]
+    },
+    "2": {
+      "default": [
+        "Estou aqui apenas pelo ouro, nada mais.",
+        "Espero que não tenha ratos dessa vez..."
+      ]
+    }
+  }
+}

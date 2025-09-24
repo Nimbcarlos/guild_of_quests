@@ -1,0 +1,212 @@
+#:kivy 2.3.0
+#: import WipeTransition kivy.uix.screenmanager.WipeTransition
+
+<GameScreenManager>:
+    MenuScreen:
+    GameplayScreen:
+
+<LoadGameScreen>:
+    BoxLayout:
+        orientation: "vertical"
+        canvas.before:
+            Rectangle:
+                source: "assets/background_ls.png"
+                size: self.size
+                pos: self.pos
+        padding: 10
+        spacing: 10
+
+        Label:
+            text: "📂 Escolha um save"
+            font_size: 24
+            size_hint_y: None
+            height: 40
+            color: 0, 0, 0, 1
+
+        ScrollView:
+            size_hint_y: 0.8
+
+            BoxLayout:
+                id: saves_list
+                orientation: "vertical"
+                size_hint_y: None
+                height: self.minimum_height
+                spacing: 5
+
+        Button:
+            text: "⬅️ Voltar"
+            size_hint_y: None
+            height: 50
+            on_release:
+                app.root.current = "menu"
+
+<MenuScreen>:
+    name: "menu"
+    FloatLayout:
+        canvas.before:
+            Rectangle:
+                source: "assets/background_ls.png"
+                size: self.size
+                pos: self.pos
+
+        BoxLayout:
+            orientation: "vertical"
+            spacing: 20
+            size_hint: None, None
+            size: 320, 500
+            pos_hint: {"center_x": 0.5, "center_y": 0.5}
+
+            # New Game -> chama o método Python que prepara e entra em gameplay
+            Button:
+                background_normal: "assets/buttons/new_game.png"
+                background_down: "assets/buttons/new_game.png"
+                size_hint: None, None
+                size: 300, 100
+                on_release: root._on_new_game()    # chama o método em screens/menu_screen.py
+
+            # Load Game -> abre lista de saves (método Python já implementado)
+            Button:
+                background_normal: "assets/buttons/load_game.png"
+                background_down: "assets/buttons/load_game.png"
+                size_hint: None, None
+                size: 300, 100
+                on_release: app.root.current = "loadgame"
+
+            # Settings
+            Button:
+                background_normal: "assets/buttons/settings.png"
+                background_down: "assets/buttons/settings.png"
+                size_hint: None, None
+                size: 300, 100
+                on_release: root.open_settings()
+
+            # Exit
+            Button:
+                background_normal: "assets/buttons/exit.png"
+                background_down: "assets/buttons/exit.png"
+                size_hint: None, None
+                size: 300, 100
+                on_release: root.exit_game()
+
+
+<GameplayScreen>:
+    name: "gameplay"
+
+    BoxLayout:
+        orientation: "horizontal"
+
+        # ----------------- PARTE ESQUERDA -----------------
+        BoxLayout:
+            orientation: "vertical"
+            size_hint_x: 0.65
+
+            # ----- Botão de Avançar (fixo) -----
+            BoxLayout:
+                id: turn_log
+                orientation: "horizontal"
+                size_hint_y: 0.08
+                padding: 8
+                spacing: 8
+                canvas.before:
+                    Rectangle:
+                        source: "assets/background_ls.png"
+                        size: self.size
+                        pos: self.pos
+
+                Button:
+                    text: "⏩ Avançar Turno"
+                    size_hint_x: None
+                    width: 150
+                    on_release: root.advance_turn()
+
+
+            # ----- Área principal de gameplay -----
+            BoxLayout:
+                orientation: "vertical"
+                size_hint_y: 0.6
+                canvas.before:
+                    Rectangle:
+                        source: "assets/background_ls.png"
+                        size: self.size
+                        pos: self.pos
+
+                BoxLayout:
+                    id: quest_details
+                    orientation: "vertical"
+                    padding: 10
+                    spacing: 5
+
+
+            # ----- Log de missões e falas -----
+            BoxLayout:
+                orientation: "vertical"
+                size_hint_y: 0.2
+                canvas.before:
+                    Rectangle:
+                        source: "assets/background_ls.png"
+                        size: self.size
+                        pos: self.pos
+
+                Label:
+                    text: "Log de missões e falas"
+                    size_hint_y: None
+                    height: 30
+                    color: 0, 0, 0, 1
+
+                ScrollView:
+                    BoxLayout:
+                        id: mission_log
+                        orientation: "vertical"
+                        size_hint_y: None
+                        height: self.minimum_height
+
+        # ----------------- Sidebar (direita) -----------------
+        BoxLayout:
+            orientation: "vertical"
+            size_hint_x: 0.35
+            padding: 5
+            spacing: 5
+            canvas.before:
+                Color:
+                    rgba: 1, 1, 1, 1
+                Rectangle:
+                    source: "assets/background.png"
+                    size: self.size
+                    pos: self.pos
+
+            Label:
+                text: "Quests em andamento"
+                color: 0, 0, 0, 1
+
+            BoxLayout:
+                id: active_quests
+                orientation: "vertical"
+                size_hint_y: None
+                height: self.minimum_height
+
+            Label:
+                text: "Quests disponíveis"
+                color: 0, 0, 0, 1
+
+            BoxLayout:
+                id: available_quests
+                orientation: "vertical"
+                size_hint_y: None
+                height: self.minimum_height
+
+            Label:
+                text: "Quests concluídas"
+                color: 0, 0, 0, 1
+
+            BoxLayout:
+                id: completed_quests
+                orientation: "vertical"
+                size_hint_y: None
+                height: self.minimum_height
+
+<Button>:
+    background_normal: "assets/buttons/button.png"
+    background_down: "assets/buttons/button.png"
+    font_size: 18
+    size_hint: None, None
+    size: 200, 60

@@ -1,0 +1,38 @@
+{
+    "current_turn": 5,
+    "completed_quests": [
+        2
+    ],
+    "failed_quests": [],
+    "unlocked_heroes": [
+        1
+    ],
+    "heroes": [
+        {
+            "id": 1,
+            "name": "Lyra",
+            "xp": 120,
+            "status": "on_mission"
+        },
+        {
+            "id": 2,
+            "name": "Elara",
+            "xp": 0,
+            "status": "idle"
+        },
+        {
+            "id": 3,
+            "name": "Kael",
+            "xp": 0,
+            "status": "idle"
+        }
+    ],
+    "active_quests": {
+        "2": {
+            "turns_left": 0,
+            "heroes": [
+                1
+            ]
+        }
+    }
+}

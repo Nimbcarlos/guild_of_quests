@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "name": "Procura na Floresta Sombria",
+    "description": "Uma criatura estranha tem assustado os viajantes na Floresta Sombria. Encontre-a e a elimine.",
+    "type": "Scout",
+    "recommendedLevel": 1,
+    "duration": 5,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 100
+    },
+    "required_quests": []
+  },
+  {
+    "id": 2,
+    "name": "Caçada aos Goblins",
+    "description": "Goblins têm atacado as vilas próximas. Elimine-os antes que causem mais problemas.",
+    "type": "Fight",
+    "recommendedLevel": 1,
+    "duration": 4,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 120
+    },
+    "required_quests": []
+  },
+  {
+    "id": 3,
+    "name": "Ratos no Celeiro",
+    "description": "Ratos gigantes invadiram o celeiro do vilarejo. Acabe com eles antes que destruam os alimentos.",
+    "type": "Fight",
+    "recommendedLevel": 1,
+    "duration": 3,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 80
+    },
+    "required_quests": [2]
+  },
+  {
+    "id": 4,
+    "name": "Lobo Solitário",
+    "description": "Um lobo feroz tem atacado os pastores. Encontre-o e o elimine.",
+    "type": "Fight",
+    "recommendedLevel": 1,
+    "duration": 4,
+    "difficulty":  0.2,
+    "rewards": {
+      "xp": 110
+    },
+    "required_quests": [3]
+  },
+  {
+    "id": 5,
+    "name": "Arauto das Sombras",
+    "description": "Um pequeno bando de bandidos tem ameaçado a estrada principal. Intercepte-os e acabe com a ameaça.",
+    "type": "Fight",
+    "recommendedLevel": 2,
+    "duration": 5,
+    "difficulty":  0.2,
+    "rewards": {
+      "xp": 150
+    },
+    "required_quests": [1]
+  },
+  {
+    "id": 6,
+    "name": "Insetos Gigantes",
+    "description": "Insetos gigantes infestaram os campos de cultivo. Elimine-os para proteger a colheita.",
+    "type": "Fight",
+    "recommendedLevel": 2,
+    "duration": 4,
+    "difficulty":  0.2,
+    "rewards": {
+      "xp": 130
+    },
+    "required_quests": [4]
+  },
+  {
+    "id": 7,
+    "name": "Roubadores Noturnos",
+    "description": "Um grupo de ladrões tem atacado comerciantes à noite. Encontre-os e neutralize a ameaça.",
+    "type": "Fight",
+    "recommendedLevel": 2,
+    "duration": 5,
+    "difficulty":  0.2,
+    "rewards": {
+      "xp": 140
+    },
+    "required_quests": [5]
+  },
+  {
+    "id": 8,
+    "name": "Arauto do Lago",
+    "description": "Um crocodilo gigante está ameaçando os pescadores do lago. Derrote-o antes que cause mais estragos.",
+    "type": "Fight",
+    "recommendedLevel": 2,
+    "duration": 6,
+    "difficulty":  0.2,
+    "rewards": {
+      "xp": 160
+    },
+    "required_quests": [6]
+  },
+  {
+    "id": 9,
+    "name": "Patrulha de Kobolds",
+    "description": "Kobolds estão saqueando as minas locais. Enfrente-os e restaure a segurança na região.",
+    "type": "Fight",
+    "recommendedLevel": 2,
+    "duration": 5,
+    "difficulty":  0.2,
+    "rewards": {
+      "xp": 150
+    },
+    "required_quests": [7]
+  },
+  {
+    "id": 10,
+    "name": "Guerreiros Corrompidos",
+    "description": "Alguns mercenários caíram na corrupção e atacam inocentes. Derrote-os antes que o caos se espalhe.",
+    "type": "Fight",
+    "recommendedLevel": 3,
+    "duration": 6,
+    "difficulty":  0.2,
+    "rewards": {
+      "xp": 180
+    },
+    "required_quests": [5]
+  },
+  {
+    "id": 11,
+    "name": "Aranha Gigante na Caverna",
+    "description": "Uma aranha gigante bloqueia a passagem da caverna. Elimine a criatura para que os viajantes possam passar.",
+    "type": "Fight",
+    "recommendedLevel": 3,
+    "duration": 6,
+    "difficulty":  0.2,
+    "rewards": {
+      "xp": 170
+    },
+    "required_quests": [8]
+    },
+    {
+    "id": 12,
+    "name": "Missão de Escolta",
+    "description": "Escolte um grupo de mineiros até a mina.",
+    "type": "Fight",
+    "recommendedLevel": 2,
+    "duration": 120,
+    "difficulty": 0.25,
+    "rewards": {
+      "xp": 150
+    },
+    "required_quests": [9]
+  },
+  {
+    "id": 13,
+    "name": "Batalha na Montanha Negra",
+    "description": "Uma tribo de goblins se instalou na Montanha Negra. Limpe o acampamento e retorne em segurança.",
+    "type": "Fight",
+    "recommendedLevel": 1,
+    "duration": 120,
+    "difficulty":  0.2,
+    "rewards": {
+      "xp": 150
+    },
+    "required_quests": [10]
+  },
+  {
+    "id": 14,
+    "name": "Negociação com o Rei",
+    "description": "O Rei precisa de um mensageiro para um acordo de paz. Traga a notícia de volta para o reino.",
+    "type": "Social",
+    "recommendedLevel": 1,
+    "duration": 180,
+    "difficulty":  0.2,
+    "rewards": {
+      "xp": 200
+    },
+    "required_quests": [11]
+  },
+  {
+    "id": 15,
+    "name": "Ajuda no Vilarejo",
+    "description": "Um vilarejo perto da mina precisa de ajuda. Ajudar os moradores pode render uma boa recompensa.",
+    "type": "Social",
+    "recommendedLevel": 3,
+    "duration": 180,
+    "difficulty":  0.2,
+    "rewards": {
+      "xp": 200
+    },
+    "required_quests": [2]
+  },
+  {
+    "id": 16,
+    "name": "Segredos da Mina",
+    "description": "A mina guarda segredos valiosos. Investigue a mina e encontre o que o Rei tanto busca.",
+    "type": "Scout",
+    "recommendedLevel": 3,
+    "duration": 180,
+    "difficulty":  0.2,
+    "rewards": {
+      "xp": 200
+    },
+    "required_quests": [2]
+  }
+]

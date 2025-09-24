@@ -1,0 +1,96 @@
+{
+  "2": {
+    "sucesso": {
+      "reporters": {
+        "1": { "id": "1", "text": "A Floresta Sombria foi pacificada! O caos não se espalhará mais daqui." },
+        "2": { "id": "2", "text": "O perigo está contido. As sombras não nos intimidaram hoje." },
+        "3": { "id": "3", "text": "As coisas estão tranquilas por lá agora. A missão foi um sucesso total." }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "1", "text": "A floresta parecia muito mais escura do que o normal." },
+          { "id": "2", "text": "Sim, mas o trabalho em equipe foi impecável." }
+        ],
+        "2 3": [
+          { "id": "1", "text": "normal." },
+          { "id": "2", "text": "Sim." }
+        ],
+        "1_3": [
+          { "id": "1", "text": "Isso foi um bom exercício, mas o cheiro de mofo era terrível." },
+          { "id": "3", "text": "Você se acostuma, é o cheiro da aventura." }
+        ]
+      },
+      "multi": [
+        { "id": "2", "text": "A floresta parecia muito mais escura do que o normal." },
+        { "id": "1", "text": "Sim, mas a recompensa foi maior do que a promessa de ouro." },
+        { "id": "3", "text": "E o ar agora parece mais leve." }
+      ]
+    },
+    "falha": {
+      "reporters": {
+        "1": { "id": "1", "text": "Eu subestimei os perigos da floresta. Precisamos nos preparar melhor." },
+        "2": { "id": "2", "text": "Foi uma derrota difícil, mas aprendemos muito com ela." },
+        "3": { "id": "3", "text": "As criaturas lá eram mais fortes do que o esperado. É um fracasso." }
+      },
+      "teams": {
+        "2_3": [
+          { "id": "2", "text": "Essa floresta é traiçoeira, fomos pegos de surpresa." },
+          { "id": "3", "text": "Eu deveria ter sido mais cuidadoso." },
+          { "id": "2", "text": "Não se culpe. O importante é que voltamos para a guilda... por enquanto." }
+        ]
+      },
+      "multi": [
+        { "id": "2", "text": "Essa floresta é traiçoeira, fomos pegos de surpresa." },
+        { "id": "3", "text": "Eu deveria ter sido mais cuidadoso." },
+        { "id": "1", "text": "Não se culpe. O importante é que voltamos para a guilda... por enquanto." }
+      ]
+    }
+  },
+  "3": {
+    "sucesso": {
+      "reporters": {
+        "1": { "id": "1", "text": "daqui." },
+        "2": { "id": "2", "text": "hoje." },
+        "3": { "id": "3", "text": "total." }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "1", "text": "oi" },
+          { "id": "2", "text": "Sim." }
+        ],
+        "2 3": [
+          { "id": "1", "text": "normal." },
+          { "id": "2", "text": "Sim." }
+        ],
+        "1_3": [
+          { "id": "1", "text": "Isso." },
+          { "id": "3", "text": "Você." }
+        ]
+      },
+      "multi": [
+        { "id": "2", "text": "A floresta parecia muito mais escura do que o normal." },
+        { "id": "1", "text": "Sim, mas a recompensa foi maior do que a promessa de ouro." },
+        { "id": "3", "text": "E o ar agora parece mais leve." }
+      ]
+    },
+    "falha": {
+      "reporters": {
+        "1": { "id": "1", "text": "Eu subestimei os perigos da floresta. Precisamos nos preparar melhor." },
+        "2": { "id": "2", "text": "Foi uma derrota difícil, mas aprendemos muito com ela." },
+        "3": { "id": "3", "text": "As criaturas lá eram mais fortes do que o esperado. É um fracasso." }
+      },
+      "teams": {
+        "2_3": [
+          { "id": "2", "text": "Essa floresta é traiçoeira, fomos pegos de surpresa." },
+          { "id": "3", "text": "Eu deveria ter sido mais cuidadoso." },
+          { "id": "2", "text": "Não se culpe. O importante é que voltamos para a guilda... por enquanto." }
+        ]
+      },
+      "multi": [
+        { "id": "2", "text": "Essa floresta é traiçoeira, fomos pegos de surpresa." },
+        { "id": "3", "text": "Eu deveria ter sido mais cuidadoso." },
+        { "id": "1", "text": "Não se culpe. O importante é que voltamos para a guilda... por enquanto." }
+      ]
+    }
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Lyra",
+    "hero_class": "Warrior",
+    "status": "Healthy",
+    "perks": ["Strong"],
+    "defects": ["Clumsy"],
+    "story": "Lyra é uma guerreira que sonha em se tornar a capitã da guarda real.",
+    "photo_url": "img/Lyra.png",
+    "unlock_by_quest": [],
+    "growth_curve": {
+      "1": { "strength": 2, "dexterity": 1, "intelligence": 1, "constitution": 1, "charisma": 1 },
+      "2": { "strength": 3, "dexterity": 1, "intelligence": 1, "constitution": 1, "charisma": 1 },
+      "3": { "strength": 4, "dexterity": 1, "intelligence": 1, "constitution": 1, "charisma": 1 },
+      "4": { "strength": 5, "dexterity": 1, "intelligence": 1, "constitution": 1, "charisma": 1 },
+      "5": { "strength": 6, "dexterity": 1, "intelligence": 1, "constitution": 1, "charisma": 1 }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Elara",
+    "hero_class": "Rogue",
+    "status": "Healthy",
+    "perks": ["Nimble"],
+    "defects": ["Cowardly"],
+    "story": "Elara prefere resolver problemas com sutileza, evitando confrontos diretos.",
+    "photo_url": "img/Elara.png",
+    "unlock_by_quest": [2],
+    "growth_curve": {
+      "1": { "strength": 1, "dexterity": 2, "intelligence": 1, "constitution": 1, "charisma": 1 },
+      "2": { "strength": 1, "dexterity": 3, "intelligence": 1, "constitution": 1, "charisma": 1 },
+      "3": { "strength": 1, "dexterity": 4, "intelligence": 1, "constitution": 1, "charisma": 1 },
+      "4": { "strength": 1, "dexterity": 5, "intelligence": 1, "constitution": 1, "charisma": 1 },
+      "5": { "strength": 1, "dexterity": 6, "intelligence": 1, "constitution": 1, "charisma": 1 }
+    }
+  },
+  {
+    "id": 3,
+    "name": "Kael",
+    "hero_class": "Cleric",
+    "status": "Healthy",
+    "perks": ["Healing Aura"],
+    "defects": ["Naive"],
+    "story": "Kael é um clérigo dedicado a curar os feridos.",
+    "photo_url": "img/Kael.png",
+    "unlock_by_quest": [3],
+    "growth_curve": {
+      "1": { "strength": 1, "dexterity": 1, "intelligence": 2, "constitution": 1, "charisma": 1 },
+      "2": { "strength": 1, "dexterity": 1, "intelligence": 3, "constitution": 1, "charisma": 1 },
+      "3": { "strength": 1, "dexterity": 1, "intelligence": 4, "constitution": 1, "charisma": 1 },
+      "4": { "strength": 1, "dexterity": 1, "intelligence": 5, "constitution": 1, "charisma": 1 },
+      "5": { "strength": 1, "dexterity": 1, "intelligence": 6, "constitution": 1, "charisma": 1 }
+    }
+  }
+]
