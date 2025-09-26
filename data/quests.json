@@ -10,7 +10,8 @@
     "rewards": {
       "xp": 100
     },
-    "required_quests": []
+    "required_quests": [],
+    "required_fail_quests": []
   },
   {
     "id": 2,
@@ -23,7 +24,8 @@
     "rewards": {
       "xp": 120
     },
-    "required_quests": []
+    "required_quests": [],
+    "required_fail_quests": []
   },
   {
     "id": 3,
@@ -36,7 +38,8 @@
     "rewards": {
       "xp": 80
     },
-    "required_quests": [2]
+    "required_quests": [2],
+    "required_fail_quests": []
   },
   {
     "id": 4,
@@ -49,7 +52,8 @@
     "rewards": {
       "xp": 110
     },
-    "required_quests": [3]
+    "required_quests": [3],
+    "required_fail_quests": []
   },
   {
     "id": 5,
@@ -62,7 +66,8 @@
     "rewards": {
       "xp": 150
     },
-    "required_quests": [1]
+    "required_quests": [1],
+    "required_fail_quests": []
   },
   {
     "id": 6,
@@ -75,7 +80,8 @@
     "rewards": {
       "xp": 130
     },
-    "required_quests": [4]
+    "required_quests": [4],
+    "required_fail_quests": []
   },
   {
     "id": 7,
@@ -88,7 +94,8 @@
     "rewards": {
       "xp": 140
     },
-    "required_quests": [5]
+    "required_quests": [5],
+    "required_fail_quests": []
   },
   {
     "id": 8,
@@ -101,7 +108,8 @@
     "rewards": {
       "xp": 160
     },
-    "required_quests": [6]
+    "required_quests": [6],
+    "required_fail_quests": []
   },
   {
     "id": 9,
@@ -114,7 +122,8 @@
     "rewards": {
       "xp": 150
     },
-    "required_quests": [7]
+    "required_quests": [7],
+    "required_fail_quests": []
   },
   {
     "id": 10,
@@ -127,7 +136,8 @@
     "rewards": {
       "xp": 180
     },
-    "required_quests": [5]
+    "required_quests": [5],
+    "required_fail_quests": []
   },
   {
     "id": 11,
@@ -140,7 +150,8 @@
     "rewards": {
       "xp": 170
     },
-    "required_quests": [8]
+    "required_quests": [8],
+    "required_fail_quests": []
     },
     {
     "id": 12,
@@ -148,12 +159,13 @@
     "description": "Escolte um grupo de mineiros até a mina.",
     "type": "Fight",
     "recommendedLevel": 2,
-    "duration": 120,
+    "duration": 5,
     "difficulty": 0.25,
     "rewards": {
       "xp": 150
     },
-    "required_quests": [9]
+    "required_quests": [9],
+    "required_fail_quests": []
   },
   {
     "id": 13,
@@ -161,12 +173,13 @@
     "description": "Uma tribo de goblins se instalou na Montanha Negra. Limpe o acampamento e retorne em segurança.",
     "type": "Fight",
     "recommendedLevel": 1,
-    "duration": 120,
+    "duration": 5,
     "difficulty":  0.2,
     "rewards": {
       "xp": 150
     },
-    "required_quests": [10]
+    "required_quests": [10],
+    "required_fail_quests": []
   },
   {
     "id": 14,
@@ -174,12 +187,13 @@
     "description": "O Rei precisa de um mensageiro para um acordo de paz. Traga a notícia de volta para o reino.",
     "type": "Social",
     "recommendedLevel": 1,
-    "duration": 180,
+    "duration": 5,
     "difficulty":  0.2,
     "rewards": {
       "xp": 200
     },
-    "required_quests": [11]
+    "required_quests": [11],
+    "required_fail_quests": []
   },
   {
     "id": 15,
@@ -187,12 +201,13 @@
     "description": "Um vilarejo perto da mina precisa de ajuda. Ajudar os moradores pode render uma boa recompensa.",
     "type": "Social",
     "recommendedLevel": 3,
-    "duration": 180,
+    "duration": 5,
     "difficulty":  0.2,
     "rewards": {
       "xp": 200
     },
-    "required_quests": [2]
+    "required_quests": [2],
+    "required_fail_quests": []
   },
   {
     "id": 16,
@@ -200,11 +215,12 @@
     "description": "A mina guarda segredos valiosos. Investigue a mina e encontre o que o Rei tanto busca.",
     "type": "Scout",
     "recommendedLevel": 3,
-    "duration": 180,
+    "duration": 5,
     "difficulty":  0.2,
     "rewards": {
       "xp": 200
     },
-    "required_quests": [2]
+    "required_quests": [2],
+    "required_fail_quests": []
   }
 ]

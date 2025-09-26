@@ -4,6 +4,7 @@ from kivy.uix.label import Label
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.scrollview import ScrollView
 from kivy.uix.popup import Popup
+from kivy.uix.image import Image
 from functools import partial
 from core.quest_manager import QuestManager
 from core.quest_success_calculator import calculate_success_chance
@@ -223,20 +224,57 @@ class GameplayScreen(Screen):
         available_heroes = self.qm.hero_manager.get_available_heroes()
 
         for hero in available_heroes:
-            row = BoxLayout(size_hint_y=None, height=40)
 
+            row = BoxLayout(size_hint_y=None, height=60, spacing=10)
+
+            # Foto do herói (assumindo que hero.photo é o caminho da imagem)
+            print(hero.photo_url)
+            if getattr(hero, "photo_url", None):
+                row.add_widget(Image(
+                    source=hero.photo_url,
+                    size_hint_x=None,
+                    width=50
+                ))
+            else:
+                row.add_widget(Label(
+                    text="❓",
+                    size_hint_x=None,
+                    width=50
+                ))
+
+            # Nome
             row.add_widget(Label(
                 text=hero.name,
-                color=(0, 0, 0, 1)
+                color=(0, 0, 0, 1),
+                halign="left",
+                valign="middle"
             ))
 
+            # Classe
+            row.add_widget(Label(
+                text=f"Classe: {getattr(hero, 'hero_class', 'Desconhecida')}",
+                color=(0, 0, 0, 1),
+                halign="left",
+                valign="middle"
+            ))
+
+            # Level
+            row.add_widget(Label(
+                text=f"Lvl {getattr(hero, 'level', 1)}",
+                color=(0, 0, 0, 1),
+                halign="left",
+                valign="middle"
+            ))
+
+            # Botão de detalhes
             row.add_widget(Button(
                 text="🔍",
                 size_hint_x=None,
                 width=50,
-                on_release=lambda *_ , h=hero: self.show_hero_details(h)
+                on_release=lambda *_, h=hero: self.show_hero_details(h)
             ))
 
+            # Botão de seleção
             row.add_widget(Button(
                 text="Selecionar",
                 size_hint_x=None,
@@ -285,8 +323,65 @@ class GameplayScreen(Screen):
         self.pending_assignments.pop(quest.id, None)
 
     def show_hero_details(self, hero):
-        print(f'detalhes do heroi: {hero}')
-        pass
+        """Mostra um popup com os detalhes do herói."""
+        content = BoxLayout(orientation="horizontal", spacing=10, padding=10)
+        print(hero.stats)
+        # Retrato
+        portrait = Image(
+            source=getattr(hero, "photo_url", "assets/ui/default_hero.png"),
+            size_hint=(None, None),
+            size=(120, 120),
+            allow_stretch=True,
+            keep_ratio=True
+        )
+        content.add_widget(portrait)
+
+        # Coluna de infos
+        info_box = BoxLayout(orientation="vertical", spacing=5)
+
+        info_box.add_widget(Label(
+            text=f"[b]{hero.name}[/b]",
+            markup=True,
+            font_size=20,
+            color=(0, 0, 0, 1),
+            size_hint_y=None,
+            height=30
+        ))
+
+        info_box.add_widget(Label(
+            text=f"Classe: {getattr(hero, 'hero_class', 'Desconhecida')}",
+            color=(0, 0, 0, 1),
+            size_hint_y=None,
+            height=25
+        ))
+
+        info_box.add_widget(Label(
+            text=f"Nível: {getattr(hero, 'level', 1)}",
+            color=(0, 0, 0, 1),
+            size_hint_y=None,
+            height=25
+        ))
+
+        # Se tiver atributos extras (força, agilidade, etc.)
+        if hasattr(hero, "stats"):
+            for attr, value in hero.stats.items():
+                info_box.add_widget(Label(
+                    text=f"{attr.capitalize()}: {value}",
+                    color=(0, 0, 0, 1),
+                    size_hint_y=None,
+                    height=20
+                ))
+
+        content.add_widget(info_box)
+
+        popup = Popup(
+            title="📜 Detalhes do Herói",
+            content=content,
+            background="assets/background.png",
+            size_hint=(0.6, 0.6),
+            auto_dismiss=True
+        )
+        popup.open()
 
     def start_quest(self, quest):
         """Envia os heróis selecionados para uma quest específica e mostra o diálogo inicial."""

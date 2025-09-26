@@ -14,6 +14,9 @@ class Quest:
         difficulty: int,
         rewards: Dict[str, int],
         required_quests: List[str],
+        required_fail_quests: List[str],
+        available_since_turn = None, # << NOVO CAMPO: Quando ela se tornou disponível
+
     ):
         self.id = id
         self.name = name
@@ -24,6 +27,8 @@ class Quest:
         self.difficulty = difficulty
         self.rewards = rewards
         self.required_quests = required_quests
+        self.required_fail_quests = required_fail_quests
+        self.available_since_turn = available_since_turn # << NOVO CAMPO: Quando ela se tornou disponível
 
         # Novo: turnos restantes
         self.remaining_turns = duration  
@@ -40,7 +45,18 @@ class Quest:
             f"Dificuldade: {self.difficulty}\n"
             f"Recompensas: {self.rewards}\n"
             f"Pré-requisitos: {', '.join(self.required_quests) if self.required_quests else 'Nenhum'}"
+            f"Failed Quests: {', '.join(self.required_fail_quests) if self.required_fail_quests else 'Nenhum'}"
+            f"Iniciada no turno: {self.available_since_turn}"
         )
+
+    def is_expired(self, current_turn: int) -> bool:
+        """
+        Retorna True se a quest já passou do limite de duração
+        sem ter sido iniciada.
+        """
+        if self.available_since_turn is None:
+            return False  # ainda não foi disponibilizada
+        return (current_turn - self.available_since_turn) >= self.duration
 
     @staticmethod
     def load_quests(file_path: str = "data/quests.json") -> List["Quest"]:

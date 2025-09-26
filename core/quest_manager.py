@@ -2,11 +2,27 @@ from core.hero_manager import HeroManager
 from core.quest import Quest
 from core.quest_success_calculator import calculate_success_chance, run_mission_roll
 from core.save_manager import save_game, load_game
-
+from core.quest_requirements import (
+    check_required_quests,
+    check_trigger_on_fail,
+    check_not_completed,
+    check_min_hero_level,
+    check_not_active,
+    check_expired_quests,
+)
 
 class QuestManager:
     def __init__(self, save_file="auto_save.json"):
         self.save_file = save_file
+        self.requirement_checks = [
+            check_not_completed,
+            check_trigger_on_fail,
+            check_required_quests,
+            check_min_hero_level,
+            check_not_active,
+            check_expired_quests,
+            # adicionar outros futuramente
+        ]
 
         # HeroManager gerencia todos os heróis e desbloqueio
         self.hero_manager = HeroManager()
@@ -123,29 +139,19 @@ class QuestManager:
 
     # -------------------- Quests Disponíveis --------------------
     def available_quests(self):
-        """
-        Retorna lista de quests disponíveis.
-        Considera:
-        - Pré-requisitos de quests completadas
-        - Quests que ativam se outra falhou
-        - Ignora quests já completadas
-        """
+        """Retorna lista de quests disponíveis (passando em todos os requisitos)."""
         quests_list = []
         for q in self.quests:
-            if q.id in self.completed_quests:
+
+            if q.id in self.completed_quests or q.id in self.failed_quests or q.id in self.active_quests:
                 continue
 
-            # Quests que só ativam se outra falhou
-            if getattr(q, "trigger_on_fail", None):
-                if any(failed_id in self.failed_quests for failed_id in q.trigger_on_fail):
-                    quests_list.append(q)
-                    continue
+            if all(check(q, self) for check in self.requirement_checks):
 
-            # Quests normais com pré-requisitos
-            required_ids = getattr(q, "required_quests", [])
-            if all(req_id in self.completed_quests for req_id in required_ids):
+                if q.available_since_turn is None:
+                    q.available_since_turn = self.current_turn
+                    print('quest disponial em', q.available_since_turn)
                 quests_list.append(q)
-
         return quests_list
 
     def get_active_quests(self):
