@@ -42,6 +42,13 @@ class HeroManager:
                 return h
         return None
 
+    def reset_heroes(self):
+        self.unlocked_heroes = set()
+        for hero in self.all_heroes:
+            hero.xp = 0
+            hero.status = "idle"
+
+
 if __name__ == "__main__":
     heroes = HeroManager()
     print(heroes.get_hero_by_id(1).name)

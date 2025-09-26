@@ -150,7 +150,6 @@ class QuestManager:
 
                 if q.available_since_turn is None:
                     q.available_since_turn = self.current_turn
-                    print('quest disponial em', q.available_since_turn)
                 quests_list.append(q)
         return quests_list
 
@@ -208,3 +207,13 @@ class QuestManager:
 
     def set_ui_callback(self, callback):
         self.ui_callback = callback
+
+    def reset_game_state(self):
+        self.current_turn = 1
+        self.active_quests = {}
+        self.completed_quests = set()
+        self.failed_quests = set()
+
+        # zera o estado das quests
+        for quest in self.quests:
+            quest.available_since_turn = None

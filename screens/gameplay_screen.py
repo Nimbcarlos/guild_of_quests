@@ -40,6 +40,7 @@ class GameplayScreen(Screen):
         self.pending_assignments = {}  # { quest_id: [hero_ids] }
         # captura teclas
         Window.bind(on_key_down=self._on_key_down)
+        self.ids.quest_details.clear_widgets() 
 
     def on_leave(self):
         # desliga o binding para evitar múltiplos binds ao voltar à tela
@@ -173,15 +174,12 @@ class GameplayScreen(Screen):
 
         # Lista os heróis disponíveis
         available_heroes = self.qm.hero_manager.get_available_heroes()
-        print("Heróis desbloqueados / disponíveis:")
-        for hero in available_heroes:
-            print(f"{hero.name} (ID: {hero.id}) - Nível: {hero.level}")
 
         # Cabeçalho
         container.add_widget(Label(
             text=f"[b]{quest.name}[/b]",
             markup=True,
-            font_size=18,
+            font_size=24,
             color=(0, 0, 0, 1),
             size_hint_y=None,
             height=30
@@ -228,7 +226,6 @@ class GameplayScreen(Screen):
             row = BoxLayout(size_hint_y=None, height=60, spacing=10)
 
             # Foto do herói (assumindo que hero.photo é o caminho da imagem)
-            print(hero.photo_url)
             if getattr(hero, "photo_url", None):
                 row.add_widget(Image(
                     source=hero.photo_url,
@@ -324,8 +321,8 @@ class GameplayScreen(Screen):
 
     def show_hero_details(self, hero):
         """Mostra um popup com os detalhes do herói."""
-        content = BoxLayout(orientation="horizontal", spacing=10, padding=10)
-        print(hero.stats)
+        content = BoxLayout(orientation="horizontal", spacing=10, padding=10) 
+
         # Retrato
         portrait = Image(
             source=getattr(hero, "photo_url", "assets/ui/default_hero.png"),
@@ -372,13 +369,29 @@ class GameplayScreen(Screen):
                     height=20
                 ))
 
+        # Se tiver história (story)
+        if hasattr(hero, "story") and hero.story:
+            story_label = Label(
+                text=hero.story,
+                color=(0, 0, 0, 1),
+                size_hint_y=None,
+                text_size=(300, None),   # limita largura para quebrar linhas
+                halign="left",
+                valign="top"
+            )
+            story_label.bind(texture_size=lambda inst, val: setattr(story_label, "height", val[1]))
+
+            scroll = ScrollView(size_hint=(1, 0.4))
+            scroll.add_widget(story_label)
+            info_box.add_widget(scroll)
+
         content.add_widget(info_box)
 
         popup = Popup(
             title="📜 Detalhes do Herói",
             content=content,
             background="assets/background.png",
-            size_hint=(0.6, 0.6),
+            size_hint=(0.6, 0.7),  # aumentei pra caber a história
             auto_dismiss=True
         )
         popup.open()

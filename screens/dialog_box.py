@@ -29,7 +29,6 @@ class DialogueBox:
         Busca fal falas iniciais genéricas + específicas por quest completada
         """
         if not isinstance(completed_quests, (set, list, tuple)):
-            print(f"[DEBUG] completed_quests veio errado: {completed_quests}")
             completed_quests = set()
 
         hero_data = self.dm.start_dialogues.get("heroes", {}).get(str(hero_id), {})

@@ -4,6 +4,10 @@ from kivy.uix.screenmanager import Screen
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
 import core.save_manager as save  # seu save_manager ajustado
+from screens.gameplay_screen import GameplayScreen
+from core.quest_manager import QuestManager
+from core.hero_manager import HeroManager  # cria esse módulo se ainda não existir
+
 
 class MenuScreen(Screen):
     def __init__(self, **kwargs):
@@ -18,7 +22,7 @@ class MenuScreen(Screen):
         self.main_layout.clear_widgets()
 
         new_game_btn = Button(text="Novo Jogo", size_hint_y=None, height=60)
-        new_game_btn.bind(on_release=self._on_new_game)
+        new_game_btn.bind(on_release=self.new_game)
         self.main_layout.add_widget(new_game_btn)
 
         load_game_btn = Button(text="Carregar Jogo", size_hint_y=None, height=60)
@@ -33,9 +37,28 @@ class MenuScreen(Screen):
         exit_btn.bind(on_release=self.exit_game)
         self.main_layout.add_widget(exit_btn)
 
-    def _on_new_game(self, *args):
-        """Inicia jogo novo (vai para gameplay)."""
-        # aqui você pode resetar state se quiser
+# Correção na Lógica do MenuScreen
+
+    def new_game(self):
+        # Exemplo (assumindo que o manager principal está no GameScreenManager):
+        self.manager.quest_manager = QuestManager()  # Cria uma instância totalmente nova
+        
+        # E se necessário, qualquer outro manager:
+        self.manager.quest_manager.hero_manager = HeroManager() # Cria um HeroManager novo, etc.
+
+        # 2. 🔄 Remove a tela antiga de gameplay se já existir
+        if self.manager.has_screen("gameplay"):
+            old_screen = self.manager.get_screen("gameplay")
+            self.manager.remove_widget(old_screen)
+
+        # 3. 🆕 Recria a tela de gameplay
+        # A nova tela agora usará as novas instâncias de manager zeradas.
+        new_gameplay = GameplayScreen(name="gameplay")
+        
+        # 4. Adiciona a tela
+        self.manager.add_widget(new_gameplay)
+
+        # 5. Troca para a gameplay nova
         self.manager.current = "gameplay"
 
     def show_save_files(self, *args):

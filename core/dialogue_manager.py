@@ -21,7 +21,6 @@ class DialogueManager:
 
     def get_start_dialogues(self, hero_id: int, completed_quests):
         if not isinstance(completed_quests, (set, list, tuple)):
-            print(f"[DEBUG] completed_quests veio errado: {completed_quests}")
             completed_quests = {completed_quests}  # transforma int em set
 
         hero_data = self.start_dialogues.get("heroes", {}).get(str(hero_id), {})
@@ -61,7 +60,6 @@ class DialogueManager:
     def show_quest_dialogue(self, heroes: list, quest_id: str, result: str):
         quest_id = str(quest_id)
         dialogue_data = self.get_quest_dialogue(quest_id, result)
-        print('quest_id', quest_id, type(quest_id))
 
         if not dialogue_data:
             return ["Nenhum diálogo encontrado para esta missão e resultado."]
@@ -70,7 +68,6 @@ class DialogueManager:
 
         falas = []
         for hero in heroes:
-            print('DM.show_quest_dialogue', hero.id, type(hero.id))
             # Converte o ID do herói para string para corresponder à chave no JSON
             if str(hero.id) in reporters:
                 falas.append(reporters[str(hero.id)]["text"])
