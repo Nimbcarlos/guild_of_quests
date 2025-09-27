@@ -1,7 +1,25 @@
 def check_required_quests(quest, manager) -> bool:
-    """Verifica se todas as quests obrigatórias foram concluídas."""
+    """
+    Verifica se todas as quests obrigatórias foram concluídas,
+    e se houver heróis obrigatórios, valida se eles participaram.
+    """
+
+    # --- Quests obrigatórias ---
     required_ids = getattr(quest, "required_quests", [])
-    return all(req in manager.completed_quests for req in required_ids)
+    for req in required_ids:
+        if req not in manager.completed_quests:
+            return False  
+
+    # --- Heróis obrigatórios ---
+    required_heroes = getattr(quest, "required_heroes", [])
+    if required_heroes:
+        for req in quest.required_quests:
+            completed_by = manager.completed_quests.get(req, [])
+            # Checa se pelo menos 1 dos required_heroes participou
+            if not any(hid in completed_by for hid in required_heroes):
+                return False
+
+    return True
 
 
 def check_trigger_on_fail(quest, manager) -> bool:
@@ -50,4 +68,3 @@ def check_expired_quests(quest, manager):
             expired.append(quest)
             manager._log(f"❌ Quest '{quest.name}' falhou por não ter sido iniciada.")
     return quest.id not in manager.active_quests
-

@@ -2,6 +2,7 @@ from core.hero_manager import HeroManager
 from core.quest import Quest
 from core.quest_success_calculator import calculate_success_chance, run_mission_roll
 from core.save_manager import save_game, load_game
+from collections import defaultdict
 from core.quest_requirements import (
     check_required_quests,
     check_trigger_on_fail,
@@ -10,6 +11,7 @@ from core.quest_requirements import (
     check_not_active,
     check_expired_quests,
 )
+
 
 class QuestManager:
     def __init__(self, save_file="auto_save.json"):
@@ -31,7 +33,7 @@ class QuestManager:
         self.quests = Quest.load_quests()
 
         # Sets para progresso
-        self.completed_quests = set()
+        self.completed_quests = defaultdict(set)
         self.failed_quests = set()
         self.active_quests = {}  # Corrigido para ser um dicionário
         self.current_turn = 1
@@ -101,7 +103,12 @@ class QuestManager:
 
         return "Missão iniciada!"
 
-    def resolve_quest(self, quest_id: int, data: dict):
+    def resolve_quest(self, quest, data):
+        heroes = [h.id for h in data.get("heroes", [])]
+        for h in heroes:
+            self.completed_quests[quest.id].add(h)
+
+    def resolve_quest(self, quest_id: int, data):
         """
         Conclui a missão após os turnos terminarem.
         """
@@ -113,10 +120,13 @@ class QuestManager:
 
         if result in ["Sucesso", "Crítico"]:
             xp_reward = quest.rewards.get("xp", 0)
+
             for hero in heroes:
                 hero.add_xp(xp_reward)
                 self._log(f"✅ {hero.name} ganhou {xp_reward} XP!")
-            self.completed_quests.add(quest.id)
+                # Marca que este herói específico completou a quest
+                self.completed_quests[quest.id].add(hero.id)
+
             self._log(f"🏆 Quest '{quest.name}' concluída com {result}!")
         else:
             self.failed_quests.add(quest.id)
@@ -126,14 +136,13 @@ class QuestManager:
         save_game(self, self.save_file)
 
         # Mostra resumo
-        self._log(f"📜 Quest: {quest.name}")
-        self._log(f"🎯 Chance de sucesso: {success_chance:.0%}")
-        self._log(f"🎲 Resultado: {result}")
+        self._log(f"Quest {quest.name}: Resultado {result}")
 
-        for hero in data["heroes"]:
-            # Se quiser lógica de ferimento ou descanso
+        # Reseta status dos heróis
+        for hero in heroes:
             hero.status = "idle"
 
+        # Callback de diálogo
         if self.dialog_callback:
             self.dialog_callback(heroes, quest.id, result)
 
@@ -163,7 +172,6 @@ class QuestManager:
 
     # dentro de core/quest_manager.py (método advance_turn)
     def advance_turn(self):
-        print(f"Avançando para o turno {self.current_turn + 1}")
         self.current_turn += 1
 
         # coleciona quests que precisam ser resolvidas (evita modificar dict durante iteração)

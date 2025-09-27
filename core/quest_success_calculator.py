@@ -8,7 +8,7 @@ def calculate_success_chance(heroes: list[Hero], quest: Quest) -> float:
     total_rating = 0
     
     attribute_mapping = {
-        "Fight": "strength",
+        "Fight": None,  # tratamento especial abaixo
         "Scout": "dexterity",
         "Social": "charisma",
         "Rescue": "constitution",
@@ -16,20 +16,29 @@ def calculate_success_chance(heroes: list[Hero], quest: Quest) -> float:
         "Gather": "dexterity"
     }
 
-    # agora compara direto com a string
     if quest.type not in attribute_mapping:
         print(f"Tipo de missão desconhecido: {quest.type}")
         return 0.0
 
-    main_attribute = attribute_mapping[quest.type]
+    # --- tratamento especial para luta ---
+    if quest.type == "Fight":
+        # Combate pode usar múltiplos atributos
+        combat_attributes = ["strength", "dexterity", "intelligence", "constitution"]
+        for hero in heroes:
+            # pega o maior atributo de combate de cada herói
+            hero_rating = max(hero.stats.get(attr, 0) for attr in combat_attributes)
+            total_rating += hero_rating
+    else:
+        main_attribute = attribute_mapping[quest.type]
+        for hero in heroes:
+            hero_attribute = hero.stats.get(main_attribute, 0)
+            total_rating += hero_attribute
 
-    for hero in heroes:
-        hero_attribute = hero.stats.get(main_attribute, 0)
-        total_rating += hero_attribute
-
+    # --- chance base ---
     base_chance = total_rating / (quest.difficulty * 10)
 
     return max(0.0, min(1.0, base_chance))
+
 
 def run_mission_roll(success_chance: float) -> str:
     """

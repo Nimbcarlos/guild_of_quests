@@ -6,7 +6,7 @@ from kivy.clock import Clock
 from core.hero import Hero
 from typing import Optional
 import random
-
+from collections import deque
 
 class DialogueBox:
     def __init__(self, dialogue_manager):
@@ -15,6 +15,7 @@ class DialogueBox:
         """
         self.dm = dialogue_manager
         self.popup = None
+        self.queue = deque()   # fila de diálogos pendentes
         self.dialogue_label = None
         self.hero_portrait = None
         self.dialogues = []
@@ -46,27 +47,25 @@ class DialogueBox:
         return random.choice(pool)
 
     def show_dialogue(self, heroes, quest_id, result: str):
-        """
-        Mostra o diálogo (inicial ou de resultado da quest).
+        # em vez de abrir já, coloca na fila
+        self.queue.append((heroes, quest_id, result))
+        if not self.popup:  # só abre se não tiver popup ativo
+            self._process_next()
 
-        heroes: lista de objetos Hero
-        quest_id: ID da quest (pode ser None para diálogos iniciais globais)
-        result: "start" para início da quest, ou "sucesso"/"falha"/etc para resultado
-        """
-        self.heroes = heroes
-
-        # Seleciona diálogos
+    def _process_next(self):
+        if not self.queue:
+            return
+        heroes, quest_id, result = self.queue.popleft()
+        
+        # monta diálogos normalmente
         if result == "start":
             self.dialogues = self.dm.show_start_dialogues(heroes, quest_id)
         else:
-            if quest_id is None:
-                raise ValueError("quest_id deve ser fornecido para diálogos de resultado.")
             self.dialogues = self.dm.show_quest_dialogue(heroes, quest_id, result)
+        if not self.dialogues:
+            self.dialogues = ["..."]
 
-        # Fallback se não houver diálogos
-        if not self.dialogues or not isinstance(self.dialogues, list):
-            self.dialogues = ["Os heróis se preparam para a jornada..."]
-
+        self.heroes = heroes
         self.current_index = 0
         self.char_index = 0
         self._open_popup()
@@ -128,6 +127,8 @@ class DialogueBox:
     def _show_current_line(self):
         if self.current_index >= len(self.dialogues):
             self.popup.dismiss()
+            self.popup = None
+            Clock.schedule_once(lambda dt: self._process_next(), 0)  # chama próximo
             return
 
         line = self.dialogues[self.current_index]

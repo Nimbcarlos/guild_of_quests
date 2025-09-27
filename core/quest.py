@@ -15,8 +15,8 @@ class Quest:
         rewards: Dict[str, int],
         required_quests: List[str],
         required_fail_quests: List[str],
+        required_heroes = List[str],
         available_since_turn = None, # << NOVO CAMPO: Quando ela se tornou disponível
-
     ):
         self.id = id
         self.name = name
@@ -28,6 +28,7 @@ class Quest:
         self.rewards = rewards
         self.required_quests = required_quests
         self.required_fail_quests = required_fail_quests
+        self.required_heroes = required_heroes or []
         self.available_since_turn = available_since_turn # << NOVO CAMPO: Quando ela se tornou disponível
 
         # Novo: turnos restantes
@@ -46,6 +47,7 @@ class Quest:
             f"Recompensas: {self.rewards}\n"
             f"Pré-requisitos: {', '.join(self.required_quests) if self.required_quests else 'Nenhum'}"
             f"Failed Quests: {', '.join(self.required_fail_quests) if self.required_fail_quests else 'Nenhum'}"
+            f"Required Heroes: {', '.join(self.required_heroes) if self.required_heroes else 'Nenhum'}"
             f"Iniciada no turno: {self.available_since_turn}"
         )
 

@@ -1,17 +1,18 @@
 [
   {
     "id": 1,
-    "name": "Procura na Floresta Sombria",
-    "description": "Uma criatura estranha tem assustado os viajantes na Floresta Sombria. Encontre-a e a elimine.",
-    "type": "Scout",
+    "name": "O Slime do Poço",
+    "description": "Um slime surgiu dentro do poço da vila e contaminou a água. Desça até lá e acabe com essa gosma antes que todos adoeçam.",
+    "type": "Fight",
     "recommendedLevel": 1,
-    "duration": 5,
+    "duration": 4,
     "difficulty": 0.2,
     "rewards": {
-      "xp": 100
+      "xp": 120
     },
     "required_quests": [],
-    "required_fail_quests": []
+    "required_fail_quests": [],
+    "required_heroes": []
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
       "xp": 120
     },
     "required_quests": [],
-    "required_fail_quests": []
+    "required_fail_quests": [],
+    "required_heroes": []
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@
       "xp": 80
     },
     "required_quests": [2],
-    "required_fail_quests": []
+    "required_fail_quests": [],
+    "required_heroes": []
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@
       "xp": 110
     },
     "required_quests": [3],
-    "required_fail_quests": []
+    "required_fail_quests": [],
+    "required_heroes": []
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@
       "xp": 150
     },
     "required_quests": [1],
-    "required_fail_quests": []
+    "required_fail_quests": [],
+    "required_heroes": []
   },
   {
     "id": 6,
@@ -81,7 +86,8 @@
       "xp": 130
     },
     "required_quests": [4],
-    "required_fail_quests": []
+    "required_fail_quests": [],
+    "required_heroes": []
   },
   {
     "id": 7,
@@ -95,7 +101,8 @@
       "xp": 140
     },
     "required_quests": [5],
-    "required_fail_quests": []
+    "required_fail_quests": [],
+    "required_heroes": []
   },
   {
     "id": 8,
@@ -109,7 +116,8 @@
       "xp": 160
     },
     "required_quests": [6],
-    "required_fail_quests": []
+    "required_fail_quests": [],
+    "required_heroes": []
   },
   {
     "id": 9,
@@ -123,7 +131,8 @@
       "xp": 150
     },
     "required_quests": [7],
-    "required_fail_quests": []
+    "required_fail_quests": [],
+    "required_heroes": []
   },
   {
     "id": 10,
@@ -137,7 +146,8 @@
       "xp": 180
     },
     "required_quests": [5],
-    "required_fail_quests": []
+    "required_fail_quests": [],
+    "required_heroes": []
   },
   {
     "id": 11,
@@ -151,7 +161,8 @@
       "xp": 170
     },
     "required_quests": [8],
-    "required_fail_quests": []
+    "required_fail_quests": [],
+    "required_heroes": []
     },
     {
     "id": 12,
@@ -165,7 +176,8 @@
       "xp": 150
     },
     "required_quests": [9],
-    "required_fail_quests": []
+    "required_fail_quests": [],
+    "required_heroes": []
   },
   {
     "id": 13,
@@ -179,7 +191,8 @@
       "xp": 150
     },
     "required_quests": [10],
-    "required_fail_quests": []
+    "required_fail_quests": [],
+    "required_heroes": []
   },
   {
     "id": 14,
@@ -193,7 +206,8 @@
       "xp": 200
     },
     "required_quests": [11],
-    "required_fail_quests": []
+    "required_fail_quests": [],
+    "required_heroes": []
   },
   {
     "id": 15,
@@ -207,7 +221,8 @@
       "xp": 200
     },
     "required_quests": [2],
-    "required_fail_quests": []
+    "required_fail_quests": [],
+    "required_heroes": []
   },
   {
     "id": 16,
@@ -221,6 +236,67 @@
       "xp": 200
     },
     "required_quests": [2],
-    "required_fail_quests": []
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 17,
+    "name": "Procura na Floresta Sombria",
+    "description": "Uma criatura estranha tem assustado os viajantes na Floresta Sombria. Encontre-a e a elimine.",
+    "type": "Scout",
+    "recommendedLevel": 1,
+    "duration": 5,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 100
+    },
+    "required_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+    {
+    "id": 18,
+    "name": "Gosmas no Milharal",
+    "description": "Fazendeiros pedem ajuda: pequenos slimes estão devorando o milharal. São lentos, mas em grande número. Preciso que você limpe o campo.",
+    "type": "Fight",
+    "recommendedLevel": 1,
+    "duration": 4,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 120
+    },
+    "required_quests": [1],
+    "required_fail_quests": [],
+    "required_heroes": [1]
+  },
+    {
+    "id": 19,
+    "name": "O Slime Dividido",
+    "description": "Batedores relatam criaturas que, ao serem golpeadas, se multiplicam em duas. Não podemos deixar que tomem conta da floresta. Dê um fim nelas.",
+    "type": "Fight",
+    "recommendedLevel": 1,
+    "duration": 4,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 120
+    },
+    "required_quests": [1],
+    "required_fail_quests": [],
+    "required_heroes": [2]
+  },
+    {
+    "id": 20,
+    "name": "O Slime Ácido",
+    "description": "Um viajante foi atacado por um slime que corrói metal e couro. Se esse tipo se espalhar, ninguém estará seguro. Investigue e destrua-o.",
+    "type": "Fight",
+    "recommendedLevel": 1,
+    "duration": 4,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 120
+    },
+    "required_quests": [1],
+    "required_fail_quests": [],
+    "required_heroes": [3]
   }
 ]

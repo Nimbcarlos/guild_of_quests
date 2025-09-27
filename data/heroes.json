@@ -28,7 +28,7 @@
     "story": "Elara cresceu nas vielas de uma cidade onde a desonestidade era a regra. Mas, para ela, a verdade era um princípio inegociável. Sua mãe, doente e precisando de cuidados que a honestidade de Elara mal conseguia sustentar, foi a principal razão de suas ações. Elara usava seus talentos de ladina—suas mãos ágeis e sua capacidade de se mover sem ser notada—não para roubar, mas para realizar trabalhos honestos, como encontrar itens perdidos ou mapear áreas perigosas, que pagavam o suficiente para manter sua mãe confortável.",
     "photo_url": "assets/img/Elara.png",
     "photo_body_url": "assets/img/elarafullbody.png",
-    "unlock_by_quest": [2],
+    "unlock_by_quest": [],
     "growth_curve": {
       "1": { "strength": 1, "dexterity": 2, "intelligence": 1, "constitution": 1, "charisma": 1 },
       "2": { "strength": 1, "dexterity": 3, "intelligence": 1, "constitution": 1, "charisma": 1 },
@@ -47,7 +47,7 @@
     "story": "Kael sempre ouviu vozes. Desde criança, os sussurros da cidade, os risos estrondosos de seres invisíveis e as conversas de criaturas que dançavam nos cantos de sua visão eram sua única companhia. Enquanto outros meninos brincavam, Kael se encolhia, tentando decifrar as palavras que só ele ouvia. Para o mundo, ele era apenas estranho e distante. Mas para Kael, aquelas vozes eram os ecos da divindade, o caótico coral do universo que o chamava para uma vida de fé.",
     "photo_url": "assets/img/Kael.png",
     "photo_body_url": "assets/img/kaelfullbody.png",
-    "unlock_by_quest": [3],
+    "unlock_by_quest": [1],
     "growth_curve": {
       "1": { "strength": 1, "dexterity": 1, "intelligence": 2, "constitution": 1, "charisma": 1 },
       "2": { "strength": 1, "dexterity": 1, "intelligence": 3, "constitution": 1, "charisma": 1 },
