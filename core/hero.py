@@ -35,6 +35,7 @@ class Hero:
         defects: List[str],
         story: str,
         photo_url: str,
+        photo_body_url: str,
         unlock_by_quest: None,
         growth_curve: Dict[str, Dict[str, int]],
         starter: bool = False,
@@ -48,6 +49,7 @@ class Hero:
         self.defects = defects
         self.story = story
         self.photo_url = photo_url
+        self.photo_body_url = photo_body_url
         self.unlock_by_quest = unlock_by_quest or []
         self.growth_curve = growth_curve  # stats absolutos por nível (chaves string)
         self.starter = starter

@@ -325,25 +325,15 @@ class GameplayScreen(Screen):
 
         # Retrato
         portrait = Image(
-            source=getattr(hero, "photo_url", "assets/ui/default_hero.png"),
-            size_hint=(None, None),
-            size=(120, 120),
+            source=getattr(hero, "photo_body_url", "assets/ui/default_hero.png"),
+            size_hint=(None, 1),   # altura acompanha o pai, largura é manual
             allow_stretch=True,
-            keep_ratio=True
+            keep_ratio=True        # mantém proporção
         )
         content.add_widget(portrait)
 
         # Coluna de infos
         info_box = BoxLayout(orientation="vertical", spacing=5)
-
-        info_box.add_widget(Label(
-            text=f"[b]{hero.name}[/b]",
-            markup=True,
-            font_size=20,
-            color=(0, 0, 0, 1),
-            size_hint_y=None,
-            height=30
-        ))
 
         info_box.add_widget(Label(
             text=f"Classe: {getattr(hero, 'hero_class', 'Desconhecida')}",
@@ -381,15 +371,19 @@ class GameplayScreen(Screen):
             )
             story_label.bind(texture_size=lambda inst, val: setattr(story_label, "height", val[1]))
 
-            scroll = ScrollView(size_hint=(1, 0.4))
+            scroll = ScrollView(size_hint=(1, 0.6))
             scroll.add_widget(story_label)
             info_box.add_widget(scroll)
 
         content.add_widget(info_box)
 
         popup = Popup(
-            title="📜 Detalhes do Herói",
+            title=hero.name,
             content=content,
+            title_align='center',
+            title_size=28,
+            title_color=(0, 0, 0, 1),
+            separator_color=(0, 0, 0, 1),
             background="assets/background.png",
             size_hint=(0.6, 0.7),  # aumentei pra caber a história
             auto_dismiss=True
