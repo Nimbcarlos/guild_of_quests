@@ -1,0 +1,4 @@
+# --- Saves do jogo ---
+saves/
+*.save
+*.sav
