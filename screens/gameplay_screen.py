@@ -397,18 +397,95 @@ class GameplayScreen(Screen):
             self.qm._log("⚠️ Nenhum herói selecionado para esta missão.")
             return
 
-        # Pega os heróis selecionados
+        # Pega os objetos dos heróis selecionados
         heroes = [self.qm.get_hero(hid) for hid in hero_ids if self.qm.get_hero(hid)]
 
-        # 🔹 Mostra diálogo inicial antes de enviar
+        # 🔹 Mostra diálogo inicial antes de enviar (usa o DialogueBox)
+        # use "start" para disparar o fluxo adequado dentro do DialogueBox/DialogueManager
         if heroes:
-            self.dialog_box.get_start_dialogues(heroes, self.qm.completed_quests)
+            try:
+                # DialogueBox.show_dialogue trata result == "start" como diálogo inicial
+                self.dialog_box.show_dialogue(heroes, quest.id, "start")
+            except Exception as e:
+                # fallback silencioso em caso de algo errado no diálogo
+                print("Erro ao abrir diálogo inicial:", e)
 
         # 🔹 Chama o QuestManager para registrar a missão
         self.qm.send_heroes_on_quest(quest.id, hero_ids)
 
-        # Limpa a seleção dessa quest
+        # 🔹 Limpa a seleção dessa quest (já enviada)
         self.pending_assignments.pop(quest.id, None)
+
+        # 🔹 Limpa/atualiza a UI relacionada (painel de detalhes, sidebar, turnbar)
+        # limpar o painel de detalhes é importante para não mostrar controles obsoletos
+        try:
+            self.ids.quest_details.clear_widgets()
+        except Exception:
+            # se o id não existir ou erro qualquer, apenas passa
+            pass
+
+        # Atualiza as listas (active/available/completed) e o contador de turno
+        self.update_sidebar()
+        self.turn_bar()
+
+        # Fecha popups/diálogos abertos do DialogueBox, se desejar
+        # (não fecha o diálogo inicial que acabamos de abrir — a menos que queira)
+        # self.clear_ui()  # opcional — descomente se quiser fechar tudo aqui
+
+
+    def clear_ui(self):
+        """Limpeza geral da UI do gameplay (fechar popups, limpar painéis, limpar seleção)."""
+
+        # 1) Limpa painel de detalhes (onde ficou a lista de heróis)
+        try:
+            if "quest_details" in self.ids:
+                self.ids.quest_details.clear_widgets()
+        except Exception:
+            pass
+
+        # 2) Limpa seleção pendente (todas)
+        try:
+            self.pending_assignments = {}
+        except Exception:
+            self.pending_assignments = {}
+
+        # 3) Fecha popups que a tela pode ter criado
+        # popup de pausa / save
+        for attr in ("pause_popup", "save_popup", "current_popup"):
+            popup = getattr(self, attr, None)
+            if popup:
+                try:
+                    popup.dismiss()
+                except Exception:
+                    pass
+                try:
+                    setattr(self, attr, None)
+                except Exception:
+                    pass
+
+        # 4) Fecha popup do DialogueBox (se aberto) — só se você quiser forçar fechar
+        try:
+            if getattr(self, "dialog_box", None) and getattr(self.dialog_box, "popup", None):
+                try:
+                    self.dialog_box.popup.dismiss()
+                except Exception:
+                    pass
+                self.dialog_box.popup = None
+        except Exception:
+            pass
+
+        # 5) Atualiza sidebar / turn_bar para refletir o estado atual (ex.: nova active_quests)
+        try:
+            self.update_sidebar()
+        except Exception:
+            pass
+        try:
+            self.turn_bar()
+        except Exception:
+            pass
+
+        # debug
+        print("🧹 GameplayScreen: UI limpa (clear_ui).")
 
     def update_success_label(self, quest):
         """Atualiza a taxa de sucesso no label quando heróis são selecionados."""

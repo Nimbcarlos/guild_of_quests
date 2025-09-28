@@ -5,6 +5,7 @@
     "description": "Um slime surgiu dentro do poço da vila e contaminou a água. Desça até lá e acabe com essa gosma antes que todos adoeçam.",
     "type": "Fight",
     "recommendedLevel": 1,
+    "available_from_turn": 1,
     "duration": 4,
     "difficulty": 0.2,
     "rewards": {
@@ -20,6 +21,7 @@
     "description": "Goblins têm atacado as vilas próximas. Elimine-os antes que causem mais problemas.",
     "type": "Fight",
     "recommendedLevel": 1,
+    "available_from_turn": 2,
     "duration": 4,
     "difficulty": 0.2,
     "rewards": {
@@ -35,6 +37,7 @@
     "description": "Ratos gigantes invadiram o celeiro do vilarejo. Acabe com eles antes que destruam os alimentos.",
     "type": "Fight",
     "recommendedLevel": 1,
+    "available_from_turn": 1,
     "duration": 3,
     "difficulty": 0.2,
     "rewards": {
@@ -50,6 +53,7 @@
     "description": "Um lobo feroz tem atacado os pastores. Encontre-o e o elimine.",
     "type": "Fight",
     "recommendedLevel": 1,
+    "available_from_turn": 1,
     "duration": 4,
     "difficulty":  0.2,
     "rewards": {
@@ -65,6 +69,7 @@
     "description": "Um pequeno bando de bandidos tem ameaçado a estrada principal. Intercepte-os e acabe com a ameaça.",
     "type": "Fight",
     "recommendedLevel": 2,
+    "available_from_turn": 1,
     "duration": 5,
     "difficulty":  0.2,
     "rewards": {
@@ -80,6 +85,7 @@
     "description": "Insetos gigantes infestaram os campos de cultivo. Elimine-os para proteger a colheita.",
     "type": "Fight",
     "recommendedLevel": 2,
+    "available_from_turn": 1,
     "duration": 4,
     "difficulty":  0.2,
     "rewards": {
@@ -95,6 +101,7 @@
     "description": "Um grupo de ladrões tem atacado comerciantes à noite. Encontre-os e neutralize a ameaça.",
     "type": "Fight",
     "recommendedLevel": 2,
+    "available_from_turn": 1,
     "duration": 5,
     "difficulty":  0.2,
     "rewards": {
@@ -110,6 +117,7 @@
     "description": "Um crocodilo gigante está ameaçando os pescadores do lago. Derrote-o antes que cause mais estragos.",
     "type": "Fight",
     "recommendedLevel": 2,
+    "available_from_turn": 1,
     "duration": 6,
     "difficulty":  0.2,
     "rewards": {
@@ -125,6 +133,7 @@
     "description": "Kobolds estão saqueando as minas locais. Enfrente-os e restaure a segurança na região.",
     "type": "Fight",
     "recommendedLevel": 2,
+    "available_from_turn": 1,
     "duration": 5,
     "difficulty":  0.2,
     "rewards": {
@@ -140,6 +149,7 @@
     "description": "Alguns mercenários caíram na corrupção e atacam inocentes. Derrote-os antes que o caos se espalhe.",
     "type": "Fight",
     "recommendedLevel": 3,
+    "available_from_turn": 1,
     "duration": 6,
     "difficulty":  0.2,
     "rewards": {
@@ -155,6 +165,7 @@
     "description": "Uma aranha gigante bloqueia a passagem da caverna. Elimine a criatura para que os viajantes possam passar.",
     "type": "Fight",
     "recommendedLevel": 3,
+    "available_from_turn": 1,
     "duration": 6,
     "difficulty":  0.2,
     "rewards": {
@@ -170,6 +181,7 @@
     "description": "Escolte um grupo de mineiros até a mina.",
     "type": "Fight",
     "recommendedLevel": 2,
+    "available_from_turn": 1,
     "duration": 5,
     "difficulty": 0.25,
     "rewards": {
@@ -185,6 +197,7 @@
     "description": "Uma tribo de goblins se instalou na Montanha Negra. Limpe o acampamento e retorne em segurança.",
     "type": "Fight",
     "recommendedLevel": 1,
+    "available_from_turn": 1,
     "duration": 5,
     "difficulty":  0.2,
     "rewards": {
@@ -200,6 +213,7 @@
     "description": "O Rei precisa de um mensageiro para um acordo de paz. Traga a notícia de volta para o reino.",
     "type": "Social",
     "recommendedLevel": 1,
+    "available_from_turn": 1,
     "duration": 5,
     "difficulty":  0.2,
     "rewards": {
@@ -215,6 +229,7 @@
     "description": "Um vilarejo perto da mina precisa de ajuda. Ajudar os moradores pode render uma boa recompensa.",
     "type": "Social",
     "recommendedLevel": 3,
+    "available_from_turn": 1,
     "duration": 5,
     "difficulty":  0.2,
     "rewards": {
@@ -230,6 +245,7 @@
     "description": "A mina guarda segredos valiosos. Investigue a mina e encontre o que o Rei tanto busca.",
     "type": "Scout",
     "recommendedLevel": 3,
+    "available_from_turn": 1,
     "duration": 5,
     "difficulty":  0.2,
     "rewards": {
@@ -245,6 +261,7 @@
     "description": "Uma criatura estranha tem assustado os viajantes na Floresta Sombria. Encontre-a e a elimine.",
     "type": "Scout",
     "recommendedLevel": 1,
+    "available_from_turn": 1,
     "duration": 5,
     "difficulty": 0.2,
     "rewards": {
@@ -260,6 +277,7 @@
     "description": "Fazendeiros pedem ajuda: pequenos slimes estão devorando o milharal. São lentos, mas em grande número. Preciso que você limpe o campo.",
     "type": "Fight",
     "recommendedLevel": 1,
+    "available_from_turn": 1,
     "duration": 4,
     "difficulty": 0.2,
     "rewards": {
@@ -275,6 +293,7 @@
     "description": "Batedores relatam criaturas que, ao serem golpeadas, se multiplicam em duas. Não podemos deixar que tomem conta da floresta. Dê um fim nelas.",
     "type": "Fight",
     "recommendedLevel": 1,
+    "available_from_turn": 1,
     "duration": 4,
     "difficulty": 0.2,
     "rewards": {
@@ -290,6 +309,7 @@
     "description": "Um viajante foi atacado por um slime que corrói metal e couro. Se esse tipo se espalhar, ninguém estará seguro. Investigue e destrua-o.",
     "type": "Fight",
     "recommendedLevel": 1,
+    "available_from_turn": 1,
     "duration": 4,
     "difficulty": 0.2,
     "rewards": {

@@ -1,11 +1,14 @@
 {
     "current_turn": 5,
-    "completed_quests": [
-        1
-    ],
-    "failed_quests": [
-        2
-    ],
+    "completed_quests": {
+        "1": [
+            1
+        ],
+        "2": [
+            2
+        ]
+    },
+    "failed_quests": [],
     "unlocked_heroes": [
         1,
         2
@@ -20,7 +23,7 @@
         {
             "id": 2,
             "name": "Elara",
-            "xp": 0,
+            "xp": 120,
             "status": "idle"
         },
         {
@@ -39,7 +42,7 @@
             "available_since_turn": 1
         },
         "3": {
-            "available_since_turn": null
+            "available_since_turn": 5
         },
         "4": {
             "available_since_turn": null
@@ -75,10 +78,10 @@
             "available_since_turn": null
         },
         "15": {
-            "available_since_turn": null
+            "available_since_turn": 5
         },
         "16": {
-            "available_since_turn": null
+            "available_since_turn": 5
         },
         "17": {
             "available_since_turn": 1
@@ -87,7 +90,7 @@
             "available_since_turn": 5
         },
         "19": {
-            "available_since_turn": 5
+            "available_since_turn": null
         },
         "20": {
             "available_since_turn": null

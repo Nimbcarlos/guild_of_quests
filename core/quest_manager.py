@@ -10,6 +10,7 @@ from core.quest_requirements import (
     check_min_hero_level,
     check_not_active,
     check_expired_quests,
+    check_available_turn,
 )
 
 
@@ -23,6 +24,7 @@ class QuestManager:
             check_min_hero_level,
             check_not_active,
             check_expired_quests,
+            check_available_turn,
             # adicionar outros futuramente
         ]
 
@@ -121,6 +123,10 @@ class QuestManager:
         if result in ["Sucesso", "Crítico"]:
             xp_reward = quest.rewards.get("xp", 0)
 
+            # Garante que a quest existe no dict
+            if quest.id not in self.completed_quests:
+                self.completed_quests[quest.id] = set()
+
             for hero in heroes:
                 hero.add_xp(xp_reward)
                 self._log(f"✅ {hero.name} ganhou {xp_reward} XP!")
@@ -136,7 +142,9 @@ class QuestManager:
         save_game(self, self.save_file)
 
         # Mostra resumo
-        self._log(f"Quest {quest.name}: Resultado {result}")
+        self._log(f"📜 Quest: {quest.name}")
+        self._log(f"🎯 Chance de sucesso: {success_chance:.0%}")
+        self._log(f"🎲 Resultado: {result}")
 
         # Reseta status dos heróis
         for hero in heroes:
@@ -145,6 +153,7 @@ class QuestManager:
         # Callback de diálogo
         if self.dialog_callback:
             self.dialog_callback(heroes, quest.id, result)
+
 
     # -------------------- Quests Disponíveis --------------------
     def available_quests(self):

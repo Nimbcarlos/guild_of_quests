@@ -1,3 +1,14 @@
+def check_available_turn(quest, manager) -> bool:
+    """
+    Verifica se a quest já está disponível de acordo com o turno atual.
+    Se quest.available_from_turn não estiver definido, considera sempre disponível.
+    """
+    available_from_turn = getattr(quest, "available_from_turn", None)
+    if available_from_turn is None:
+        return True
+    return manager.current_turn >= available_from_turn
+
+
 def check_required_quests(quest, manager) -> bool:
     """
     Verifica se todas as quests obrigatórias foram concluídas,
@@ -13,8 +24,8 @@ def check_required_quests(quest, manager) -> bool:
     # --- Heróis obrigatórios ---
     required_heroes = getattr(quest, "required_heroes", [])
     if required_heroes:
-        for req in quest.required_quests:
-            completed_by = manager.completed_quests.get(req, [])
+        for req in required_ids:
+            completed_by = manager.completed_quests.get(req, set())
             # Checa se pelo menos 1 dos required_heroes participou
             if not any(hid in completed_by for hid in required_heroes):
                 return False

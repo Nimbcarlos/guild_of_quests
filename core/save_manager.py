@@ -18,6 +18,12 @@ def save_game(manager, filename):
             "heroes": [h.id for h in qdata.get("heroes", [])],
         }
 
+    # Serializa quests concluídas com os heróis que participaram
+    completed_quests_save = {
+        str(qid): list(hids)
+        for qid, hids in getattr(manager, "completed_quests", {}).items()
+    }
+
     # Serializa quests (para guardar available_since_turn)
     quests_save = {
         str(q.id): {
@@ -28,7 +34,7 @@ def save_game(manager, filename):
 
     data = {
         "current_turn": int(getattr(manager, "current_turn", 0)),
-        "completed_quests": list(manager.completed_quests),
+        "completed_quests": completed_quests_save,
         "failed_quests": list(manager.failed_quests),
         "unlocked_heroes": list(manager.hero_manager.unlocked_heroes),
         "heroes": [
@@ -69,7 +75,13 @@ def load_game(manager, filename):
         except Exception:
             return x
 
-    manager.completed_quests = set(_to_int_if_possible(x) for x in data.get("completed_quests", []))
+    # Carrega quests concluídas (dict quest_id -> set de heróis)
+    raw_completed = data.get("completed_quests", {})
+    manager.completed_quests = {
+        _to_int_if_possible(qid): set(_to_int_if_possible(h) for h in hlist)
+        for qid, hlist in raw_completed.items()
+    }
+
     manager.failed_quests = set(_to_int_if_possible(x) for x in data.get("failed_quests", []))
     manager.hero_manager.unlocked_heroes = set(_to_int_if_possible(x) for x in data.get("unlocked_heroes", []))
 

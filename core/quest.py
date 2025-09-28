@@ -10,6 +10,7 @@ class Quest:
         description: str,
         type: str,
         recommendedLevel: int,
+        available_from_turn: int,  # <<< novo campo
         duration: int,
         difficulty: int,
         rewards: Dict[str, int],
@@ -23,6 +24,7 @@ class Quest:
         self.description = description
         self.type = type
         self.recommended_level = recommendedLevel
+        self.available_from_turn = available_from_turn  # <<< novo campo
         self.duration = duration
         self.difficulty = difficulty
         self.rewards = rewards
