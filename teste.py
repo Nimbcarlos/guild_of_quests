@@ -20,7 +20,10 @@ class MyApp(App):
 
         # Adiciona um outro widget de exemplo para preencher o restante da janela
         # (pode ser outro Label, Button, etc.)
-        layout_principal.add_widget(Label(text='Conteúdo abaixo do título'))
+        layout_principal.add_widget(Label(
+            text='Conteúdo abaixo do título',
+            valign="top")
+            )
 
         return layout_principal
 

@@ -1,0 +1,210 @@
+{
+  "turn_label": {
+    "pt": "Turno: {turn}",
+    "en": "Turn: {turn}",
+    "es": "Turno: {turn}",
+    "ru": "Ход: {turn}",
+    "zh": "回合：{turn}",
+    "ja": "ターン：{turn}"
+  },
+  "advance_turn_btn": {
+    "pt": "⏩ Avançar Turno",
+    "en": "⏩ Next Turn",
+    "es": "⏩ Avanzar Turno",
+    "ru": "⏩ Следующий ход",
+    "zh": "⏩ 前进回合",
+    "ja": "⏩ ターン進める"
+  },
+  "turns_remaining": {
+    "pt": "{n} turnos restantes",
+    "en": "{n} turns remaining",
+    "es": "{n} turnos restantes",
+    "ru": "Осталось ходов: {n}",
+    "zh": "剩余回合：{n}",
+    "ja": "残りターン：{n}"
+  },
+  "success_rate": {
+    "pt": "Taxa de sucesso: {pct}%",
+    "en": "Success rate: {pct}%",
+    "es": "Probabilidad de éxito: {pct}%",
+    "ru": "Шанс успеха: {pct}%",
+    "zh": "成功率：{pct}%",
+    "ja": "成功率：{pct}%"
+  },
+  "available_heroes": {
+    "pt": "Heróis disponíveis:",
+    "en": "Available heroes:",
+    "es": "Héroes disponibles:",
+    "ru": "Доступные герои:",
+    "zh": "可用英雄：",
+    "ja": "利用可能な英雄："
+  },
+  "send_to_quest_btn": {
+    "pt": "Enviar para a Quest",
+    "en": "Send to Quest",
+    "es": "Enviar a la misión",
+    "ru": "Отправить на задание",
+    "zh": "派遣到任务",
+    "ja": "クエストへ送る"
+  },
+  "select": {
+    "pt": "Selecionar",
+    "en": "Select",
+    "es": "Seleccionar",
+    "ru": "Выбрать",
+    "zh": "选择",
+    "ja": "選択"
+  },
+  "class": {
+    "pt": "Classe",
+    "en": "Class",
+    "es": "Clase",
+    "ru": "Класс",
+    "zh": "职业",
+    "ja": "クラス"
+  },
+  "lvl_prefix": {
+    "pt": "Nível",
+    "en": "Lvl",
+    "es": "Nv",
+    "ru": "Уров.",
+    "zh": "等级",
+    "ja": "レベル"
+  },
+  "type_label": {
+    "pt": "Tipo",
+    "en": "Type",
+    "es": "Tipo",
+    "ru": "Тип",
+    "zh": "类型",
+    "ja": "タイプ"
+  },
+  "difficulty_label": {
+    "pt": "Dificuldade",
+    "en": "Difficulty",
+    "es": "Dificultad",
+    "ru": "Сложность",
+    "zh": "难度",
+    "ja": "難易度"
+  },
+  "save_game": {
+    "pt": "💾 Salvar Jogo",
+    "en": "💾 Save Game",
+    "es": "💾 Guardar partida",
+    "ru": "💾 Сохранить игру",
+    "zh": "💾 保存游戏",
+    "ja": "💾 ゲームを保存"
+  },
+  "load_game": {
+    "pt": "📂 Carregar Jogo",
+    "en": "📂 Load Game",
+    "es": "📂 Cargar partida",
+    "ru": "📂 Загрузить игру",
+    "zh": "📂 载入游戏",
+    "ja": "📂 ゲームを読み込む"
+  },
+  "back_to_menu": {
+    "pt": "↩️ Voltar ao Menu",
+    "en": "↩️ Back to Menu",
+    "es": "↩️ Volver al menú",
+    "ru": "↩️ Вернуться в меню",
+    "zh": "↩️ 返回菜单",
+    "ja": "↩️ メニューに戻る"
+  },
+  "quit_game": {
+    "pt": "❌ Fechar Jogo",
+    "en": "❌ Quit Game",
+    "es": "❌ Cerrar juego",
+    "ru": "❌ Выйти из игры",
+    "zh": "❌ 退出游戏",
+    "ja": "❌ ゲームを終了"
+  },
+  "pause_menu_title": {
+    "pt": "⏸ Menu de Pausa",
+    "en": "⏸ Pause Menu",
+    "es": "⏸ Menú de pausa",
+    "ru": "⏸ Меню паузы",
+    "zh": "⏸ 暂停菜单",
+    "ja": "⏸ ポーズメニュー"
+  },
+  "save_name_hint": {
+    "pt": "Nome do save (letras e números)",
+    "en": "Save name (letters and numbers)",
+    "es": "Nombre del guardado (letras y números)",
+    "ru": "Имя сохранения (буквы и цифры)",
+    "zh": "存档名（字母和数字）",
+    "ja": "セーブ名（英数字）"
+  },
+  "save": {
+    "pt": "Salvar",
+    "en": "Save",
+    "es": "Guardar",
+    "ru": "Сохранить",
+    "zh": "保存",
+    "ja": "保存"
+  },
+  "cancel": {
+    "pt": "Cancelar",
+    "en": "Cancel",
+    "es": "Cancelar",
+    "ru": "Отмена",
+    "zh": "取消",
+    "ja": "キャンセル"
+  },
+  "no_hero_selected": {
+    "pt": "⚠️ Nenhum herói selecionado para esta missão.",
+    "en": "⚠️ No hero selected for this mission.",
+    "es": "⚠️ Ningún héroe seleccionado para esta misión.",
+    "ru": "⚠️ Ни один герой не выбран для этой миссии.",
+    "zh": "⚠️ 尚未选择任何英雄执行此任务。",
+    "ja": "⚠️ このミッションに選択された英雄がいません。"
+  },
+  "invalid_name": {
+    "pt": "⚠️ Nome inválido! Use apenas letras, números ou _.",
+    "en": "⚠️ Invalid name! Use only letters, numbers or _.",
+    "es": "⚠️ Nombre inválido. Use solo letras, números o _.",
+    "ru": "⚠️ Неправильное имя! Используйте только буквы, цифры или _.",
+    "zh": "⚠️ 名称无效！仅允许字母、数字或下划线。",
+    "ja": "⚠️ 無効な名前です。英数字と_のみ使用してください。"
+  },
+  "turn_advanced": {
+    "pt": "⏩ Turno {turn} avançado.",
+    "en": "⏩ Turn {turn} advanced.",
+    "es": "⏩ Turno {turn} avanzado.",
+    "ru": "⏩ Ход {turn} продвинут.",
+    "zh": "⏩ 第 {turn} 回合已前进。",
+    "ja": "⏩ ターン {turn} が進みました。"
+  },
+  "active_quests": {
+    "pt": "Ativas",
+    "en": "Active",
+    "es": "Activas",
+    "ru": "Активные",
+    "zh": "进行中",
+    "ja": "アクティブ"
+  },
+  "available_quests": {
+    "pt": "Disponíveis",
+    "en": "Available",
+    "es": "Disponibles",
+    "ru": "Доступные",
+    "zh": "可接任务",
+    "ja": "入手可能"
+  },
+  "completed_quests": {
+    "pt": "Completas",
+    "en": "Completed",
+    "es": "Completadas",
+    "ru": "Завершенные",
+    "zh": "已完成",
+    "ja": "完了"
+  },
+  "mission_log": {
+    "pt": "Registro de Missões",
+    "en": "Mission Log",
+    "es": "Registro de Misiones",
+    "ru": "Журнал заданий",
+    "zh": "任务日志",
+    "ja": "ミッションログ"
+  }
+}

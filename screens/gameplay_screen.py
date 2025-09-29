@@ -5,6 +5,7 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.scrollview import ScrollView
 from kivy.uix.popup import Popup
 from kivy.uix.image import Image
+from kivy.properties import StringProperty
 from functools import partial
 from core.quest_manager import QuestManager
 from core.quest_success_calculator import calculate_success_chance
@@ -15,12 +16,18 @@ from screens.dialog_box import DialogueBox
 from kivy.uix.textinput import TextInput
 import re
 from core.dialogue_manager import DialogueManager
+from core.language_manager import LanguageManager
 
 
 class GameplayScreen(Screen):
+    active_quests_label = StringProperty()
+    available_quests_label = StringProperty()
+    completed_quests_label = StringProperty()
+
     def on_enter(self):
         # cria/pega o QuestManager central
         self.qm = self.manager.quest_manager  
+        self.lm = LanguageManager()
 
         # garante que o atributo exista (evita AttributeError)
         self.pause_popup = None
@@ -33,6 +40,10 @@ class GameplayScreen(Screen):
         self.qm.set_dialog_callback(self.open_dialog)
         self.qm.set_ui_callback(self.update_ui)
         
+        self.active_quests_label = self.lm.t("active_quests")
+        self.available_quests_label = self.lm.t("available_quests")
+        self.completed_quests_label = self.lm.t("completed_quests")
+
         self.update_sidebar()
         self.turn_bar()
 
@@ -75,10 +86,10 @@ class GameplayScreen(Screen):
         turn_widget = self.ids.turn_log
         turn_widget.clear_widgets()
 
-        # Mostra o contador de turnos
+        turn_label_text = self.lm.t("turn_label").format(turn=self.qm.current_turn)
         turn_widget.add_widget(
             Label(
-                text=f"Turno: {self.qm.current_turn}",
+                text=turn_label_text,
                 size_hint_x=0.6,
                 size_hint_y=None,
                 height=10,
@@ -86,10 +97,10 @@ class GameplayScreen(Screen):
             )
         )
 
-        # Botão permanente de avançar turno
+        # Botão permanente de avançar turno (texto traduzido)
         turn_widget.add_widget(
             Button(
-                text="⏩ Avançar Turno",
+                text=self.lm.t("advance_turn_btn"),
                 size_hint_x=0.4,
                 size_hint_y=None,
                 height=40,
@@ -101,21 +112,18 @@ class GameplayScreen(Screen):
         # avança o turno no manager
         self.qm.advance_turn()
 
-        # atualiza o texto do widget fixo
-        if "turn_bar" in self.ids:
-            self.ids.turn_bar.text = f"Turno: {self.qm.current_turn}"
-
-        # opcional: também logar na caixa de mensagens
+        # e se usar o ids.log_box:
         if "log_box" in self.ids:
             self.ids.log_box.add_widget(
                 Label(
-                    text=f"[i]Turno {self.qm.current_turn} avançado.[/i]",
-                    markup=True,
+                    text=self.lm.t("turn_advanced").format(turn=self.qm.current_turn),
+                    markup=False,
                     color=(0, 0, 0, 1),
                     size_hint_y=None,
                     height=20,
                 )
             )
+
         # Atualiza UI que depende do estado do jogo
         self.update_sidebar()
         self.turn_bar()  # atualiza contador do turno
@@ -129,17 +137,37 @@ class GameplayScreen(Screen):
         self.ids.available_quests.clear_widgets()
         self.ids.completed_quests.clear_widgets()
 
+        self.lm.t("mission_log")
+
+    # ... (Seu código para 'available_quests' e 'completed_quests') ...
+
+        # self.ids.active_quests.add_widget(Label(
+        #     text=self.lm.t("active_quests"),
+        #     markup=False,
+        #     color=(0, 0, 0, 1),
+        #     size_hint_y=None,
+        #     height=20,
+        # )
+        # )
         # Ativas
         for quest in qm.get_active_quests():
             self.ids.active_quests.add_widget(
                 Button(
-                    text=f"{quest.name} ({quest.type}) - {quest.remaining_turns} turnos restantes",
+                    text=f'{quest.name} ({quest.type})',
                     size_hint_y=None,
                     height=40,
                     on_release=partial(self.show_quest_details, quest)
                 )
             )
 
+        # self.ids.active_quests.add_widget(Label(
+        #     text=self.lm.t("available_quests"),
+        #     markup=False,
+        #     color=(0, 0, 0, 1),
+        #     size_hint_y=None,
+        #     height=20,
+        # )
+        # )
         # Disponíveis
         for quest in qm.get_available_quests():
             self.ids.available_quests.add_widget(
@@ -150,6 +178,15 @@ class GameplayScreen(Screen):
                     on_release=partial(self.show_quest_details, quest)
                 )
             )
+
+        # self.ids.active_quests.add_widget(Label(
+        #     text=self.lm.t("completed_quests"),
+        #     markup=False,
+        #     color=(0, 0, 0, 1),
+        #     size_hint_y=None,
+        #     height=20,
+        # )
+        # )
 
         # Completas
         for qid in qm.completed_quests:
@@ -169,24 +206,19 @@ class GameplayScreen(Screen):
         container = self.ids.quest_details
         container.clear_widgets()
 
-
         self.qm.hero_manager.check_hero_unlocks(self.qm.completed_quests, self.qm.current_turn)
 
         # Lista os heróis disponíveis
         available_heroes = self.qm.hero_manager.get_available_heroes()
 
-        # Cabeçalho
         container.add_widget(Label(
             text=f"[b]{quest.name}[/b]",
-            markup=True,
-            font_size=24,
-            color=(0, 0, 0, 1),
-            size_hint_y=None,
-            height=30
+            markup=True, font_size=24, color=(0, 0, 0, 1),
+            size_hint_y=None, height=30
         ))
 
         container.add_widget(Label(
-            text=f"Tipo: {quest.type} | Dificuldade: {quest.difficulty}",
+            text=f"{self.lm.t('type_label')}: {quest.type} | {self.lm.t('difficulty_label')}: {quest.difficulty}",
             color=(0, 0, 0, 1),
             size_hint_y=None,
             height=20
@@ -199,18 +231,18 @@ class GameplayScreen(Screen):
             height=60
         ))
 
-        # Taxa de sucesso inicial (nenhum herói escolhido ainda)
+        # Taxa de sucesso
         self.success_label = Label(
-            text="Taxa de sucesso: --%",
+            text=self.lm.t("success_rate").format(pct="--"),
             color=(0, 0, 0, 1),
             size_hint_y=None,
             height=25
         )
         container.add_widget(self.success_label)
 
-        # Lista de heróis
+        # "Heróis disponíveis:"
         container.add_widget(Label(
-            text="Heróis disponíveis:",
+            text=self.lm.t("available_heroes"),
             bold=True,
             color=(0, 0, 0, 1),
             size_hint_y=None,
@@ -239,7 +271,7 @@ class GameplayScreen(Screen):
                     width=50
                 ))
 
-            # Nome
+            # Nome permanece
             row.add_widget(Label(
                 text=hero.name,
                 color=(0, 0, 0, 1),
@@ -247,21 +279,22 @@ class GameplayScreen(Screen):
                 valign="middle"
             ))
 
-            # Classe
+            # Classe (traduz rótulo "Classe")
             row.add_widget(Label(
-                text=f"Classe: {getattr(hero, 'hero_class', 'Desconhecida')}",
+                text=f"{self.lm.t('class')}: {getattr(hero, 'hero_class', 'Unknown')}",
                 color=(0, 0, 0, 1),
                 halign="left",
                 valign="middle"
             ))
 
-            # Level
+            # Level — CORREÇÃO: use o atributo 'level' do hero, não a tradução como nome de atributo
             row.add_widget(Label(
-                text=f"Lvl {getattr(hero, 'level', 1)}",
+                text=f"{self.lm.t('lvl_prefix')} {getattr(hero, 'level', 1)}",
                 color=(0, 0, 0, 1),
                 halign="left",
                 valign="middle"
             ))
+
 
             # Botão de detalhes
             row.add_widget(Button(
@@ -273,7 +306,7 @@ class GameplayScreen(Screen):
 
             # Botão de seleção
             row.add_widget(Button(
-                text="Selecionar",
+                text=self.lm.t('select'),
                 size_hint_x=None,
                 width=120,
                 on_release=lambda *_, h=hero: self.select_hero_for_quest(quest, h)
@@ -287,7 +320,7 @@ class GameplayScreen(Screen):
 
         # Botão enviar
         container.add_widget(Button(
-            text="Enviar para a Quest",
+            text=self.lm.t("send_to_quest_btn"),
             size_hint_y=None,
             height=50,
             on_release=lambda *_: self.start_quest(quest)
@@ -312,7 +345,7 @@ class GameplayScreen(Screen):
         """Confirma e envia os heróis selecionados para a quest."""
         hero_ids = self.pending_assignments.get(quest.id, [])
         if not hero_ids:
-            self.qm._log("⚠️ Nenhum herói selecionado para esta missão.")
+            self.qm._log(self.lm.t("no_hero_selected"))
             return
 
         self.qm.send_heroes_on_quest(quest.id, hero_ids)
@@ -507,24 +540,24 @@ class GameplayScreen(Screen):
 
         content = BoxLayout(orientation="vertical", spacing=10, padding=10)
 
-        btn_save = Button(text="💾 Salvar Jogo", size_hint_y=None, height=48)
+        btn_save = Button(text=self.lm.t("save_game"), size_hint_y=None, height=48)
         btn_save.bind(on_release=self.save_and_close_popup)
         content.add_widget(btn_save)
 
-        btn_load = Button(text="📂 Carregar Jogo", size_hint_y=None, height=48)
+        btn_load = Button(text=self.lm.t("load_game"), size_hint_y=None, height=48)
         btn_load.bind(on_release=self.load_and_close_popup)
         content.add_widget(btn_load)
 
-        btn_menu = Button(text="↩️ Voltar ao Menu", size_hint_y=None, height=48)
+        btn_menu = Button(text=self.lm.t("back_to_menu"), size_hint_y=None, height=48)
         btn_menu.bind(on_release=self.goto_menu)
         content.add_widget(btn_menu)
 
-        btn_quit = Button(text="❌ Fechar Jogo", size_hint_y=None, height=48)
+        btn_quit = Button(text=self.lm.t("quit_game"), size_hint_y=None, height=48)
         btn_quit.bind(on_release=lambda *_: App.get_running_app().stop())
         content.add_widget(btn_quit)
 
         # guarda no self para poder dar .dismiss() depois
-        self.pause_popup = Popup(title="⏸ Menu de Pausa", content=content, size_hint=(0.4, 0.4))
+        self.pause_popup = Popup(title=self.lm.t("pause_menu_title"), content=content, size_hint=(0.4, 0.4))
         self.pause_popup.open()
 
     def save_and_close_popup(self, *args):
@@ -540,7 +573,7 @@ class GameplayScreen(Screen):
         box = BoxLayout(orientation="vertical", spacing=5, padding=10)
 
         input_name = TextInput(
-            hint_text="Nome do save (letras e números)",
+            hint_text=self.lm.t("save_name_hint"),
             multiline=False,
             size_hint_y=None,
             height=40,
@@ -549,18 +582,14 @@ class GameplayScreen(Screen):
         box.add_widget(input_name)
 
         btns = BoxLayout(size_hint_y=None, height=35, spacing=5)
-        btns.add_widget(Button(
-            text="Salvar",
-            on_release=lambda *_: self.confirm_save(input_name.text)
-        ))
-        btns.add_widget(Button(
-            text="Cancelar",
-            on_release=lambda *_: popup.dismiss()
-        ))
+        btns.add_widget(Button(text=self.lm.t("save"),
+                               on_release=lambda *_: self.confirm_save(input_name.text)))
+        btns.add_widget(Button(text=self.lm.t("cancel"),
+                               on_release=lambda *_: popup.dismiss()))
         box.add_widget(btns)
 
         popup = Popup(
-            title="Salvar Jogo",
+            title=self.lm.t("save_game"),
             content=box,
             size_hint=(0.5, 0.3),  # 🔹 menor que antes
             auto_dismiss=False
@@ -571,7 +600,7 @@ class GameplayScreen(Screen):
     def confirm_save(self, filename):
         # 🔹 Apenas letras, números e underscore
         if not re.match(r"^[A-Za-z0-9_]+$", filename):
-            self.qm._log("⚠️ Nome inválido! Use apenas letras, números ou _.")
+            self.qm._log(self.lm.t("invalid_name"))
             return
 
         filename = f"{filename}.json"
@@ -629,7 +658,8 @@ class GameplayScreen(Screen):
 
     def advance_turn(self):
         self.qm.advance_turn()
-        self.qm._log(f"⏩ Turno {self.qm.current_turn} avançado.")
+        # atualiza o texto do widget fixo
+        self.qm._log(self.lm.t("turn_advanced").format(turn=self.qm.current_turn))
         self.update_sidebar()
         self.turn_bar()
 

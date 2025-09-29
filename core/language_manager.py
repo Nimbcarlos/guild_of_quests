@@ -1,0 +1,47 @@
+import json
+
+class LanguageManager:
+    def __init__(self, lang_file="data/lang.json", config_file="config.json"):
+        self.lang_file = lang_file
+        self.config_file = config_file
+        self.translations = self._load_translations()
+        self.language = self._load_language()
+
+    def _load_translations(self):
+        with open(self.lang_file, "r", encoding="utf-8") as f:
+            return json.load(f)
+
+    def _load_language(self):
+        try:
+            with open(self.config_file, "r", encoding="utf-8") as f:
+                config = json.load(f)
+            return config.get("language", "en")
+        except FileNotFoundError:
+            return "en"
+
+    def set_language(self, lang_code: str):
+        """Muda o idioma e salva no config."""
+        self.language = lang_code
+        with open(self.config_file, "w", encoding="utf-8") as f:
+            json.dump({"language": lang_code}, f, ensure_ascii=False, indent=4)
+
+    def t(self, key: str) -> str:
+        """Retorna a tradução da palavra."""
+        entry = self.translations.get(key, {})
+        return entry.get(self.language, key)  # se não achar, retorna a própria key
+
+if __name__ == "__main__":
+    from language_manager import LanguageManager
+
+    lm = LanguageManager()
+
+    print(lm.t("class"))   # se estiver em pt → "classe"
+    print(lm.t("hero"))    # se estiver em pt → "herói"
+    print(lm.t("guild"))   # se estiver em pt → "guilda"
+
+    # mudar para inglês
+    lm.set_language("en")
+
+    print(lm.t("class"))   # → "class"
+    print(lm.t("hero"))    # → "hero"
+    print(lm.t("guild"))   # → "guild"

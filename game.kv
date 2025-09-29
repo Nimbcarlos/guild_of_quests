@@ -170,10 +170,11 @@
                         height: self.minimum_height
 
         # ----------------- Sidebar (direita) -----------------
+
         BoxLayout:
             orientation: "vertical"
-            size_hint_x: 0.35
-            padding: 5
+            size_hint_x: 0.30
+            padding: 15
             spacing: 5
             canvas.before:
                 Color:
@@ -183,35 +184,53 @@
                     size: self.size
                     pos: self.pos
 
-            Label:
-                text: "Quests em andamento"
+            # ---------------- SEÇÃO 1: QUESTS ATIVAS ----------------
+            Label: # Título
+                text: root.active_quests_label
+                size_hint_y: None
+                height: 30
                 color: 0, 0, 0, 1
 
-            BoxLayout:
-                id: active_quests
-                orientation: "vertical"
-                size_hint_y: None
-                height: self.minimum_height
+            ScrollView: # ⬅️ Envolve a lista em um ScrollView
+                size_hint_y: 0.25 # Altura reservada para esta lista (ex: 35% do espaço livre)
+                
+                BoxLayout:
+                    id: active_quests # ⬅️ Este é o contêiner interno que o Python preenche
+                    orientation: "vertical"
+                    size_hint_y: None
+                    height: self.minimum_height # Faz o container interno crescer com os botões
 
-            Label:
-                text: "Quests disponíveis"
+            # ---------------- SEÇÃO 2: QUESTS DISPONÍVEIS ----------------
+            Label: # Título
+                text: root.available_quests_label
+                size_hint_y: None
+                height: 30
                 color: 0, 0, 0, 1
 
-            BoxLayout:
-                id: available_quests
-                orientation: "vertical"
-                size_hint_y: None
-                height: self.minimum_height
+            ScrollView:
+                size_hint_y: 0.35 # Altura reservada para esta lista
+                
+                BoxLayout:
+                    id: available_quests
+                    orientation: "vertical"
+                    size_hint_y: None
+                    height: self.minimum_height
 
-            Label:
-                text: "Quests concluídas"
+            # ---------------- SEÇÃO 3: QUESTS CONCLUÍDAS ----------------
+            Label: # Título
+                text: root.completed_quests_label
+                size_hint_y: None
+                height: 30
                 color: 0, 0, 0, 1
 
-            BoxLayout:
-                id: completed_quests
-                orientation: "vertical"
-                size_hint_y: None
-                height: self.minimum_height
+            ScrollView:
+                size_hint_y: 0.3 # Altura reservada (o resto do espaço)
+                
+                BoxLayout:
+                    id: completed_quests
+                    orientation: "vertical"
+                    size_hint_y: None
+                    height: self.minimum_height
 
 #<Button>:
 #    background_normal: "assets/buttons/button.png"
