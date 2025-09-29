@@ -10,6 +10,8 @@
     "photo_url": "assets/img/Lyra.png",
     "photo_body_url": "assets/img/lyrafullbody.png",
     "unlock_by_quest": [],
+    "available_from_turn": 1,
+    "leave_on_quest": [],
     "growth_curve": {
       "1": { "strength": 2, "dexterity": 1, "intelligence": 1, "constitution": 1, "charisma": 1 },
       "2": { "strength": 3, "dexterity": 1, "intelligence": 1, "constitution": 1, "charisma": 1 },
@@ -29,6 +31,8 @@
     "photo_url": "assets/img/Elara.png",
     "photo_body_url": "assets/img/elarafullbody.png",
     "unlock_by_quest": [],
+    "available_from_turn": 2,
+    "leave_on_quest": [],
     "growth_curve": {
       "1": { "strength": 1, "dexterity": 2, "intelligence": 1, "constitution": 1, "charisma": 1 },
       "2": { "strength": 1, "dexterity": 3, "intelligence": 1, "constitution": 1, "charisma": 1 },
@@ -48,6 +52,8 @@
     "photo_url": "assets/img/Kael.png",
     "photo_body_url": "assets/img/kaelfullbody.png",
     "unlock_by_quest": [1],
+    "available_from_turn": 1,
+    "leave_on_quest": [],
     "growth_curve": {
       "1": { "strength": 1, "dexterity": 1, "intelligence": 2, "constitution": 1, "charisma": 1 },
       "2": { "strength": 1, "dexterity": 1, "intelligence": 3, "constitution": 1, "charisma": 1 },

@@ -26,7 +26,7 @@ class GameplayScreen(Screen):
         self.pause_popup = None
 
         # 🔹 Atualiza heróis desbloqueados com base nas quests completas
-        self.qm.hero_manager.check_hero_unlocks(self.qm.completed_quests)
+        self.qm.hero_manager.check_hero_unlocks(self.qm.completed_quests, self.qm.current_turn)
 
         self.dm = DialogueManager()
         self.dialog_box = DialogueBox(self.dm)
@@ -170,7 +170,7 @@ class GameplayScreen(Screen):
         container.clear_widgets()
 
 
-        self.qm.hero_manager.check_hero_unlocks(self.qm.completed_quests)
+        self.qm.hero_manager.check_hero_unlocks(self.qm.completed_quests, self.qm.current_turn)
 
         # Lista os heróis disponíveis
         available_heroes = self.qm.hero_manager.get_available_heroes()

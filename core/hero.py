@@ -37,6 +37,8 @@ class Hero:
         photo_url: str,
         photo_body_url: str,
         unlock_by_quest: None,
+        available_from_turn: int,  # <<< só libera após turno X
+        leave_on_quest: List[int],     # <<< quests que expulsam
         growth_curve: Dict[str, Dict[str, int]],
         starter: bool = False,
         xp: int = 0,  # será sobrescrito pelo save_manager quando carregar progresso
@@ -51,6 +53,8 @@ class Hero:
         self.photo_url = photo_url
         self.photo_body_url = photo_body_url
         self.unlock_by_quest = unlock_by_quest or []
+        self.available_from_turn = available_from_turn  # <<< só libera após turno X
+        self.leave_on_quest = leave_on_quest or []      # <<< quests que expulsam
         self.growth_curve = growth_curve  # stats absolutos por nível (chaves string)
         self.starter = starter
         self.xp = xp  # progresso (default 0)
