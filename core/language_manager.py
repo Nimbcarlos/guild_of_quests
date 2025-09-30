@@ -26,9 +26,15 @@ class LanguageManager:
             json.dump({"language": lang_code}, f, ensure_ascii=False, indent=4)
 
     def t(self, key: str) -> str:
-        """Retorna a tradução da palavra."""
-        entry = self.translations.get(key, {})
-        return entry.get(self.language, key)  # se não achar, retorna a própria key
+        entry = self.translations.get(key)
+        if entry is None:
+            print(f"[DEBUG] Chave não encontrada: {key}")
+            return key
+        text = entry.get(self.language)
+        if text is None:
+            print(f"[DEBUG] Tradução não encontrada para idioma '{self.language}' na chave '{key}'")
+            return key
+        return text
 
 if __name__ == "__main__":
     from language_manager import LanguageManager

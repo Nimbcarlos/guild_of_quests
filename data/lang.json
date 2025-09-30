@@ -8,12 +8,12 @@
     "ja": "ターン：{turn}"
   },
   "advance_turn_btn": {
-    "pt": "⏩ Avançar Turno",
-    "en": "⏩ Next Turn",
-    "es": "⏩ Avanzar Turno",
-    "ru": "⏩ Следующий ход",
-    "zh": "⏩ 前进回合",
-    "ja": "⏩ ターン進める"
+    "pt": "Avançar Turno",
+    "en": "Next Turn",
+    "es": "Avanzar Turno",
+    "ru": "Следующий ход",
+    "zh": "前进回合",
+    "ja": "ターン進める"
   },
   "turns_remaining": {
     "pt": "{n} turnos restantes",
@@ -88,44 +88,44 @@
     "ja": "難易度"
   },
   "save_game": {
-    "pt": "💾 Salvar Jogo",
-    "en": "💾 Save Game",
-    "es": "💾 Guardar partida",
-    "ru": "💾 Сохранить игру",
-    "zh": "💾 保存游戏",
-    "ja": "💾 ゲームを保存"
+    "pt": "Salvar Jogo",
+    "en": "Save Game",
+    "es": "Guardar partida",
+    "ru": "Сохранить игру",
+    "zh": "保存游戏",
+    "ja": "ゲームを保存"
   },
   "load_game": {
-    "pt": "📂 Carregar Jogo",
-    "en": "📂 Load Game",
-    "es": "📂 Cargar partida",
-    "ru": "📂 Загрузить игру",
-    "zh": "📂 载入游戏",
-    "ja": "📂 ゲームを読み込む"
+    "pt": "Carregar Jogo",
+    "en": "Load Game",
+    "es": "Cargar partida",
+    "ru": "Загрузить игру",
+    "zh": "载入游戏",
+    "ja": "ゲームを読み込む"
   },
   "back_to_menu": {
-    "pt": "↩️ Voltar ao Menu",
-    "en": "↩️ Back to Menu",
-    "es": "↩️ Volver al menú",
-    "ru": "↩️ Вернуться в меню",
-    "zh": "↩️ 返回菜单",
-    "ja": "↩️ メニューに戻る"
+    "pt": "Voltar ao Menu",
+    "en": "Back to Menu",
+    "es": "Volver al menú",
+    "ru": "Вернуться в меню",
+    "zh": "返回菜单",
+    "ja": "メニューに戻る"
   },
   "quit_game": {
-    "pt": "❌ Fechar Jogo",
-    "en": "❌ Quit Game",
-    "es": "❌ Cerrar juego",
-    "ru": "❌ Выйти из игры",
-    "zh": "❌ 退出游戏",
-    "ja": "❌ ゲームを終了"
+    "pt": "Fechar Jogo",
+    "en": "Quit Game",
+    "es": "Cerrar juego",
+    "ru": "Выйти из игры",
+    "zh": "退出游戏",
+    "ja": "ゲームを終了"
   },
   "pause_menu_title": {
-    "pt": "⏸ Menu de Pausa",
-    "en": "⏸ Pause Menu",
-    "es": "⏸ Menú de pausa",
-    "ru": "⏸ Меню паузы",
-    "zh": "⏸ 暂停菜单",
-    "ja": "⏸ ポーズメニュー"
+    "pt": "Menu de Pausa",
+    "en": "Pause Menu",
+    "es": "Menú de pausa",
+    "ru": "Меню паузы",
+    "zh": "暂停菜单",
+    "ja": "ポーズメニュー"
   },
   "save_name_hint": {
     "pt": "Nome do save (letras e números)",
@@ -152,28 +152,28 @@
     "ja": "キャンセル"
   },
   "no_hero_selected": {
-    "pt": "⚠️ Nenhum herói selecionado para esta missão.",
-    "en": "⚠️ No hero selected for this mission.",
-    "es": "⚠️ Ningún héroe seleccionado para esta misión.",
-    "ru": "⚠️ Ни один герой не выбран для этой миссии.",
-    "zh": "⚠️ 尚未选择任何英雄执行此任务。",
-    "ja": "⚠️ このミッションに選択された英雄がいません。"
+    "pt": "Nenhum herói selecionado para esta missão.",
+    "en": "No hero selected for this mission.",
+    "es": "Ningún héroe seleccionado para esta misión.",
+    "ru": "Ни один герой не выбран для этой миссии.",
+    "zh": "尚未选择任何英雄执行此任务。",
+    "ja": "このミッションに選択された英雄がいません。"
   },
   "invalid_name": {
-    "pt": "⚠️ Nome inválido! Use apenas letras, números ou _.",
-    "en": "⚠️ Invalid name! Use only letters, numbers or _.",
-    "es": "⚠️ Nombre inválido. Use solo letras, números o _.",
-    "ru": "⚠️ Неправильное имя! Используйте только буквы, цифры или _.",
-    "zh": "⚠️ 名称无效！仅允许字母、数字或下划线。",
-    "ja": "⚠️ 無効な名前です。英数字と_のみ使用してください。"
+    "pt": "Nome inválido! Use apenas letras, números ou _.",
+    "en": "Invalid name! Use only letters, numbers or _.",
+    "es": "Nombre inválido. Use solo letras, números o _.",
+    "ru": "Неправильное имя! Используйте только буквы, цифры или _.",
+    "zh": "名称无效！仅允许字母、数字或下划线。",
+    "ja": "無効な名前です。英数字と_のみ使用してください。"
   },
   "turn_advanced": {
-    "pt": "⏩ Turno {turn} avançado.",
-    "en": "⏩ Turn {turn} advanced.",
-    "es": "⏩ Turno {turn} avanzado.",
-    "ru": "⏩ Ход {turn} продвинут.",
-    "zh": "⏩ 第 {turn} 回合已前进。",
-    "ja": "⏩ ターン {turn} が進みました。"
+    "pt": "Turno {turn} avançado.",
+    "en": "Turn {turn} advanced.",
+    "es": "Turno {turn} avanzado.",
+    "ru": "Ход {turn} продвинут.",
+    "zh": "第 {turn} 回合已前进。",
+    "ja": "ターン {turn} が進みました。"
   },
   "active_quests": {
     "pt": "Ativas",
@@ -206,5 +206,149 @@
     "ru": "Журнал заданий",
     "zh": "任务日志",
     "ja": "ミッションログ"
+  },
+  "game_saved": {
+    "pt": "Jogo salvo em {filename}",
+    "en": "Game saved as {filename}",
+    "es": "Juego guardado como {filename}",
+    "ru": "Игра сохранена как {filename}",
+    "zh_CN": "游戏已保存为 {filename}",
+    "ja": "ゲームが「{filename}」として保存されました"
+  },
+  "hero_removed": {
+    "pt": "{hero} removido da seleção para '{quest}'",
+    "en": "{hero} removed from selection for '{quest}'",
+    "es": "{hero} eliminado de la selección para '{quest}'",
+    "ru": "{hero} удалён из выбора для «{quest}»",
+    "zh": "{hero} が「{quest}」の選択から外されました",
+    "ja": "{hero} 已从“{quest}”的选择中移除"
+  },
+  "hero_added": {
+    "pt": "{hero} adicionado para '{quest}'",
+    "en": "{hero} added to '{quest}'",
+    "es": "{hero} añadido a '{quest}'",
+    "ru": "{hero} が「{quest}」に追加されました",
+    "zh": "{hero} 已加入“{quest}”",
+    "ja": "{hero} добавлен в «{quest}»"
+  },
+  "quest_timeout": {
+    "pt": "Quest '{quest}' falhou por tempo esgotado!",
+    "en": "Quest '{quest}' failed due to timeout!",
+    "es": "¡La misión '{quest}' falló por tiempo agotado!",
+    "ru": "Квест «{quest}» провалился из-за истечения времени!",
+    "zh": "任务“{quest}”因超时失败！",
+    "ja": "クエスト「{quest}」は時間切れで失敗しました！"
+  },
+  "quest_not_found": {
+    "pt": "Quest com ID '{id}' não encontrada!",
+    "en": "Quest with ID '{id}' not found!",
+    "es": "Misión con ID '{id}' no encontrada!",
+    "ru": "Квест с ID '{id}' не найден!",
+    "zh": "未找到 ID 为 '{id}' 的任务！",
+    "ja": "ID '{id}' のクエストが見つかりません！"
+  },
+  "no_valid_hero_selected": {
+    "pt": "Nenhum herói válido foi selecionado.",
+    "en": "No valid hero was selected.",
+    "es": "Ningún héroe válido fue seleccionado.",
+    "ru": "Не выбран ни один действительный герой.",
+    "zh": "未选择有效的英雄。",
+    "ja": "有効なヒーローが選択されていません。"
+  },
+  "heroes_sent": {
+    "pt": "Heróis enviados para '{name}' ({turns} turnos restantes).",
+    "en": "Heroes sent to '{name}' ({turns} turns remaining).",
+    "es": "Héroes enviados a '{name}' ({turns} turnos restantes).",
+    "ru": "Герои отправлены на '{name}' (осталось {turns} ходов).",
+    "zh": "已派遣英雄到“{name}”（剩余回合：{turns}）。",
+    "ja": "ヒーローを「{name}」に派遣しました（残り {turns} ターン）。"
+  },
+  "heroes_list": {
+    "pt": "{list}",
+    "en": "{list}",
+    "es": "{list}",
+    "ru": "{list}",
+    "zh": "{list}",
+    "ja": "{list}"
+  },
+  "mission_started": {
+    "pt": "Missão iniciada!",
+    "en": "Mission started!",
+    "es": "¡Misión iniciada!",
+    "ru": "Миссия начата!",
+    "zh": "任务已开始！",
+    "ja": "ミッション開始！"
+  },
+  "quest_not_found_on_resolve": {
+    "pt": "Quest com id '{id}' não encontrada ao resolver (removendo do ativo).",
+    "en": "Quest id '{id}' not found while resolving (removing from active).",
+    "es": "Misión id '{id}' no encontrada al resolver (eliminando de activas).",
+    "ru": "При попытке завершения не найден квест id '{id}' (удаляется из активных).",
+    "zh": "解析任务时未找到 ID 为 '{id}' 的任务（从进行中移除）。",
+    "ja": "解決中に ID '{id}' のクエストが見つかりません（アクティブから削除）。"
+  },
+  "hero_gained_xp": {
+    "pt": "{hero} ganhou {xp} XP!",
+    "en": "{hero} gained {xp} XP!",
+    "es": "{hero} ganó {xp} XP!",
+    "ru": "{hero} получил {xp} XP!",
+    "zh": "{hero} 获得了 {xp} 经验值！",
+    "ja": "{hero} は {xp} XP を獲得しました！"
+  },
+  "quest_completed": {
+    "pt": "Quest '{name}' concluída com {result}!",
+    "en": "Quest '{name}' completed with {result}!",
+    "es": "Misión '{name}' completada con {result}!",
+    "ru": "Квест '{name}' завершён: {result}!",
+    "zh": "任务“{name}”以 {result} 完成！",
+    "ja": "クエスト『{name}』は {result} で完了しました！"
+  },
+  "quest_failed": {
+    "pt": "Quest '{name}' falhou!",
+    "en": "Quest '{name}' failed!",
+    "es": "Misión '{name}' falló!",
+    "ru": "Квест '{name}' провален!",
+    "zh": "任务“{name}”失败！",
+    "ja": "クエスト『{name}』は失敗しました！"
+  },
+  "quest_summary_title": {
+    "pt": "Quest: {name}",
+    "en": "Quest: {name}",
+    "es": "Misión: {name}",
+    "ru": "Квест: {name}",
+    "zh": "任务：{name}",
+    "ja": "クエスト：{name}"
+  },
+  "success_chance": {
+    "pt": "Chance de sucesso: {pct}",
+    "en": "Success chance: {pct}",
+    "es": "Probabilidad de éxito: {pct}",
+    "ru": "Шанс успеха: {pct}",
+    "zh": "成功概率：{pct}",
+    "ja": "成功率：{pct}"
+  },
+  "result_text": {
+    "pt": "Resultado: {result}",
+    "en": "Result: {result}",
+    "es": "Resultado: {result}",
+    "ru": "Результат: {result}",
+    "zh": "结果：{result}",
+    "ja": "結果：{result}"
+  },
+  "quest_auto_complete": {
+    "pt": "Quest {name} foi concluída!",
+    "en": "Quest {name} has been completed!",
+    "es": "¡La misión {name} ha sido completada!",
+    "ru": "Квест {name} выполнен!",
+    "zh": "任务 {name} 已完成！",
+    "ja": "クエスト {name} が完了しました！"
+  },
+  "quest_failed_timeout": {
+    "pt": "Quest '{name}' falhou por tempo esgotado!",
+    "en": "Quest '{name}' failed due to timeout!",
+    "es": "La misión '{name}' falló por tiempo agotado!",
+    "ru": "Квест '{name}' провален из-за истечения времени!",
+    "zh": "任务“{name}”因超时失败！",
+    "ja": "クエスト『{name}』は時間切れで失敗しました！"
   }
 }

@@ -3,6 +3,7 @@ from core.quest import Quest
 from core.quest_success_calculator import calculate_success_chance, run_mission_roll
 from core.save_manager import save_game, load_game
 from collections import defaultdict
+from core.language_manager import LanguageManager
 from core.quest_requirements import (
     check_required_quests,
     check_trigger_on_fail,
@@ -13,9 +14,11 @@ from core.quest_requirements import (
     check_available_turn,
 )
 
+# NOTE: agora QuestManager aceita um LanguageManager opcional para traduzir mensagens de log.
+
 
 class QuestManager:
-    def __init__(self, save_file="auto_save.json"):
+    def __init__(self, save_file="auto_save.json", language_manager=None):
         self.save_file = save_file
         self.requirement_checks = [
             check_not_completed,
@@ -37,11 +40,18 @@ class QuestManager:
         # Sets para progresso
         self.completed_quests = defaultdict(set)
         self.failed_quests = set()
-        self.active_quests = {}  # Corrigido para ser um dicionário
+        self.active_quests = {}  # dicionário: quest_id -> {"heroes": [...], "turns_left": n}
         self.current_turn = 1
 
         # Callback de log (injetado pelo GameplayScreen)
         self.log_callback = None
+
+        # Callback de diálogo / UI
+        self.dialog_callback = None
+        self.ui_callback = None
+
+        # Language manager (opcional). Deve ter método t(key) -> str
+        self.lm = LanguageManager()
 
     # -------------------- UI Log --------------------
     def set_log_callback(self, callback):
@@ -77,38 +87,34 @@ class QuestManager:
         """
         quest = self.get_quest(quest_id)
         if not quest:
-            return f"⚠️ Quest com ID '{quest_id}' não encontrada!"
+            msg = self.lm.t("quest_not_found").format(id=quest_id)
+            return msg
 
         # Filtra heróis inválidos e pega os objetos
         selected_heroes = [self.get_hero(hid) for hid in hero_ids if self.get_hero(hid)]
         if not selected_heroes:
-            return "Nenhum herói válido foi selecionado."
+            return self.lm.t("no_valid_hero_selected")
 
         for hero in selected_heroes:
             hero.status = "on_mission"
 
-        # 🔹 Agenda a quest como "ativa" no dicionário
+        # Agenda a quest como "ativa" no dicionário
         self.active_quests[quest_id] = {
             "heroes": selected_heroes,
             "turns_left": quest.duration  # usa o campo duration do JSON
         }
 
-        self._log(f"🚀 Heróis enviados para '{quest.name}' ({quest.duration} turnos restantes).")
-        self._log(f"👥 {', '.join(h.name for h in selected_heroes)}")
+        self._log(self.lm.t("heroes_sent").format(name=quest.name, turns=quest.duration))
+        self._log(self.lm.t("heroes_list").format(list=", ".join(h.name for h in selected_heroes)))
 
-        # 🔹 Aqui entraria o diálogo inicial, se quiser
+        # Diálogo inicial, se existir callback
         if self.dialog_callback:
             self.dialog_callback(selected_heroes, quest.id, "start")
 
         if hasattr(self, "ui_callback") and self.ui_callback:
             self.ui_callback()
 
-        return "Missão iniciada!"
-
-    def resolve_quest(self, quest, data):
-        heroes = [h.id for h in data.get("heroes", [])]
-        for h in heroes:
-            self.completed_quests[quest.id].add(h)
+        return self.lm.t("mission_started")
 
     def resolve_quest(self, quest_id: int, data):
         """
@@ -117,10 +123,19 @@ class QuestManager:
         heroes = data["heroes"]
         quest = self.get_quest(quest_id)
 
+        if quest is None:
+            # Não deveria acontecer, mas loga e retorna
+            self._log(self.lm.t("quest_not_found_on_resolve").format(id=quest_id))
+            return
+
         success_chance = calculate_success_chance(heroes, quest)
         result = run_mission_roll(success_chance)
 
-        if result in ["Sucesso", "Crítico"]:
+        # considerar strings resultado locais? run_mission_roll retorna string interna;
+        # Mapeamos os resultados para chaves se necessário mais adiante.
+        success_values = {"Sucesso", "Crítico", "Success", "Critical"}
+
+        if result in success_values:
             xp_reward = quest.rewards.get("xp", 0)
 
             # Garante que a quest existe no dict
@@ -128,32 +143,38 @@ class QuestManager:
                 self.completed_quests[quest.id] = set()
 
             for hero in heroes:
-                hero.add_xp(xp_reward)
-                self._log(f"✅ {hero.name} ganhou {xp_reward} XP!")
+                # hero é objeto; se tiver add_xp
+                try:
+                    hero.add_xp(xp_reward)
+                except Exception:
+                    pass
+                self._log(self.lm.t("hero_gained_xp").format(hero=hero.name, xp=xp_reward))
                 # Marca que este herói específico completou a quest
                 self.completed_quests[quest.id].add(hero.id)
 
-            self._log(f"🏆 Quest '{quest.name}' concluída com {result}!")
+            self._log(self.lm.t("quest_completed").format(name=quest.name, result=result))
         else:
             self.failed_quests.add(quest.id)
-            self._log(f"❌ Quest '{quest.name}' falhou!")
+            self._log(self.lm.t("quest_failed").format(name=quest.name))
 
         # Salva progresso
         save_game(self, self.save_file)
 
         # Mostra resumo
-        self._log(f"📜 Quest: {quest.name}")
-        self._log(f"🎯 Chance de sucesso: {success_chance:.0%}")
-        self._log(f"🎲 Resultado: {result}")
+        self._log(self.lm.t("quest_summary_title").format(name=quest.name))
+        self._log(self.lm.t("success_chance").format(pct=success_chance))
+        self._log(self.lm.t("result_text").format(result=result))
 
-        # Reseta status dos heróis
+        # Reseta status dos heróis (se objetos)
         for hero in heroes:
-            hero.status = "idle"
+            try:
+                hero.status = "idle"
+            except Exception:
+                pass
 
         # Callback de diálogo
         if self.dialog_callback:
             self.dialog_callback(heroes, quest.id, result)
-
 
     # -------------------- Quests Disponíveis --------------------
     def available_quests(self):
@@ -166,7 +187,7 @@ class QuestManager:
 
             if all(check(q, self) for check in self.requirement_checks):
 
-                if q.available_since_turn is None:
+                if getattr(q, "available_since_turn", None) is None:
                     q.available_since_turn = self.current_turn
                 quests_list.append(q)
         return quests_list
@@ -197,14 +218,15 @@ class QuestManager:
             quest = self.get_quest(qid)
             if quest is None:
                 # quest não existe no catálogo atual: remove e loga
-                self._log(f"⚠️ Quest com id '{qid}' não encontrada ao resolver (removendo do ativo).")
+                self._log(self.lm.t("quest_not_found_on_resolve").format(id=qid))
                 try:
                     del self.active_quests[qid]
                 except KeyError:
                     pass
                 continue
 
-            self._log(f"Quest {quest.name} foi concluída!")
+            # notifica que foi concluída (mensagem geral)
+            self._log(self.lm.t("quest_auto_complete").format(name=quest.name))
             # chama sua função que aplica XP e marca completada/falhada
             self.resolve_quest(qid, data)
             # remove da lista de ativas
@@ -220,7 +242,7 @@ class QuestManager:
         self.failed_quests.add(quest_id)
         if quest_id in self.active_quests:
             del self.active_quests[quest_id]
-        self._log(f"⌛ Quest '{quest.name}' falhou por tempo esgotado!")
+        self._log(self.lm.t("quest_failed_timeout").format(name=quest.name))
 
     def set_ui_callback(self, callback):
         self.ui_callback = callback

@@ -139,17 +139,6 @@ class GameplayScreen(Screen):
 
         self.lm.t("mission_log")
 
-    # ... (Seu código para 'available_quests' e 'completed_quests') ...
-
-        # self.ids.active_quests.add_widget(Label(
-        #     text=self.lm.t("active_quests"),
-        #     markup=False,
-        #     color=(0, 0, 0, 1),
-        #     size_hint_y=None,
-        #     height=20,
-        # )
-        # )
-        # Ativas
         for quest in qm.get_active_quests():
             self.ids.active_quests.add_widget(
                 Button(
@@ -160,15 +149,6 @@ class GameplayScreen(Screen):
                 )
             )
 
-        # self.ids.active_quests.add_widget(Label(
-        #     text=self.lm.t("available_quests"),
-        #     markup=False,
-        #     color=(0, 0, 0, 1),
-        #     size_hint_y=None,
-        #     height=20,
-        # )
-        # )
-        # Disponíveis
         for quest in qm.get_available_quests():
             self.ids.available_quests.add_widget(
                 Button(
@@ -179,16 +159,6 @@ class GameplayScreen(Screen):
                 )
             )
 
-        # self.ids.active_quests.add_widget(Label(
-        #     text=self.lm.t("completed_quests"),
-        #     markup=False,
-        #     color=(0, 0, 0, 1),
-        #     size_hint_y=None,
-        #     height=20,
-        # )
-        # )
-
-        # Completas
         for qid in qm.completed_quests:
             q = qm.get_quest(qid)
             if q:
@@ -334,11 +304,11 @@ class GameplayScreen(Screen):
         if hero.id in self.pending_assignments[quest.id]:
             # já estava selecionado → desmarca
             self.pending_assignments[quest.id].remove(hero.id)
-            self.qm._log(f"❌ {hero.name} removido da seleção para '{quest.name}'")
+            self.qm._log(self.lm.t("hero_removed").format(hero=hero.name, quest=quest.name))
         else:
             # adiciona
             self.pending_assignments[quest.id].append(hero.id)
-            self.qm._log(f"✅ {hero.name} adicionado para '{quest.name}'")
+            self.qm._log(self.lm.t("hero_added").format(hero=hero.name, quest=quest.name))
         self.update_success_label(quest)
 
     def confirm_quest_assignment(self, quest):
@@ -608,7 +578,7 @@ class GameplayScreen(Screen):
         qm = self.manager.quest_manager
         save.save_game(qm, filename)
 
-        qm._log(f"💾 Jogo salvo em '{filename}'")
+        qm._log(self.lm.t("game_saved").format(filename=filename))
 
         # Fecha o popup
         if getattr(self, "save_popup", None):
@@ -630,10 +600,7 @@ class GameplayScreen(Screen):
                 pass
             self.pause_popup = None
 
-        if "loadgame" in self.manager.screen_names:
-            self.manager.current = "loadgame"
-        else:
-            self.qm._log("⚠️ Tela de carregar ainda não implementada.")
+        self.manager.current = "loadgame"
 
     def goto_menu(self, *args):
         # fecha popup se necessário
