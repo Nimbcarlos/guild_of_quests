@@ -23,6 +23,7 @@ class GameplayScreen(Screen):
     active_quests_label = StringProperty()
     available_quests_label = StringProperty()
     completed_quests_label = StringProperty()
+    log_messages = StringProperty()
 
     def on_enter(self):
         # cria/pega o QuestManager central
@@ -43,6 +44,7 @@ class GameplayScreen(Screen):
         self.active_quests_label = self.lm.t("active_quests")
         self.available_quests_label = self.lm.t("available_quests")
         self.completed_quests_label = self.lm.t("completed_quests")
+        self.log_messages = self.lm.t("log_messages")
 
         self.update_sidebar()
         self.turn_bar()
@@ -496,11 +498,11 @@ class GameplayScreen(Screen):
         heroes = [self.qm.get_hero(hid) for hid in hero_ids if self.qm.get_hero(hid)]
 
         if not heroes:
-            self.success_label.text = "Taxa de sucesso: --%"
+            self.success_label.text = f"{self.lm.t('success_rate')}: --%"
             return
 
         chance = calculate_success_chance(heroes, quest)
-        self.success_label.text = f"Taxa de sucesso: {chance*100:.0f}%"
+        self.success_label.text = f"{self.lm.t("success_rate")}: {chance*100:.0f}%"
 
     def open_pause_menu(self):
         if self.pause_popup and self.pause_popup.parent:

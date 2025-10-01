@@ -24,12 +24,12 @@
     "ja": "残りターン：{n}"
   },
   "success_rate": {
-    "pt": "Taxa de sucesso: {pct}%",
-    "en": "Success rate: {pct}%",
-    "es": "Probabilidad de éxito: {pct}%",
-    "ru": "Шанс успеха: {pct}%",
-    "zh": "成功率：{pct}%",
-    "ja": "成功率：{pct}%"
+    "pt": "Taxa de sucesso",
+    "en": "Success rate",
+    "es": "Probabilidad de éxito",
+    "ru": "Шанс успеха",
+    "zh": "成功率",
+    "ja": "成功率"
   },
   "available_heroes": {
     "pt": "Heróis disponíveis:",
@@ -350,5 +350,13 @@
     "ru": "Квест '{name}' провален из-за истечения времени!",
     "zh": "任务“{name}”因超时失败！",
     "ja": "クエスト『{name}』は時間切れで失敗しました！"
+  },
+  "log_messages": {
+  "pt": "Log de missões e falas",
+  "en": "Mission and dialogue log",
+  "es": "Registro de misiones y diálogos",
+  "ru": "Журнал миссий и диалогов",
+  "zh": "任务和对话日志",
+  "ja": "ミッションと会話ログ"
   }
 }
