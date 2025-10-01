@@ -158,16 +158,21 @@
 
                 Label:
                     text: root.log_messages
+                    font_size: 18   # Aumenta a fonte
                     size_hint_y: None
-                    height: 30
+                    height: self.texture_size[1] + 10
                     color: 0, 0, 0, 1
 
                 ScrollView:
+                    id: mission_scroll
+                    do_scroll_x: False
+                    do_scroll_y: True
                     BoxLayout:
                         id: mission_log
                         orientation: "vertical"
                         size_hint_y: None
                         height: self.minimum_height
+
 
         # ----------------- Sidebar (direita) -----------------
 
@@ -232,9 +237,14 @@
                     size_hint_y: None
                     height: self.minimum_height
 
-#<Button>:
+<Button>:
 #    background_normal: "assets/buttons/button.png"
 #    background_down: "assets/buttons/button.png"
-#    font_size: 15
-#    size_hint: None, None
-#     size: 200, 60
+    size_hint: None, None
+    size: 200, 60
+    border: (20, 20, 20, 20)
+    background_color: 1,1,1,1
+    font_size: 18
+    text_size: self.size
+    halign: "center"
+    valign: "middle"

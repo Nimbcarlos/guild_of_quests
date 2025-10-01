@@ -1,34 +1,10 @@
 from core.hero import Hero
 
-class HeroManager:
-    def __init__(self):
-        # Carregar heróis do catálogo
-        self.all_heroes = Hero.load_heroes()
-
-        # Set com IDs de heróis desbloqueados
-        self.unlocked_heroes = set()
-
-        # Liberar automaticamente quem tem unlock_by_quest vazio
-        for hero in self.all_heroes:
-            if not hero.unlock_by_quest:  # se lista estiver vazia
-                self.unlocked_heroes.add(hero.id)
-
-    def check_hero_unlocks(self, completed_quests: set[int]):
-        """
-        Verifica quais heróis ficam disponíveis após progresso em quests.
-        Se o herói tem unlock_by_quest vazio, ele já foi liberado no __init__.
-        """
-        for hero in self.all_heroes:
-            if not hero.unlock_by_quest:
-                continue  # já foi liberado no __init__
-
-            # Se TODAS as quests necessárias estão em completed_quests, desbloqueia
-            if all(q in completed_quests for q in hero.unlock_by_quest):
-                self.unlocked_heroes.add(hero.id)
 
 class HeroManager:
-    def __init__(self):
-        self.all_heroes = Hero.load_heroes()
+    def __init__(self, language="pt"):
+        # Carregar heróis do idioma escolhido
+        self.all_heroes = Hero.load_heroes(language=language)        # Carregar heróis do catálogo
         self.unlocked_heroes = set()
 
         for hero in self.all_heroes:

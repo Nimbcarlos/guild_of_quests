@@ -77,5 +77,5 @@ def check_expired_quests(quest, manager):
         if quest.is_expired(manager.current_turn):
             manager.failed_quests.add(quest.id)
             expired.append(quest)
-            manager._log(f"❌ Quest '{quest.name}' falhou por não ter sido iniciada.")
+            manager._log(manager.lm.t("quest_expired").format(quest=quest.name))
     return quest.id not in manager.active_quests

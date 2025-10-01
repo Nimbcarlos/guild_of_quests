@@ -10,28 +10,28 @@ class Quest:
         description: str,
         type: str,
         recommendedLevel: int,
-        available_from_turn: int,  # <<< novo campo
+        available_from_turn: int,
         duration: int,
         difficulty: int,
         rewards: Dict[str, int],
         required_quests: List[str],
         required_fail_quests: List[str],
         required_heroes = List[str],
-        available_since_turn = None, # << NOVO CAMPO: Quando ela se tornou disponível
+        available_since_turn = None,
     ):
         self.id = id
         self.name = name
         self.description = description
         self.type = type
         self.recommended_level = recommendedLevel
-        self.available_from_turn = available_from_turn  # <<< novo campo
+        self.available_from_turn = available_from_turn
         self.duration = duration
         self.difficulty = difficulty
         self.rewards = rewards
         self.required_quests = required_quests
         self.required_fail_quests = required_fail_quests
         self.required_heroes = required_heroes or []
-        self.available_since_turn = available_since_turn # << NOVO CAMPO: Quando ela se tornou disponível
+        self.available_since_turn = available_since_turn
 
         # Novo: turnos restantes
         self.remaining_turns = duration  
@@ -54,28 +54,25 @@ class Quest:
         )
 
     def is_expired(self, current_turn: int) -> bool:
-        """
-        Retorna True se a quest já passou do limite de duração
-        sem ter sido iniciada.
-        """
         if self.available_since_turn is None:
-            return False  # ainda não foi disponibilizada
+            return False
         return (current_turn - self.available_since_turn) >= self.duration
 
+    # 🔹 Carrega quests de acordo com o idioma
     @staticmethod
-    def load_quests(file_path: str = "data/quests.json") -> List["Quest"]:
-        path = Path(file_path)
-        if not path.exists():
+    def load_quests(language: str = "pt") -> List["Quest"]:
+        file_path = Path(f"data/{language}/quests.json")
+        if not file_path.exists():
             raise FileNotFoundError(f"Arquivo {file_path} não encontrado.")
 
-        with open(path, "r", encoding="utf-8") as f:
+        with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
         return [Quest(**quest_data) for quest_data in data]
 
     @staticmethod
-    def get_quest_by_name(name: str, file_path: str = "data/quests.json") -> Optional["Quest"]:
-        quests = Quest.load_quests(file_path)
+    def get_quest_by_name(name: str, language: str = "pt") -> Optional["Quest"]:
+        quests = Quest.load_quests(language)
         for q in quests:
             if q.name.lower() == name.lower():
                 return q

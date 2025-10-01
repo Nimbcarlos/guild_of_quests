@@ -5,6 +5,7 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.scrollview import ScrollView
 from kivy.uix.popup import Popup
 from kivy.uix.image import Image
+from kivy.clock import Clock
 from kivy.properties import StringProperty
 from functools import partial
 from core.quest_manager import QuestManager
@@ -78,6 +79,10 @@ class GameplayScreen(Screen):
                 color=(0, 0, 0, 1)
             )
         )
+
+        Clock.schedule_once(lambda dt: setattr(
+        self.ids.mission_scroll, "scroll_y", 0
+        ), 0.5)
 
     def turn_bar(self):
         # Verifica se o id existe no KV
@@ -178,6 +183,8 @@ class GameplayScreen(Screen):
         container = self.ids.quest_details
         container.clear_widgets()
 
+        self.pending_assignments[quest.id] = []
+
         self.qm.hero_manager.check_hero_unlocks(self.qm.completed_quests, self.qm.current_turn)
 
         # Lista os heróis disponíveis
@@ -205,7 +212,7 @@ class GameplayScreen(Screen):
 
         # Taxa de sucesso
         self.success_label = Label(
-            text=self.lm.t("success_rate").format(pct="--"),
+            text=f'{self.lm.t('success_rate')}: --',
             color=(0, 0, 0, 1),
             size_hint_y=None,
             height=25

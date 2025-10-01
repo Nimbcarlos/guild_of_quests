@@ -358,5 +358,13 @@
   "ru": "Журнал миссий и диалогов",
   "zh": "任务和对话日志",
   "ja": "ミッションと会話ログ"
+  },
+  "quest_expired": {
+  "pt": "Quest '{quest}' falhou por não ter sido iniciada.",
+  "en": "Quest '{quest}' failed because it was not started.",
+  "es": "La misión '{quest}' fracasó porque no fue iniciada.",
+  "ru": "Квест «{quest}» провалился, так как не был начат.",
+  "zh": "任务“{quest}”因未开始而失败。",
+  "ja": "クエスト「{quest}」は開始されなかったため失敗しました。"
   }
 }

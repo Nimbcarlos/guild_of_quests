@@ -93,15 +93,20 @@ class Hero:
             f"Atributos (lvl {self.level}): {self.stats}\n"
         )
 
-    # ---------- utilidades de carga do catálogo ----------
     @staticmethod
-    def load_heroes(file_path: str = "data\heroes.json") -> List["Hero"]:
-        path = Path(file_path)
-        if not path.exists():
+    def load_heroes(language="pt") -> list["Hero"]:
+        """
+        Carrega heróis do arquivo referente ao idioma escolhido.
+        Exemplo: data/pt/heroes.json
+        """
+        file_path = Path(f"data/{language}/heroes.json")
+        if not file_path.exists():
             raise FileNotFoundError(f"Arquivo {file_path} não encontrado.")
-        with open(path, "r", encoding="utf-8") as f:
+
+        with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
-        return [Hero(**row) for row in data]
+
+        return [Hero(**hero_data) for hero_data in data]
 
     @staticmethod
     def get_hero_by_id(hero_id: int, file_path: str = "data\heroes.json") -> Optional["Hero"]:
