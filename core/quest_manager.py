@@ -2,6 +2,7 @@ from core.hero_manager import HeroManager
 from core.quest import Quest
 from core.quest_success_calculator import calculate_success_chance, run_mission_roll
 from core.save_manager import save_game, load_game
+from core.assistant_manager import AssistantManager
 from collections import defaultdict
 from core.language_manager import LanguageManager
 from core.quest_requirements import (
@@ -18,7 +19,7 @@ from core.quest_requirements import (
 
 
 class QuestManager:
-    def __init__(self, save_file="auto_save.json", language_manager=None):
+    def __init__(self, save_file="auto_save.json"):
         self.save_file = save_file
         self.requirement_checks = [
             check_not_completed,
@@ -52,6 +53,7 @@ class QuestManager:
 
         # Language manager (opcional). Deve ter método t(key) -> str
         self.lm = LanguageManager()
+        self.assistant = AssistantManager(self.lm)
 
     # -------------------- UI Log --------------------
     def set_log_callback(self, callback):
@@ -60,7 +62,6 @@ class QuestManager:
 
     def _log(self, message: str):
         """Envia mensagem para o log da UI, se existir."""
-        print(message)  # mantém no console também
         if self.log_callback:
             self.log_callback(message)
 
@@ -180,16 +181,26 @@ class QuestManager:
     def available_quests(self):
         """Retorna lista de quests disponíveis (passando em todos os requisitos)."""
         quests_list = []
-        for q in self.quests:
+        new_quests = 0
 
+        for q in self.quests:
             if q.id in self.completed_quests or q.id in self.failed_quests or q.id in self.active_quests:
                 continue
 
             if all(check(q, self) for check in self.requirement_checks):
-
                 if getattr(q, "available_since_turn", None) is None:
                     q.available_since_turn = self.current_turn
+                    new_quests += 1  # primeira vez que fica disponível
+
                 quests_list.append(q)
+
+        # 🚨 Chama assistente se houver novidades
+        if new_quests > 0 and self.assistant:
+            if self.assistant.dialogue_box:
+                self.assistant.on_new_quests(new_quests)
+            else:
+                print(f"[Assistente] {new_quests} novas quests disponíveis!")
+
         return quests_list
 
     def get_active_quests(self):
@@ -198,12 +209,6 @@ class QuestManager:
 
     def get_available_quests(self):
         """Retorna as quests disponíveis (usa a lógica já existente)"""
-        quests = self.available_quests()
-
-            # --- Novo: dispara fala do assistente ---
-        if hasattr(self, "assistant") and self.assistant:
-            self.assistant.notify_new_quests(quests, self.dialog_callback)
-
         return self.available_quests()
 
     # dentro de core/quest_manager.py (método advance_turn)

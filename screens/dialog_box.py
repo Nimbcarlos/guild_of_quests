@@ -56,12 +56,15 @@ class DialogueBox:
         if not self.queue:
             return
         heroes, quest_id, result = self.queue.popleft()
-        
-        # monta diálogos normalmente
-        if result == "start":
+
+        if isinstance(result, str) and quest_id == "assistant_event":
+            # fala direta da assistente (não vem do dialogue_manager)
+            self.dialogues = [result]
+        elif result == "start":
             self.dialogues = self.dm.show_start_dialogues(heroes, quest_id)
         else:
             self.dialogues = self.dm.show_quest_dialogue(heroes, quest_id, result)
+
         if not self.dialogues:
             self.dialogues = ["..."]
 

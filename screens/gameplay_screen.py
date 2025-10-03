@@ -15,6 +15,7 @@ from core.quest_manager import QuestManager
 from core.quest_success_calculator import calculate_success_chance
 from core.dialogue_manager import DialogueManager
 from core.language_manager import LanguageManager
+from core.assistant_manager import AssistantManager
 from screens.dialog_box import DialogueBox
 import core.save_manager as save
 import re
@@ -27,18 +28,19 @@ class GameplayScreen(Screen):
     log_messages = StringProperty()
 
     def on_enter(self):
-        # cria/pega o QuestManager central
         self.qm = self.manager.quest_manager  
         self.lm = LanguageManager()
-
-        # garante que o atributo exista (evita AttributeError)
         self.pause_popup = None
 
-        # 🔹 Atualiza heróis desbloqueados com base nas quests completas
         self.qm.hero_manager.check_hero_unlocks(self.qm.completed_quests, self.qm.current_turn)
 
         self.dm = DialogueManager()
         self.dialog_box = DialogueBox(self.dm)
+
+    # 🚀 Atualiza o assistant já existente do QuestManager
+        if self.qm.assistant:
+            self.qm.assistant.dialogue_box = self.dialog_box
+
         self.qm.set_dialog_callback(self.open_dialog)
         self.qm.set_ui_callback(self.update_ui)
         
@@ -46,6 +48,9 @@ class GameplayScreen(Screen):
         self.available_quests_label = self.lm.t("available_quests")
         self.completed_quests_label = self.lm.t("completed_quests")
         self.log_messages = self.lm.t("log_messages")
+
+        # dispara a fala inicial da assistente
+        self.qm.assistant.on_game_start()
 
         self.update_sidebar()
         self.turn_bar()
@@ -644,3 +649,10 @@ class GameplayScreen(Screen):
         """Atualiza todas as partes visuais ligadas ao estado do jogo."""
         self.update_sidebar()
         self.turn_bar()
+
+    def show_assistant_message(self, msg: str):
+        """Repassa a fala da assistente para o DialogueBox"""
+        if hasattr(self, "dialog_box"):
+            self.dialog_box.show_assistant_message(msg)
+        else:
+            print(f"[Assistente] {msg} (sem DialogueBox ativo)")

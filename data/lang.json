@@ -366,5 +366,53 @@
   "ru": "Квест «{quest}» провалился, так как не был начат.",
   "zh": "任务“{quest}”因未开始而失败。",
   "ja": "クエスト「{quest}」は開始されなかったため失敗しました。"
+  },
+  "assistant_first_time": {
+    "pt": "Bem-vindo ao jogo! Vou te ajudar em sua jornada.",
+    "en": "Welcome to the game! I will guide you on your journey.",
+    "es": "¡Bienvenido al juego! Te guiaré en tu aventura.",
+    "ru": "Добро пожаловать в игру! Я помогу тебе в твоём путешествии.",
+    "zh": "欢迎来到游戏！我会引导你踏上旅程。",
+    "ja": "ゲームへようこそ！私があなたの冒険をサポートします。"
+  },
+  "assistant_welcome_back": {
+    "pt": "Bem-vindo de volta! Pronto para continuar sua aventura?",
+    "en": "Welcome back! Ready to continue your adventure?",
+    "es": "¡Bienvenido de nuevo! ¿Listo para continuar tu aventura?",
+    "ru": "С возвращением! Готов продолжить своё приключение?",
+    "zh": "欢迎回来！准备好继续你的冒险了吗？",
+    "ja": "おかえりなさい！冒険を続ける準備はできましたか？"
+  },
+  "assistant_new_quests": {
+    "pt": "Há {count} novas missões disponíveis!",
+    "en": "There are {count} new quests available!",
+    "es": "¡Hay {count} nuevas misiones disponibles!",
+    "ru": "Доступно {count} новых заданий!",
+    "zh": "有 {count} 个新的任务可以进行！",
+    "ja": "{count} 件の新しいクエストが利用可能です！"
+  },
+  "assistant_heroes_return": {
+    "pt": "Os heróis {heroes} retornaram da missão!",
+    "en": "The heroes {heroes} have returned from the quest!",
+    "es": "¡Los héroes {heroes} han regresado de la misión!",
+    "ru": "Герои {heroes} вернулись из задания!",
+    "zh": "英雄 {heroes} 已经从任务中归来！",
+    "ja": "英雄 {heroes} がクエストから戻ってきました！"
+  },
+  "assistant_level_up": {
+    "pt": "{hero} subiu para o nível {level}!",
+    "en": "{hero} leveled up to {level}!",
+    "es": "¡{hero} subió al nivel {level}!",
+    "ru": "{hero} повысил уровень до {level}!",
+    "zh": "{hero} 升到了 {level} 级！",
+    "ja": "{hero} はレベル {level} に上がりました！"
+  },
+  "assistant_game_start": {
+    "pt": "Bem-vindo de volta! Vamos começar a aventura.",
+    "en": "Welcome back! Let’s begin the adventure.",
+    "es": "¡Bienvenido de nuevo! Comencemos la aventura.",
+    "ru": "С возвращением! Давайте начнём приключение.",
+    "zh": "欢迎回来！让我们开始冒险吧。",
+    "ja": "おかえりなさい！冒険を始めましょう。"
   }
 }
