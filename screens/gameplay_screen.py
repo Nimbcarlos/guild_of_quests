@@ -6,18 +6,18 @@ from kivy.uix.scrollview import ScrollView
 from kivy.uix.popup import Popup
 from kivy.uix.image import Image
 from kivy.clock import Clock
+from kivy.uix.textinput import TextInput
+from kivy.app import App
+from kivy.core.window import Window
 from kivy.properties import StringProperty
 from functools import partial
 from core.quest_manager import QuestManager
 from core.quest_success_calculator import calculate_success_chance
-from kivy.app import App
-from kivy.core.window import Window
-import core.save_manager as save
-from screens.dialog_box import DialogueBox
-from kivy.uix.textinput import TextInput
-import re
 from core.dialogue_manager import DialogueManager
 from core.language_manager import LanguageManager
+from screens.dialog_box import DialogueBox
+import core.save_manager as save
+import re
 
 
 class GameplayScreen(Screen):

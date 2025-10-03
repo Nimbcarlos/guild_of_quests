@@ -198,6 +198,12 @@ class QuestManager:
 
     def get_available_quests(self):
         """Retorna as quests disponíveis (usa a lógica já existente)"""
+        quests = self.available_quests()
+
+            # --- Novo: dispara fala do assistente ---
+        if hasattr(self, "assistant") and self.assistant:
+            self.assistant.notify_new_quests(quests, self.dialog_callback)
+
         return self.available_quests()
 
     # dentro de core/quest_manager.py (método advance_turn)
