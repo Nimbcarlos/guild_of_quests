@@ -237,6 +237,127 @@
                     size_hint_y: None
                     height: self.minimum_height
 
+
+<SettingsScreen>:
+    name: "settings"
+    BoxLayout:
+        orientation: "vertical"
+        padding: 20
+        spacing: 20
+        canvas.before:
+            Rectangle:
+                source: "assets/background_ls.png"
+                size: self.size
+                pos: self.pos
+
+        Label:
+            text: "⚙️ Configurações"
+            font_size: 32
+            size_hint_y: None
+            height: 50
+            color: 0, 0, 0, 1
+
+        BoxLayout:
+            orientation: "vertical"
+            spacing: 15
+
+            # Idioma
+            BoxLayout:
+                orientation: "horizontal"
+                size_hint_y: None
+                height: 40
+                Label:
+                    text: "Idioma:"
+                    size_hint_x: 0.4
+                    color: 0,0,0,1
+                Spinner:
+                    id: lang_spinner
+                    text: root.current_language
+                    values: ["pt", "en", "es", "ru", "zh", "ja"]
+                    size_hint_x: 0.6
+                    on_text: root.set_language(self.text)
+
+            # Tela
+            BoxLayout:
+                orientation: "horizontal"
+                size_hint_y: None
+                height: 40
+                Label:
+                    text: "Tamanho da tela:"
+                    size_hint_x: 0.4
+                    color: 0,0,0,1
+                Spinner:
+                    id: screen_size_spinner
+                    text: root.screen_mode
+                    values: ["Janela", "Fullscreen"]
+                    size_hint_x: 0.6
+                    on_text: root.set_screen_mode(self.text)
+                Label:
+                    text: "Tamanho da tela"
+                Spinner:
+                    text: f"{root.screen_size[0]}x{root.screen_size[1]}"
+                    values: [f"{w}x{h}" for w, h in root.available_sizes]
+                    on_text: 
+                        root.set_screen_size([int(self.text.split('x')[0]), int(self.text.split('x')[1])])
+
+
+            # Volume música
+            BoxLayout:
+                orientation: "horizontal"
+                size_hint_y: None
+                height: 40
+                Label:
+                    text: "Volume música:"
+                    size_hint_x: 0.4
+                    color: 0,0,0,1
+                Slider:
+                    id: music_slider
+                    min: 0
+                    max: 100
+                    value: root.music_volume
+                    size_hint_x: 0.6
+                    on_value: root.set_music_volume(self.value)
+
+            # Volume UI
+            BoxLayout:
+                orientation: "horizontal"
+                size_hint_y: None
+                height: 40
+                Label:
+                    text: "Volume sons UI:"
+                    size_hint_x: 0.4
+                    color: 0,0,0,1
+                Slider:
+                    id: ui_slider
+                    min: 0
+                    max: 100
+                    value: root.ui_volume
+                    size_hint_x: 0.6
+                    on_value: root.set_ui_volume(self.value)
+
+            # Mute
+            BoxLayout:
+                orientation: "horizontal"
+                size_hint_y: None
+                height: 40
+                Label:
+                    text: "Mute música:"
+                    size_hint_x: 0.4
+                    color: 0,0,0,1
+                CheckBox:
+                    id: mute_music
+                    active: root.music_muted
+                    on_active: root.set_music_mute(self.active)
+
+        Button:
+            text: "⬅️ Voltar"
+            size_hint_y: None
+            height: 50
+            on_release:
+                app.root.current = "menu"
+
+
+
 <Button>:
     background_normal: "assets/buttons/button.png"
     background_down: "assets/buttons/button.png"

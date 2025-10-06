@@ -107,8 +107,8 @@ class MenuScreen(Screen):
         # finalmente troca para gameplay (sempre)
         self.manager.current = "gameplay"
 
-    def open_settings(self, *args):
-        print("Abrir configurações (a implementar)")
+    def open_settings(self):
+        self.manager.current = "settings"
 
     def exit_game(self, *args):
         from kivy.app import App
