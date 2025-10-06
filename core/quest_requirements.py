@@ -62,13 +62,10 @@ def check_not_active(quest, manager) -> bool:
     return quest.id not in manager.active_quests
 
 
-def check_expired_quests(quest, manager):
-    """
-    Processa a lista inteira e move quests que deveriam ter sido iniciadas para failed.
-    """
+def process_expired_quests(manager):
+    """Processa a lista inteira e move quests expiradas para failed."""
     expired = []
     for quest in manager.quests:
-        # Ignora se já está em andamento, completada ou falhada.
         if quest.id in manager.active_quests or \
            quest.id in manager.completed_quests or \
            quest.id in manager.failed_quests:
@@ -78,4 +75,11 @@ def check_expired_quests(quest, manager):
             manager.failed_quests.add(quest.id)
             expired.append(quest)
             manager._log(manager.lm.t("quest_expired").format(quest=quest.name))
-    return quest.id not in manager.active_quests
+
+    if expired:
+        names = [q.name for q in expired]
+        manager.assistant.on_quests_expired(names)
+
+def check_expired_quests(quest, manager):
+    """Retorna False se a quest estiver expirada."""
+    return not quest.is_expired(manager.current_turn)

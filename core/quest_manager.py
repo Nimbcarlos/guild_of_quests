@@ -13,6 +13,7 @@ from core.quest_requirements import (
     check_not_active,
     check_expired_quests,
     check_available_turn,
+    process_expired_quests,
 )
 
 # NOTE: agora QuestManager aceita um LanguageManager opcional para traduzir mensagens de log.
@@ -118,39 +119,42 @@ class QuestManager:
         return self.lm.t("mission_started")
 
     def resolve_quest(self, quest_id: int, data):
-        """
-        Conclui a missão após os turnos terminarem.
-        """
+        self.pending_level_ups = []
+        
         heroes = data["heroes"]
         quest = self.get_quest(quest_id)
 
         if quest is None:
-            # Não deveria acontecer, mas loga e retorna
             self._log(self.lm.t("quest_not_found_on_resolve").format(id=quest_id))
             return
 
         success_chance = calculate_success_chance(heroes, quest)
         result = run_mission_roll(success_chance)
-
-        # considerar strings resultado locais? run_mission_roll retorna string interna;
-        # Mapeamos os resultados para chaves se necessário mais adiante.
         success_values = {"Sucesso", "Crítico", "Success", "Critical"}
 
         if result in success_values:
             xp_reward = quest.rewards.get("xp", 0)
 
-            # Garante que a quest existe no dict
             if quest.id not in self.completed_quests:
                 self.completed_quests[quest.id] = set()
 
             for hero in heroes:
-                # hero é objeto; se tiver add_xp
-                try:
-                    hero.add_xp(xp_reward)
-                except Exception:
-                    pass
+                # Guarda o nível antes de ganhar XP
+                old_level = hero.level
+
+                # Adiciona XP
+                hero.add_xp(xp_reward)
+                new_level = hero.level
+
+                # Log do XP ganho
                 self._log(self.lm.t("hero_gained_xp").format(hero=hero.name, xp=xp_reward))
-                # Marca que este herói específico completou a quest
+
+                # 🔥 Se subiu de nível
+                if new_level > old_level:
+                    self._log(self.lm.t("hero_leveled_up").format(hero=hero.name, level=new_level))
+                    self.pending_level_ups.append((hero.name, new_level))  # <<< guarda pra depois
+
+                # Marca como completado
                 self.completed_quests[quest.id].add(hero.id)
 
             self._log(self.lm.t("quest_completed").format(name=quest.name, result=result))
@@ -166,35 +170,44 @@ class QuestManager:
         self._log(self.lm.t("success_chance").format(pct=success_chance))
         self._log(self.lm.t("result_text").format(result=result))
 
-        # Reseta status dos heróis (se objetos)
+        # Reseta status dos heróis
         for hero in heroes:
             try:
                 hero.status = "idle"
             except Exception:
                 pass
 
-        # Callback de diálogo
+        # Callback de diálogo (resultado pós-quest)
         if self.dialog_callback:
             self.dialog_callback(heroes, quest.id, result)
+            if self.assistant:
+                for hero_name, level in self.pending_level_ups:
+                    self.assistant.speak("assistant_level_up", hero=hero_name, level=level)
 
     # -------------------- Quests Disponíveis --------------------
     def available_quests(self):
         """Retorna lista de quests disponíveis (passando em todos os requisitos)."""
+        # Primeiro, processa e remove quests expiradas antes de calcular as disponíveis
+        process_expired_quests(self)
+
         quests_list = []
         new_quests = 0
 
         for q in self.quests:
+            # Ignora se já estiver concluída, falhada ou ativa
             if q.id in self.completed_quests or q.id in self.failed_quests or q.id in self.active_quests:
                 continue
 
+            # Passa em todos os requisitos?
             if all(check(q, self) for check in self.requirement_checks):
+                # Primeira vez que ficou disponível — registra o turno
                 if getattr(q, "available_since_turn", None) is None:
                     q.available_since_turn = self.current_turn
-                    new_quests += 1  # primeira vez que fica disponível
+                    new_quests += 1  # conta como nova quest liberada
 
                 quests_list.append(q)
 
-        # 🚨 Chama assistente se houver novidades
+        # 🚨 Chama assistente se houver novas quests liberadas
         if new_quests > 0 and self.assistant:
             if self.assistant.dialogue_box:
                 self.assistant.on_new_quests(new_quests)

@@ -52,3 +52,7 @@ class AssistantManager:
             self.first_time = False
         else:
             self.speak("assistant_welcome_back")
+
+    def on_quests_expired(self, quest_names):
+        self.speak("assistant_quest_expired", quests=", ".join(quest_names))
+        # self.speak("assistant_quest_expired", quests=quest_names)

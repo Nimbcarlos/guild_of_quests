@@ -414,5 +414,13 @@
     "ru": "С возвращением! Давайте начнём приключение.",
     "zh": "欢迎回来！让我们开始冒险吧。",
     "ja": "おかえりなさい！冒険を始めましょう。"
+  },
+  "assistant_quest_expired": {
+    "pt": "As missões {quests} expiraram! Precisamos ser mais rápidos da próxima vez.",
+    "en": "The quests {quests} have expired! We need to act faster next time.",
+    "es": "¡Las misiones {quests} han expirado! Debemos actuar más rápido la próxima vez.",
+    "ru": "Задания {quests} истекли! В следующий раз нужно действовать быстрее.",
+    "zh": "任务 {quests} 已过期！下次我们要更快行动。",
+    "ja": "クエスト {quests} の期限が切れました！次はもっと早く行動しましょう。"
   }
 }
