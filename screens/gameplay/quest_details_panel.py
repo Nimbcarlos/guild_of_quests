@@ -1,200 +1,190 @@
+# screens/gameplay/quest_details_panel.py
 import customtkinter as ctk
-# Removendo import de tkinter.messagebox para evitar dependências mistas.
-# from tkinter import messagebox 
+from core.quest_success_calculator import calculate_success_chance
+
 
 class QuestDetailsPanel(ctk.CTkFrame):
-    def __init__(self, master, quest_manager, language_manager):
-        super().__init__(master, corner_radius=12)
-        self.qm = quest_manager
+    """Painel central com detalhes da quest e seleção de heróis"""
+    
+    def __init__(self, parent, language_manager, quest_manager, on_hero_details_click):
+        super().__init__(parent)
         self.lm = language_manager
-        self.selected_quest = None
-        self.selected_heroes = []
-
-        # 🏷️ Título
-        self.title_label = ctk.CTkLabel(
+        self.qm = quest_manager
+        self.on_hero_details_click = on_hero_details_click
+        self.pending_assignments = {}
+        self.current_quest = None
+        self.success_label = None
+        
+        self.build_ui()
+    
+    def build_ui(self):
+        """Constrói o painel"""
+        ctk.CTkLabel(
             self,
-            text="Detalhes da Missão",
-            font=("Segoe UI", 20, "bold"),
-            text_color="#FFD700",
+            text="📋 Detalhes da Quest",
+            font=ctk.CTkFont(size=14, weight="bold")
+        ).pack(pady=(5, 5))
+        
+        self.content_frame = ctk.CTkScrollableFrame(self)
+        self.content_frame.pack(fill="both", expand=True, padx=5, pady=(0, 5))
+    
+    def show_quest(self, quest):
+        """Mostra detalhes de uma quest"""
+        self.current_quest = quest
+        
+        # Limpa o painel
+        for widget in self.content_frame.winfo_children():
+            widget.destroy()
+        
+        self.pending_assignments[quest.id] = []
+        self.qm.hero_manager.check_hero_unlocks(
+            self.qm.completed_quests, 
+            self.qm.current_turn
         )
-        self.title_label.pack(pady=(10, 5))
-
-        # 📜 Área de texto com a descrição da quest
-        self.description_box = ctk.CTkTextbox(
-            self,
-            wrap="word",
-            width=500,
-            height=150,
-            font=("Segoe UI", 14),
-            fg_color="#1e1e1e",
-            text_color="#ffffff",
+        
+        # Título da quest
+        ctk.CTkLabel(
+            self.content_frame,
+            text=quest.name,
+            font=ctk.CTkFont(size=24, weight="bold")
+        ).pack(pady=10)
+        
+        # Tipo e dificuldade
+        ctk.CTkLabel(
+            self.content_frame,
+            text=f"{self.lm.t('type_label')}: {quest.type} | {self.lm.t('difficulty_label')}: {quest.difficulty}"
+        ).pack(pady=5)
+        
+        # Descrição
+        desc_label = ctk.CTkLabel(
+            self.content_frame,
+            text=quest.description,
+            wraplength=400,
+            justify="left"
         )
-        self.description_box.pack(padx=15, pady=5, fill="both", expand=True)
-        self.description_box.insert("end", "Selecione uma missão para ver os detalhes.")
-        self.description_box.configure(state="disabled")
-
-        # 👥 Área de seleção de heróis
-        self.heroes_frame = ctk.CTkFrame(self, fg_color="#2b2b2b", corner_radius=8)
-        self.heroes_frame.pack(pady=10, fill="x", padx=10)
-
-        self.heroes_label = ctk.CTkLabel(
-            self.heroes_frame,
-            text="Heróis Selecionados: Nenhum",
-            font=("Segoe UI", 14, "italic"),
-            text_color="#AAAAAA",
+        desc_label.pack(pady=10, padx=10)
+        
+        # Taxa de sucesso
+        self.success_label = ctk.CTkLabel(
+            self.content_frame,
+            text=f"{self.lm.t('success_rate')}: --%",
+            font=ctk.CTkFont(size=14, weight="bold")
         )
-        self.heroes_label.pack(pady=5)
-
-        # 🚀 Botão de iniciar missão
-        self.start_button = ctk.CTkButton(
-            self,
-            text="Iniciar Missão",
-            command=self.start_quest,
-            fg_color="#0078D7",
-            hover_color="#005A9E",
-            text_color="#FFFFFF",
-            font=("Segoe UI", 16, "bold"),
-            corner_radius=10,
+        self.success_label.pack(pady=10)
+        
+        # Heróis disponíveis
+        ctk.CTkLabel(
+            self.content_frame,
+            text=self.lm.t("available_heroes"),
+            font=ctk.CTkFont(size=16, weight="bold")
+        ).pack(pady=(20, 10))
+        
+        # Lista de heróis
+        available_heroes = self.qm.hero_manager.get_available_heroes()
+        
+        for hero in available_heroes:
+            self._create_hero_row(hero, quest)
+        
+        # Botão enviar para quest
+        send_btn = ctk.CTkButton(
+            self.content_frame,
+            text=self.lm.t("send_to_quest_btn"),
+            command=lambda: self._on_send_click(quest),
+            height=50,
+            font=ctk.CTkFont(size=16, weight="bold")
         )
-        self.start_button.pack(pady=15)
-
-        # ✅ Resultado (sucesso / falha)
-        self.result_label = ctk.CTkLabel(
-            self,
-            text="",
-            font=("Segoe UI", 16, "bold"),
-            text_color="#00FF7F",
+        send_btn.pack(pady=20, fill="x", padx=20)
+    
+    def _create_hero_row(self, hero, quest):
+        """Cria uma linha com info do herói"""
+        hero_frame = ctk.CTkFrame(self.content_frame)
+        hero_frame.pack(fill="x", padx=10, pady=5)
+        
+        # Grid para organizar info do herói
+        hero_frame.grid_columnconfigure(0, weight=0)  # Foto
+        hero_frame.grid_columnconfigure(1, weight=1)  # Nome
+        hero_frame.grid_columnconfigure(2, weight=1)  # Classe
+        hero_frame.grid_columnconfigure(3, weight=1)  # Level
+        hero_frame.grid_columnconfigure(4, weight=0)  # Botão detalhes
+        hero_frame.grid_columnconfigure(5, weight=0)  # Botão selecionar
+        
+        # Foto (placeholder)
+        photo_label = ctk.CTkLabel(hero_frame, text="👤", font=ctk.CTkFont(size=24))
+        photo_label.grid(row=0, column=0, padx=5)
+        
+        # Nome
+        ctk.CTkLabel(hero_frame, text=hero.name).grid(row=0, column=1, padx=5, sticky="w")
+        
+        # Classe
+        ctk.CTkLabel(
+            hero_frame,
+            text=f"{self.lm.t('class')}: {getattr(hero, 'hero_class', 'Unknown')}"
+        ).grid(row=0, column=2, padx=5, sticky="w")
+        
+        # Level
+        ctk.CTkLabel(
+            hero_frame,
+            text=f"{self.lm.t('lvl_prefix')} {getattr(hero, 'level', 1)}"
+        ).grid(row=0, column=3, padx=5, sticky="w")
+        
+        # Botão detalhes
+        details_btn = ctk.CTkButton(
+            hero_frame,
+            text="🔍",
+            width=40,
+            command=lambda: self.on_hero_details_click(hero)
         )
-        self.result_label.pack(pady=(5, 15))
-
-    # =====================================================
-    # Funções públicas chamadas pelo GameplayScreen
-    # =====================================================
-
-    def display_quest(self, quest):
-        """Mostra os detalhes de uma missão selecionada."""
-        self.selected_quest = quest
-        self.selected_heroes = []
-
-        self.description_box.configure(state="normal")
-        self.description_box.delete("1.0", "end")
-        self.description_box.insert(
-            "end",
-            f"{quest.name}\n\n"
-            f"Dificuldade: {quest.difficulty}\n"
-            f"Recompensa: {quest.reward}\n\n"
-            f"{quest.description}"
+        details_btn.grid(row=0, column=4, padx=5)
+        
+        # Botão selecionar
+        select_btn = ctk.CTkButton(
+            hero_frame,
+            text=self.lm.t('select'),
+            width=100,
+            command=lambda: self._toggle_hero_selection(quest, hero)
         )
-        self.description_box.configure(state="disabled")
-
-        self.heroes_label.configure(text="Heróis Selecionados: Nenhum")
-        self.result_label.configure(text="")
-
-    def update_hero_selection(self, selected_heroes):
-        """Atualiza a lista de heróis mostrada no painel."""
-        self.selected_heroes = selected_heroes
-        if selected_heroes:
-            names = ", ".join(hero.name for hero in selected_heroes)
-            self.heroes_label.configure(text=f"Heróis Selecionados: {names}")
+        select_btn.grid(row=0, column=5, padx=5)
+    
+    def _toggle_hero_selection(self, quest, hero):
+        """Seleciona/deseleciona herói para a quest"""
+        if quest.id not in self.pending_assignments:
+            self.pending_assignments[quest.id] = []
+        
+        if hero.id in self.pending_assignments[quest.id]:
+            self.pending_assignments[quest.id].remove(hero.id)
+            self.qm._log(self.lm.t("hero_removed").format(hero=hero.name, quest=quest.name))
         else:
-            self.heroes_label.configure(text="Heróis Selecionados: Nenhum")
-
-    def start_quest(self):
-        """Envia heróis para missão."""
-        if not self.selected_quest:
-            # Substituído messagebox por chamada ao log/assistente (melhor prática em ctk)
-            print("Aviso: Selecione uma missão primeiro!") 
-            # Alternativamente, chamar self.master.show_assistant_message("Selecione uma missão primeiro!")
+            self.pending_assignments[quest.id].append(hero.id)
+            self.qm._log(self.lm.t("hero_added").format(hero=hero.name, quest=quest.name))
+        
+        self._update_success_label(quest)
+    
+    def _update_success_label(self, quest):
+        """Atualiza a taxa de sucesso"""
+        hero_ids = self.pending_assignments.get(quest.id, [])
+        heroes = [self.qm.get_hero(hid) for hid in hero_ids if self.qm.get_hero(hid)]
+        
+        if not heroes:
+            self.success_label.configure(text=f"{self.lm.t('success_rate')}: --%")
             return
-
-        if not self.selected_heroes:
-            # Substituído messagebox por chamada ao log/assistente (melhor prática em ctk)
-            print("Aviso: Selecione pelo menos um herói!")
+        
+        chance = calculate_success_chance(heroes, quest)
+        self.success_label.configure(text=f"{self.lm.t('success_rate')}: {chance*100:.0f}%")
+    
+    def _on_send_click(self, quest):
+        """Handler do botão enviar"""
+        hero_ids = self.pending_assignments.get(quest.id, [])
+        if not hero_ids:
+            self.qm._log("⚠️ Nenhum herói selecionado para esta missão.")
             return
-
-        # Chamada segura, assumindo que self.qm.start_quest(quest, heroes) existe
-        result = self.qm.start_quest(self.selected_quest, self.selected_heroes) 
-
-        # Atualiza o resultado
-        if result.get("success"):
-            self.result_label.configure(text="Missão Concluída com Sucesso!", text_color="#00FF7F")
-        else:
-            self.result_label.configure(text="Missão Falhou!", text_color="#FF5555")
-
-        # Mostra o resultado narrativo no painel de diálogo
-        # Assumindo que o master é o GameplayScreen e possui o método open_dialog
-        if hasattr(self.master, "open_dialog"): 
-            self.master.open_dialog(self.selected_heroes, self.selected_quest, result)
-
-    def clear_panel(self):
-        """Limpa o painel de detalhes."""
-        self.selected_quest = None
-        self.selected_heroes = []
-        self.description_box.configure(state="normal")
-        self.description_box.delete("1.0", "end")
-        self.description_box.insert("end", "Selecione uma missão para ver os detalhes.")
-        self.description_box.configure(state="disabled")
-        self.heroes_label.configure(text="Heróis Selecionados: Nenhum")
-        self.result_label.configure(text="")
-
-    def display_quest(self, quest):
-        """Mostra os detalhes de uma missão selecionada."""
-        self.selected_quest = quest
-        self.selected_heroes = []
-
-        self.description_box.configure(state="normal")
-        self.description_box.delete("1.0", "end")
-        self.description_box.insert(
-            "end",
-            f"{quest.name}\n\n"
-            f"Dificuldade: {quest.difficulty}\n"
-            f"Recompensa: {quest.reward}\n\n"
-            f"{quest.description}"
-        )
-        self.description_box.configure(state="disabled")
-        self.heroes_label.configure(text="Heróis Selecionados: Nenhum")
-        self.result_label.configure(text="")
-
-    def update_hero_selection(self, selected_heroes):
-        """Atualiza a lista de heróis mostrada no painel."""
-        self.selected_heroes = selected_heroes
-        if selected_heroes:
-            names = ", ".join(hero.name for hero in selected_heroes)
-            self.heroes_label.configure(text=f"Heróis Selecionados: {names}")
-        else:
-            self.heroes_label.configure(text="Heróis Selecionados: Nenhum")
-
-    def start_quest(self):
-        """Envia heróis para a quest usando o QuestManager."""
-        if not self.selected_quest:
-            print("Selecione uma missão primeiro!")
-            return
-        if not self.selected_heroes:
-            print("Selecione pelo menos um herói!")
-            return
-
-        # Aqui usamos o QuestManager
-        hero_ids = [hero.id for hero in self.selected_heroes]
-        result = self.qm.send_heroes_on_quest(self.selected_quest.id, hero_ids)
-
-        # Atualiza o resultado visual
-        success = "sucesso" in result.lower() or "started" in result.lower()
-        if success:
-            self.result_label.configure(text="Missão Concluída com Sucesso!", text_color="#00FF7F")
-        else:
-            self.result_label.configure(text="Missão Falhou!", text_color="#FF5555")
-
-        # Dispara diálogo via callback do GameplayScreen
-        if hasattr(self.master, "open_dialog"):
-            self.master.open_dialog(self.selected_heroes, self.selected_quest, result)
-
-    def clear_panel(self):
-        """Limpa o painel de detalhes."""
-        self.selected_quest = None
-        self.selected_heroes = []
-        self.description_box.configure(state="normal")
-        self.description_box.delete("1.0", "end")
-        self.description_box.insert("end", "Selecione uma missão para ver os detalhes.")
-        self.description_box.configure(state="disabled")
-        self.heroes_label.configure(text="Heróis Selecionados: Nenhum")
-        self.result_label.configure(text="")
+        
+        heroes = [self.qm.get_hero(hid) for hid in hero_ids if self.qm.get_hero(hid)]
+        
+        # Mostra diálogo inicial (será implementado no gameplay_screen)
+        if hasattr(self, 'on_start_quest'):
+            self.on_start_quest(quest, heroes)
+    
+    def clear(self):
+        """Limpa o painel"""
+        for widget in self.content_frame.winfo_children():
+            widget.destroy()

@@ -1,116 +1,123 @@
+# screens/gameplay/pause_menu.py
 import customtkinter as ctk
 
-class PauseMenu(ctk.CTkToplevel):
-    """
-    Menu de pausa modal, implementado como CTkToplevel.
-    Adiciona opções de Salvar, Carregar e Voltar ao Menu.
-    """
-    def __init__(self, master, quest_manager, language_manager, 
-                 save_callback=None, load_callback=None, back_to_menu_callback=None):
-        
-        super().__init__(master)
-        self.qm = quest_manager
-        self.lm = language_manager
-        
-        # Referências aos callbacks
-        self.save_callback = save_callback
-        self.load_callback = load_callback
-        self.back_to_menu_callback = back_to_menu_callback
 
-        self.title("Menu de Pausa")
-        self.geometry("400x450")
-        
-        # Configura a janela como modal
-        self.transient(master)
-        self.grab_set()
-        
-        # Adiciona um handler para o botão de fechar (X) da janela
-        self.protocol("WM_DELETE_WINDOW", self.close_menu)
-
-        self.build_ui()
-
-    def build_ui(self):
-        """Constrói os elementos de interface do menu."""
-        
-        # Frame central para layout (garante espaçamento uniforme)
-        main_frame = ctk.CTkFrame(self, fg_color="transparent")
-        main_frame.pack(fill="both", expand=True, padx=20, pady=20)
-        
-        ctk.CTkLabel(main_frame, 
-                     text="JOGO PAUSADO", 
-                     font=("Segoe UI", 24, "bold"),
-                     text_color="#FFD700"
-        ).pack(pady=(10, 30))
-
-        # --- Botões de Ação ---
-
-        # Continuar
-        ctk.CTkButton(main_frame, 
-                      text=self.lm.get_string("continue_game"), # Usando get_string do LanguageManager
-                      command=self.close_menu,
-                      fg_color="#0078D7",
-                      hover_color="#005A9E",
-                      height=50
-        ).pack(fill="x", pady=10)
-
-        # Salvar
-        ctk.CTkButton(main_frame, 
-                      text=self.lm.get_string("save_game"),
-                      command=self.save_game_and_close,
-                      height=50
-        ).pack(fill="x", pady=10)
-
-        # Carregar
-        ctk.CTkButton(main_frame, 
-                      text=self.lm.get_string("load_game"),
-                      command=self.load_game_and_close,
-                      height=50
-        ).pack(fill="x", pady=10)
-
-        # Voltar ao Menu Principal
-        ctk.CTkButton(main_frame, 
-                      text=self.lm.get_string("back_to_menu"),
-                      command=self.back_to_menu_and_close,
-                      height=50
-        ).pack(fill="x", pady=(20, 10))
-
-        # Sair do Jogo (Quitar)
-        # Assumindo que o master (GameplayScreen) tem acesso ao master do App (GameApp) via master.master
-        ctk.CTkButton(main_frame, 
-                      text=self.lm.get_string("quit_game"),
-                      command=self.master.master.quit,
-                      fg_color="#CC0000",
-                      hover_color="#A00000",
-                      height=50
-        ).pack(fill="x", pady=10)
-        
-    # ==========================
-    # Funções de Callback e Fechamento
-    # ==========================
+class PauseMenu:
+    """Menu de pausa sobreposto na tela"""
     
-    def save_game_and_close(self):
-        """Executa callback de salvar e fecha o menu."""
-        if self.save_callback:
-            self.save_callback()
-        self.close_menu()
+    def __init__(self, parent, language_manager, app):
+        self.parent = parent
+        self.lm = language_manager
+        self.app = app
+        self.overlay = None
+        self.on_save_callback = None
+    
+    def show(self, on_save_callback=None):
+        """Mostra o menu de pausa"""
+        if self.overlay:
+            self.hide()
+            return
         
-    def load_game_and_close(self):
-        """Executa callback de carregar e fecha o menu."""
-        if self.load_callback:
-            self.load_callback()
-        self.close_menu()
-
-    def back_to_menu_and_close(self):
-        """Executa callback de voltar ao menu e fecha o menu."""
-        if self.back_to_menu_callback:
-            self.back_to_menu_callback()
-        self.close_menu()
-
-    def close_menu(self):
-        """Fecha o menu de pausa e libera o foco."""
-        # Se a referência ao menu ainda estiver no master (GameplayScreen), a remove
-        if self.master.pause_menu == self:
-            self.master.pause_menu = None
-            
-        self.grab_release()
-        self.destroy()
+        self.on_save_callback = on_save_callback
+        
+        # Overlay semi-transparente de fundo
+        self.overlay = ctk.CTkFrame(
+            self.parent,
+            fg_color=("#000000", "#000000"),
+            width=1200,
+            height=800
+        )
+        self.overlay.place(relx=0, rely=0, relwidth=1, relheight=1)
+        
+        # Frame do menu centralizado
+        menu_frame = ctk.CTkFrame(
+            self.overlay,
+            width=350,
+            height=450,
+            corner_radius=15,
+            border_width=2,
+            border_color=("#666666", "#444444")
+        )
+        menu_frame.place(relx=0.5, rely=0.5, anchor="center")
+        
+        # Título
+        title_label = ctk.CTkLabel(
+            menu_frame,
+            text=f"⏸️ {self.lm.t('pause_menu_title')}",
+            font=ctk.CTkFont(size=24, weight="bold")
+        )
+        title_label.pack(pady=(20, 30))
+        
+        btn_config = {"width": 280, "height": 50, "font": ctk.CTkFont(size=14)}
+        
+        # Continuar (fecha o menu)
+        ctk.CTkButton(
+            menu_frame,
+            text="▶️ Continuar",
+            command=self.hide,
+            fg_color="#2e7d32",
+            hover_color="#1b5e20",
+            **btn_config
+        ).pack(pady=8)
+        
+        # Salvar
+        ctk.CTkButton(
+            menu_frame,
+            text=f"💾 {self.lm.t('save_game')}",
+            command=self._on_save_click,
+            **btn_config
+        ).pack(pady=8)
+        
+        # Carregar
+        ctk.CTkButton(
+            menu_frame,
+            text=f"📂 {self.lm.t('load_game')}",
+            command=self._on_load_click,
+            **btn_config
+        ).pack(pady=8)
+        
+        # Menu
+        ctk.CTkButton(
+            menu_frame,
+            text=f"🏠 {self.lm.t('back_to_menu')}",
+            command=self._on_menu_click,
+            fg_color="gray40",
+            hover_color="gray30",
+            **btn_config
+        ).pack(pady=8)
+        
+        # Sair
+        ctk.CTkButton(
+            menu_frame,
+            text=f"🚪 {self.lm.t('quit_game')}",
+            command=self.app.quit,
+            fg_color="#d32f2f",
+            hover_color="#b71c1c",
+            **btn_config
+        ).pack(pady=8)
+        
+        # Bind ESC para fechar o menu
+        self.overlay.bind("<Escape>", lambda e: self.hide())
+        self.overlay.focus_set()
+    
+    def hide(self):
+        """Fecha o menu de pausa"""
+        if self.overlay:
+            self.overlay.destroy()
+            self.overlay = None
+    
+    def _on_save_click(self):
+        """Handler do botão Salvar"""
+        self.hide()
+        if self.on_save_callback:
+            self.on_save_callback()
+    
+    def _on_load_click(self):
+        """Handler do botão Carregar"""
+        self.hide()
+        self.app.show_screen("loadgame")
+    
+    def _on_menu_click(self):
+        """Handler do botão Menu"""
+        self.hide()
+        self.app.show_screen("menu")

@@ -14,7 +14,7 @@ class GameApp(ctk.CTk):
         
         # Configurações da janela
         self.title("Quest Manager Game")
-        self.geometry("1200x800")
+        self.geometry("800x600")
         
         # Tema (dark/light)
         ctk.set_appearance_mode("light")
