@@ -1,13 +1,19 @@
+from kivy.config import Config
+
+# Set the window to be non-resizable
+Config.set('graphics', 'resizable', '0') 
+
+# Set the desired fixed width and height
+Config.set('graphics', 'width', '800')  # Example width
+Config.set('graphics', 'height', '600') # Example height
+
+# Import your Kivy app and run it after the configuration
 from kivy.app import App
-from kivy.uix.floatlayout import FloatLayout
-from kivy.uix.button import Button
+from kivy.uix.label import Label
 
-class ImageButtonLayout(FloatLayout):
-    pass
-
-class ImageButtonApp(App):
+class FixedSizeApp(App):
     def build(self):
-        return ImageButtonLayout()
+        return Label(text='This is a fixed-size window!')
 
 if __name__ == '__main__':
-    ImageButtonApp().run()
+    FixedSizeApp().run()
