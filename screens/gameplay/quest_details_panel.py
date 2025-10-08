@@ -21,7 +21,7 @@ class QuestDetailsPanel(ctk.CTkFrame):
         """Constrói o painel"""
         ctk.CTkLabel(
             self,
-            text="📋 Detalhes da Quest",
+            text=f"📋 {self.lm.t('quest_details')}",
             font=ctk.CTkFont(size=14, weight="bold")
         ).pack(pady=(5, 5))
         

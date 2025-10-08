@@ -422,5 +422,37 @@
     "ru": "Задания {quests} истекли! В следующий раз нужно действовать быстрее.",
     "zh": "任务 {quests} 已过期！下次我们要更快行动。",
     "ja": "クエスト {quests} の期限が切れました！次はもっと早く行動しましょう。"
+  },
+  "quest_details": {
+    "pt": "Detalhes da Missão",
+    "en": "Quest Details",
+    "es": "Detalles de la Misión",
+    "ru": "Подробности квеста",
+    "zh": "任务详情",
+    "ja": "クエストの詳細"
+  },
+  "attribute": {
+    "pt": "Atributo",
+    "en": "Attribute",
+    "es": "Atributo",
+    "ru": "Атрибут",
+    "zh": "属性",
+    "ja": "属性"
+  },
+  "story": {
+    "pt": "História",
+    "en": "Story",
+    "es": "Historia",
+    "ru": "История",
+    "zh": "故事",
+    "ja": "ストーリー"
+  },
+  "close": {
+    "pt": "Fechar",
+    "en": "Close",
+    "es": "Cerrar",
+    "ru": "Закрыть",
+    "zh": "关闭",
+    "ja": "閉じる"
   }
 }

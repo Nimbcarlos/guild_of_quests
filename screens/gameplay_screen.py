@@ -81,16 +81,7 @@ class GameplayScreen(ctk.CTkFrame):
             width=150
         )
         advance_btn.pack(side="right", padx=20)
-        
-        pause_btn = ctk.CTkButton(
-            self.turn_frame,
-            text="⏸ Pause (ESC)",
-            command=self.toggle_pause_menu,
-            width=120,
-            fg_color="gray40"
-        )
-        pause_btn.pack(side="right", padx=5)
-        
+     
         # ==================== QUEST DETAILS PANEL ====================
         quest_container = ctk.CTkFrame(self)
         quest_container.grid(row=1, column=0, sticky="nsew", padx=(5, 2), pady=5)
@@ -328,7 +319,7 @@ class GameplayScreen(ctk.CTkFrame):
         class_frame.grid(row=0, column=0, padx=5, pady=5, sticky="ew")
         ctk.CTkLabel(
             class_frame,
-            text="⚔️ Classe",
+            text=f"⚔️{self.lm.t('class')}",
             font=ctk.CTkFont(size=12, weight="bold")
         ).pack(pady=2)
         ctk.CTkLabel(
@@ -342,7 +333,7 @@ class GameplayScreen(ctk.CTkFrame):
         level_frame.grid(row=0, column=1, padx=5, pady=5, sticky="ew")
         ctk.CTkLabel(
             level_frame,
-            text="⭐ Nível",
+            text=f"⭐ {self.lm.t('lvl_prefix')}",
             font=ctk.CTkFont(size=12, weight="bold")
         ).pack(pady=2)
         ctk.CTkLabel(
@@ -355,7 +346,7 @@ class GameplayScreen(ctk.CTkFrame):
         if hasattr(hero, "stats") and hero.stats:
             ctk.CTkLabel(
                 scroll_frame,
-                text="📊 Atributos",
+                text=f"📊 {self.lm.t('attribute')}",
                 font=ctk.CTkFont(size=16, weight="bold")
             ).pack(pady=(15, 10))
             
@@ -389,7 +380,7 @@ class GameplayScreen(ctk.CTkFrame):
         if hasattr(hero, "story") and hero.story:
             ctk.CTkLabel(
                 scroll_frame,
-                text="📜 História",
+                text=f"📜 {self.lm.t('story')}",
                 font=ctk.CTkFont(size=16, weight="bold")
             ).pack(pady=(15, 10))
             
@@ -406,7 +397,7 @@ class GameplayScreen(ctk.CTkFrame):
         # Botão fechar
         ctk.CTkButton(
             main_frame,
-            text="✖ Fechar",
+            text=f"✖ {self.lm.t('close')}",
             command=self.close_hero_details,
             width=200,
             height=40,
