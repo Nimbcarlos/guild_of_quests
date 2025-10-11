@@ -47,9 +47,9 @@ class Quest:
             f"Turnos Restantes: {self.remaining_turns}\n"
             f"Dificuldade: {self.difficulty}\n"
             f"Recompensas: {self.rewards}\n"
-            f"Pré-requisitos: {', '.join(self.required_quests) if self.required_quests else 'Nenhum'}"
-            f"Failed Quests: {', '.join(self.required_fail_quests) if self.required_fail_quests else 'Nenhum'}"
-            f"Required Heroes: {', '.join(self.required_heroes) if self.required_heroes else 'Nenhum'}"
+            f"Pré-requisitos: {', '.join(str(q) for q in self.required_quests) if self.required_quests else 'Nenhum'}"
+            f"Failed Quests: {', '.join(str(q) for q in self.required_fail_quests) if self.required_fail_quests else 'Nenhum'}"
+            f"Required Heroes: {', '.join(str(q) for q in self.required_heroes) if self.required_heroes else 'Nenhum'}"
             f"Iniciada no turno: {self.available_since_turn}"
         )
 

@@ -1,128 +1,87 @@
-# screens/gameplay/gameplay_screen.py
-import customtkinter as ctk
-from core.language_manager import LanguageManager
-from core.dialogue_manager import DialogueManager
-from screens.dialog_box import DialogueBox
-from screens.gameplay.sidebar_panel import SidebarPanel
-from screens.gameplay.quest_details_panel import QuestDetailsPanel
-from screens.gameplay.log_panel import LogPanel
-from screens.gameplay.pause_menu import PauseMenu
-from screens.gameplay.turn_bar import TurnBar
+import customtkinter
+from PIL import Image
 
-class GameplayScreen(ctk.CTkFrame):
-    def __init__(self, parent, app):
-        super().__init__(parent)
-        self.app = app
-        self.qm = app.quest_manager
-        self.lm = LanguageManager()
-        self.dm = DialogueManager()
-        self.dialog_box = DialogueBox(self.dm, self)
-        self.qm.set_dialog_callback(self.open_dialog)
-        self.qm.set_ui_callback(self.update_ui)
-        self.qm.set_log_callback(self.update_log)
+# Configurações iniciais do CustomTkinter
+customtkinter.set_appearance_mode("System")
+customtkinter.set_default_color_theme("blue")
 
-        self.build_ui()
-        self.pause_menu = PauseMenu(self, app, self.lm, self.qm)
-        self.bind("<Escape>", lambda e: self.pause_menu.open())
+class App(customtkinter.CTk):
+    def __init__(self):
+        super().__init__()
 
-    def build_ui(self):
-        """Monta o layout principal da tela"""
-        # Layout em grid
-        self.grid_columnconfigure(0, weight=3, minsize=500)
-        self.grid_columnconfigure(1, weight=1, minsize=250)
-        self.grid_rowconfigure(0, weight=0)
-        self.grid_rowconfigure(1, weight=2)
-        self.grid_rowconfigure(2, weight=1)
+        # --- Configuração da Janela ---
+        self.geometry("800x600")
+        self.title("Textbox Transparente sobre Imagem de Fundo")
 
-        # Linha 0: TurnBar (topo)
-        self.turn_bar = TurnBar(
+        # --- 1. Carregar e Exibir a Imagem de Fundo ---
+        # Substitua "assets/background_ls.png" pelo caminho correto da sua imagem
+        # Usamos um tratamento de erro caso a imagem local não seja encontrada.
+        
+        background_image = None
+        
+        try:
+            # Tenta carregar a imagem local
+            img = Image.open("assets/background_ls.png")
+            
+            # Ajusta o tamanho da imagem para a janela
+            bg_image = customtkinter.CTkImage(
+                light_image=img,
+                dark_image=img,
+                size=(800, 600)
+            )
+            
+            # Cria um CTkLabel para servir como fundo (preenche a janela inteira)
+            background_label = customtkinter.CTkLabel(self, text="", image=bg_image)
+            background_label.place(x=0, y=0, relwidth=1, relheight=1)
+            
+        except FileNotFoundError:
+            print("AVISO: Arquivo 'assets/background_ls.png' não encontrado. Usando cor de fundo padrão.")
+            self.configure(fg_color="#343638") # Cor de fundo padrão se a imagem não for encontrada
+
+        # --- 2. Criar o CTkTextbox Transparente ---
+        
+        # O CTkTextbox deve ser posicionado na parte inferior da tela, como uma caixa de diálogo
+        self.transparent_textbox = customtkinter.CTkTextbox(
             self,
-            self.qm,
-            self.lm,
-            on_advance=self.advance_turn,
-            on_pause=self.open_pause_menu
+            width=760,
+            height=150,
+            
+            # === CHAVES PARA A TRANSPARÊNCIA ===
+            # fg_color="transparent", 
+            border_width=0,          # Remove a borda padrão do Textbox
+            
+            # --- Configurações de Texto ---
+            font=customtkinter.CTkFont(family="Inter", size=16),
+            text_color="#000000",    # Cor clara para o texto, bom contraste com fundos escuros
+            wrap="word",             # Quebra de linha por palavra
+            
+            # --- Configurações do Scrollbar ---
+            scrollbar_button_color="#454545", # Cor discreta para o botão de rolagem
+            scrollbar_button_hover_color="#6A6A6A"
         )
-        self.turn_bar.grid(row=0, column=0, columnspan=2, sticky="ew", padx=5, pady=5)
-
-        # Linha 1: Quest details (esquerda)
-        self.quest_details = QuestDetailsPanel(
-            self,
-            quest_manager=self.qm,
-            language_manager=self.lm,
-            on_start_quest=self.start_quest
+        
+        # Posicionamento no centro inferior (simulando uma caixa de diálogo)
+        self.transparent_textbox.place(
+            relx=0.5,
+            rely=0.9,
+            anchor="center"
         )
-        self.quest_details.grid(row=1, column=0, sticky="nsew", padx=(5, 2), pady=5)
 
-        # Linha 1-2: Sidebar (direita)
-        self.sidebar = SidebarPanel(
-            self,
-            language_manager=self.lm,
-            on_quest_selected=self.show_quest_details
+        # --- 3. Inserir o Texto de Diálogo ---
+        dialogue_text = (
+            "Narrador: Onde os CustomTkinter Frames falham na transparência do canal alfa, "
+            "devemos ser criativos! Ao configurar o 'fg_color' do widget como 'transparent', "
+            "o fundo do widget desaparece, revelando o que está por baixo — neste caso, "
+            "a imagem de fundo do nosso jogo ('background_ls.png').\n\n"
+            "Personagem: Ah, então a ilusão de 'transparência real' é criada usando uma "
+            "imagem de fundo na janela principal e definindo a cor de primeiro plano do "
+            "nosso Textbox como transparente. Genial!"
         )
-        self.sidebar.grid(row=1, column=1, rowspan=2, sticky="nsew", padx=(2, 5), pady=5)
+        
+        # Desativa o estado de escrita para parecer um rótulo de diálogo (read-only)
+        self.transparent_textbox.insert("0.0", dialogue_text)
+        self.transparent_textbox.configure(state="disabled") 
 
-        # Linha 2: Log (esquerda inferior)
-        self.log_panel = LogPanel(self, self.lm)
-        self.log_panel.grid(row=2, column=0, sticky="nsew", padx=(5, 2), pady=(0, 5))
-
-    def advance_turn(self):
-        """Avança o turno e atualiza a interface."""
-        self.qm.advance_turn()
-        self.update_ui()
-        self.turn_bar.update_turn()
-
-    # --- Callbacks ---
-    def show_quest_details(self, quest):
-        self.quest_details.show(quest)
-
-    def update_log(self, message):
-        self.log_panel.update_log(message)
-
-    def update_ui(self):
-        self.sidebar.update_sidebar(self.qm)
-        self.turn_label.configure(text=f"Turno: {self.qm.current_turn}")
-
-    def start_quest(self, quest):
-        self.qm.send_heroes_on_quest(quest.id, self.quest_details.get_selected_heroes(quest))
-        self.update_ui()
-
-    def open_dialog(self, heroes, quest, result):
-        self.dialog_box.show_dialogue(heroes, quest, result)
-
-    def open_pause_menu(self):
-        """Abre o menu de pausa."""
-        self.pause_menu.open()
-
-    def update_ui(self):
-        """Atualiza todos os componentes da tela."""
-        self.sidebar.update_sidebar(self.qm)
-        self.turn_bar.update_turn()
-        self.update_log("---")
-
-    def advance_turn(self):
-        """Avança o turno e resolve missões pendentes."""
-        self.qm.advance_turn()
-        self.update_ui()
-        self.turn_bar.update_turn()
-
-    def start_quest(self, quest):
-        """Chamado pelo QuestDetailsPanel ao clicar em 'Iniciar Missão'."""
-        selected_heroes = self.quest_details.get_selected_heroes(quest)
-        msg = self.qm.send_heroes_on_quest(quest.id, selected_heroes)
-        if msg:
-            self.update_log(msg)
-        self.update_ui()
-
-    def open_dialog(self, heroes, quest_id, result):
-        """Abre diálogos (início ou fim de missões)."""
-        quest = self.qm.get_quest(quest_id)
-        if quest:
-            self.dialog_box.show_dialogue(heroes, quest, result)
-
-    def update_log(self, message: str):
-        """Callback de log do QuestManager."""
-        self.log_panel.update_log(message)
-
-    def open_pause_menu(self):
-        """Abre o menu de pausa."""
-        self.pause_menu.open()
+if __name__ == "__main__":
+    app = App()
+    app.mainloop()

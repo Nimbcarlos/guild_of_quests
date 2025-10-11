@@ -454,5 +454,13 @@
     "ru": "Закрыть",
     "zh": "关闭",
     "ja": "閉じる"
-  }
+  },
+  "continue": {
+    "pt": "▼ Clique ou pressione ESPAÇO para continuar ▼",
+    "en": "▼ Click or press SPACE to continue ▼",
+    "es": "▼ Haz clic o presiona ESPACIO para continuar ▼",
+    "ru": "▼ Нажмите или пробел, чтобы продолжить ▼",
+    "zh": "▼ 点击或按空格键继续 ▼",
+    "ja": "▼ クリックまたはスペースキーを押して続行 ▼"
+    }
 }

@@ -9,7 +9,7 @@
     "duration": 4,
     "difficulty": 0.2,
     "rewards": {
-      "xp": 120
+      "xp": 50
     },
     "required_quests": [],
     "required_fail_quests": [],
@@ -25,7 +25,7 @@
     "duration": 4,
     "difficulty": 0.2,
     "rewards": {
-      "xp": 120
+      "xp": 50
     },
     "required_quests": [],
     "required_fail_quests": [],
@@ -41,7 +41,7 @@
     "duration": 3,
     "difficulty": 0.2,
     "rewards": {
-      "xp": 80
+      "xp": 50
     },
     "required_quests": [2],
     "required_fail_quests": [],
@@ -57,9 +57,9 @@
     "duration": 4,
     "difficulty":  0.2,
     "rewards": {
-      "xp": 110
+      "xp": 50
     },
-    "required_quests": [3],
+    "required_quests": ["3"],
     "required_fail_quests": [],
     "required_heroes": []
   },
@@ -73,7 +73,7 @@
     "duration": 5,
     "difficulty":  0.2,
     "rewards": {
-      "xp": 150
+      "xp": 50
     },
     "required_quests": [1],
     "required_fail_quests": [],
@@ -89,7 +89,7 @@
     "duration": 4,
     "difficulty":  0.2,
     "rewards": {
-      "xp": 130
+      "xp": 50
     },
     "required_quests": [4],
     "required_fail_quests": [],
@@ -105,7 +105,7 @@
     "duration": 5,
     "difficulty":  0.2,
     "rewards": {
-      "xp": 140
+      "xp": 50
     },
     "required_quests": [5],
     "required_fail_quests": [],
@@ -121,7 +121,7 @@
     "duration": 6,
     "difficulty":  0.2,
     "rewards": {
-      "xp": 160
+      "xp": 50
     },
     "required_quests": [6],
     "required_fail_quests": [],
@@ -137,7 +137,7 @@
     "duration": 5,
     "difficulty":  0.2,
     "rewards": {
-      "xp": 150
+      "xp": 50
     },
     "required_quests": [7],
     "required_fail_quests": [],
@@ -153,7 +153,7 @@
     "duration": 6,
     "difficulty":  0.2,
     "rewards": {
-      "xp": 180
+      "xp": 50
     },
     "required_quests": [5],
     "required_fail_quests": [],
@@ -169,7 +169,7 @@
     "duration": 6,
     "difficulty":  0.2,
     "rewards": {
-      "xp": 170
+      "xp": 50
     },
     "required_quests": [8],
     "required_fail_quests": [],
@@ -185,7 +185,7 @@
     "duration": 5,
     "difficulty": 0.25,
     "rewards": {
-      "xp": 150
+      "xp": 50
     },
     "required_quests": [9],
     "required_fail_quests": [],
@@ -201,7 +201,7 @@
     "duration": 5,
     "difficulty":  0.2,
     "rewards": {
-      "xp": 150
+      "xp": 50
     },
     "required_quests": [10],
     "required_fail_quests": [],
@@ -211,13 +211,13 @@
     "id": 14,
     "name": "Negociação com o Rei",
     "description": "O Rei precisa de um mensageiro para um acordo de paz. Traga a notícia de volta para o reino.",
-    "type": "Social",
+    "type": "Wisdom",
     "recommendedLevel": 1,
     "available_from_turn": 1,
     "duration": 5,
     "difficulty":  0.2,
     "rewards": {
-      "xp": 200
+      "xp": 50
     },
     "required_quests": [11],
     "required_fail_quests": [],
@@ -227,13 +227,13 @@
     "id": 15,
     "name": "Ajuda no Vilarejo",
     "description": "Um vilarejo perto da mina precisa de ajuda. Ajudar os moradores pode render uma boa recompensa.",
-    "type": "Social",
+    "type": "Wisdom",
     "recommendedLevel": 3,
     "available_from_turn": 1,
     "duration": 5,
     "difficulty":  0.2,
     "rewards": {
-      "xp": 200
+      "xp": 50
     },
     "required_quests": [2],
     "required_fail_quests": [],
@@ -243,13 +243,13 @@
     "id": 16,
     "name": "Segredos da Mina",
     "description": "A mina guarda segredos valiosos. Investigue a mina e encontre o que o Rei tanto busca.",
-    "type": "Scout",
+    "type": "Intelligence",
     "recommendedLevel": 3,
     "available_from_turn": 1,
     "duration": 5,
     "difficulty":  0.2,
     "rewards": {
-      "xp": 200
+      "xp": 50
     },
     "required_quests": [2],
     "required_fail_quests": [],
@@ -259,13 +259,13 @@
     "id": 17,
     "name": "Procura na Floresta Sombria",
     "description": "Uma criatura estranha tem assustado os viajantes na Floresta Sombria. Encontre-a e a elimine.",
-    "type": "Scout",
+    "type": "Intelligence",
     "recommendedLevel": 1,
     "available_from_turn": 1,
     "duration": 5,
     "difficulty": 0.2,
     "rewards": {
-      "xp": 100
+      "xp": 50
     },
     "required_quests": [],
     "required_fail_quests": [],
@@ -281,7 +281,7 @@
     "duration": 4,
     "difficulty": 0.2,
     "rewards": {
-      "xp": 120
+      "xp": 50
     },
     "required_quests": [1],
     "required_fail_quests": [],
@@ -297,7 +297,7 @@
     "duration": 4,
     "difficulty": 0.2,
     "rewards": {
-      "xp": 120
+      "xp": 50
     },
     "required_quests": [1],
     "required_fail_quests": [],
@@ -313,10 +313,26 @@
     "duration": 4,
     "difficulty": 0.2,
     "rewards": {
-      "xp": 120
+      "xp": 50
     },
     "required_quests": [1],
     "required_fail_quests": [],
     "required_heroes": [3]
+    },
+    {
+    "id": 21,
+    "name": "Paz Entre Aldeias",
+    "description": "Um culto aparentemente pacífico tem atraído muitos seguidores, mas algo está errado. A missão é observar os rituais e interações do culto de perto para detectar a falsidade ou a manipulação escondida sob sua fachada de devoção.",
+    "type": "Wisdom",
+    "recommendedLevel": 1,
+    "available_from_turn": 1,
+    "duration": 4,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": []
   }
 ]

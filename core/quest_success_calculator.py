@@ -9,13 +9,12 @@ def calculate_success_chance(heroes: list[Hero], quest: Quest) -> float:
     
     attribute_mapping = {
         "Fight": None,  # tratamento especial abaixo
-        "Scout": "dexterity",
-        "Social": "charisma",
-        "Rescue": "constitution",
-        "Crafting": "intelligence",
-        "Gather": "dexterity"
+        "Strength": "strength",
+        "Dexterity": "dexterity",
+        "Intelligence": "intelligence",
+        "Wisdom": "wisdom"
     }
-
+    print(quest)
     if quest.type not in attribute_mapping:
         print(f"Tipo de missão desconhecido: {quest.type}")
         return 0.0
@@ -23,7 +22,7 @@ def calculate_success_chance(heroes: list[Hero], quest: Quest) -> float:
     # --- tratamento especial para luta ---
     if quest.type == "Fight":
         # Combate pode usar múltiplos atributos
-        combat_attributes = ["strength", "dexterity", "intelligence", "constitution"]
+        combat_attributes = ["strength", "dexterity", "intelligence", "wisdom"]
         for hero in heroes:
             # pega o maior atributo de combate de cada herói
             hero_rating = max(hero.stats.get(attr, 0) for attr in combat_attributes)
@@ -47,7 +46,6 @@ def run_mission_roll(success_chance: float) -> str:
     Retorna "Crítico", "Sucesso", "Falha" ou "Falha Crítica".
     """
     roll = random.random()
-
     if success_chance >= 0.9 and roll > 0.95:
         return "Crítico"
     elif success_chance < 0.2 and roll < 0.05:
@@ -56,3 +54,6 @@ def run_mission_roll(success_chance: float) -> str:
         return "Sucesso"
     else:
         return "Falha"
+
+if __name__ == "__main__":
+    calculate_success_chance(1, 1)

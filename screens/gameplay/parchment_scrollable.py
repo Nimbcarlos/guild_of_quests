@@ -7,7 +7,7 @@ from tkinter import Canvas
 class ParchmentScrollableFrame(ctk.CTkScrollableFrame):
     """ScrollableFrame com imagem de pergaminho de fundo"""
     
-    def __init__(self, parent, image_path="assets/parchment_bg.png", **kwargs):
+    def __init__(self, parent, image_path="assets/parchment_bg.png", inner_padding=15, **kwargs):
         # Remove fg_color se existir
         kwargs.pop('fg_color', None)
         
@@ -21,6 +21,7 @@ class ParchmentScrollableFrame(ctk.CTkScrollableFrame):
         )
         
         self.image_path = image_path
+        self.inner_padding = inner_padding
         self.original_image = None
         self.bg_canvas = None
         self.photo_image = None
@@ -104,3 +105,70 @@ class ParchmentScrollableFrame(ctk.CTkScrollableFrame):
 def create_parchment_scrollable(parent, image_path="assets/parchment_bg.png", **kwargs):
     """Cria um ScrollableFrame com fundo de pergaminho"""
     return ParchmentScrollableFrame(parent, image_path=image_path, **kwargs)
+
+
+class ParchmentFrame(ctk.CTkFrame):
+    """Frame simples (sem scroll) com imagem de pergaminho de fundo"""
+    
+    def __init__(self, parent, image_path="assets/parchment_bg.png", **kwargs):
+        kwargs.pop('fg_color', None)
+        super().__init__(parent, fg_color="transparent", **kwargs)
+        
+        self.image_path = image_path
+        self.bg_canvas = None
+        self.original_image = None
+        self.photo_image = None
+        
+        try:
+            from tkinter import Canvas
+            self.original_image = Image.open(self.image_path)
+            
+            # Canvas para o background
+            self.bg_canvas = Canvas(
+                self,
+                highlightthickness=0,
+                bd=0,
+                bg="#F4E4C1"
+            )
+            self.bg_canvas.place(relx=0, rely=0, relwidth=1, relheight=1)
+            
+            self.bind("<Configure>", self._on_resize)
+            
+        except Exception as e:
+            print(f"Erro ao carregar pergaminho: {e}")
+            self.configure(fg_color=("#F4E4C1", "#3A3428"))
+    
+    def _on_resize(self, event):
+        if hasattr(self, '_job'):
+            self.after_cancel(self._job)
+        self._job = self.after(50, self._draw_image)
+    
+    def _draw_image(self):
+        """Desenha a imagem de pergaminho"""
+        if not self.original_image or not self.bg_canvas:
+            return
+        
+        try:
+            self.update_idletasks()
+            
+            width = self.winfo_width()
+            height = self.winfo_height()
+            
+            if width <= 1 or height <= 1:
+                return
+            
+            # Redimensiona a imagem
+            img_resized = self.original_image.resize(
+                (width, height),
+                Image.Resampling.LANCZOS
+            )
+            
+            # Converte para PhotoImage
+            self.photo_image = ImageTk.PhotoImage(img_resized)
+            
+            # Limpa e desenha
+            self.bg_canvas.delete("all")
+            self.bg_canvas.create_image(0, 0, image=self.photo_image, anchor="nw")
+            
+        except Exception as e:
+            print(f"Erro ao desenhar pergaminho: {e}")

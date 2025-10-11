@@ -132,3 +132,84 @@ def load_game(manager, filename):
 
     print(f"📂 Jogo carregado de: {path}")
     return True
+
+# Adicione esta função no seu core/save_manager.py
+
+
+
+def list_saves():
+    """
+    Lista todos os arquivos de save disponíveis.
+    
+    Returns:
+        list: Lista com nomes dos arquivos de save (.json)
+    """
+    # Cria o diretório se não existir
+    if not os.path.exists(SAVE_DIR):
+        os.makedirs(SAVE_DIR)
+        return []
+    
+    # Lista apenas arquivos .json
+    files = [f for f in os.listdir(SAVE_DIR) if f.endswith('.json')]
+    
+    # Ordena por data de modificação (mais recente primeiro)
+    files.sort(
+        key=lambda f: os.path.getmtime(os.path.join(SAVE_DIR, f)),
+        reverse=True
+    )
+    
+    return files
+
+
+def delete_save(filename):
+    """
+    Deleta um arquivo de save.
+    
+    Args:
+        filename (str): Nome do arquivo a ser deletado
+        
+    Returns:
+        bool: True se deletado com sucesso, False caso contrário
+    """
+    filepath = os.path.join(SAVE_DIR, filename)
+    
+    try:
+        if os.path.exists(filepath):
+            os.remove(filepath)
+            print(f"✅ Save '{filename}' deletado com sucesso")
+            return True
+        else:
+            print(f"⚠️ Arquivo '{filename}' não encontrado")
+            return False
+    except Exception as e:
+        print(f"❌ Erro ao deletar save: {e}")
+        return False
+
+
+def get_save_info(filename):
+    """
+    Obtém informações sobre um save (turno, quests completadas, etc).
+    
+    Args:
+        filename (str): Nome do arquivo de save
+        
+    Returns:
+        dict: Dicionário com informações do save ou None se erro
+    """
+    import json
+    
+    filepath = os.path.join(SAVE_DIR, filename)
+    
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            
+        return {
+            'turn': data.get('current_turn', 0),
+            'completed_quests': len(data.get('completed_quests', [])),
+            'active_quests': len(data.get('active_quests', {})),
+            'failed_quests': len(data.get('failed_quests', set())),
+        }
+    except Exception as e:
+        print(f"Erro ao ler info do save '{filename}': {e}")
+        return None

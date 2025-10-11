@@ -1,0 +1,370 @@
+#:kivy 2.3.0
+#: import WipeTransition kivy.uix.screenmanager.WipeTransition
+
+<GameScreenManager>:
+    MenuScreen:
+    GameplayScreen:
+
+<LoadGameScreen>:
+    BoxLayout:
+        orientation: "vertical"
+        canvas.before:
+            Rectangle:
+                source: "assets/background_ls.png"
+                size: self.size
+                pos: self.pos
+        padding: 10
+        spacing: 10
+
+        Label:
+            text: "📂 Escolha um save"
+            font_size: 24
+            size_hint_y: None
+            height: 40
+            color: 0, 0, 0, 1
+
+        ScrollView:
+            size_hint_y: 0.8
+
+            BoxLayout:
+                id: saves_list
+                orientation: "vertical"
+                size_hint_y: None
+                height: self.minimum_height
+                spacing: 5
+
+        Button:
+            text: "⬅️ Voltar"
+            size_hint_y: None
+            height: 50
+            on_release:
+                app.root.current = "menu"
+
+<DialogueBox>:
+    text_size: self.size
+    valign: "top"
+    halign: "left"    
+
+<MenuScreen>:
+    name: "menu"
+    FloatLayout:
+        canvas.before:
+            Rectangle:
+                source: "assets/background_ls.png"
+                size: self.size
+                pos: self.pos
+
+        BoxLayout:
+            orientation: "vertical"
+            spacing: 20
+            size_hint: None, None
+            size: 320, 500
+            pos_hint: {"center_x": 0.5, "center_y": 0.5}
+
+            # New Game -> chama o método Python que prepara e entra em gameplay
+            Button:
+                background_normal: "assets/buttons/new_game.png"
+                background_down: "assets/buttons/new_game.png"
+                size_hint: None, None
+                size: 300, 100
+                on_release: root.new_game()    # chama o método em screens/menu_screen.py
+
+            # Load Game -> abre lista de saves (método Python já implementado)
+            Button:
+                background_normal: "assets/buttons/load_game.png"
+                background_down: "assets/buttons/load_game.png"
+                size_hint: None, None
+                size: 300, 100
+                on_release: app.root.current = "loadgame"
+
+            # Settings
+            Button:
+                background_normal: "assets/buttons/settings.png"
+                background_down: "assets/buttons/settings.png"
+                size_hint: None, None
+                size: 300, 100
+                on_release: root.open_settings()
+
+            # Exit
+            Button:
+                background_normal: "assets/buttons/exit.png"
+                background_down: "assets/buttons/exit.png"
+                size_hint: None, None
+                size: 300, 100
+                on_release: root.exit_game()
+
+
+<GameplayScreen>:
+    name: "gameplay"
+
+    BoxLayout:
+        orientation: "horizontal"
+        text_size: self.size
+        valign: "top"
+        halign: "left"
+
+        # ----------------- PARTE ESQUERDA -----------------
+        BoxLayout:
+            orientation: "vertical"
+            size_hint_x: 0.65
+            valign: "top"
+
+            # ----- Botão de Avançar (fixo) -----
+            BoxLayout:
+                id: turn_log
+                orientation: "horizontal"
+                size_hint_y: 0.08
+                padding: 8
+                spacing: 8
+                canvas.before:
+                    Rectangle:
+                        source: "assets/background_ls.png"
+                        size: self.size
+                        pos: self.pos
+
+                Button:
+                    text: "⏩ Avançar Turno"
+                    size_hint_x: None
+                    width: 150
+                    on_release: root.advance_turn()
+
+
+            # ----- Área principal de gameplay -----
+            BoxLayout:
+                orientation: "vertical"
+                size_hint_y: 0.6
+                canvas.before:
+                    Rectangle:
+                        source: "assets/background_gameplay.png"
+                        size: self.size
+                        pos: self.pos
+
+                BoxLayout:
+                    id: quest_details
+                    orientation: "vertical"
+                    padding: 10
+                    spacing: 5
+
+
+            # ----- Log de missões e falas -----
+            BoxLayout:
+                orientation: "vertical"
+                size_hint_y: 0.2
+                canvas.before:
+                    Rectangle:
+                        source: "assets/background_ls.png"
+                        size: self.size
+                        pos: self.pos
+
+                Label:
+                    text: root.log_messages
+                    font_size: 18   # Aumenta a fonte
+                    size_hint_y: None
+                    height: self.texture_size[1] + 10
+                    color: 0, 0, 0, 1
+
+                ScrollView:
+                    id: mission_scroll
+                    do_scroll_x: False
+                    do_scroll_y: True
+                    BoxLayout:
+                        id: mission_log
+                        orientation: "vertical"
+                        size_hint_y: None
+                        height: self.minimum_height
+
+
+        # ----------------- Sidebar (direita) -----------------
+
+        BoxLayout:
+            orientation: "vertical"
+            size_hint_x: 0.30
+            padding: 15
+            spacing: 5
+            canvas.before:
+                Color:
+                    rgba: 1, 1, 1, 1
+                Rectangle:
+                    source: "assets/background.png"
+                    size: self.size
+                    pos: self.pos
+
+            # ---------------- SEÇÃO 1: QUESTS ATIVAS ----------------
+            Label: # Título
+                text: root.active_quests_label
+                size_hint_y: None
+                height: 30
+                color: 0, 0, 0, 1
+
+            ScrollView: # ⬅️ Envolve a lista em um ScrollView
+                size_hint_y: 0.25 # Altura reservada para esta lista (ex: 35% do espaço livre)
+                
+                BoxLayout:
+                    id: active_quests # ⬅️ Este é o contêiner interno que o Python preenche
+                    orientation: "vertical"
+                    size_hint_y: None
+                    height: self.minimum_height # Faz o container interno crescer com os botões
+
+            # ---------------- SEÇÃO 2: QUESTS DISPONÍVEIS ----------------
+            Label: # Título
+                text: root.available_quests_label
+                size_hint_y: None
+                height: 30
+                color: 0, 0, 0, 1
+
+            ScrollView:
+                size_hint_y: 0.35 # Altura reservada para esta lista
+                
+                BoxLayout:
+                    id: available_quests
+                    orientation: "vertical"
+                    size_hint_y: None
+                    height: self.minimum_height
+
+            # ---------------- SEÇÃO 3: QUESTS CONCLUÍDAS ----------------
+            Label: # Título
+                text: root.completed_quests_label
+                size_hint_y: None
+                height: 30
+                color: 0, 0, 0, 1
+
+            ScrollView:
+                size_hint_y: 0.3 # Altura reservada (o resto do espaço)
+                
+                BoxLayout:
+                    id: completed_quests
+                    orientation: "vertical"
+                    size_hint_y: None
+                    height: self.minimum_height
+
+
+<SettingsScreen>:
+    name: "settings"
+    BoxLayout:
+        orientation: "vertical"
+        padding: 20
+        spacing: 20
+        canvas.before:
+            Rectangle:
+                source: "assets/background_ls.png"
+                size: self.size
+                pos: self.pos
+
+        Label:
+            text: "⚙️ Configurações"
+            font_size: 32
+            size_hint_y: None
+            height: 50
+            color: 0, 0, 0, 1
+
+        BoxLayout:
+            orientation: "vertical"
+            spacing: 15
+
+            # Idioma
+            BoxLayout:
+                orientation: "horizontal"
+                size_hint_y: None
+                height: 40
+                Label:
+                    text: "Idioma:"
+                    size_hint_x: 0.4
+                    color: 0,0,0,1
+                Spinner:
+                    id: lang_spinner
+                    text: root.current_language
+                    values: ["pt", "en", "es", "ru", "zh", "ja"]
+                    size_hint_x: 0.6
+                    on_text: root.set_language(self.text)
+
+            # Tela
+            BoxLayout:
+                orientation: "horizontal"
+                size_hint_y: None
+                height: 40
+                Label:
+                    text: "Tamanho da tela:"
+                    size_hint_x: 0.4
+                    color: 0,0,0,1
+                Spinner:
+                    id: screen_size_spinner
+                    text: root.screen_mode
+                    values: ["Janela", "Fullscreen"]
+                    size_hint_x: 0.6
+                    on_text: root.set_screen_mode(self.text)
+                Label:
+                    text: "Tamanho da tela"
+                Spinner:
+                    text: f"{root.screen_size[0]}x{root.screen_size[1]}"
+                    values: [f"{w}x{h}" for w, h in root.available_sizes]
+                    on_text: 
+                        root.set_screen_size([int(self.text.split('x')[0]), int(self.text.split('x')[1])])
+
+
+            # Volume música
+            BoxLayout:
+                orientation: "horizontal"
+                size_hint_y: None
+                height: 40
+                Label:
+                    text: "Volume música:"
+                    size_hint_x: 0.4
+                    color: 0,0,0,1
+                Slider:
+                    id: music_slider
+                    min: 0
+                    max: 100
+                    value: root.music_volume
+                    size_hint_x: 0.6
+                    on_value: root.set_music_volume(self.value)
+
+            # Volume UI
+            BoxLayout:
+                orientation: "horizontal"
+                size_hint_y: None
+                height: 40
+                Label:
+                    text: "Volume sons UI:"
+                    size_hint_x: 0.4
+                    color: 0,0,0,1
+                Slider:
+                    id: ui_slider
+                    min: 0
+                    max: 100
+                    value: root.ui_volume
+                    size_hint_x: 0.6
+                    on_value: root.set_ui_volume(self.value)
+
+            # Mute
+            BoxLayout:
+                orientation: "horizontal"
+                size_hint_y: None
+                height: 40
+                Label:
+                    text: "Mute música:"
+                    size_hint_x: 0.4
+                    color: 0,0,0,1
+                CheckBox:
+                    id: mute_music
+                    active: root.music_muted
+                    on_active: root.set_music_mute(self.active)
+
+        Button:
+            text: "⬅️ Voltar"
+            size_hint_y: None
+            height: 50
+            on_release:
+                app.root.current = "menu"
+
+
+
+<Button>:
+    background_normal: "assets/buttons/button.png"
+    background_down: "assets/buttons/button.png"
+    border: 0, 0, 0, 0
+    background_color: 1, 1, 1, 1
+    font_size: 18
+    text_size: self.size
+    halign: "center"
+    valign: "middle"
+    allow_stretch: True
