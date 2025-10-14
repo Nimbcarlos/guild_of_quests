@@ -56,7 +56,7 @@ class Quest:
     def is_expired(self, current_turn: int) -> bool:
         if self.available_since_turn is None:
             return False
-        return (current_turn - self.available_since_turn) >= self.duration
+        return (current_turn - self.available_since_turn) >= self.duration*1.5
 
     # 🔹 Carrega quests de acordo com o idioma
     @staticmethod

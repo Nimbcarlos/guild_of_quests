@@ -87,7 +87,7 @@ if __name__ == '__main__':
 
     # Exemplo de chamada com um objeto herói e um resultado com a primeira letra maiúscula
     herois = [DummyHero(id=1, name="Heroi A")]
-    teste1 = dm.show_quest_dialogue(herois, 2, 'Falha')
+    teste1 = dm.show_start_dialogues(herois, 2)
     
     for fala in teste1:
         print(fala)

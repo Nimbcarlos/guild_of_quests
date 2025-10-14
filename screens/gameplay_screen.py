@@ -11,11 +11,9 @@ from kivy.app import App
 from kivy.core.window import Window
 from kivy.properties import StringProperty
 from functools import partial
-from core.quest_manager import QuestManager
 from core.quest_success_calculator import calculate_success_chance
 from core.dialogue_manager import DialogueManager
 from core.language_manager import LanguageManager
-from core.assistant_manager import AssistantManager
 from screens.dialog_box import DialogueBox
 import core.save_manager as save
 import re
@@ -59,7 +57,7 @@ class GameplayScreen(Screen):
         self.pending_assignments = {}  # { quest_id: [hero_ids] }
         # captura teclas
         Window.bind(on_key_down=self._on_key_down)
-        self.ids.quest_details.clear_widgets() 
+        self.ids.quest_details.clear_widgets()
 
     def on_leave(self):
         # desliga o binding para evitar múltiplos binds ao voltar à tela
@@ -402,7 +400,8 @@ class GameplayScreen(Screen):
             title_color=(0, 0, 0, 1),
             separator_color=(0, 0, 0, 1),
             background="assets/background.png",
-            size_hint=(0.6, 0.7),  # aumentei pra caber a história
+            size_hint=(None, None),  # aumentei pra caber a história
+            size=(500, 500),  # aumentei pra caber a história
             auto_dismiss=True
         )
         popup.open()
@@ -419,13 +418,13 @@ class GameplayScreen(Screen):
 
         # 🔹 Mostra diálogo inicial antes de enviar (usa o DialogueBox)
         # use "start" para disparar o fluxo adequado dentro do DialogueBox/DialogueManager
-        if heroes:
-            try:
-                # DialogueBox.show_dialogue trata result == "start" como diálogo inicial
-                self.dialog_box.show_dialogue(heroes, quest.id, "start")
-            except Exception as e:
-                # fallback silencioso em caso de algo errado no diálogo
-                print("Erro ao abrir diálogo inicial:", e)
+        # if heroes:
+        #     try:
+        #         # DialogueBox.show_dialogue trata result == "start" como diálogo inicial
+        #         self.dialog_box.show_dialogue(heroes, quest.id, "start", parent_size=self.size)
+        #     except Exception as e:
+        #         # fallback silencioso em caso de algo errado no diálogo
+        #         print("Erro ao abrir diálogo inicial:", e)
 
         # 🔹 Chama o QuestManager para registrar a missão
         self.qm.send_heroes_on_quest(quest.id, hero_ids)
@@ -541,7 +540,11 @@ class GameplayScreen(Screen):
         content.add_widget(btn_quit)
 
         # guarda no self para poder dar .dismiss() depois
-        self.pause_popup = Popup(title=self.lm.t("pause_menu_title"), content=content, size_hint=(0.4, 0.4))
+        self.pause_popup = Popup(title=self.lm.t("pause_menu_title"),
+                                content=content, 
+                                size_hint=(None, None),
+                                size=(300, 320)
+                                )
         self.pause_popup.open()
 
     def save_and_close_popup(self, *args):
@@ -630,7 +633,7 @@ class GameplayScreen(Screen):
 
     def open_dialog(self, selected_heroes, quest, result):
         # Aqui você só chama a função passando heróis, quest_id e resultado
-        self.dialog_box.show_dialogue(selected_heroes, quest, result)
+        self.dialog_box.show_dialogue(selected_heroes, quest, result, parent_size=self.size)
 
     @staticmethod
     def safe_input_filter(substring, from_undo):

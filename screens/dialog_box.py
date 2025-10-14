@@ -7,6 +7,7 @@ from core.hero import Hero
 from typing import Optional
 import random
 from collections import deque
+from kivy.core.window import Window
 
 class DialogueBox:
     def __init__(self, dialogue_manager):
@@ -46,24 +47,45 @@ class DialogueBox:
             return None
         return random.choice(pool)
 
-    def show_dialogue(self, heroes, quest_id, result: str):
-        # em vez de abrir já, coloca na fila
-        self.queue.append((heroes, quest_id, result))
+    def show_dialogue(self, heroes, quest_id, result: str, parent_size: list):
+        """
+        Mostra um diálogo, enfileirando caso já exista outro ativo.
+        parent_size: [width, height] do ResponsiveFrame para escalar corretamente.
+        """
+        print(f"[DEBUG show_dialogue] Queue ANTES: {len(self.queue)} itens")
+        print(f"[DEBUG show_dialogue] Adicionando: heroes={[h.name for h in heroes]}, quest_id={quest_id}, result={result}")
+        self.queue.append((heroes, quest_id, result, parent_size))
+        print(f"[DEBUG show_dialogue] Queue DEPOIS: {len(self.queue)} itens")
+        print(f"[DEBUG show_dialogue] Popup ativo? {self.popup is not None}")
+        
         if not self.popup:  # só abre se não tiver popup ativo
+            print("[DEBUG show_dialogue] Iniciando _process_next()")
             self._process_next()
+        else:
+            print("[DEBUG show_dialogue] Popup já ativo, apenas enfileirou")
 
     def _process_next(self):
+        print(f"[DEBUG _process_next] Queue tem {len(self.queue)} itens")
         if not self.queue:
+            print("[DEBUG _process_next] Queue vazia, retornando")
             return
-        heroes, quest_id, result = self.queue.popleft()
+            
+        heroes, quest_id, result, parent_size = self.queue.popleft()
+        print(f"[DEBUG _process_next] Processando: heroes={[h.name for h in heroes]}, quest_id={quest_id}, result={result}")
+        
+        # Armazena o parent_size para usar em _open_popup
+        self.parent_size = parent_size
 
         if isinstance(result, str) and quest_id == "assistant_event":
             # fala direta da assistente (não vem do dialogue_manager)
             self.dialogues = [result]
+            print(f"[DEBUG _process_next] Tipo: assistant_event, dialogues: {self.dialogues}")
         elif result == "start":
             self.dialogues = self.dm.show_start_dialogues(heroes, quest_id)
+            print(f"[DEBUG _process_next] Tipo: start, dialogues: {len(self.dialogues) if self.dialogues else 0} linhas")
         else:
             self.dialogues = self.dm.show_quest_dialogue(heroes, quest_id, result)
+            print(f"[DEBUG _process_next] Tipo: quest_dialogue, dialogues: {len(self.dialogues) if self.dialogues else 0} linhas")
 
         if not self.dialogues:
             self.dialogues = ["..."]
@@ -71,70 +93,120 @@ class DialogueBox:
         self.heroes = heroes
         self.current_index = 0
         self.char_index = 0
+        print(f"[DEBUG _process_next] Abrindo popup com {len(self.dialogues)} diálogos")
         self._open_popup()
 
     def _open_popup(self):
-        main_layout = BoxLayout(orientation='horizontal', padding=10, spacing=10)
-
-        # Retrato
-        self.hero_portrait = KivyImage(size_hint=(None, 1), width=120, allow_stretch=True, keep_ratio=True)
-        main_layout.add_widget(self.hero_portrait)
-
-        # Área de texto
-        text_layout = BoxLayout(orientation='vertical', spacing=5, size_hint=(1, 1), padding=[10, 5, 10, 5])
-
+        from kivy.uix.anchorlayout import AnchorLayout
+        
+        # Layout horizontal principal (imagem + texto)
+        main_layout = BoxLayout(orientation='horizontal', spacing=15, padding=[25, 20, 25, 20])
+        
+        # --- Dimensões vindas do parent ---
+        if hasattr(self, "parent_size") and self.parent_size:
+            frame_width, frame_height = self.parent_size
+        else:
+            frame_width, frame_height = Window.width, Window.height
+        
+        popup_width = max(700, min(frame_width * 0.85, 1200))
+        popup_height = max(180, min(frame_height * 0.22, 260))
+        
+        # ==================== IMAGEM ====================
+        portrait_width = int(popup_height * 0.85)
+        portrait_height = int(popup_height * 0.85)
+        portrait_container = AnchorLayout(anchor_x='left', anchor_y='bottom', size_hint=(None, 1), width=portrait_width)
+        
+        self.hero_portrait = KivyImage(
+            size_hint=(None, None),
+            width=portrait_width,
+            height=portrait_height,
+            allow_stretch=True,
+            keep_ratio=True
+        )
+        portrait_container.add_widget(self.hero_portrait)
+        main_layout.add_widget(portrait_container)
+        
+        # ==================== TEXTO ====================
+        text_layout = BoxLayout(
+            orientation='vertical',
+            spacing=5,
+            padding=[10, 5, 10, 5],
+            size_hint=(1, 1)
+        )
+        
         self.speaker_label = Label(
             text="",
-            font_size=32,
+            font_size=max(22, int(frame_height * 0.035)),
             bold=True,
-            color=(0, 0, 0, 1),
+            color=(0.16, 0.09, 0.06, 1),
             halign="left",
-            valign="top",
-            size_hint=(1, None),
-            text_size=(550, None)
+            valign="middle",
+            size_hint_y=None,
+            height=40
         )
-        self.speaker_label.bind(texture_size=self.speaker_label.setter("size"))
+        self.speaker_label.bind(size=lambda instance, value: setattr(instance, 'text_size', (value[0], None)))
         text_layout.add_widget(self.speaker_label)
-
+        
         self.dialogue_label = Label(
             text="",
-            font_size=22,
-            markup=True,
-            halign='left',
-            valign='top',
-            color=(0, 0, 0, 1),
-            size_hint=(1, None),
-            text_size=(550, None)
+            font_size=max(16, int(frame_height * 0.024)),
+            halign="left",
+            valign="top",
+            color=(0.16, 0.09, 0.06, 1),
+            size_hint_y=1
         )
-        self.dialogue_label.bind(texture_size=self.dialogue_label.setter('size'))
+        # Bind para ajustar text_size dinamicamente baseado no tamanho real do label
+        self.dialogue_label.bind(
+            size=lambda instance, value: setattr(instance, 'text_size', (value[0], None))
+        )
         text_layout.add_widget(self.dialogue_label)
-
+        
         main_layout.add_widget(text_layout)
-
+        
+        # ==================== POPUP ====================
         self.popup = Popup(
             title="",
             content=main_layout,
-            size_hint=(0.9, 0.3),
+            size_hint=(None, None),
+            size=(popup_width, popup_height),
             auto_dismiss=False,
             background="assets/background_ls.png",
-            background_color=(1, 1, 1, 0.8)
+            background_color=(1, 1, 1, 0.95),
+            separator_height=0
         )
-        self.popup.pos_hint = {"center_x": 0.5, "y": 0.05}
+        
+        # Ajusta posição vertical baseado no tamanho da tela
+        if frame_height > 800:
+            # Tela grande - sobe mais o popup
+            y_position = 0.12  # 12% do bottom
+        elif frame_height > 600:
+            # Tela média - posição intermediária
+            y_position = 0.08  # 8% do bottom
+        else:
+            # Tela pequena - mais próximo do fundo
+            y_position = 0.05  # 5% do bottom
+            
+        self.popup.pos_hint = {"center_x": 0.5, "y": y_position}
         self.popup.separator_color = (0, 0, 0, 0)
-
+        
         self.popup.bind(on_touch_down=self._on_touch_next)
         self.popup.open()
-
+        
         self._show_current_line()
 
     def _show_current_line(self):
+        print(f"[DEBUG _show_current_line] current_index={self.current_index}, total_dialogues={len(self.dialogues)}")
+        
         if self.current_index >= len(self.dialogues):
+            print("[DEBUG _show_current_line] Fim dos diálogos, fechando popup")
             self.popup.dismiss()
             self.popup = None
+            print(f"[DEBUG _show_current_line] Queue após fechar: {len(self.queue)} itens")
             Clock.schedule_once(lambda dt: self._process_next(), 0)  # chama próximo
             return
 
         line = self.dialogues[self.current_index]
+        print(f"[DEBUG _show_current_line] Linha atual: {line if isinstance(line, str) else line.get('text', '')[:50]}")
 
         self.full_text = ""
         resolved_hero = None

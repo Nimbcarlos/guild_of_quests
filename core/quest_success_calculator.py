@@ -14,7 +14,7 @@ def calculate_success_chance(heroes: list[Hero], quest: Quest) -> float:
         "Intelligence": "intelligence",
         "Wisdom": "wisdom"
     }
-    print(quest)
+
     if quest.type not in attribute_mapping:
         print(f"Tipo de missão desconhecido: {quest.type}")
         return 0.0

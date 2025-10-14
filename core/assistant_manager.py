@@ -32,7 +32,7 @@ class AssistantManager:
                 growth_curve={}
             )
 
-            self.dialogue_box.show_dialogue([fake_assistant], "assistant_event", msg)
+            self.dialogue_box.show_dialogue([fake_assistant], "assistant_event", msg, parent_size=None)
         else:
             print(f"[Assistente] {msg}")
 

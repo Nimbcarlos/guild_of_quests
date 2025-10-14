@@ -4,6 +4,7 @@ from screens.menu_screen import MenuScreen
 from screens.gameplay_screen import GameplayScreen
 from screens.load_game_screen import LoadGameScreen
 from screens.settings_screen import SettingsScreen  # ✅ importar a tela de settings
+from screens.responsive_frame import ResponsiveFrame
 from core.quest_manager import QuestManager
 from core.hero_manager import HeroManager  # cria esse módulo se ainda não existir
 import core.save_manager as save
