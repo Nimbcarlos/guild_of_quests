@@ -155,7 +155,7 @@ class GameplayScreen(Screen):
                     text=f'{quest.name} ({quest.type})',
                     size_hint_y=None,
                     height=40,
-                    on_release=partial(self.show_quest_details, quest)
+                    on_release=partial(self.show_active_quest_details, quest)
                 )
             )
 
@@ -169,17 +169,15 @@ class GameplayScreen(Screen):
                 )
             )
 
-        for qid in qm.completed_quests:
-            q = qm.get_quest(qid)
-            if q:
-                self.ids.completed_quests.add_widget(
-                    Label(
-                        text=f"{q.name}",
-                        size_hint_y=None,
-                        height=30,
-                        color=(0, 0, 0, 1)
-                    )
-                )
+        self.ids.completed_quests.clear_widgets()
+        self.ids.completed_quests.add_widget(
+            Button(
+                text=self.lm.t("completed_quests_title"),
+                size_hint_y=None,
+                height=40,
+                on_release=self.show_completed_quests_popup
+            )
+        )
 
     def show_quest_details(self, quest, *_):
         """Mostra painel com detalhes da quest e opções de heróis."""
@@ -206,12 +204,36 @@ class GameplayScreen(Screen):
             height=20
         ))
 
-        container.add_widget(Label(
+        wrapper = BoxLayout(
+            orientation="vertical",
+            padding=[20, 0, 20, 0],  # [left, top, right, bottom]
+            size_hint_y=None,
+        )
+        wrapper.bind(minimum_height=wrapper.setter("height"))
+
+        scroll = ScrollView(
+            size_hint_y=None,
+            height=110,
+            do_scroll_x=False,
+            do_scroll_y=False,
+            bar_width=0,
+        )
+
+        desc_label = Label(
             text=quest.description,
             color=(0, 0, 0, 1),
+            halign="left",
+            valign="top",
             size_hint_y=None,
-            height=60
-        ))
+        )
+        desc_label.bind(
+            width=lambda *x: desc_label.setter("text_size")(desc_label, (desc_label.width, None)),
+            texture_size=lambda *x: desc_label.setter("height")(desc_label, desc_label.texture_size[1])
+        )
+
+        scroll.add_widget(desc_label)
+        wrapper.add_widget(scroll)
+        container.add_widget(wrapper)
 
         # Taxa de sucesso
         self.success_label = Label(
@@ -286,13 +308,30 @@ class GameplayScreen(Screen):
                 on_release=lambda *_, h=hero: self.show_hero_details(h)
             ))
 
-            # Botão de seleção
-            row.add_widget(Button(
+            # --- Botão de seleção com feedback visual ---
+            select_btn = Button(
                 text=self.lm.t('select'),
                 size_hint_x=None,
                 width=120,
-                on_release=lambda *_, h=hero: self.select_hero_for_quest(quest, h)
-            ))
+                background_color=(0.8, 0.8, 0.8, 1)  # cinza claro (não selecionado)
+            )
+
+            def on_select_press(btn, h=hero):
+                """Chama a função original e alterna o visual."""
+                self.select_hero_for_quest(quest, h)
+
+                quest_id = quest.id
+                if h.id in self.pending_assignments.get(quest_id, []):
+                    # Está selecionado → destacar
+                    btn.text = self.lm.t('selected')
+                    btn.background_color = (0.4, 0.8, 0.4, 1)  # verde
+                else:
+                    # Foi removido → voltar ao normal
+                    btn.text = self.lm.t('select')
+                    btn.background_color = (0.8, 0.8, 0.8, 1)  # cinza
+
+            select_btn.bind(on_release=on_select_press)
+            row.add_widget(select_btn)
 
             heroes_box.add_widget(row)
 
@@ -308,6 +347,110 @@ class GameplayScreen(Screen):
             on_release=lambda *_: self.start_quest(quest)
         ))
 
+    def show_active_quest_details(self, quest, *_):
+        """Mostra painel de detalhes de uma quest ativa — heróis designados e turnos restantes."""
+        container = self.ids.quest_details
+        container.clear_widgets()
+
+        quest_data = self.qm.active_quests.get(quest.id)
+        if not quest_data:
+            container.add_widget(Label(
+                text=self.lm.t("quest_not_found"),
+                color=(0, 0, 0, 1)
+            ))
+            return
+
+        heroes = quest_data.get("heroes", [])
+        turns_left = quest_data.get("turns_left", "?")
+
+        # Cabeçalho
+        container.add_widget(Label(
+            text=f"[b]{quest.name}[/b]",
+            markup=True,
+            font_size=24,
+            color=(0, 0, 0, 1),
+            size_hint_y=None,
+            height=30
+        ))
+
+        # Tipo / Dificuldade / Turnos restantes
+        container.add_widget(Label(
+            text=f"{self.lm.t('type_label')}: {quest.type} | "
+                f"{self.lm.t('difficulty_label')}: {quest.difficulty} | "
+                f"{self.lm.t('turns_left_label')}: {turns_left}",
+            color=(0, 0, 0, 1),
+            size_hint_y=None,
+            height=25
+        ))
+
+        container.add_widget(Label(
+            text=quest.description,
+            color=(0, 0, 0, 1),
+            size_hint_y=None,
+            height=60
+        ))
+
+        # Lista de heróis na missão
+        container.add_widget(Label(
+            text=self.lm.t("heroes_on_quest"),
+            bold=True,
+            color=(0, 0, 0, 1),
+            size_hint_y=None,
+            height=25
+        ))
+
+        heroes_box = BoxLayout(orientation="vertical", size_hint_y=None, spacing=5, padding=[5, 0])
+        heroes_box.bind(minimum_height=heroes_box.setter("height"))
+
+        for hero in heroes:
+            row = BoxLayout(size_hint_y=None, height=60, spacing=10)
+
+            # Foto do herói
+            if getattr(hero, "photo_url", None):
+                row.add_widget(Image(
+                    source=hero.photo_url,
+                    size_hint_x=None,
+                    width=50
+                ))
+            else:
+                row.add_widget(Label(
+                    text="❓",
+                    size_hint_x=None,
+                    width=50
+                ))
+
+            # Nome e classe
+            row.add_widget(Label(
+                text=f"[b]{hero.name}[/b]\n{self.lm.t('class')}: {getattr(hero, 'hero_class', 'Unknown')} | "
+                    f"{self.lm.t('lvl_prefix')} {getattr(hero, 'level', 1)}",
+                markup=True,
+                halign="left",
+                valign="middle",
+                color=(0, 0, 0, 1)
+            ))
+
+            # Botão de detalhes do herói
+            row.add_widget(Button(
+                text="🔍",
+                size_hint_x=None,
+                width=50,
+                on_release=lambda *_, h=hero: self.show_hero_details(h)
+            ))
+
+            heroes_box.add_widget(row)
+
+        scroll = ScrollView(size_hint_y=0.4)
+        scroll.add_widget(heroes_box)
+        container.add_widget(scroll)
+
+        # Botão de voltar/fechar
+        container.add_widget(Button(
+            text=self.lm.t("close"),
+            size_hint_y=None,
+            height=45,
+            on_release=lambda *_: container.clear_widgets()
+        ))
+
     def select_hero_for_quest(self, quest, hero):
         """Adiciona ou remove um herói da seleção dessa quest."""
         if quest.id not in self.pending_assignments:
@@ -316,11 +459,9 @@ class GameplayScreen(Screen):
         if hero.id in self.pending_assignments[quest.id]:
             # já estava selecionado → desmarca
             self.pending_assignments[quest.id].remove(hero.id)
-            self.qm._log(self.lm.t("hero_removed").format(hero=hero.name, quest=quest.name))
         else:
             # adiciona
             self.pending_assignments[quest.id].append(hero.id)
-            self.qm._log(self.lm.t("hero_added").format(hero=hero.name, quest=quest.name))
         self.update_success_label(quest)
 
     def confirm_quest_assignment(self, quest):
@@ -659,3 +800,76 @@ class GameplayScreen(Screen):
             self.dialog_box.show_assistant_message(msg)
         else:
             print(f"[Assistente] {msg} (sem DialogueBox ativo)")
+
+    def show_completed_quests_popup(self, *_):
+        """Abre um popup listando as quests completas e permite ver detalhes."""
+        qm = self.qm
+
+        # === Popup principal ===
+        main_layout = BoxLayout(orientation="horizontal", spacing=15, padding=15)
+
+        # Lista lateral (nomes das quests)
+        quest_list_box = BoxLayout(orientation="vertical", size_hint=(0.35, 1), spacing=5)
+        quest_scroll = ScrollView(size_hint=(0.35, 1))
+        quest_scroll.add_widget(quest_list_box)
+
+        # Área de detalhes (direita)
+        details_box = BoxLayout(orientation="vertical", size_hint=(0.65, 1), padding=[10, 0, 0, 0])
+        details_label = Label(
+            text=self.lm.t("select_quest_to_view"),  # texto inicial
+            color=(0, 0, 0, 1),
+            halign="left",
+            valign="top",
+            text_size=(None, None),
+            size_hint_y=1,
+        )
+        details_box.add_widget(details_label)
+
+        main_layout.add_widget(quest_scroll)
+        main_layout.add_widget(details_box)
+
+        # === Função interna para atualizar detalhes ===
+        def show_details(quest):
+            details_label.text = (
+                f"[b]{quest.name}[/b]\n\n"
+                f"{self.lm.t('type_label')}: {quest.type}\n"
+                f"{self.lm.t('difficulty_label')}: {quest.difficulty}\n\n"
+                f"{quest.description}"
+            )
+            details_label.markup = True
+            details_label.text_size = (details_box.width * 0.95, None)
+            details_label.halign = "left"
+            details_label.valign = "top"
+
+        # === Preenche a lista de quests ===
+        completed = qm.completed_quests
+        if not completed:
+            quest_list_box.add_widget(Label(
+                text=self.lm.t("no_completed_quests"),
+                color=(0, 0, 0, 1),
+                size_hint_y=None,
+                height=30
+            ))
+        else:
+            for qid in completed:
+                q = qm.get_quest(qid)
+                if q:
+                    btn = Button(
+                        text=q.name,
+                        size_hint_y=None,
+                        height=40,
+                        on_release=lambda *_ , quest=q: show_details(quest)
+                    )
+                    quest_list_box.add_widget(btn)
+
+        # === Cria o popup ===
+        popup = Popup(
+            title=self.lm.t("completed_quests_title"),
+            content=main_layout,
+            size_hint=(None, None),
+            size=(500, 500),
+            auto_dismiss=True,
+            background="assets/background.png",
+            separator_color=(0, 0, 0, 0)
+        )
+        popup.open()

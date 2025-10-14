@@ -462,5 +462,53 @@
     "ru": "▼ Нажмите или пробел, чтобы продолжить ▼",
     "zh": "▼ 点击或按空格键继续 ▼",
     "ja": "▼ クリックまたはスペースキーを押して続行 ▼"
-    }
+  },
+  "turns_left_label": {
+    "pt": "Turnos Restantes",
+    "en": "Turns Left",
+    "es": "Turnos Restantes",
+    "ru": "Осталось ходов",
+    "zh": "剩余回合",
+    "ja": "残りターン"
+  },
+  "heroes_on_quest": {
+    "pt": "Heróis em Missão",
+    "en": "Heroes on Quest",
+    "es": "Héroes en misión",
+    "ru": "Герои в задании",
+    "zh": "任务中的英雄",
+    "ja": "任務中の英雄"
+  },
+  "selected": {
+    "pt": "Selecionado",
+    "en": "Selected",
+    "es": "Seleccionado",
+    "ru": "Выбран",
+    "zh": "已选择",
+    "ja": "選択済み"
+  },
+  "completed_quests_title": {
+    "pt": "Missões Completadas",
+    "en": "Completed Quests",
+    "es": "Misiones Completadas",
+    "ru": "Завершённые задания",
+    "zh": "已完成任务",
+    "ja": "完了したクエスト"
+  },
+  "no_completed_quests": {
+    "pt": "Nenhuma missão completada",
+    "en": "No completed quests",
+    "es": "No hay misiones completadas",
+    "ru": "Нет завершённых заданий",
+    "zh": "没有已完成的任务",
+    "ja": "完了したクエストはありません"
+  },
+  "select_quest_to_view": {
+    "pt": "Selecione uma missão para visualizar",
+    "en": "Select a quest to view",
+    "es": "Seleccione una misión para ver",
+    "ru": "Выберите задание для просмотра",
+    "zh": "选择一个任务查看",
+    "ja": "表示するクエストを選択してください"
+  }
 }

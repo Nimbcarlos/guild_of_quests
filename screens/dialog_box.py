@@ -52,26 +52,16 @@ class DialogueBox:
         Mostra um diálogo, enfileirando caso já exista outro ativo.
         parent_size: [width, height] do ResponsiveFrame para escalar corretamente.
         """
-        print(f"[DEBUG show_dialogue] Queue ANTES: {len(self.queue)} itens")
-        print(f"[DEBUG show_dialogue] Adicionando: heroes={[h.name for h in heroes]}, quest_id={quest_id}, result={result}")
         self.queue.append((heroes, quest_id, result, parent_size))
-        print(f"[DEBUG show_dialogue] Queue DEPOIS: {len(self.queue)} itens")
-        print(f"[DEBUG show_dialogue] Popup ativo? {self.popup is not None}")
         
         if not self.popup:  # só abre se não tiver popup ativo
-            print("[DEBUG show_dialogue] Iniciando _process_next()")
             self._process_next()
-        else:
-            print("[DEBUG show_dialogue] Popup já ativo, apenas enfileirou")
 
     def _process_next(self):
-        print(f"[DEBUG _process_next] Queue tem {len(self.queue)} itens")
         if not self.queue:
-            print("[DEBUG _process_next] Queue vazia, retornando")
             return
             
         heroes, quest_id, result, parent_size = self.queue.popleft()
-        print(f"[DEBUG _process_next] Processando: heroes={[h.name for h in heroes]}, quest_id={quest_id}, result={result}")
         
         # Armazena o parent_size para usar em _open_popup
         self.parent_size = parent_size
@@ -79,13 +69,10 @@ class DialogueBox:
         if isinstance(result, str) and quest_id == "assistant_event":
             # fala direta da assistente (não vem do dialogue_manager)
             self.dialogues = [result]
-            print(f"[DEBUG _process_next] Tipo: assistant_event, dialogues: {self.dialogues}")
         elif result == "start":
             self.dialogues = self.dm.show_start_dialogues(heroes, quest_id)
-            print(f"[DEBUG _process_next] Tipo: start, dialogues: {len(self.dialogues) if self.dialogues else 0} linhas")
         else:
             self.dialogues = self.dm.show_quest_dialogue(heroes, quest_id, result)
-            print(f"[DEBUG _process_next] Tipo: quest_dialogue, dialogues: {len(self.dialogues) if self.dialogues else 0} linhas")
 
         if not self.dialogues:
             self.dialogues = ["..."]
@@ -93,7 +80,6 @@ class DialogueBox:
         self.heroes = heroes
         self.current_index = 0
         self.char_index = 0
-        print(f"[DEBUG _process_next] Abrindo popup com {len(self.dialogues)} diálogos")
         self._open_popup()
 
     def _open_popup(self):
@@ -195,18 +181,14 @@ class DialogueBox:
         self._show_current_line()
 
     def _show_current_line(self):
-        print(f"[DEBUG _show_current_line] current_index={self.current_index}, total_dialogues={len(self.dialogues)}")
         
         if self.current_index >= len(self.dialogues):
-            print("[DEBUG _show_current_line] Fim dos diálogos, fechando popup")
             self.popup.dismiss()
             self.popup = None
-            print(f"[DEBUG _show_current_line] Queue após fechar: {len(self.queue)} itens")
             Clock.schedule_once(lambda dt: self._process_next(), 0)  # chama próximo
             return
 
         line = self.dialogues[self.current_index]
-        print(f"[DEBUG _show_current_line] Linha atual: {line if isinstance(line, str) else line.get('text', '')[:50]}")
 
         self.full_text = ""
         resolved_hero = None
