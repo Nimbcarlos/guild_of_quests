@@ -17,6 +17,8 @@ from core.language_manager import LanguageManager
 from screens.dialog_box import DialogueBox
 import core.save_manager as save
 import re
+from screens.gameplay.hero_popup import show_hero_details
+from core.music_manager import get_music_manager
 
 
 class GameplayScreen(Screen):
@@ -58,6 +60,8 @@ class GameplayScreen(Screen):
         # captura teclas
         Window.bind(on_key_down=self._on_key_down)
         self.ids.quest_details.clear_widgets()
+        self.music = get_music_manager()
+        self.music.play()           # Tocar
 
     def on_leave(self):
         # desliga o binding para evitar múltiplos binds ao voltar à tela
@@ -101,7 +105,7 @@ class GameplayScreen(Screen):
             Label(
                 text=turn_label_text,
                 size_hint_x=0.6,
-                size_hint_y=None,
+                # size_hint_y=None,
                 height=10,
                 color=(0, 0, 0, 1)
             )
@@ -112,7 +116,7 @@ class GameplayScreen(Screen):
             Button(
                 text=self.lm.t("advance_turn_btn"),
                 size_hint_x=0.4,
-                size_hint_y=None,
+                # size_hint_y=None,
                 height=40,
                 on_release=lambda *_: self.advance_turn()
             )
@@ -204,37 +208,6 @@ class GameplayScreen(Screen):
             height=20
         ))
 
-        wrapper = BoxLayout(
-            orientation="vertical",
-            padding=[20, 0, 20, 0],  # [left, top, right, bottom]
-            size_hint_y=None,
-        )
-        wrapper.bind(minimum_height=wrapper.setter("height"))
-
-        scroll = ScrollView(
-            size_hint_y=None,
-            height=110,
-            do_scroll_x=False,
-            do_scroll_y=False,
-            bar_width=0,
-        )
-
-        desc_label = Label(
-            text=quest.description,
-            color=(0, 0, 0, 1),
-            halign="left",
-            valign="top",
-            size_hint_y=None,
-        )
-        desc_label.bind(
-            width=lambda *x: desc_label.setter("text_size")(desc_label, (desc_label.width, None)),
-            texture_size=lambda *x: desc_label.setter("height")(desc_label, desc_label.texture_size[1])
-        )
-
-        scroll.add_widget(desc_label)
-        wrapper.add_widget(scroll)
-        container.add_widget(wrapper)
-
         # Taxa de sucesso
         self.success_label = Label(
             text=f'{self.lm.t('success_rate')}: --',
@@ -243,6 +216,20 @@ class GameplayScreen(Screen):
             height=25
         )
         container.add_widget(self.success_label)
+
+        desc_label = Label(
+            text=quest.description,
+            color=(0, 0, 0, 1),
+            halign="left",
+            text_size=(container.width * 0.9, None),
+            valign="top",
+            size_hint_y=None,
+            font_size=15
+        )
+        desc_label.bind(
+            texture_size=lambda *x: desc_label.setter("height")(desc_label, desc_label.texture_size[1])
+        )
+        container.add_widget(desc_label)
 
         # "Heróis disponíveis:"
         container.add_widget(Label(
@@ -259,7 +246,7 @@ class GameplayScreen(Screen):
 
         for hero in available_heroes:
 
-            row = BoxLayout(size_hint_y=None, height=60, spacing=10)
+            row = BoxLayout(size_hint_y=None, height=40, spacing=10)
 
             # Foto do herói (assumindo que hero.photo é o caminho da imagem)
             if getattr(hero, "photo_url", None):
@@ -305,7 +292,7 @@ class GameplayScreen(Screen):
                 text="🔍",
                 size_hint_x=None,
                 width=50,
-                on_release=lambda *_, h=hero: self.show_hero_details(h)
+                on_release=lambda *_, h=hero: show_hero_details(self, h)
             ))
 
             # --- Botão de seleção com feedback visual ---
@@ -431,10 +418,10 @@ class GameplayScreen(Screen):
 
             # Botão de detalhes do herói
             row.add_widget(Button(
-                text="🔍",
+                text="[font=Icons]\uf005[/font]",
                 size_hint_x=None,
                 width=50,
-                on_release=lambda *_, h=hero: self.show_hero_details(h)
+                on_release=lambda *_, h=hero: show_hero_details(self, h)
             ))
 
             heroes_box.add_widget(row)
@@ -474,78 +461,6 @@ class GameplayScreen(Screen):
         self.qm.send_heroes_on_quest(quest.id, hero_ids)
         # limpa seleção dessa quest
         self.pending_assignments.pop(quest.id, None)
-
-    def show_hero_details(self, hero):
-        """Mostra um popup com os detalhes do herói."""
-        content = BoxLayout(orientation="horizontal", spacing=10, padding=10) 
-
-        # Retrato
-        portrait = Image(
-            source=getattr(hero, "photo_body_url", "assets/ui/default_hero.png"),
-            size_hint=(None, 1),   # altura acompanha o pai, largura é manual
-            allow_stretch=True,
-            keep_ratio=True        # mantém proporção
-        )
-        content.add_widget(portrait)
-
-        # Coluna de infos
-        info_box = BoxLayout(orientation="vertical", spacing=5)
-
-        info_box.add_widget(Label(
-            text=f"Classe: {getattr(hero, 'hero_class', 'Desconhecida')}",
-            color=(0, 0, 0, 1),
-            size_hint_y=None,
-            height=25
-        ))
-
-        info_box.add_widget(Label(
-            text=f"Nível: {getattr(hero, 'level', 1)}",
-            color=(0, 0, 0, 1),
-            size_hint_y=None,
-            height=25
-        ))
-
-        # Se tiver atributos extras (força, agilidade, etc.)
-        if hasattr(hero, "stats"):
-            for attr, value in hero.stats.items():
-                info_box.add_widget(Label(
-                    text=f"{attr.capitalize()}: {value}",
-                    color=(0, 0, 0, 1),
-                    size_hint_y=None,
-                    height=20
-                ))
-
-        # Se tiver história (story)
-        if hasattr(hero, "story") and hero.story:
-            story_label = Label(
-                text=hero.story,
-                color=(0, 0, 0, 1),
-                size_hint_y=None,
-                text_size=(300, None),   # limita largura para quebrar linhas
-                halign="left",
-                valign="top"
-            )
-            story_label.bind(texture_size=lambda inst, val: setattr(story_label, "height", val[1]))
-
-            scroll = ScrollView(size_hint=(1, 0.6))
-            scroll.add_widget(story_label)
-            info_box.add_widget(scroll)
-
-        content.add_widget(info_box)
-
-        popup = Popup(
-            title=hero.name,
-            content=content,
-            title_align='center',
-            title_size=28,
-            title_color=(0, 0, 0, 1),
-            separator_color=(0, 0, 0, 1),
-            background="assets/background.png",
-            size_hint=(None, None),  # aumentei pra caber a história
-            size=(500, 500),  # aumentei pra caber a história
-            auto_dismiss=True
-        )
-        popup.open()
 
     def start_quest(self, quest):
         """Envia os heróis selecionados para uma quest específica e mostra o diálogo inicial."""
@@ -765,6 +680,7 @@ class GameplayScreen(Screen):
         if getattr(self, "pause_popup", None):
             try:
                 self.pause_popup.dismiss()
+                self.music.stop()
             except Exception:
                 pass
             self.pause_popup = None

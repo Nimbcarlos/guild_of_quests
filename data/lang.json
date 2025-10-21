@@ -103,6 +103,14 @@
     "zh": "载入游戏",
     "ja": "ゲームを読み込む"
   },
+  "load_game_title": {
+    "pt": "📂 Escolha um save",
+    "en": "📂 Choose a save",
+    "es": "📂 Elige una partida",
+    "ru": "📂 Выберите сохранение",
+    "zh": "📂 选择存档",
+    "ja": "📂 セーブを選択"
+  },
   "back_to_menu": {
     "pt": "Voltar ao Menu",
     "en": "Back to Menu",
@@ -518,5 +526,77 @@
     "ru": "Выполнено",
     "zh": "完成者",
     "ja": "完了者"
+  },
+  "no_saves_found": {
+    "pt": "Nenhum save encontrado",
+    "en": "No saves found",
+    "es": "No se encontraron partidas guardadas",
+    "ru": "Сохранения не найдены",
+    "zh": "未找到存档",
+    "ja": "セーブデータが見つかりません"
+  },
+  "load_button": {
+    "pt": "Carregar",
+    "en": "Load",
+    "es": "Cargar",
+    "ru": "Загрузить",
+    "zh": "加载",
+    "ja": "ロード"
+  },
+  "delete_button": {
+    "pt": "Apagar",
+    "en": "Delete",
+    "es": "Borrar",
+    "ru": "Удалить",
+    "zh": "删除",
+    "ja": "削除"
+  },
+  "confirm_delete_title": {
+    "pt": "Confirmar exclusão",
+    "en": "Confirm deletion",
+    "es": "Confirmar eliminación",
+    "ru": "Подтверждение удаления",
+    "zh": "确认删除",
+    "ja": "削除の確認"
+  },
+  "confirm_delete_message": {
+    "pt": "Apagar save '{filename}'?",
+    "en": "Delete save '{filename}'?",
+    "es": "¿Eliminar la partida '{filename}'?",
+    "ru": "Удалить сохранение «{filename}»?",
+    "zh": "删除存档“{filename}”？",
+    "ja": "セーブデータ「{filename}」を削除しますか？"
+  },
+  "cancel_button": {
+    "pt": "Cancelar",
+    "en": "Cancel",
+    "es": "Cancelar",
+    "ru": "Отмена",
+    "zh": "取消",
+    "ja": "キャンセル"
+  },
+  "delete_confirm_button": {
+    "pt": "Apagar",
+    "en": "Delete",
+    "es": "Borrar",
+    "ru": "Удалить",
+    "zh": "删除",
+    "ja": "削除"
+  },
+  "save_loaded_success": {
+    "pt": "✅ Save {filename} carregado com sucesso!",
+    "en": "✅ Save {filename} loaded successfully!",
+    "es": "✅ ¡Partida {filename} cargada correctamente!",
+    "ru": "✅ Сохранение {filename} успешно загружено!",
+    "zh": "✅ 存档 {filename} 已成功加载！",
+    "ja": "✅ セーブデータ {filename} の読み込みに成功しました！"
+  },
+  "save_loaded_error": {
+    "pt": "⚠️ Erro ao carregar {filename}",
+    "en": "⚠️ Error loading {filename}",
+    "es": "⚠️ Error al cargar {filename}",
+    "ru": "⚠️ Ошибка при загрузке {filename}",
+    "zh": "⚠️ 加载 {filename} 时出错",
+    "ja": "⚠️ {filename} の読み込み中にエラーが発生しました"
   }
 }

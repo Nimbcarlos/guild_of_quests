@@ -5,94 +5,91 @@
     MenuScreen:
     GameplayScreen:
 
-<LoadGameScreen>:
-    BoxLayout:
-        orientation: "vertical"
-        canvas.before:
-            Rectangle:
-                source: "assets/background_ls.png"
-                size: self.size
-                pos: self.pos
-        padding: 10
-        spacing: 10
-
-        Label:
-            text: "📂 Escolha um save"
-            font_size: 24
-            size_hint_y: None
-            height: 40
-            color: 0, 0, 0, 1
-
-        ScrollView:
-            size_hint_y: 0.8
-
-            BoxLayout:
-                id: saves_list
-                orientation: "vertical"
-                size_hint_y: None
-                height: self.minimum_height
-                spacing: 5
-
-        Button:
-            text: "⬅️ Voltar"
-            size_hint_y: None
-            height: 50
-            on_release:
-                app.root.current = "menu"
-
 <DialogueBox>:
     text_size: self.size
     valign: "top"
-    halign: "left"    
+    halign: "left"  
 
 <MenuScreen>:
     name: "menu"
     FloatLayout:
+        # Background escuro de fundo
         canvas.before:
+            Color:
+                rgba: 0, 0, 0, 1
             Rectangle:
-                source: "assets/background_ls.png"
                 size: self.size
                 pos: self.pos
 
-        BoxLayout:
-            orientation: "vertical"
-            spacing: 20
+        # Pergaminho de fundo (mais largo)
+        Image:
+            source: "assets/background_ls.png"
             size_hint: None, None
-            size: 320, 500
+            size: 800, 600
             pos_hint: {"center_x": 0.5, "center_y": 0.5}
+            allow_stretch: True
+            keep_ratio: False
 
-            # New Game -> chama o método Python que prepara e entra em gameplay
-            Button:
-                background_normal: "assets/buttons/new_game.png"
-                background_down: "assets/buttons/new_game.png"
-                size_hint: None, None
-                size: 300, 100
-                on_release: root.new_game()    # chama o método em screens/menu_screen.py
+        # Container principal HORIZONTAL
+        BoxLayout:
+            orientation: "horizontal"
+            spacing: 50
+            size_hint: None, None
+            size: 800, 500
+            pos_hint: {"center_x": 0.5, "center_y": 0.5}
+            padding: [50, 50, 50, 50]
 
-            # Load Game -> abre lista de saves (método Python já implementado)
-            Button:
-                background_normal: "assets/buttons/load_game.png"
-                background_down: "assets/buttons/load_game.png"
-                size_hint: None, None
-                size: 300, 100
-                on_release: app.root.current = "loadgame"
+            # ========== LADO ESQUERDO: LOGO ==========
+            AnchorLayout:
+                anchor_x: "center"
+                anchor_y: "center"
+                size_hint_x: 0.45
 
-            # Settings
-            Button:
-                background_normal: "assets/buttons/settings.png"
-                background_down: "assets/buttons/settings.png"
-                size_hint: None, None
-                size: 300, 100
-                on_release: root.open_settings()
+                Image:
+                    source: "assets/logo.png"
+                    size_hint: None, None
+                    size: 400, 350
+                    allow_stretch: True
+                    keep_ratio: True
 
-            # Exit
-            Button:
-                background_normal: "assets/buttons/exit.png"
-                background_down: "assets/buttons/exit.png"
-                size_hint: None, None
-                size: 300, 100
-                on_release: root.exit_game()
+            # ========== LADO DIREITO: BOTÕES ==========
+            BoxLayout:
+                orientation: "vertical"
+                spacing: 15
+                size_hint_x: 0.55
+                padding: [0, 50, 0, 0]
 
+                # New Game
+                Button:
+                    background_normal: "assets/buttons/new_game.png"
+                    background_down: "assets/buttons/new_game.png"
+                    size_hint: 1, None
+                    height: 90
+                    on_release: root.new_game()
+
+                # Load Game
+                Button:
+                    background_normal: "assets/buttons/load_game.png"
+                    background_down: "assets/buttons/load_game.png"
+                    size_hint: 1, None
+                    height: 90
+                    on_release: app.root.current = "loadgame"
+
+                # Settings
+                Button:
+                    background_normal: "assets/buttons/settings.png"
+                    background_down: "assets/buttons/settings.png"
+                    size_hint: 1, None
+                    height: 90
+                    on_release: root.open_settings()
+
+                # Exit
+                Button:
+                    background_normal: "assets/buttons/exit.png"
+                    background_down: "assets/buttons/exit.png"
+                    size_hint: 1, None
+                    height: 90
+                    on_release: root.exit_game()
 
 <GameplayScreen>:
     name: "gameplay"
@@ -253,122 +250,227 @@
 
 <SettingsScreen>:
     name: "settings"
-    BoxLayout:
-        orientation: "vertical"
-        padding: 20
-        spacing: 20
+    
+    FloatLayout:
+        # Background preto
         canvas.before:
+            Color:
+                rgba: 0, 0, 0, 1
             Rectangle:
-                source: "assets/background_ls.png"
                 size: self.size
                 pos: self.pos
-
-        Label:
-            text: "⚙️ Configurações"
-            font_size: 32
-            size_hint_y: None
-            height: 50
-            color: 0, 0, 0, 1
-
+        
+        # Pergaminho horizontal
+        Image:
+            source: "assets/background_ls.png"
+            size_hint: None, None
+            size: 900, 650
+            pos_hint: {"center_x": 0.5, "center_y": 0.5}
+            allow_stretch: True
+            keep_ratio: False
+        
+        # Container principal
         BoxLayout:
             orientation: "vertical"
-            spacing: 15
-
-            # Idioma
+            size_hint: None, None
+            size: 800, 580
+            pos_hint: {"center_x": 0.5, "center_y": 0.5}
+            padding: [40, 40, 40, 40]
+            spacing: 20
+            
+            # ========== TÍTULO ==========
+            Label:
+                text: "⚙ Configurações"
+                font_size: 32
+                bold: True
+                color: 0.16, 0.09, 0.06, 1
+                size_hint_y: None
+                height: 50
+            
+            # ========== CONTEÚDO EM DUAS COLUNAS ==========
             BoxLayout:
                 orientation: "horizontal"
+                spacing: 40
+                
+                # ===== COLUNA ESQUERDA =====
+                BoxLayout:
+                    orientation: "vertical"
+                    spacing: 15
+                    
+                    # Idioma
+                    BoxLayout:
+                        orientation: "vertical"
+                        size_hint_y: None
+                        height: 70
+                        spacing: 5
+                        
+                        Label:
+                            text: "Idioma:"
+                            color: 0.16, 0.09, 0.06, 1
+                            size_hint_y: None
+                            height: 25
+                            halign: "left"
+                            text_size: self.size
+                        
+                        Spinner:
+                            id: language_spinner
+                            text: root.current_language
+                            values: ["pt", "en", "es", "ru", "zh", "ja"]
+                            size_hint_y: None
+                            height: 40
+                            on_text: root.set_language(self.text)
+                    
+                    # Tamanho da Janela
+                    BoxLayout:
+                        orientation: "vertical"
+                        size_hint_y: None
+                        height: 70
+                        spacing: 5
+                        
+                        Label:
+                            text: "Tamanho da Janela:"
+                            color: 0.16, 0.09, 0.06, 1
+                            size_hint_y: None
+                            height: 25
+                            halign: "left"
+                            text_size: self.size
+                        
+                        Spinner:
+                            id: size_spinner
+                            text: f"{root.screen_size[0]}x{root.screen_size[1]}"
+                            values: ["800x600", "1024x768", "1280x720", "1366x768", "1920x1080"]
+                            size_hint_y: None
+                            height: 40
+                            on_text: root.set_screen_size(self.text)
+                    
+                    # Tamanho da Tela (Fullscreen)
+                    BoxLayout:
+                        orientation: "vertical"
+                        size_hint_y: None
+                        height: 70
+                        spacing: 5
+                        
+                        Label:
+                            text: "Tamanho da tela:"
+                            color: 0.16, 0.09, 0.06, 1
+                            size_hint_y: None
+                            height: 25
+                            halign: "left"
+                            text_size: self.size
+                        
+                        Spinner:
+                            id: mode_spinner
+                            text: root.screen_mode
+                            values: ["Janela", "Fullscreen"]
+                            size_hint_y: None
+                            height: 40
+                            on_text: root.set_screen_mode(self.text)
+                
+                # ===== COLUNA DIREITA =====
+                BoxLayout:
+                    orientation: "vertical"
+                    spacing: 15
+                    
+                    # Volume Música
+                    BoxLayout:
+                        orientation: "vertical"
+                        size_hint_y: None
+                        height: 70
+                        spacing: 5
+                        
+                        Label:
+                            text: f"Volume música: {int(root.music_volume)}%"
+                            color: 0.16, 0.09, 0.06, 1
+                            size_hint_y: None
+                            height: 25
+                            halign: "left"
+                            text_size: self.size
+                        
+                        Slider:
+                            id: music_slider
+                            min: 0
+                            max: 100
+                            value: root.music_volume
+                            size_hint_y: None
+                            height: 40
+                            on_value: root.set_music_volume(self.value)
+                    
+                    # Volume Sons UI
+                    BoxLayout:
+                        orientation: "vertical"
+                        size_hint_y: None
+                        height: 70
+                        spacing: 5
+                        
+                        Label:
+                            text: f"Volume sons UI: {int(root.ui_volume)}%"
+                            color: 0.16, 0.09, 0.06, 1
+                            size_hint_y: None
+                            height: 25
+                            halign: "left"
+                            text_size: self.size
+                        
+                        Slider:
+                            id: ui_slider
+                            min: 0
+                            max: 100
+                            value: root.ui_volume
+                            size_hint_y: None
+                            height: 40
+                            on_value: root.set_ui_volume(self.value)
+                    
+                    # Mute Música
+                    BoxLayout:
+                        orientation: "horizontal"
+                        size_hint_y: None
+                        height: 40
+                        spacing: 10
+                        
+                        Label:
+                            text: "Mute música:"
+                            color: 0.16, 0.09, 0.06, 1
+                            halign: "left"
+                            valign: "middle"
+                            text_size: self.size
+                        
+                        CheckBox:
+                            id: music_mute_check
+                            active: root.music_muted
+                            size_hint: None, None
+                            size: 40, 40
+                            on_active: root.toggle_music_mute(self, self.active)
+                    
+                    # Mute UI
+                    BoxLayout:
+                        orientation: "horizontal"
+                        size_hint_y: None
+                        height: 40
+                        spacing: 10
+                        
+                        Label:
+                            text: "Mute sons UI:"
+                            color: 0.16, 0.09, 0.06, 1
+                            halign: "left"
+                            valign: "middle"
+                            text_size: self.size
+                        
+                        CheckBox:
+                            id: ui_mute_check
+                            active: root.ui_muted
+                            size_hint: None, None
+                            size: 40, 40
+                            on_active: root.toggle_ui_mute(self, self.active)
+            
+            # ========== BOTÃO VOLTAR ==========
+            Button:
+                text: "↩ Voltar"
                 size_hint_y: None
-                height: 40
-                Label:
-                    text: "Idioma:"
-                    size_hint_x: 0.4
-                    color: 0,0,0,1
-                Spinner:
-                    id: lang_spinner
-                    text: root.current_language
-                    values: ["pt", "en", "es", "ru", "zh", "ja"]
-                    size_hint_x: 0.6
-                    on_text: root.set_language(self.text)
-
-            # Tela
-            BoxLayout:
-                orientation: "horizontal"
-                size_hint_y: None
-                height: 40
-                Label:
-                    text: "Tamanho da tela:"
-                    size_hint_x: 0.4
-                    color: 0,0,0,1
-                Spinner:
-                    id: screen_size_spinner
-                    text: root.screen_mode
-                    values: ["Janela", "Fullscreen"]
-                    size_hint_x: 0.6
-                    on_text: root.set_screen_mode(self.text)
-                Label:
-                    text: "Tamanho da tela"
-                Spinner:
-                    text: f"{root.screen_size[0]}x{root.screen_size[1]}"
-                    values: [f"{w}x{h}" for w, h in root.available_sizes]
-                    on_text: 
-                        root.set_screen_size([int(self.text.split('x')[0]), int(self.text.split('x')[1])])
-
-
-            # Volume música
-            BoxLayout:
-                orientation: "horizontal"
-                size_hint_y: None
-                height: 40
-                Label:
-                    text: "Volume música:"
-                    size_hint_x: 0.4
-                    color: 0,0,0,1
-                Slider:
-                    id: music_slider
-                    min: 0
-                    max: 100
-                    value: root.music_volume
-                    size_hint_x: 0.6
-                    on_value: root.set_music_volume(self.value)
-
-            # Volume UI
-            BoxLayout:
-                orientation: "horizontal"
-                size_hint_y: None
-                height: 40
-                Label:
-                    text: "Volume sons UI:"
-                    size_hint_x: 0.4
-                    color: 0,0,0,1
-                Slider:
-                    id: ui_slider
-                    min: 0
-                    max: 100
-                    value: root.ui_volume
-                    size_hint_x: 0.6
-                    on_value: root.set_ui_volume(self.value)
-
-            # Mute
-            BoxLayout:
-                orientation: "horizontal"
-                size_hint_y: None
-                height: 40
-                Label:
-                    text: "Mute música:"
-                    size_hint_x: 0.4
-                    color: 0,0,0,1
-                CheckBox:
-                    id: mute_music
-                    active: root.music_muted
-                    on_active: root.set_music_mute(self.active)
-
-        Button:
-            text: "⬅️ Voltar"
-            size_hint_y: None
-            height: 50
-            on_release:
-                app.root.current = "menu"
-
+                height: 60
+                font_size: 20
+                bold: True
+                background_color: 0.4, 0.3, 0.2, 1
+                color: 0.9, 0.85, 0.7, 1
+                on_release: root.go_back()
 
 
 <Button>:

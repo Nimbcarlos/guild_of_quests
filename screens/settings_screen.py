@@ -1,16 +1,18 @@
+# screens/settings_screen.py
 import json
 import os
 from kivy.uix.screenmanager import Screen
 from kivy.core.window import Window
 from kivy.properties import BooleanProperty, NumericProperty, StringProperty, ListProperty
+from core.music_manager import get_music_manager
 
 CONFIG_FILE = "config.json"
 
 class SettingsScreen(Screen):
     music_muted = BooleanProperty(False)
     ui_muted = BooleanProperty(False)
-    music_volume = NumericProperty(1.0)
-    ui_volume = NumericProperty(1.0)
+    music_volume = NumericProperty(100.0)  # 0-100
+    ui_volume = NumericProperty(100.0)  # 0-100
     current_language = StringProperty("pt")
     screen_mode = StringProperty("Janela")
     screen_size = ListProperty([800, 600])
@@ -36,12 +38,20 @@ class SettingsScreen(Screen):
                 self.screen_size = data.get("screen_size", [800, 600])
                 self.music_muted = data.get("music_muted", False)
                 self.ui_muted = data.get("ui_muted", False)
-                self.music_volume = data.get("music_volume", 1.0)
-                self.ui_volume = data.get("ui_volume", 1.0)
+                self.music_volume = data.get("music_volume", 100.0)
+                self.ui_volume = data.get("ui_volume", 100.0)
+                
+                # Aplica configurações
                 Window.size = self.screen_size
                 Window.fullscreen = True if self.screen_mode == "Fullscreen" else False
+                
+                # Aplica volume da música
+                music = get_music_manager()
+                music.set_volume(self.music_volume / 100.0)
+                if self.music_muted:
+                    music.toggle_mute()
         else:
-            self.save_config()  # cria config default se não existir
+            self.save_config()
 
     def save_config(self):
         data = {
@@ -68,28 +78,51 @@ class SettingsScreen(Screen):
         print(f"Tela: {mode}")
         self.save_config()
 
-    def set_screen_size(self, size):
-        self.screen_size = size
-        Window.size = size
-        print(f"Tamanho da tela definido para {size[0]}x{size[1]}")
+    def set_screen_size(self, size_str):
+        """size_str formato: '800x600'"""
+        width, height = map(int, size_str.split('x'))
+        self.screen_size = [width, height]
+        Window.size = self.screen_size
+        print(f"Tamanho da tela definido para {width}x{height}")
         self.save_config()
 
     def set_music_volume(self, value):
+        """value: 0-100"""
         self.music_volume = float(value)
-        print(f"Volume música: {self.music_volume}")
+        music = get_music_manager()
+        music.set_volume(value / 100.0)
+        print(f"Volume música: {value}%")
         self.save_config()
 
     def set_ui_volume(self, value):
+        """value: 0-100"""
         self.ui_volume = float(value)
-        print(f"Volume UI: {self.ui_volume}")
+        print(f"Volume UI: {value}%")
         self.save_config()
 
-    def set_music_mute(self, value: bool):
+    def toggle_music_mute(self, checkbox, value):
+        """Toggle mute da música"""
         self.music_muted = value
+        music = get_music_manager()
+        
+        if value:
+            # Mutou - para o som mas mantém o estado
+            if not music.is_muted:
+                music.toggle_mute()
+        else:
+            # Desmutou - volta o som
+            if music.is_muted:
+                music.toggle_mute()
+        
         print(f"Música mute: {value}")
         self.save_config()
 
-    def set_ui_mute(self, value: bool):
+    def toggle_ui_mute(self, checkbox, value):
+        """Toggle mute dos sons de UI"""
         self.ui_muted = value
         print(f"UI mute: {value}")
         self.save_config()
+    
+    def go_back(self):
+        """Volta para o menu"""
+        self.manager.current = "menu"
