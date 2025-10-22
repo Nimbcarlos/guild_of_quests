@@ -57,4 +57,4 @@ class HeroManager:
 
 if __name__ == "__main__":
     heroes = HeroManager()
-    print(heroes.get_hero_by_id(1).name)
+    print(heroes.get_hero_by_id(1))

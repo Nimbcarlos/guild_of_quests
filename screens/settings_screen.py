@@ -2,127 +2,268 @@
 import json
 import os
 from kivy.uix.screenmanager import Screen
+from kivy.uix.floatlayout import FloatLayout
+from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.label import Label
+from kivy.uix.spinner import Spinner
+from kivy.uix.slider import Slider
+from kivy.uix.checkbox import CheckBox
+from kivy.uix.button import Button
 from kivy.core.window import Window
-from kivy.properties import BooleanProperty, NumericProperty, StringProperty, ListProperty
+from kivy.uix.image import Image
 from core.music_manager import get_music_manager
+from core.language_manager import LanguageManager
+from kivy.properties import StringProperty
 
 CONFIG_FILE = "config.json"
 
+
 class SettingsScreen(Screen):
-    music_muted = BooleanProperty(False)
-    ui_muted = BooleanProperty(False)
-    music_volume = NumericProperty(100.0)  # 0-100
-    ui_volume = NumericProperty(100.0)  # 0-100
-    current_language = StringProperty("pt")
-    screen_mode = StringProperty("Janela")
-    screen_size = ListProperty([800, 600])
-    available_sizes = ListProperty([
-        [800, 600],
-        [1024, 768],
-        [1280, 720],
-        [1366, 768],
-        [1920, 1080]
-    ])
+    previous_screen = StringProperty("menu")
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self.load_config()
+        self.lm = LanguageManager()
+        self.config = self.load_config()
+        self.build_ui()
 
-    # ------------------- Config Load/Save -------------------
+    # ---------------- CONFIG ----------------
     def load_config(self):
         if os.path.exists(CONFIG_FILE):
-            with open(CONFIG_FILE, "r") as f:
-                data = json.load(f)
-                self.current_language = data.get("language", "pt")
-                self.screen_mode = data.get("screen_mode", "Janela")
-                self.screen_size = data.get("screen_size", [800, 600])
-                self.music_muted = data.get("music_muted", False)
-                self.ui_muted = data.get("ui_muted", False)
-                self.music_volume = data.get("music_volume", 100.0)
-                self.ui_volume = data.get("ui_volume", 100.0)
-                
-                # Aplica configurações
-                Window.size = self.screen_size
-                Window.fullscreen = True if self.screen_mode == "Fullscreen" else False
-                
-                # Aplica volume da música
-                music = get_music_manager()
-                music.set_volume(self.music_volume / 100.0)
-                if self.music_muted:
-                    music.toggle_mute()
+            with open(CONFIG_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
         else:
-            self.save_config()
+            default = {
+                "language": "pt",
+                "screen_mode": "Janela",
+                "screen_size": [800, 600],
+                "music_muted": False,
+                "ui_muted": False,
+                "music_volume": 100.0,
+                "ui_volume": 100.0,
+            }
+            with open(CONFIG_FILE, "w", encoding="utf-8") as f:
+                json.dump(default, f, indent=4)
+            return default
 
     def save_config(self):
-        data = {
-            "language": self.current_language,
-            "screen_mode": self.screen_mode,
-            "screen_size": self.screen_size,
-            "music_muted": self.music_muted,
-            "ui_muted": self.ui_muted,
-            "music_volume": self.music_volume,
-            "ui_volume": self.ui_volume
-        }
-        with open(CONFIG_FILE, "w") as f:
-            json.dump(data, f, indent=4)
+        with open(CONFIG_FILE, "w", encoding="utf-8") as f:
+            json.dump(self.config, f, indent=4)
 
-    # ------------------- Setters -------------------
-    def set_language(self, lang):
-        self.current_language = lang
-        print(f"Idioma definido para {lang}")
+    # ---------------- UI ----------------
+    def build_ui(self):
+        layout = FloatLayout()
+
+        # Fundo
+        from kivy.graphics import Color, Rectangle
+        with layout.canvas.before:
+            Color(0, 0, 0, 1)
+            self.bg_rect = Rectangle(size=layout.size, pos=layout.pos)
+        layout.bind(size=self._update_bg, pos=self._update_bg)
+
+        # Container principal
+        box = BoxLayout(
+            orientation="vertical",
+            size_hint=(None, None),
+            size=(800, 580),
+            pos_hint={"center_x": 0.5, "center_y": 0.5},
+            spacing=20,
+            padding=40,
+        )
+
+        pergaminho = Image(
+            source="assets/background_ls.png",
+            size_hint=(None, None),
+            size=(800, 600),
+            pos_hint={"center_x": 0.5, "center_y": 0.5},
+            allow_stretch=True,
+            keep_ratio=False
+        )
+        layout.add_widget(pergaminho)
+
+        # Título
+        title = Label(
+            text=f"{self.lm.t('settings_title')}",
+            font_size=32,
+            bold=True,
+            color=(0.16, 0.09, 0.06, 1),
+            size_hint_y=None,
+            height=50,
+        )
+        box.add_widget(title)
+
+        # Conteúdo
+        content = BoxLayout(orientation="horizontal", spacing=30)
+
+        # Coluna esquerda
+        left = BoxLayout(orientation="vertical", spacing=15)
+
+        # Idioma
+        left.add_widget(Label(
+            text=self.lm.t("language"),
+            color=(0.16, 0.09, 0.06, 1),
+            size_hint_y=None, height=25
+        ))
+
+        lang_spinner = Spinner(
+            text=self.config.get("language", "pt"),
+            values=["pt", "en", "es", "ru", "zh", "ja"],
+            size_hint_y=None, height=40
+        )
+        lang_spinner.bind(text=self.set_language)
+        left.add_widget(lang_spinner)
+
+        # Modo de tela
+        left.add_widget(Label(
+            text=self.lm.t("screen_mode"),
+            color=(0.16, 0.09, 0.06, 1),
+            size_hint_y=None, height=25
+        ))
+        mode_spinner = Spinner(
+            text=self.config.get("screen_mode", "Janela"),
+            values=["Janela", "Fullscreen"],
+            size_hint_y=None, height=40
+        )
+        mode_spinner.bind(text=self.set_screen_mode)
+        left.add_widget(mode_spinner)
+
+        # Resolução
+        left.add_widget(Label(
+            text=self.lm.t("screen_size"),
+            color=(0.16, 0.09, 0.06, 1),
+            size_hint_y=None, height=25
+        ))
+        size_spinner = Spinner(
+            text=f"{self.config['screen_size'][0]}x{self.config['screen_size'][1]}",
+            values=["800x600", "1024x768", "1280x720", "1366x768", "1920x1080"],
+            size_hint_y=None, height=40
+        )
+        size_spinner.bind(text=self.set_screen_size)
+        left.add_widget(size_spinner)
+
+        # Coluna direita
+        right = BoxLayout(orientation="vertical", spacing=15)
+
+        # Volume música
+        right.add_widget(Label(
+            text=f"{self.lm.t('music_volume')}: {int(self.config['music_volume'])}%",
+            color=(0.16, 0.09, 0.06, 1),
+            size_hint_y=None, height=25
+        ))
+        music_slider = Slider(
+            min=0, max=100, value=self.config["music_volume"],
+            size_hint_y=None, height=40
+        )
+        music_slider.bind(value=self.set_music_volume)
+        right.add_widget(music_slider)
+
+        # Volume UI
+        right.add_widget(Label(
+            text=f"{self.lm.t('ui_volume')}: {int(self.config['ui_volume'])}%",
+            color=(0.16, 0.09, 0.06, 1),
+            size_hint_y=None, height=25
+        ))
+        ui_slider = Slider(
+            min=0, max=100, value=self.config["ui_volume"],
+            size_hint_y=None, height=40
+        )
+        ui_slider.bind(value=self.set_ui_volume)
+        right.add_widget(ui_slider)
+
+        # Mute música
+        mute_box = BoxLayout(orientation="horizontal", spacing=10, size_hint_y=None, height=40)
+        mute_box.add_widget(Label(
+            text=self.lm.t("mute_music"),
+            color=(0.16, 0.09, 0.06, 1),
+        ))
+        cb_music = CheckBox(active=self.config["music_muted"], size_hint=(None, None), size=(40, 40))
+        cb_music.bind(active=self.toggle_music_mute)
+        mute_box.add_widget(cb_music)
+        right.add_widget(mute_box)
+
+        # Mute UI
+        ui_box = BoxLayout(orientation="horizontal", spacing=10, size_hint_y=None, height=40)
+        ui_box.add_widget(Label(
+            text=self.lm.t("mute_ui"),
+            color=(0.16, 0.09, 0.06, 1),
+        ))
+        cb_ui = CheckBox(active=self.config["ui_muted"], size_hint=(None, None), size=(40, 40))
+        cb_ui.bind(active=self.toggle_ui_mute)
+        ui_box.add_widget(cb_ui)
+        right.add_widget(ui_box)
+
+        # Juntar colunas
+        content.add_widget(left)
+        content.add_widget(right)
+        box.add_widget(content)
+
+        # Botão Voltar
+        back_btn = Button(
+            text=self.lm.t('back_to_menu'),
+            size_hint_y=None, height=60,
+            font_size=20, bold=True,
+            background_color=(0.4, 0.3, 0.2, 1),
+            color=(0.9, 0.85, 0.7, 1)
+        )
+        back_btn.bind(on_release=self.go_back)
+        box.add_widget(back_btn)
+
+        layout.add_widget(box)
+        self.add_widget(layout)
+
+    def _update_bg(self, instance, value):
+        self.bg_rect.size = instance.size
+        self.bg_rect.pos = instance.pos
+
+    # ---------------- CALLBACKS ----------------
+    def set_language(self, instance, lang):
+        self.config["language"] = lang
+        self.lm.set_language(lang)
+        print(f"Idioma alterado para {lang}")
+        self.save_config()
+        self.clear_widgets()
+        self.build_ui()  # Reconstrói UI no novo idioma
+
+    def set_screen_mode(self, instance, mode):
+        self.config["screen_mode"] = mode
+        Window.fullscreen = (mode == "Fullscreen")
         self.save_config()
 
-    def set_screen_mode(self, mode):
-        self.screen_mode = mode
-        Window.fullscreen = True if mode == "Fullscreen" else False
-        print(f"Tela: {mode}")
+    def set_screen_size(self, instance, size_str):
+        w, h = map(int, size_str.split("x"))
+        self.config["screen_size"] = [w, h]
+        Window.size = (w, h)
         self.save_config()
 
-    def set_screen_size(self, size_str):
-        """size_str formato: '800x600'"""
-        width, height = map(int, size_str.split('x'))
-        self.screen_size = [width, height]
-        Window.size = self.screen_size
-        print(f"Tamanho da tela definido para {width}x{height}")
-        self.save_config()
-
-    def set_music_volume(self, value):
-        """value: 0-100"""
-        self.music_volume = float(value)
+    def set_music_volume(self, instance, value):
+        self.config["music_volume"] = float(value)
         music = get_music_manager()
         music.set_volume(value / 100.0)
-        print(f"Volume música: {value}%")
         self.save_config()
 
-    def set_ui_volume(self, value):
-        """value: 0-100"""
-        self.ui_volume = float(value)
-        print(f"Volume UI: {value}%")
+    def set_ui_volume(self, instance, value):
+        self.config["ui_volume"] = float(value)
         self.save_config()
 
-    def toggle_music_mute(self, checkbox, value):
-        """Toggle mute da música"""
-        self.music_muted = value
+    def toggle_music_mute(self, instance, value):
+        self.config["music_muted"] = value
         music = get_music_manager()
-        
-        if value:
-            # Mutou - para o som mas mantém o estado
-            if not music.is_muted:
-                music.toggle_mute()
-        else:
-            # Desmutou - volta o som
+        if value and not music.is_muted:
+            music.toggle_mute()
+        elif not value and music.is_muted:
+            music.toggle_mute()
+        self.save_config()
+
+    def toggle_ui_mute(self, instance, value):
+        self.config["ui_muted"] = value
+        self.save_config()
+
+    def go_back(self, *args):
+        if self.previous_screen == "gameplay":
+            music = get_music_manager()
             if music.is_muted:
                 music.toggle_mute()
-        
-        print(f"Música mute: {value}")
-        self.save_config()
+        else:
+            print("Voltando ao menu principal...")
 
-    def toggle_ui_mute(self, checkbox, value):
-        """Toggle mute dos sons de UI"""
-        self.ui_muted = value
-        print(f"UI mute: {value}")
-        self.save_config()
-    
-    def go_back(self):
-        """Volta para o menu"""
-        self.manager.current = "menu"
+        self.manager.current = self.previous_screen

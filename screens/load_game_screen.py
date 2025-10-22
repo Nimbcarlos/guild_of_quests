@@ -10,17 +10,25 @@ from kivy.uix.scrollview import ScrollView
 from kivy.uix.popup import Popup
 from kivy.uix.image import Image
 from kivy.graphics import Color, Rectangle
-
+from core.music_manager import get_music_manager
 import core.save_manager as save
 from core.language_manager import LanguageManager
+from kivy.properties import StringProperty
 
 SAVE_DIR = "saves"
 
 class LoadGameScreen(Screen):
+    previous_screen = StringProperty("gameplay")
+
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.lm = LanguageManager()
         self.saves_list = None
+        self.build_ui()
+
+    def on_pre_enter(self):
+        self.lm = LanguageManager()  # recarrega idioma atualizado
+        self.refresh_saves()
         self.build_ui()
 
     def build_ui(self):
@@ -38,7 +46,7 @@ class LoadGameScreen(Screen):
         pergaminho = Image(
             source="assets/background_ls.png",
             size_hint=(None, None),
-            size=(900, 650),
+            size=(800, 600),
             pos_hint={"center_x": 0.5, "center_y": 0.5},
             allow_stretch=True,
             keep_ratio=False
@@ -216,6 +224,13 @@ class LoadGameScreen(Screen):
         else:
             print(f"⚠️ {self.lm.t('save_loaded_error')}: {filename}")
 
-    def go_back(self, *_):
-        """Retorna ao menu principal"""
-        self.manager.current = "menu"
+    def go_back(self, *args):
+        """Volta para a tela anterior"""
+        if self.previous_screen == "gameplay":
+            music = get_music_manager()
+            if music.is_muted:
+                music.toggle_mute()
+        else:
+            print("Voltando ao menu principal...")
+
+        self.manager.current = self.previous_screen

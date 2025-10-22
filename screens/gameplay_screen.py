@@ -26,6 +26,13 @@ class GameplayScreen(Screen):
     available_quests_label = StringProperty()
     completed_quests_label = StringProperty()
     log_messages = StringProperty()
+    previous_screen = StringProperty("settings")
+    first_time_entering = True  # Flag para primeira entrada
+    
+    def on_pre_enter(self):
+        """Chamado ANTES de entrar na tela"""
+        # Detecta se está vindo de settings
+        self.coming_from_settings = (self.manager.current == "settings")
 
     def on_enter(self):
         self.qm = self.manager.quest_manager  
@@ -49,8 +56,9 @@ class GameplayScreen(Screen):
         self.completed_quests_label = self.lm.t("completed_quests")
         self.log_messages = self.lm.t("log_messages")
 
-        # dispara a fala inicial da assistente
-        self.qm.assistant.on_game_start()
+        if self.first_time_entering and not self.coming_from_settings:
+            self.qm.assistant.on_game_start()
+            self.first_time_entering = False
 
         self.update_sidebar()
         self.turn_bar()
@@ -587,6 +595,10 @@ class GameplayScreen(Screen):
         btn_load.bind(on_release=self.load_and_close_popup)
         content.add_widget(btn_load)
 
+        btn_settings = Button(text=self.lm.t("settings_title"), size_hint_y=None, height=48)
+        btn_settings.bind(on_release=self.open_settings)
+        content.add_widget(btn_settings)
+
         btn_menu = Button(text=self.lm.t("back_to_menu"), size_hint_y=None, height=48)
         btn_menu.bind(on_release=self.goto_menu)
         content.add_widget(btn_menu)
@@ -599,7 +611,7 @@ class GameplayScreen(Screen):
         self.pause_popup = Popup(title=self.lm.t("pause_menu_title"),
                                 content=content, 
                                 size_hint=(None, None),
-                                size=(300, 320)
+                                size=(300, 360)
                                 )
         self.pause_popup.open()
 
@@ -674,6 +686,19 @@ class GameplayScreen(Screen):
             self.pause_popup = None
 
         self.manager.current = "loadgame"
+
+    def open_settings(self, *args):
+        if getattr(self, "pause_popup", None):
+            try:
+                self.pause_popup.dismiss()
+                self.music.stop()
+            except Exception:
+                pass
+            self.pause_popup = None
+
+        settings = self.manager.get_screen("settings")
+        settings.previous_screen = "gameplay"
+        self.manager.current = "settings"
 
     def goto_menu(self, *args):
         # fecha popup se necessário

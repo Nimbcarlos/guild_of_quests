@@ -26,6 +26,7 @@ class LanguageManager:
             json.dump({"language": lang_code}, f, ensure_ascii=False, indent=4)
 
     def t(self, key: str) -> str:
+        """Traduz uma chave interna (ex: 'strength' → 'Força')."""
         entry = self.translations.get(key)
         if entry is None:
             print(f"[DEBUG] Chave não encontrada: {key}")
@@ -36,18 +37,24 @@ class LanguageManager:
             return key
         return text
 
-if __name__ == "__main__":
-    from language_manager import LanguageManager
+    def rt(self, text: str) -> str:
+        """Tradução reversa — obtém a chave interna a partir do texto traduzido."""
+        for key, langs in self.translations.items():
+            if langs.get(self.language) == text:
+                return key
+        return text  # se não encontrar, retorna o original
 
+if __name__ == "__main__":
     lm = LanguageManager()
 
-    print(lm.t("class"))   # se estiver em pt → "classe"
-    print(lm.t("hero"))    # se estiver em pt → "herói"
-    print(lm.t("guild"))   # se estiver em pt → "guilda"
+    print("--- Tradução normal ---")
+    print(lm.t("strength"))
+    print(lm.t("wisdom"))
 
-    # mudar para inglês
+    print("--- Tradução reversa ---")
+    print(lm.rt("Força"))
+    print(lm.rt("Sabedoria"))
+
     lm.set_language("en")
-
-    print(lm.t("class"))   # → "class"
-    print(lm.t("hero"))    # → "hero"
-    print(lm.t("guild"))   # → "guild"
+    print("--- Inglês ---")
+    print(lm.t("strength"))

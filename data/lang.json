@@ -104,12 +104,12 @@
     "ja": "ゲームを読み込む"
   },
   "load_game_title": {
-    "pt": "📂 Escolha um save",
-    "en": "📂 Choose a save",
-    "es": "📂 Elige una partida",
-    "ru": "📂 Выберите сохранение",
-    "zh": "📂 选择存档",
-    "ja": "📂 セーブを選択"
+    "pt": "Escolha um save",
+    "en": "Choose a save",
+    "es": "Elige una partida",
+    "ru": "Выберите сохранение",
+    "zh": "选择存档",
+    "ja": "セーブを選択"
   },
   "back_to_menu": {
     "pt": "Voltar ao Menu",
@@ -584,19 +584,235 @@
     "ja": "削除"
   },
   "save_loaded_success": {
-    "pt": "✅ Save {filename} carregado com sucesso!",
-    "en": "✅ Save {filename} loaded successfully!",
-    "es": "✅ ¡Partida {filename} cargada correctamente!",
-    "ru": "✅ Сохранение {filename} успешно загружено!",
-    "zh": "✅ 存档 {filename} 已成功加载！",
-    "ja": "✅ セーブデータ {filename} の読み込みに成功しました！"
+    "pt": "Save {filename} carregado com sucesso!",
+    "en": "Save {filename} loaded successfully!",
+    "es": "¡Partida {filename} cargada correctamente!",
+    "ru": "Сохранение {filename} успешно загружено!",
+    "zh": "存档 {filename} 已成功加载！",
+    "ja": "セーブデータ {filename} の読み込みに成功しました！"
   },
   "save_loaded_error": {
-    "pt": "⚠️ Erro ao carregar {filename}",
-    "en": "⚠️ Error loading {filename}",
-    "es": "⚠️ Error al cargar {filename}",
-    "ru": "⚠️ Ошибка при загрузке {filename}",
-    "zh": "⚠️ 加载 {filename} 时出错",
-    "ja": "⚠️ {filename} の読み込み中にエラーが発生しました"
+    "pt": "Erro ao carregar {filename}",
+    "en": "Error loading {filename}",
+    "es": "Error al cargar {filename}",
+    "ru": "Ошибка при загрузке {filename}",
+    "zh": "加载 {filename} 时出错",
+    "ja": "{filename} の読み込み中にエラーが発生しました"
+  },
+  "load": {
+    "pt": "Carregar",
+    "en": "Load",
+    "es": "Cargar",
+    "ru": "Загрузить",
+    "zh": "载入",
+    "ja": "読み込む"
+  },
+  "delete": {
+    "pt": "Apagar",
+    "en": "Delete",
+    "es": "Borrar",
+    "ru": "Удалить",
+    "zh": "删除",
+    "ja": "削除"
+  },
+  "confirm_delete_text": {
+    "pt": "Apagar save '{filename}'?",
+    "en": "Delete save '{filename}'?",
+    "es": "¿Eliminar el guardado '{filename}'?",
+    "ru": "Удалить сохранение '{filename}'?",
+    "zh": "要删除存档 '{filename}' 吗？",
+    "ja": "セーブデータ '{filename}' を削除しますか？"
+  },
+  "back": {
+    "pt": "Voltar",
+    "en": "Back",
+    "es": "Volver",
+    "ru": "Назад",
+    "zh": "返回",
+    "ja": "戻る"
+  },
+  "settings_title": {
+    "pt": "Configurações",
+    "en": "Settings",
+    "es": "Configuraciones",
+    "ru": "Настройки",
+    "zh": "设置",
+    "ja": "設定"
+  },
+  "language": {
+    "pt": "Idioma",
+    "en": "Language",
+    "es": "Idioma",
+    "ru": "Язык",
+    "zh": "语言",
+    "ja": "言語"
+  },
+  "screen_mode": {
+    "pt": "Modo de Tela",
+    "en": "Screen Mode",
+    "es": "Modo de Pantalla",
+    "ru": "Режим экрана",
+    "zh": "显示模式",
+    "ja": "画面モード"
+  },
+  "screen_size": {
+    "pt": "Resolução",
+    "en": "Resolution",
+    "es": "Resolución",
+    "ru": "Разрешение",
+    "zh": "分辨率",
+    "ja": "解像度"
+  },
+  "music_volume": {
+    "pt": "Volume da Música",
+    "en": "Music Volume",
+    "es": "Volumen de Música",
+    "ru": "Громкость музыки",
+    "zh": "音乐音量",
+    "ja": "音楽の音量"
+  },
+  "ui_volume": {
+    "pt": "Volume da Interface",
+    "en": "UI Volume",
+    "es": "Volumen de Interfaz",
+    "ru": "Громкость интерфейса",
+    "zh": "界面音量",
+    "ja": "UIの音量"
+  },
+  "mute_music": {
+    "pt": "Silenciar Música",
+    "en": "Mute Music",
+    "es": "Silenciar Música",
+    "ru": "Выключить музыку",
+    "zh": "静音音乐",
+    "ja": "音楽をミュート"
+  },
+  "mute_ui": {
+    "pt": "Silenciar Sons da Interface",
+    "en": "Mute UI Sounds",
+    "es": "Silenciar Sonidos de Interfaz",
+    "ru": "Выключить звуки интерфейса",
+    "zh": "静音界面声音",
+    "ja": "UI音をミュート"
+  },
+  "fullscreen": {
+    "pt": "Tela Cheia",
+    "en": "Fullscreen",
+    "es": "Pantalla Completa",
+    "ru": "Полный экран",
+    "zh": "全屏",
+    "ja": "フルスクリーン"
+  },
+  "windowed": {
+    "pt": "Janela",
+    "en": "Windowed",
+    "es": "Ventana",
+    "ru": "Оконный",
+    "zh": "窗口模式",
+    "ja": "ウィンドウ"
+  },
+  "class_label": {
+    "pt": "Classe",
+    "en": "Class",
+    "es": "Clase",
+    "ru": "Класс",
+    "zh": "职业",
+    "ja": "クラス"
+  },
+  "level_label": {
+    "pt": "Nível",
+    "en": "Level",
+    "es": "Nivel",
+    "ru": "Уровень",
+    "zh": "等级",
+    "ja": "レベル"
+  },
+  "strength": {
+    "pt": "Força",
+    "en": "Strength",
+    "es": "Fuerza",
+    "ru": "Сила",
+    "zh": "力量",
+    "ja": "力"
+  },
+  "dexterity": {
+    "pt": "Destreza",
+    "en": "Dexterity",
+    "es": "Destreza",
+    "ru": "Ловкость",
+    "zh": "敏捷",
+    "ja": "器用さ"
+  },
+  "intelligence": {
+    "pt": "Inteligência",
+    "en": "Intelligence",
+    "es": "Inteligencia",
+    "ru": "Интеллект",
+    "zh": "智力",
+    "ja": "知性"
+  },
+  "wisdom": {
+    "pt": "Sabedoria",
+    "en": "Wisdom",
+    "es": "Sabiduría",
+    "ru": "Мудрость",
+    "zh": "智慧",
+    "ja": "知恵"
+  },
+  "warrior": {
+    "pt": "Guerreiro",
+    "en": "Warrior",
+    "es": "Guerrero",
+    "ru": "Воин",
+    "zh": "战士",
+    "ja": "戦士"
+  },
+  "rogue": {
+    "pt": "Ladino",
+    "en": "Rogue",
+    "es": "Pícaro",
+    "ru": "Разбойник",
+    "zh": "盗贼",
+    "ja": "ローグ"
+  },
+  "mage": {
+    "pt": "Mago",
+    "en": "Mage",
+    "es": "Mago",
+    "ru": "Маг",
+    "zh": "法师",
+    "ja": "魔法使い"
+  },
+  "hero_1_name": {
+    "pt": "Lyra",
+    "en": "Lyra",
+    "es": "Lyra",
+    "ru": "Лира",
+    "zh": "莉拉",
+    "ja": "リラ"
+  },
+  "hero_1_story": {
+    "pt": "Lyra cresceu em uma tribo de guerreiros...",
+    "en": "Lyra grew up in a tribe of warriors...",
+    "es": "Lyra creció en una tribu de guerreros...",
+    "ru": "Лира выросла в племени воинов...",
+    "zh": "莉拉在战士部落中长大...",
+    "ja": "リラは戦士の部族で育ちました..."
+  },
+  "hero_2_name": {
+    "pt": "Elara",
+    "en": "Elara",
+    "es": "Elara",
+    "ru": "Элара",
+    "zh": "艾拉拉",
+    "ja": "エララ"
+  },
+  "hero_2_story": {
+    "pt": "Elara cresceu nas vielas de uma cidade...",
+    "en": "Elara grew up in the alleys of a city...",
+    "es": "Elara creció en los callejones de una ciudad...",
+    "ru": "Элара выросла в переулках города...",
+    "zh": "艾拉拉在城市的小巷中长大...",
+    "ja": "エララは街の路地で育ちました..."
   }
 }

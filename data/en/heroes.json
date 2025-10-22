@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Lyra",
+    "hero_class": "Warrior",
+    "status": "Healthy",
+    "perks": [
+      "Strong"
+    ],
+    "defects": [
+      "Clumsy"
+    ],
+    "story": "Lyra grew up in a warrior tribe, naturally shy and averse to major interactions. She didn't know how to communicate well with people, and her words rarely came out clearly. However, when she wielded her Vorpal sword, something changed radically. In combat, the shyness completely disappeared, replaced by a savage ferocity. She moved like a force of nature, her battle cries echoing through the forest, a brutal and relentless warrior.",
+    "photo_url": "assets/img/Lyra.png",
+    "photo_body_url": "assets/img/lyrafullbody.png",
+    "unlock_by_quest": [],
+    "available_from_turn": 1,
+    "leave_on_quest": [],
+    "growth_curve": {
+      "1": {
+        "strength": 2,
+        "dexterity": 1,
+        "intelligence": 1,
+        "wisdom": 1
+      },
+      "2": {
+        "strength": 3,
+        "dexterity": 1,
+        "intelligence": 1,
+        "wisdom": 1
+      },
+      "3": {
+        "strength": 4,
+        "dexterity": 1,
+        "intelligence": 1,
+        "wisdom": 1
+      },
+      "4": {
+        "strength": 5,
+        "dexterity": 1,
+        "intelligence": 1,
+        "wisdom": 1
+      },
+      "5": {
+        "strength": 6,
+        "dexterity": 1,
+        "intelligence": 1,
+        "wisdom": 1
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Elara",
+    "hero_class": "Rogue",
+    "status": "Healthy",
+    "perks": [
+      "Agile"
+    ],
+    "defects": [
+      "Cowardly"
+    ],
+    "story": "Elara grew up in the alleyways of a city where dishonesty was the rule. But for her, truth was a non-negotiable principle. Her mother, sick and needing care that Elara's honesty could barely sustain, was the main reason for her actions. Elara used her rogue talents — her nimble hands and her ability to move unnoticed — not for stealing, but for honest work, such as finding lost items or mapping dangerous areas, which paid enough to keep her mother comfortable.",
+    "photo_url": "assets/img/Elara.png",
+    "photo_body_url": "assets/img/elarafullbody.png",
+    "unlock_by_quest": [],
+    "available_from_turn": 1,
+    "leave_on_quest": [],
+    "growth_curve": {
+      "1": {
+        "strength": 1,
+        "dexterity": 2,
+        "intelligence": 1,
+        "wisdom": 1
+      },
+      "2": {
+        "strength": 1,
+        "dexterity": 3,
+        "intelligence": 1,
+        "wisdom": 1
+      },
+      "3": {
+        "strength": 1,
+        "dexterity": 4,
+        "intelligence": 1,
+        "wisdom": 1
+      },
+      "4": {
+        "strength": 1,
+        "dexterity": 5,
+        "intelligence": 1,
+        "wisdom": 1
+      },
+      "5": {
+        "strength": 1,
+        "dexterity": 6,
+        "intelligence": 1,
+        "wisdom": 1
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "Kael",
+    "hero_class": "Cleric",
+    "status": "Healthy",
+    "perks": [
+      "Healing Aura"
+    ],
+    "defects": [
+      "Naive"
+    ],
+    "story": "Kael always heard voices. Since childhood, the whispers of the city, the booming laughter of unseen beings, and the conversations of creatures dancing in the corners of his vision were his only companions. While other boys played, Kael would crouch, trying to decipher the words only he could hear. To the world, he was merely strange and distant. But to Kael, those voices were the echoes of the divine, the chaotic chorus of the universe calling him to a life of faith.",
+    "photo_url": "assets/img/Kael.png",
+    "photo_body_url": "assets/img/kaelfullbody.png",
+    "unlock_by_quest": [],
+    "available_from_turn": 1,
+    "leave_on_quest": [],
+    "growth_curve": {
+      "1": {
+        "strength": 1,
+        "dexterity": 1,
+        "intelligence": 1,
+        "wisdom": 2
+      },
+      "2": {
+        "strength": 1,
+        "dexterity": 1,
+        "intelligence": 1,
+        "wisdom": 3
+      },
+      "3": {
+        "strength": 1,
+        "dexterity": 1,
+        "intelligence": 1,
+        "wisdom": 4
+      },
+      "4": {
+        "strength": 1,
+        "dexterity": 1,
+        "intelligence": 1,
+        "wisdom": 5
+      },
+      "5": {
+        "strength": 1,
+        "dexterity": 1,
+        "intelligence": 1,
+        "wisdom": 6
+      }
+    }
+  }
+]
