@@ -711,14 +711,6 @@
     "zh": "窗口模式",
     "ja": "ウィンドウ"
   },
-  "class_label": {
-    "pt": "Classe",
-    "en": "Class",
-    "es": "Clase",
-    "ru": "Класс",
-    "zh": "职业",
-    "ja": "クラス"
-  },
   "level_label": {
     "pt": "Nível",
     "en": "Level",
@@ -758,61 +750,5 @@
     "ru": "Мудрость",
     "zh": "智慧",
     "ja": "知恵"
-  },
-  "warrior": {
-    "pt": "Guerreiro",
-    "en": "Warrior",
-    "es": "Guerrero",
-    "ru": "Воин",
-    "zh": "战士",
-    "ja": "戦士"
-  },
-  "rogue": {
-    "pt": "Ladino",
-    "en": "Rogue",
-    "es": "Pícaro",
-    "ru": "Разбойник",
-    "zh": "盗贼",
-    "ja": "ローグ"
-  },
-  "mage": {
-    "pt": "Mago",
-    "en": "Mage",
-    "es": "Mago",
-    "ru": "Маг",
-    "zh": "法师",
-    "ja": "魔法使い"
-  },
-  "hero_1_name": {
-    "pt": "Lyra",
-    "en": "Lyra",
-    "es": "Lyra",
-    "ru": "Лира",
-    "zh": "莉拉",
-    "ja": "リラ"
-  },
-  "hero_1_story": {
-    "pt": "Lyra cresceu em uma tribo de guerreiros...",
-    "en": "Lyra grew up in a tribe of warriors...",
-    "es": "Lyra creció en una tribu de guerreros...",
-    "ru": "Лира выросла в племени воинов...",
-    "zh": "莉拉在战士部落中长大...",
-    "ja": "リラは戦士の部族で育ちました..."
-  },
-  "hero_2_name": {
-    "pt": "Elara",
-    "en": "Elara",
-    "es": "Elara",
-    "ru": "Элара",
-    "zh": "艾拉拉",
-    "ja": "エララ"
-  },
-  "hero_2_story": {
-    "pt": "Elara cresceu nas vielas de uma cidade...",
-    "en": "Elara grew up in the alleys of a city...",
-    "es": "Elara creció en los callejones de una ciudad...",
-    "ru": "Элара выросла в переулках города...",
-    "zh": "艾拉拉在城市的小巷中长大...",
-    "ja": "エララは街の路地で育ちました..."
   }
 }

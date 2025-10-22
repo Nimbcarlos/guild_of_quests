@@ -677,7 +677,7 @@ class GameplayScreen(Screen):
         if self.pause_popup:
             self.pause_popup.dismiss()
             self.pause_popup = None
-
+        
         elif getattr(self, "pause_popup", None):
             try:
                 self.pause_popup.dismiss()
@@ -685,6 +685,8 @@ class GameplayScreen(Screen):
                 pass
             self.pause_popup = None
 
+        load_screen = self.manager.get_screen("loadgame")
+        load_screen.previous_screen = "gameplay"
         self.manager.current = "loadgame"
 
     def open_settings(self, *args):

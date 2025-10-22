@@ -75,7 +75,7 @@ def show_hero_details(screen_instance, hero):
     class_level_box = BoxLayout(orientation="vertical", spacing=3, size_hint_y=None, height=60)
 
     class_level_box.add_widget(Label(
-        text=f"[b]{lm.t('class_label')}:[/b] {hero_data.get('hero_class', 'Unknown')}",
+        text=f"[b]{lm.t('class')}:[/b] {hero_data.get('hero_class', 'Unknown')}",
         markup=True,
         color=(0, 0, 0, 1),
         size_hint_y=None,

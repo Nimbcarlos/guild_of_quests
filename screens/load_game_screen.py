@@ -18,7 +18,7 @@ from kivy.properties import StringProperty
 SAVE_DIR = "saves"
 
 class LoadGameScreen(Screen):
-    previous_screen = StringProperty("gameplay")
+    previous_screen = StringProperty('menu')
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
@@ -225,12 +225,12 @@ class LoadGameScreen(Screen):
             print(f"⚠️ {self.lm.t('save_loaded_error')}: {filename}")
 
     def go_back(self, *args):
-        """Volta para a tela anterior"""
-        if self.previous_screen == "gameplay":
-            music = get_music_manager()
-            if music.is_muted:
-                music.toggle_mute()
-        else:
-            print("Voltando ao menu principal...")
-
-        self.manager.current = self.previous_screen
+            """Volta para a tela anterior armazenada na propriedade."""
+            target_screen = self.previous_screen
+            
+            # Fallback para o menu se a propriedade estiver vazia por algum motivo
+            if not target_screen:
+                target_screen = 'menu'
+            
+            print(f"Voltando para a tela: {target_screen}")
+            self.manager.current = target_screen
