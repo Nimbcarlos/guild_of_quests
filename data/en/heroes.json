@@ -148,5 +148,26 @@
         "wisdom": 6
       }
     }
+  },
+  {
+    "id": 4,
+    "name": "Leonardo",
+    "hero_class": "Mage",
+    "status": "Healthy",
+    "perks": ["Logical"],
+    "defects": ["Hyperfocus"],
+    "story": "Leonardo grew up in a small village where nature ruled, but for him, the intrinsic logic of everything was a non-negotiable principle. His mind, which processed the world through patterns and systems most people ignored, often made him seem distant. His undeniable fascination with electricity — the way it followed the path of least resistance, its mathematical beauty — led him to study magic. Leo uses his talents as a Mage — his sharp mind and his ability to see the 'programming' behind chaos — not to dominate, but to unravel the mysteries of the world, finding the elegant and logical solution to any problem, refining his mastery over the flow of lightning.",
+    "photo_url": "assets/img/leonardo.png",
+    "photo_body_url": "assets/img/leonardofullbody.png",
+    "unlock_by_quest": [],
+    "available_from_turn": 1,
+    "leave_on_quest": [],
+    "growth_curve": {
+      "1": { "strength": 1, "dexterity": 1, "intelligence": 2, "wisdom": 1 },
+      "2": { "strength": 1, "dexterity": 1, "intelligence": 3, "wisdom": 1 },
+      "3": { "strength": 1, "dexterity": 1, "intelligence": 4, "wisdom": 1 },
+      "4": { "strength": 1, "dexterity": 1, "intelligence": 5, "wisdom": 1 },
+      "5": { "strength": 1, "dexterity": 1, "intelligence": 6, "wisdom": 1 }
+    }
   }
 ]

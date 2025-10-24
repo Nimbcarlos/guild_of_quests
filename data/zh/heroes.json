@@ -148,5 +148,27 @@
         "wisdom": 6
       }
     }
+  },
+  {
+    "id": 4,
+    "name": "Leonardo",
+    "hero_class": "法师",
+    "status": "健康",
+    "perks": ["逻辑思维"],
+    "defects": ["过度专注"],
+    "story": "莱昂纳多在一个由自然主宰的小村庄长大，但对他来说，一切事物的内在逻辑是不可妥协的原则。他以大多数人忽略的模式和系统来理解世界，这常常让他显得疏远。他对电的迷恋——它总是沿着阻力最小的路径流动，它的数学之美——让他开始研究魔法。莱奥作为法师，运用他敏锐的头脑和洞察混沌背后‘编程’的能力，不是为了控制，而是为了揭开世界的奥秘，寻找任何问题的优雅而逻辑的解决方案，不断精通闪电的流动之力。",
+    "photo_url": "assets/img/leonardo.png",
+    "photo_body_url": "assets/img/leonardofullbody.png",
+    "unlock_by_quest": [],
+    "available_from_turn": 1,
+    "leave_on_quest": [],
+    "growth_curve": {
+      "1": { "strength": 1, "dexterity": 1, "intelligence": 2, "wisdom": 1 },
+      "2": { "strength": 1, "dexterity": 1, "intelligence": 3, "wisdom": 1 },
+      "3": { "strength": 1, "dexterity": 1, "intelligence": 4, "wisdom": 1 },
+      "4": { "strength": 1, "dexterity": 1, "intelligence": 5, "wisdom": 1 },
+      "5": { "strength": 1, "dexterity": 1, "intelligence": 6, "wisdom": 1 }
+    }
   }
+
 ]
