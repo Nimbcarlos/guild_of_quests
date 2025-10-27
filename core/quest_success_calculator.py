@@ -157,22 +157,24 @@ if __name__ == "__main__":
     from unittest.mock import Mock
     
     hero = Mock()
-    hero.stats = {"strength": 5, "dexterity": 3, "intelligence": 2, "wisdom": 1}
+    hero.stats = {"strength": 1, "dexterity": 4, "intelligence": 1, "wisdom": 1}
     
     quest = Mock()
-    quest.type = "Força"  # em português
-    quest.difficulty = 3
+    quest.type = "strength"  # em português
+    quest.difficulty = 0.202
     
     # Teste sem LanguageManager
     print("=== Teste sem LanguageManager ===")
     calculator = QuestSuccessCalculator()
     chance = calculator.calculate_success_chance([hero], quest)
-    print(f"Chance de sucesso: {chance * 100:.1f}%")
+    print(f"Chance de sucesso: {chance * 100:.1f}%") 
+
+    quest2 = Mock()
+    quest2.type = "fight"  # em português
+    quest2.difficulty = 0.4005
     
-    # Teste com diferentes idiomas
-    print("\n=== Teste com diferentes idiomas ===")
-    quest_types = ["Fight", "Luta", "Lucha", "戦闘", "Бой", "战斗"]
-    for qt in quest_types:
-        quest.type = qt
-        chance = calculator.calculate_success_chance([hero], quest)
-        print(f"{qt}: {chance * 100:.1f}%")
+    # Teste sem LanguageManager
+    print("=== Teste sem LanguageManager ===")
+    calculator = QuestSuccessCalculator()
+    chance = calculator.calculate_success_chance([hero], quest2)
+    print(f"Chance de sucesso: {chance * 100:.1f}%") 

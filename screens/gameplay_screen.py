@@ -70,6 +70,8 @@ class GameplayScreen(Screen):
         self.ids.quest_details.clear_widgets()
         self.music = get_music_manager()
         self.music.play()           # Tocar
+        if not self.music.is_playing and self.music.current_sound:
+            self.music.resume()
 
     def on_leave(self):
         # desliga o binding para evitar múltiplos binds ao voltar à tela

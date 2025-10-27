@@ -7,7 +7,7 @@
     "recommendedLevel": 1,
     "available_from_turn": 1,
     "duration": 4,
-    "difficulty": 0.2,
+    "difficulty": 0.8,
     "rewards": {
       "xp": 50
     },
@@ -327,7 +327,7 @@
     "recommendedLevel": 1,
     "available_from_turn": 1,
     "duration": 4,
-    "difficulty": 0.2,
+    "difficulty": 0.249,
     "rewards": {
       "xp": 50
     },

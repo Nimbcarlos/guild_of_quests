@@ -1,17 +1,91 @@
-from kivy.core.text import LabelBase
-from kivy.uix.label import Label
-from kivy.app import App
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+test_steam_simple.py
+Teste mínimo para verificar comunicação com Steam
+"""
+try:
+    print("=" * 50)
+    print("TESTE SIMPLES - STEAM API")
+    print("=" * 50)
+    print()
 
-# Register the font (optional, for global use)
-LabelBase.register(name='Icons', fn_regular='assets/fonts/MaterialIcons-Regular.ttf')
+    # 1. Verifica arquivos
+    import os
 
-class IconApp(App):
-    def build(self):
-        # Using the registered font
-        icon_label = Label(text=u'\uf013', markup=True, font_size='64sp')
-        # Directly specifying font_name
-        another_icon = Label(text=u'\uf005', font_name='assets/fonts/MaterialIcons-Regular.ttf', font_size='64sp')
-        return icon_label # or another_icon, or a layout containing both
-    
-if __name__ == "__main__":
-    IconApp().run()
+    print("[1/4] Verificando arquivos...")
+    files = ["steam_appid.txt", "SteamworksPy64.dll", "steam_api64.dll"]
+    ok = True
+
+    for f in files:
+        if os.path.exists(f):
+            print(f"  ✅ {f}")
+        else:
+            print(f"  ❌ {f} - FALTANDO")
+            ok = False
+
+    if not ok:
+        print("\n❌ Arquivos faltando! Não é possível testar.")
+        exit(1)
+
+    print()
+
+    # 2. Importa steamworks
+    print("[2/4] Importando steamworks.py...")
+    try:
+        from steamworks import STEAMWORKS
+        print("  ✅ Importado com sucesso")
+    except Exception as e:
+        print(f"  ❌ Erro: {e}")
+        exit(1)
+
+    print()
+
+    # 3. Inicializa Steam
+    print("[3/4] Inicializando Steam...")
+    steam = STEAMWORKS()
+
+    if steam.initialize():
+        print("  ✅ Steam CONECTADO!")
+        
+        # Pega informações básicas
+        try:
+            steam_id = steam.Users.GetSteamID(steam)
+            print(f"  👤 Steam ID: {steam_id}")
+        except:
+            print("  ⚠️  Não foi possível pegar Steam ID")
+        
+    else:
+        print("  ❌ Steam NÃO CONECTADO")
+        print("  Motivos possíveis:")
+        print("    - Steam não está rodando")
+        print("    - App ID inválido")
+        print("    - DLLs incompatíveis")
+        exit(1)
+
+    print()
+
+    # 4. Teste rápido de achievement
+    print("[4/4] Testando achievement...")
+    try:
+        # Tenta desbloquear um achievement de teste
+        result = steam.UserStats.SetAchievement(steam, "TEST_ACHIEVEMENT")
+        
+        if result:
+            steam.UserStats.StoreStats(steam)
+            print("  ✅ Achievement desbloqueado! (ou já estava)")
+        else:
+            print("  ⚠️  Falha ao desbloquear (achievement pode não existir)")
+        
+    except Exception as e:
+        print(f"  ❌ Erro: {e}")
+
+    print()
+
+    # Finaliza
+    steam.shutdown()
+    print("=" * 50)
+    print("✅ TESTE CONCLUÍDO")
+    print("=" * 50)
+except Exception as e:
+    print(e)

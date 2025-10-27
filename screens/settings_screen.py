@@ -21,11 +21,40 @@ CONFIG_FILE = "config.json"
 class SettingsScreen(Screen):
     previous_screen = StringProperty("menu")
 
+    # settings_screen.py - adicione no método __init__ ou build_ui
+
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.lm = LanguageManager()
         self.config = self.load_config()
+
+        self.music_volume_label = None
+        self.ui_volume_label = None
+
+        # Aplica configurações de música ao carregar
+        self._apply_music_settings()
+        
         self.build_ui()
+
+    def on_enter(self):
+        """Quando entra na tela de settings"""
+        # Pausa a música
+        music = get_music_manager()
+        music.pause()
+        print("[Settings] Música pausada")
+
+    def on_leave(self):
+        """Quando sai da tela de settings"""
+        # Resume a música se estava tocando antes
+        music = get_music_manager()
+        if not music.is_playing and music.current_sound:
+            music.resume()
+            print("[Settings] Música resumida")
+
+    def go_back(self, *args):
+        """Volta para a tela anterior"""
+        # Remove a lógica de toggle_mute daqui, pois on_leave já cuida da música
+        self.manager.current = self.previous_screen
 
     # ---------------- CONFIG ----------------
     def load_config(self):
@@ -145,11 +174,13 @@ class SettingsScreen(Screen):
         right = BoxLayout(orientation="vertical", spacing=15)
 
         # Volume música
-        right.add_widget(Label(
+        self.music_volume_label = Label(
             text=f"{self.lm.t('music_volume')}: {int(self.config['music_volume'])}%",
             color=(0.16, 0.09, 0.06, 1),
             size_hint_y=None, height=25
-        ))
+        )
+        right.add_widget(self.music_volume_label)
+
         music_slider = Slider(
             min=0, max=100, value=self.config["music_volume"],
             size_hint_y=None, height=40
@@ -158,11 +189,13 @@ class SettingsScreen(Screen):
         right.add_widget(music_slider)
 
         # Volume UI
-        right.add_widget(Label(
+        self.ui_volume_label = Label(
             text=f"{self.lm.t('ui_volume')}: {int(self.config['ui_volume'])}%",
             color=(0.16, 0.09, 0.06, 1),
             size_hint_y=None, height=25
-        ))
+        )
+        right.add_widget(self.ui_volume_label)
+
         ui_slider = Slider(
             min=0, max=100, value=self.config["ui_volume"],
             size_hint_y=None, height=40
@@ -236,13 +269,19 @@ class SettingsScreen(Screen):
         self.save_config()
 
     def set_music_volume(self, instance, value):
-        self.config["music_volume"] = float(value)
+        value = float(value)
+        self.config["music_volume"] = value
+        if self.music_volume_label:
+            self.music_volume_label.text = f"{self.lm.t('music_volume')}: {int(value)}%"
         music = get_music_manager()
         music.set_volume(value / 100.0)
         self.save_config()
 
     def set_ui_volume(self, instance, value):
-        self.config["ui_volume"] = float(value)
+        value = float(value)
+        self.config["ui_volume"] = value
+        if self.ui_volume_label:
+            self.ui_volume_label.text = f"{self.lm.t('ui_volume')}: {int(value)}%"
         self.save_config()
 
     def toggle_music_mute(self, instance, value):
@@ -267,3 +306,18 @@ class SettingsScreen(Screen):
             print("Voltando ao menu principal...")
 
         self.manager.current = self.previous_screen
+
+    def _apply_music_settings(self):
+        """Aplica as configurações de música carregadas do config"""
+        music = get_music_manager()
+        
+        # Aplica volume
+        music_volume = self.config.get("music_volume", 50.0)
+        music.set_volume(music_volume / 100.0)
+        
+        # Aplica mute se necessário
+        is_muted = self.config.get("music_muted", False)
+        if is_muted and not music.is_muted:
+            music.toggle_mute()
+        elif not is_muted and music.is_muted:
+            music.toggle_mute()

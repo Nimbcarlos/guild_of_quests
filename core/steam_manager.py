@@ -29,7 +29,14 @@ class SteamManager:
             if self.steam.initialize():
                 self.is_initialized = True
                 print("[SteamManager] ✅ Steamworks inicializado com sucesso")
-                print(f"[SteamManager] Usuario: {self.steam.Users.GetSteamID()}")
+                
+                # Processa alguns callbacks para garantir que tudo está carregado
+                for _ in range(5):
+                    self.steam.run_callbacks()
+                
+                steam_id = self.steam.Users.GetSteamID(self.steam)
+                print(f"[SteamManager] Usuario: {steam_id}")
+                
                 self._load_achievements()
             else:
                 print("[SteamManager] ⚠️ Falha ao inicializar Steamworks")
@@ -37,6 +44,8 @@ class SteamManager:
                 
         except Exception as e:
             print(f"[SteamManager] ❌ Erro ao inicializar Steam: {e}")
+            import traceback
+            traceback.print_exc()
             self.is_initialized = False
     
     def _load_achievements(self):
@@ -80,11 +89,11 @@ class SteamManager:
         
         try:
             # Desbloqueia o achievement
-            success = self.steam.UserStats.SetAchievement(achievement_id)
+            success = self.steam.UserStats.SetAchievement(self.steam, achievement_id)
             
             if success:
                 # Salva no Steam
-                self.steam.UserStats.StoreStats()
+                self.steam.UserStats.StoreStats(self.steam)
                 self.achievements_unlocked.add(achievement_id)
                 print(f"[SteamManager] 🏆 Achievement desbloqueado: {achievement_id}")
                 return True
