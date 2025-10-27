@@ -115,7 +115,7 @@ class QuestSuccessCalculator:
                 total_rating += hero_attribute
 
         # --- chance base ---
-        base_chance = total_rating / (quest.difficulty * 10)
+        base_chance = total_rating / (quest.difficulty * 2)
 
         return max(0.0, min(1.0, base_chance))
     

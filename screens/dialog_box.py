@@ -16,9 +16,10 @@ class DialogueBox:
         """
         self.dm = dialogue_manager
         self.popup = None
-        self.queue = deque()   # fila de diálogos pendentes
+        self.queue = deque()
         self.dialogue_label = None
         self.hero_portrait = None
+        self.speaker_label = None
         self.dialogues = []
         self.current_index = 0
         self.char_index = 0
@@ -28,7 +29,7 @@ class DialogueBox:
 
     def get_start_dialogues(self, hero_id: str, completed_quests):
         """
-        Busca fal falas iniciais genéricas + específicas por quest completada
+        Busca falas iniciais genéricas + específicas por quest completada
         """
         if not isinstance(completed_quests, (set, list, tuple)):
             completed_quests = set()
@@ -54,7 +55,7 @@ class DialogueBox:
         """
         self.queue.append((heroes, quest_id, result, parent_size))
         
-        if not self.popup:  # só abre se não tiver popup ativo
+        if not self.popup:
             self._process_next()
 
     def _process_next(self):
@@ -63,19 +64,19 @@ class DialogueBox:
             
         heroes, quest_id, result, parent_size = self.queue.popleft()
         
-        # Armazena o parent_size para usar em _open_popup
         self.parent_size = parent_size
 
-        if isinstance(result, str) and quest_id == "assistant_event":
-            # fala direta da assistente (não vem do dialogue_manager)
-            self.dialogues = [result]
+        # ✅ Agora trata tudo igual - sempre espera lista de dicts
+        if isinstance(result, list):
+            # Já vem formatado como [{"id": "X", "text": "..."}]
+            self.dialogues = result
         elif result == "start":
             self.dialogues = self.dm.show_start_dialogues(heroes, quest_id)
         else:
             self.dialogues = self.dm.show_quest_dialogue(heroes, quest_id, result)
 
         if not self.dialogues:
-            self.dialogues = ["..."]
+            self.dialogues = [{"id": "narrator", "text": "..."}]
 
         self.heroes = heroes
         self.current_index = 0
@@ -85,10 +86,8 @@ class DialogueBox:
     def _open_popup(self):
         from kivy.uix.anchorlayout import AnchorLayout
         
-        # Layout horizontal principal (imagem + texto)
         main_layout = BoxLayout(orientation='horizontal', spacing=15, padding=[25, 20, 25, 20])
         
-        # --- Dimensões vindas do parent ---
         if hasattr(self, "parent_size") and self.parent_size:
             frame_width, frame_height = self.parent_size
         else:
@@ -141,7 +140,6 @@ class DialogueBox:
             color=(0.16, 0.09, 0.06, 1),
             size_hint_y=1
         )
-        # Bind para ajustar text_size dinamicamente baseado no tamanho real do label
         self.dialogue_label.bind(
             size=lambda instance, value: setattr(instance, 'text_size', (value[0], None))
         )
@@ -161,16 +159,12 @@ class DialogueBox:
             separator_height=0
         )
         
-        # Ajusta posição vertical baseado no tamanho da tela
         if frame_height > 800:
-            # Tela grande - sobe mais o popup
-            y_position = 0.12  # 12% do bottom
+            y_position = 0.12
         elif frame_height > 600:
-            # Tela média - posição intermediária
-            y_position = 0.08  # 8% do bottom
+            y_position = 0.08
         else:
-            # Tela pequena - mais próximo do fundo
-            y_position = 0.05  # 5% do bottom
+            y_position = 0.05
             
         self.popup.pos_hint = {"center_x": 0.5, "y": y_position}
         self.popup.separator_color = (0, 0, 0, 0)
@@ -185,41 +179,53 @@ class DialogueBox:
         if self.current_index >= len(self.dialogues):
             self.popup.dismiss()
             self.popup = None
-            Clock.schedule_once(lambda dt: self._process_next(), 0)  # chama próximo
+            Clock.schedule_once(lambda dt: self._process_next(), 0)
             return
 
         line = self.dialogues[self.current_index]
 
+        print(f"🔍 Linha {self.current_index}: {line}")
+        print(f"   Tipo: {type(line)}")
+
         self.full_text = ""
         resolved_hero = None
 
-        if isinstance(line, str):
-            if self.heroes:
-                hero_index = self.current_index % len(self.heroes)
-                resolved_hero = self.heroes[hero_index]
-                self.full_text = line.strip()
-            else:
-                self.full_text = line.strip()
-
-        elif isinstance(line, dict):
-            hero_id = line.get("id")
+        if isinstance(line, dict):
+            hero_id = str(line.get("id"))
             text = line.get("text", "")
             self.full_text = text.strip()
-            resolved_hero = next((h for h in self.heroes if h.id == hero_id), None)
+            
+            print(f"   Hero ID: {hero_id}")
+            print(f"   Heroes disponíveis: {[(h.id, h.name) for h in self.heroes]}")
+            
+            # Busca o herói pelo ID
+            resolved_hero = next((h for h in self.heroes if str(h.id) == hero_id), None)
+            
+            print(f"   Hero encontrado: {resolved_hero.name if resolved_hero else 'None'}")
+            
+        elif isinstance(line, str):
+            # FALLBACK para compatibilidade
+            self.full_text = line.strip()
+            resolved_hero = None
+            print(f"   ⚠️ String recebida (fallback)")
 
+        # Define o visual baseado em quem está falando
         if resolved_hero:
             self.hero_portrait.source = resolved_hero.photo_url
             self.speaker_label.text = resolved_hero.name
+            print(f"   ✅ Mostrando: {resolved_hero.name}")
         else:
             self.hero_portrait.source = "assets/ui/narrator.png"
             self.speaker_label.text = "Narrador"
+            print(f"   📜 Mostrando: Narrador")
 
+        # Inicia o efeito de digitação
         self.dialogue_label.text = ""
         self.char_index = 0
         if self.typing_event:
             self.typing_event.cancel()
         self.typing_event = Clock.schedule_interval(self._typewriter_effect, 0.05)
-
+        
     def _typewriter_effect(self, dt):
         if self.char_index < len(self.full_text):
             self.dialogue_label.text += self.full_text[self.char_index]

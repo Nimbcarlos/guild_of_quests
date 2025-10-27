@@ -1,4 +1,54 @@
 {
+  "1": {
+    "sucesso": {
+      "reporters": {
+        "1": { "id": "1", "text": "Tentei... girar o trinco com cuidado… mas aí escorregou. Então… acabei… batendo. Um pouquinho. Mas, bom… abriu! Eu juro que não quebrei nada! Quer dizer… eu acho." },
+        "2": { "id": "2", "text": "Cofre aberto, sem arranhões. Espero que o conteúdo seja tão limpo quanto a consciência da guilda. Mas… não é da minha conta. Certo?" },
+        "3": { "id": "3", "text": "O cofre abriu... mas as vozes sussurram mentiras ao redor deste homem. Dizem que o que ele guarda não é ouro, é vergonha. As mãos dele tremem… mesmo quando sorri. Mas quem sou eu para julgar, não é? Só um mensageiro dos ecos divinos." },
+        "4": { "id": "4", "text": "Interessante… esse cofre não é comum. Essas gravuras… elas conduzem energia como runas de contenção elétrica. Espere… isso não é do nosso tempo! É um design arcaico da Era das Tempestades! Fascinante! Ah. Sim. Abri. Desculpe, me distraí um pouco." }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "1", "text": "A floresta parecia muito mais escura do que o normal." },
+          { "id": "2", "text": "Sim, mas o trabalho em equipe foi impecável." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "Cofre aberto. Sem forçar nada. Mas… tem algo errado. O nobre suava como se escondesse pecado." },
+          { "id": "3", "text": "Sim… o cheiro da mentira é denso. As vozes disseram que o ouro aqui compra silêncio, não comida." },
+          { "id": "2", "text": "Então deveríamos denunciá-lo?" },
+          { "id": "3", "text": "E contrariar a política? Ah, minha amiga… até os deuses evitam isso." }
+        ],
+        "1_3": [
+          { "id": "1", "text": "Isso foi um bom exercício, mas o cheiro de mofo era terrível." },
+          { "id": "3", "text": "Você se acostuma, é o cheiro da aventura." }
+        ]
+      },
+      "multi": [
+        { "id": "2", "text": "A floresta parecia muito mais escura do que o normal." },
+        { "id": "1", "text": "Sim, mas a recompensa foi maior do que a promessa de ouro." },
+        { "id": "3", "text": "E o ar agora parece mais leve." }
+      ]
+    },
+    "falha": {
+      "reporters": {
+        "1": { "id": "1", "text": "Eu subestimei os perigos da floresta. Precisamos nos preparar melhor." },
+        "2": { "id": "2", "text": "Foi uma derrota difícil, mas aprendemos muito com ela." },
+        "3": { "id": "3", "text": "As criaturas lá eram mais fortes do que o esperado. É um fracasso." }
+      },
+      "teams": {
+        "2_3": [
+          { "id": "2", "text": "Essa floresta é traiçoeira, fomos pegos de surpresa." },
+          { "id": "3", "text": "Eu deveria ter sido mais cuidadoso." },
+          { "id": "2", "text": "Não se culpe. O importante é que voltamos para a guilda... por enquanto." }
+        ]
+      },
+      "multi": [
+        { "id": "2", "text": "Essa floresta é traiçoeira, fomos pegos de surpresa." },
+        { "id": "3", "text": "Eu deveria ter sido mais cuidadoso." },
+        { "id": "1", "text": "Não se culpe. O importante é que voltamos para a guilda... por enquanto." }
+      ]
+    }
+  },
   "2": {
     "sucesso": {
       "reporters": {
@@ -11,7 +61,7 @@
           { "id": "1", "text": "A floresta parecia muito mais escura do que o normal." },
           { "id": "2", "text": "Sim, mas o trabalho em equipe foi impecável." }
         ],
-        "2 3": [
+        "2_3": [
           { "id": "1", "text": "normal." },
           { "id": "2", "text": "Sim." }
         ],
