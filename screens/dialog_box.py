@@ -184,9 +184,6 @@ class DialogueBox:
 
         line = self.dialogues[self.current_index]
 
-        print(f"🔍 Linha {self.current_index}: {line}")
-        print(f"   Tipo: {type(line)}")
-
         self.full_text = ""
         resolved_hero = None
 
@@ -195,29 +192,21 @@ class DialogueBox:
             text = line.get("text", "")
             self.full_text = text.strip()
             
-            print(f"   Hero ID: {hero_id}")
-            print(f"   Heroes disponíveis: {[(h.id, h.name) for h in self.heroes]}")
-            
             # Busca o herói pelo ID
             resolved_hero = next((h for h in self.heroes if str(h.id) == hero_id), None)
-            
-            print(f"   Hero encontrado: {resolved_hero.name if resolved_hero else 'None'}")
             
         elif isinstance(line, str):
             # FALLBACK para compatibilidade
             self.full_text = line.strip()
             resolved_hero = None
-            print(f"   ⚠️ String recebida (fallback)")
 
         # Define o visual baseado em quem está falando
         if resolved_hero:
             self.hero_portrait.source = resolved_hero.photo_url
             self.speaker_label.text = resolved_hero.name
-            print(f"   ✅ Mostrando: {resolved_hero.name}")
         else:
             self.hero_portrait.source = "assets/ui/narrator.png"
             self.speaker_label.text = "Narrador"
-            print(f"   📜 Mostrando: Narrador")
 
         # Inicia o efeito de digitação
         self.dialogue_label.text = ""

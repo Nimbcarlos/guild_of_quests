@@ -14,7 +14,7 @@ def load_hero_data(hero_id, language="en"):
     Carrega os dados traduzidos do herói do arquivo data/{language}/heroes.json
     """
     try:
-        filepath = f"data/{language}/heroes.json"
+        filepath = f"data/heroes.json"
 
         if not os.path.exists(filepath):
             print(f"[HeroPopup] Arquivo não encontrado: {filepath}")
@@ -74,8 +74,14 @@ def show_hero_details(screen_instance, hero):
     # Classe e nível
     class_level_box = BoxLayout(orientation="vertical", spacing=3, size_hint_y=None, height=60)
 
+    class_field = hero_data.get('hero_class', 'Unknown')
+    if isinstance(class_field, dict):
+        class_text = str(class_field.get(current_lang, class_field.get("en", "")))
+    else:
+        class_text = class_field
+
     class_level_box.add_widget(Label(
-        text=f"[b]{lm.t('class')}:[/b] {hero_data.get('hero_class', 'Unknown')}",
+        text=class_text,
         markup=True,
         color=(0, 0, 0, 1),
         size_hint_y=None,
@@ -170,7 +176,12 @@ def show_hero_details(screen_instance, hero):
         info_container.add_widget(stats_container)
 
     # ========== História ==========
-    story_text = hero_data.get("story", "")
+    story_field = hero_data.get("story", "")
+    if isinstance(story_field, dict):
+        story_text = str(story_field.get(current_lang, story_field.get("en", "")))
+    else:
+        story_text = story_field
+
     if story_text:
         separator = Label(
             text="─" * 40,
@@ -202,8 +213,14 @@ def show_hero_details(screen_instance, hero):
     content.add_widget(info_container)
 
     # ========== Popup ==========
+    name_field = hero_data.get("name", "Hero")
+    if isinstance(name_field, dict):
+        name_text = str(name_field.get(current_lang, name_field.get("en", "")))
+    else:
+        name_text = name_field
+
     popup = Popup(
-        title=hero_data.get("name", "Hero"),
+        title=name_text,
         content=content,
         title_align='center',
         title_size=28,

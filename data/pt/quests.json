@@ -7,7 +7,7 @@
     "recommendedLevel": 1,
     "available_from_turn": 1,
     "duration": 3,
-    "difficulty": 1,
+    "difficulty": 1.5,
     "rewards": {
       "xp": 50
     },
@@ -17,13 +17,61 @@
   },
     {
     "id": 2,
+    "name": "A Floresta dos Gatilhos",
+    "description": "Alguém encheu o bosque de armadilhas cruéis. Animais estão morrendo em sofrimento. O druida da região pede ajuda para desarmá-las sem causar mais destruição.",
+    "type": "Dexterity",
+    "recommendedLevel": 1,
+    "available_from_turn": 1,
+    "duration": 4,
+    "difficulty": 1.5,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 3,
     "name": "Paz Entre Aldeias",
+    "description": "Duas tribos — os Urmir e os Tavak — estão à beira da guerra. Cada uma alega que a outra roubou suprimentos de caça. O mensageiro real quer alguém para ‘acalmar os ânimos’.",
+    "type": "Wisdom",
+    "recommendedLevel": 1,
+    "available_from_turn": 1,
+    "duration": 4,
+    "difficulty": 1.5,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 4,
+    "name": "Sussurros de Devoção",
     "description": "Um culto aparentemente pacífico tem atraído muitos seguidores, mas algo está errado. A missão é observar os rituais e interações do culto de perto para detectar a falsidade ou a manipulação escondida sob sua fachada de devoção.",
     "type": "Wisdom",
     "recommendedLevel": 1,
     "available_from_turn": 1,
     "duration": 4,
-    "difficulty": 1,
+    "difficulty": 1.5,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 5,
+    "name": "O Peso da Montanha",
+    "description": "  Um enorme deslizamento bloqueou a única rota que liga dois vilarejos nas montanhas. A guilda é chamada para remover a pedra principal que impede a passagem.",
+    "type": "Strength",
+    "recommendedLevel": 1,
+    "available_from_turn": 1,
+    "duration": 4,
+    "difficulty": 1.5,
     "rewards": {
       "xp": 50
     },
@@ -39,7 +87,7 @@
     "recommendedLevel": 1,
     "available_from_turn": 1,
     "duration": 4,
-    "difficulty": 8,
+    "difficulty": 1.5,
     "rewards": {
       "xp": 50
     },
@@ -55,7 +103,7 @@
     "recommendedLevel": 1,
     "available_from_turn": 10,
     "duration": 4,
-    "difficulty": 0.2,
+    "difficulty": 12,
     "rewards": {
       "xp": 50
     },

@@ -1,7 +1,13 @@
 # --- Saves do jogo ---
-saves/
+saves/*
+!saves/.gitkeep
 *.save
 *.sav
+
+# --- Música ---
+assets/music/*
+!assets/music/.gitkeep
+
+# --- Outros ---
 teste.py
 imagebutton.kv
-assets/

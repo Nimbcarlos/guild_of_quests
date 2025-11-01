@@ -9,8 +9,10 @@
       },
       "teams": {
         "1_2": [
-          { "id": "1", "text": "A floresta parecia muito mais escura do que o normal." },
-          { "id": "2", "text": "Sim, mas o trabalho em equipe foi impecável." }
+          { "id": "1", "text": "Eu... tentei abrir, mas achei melhor deixar pra Elara." },
+          { "id": "2", "text": "Fiz o básico. Só o suficiente para abrir o cofre. Mas... não sei se quero saber o que tem dentro." },
+          { "id": "1", "text": "Nem eu... será que era algo ruim?" },
+          { "id": "2", "text": "Provavelmente. Nobres nunca pedem ajuda pra guardar flores." }
         ],
         "2_3": [
           { "id": "2", "text": "Cofre aberto. Sem forçar nada. Mas… tem algo errado. O nobre suava como se escondesse pecado." },
@@ -19,128 +21,572 @@
           { "id": "3", "text": "E contrariar a política? Ah, minha amiga… até os deuses evitam isso." }
         ],
         "1_3": [
-          { "id": "1", "text": "Isso foi um bom exercício, mas o cheiro de mofo era terrível." },
-          { "id": "3", "text": "Você se acostuma, é o cheiro da aventura." }
-        ]
-      },
-      "multi": [
-        { "id": "2", "text": "A floresta parecia muito mais escura do que o normal." },
-        { "id": "1", "text": "Sim, mas a recompensa foi maior do que a promessa de ouro." },
-        { "id": "3", "text": "E o ar agora parece mais leve." }
+          { "id": "1", "text": "Eu bati um pouquinho... mas só porque achei que era resistente!" },
+          { "id": "3", "text": "E as vozes disseram: ‘bate mais forte’. Eu apenas interpretei como bênção divina." },
+          { "id": "1", "text": "Então... tecnicamente, não foi culpa minha?" },
+          { "id": "3", "text": "Não. Foi um milagre. Um milagre... barulhento." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "Cofre aberto sem danos. Mas o conteúdo... me faz questionar o pedido." },
+          { "id": "4", "text": "Interessante. Os símbolos aqui são da Era das Tempestades. Isso não é só um cofre — é um relicário energético." },
+          { "id": "2", "text": "Ou um esconderijo para algo ilegal." },
+          { "id": "4", "text": "Ambos são hipóteses plausíveis." },
+          { "id": "2", "text": "...Você não vai contar pra guilda, vai?" },
+          { "id": "4", "text": "Só se houver descarga elétrica envolvida." }
+        ],
+        "1_4": [
+          { "id": "1", "text": "Tentei segurar o cofre enquanto o Leo fazia… magia. Aí saiu uma faísca. Grande. Muito grande." },
+          { "id": "4", "text": "Controle experimental. Eu só estava testando a condutividade rúnica! Deu certo, não deu? Está aberto." },
+          { "id": "1", "text": "E... meio queimado." },
+          { "id": "4", "text": "Detalhes técnicos." },
+          { "id": "1", "text": "...Vou dizer que foi sorte." },
+          { "id": "4", "text": "Ciência." }
+        ],
+        "3_4": [
+          { "id": "4", "text": "O cofre fala. Murmura segredos de eras passadas." },
+          { "id": "3", "text": "Não, isso é o som de energia arcana comprimida." },
+          { "id": "4", "text": "Talvez... mas as vozes disseram para não confiar no dono." },
+          { "id": "3", "text": "As vozes ou o campo magnético?" },
+          { "id": "4", "text": "Depende do que você chama de real." },
+          { "id": "3", "text": "...Justo." }
+        ],
+        "1_2_4": [
+          { "id": "1", "text": "Eu... tentei segurar o cofre pra não balançar enquanto o Leo mexia nele." },
+          { "id": "4", "text": "Tecnicamente, eu estava estudando a dispersão elétrica das runas, mas alguém gritou quando faiscou." },
+          { "id": "1", "text": "Foi reflexo!" },
+          { "id": "2", "text": "Enquanto vocês brincavam de churrasco mágico, eu achei a trava verdadeira. Era mecânica. Nenhum feitiço, nenhum código — só girar o trinco certo." },
+          { "id": "4", "text": "Ah... então foi isso que interferiu na leitura mágica." },
+          { "id": "2", "text": "Claro, Leo. A culpa foi da fechadura, não da bola de fogo." },
+          { "id": "1", "text": "[Lyra tenta rir, mas cobre o rosto de vergonha.]" }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "Cofre aberto. Sem arrombamento, sem violência... até o Kael começar a conversar com ele." },
+          { "id": "3", "text": "Ele respondeu! Disse que guardava segredos de eras perdidas!" },
+          { "id": "4", "text": "Isso não é voz, é vibração mágica condensada. Impressionante... vou anotar a frequência." },
+          { "id": "2", "text": "E enquanto vocês dois filosofavam com um pedaço de ferro, eu só virei o trinco." },
+          { "id": "3", "text": "As vozes aprovaram." },
+          { "id": "4", "text": "Os cálculos também." },
+          { "id": "2", "text": "Política aprovaria menos, mas... cofre aberto." }
+        ],
+        "1_2_3": [
+          { "id": "1", "text": "Eu achei melhor deixar a Elara abrir. Eu ia acabar quebrando." },
+          { "id": "2", "text": "Fiz o que pude. Mas o Kael começou a rezar pro cofre no meio do processo." },
+          { "id": "3", "text": "As vozes disseram que havia um espírito preso lá dentro." },
+          { "id": "2", "text": "Era um rato, Kael." },
+          { "id": "3", "text": "...Ainda assim, uma alma." },
+          { "id": "1", "text": "..." },
+          { "id": "2", "text": "Eu não discuto mais." },
+          { "id": "1", "text": "[Lyra acena em silêncio, constrangida.]" }
+        ],
+        "1_3_4": [
+          { "id": "1", "text": "Leo disse pra eu não bater. Eu tentei não bater. Mas ele disse isso depois que eu bati." },
+          { "id": "4", "text": "Eu estava calculando a ressonância antes da força bruta alterar o campo!" },
+          { "id": "3", "text": "As vozes pediram impacto. O som agradou os deuses." },
+          { "id": "1", "text": "Então foi certo?" },
+          { "id": "4", "text": "...Cientificamente? Não. Mas... funcionou." },
+          { "id": "3", "text": "Milagres são ciência mal compreendida." },
+          { "id": "4", "text": "[Leo anota a frase, intrigado.]" }
+        ],
+        "1_2_3_4": [
+          { "id": "2", "text": "Começamos com calma. Eu sugeri destrancar manualmente, sem riscos desnecessários." },
+          { "id": "4", "text": "Eu percebi energia arcana residual no cofre e tentei neutralizá-la antes que piorasse." },
+          { "id": "3", "text": "Eu sugeri que orássemos por iluminação. O metal, afinal, é apenas carne em repouso." },
+          { "id": "1", "text": "Eu só perguntei se podia... bater um pouquinho." },
+          { "id": "2", "text": "Eu gritei que não. Com veemência." },
+          { "id": "4", "text": "Eu disse que dependia do ângulo." },
+          { "id": "3", "text": "As vozes disseram sim." },
+          { "id": "2", "text": "E eu respondi que as vozes não pagam pelos reparos." },
+          { "id": "1", "text": "Eu fiquei nervosa... e dei um leve golpe. O cofre abriu." },
+          { "id": "4", "text": "Eu concluí que a pressão mágica se dissipou no momento certo." },
+          { "id": "3", "text": "Eu chamei de milagre calculado." },
+          { "id": "2", "text": "...É sério?" }
       ]
+      }
     },
     "falha": {
       "reporters": {
-        "1": { "id": "1", "text": "Eu subestimei os perigos da floresta. Precisamos nos preparar melhor." },
-        "2": { "id": "2", "text": "Foi uma derrota difícil, mas aprendemos muito com ela." },
-        "3": { "id": "3", "text": "As criaturas lá eram mais fortes do que o esperado. É um fracasso." }
-      },
-      "teams": {
-        "2_3": [
-          { "id": "2", "text": "Essa floresta é traiçoeira, fomos pegos de surpresa." },
-          { "id": "3", "text": "Eu deveria ter sido mais cuidadoso." },
-          { "id": "2", "text": "Não se culpe. O importante é que voltamos para a guilda... por enquanto." }
-        ]
-      },
-      "multi": [
-        { "id": "2", "text": "Essa floresta é traiçoeira, fomos pegos de surpresa." },
-        { "id": "3", "text": "Eu deveria ter sido mais cuidadoso." },
-        { "id": "1", "text": "Não se culpe. O importante é que voltamos para a guilda... por enquanto." }
-      ]
+        "1": { "id": "1", "text": "Eu... Eu não fui forte o suficiente. Minha espada... não alcançou. Sinto muito pela guilda. Vou treinar até não falhar mais." },
+        "2": { "id": "2", "text": "Eu falhei. Fui pega em um movimento previsível e perdi minha posição. É um erro de planejamento e execução, e devo aceitar as consequências. A precisão foi insuficiente." },
+        "3": { "id": "3", "text": "O fracasso era inevitável. As vozes gritaram 'Caminho Errado' por três dias seguidos, mas eu insisti em ignorá-las. O erro não foi tático, foi de discernimento. Perdemos." },
+        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de sucesso tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
+      }
     }
   },
   "2": {
     "sucesso": {
-      "reporters": {
-        "1": { "id": "1", "text": "A Floresta Sombria foi pacificada! O caos não se espalhará mais daqui." },
-        "2": { "id": "2", "text": "O perigo está contido. As sombras não nos intimidaram hoje." },
-        "3": { "id": "3", "text": "As coisas estão tranquilas por lá agora. A missão foi um sucesso total." }
-      },
+      "reports": {
+        "1": [
+          { "id": "1", "text": "Eles gritavam muito... eu só pedi pra que respirassem." },
+          { "id": "1", "text": "Acho que falei meio baixo, mas... por algum motivo, me ouviram." },
+          { "id": "1", "text": "Disse que ninguém precisa de coragem pra atacar, só pra escutar." },
+          { "id": "1", "text": "No fim, ficaram quietos. Eu também. Foi um silêncio bom." }
+        ],
+        "2": [
+          { "id": "2", "text": "Falei com cada líder, e contei exatamente o que o outro disse." },
+          { "id": "2", "text": "Achei que seria o jeito mais justo... mas, bom, eles ficaram irritados." },
+          { "id": "2", "text": "Depois, no entanto, admitiram que precisavam ouvir aquilo." },
+          { "id": "2", "text": "A verdade dói, mas cura — só demora um pouco pra fazer efeito." }
+        ],
+        "3": [
+          { "id": "3", "text": "O ar entre as tribos estava eletricamente carregado — tensão pura." },
+          { "id": "3", "text": "Expliquei a eles o conceito de descarga emocional. Não entenderam." },
+          { "id": "3", "text": "Então provoquei uma descarga literal: um trovão pequeno, só pra equalizar." },
+          { "id": "3", "text": "Agora chove. E todos decidiram esperar a tempestade passar antes de decidir algo." }
+        ],
+        "4": [
+          { "id": "4", "text": "As vozes estavam agitadas... umas pediam sangue, outras pediam paz." },
+          { "id": "4", "text": "Mas o silêncio... o silêncio implorava por descanso." },
+          { "id": "4", "text": "Ouvi esse silêncio e o levei às tendas. Falei pouco, rezei muito." },
+          { "id": "4", "text": "Eles baixaram as armas. E alguns choraram. Acho que entenderam sem palavras." }
+        ]
+      }
+    },
       "teams": {
         "1_2": [
-          { "id": "1", "text": "A floresta parecia muito mais escura do que o normal." },
-          { "id": "2", "text": "Sim, mas o trabalho em equipe foi impecável." }
+          { "id": "1", "text": "As aldeias estavam tensas, mas... ninguém parecia realmente querer lutar." },
+          { "id": "2", "text": "Concordo. As histórias que contam uma sobre a outra são exageradas demais pra serem espontâneas." },
+          { "id": "1", "text": "Então alguém quer que elas se odeiem?" },
+          { "id": "2", "text": "Provavelmente. E a guilda devia descobrir quem ganha com isso." },
+          { "id": "1", "text": "Eu só espero que consigam parar antes que o sangue comece de verdade." }
         ],
-        "2_3": [
-          { "id": "1", "text": "normal." },
-          { "id": "2", "text": "Sim." }
+        "3_4": [
+          { "id": "3", "text": "Eles falam de visões, de sonhos de fogo e sombras que mandam atacar." },
+          { "id": "4", "text": "Sonhos coletivos? Interessante... isso indica influência mágica ou psicológica externa." },
+          { "id": "3", "text": "As vozes disseram que algo antigo caminha entre eles, sussurrando ódio." },
+          { "id": "4", "text": "Ou talvez um artefato que amplifique emoções. Eu senti uma descarga leve de energia mental no ar." },
+          { "id": "3", "text": "Então não são só vozes na minha cabeça desta vez." },
+          { "id": "4", "text": "Pela primeira vez, temo que não." }
         ],
         "1_3": [
-          { "id": "1", "text": "Isso foi um bom exercício, mas o cheiro de mofo era terrível." },
-          { "id": "3", "text": "Você se acostuma, é o cheiro da aventura." }
+          { "id": "1", "text": "Acho que as aldeias só precisam conversar, mas ninguém parece disposto a ouvir." },
+          { "id": "3", "text": "A fé cega é como espada sem bainha, Lyra. Fere quem tenta empunhá-la." },
+          { "id": "1", "text": "Eu... não sei se entendi, mas acho que você tem razão." },
+          { "id": "3", "text": "As vozes disseram que há um terceiro olho observando. Talvez devamos também observar de volta." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "Mapeei as trilhas de comércio e notei sabotagens dos dois lados." },
+          { "id": "4", "text": "Interessante. As rotas não se cruzam naturalmente — alguém manipula o fluxo de suprimentos." },
+          { "id": "2", "text": "Sim. E o resultado é que as aldeias culpam uma à outra pela escassez." },
+          { "id": "4", "text": "Um padrão de conflito calculado... alguém está testando reações sociais." },
+          { "id": "2", "text": "Ou só ganhando dinheiro vendendo para os dois lados." }
+        ],
+        "1_4": [
+          { "id": "1", "text": "Eu andei entre as casas e senti o medo nas pessoas — era um peso calmo, não ódio aberto." },
+          { "id": "4", "text": "Medo traduzido em padrões: movimentos repetidos nas rotas de caça, sinais de provocações intencionais." },
+          { "id": "1", "text": "Eles olhavam um pro outro como se esperassem um empurrão. Parecia tudo... cansado demais pra lutar." },
+          { "id": "4", "text": "Havia marcas nas estacas que apontam para interferência externa — cortes feitos de forma rápida e profissional." },
+          { "id": "1", "text": "Então não é só briga de vizinhos." },
+          { "id": "4", "text": "Exato. Alguém fabrica a tensão; nós só testemunhamos os efeitos." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "Conversei com os anciãos de ambos os lados separadamente. As histórias se repetiam com as mesmas palavras." },
+          { "id": "3", "text": "As vozes confirmaram o padrão: palavras plantadas que crescem como ervas daninhas." },
+          { "id": "2", "text": "Isso nunca é natural. Boatos idênticos em vilas distintas não acontecem por acaso." },
+          { "id": "3", "text": "Minha percepção dizia que era um laço—um laço que puxa o coração das pessoas para a raiva." },
+          { "id": "2", "text": "Alguém está encenando os eventos. Pode ser lucro, pode ser poder." },
+          { "id": "3", "text": "Ou um experimento. As vozes chamam isso de 'prova'." }
+        ],
+        "1_2_4": [
+          { "id": "1", "text": "Falei com as famílias. A maioria só quer voltar a colher sem medo." },
+          { "id": "2", "text": "Enquanto eu comprei tempo com perguntas certeiras, o Leo mediu flutuações no ar perto dos celeiros." },
+          { "id": "4", "text": "São anomalias pequenas, mas consistentes — locais onde as tensões emocionais se amplificam sem causa aparente." },
+          { "id": "2", "text": "Ou seja: alguém planta medo, e o medo vira motivo." },
+          { "id": "1", "text": "Se é manipulação, precisamos descobrir quem lucra com isso." },
+          { "id": "4", "text": "Recomendo rastrear as rotas de suprimento e anotar quem passou recentemente por ambas as aldeias." }
+        ],
+        "1_3_4": [
+          { "id": "1", "text": "Eu quis só ficar perto das pessoas, ver se falavam com calma. Nem sempre falam." },
+          { "id": "3", "text": "As vozes sugeriram atenção a objetos deixados nas trilhas — pequenas oferendas que provocam sonhos." },
+          { "id": "4", "text": "Achei resíduo energético em algumas oferendas. Não é natural — alguém as preparou com intenção." },
+          { "id": "1", "text": "Então plantas e sonhos." },
+          { "id": "3", "text": "Sim. As vozes dizem que o terceiro elemento usa ambos para inflamar corações." },
+          { "id": "4", "text": "Conclusão prática: recolher e analisar essas oferendas. Pode nos levar ao instigador." }
+        ],
+        "1_2_3": [
+          { "id": "1", "text": "Tentamos conversar com ambos os lados, mas cada um só via o outro como inimigo." },
+          { "id": "2", "text": "E os rumores eram idênticos, palavra por palavra. Alguém está alimentando essas histórias." },
+          { "id": "3", "text": "As vozes disseram que a mentira tem duas bocas e um mesmo coração. Talvez uma mão guie ambas." },
+          { "id": "1", "text": "Então as aldeias são só peças de algo maior?" },
+          { "id": "2", "text": "Exato. Alguém quer uma guerra... mas ainda não sabemos quem." }
+        ],
+        "2_3_4": [
+          { "id": "4", "text": "As medições mágicas mostram resíduo de manipulação mental em ambas as vilas." },
+          { "id": "3", "text": "Senti o mesmo. As preces deles não sobem — são puxadas para o chão." },
+          { "id": "2", "text": "Então temos magia e manipulação humana. O pacote completo." },
+          { "id": "4", "text": "Provavelmente alguém experimentando controle coletivo. Um feitiço emocional de área." },
+          { "id": "3", "text": "Ou uma maldição antiga. De qualquer modo, a paz aqui é apenas uma miragem." }
+        ],
+        "1_2_3_4": [
+          { "id": "1", "text": "As aldeias não pareciam inimigas de verdade. Só... cansadas e confusas." },
+          { "id": "2", "text": "Exato. Os boatos são idênticos nos dois lados. Alguém os escreveu, não surgiram do nada." },
+          { "id": "4", "text": "Detectei traços sutis de energia mental — não natural. Talvez indução coletiva." },
+          { "id": "3", "text": "As vozes disseram que um terceiro fogo queima em silêncio, alimentando o ódio dos homens." },
+          { "id": "2", "text": "Então há um manipulador. Um grupo, talvez." },
+          { "id": "1", "text": "Acho que esse caso precisa de mais investigação. Há algo maior por trás disso." },
+          { "id": "2", "text": "Sim. Isso está além do simples pedido de mediação." },
+          { "id": "3", "text": "E talvez além do que os deuses desejam que vejamos." },
+          { "id": "4", "text": "Ou exatamente o que devemos ver." }
         ]
-      },
-      "multi": [
-        { "id": "2", "text": "A floresta parecia muito mais escura do que o normal." },
-        { "id": "1", "text": "Sim, mas a recompensa foi maior do que a promessa de ouro." },
-        { "id": "3", "text": "E o ar agora parece mais leve." }
-      ]
+      }
     },
     "falha": {
       "reporters": {
-        "1": { "id": "1", "text": "Eu subestimei os perigos da floresta. Precisamos nos preparar melhor." },
-        "2": { "id": "2", "text": "Foi uma derrota difícil, mas aprendemos muito com ela." },
-        "3": { "id": "3", "text": "As criaturas lá eram mais fortes do que o esperado. É um fracasso." }
-      },
-      "teams": {
-        "2_3": [
-          { "id": "2", "text": "Essa floresta é traiçoeira, fomos pegos de surpresa." },
-          { "id": "3", "text": "Eu deveria ter sido mais cuidadoso." },
-          { "id": "2", "text": "Não se culpe. O importante é que voltamos para a guilda... por enquanto." }
-        ]
-      },
-      "multi": [
-        { "id": "2", "text": "Essa floresta é traiçoeira, fomos pegos de surpresa." },
-        { "id": "3", "text": "Eu deveria ter sido mais cuidadoso." },
-        { "id": "1", "text": "Não se culpe. O importante é que voltamos para a guilda... por enquanto." }
-      ]
-    }
-  },
-  "3": {
+        "1": { "id": "1", "text": "Eu... Eu não fui forte o suficiente. Minha espada... não alcançou. Sinto muito pela guilda. Vou treinar até não falhar mais." },
+        "2": { "id": "2", "text": "Eu falhei. Fui pega em um movimento previsível e perdi minha posição. É um erro de planejamento e execução, e devo aceitar as consequências. A precisão foi insuficiente." },
+        "3": { "id": "3", "text": "O fracasso era inevitável. As vozes gritaram 'Caminho Errado' por três dias seguidos, mas eu insisti em ignorá-las. O erro não foi tático, foi de discernimento. Perdemos." },
+        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de sucesso tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
+      }
+    },
+  "3":{
     "sucesso": {
       "reporters": {
-        "1": { "id": "1", "text": "daqui." },
-        "2": { "id": "2", "text": "hoje." },
-        "3": { "id": "3", "text": "total." }
-      },
-      "teams": {
-        "1_2": [
-          { "id": "1", "text": "oi" },
-          { "id": "2", "text": "Sim." }
+          "2": [
+            { "id": "2", "text": "Desarmei todas. Algumas eram até engenhosas, mas... cruéis." },
+            { "id": "2", "text": "Deixei uma nota perto da última: ‘A caça é escolha, a compaixão é caráter.’" },
+            { "id": "2", "text": "Espero que o responsável entenda. Ou tropece nela." }
+          ],
+          "4": [
+            { "id": "4", "text": "Interessante! Cada armadilha possuía um mecanismo de pressão simples, mas condutivo." },
+            { "id": "4", "text": "Então testei... faíscas controladas. Agora estão todas inoperantes. Algumas… fumegando." },
+            { "id": "4", "text": "Mas veja pelo lado bom: a floresta está livre... e um pouco iluminada." }
+          ],
+          "1": [
+            { "id": "1", "text": "Eu tentei… desarmar com cuidado. Mas quando vi um coelho preso, fiquei nervosa." },
+            { "id": "1", "text": "Então eu cortei tudo. Cordas, madeira, ferro… talvez até parte do chão." },
+            { "id": "1", "text": "Mas funcionou." }
+          ],
+          "3": [
+            { "id": "3", "text": "As vozes guiaram meus passos. Cada estalo no vento me dizia onde uma armadilha dormia." },
+            { "id": "3", "text": "Algumas choravam... metáforas, claro. Eu acho." },
+            { "id": "3", "text": "No fim, a floresta sussurrou paz." }
+          ],
+        "2_3": [
+          { "id": "2", "text": "Desarmei metade. Kael, por que está rezando pra um galho?" },
+          { "id": "3", "text": "Não é um galho. É um espírito preso. Ele chorava." },
+          { "id": "2", "text": "Ok. Eu fico com as cordas, você com as... vozes." },
+          { "id": "3", "text": "Elas dizem obrigado." },
+          { "id": "2", "text": "Diga que foi um prazer." }
         ],
-        "2 3": [
-          { "id": "1", "text": "normal." },
-          { "id": "2", "text": "Sim." }
+        "1_4": [
+          { "id": "1", "text": "Ele disse pra não tocar, mas eu toquei. Aí faiscou." },
+          { "id": "4", "text": "Porque tem metal! Eu estava tentando descarregar a estática, não criar um churrasco de floresta!" },
+          { "id": "1", "text": "Mas deu certo?" },
+          { "id": "4", "text": "...Por algum milagre eletromagnético, sim." }
+        ],
+        "1_2": [
+          { "id": "2", "text": "A Lyra segurou as armadilhas enquanto eu cortava os mecanismos. Quase perdeu um dedo, mas... sem danos permanentes." },
+          { "id": "1", "text": "Elara disse que fui corajosa... mas eu só não queria decepcionar o coelho." },
+          { "id": "2", "text": "Esse é o tipo de heroísmo que o mundo precisa." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "Cada armadilha vibra como se tivesse alma." },
+          { "id": "4", "text": "Não é alma. É tensão de mola." },
+          { "id": "3", "text": "A mesma coisa, às vezes." },
+          { "id": "4", "text": "Depende da voltagem." },
+          { "id": "4", "text": "[Silêncio reflexivo enquanto trabalham.]" }
         ],
         "1_3": [
-          { "id": "1", "text": "Isso." },
-          { "id": "3", "text": "Você." }
+          { "id": "3", "text": "Lyra ficava apontando pros arbustos e dizendo ‘ali’. Eu confiei." },
+          { "id": "1", "text": "E você quebrou as armadilhas como se fossem pecado. Belo trabalho." },
+          { "id": "3", "text": "Obrigada... acho?" }
+        ],
+        "2_4": [
+          { "id": "2", "text": "Leo queria que eu esperasse ele medir a energia da corda. Eu só cortei." },
+          { "id": "4", "text": "Isso foi perigoso!" },
+          { "id": "2", "text": "Sim, mas prático." },
+          { "id": "4", "text": "...Efetivo também." }
+        ],
+        "1_2_4": [
+          { "id": "2", "text": "Vocês dois prometeram não usar fogo nem espada." },
+          { "id": "1", "text": "Eu só usei um pouquinho da espada." },
+          { "id": "4", "text": "E eu só descarreguei um pouquinho de energia estática." },
+          { "id": "2", "text": "Vocês percebem que isso é exatamente o que eu pedi pra não fazer, né?" },
+          { "id": "1", "text": "Mas… funcionou?" },
+          { "id": "2", "text": "Infelizmente, sim." }
+        ],
+        "2_3_4": [
+          { "id": "3", "text": "As armadilhas chamavam meu nome." },
+          { "id": "4", "text": "Isso é eco." },
+          { "id": "2", "text": "É insanidade." },
+          { "id": "3", "text": "É fé." },
+          { "id": "2", "text": "Ok, vamos focar. Eu corto, Leo analisa, Kael... abençoa." },
+          { "id": "3", "text": "E as vozes aplaudem." }
+        ],
+        "1_2_3": [
+          { "id": "1", "text": "A Elara guiava, o Kael rezava, e eu segurava." },
+          { "id": "2", "text": "E por algum motivo isso deu certo." },
+          { "id": "3", "text": "Porque harmonia é quando o caos tem fé." },
+          { "id": "2", "text": "Vou anotar isso… mas não sei por quê." }
+        ],
+        "1_2_3_4": [
+          { "id": "2", "text": "Certo, o plano inicial era simples: eu cortaria, Lyra protegeria, Leo analisaria e Kael ficaria... quieto." },
+          { "id": "3", "text": "As vozes protestaram." },
+          { "id": "4", "text": "As medições também." },
+          { "id": "1", "text": "Eu perguntei se poderia, pelo menos, segurar alguma coisa." },
+          { "id": "2", "text": "Eu pedi: 'Desde que não fosse inflamável'." },
+          { "id": "2", "text": "E algo exlodiu..." },
+          { "id": "4", "text": "Ah… estatisticamente, isso era inevitável." },
+          { "id": "3", "text": "Os deuses riram." },
+          { "id": "2", "text": "Eu pensei: 'A política vai me matar'." },
+          { "id": "1", "text": "...Mas deu certo?'" },
+          { "id": "2", "text": "Deu certo." }
         ]
-      },
-      "multi": [
-        { "id": "2", "text": "A floresta parecia muito mais escura do que o normal." },
-        { "id": "1", "text": "Sim, mas a recompensa foi maior do que a promessa de ouro." },
-        { "id": "3", "text": "E o ar agora parece mais leve." }
-      ]
+      }
     },
     "falha": {
       "reporters": {
-        "1": { "id": "1", "text": "Eu subestimei os perigos da floresta. Precisamos nos preparar melhor." },
-        "2": { "id": "2", "text": "Foi uma derrota difícil, mas aprendemos muito com ela." },
-        "3": { "id": "3", "text": "As criaturas lá eram mais fortes do que o esperado. É um fracasso." }
-      },
-      "teams": {
+        "1": { "id": "1", "text": "Eu... Eu não fui forte o suficiente. Minha espada... não alcançou. Sinto muito pela guilda. Vou treinar até não falhar mais." },
+        "2": { "id": "2", "text": "Eu falhei. Fui pega em um movimento previsível e perdi minha posição. É um erro de planejamento e execução, e devo aceitar as consequências. A precisão foi insuficiente." },
+        "3": { "id": "3", "text": "O fracasso era inevitável. As vozes gritaram 'Caminho Errado' por três dias seguidos, mas eu insisti em ignorá-las. O erro não foi tático, foi de discernimento. Perdemos." },
+        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de sucesso tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
+      }
+    }
+  },
+  "4":{
+    "sucesso": {
+      "reporters": {
+        "1": [
+          { "id": "1", "text": "As pessoas do culto eram gentis. Talvez gentis demais." },
+          { "id": "1", "text": "Eu fiquei... desconfortável. Todos olhavam e sorriam sem parar." },
+          { "id": "1", "text": "Quando perguntei por que oravam, responderam 'porque o mestre manda'." },
+          { "id": "1", "text": "Achei estranho. Devoção não devia dar medo." }
+        ],
+        "2": [
+          { "id": "2", "text": "Eles disseram que a fé deles liberta. Então perguntei do quê." },
+          { "id": "2", "text": "Silêncio. Só olharam pra mim como se eu fosse o problema." },
+          { "id": "2", "text": "Descobri que a 'libertação' é não pensar. Estranho tipo de paz." },
+          { "id": "2", "text": "Enviei o relatório com todos os detalhes — honestos, infelizmente." }
+        ],
+        "3": [
+          { "id": "3", "text": "A energia lá era... perturbadoramente constante." },
+          { "id": "3", "text": "Nenhum fluxo natural — parecia magia sustentando emoção." },
+          { "id": "3", "text": "Identifiquei resquícios de compulsão arcana sutil nos cânticos." },
+          { "id": "3", "text": "O líder sabe exatamente o que está fazendo. E isso me preocupa." }
+        ],
+        "4": [
+          { "id": "4", "text": "As vozes falavam todas juntas... e nenhuma delas era divina." },
+          { "id": "4", "text": "Senti uma presença fingindo ser sagrada. O disfarce tremia." },
+          { "id": "4", "text": "Quando fechei os olhos, o sussurro virou riso. Não era fé. Era fome." },
+          { "id": "4", "text": "Rezei. E o riso cessou... por agora." }
+        ],
+        "1_4": [
+          { "id": "1", "text": "O culto parecia calmo, mas o ar era pesado. Kael ficou estranho." },
+          { "id": "4", "text": "As vozes estavam mascaradas. Chamavam por nomes que não eram delas." },
+          { "id": "1", "text": "Eu só senti medo. Mas não medo meu... medo deles." },
+          { "id": "4", "text": "Eles temem o silêncio, Lyra. E você o trouxe sem perceber." },
+          { "id": "1", "text": "Então... foi bom eu não saber o que dizer?" },
+          { "id": "4", "text": "Foi fé sem palavras. O tipo mais puro." }
+        ],
         "2_3": [
-          { "id": "2", "text": "Essa floresta é traiçoeira, fomos pegos de surpresa." },
-          { "id": "3", "text": "Eu deveria ter sido mais cuidadoso." },
-          { "id": "2", "text": "Não se culpe. O importante é que voltamos para a guilda... por enquanto." }
+          { "id": "2", "text": "O líder do culto me pediu pra fechar os olhos e confiar." },
+          { "id": "3", "text": "Você obedeceu?" },
+          { "id": "2", "text": "Claro que não. Observei cada gesto. Ele usava encantos sutis de obediência." },
+          { "id": "3", "text": "Confirmo. Os cânticos produzem frequência de hipnose leve." },
+          { "id": "2", "text": "Aposto que chamam isso de fé." },
+          { "id": "3", "text": "Ou engenharia emocional avançada." }
+        ],
+        "1_2_4": [
+          { "id": "1", "text": "Eu quase me juntei à oração. Pareciam tão felizes..." },
+          { "id": "2", "text": "É o propósito do truque. Felicidade obrigatória." },
+          { "id": "4", "text": "As vozes do lugar eram doces — como mel envenenado." },
+          { "id": "1", "text": "Senti enjoo quando sorriram pra mim. Acho que não foi só nervosismo." },
+          { "id": "2", "text": "Não, Lyra. Foi instinto. E você estava certa em desconfiar." },
+          { "id": "4", "text": "O santuário cheira a medo disfarçado de fé. Eu rezaria antes de dormir." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "Lyra, notou o símbolo gravado nos pilares?" },
+          { "id": "1", "text": "Parece... uma serpente com duas cabeças." },
+          { "id": "4", "text": "Ou dois deuses tentando falar ao mesmo tempo." },
+          { "id": "3", "text": "Energia conflitante. Se continuar, o templo implode — metafisicamente." },
+          { "id": "1", "text": "Então devíamos... avisar?" },
+          { "id": "4", "text": "Já avisamos, Lyra. Eles só não querem ouvir." }
+        ],
+        "1_3": [
+          { "id": "1", "text": "Eles pareciam... felizes demais. Ninguém questionava nada." },
+          { "id": "3", "text": "A fé excessiva é irmã gêmea da mentira. As vozes não suportaram o cântico — diziam que soava oco." },
+          { "id": "1", "text": "Mas tudo parecia tão bonito... até o ar cheirava a flores." },
+          { "id": "3", "text": "Perfume é disfarce. Há incenso de controle mental em cada chama daquele altar." },
+          { "id": "1", "text": "Então... eles não acreditam por escolha?" },
+          { "id": "3", "text": "Não. Eles obedecem ao vazio, e chamam isso de fé." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "Observei as cerimônias: gestos repetidos, sempre no mesmo ritmo, como se treinados." },
+          { "id": "4", "text": "Exato. A cadência sonora gera ondas mentais harmônicas — um tipo primitivo de encantamento coletivo." },
+          { "id": "2", "text": "Então não é fé. É condicionamento." },
+          { "id": "4", "text": "Correto. E quem o conduz entende exatamente o que está fazendo." },
+          { "id": "2", "text": "Eu não costumo julgar crenças... mas isso cheira a manipulação." },
+          { "id": "4", "text": "Manipulação é a palavra técnica, sim." }
+        ],
+        "1_2": [
+          { "id": "1", "text": "As pessoas do culto pareciam tão calmas... até demais." },
+          { "id": "2", "text": "Sim. Ninguém questionava o líder, nem quando ele dizia absurdos." },
+          { "id": "1", "text": "Talvez tenham medo?" },
+          { "id": "2", "text": "Ou talvez estejam enfeitiçadas por palavras bonitas. Vi isso antes." },
+          { "id": "1", "text": "Então devemos alertar a guilda?" },
+          { "id": "2", "text": "Já estamos alertando. Esse tipo de paz é uma prisão." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "As vozes não suportaram aquele templo. Diziam que ali se adora o silêncio, não um deus." },
+          { "id": "4", "text": "Silêncio forçado. As ondas mentais eram baixas e constantes — inibem pensamento crítico." },
+          { "id": "3", "text": "Então eles não rezam. São rezados." },
+          { "id": "4", "text": "Interessante expressão, mas precisa. O culto é um mecanismo de controle mental." },
+          { "id": "3", "text": "E o líder... não é um sacerdote. É uma antena." },
+          { "id": "4", "text": "Concordo. Precisamos rastrear a fonte dessa energia." }
+        ],
+        "1_2_3": [
+          { "id": "1", "text": "Eles falavam com tanto fervor... mas ninguém parecia pensar por si mesmo." },
+          { "id": "2", "text": "Tudo decorado. Palavras ditas por hábito, não por fé." },
+          { "id": "3", "text": "A fé sem alma é mentira viva. As vozes gritaram pra eu sair dali." },
+          { "id": "1", "text": "Parecia um coro perfeito... assustadoramente perfeito." },
+          { "id": "2", "text": "Sim. A harmonia era forçada. Nenhum culto é tão sincronizado sem algo por trás." },
+          { "id": "3", "text": "Algo... ou alguém." }
+        ],
+        "2_3_4": [
+          { "id": "4", "text": "O símbolo central emite um campo mágico estável. Nenhum devoto parece notar." },
+          { "id": "3", "text": "As vozes disseram que o símbolo é um olho que observa, e quanto mais olham pra ele, menos veem." },
+          { "id": "2", "text": "Eu notei a mesma coisa. Quando o líder fala, todos fixam os olhos naquele emblema." },
+          { "id": "4", "text": "É uma âncora mental. Um foco que suprime dúvida." },
+          { "id": "2", "text": "Então esse culto não é uma religião — é uma armadilha." },
+          { "id": "3", "text": "E as almas presas nela cantam agradecendo por isso." }
+        ],
+        "1_2_3_4": [
+          { "id": "1", "text": "O culto parecia tranquilo... mas o olhar das pessoas era vazio, sem vida." },
+          { "id": "2", "text": "E repetiam as mesmas frases, como se tivessem sido treinadas. Nenhum erro, nenhum desvio." },
+          { "id": "4", "text": "Detectei uma matriz de energia contínua emanando do altar. Frequência constante, sugestiva de controle emocional." },
+          { "id": "3", "text": "As vozes disseram que o deus deles não escuta — apenas ordena." },
+          { "id": "1", "text": "Então o culto é falso?" },
+          { "id": "2", "text": "Mais do que falso. É perigoso." },
+          { "id": "4", "text": "A estrutura é perfeita demais para ser obra de fé comum. Há método arcano e propósito social." },
+          { "id": "3", "text": "E o propósito é apagar o pensamento — até restar só obediência." },
+          { "id": "1", "text": "Devemos avisar que o culto cresce rápido. Mais do que parece seguro." },
+          { "id": "2", "text": "Já está avisado. Que a guilda decida o que fazer antes que a devoção vire domínio." }
         ]
-      },
-      "multi": [
-        { "id": "2", "text": "Essa floresta é traiçoeira, fomos pegos de surpresa." },
-        { "id": "3", "text": "Eu deveria ter sido mais cuidadoso." },
-        { "id": "1", "text": "Não se culpe. O importante é que voltamos para a guilda... por enquanto." }
-      ]
+      }
+    },
+    "falha": {
+      "reporters": {
+        "1": { "id": "1", "text": "Eu... Eu não fui forte o suficiente. Minha espada... não alcançou. Sinto muito pela guilda. Vou treinar até não falhar mais." },
+        "2": { "id": "2", "text": "Eu falhei. Fui pega em um movimento previsível e perdi minha posição. É um erro de planejamento e execução, e devo aceitar as consequências. A precisão foi insuficiente." },
+        "3": { "id": "3", "text": "O fracasso era inevitável. As vozes gritaram 'Caminho Errado' por três dias seguidos, mas eu insisti em ignorá-las. O erro não foi tático, foi de discernimento. Perdemos." },
+        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de sucesso tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
+      }
+    }
+  },
+  "5": {
+    "sucesso": {
+      "reporters": {
+        "1": [
+          { "id": "1", "text": "A pedra era enorme. Eu empurrei até os braços tremerem." },
+          { "id": "1", "text": "Quando ela finalmente se moveu, todo mundo aplaudiu. Eu queria... não estar ali." }
+        ],
+        "2": [
+          { "id": "2", "text": "Não adiantava forçar. Usei alavancas, cordas e alguns aldeões dispostos." },
+          { "id": "2", "text": "A força veio de todos, não de um só. Foi o jeito mais justo de resolver." }
+        ],
+        "3": [
+          { "id": "3", "text": "A densidade da rocha era fora do padrão. Tive que medir por descarga elétrica controlada." },
+          { "id": "3", "text": "Os fragmentos brilharam. Tecnicamente, a rocha continua emitindo radiação leve. Bonito, mas instável." }
+        ],
+        "4": [
+          { "id": "4", "text": "As vozes disseram que a pedra chorava." },
+          { "id": "4", "text": "Rezei até sentir o chão respirar. Depois disso, ela simplesmente cedeu." }
+        ],
+
+        "1_2": [
+          { "id": "1", "text": "Empurrei até perder o fôlego." },
+          { "id": "2", "text": "E eu ajustei o ângulo das cordas. Às vezes, a força só precisa de direção." },
+          { "id": "1", "text": "Funcionou... mas o pessoal ainda acha que fui eu sozinha." },
+          { "id": "2", "text": "Não corrigi ninguém. Política da montanha, talvez." }
+        ],
+
+        "1_3": [
+          { "id": "3", "text": "A densidade da pedra é fascinante." },
+          { "id": "1", "text": "Ela não parecia fascinante enquanto eu tentava empurrar." },
+          { "id": "3", "text": "Apliquei uma descarga leve para reduzir o atrito. Aí ela deslizou." },
+          { "id": "1", "text": "Então foi você quem ajudou." },
+          { "id": "3", "text": "Tecnicamente, foi a eletricidade. Eu só medi." }
+        ],
+
+        "1_4": [
+          { "id": "4", "text": "Ela falava, sabia? Disse que estava cansada de segurar o caminho." },
+          { "id": "1", "text": "A pedra... falava?" },
+          { "id": "4", "text": "Sim. Cansada, mas grata. Depois da oração, ela se moveu sozinha." },
+          { "id": "1", "text": "Talvez tenha sentido meu empurrão também." },
+          { "id": "4", "text": "O milagre às vezes precisa de músculos." }
+        ],
+
+        "2_3": [
+          { "id": "2", "text": "A rocha era dura demais pra ferramentas comuns." },
+          { "id": "3", "text": "Apliquei energia nas fissuras para facilitar a divisão." },
+          { "id": "2", "text": "E eu direcionei as cordas no ponto certo. Tudo se encaixou." },
+          { "id": "3", "text": "Uma operação eficiente. E discretamente bonita." }
+        ],
+
+        "2_4": [
+          { "id": "2", "text": "Kael começou rezando pra pedra. Eu comecei medindo ângulos." },
+          { "id": "4", "text": "Enquanto ela fazia cálculos, eu pedia perdão à montanha." },
+          { "id": "2", "text": "E no fim, a rocha se moveu sem a gente encostar muito." },
+          { "id": "4", "text": "Viu? A fé e a física têm ritmo parecido." }
+        ],
+
+        "3_4": [
+          { "id": "3", "text": "A densidade da pedra é fascinante." },
+          { "id": "4", "text": "Ela fala, sabia? Disse que está cansada de segurar o caminho." },
+          { "id": "3", "text": "Isso é uma metáfora geológica?" },
+          { "id": "4", "text": "Ou espiritual." },
+          { "id": "3", "text": "Interessante... talvez ambos." },
+          { "id": "4", "text": "Então peça permissão para a descarga elétrica, antes de ofender uma montanha." }
+        ],
+
+        "1_2_3": [
+          { "id": "2", "text": "Planejamos o esforço. Lyra empurrou, Leo quebrou o atrito, e eu segurei as cordas." },
+          { "id": "1", "text": "Foi pesado, mas deu certo. A pedra pareceu... colaborar." },
+          { "id": "3", "text": "A energia acumulada no solo ajudou. A física gosta de trabalho em grupo." },
+          { "id": "2", "text": "E a guilda também." }
+        ],
+
+        "1_2_4": [
+          { "id": "2", "text": "Lyra queria empurrar, Kael queria rezar. Eu queria terminar antes da próxima chuva." },
+          { "id": "1", "text": "Empurrei devagar, como o Kael pediu." },
+          { "id": "4", "text": "E a pedra cedeu no tempo exato. A oração tinha ritmo." },
+          { "id": "2", "text": "Chamemos de coincidência eficiente." },
+          { "id": "4", "text": "Ou milagre de engenharia." }
+        ],
+
+        "1_3_4": [
+          { "id": "3", "text": "A rocha vibrava com energia residual." },
+          { "id": "4", "text": "Ela estava viva, só cansada." },
+          { "id": "1", "text": "Bem, viva ou não, ela se moveu quando empurrei." },
+          { "id": "3", "text": "Depois da descarga controlada." },
+          { "id": "4", "text": "E da bênção." },
+          { "id": "1", "text": "Então... todos ajudaram." }
+        ],
+
+        "2_3_4": [
+          { "id": "2", "text": "Fizemos um plano: Leo estuda, eu preparo o sistema, Kael... fala com a pedra." },
+          { "id": "3", "text": "Ela parecia responder aos padrões sonoros das orações." },
+          { "id": "4", "text": "É claro que respondia. A fé tem frequência." },
+          { "id": "2", "text": "E, de alguma forma, tudo se moveu no tempo certo." },
+          { "id": "3", "text": "Física aplicada à devoção. Um bom experimento." }
+        ],
+
+        "1_2_3_4": [
+          { "id": "2", "text": "A rocha bloqueava tudo. Organizamos um plano — força, técnica e... fé, aparentemente." },
+          { "id": "1", "text": "Empurrei quando disseram que dava sinal." },
+          { "id": "3", "text": "Apliquei a energia nos pontos de tensão." },
+          { "id": "4", "text": "E pedi à montanha que aceitasse o movimento." },
+          { "id": "2", "text": "No fim, não sei quem fez mais. Só sei que funcionou." },
+          { "id": "4", "text": "Ela agradeceu. Em silêncio, mas agradeceu." }
+        ]
+      }
+  },
+  "falha": {
+      "reporters": {
+        "1": { "id": "1", "text": "Eu... Eu não fui forte o suficiente. Minha espada... não alcançou. Sinto muito pela guilda. Vou treinar até não falhar mais." },
+        "2": { "id": "2", "text": "Eu falhei. Fui pega em um movimento previsível e perdi minha posição. É um erro de planejamento e execução, e devo aceitar as consequências. A precisão foi insuficiente." },
+        "3": { "id": "3", "text": "O fracasso era inevitável. As vozes gritaram 'Caminho Errado' por três dias seguidos, mas eu insisti em ignorá-las. O erro não foi tático, foi de discernimento. Perdemos." },
+        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de sucesso tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
+      }
     }
   }
 }

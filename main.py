@@ -29,9 +29,9 @@ try:
     from core.quest_manager import QuestManager
     from core.hero_manager import HeroManager  # cria esse módulo se ainda não existir
     import core.save_manager as save
-    import os
+    import os, sys
     from kivy.uix.screenmanager import ScreenManager, FadeTransition, SlideTransition, SwapTransition
-
+    import traceback
 
     class GameScreenManager(ScreenManager):
         def __init__(self, **kwargs):
@@ -55,6 +55,19 @@ try:
 
 except Exception as e:
     print(e)
+    exc_type, exc_value, exc_traceback = sys.exc_info()
+    
+    # Pega o frame do erro (última chamada)
+    tb = traceback.extract_tb(exc_traceback)
+    filename, line, func, text = tb[-1]
+    
+    print(f"❌ Erro: {exc_type.__name__}")
+    print(f"📄 Arquivo: {filename}")
+    print(f"📍 Linha: {line}")
+    print(f"🔧 Função: {func}")
+    print(f"💬 Mensagem: {exc_value}")
+    print(f"📝 Código: {text}")
+
 '''
 https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbDU4V1BPTTJGNGRCZkgtMHcwOVRBQlZOTFQ3Z3xBQ3Jtc0trTjA0U0tRZ3c3dkdTWENYV0tPSnRHMGZBVnB4TTg2UzRldF9EWmtEbnBSRWMxaXFCblVJSkpQMlkyUkQ1VGptU2N1bzJoMjg1MFlPU292Vy1wNkpteGRhYnhpX05LWk5ZYlg3ampHb1FlektPMmVxWQ&q=https%3A%2F%2Ftinyurl.com%2Fmedievallofiplaylist&v=p1wg7FB1PZY
 Seaside Haven Lofi

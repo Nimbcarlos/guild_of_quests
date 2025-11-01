@@ -4,13 +4,6 @@ from typing import Dict, List, Optional
 
 
 def get_level_from_xp(xp: int) -> int:
-    """
-    Exemplo simples: custo cumulativo por nível.
-    Nível 1 -> 0 XP
-    Subir para 2 -> +100
-    Subir para 3 -> +200 (acumulado 300)
-    Subir para 4 -> +300 (acumulado 600) ...
-    """
     level = 1
     need = 100
     while xp >= need:
@@ -21,104 +14,122 @@ def get_level_from_xp(xp: int) -> int:
 
 
 class Hero:
-    """
-    Representa um herói de catálogo (definição fixa do jogo).
-    Progresso (XP) vem do save e é aplicado fora deste módulo (via save_manager/HeroManager).
-    """
     def __init__(
         self,
         id: int,
-        name: str,
-        hero_class: str,
+        name,
+        hero_class,
         status: str,
-        perks: List[str],
-        defects: List[str],
-        story: str,
+        perks,
+        defects,
+        story,
         photo_url: str,
         photo_body_url: str,
-        unlock_by_quest: None,
-        available_from_turn: int,  # <<< só libera após turno X
-        leave_on_quest: List[int],     # <<< quests que expulsam
+        unlock_by_quest,
+        available_from_turn: int,
+        leave_on_quest,
         growth_curve: Dict[str, Dict[str, int]],
         starter: bool = False,
-        xp: int = 0,  # será sobrescrito pelo save_manager quando carregar progresso
+        xp: int = 0,
+        language: str = "en"
     ):
+        """Inicializa o herói já traduzindo com base no idioma."""
         self.id = id
-        self.name = name
-        self.hero_class = hero_class
+        self.language = language
+
+        # Campos que podem ser multilíngues
+        self.name = self._get_lang_value(name)
+        self.hero_class = self._get_lang_value(hero_class)
+        self.story = self._get_lang_value(story)
+
+        self.perks = self._get_lang_list(perks)
+        self.defects = self._get_lang_list(defects)
+
+        # Campos fixos
         self.status = 'idle'
-        self.perks = perks
-        self.defects = defects
-        self.story = story
         self.photo_url = photo_url
         self.photo_body_url = photo_body_url
         self.unlock_by_quest = unlock_by_quest or []
-        self.available_from_turn = available_from_turn  # <<< só libera após turno X
-        self.leave_on_quest = leave_on_quest or []      # <<< quests que expulsam
-        self.growth_curve = growth_curve  # stats absolutos por nível (chaves string)
+        self.available_from_turn = available_from_turn
+        self.leave_on_quest = leave_on_quest or []
+        self.growth_curve = growth_curve
         self.starter = starter
-        self.xp = xp  # progresso (default 0)
+        self.xp = xp
 
-    # nível é calculado com base no XP atual
+    # -------------------- Métodos auxiliares --------------------
+
+    def _get_lang_value(self, value):
+        """Retorna o texto no idioma atual (ou o original se for string)."""
+        if isinstance(value, dict):
+            return value.get(self.language) or next(iter(value.values()))
+        return value
+
+    def _get_lang_list(self, value):
+        """Retorna lista traduzida se houver versões por idioma."""
+        if isinstance(value, dict):
+            return value.get(self.language, [])
+        return value or []
+
+    # -------------------- Métodos principais --------------------
+
     @property
     def level(self) -> int:
         return get_level_from_xp(self.xp)
 
     @property
     def stats(self) -> Dict[str, int]:
-        """Atributos absolutos do nível atual conforme a growth_curve."""
         return self.growth_curve.get(str(self.level), {}) or {}
 
     def get_attr(self, attr: str) -> int:
-        """Acesso seguro a um atributo (ex.: 'strength', 'dexterity', ...)."""
         return int(self.stats.get(attr, 0))
 
     def add_xp(self, amount: int) -> None:
         self.xp = max(0, self.xp + int(amount))
 
     def to_dict_min(self) -> Dict[str, object]:
-        """Forma minimal para salvar no progresso (saves\save.json)."""
         return {"id": self.id, "name": self.name, "xp": self.xp}
 
     def __str__(self) -> str:
         return (
             f"--- Ficha do Herói ---\n"
             f"Nome: {self.name}\n"
-            f"ID: {self.id}\n"
             f"Classe: {self.hero_class}\n"
-            f"Nível: {self.level}  (XP: {self.xp})\n"
-            f"Status: {self.status}\n"
+            f"Nível: {self.level} (XP: {self.xp})\n"
             f"Perks: {', '.join(self.perks) if self.perks else '—'}\n"
             f"Defeitos: {', '.join(self.defects) if self.defects else '—'}\n"
-            f"Atributos (lvl {self.level}): {self.stats}\n"
+            f"Atributos: {self.stats}\n"
         )
 
+    # -------------------- Carregamento --------------------
+
     @staticmethod
-    def load_heroes(language="pt") -> list["Hero"]:
-        """
-        Carrega heróis do arquivo referente ao idioma escolhido.
-        Exemplo: data/pt/heroes.json
-        """
-        file_path = Path(f"data/{language}/heroes.json")
+    def load_heroes(language="en") -> list["Hero"]:
+        """Carrega todos os heróis com o idioma especificado."""
+        file_path = Path("data/heroes.json")
         if not file_path.exists():
             raise FileNotFoundError(f"Arquivo {file_path} não encontrado.")
 
         with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        return [Hero(**hero_data) for hero_data in data]
+        return [Hero(language=language, **hero_data) for hero_data in data]
 
     @staticmethod
-    def get_hero_by_id(hero_id: int, file_path: str = "data\heroes.json") -> Optional["Hero"]:
-        for h in Hero.load_heroes(file_path):
+    def get_hero_by_id(hero_id: int, language="en") -> Optional["Hero"]:
+        for h in Hero.load_heroes(language):
             if h.id == hero_id:
                 return h
         return None
 
     @staticmethod
-    def get_hero_by_name(name: str, file_path: str = "data\heroes.json") -> Optional["Hero"]:
+    def get_hero_by_name(name: str, language="en") -> Optional["Hero"]:
         name = name.strip().lower()
-        for h in Hero.load_heroes(file_path):
+        for h in Hero.load_heroes(language):
             if h.name.strip().lower() == name:
                 return h
         return None
+
+
+if __name__ == "__main__":
+    hero = Hero.get_hero_by_id(1, language="en")
+    print(hero)

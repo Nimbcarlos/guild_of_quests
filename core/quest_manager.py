@@ -33,9 +33,6 @@ class QuestManager:
             # adicionar outros futuramente
         ]
 
-        # HeroManager gerencia todos os heróis e desbloqueio
-        self.hero_manager = HeroManager()
-
         # Carrega quests
         self.quests = Quest.load_quests()
 
@@ -54,6 +51,10 @@ class QuestManager:
 
         # Language manager (opcional). Deve ter método t(key) -> str
         self.lm = LanguageManager()
+
+        # HeroManager gerencia todos os heróis e desbloqueio
+        self.hero_manager = HeroManager(language=self.lm.language)
+
         self.assistant = AssistantManager(self.lm)
 
     # -------------------- UI Log --------------------
