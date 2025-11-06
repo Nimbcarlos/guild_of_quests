@@ -2,28 +2,34 @@ import json
 from pathlib import Path
 from typing import List, Dict, Optional
 
+
 class Quest:
     def __init__(
         self,
         id: str,
-        name: str,
-        description: str,
+        name,
+        description,
         type: str,
-        recommendedLevel: int,
+        expired_at: int,
         available_from_turn: int,
         duration: int,
         difficulty: int,
         rewards: Dict[str, int],
         required_quests: List[str],
         required_fail_quests: List[str],
-        required_heroes = List[str],
-        available_since_turn = None,
+        required_heroes: List[str] = None,
+        available_since_turn=None,
+        language: str = "en",
     ):
         self.id = id
-        self.name = name
-        self.description = description
+        self.language = language
+
+        # 🔹 Traduz automaticamente name e description se forem dicionários
+        self.name = self._get_lang_value(name)
+        self.description = self._get_lang_value(description)
+
         self.type = type
-        self.recommended_level = recommendedLevel
+        self.expired_at = expired_at
         self.available_from_turn = available_from_turn
         self.duration = duration
         self.difficulty = difficulty
@@ -33,8 +39,21 @@ class Quest:
         self.required_heroes = required_heroes or []
         self.available_since_turn = available_since_turn
 
-        # Novo: turnos restantes
-        self.remaining_turns = duration  
+        self.remaining_turns = duration
+
+    # -------------------- Métodos auxiliares --------------------
+
+    def _get_lang_value(self, value):
+        """Retorna o texto no idioma atual (ou o original se for string)."""
+        if isinstance(value, dict):
+            return value.get(self.language) or next(iter(value.values()))
+        return value
+
+    def _get_lang_list(self, value):
+        """Retorna lista traduzida se houver versões por idioma."""
+        if isinstance(value, dict):
+            return value.get(self.language, [])
+        return value or []
 
     def __str__(self) -> str:
         return (
@@ -42,7 +61,7 @@ class Quest:
             f"Quest: {self.name}\n"
             f"Descrição: {self.description}\n"
             f"Tipo: {self.type}\n"
-            f"Level Recomendado: {self.recommended_level}\n"
+            f"Expira em: {self.expired_at}\n"
             f"Duração: {self.duration} turnos\n"
             f"Turnos Restantes: {self.remaining_turns}\n"
             f"Dificuldade: {self.difficulty}\n"
@@ -60,18 +79,19 @@ class Quest:
 
     # 🔹 Carrega quests de acordo com o idioma
     @staticmethod
-    def load_quests(language: str = "pt") -> List["Quest"]:
-        file_path = Path(f"data/{language}/quests.json")
+    def load_quests(language="en") -> list["Quest"]:
+        """Carrega todos os heróis com o idioma especificado."""
+        file_path = Path("data/quests.json")
         if not file_path.exists():
             raise FileNotFoundError(f"Arquivo {file_path} não encontrado.")
 
         with open(file_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
-        return [Quest(**quest_data) for quest_data in data]
+        return [Quest(language=language, **quest_data ) for quest_data in data]
 
     @staticmethod
-    def get_quest_by_name(name: str, language: str = "pt") -> Optional["Quest"]:
+    def get_quest_by_name(name: str, language: str = "en") -> Optional["Quest"]:
         quests = Quest.load_quests(language)
         for q in quests:
             if q.name.lower() == name.lower():

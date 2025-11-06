@@ -201,7 +201,7 @@
                         color: 0, 0, 0, 1
 
                     ScrollView: # ⬅️ Envolve a lista em um ScrollView
-                        size_hint_y: 0.25 # Altura reservada para esta lista (ex: 35% do espaço livre)
+                        size_hint_y: 0.45 # Altura reservada para esta lista (ex: 35% do espaço livre)
                         
                         BoxLayout:
                             id: active_quests # ⬅️ Este é o contêiner interno que o Python preenche
@@ -217,7 +217,7 @@
                         color: 0, 0, 0, 1
 
                     ScrollView:
-                        size_hint_y: 0.35 # Altura reservada para esta lista
+                        size_hint_y: 0.45 # Altura reservada para esta lista
                         
                         BoxLayout:
                             id: available_quests
@@ -233,7 +233,7 @@
                         color: 0, 0, 0, 1
 
                     ScrollView:
-                        size_hint_y: 0.3 # Altura reservada (o resto do espaço)
+                        size_hint_y: 0.1 # Altura reservada (o resto do espaço)
                         
                         BoxLayout:
                             id: completed_quests
@@ -251,4 +251,7 @@
     text_size: self.size
     halign: "center"
     valign: "middle"
-    allow_stretch: True
+
+<Label>:
+    font_name: app.font_name
+    font_size: 16

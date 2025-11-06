@@ -1,0 +1,844 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "pt": "O Cofre do Esquecido",
+      "en": "The Vault of the Forgotten",
+      "es": "La Caja Fuerte del Olvidado",
+      "ru": "Сейф Забытого",
+      "zh": "被遗忘者的金库",
+      "ja": "忘れられた者の金庫"
+    },
+    "description": {
+      "pt": "Um nobre do reino perdeu a combinação do próprio cofre e enviou um pedido “urgente” à guilda. Ele jura que o conteúdo é “estritamente pessoal” — o que, vindo de um nobre, sempre soa suspeito. Política!",
+      "en": "A noble of the realm lost the combination to his own vault and sent an \"urgent\" request to the guild. He swears the content is \"strictly personal\" — which, coming from a noble, always sounds suspicious. Politics!",
+      "es": "Un noble del reino perdió la combinación de su propia caja fuerte y envió una solicitud \"urgente\" al gremio. Jura que el contenido es \"estrictamente personal\" — lo que, viniendo de un noble, siempre suena sospechoso. ¡Política!",
+      "ru": "Дворянин королевства потерял код от своего сейфа и отправил «срочный» запрос в гильдию. Он клянется, что содержимое «строго личное» — что, учитывая, кто это говорит, всегда подозрительно. Политика!",
+      "zh": "领地的一位贵族丢失了自己金库的密码，并向公会发送了“紧急”请求。他发誓内容是“绝对私人的”——来自贵族的话，这听起来总是可疑。政治！",
+      "ja": "領地の貴族が自身の金庫の暗証番号を紛失し、ギルドに「緊急」の依頼を送ってきた。彼は内容が「極秘の個人的なもの」だと断言している — 貴族の言うことなので、常に疑わしい。政治だ！"
+    },
+    "type": "Dexterity",
+    "expired_at": 3,
+    "available_from_turn": 1,
+    "duration": 3,
+    "difficulty": 1.5,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 2,
+    "name": {
+      "pt": "A Floresta dos Gatilhos",
+      "en": "The Forest of Triggers",
+      "es": "El Bosque de los Gatillos",
+      "ru": "Лес Спусковых Механизмов",
+      "zh": "陷阱森林",
+      "ja": "トラップの森"
+    },
+    "description": {
+      "pt": "Alguém encheu o bosque de armadilhas cruéis. Animais estão morrendo em sofrimento. O druida da região pede ajuda para desarmá-las sem causar mais destruição.",
+      "en": "Someone filled the woods with cruel traps. Animals are dying in suffering. The local druid asks for help to disarm them without causing further destruction.",
+      "es": "Alguien llenó el bosque de trampas crueles. Los animales están muriendo con sufrimiento. El druida local pide ayuda para desarmarlas sin causar más destrucción.",
+      "ru": "Кто-то заполнил лес жестокими ловушками. Животные умирают в муках. Местный друид просит помощи, чтобы обезвредить их, не причиняя дальнейших разрушений.",
+      "zh": "有人在这片树林里布满了残忍的陷阱。动物正在痛苦中死去。当地的德鲁伊请求帮助解除这些陷阱，避免造成进一步的破坏。",
+      "ja": "誰かが森に残酷な罠を仕掛けた。動物たちは苦しみながら死んでいる。地元のドルイドは、それ以上の破壊を引き起こすことなく罠を解除するための助けを求めている。"
+    },
+    "type": "Dexterity",
+    "expired_at": 3,
+    "available_from_turn": 5,
+    "duration": 4,
+    "difficulty": 1.5,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 3,
+    "name": {
+      "pt": "Paz Entre Aldeias",
+      "en": "Peace Between Villages",
+      "es": "Paz Entre Aldeas",
+      "ru": "Мир Между Деревнями",
+      "zh": "村庄间的和平",
+      "ja": "村間の平和"
+    },
+    "description": {
+      "pt": "Duas tribos — os Urmir e os Tavak — estão à beira da guerra. Cada uma alega que a outra roubou suprimentos de caça. O mensageiro real quer alguém para ‘acalmar os ânimos’.",
+      "en": "Two tribes — the Urmir and the Tavak — are on the brink of war. Each alleges the other stole hunting supplies. The royal messenger wants someone to 'calm things down'.",
+      "es": "Dos tribus — los Urmir y los Tavak — están al borde de la guerra. Cada una alega que la otra robó suministros de caza. El mensajero real quiere a alguien para 'calmar los ánimos'.",
+      "ru": "Два племени — Урмир и Тавак — находятся на грани войны. Каждое утверждает, что другое украло припасы для охоты. Королевский посланник ищет кого-то, кто ‘успокоит обстановку’.",
+      "zh": "两个部落——乌尔米尔和塔瓦克——正处于战争的边缘。双方都声称对方偷走了狩猎物资。皇家信使希望有人能去“平息事态”。",
+      "ja": "ウルミル族とタヴァク族の二つの部族が戦争の危機に瀕している。それぞれが相手が狩猟物資を盗んだと主張している。王室の使者は「事態を収拾する」ために誰かを求めている。"
+    },
+    "type": "Wisdom",
+    "expired_at": 3,
+    "available_from_turn": 2,
+    "duration": 4,
+    "difficulty": 1.5,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 4,
+    "name": {
+      "pt": "Sussurros de Devoção",
+      "en": "Whispers of Devotion",
+      "es": "Susurros de Devoción",
+      "ru": "Шепот Преданности",
+      "zh": "虔诚的低语",
+      "ja": "献身の囁き"
+    },
+    "description": {
+      "pt": "Um culto aparentemente pacífico tem atraído muitos seguidores, mas algo está errado. A missão é observar os rituais e interações do culto de perto para detectar a falsidade ou a manipulação escondida sob sua fachada de devoção.",
+      "en": "An apparently peaceful cult has been attracting many followers, but something is wrong. The mission is to closely observe the cult's rituals and interactions to detect the falsehood or manipulation hidden beneath its facade of devotion.",
+      "es": "Un culto aparentemente pacífico ha estado atrayendo a muchos seguidores, pero algo anda mal. La misión es observar de cerca los rituales e interacciones del culto para detectar la falsedad o la manipulación oculta bajo su fachada de devoción.",
+      "ru": "Видимо, мирный культ привлекает много последователей, но что-то не так. Миссия состоит в том, чтобы внимательно наблюдать за ритуалами и взаимодействиями культа, чтобы обнаружить ложь или манипуляцию, скрытую под их маской преданности.",
+      "zh": "一个看似和平的邪教吸引了许多追随者，但事情出了问题。任务是近距离观察该邪教的仪式和互动，以发现其虔诚外表下隐藏的虚假或操纵。",
+      "ja": "一見平和なカルトが多くの信者を集めているが、何かがおかしい。任務は、カルトの儀式や相互作用を注意深く観察し、献身の裏に隠された虚偽や操作を見抜くことである。"
+    },
+    "type": "Wisdom",
+    "expired_at": 3,
+    "available_from_turn": 6,
+    "duration": 4,
+    "difficulty": 1.5,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 5,
+    "name": {
+      "pt": "O Peso da Montanha",
+      "en": "The Weight of the Mountain",
+      "es": "El Peso de la Montaña",
+      "ru": "Вес Горы",
+      "zh": "群山之重",
+      "ja": "山の重み"
+    },
+    "description": {
+      "pt": "Um enorme deslizamento bloqueou a única rota que liga dois vilarejos nas montanhas. A guilda é chamada para remover a pedra principal que impede a passagem.",
+      "en": "A massive landslide has blocked the only route connecting two mountain villages. The guild is called to remove the main boulder that blocks the passage.",
+      "es": "Un enorme deslizamiento de tierra ha bloqueado la única ruta que conecta dos aldeas en las montañas. Se llama al gremio para que retire la piedra principal que impide el paso.",
+      "ru": "Огромный оползень заблокировал единственный маршрут, соединяющий две горные деревни. Гильдию призывают убрать главный валун, который препятствует проходу.",
+      "zh": "一场巨大的山体滑坡阻塞了连接两个山村的唯一路线。公会被召集来清除阻碍通行的主要巨石。",
+      "ja": "大規模な地滑りが、二つの山村を結ぶ唯一のルートを塞いでしまった。ギルドは通行を妨げる主要な岩を取り除くために呼ばれる。"
+    },
+    "type": "Strength",
+    "expired_at": 3,
+    "available_from_turn": 3,
+    "duration": 4,
+    "difficulty": 1.5,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 6,
+    "name": {
+      "pt": "Fé Pesada",
+      "en": "Heavy Faith",
+      "es": "Fe Pesada",
+      "ru": "Тяжелая Вера",
+      "zh": "沉重的信仰",
+      "ja": "重い信仰"
+    },
+    "description": {
+      "pt": "O bispo de Ardent pediu ajuda para instalar o grande sino no topo da catedral. A peça pesa quase uma tonelada, e sua bênção só será ouvida se alguém conseguir erguê-la. Força será essencial... mas talvez fé e engenhosidade também ajudem.",
+      "en": "The bishop of Ardent asked for help installing the great bell atop the cathedral. The piece weighs nearly a ton, and its blessing will only be heard if someone manages to lift it. Strength will be essential... but perhaps faith and ingenuity will also help.",
+      "es": "El obispo de Ardent pidió ayuda para instalar la gran campana en la cima de la catedral. La pieza pesa casi una tonelada, y su bendición solo se escuchará si alguien logra levantarla. La fuerza será esencial... pero quizás la fe y el ingenio también ayuden.",
+      "ru": "Епископ Ардента попросил помощи в установке большого колокола на вершине собора. Колокол весит почти тонну, и его благословение будет услышано, только если кому-то удастся его поднять. Сила будет необходима... но, возможно, вера и изобретательность тоже помогут.",
+      "zh": "阿登特主教请求协助将大钟安装到大教堂顶上。这件物品重达近一吨，只有有人能成功举起它，它的祝福才会被听到。力量至关重要……但也许信仰和智慧也会有所帮助。",
+      "ja": "アーデントの司教は、大聖堂の頂上に大きな鐘を設置するのを手伝ってほしいと頼んだ。この鐘は1トン近くあり、誰かが持ち上げることができれば、その祝福が聞かれるだろう。力は不可欠だが... おそらく信仰と創意工夫も役立つだろう。"
+    },
+    "type": "Strength",
+    "expired_at": 3,
+    "available_from_turn": 7,
+    "duration": 4,
+    "difficulty": 1.5,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 7,
+    "name": {
+      "pt": "Ecos do Portal",
+      "en": "Echoes of the Portal",
+      "es": "Ecos del Portal",
+      "ru": "Эхо Портала",
+      "zh": "传送门的迴响",
+      "ja": "ポータルの反響"
+    },
+    "description": {
+      "pt": "Um antigo portal de teleporte foi encontrado nas ruínas de Eldenreach, mas suas runas estão apagadas e instáveis. É necessário decifrar e reativar o circuito mágico para que o teleporte volte a funcionar — sem explodir o vale no processo.",
+      "en": "An ancient teleportation portal was found in the ruins of Eldenreach, but its runes are faded and unstable. It is necessary to decipher and reactivate the magical circuit so that the teleportation works again — without blowing up the valley in the process.",
+      "es": "Se encontró un antiguo portal de teletransporte en las ruinas de Eldenreach, pero sus runas están desvanecidas e inestables. Es necesario descifrar y reactivar el circuito mágico para que el teletransporte vuelva a funcionar, sin que el valle explote en el proceso.",
+      "ru": "В руинах Элденрича был найден древний портал телепортации, но его руны стерты и нестабильны. Необходимо расшифровать и реактивировать магическую цепь, чтобы телепорт снова заработал — не взорвав при этом долину.",
+      "zh": "在埃尔登里奇的废墟中发现了一个古老的传送门，但它的符文已经褪色且不稳定。有必要解读并重新激活魔法回路，让传送门再次工作——同时不炸毁山谷。",
+      "ja": "エルデンリーチの遺跡で古代のテレポートポータルが発見されたが、そのルーンは薄れて不安定になっている。ポータルを再び機能させるためには、魔法回路を解読して再起動する必要がある — その過程で谷を爆破することなく。"
+    },
+    "type": "Intelligence",
+    "expired_at": 3,
+    "available_from_turn": 4,
+    "duration": 4,
+    "difficulty": 1.5,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 8,
+    "name": {
+      "pt": "O Clarão da Ala Leste",
+      "en": "The Flash of the East Wing",
+      "es": "El Destello del Ala Este",
+      "ru": "Вспышка Восточного Крыла",
+      "zh": "东翼的闪光",
+      "ja": "東翼の閃光"
+    },
+    "description": {
+      "pt": "Moradores relataram que a barreira mágica de proteção da cidade piscou por alguns instantes na ala leste. Testemunhas dizem ter visto faíscas saindo de um dos cristais de sustentação. É necessario investigar e estabilizar o campo arcano antes que a defesa da cidade falhasse completamente.",
+      "en": "Residents reported that the city's magical protection barrier flashed for a few moments in the east wing. Witnesses say they saw sparks coming from one of the supporting crystals. It is necessary to investigate and stabilize the arcane field before the city's defense fails completely.",
+      "es": "Los residentes informaron que la barrera mágica de protección de la ciudad parpadeó por unos instantes en el ala este. Testigos dicen haber visto chispas saliendo de uno de los cristales de soporte. Es necesario investigar y estabilizar el campo arcano antes de que la defensa de la ciudad falle por completo.",
+      "ru": "Жители сообщили, что магический защитный барьер города на несколько мгновений вспыхнул в восточном крыле. Свидетели говорят, что видели искры, исходящие из одного из поддерживающих кристаллов. Необходимо исследовать и стабилизировать тайное поле, прежде чем оборона города полностью рухнет.",
+      "zh": "居民报告称，城市的魔法保护屏障在东翼闪烁了几下。目击者称看到其中一个支撑水晶冒出火花。有必要在城市防御完全失效之前调查并稳定奥术场。",
+      "ja": "住民は、街の魔法防御バリアが東翼で数瞬点滅したと報告した。目撃者は、支持クリスタルの1つから火花が出ているのを見たという。街の防御が完全に失敗する前に、アルカナ場を調査し安定させる必要がある。"
+    },
+    "type": "Intelligence",
+    "expired_at": 3,
+    "available_from_turn": 8,
+    "duration": 4,
+    "difficulty": 1.5,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 101,
+    "name": {
+      "pt": "O Slime do Poço",
+      "en": "The Slime in the Well",
+      "es": "El Slime del Pozo",
+      "ru": "Слайм в Колодезе",
+      "zh": "井中的史莱姆",
+      "ja": "井戸のスライム"
+    },
+    "description": {
+      "pt": "Um slime surgiu dentro do poço da vila e contaminou a água. Desça até lá e acabe com essa gosma antes que todos adoeçam.",
+      "en": "A slime has appeared inside the village well, contaminating the water. Go down there and get rid of that goo before everyone falls ill.",
+      "es": "Un slime apareció en el pozo del pueblo y contaminó el agua. Baja y acaba con esa baba antes de que todos enfermen.",
+      "ru": "В деревенском колодце появился слайм и загрязнил воду. Спуститесь туда и избавьтесь от этой слизи, пока все не заболели.",
+      "zh": "一只史莱姆出现在村庄的井里，污染了水源。下去消灭那团粘液，以免所有人都生病。",
+      "ja": "村の井戸の中にスライムが現れ、水を汚染した。皆が病気になる前に、そこへ降りてそのベトベトしたものを排除せよ。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 9,
+    "duration": 4,
+    "difficulty": 1.5,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 102,
+    "name": {
+      "pt": "Caçada aos Goblins",
+      "en": "Goblin Hunt",
+      "es": "Caza de Goblins",
+      "ru": "Охота на Гоблинов",
+      "zh": "哥布林狩猎",
+      "ja": "ゴブリン狩り"
+    },
+    "description": {
+      "pt": "Goblins têm atacado as vilas próximas. Elimine-os antes que causem mais problemas.",
+      "en": "Goblins have been attacking nearby villages. Eliminate them before they cause more problems.",
+      "es": "Los goblins han estado atacando aldeas cercanas. Elimínalos antes de que causen más problemas.",
+      "ru": "Гоблины нападают на близлежащие деревни. Уничтожьте их, пока они не причинили больше проблем.",
+      "zh": "哥布林一直在袭击附近的村庄。消灭他们，以免他们造成更多麻烦。",
+      "ja": "ゴブリンが近くの村々を襲っている。彼らがさらなる問題を引き起こす前に排除せよ。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 10,
+    "duration": 4,
+    "difficulty": 12,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 103,
+    "name": {
+      "pt": "Ratos no Celeiro",
+      "en": "Rats in the Barn",
+      "es": "Ratas en el Granero",
+      "ru": "Крысы в Амбаре",
+      "zh": "谷仓里的老鼠",
+      "ja": "納屋のネズミ"
+    },
+    "description": {
+      "pt": "Ratos gigantes invadiram o celeiro do vilarejo. Acabe com eles antes que destruam os alimentos.",
+      "en": "Giant rats have invaded the village barn. Get rid of them before they destroy the food.",
+      "es": "Ratas gigantes han invadido el granero del pueblo. Acaba con ellas antes de que destruyan los alimentos.",
+      "ru": "Гигантские крысы вторглись в деревенский амбар. Избавьтесь от них, пока они не уничтожили еду.",
+      "zh": "巨型老鼠入侵了村庄的谷仓。在它们毁坏食物之前消灭它们。",
+      "ja": "巨大なネズミが村の納屋に侵入した。食料を破壊される前に彼らを排除せよ。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 10,
+    "duration": 3,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [2],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 104,
+    "name": {
+      "pt": "Lobo Solitário",
+      "en": "Lone Wolf",
+      "es": "Lobo Solitario",
+      "ru": "Одинокий Волк",
+      "zh": "孤狼",
+      "ja": "孤狼"
+    },
+    "description": {
+      "pt": "Um lobo feroz tem atacado os pastores. Encontre-o e o elimine.",
+      "en": "A ferocious wolf has been attacking the shepherds. Find it and eliminate it.",
+      "es": "Un lobo feroz ha estado atacando a los pastores. Encuéntralo y elimínalo.",
+      "ru": "Свирепый волк нападает на пастухов. Найдите его и уничтожьте.",
+      "zh": "一只凶猛的狼一直在袭击牧羊人。找到它并消灭它。",
+      "ja": "凶暴なオオカミが羊飼いを襲っている。それを見つけて排除せよ。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 10,
+    "duration": 4,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [
+      "3"
+    ],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 105,
+    "name": {
+      "pt": "Arauto das Sombras",
+      "en": "Herald of Shadows",
+      "es": "Heraldo de las Sombras",
+      "ru": "Вестник Теней",
+      "zh": "阴影使者",
+      "ja": "影の使者"
+    },
+    "description": {
+      "pt": "Um pequeno bando de bandidos tem ameaçado a estrada principal. Intercepte-os e acabe com a ameaça.",
+      "en": "A small band of bandits has been threatening the main road. Intercept them and end the threat.",
+      "es": "Una pequeña banda de bandidos ha estado amenazando la carretera principal. Intercéptalos y acaba con la amenaza.",
+      "ru": "Небольшая банда бандитов угрожает главной дороге. Перехватите их и положите конец угрозе.",
+      "zh": "一小队土匪一直在威胁主干道。拦截他们并消除威胁。",
+      "ja": "小さな盗賊団が主要道路を脅かしている。彼らを阻止し、脅威を終わらせよ。"
+    },
+    "type": "Fight",
+    "expired_at": 2,
+    "available_from_turn": 10,
+    "duration": 5,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [1],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 106,
+    "name": {
+      "pt": "Insetos Gigantes",
+      "en": "Giant Insects",
+      "es": "Insectos Gigantes",
+      "ru": "Гигантские Насекомые",
+      "zh": "巨型昆虫",
+      "ja": "巨大な昆虫"
+    },
+    "description": {
+      "pt": "Insetos gigantes infestaram os campos de cultivo. Elimine-os para proteger a colheita.",
+      "en": "Giant insects have infested the cultivated fields. Eliminate them to protect the harvest.",
+      "es": "Insectos gigantes han infestado los campos de cultivo. Elimínalos para proteger la cosecha.",
+      "ru": "Гигантские насекомые заразили обрабатываемые поля. Уничтожьте их, чтобы защитить урожай.",
+      "zh": "巨型昆虫侵扰了耕地。消灭它们以保护收成。",
+      "ja": "巨大な昆虫が耕作地にはびこっている。収穫を守るために彼らを排除せよ。"
+    },
+    "type": "Fight",
+    "expired_at": 2,
+    "available_from_turn": 10,
+    "duration": 4,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [4],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 107,
+    "name": {
+      "pt": "Roubadores Noturnos",
+      "en": "Night Thieves",
+      "es": "Ladrones Nocturnos",
+      "ru": "Ночные Воры",
+      "zh": "夜间盗贼",
+      "ja": "夜の盗賊"
+    },
+    "description": {
+      "pt": "Um grupo de ladrões tem atacado comerciantes à noite. Encontre-os e neutralize a ameaça.",
+      "en": "A group of thieves has been attacking merchants at night. Find them and neutralize the threat.",
+      "es": "Un grupo de ladrones ha estado atacando a comerciantes por la noche. Encuéntralos y neutraliza la amenaza.",
+      "ru": "Группа воров нападает на торговцев ночью. Найдите их и нейтрализуйте угрозу.",
+      "zh": "一群盗贼一直在夜间袭击商人。找到他们并消除威胁。",
+      "ja": "強盗団が夜間に商人を襲っている。彼らを見つけ出し、脅威を無力化せよ。"
+    },
+    "type": "Fight",
+    "expired_at": 2,
+    "available_from_turn": 10,
+    "duration": 5,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [5],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 108,
+    "name": {
+      "pt": "Arauto do Lago",
+      "en": "Herald of the Lake",
+      "es": "Heraldo del Lago",
+      "ru": "Вестник Озера",
+      "zh": "湖之使者",
+      "ja": "湖の使者"
+    },
+    "description": {
+      "pt": "Um crocodilo gigante está ameaçando os pescadores do lago. Derrote-o antes que cause mais estragos.",
+      "en": "A giant crocodile is threatening the lake fishermen. Defeat it before it causes more damage.",
+      "es": "Un cocodrilo gigante está amenazando a los pescadores del lago. Derrótalo antes de que cause más estragos.",
+      "ru": "Гигантский крокодил угрожает рыбакам на озере. Победите его, пока он не нанес больше урона.",
+      "zh": "一只巨型鳄鱼正在威胁湖上的渔民。在它造成更多破坏之前击败它。",
+      "ja": "巨大なワニが湖の漁師を脅かしている。さらなる被害を出す前にそれを倒せ。"
+    },
+    "type": "Fight",
+    "expired_at": 2,
+    "available_from_turn": 10,
+    "duration": 6,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [6],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 109,
+    "name": {
+      "pt": "Patrulha de Kobolds",
+      "en": "Kobold Patrol",
+      "es": "Patrulla de Kobolds",
+      "ru": "Патруль Кобольдов",
+      "zh": "狗头人巡逻队",
+      "ja": "コボルトのパトロール"
+    },
+    "description": {
+      "pt": "Kobolds estão saqueando as minas locais. Enfrente-os e restaure a segurança na região.",
+      "en": "Kobolds are looting the local mines. Confront them and restore safety to the region.",
+      "es": "Los kobolds están saqueando las minas locales. Enfréntalos y restablece la seguridad en la región.",
+      "ru": "Кобольды грабят местные шахты. Сразитесь с ними и восстановите безопасность в регионе.",
+      "zh": "狗头人正在洗劫当地的矿井。与他们对抗并恢复该地区的安宁。",
+      "ja": "コボルトが地元の鉱山を略奪している。彼らと対決し、地域の安全を取り戻せ。"
+    },
+    "type": "Fight",
+    "expired_at": 2,
+    "available_from_turn": 10,
+    "duration": 5,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [7],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 110,
+    "name": {
+      "pt": "Guerreiros Corrompidos",
+      "en": "Corrupted Warriors",
+      "es": "Guerreros Corrompidos",
+      "ru": "Порочные Воины",
+      "zh": "堕落的战士",
+      "ja": "堕落した戦士"
+    },
+    "description": {
+      "pt": "Alguns mercenários caíram na corrupção e atacam inocentes. Derrote-os antes que o caos se espalhe.",
+      "en": "Some mercenaries have fallen into corruption and are attacking innocents. Defeat them before chaos spreads.",
+      "es": "Algunos mercenarios han caído en la corrupción y están atacando a inocentes. Derrótalos antes de que el caos se extienda.",
+      "ru": "Некоторые наемники погрязли в корrupции и нападают на невинных. Победите их, пока хаос не распространился.",
+      "zh": "一些雇佣兵已经堕落并正在袭击无辜者。在混乱蔓延之前击败他们。",
+      "ja": "一部の傭兵が堕落し、罪のない人々を襲っている。混沌が広がる前に彼らを倒せ。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 10,
+    "duration": 6,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [5],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 111,
+    "name": {
+      "pt": "Aranha Gigante na Caverna",
+      "en": "Giant Spider in the Cave",
+      "es": "Araña Gigante en la Cueva",
+      "ru": "Гигантский Паук в Пещере",
+      "zh": "洞穴中的巨型蜘蛛",
+      "ja": "洞窟の巨大な蜘蛛"
+    },
+    "description": {
+      "pt": "Uma aranha gigante bloqueia a passagem da caverna. Elimine a criatura para que os viajantes possam passar.",
+      "en": "A giant spider blocks the cave passage. Eliminate the creature so travelers can pass.",
+      "es": "Una araña gigante bloquea el pasaje de la cueva. Elimina a la criatura para que los viajeros puedan pasar.",
+      "ru": "Гигантский паук блокирует проход в пещеру. Уничтожьте существо, чтобы путники могли пройти.",
+      "zh": "一只巨型蜘蛛堵住了洞穴的通道。消灭这只生物，以便旅行者可以通行。",
+      "ja": "巨大な蜘蛛が洞窟の通路を塞いでいる。旅行者が通れるようにその生物を排除せよ。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 10,
+    "duration": 6,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [8],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 112,
+    "name": {
+      "pt": "Missão de Escolta",
+      "en": "Escort Mission",
+      "es": "Misión de Escolta",
+      "ru": "Миссия Сопровождения",
+      "zh": "护送任务",
+      "ja": "護衛任務"
+    },
+    "description": {
+      "pt": "Escolte um grupo de mineiros até a mina.",
+      "en": "Escort a group of miners to the mine.",
+      "es": "Escolta a un grupo de mineros hasta la mina.",
+      "ru": "Сопроводите группу шахтеров до шахты.",
+      "zh": "护送一群矿工到矿井。",
+      "ja": "鉱夫のグループを鉱山まで護衛せよ。"
+    },
+    "type": "Fight",
+    "expired_at": 2,
+    "available_from_turn": 10,
+    "duration": 5,
+    "difficulty": 0.25,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [9],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 113,
+    "name": {
+      "pt": "Batalha na Montanha Negra",
+      "en": "Battle on Black Mountain",
+      "es": "Batalla en la Montaña Negra",
+      "ru": "Битва на Черной Горе",
+      "zh": "黑山之战",
+      "ja": "黒山の戦い"
+    },
+    "description": {
+      "pt": "Uma tribo de goblins se instalou na Montanha Negra. Limpe o acampamento e retorne em segurança.",
+      "en": "A tribe of goblins has settled on Black Mountain. Clear the camp and return safely.",
+      "es": "Una tribu de goblins se ha instalado en la Montaña Negra. Limpia el campamento y regresa sano y salvo.",
+      "ru": "Племя гоблинов поселилось на Черной Горе. Зачистите лагерь и вернитесь в безопасности.",
+      "zh": "一群哥布林在黑山安顿下来。清除营地并安全返回。",
+      "ja": "ゴブリンの一族が黒山に居座った。野営地を掃討し、安全に戻れ。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 10,
+    "duration": 5,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [10],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 114,
+    "name": {
+      "pt": "Negociação com o Rei",
+      "en": "Negotiation with the King",
+      "es": "Negociación con el Rey",
+      "ru": "Переговоры с Королем",
+      "zh": "与国王的谈判",
+      "ja": "王との交渉"
+    },
+    "description": {
+      "pt": "O Rei precisa de um mensageiro para um acordo de paz. Traga a notícia de volta para o reino.",
+      "en": "The King needs a messenger for a peace agreement. Bring the news back to the kingdom.",
+      "es": "El Rey necesita un mensajero para un acuerdo de paz. Trae la noticia de vuelta al reino.",
+      "ru": "Королю нужен посланник для заключения мирного соглашения. Принесите эту новость обратно в королевство.",
+      "zh": "国王需要一名信使来达成和平协议。将消息带回王国。",
+      "ja": "国王は和平協定のための使者を必要としている。その知らせを王国に持ち帰れ。"
+    },
+    "type": "Wisdom",
+    "expired_at": 3,
+    "available_from_turn": 10,
+    "duration": 5,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [11],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 115,
+    "name": {
+      "pt": "Ajuda no Vilarejo",
+      "en": "Help in the Village",
+      "es": "Ayuda en la Aldea",
+      "ru": "Помощь в Деревне",
+      "zh": "村庄援助",
+      "ja": "村の援助"
+    },
+    "description": {
+      "pt": "Um vilarejo perto da mina precisa de ajuda. Ajudar os moradores pode render uma boa recompensa.",
+      "en": "A village near the mine needs help. Helping the residents can yield a good reward.",
+      "es": "Una aldea cerca de la mina necesita ayuda. Ayudar a los residentes puede dar una buena recompensa.",
+      "ru": "Деревня рядом с шахтой нуждается в помощи. Помощь жителям может принести хорошую награду.",
+      "zh": "矿井附近的一个村庄需要帮助。帮助居民可以获得丰厚的回报。",
+      "ja": "鉱山近くの村が助けを必要としている。住民を助けることは良い報酬をもたらすかもしれない。"
+    },
+    "type": "Wisdom",
+    "expired_at": 3,
+    "available_from_turn": 10,
+    "duration": 5,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [2],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 116,
+    "name": {
+      "pt": "Segredos da Mina",
+      "en": "Secrets of the Mine",
+      "es": "Secretos de la Mina",
+      "ru": "Секреты Шахты",
+      "zh": "矿井的秘密",
+      "ja": "鉱山の秘密"
+    },
+    "description": {
+      "pt": "A mina guarda segredos valiosos. Investigue a mina e encontre o que o Rei tanto busca.",
+      "en": "The mine holds valuable secrets. Investigate the mine and find what the King is looking for.",
+      "es": "La mina guarda valiosos secretos. Investiga la mina y encuentra lo que el Rey tanto busca.",
+      "ru": "Шахта хранит ценные секреты. Исследуйте шахту и найдите то, что ищет Король.",
+      "zh": "矿井里藏着宝贵的秘密。调查矿井，找到国王一直在寻找的东西。",
+      "ja": "鉱山は貴重な秘密を隠している。鉱山を調査し、国王が探しているものを見つけよ。"
+    },
+    "type": "Intelligence",
+    "expired_at": 3,
+    "available_from_turn": 10,
+    "duration": 5,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [2],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 117,
+    "name": {
+      "pt": "Procura na Floresta Sombria",
+      "en": "Search in the Dark Forest",
+      "es": "Búsqueda en el Bosque Oscuro",
+      "ru": "Поиск в Темном Лесу",
+      "zh": "黑暗森林搜索",
+      "ja": "暗い森の捜索"
+    },
+    "description": {
+      "pt": "Uma criatura estranha tem assustado os viajantes na Floresta Sombria. Encontre-a e a elimine.",
+      "en": "A strange creature has been scaring travelers in the Dark Forest. Find it and eliminate it.",
+      "es": "Una criatura extraña ha estado asustando a los viajeros en el Bosque Oscuro. Encuéntrala y elimínala.",
+      "ru": "Странное существо пугает путников в Темном Лесу. Найдите его и уничтожьте.",
+      "zh": "一个奇怪的生物一直在恐吓黑暗森林里的旅行者。找到它并消灭它。",
+      "ja": "奇妙な生物が暗い森の旅行者を怖がらせている。それを見つけて排除せよ。"
+    },
+    "type": "Intelligence",
+    "expired_at": 3,
+    "available_from_turn": 10,
+    "duration": 5,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": []
+  },
+  {
+    "id": 118,
+    "name": {
+      "pt": "Gosmas no Milharal",
+      "en": "Goo in the Cornfield",
+      "es": "Babas en el Maizal",
+      "ru": "Слизь на Кукурузном Поле",
+      "zh": "玉米田里的粘液",
+      "ja": "トウモロコシ畑の粘液"
+    },
+    "description": {
+      "pt": "Fazendeiros pedem ajuda: pequenos slimes estão devorando o milharal. São lentos, mas em grande número. Preciso que você limpe o campo.",
+      "en": "Farmers ask for help: small slimes are devouring the cornfield. They are slow, but numerous. I need you to clear the field.",
+      "es": "Los agricultores piden ayuda: pequeños slimes están devorando el maizal. Son lentos, pero numerosos. Necesito que limpies el campo.",
+      "ru": "Фермеры просят о помощи: маленькие слаймы пожирают кукурузное поле. Они медленные, но их много. Мне нужно, чтобы вы очистили поле.",
+      "zh": "农民请求帮助：小史莱姆正在吞食玉米田。它们速度慢但数量庞大。我需要你清理这块地。",
+      "ja": "農民が助けを求めている：小さなスライムがトウモロコシ畑を食い荒らしている。彼らは遅いが、数が非常に多い。畑をきれいにしてほしい。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 10,
+    "duration": 4,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [1],
+    "required_fail_quests": [],
+    "required_heroes": [1]
+  },
+  {
+    "id": 119,
+    "name": {
+      "pt": "O Slime Dividido",
+      "en": "The Divided Slime",
+      "es": "El Slime Dividido",
+      "ru": "Разделенный Слайм",
+      "zh": "分裂史莱姆",
+      "ja": "分裂スライム"
+    },
+    "description": {
+      "pt": "Batedores relatam criaturas que, ao serem golpeadas, se multiplicam em duas. Não podemos deixar que tomem conta da floresta. Dê um fim neles.",
+      "en": "Scouts report creatures that, when struck, multiply into two. We cannot let them take over the forest. Put an end to them.",
+      "es": "Los exploradores informan de criaturas que, al ser golpeadas, se multiplican por dos. No podemos permitir que se apoderen del bosque. Acaba con ellas.",
+      "ru": "Разведчики сообщают о существах, которые при ударе делятся на две части. Мы не можем позволить им захватить лес. Положите им конец.",
+      "zh": "侦察兵报告说，有些生物在被击中时会分裂成两个。我们不能让它们占领森林。消灭它们。",
+      "ja": "斥候は、攻撃されると二つに分裂する生物を報告している。森を占領させてはならない。彼らを始末せよ。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 10,
+    "duration": 4,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [1],
+    "required_fail_quests": [],
+    "required_heroes": [2]
+  },
+  {
+    "id": 120,
+    "name": {
+      "pt": "O Slime Ácido",
+      "en": "The Acid Slime",
+      "es": "El Slime Ácido",
+      "ru": "Кислотный Слайм",
+      "zh": "酸性史莱姆",
+      "ja": "酸性スライム"
+    },
+    "description": {
+      "pt": "Um viajante foi atacado por um slime que corrói metal e couro. Se esse tipo se espalhar, ninguém estará seguro. Investigue e destrua-o.",
+      "en": "A traveler was attacked by a slime that corrodes metal and leather. If this type spreads, no one will be safe. Investigate and destroy it.",
+      "es": "Un viajero fue atacado por un slime que corroe metal y cuero. Si este tipo se propaga, nadie estará a salvo. Investiga y destrúyelo.",
+      "ru": "Путешественник был атакован слаймом, разъедающим металл и кожу. Если этот вид распространится, никто не будет в безопасности. Исследуйте и уничтожьте его.",
+      "zh": "一名旅行者被一种腐蚀金属和皮革的史莱姆袭击。如果这种类型扩散，将无人安全。调查并摧毁它。",
+      "ja": "旅行者が金属や革を腐食させるスライムに襲われた。この種が広まれば、誰も安全ではない。調査し、それを破壊せよ。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 10,
+    "duration": 4,
+    "difficulty": 0.2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [1],
+    "required_fail_quests": [],
+    "required_heroes": [3]
+  }
+]

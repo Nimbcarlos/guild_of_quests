@@ -85,7 +85,7 @@ class DialogueBox:
 
     def _open_popup(self):
         from kivy.uix.anchorlayout import AnchorLayout
-        
+
         main_layout = BoxLayout(orientation='horizontal', spacing=15, padding=[25, 20, 25, 20])
         
         if hasattr(self, "parent_size") and self.parent_size:

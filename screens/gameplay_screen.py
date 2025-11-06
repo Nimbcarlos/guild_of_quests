@@ -19,6 +19,7 @@ import core.save_manager as save
 import re
 from screens.gameplay.hero_popup import show_hero_details
 from core.music_manager import get_music_manager
+from core.font_manager import FontManager
 
 
 class GameplayScreen(Screen):
@@ -72,6 +73,7 @@ class GameplayScreen(Screen):
         self.music.play()           # Tocar
         if not self.music.is_playing and self.music.current_sound:
             self.music.resume()
+        self.font_name = FontManager.get_font_for_language(self.lm.language)
 
     def on_leave(self):
         # desliga o binding para evitar múltiplos binds ao voltar à tela
@@ -228,6 +230,7 @@ class GameplayScreen(Screen):
         container.add_widget(self.success_label)
 
         desc_label = Label(
+            font_name=self.font_name,
             text=quest.description,
             color=(0, 0, 0, 1),
             halign="left",

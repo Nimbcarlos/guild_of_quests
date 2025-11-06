@@ -33,8 +33,14 @@ class QuestManager:
             # adicionar outros futuramente
         ]
 
+        # Language manager (opcional). Deve ter método t(key) -> str
+        self.lm = LanguageManager()
+
+        # HeroManager gerencia todos os heróis e desbloqueio
+        self.hero_manager = HeroManager(language=self.lm.language)
+
         # Carrega quests
-        self.quests = Quest.load_quests()
+        self.quests = Quest.load_quests(language=self.lm.language)
 
         # Sets para progresso
         self.completed_quests = defaultdict(set)
@@ -48,12 +54,6 @@ class QuestManager:
         # Callback de diálogo / UI
         self.dialog_callback = None
         self.ui_callback = None
-
-        # Language manager (opcional). Deve ter método t(key) -> str
-        self.lm = LanguageManager()
-
-        # HeroManager gerencia todos os heróis e desbloqueio
-        self.hero_manager = HeroManager(language=self.lm.language)
 
         self.assistant = AssistantManager(self.lm)
 
