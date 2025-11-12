@@ -1,6 +1,6 @@
 {
   "1": {
-    "sucesso": {
+    "success": {
       "reporters": {
         "1": { "id": "1", "text": "Tentei... girar o trinco com cuidado… mas aí escorregou. Então… acabei… batendo. Um pouquinho. Mas, bom… abriu! Eu juro que não quebrei nada! Quer dizer… eu acho." },
         "2": { "id": "2", "text": "Cofre aberto, sem arranhões. Espero que o conteúdo seja tão limpo quanto a consciência da guilda. Mas… não é da minha conta. Certo?" },
@@ -100,47 +100,26 @@
           { "id": "4", "text": "Eu concluí que a pressão mágica se dissipou no momento certo." },
           { "id": "3", "text": "Eu chamei de milagre calculado." },
           { "id": "2", "text": "...É sério?" }
-      ]
+        ]
       }
     },
-    "falha": {
+    "failure": {
       "reporters": {
         "1": { "id": "1", "text": "Eu... Eu não fui forte o suficiente. Minha espada... não alcançou. Sinto muito pela guilda. Vou treinar até não falhar mais." },
         "2": { "id": "2", "text": "Eu falhei. Fui pega em um movimento previsível e perdi minha posição. É um erro de planejamento e execução, e devo aceitar as consequências. A precisão foi insuficiente." },
         "3": { "id": "3", "text": "O fracasso era inevitável. As vozes gritaram 'Caminho Errado' por três dias seguidos, mas eu insisti em ignorá-las. O erro não foi tático, foi de discernimento. Perdemos." },
-        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de sucesso tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
+        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de successo tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
       }
     }
   },
   "2": {
-    "sucesso": {
-      "reports": {
-        "1": [
-          { "id": "1", "text": "Eles gritavam muito... eu só pedi pra que respirassem." },
-          { "id": "1", "text": "Acho que falei meio baixo, mas... por algum motivo, me ouviram." },
-          { "id": "1", "text": "Disse que ninguém precisa de coragem pra atacar, só pra escutar." },
-          { "id": "1", "text": "No fim, ficaram quietos. Eu também. Foi um silêncio bom." }
-        ],
-        "2": [
-          { "id": "2", "text": "Falei com cada líder, e contei exatamente o que o outro disse." },
-          { "id": "2", "text": "Achei que seria o jeito mais justo... mas, bom, eles ficaram irritados." },
-          { "id": "2", "text": "Depois, no entanto, admitiram que precisavam ouvir aquilo." },
-          { "id": "2", "text": "A verdade dói, mas cura — só demora um pouco pra fazer efeito." }
-        ],
-        "3": [
-          { "id": "3", "text": "O ar entre as tribos estava eletricamente carregado — tensão pura." },
-          { "id": "3", "text": "Expliquei a eles o conceito de descarga emocional. Não entenderam." },
-          { "id": "3", "text": "Então provoquei uma descarga literal: um trovão pequeno, só pra equalizar." },
-          { "id": "3", "text": "Agora chove. E todos decidiram esperar a tempestade passar antes de decidir algo." }
-        ],
-        "4": [
-          { "id": "4", "text": "As vozes estavam agitadas... umas pediam sangue, outras pediam paz." },
-          { "id": "4", "text": "Mas o silêncio... o silêncio implorava por descanso." },
-          { "id": "4", "text": "Ouvi esse silêncio e o levei às tendas. Falei pouco, rezei muito." },
-          { "id": "4", "text": "Eles baixaram as armas. E alguns choraram. Acho que entenderam sem palavras." }
-        ]
-      }
-    },
+    "success": {
+      "reporters": {
+        "1": { "id": "1", "text": "Eles gritavam muito... eu só pedi pra que respirassem. Acho que falei meio baixo, mas... por algum motivo, me ouviram. Disse que ninguém precisa de coragem pra atacar, só pra escutar. No fim, ficaram quietos. Eu também. Foi um silêncio bom." },
+        "2": { "id": "2", "text": "Falei com cada líder, e contei exatamente o que o outro disse. Achei que seria o jeito mais justo... mas, bom, eles ficaram irritados. Depois, no entanto, admitiram que precisavam ouvir aquilo. A verdade dói, mas cura — só demora um pouco pra fazer efeito." },
+        "3": { "id": "3", "text": "O ar entre as tribos estava eletricamente carregado — tensão pura. Expliquei a eles o conceito de descarga emocional. Não entenderam. Então provoquei uma descarga literal: um trovão pequeno, só pra equalizar. Agora chove. E todos decidiram esperar a tempestade passar antes de decidir algo." },
+        "4": { "id": "4", "text": "As vozes estavam agitadas... umas pediam sangue, outras pediam paz. Mas o silêncio... o silêncio implorava por descanso. Ouvi esse silêncio e o levei às tendas. Falei pouco, rezei muito. Eles baixaram as armas. E alguns choraram. Acho que entenderam sem palavras." }
+      },
       "teams": {
         "1_2": [
           { "id": "1", "text": "As aldeias estavam tensas, mas... ninguém parecia realmente querer lutar." },
@@ -229,37 +208,24 @@
         ]
       }
     },
-    "falha": {
+    "failure": {
       "reporters": {
         "1": { "id": "1", "text": "Eu... Eu não fui forte o suficiente. Minha espada... não alcançou. Sinto muito pela guilda. Vou treinar até não falhar mais." },
         "2": { "id": "2", "text": "Eu falhei. Fui pega em um movimento previsível e perdi minha posição. É um erro de planejamento e execução, e devo aceitar as consequências. A precisão foi insuficiente." },
         "3": { "id": "3", "text": "O fracasso era inevitável. As vozes gritaram 'Caminho Errado' por três dias seguidos, mas eu insisti em ignorá-las. O erro não foi tático, foi de discernimento. Perdemos." },
-        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de sucesso tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
+        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de successo tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
       }
-    },
-  "3":{
-    "sucesso": {
+    }
+  },
+  "3": {
+    "success": {
       "reporters": {
-          "2": [
-            { "id": "2", "text": "Desarmei todas. Algumas eram até engenhosas, mas... cruéis." },
-            { "id": "2", "text": "Deixei uma nota perto da última: ‘A caça é escolha, a compaixão é caráter.’" },
-            { "id": "2", "text": "Espero que o responsável entenda. Ou tropece nela." }
-          ],
-          "4": [
-            { "id": "4", "text": "Interessante! Cada armadilha possuía um mecanismo de pressão simples, mas condutivo." },
-            { "id": "4", "text": "Então testei... faíscas controladas. Agora estão todas inoperantes. Algumas… fumegando." },
-            { "id": "4", "text": "Mas veja pelo lado bom: a floresta está livre... e um pouco iluminada." }
-          ],
-          "1": [
-            { "id": "1", "text": "Eu tentei… desarmar com cuidado. Mas quando vi um coelho preso, fiquei nervosa." },
-            { "id": "1", "text": "Então eu cortei tudo. Cordas, madeira, ferro… talvez até parte do chão." },
-            { "id": "1", "text": "Mas funcionou." }
-          ],
-          "3": [
-            { "id": "3", "text": "As vozes guiaram meus passos. Cada estalo no vento me dizia onde uma armadilha dormia." },
-            { "id": "3", "text": "Algumas choravam... metáforas, claro. Eu acho." },
-            { "id": "3", "text": "No fim, a floresta sussurrou paz." }
-          ],
+        "2": { "id": "2", "text": "Desarmei todas. Algumas eram até engenhosas, mas... cruéis. Deixei uma nota perto da última: ‘A caça é escolha, a compaixão é caráter.’ Espero que o responsável entenda. Ou tropece nela." },
+        "4": { "id": "4", "text": "Interessante! Cada armadilha possuía um mecanismo de pressão simples, mas condutivo. Então testei... faíscas controladas. Agora estão todas inoperantes. Algumas… fumegando. Mas veja pelo lado bom: a floresta está livre... e um pouco iluminada." },
+        "1": { "id": "1", "text": "Eu tentei… desarmar com cuidado. Mas quando vi um coelho preso, fiquei nervosa. Então eu cortei tudo. Cordas, madeira, ferro… talvez até parte do chão. Mas funcionou." },
+        "3": { "id": "3", "text": "As vozes guiaram meus passos. Cada estalo no vento me dizia onde uma armadilha dormia. Algumas choravam... metáforas, claro. Eu acho. No fim, a floresta sussurrou paz." }
+      },
+      "teams": {
         "2_3": [
           { "id": "2", "text": "Desarmei metade. Kael, por que está rezando pra um galho?" },
           { "id": "3", "text": "Não é um galho. É um espírito preso. Ele chorava." },
@@ -333,42 +299,24 @@
         ]
       }
     },
-    "falha": {
+    "failure": {
       "reporters": {
         "1": { "id": "1", "text": "Eu... Eu não fui forte o suficiente. Minha espada... não alcançou. Sinto muito pela guilda. Vou treinar até não falhar mais." },
         "2": { "id": "2", "text": "Eu falhei. Fui pega em um movimento previsível e perdi minha posição. É um erro de planejamento e execução, e devo aceitar as consequências. A precisão foi insuficiente." },
         "3": { "id": "3", "text": "O fracasso era inevitável. As vozes gritaram 'Caminho Errado' por três dias seguidos, mas eu insisti em ignorá-las. O erro não foi tático, foi de discernimento. Perdemos." },
-        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de sucesso tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
+        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de successo tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
       }
     }
   },
-  "4":{
-    "sucesso": {
+  "4": {
+    "success": {
       "reporters": {
-        "1": [
-          { "id": "1", "text": "As pessoas do culto eram gentis. Talvez gentis demais." },
-          { "id": "1", "text": "Eu fiquei... desconfortável. Todos olhavam e sorriam sem parar." },
-          { "id": "1", "text": "Quando perguntei por que oravam, responderam 'porque o mestre manda'." },
-          { "id": "1", "text": "Achei estranho. Devoção não devia dar medo." }
-        ],
-        "2": [
-          { "id": "2", "text": "Eles disseram que a fé deles liberta. Então perguntei do quê." },
-          { "id": "2", "text": "Silêncio. Só olharam pra mim como se eu fosse o problema." },
-          { "id": "2", "text": "Descobri que a 'libertação' é não pensar. Estranho tipo de paz." },
-          { "id": "2", "text": "Enviei o relatório com todos os detalhes — honestos, infelizmente." }
-        ],
-        "3": [
-          { "id": "3", "text": "A energia lá era... perturbadoramente constante." },
-          { "id": "3", "text": "Nenhum fluxo natural — parecia magia sustentando emoção." },
-          { "id": "3", "text": "Identifiquei resquícios de compulsão arcana sutil nos cânticos." },
-          { "id": "3", "text": "O líder sabe exatamente o que está fazendo. E isso me preocupa." }
-        ],
-        "4": [
-          { "id": "4", "text": "As vozes falavam todas juntas... e nenhuma delas era divina." },
-          { "id": "4", "text": "Senti uma presença fingindo ser sagrada. O disfarce tremia." },
-          { "id": "4", "text": "Quando fechei os olhos, o sussurro virou riso. Não era fé. Era fome." },
-          { "id": "4", "text": "Rezei. E o riso cessou... por agora." }
-        ],
+        "1": { "id": "1", "text": "As pessoas do culto eram gentis. Talvez gentis demais. Eu fiquei... desconfortável. Todos olhavam e sorriam sem parar. Quando perguntei por que oravam, responderam 'porque o mestre manda'. Achei estranho. Devoção não devia dar medo." },
+        "2": { "id": "2", "text": "Eles disseram que a fé deles liberta. Então perguntei do quê. Silêncio. Só olharam pra mim como se eu fosse o problema. Descobri que a 'libertação' é não pensar. Estranho tipo de paz. Enviei o relatório com todos os detalhes — honestos, infelizmente." },
+        "3": { "id": "3", "text": "A energia lá era... perturbadoramente constante. Nenhum fluxo natural — parecia magia sustentando emoção. Identifiquei resquícios de compulsão arcana sutil nos cânticos. O líder sabe exatamente o que está fazendo. E isso me preocupa." },
+        "4": { "id": "4", "text": "As vozes falavam todas juntas... e nenhuma delas era divina. Senti uma presença fingindo ser sagrada. O disfarce tremia. Quando fechei os olhos, o sussurro virou riso. Não era fé. Era fome. Rezei. E o riso cessou... por agora." }
+      },
+      "teams": {
         "1_4": [
           { "id": "1", "text": "O culto parecia calmo, mas o ar era pesado. Kael ficou estranho." },
           { "id": "4", "text": "As vozes estavam mascaradas. Chamavam por nomes que não eram delas." },
@@ -463,42 +411,30 @@
         ]
       }
     },
-    "falha": {
+    "failure": {
       "reporters": {
         "1": { "id": "1", "text": "Eu... Eu não fui forte o suficiente. Minha espada... não alcançou. Sinto muito pela guilda. Vou treinar até não falhar mais." },
         "2": { "id": "2", "text": "Eu falhei. Fui pega em um movimento previsível e perdi minha posição. É um erro de planejamento e execução, e devo aceitar as consequências. A precisão foi insuficiente." },
         "3": { "id": "3", "text": "O fracasso era inevitável. As vozes gritaram 'Caminho Errado' por três dias seguidos, mas eu insisti em ignorá-las. O erro não foi tático, foi de discernimento. Perdemos." },
-        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de sucesso tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
+        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de successo tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
       }
     }
   },
   "5": {
-    "sucesso": {
+    "success": {
       "reporters": {
-        "1": [
-          { "id": "1", "text": "A pedra era enorme. Eu empurrei até os braços tremerem." },
-          { "id": "1", "text": "Quando ela finalmente se moveu, todo mundo aplaudiu. Eu queria... não estar ali." }
-        ],
-        "2": [
-          { "id": "2", "text": "Não adiantava forçar. Usei alavancas, cordas e alguns aldeões dispostos." },
-          { "id": "2", "text": "A força veio de todos, não de um só. Foi o jeito mais justo de resolver." }
-        ],
-        "3": [
-          { "id": "3", "text": "A densidade da rocha era fora do padrão. Tive que medir por descarga elétrica controlada." },
-          { "id": "3", "text": "Os fragmentos brilharam. Tecnicamente, a rocha continua emitindo radiação leve. Bonito, mas instável." }
-        ],
-        "4": [
-          { "id": "4", "text": "As vozes disseram que a pedra chorava." },
-          { "id": "4", "text": "Rezei até sentir o chão respirar. Depois disso, ela simplesmente cedeu." }
-        ],
-
+        "1": { "id": "1", "text": "A pedra era enorme. Eu empurrei até os braços tremerem. Quando ela finalmente se moveu, todo mundo aplaudiu. Eu queria... não estar ali." },
+        "2": { "id": "2", "text": "Não adiantava forçar. Usei alavancas, cordas e alguns aldeões dispostos. A força veio de todos, não de um solo. Foi o jeito mais justo de resolver." },
+        "3": { "id": "3", "text": "A densidade da rocha era fora do padrão. Tive que medir por descarga elétrica controlada. Os fragmentos brilharam. Tecnicamente, a rocha continua emitindo radiação leve. Bonito, mas instável." },
+        "4": { "id": "4", "text": "As vozes disseram que a pedra chorava. Rezei até sentir o chão respirar. Depois disso, ela simplesmente cedeu." }
+      },
+      "teams": {
         "1_2": [
           { "id": "1", "text": "Empurrei até perder o fôlego." },
           { "id": "2", "text": "E eu ajustei o ângulo das cordas. Às vezes, a força só precisa de direção." },
           { "id": "1", "text": "Funcionou... mas o pessoal ainda acha que fui eu sozinha." },
           { "id": "2", "text": "Não corrigi ninguém. Política da montanha, talvez." }
         ],
-
         "1_3": [
           { "id": "3", "text": "A densidade da pedra é fascinante." },
           { "id": "1", "text": "Ela não parecia fascinante enquanto eu tentava empurrar." },
@@ -506,7 +442,6 @@
           { "id": "1", "text": "Então foi você quem ajudou." },
           { "id": "3", "text": "Tecnicamente, foi a eletricidade. Eu só medi." }
         ],
-
         "1_4": [
           { "id": "4", "text": "Ela falava, sabia? Disse que estava cansada de segurar o caminho." },
           { "id": "1", "text": "A pedra... falava?" },
@@ -514,21 +449,18 @@
           { "id": "1", "text": "Talvez tenha sentido meu empurrão também." },
           { "id": "4", "text": "O milagre às vezes precisa de músculos." }
         ],
-
         "2_3": [
           { "id": "2", "text": "A rocha era dura demais pra ferramentas comuns." },
           { "id": "3", "text": "Apliquei energia nas fissuras para facilitar a divisão." },
           { "id": "2", "text": "E eu direcionei as cordas no ponto certo. Tudo se encaixou." },
           { "id": "3", "text": "Uma operação eficiente. E discretamente bonita." }
         ],
-
         "2_4": [
           { "id": "2", "text": "Kael começou rezando pra pedra. Eu comecei medindo ângulos." },
           { "id": "4", "text": "Enquanto ela fazia cálculos, eu pedia perdão à montanha." },
           { "id": "2", "text": "E no fim, a rocha se moveu sem a gente encostar muito." },
           { "id": "4", "text": "Viu? A fé e a física têm ritmo parecido." }
         ],
-
         "3_4": [
           { "id": "3", "text": "A densidade da pedra é fascinante." },
           { "id": "4", "text": "Ela fala, sabia? Disse que está cansada de segurar o caminho." },
@@ -537,14 +469,12 @@
           { "id": "3", "text": "Interessante... talvez ambos." },
           { "id": "4", "text": "Então peça permissão para a descarga elétrica, antes de ofender uma montanha." }
         ],
-
         "1_2_3": [
           { "id": "2", "text": "Planejamos o esforço. Lyra empurrou, Leo quebrou o atrito, e eu segurei as cordas." },
           { "id": "1", "text": "Foi pesado, mas deu certo. A pedra pareceu... colaborar." },
           { "id": "3", "text": "A energia acumulada no solo ajudou. A física gosta de trabalho em grupo." },
           { "id": "2", "text": "E a guilda também." }
         ],
-
         "1_2_4": [
           { "id": "2", "text": "Lyra queria empurrar, Kael queria rezar. Eu queria terminar antes da próxima chuva." },
           { "id": "1", "text": "Empurrei devagar, como o Kael pediu." },
@@ -552,7 +482,6 @@
           { "id": "2", "text": "Chamemos de coincidência eficiente." },
           { "id": "4", "text": "Ou milagre de engenharia." }
         ],
-
         "1_3_4": [
           { "id": "3", "text": "A rocha vibrava com energia residual." },
           { "id": "4", "text": "Ela estava viva, só cansada." },
@@ -561,7 +490,6 @@
           { "id": "4", "text": "E da bênção." },
           { "id": "1", "text": "Então... todos ajudaram." }
         ],
-
         "2_3_4": [
           { "id": "2", "text": "Fizemos um plano: Leo estuda, eu preparo o sistema, Kael... fala com a pedra." },
           { "id": "3", "text": "Ela parecia responder aos padrões sonoros das orações." },
@@ -569,7 +497,6 @@
           { "id": "2", "text": "E, de alguma forma, tudo se moveu no tempo certo." },
           { "id": "3", "text": "Física aplicada à devoção. Um bom experimento." }
         ],
-
         "1_2_3_4": [
           { "id": "2", "text": "A rocha bloqueava tudo. Organizamos um plano — força, técnica e... fé, aparentemente." },
           { "id": "1", "text": "Empurrei quando disseram que dava sinal." },
@@ -579,39 +506,25 @@
           { "id": "4", "text": "Ela agradeceu. Em silêncio, mas agradeceu." }
         ]
       }
-  },
-    "falha": {
-        "reporters": {
-          "1": { "id": "1", "text": "Eu... Eu não fui forte o suficiente. Minha espada... não alcançou. Sinto muito pela guilda. Vou treinar até não falhar mais." },
-          "2": { "id": "2", "text": "Eu falhei. Fui pega em um movimento previsível e perdi minha posição. É um erro de planejamento e execução, e devo aceitar as consequências. A precisão foi insuficiente." },
-          "3": { "id": "3", "text": "O fracasso era inevitável. As vozes gritaram 'Caminho Errado' por três dias seguidos, mas eu insisti em ignorá-las. O erro não foi tático, foi de discernimento. Perdemos." },
-          "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de sucesso tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
-        }
-      }
     },
+    "failure": {
+      "reporters": {
+        "1": { "id": "1", "text": "Eu... Eu não fui forte o suficiente. Minha espada... não alcançou. Sinto muito pela guilda. Vou treinar até não falhar mais." },
+        "2": { "id": "2", "text": "Eu falhei. Fui pega em um movimento previsível e perdi minha posição. É um erro de planejamento e execução, e devo aceitar as consequências. A precisão foi insuficiente." },
+        "3": { "id": "3", "text": "O fracasso era inevitável. As vozes gritaram 'Caminho Errado' por três dias seguidos, mas eu insisti em ignorá-las. O erro não foi tático, foi de discernimento. Perdemos." },
+        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de successo tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
+      }
+    }
+  },
   "6": {
-    "sucesso": {
-      "reports": {
-        "1": [
-          { "id": "1", "text": "Carregar o sino até a escadaria foi... difícil. Muito difícil." },
-          { "id": "1", "text": "O bispo tentou ajudar, mas pedi que não. Ele orou por mim enquanto eu subia." },
-          { "id": "1", "text": "Consegui erguer o sino — e desmaiei logo depois. Ele disse que foi um ato de devoção. Eu só estava sem fôlego mesmo." }
-        ],
-        "2": [
-          { "id": "2", "text": "Tentei ser prática. Amarrei cordas e improvisei roldanas com o que encontrei." },
-          { "id": "2", "text": "Disse ao bispo que força não era meu ponto, mas jeito eu tinha. Ele riu... até ver que funcionava." },
-          { "id": "2", "text": "No fim, subimos o sino com calma. Ele me agradeceu — e pediu que eu não contasse que foi tudo técnica, não milagre." }
-        ],
-        "3": [
-          { "id": "3", "text": "O sino é de bronze. Excelente condutor." },
-          { "id": "3", "text": "Usei um campo eletromagnético para suspender parte do peso. Calculei vibração e equilíbrio." },
-          { "id": "3", "text": "O bispo ajoelhou, achando que era milagre. Expliquei o fenômeno, mas ele mandou tocar o sino antes que eu terminasse a aula." }
-        ],
-        "4": [
-          { "id": "4", "text": "As vozes disseram que o sino queria cantar." },
-          { "id": "4", "text": "Cantei junto enquanto puxava as cordas. Senti mãos invisíveis ajudando. Ou talvez fosse fé." },
-          { "id": "4", "text": "O bispo chorou. Eu também. No fim, o som ecoou como um amém." }
-        ],
+    "success": {
+      "reporters": {
+        "1": { "id": "1", "text": "Carregar o sino até a escadaria foi... difícil. Muito difícil. O bispo tentou ajudar, mas pedi que não. Ele orou por mim enquanto eu subia. Consegui erguer o sino — e desmaiei logo depois. Ele disse que foi um ato de devoção. Eu só estava sem fôlego mesmo." },
+        "2": { "id": "2", "text": "Tentei ser prática. Amarrei cordas e improvisei roldanas com o que encontrei. Disse ao bispo que força não era meu ponto, mas jeito eu tinha. Ele riu... até ver que funcionava. No fim, subimos o sino com calma. Ele me agradeceu — e pediu que eu não contasse que foi tudo técnica, não milagre." },
+        "3": { "id": "3", "text": "O sino é de bronze. Excelente condutor. Usei um campo eletromagnético para suspender parte do peso. Calculei vibração e equilíbrio. O bispo ajoelhou, achando que era milagre. Expliquei o fenômeno, mas ele mandou tocar o sino antes que eu terminasse a aula." },
+        "4": { "id": "4", "text": "As vozes disseram que o sino queria cantar. Cantei junto enquanto puxava as cordas. Senti mãos invisíveis ajudando. Ou talvez fosse fé. O bispo chorou. Eu também. No fim, o som ecoou como um amém." }
+      },
+      "teams": {
         "1_2": [
           { "id": "1", "text": "Eu carregava o sino enquanto ela amarrava as cordas com precisão." },
           { "id": "2", "text": "Quando ela gritou 'segura!', eu segurei. E funcionou." },
@@ -665,38 +578,24 @@
         ]
       }
     },
-    "falha": {
+    "failure": {
       "reporters": {
         "1": { "id": "1", "text": "Eu... Eu não fui forte o suficiente. Minha espada... não alcançou. Sinto muito pela guilda. Vou treinar até não falhar mais." },
         "2": { "id": "2", "text": "Eu falhei. Fui pega em um movimento previsível e perdi minha posição. É um erro de planejamento e execução, e devo aceitar as consequências. A precisão foi insuficiente." },
         "3": { "id": "3", "text": "O fracasso era inevitável. As vozes gritaram 'Caminho Errado' por três dias seguidos, mas eu insisti em ignorá-las. O erro não foi tático, foi de discernimento. Perdemos." },
-        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de sucesso tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
+        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de successo tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
       }
     }
   },
   "7": {
-    "sucesso": {
-      "reports": {
-        "1": [
-          { "id": "1", "text": "As runas brilhavam... eu só não sabia se era bom sinal." },
-          { "id": "1", "text": "Tentei empurrar o centro do portal. Nada aconteceu. Empurrei mais forte. Aí tudo acendeu." },
-          { "id": "1", "text": "O mago disse que foi coincidência. Mas foi uma coincidência com muito esforço." }
-        ],
-        "2": [
-          { "id": "2", "text": "Comecei a analisar o padrão das runas. Eram simétricas, mas o traço central estava invertido." },
-          { "id": "2", "text": "Ajustei a sequência com cuidado, evitando tocar o foco arcano. Funcionou... mais ou menos." },
-          { "id": "2", "text": "O portal se abriu por três segundos. O suficiente para provar que eu estava certa." }
-        ],
-        "3": [
-          { "id": "3", "text": "As inscrições datam de uma civilização pré-imperial. Fascinante." },
-          { "id": "3", "text": "Reativei o fluxo de energia com uma pequena descarga de raio controlado. Controlado o bastante, pelo menos." },
-          { "id": "3", "text": "O portal respondeu com um eco dimensional. Levei dias para parar de ouvir o som." }
-        ],
-        "4": [
-          { "id": "4", "text": "As runas sussurravam nomes. Cada uma queria ser lembrada." },
-          { "id": "4", "text": "Apertei as mãos sobre o símbolo central e pedi que voltassem a brilhar. Elas obedeceram." },
-          { "id": "4", "text": "O portal se abriu... mas por um instante, ele me olhou de volta." }
-        ],
+    "success": {
+      "reporters": {
+        "1": { "id": "1", "text": "As runas brilhavam... eu só não sabia se era bom sinal. Tentei empurrar o centro do portal. Nada aconteceu. Empurrei mais forte. Aí tudo acendeu. O mago disse que foi coincidência. Mas foi uma coincidência com muito esforço." },
+        "2": { "id": "2", "text": "Comecei a analisar o padrão das runas. Eram simétricas, mas o traço central estava invertido. Ajustei a sequência com cuidado, evitando tocar o foco arcano. Funcionou... mais ou menos. O portal se abriu por três segundos. O suficiente para provar que eu estava certa." },
+        "3": { "id": "3", "text": "As inscrições datam de uma civilização pré-imperial. Fascinante. Reativei o fluxo de energia com uma pequena descarga de raio controlado. Controlado o bastante, pelo menos. O portal respondeu com um eco dimensional. Levei dias para parar de ouvir o som." },
+        "4": { "id": "4", "text": "As runas sussurravam nomes. Cada uma queria ser lembrada. Apertei as mãos sobre o símbolo central e pedi que voltassem a brilhar. Elas obedeceram. O portal se abriu... mas por um instante, ele me olhou de volta." }
+      },
+      "teams": {
         "1_2": [
           { "id": "2", "text": "Eu estudava o padrão mágico, ela insistia em empurrar o círculo central." },
           { "id": "1", "text": "No fim, parece que empurrar foi a solução. Força é método, não teimosia." },
@@ -715,7 +614,7 @@
         "2_3": [
           { "id": "2", "text": "Ele ajustava a energia, eu corrigia as inscrições erradas." },
           { "id": "3", "text": "Os cálculos estavam certos. A precisão dela, também." },
-          { "id": "2", "text": "Resultado: o portal abriu. Temporariamente, mas sem vítimas. Um sucesso moderado." }
+          { "id": "2", "text": "Resultado: o portal abriu. Temporariamente, mas sem vítimas. Um successo moderado." }
         ],
         "2_4": [
           { "id": "2", "text": "Ele dizia que as runas falavam, eu só via rachaduras." },
@@ -751,38 +650,24 @@
         ]
       }
     },
-    "falha": {
+    "failure": {
       "reporters": {
         "1": { "id": "1", "text": "Eu... Eu não fui forte o suficiente. Minha espada... não alcançou. Sinto muito pela guilda. Vou treinar até não falhar mais." },
         "2": { "id": "2", "text": "Eu falhei. Fui pega em um movimento previsível e perdi minha posição. É um erro de planejamento e execução, e devo aceitar as consequências. A precisão foi insuficiente." },
         "3": { "id": "3", "text": "O fracasso era inevitável. As vozes gritaram 'Caminho Errado' por três dias seguidos, mas eu insisti em ignorá-las. O erro não foi tático, foi de discernimento. Perdemos." },
-        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de sucesso tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
+        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de successo tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
       }
     }
   },
   "8": {
-    "sucesso": {
-      "reports": {
-        "1": [
-          { "id": "1", "text": "O cristal era bonito, mas cheio de rachaduras." },
-          { "id": "1", "text": "Tentei encostar devagar pra não quebrar. Ele faiscou um pouco, mas parou." },
-          { "id": "1", "text": "Acho que só precisava de um toque firme... e gentil." }
-        ],
-        "2": [
-          { "id": "2", "text": "Analisei o cristal com uma lente arcana. As runas de condução estavam invertidas." },
-          { "id": "2", "text": "Reverti o padrão manualmente e usei o foco de energia menor da torre." },
-          { "id": "2", "text": "A barreira estabilizou. Enviei uma nota ao mago da cidade — e uma conta pelos riscos." }
-        ],
-        "3": [
-          { "id": "3", "text": "O cristal gritava. Sua luz tremia como uma alma presa entre mundos." },
-          { "id": "3", "text": "Toquei-o com a bênção do silêncio, e ele descansou." },
-          { "id": "3", "text": "Agora o muro respira em paz. Por enquanto." }
-        ],
-        "4": [
-          { "id": "4", "text": "A oscilação da barreira veio de uma sobrecarga no fluxo eletromágico." },
-          { "id": "4", "text": "Canalizei o excesso para o solo. O som da descarga foi... satisfatório." },
-          { "id": "4", "text": "Curioso: o padrão das faíscas formou uma sequência harmônica. Anotei para estudo." }
-        ],
+    "success": {
+      "reporters": {
+        "1": { "id": "1", "text": "O cristal era bonito, mas cheio de rachaduras. Tentei encostar devagar pra não quebrar. Ele faiscou um pouco, mas parou. Acho que só precisava de um toque firme... e gentil." },
+        "2": { "id": "2", "text": "Analisei o cristal com uma lente arcana. As runas de condução estavam invertidas. Reverti o padrão manualmente e usei o foco de energia menor da torre. A barreira estabilizou. Enviei uma nota ao mago da cidade — e uma conta pelos riscos." },
+        "3": { "id": "3", "text": "O cristal gritava. Sua luz tremia como uma alma presa entre mundos. Toquei-o com a bênção do silêncio, e ele descansou. Agora o muro respira em paz. Por enquanto." },
+        "4": { "id": "4", "text": "A oscilação da barreira veio de uma sobrecarga no fluxo eletromágico. Canalizei o excesso para o solo. O som da descarga foi... satisfatório. Curioso: o padrão das faíscas formou uma sequência harmônica. Anotei para estudo." }
+      },
+      "teams": {
         "1_2": [
           { "id": "2", "text": "Enquanto eu ajustava o padrão mágico, ela insistia em segurar o cristal pra 'ajudar'." },
           { "id": "1", "text": "Ajudei mesmo. Ele parou de faiscar depois que encostei." },
@@ -837,13 +722,13 @@
         ]
       }
     },
-    "falha": {
+    "failure": {
       "reporters": {
         "1": { "id": "1", "text": "Eu... Eu não fui forte o suficiente. Minha espada... não alcançou. Sinto muito pela guilda. Vou treinar até não falhar mais." },
         "2": { "id": "2", "text": "Eu falhei. Fui pega em um movimento previsível e perdi minha posição. É um erro de planejamento e execução, e devo aceitar as consequências. A precisão foi insuficiente." },
         "3": { "id": "3", "text": "O fracasso era inevitável. As vozes gritaram 'Caminho Errado' por três dias seguidos, mas eu insisti em ignorá-las. O erro não foi tático, foi de discernimento. Perdemos." },
-        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de sucesso tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
-     }
+        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de successo tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
+      }
     }
   }
 }

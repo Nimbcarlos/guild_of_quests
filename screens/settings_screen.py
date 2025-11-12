@@ -11,6 +11,7 @@ from kivy.uix.checkbox import CheckBox
 from kivy.uix.button import Button
 from kivy.core.window import Window
 from kivy.uix.image import Image
+from kivy.app import App
 from core.music_manager import get_music_manager
 from core.language_manager import LanguageManager
 from kivy.properties import StringProperty
@@ -41,7 +42,6 @@ class SettingsScreen(Screen):
         # Pausa a música
         music = get_music_manager()
         music.pause()
-        print("[Settings] Música pausada")
 
     def on_leave(self):
         """Quando sai da tela de settings"""
@@ -49,7 +49,6 @@ class SettingsScreen(Screen):
         music = get_music_manager()
         if not music.is_playing and music.current_sound:
             music.resume()
-            print("[Settings] Música resumida")
 
     def go_back(self, *args):
         """Volta para a tela anterior"""
@@ -252,8 +251,12 @@ class SettingsScreen(Screen):
     def set_language(self, instance, lang):
         self.config["language"] = lang
         self.lm.set_language(lang)
-        print(f"Idioma alterado para {lang}")
         self.save_config()
+
+        # 🔤 Atualiza a fonte global (acessa o app principal)
+        app = App.get_running_app()
+        app.change_language(lang)
+
         self.clear_widgets()
         self.build_ui()  # Reconstrói UI no novo idioma
 

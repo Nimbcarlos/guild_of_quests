@@ -49,7 +49,6 @@ class FontManager:
                 name='Icons',
                 fn_regular='assets/fonts/MaterialIcons-Regular.ttf'
             )
-            print("✅ Fonte de ícones registrada")
         except Exception as e:
             print(f"⚠️  Erro ao registrar ícones: {e}")
         
@@ -58,7 +57,6 @@ class FontManager:
                 name="NotoSans",
                 fn_regular="assets/fonts/NotoSans-Regular.ttf"
             )
-            print("✅ Fonte NotoSans registrada")
         except Exception as e:
             print(f"⚠️  Erro ao registrar NotoSans: {e}")
         
@@ -67,7 +65,6 @@ class FontManager:
                 name="NotoSansSC",
                 fn_regular="assets/fonts/NotoSansSC-Regular.ttf"
             )
-            print("✅ Fonte NotoSansSC (Chinês) registrada")
         except Exception as e:
             print(f"⚠️  Erro ao registrar NotoSansSC: {e}")
         
@@ -76,7 +73,6 @@ class FontManager:
                 name="NotoSansJP",
                 fn_regular="assets/fonts/NotoSansJP-Regular.ttf"
             )
-            print("✅ Fonte NotoSansJP (Japonês) registrada")
         except Exception as e:
             print(f"⚠️  Erro ao registrar NotoSansJP: {e}")
         
@@ -85,7 +81,6 @@ class FontManager:
                 name="NotoSansKR",
                 fn_regular="assets/fonts/NotoSansKR-Regular.ttf"
             )
-            print("✅ Fonte NotoSansKR (Coreano) registrada")
         except Exception as e:
             print(f"⚠️  Erro ao registrar NotoSansKR: {e}")
     

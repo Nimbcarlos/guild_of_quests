@@ -1,9 +1,11 @@
 try:
-    import os
+    import os, sys, json
     os.environ['KIVY_NO_CONSOLELOG'] = '1'
 
     from kivy.config import Config
     Config.set('input', 'mouse', 'mouse,multitouch_on_demand')
+    Config.set('graphics', 'resizable', False)
+    Config.set('graphics', 'dpi', '96')
 
     from kivy.app import App
     from kivy.uix.screenmanager import ScreenManager, FadeTransition
@@ -17,9 +19,18 @@ try:
     from core.hero_manager import HeroManager
     from core.language_manager import LanguageManager
     from core.font_manager import FontManager
-    import sys
     import traceback
+    from kivy.core.window import Window
 
+    # Caminho do config.json
+    CONFIG_FILE = "config.json"
+
+    if os.path.exists(CONFIG_FILE):
+        with open(CONFIG_FILE, "r", encoding="utf-8") as f:
+            config = json.load(f)
+            if "screen_size" in config:
+                w, h = config["screen_size"]
+                Window.size = (w, h)
 
     class GameScreenManager(ScreenManager):
         def __init__(self, **kwargs):
@@ -32,7 +43,7 @@ try:
     class GameApp(App):
         # ✅ Propriedade reativa para fonte
         font_name = StringProperty("NotoSans")
-        
+
         def build(self):
             # Registra fontes
             FontManager.register_fonts()
@@ -49,7 +60,7 @@ try:
             sm.add_widget(GameplayScreen(name="gameplay"))
             sm.add_widget(LoadGameScreen(name="loadgame"))
             sm.add_widget(SettingsScreen(name="settings"))
-            
+            self.title = "ALGAZA-HA: Quest Giver"
             return sm
         
         def change_language(self, language: str):
@@ -60,12 +71,22 @@ try:
                 language: Código do idioma (pt, en, zh, ja, etc.)
             """
             # Atualiza idioma
-            self.lm.change_language(language)
+            self.lm.set_language(language)
             
             # ✅ Atualiza fonte (isso dispara atualização em TODOS os widgets)
             self.font_name = FontManager.get_font_for_language(language)
             
-            print(f"🌍 Idioma alterado: {language} (Fonte: {self.font_name})")
+            if hasattr(self, 'root') and hasattr(self.root, 'hero_manager'):
+                self.root.hero_manager.load_heroes(language)
+
+            # 🔹 Recarrega os dados dependentes do idioma
+            if hasattr(self, 'root') and hasattr(self.root, 'quest_manager'):
+                self.root.quest_manager.load_quests(language)
+
+            # 🔹 Notifica telas ativas
+            if hasattr(self.root, "current_screen") and hasattr(self.root.current_screen, "on_language_changed"):
+
+                self.root.current_screen.on_language_changed(language)
 
 
     if __name__ == "__main__":

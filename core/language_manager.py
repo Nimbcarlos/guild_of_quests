@@ -20,10 +20,23 @@ class LanguageManager:
             return "en"
 
     def set_language(self, lang_code: str):
-        """Muda o idioma e salva no config."""
+        """Muda o idioma e salva no config sem apagar os outros dados."""
         self.language = lang_code
+
+        try:
+            # 🔹 Lê o conteúdo atual do config.json
+            with open(self.config_file, "r", encoding="utf-8") as f:
+                config = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            # Se o arquivo não existir ou estiver corrompido, recria um novo
+            config = {}
+
+        # 🔹 Atualiza apenas o idioma
+        config["language"] = lang_code
+
+        # 🔹 Salva de volta o arquivo completo
         with open(self.config_file, "w", encoding="utf-8") as f:
-            json.dump({"language": lang_code}, f, ensure_ascii=False, indent=4)
+            json.dump(config, f, ensure_ascii=False, indent=4)
 
     def t(self, key: str) -> str:
         """Traduz uma chave interna (ex: 'strength' → 'Força')."""

@@ -44,7 +44,6 @@ def show_hero_details(screen_instance, hero):
     # Usa o LanguageManager da tela (já instanciado)
     lm = getattr(screen_instance, "lm", LanguageManager())
     current_lang = lm.language
-    print(f"[HeroPopup] Idioma atual: {current_lang}")
 
     # Carrega dados traduzidos
     hero_data = load_hero_data(hero.id, current_lang)
@@ -56,11 +55,11 @@ def show_hero_details(screen_instance, hero):
             "story": getattr(hero, "story", "")
         }
 
-    content = BoxLayout(orientation="horizontal", spacing=15, padding=15)
+    content = BoxLayout(orientation="horizontal", spacing=5, padding=5)
 
     # ========== Retrato (esquerda) ==========
     portrait = Image(
-        source=getattr(hero, "photo_body_url", "assets/ui/default_hero.png"),
+        source=getattr(hero, "photo_body_url", "assets/img/default_hero.png"),
         size_hint=(None, 1),
         width=180,
         allow_stretch=True,
@@ -69,7 +68,7 @@ def show_hero_details(screen_instance, hero):
     content.add_widget(portrait)
 
     # ========== Informações (direita) ==========
-    info_container = BoxLayout(orientation="vertical", spacing=10)
+    info_container = BoxLayout(orientation="vertical", spacing=5)
 
     # Classe e nível
     class_level_box = BoxLayout(orientation="vertical", spacing=3, size_hint_y=None, height=60)
@@ -108,7 +107,6 @@ def show_hero_details(screen_instance, hero):
     # 1️⃣ Se o herói já tem stats calculados
     if hasattr(hero, "stats") and hero.stats:
         hero_stats = hero.stats
-        print(f"[HeroPopup] Stats diretos: {hero_stats}")
 
     # 2️⃣ Caso contrário, tenta usar o growth_curve
     else:
@@ -126,15 +124,12 @@ def show_hero_details(screen_instance, hero):
 
             if isinstance(growth, dict):
                 hero_stats = growth.get(current_level, {})
-                print(f"[HeroPopup] Growth curve nível {current_level}: {hero_stats}")
-            else:
-                print(f"[HeroPopup] growth_curve inválido ({type(growth)})")
 
     if hero_stats:
         stats_container = BoxLayout(orientation="vertical", spacing=5, size_hint_y=None, height=80)
 
         # Linha 1
-        row1 = BoxLayout(orientation="horizontal", spacing=10, size_hint_y=None, height=35)
+        row1 = BoxLayout(orientation="horizontal", spacing=5, size_hint_y=None, height=35)
         row1.add_widget(Label(
             text=f"[b]{lm.t('strength')}:[/b] {hero_stats.get('strength', 0)}",
             markup=True,
@@ -154,7 +149,7 @@ def show_hero_details(screen_instance, hero):
         stats_container.add_widget(row1)
 
         # Linha 2
-        row2 = BoxLayout(orientation="horizontal", spacing=10, size_hint_y=None, height=35)
+        row2 = BoxLayout(orientation="horizontal", spacing=5, size_hint_y=None, height=35)
         row2.add_widget(Label(
             text=f"[b]{lm.t('dexterity')}:[/b] {hero_stats.get('dexterity', 0)}",
             markup=True,
@@ -182,13 +177,23 @@ def show_hero_details(screen_instance, hero):
     else:
         story_text = story_field
 
+    class_en = class_field.get("en", "")
+
     if story_text:
-        separator = Label(
-            text="─" * 40,
-            color=(0.5, 0.5, 0.5, 1),
-            size_hint_y=None,
-            height=10
+        separator = Image(
+            source=f"assets/img/{class_en}.png",
+            size_hint=(None, None),  # Permite definir largura e altura fixas
+            width=300,
+            height=50,               # Altura livre (não proporcional)
+            allow_stretch=True,      # Permite distorcer
+            keep_ratio=False,        # Ignora proporção original
         )
+        # separator = Label(
+        #     text="=" * 30,
+        #     color=(0.5, 0.5, 0.5, 1),
+        #     size_hint_y=None,
+        #     height=10
+        # )
         info_container.add_widget(separator)
 
         story_scroll = ScrollView(size_hint=(1, 1))

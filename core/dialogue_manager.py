@@ -36,6 +36,7 @@ class DialogueManager:
         dialogue_data = self.get_quest_dialogue(quest_id, result)
 
         if not dialogue_data:
+            print("texto com erro", quest_id, result)
             return [{"id": "narrator", "text": "Nenhum diálogo encontrado para esta missão e resultado."}]
 
         hero_ids = [str(hero.id) for hero in heroes]

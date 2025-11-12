@@ -108,7 +108,7 @@ class QuestManager:
         }
 
         self._log(self.lm.t("heroes_sent").format(name=quest.name, turns=quest.duration))
-        self._log(self.lm.t("heroes_list").format(list=", ".join(h.name for h in selected_heroes)))
+        # self._log(self.lm.t("heroes_list").format(list=", ".join(h.name for h in selected_heroes)))
 
         # Diálogo inicial, se existir callback
         if self.dialog_callback:
@@ -131,7 +131,11 @@ class QuestManager:
 
         success_chance = calculate_success_chance(heroes, quest)
         result = run_mission_roll(success_chance)
-        success_values = {"Sucesso", "Crítico", "Success", "Critical"}
+        success_values = {
+            LanguageManager().t("success"),
+            LanguageManager().t("critical"),
+            # "Success", "Critical"  # fallback caso traduções falhem
+        }
 
         if result in success_values:
             xp_reward = quest.rewards.get("xp", 0)
@@ -147,8 +151,6 @@ class QuestManager:
                 hero.add_xp(xp_reward)
                 new_level = hero.level
 
-                # Log do XP ganho
-                self._log(self.lm.t("hero_gained_xp").format(hero=hero.name, xp=xp_reward))
 
                 # 🔥 Se subiu de nível
                 if new_level > old_level:
@@ -159,6 +161,9 @@ class QuestManager:
                 self.completed_quests[quest.id].add(hero.id)
 
             self._log(self.lm.t("quest_completed").format(name=quest.name, result=result))
+            # Log do XP ganho
+            self._log(self.lm.t("hero_gained_xp").format(hero=hero.name, xp=xp_reward))
+
         else:
             self.failed_quests.add(quest.id)
             self._log(self.lm.t("quest_failed").format(name=quest.name))
@@ -167,9 +172,9 @@ class QuestManager:
         save_game(self, self.save_file)
 
         # Mostra resumo
-        self._log(self.lm.t("quest_summary_title").format(name=quest.name))
-        self._log(self.lm.t("success_chance").format(pct=success_chance))
-        self._log(self.lm.t("result_text").format(result=result))
+        # self._log(self.lm.t("quest_summary_title").format(name=quest.name))
+        # self._log(self.lm.t("success_chance").format(pct=success_chance))
+        # self._log(self.lm.t("result_text").format(result=result))
 
         # Reseta status dos heróis
         for hero in heroes:
@@ -251,7 +256,7 @@ class QuestManager:
                 continue
 
             # notifica que foi concluída (mensagem geral)
-            self._log(self.lm.t("quest_auto_complete").format(name=quest.name))
+            # self._log(self.lm.t("quest_auto_complete").format(name=quest.name))
             # chama sua função que aplica XP e marca completada/falhada
             self.resolve_quest(qid, data)
             # remove da lista de ativas
@@ -281,3 +286,9 @@ class QuestManager:
         # zera o estado das quests
         for quest in self.quests:
             quest.available_since_turn = None
+
+    def load_quests(self, language: str = "pt"):
+        from core.quest import Quest
+        self.language = language
+        self.quests = Quest.load_quests(language)
+        print(f"📜 Quests carregadas no idioma: {language}")

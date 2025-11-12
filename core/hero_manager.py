@@ -77,6 +77,12 @@ class HeroManager:
         self.all_heroes = Hero.load_heroes(language=new_language)
         # ⚠️ Mantém progresso e unlocks já existentes, se desejar resetar, chame reset_heroes()
 
+    def load_heroes(self, language: str = "en"):
+        from core.hero import Hero
+        self.language = language
+        self.heroes = Hero.load_heroes(language)
+        print(f"🦸 Heróis carregados no idioma: {language}")
+
 
 if __name__ == "__main__":
     manager = HeroManager(language="en")

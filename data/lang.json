@@ -750,5 +750,45 @@
     "ru": "Мудрость",
     "zh": "智慧",
     "ja": "知恵"
+  },
+  "success": {
+    "en": "Success",
+    "pt": "Sucesso",
+    "es": "Éxito",
+    "zh": "成功",
+    "ja": "成功",
+    "ru": "Успех"
+  },
+  "failure": {
+    "en": "Failure",
+    "pt": "Falha",
+    "es": "Fracaso",
+    "zh": "失败",
+    "ja": "失敗",
+    "ru": "Неудача"
+  },
+  "critical": {
+    "en": "Critical",
+    "pt": "Crítico",
+    "es": "Crítico",
+    "zh": "致命",
+    "ja": "クリティカル",
+    "ru": "Критический"
+  },
+  "critical_failure": {
+    "en": "Critical Failure",
+    "pt": "Falha Crítica",
+    "es": "Fallo Crítico",
+    "zh": "严重失败",
+    "ja": "致命的失敗",
+    "ru": "Критическая ошибка"
+  },
+  "hero_leveled_up": {
+    "en": "{hero} leveled up to Level {level}!",
+    "pt": "{hero} subiu para o Nível {level}!",
+    "es": "¡{hero} ha subido al Nivel {level}!",
+    "ru": "{hero} получил {level} уровень!",
+    "ja": "{hero} がレベル {level} に上がった！",
+    "zh": "{hero} 升级到 {level} 级了！"
   }
 }

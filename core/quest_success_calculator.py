@@ -1,6 +1,8 @@
 import random
 from core.hero import Hero
 from core.quest import Quest
+from core.language_manager import LanguageManager
+
 
 # quest_success_calculator.py
 
@@ -123,22 +125,26 @@ class QuestSuccessCalculator:
         """Limpa o cache de traduções reversas (útil ao trocar de idioma)"""
         self._reverse_cache = {}
 
-
 def run_mission_roll(success_chance: float) -> str:
     """
-    Simula uma rolagem de dados para determinar o resultado da missão,
-    incluindo sucesso crítico e falha crítica.
-    Retorna "Crítico", "Sucesso", "Falha" ou "Falha Crítica".
+    Simula uma rolagem de dados e retorna o resultado traduzido:
+    'critical', 'success', 'failure' ou 'critical_failure'.
     """
+    lm = LanguageManager()  # lê o idioma atual
     roll = random.random()
+
+    # 🔹 Determina resultado “interno” (em inglês, padrão de chave)
     if success_chance >= 0.9 and roll > 0.95:
-        return "Crítico"
+        result_key = "success" # "critical"
     elif success_chance < 0.2 and roll < 0.05:
-        return "Falha Crítica"
+        result_key = "failure" # "critical_failure"
     elif roll < success_chance:
-        return "Sucesso"
+        result_key = "success"
     else:
-        return "Falha"
+        result_key = "failure"
+
+    # 🔹 Traduz o texto conforme o idioma atual
+    return lm.t(result_key)
 
 
 # Funções standalone para compatibilidade com código antigo
