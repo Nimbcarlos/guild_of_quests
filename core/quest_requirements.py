@@ -8,30 +8,50 @@ def check_available_turn(quest, manager) -> bool:
         return True
     return manager.current_turn >= available_from_turn
 
-
 def check_required_quests(quest, manager) -> bool:
-    """
-    Verifica se todas as quests obrigatórias foram concluídas,
-    e se houver heróis obrigatórios, valida se eles participaram.
-    """
-
-    # --- Quests obrigatórias ---
-    required_ids = getattr(quest, "required_quests", [])
-    for req in required_ids:
-        if req not in manager.completed_quests:
-            return False  
-
-    # --- Heróis obrigatórios ---
+    required_quests = getattr(quest, "required_quests", [])
     required_heroes = getattr(quest, "required_heroes", [])
+    forbidden_heroes = getattr(quest, "forbidden_heroes", [])
+
+    # 1 — Verifica se todas as required_quests foram concluídas
+    for req in required_quests:
+        if req not in manager.completed_quests:
+            return False
+    
+    # 2 — Verifica se os heróis obrigatórios participaram
     if required_heroes:
-        for req in required_ids:
+        for req in required_quests:
             completed_by = manager.completed_quests.get(req, set())
-            # Checa se pelo menos 1 dos required_heroes participou
-            if not any(hid in completed_by for hid in required_heroes):
-                return False
+            
+            # Verifica cada requisito de herói
+            for hero_req in required_heroes:
+                
+                # Converte int para string se necessário
+                hero_req_str = str(hero_req)
+                
+                # Se tem "_", significa que TODOS devem ter participado
+                if '_' in hero_req_str:
+                    hero_ids = [int(h.strip()) for h in hero_req_str.split('_')]
+                    if not all(hero_id in completed_by for hero_id in hero_ids):
+                        return False
+                
+                # Requisito simples: herói específico deve estar presente
+                else:
+                    hero_id = int(hero_req_str)
+                    if hero_id not in completed_by:
+                        return False
+    
+    # 3 — Verifica se algum herói proibido participou
+    if forbidden_heroes:
+        for req in required_quests:
+            completed_by = manager.completed_quests.get(req, set())
+            
+            # Se QUALQUER herói proibido completou, bloqueia a quest
+            for forbidden_id in forbidden_heroes:
+                if forbidden_id in completed_by:
+                    return False
 
     return True
-
 
 def check_trigger_on_fail(quest, manager) -> bool:
     """Verifica se a quest é liberada apenas se outras falharem."""

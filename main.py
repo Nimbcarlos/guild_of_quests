@@ -61,6 +61,7 @@ try:
             sm.add_widget(LoadGameScreen(name="loadgame"))
             sm.add_widget(SettingsScreen(name="settings"))
             self.title = "ALGAZA-HA: Quest Giver"
+            self.icon = "assets/icon.ico"
             return sm
         
         def change_language(self, language: str):

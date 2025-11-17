@@ -18,6 +18,7 @@ class Quest:
         required_quests: List[str],
         required_fail_quests: List[str],
         required_heroes: List[str] = None,
+        forbidden_heroes: List[str] = None,
         available_since_turn=None,
         language: str = "en",
     ):
@@ -37,6 +38,7 @@ class Quest:
         self.required_quests = required_quests
         self.required_fail_quests = required_fail_quests
         self.required_heroes = required_heroes or []
+        self.forbidden_heroes = forbidden_heroes or []
         self.available_since_turn = available_since_turn
 
         self.remaining_turns = duration
@@ -69,6 +71,7 @@ class Quest:
             f"Pré-requisitos: {', '.join(str(q) for q in self.required_quests) if self.required_quests else 'Nenhum'}"
             f"Failed Quests: {', '.join(str(q) for q in self.required_fail_quests) if self.required_fail_quests else 'Nenhum'}"
             f"Required Heroes: {', '.join(str(q) for q in self.required_heroes) if self.required_heroes else 'Nenhum'}"
+            f"Forbidden Heroes: {', '.join(str(q) for q in self.forbidden_heroes) if self.forbidden_heroes else 'Nenhum'}"
             f"Iniciada no turno: {self.available_since_turn}"
         )
 

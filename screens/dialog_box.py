@@ -116,9 +116,16 @@ class DialogueBox:
             orientation='vertical',
             spacing=5,
             padding=[10, 5, 10, 5],
-            size_hint=(1, 1)
+            size_hint_y=1
         )
-        
+
+        # ----- BOX DO SPEAKER -----
+        speaker_box = BoxLayout(
+            orientation='vertical',
+            size_hint_y=None,
+            height=20
+        )
+
         self.speaker_label = Label(
             text="",
             font_size=max(22, int(frame_height * 0.035)),
@@ -126,25 +133,35 @@ class DialogueBox:
             color=(0.16, 0.09, 0.06, 1),
             halign="left",
             valign="middle",
-            size_hint_y=None,
-            height=40
         )
-        self.speaker_label.bind(size=lambda instance, value: setattr(instance, 'text_size', (value[0], None)))
-        text_layout.add_widget(self.speaker_label)
-        
+        self.speaker_label.bind(
+            size=lambda instance, value: setattr(instance, 'text_size', (value[0], None))
+        )
+
+        speaker_box.add_widget(self.speaker_label)
+        text_layout.add_widget(speaker_box)
+
+        # ----- BOX DO DIÁLOGO -----
+        dialogue_box = BoxLayout(
+            orientation='vertical',
+            size_hint_y=None,
+            height=95
+        )
+
         self.dialogue_label = Label(
             text="",
             font_size=max(16, int(frame_height * 0.024)),
             halign="left",
             valign="top",
-            color=(0.16, 0.09, 0.06, 1),
-            size_hint_y=1
+            color=(0.16, 0.09, 0.06, 1)
         )
         self.dialogue_label.bind(
             size=lambda instance, value: setattr(instance, 'text_size', (value[0], None))
         )
-        text_layout.add_widget(self.dialogue_label)
-        
+
+        dialogue_box.add_widget(self.dialogue_label)
+        text_layout.add_widget(dialogue_box)
+
         main_layout.add_widget(text_layout)
         
         # ==================== POPUP ====================
@@ -177,9 +194,16 @@ class DialogueBox:
     def _show_current_line(self):
         
         if self.current_index >= len(self.dialogues):
-            self.popup.dismiss()
-            self.popup = None
-            Clock.schedule_once(lambda dt: self._process_next(), 0)
+            if self.popup:
+                try:
+                    self.popup.dismiss()
+                except Exception as e:
+                    print(f"[DialogueBox] Aviso: tentativa de fechar popup inexistente ({e})")
+                finally:
+                    self.popup = None
+
+            # ✅ Pequeno atraso garante que evento de scroll antigo não interfira
+            Clock.schedule_once(lambda dt: self._process_next(), 0.1)
             return
 
         line = self.dialogues[self.current_index]

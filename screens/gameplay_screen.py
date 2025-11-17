@@ -476,7 +476,7 @@ class GameplayScreen(Screen):
         """Envia os heróis selecionados para uma quest específica e mostra o diálogo inicial."""
         hero_ids = self.pending_assignments.get(quest.id, [])
         if not hero_ids:
-            self.qm._log("⚠️ Nenhum herói selecionado para esta missão.")
+            self.qm._log(self.lm.t("no_hero_selected"))
             return
 
         # Pega os objetos dos heróis selecionados

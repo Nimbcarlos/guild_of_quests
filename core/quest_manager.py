@@ -138,19 +138,30 @@ class QuestManager:
         }
 
         if result in success_values:
-            xp_reward = quest.rewards.get("xp", 0)
+            self._log(self.lm.t("quest_completed").format(name=quest.name, result=result))
 
             if quest.id not in self.completed_quests:
                 self.completed_quests[quest.id] = set()
+
+            if len(heroes) > 1:
+                xp_reward = (quest.rewards.get("xp", 0) / len(heroes)) * 1.2
+            else:
+                xp_reward = quest.rewards.get("xp", 0)
 
             for hero in heroes:
                 # Guarda o nível antes de ganhar XP
                 old_level = hero.level
 
+                self._log(
+                    self.lm.t("hero_gained_xp").format(
+                        hero=hero.name,
+                        xp=xp_reward
+                    )
+                )
+
                 # Adiciona XP
                 hero.add_xp(xp_reward)
                 new_level = hero.level
-
 
                 # 🔥 Se subiu de nível
                 if new_level > old_level:
@@ -160,9 +171,6 @@ class QuestManager:
                 # Marca como completado
                 self.completed_quests[quest.id].add(hero.id)
 
-            self._log(self.lm.t("quest_completed").format(name=quest.name, result=result))
-            # Log do XP ganho
-            self._log(self.lm.t("hero_gained_xp").format(hero=hero.name, xp=xp_reward))
 
         else:
             self.failed_quests.add(quest.id)

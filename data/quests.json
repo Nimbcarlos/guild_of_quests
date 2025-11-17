@@ -27,7 +27,8 @@
     },
     "required_quests": [],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 2,
@@ -49,7 +50,7 @@
     },
     "type": "Dexterity",
     "expired_at": 3,
-    "available_from_turn": 5,
+    "available_from_turn": 1,
     "duration": 4,
     "difficulty": 1.5,
     "rewards": {
@@ -57,7 +58,8 @@
     },
     "required_quests": [],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 3,
@@ -85,9 +87,10 @@
     "rewards": {
       "xp": 50
     },
-    "required_quests": [],
+    "required_quests": [2],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [1, 2],
+    "forbidden_heroes": []
   },
   {
     "id": 4,
@@ -117,7 +120,8 @@
     },
     "required_quests": [],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 5,
@@ -147,7 +151,8 @@
     },
     "required_quests": [],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 6,
@@ -177,7 +182,8 @@
     },
     "required_quests": [],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 7,
@@ -207,7 +213,8 @@
     },
     "required_quests": [],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 8,
@@ -237,10 +244,11 @@
     },
     "required_quests": [],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
-    "id": 101,
+    "id": 100,
     "name": {
       "pt": "O Slime do Poço",
       "en": "The Slime in the Well",
@@ -259,7 +267,7 @@
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 9,
+    "available_from_turn": 10,
     "duration": 4,
     "difficulty": 1.5,
     "rewards": {
@@ -267,7 +275,8 @@
     },
     "required_quests": [],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 102,
@@ -289,7 +298,7 @@
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 10,
+    "available_from_turn": 11,
     "duration": 4,
     "difficulty": 12,
     "rewards": {
@@ -297,7 +306,8 @@
     },
     "required_quests": [],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 103,
@@ -319,7 +329,7 @@
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 10,
+    "available_from_turn": 12,
     "duration": 3,
     "difficulty": 0.2,
     "rewards": {
@@ -327,7 +337,8 @@
     },
     "required_quests": [2],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 104,
@@ -349,7 +360,7 @@
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 10,
+    "available_from_turn": 13,
     "duration": 4,
     "difficulty": 0.2,
     "rewards": {
@@ -359,7 +370,8 @@
       "3"
     ],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 105,
@@ -381,7 +393,7 @@
     },
     "type": "Fight",
     "expired_at": 2,
-    "available_from_turn": 10,
+    "available_from_turn": 14,
     "duration": 5,
     "difficulty": 0.2,
     "rewards": {
@@ -389,7 +401,8 @@
     },
     "required_quests": [1],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 106,
@@ -411,7 +424,7 @@
     },
     "type": "Fight",
     "expired_at": 2,
-    "available_from_turn": 10,
+    "available_from_turn": 15,
     "duration": 4,
     "difficulty": 0.2,
     "rewards": {
@@ -419,7 +432,8 @@
     },
     "required_quests": [4],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 107,
@@ -441,7 +455,7 @@
     },
     "type": "Fight",
     "expired_at": 2,
-    "available_from_turn": 10,
+    "available_from_turn": 16,
     "duration": 5,
     "difficulty": 0.2,
     "rewards": {
@@ -449,7 +463,8 @@
     },
     "required_quests": [5],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 108,
@@ -471,7 +486,7 @@
     },
     "type": "Fight",
     "expired_at": 2,
-    "available_from_turn": 10,
+    "available_from_turn": 17,
     "duration": 6,
     "difficulty": 0.2,
     "rewards": {
@@ -479,7 +494,8 @@
     },
     "required_quests": [6],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 109,
@@ -501,7 +517,7 @@
     },
     "type": "Fight",
     "expired_at": 2,
-    "available_from_turn": 10,
+    "available_from_turn": 18,
     "duration": 5,
     "difficulty": 0.2,
     "rewards": {
@@ -509,7 +525,8 @@
     },
     "required_quests": [7],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 110,
@@ -531,7 +548,7 @@
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 10,
+    "available_from_turn": 19,
     "duration": 6,
     "difficulty": 0.2,
     "rewards": {
@@ -539,7 +556,8 @@
     },
     "required_quests": [5],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 111,
@@ -561,7 +579,7 @@
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 10,
+    "available_from_turn": 20,
     "duration": 6,
     "difficulty": 0.2,
     "rewards": {
@@ -569,7 +587,8 @@
     },
     "required_quests": [8],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 112,
@@ -591,7 +610,7 @@
     },
     "type": "Fight",
     "expired_at": 2,
-    "available_from_turn": 10,
+    "available_from_turn": 21,
     "duration": 5,
     "difficulty": 0.25,
     "rewards": {
@@ -599,7 +618,8 @@
     },
     "required_quests": [9],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 113,
@@ -621,7 +641,7 @@
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 10,
+    "available_from_turn": 22,
     "duration": 5,
     "difficulty": 0.2,
     "rewards": {
@@ -629,7 +649,8 @@
     },
     "required_quests": [10],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 114,
@@ -651,7 +672,7 @@
     },
     "type": "Wisdom",
     "expired_at": 3,
-    "available_from_turn": 10,
+    "available_from_turn": 23,
     "duration": 5,
     "difficulty": 0.2,
     "rewards": {
@@ -659,7 +680,8 @@
     },
     "required_quests": [11],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 115,
@@ -681,7 +703,7 @@
     },
     "type": "Wisdom",
     "expired_at": 3,
-    "available_from_turn": 10,
+    "available_from_turn": 24,
     "duration": 5,
     "difficulty": 0.2,
     "rewards": {
@@ -689,7 +711,8 @@
     },
     "required_quests": [2],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 116,
@@ -711,7 +734,7 @@
     },
     "type": "Intelligence",
     "expired_at": 3,
-    "available_from_turn": 10,
+    "available_from_turn": 25,
     "duration": 5,
     "difficulty": 0.2,
     "rewards": {
@@ -719,7 +742,8 @@
     },
     "required_quests": [2],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 117,
@@ -741,7 +765,7 @@
     },
     "type": "Intelligence",
     "expired_at": 3,
-    "available_from_turn": 10,
+    "available_from_turn": 26,
     "duration": 5,
     "difficulty": 0.2,
     "rewards": {
@@ -749,7 +773,8 @@
     },
     "required_quests": [],
     "required_fail_quests": [],
-    "required_heroes": []
+    "required_heroes": [],
+    "forbidden_heroes": []
   },
   {
     "id": 118,
@@ -771,7 +796,7 @@
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 10,
+    "available_from_turn": 27,
     "duration": 4,
     "difficulty": 0.2,
     "rewards": {
@@ -779,7 +804,8 @@
     },
     "required_quests": [1],
     "required_fail_quests": [],
-    "required_heroes": [1]
+    "required_heroes": [1],
+    "forbidden_heroes": []
   },
   {
     "id": 119,
@@ -801,7 +827,7 @@
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 10,
+    "available_from_turn": 28,
     "duration": 4,
     "difficulty": 0.2,
     "rewards": {
@@ -809,7 +835,8 @@
     },
     "required_quests": [1],
     "required_fail_quests": [],
-    "required_heroes": [2]
+    "required_heroes": [2],
+    "forbidden_heroes": []
   },
   {
     "id": 120,
@@ -831,7 +858,7 @@
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 10,
+    "available_from_turn": 29,
     "duration": 4,
     "difficulty": 0.2,
     "rewards": {
@@ -839,6 +866,7 @@
     },
     "required_quests": [1],
     "required_fail_quests": [],
-    "required_heroes": [3]
+    "required_heroes": [3],
+    "forbidden_heroes": []
   }
 ]
