@@ -39,7 +39,7 @@ class MenuScreen(Screen):
 
 # Correção na Lógica do MenuScreen
 
-    def new_game(self):
+    def new_game(self, *args):
         # Exemplo (assumindo que o manager principal está no GameScreenManager):
         self.manager.quest_manager = QuestManager()  # Cria uma instância totalmente nova
         
@@ -84,7 +84,7 @@ class MenuScreen(Screen):
         back_btn.bind(on_release=lambda *_: self.build_main_menu())
         self.main_layout.add_widget(back_btn)
 
-    def _on_select_save(self, filename: str):
+    def _on_select_save(self, filename: str, *args):
         """
         Handler quando o jogador escolhe um save.
         Carrega usando save_manager e muda para a tela de gameplay.
@@ -107,7 +107,7 @@ class MenuScreen(Screen):
         # finalmente troca para gameplay (sempre)
         self.manager.current = "gameplay"
 
-    def open_settings(self):
+    def open_settings(self, *args):
         self.manager.current = "settings"
 
     def exit_game(self, *args):

@@ -144,7 +144,7 @@ def run_mission_roll(success_chance: float) -> str:
         result_key = "failure"
 
     # 🔹 Traduz o texto conforme o idioma atual
-    return lm.t(result_key)
+    return result_key
 
 
 # Funções standalone para compatibilidade com código antigo

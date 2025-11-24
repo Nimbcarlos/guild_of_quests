@@ -8,50 +8,79 @@ def check_available_turn(quest, manager) -> bool:
         return True
     return manager.current_turn >= available_from_turn
 
+
 def check_required_quests(quest, manager) -> bool:
     required_quests = getattr(quest, "required_quests", [])
+    forbidden_quests = getattr(quest, "forbidden_quests", [])
     required_heroes = getattr(quest, "required_heroes", [])
     forbidden_heroes = getattr(quest, "forbidden_heroes", [])
 
-    # 1 — Verifica se todas as required_quests foram concluídas
-    for req in required_quests:
-        if req not in manager.completed_quests:
-            return False
-    
-    # 2 — Verifica se os heróis obrigatórios participaram
-    if required_heroes:
+    # 1 — Verifica se required_quests foram concluídas
+    if required_quests:
+        quest_requirement_met = False
+
         for req in required_quests:
-            completed_by = manager.completed_quests.get(req, set())
-            
-            # Verifica cada requisito de herói
-            for hero_req in required_heroes:
-                
-                # Converte int para string se necessário
-                hero_req_str = str(hero_req)
-                
-                # Se tem "_", significa que TODOS devem ter participado
-                if '_' in hero_req_str:
-                    hero_ids = [int(h.strip()) for h in hero_req_str.split('_')]
-                    if not all(hero_id in completed_by for hero_id in hero_ids):
-                        return False
-                
-                # Requisito simples: herói específico deve estar presente
-                else:
-                    hero_id = int(hero_req_str)
-                    if hero_id not in completed_by:
-                        return False
-    
-    # 3 — Verifica se algum herói proibido participou
+            req_str = str(req).strip()
+
+            # AND → "10_12_15"
+            if "_" in req_str:
+                ids_needed = [int(qid) for qid in req_str.split("_")]
+                if all(qid in manager.completed_quests for qid in ids_needed):
+                    quest_requirement_met = True
+
+            # OR → simples "10"
+            else:
+                if int(req_str) in manager.completed_quests:
+                    quest_requirement_met = True
+
+        if not quest_requirement_met:
+            return False
+
+    # 3 — Forbidden Quests
+    for fquest in forbidden_quests:
+        if int(fquest) in manager.completed_quests:
+            return False
+
+    # 2 — Required Heroes (agora com O, E e combos)
+    if required_heroes:
+        # Pega todos os heróis que completaram cada quest requerida
+        # (Normalmente só tem uma quest requerida, mas mantemos compatível)
+        completed_by_all = set()
+        for req in required_quests:
+            completed_by_all |= manager.completed_quests.get(req, set())
+
+        # 🎯 NOVA LÓGICA:
+        # Basta UM dos requisitos ser atendido!
+        requirement_met = False
+
+        for hero_req in required_heroes:
+            hero_req_str = str(hero_req)
+
+            # Caso "AND" → 1_2_3
+            if "_" in hero_req_str:
+                ids_needed = [int(h.strip()) for h in hero_req_str.split("_")]
+                if all(hid in completed_by_all for hid in ids_needed):
+                    requirement_met = True
+
+            # Caso simples → OR
+            else:
+                if int(hero_req_str) in completed_by_all:
+                    requirement_met = True
+        
+        # Se nenhum requisito foi atendido → falha
+        if not requirement_met:
+            return False
+
+    # 3 — Forbidden Heroes
     if forbidden_heroes:
         for req in required_quests:
             completed_by = manager.completed_quests.get(req, set())
-            
-            # Se QUALQUER herói proibido completou, bloqueia a quest
             for forbidden_id in forbidden_heroes:
                 if forbidden_id in completed_by:
                     return False
 
     return True
+
 
 def check_trigger_on_fail(quest, manager) -> bool:
     """Verifica se a quest é liberada apenas se outras falharem."""

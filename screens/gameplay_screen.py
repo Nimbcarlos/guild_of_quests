@@ -208,14 +208,14 @@ class GameplayScreen(Screen):
         container.add_widget(Label(
             text=f"[b]{quest.name}[/b]",
             markup=True, font_size=24, color=(0, 0, 0, 1),
-            size_hint_y=None, height=30
+            size_hint_y=None, height=28
         ))
 
         container.add_widget(Label(
             text=f"{self.lm.t('type_label')}: {quest.type} | {self.lm.t('difficulty_label')}: {quest.difficulty}",
             color=(0, 0, 0, 1),
             size_hint_y=None,
-            height=20
+            height=18
         ))
 
         # Taxa de sucesso
@@ -223,7 +223,7 @@ class GameplayScreen(Screen):
             text=f'{self.lm.t('success_rate')}: --',
             color=(0, 0, 0, 1),
             size_hint_y=None,
-            height=25
+            height=18
         )
         container.add_widget(self.success_label)
 
@@ -231,7 +231,7 @@ class GameplayScreen(Screen):
             text=quest.description,
             color=(0, 0, 0, 1),
             halign="left",
-            text_size=(container.width * 0.9, None),
+            text_size=(container.width * 0.95, None),
             valign="top",
             size_hint_y=None,
             font_size=max(16, int(container.width * 0.024)),
@@ -761,7 +761,7 @@ class GameplayScreen(Screen):
         quest_scroll.add_widget(quest_list_box)
 
         # === ÁREA DE DETALHES (direita) ===
-        details_container = BoxLayout(orientation="vertical", spacing=10)
+        details_container = BoxLayout(orientation="vertical", spacing=5)
         
         # Título da quest selecionada (topo)
         quest_title_label = Label(

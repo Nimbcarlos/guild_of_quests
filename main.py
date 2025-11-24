@@ -21,6 +21,7 @@ try:
     from core.font_manager import FontManager
     import traceback
     from kivy.core.window import Window
+    from datetime import datetime
 
     # Caminho do config.json
     CONFIG_FILE = "config.json"
@@ -93,16 +94,32 @@ try:
     if __name__ == "__main__":
         GameApp().run()
 
+
 except Exception as e:
-    print(e)
     exc_type, exc_value, exc_traceback = sys.exc_info()
-    
+    tb_list = traceback.format_exception(exc_type, exc_value, exc_traceback)
+    tb_text = "".join(tb_list)
+
+    # Extração básica
     tb = traceback.extract_tb(exc_traceback)
     filename, line, func, text = tb[-1]
-    
-    print(f"❌ Erro: {exc_type.__name__}")
-    print(f"📄 Arquivo: {filename}")
-    print(f"📍 Linha: {line}")
-    print(f"🔧 Função: {func}")
-    print(f"💬 Mensagem: {exc_value}")
-    print(f"📝 Código: {text}")
+
+    # ===============================
+    # 📌 SALVA EM LOG.TXT
+    # ===============================
+    with open("log.txt", "a", encoding="utf-8") as log:
+        log.write("\n" + "=" * 60 + "\n")
+        log.write(f"Erro em: {datetime.now()}\n")
+        log.write(f"Exception: {exc_type.__name__}\n")
+        log.write(f"Arquivo: {filename}\n")
+        log.write(f"Linha: {line}\n")
+        log.write(f"Função: {func}\n")
+        log.write(f"Mensagem: {exc_value}\n")
+        log.write(f"Código: {text}\n")
+        log.write("\n--- Traceback completo ---\n")
+        log.write(tb_text)
+        log.write("\n" + "=" * 60 + "\n")
+
+    # Mostra no console também
+    print("❌ Erro capturado!")
+    print(tb_text)

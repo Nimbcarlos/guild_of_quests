@@ -1011,5 +1011,620 @@
         "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de successo tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
       }
     }
+  },
+  "101": {
+    "success": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "Eu… fui lá de novo. O poço ainda cheirava meio estranho, mas… eu desci rápido. Quando vi aquele monte de gosminha mexendo, eu só… bati. Bati forte. Elas grudavam no chão e tentavam pular em mim, mas eu fiquei meio… nervosa, então acabei esmagando tudo antes de pensar muito. Senti vergonha depois porque… fiz barulho demais. Mas funcionou, eu acho."
+        },
+        "2": {
+          "id": "2",
+          "text": "Voltei ao poço achando que dessa vez seria mais simples, mas as pequenas gosmas estavam se multiplicando. Eu tentei conversar comigo mesma sobre não pular direto, mas… bom, eu pulei direto. Usei o balde como distração e acertei as criaturinhas com movimentos precisos. Não foi elegante, mas foi honesto: eu só queria impedir que elas saíssem dali. No fim, elas pararam de mexer. Eu também parei um pouco pra respirar."
+        },
+        "3": {
+          "id": "3",
+          "text": "Desci ao poço e as pequenas formas tremulavam como se sussurrassem algo que só eu escutava. Talvez fosse só a água… ou talvez não. Toquei o símbolo em meu peito e pedi claridade. A luz respondeu, e as gosmas… murcharam, como se tivessem desistido. As vozes disseram que aquilo não era o fim, mas elas dizem tantas coisas. O importante é: lá embaixo está quieto, por enquanto."
+        },
+        "4": {
+          "id": "4",
+          "text": "Eu desci para analisar, mas quando vi os pequenos slimes… eu meio que tive uma ideia imediata. Eles reagiam a pequenas cargas elétricas, então eu… fui testando intensidades. Só queria descobrir o limiar de dissipação, mas acabei… acertando um disparo contínuo. Eles vaporizaram. Eu anotei tudo mentalmente. Foi… bom. Muito bom."
+        }
+      },
+      "teams": {
+        "1_2": [
+          {
+            "id": "2",
+            "text": "Lyra desceu primeiro e eu quase escorreguei tentando acompanhar, mas as gosminhas estavam por toda parte. Eu falei pra ela que dava pra resolver sem quebrar nada, mas…"
+          },
+          {
+            "id": "1",
+            "text": "D-desculpa… eu só vi elas vindo e meu corpo foi mais rápido que minha cabeça. Eu bati antes de pensar."
+          },
+          {
+            "id": "2",
+            "text": "É, eu vi. E admito que… funcionou. Eu só fui desviando do que voava enquanto acertava as menores."
+          },
+          {
+            "id": "1",
+            "text": "Obrigada por não reclamar… eu prometo tentar ser mais delicada. Um dia."
+          }
+        ],
+        "1_3": [
+          {
+            "id": "3",
+            "text": "As pequenas criaturas pulsavam como corações fora do corpo. Lyra parecia inquieta, mas eu achei que a luz poderia acalmá-las."
+          },
+          {
+            "id": "1",
+            "text": "Elas não estavam parando… eu fiquei com medo de que pulassem em você. Então… eu acelerei um pouco."
+          },
+          {
+            "id": "3",
+            "text": "A luz não se importou com a sua força. Na verdade, me disse que ela tinha pressa. Talvez fosse só minha cabeça."
+          },
+          {
+            "id": "1",
+            "text": "Se… se ela disse, então tá certo. Fico feliz que esteja bem."
+          }
+        ],
+        "1_4": [
+          {
+            "id": "4",
+            "text": "Lyra desceu tão rápido que quase me fez perder a contagem das descargas que eu queria testar."
+          },
+          {
+            "id": "1",
+            "text": "D-desculpa… é que elas se mexiam muito e eu fiquei nervosa."
+          },
+          {
+            "id": "4",
+            "text": "Tudo bem. Enquanto você esmagava as grandes, eu consegui concentrar um feixe nos pequenos. Foi eficiente. Um pouco bonito até."
+          },
+          {
+            "id": "1",
+            "text": "Bonito? Ah… obrigada. Eu, hã… não sei reagir a isso."
+          }
+        ],
+        "2_3": [
+          {
+            "id": "3",
+            "text": "As criaturas sussurravam de um jeito estranho. Eu falei isso pra Elara, mas ela disse que era só o som da água."
+          },
+          {
+            "id": "2",
+            "text": "É que eu não ouvi nada além de… gosma batendo. Eu só tentei acertar as maiores antes que te grudassem."
+          },
+          {
+            "id": "3",
+            "text": "Você foi precisa. A luz também achou. Acho que achou. Ela muda de opinião."
+          },
+          {
+            "id": "2",
+            "text": "Olha, seja luz ou eco, deu certo. E ninguém ficou grudado, então… vitória."
+          }
+        ],
+        "2_4": [
+          {
+            "id": "4",
+            "text": "Eu queria ao menos medir uma das gosmas antes de você começar a acertá-las, mas entendo que era urgente."
+          },
+          {
+            "id": "2",
+            "text": "Desculpa, Leo… eu vi elas tentando subir no seu pé, aí eu só… reagi."
+          },
+          {
+            "id": "4",
+            "text": "Eu notei. Mas enquanto você cuidava das maiores, eu consegui descarregar um pulso controlado. Evaporou as menores de forma limpa."
+          },
+          {
+            "id": "2",
+            "text": "Ficou bem mais limpo do que minhas botas. Mas valeu. Salvou o momento."
+          }
+        ],
+        "3_4": [
+          {
+            "id": "3",
+            "text": "As pequenas massas tremulavam num ritmo que parecia… quase ritmado. Eu perguntei ao Leo se ele via isso também."
+          },
+          {
+            "id": "4",
+            "text": "Eu não vi ritmo, mas vi umidade excessiva reagindo à eletricidade. Então eu só… ativei um arco."
+          },
+          {
+            "id": "3",
+            "text": "E elas murcharam. A luz disse que era um fim limpo. Talvez fosse só sua magia."
+          },
+          {
+            "id": "4",
+            "text": "Talvez. Mas funcionou. E foi… satisfatório."
+          }
+        ],
+        "1_2_3": [
+          {
+            "id": "1",
+            "text": "Tinha muita gosma… eu quase tropecei quando desci, desculpa."
+          },
+          {
+            "id": "2",
+            "text": "Relaxa, Lyra. Eu fui desviando e acertando as menores enquanto você esmagava as grandes."
+          },
+          {
+            "id": "3",
+            "text": "E a luz ajudou a apagar o resto. Ela disse que vocês estavam… alinhadas. Não sei exatamente o que isso quer dizer."
+          },
+          {
+            "id": "1",
+            "text": "Se… se ajudou, então ainda bem. Fico menos nervosa quando vocês estão perto."
+          }
+        ],
+        "1_2_4": [
+          {
+            "id": "1",
+            "text": "Elas pulavam muito… eu senti que precisava agir rápido."
+          },
+          {
+            "id": "2",
+            "text": "E agiu mesmo. Eu só tentava não ser atingida pelos pedaços enquanto finalizava as pequenas."
+          },
+          {
+            "id": "4",
+            "text": "Eu aproveitei o caos e disparei um arco elétrico contínuo. Dissolveu o resto de forma limpa."
+          },
+          {
+            "id": "1",
+            "text": "Eu… espero não ter atrapalhado seus cálculos, Leo."
+          }
+        ],
+        "1_3_4": [
+          {
+            "id": "1",
+            "text": "Eu fiquei com medo das gosmas grudarem em vocês, então comecei rápido demais."
+          },
+          {
+            "id": "3",
+            "text": "A pressa às vezes é uma resposta divina. Ou uma ilusão. Hoje achei que era útil."
+          },
+          {
+            "id": "4",
+            "text": "Enquanto você esmagava as maiores, eu consegui alinhar um feixe perfeito. Evaporou as pequenas."
+          },
+          {
+            "id": "1",
+            "text": "Obrigada… fico mais calma com vocês dois por perto."
+          }
+        ],
+        "2_3_4": [
+          {
+            "id": "2",
+            "text": "A cena estava bem feia lá embaixo… eu tentei desviar e acertar sem fazer barulho."
+          },
+          {
+            "id": "3",
+            "text": "Barulho ou não, elas tremulavam como se respondessem à nossa chegada."
+          },
+          {
+            "id": "4",
+            "text": "Eu resolvi isso com um pulso elétrico. Simples. Eficiente."
+          },
+          {
+            "id": "2",
+            "text": "É… limpo, pelo menos. Melhor do que ficar toda grudenta."
+          }
+        ],
+        "1_2_3_4": [
+          {
+            "id": "1",
+            "text": "Eu… não sabia por onde começar. Tinha muita gosma."
+          },
+          {
+            "id": "2",
+            "text": "A gente improvisou. Você esmagou, eu finalizei o que escapava."
+          },
+          {
+            "id": "3",
+            "text": "E a luz fechou as brechas. Pelo menos por enquanto."
+          },
+          {
+            "id": "4",
+            "text": "Enquanto isso, eu apliquei descargas precisas para eliminar os menores. Foi organizado. Do meu jeito."
+          }
+        ]
+      }
+    },
+    "failure": {
+      "reporters": {
+        "1": { "id": "1", "text": "Eu... Eu não fui forte o suficiente. Minha espada... não alcançou. Sinto muito pela guilda. Vou treinar até não falhar mais." },
+        "2": { "id": "2", "text": "Eu falhei. Fui pega em um movimento previsível e perdi minha posição. É um erro de planejamento e execução, e devo aceitar as consequências. A precisão foi insuficiente." },
+        "3": { "id": "3", "text": "O fracasso era inevitável. As vozes gritaram 'Caminho Errado' por três dias seguidos, mas eu insisti em ignorá-las. O erro não foi tático, foi de discernimento. Perdemos." },
+        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de successo tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
+      }
+    }
+  },
+  "102": {
+    "success": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "Eu… eu tentei chegar perto da poça. Ela vibra. Parece que quer levantar. Eu bati um pouco, mas devagar. Não queria que ela… acordasse de vez."
+        },
+        "2": {
+          "id": "2",
+          "text": "Eu cheguei perto da poça. Ela ondula como se tivesse respiração. Não estou mentindo. Eu toquei com o cabo da adaga e ela reagiu como se tivesse vontade própria."
+        },
+        "3": {
+          "id": "3",
+          "text": "Ela chamava por algo. Não por mim desta vez, mas por ar. Por forma. Eu senti isso no peito. Eu dei a bênção e a luz entrou nela. Ela apagou."
+        },
+        "4": {
+          "id": "4",
+          "text": "A superfície dela tinha tensão suficiente para reagir a qualquer magia. Isso é perfeito para descarga. Eu soltei um raio pequeno… e ela desmontou inteira."
+        }
+      },
+
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "Lyra, eu toquei bem de leve e ela tremeu como se fosse levantar. Isso não é normal." },
+          { "id": "1", "text": "Eu… achei que ela ia pular na gente. Por isso bati um pouco. Não forte. Só pra ela parar." },
+          { "id": "2", "text": "Ela não parou muito não. Só se espalhou mais. Eu não gostei." },
+          { "id": "1", "text": "Se ela crescer mais, eu vou ter que bater de verdade. Aí… desculpa se respingar em você." }
+        ],
+
+        "1_3": [
+          { "id": "3", "text": "Lyra, ela queria se erguer. Eu senti isso. Como se tivesse um coração esperando o momento." },
+          { "id": "1", "text": "Eu fiquei com medo dela respirar. Eu ouvi… tipo um sopro." },
+          { "id": "3", "text": "Eu dei luz. Muita. Ela desfez, como se tivesse desistido de existir." },
+          { "id": "1", "text": "Obrigada… eu não queria ver o que ela ia virar depois." }
+        ],
+
+        "1_4": [
+          { "id": "4", "text": "Lyra, a textura dela estava acumulando energia. Quase pedindo um estímulo." },
+          { "id": "1", "text": "Ela parecia… inquieta. Eu não gosto quando as coisas ficam inquietas." },
+          { "id": "4", "text": "Eu descarreguei um raio. Pequeno. Só pra ver a reação. Ela se desmontou inteira." },
+          { "id": "1", "text": "Foi rápido. Eu achei que ia ter que bater. Ainda bem que não precisei." }
+        ],
+
+        "2_3": [
+          { "id": "2", "text": "Ela tentou grudar no cabo da minha adaga de novo. Mas dessa vez… parecia mais forte." },
+          { "id": "3", "text": "É porque ela estava crescendo por dentro. Eu senti isso. Como se estivesse pronta pra nascer." },
+          { "id": "2", "text": "Não fala 'nascer', Kael. Isso deixa tudo pior." },
+          { "id": "3", "text": "A luz entrou nela… e ela desistiu. Se espalhou, quieta." }
+        ],
+
+        "2_4": [
+          { "id": "2", "text": "Leo, me promete que você não vai enfiar a mão aí." },
+          { "id": "4", "text": "Eu só queria medir a temperatura. Ela estava quente demais no centro." },
+          { "id": "2", "text": "Quente não é normal. Nada quente é bom em gosmas." },
+          { "id": "4", "text": "O raio desmontou tudo. Nem sobrou padrão pra analisar depois." }
+        ],
+
+        "3_4": [
+          { "id": "3", "text": "Leo, ela estava chamando. Não você. Algo que estava dentro." },
+          { "id": "4", "text": "Eu só vi muita energia presa. Energia suficiente para virar outra coisa." },
+          { "id": "3", "text": "Eu dei luz. Você deu raio. Ela não teve chance." },
+          { "id": "4", "text": "Sim. Fim limpo. Nenhuma reação depois." }
+        ],
+
+        "1_2_3": [
+          { "id": "3", "text": "Ela estava tentando erguer o próprio corpo. Eu senti isso na pele." },
+          { "id": "2", "text": "Eu não tô duvidando. Ela puxou a adaga como se tivesse vontade mesmo." },
+          { "id": "1", "text": "Ela era… maior do que antes. Muito maior." },
+          { "id": "3", "text": "A luz resolveu. Ela apagou. Não resistiu." }
+        ],
+
+        "1_2_4": [
+          { "id": "4", "text": "O centro dela tinha energia acumulada demais. Era perigoso." },
+          { "id": "2", "text": "Ela vibrou quando cheguei perto. Eu não gostei disso nem um pouco." },
+          { "id": "1", "text": "Eu ia bater… mas você agiu rápido." },
+          { "id": "4", "text": "O raio desmontou tudo. Melhor assim." }
+        ],
+
+        "1_3_4": [
+          { "id": "4", "text": "Ela tinha estrutura. Estrutura mesmo, tentando formar algo." },
+          { "id": "3", "text": "Algo que queria sair. Eu senti ela chamando isso." },
+          { "id": "1", "text": "Eu fiquei… com medo. Do tamanho." },
+          { "id": "4", "text": "Luz e raio juntos foram o suficiente. Não sobrou forma." }
+        ],
+
+        "2_3_4": [
+          { "id": "2", "text": "Ok, ela estava bem maior. E mais grudenta. E mais estranha." },
+          { "id": "3", "text": "Ela queria se levantar. Eu ouvi isso. Alto." },
+          { "id": "4", "text": "Isso explicava a energia acumulada. Era muita mesmo." },
+          { "id": "3", "text": "Acabou quando fizemos ela iluminar por dentro. Ela sumiu devagar." }
+        ],
+
+        "1_2_3_4": [
+          { "id": "4", "text": "A energia dela estava no limite. Era perigoso deixar crescer." },
+          { "id": "3", "text": "Ela pedia forma. Pedia saída." },
+          { "id": "2", "text": "Eu só queria que ela parasse de tentar puxar minhas coisas." },
+          { "id": "1", "text": "Ainda bem que vocês dois… fizeram ela sumir. Eu não queria lutar com o que ia sair dali." }
+        ]
+      }
+    },
+    "failure": {
+      "reporters": {
+        "1": { "id": "1", "text": "Eu... Eu não fui forte o suficiente. Minha espada... não alcançou. Sinto muito pela guilda. Vou treinar até não falhar mais." },
+        "2": { "id": "2", "text": "Eu falhei. Fui pega em um movimento previsível e perdi minha posição. É um erro de planejamento e execução, e devo aceitar as consequências. A precisão foi insuficiente." },
+        "3": { "id": "3", "text": "O fracasso era inevitável. As vozes gritaram 'Caminho Errado' por três dias seguidos, mas eu insisti em ignorá-las. O erro não foi tático, foi de discernimento. Perdemos." },
+        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de successo tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
+      }
+    }
+  },
+  "103": {
+    "success": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "Eu… empurrei a lança com tudo. O Rei Slime era tão pesado que meus braços tremeram, mas eu continuei firme. Eu não podia deixar ele chegar na vila."
+        },
+        "2": {
+          "id": "2",
+          "text": "Aquilo era grande demais pra qualquer explicação honesta que eu pudesse dar… mas a gente segurou. Eu fiquei tentando achar pontos mais secos, só pra ganhar tempo."
+        },
+        "3": {
+          "id": "3",
+          "text": "A criatura pulsava como um pensamento perdido. As vozes ficaram agitadas, cada uma dizendo uma coisa diferente, mas eu ouvi a que pedia calma."
+        },
+        "4": {
+          "id": "4",
+          "text": "A densidade da massa variava o tempo inteiro. Fascinante. Se eu amplificasse energia no ponto certo, ele desmoronaria… e foi exatamente o que fiz."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "1", "text": "E-eu tentei segurar a frente… mas ele quase me empurrou pra trás inteiro, Elara." },
+          { "id": "2", "text": "Eu vi! Você segurou bem mais do que alguém normal seguraria. Só precisava de um pouco de espaço pra gente pensar." },
+          { "id": "1", "text": "A parte do meio dele… era tão quente que parecia respirar." },
+          { "id": "2", "text": "Sim. E quanto mais respirava, mais eu tentava achar um ponto que não grudasse no meu braço." }
+        ],
+        "1_3": [
+          { "id": "1", "text": "Kael… você ficou parado olhando pra ele por muito tempo. Achei que você tinha congelado." },
+          { "id": "3", "text": "Não. Eu estava ouvindo o ritmo dele. Era lento, mas cheio demais. Precisava entender antes de agir." },
+          { "id": "1", "text": "Eu… fiquei com medo de você ouvir alguma coisa ruim." },
+          { "id": "3", "text": "Eu ouvi, sim. Mas também ouvi que dava pra terminar aquilo sem hesitar." }
+        ],
+        "1_4": [
+          { "id": "1", "text": "Leo, quando você disse que ia descarregar tudo… eu achei que você fosse sumir dentro da poça." },
+          { "id": "4", "text": "A viscosidade aumentou quando a carga entrou. Era isso que eu queria. A estrutura quebrava quando ficava instável." },
+          { "id": "1", "text": "Eu só… esperei ele ceder. E aí empurrei com tudo que tinha." },
+          { "id": "4", "text": "Funcionou exatamente no timing certo. Foi perfeito." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "Kael… você falou que ele tava ‘pesado demais pra existir’. Eu não entendi nada, mas não discuti." },
+          { "id": "3", "text": "Era só o que eu senti. A densidade dele parecia ter pensamentos dentro." },
+          { "id": "2", "text": "Pensamentos ou não, eu só queria que ele parasse de escorrer pra cima da gente." },
+          { "id": "3", "text": "Eu também. Por isso olhei pra dentro dele até entender onde o ritmo falhava." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "Leo, você encarou o Rei Slime como se fosse um exercício de magia avançada." },
+          { "id": "4", "text": "Era imprevisível. Quanto mais ele vibrava, mais dava pra medir o ponto onde eu podia intervir." },
+          { "id": "2", "text": "Bom… eu fui te dando espaço. E segurando quando ele vinha pra cima." },
+          { "id": "4", "text": "Foi essencial. Sem seu tempo, eu teria errado o cálculo." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "A criatura falava sem som. Só pulsava. Você ouviu isso também?" },
+          { "id": "4", "text": "Eu senti como estática. Instável. Boa pra conduzir energia." },
+          { "id": "3", "text": "Quando você começou a carregar, o ritmo dele mudou. Ficou mais… tenso." },
+          { "id": "4", "text": "Sim. Era o momento certo pra quebrar a estrutura. E você viu antes de mim." }
+        ],
+        "1_2_3": [
+          { "id": "1", "text": "Eu fiquei na frente… e vocês dois fizeram alguma coisa atrás de mim. Eu só senti o chão tremer." },
+          { "id": "2", "text": "A gente tentava manter ele distraído enquanto você segurava. Ele não gostava quando eu batia nos lados dele." },
+          { "id": "3", "text": "Ele não gostava de nada que quebrasse o ritmo. Isso ajudou." },
+          { "id": "1", "text": "Então… obrigada. Eu não teria aguentado sozinha." }
+        ],
+        "1_2_4": [
+          { "id": "1", "text": "Eu empurrei com tudo e senti ele cedendo. Foi aí que vocês fizeram alguma coisa, né?" },
+          { "id": "2", "text": "Eu tentei abrir espaço pra você não ficar presa na gosma. Só isso já ajudou muito." },
+          { "id": "4", "text": "E eu descarreguei energia quando a estrutura amoleceu. Seu empurrão criou o momento certo." },
+          { "id": "1", "text": "Fico… feliz que tenha dado certo desse jeito." }
+        ],
+        "1_3_4": [
+          { "id": "1", "text": "Vocês dois ficaram olhando pra ele como se estivessem conversando com a criatura." },
+          { "id": "3", "text": "Eu estava ouvindo. Ele tinha dúvidas no movimento." },
+          { "id": "4", "text": "E eu media a instabilidade. Era mais fácil assim." },
+          { "id": "1", "text": "Bom… eu só bati quando vocês disseram que dava." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "Eu tentei achar qualquer parte que não grudasse. Não achei. Mas achei pontos bons pra irritar ele." },
+          { "id": "3", "text": "Ele ficava inquieto quando você fazia isso. O ritmo quebrava." },
+          { "id": "4", "text": "E quando o ritmo quebrava, eu conseguia medir melhor a vibração interna." },
+          { "id": "2", "text": "No fim… foi exatamente isso que abriu espaço pra gente acabar com ele." }
+        ],
+        "1_2_3_4": [
+          { "id": "1", "text": "Eu só… tentei segurar firme. Mesmo tremendo." },
+          { "id": "2", "text": "E nós três tentamos dar o máximo pra você não segurar sozinha." },
+          { "id": "3", "text": "O ritmo dele se partiu no final. Foi aí que tudo fez sentido." },
+          { "id": "4", "text": "E o colapso aconteceu no segundo exato em que vocês seguraram. Perfeito." }
+        ]
+      }
+    },
+    "failure": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "Eu tentei… de verdade. Mas quando o Rei Slime avançou de uma vez, minhas pernas travaram. Ele era grande demais."
+        },
+        "2": {
+          "id": "2",
+          "text": "Eu fiz tudo certo, tudo direitinho… mas aquilo não parava de crescer na nossa frente. Não tinha como segurar."
+        },
+        "3": {
+          "id": "3",
+          "text": "As vozes ficaram todas confusas. Nenhuma dizia a mesma coisa. Eu não consegui ouvir o caminho certo."
+        },
+        "4": {
+          "id": "4",
+          "text": "As reações dele não batiam com os cálculos. Nada seguia um padrão estável. Eu… perdi o controle da situação."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "1", "text": "E-eu não consegui firmar o golpe. Ele empurrou tudo pra trás, como se eu fosse feita de papel." },
+          { "id": "2", "text": "Eu tentei te dar espaço. Juro que tentei. Mas ele se espalhava rápido demais." },
+          { "id": "1", "text": "Senti meu braço tremer… eu nunca senti isso contra um slime." },
+          { "id": "2", "text": "Nem eu. E olha que eu já fugi de muita coisa esquisita." }
+        ],
+        "1_3": [
+          { "id": "1", "text": "Kael… você ficou branco quando ele mudou de forma. Eu nunca te vi assim." },
+          { "id": "3", "text": "Ele me olhou sem olhos. Eu não consegui entender o que ele queria fazer… isso me travou." },
+          { "id": "1", "text": "Eu queria ter puxado você, mas ele cresceu muito rápido." },
+          { "id": "3", "text": "Não foi culpa sua. Eu que não escutei a voz certa." }
+        ],
+        "1_4": [
+          { "id": "1", "text": "Quando você disse que não dava pra calcular mais… eu fiquei com medo." },
+          { "id": "4", "text": "Eu também. Ele mudava de densidade a cada segundo. Era impossível prever." },
+          { "id": "1", "text": "Eu tentei só… segurar. Mas ele me empurrou pra trás." },
+          { "id": "4", "text": "Não era falta de força sua. Era instabilidade demais pra qualquer plano." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "Kael, quando você parou de falar, eu achei que tinha acontecido alguma coisa séria." },
+          { "id": "3", "text": "A criatura engoliu o som. Eu perdi o fio das vozes… fiquei vazio por um momento." },
+          { "id": "2", "text": "Eu tentei te puxar, mas ele escorria por cima da minha mão." },
+          { "id": "3", "text": "Eu senti. E mesmo assim não consegui reagir rápido o bastante." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "Eu fiquei procurando um ponto seco, qualquer coisa. Mas não tinha. Nada ali ajudava." },
+          { "id": "4", "text": "Eu percebi isso quando tentei medir. Não havia padrão. Era caos puro." },
+          { "id": "2", "text": "Eu só… não consegui acompanhar a velocidade dele." },
+          { "id": "4", "text": "Ninguém teria conseguido. Não com o jeito que ele oscilava." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "Eu tentei seguir o ritmo… mas ele se partia sempre que eu achava um sinal." },
+          { "id": "4", "text": "Eu também perdi leitura. Ele absorvia energia antes de eu usar." },
+          { "id": "3", "text": "As vozes ficaram silenciosas no final. Isso me deixou… assustado." },
+          { "id": "4", "text": "Eu também fiquei. Não parecia um slime comum em nenhum sentido." }
+        ],
+        "1_2_3": [
+          { "id": "1", "text": "Eu tentei segurar pra vocês respirarem… mas ele veio por cima de mim." },
+          { "id": "2", "text": "A gente tentava quebrar o ritmo, mas ele ignorava tudo que eu fazia." },
+          { "id": "3", "text": "Eu procurei uma falha no movimento, mas não consegui encontrar." },
+          { "id": "1", "text": "Eu senti que… que a gente precisava recuar. Foi isso que eu fiz." }
+        ],
+        "1_2_4": [
+          { "id": "1", "text": "Eu empurrei o máximo que pude, mas era como bater numa onda." },
+          { "id": "2", "text": "Eu tentei te dar espaço pra respirar, mas ele tomava tudo ao redor." },
+          { "id": "4", "text": "E eu perdi o momento certo pra intervir. Não dava pra prever nada." },
+          { "id": "1", "text": "Desculpa… eu só consegui pensar em voltar inteira." }
+        ],
+        "1_3_4": [
+          { "id": "1", "text": "Quando vocês dois ficaram quietos ao mesmo tempo… eu soube que tinha dado errado." },
+          { "id": "3", "text": "Eu perdi o ritmo dele completamente. Foi como ouvir um silêncio enorme." },
+          { "id": "4", "text": "E eu perdi a leitura da energia. Toda projeção falhou." },
+          { "id": "1", "text": "Então… eu puxei vocês e corri." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "Eu tentei provocar ele pra ver se parava de avançar… mas nem isso fez diferença." },
+          { "id": "3", "text": "Ele só reagia de forma aleatória. Não seguia nenhum impulso que eu conseguia entender." },
+          { "id": "4", "text": "E não dava pra medir fluxo nenhum. Nada se alinhava." },
+          { "id": "2", "text": "Então a gente recuou antes de virar parte da gosma." }
+        ],
+        "1_2_3_4": [
+          { "id": "1", "text": "Eu não consegui ser forte o bastante. Ele era enorme demais." },
+          { "id": "2", "text": "Ei… ninguém aqui falhou sozinho. Todo mundo fez o que dava." },
+          { "id": "3", "text": "O ritmo dele era impossível de seguir. Não havia caminho certo." },
+          { "id": "4", "text": "E sem padrão… não havia estratégia que funcionasse. A gente só voltou vivo. Isso já conta." }
+        ]
+      }
+    }
+  },
+  "120": {
+    "success": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "Eu… eu lidei com os goblins. É… foi rápido. Eles atacaram primeiro, eu só… empurrei um deles e ele voou longe demais. Eu não queria assustar ninguém, mas quando vi já tinha acabado. A vila está segura… eu acho."
+        },
+        "2": {
+          "id": "2",
+          "text": "Eu encontrei os goblins perto de uma clareira. Deram trabalho, mas nada fora do esperado. O estranho é que rastreei pegadas a mais além dos que enfrentamos. Não menti pra mim mesma: eram pegadas de goblin, mas… mais do que os que vimos. Só não consegui descobrir pra onde foram."
+        },
+        "3": {
+          "id": "3",
+          "text": "Os goblins… eles estavam inquietos. Eu ouvi murmúrios, mas não deles. Algo perto dali sussurrava palavras que não combinavam com o vento. Lutei mesmo assim. As vozes não interferiram muito dessa vez. Acho que os goblins estavam fugindo de algo, não indo atacar. É só… uma sensação."
+        },
+        "4": {
+          "id": "4",
+          "text": "Os goblins reagiram de forma previsível. Eles sempre reagem assim quando alguém conjura uma descarga elétrica na direção deles. Fiz os cálculos: baixa resistência física + alta condutividade ambiental = vitória rápida. Só um detalhe curioso: contei mais marcas de passos do que goblins no combate. Não consegui seguir todas, porque… bem… tinha relâmpagos para focar."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "Lyra lidou com os goblins de um jeito bem direto. Eu rastreei onde eles estavam e percebi pegadas a mais do que o número que encontramos. Não escondi isso — parecia errado ignorar. Mas quando chegamos lá, Lyra só… avançou. Funcionou, de certa forma." },
+          { "id": "1", "text": "A Elara encontrou tudo. Eu só… fiz minha parte. Ela falou das pegadas extras, mas eu não consegui ver direito. Quando os goblins vieram pra cima da gente, eu fiquei nervosa e… empurrei um deles longe demais. Desculpa." },
+          { "id": "2", "text": "Ela pede desculpa, mas não precisa. Ela resolveu a parte difícil. Eu só segui os rastros — inclusive os extras, que continuam sem explicação. Não quis pressionar ninguém com isso." },
+          { "id": "1", "text": "Eu… fico mais tranquila quando ela fala assim. É bom ter alguém que entende onde pisar antes de eu estragar o chão com força demais." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "As vozes estavam agitadas perto dos goblins. Nada que me impedisse de agir. Lyra parecia desconfortável, mas firme. Quando o primeiro goblin avançou, ela o derrubou como se fosse leve demais. As vozes até silenciaram por um momento." },
+          { "id": "1", "text": "Eu só queria ajudar… mas o Kael ficou olhando pro nada às vezes. Eu não sabia se devia perguntar. Quando os goblins vieram, eu só… fiz o que precisava. Eles eram tão pequenos… fiquei com medo de exagerar." },
+          { "id": "3", "text": "Ela exagerou, sim, mas de um jeito útil. As vozes pareciam satisfeitas. Ou irritadas. Ou… é, não sei. Mas ela nos manteve vivos." },
+          { "id": "1", "text": "Eu… fico feliz que tenha dado certo. Espero não ter deixado as vozes bravas." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "Lyra sempre me surpreende. Eu tinha um plano elétrico bem organizado, mas antes que eu pudesse lançar o segundo feixe, ela já tinha derrubado metade dos goblins com força bruta. Impressionante. Desorganiza um pouco meu cálculo, mas impressionante." },
+          { "id": "1", "text": "Desculpa, Leo… eu… eu achei que você precisava de tempo. Só bati neles um pouquinho forte demais." },
+          { "id": "4", "text": "Não precisa se desculpar. Sua força é… eficiente. Só gostaria de ter medido melhor o impacto. Ah, e contei pegadas a mais do que os goblins derrotados. Isso ficou na minha cabeça, mas a luta me tirou do foco." },
+          { "id": "1", "text": "Se quiser medir… posso segurar um goblin da próxima vez. Com cuidado." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "Eu rastreei os goblins e achei pegadas extras. Não escondi nada disso do Kael, mas ele ficou olhando pro horizonte e murmurando coisas. Mesmo assim, ele lutou bem. Os goblins não sabiam pra onde correr — e eu também não entendi de onde vinham aquelas pegadas." },
+          { "id": "3", "text": "As pegadas… sim. Algumas se moviam, outras não. Pelo menos é isso que as vozes disseram. Talvez nenhuma delas fosse real. A Elara sempre fala a verdade, então confiei na análise dela. Atacamos juntos e isso funcionou." },
+          { "id": "2", "text": "Eu prefiro quando ele não descreve as pegadas como ‘talvez inexistentes’, mas funcionou. E ele não se perdeu nas vozes dessa vez." },
+          { "id": "3", "text": "Porque você fala claro. Isso ajuda a silenciar muita coisa na minha cabeça." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "Rastreei o grupo de goblins e encontrei pegadas além das deles. Contei para o Leo, claro. Ele ficou olhando para o chão como se fosse resolver um enigma elétrico. Quando os goblins apareceram, ele já estava com magia acumulada." },
+          { "id": "4", "text": "Sim, eu tentei seguir as pegadas extras, mas o terreno tinha uma resistência diferente da esperada. Isso me distraiu. Quando os goblins surgiram, preferi focar nos relâmpagos — muito mais previsíveis." },
+          { "id": "2", "text": "Ele realmente fica mais tranquilo quando tudo envolve cálculos. No fim, os goblins caíram rápido. Mas as pegadas continuam me incomodando." },
+          { "id": "4", "text": "Também me incomodam. Mas não tanto quanto a irregularidade do solo naquela área. Isso me tira o sono." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "O ar estava pesado. Eu ouvi vozes comentando sobre passos que não eram nossos. Pedi para o Leo confirmar, mas ele estava ocupado analisando o solo… e preparando relâmpagos. Quando os goblins avançaram, as vozes ficaram agitadas, mas conseguimos lidar." },
+          { "id": "4", "text": "Sim, havia passos extras. Não tantos quanto Kael descreveu, acho. Eu contei só alguns. Mas eu estava mais interessado na umidade do ar — perfeita para condução elétrica. Isso ajudou muito na luta." },
+          { "id": "3", "text": "As vozes discordam, mas elas discordam de tudo. O importante é que funcionou." },
+          { "id": "4", "text": "Sim. Funcionou. Ainda quero medir o campo elétrico daquela área novamente." }
+        ],
+        "1_2_3": [
+          { "id": "1", "text": "Eu tentei seguir a Elara sem fazer barulho… mas acho que falhei. Quando os goblins apareceram, fiquei nervosa. Bati neles forte demais. O Kael murmurava coisas estranhas, mas parecia calmo." },
+          { "id": "2", "text": "Eu falei para elas sobre as pegadas extras. Ainda acho isso muito estranho. A Lyra tentou ser cuidadosa, mas ela é… forte demais pra isso. Não tem problema, ela resolveu a parte difícil." },
+          { "id": "3", "text": "As pegadas… algumas estavam ali, outras talvez não. A Lyra espantou até as vozes quando derrubou o primeiro goblin. A Elara foi a única que andou com clareza naquela confusão toda." },
+          { "id": "1", "text": "Eu fico feliz que… que vocês não acharam que eu exagerei. Eu só queria ajudar." }
+        ],
+        "1_2_4": [
+          { "id": "1", "text": "Eu vi a Elara agachar para ver as pegadas. Ela falou de mais rastros do que goblins. Isso me deixou nervosa. Quando eles apareceram, eu bati neles rápido demais… acho que assustei o Leo um pouco." },
+          { "id": "2", "text": "Ela bateu forte, sim. Mas melhor forte do que devagar. Eu só segui as pegadas — inclusive as extras. E o Leo ficou parado analisando o ar, acho." },
+          { "id": "4", "text": "O ar estava com estática acumulada. Era importante. E sim, vi pegadas extras, mas não consegui seguir. A Lyra resolveu a luta antes que eu pudesse testar a descarga que eu queria usar." },
+          { "id": "1", "text": "Desculpa, Leo. Da próxima vez… eu espero seu teste." }
+        ],
+        "1_3_4": [
+          { "id": "1", "text": "Eu fiquei perto dos dois, mas o Kael falava coisas que eu não entendia. O Leo parecia distraído com faíscas no ar. Quando os goblins chegaram, eu só… empurrei um e acabei derrubando os outros também." },
+          { "id": "3", "text": "As vozes disseram que eles tinham medo. Não de nós — de algo atrás deles. Mas quando a Lyra os derrubou, tudo ficou em silêncio. Eu gosto desse silêncio." },
+          { "id": "4", "text": "Eu confirmo que a reação em cadeia da força da Lyra foi… impressionante. Também notei passos extras antes da luta, mas não tive tempo de analisá-los." },
+          { "id": "1", "text": "Se quiser… posso tentar não derrubar tantos de uma vez da próxima vez." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "Eu segui os rastros dos goblins. Tinham pegadas extras, sim. Contei isso pros dois. O Kael começou a ouvir coisas, o Leo começou a analisar o solo. Eu só continuei andando." },
+          { "id": "3", "text": "As vozes se confundiram com o barulho dos passos. Nem todas as pegadas eram verdade… acho. Mas quando os goblins apareceram, consegui focar." },
+          { "id": "4", "text": "O terreno estava com densidade estranha. Isso afetou meu cálculo de descarga elétrica. Mesmo assim, derrotamos os goblins rápido." },
+          { "id": "2", "text": "Sim. Mas continuo pensando naquelas pegadas extras. Não gosto de deixar coisas sem explicação." }
+        ],
+        "1_2_3_4": [
+          { "id": "1", "text": "Eu tentei seguir vocês devagar… mas quando os goblins vieram, entrei na frente sem pensar. Desculpa se atrapalhei." },
+          { "id": "2", "text": "Você não atrapalhou, Lyra. As pegadas extras ainda me incomodam, mas a luta foi rápida. Você resolveu a parte difícil." },
+          { "id": "3", "text": "As vozes ficaram confusas com tanta informação. Mas quando a Lyra atacou, elas se calaram. Isso sempre me ajuda a pensar." },
+          { "id": "4", "text": "Eu ia testar uma descarga nova, mas a Lyra finalizou tudo antes. Ainda quero voltar lá para analisar os rastros extras." }
+        ]
+      }
+    },
+    "failure": {
+      "reporters": {
+        "1": { "id": "1", "text": "Eu... Eu não fui forte o suficiente. Minha espada... não alcançou. Sinto muito pela guilda. Vou treinar até não falhar mais." },
+        "2": { "id": "2", "text": "Eu falhei. Fui pega em um movimento previsível e perdi minha posição. É um erro de planejamento e execução, e devo aceitar as consequências. A precisão foi insuficiente." },
+        "3": { "id": "3", "text": "O fracasso era inevitável. As vozes gritaram 'Caminho Errado' por três dias seguidos, mas eu insisti em ignorá-las. O erro não foi tático, foi de discernimento. Perdemos." },
+        "4": { "id": "4", "text": "Os dados que tínhamos eram incompletos ou falhos. Nosso modelo de successo tinha apenas 38.7% de probabilidade, mas agimos assim mesmo. O resultado é estatisticamente esperado. Precisamos de mais análise e menos pressa." }
+      }
+    }
   }
 }

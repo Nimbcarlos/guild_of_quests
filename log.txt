@@ -1,0 +1,284 @@
+
+============================================================
+Erro em: 2025-11-23 17:45:48.305535
+Exception: AttributeError
+Arquivo: d:\Python\Jogo\core\quest_requirements.py
+Linha: 32
+Função: check_required_quests
+Mensagem: 'QuestManager' object has no attribute 'current_team'
+Código: completed_by_all = set(manager.current_team)
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 379, in idle
+    Clock.tick()
+    ~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 776, in post_idle
+    self._process_events()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "kivy\\_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 370, in _update
+    self.stop(widget)
+    ~~~~~~~~~^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 236, in stop
+    self.dispatch('on_complete', widget)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\screenmanager.py", line 419, in _on_complete
+    self.screen_in.dispatch('on_enter')
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 63, in on_enter
+    self.update_sidebar()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 176, in update_sidebar
+    for quest in qm.get_available_quests():
+                 ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\core\quest_manager.py", line 237, in get_available_quests
+    return self.available_quests()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\core\quest_manager.py", line 214, in available_quests
+    if all(check(q, self) for check in self.requirement_checks):
+       ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\core\quest_manager.py", line 214, in <genexpr>
+    if all(check(q, self) for check in self.requirement_checks):
+           ~~~~~^^^^^^^^^
+  File "d:\Python\Jogo\core\quest_requirements.py", line 32, in check_required_quests
+    completed_by_all = set(manager.current_team)
+                           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuestManager' object has no attribute 'current_team'. Did you mean: 'current_turn'?
+
+============================================================
+
+============================================================
+Erro em: 2025-11-23 17:46:39.836949
+Exception: AttributeError
+Arquivo: d:\Python\Jogo\core\quest_requirements.py
+Linha: 32
+Função: check_required_quests
+Mensagem: 'QuestManager' object has no attribute 'current_team'
+Código: completed_by_all = set(manager.current_team)
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 379, in idle
+    Clock.tick()
+    ~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 776, in post_idle
+    self._process_events()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "kivy\\_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 370, in _update
+    self.stop(widget)
+    ~~~~~~~~~^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 236, in stop
+    self.dispatch('on_complete', widget)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\screenmanager.py", line 419, in _on_complete
+    self.screen_in.dispatch('on_enter')
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 63, in on_enter
+    self.update_sidebar()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 176, in update_sidebar
+    for quest in qm.get_available_quests():
+                 ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\core\quest_manager.py", line 237, in get_available_quests
+    return self.available_quests()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\core\quest_manager.py", line 214, in available_quests
+    if all(check(q, self) for check in self.requirement_checks):
+       ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\core\quest_manager.py", line 214, in <genexpr>
+    if all(check(q, self) for check in self.requirement_checks):
+           ~~~~~^^^^^^^^^
+  File "d:\Python\Jogo\core\quest_requirements.py", line 32, in check_required_quests
+    completed_by_all = set(manager.current_team)
+                           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuestManager' object has no attribute 'current_team'. Did you mean: 'current_turn'?
+
+============================================================
+
+============================================================
+Erro em: 2025-11-23 17:50:46.555638
+Exception: AttributeError
+Arquivo: d:\Python\Jogo\core\quest_requirements.py
+Linha: 50
+Função: check_required_quests
+Mensagem: 'QuestManager' object has no attribute 'current_team'
+Código: completed_by_all = set(manager.current_team)
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 379, in idle
+    Clock.tick()
+    ~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 776, in post_idle
+    self._process_events()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "kivy\\_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 370, in _update
+    self.stop(widget)
+    ~~~~~~~~~^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 236, in stop
+    self.dispatch('on_complete', widget)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\screenmanager.py", line 419, in _on_complete
+    self.screen_in.dispatch('on_enter')
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 63, in on_enter
+    self.update_sidebar()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 176, in update_sidebar
+    for quest in qm.get_available_quests():
+                 ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\core\quest_manager.py", line 237, in get_available_quests
+    return self.available_quests()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\core\quest_manager.py", line 214, in available_quests
+    if all(check(q, self) for check in self.requirement_checks):
+       ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\core\quest_manager.py", line 214, in <genexpr>
+    if all(check(q, self) for check in self.requirement_checks):
+           ~~~~~^^^^^^^^^
+  File "d:\Python\Jogo\core\quest_requirements.py", line 50, in check_required_quests
+    completed_by_all = set(manager.current_team)
+                           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuestManager' object has no attribute 'current_team'. Did you mean: 'current_turn'?
+
+============================================================
+
+============================================================
+Erro em: 2025-11-23 17:53:54.393653
+Exception: AttributeError
+Arquivo: d:\Python\Jogo\core\quest_requirements.py
+Linha: 50
+Função: check_required_quests
+Mensagem: 'QuestManager' object has no attribute 'current_team'
+Código: completed_by_all = set(manager.current_team)
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 379, in idle
+    Clock.tick()
+    ~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 776, in post_idle
+    self._process_events()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "kivy\\_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 370, in _update
+    self.stop(widget)
+    ~~~~~~~~~^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 236, in stop
+    self.dispatch('on_complete', widget)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\screenmanager.py", line 419, in _on_complete
+    self.screen_in.dispatch('on_enter')
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 63, in on_enter
+    self.update_sidebar()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 176, in update_sidebar
+    for quest in qm.get_available_quests():
+                 ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\core\quest_manager.py", line 237, in get_available_quests
+    return self.available_quests()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\core\quest_manager.py", line 214, in available_quests
+    if all(check(q, self) for check in self.requirement_checks):
+       ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\core\quest_manager.py", line 214, in <genexpr>
+    if all(check(q, self) for check in self.requirement_checks):
+           ~~~~~^^^^^^^^^
+  File "d:\Python\Jogo\core\quest_requirements.py", line 50, in check_required_quests
+    completed_by_all = set(manager.current_team)
+                           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuestManager' object has no attribute 'current_team'. Did you mean: 'current_turn'?
+
+============================================================

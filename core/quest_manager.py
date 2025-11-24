@@ -5,6 +5,7 @@ from core.save_manager import save_game, load_game
 from core.assistant_manager import AssistantManager
 from collections import defaultdict
 from core.language_manager import LanguageManager
+from core.steam_manager import SteamManager
 from core.quest_requirements import (
     check_required_quests,
     check_trigger_on_fail,
@@ -15,8 +16,6 @@ from core.quest_requirements import (
     check_available_turn,
     process_expired_quests,
 )
-
-# NOTE: agora QuestManager aceita um LanguageManager opcional para traduzir mensagens de log.
 
 
 class QuestManager:
@@ -56,6 +55,8 @@ class QuestManager:
         self.ui_callback = None
 
         self.assistant = AssistantManager(self.lm)
+        self.steam = SteamManager()
+
 
     # -------------------- UI Log --------------------
     def set_log_callback(self, callback):
@@ -131,14 +132,11 @@ class QuestManager:
 
         success_chance = calculate_success_chance(heroes, quest)
         result = run_mission_roll(success_chance)
-        success_values = {
-            LanguageManager().t("success"),
-            LanguageManager().t("critical"),
-            # "Success", "Critical"  # fallback caso traduções falhem
-        }
+        self.steam.on_quest_resolved(quest, heroes, result)
 
-        if result in success_values:
-            self._log(self.lm.t("quest_completed").format(name=quest.name, result=result))
+        if result is "success":
+            result_key = self.lm.t(result)
+            self._log(self.lm.t("quest_completed").format(name=quest.name, result=result_key))
 
             if quest.id not in self.completed_quests:
                 self.completed_quests[quest.id] = set()
