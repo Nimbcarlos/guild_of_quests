@@ -171,7 +171,7 @@ class SteamManager:
             for lvl in levels_to_check:
                 achievement = f"HERO_{hero.id}_LEVEL_{lvl}"
                 if hero.level >= lvl:
-                    self.unlock_achievement(achievement)
+                    self.unlock_achievement(Achievements.achievement)
 
 
         # --- Achievements específicos de quests ---
@@ -223,20 +223,20 @@ class Achievements:
     # RECRUIT_5_HEROES = "RECRUIT_5_HEROES"
     # RECRUIT_ALL_HEROES = "RECRUIT_ALL_HEROES"
     
-    LYRA_LEVEL_5 = "HERO_1_LEVEL_5"
-    LYRA_LEVEL_10 = "HERO_1_LEVEL_10"
+    HERO_1_LEVEL_5 = "HERO_1_LEVEL_5"
+    HERO_1_LEVEL_10 = "HERO_1_LEVEL_10"
 
     # Elara
-    ELARA_LEVEL_5 = "HERO_2_LEVEL_5"
-    ELARA_LEVEL_10 = "HERO_2_LEVEL_10"
+    HERO_2_LEVEL_5 = "HERO_2_LEVEL_5"
+    HERO_2_LEVEL_10 = "HERO_2_LEVEL_10"
 
     # Kael
-    KAEL_LEVEL_5 = "HERO_3_LEVEL_5"
-    KAEL_LEVEL_10 = "HERO_3_LEVEL_10"
+    HERO_3_LEVEL_5 = "HERO_3_LEVEL_5"
+    HERO_3_LEVEL_10 = "HERO_3_LEVEL_10"
 
     # Leonardo
-    LEO_LEVEL_5 = "HERO_4_LEVEL_5"
-    LEO_LEVEL_10 = "HERO_4_LEVEL_10"
+    HERO_4_LEVEL_5 = "HERO_4_LEVEL_5"
+    HERO_4_LEVEL_10 = "HERO_4_LEVEL_10"
     
     # CRITICAL_SUCCESS = "CRITICAL_SUCCESS"
     # CRITICAL_FAILURE = "CRITICAL_FAILURE"

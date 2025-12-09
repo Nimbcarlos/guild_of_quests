@@ -27,12 +27,14 @@ class GameplayScreen(Screen):
     completed_quests_label = StringProperty()
     log_messages = StringProperty()
     previous_screen = StringProperty("settings")
-    first_time_entering = True  # Flag para primeira entrada
     
     def on_pre_enter(self):
         """Chamado ANTES de entrar na tela"""
+        self.first_time_entering = True  # ← Move para __init__
         # Detecta se está vindo de settings
         self.coming_from_settings = (self.manager.current == "settings")
+        # 🔹 NOVO: Detecta se está vindo de load_game
+        self.coming_from_load = (self.manager.current == "loadgame")
 
     def on_enter(self):
         self.qm = self.manager.quest_manager  
@@ -41,7 +43,8 @@ class GameplayScreen(Screen):
 
         self.qm.hero_manager.check_hero_unlocks(self.qm.completed_quests, self.qm.current_turn)
 
-        self.dm = DialogueManager()
+        self.dm = DialogueManager(language=self.lm.language)
+
         self.dialog_box = DialogueBox(self.dm)
 
     # 🚀 Atualiza o assistant já existente do QuestManager
@@ -56,9 +59,15 @@ class GameplayScreen(Screen):
         self.completed_quests_label = self.lm.t("completed_quests")
         self.log_messages = self.lm.t("log_messages")
 
-        if self.first_time_entering and not self.coming_from_settings:
+        # 🔹 CORRIGIDO: Lógica de mensagens da assistente
+        if self.first_time_entering and not self.coming_from_settings and not self.coming_from_load:
+            # Primeira vez entrando no jogo (NEW GAME)
             self.qm.assistant.on_game_start()
             self.first_time_entering = False
+        elif self.coming_from_load:
+            print("teste 2")
+            # Voltando de um LOAD GAME
+            self.qm.assistant.on_game_start()  # Chama welcome_back
 
         self.update_sidebar()
         self.turn_bar()

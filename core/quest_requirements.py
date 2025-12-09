@@ -1,8 +1,4 @@
 def check_available_turn(quest, manager) -> bool:
-    """
-    Verifica se a quest já está disponível de acordo com o turno atual.
-    Se quest.available_from_turn não estiver definido, considera sempre disponível.
-    """
     available_from_turn = getattr(quest, "available_from_turn", None)
     if available_from_turn is None:
         return True

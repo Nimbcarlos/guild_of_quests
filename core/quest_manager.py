@@ -171,16 +171,12 @@ class QuestManager:
 
 
         else:
-            self.failed_quests.add(quest.id)
-            self._log(self.lm.t("quest_failed").format(name=quest.name))
-
-        # Salva progresso
-        save_game(self, self.save_file)
-
-        # Mostra resumo
-        # self._log(self.lm.t("quest_summary_title").format(name=quest.name))
-        # self._log(self.lm.t("success_chance").format(pct=success_chance))
-        # self._log(self.lm.t("result_text").format(result=result))
+            if quest.return_on_fail:
+                quest.available_since_turn = None
+                self._log(self.lm.t("quest_failed").format(name=quest.name))
+            else:
+                self.failed_quests.add(quest.id)
+                self._log(self.lm.t("quest_failed").format(name=quest.name))
 
         # Reseta status dos heróis
         for hero in heroes:
@@ -271,14 +267,19 @@ class QuestManager:
             except KeyError:
                 pass
 
-    def fail_quest(self, quest_id):
-        quest = self.get_quest(quest_id)
-        if not quest:
-            return
-        self.failed_quests.add(quest_id)
-        if quest_id in self.active_quests:
-            del self.active_quests[quest_id]
-        self._log(self.lm.t("quest_failed_timeout").format(name=quest.name))
+        # 🔹 NOVO: Salva o jogo UMA VEZ no final, com tudo resolvido
+        if to_resolve:  # Só salva se teve alguma quest resolvida
+            save_game(self, self.save_file)
+
+    # def fail_quest(self, quest_id):
+    #     print("fail quest")
+    #     quest = self.get_quest(quest_id)
+    #     if not quest:
+    #         return
+    #     self.failed_quests.add(quest_id)
+    #     if quest_id in self.active_quests:
+    #         del self.active_quests[quest_id]
+    #     self._log(self.lm.t("quest_failed_timeout").format(name=quest.name))
 
     def set_ui_callback(self, callback):
         self.ui_callback = callback
@@ -298,3 +299,34 @@ class QuestManager:
         self.language = language
         self.quests = Quest.load_quests(language)
         print(f"📜 Quests carregadas no idioma: {language}")
+
+    def _revalidate_available_quests(self):
+        """
+        Revalida todas as quests após carregar um save.
+        Remove quests que não deveriam estar disponíveis baseado nos requisitos.
+        """
+        from core.quest_requirements import (
+            check_available_turn,
+            check_required_quests,
+            check_not_completed,
+            check_not_active,
+            check_expired_quests
+        )
+        
+        # Para cada quest no catálogo
+        for quest in self.quests:
+            # Pula se já está completa, ativa ou falhou
+            if (quest.id in self.completed_quests or 
+                quest.id in self.active_quests or 
+                quest.id in self.failed_quests):
+                continue
+            
+            # Verifica se REALMENTE deveria estar disponível
+            if not (check_available_turn(quest, self) and
+                    check_required_quests(quest, self) and
+                    check_not_completed(quest, self) and
+                    check_not_active(quest, self) and
+                    check_expired_quests(quest, self)):
+                
+                # Se NÃO deveria estar disponível, reseta o available_since_turn
+                quest.available_since_turn = None

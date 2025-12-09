@@ -18,6 +18,8 @@ class Quest:
         required_quests: List[str],
         forbidden_quests: List[str] = None,
         required_fail_quests: List[str] = None,
+        return_on_fail: bool = False,
+        is_repeatable: int = None,
         required_heroes: List[str] = None,
         forbidden_heroes: List[str] = None,
         available_since_turn=None,
@@ -39,6 +41,8 @@ class Quest:
         self.required_quests = required_quests
         self.forbidden_quests = forbidden_quests
         self.required_fail_quests = required_fail_quests
+        self.return_on_fail = return_on_fail
+        self.is_repeatable = is_repeatable
         self.required_heroes = required_heroes or []
         self.forbidden_heroes = forbidden_heroes or []
         self.available_since_turn = available_since_turn
@@ -71,11 +75,11 @@ class Quest:
             f"Dificuldade: {self.difficulty}\n"
             f"Recompensas: {self.rewards}\n"
             f"Pré-requisitos: {', '.join(str(q) for q in self.required_quests) if self.required_quests else 'Nenhum'}"
-            f"forbidden_quests: {', '.join(str(q) for q in self.forbidden_quests) if self.forbidden_quests else 'Nenhum'}"
-            f"Failed Quests: {', '.join(str(q) for q in self.required_fail_quests) if self.required_fail_quests else 'Nenhum'}"
-            f"Required Heroes: {', '.join(str(q) for q in self.required_heroes) if self.required_heroes else 'Nenhum'}"
-            f"Forbidden Heroes: {', '.join(str(q) for q in self.forbidden_heroes) if self.forbidden_heroes else 'Nenhum'}"
-            f"Iniciada no turno: {self.available_since_turn}"
+            f"\nforbidden_quests: {', '.join(str(q) for q in self.forbidden_quests) if self.forbidden_quests else 'Nenhum'}"
+            f"\nFailed Quests: {', '.join(str(q) for q in self.required_fail_quests) if self.required_fail_quests else 'Nenhum'}"
+            f"\nRequired Heroes: {', '.join(str(q) for q in self.required_heroes) if self.required_heroes else 'Nenhum'}"
+            f"\nForbidden Heroes: {', '.join(str(q) for q in self.forbidden_heroes) if self.forbidden_heroes else 'Nenhum'}"
+            f"\nIniciada no turno: {self.available_since_turn}"
         )
 
     def is_expired(self, current_turn: int) -> bool:

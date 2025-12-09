@@ -125,10 +125,9 @@ class DialogueBox:
             size_hint_y=None,
             height=20
         )
-
         self.speaker_label = Label(
             text="",
-            font_size=max(22, int(frame_height * 0.035)),
+            font_size=max(22, int(frame_height * 0.0035)),
             bold=True,
             color=(0.16, 0.09, 0.06, 1),
             halign="left",
@@ -140,12 +139,16 @@ class DialogueBox:
 
         speaker_box.add_widget(self.speaker_label)
         text_layout.add_widget(speaker_box)
+        if frame_height > 800:
+            new_frame_height = frame_height * 0.045
+        else:
+            new_frame_height = frame_height * 0.0035
 
         # ----- BOX DO DIÁLOGO -----
         dialogue_box = BoxLayout(
             orientation='vertical',
             size_hint_y=None,
-            height=95
+            height=95 + new_frame_height
         )
 
         self.dialogue_label = Label(
@@ -229,8 +232,8 @@ class DialogueBox:
             self.hero_portrait.source = resolved_hero.photo_url
             self.speaker_label.text = resolved_hero.name
         else:
-            self.hero_portrait.source = "assets/ui/narrator.png"
-            self.speaker_label.text = "Narrador"
+            self.hero_portrait.source = "assets/img/assistant.png"
+            self.speaker_label.text = "Lyria"
 
         # Inicia o efeito de digitação
         self.dialogue_label.text = ""

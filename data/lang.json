@@ -5,7 +5,8 @@
     "es": "Turno: {turn}",
     "ru": "Ход: {turn}",
     "zh": "回合：{turn}",
-    "ja": "ターン：{turn}"
+    "ja": "ターン：{turn}",
+    "kr": "차례: {turn}"
   },
   "advance_turn_btn": {
     "pt": "Avançar Turno",
@@ -13,7 +14,8 @@
     "es": "Avanzar Turno",
     "ru": "Следующий ход",
     "zh": "前进回合",
-    "ja": "ターン進める"
+    "ja": "ターン進める",
+    "kr": "다음 차례로"
   },
   "turns_remaining": {
     "pt": "{n} turnos restantes",
@@ -21,7 +23,8 @@
     "es": "{n} turnos restantes",
     "ru": "Осталось ходов: {n}",
     "zh": "剩余回合：{n}",
-    "ja": "残りターン：{n}"
+    "ja": "残りターン：{n}",
+    "kr": "남은 차례: {n}"
   },
   "success_rate": {
     "pt": "Taxa de sucesso",
@@ -29,7 +32,8 @@
     "es": "Probabilidad de éxito",
     "ru": "Шанс успеха",
     "zh": "成功率",
-    "ja": "成功率"
+    "ja": "成功率",
+    "kr": "성공률"
   },
   "available_heroes": {
     "pt": "Heróis disponíveis:",
@@ -37,7 +41,8 @@
     "es": "Héroes disponibles:",
     "ru": "Доступные герои:",
     "zh": "可用英雄：",
-    "ja": "利用可能な英雄："
+    "ja": "利用可能な英雄：",
+    "kr": "이용 가능한 영웅:"
   },
   "send_to_quest_btn": {
     "pt": "Enviar para a Quest",
@@ -45,7 +50,8 @@
     "es": "Enviar a la misión",
     "ru": "Отправить на задание",
     "zh": "派遣到任务",
-    "ja": "クエストへ送る"
+    "ja": "クエストへ送る",
+    "kr": "퀘스트 보내기"
   },
   "select": {
     "pt": "Selecionar",
@@ -53,7 +59,8 @@
     "es": "Seleccionar",
     "ru": "Выбрать",
     "zh": "选择",
-    "ja": "選択"
+    "ja": "選択",
+    "kr": "선택"
   },
   "class": {
     "pt": "Classe",
@@ -61,7 +68,8 @@
     "es": "Clase",
     "ru": "Класс",
     "zh": "职业",
-    "ja": "クラス"
+    "ja": "クラス",
+    "kr": "직업"
   },
   "lvl_prefix": {
     "pt": "Nível",
@@ -69,7 +77,8 @@
     "es": "Nv",
     "ru": "Уров.",
     "zh": "等级",
-    "ja": "レベル"
+    "ja": "レベル",
+    "kr": "레벨"
   },
   "type_label": {
     "pt": "Tipo",
@@ -77,7 +86,8 @@
     "es": "Tipo",
     "ru": "Тип",
     "zh": "类型",
-    "ja": "タイプ"
+    "ja": "タイプ",
+    "kr": "유형"
   },
   "difficulty_label": {
     "pt": "Dificuldade",
@@ -85,7 +95,8 @@
     "es": "Dificultad",
     "ru": "Сложность",
     "zh": "难度",
-    "ja": "難易度"
+    "ja": "難易度",
+    "kr": "난이도"
   },
   "save_game": {
     "pt": "Salvar Jogo",
@@ -93,7 +104,8 @@
     "es": "Guardar partida",
     "ru": "Сохранить игру",
     "zh": "保存游戏",
-    "ja": "ゲームを保存"
+    "ja": "ゲームを保存",
+    "kr": "게임 저장"
   },
   "load_game": {
     "pt": "Carregar Jogo",
@@ -101,7 +113,8 @@
     "es": "Cargar partida",
     "ru": "Загрузить игру",
     "zh": "载入游戏",
-    "ja": "ゲームを読み込む"
+    "ja": "ゲームを読み込む",
+    "kr": "게임 불러오기"
   },
   "load_game_title": {
     "pt": "Escolha um save",
@@ -109,7 +122,8 @@
     "es": "Elige una partida",
     "ru": "Выберите сохранение",
     "zh": "选择存档",
-    "ja": "セーブを選択"
+    "ja": "セーブを選択",
+    "kr": "저장 파일 선택"
   },
   "back_to_menu": {
     "pt": "Voltar ao Menu",
@@ -117,7 +131,8 @@
     "es": "Volver al menú",
     "ru": "Вернуться в меню",
     "zh": "返回菜单",
-    "ja": "メニューに戻る"
+    "ja": "メニューに戻る",
+    "kr": "메뉴로 돌아가기"
   },
   "quit_game": {
     "pt": "Fechar Jogo",
@@ -125,7 +140,8 @@
     "es": "Cerrar juego",
     "ru": "Выйти из игры",
     "zh": "退出游戏",
-    "ja": "ゲームを終了"
+    "ja": "ゲームを終了",
+    "kr": "게임 종료"
   },
   "pause_menu_title": {
     "pt": "Menu de Pausa",
@@ -133,7 +149,8 @@
     "es": "Menú de pausa",
     "ru": "Меню паузы",
     "zh": "暂停菜单",
-    "ja": "ポーズメニュー"
+    "ja": "ポーズメニュー",
+    "kr": "일시 정지 메뉴"
   },
   "save_name_hint": {
     "pt": "Nome do save (letras e números)",
@@ -141,7 +158,8 @@
     "es": "Nombre del guardado (letras y números)",
     "ru": "Имя сохранения (буквы и цифры)",
     "zh": "存档名（字母和数字）",
-    "ja": "セーブ名（英数字）"
+    "ja": "セーブ名（英数字）",
+    "kr": "저장 이름 (문자 및 숫자)"
   },
   "save": {
     "pt": "Salvar",
@@ -149,7 +167,8 @@
     "es": "Guardar",
     "ru": "Сохранить",
     "zh": "保存",
-    "ja": "保存"
+    "ja": "保存",
+    "kr": "저장"
   },
   "cancel": {
     "pt": "Cancelar",
@@ -157,7 +176,8 @@
     "es": "Cancelar",
     "ru": "Отмена",
     "zh": "取消",
-    "ja": "キャンセル"
+    "ja": "キャンセル",
+    "kr": "취소"
   },
   "no_hero_selected": {
     "pt": "Nenhum herói selecionado para esta missão.",
@@ -165,7 +185,8 @@
     "es": "Ningún héroe seleccionado para esta misión.",
     "ru": "Ни один герой не выбран для этой миссии.",
     "zh": "尚未选择任何英雄执行此任务。",
-    "ja": "このミッションに選択された英雄がいません。"
+    "ja": "このミッションに選択された英雄がいません。",
+    "kr": "이 미션에 선택된 영웅이 없습니다."
   },
   "invalid_name": {
     "pt": "Nome inválido! Use apenas letras, números ou _.",
@@ -173,7 +194,8 @@
     "es": "Nombre inválido. Use solo letras, números o _.",
     "ru": "Неправильное имя! Используйте только буквы, цифры или _.",
     "zh": "名称无效！仅允许字母、数字或下划线。",
-    "ja": "無効な名前です。英数字と_のみ使用してください。"
+    "ja": "無効な名前です。英数字と_のみ使用してください。",
+    "kr": "이름이 유효하지 않습니다! 문자, 숫자 또는 _ 만 사용하십시오."
   },
   "turn_advanced": {
     "pt": "Turno {turn} avançado.",
@@ -181,7 +203,8 @@
     "es": "Turno {turn} avanzado.",
     "ru": "Ход {turn} продвинут.",
     "zh": "第 {turn} 回合已前进。",
-    "ja": "ターン {turn} が進みました。"
+    "ja": "ターン {turn} が進みました。",
+    "kr": "차례 {turn} 진행."
   },
   "active_quests": {
     "pt": "Ativas",
@@ -189,7 +212,8 @@
     "es": "Activas",
     "ru": "Активные",
     "zh": "进行中",
-    "ja": "アクティブ"
+    "ja": "アクティブ",
+    "kr": "활성"
   },
   "available_quests": {
     "pt": "Disponíveis",
@@ -197,7 +221,8 @@
     "es": "Disponibles",
     "ru": "Доступные",
     "zh": "可接任务",
-    "ja": "入手可能"
+    "ja": "入手可能",
+    "kr": "이용 가능"
   },
   "completed_quests": {
     "pt": "Completas",
@@ -205,7 +230,8 @@
     "es": "Completadas",
     "ru": "Завершенные",
     "zh": "已完成",
-    "ja": "完了"
+    "ja": "完了",
+    "kr": "완료됨"
   },
   "mission_log": {
     "pt": "Registro de Missões",
@@ -213,7 +239,8 @@
     "es": "Registro de Misiones",
     "ru": "Журнал заданий",
     "zh": "任务日志",
-    "ja": "ミッションログ"
+    "ja": "ミッションログ",
+    "kr": "미션 기록"
   },
   "game_saved": {
     "pt": "Jogo salvo em {filename}",
@@ -221,7 +248,8 @@
     "es": "Juego guardado como {filename}",
     "ru": "Игра сохранена как {filename}",
     "zh_CN": "游戏已保存为 {filename}",
-    "ja": "ゲームが「{filename}」として保存されました"
+    "ja": "ゲームが「{filename}」として保存されました",
+    "kr": "게임이 {filename} 으로 저장되었습니다"
   },
   "hero_removed": {
     "pt": "{hero} removido da seleção para '{quest}'",
@@ -229,7 +257,8 @@
     "es": "{hero} eliminado de la selección para '{quest}'",
     "ru": "{hero} удалён из выбора для «{quest}»",
     "zh": "{hero} が「{quest}」の選択から外されました",
-    "ja": "{hero} 已从“{quest}”的选择中移除"
+    "ja": "{hero} 已从“{quest}”的选择中移除",
+    "kr": "{hero} 이/가 '{quest}' 선택에서 제거되었습니다"
   },
   "hero_added": {
     "pt": "{hero} adicionado para '{quest}'",
@@ -237,7 +266,8 @@
     "es": "{hero} añadido a '{quest}'",
     "ru": "{hero} が「{quest}」に追加されました",
     "zh": "{hero} 已加入“{quest}”",
-    "ja": "{hero} добавлен в «{quest}»"
+    "ja": "{hero} добавлен в «{quest}»",
+    "kr": "{hero} 이/가 '{quest}' 에 추가되었습니다"
   },
   "quest_timeout": {
     "pt": "Quest '{quest}' falhou por tempo esgotado!",
@@ -245,7 +275,8 @@
     "es": "¡La misión '{quest}' falló por tiempo agotado!",
     "ru": "Квест «{quest}» провалился из-за истечения времени!",
     "zh": "任务“{quest}”因超时失败！",
-    "ja": "クエスト「{quest}」は時間切れで失敗しました！"
+    "ja": "クエスト「{quest}」は時間切れで失敗しました！",
+    "kr": "퀘스트 '{quest}' 이/가 시간 초과로 실패했습니다!"
   },
   "quest_not_found": {
     "pt": "Quest com ID '{id}' não encontrada!",
@@ -253,7 +284,8 @@
     "es": "Misión con ID '{id}' no encontrada!",
     "ru": "Квест с ID '{id}' не найден!",
     "zh": "未找到 ID 为 '{id}' 的任务！",
-    "ja": "ID '{id}' のクエストが見つかりません！"
+    "ja": "ID '{id}' のクエストが見つかりません！",
+    "kr": "ID '{id}' 의 퀘스트를 찾을 수 없습니다!"
   },
   "no_valid_hero_selected": {
     "pt": "Nenhum herói válido foi selecionado.",
@@ -261,7 +293,8 @@
     "es": "Ningún héroe válido fue seleccionado.",
     "ru": "Не выбран ни один действительный герой.",
     "zh": "未选择有效的英雄。",
-    "ja": "有効なヒーローが選択されていません。"
+    "ja": "有効なヒーローが選択されていません。",
+    "kr": "유효한 영웅이 선택되지 않았습니다."
   },
   "heroes_sent": {
     "pt": "Heróis enviados para '{name}' ({turns} turnos restantes).",
@@ -269,7 +302,8 @@
     "es": "Héroes enviados a '{name}' ({turns} turnos restantes).",
     "ru": "Герои отправлены на '{name}' (осталось {turns} ходов).",
     "zh": "已派遣英雄到“{name}”（剩余回合：{turns}）。",
-    "ja": "ヒーローを「{name}」に派遣しました（残り {turns} ターン）。"
+    "ja": "ヒーローを「{name}」に派遣しました（残り {turns} ターン）。",
+    "kr": "영웅이 '{name}' 에 파견되었습니다 (남은 차례: {turns})."
   },
   "heroes_list": {
     "pt": "{list}",
@@ -277,7 +311,8 @@
     "es": "{list}",
     "ru": "{list}",
     "zh": "{list}",
-    "ja": "{list}"
+    "ja": "{list}",
+    "kr": "{list}"
   },
   "mission_started": {
     "pt": "Missão iniciada!",
@@ -285,7 +320,8 @@
     "es": "¡Misión iniciada!",
     "ru": "Миссия начата!",
     "zh": "任务已开始！",
-    "ja": "ミッション開始！"
+    "ja": "ミッション開始！",
+    "kr": "미션 시작!"
   },
   "quest_not_found_on_resolve": {
     "pt": "Quest com id '{id}' não encontrada ao resolver (removendo do ativo).",
@@ -293,7 +329,8 @@
     "es": "Misión id '{id}' no encontrada al resolver (eliminando de activas).",
     "ru": "При попытке завершения не найден квест id '{id}' (удаляется из активных).",
     "zh": "解析任务时未找到 ID 为 '{id}' 的任务（从进行中移除）。",
-    "ja": "解決中に ID '{id}' のクエストが見つかりません（アクティブから削除）。"
+    "ja": "解決中に ID '{id}' のクエストが見つかりません（アクティブから削除）。",
+    "kr": "해결 중 ID '{id}' 의 퀘스트를 찾을 수 없습니다 (활성에서 제거 중)."
   },
   "hero_gained_xp": {
     "pt": "{hero} ganhou {xp} XP!",
@@ -301,7 +338,8 @@
     "es": "{hero} ganó {xp} XP!",
     "ru": "{hero} получил {xp} XP!",
     "zh": "{hero} 获得了 {xp} 经验值！",
-    "ja": "{hero} は {xp} XP を獲得しました！"
+    "ja": "{hero} は {xp} XP を獲得しました！",
+    "kr": "{hero} 이/가 {xp} 경험치를 얻었습니다!"
   },
   "quest_completed": {
     "pt": "Quest '{name}' concluída com {result}!",
@@ -309,7 +347,8 @@
     "es": "Misión '{name}' completada con {result}!",
     "ru": "Квест '{name}' завершён: {result}!",
     "zh": "任务“{name}”以 {result} 完成！",
-    "ja": "クエスト『{name}』は {result} で完了しました！"
+    "ja": "クエスト『{name}』は {result} で完了しました！",
+    "kr": "퀘스트 '{name}' 이/가 {result} 로 완료되었습니다!"
   },
   "quest_failed": {
     "pt": "Quest '{name}' falhou!",
@@ -317,7 +356,8 @@
     "es": "Misión '{name}' falló!",
     "ru": "Квест '{name}' провален!",
     "zh": "任务“{name}”失败！",
-    "ja": "クエスト『{name}』は失敗しました！"
+    "ja": "クエスト『{name}』は失敗しました！",
+    "kr": "퀘스트 '{name}' 이/가 실패했습니다!"
   },
   "quest_summary_title": {
     "pt": "Quest: {name}",
@@ -325,7 +365,8 @@
     "es": "Misión: {name}",
     "ru": "Квест: {name}",
     "zh": "任务：{name}",
-    "ja": "クエスト：{name}"
+    "ja": "クエスト：{name}",
+    "kr": "퀘스트: {name}"
   },
   "success_chance": {
     "pt": "Chance de sucesso: {pct}",
@@ -333,7 +374,8 @@
     "es": "Probabilidad de éxito: {pct}",
     "ru": "Шанс успеха: {pct}",
     "zh": "成功概率：{pct}",
-    "ja": "成功率：{pct}"
+    "ja": "成功率：{pct}",
+    "kr": "성공 확률: {pct}"
   },
   "result_text": {
     "pt": "Resultado: {result}",
@@ -341,7 +383,8 @@
     "es": "Resultado: {result}",
     "ru": "Результат: {result}",
     "zh": "结果：{result}",
-    "ja": "結果：{result}"
+    "ja": "結果：{result}",
+    "kr": "결과: {result}"
   },
   "quest_auto_complete": {
     "pt": "Quest {name} foi concluída!",
@@ -349,7 +392,8 @@
     "es": "¡La misión {name} ha sido completada!",
     "ru": "Квест {name} выполнен!",
     "zh": "任务 {name} 已完成！",
-    "ja": "クエスト {name} が完了しました！"
+    "ja": "クエスト {name} が完了しました！",
+    "kr": "퀘스트 {name} 이/가 완료되었습니다!"
   },
   "quest_failed_timeout": {
     "pt": "Quest '{name}' falhou por tempo esgotado!",
@@ -357,79 +401,135 @@
     "es": "La misión '{name}' falló por tiempo agotado!",
     "ru": "Квест '{name}' провален из-за истечения времени!",
     "zh": "任务“{name}”因超时失败！",
-    "ja": "クエスト『{name}』は時間切れで失敗しました！"
+    "ja": "クエスト『{name}』は時間切れで失敗しました！",
+    "kr": "퀘스트 '{name}' 이/가 시간 초과로 실패했습니다!"
   },
   "log_messages": {
-  "pt": "Log de missões e falas",
-  "en": "Mission and dialogue log",
-  "es": "Registro de misiones y diálogos",
-  "ru": "Журнал миссий и диалогов",
-  "zh": "任务和对话日志",
-  "ja": "ミッションと会話ログ"
+    "pt": "Log de missões e falas",
+    "en": "Mission and dialogue log",
+    "es": "Registro de misiones y diálogos",
+    "ru": "Журнал миссий и диалогов",
+    "zh": "任务和对话日志",
+    "ja": "ミッションと会話ログ",
+    "kr": "미션 및 대화 기록"
   },
   "quest_expired": {
-  "pt": "Quest '{quest}' falhou por não ter sido iniciada.",
-  "en": "Quest '{quest}' failed because it was not started.",
-  "es": "La misión '{quest}' fracasó porque no fue iniciada.",
-  "ru": "Квест «{quest}» провалился, так как не был начат.",
-  "zh": "任务“{quest}”因未开始而失败。",
-  "ja": "クエスト「{quest}」は開始されなかったため失敗しました。"
+    "pt": "Quest '{quest}' falhou por não ter sido iniciada.",
+    "en": "Quest '{quest}' failed because it was not started.",
+    "es": "La misión '{quest}' fracasó porque no fue iniciada.",
+    "ru": "Квест «{quest}» провалился, так как не был начат.",
+    "zh": "任务“{quest}”因未开始而失败。",
+    "ja": "クエスト「{quest}」は開始されなかったため失敗しました。",
+    "kr": "퀘스트 '{quest}' 이/가 시작되지 않아 실패했습니다."
   },
-  "assistant_first_time": {
-    "pt": "Bem-vindo ao jogo! Vou te ajudar em sua jornada.",
-    "en": "Welcome to the game! I will guide you on your journey.",
-    "es": "¡Bienvenido al juego! Te guiaré en tu aventura.",
-    "ru": "Добро пожаловать в игру! Я помогу тебе в твоём путешествии.",
-    "zh": "欢迎来到游戏！我会引导你踏上旅程。",
-    "ja": "ゲームへようこそ！私があなたの冒険をサポートします。"
+  "assistant_intro_1": {
+    "pt": "Oi!! Eu sou a Lyria! Sua assistente! …Desculpa, acho que falei alto. Mas é que eu estou tão feliz que alguém finalmente apareceu por aqui.",
+    "en": "Hi!! I'm Lyria! Your assistant! …Sorry, I think I yelled. I'm just so happy someone finally showed up here.",
+    "es": "¡¡Hola!! ¡Soy Lyria! ¡Tu asistente! …Perdón, creo que hablé muy alto. Es que estoy tan feliz de que por fin haya aparecido alguien aquí.",
+    "ru": "Привет!! Я Лирия! Твоя помощница! …Извини, кажется, я сказала слишком громко. Просто я так рада, что наконец-то кто-то здесь появился.",
+    "zh": "嗨！！我是莉莉娅！你的助手！…抱歉，我好像有点大声了。只是终于有人出现，我真的太开心了。",
+    "ja": "やっほー！！私はリリア！あなたのアシスタントです！…ごめん、ちょっと大声だったかも。誰かがやっと来てくれて、本当に嬉しくて。"
   },
-  "assistant_welcome_back": {
-    "pt": "Bem-vindo de volta! Pronto para continuar sua aventura?",
-    "en": "Welcome back! Ready to continue your adventure?",
-    "es": "¡Bienvenido de nuevo! ¿Listo para continuar tu aventura?",
-    "ru": "С возвращением! Готов продолжить своё приключение?",
-    "zh": "欢迎回来！准备好继续你的冒险了吗？",
-    "ja": "おかえりなさい！冒険を続ける準備はできましたか？"
+
+  "assistant_intro_2": {
+    "pt": "Você não vai lutar com monstros nem lançar bolas de fogo. Seu papel é mandar os outros fazerem isso por você. Conveniente, né?",
+    "en": "You won't be fighting monsters or throwing fireballs. Your job is to send others to do that for you. Convenient, right?",
+    "es": "No vas a luchar contra monstruos ni lanzar bolas de fuego. Tu trabajo es enviar a otros para que lo hagan por ti. ¿Conveniente, verdad?",
+    "ru": "Ты не будешь сражаться с монстрами и бросать фаерболы. Твоя задача — отправлять других делать это за тебя. Удобно, правда?",
+    "zh": "你不会亲自去和怪物战斗或扔火球。你的工作是派别人去做这些事。很方便，对吧？",
+    "ja": "あなたはモンスターと戦ったり、火の玉を投げたりはしません。その役目は、他の人に任せるんです。便利でしょ？"
+  },
+
+  "assistant_intro_3": {
+    "pt": "Só… tente não escolher tudo errado, ok? Quando uma missão falha, eu fico meio… —ahm, ela olha para o chão— …não importa. Continuando!",
+    "en": "Just… try not to pick everything wrong, okay? When a mission fails, I get kind of… —uhm, she looks at the floor— …never mind. Moving on!",
+    "es": "Solo… intenta no elegir todo mal, ¿sí? Cuando una misión falla, yo me pongo un poco… —ehm, mira al suelo— …no importa. ¡Sigamos!",
+    "ru": "Просто… постарайся не выбирать всё неправильно, хорошо? Когда задание проваливается, я становлюсь немного… —эм, она смотрит в пол— …неважно. Идём дальше!",
+    "zh": "只是…尽量不要选得太离谱，好吗？任务失败的时候我会有点… —嗯，她看向地面— …算了。继续吧！",
+    "ja": "ただ…全部間違えないように気をつけてね？任務が失敗すると、私はちょっと… ーえっと、床を見るー …気にしないで。次、行こ！"
+  },
+
+  "assistant_intro_4": {
+    "pt": "A cada turno surgem novas missões. Algumas desaparecem se você esperar demais, outras voltam para te atormentar. Heróis evoluem, descobrem coisas… e às vezes quase morrem.",
+    "en": "Every turn new quests appear. Some disappear if you wait too long, others come back to haunt you. Heroes level up, discover things… and sometimes almost die.",
+    "es": "Cada turno aparecen nuevas misiones. Algunas desaparecen si esperas demasiado, otras vuelven para atormentarte. Los héroes suben de nivel, descubren cosas… y a veces casi mueren.",
+    "ru": "Каждый ход появляются новые задания. Некоторые исчезают, если слишком долго ждать, другие возвращаются, чтобы мучить тебя. Герои получают уровни, что-то находят… и иногда почти умирают.",
+    "zh": "每回合都会出现新的任务。有些如果拖太久就会消失，有些会回来折磨你。英雄会升级、发现秘密…有时差点死掉。",
+    "ja": "ターンごとに新しいクエストが出てきます。待ちすぎると消えるものもあれば、しつこく戻ってくるものもあります。英雄たちは成長し、発見し…時々、死にかけます。"
+  },
+  "assistant_intro_5": {
+    "pt": "Ah, e só um aviso… se muitas missões começarem a falhar, eu talvez procure trabalho em outra guilda. Afinal, quando você falha, as outras guildas pegam as missões rapidinho — e eu não quero que minha reputação desça junto com a sua.",
+    "en": "Oh, and just a heads-up… if too many quests start failing, I might look for work in another guild. After all, when you fail, the other guilds grab those quests immediately — and I don’t want my reputation sinking along with yours.",
+    "es": "Ah, y solo un aviso… si demasiadas misiones empiezan a fallar, quizá busque trabajo en otro gremio. Al fin y al cabo, cuando fallas, los otros gremios atrapan esas misiones enseguida, y no quiero que mi reputación se hunda junto con la tuya.",
+    "ru": "Ах да, предупреждение… если слишком много заданий будет провалено, возможно, я поищу работу в другой гильдии. Ведь когда ты проваливаешь задания, другие гильдии моментально их подбирают — а мне не хочется, чтобы моя репутация тонула вместе с твоей.",
+    "zh": "对了提醒一下……如果太多任务失败，我可能会去别的公会找工作。毕竟你一失败，其他公会立刻就会抢走那些任务——而我可不想让自己的名声跟你一起沉下去。",
+    "ja": "あ、それと一応言っておくけど…任務が失敗続きになるなら、私、別のギルドで働くことを考えるかも。だってあなたが失敗すると、他のギルドがすぐにその任務を持っていくし…私の評判まで巻き込まれたくないからね。"
+  },
+  "assistant_intro_6": {
+    "pt": "Enfim, estou aqui para te ajudar. Ou para entrar em pânico junto com você, depende do dia. Vamos começar?",
+    "en": "Anyway, I'm here to help you. Or to panic with you, depending on the day. Shall we begin?",
+    "es": "En fin, estoy aquí para ayudarte. O para entrar en pánico contigo, depende del día. ¿Empezamos?",
+    "ru": "В общем, я здесь, чтобы помогать тебе. Или паниковать вместе с тобой — зависит от дня. Начнём?",
+    "zh": "总之，我会帮你的。或者跟你一起慌张…看当天情况。我们开始吧？",
+    "ja": "とにかく、私はあなたを助けるためにここにいます。いや、一緒にパニックになる日もあるけど。さあ、始めましょうか？"
   },
   "assistant_new_quests": {
-    "pt": "Há {count} novas missões disponíveis!",
-    "en": "There are {count} new quests available!",
-    "es": "¡Hay {count} nuevas misiones disponibles!",
-    "ru": "Доступно {count} новых заданий!",
-    "zh": "有 {count} 个新的任务可以进行！",
-    "ja": "{count} 件の新しいクエストが利用可能です！"
-  },
-  "assistant_heroes_return": {
-    "pt": "Os heróis {heroes} retornaram da missão!",
-    "en": "The heroes {heroes} have returned from the quest!",
-    "es": "¡Los héroes {heroes} han regresado de la misión!",
-    "ru": "Герои {heroes} вернулись из задания!",
-    "zh": "英雄 {heroes} 已经从任务中归来！",
-    "ja": "英雄 {heroes} がクエストから戻ってきました！"
-  },
-  "assistant_level_up": {
-    "pt": "{hero} subiu para o nível {level}!",
-    "en": "{hero} leveled up to {level}!",
-    "es": "¡{hero} subió al nivel {level}!",
-    "ru": "{hero} повысил уровень до {level}!",
-    "zh": "{hero} 升到了 {level} 级！",
-    "ja": "{hero} はレベル {level} に上がりました！"
-  },
-  "assistant_game_start": {
-    "pt": "Bem-vindo de volta! Vamos começar a aventura.",
-    "en": "Welcome back! Let’s begin the adventure.",
-    "es": "¡Bienvenido de nuevo! Comencemos la aventura.",
-    "ru": "С возвращением! Давайте начнём приключение.",
-    "zh": "欢迎回来！让我们开始冒险吧。",
-    "ja": "おかえりなさい！冒険を始めましょう。"
-  },
-  "assistant_quest_expired": {
-    "pt": "As missões {quests} expiraram! Precisamos ser mais rápidos da próxima vez.",
-    "en": "The quests {quests} have expired! We need to act faster next time.",
-    "es": "¡Las misiones {quests} han expirado! Debemos actuar más rápido la próxima vez.",
-    "ru": "Задания {quests} истекли! В следующий раз нужно действовать быстрее.",
-    "zh": "任务 {quests} 已过期！下次我们要更快行动。",
-    "ja": "クエスト {quests} の期限が切れました！次はもっと早く行動しましょう。"
+    "pt": {
+      "normal": "Há {count} novas missões disponíveis!",
+      "happy": "Uaaau! {count} novas missões! Vamos lá, vai ser divertido!",
+      "ironic": "Ah, claro… mais {count} missões. Porque obviamente ninguém aqui descansa.",
+      "dark": "Mais {count} missões surgiram… o caos nunca dorme.",
+      "bipolar_up": "MISSOOOOÕES! {count}! ISSO! EU AMO ISSO!",
+      "bipolar_down": "{count} missões… tanto faz. Nada importa mesmo."
+    },
+    "en": {
+      "normal": "There are {count} new quests available!",
+      "happy": "Woooow! {count} new quests! This is going to be fun!",
+      "ironic": "Oh great… {count} new quests. Because rest is overrated.",
+      "dark": "{count} new quests have appeared… chaos never sleeps.",
+      "bipolar_up": "QUESTS!!! {count}! YES!! I LOVE THIS!!",
+      "bipolar_down": "{count} quests… whatever. Nothing matters."
+    },
+    "es": {
+      "normal": "¡Hay {count} nuevas misiones disponibles!",
+      "happy": "¡Wooo! ¡{count} nuevas misiones! ¡Esto va a ser divertido!",
+      "ironic": "Ah claro… {count} misiones nuevas. Porque al parecer nadie aquí descansa.",
+      "dark": "Han aparecido {count} nuevas misiones… el caos nunca duerme.",
+      "bipolar_up": "¡¡MISIONES!! ¡{count}! ¡¡SÍ!! ¡¡ME ENCANTA ESTO!!",
+      "bipolar_down": "{count} misiones… da igual. Nada importa."
+    },
+    "ru": {
+      "normal": "Доступно {count} новых заданий!",
+      "happy": "Ураа! {count} новых заданий! Это будет весело!",
+      "ironic": "О, прекрасно… ещё {count} заданий. Отдых ведь никому не нужен.",
+      "dark": "Появилось {count} новых заданий… хаос никогда не спит.",
+      "bipolar_up": "КВЕСТЫ!!! {count}! ДА!! Я ОБОЖАЮ ЭТО!!",
+      "bipolar_down": "{count} заданий… всё равно. Ничто не имеет смысла."
+    },
+    "zh": {
+      "normal": "有 {count} 个新的任务可以进行！",
+      "happy": "哇哦！有 {count} 个新任务！一定很好玩！",
+      "ironic": "哦，太好了……又有 {count} 个任务。反正没人需要休息。",
+      "dark": "出现了 {count} 个新任务……混沌从不沉睡。",
+      "bipolar_up": "任！务！{count} 个！！太棒了！！",
+      "bipolar_down": "{count} 个任务……随便吧，反正什么都没意义。"
+    },
+    "ja": {
+      "normal": "{count} 件の新しいクエストが利用可能です！",
+      "happy": "わあっ！新しいクエストが {count} 件！楽しみですね！",
+      "ironic": "ああそう…また {count} 件のクエストですか。休む暇なんてありませんね。",
+      "dark": "{count} 件のクエストが現れました…混沌は眠らない。",
+      "bipolar_up": "クエスト！！{count} 件！！イエーーイ！！最高！！",
+      "bipolar_down": "{count} 件のクエスト…どうでもいいです。何も意味なんてありません。"
+    },
+    "kr": {
+      "normal": "{count} 개의 새로운 미션이 있습니다!",
+      "happy": "와아! {count} 개의 새로운 미션! 재밌을 거예요!",
+      "ironic": "아, 물론이죠… {count} 개의 미션 추가요. 여기서 아무도 쉬지 않는 건 확실하네요.",
+      "dark": "{count} 개의 미션이 나타났습니다… 혼돈은 결코 잠들지 않습니다.",
+      "bipolar_up": "미이이이이션! {count} 개! 좋아! 전 이게 좋아요!",
+      "bipolar_down": "{count} 개의 미션… 아무래도 좋아요. 어차피 아무것도 중요하지 않으니까요."
+    }
   },
   "quest_details": {
     "pt": "Detalhes da Missão",
@@ -437,7 +537,8 @@
     "es": "Detalles de la Misión",
     "ru": "Подробности квеста",
     "zh": "任务详情",
-    "ja": "クエストの詳細"
+    "ja": "クエストの詳細",
+    "kr": "미션 세부 정보"
   },
   "attribute": {
     "pt": "Atributo",
@@ -445,7 +546,8 @@
     "es": "Atributo",
     "ru": "Атрибут",
     "zh": "属性",
-    "ja": "属性"
+    "ja": "属性",
+    "kr": "속성"
   },
   "story": {
     "pt": "História",
@@ -453,7 +555,8 @@
     "es": "Historia",
     "ru": "История",
     "zh": "故事",
-    "ja": "ストーリー"
+    "ja": "ストーリー",
+    "kr": "이야기"
   },
   "close": {
     "pt": "Fechar",
@@ -461,7 +564,8 @@
     "es": "Cerrar",
     "ru": "Закрыть",
     "zh": "关闭",
-    "ja": "閉じる"
+    "ja": "閉じる",
+    "kr": "닫기"
   },
   "continue": {
     "pt": "▼ Clique ou pressione ESPAÇO para continuar ▼",
@@ -469,7 +573,8 @@
     "es": "▼ Haz clic o presiona ESPACIO para continuar ▼",
     "ru": "▼ Нажмите или пробел, чтобы продолжить ▼",
     "zh": "▼ 点击或按空格键继续 ▼",
-    "ja": "▼ クリックまたはスペースキーを押して続行 ▼"
+    "ja": "▼ クリックまたはスペースキーを押して続行 ▼",
+    "kr": "▼ 계속하려면 클릭하거나 스페이스바를 누르세요 ▼"
   },
   "turns_left_label": {
     "pt": "Turnos Restantes",
@@ -477,7 +582,8 @@
     "es": "Turnos Restantes",
     "ru": "Осталось ходов",
     "zh": "剩余回合",
-    "ja": "残りターン"
+    "ja": "残りターン",
+    "kr": "남은 차례"
   },
   "heroes_on_quest": {
     "pt": "Heróis em Missão",
@@ -485,7 +591,8 @@
     "es": "Héroes en misión",
     "ru": "Герои в задании",
     "zh": "任务中的英雄",
-    "ja": "任務中の英雄"
+    "ja": "任務中の英雄",
+    "kr": "미션 중인 영웅"
   },
   "selected": {
     "pt": "Selecionado",
@@ -493,7 +600,8 @@
     "es": "Seleccionado",
     "ru": "Выбран",
     "zh": "已选择",
-    "ja": "選択済み"
+    "ja": "選択済み",
+    "kr": "선택됨"
   },
   "completed_quests_title": {
     "pt": "Missões Completadas",
@@ -501,7 +609,8 @@
     "es": "Misiones Completadas",
     "ru": "Завершённые задания",
     "zh": "已完成任务",
-    "ja": "完了したクエスト"
+    "ja": "完了したクエスト",
+    "kr": "완료된 미션"
   },
   "no_completed_quests": {
     "pt": "Nenhuma missão completada",
@@ -509,7 +618,8 @@
     "es": "No hay misiones completadas",
     "ru": "Нет завершённых заданий",
     "zh": "没有已完成的任务",
-    "ja": "完了したクエストはありません"
+    "ja": "完了したクエストはありません",
+    "kr": "완료된 미션 없음"
   },
   "select_quest_to_view": {
     "pt": "Selecione uma missão para visualizar",
@@ -517,7 +627,8 @@
     "es": "Seleccione una misión para ver",
     "ru": "Выберите задание для просмотра",
     "zh": "选择一个任务查看",
-    "ja": "表示するクエストを選択してください"
+    "ja": "表示するクエストを選択してください",
+    "kr": "볼 미션을 선택하세요"
   },
   "completed_by": {
     "pt": "Completada por",
@@ -525,7 +636,8 @@
     "es": "Completada por",
     "ru": "Выполнено",
     "zh": "完成者",
-    "ja": "完了者"
+    "ja": "完了者",
+    "kr": "완료자"
   },
   "no_saves_found": {
     "pt": "Nenhum save encontrado",
@@ -533,7 +645,8 @@
     "es": "No se encontraron partidas guardadas",
     "ru": "Сохранения не найдены",
     "zh": "未找到存档",
-    "ja": "セーブデータが見つかりません"
+    "ja": "セーブデータが見つかりません",
+    "kr": "저장 파일 없음"
   },
   "load_button": {
     "pt": "Carregar",
@@ -541,7 +654,8 @@
     "es": "Cargar",
     "ru": "Загрузить",
     "zh": "加载",
-    "ja": "ロード"
+    "ja": "ロード",
+    "kr": "불러오기"
   },
   "delete_button": {
     "pt": "Apagar",
@@ -549,7 +663,8 @@
     "es": "Borrar",
     "ru": "Удалить",
     "zh": "删除",
-    "ja": "削除"
+    "ja": "削除",
+    "kr": "삭제"
   },
   "confirm_delete_title": {
     "pt": "Confirmar exclusão",
@@ -557,7 +672,8 @@
     "es": "Confirmar eliminación",
     "ru": "Подтверждение удаления",
     "zh": "确认删除",
-    "ja": "削除の確認"
+    "ja": "削除の確認",
+    "kr": "삭제 확인"
   },
   "confirm_delete_message": {
     "pt": "Apagar save '{filename}'?",
@@ -565,7 +681,8 @@
     "es": "¿Eliminar la partida '{filename}'?",
     "ru": "Удалить сохранение «{filename}»?",
     "zh": "删除存档“{filename}”？",
-    "ja": "セーブデータ「{filename}」を削除しますか？"
+    "ja": "セーブデータ「{filename}」を削除しますか？",
+    "kr": "저장 파일 '{filename}' 을/를 삭제하시겠습니까?"
   },
   "cancel_button": {
     "pt": "Cancelar",
@@ -573,7 +690,8 @@
     "es": "Cancelar",
     "ru": "Отмена",
     "zh": "取消",
-    "ja": "キャンセル"
+    "ja": "キャンセル",
+    "kr": "취소"
   },
   "delete_confirm_button": {
     "pt": "Apagar",
@@ -581,7 +699,8 @@
     "es": "Borrar",
     "ru": "Удалить",
     "zh": "删除",
-    "ja": "削除"
+    "ja": "削除",
+    "kr": "삭제"
   },
   "save_loaded_success": {
     "pt": "Save {filename} carregado com sucesso!",
@@ -589,7 +708,8 @@
     "es": "¡Partida {filename} cargada correctamente!",
     "ru": "Сохранение {filename} успешно загружено!",
     "zh": "存档 {filename} 已成功加载！",
-    "ja": "セーブデータ {filename} の読み込みに成功しました！"
+    "ja": "セーブデータ {filename} の読み込みに成功しました！",
+    "kr": "저장 파일 {filename} 이/가 성공적으로 불러와졌습니다!"
   },
   "save_loaded_error": {
     "pt": "Erro ao carregar {filename}",
@@ -597,7 +717,8 @@
     "es": "Error al cargar {filename}",
     "ru": "Ошибка при загрузке {filename}",
     "zh": "加载 {filename} 时出错",
-    "ja": "{filename} の読み込み中にエラーが発生しました"
+    "ja": "{filename} の読み込み中にエラーが発生しました",
+    "kr": "{filename} 불러오기 오류"
   },
   "load": {
     "pt": "Carregar",
@@ -605,7 +726,8 @@
     "es": "Cargar",
     "ru": "Загрузить",
     "zh": "载入",
-    "ja": "読み込む"
+    "ja": "読み込む",
+    "kr": "불러오기"
   },
   "delete": {
     "pt": "Apagar",
@@ -613,7 +735,8 @@
     "es": "Borrar",
     "ru": "Удалить",
     "zh": "删除",
-    "ja": "削除"
+    "ja": "削除",
+    "kr": "삭제"
   },
   "confirm_delete_text": {
     "pt": "Apagar save '{filename}'?",
@@ -621,7 +744,8 @@
     "es": "¿Eliminar el guardado '{filename}'?",
     "ru": "Удалить сохранение '{filename}'?",
     "zh": "要删除存档 '{filename}' 吗？",
-    "ja": "セーブデータ '{filename}' を削除しますか？"
+    "ja": "セーブデータ '{filename}' を削除しますか？",
+    "kr": "저장 파일 '{filename}' 을/를 삭제하시겠습니까?"
   },
   "back": {
     "pt": "Voltar",
@@ -629,7 +753,8 @@
     "es": "Volver",
     "ru": "Назад",
     "zh": "返回",
-    "ja": "戻る"
+    "ja": "戻る",
+    "kr": "뒤로"
   },
   "settings_title": {
     "pt": "Configurações",
@@ -637,7 +762,8 @@
     "es": "Configuraciones",
     "ru": "Настройки",
     "zh": "设置",
-    "ja": "設定"
+    "ja": "設定",
+    "kr": "설정"
   },
   "language": {
     "pt": "Idioma",
@@ -645,7 +771,8 @@
     "es": "Idioma",
     "ru": "Язык",
     "zh": "语言",
-    "ja": "言語"
+    "ja": "言語",
+    "kr": "언어"
   },
   "screen_mode": {
     "pt": "Modo de Tela",
@@ -653,7 +780,8 @@
     "es": "Modo de Pantalla",
     "ru": "Режим экрана",
     "zh": "显示模式",
-    "ja": "画面モード"
+    "ja": "画面モード",
+    "kr": "화면 모드"
   },
   "screen_size": {
     "pt": "Resolução",
@@ -661,7 +789,8 @@
     "es": "Resolución",
     "ru": "Разрешение",
     "zh": "分辨率",
-    "ja": "解像度"
+    "ja": "解像度",
+    "kr": "해상도"
   },
   "music_volume": {
     "pt": "Volume da Música",
@@ -669,7 +798,8 @@
     "es": "Volumen de Música",
     "ru": "Громкость музыки",
     "zh": "音乐音量",
-    "ja": "音楽の音量"
+    "ja": "音楽の音量",
+    "kr": "배경 음악 볼륨"
   },
   "ui_volume": {
     "pt": "Volume da Interface",
@@ -677,7 +807,8 @@
     "es": "Volumen de Interfaz",
     "ru": "Громкость интерфейса",
     "zh": "界面音量",
-    "ja": "UIの音量"
+    "ja": "UIの音量",
+    "kr": "UI 볼륨"
   },
   "mute_music": {
     "pt": "Silenciar Música",
@@ -685,7 +816,8 @@
     "es": "Silenciar Música",
     "ru": "Выключить музыку",
     "zh": "静音音乐",
-    "ja": "音楽をミュート"
+    "ja": "音楽をミュート",
+    "kr": "배경 음악 음소거"
   },
   "mute_ui": {
     "pt": "Silenciar Sons da Interface",
@@ -693,7 +825,8 @@
     "es": "Silenciar Sonidos de Interfaz",
     "ru": "Выключить звуки интерфейса",
     "zh": "静音界面声音",
-    "ja": "UI音をミュート"
+    "ja": "UI音をミュート",
+    "kr": "UI 사운드 음소거"
   },
   "fullscreen": {
     "pt": "Tela Cheia",
@@ -701,7 +834,8 @@
     "es": "Pantalla Completa",
     "ru": "Полный экран",
     "zh": "全屏",
-    "ja": "フルスクリーン"
+    "ja": "フルスクリーン",
+    "kr": "전체 화면"
   },
   "windowed": {
     "pt": "Janela",
@@ -709,7 +843,8 @@
     "es": "Ventana",
     "ru": "Оконный",
     "zh": "窗口模式",
-    "ja": "ウィンドウ"
+    "ja": "ウィンドウ",
+    "kr": "창 모드"
   },
   "level_label": {
     "pt": "Nível",
@@ -717,7 +852,8 @@
     "es": "Nivel",
     "ru": "Уровень",
     "zh": "等级",
-    "ja": "レベル"
+    "ja": "レベル",
+    "kr": "레벨"
   },
   "strength": {
     "pt": "Força",
@@ -725,7 +861,8 @@
     "es": "Fuerza",
     "ru": "Сила",
     "zh": "力量",
-    "ja": "力"
+    "ja": "力",
+    "kr": "힘"
   },
   "dexterity": {
     "pt": "Destreza",
@@ -733,7 +870,8 @@
     "es": "Destreza",
     "ru": "Ловкость",
     "zh": "敏捷",
-    "ja": "器用さ"
+    "ja": "器用さ",
+    "kr": "민첩"
   },
   "intelligence": {
     "pt": "Inteligência",
@@ -741,7 +879,8 @@
     "es": "Inteligencia",
     "ru": "Интеллект",
     "zh": "智力",
-    "ja": "知性"
+    "ja": "知性",
+    "kr": "지능"
   },
   "wisdom": {
     "pt": "Sabedoria",
@@ -749,7 +888,8 @@
     "es": "Sabiduría",
     "ru": "Мудрость",
     "zh": "智慧",
-    "ja": "知恵"
+    "ja": "知恵",
+    "kr": "지혜"
   },
   "success": {
     "en": "Success",
@@ -757,7 +897,8 @@
     "es": "Éxito",
     "zh": "成功",
     "ja": "成功",
-    "ru": "Успех"
+    "ru": "Успех",
+    "kr": "성공"
   },
   "failure": {
     "en": "Failure",
@@ -765,7 +906,8 @@
     "es": "Fracaso",
     "zh": "失败",
     "ja": "失敗",
-    "ru": "Неудача"
+    "ru": "Неудача",
+    "kr": "실패"
   },
   "critical": {
     "en": "Critical",
@@ -773,7 +915,8 @@
     "es": "Crítico",
     "zh": "致命",
     "ja": "クリティカル",
-    "ru": "Критический"
+    "ru": "Критический",
+    "kr": "치명타"
   },
   "critical_failure": {
     "en": "Critical Failure",
@@ -781,7 +924,8 @@
     "es": "Fallo Crítico",
     "zh": "严重失败",
     "ja": "致命的失敗",
-    "ru": "Критическая ошибка"
+    "ru": "Критическая ошибка",
+    "kr": "치명적 실패"
   },
   "hero_leveled_up": {
     "en": "{hero} leveled up to Level {level}!",
@@ -789,6 +933,233 @@
     "es": "¡{hero} ha subido al Nivel {level}!",
     "ru": "{hero} получил {level} уровень!",
     "ja": "{hero} がレベル {level} に上がった！",
-    "zh": "{hero} 升级到 {level} 级了！"
-  }
+    "zh": "{hero} 升级到 {level} 级了！",
+    "kr": "{hero} 이/가 레벨 {level} 로 올랐습니다!"
+  },
+  "assistant_fallback_no_quest_dialogue": {
+    "pt": "Hmm… não encontrei nenhum relato dessa missão. Talvez os heróis tenham esquecido de escrever.",
+    "en": "Hmm… I couldn’t find any report for this mission. Maybe the heroes forgot to write it.",
+    "es": "Hmm… no encontré ningún informe de esta misión. Quizá los héroes olvidaron escribirlo.",
+    "ru": "Хм… я не нашла отчёт об этом задании. Наверное, герои забыли его составить.",
+    "ja": "ふむ…この任務の報告書が見当たらないね。英雄たち、書き忘れたのかな？",
+    "zh": "嗯……没有找到这次任务的报告。也许英雄们忘记写了。",
+    "kr": "음… 이 미션에 대한 보고서를 찾을 수 없습니다. 아마 영웅들이 쓰는 것을 잊었나 봅니다."
+  },
+  "assistant_fallback_basic_report": {
+    "pt": "A missão foi concluída. Eles não falaram muito, mas deu tudo certo.",
+    "en": "The quest is completed. They didn’t say much, but everything seems fine.",
+    "es": "La misión terminó. No dijeron mucho, pero todo parece estar bien.",
+    "ru": "Задание выполнено. Они мало что рассказали, но, похоже, всё в порядке.",
+    "ja": "任務は完了。あまり多くは語ってくれなかったけど、うまくいったみたい。",
+    "zh": "任务完成了。他们没说太多，但看起来一切顺利。",
+    "kr": "미션이 완료되었습니다. 그들은 별로 말하지 않았지만, 모든 것이 잘 된 것 같습니다."
+  },
+  "assistant_fallback_silent_start": {
+    "pt": "Eles se preparam em silêncio… foco é sempre um bom sinal.",
+    "en": "They prepare in silence… focus is usually a good sign.",
+    "es": "Se preparan en silencio… la concentración suele ser una buena señal.",
+    "ru": "Они готовятся в тишине… концентрация — обычно хороший знак.",
+    "ja": "みんな黙って準備してる…集中してるってことかな、いい兆しだよ。",
+    "zh": "他们默默地准备着……专注通常是个好兆头。",
+    "kr": "그들은 조용히 준비합니다… 집중은 보통 좋은 신호입니다."
+  },
+  "assistant_heroes_return": {
+    "pt": "Os heróis {heroes} retornaram da missão!",
+    "en": "The heroes {heroes} have returned from the quest!",
+    "es": "¡Los héroes {heroes} han regresado de la misión!",
+    "ru": "Герои {heroes} вернулись из задания!",
+    "zh": "英雄 {heroes} 已经从任务中归来！",
+    "ja": "英雄 {heroes} がクエストから戻ってきました！",
+    "kr": "영웅 {heroes} 이/가 미션에서 돌아왔습니다!"
+  },
+  "assistant_quest_expired": {
+    "pt": {
+      "normal": "A quest '{quests}' falhou por não ter sido iniciada.",
+      "happy": "Ops! A quest '{quests}' falhou, mas tudo bem! Tem mais por aí!",
+      "ironic": "Sério? '{quests}' falhou porque ninguém nem começou. Impressionante.",
+      "dark": "'{quests}' morreu antes mesmo de nascer… como tantas outras coisas.",
+      "bipolar_up": "HAHA! '{quests}' FALHOU! MAS TÁ TUDO BEM! TEM OUTRAS!!!",
+      "bipolar_down": "'{quests}' falhou… claro. Nada começa, nada importa."
+    },
+    "en": {
+      "normal": "Quest '{quests}' failed because it was not started.",
+      "happy": "Oops! Quest '{quests}' failed, but hey—more quests ahead!",
+      "ironic": "Nice. '{quests}' failed because nobody even started it.",
+      "dark": "'{quests}' collapsed into nothingness before it even began.",
+      "bipolar_up": "HAHA! '{quests}' FAILED! WHO CARES? MORE QUESTS!!!",
+      "bipolar_down": "'{quests}' failed… obviously. Nothing ever works."
+    },
+    "es": {
+      "normal": "La misión '{quests}' fracasó porque no fue iniciada.",
+      "happy": "¡Ups! '{quests}' falló, ¡pero hay muchas más misiones!",
+      "ironic": "Genial. '{quests}' falló sin que nadie la empezara.",
+      "dark": "'{quests}' se perdió en el vacío… nunca empezó.",
+      "bipolar_up": "¡JAJA! ¡'{quests}' FALLÓ! ¡NO IMPORTA, HAY MÁS!",
+      "bipolar_down": "'{quests}' falló… como siempre pasa."
+    },
+    "ru": {
+      "normal": "Квест «{quests}» провалился, так как не был начат.",
+      "happy": "Ой! «{quests}» провалился, но впереди ещё много заданий!",
+      "ironic": "Ну да. «{quests}» провалился, ведь никто его не начал.",
+      "dark": "«{quests}» исчез в пустоте… так и не начавшись.",
+      "bipolar_up": "ХАХА! «{quests}» ПРОВАЛЕН! НУ И ЛАДНО! ЕЩЁ КВЕСТЫ!",
+      "bipolar_down": "«{quests}» провалился… как и всё в жизни."
+    },
+    "zh": {
+      "normal": "任务“{quests}”因未开始而失败。",
+      "happy": "哎呀！“{quests}”失败了，不过还有很多任务呢！",
+      "ironic": "太棒了，“{quests}”失败了，因为没人开始它。",
+      "dark": "“{quests}”在开始前就已经消失在虚无中了。",
+      "bipolar_up": "哈哈！“{quests}”失败啦！没关系，还有更多！！",
+      "bipolar_down": "“{quests}”失败了……反正什么都没意义。"
+    },
+    "ja": {
+      "normal": "クエスト「{quests}」は開始されなかったため失敗しました。",
+      "happy": "あら！「{quests}」は失敗したけど、まだまだクエストあるよ！",
+      "ironic": "へぇ。「{quests}」は誰も始めなかったから失敗？よくあるね。",
+      "dark": "「{quests}」は始まる前に闇に消えた…。",
+      "bipolar_up": "ハハハ！「{quests}」失敗！でもいい！次いこう！！",
+      "bipolar_down": "「{quests}」失敗…どうでもいいよ。全部無意味だ。"
+    },
+    "kr": {
+      "normal": "퀘스트 '{quests}' 이/가 시작되지 않아 실패했습니다.",
+      "happy": "이런! 퀘스트 '{quests}' 은/는 실패했지만 괜찮아요! 다른 것도 있어요!",
+      "ironic": "정말이요? 아무도 시작하지 않아서 '{quests}' 이/가 실패했군요. 대단합니다.",
+      "dark": "'{quests}' 이/가 태어나기도 전에 사라졌습니다… 다른 많은 것들처럼요.",
+      "bipolar_up": "하하! '{quests}' 실패! 하지만 괜찮아요! 다른 게 있어요!!!",
+      "bipolar_down": "'{quests}' 실패… 당연하죠. 아무것도 시작되지 않고, 아무것도 중요하지 않아요."
+    }
+  },
+  "assistant_welcome_back": {
+    "pt": {
+      "normal": "Bem-vindo de volta! Pronto para continuar sua aventura?",
+      "happy": "Você voltou! Vamos continuar essa aventura incrível!",
+      "ironic": "Olha só quem apareceu. Vamos continuar ou não?",
+      "dark": "Bem-vindo de volta… ao mesmo ciclo interminável.",
+      "bipolar_up": "VOCÊ VOLTOU!!! SIM!!! AVENTURA AGORA!!",
+      "bipolar_down": "Você voltou… mas nada realmente muda."
+    },
+    "en": {
+      "normal": "Welcome back! Ready to continue your adventure?",
+      "happy": "You're back! Let's dive right into the adventure!",
+      "ironic": "Oh, look who's back. Shall we continue?",
+      "dark": "Welcome back… to the endless cycle.",
+      "bipolar_up": "YOU'RE BACK!!! YES!! LET'S GO!!!",
+      "bipolar_down": "You're back… not that it matters."
+    },
+    "es": {
+      "normal": "¡Bienvenido de nuevo! ¿Listo para continuar tu aventura?",
+      "happy": "¡Volviste! ¡Sigamos con esta aventura épica!",
+      "ironic": "Ah, mira quién regresó. ¿Continuamos?",
+      "dark": "Bienvenido de nuevo… al ciclo infinito.",
+      "bipolar_up": "¡VOLVISTE! ¡SÍ! ¡AVENTURA YA!",
+      "bipolar_down": "Volviste… pero nada cambia."
+    },
+    "ru": {
+      "normal": "С возвращением! Готов продолжить своё приключение?",
+      "happy": "Ты вернулся! Давай продолжим это великое приключение!",
+      "ironic": "О, кто это у нас? Продолжим?",
+      "dark": "С возвращением… в бесконечный круг.",
+      "bipolar_up": "ТЫ ВЕРНУЛСЯ!!! ДА!! ПРИКЛЮЧЕНИЕ ПРЯМО СЕЙЧАС!",
+      "bipolar_down": "Ты вернулся… и что с того?"
+    },
+    "zh": {
+      "normal": "欢迎回来！准备好继续你的冒险了吗？",
+      "happy": "你回来了！继续冒险吧！",
+      "ironic": "哦，你终于回来了。继续吗？",
+      "dark": "欢迎回来……回到无尽的循环。",
+      "bipolar_up": "你回来了！！！太棒了！！冒险开始！！",
+      "bipolar_down": "你回来了……但这没有意义。"
+    },
+    "ja": {
+      "normal": "おかえりなさい！冒険を続ける準備はできましたか？",
+      "happy": "戻ってきたね！さあ、冒険を続けよう！",
+      "ironic": "あれ？帰ってきたの？続ける？",
+      "dark": "おかえり…終わりのない輪へ。",
+      "bipolar_up": "キタァ！！戻ってきた！！冒険いくぞ！！",
+      "bipolar_down": "戻ったんだ…でも意味なんてない。"
+    },
+    "kr": {
+      "normal": "돌아오신 것을 환영합니다! 모험을 계속할 준비가 되셨나요?",
+      "happy": "돌아오셨군요! 이 놀라운 모험을 계속합시다!",
+      "ironic": "보세요, 누가 돌아왔는지. 계속할까요, 말까요?",
+      "dark": "돌아오신 것을 환영합니다… 끝없는 순환으로요.",
+      "bipolar_up": "돌아오셨군요!!! 예!!! 지금 바로 모험 시작!!",
+      "bipolar_down": "돌아오셨지만… 실제로 변하는 건 없어요."
+    }
+  },
+  "assistant_level_up": {
+    "pt": {
+      "normal": "{hero} subiu para o nível {level}!",
+      "happy": "Uhuu! {hero} alcançou o nível {level}! Incrível!",
+      "ironic": "Olha só… {hero} chegou ao nível {level}. Parabéns, eu acho.",
+      "dark": "{hero} ascende ao nível {level}… rumo ao inevitável.",
+      "bipolar_up": "{hero} SUBIU!! NÍVEL {level}!!! ISSO! MAIS PODER!!",
+      "bipolar_down": "{hero} no nível {level}… nada disso importa no fim."
+    },
+    "en": {
+      "normal": "{hero} leveled up to {level}!",
+      "happy": "Yesss! {hero} reached level {level}! Amazing!",
+      "ironic": "Well well… {hero} is level {level} now. Fascinating.",
+      "dark": "{hero} rises to level {level}… closer to the abyss.",
+      "bipolar_up": "A{hero} LEVELED UP!! LEVEL {level}!!! WOOO!!",
+      "bipolar_down": "{hero} is level {level}… not that it matters."
+    },
+    "es": {
+      "normal": "¡{hero} subió al nivel {level}!",
+      "happy": "¡Genial! ¡{hero} alcanzó el nivel {level}! ¡Impresionante!",
+      "ironic": "Vaya… {hero} llegó al nivel {level}. Bravo.",
+      "dark": "{hero} asciende al nivel {level}… hacia lo inevitable.",
+      "bipolar_up": "¡¡{hero} SUBIÓ!! ¡¡NIVEL {level}!! ¡¡SÍII!!",
+      "bipolar_down": "{hero} está en el nivel {level}… nada importa."
+    },
+    "ru": {
+      "normal": "{hero} повысил уровень до {level}!",
+      "happy": "Здорово! {hero} достиг уровня {level}! Отлично!",
+      "ironic": "Ну надо же… {hero} уже {level} уровень. Поздравляю… наверное.",
+      "dark": "{hero} поднимается до уровня {level}… всё ближе к неизбежному.",
+      "bipolar_up": "{hero} ПОВЫСИЛ УРОВЕНЬ!! {level}!!! УРАА!!",
+      "bipolar_down": "{hero} теперь уровня {level}… но что это меняет?"
+    },
+    "zh": {
+      "normal": "{hero} 升到了 {level} 级！",
+      "happy": "太棒了！{hero} 达到了 {level} 级！太厉害了！",
+      "ironic": "哦哟… {hero} 到 {level} 级了。真是了不起呢。",
+      "dark": "{hero} 上升到 {level} 级… 更接近深渊。",
+      "bipolar_up": "{hero} 升级啦！！{level} 级！！太爽了！！",
+      "bipolar_down": "{hero} {level} 级了…不过也没什么意义。"
+    },
+    "ja": {
+      "normal": "{hero} はレベル {level} に上がりました！",
+      "happy": "やった！{hero} がレベル {level} に到達！すごい！",
+      "ironic": "へぇ… {hero} がレベル {level}？よかったね。",
+      "dark": "{hero} はレベル {level} へと昇る…破滅に一歩近づいた。",
+      "bipolar_up": "{hero} レベルアップ！！{level}！！イエーーイ！！",
+      "bipolar_down": "{hero} はレベル {level}…でも意味なんてない。"
+    },
+    "kr": {
+      "normal": "{hero} 이/가 레벨 {level} 로 올랐습니다!",
+      "happy": "와아! {hero} 이/가 레벨 {level} 에 도달했어요! 굉장합니다!",
+      "ironic": "보세요… {hero} 이/가 레벨 {level} 이 되었군요. 축하드립니다, 아마도요.",
+      "dark": "{hero} 이/가 레벨 {level} 로 상승합니다… 피할 수 없는 곳으로요.",
+      "bipolar_up": "{hero} 레벨 업!! 레벨 {level}!!! 좋아! 더 많은 힘!!",
+      "bipolar_down": "{hero} 이/가 레벨 {level} 이지만… 결국 아무것도 중요하지 않아요."
+    }
+  },
+    "music_credits_title": {
+        "pt": "Créditos da Trilha Sonora",
+        "en": "Music Credits",
+        "es": "Créditos de Música",
+        "ru": "Музыкальные кредиты",
+        "zh": "音乐致谢",
+        "ja": "音楽クレジット"
+    },
+    "music_credits_text": {
+        "pt": "Músicas por Solas Composer | Licença: CC BY-SA 4.0\nSoundCloud: solas_composer | YouTube: MedievalLofi",
+        "en": "Music by Solas Composer | License: CC BY-SA 4.0\nSoundCloud: solas_composer | YouTube: MedievalLofi",
+        "es": "Música por Solas Composer | Licencia: CC BY-SA 4.0\nSoundCloud: solas_composer | YouTube: MedievalLofi",
+        "ru": "Музыка: Solas Composer | Лицензия: CC BY-SA 4.0\nSoundCloud: solas_composer | YouTube: MedievalLofi",
+        "zh": "音乐作者：Solas Composer | 许可：CC BY-SA 4.0\nSoundCloud：solas_composer | YouTube：MedievalLofi",
+        "ja": "音楽：Solas Composer | ライセンス: CC BY-SA 4.0\nSoundCloud: solas_composer | YouTube: MedievalLofi"
+    }
 }

@@ -6,7 +6,7 @@ from kivy.clock import Clock
 class ResponsiveFrame(BoxLayout):
     scale_factor = NumericProperty(1)
     min_size = ListProperty([800, 600])
-    max_size = ListProperty([1400, 900])
+    max_size = ListProperty([1920, 1080])
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)

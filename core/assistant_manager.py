@@ -1,4 +1,5 @@
 from core.hero import Hero
+import random
 
 class AssistantManager:
     def __init__(self, language_manager, dialogue_box=None):
@@ -6,12 +7,14 @@ class AssistantManager:
         self.dialogue_box = dialogue_box
         self.first_time = True
 
-        # Configuração fixa da assistente
-        self.id = "assistant"  # ✅ ID como string
-        self.name = "Lyria"  
+        self.id = "assistant"
+        self.name = "Lyria"
         self.portrait = "assets/img/assistant.png"
-        
-        # Cria o fake hero uma vez só
+
+        # humores possíveis
+        self.moods = ["normal", "happy", "ironic", "dark", "bipolar_up", "bipolar_down"]
+        self.current_mood = "normal"  # humor padrão
+
         self.fake_hero = Hero(
             id=self.id,
             name=self.name,
@@ -28,18 +31,55 @@ class AssistantManager:
             growth_curve={}
         )
 
-    def speak(self, key, **kwargs):
-        """Mostra a fala da assistente usando o DialogueBox."""
-        msg = self.lm.t(key).format(**kwargs)
+    # -------------------------------------------------------------
+    #   ESCOLHA DE HUMOR
+    # -------------------------------------------------------------
+    def set_mood(self, mood):
+        """Define um humor fixo (caso você queira)."""
+        if mood in self.moods:
+            self.current_mood = mood
+
+    def randomize_mood(self):
+        """Randomiza um humor a cada evento."""
+        self.current_mood = random.choice(self.moods)
+
+    # -------------------------------------------------------------
+    #   FALA COM HUMOR
+    # -------------------------------------------------------------
+    def speak(self, key, mood=None, **kwargs):
+        """Fala da assistente com suporte a humor."""
+
+        # Seleciona o humor
+        if mood is None:
+            # humor aleatório
+            self.randomize_mood()
+            mood = self.current_mood
+        else:
+            # humor forçado
+            self.set_mood(mood)
+
+        # carrega as falas
+        entry = self.lm.t(key)
+
+        # se for algo tipo {"normal": "...", "ironic": "..."}
+        if isinstance(entry, dict):
+            msg = entry.get(mood) or entry.get("normal")
+
+            if msg is None:
+                msg = f"[missing_translation:{key}:{mood}]"
+        else:
+            # fallback: tradução simples sem humor
+            msg = entry
+
+        msg = msg.format(**kwargs)
+
         if self.dialogue_box:
-            # Usa o DialogueBox normalmente, passando um diálogo estruturado
             dialogue = [{"id": self.id, "text": msg}]
-            
-            # Passa como se fosse uma quest normal
+
             self.dialogue_box.queue.append(
                 ([self.fake_hero], "assistant_event", dialogue, None)
             )
-            
+
             if not self.dialogue_box.popup:
                 self.dialogue_box._process_next()
         else:
@@ -57,7 +97,12 @@ class AssistantManager:
 
     def on_game_start(self):
         if self.first_time:
-            self.speak("assistant_first_time")
+            self.speak("assistant_intro_1")
+            self.speak("assistant_intro_2")
+            self.speak("assistant_intro_3")
+            self.speak("assistant_intro_4")
+            self.speak("assistant_intro_5")
+            self.speak("assistant_intro_6")
             self.first_time = False
         else:
             self.speak("assistant_welcome_back")

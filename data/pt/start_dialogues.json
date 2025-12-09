@@ -1,0 +1,44 @@
+{
+  "heroes": {
+    "1": {
+      "default": [
+        "Sim... entendi.",
+        "Onde... exatamente?",
+        "Vou... tentar.",
+        "Começo agora.",
+        "O mapa... por favor?"
+      ],
+      "999": [
+        "Desde que vencemos na Montanha Sombria, me sinto mais confiante.",
+        "Nada pode nos parar agora, já superamos desafios maiores."
+      ]
+    },
+    "2": {
+      "default": [
+        "Entendido. Não vou pegar nada que não seja meu.",
+        "Apenas me diga o que precisa e eu farei. Sem truques.",
+        "O pagamento é para minha mãe, então a missão será concluída.",
+        "Não se preocupe com a minha presença. Se eu fizer meu trabalho, ninguém vai me notar.",
+        "O que foi prometido será entregue. Conte comigo."
+      ]
+    },
+    "3": {
+      "default": [
+        "Eles me dizem que o caminho é seguro... se formos pelo leste.",
+        "A coruja da montanha nos avisa... Ela diz que a cura para o mal está no alto.",
+        "Precisamos nos apressar. O sussurro do rio está ficando impaciente.",
+        "A voz de prata me pede para abençoar a entrada, mas a voz de ferro diz para irmos de uma vez.",
+        "Minhas guias interiores concordaram. Podemos partir."
+      ]
+    },
+    "4": {
+      "default": [
+        "Ameaça mapeada. Vetor Relâmpago é o mais eficiente. Prosseguir.",
+        "Eliminar o desequilíbrio. Alta voltagem neutralizará anomalias. Manter formação.",
+        "Raio calculado para convergência. Precisão e velocidade são suficientes. Partir agora.",
+        "Risco de escalonamento. Resolução binária é necessária. Aplicar energia na menor resistência.",
+        "A Força direciona, a Destreza rastreia. Eu executo. Imobilizar com choque o que se mover rápido."
+      ]
+    }
+  }
+}

@@ -229,6 +229,39 @@ class SettingsScreen(Screen):
         content.add_widget(right)
         box.add_widget(content)
 
+        # --- Créditos de Música ---
+        credits_box = BoxLayout(
+            orientation="vertical",
+            size_hint_y=None,
+            height=60,
+            spacing=2
+        )
+
+        credits_title = Label(
+            text=self.lm.t("music_credits_title"),
+            font_size=20,
+            bold=True,
+            color=(0.16, 0.09, 0.06, 1),
+            size_hint_y=None,
+            height=20
+        )
+
+        credits_text = Label(
+            text=self.lm.t("music_credits_text"),
+            font_size=16,
+            halign="left",
+            valign="top",
+            color=(0.16, 0.09, 0.06, 1),
+            size_hint_y=None,
+            height=40
+        )
+        credits_text.bind(size=lambda *x: credits_text.texture_update())
+
+        credits_box.add_widget(credits_title)
+        credits_box.add_widget(credits_text)
+
+        box.add_widget(credits_box)
+
         # Botão Voltar
         back_btn = Button(
             text=self.lm.t('back_to_menu'),
@@ -242,6 +275,7 @@ class SettingsScreen(Screen):
 
         layout.add_widget(box)
         self.add_widget(layout)
+
 
     def _update_bg(self, instance, value):
         self.bg_rect.size = instance.size

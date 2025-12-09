@@ -18,9 +18,9 @@
       "ja": "領地の貴族が自身の金庫の暗証番号を紛失し、ギルドに「緊急」の依頼を送ってきた。彼は内容が「極秘の個人的なもの」だと断言している — 貴族の言うことなので、常に疑わしい。政治だ！"
     },
     "type": "Dexterity",
-    "expired_at": 3,
-    "available_from_turn": 10,
-    "duration": 3,
+    "expired_at": 4,
+    "available_from_turn": 1,
+    "duration": 2,
     "difficulty": 1.5,
     "rewards": {
       "xp": 50
@@ -50,9 +50,9 @@
       "ja": "誰かが森に残酷な罠を仕掛けた。動物たちは苦しみながら死んでいる。地元のドルイドは、それ以上の破壊を引き起こすことなく罠を解除するための助けを求めている。"
     },
     "type": "Dexterity",
-    "expired_at": 3,
-    "available_from_turn": 10,
-    "duration": 4,
+    "expired_at": 4,
+    "available_from_turn": 5,
+    "duration": 2,
     "difficulty": 1.5,
     "rewards": {
       "xp": 50
@@ -82,17 +82,17 @@
       "ja": "ウルミル族とタヴァク族の二つの部族が戦争の危機に瀕している。それぞれが相手が狩猟物資を盗んだと主張している。王室の使者は「事態を収拾する」ために誰かを求めている。"
     },
     "type": "Wisdom",
-    "expired_at": 3,
-    "available_from_turn": 10,
-    "duration": 4,
+    "expired_at": 4,
+    "available_from_turn": 2,
+    "duration": 2,
     "difficulty": 1.5,
     "rewards": {
       "xp": 50
     },
-    "required_quests": [2],
+    "required_quests": [],
     "forbidden_quests": [],
     "required_fail_quests": [],
-    "required_heroes": [1, 2],
+    "required_heroes": [],
     "forbidden_heroes": []
   },
   {
@@ -114,9 +114,9 @@
       "ja": "一見平和なカルトが多くの信者を集めているが、何かがおかしい。任務は、カルトの儀式や相互作用を注意深く観察し、献身の裏に隠された虚偽や操作を見抜くことである。"
     },
     "type": "Wisdom",
-    "expired_at": 3,
-    "available_from_turn": 10,
-    "duration": 4,
+    "expired_at": 4,
+    "available_from_turn": 6,
+    "duration": 2,
     "difficulty": 1.5,
     "rewards": {
       "xp": 50
@@ -146,9 +146,9 @@
       "ja": "大規模な地滑りが、二つの山村を結ぶ唯一のルートを塞いでしまった。ギルドは通行を妨げる主要な岩を取り除くために呼ばれる。"
     },
     "type": "Strength",
-    "expired_at": 3,
-    "available_from_turn": 10,
-    "duration": 4,
+    "expired_at": 4,
+    "available_from_turn": 3,
+    "duration": 2,
     "difficulty": 1.5,
     "rewards": {
       "xp": 50
@@ -178,9 +178,9 @@
       "ja": "アーデントの司教は、大聖堂の頂上に大きな鐘を設置するのを手伝ってほしいと頼んだ。この鐘は1トン近くあり、誰かが持ち上げることができれば、その祝福が聞かれるだろう。力は不可欠だが... おそらく信仰と創意工夫も役立つだろう。"
     },
     "type": "Strength",
-    "expired_at": 3,
-    "available_from_turn": 10,
-    "duration": 4,
+    "expired_at": 4,
+    "available_from_turn": 7,
+    "duration": 2,
     "difficulty": 1.5,
     "rewards": {
       "xp": 50
@@ -210,9 +210,9 @@
       "ja": "エルデンリーチの遺跡で古代のテレポートポータルが発見されたが、そのルーンは薄れて不安定になっている。ポータルを再び機能させるためには、魔法回路を解読して再起動する必要がある — その過程で谷を爆破することなく。"
     },
     "type": "Intelligence",
-    "expired_at": 3,
-    "available_from_turn": 10,
-    "duration": 4,
+    "expired_at": 4,
+    "available_from_turn": 4,
+    "duration": 2,
     "difficulty": 1.5,
     "rewards": {
       "xp": 50
@@ -242,9 +242,9 @@
       "ja": "住民は、街の魔法防御バリアが東翼で数瞬点滅したと報告した。目撃者は、支持クリスタルの1つから火花が出ているのを見たという。街の防御が完全に失敗する前に、アルカナ場を調査し安定させる必要がある。"
     },
     "type": "Intelligence",
-    "expired_at": 3,
-    "available_from_turn": 10,
-    "duration": 4,
+    "expired_at": 4,
+    "available_from_turn": 8,
+    "duration": 2,
     "difficulty": 1.5,
     "rewards": {
       "xp": 50
@@ -275,8 +275,8 @@
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 10,
-    "duration": 4,
+    "available_from_turn": 9,
+    "duration": 3,
     "difficulty": 1.5,
     "rewards": {
       "xp": 50
@@ -307,8 +307,8 @@
      },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 6,
-    "duration": 4,
+    "available_from_turn": 15,
+    "duration": 3,
     "difficulty": 1.5,
     "rewards": {
       "xp": 50
@@ -321,6 +321,102 @@
   },
   {
     "id": 102,
+    "name": {
+      "pt": "Gosmas no Milharal",
+      "en": "Goo in the Cornfield",
+      "es": "Babas en el Maizal",
+      "ru": "Слизь на Кукурузном Поле",
+      "zh": "玉米田里的粘液",
+      "ja": "トウモロコシ畑の粘液"
+    },
+    "description": {
+      "pt": "Fazendeiros pedem ajuda: pequenos slimes estão devorando o milharal. São lentos, mas em grande número. Preciso que você limpe o campo.",
+      "en": "Farmers ask for help: small slimes are devouring the cornfield. They are slow, but numerous. I need you to clear the field.",
+      "es": "Los agricultores piden ayuda: pequeños slimes están devorando el maizal. Son lentos, pero numerosos. Necesito que limpies el campo.",
+      "ru": "Фермеры просят о помощи: маленькие слаймы пожирают кукурузное поле. Они медленные, но их много. Мне нужно, чтобы вы очистили поле.",
+      "zh": "农民请求帮助：小史莱姆正在吞食玉米田。它们速度慢但数量庞大。我需要你清理这块地。",
+      "ja": "農民が助けを求めている：小さなスライムがトウモロコシ畑を食い荒らしている。彼らは遅いが、数が非常に多い。畑をきれいにしてほしい。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 15,
+    "duration": 4,
+    "difficulty": 2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 103,
+    "name": {
+      "pt": "O Slime Dividido",
+      "en": "The Divided Slime",
+      "es": "El Slime Dividido",
+      "ru": "Разделенный Слайм",
+      "zh": "分裂史莱姆",
+      "ja": "分裂スライム"
+    },
+    "description": {
+      "pt": "Batedores relatam criaturas que, ao serem golpeadas, se multiplicam em duas. Não podemos deixar que tomem conta da floresta. Dê um fim neles.",
+      "en": "Scouts report creatures that, when struck, multiply into two. We cannot let them take over the forest. Put an end to them.",
+      "es": "Los exploradores informan de criaturas que, al ser golpeadas, se multiplican por dos. No podemos permitir que se apoderen del bosque. Acaba con ellas.",
+      "ru": "Разведчики сообщают о существах, которые при ударе делятся на две части. Мы не можем позволить им захватить лес. Положите им конец.",
+      "zh": "侦察兵报告说，有些生物在被击中时会分裂成两个。我们不能让它们占领森林。消灭它们。",
+      "ja": "斥候は、攻撃されると二つに分裂する生物を報告している。森を占領させてはならない。彼らを始末せよ。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 16,
+    "duration": 4,
+    "difficulty": 2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 104,
+    "name": {
+      "pt": "O Slime Ácido",
+      "en": "The Acid Slime",
+      "es": "El Slime Ácido",
+      "ru": "Кислотный Слайм",
+      "zh": "酸性史莱姆",
+      "ja": "酸性スライム"
+    },
+    "description": {
+      "pt": "Um viajante foi atacado por um slime que corrói metal e couro. Se esse tipo se espalhar, ninguém estará seguro. Investigue e destrua-o.",
+      "en": "A traveler was attacked by a slime that corrodes metal and leather. If this type spreads, no one will be safe. Investigate and destroy it.",
+      "es": "Un viajero fue atacado por un slime que corroe metal y cuero. Si este tipo se propaga, nadie estará a salvo. Investiga y destrúyelo.",
+      "ru": "Путешественник был атакован слаймом, разъедающим металл и кожу. Если этот вид распространится, никто не будет в безопасности. Исследуйте и уничтожьте его.",
+      "zh": "一名旅行者被一种腐蚀金属和皮革的史莱姆袭击。如果这种类型扩散，将无人安全。调查并摧毁它。",
+      "ja": "旅行者が金属や革を腐食させるスライムに襲われた。この種が広まれば、誰も安全ではない。調査し、それを破壊せよ。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 16,
+    "duration": 4,
+    "difficulty": 2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 105,
     "name": {
       "pt": "A Poça Cresceu...",
       "en": "The Puddle Grew...",
@@ -339,8 +435,8 @@
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 22,
-    "duration": 4,
+    "available_from_turn": 19,
+    "duration": 3,
     "difficulty": 1.5,
     "rewards": {
       "xp": 50
@@ -352,7 +448,7 @@
     "forbidden_heroes": [3, 4]
   },
  {
-    "id": 103,
+    "id": 106,
     "name": {
       "pt": "O Rei Slime",
       "en": "The Slime King",
@@ -371,8 +467,8 @@
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 28,
-    "duration": 4,
+    "available_from_turn": 24,
+    "duration": 3,
     "difficulty": 8,
     "rewards": {
       "xp": 200
@@ -403,15 +499,16 @@
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 1,
-    "duration": 4,
-    "difficulty": 1.5,
+    "available_from_turn": 20,
+    "duration": 3,
+    "difficulty": 2,
     "rewards": {
       "xp": 50
     },
     "required_quests": [],
     "forbidden_quests": [],
     "required_fail_quests": [],
+    "return_on_fail": false,
     "required_heroes": [],
     "forbidden_heroes": []
   },
@@ -436,12 +533,12 @@
     "type": "Dexterity",
     "expired_at": 4,
     "available_from_turn": 1,
-    "duration": 4,
-    "difficulty": 1.5,
+    "duration": 3,
+    "difficulty": 2,
     "rewards": {
       "xp": 50
     },
-    "required_quests": [120, 123],
+    "required_quests": [120, 123, 124, 125],
     "forbidden_quests": [],
     "required_fail_quests": [],
     "required_heroes": [2],
@@ -468,8 +565,8 @@
     "type": "Strength",
     "expired_at": 4,
     "available_from_turn": 1,
-    "duration": 4,
-    "difficulty": 1.5,
+    "duration": 3,
+    "difficulty": 2,
     "rewards": {
       "xp": 50
     },
@@ -490,18 +587,18 @@
       "ja": "古道への攻撃"
     },
     "description": {
-      "pt": "Mercadores reportam uma série de emboscadas bem-sucedidas. Para entender a tática dos Goblins, os heróis devem escoltar um mercador pela seção perigosa, usando-o como isca para provocar um ataque. O objetivo é eliminar os Goblins e pôr um fim aos ataques na estrada.",
-      "en": "Merchants report a series of successful ambushes. To understand the Goblins' tactics, the heroes must escort a merchant through the dangerous section, using them as bait to provoke an attack. The goal is to eliminate the Goblins and put an end to the road attacks.",
-      "es": "Los mercaderes reportan una serie de emboscadas exitosas. Para comprender las tácticas de los Goblins, los héroes deben escoltar a un mercader a través de la sección peligrosa, usándolo como cebo para provocar un ataque. El objetivo es eliminar a los Goblins y poner fin a los ataques en el camino.",
-      "ru": "Торговцы сообщают о серии успешных засад. Чтобы понять тактику гоблинов, герои должны сопроводить торговца через опасный участок, используя его как приманку, чтобы спровоцировать нападение. Цель — уничтожить гоблинов и положить конец нападениям на дороге.",
-      "zh": "商人们报告了一系列成功的伏击。为了理解哥布林的战术，英雄们必须护送一名商人穿越危险路段，将其作为诱饵来引诱袭击。目标是消灭哥布林，并彻底终止道路上的袭击。",
-      "ja": "商人が一連の待ち伏せ攻撃の成功を報告している。ゴブリンの戦術を理解するため、英雄たちは危険な区間を商人を護衛し、彼を囮として攻撃を誘発しなければならない。目標はゴブリンを排除し、古道への攻撃を終わらせることである。"
+      "pt": "Mercadores reportam uma série de emboscadas bem-sucedidas. Para entender a tática dos Goblins, os heróis devem escoltar um mercador pela seção perigosa, usando-o como isca para provocar um ataque.",
+      "en": "Merchants report a series of successful ambushes. To understand the Goblins' tactics, the heroes must escort a merchant through the dangerous section, using them as bait to provoke an attack.",
+      "es": "Los mercaderes reportan una serie de emboscadas exitosas. Para comprender las tácticas de los Goblins, los héroes deben escoltar a un mercader a través de la sección peligrosa, usándolo como cebo para provocar un ataque.",
+      "ru": "Торговцы сообщают о серии успешных засад. Чтобы понять тактику гоблинов, герои должны сопроводить торговца через опасный участок, используя его как приманку, чтобы спровоцировать нападение.",
+      "zh": "商人们报告了一系列成功的伏击。为了理解哥布林的战术，英雄们必须护送一名商人穿越危险路段，将其作为诱饵来引诱袭击。",
+      "ja": "商人が一連の待ち伏せ攻撃の成功を報告している。ゴブリンの戦術を理解するため、英雄たちは危険な区間を商人を護衛し、彼を囮として攻撃を誘発しなければならない。"
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 10,
-    "duration": 4,
-    "difficulty": 1.5,
+    "available_from_turn": 26,
+    "duration": 3,
+    "difficulty": 2,
     "rewards": {
       "xp": 50
     },
@@ -512,7 +609,461 @@
     "forbidden_heroes": []
   },
   {
-    "id": 901,
+    "id": 124,
+    "name": {
+      "pt": "Goblins nas Terras Agrícolas",
+      "en": "Goblins in the Farmlands",
+      "es": "Goblins en las Tierras de Cultivo",
+      "ru": "Гоблины на Фермерских Землях",
+      "zh": "农场地的哥布林",
+      "ja": "農地をうろつくゴブリン"
+    },
+    "description": {
+      "pt": "Goblins espreitam perto das fazendas. Os heróis devem organizar a defesa dos assentamentos e enfrentá-los caso avancem em direção às plantações e ao gado.",
+      "en": "Goblins lurk near the farms. The heroes must organize the defense of the settlements and engage them should they advance towards the crops and livestock.",
+      "es": "Los Goblins acechan cerca de las granjas. Los héroes deben organizar la defensa de los asentamientos y enfrentarlos si avanzan hacia los cultivos y el ganado.",
+      "ru": "Гоблины скрываются вблизи ферм. Герои должны организовать оборону поселений и вступить с ними в бой, если они продвинутся к посевам и скоту.",
+      "zh": "哥布林潜伏在农场附近。英雄们必须组织防御定居点，并在它们向农作物和牲畜推进时与它们交战。",
+      "ja": "ゴブリンが農場の近くに潜んでいる。英雄たちは集落の防御を組織し、作物や家畜に向かって前進してきた場合は交戦しなければならない。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 27,
+    "duration": 3,
+    "difficulty": 2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "forbidden_quests": [121],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 125,
+    "name": {
+      "pt": "Ameaça à Fauna da Floresta",
+      "en": "Threat to the Forest Fauna",
+      "es": "Amenaza a la Fauna del Bosque",
+      "ru": "Угроза Фауне Леса",
+      "zh": "森林动物群的威胁",
+      "ja": "森林の動物相への脅威"
+    },
+    "description": {
+      "pt": "O druida alertou que goblins estão caçando indiscriminadamente na floresta, afetando toda a fauna. Os heróis devem rastrear e detê-los para evitar o colapso da vida selvagem.",
+      "en": "The druid warned that goblins are hunting indiscriminately in the forest, affecting all the fauna. Heroes must track and stop them to prevent the collapse of the wildlife.",
+      "es": "El druida advirtió que los goblins están cazando indiscriminadamente en el bosque, afectando a toda la fauna. Los héroes deben rastrearlos y detenerlos para evitar el colapso de la vida silvestre.",
+      "ru": "Друид предупредил, что гоблины ведут неизбирательную охоту в лесу, нанося ущерb всей фауне. Герои должны выследить и остановить их, чтобы предотвратить коллапс дикой природы.",
+      "zh": "德鲁伊警告说，哥布林正在森林中肆意捕猎，影响了所有动物。英雄们必须追踪并阻止他们，以防止野生动物崩溃。",
+      "ja": "ドルイドは、ゴブリンが森で無差別に狩りを行い、すべての動物相に影響を与えていると警告した。英雄たちは野生動物の崩壊を防ぐために、彼らを追跡し、食い止めなければならない。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 28,
+    "duration": 3,
+    "difficulty": 2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "forbidden_quests": [121],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 126,
+    "name": {
+      "pt": "Saqueadores de Minério",
+      "en": "Ore Raiders",
+      "es": "Asaltantes de Mineral",
+      "ru": "Похитители Руды",
+      "zh": "矿石掠夺者",
+      "ja": "鉱石強奪者"
+    },
+    "description": {
+      "pt": "Os mineradores da montanha relatam goblins saqueando minério recém-extraído. Os heróis devem proteger o local e recuperar o que puderem do minério roubado.",
+      "en": "Mountain miners report goblins raiding newly extracted ore. Heroes must protect the site and recover what they can of the stolen ore.",
+      "es": "Los mineros de la montaña reportan goblins saqueando mineral recién extraído. Los héroes deben proteger el sitio y recuperar lo que puedan del mineral robado.",
+      "ru": "Горные шахтеры сообщают о гоблинах, грабящих недавно добытую руду. Герои должны защитить месторождение и вернуть то, что смогут из украденной руды.",
+      "zh": "山区的矿工报告有哥布林正在掠夺新开采的矿石。英雄们必须保护矿区并尽可能多地找回被盗的矿石。",
+      "ja": "山の鉱夫たちは、ゴブリンが採掘されたばかりの鉱石を略奪していると報告している。英雄たちは現場を保護し、盗まれた鉱石を可能な限り回収しなければならない。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 29,
+    "duration": 3,
+    "difficulty": 2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "forbidden_quests": [121],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 127,
+    "name": {
+      "pt": "Infiltração na Caverna Goblin",
+      "en": "Goblin Cave Infiltration",
+      "es": "Infiltración en la Cueva Goblin",
+      "ru": "Инфильтрация в Пещеру Гоблинов",
+      "zh": "哥布林洞穴渗透",
+      "ja": "ゴブリンの洞窟への潜入"
+    },
+    "description": {
+      "pt": "Localizamos a entrada da caverna que os goblins têm usado como base. Os heróis devem se infiltrar, mas os primeiros túneis são extremamente estreitos.",
+      "en": "We have located the entrance to the cave the goblins are using as a base. The heroes must infiltrate, but the first tunnels are extremely narrow.",
+      "es": "Hemos localizado la entrada de la cueva que los goblins están utilizando como base. Los héroes deben infiltrarse, pero los primeros túneles son extremadamente estrechos.",
+      "ru": "Мы обнаружили вход в пещеру, которую гоблины используют как базу. Герои должны проникнуть внутрь, но первые туннели чрезвычайно узки.",
+      "zh": "我们已经定位了哥布林用作基地的洞穴入口。英雄们必须潜入，但最初的隧道非常狭窄。",
+      "ja": "ゴブリンが拠点として使用している洞窟の入口を特定しました。英雄たちは潜入する必要がありますが、最初のトンネルは非常に狭い。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 10,
+    "duration": 3,
+    "difficulty": 4,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [122],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 128,
+    "name": {
+      "pt": "A Câmara Escura e o Campeão Goblin",
+      "en": "The Dark Chamber and the Goblin Champion",
+      "es": "La Cámara Oscura y el Campeón Goblin",
+      "ru": "Тёмная Камера и Чемпион Гоблинов",
+      "zh": "黑暗密室与哥布林冠军",
+      "ja": "暗黒の部屋とゴブリンのチャンピオン"
+    },
+    "description": {
+      "pt": "No final dos túneis foi encontrada A Câmara Escura. Nela, magos goblin estão realizando um ritual para um goblin enorme, que acreditamos ser o campeão goblin.",
+      "en": "At the end of the tunnels, The Dark Chamber was found. In it, goblin mages are performing a ritual for a huge goblin, whom we believe to be the goblin champion.",
+      "es": "Al final de los túneles se encontró La Cámara Oscura. En ella, magos goblin están realizando un ritual para un goblin enorme, que creemos que es el campeón goblin.",
+      "ru": "В конце туннелей была найдена Тёмная Камера. В ней гоблины-маги проводят ритуал для огромного гоблина, который, как мы полагаем, является чемпионом гоблинов.",
+      "zh": "在隧道尽头发现了黑暗密室。里面有哥布林法师正在为一个巨大的哥布林举行仪式，我们相信它就是哥布林冠军。",
+      "ja": "トンネルの終わりに暗黒の部屋が発見されました。その中でゴブリンの魔術師たちが巨大なゴブリンのために儀式を行っており、それがゴブリンのチャンピオンであると私たちは信じています。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 10,
+    "duration": 3,
+    "difficulty": 6,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [122],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 129,
+    "name": {
+      "pt": "Interceptar o Campeão Goblin",
+      "en": "Intercept the Goblin Champion",
+      "es": "Interceptar al Campeón Goblin",
+      "ru": "Перехватить Чемпиона Гоблинов",
+      "zh": "拦截哥布林冠军",
+      "ja": "ゴブリンのチャンピオンを阻止せよ"
+    },
+    "description": {
+      "pt": "O Campeão Goblin foi avistado marchando rumo à cidade, escoltado por magos goblins. Os heróis devem interceptar o grupo antes que cheguem às muralhas, pois um ataque ao portão principal é iminente.",
+      "en": "The Goblin Champion has been spotted marching toward the city, escorted by goblin mages. Heroes must intercept the group before they reach the walls, as an attack on the main gate is imminent.",
+      "es": "El Campeón Goblin ha sido avistado marchando hacia la ciudad, escoltado por magos goblins. Los héroes deben interceptar al grupo antes de que lleguen a las murallas, ya que un ataque a la puerta principal es inminente.",
+      "ru": "Чемпион Гоблинов замечен марширующим к городу, его сопровождают маги гоблинов. Герои должны перехватить группу до того, как они достигнут стен, поскольку атака на главные ворота неизбежна.",
+      "zh": "哥布林冠军已被发现正向城市进军，由哥布林法师护送。英雄们必须在他们到达城墙前拦截这群敌人，因为对主门的攻击迫在眉睫。",
+      "ja": "ゴブリンのチャンピオンがゴブリンの魔術師に護衛され、街に向かって行進しているのが目撃されました。英雄たちは彼らが城壁に到達する前にグループを阻止しなければなりません。主要な門への攻撃が差し迫っています。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 30,
+    "duration": 3,
+    "difficulty": 12,
+    "rewards": {
+      "xp": 200
+    },
+    "required_quests": [],
+    "forbidden_quests": [122],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 130,
+    "name": {
+      "pt": "O Filho do Nobre",
+      "en": "The Noble's Son",
+      "es": "El Hijo del Noble",
+      "ru": "Сын Дворянина",
+      "zh": "贵族之子",
+      "ja": "貴族の息子"
+    },
+    "description": {
+      "pt": "O filho de um nobre desapareceu, e ele afirma que uma tribo o sequestrou. A pista leva a um assentamento afastado. Os heróis devem investigar o local, resgatar o jovem e eliminar qualquer ameaça que tentar impedir o resgate.",
+      "en": "A noble's son has disappeared, and the noble claims a tribe kidnapped him. The lead points to a remote settlement. Heroes must investigate the location, rescue the young man, and eliminate any threat that attempts to prevent the rescue.",
+      "es": "El hijo de un noble ha desaparecido, y él afirma que una tribu lo secuestró. La pista conduce a un asentamiento remoto. Los héroes deben investigar el lugar, rescatar al joven y eliminar cualquier amenaza que intente impedir el rescate.",
+      "ru": "Сын дворянина исчез, и он утверждает, что его похитило племя. След ведет к удаленному поселению. Герои должны исследовать место, спасти юношу и устранить любую угрозу, которая попытается помешать спасению.",
+      "zh": "一位贵族的儿子失踪了，他声称是一个部落绑架了他。线索指向一个偏远的定居点。英雄们必须调查该地点，营救这名年轻人，并消灭任何试图阻止营救的威胁。",
+      "ja": "ある貴族の息子が失踪し、貴族は部族が彼を誘拐したと主張している。手がかりは離れた集落を示している。英雄たちはその場所を調査し、若者を救出し、救出を阻止しようとするあらゆる脅威を排除しなければならない。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 25,
+    "duration": 3,
+    "difficulty": 4,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 131,
+    "name": {
+      "pt": "Presença Sagrada",
+      "en": "The Mystery of the Hidden Sanctuary",
+      "es": "El Misterio del Santuario Oculto",
+      "ru": "Тайна Скрытого Святилища",
+      "zh": "隐藏圣所之谜",
+      "ja": "隠された聖域の謎",
+      "kr": "신성한 현존"
+    },
+    "description": {
+      "pt": "Após o relatório sobre a presença 'sagrada' emanando do solo do antigo assentamento da tribo, os heróis devem retornar ao local e investigar a origem dessa energia.",
+      "en": "Following the report about the 'sacred' presence emanating from the ground of the former tribe settlement, the heroes must return to the site and investigate the origin of this energy.",
+      "es": "Tras el informe sobre la presencia 'sagrada' que emana del suelo del antiguo asentamiento de la tribu, los héroes deben regresar al lugar e investigar el origen de esta energía.",
+      "ru": "После доклада о «священном» присутствии, исходящем из земли бывшего поселения племени, герои должны вернуться на место и исследовать происхождение этой энергии.",
+      "zh": "在关于“神圣”存在从前部落定居点地面散发出来的报告之后，英雄们必须返回该地点并调查这种能量的来源。",
+      "ja": "かつての部族の集落の地面から発せられる「神聖な」気配に関する報告を受けて、英雄たちはその場所に戻り、このエネルギーの起源を調査しなければならない。",
+      "kr": "부족의 옛 정착지 땅에서 발산되는 '신성한' 존재에 대한 보고 후, 영웅들은 그 장소로 돌아가 이 에너지의 근원을 조사해야 합니다."
+    },
+    "type": "Wisdom",
+    "expired_at": 3,
+    "available_from_turn": 25,
+    "duration": 3,
+    "difficulty": 2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [130],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [3],
+    "forbidden_heroes": []
+  },
+{
+  "id": 132,
+  "name": {
+    "pt": "Destruindo o Lich",
+    "en": "Destroying the Lich",
+    "es": "Destruyendo al Lich",
+    "ru": "Уничтожение Лича",
+    "zh": "消灭巫妖",
+    "ja": "リッチの破壊"
+  },
+  "description": {
+    "pt": "Precisamos por um fim definitivo nesse Lich, que se encontra selado na câmara. Os heróis devem encontrar uma maneira de destruí-lo de uma vez por todas.",
+    "en": "We must definitively put an end to this Lich, who is sealed in the chamber. Heroes must find a way to destroy it once and for all.",
+    "es": "Debemos poner fin definitivamente a este Lich, que se encuentra sellado en la cámara. Los héroes deben encontrar una forma de destruirlo de una vez por todas.",
+    "ru": "Мы должны окончательно покончить с этим Личом, который запечатан в камере. Герои должны найти способ уничтожить его раз и навсегда.",
+    "zh": "我们必须彻底解决这个被封印在密室中的巫妖。英雄们必须找到方法，一劳永逸地摧uir它。",
+    "ja": "部屋に封印されているこのリッチを、私たちは完全に打ち倒さなければなりません。英雄たちは永久に破壊する方法を見つけ出す必要があります。",
+    "kr": "우리는 방에 봉인된 이 리치를 확실하게 종결시켜야 합니다. 영웅들은 그를 완전히 파괴할 방법을 찾아야 합니다."
+  },
+    "type": "Fight",
+    "expired_at": 5,
+    "available_from_turn": 25,
+    "duration": 3,
+    "difficulty": 8,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [131],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 133,
+    "name": {
+      "pt": "Assentamento Tribal",
+      "en": "Tribal Settlement",
+      "es": "Asentamiento Tribal",
+      "ru": "Племенное Поселение",
+      "zh": "部落定居点",
+      "ja": "部族の集落"
+    },
+    "description": {
+      "pt": "O ancião da tribo enviou um sinal urgente: batedores avistaram um grupo de mercenários cercando seu assentamento. Os heróis devem confrontar os invasores e proteger a tribo do ataque iminente.",
+      "en": "The tribe's elder sent an urgent signal: scouts spotted a group of mercenaries surrounding their settlement. Heroes must confront the invaders and protect the tribe from the imminent attack.",
+      "es": "El anciano de la tribu envió una señal urgente: exploradores avistaron un grupo de mercenarios rodeando su asentamiento. Los héroes deben confrontar a los invasores y proteger a la tribu del ataque inminente.",
+      "ru": "Старейшина племени отправил срочный сигнал: разведчики заметили группу наемников, окруживших их поселение. Герои должны противостояar захватчикам и защитить племя от неминуемой атаки.",
+      "zh": "部落长老发出了紧急信号：侦察兵发现一群雇佣兵包围了他们的定居点。英雄们必须对抗入侵者，保护部落免受迫在眉睫的攻击。",
+      "ja": "部族の長老から緊急の合図がありました：斥候たちが、傭兵の集団が彼らの集落を包囲しているのを発見しました。英雄たちは侵略者と対決し、差し迫った攻撃から部族を守らなければならない。",
+      "kr": "부족의 장로가 긴급 신호를 보냈습니다. 정찰병들이 그들의 정착지를 포위한 용병 집단을 발견했습니다. 영웅들은 침략자들과 맞서 부족을 임박한 공격으로부터 보호해야 합니다."
+    },
+    "type": "Fight",
+    "expired_at": 5,
+    "available_from_turn": 33,
+    "duration": 3,
+    "difficulty": 2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [132],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 134,
+    "name": {
+      "pt": "A Prova de Confiança da Tribo",
+      "en": "The Tribe's Test of Trust",
+      "es": "La Prueba de Confianza de la Tribu",
+      "ru": "Проверка Доверия Племени",
+      "zh": "部落的信任考验",
+      "ja": "部族からの信頼の試練",
+      "kr": "부족의 신뢰 시험"
+    },
+    "description": {
+      "pt": "Devido ao interesse repentino pelo assentamento, o ancião da tribo permitirá acesso à câmara subterrânea apenas após garantir que vocês não profanarão o local.",
+      "en": "Due to the sudden interest in the settlement, the tribe's elder will only grant access to the underground chamber after ensuring you will not profane the site.",
+      "es": "Debido al repentino interés en el asentamiento, el anciano de la tribu solo permitirá el acceso a la cámara subterránea después de asegurarse de que no profanarán el lugar.",
+      "ru": "Из-за внезапного интереса к поселению, старейшина племени разрешит доступ к подземной камере только после того, как убедится, что вы не оскверните это место.",
+      "zh": "由于对定居点的突然关注, 部落长老只有在确保你们不会亵渎该地点之后, 才会允许进入地下密室。",
+      "ja": "集落への突然の関心のため, 部族の長老は, あなた方がその場所を冒涜しないことを確認した後でのみ, 地下の部屋へのアクセスを許可するでしょう。",
+      "kr": "정착지에 대한 갑작스러운 관심 때문에, 부족의 장로는 당신들이 그 장소를 더럽히지 않을 것임을 확신한 후에야 지하 방에 대한 접근을 허용할 것입니다."
+    },
+    "type": "Intelligence",
+    "expired_at": 5,
+    "available_from_turn": 33,
+    "duration": 3,
+    "difficulty": 2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [133],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 135,
+    "name": {
+      "pt": "Ameaça Entre as Cinzas",
+      "en": "Threat Among the Ashes",
+      "es": "Amenaza Entre las Cenizas",
+      "ru": "Угроза Среди Пепла (Ugroza Sredi Pepla)",
+      "ja": "灰の中の脅威 (Hai no Naka no Kyōi)",
+      "zh": "灰烬中的威胁 (Huījìn zhōng de Wēixié)"
+    },
+    "description": {
+      "pt": "Após o confronto no assentamento, algo maligno despertou entre os corpos. Mortos-vivos emergiram durante a noite e agora ameaçam os poucos sobreviventes da tribo. Alcance o local depressa e proteja quem restou antes que todos sejam consumidos.",
+      "en": "After the confrontation in the settlement, something evil awoke among the bodies. Undead emerged during the night and now threaten the few survivors of the tribe. Reach the location quickly and protect those who remain before everyone is consumed.",
+      "es": "Tras el enfrentamiento en el asentamiento, algo maligno despertó entre los cuerpos. Los muertos vivientes surgieron durante la noche y ahora amenazan a los pocos supervivientes de la tribu. Llega al lugar rápido y protege a los que quedan antes de que todos sean consumidos.",
+      "ru": "После столкновения в поселении, нечто злое пробудилось среди тел. Ночью появились немертвые и теперь угрожают немногим выжившим членам племени. Быстро доберитесь до места и защитите оставшихся, прежде чем все будут поглощены.",
+      "ja": "集落での衝突後、遺体の中から何か邪悪なものが目覚めました。夜の間にアンデッドが出現し、今や部族の数少ない生存者を脅かしています。急いで現地に到着し、全員が食い尽くされる前に残った人々を守ってください。",
+      "zh": "在定居点发生冲突后，尸体中唤醒了某种邪恶的东西。亡灵在夜间出现，现在威胁着部落中仅存的幸存者。迅速到达现场，保护剩下的人，以防他们全部被吞噬。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 36,
+    "duration": 6,
+    "difficulty": 4,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [130],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": [3]
+  },
+  {
+    "id": 136,
+    "name": {
+      "pt": "A Ascensão do Lich",
+      "en": "The Lich's Ascent",
+      "es": "El Ascenso del Lich",
+      "ru": "Восстание Лича (Vosstaniye Licha)",
+      "ja": "リッチの出現 (Ricchi no Shutsugen)",
+      "zh": "巫妖的崛起 (Wūyāo de Juéqǐ)"
+    },
+    "description": {
+      "pt": "Um Lich surgiu no assentamento tribal, massacrou a vila e hordas de mortos-vivos avançam pelas estradas e vilas próximas. A Guilda da \"Espada de Prata\" enfrentará o Lich diretamente — sua missão é conter os mortos-vivos e proteger a região até que o confronto termine.",
+      "en": "A Lich has emerged in the tribal settlement, massacring the village, and hordes of undead are advancing through nearby roads and villages. The \"Silver Sword\" Guild will face the Lich directly — your mission is to contain the undead and protect the region until the confrontation ends.",
+      "es": "Un Lich ha surgido en el asentamiento tribal, masacrando la aldea, y hordas de muertos vivientes avançan por los caminos y aldeas cercanas. El Gremio de la \"Espada de Plata\" se enfrentará directamente al Lich — su misión es contener a los muertos vivientes y proteger la región hasta que termine el enfrentamiento.",
+      "ru": "Лич появился в племенном поселении, устроив резню в деревне, и орды немертвых продвигаются по близлежащим дорогам и деревням. Гильдия «Серебряный Меч» вступит в прямое противостояние с Личем — ваша задача — сдержать немертвых и защитить регион до завершения этого боя.",
+      "ja": "部族の集落にリッチが出現し、村を虐殺し、アンデッドの群れが近くの道路や村を進軍しています。「銀の剣」ギルドがリッチに直接立ち向かいます — あなた方の任務は、その対決が終わるまでアンデッドを食い止め、地域を守ることです。",
+      "zh": "一个巫妖出现在部落定居点，屠杀了村庄，成群的亡灵正沿着附近的道路和村庄推进。“银剑”公会将直接对抗巫妖——你的任务是牵制亡灵，并在对抗结束前保护该地区。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 40,
+    "duration": 6,
+    "difficulty": 8,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [135],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 140,
+    "name": {
+      "pt": "O Custo da Pedra",
+      "en": "The Cost of Stone",
+      "es": "El Costo de la Piedra",
+      "ru": "Цена Камня",
+      "ja": "石の代償 (Ishi no Daishō)",
+      "zh": "石头的代价 (Shítou de Dàijià)"
+    },
+    "description": {
+      "pt": "Os golems que auxiliam os mineiros perderam o controle e começaram a atacar a equipe. É preciso neutralizá-los rápido—e de preferência sem destruir muita coisa, porque cada golem custa mais que a própria mina.",
+      "en": "The golems assisting the miners have lost control and started attacking the team. They must be quickly neutralized—and preferably without destroying too much, because each golem costs more than the mine itself.",
+      "es": "Los gólems que asisten a los mineros han perdido el control y han empezado a atacar al equipo. Es necesario neutralizarlos rápido—y preferiblemente sin destruir demasiado, porque cada gólem cuesta más que la propia mina.",
+      "ru": "Големы, помогавшие шахтерам, вышли из-под контроля и начали нападать на команду. Их нужно быстро нейтрализовать — и желательно не разрушая много, потому что каждый голем стоит дороже самой шахты.",
+      "ja": "坑夫を支援していたゴーレムが制御を失い、チームを攻撃し始めました。一刻も早く無力化する必要があります。できればあまり破壊せずに済ませたい、なぜなら各ゴーレムは鉱山自体よりも高価だからです。",
+      "zh": "协助矿工的傀儡失去了控制，开始攻击队伍。必须迅速制服它们——最好不要造成太大破坏，因为每个傀儡的造价都超过了矿山本身。"
+    },
+    "type": "Fight",
+    "expired_at": 5,
+    "available_from_turn": 30,
+    "duration": 3,
+    "difficulty": 2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 150,
     "name": {
       "pt": "Ratos no Celeiro",
       "en": "Rats in the Barn",
@@ -531,86 +1082,84 @@
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 12,
-    "duration": 3,
-    "difficulty": 0.2,
+    "available_from_turn": 20,
+    "duration": 4,
+    "difficulty": 4,
     "rewards": {
       "xp": 50
     },
-    "required_quests": [2],
+    "required_quests": [],
     "forbidden_quests": [],
     "required_fail_quests": [],
     "required_heroes": [],
     "forbidden_heroes": []
   },
   {
-    "id": 902,
+    "id": 151,
     "name": {
-      "pt": "Lobo Solitário",
-      "en": "Lone Wolf",
-      "es": "Lobo Solitario",
-      "ru": "Одинокий Волк",
-      "zh": "孤狼",
-      "ja": "孤狼"
+      "pt": "Javali Descomunal",
+      "en": "Colossal Boar",
+      "es": "Jabalí Colosal",
+      "ru": "Колоссальный Кабан",
+      "ja": "巨大なイノシシ",
+      "zh": "庞大的野猪"
     },
     "description": {
-      "pt": "Um lobo feroz tem atacado os pastores. Encontre-o e o elimine.",
-      "en": "A ferocious wolf has been attacking the shepherds. Find it and eliminate it.",
-      "es": "Un lobo feroz ha estado atacando a los pastores. Encuéntralo y elimínalo.",
-      "ru": "Свирепый волк нападает на пастухов. Найдите его и уничтожьте.",
-      "zh": "一只凶猛的狼一直在袭击牧羊人。找到它并消灭它。",
-      "ja": "凶暴なオオカミが羊飼いを襲っている。それを見つけて排除せよ。"
+      "pt": "Um javali enorme apareceu nas fazendas ao sul, destruindo cercas e atacando trabalhadores. Ele é maior que um touro e age como se estivesse possuído. Intercepte-o antes que bata às portas da cidade.",
+      "en": "A massive boar has appeared in the southern farmlands, destroying fences and attacking workers. It is larger than a bull and acts as if possessed. Intercept it before it reaches the city gates.",
+      "es": "Un jabalí enorme ha aparecido en las granjas del sur, destruyendo vallas y atacando a los trabajadores. Es más grande que un toro y actúa como si estuviera poseído. Interceptadlo antes de que llegue a las puertas de la ciudad.",
+      "ru": "Огромный кабан появился на южных фермах, разрушая заборы и нападая на работников. Он больше быка и ведет себя так, будто одержим. Перехватите его, прежде чем он достигнет городских ворот.",
+      "ja": "巨大なイノシシが南の農場に出現し、柵を破壊し、労働者を襲っています。雄牛よりも大きく、まるで憑りつかれているかのように振る舞っています。都市の門に到達する前に迎撃してください。",
+      "zh": "一头庞大的野猪出现在南部农田，摧毁了栅栏并攻击工人。它比一头公牛还要大，行动起来就像被附身了一样。在它撞到城市大门之前，将其截住。"
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 13,
+    "available_from_turn": 22,
     "duration": 4,
-    "difficulty": 0.2,
+    "difficulty": 4,
     "rewards": {
       "xp": 50
     },
-    "required_quests": [
-      "3"
-    ],
+    "required_quests": [],
     "forbidden_quests": [],
     "required_fail_quests": [],
     "required_heroes": [],
     "forbidden_heroes": []
   },
   {
-    "id": 903,
+    "id": 152,
     "name": {
-      "pt": "Arauto das Sombras",
-      "en": "Herald of Shadows",
-      "es": "Heraldo de las Sombras",
-      "ru": "Вестник Теней",
-      "zh": "阴影使者",
-      "ja": "影の使者"
+      "pt": "Teia da Dor",
+      "en": "Web of Pain",
+      "es": "Telaraña de Dolor",
+      "ru": "Паутина Боли",
+      "ja": "苦痛の網",
+      "zh": "痛苦之网"
     },
     "description": {
-      "pt": "Um pequeno bando de bandidos tem ameaçado a estrada principal. Intercepte-os e acabe com a ameaça.",
-      "en": "A small band of bandits has been threatening the main road. Intercept them and end the threat.",
-      "es": "Una pequeña banda de bandidos ha estado amenazando la carretera principal. Intercéptalos y acaba con la amenaza.",
-      "ru": "Небольшая банда бандитов угрожает главной дороге. Перехватите их и положите конец угрозе.",
-      "zh": "一小队土匪一直在威胁主干道。拦截他们并消除威胁。",
-      "ja": "小さな盗賊団が主要道路を脅かしている。彼らを阻止し、脅威を終わらせよ。"
+      "pt": "Aranhas do bosque começaram a crescer de forma anormal. Uma delas, do tamanho de um cavalo, teceu teias pela estrada principal e capturou viajantes. Liberte os presos e elimine a aranha antes que a rota seja abandonada.",
+      "en": "Forest spiders have started growing abnormally large. One of them, the size of a horse, has spun webs across the main road and captured travelers. Free the prisoners and eliminate the spider before the route is abandoned.",
+      "es": "Las arañas del bosque han comenzado a crecer de forma anormal. Una de ellas, del tamaño de un caballo, ha tejido telarañas a lo largo de la carretera principal y ha capturado viajeros. Libera a los atrapados y elimina a la araña antes de que la ruta sea abandonada.",
+      "ru": "Лесные пауки начали аномально расти. Один из них, размером с лошадь, сплел паутину на главной дороге и захватил путешественников. Освободите пленных и уничтожьте паука, пока маршрут не будет заброшен.",
+      "ja": "森のクモが異常に巨大化し始めました。そのうちの一匹は馬ほどの大きさになり、主要な道路に巣を張り巡らせて旅行者を捕らえています。ルートが放棄される前に、囚われた人々を解放し、クモを排除してください。",
+      "zh": "森林中的蜘蛛开始异常生长。其中一只，体型有马匹大小，在主干道上织网并捕获了旅行者。在路线被遗弃之前，解救被困者并消灭这只蜘蛛。"
     },
     "type": "Fight",
     "expired_at": 2,
-    "available_from_turn": 14,
-    "duration": 5,
-    "difficulty": 0.2,
+    "available_from_turn": 24,
+    "duration": 4,
+    "difficulty": 4,
     "rewards": {
       "xp": 50
     },
-    "required_quests": [1],
+    "required_quests": [],
     "forbidden_quests": [],
     "required_fail_quests": [],
     "required_heroes": [],
     "forbidden_heroes": []
   },
   {
-    "id": 904,
+    "id": 153,
     "name": {
       "pt": "Insetos Gigantes",
       "en": "Giant Insects",
@@ -629,52 +1178,52 @@
     },
     "type": "Fight",
     "expired_at": 2,
-    "available_from_turn": 15,
+    "available_from_turn": 25,
     "duration": 4,
-    "difficulty": 0.2,
+    "difficulty": 4,
     "rewards": {
       "xp": 50
     },
-    "required_quests": [4],
+    "required_quests": [],
     "forbidden_quests": [],
     "required_fail_quests": [],
     "required_heroes": [],
     "forbidden_heroes": []
   },
   {
-    "id": 905,
+    "id": 154,
     "name": {
-      "pt": "Roubadores Noturnos",
-      "en": "Night Thieves",
-      "es": "Ladrones Nocturnos",
-      "ru": "Ночные Воры",
-      "zh": "夜间盗贼",
-      "ja": "夜の盗賊"
+      "pt": "Olhos na Escuridão",
+      "en": "Eyes in the Dark",
+      "es": "Ojos en la Oscuridad",
+      "ru": "Глаза в Темноте",
+      "ja": "闇の眼",
+      "zh": "黑暗中的眼睛"
     },
     "description": {
-      "pt": "Um grupo de ladrões tem atacado comerciantes à noite. Encontre-os e neutralize a ameaça.",
-      "en": "A group of thieves has been attacking merchants at night. Find them and neutralize the threat.",
-      "es": "Un grupo de ladrones ha estado atacando a comerciantes por la noche. Encuéntralos y neutraliza la amenaza.",
-      "ru": "Группа воров нападает на торговцев ночью. Найдите их и нейтрализуйте угрозу.",
-      "zh": "一群盗贼一直在夜间袭击商人。找到他们并消除威胁。",
-      "ja": "強盗団が夜間に商人を襲っている。彼らを見つけ出し、脅威を無力化せよ。"
+      "pt": "Predadores noturnos estão maiores, mais rápidos e atacam em grupos coordenados. Responda aos pedidos de socorro da vila do vale e impeça mais ataques.",
+      "en": "Nocturnal predators are larger, faster, and attack in coordinated groups. Respond to the distress calls from the valley village and prevent further attacks.",
+      "es": "Los depredadores nocturnos son más grandes, más rápidos y atacan en grupos coordinados. Responde a las llamadas de auxilio del pueblo del valle e impide más ataques.",
+      "ru": "Ночные хищники стали крупнее, быстрее и нападают скоординированными группами. Ответьте на призывы о помощи из деревни в долине и предотвратите дальнейшие нападения.",
+      "ja": "夜行性の捕食者がより大きく、より速くなり、組織的なグループで襲撃しています。谷の村からの救助要請に応じ、さらなる攻撃を防いでください。",
+      "zh": "夜间捕食者体型更大、速度更快，并以协调的群体进行攻击。回应山谷村庄的求救信号，并阻止进一步的袭击。"
     },
     "type": "Fight",
     "expired_at": 2,
-    "available_from_turn": 16,
-    "duration": 5,
-    "difficulty": 0.2,
+    "available_from_turn": 27,
+    "duration": 4,
+    "difficulty": 4,
     "rewards": {
       "xp": 50
     },
-    "required_quests": [5],
+    "required_quests": [],
     "forbidden_quests": [],
     "required_fail_quests": [],
     "required_heroes": [],
     "forbidden_heroes": []
   },
   {
-    "id": 906,
+    "id": 155,
     "name": {
       "pt": "Arauto do Lago",
       "en": "Herald of the Lake",
@@ -693,41 +1242,41 @@
     },
     "type": "Fight",
     "expired_at": 2,
-    "available_from_turn": 17,
-    "duration": 6,
-    "difficulty": 0.2,
+    "available_from_turn": 29,
+    "duration": 4,
+    "difficulty": 6,
     "rewards": {
       "xp": 50
     },
-    "required_quests": [6],
+    "required_quests": [],
     "forbidden_quests": [],
     "required_fail_quests": [],
     "required_heroes": [],
     "forbidden_heroes": []
   },
   {
-    "id": 907,
+    "id": 156,
     "name": {
-      "pt": "Patrulha de Kobolds",
-      "en": "Kobold Patrol",
-      "es": "Patrulla de Kobolds",
-      "ru": "Патруль Кобольдов",
-      "zh": "狗头人巡逻队",
-      "ja": "コボルトのパトロール"
+      "pt": "Coruja Colossal",
+      "en": "Colossal Owl",
+      "es": "Búho Colosal",
+      "ru": "Колоссальная Сова",
+      "ja": "巨大なフクロウ",
+      "zh": "巨型猫头鹰"
     },
     "description": {
-      "pt": "Kobolds estão saqueando as minas locais. Enfrente-os e restaure a segurança na região.",
-      "en": "Kobolds are looting the local mines. Confront them and restore safety to the region.",
-      "es": "Los kobolds están saqueando las minas locales. Enfréntalos y restablece la seguridad en la región.",
-      "ru": "Кобольды грабят местные шахты. Сразитесь с ними и восстановите безопасность в регионе.",
-      "zh": "狗头人正在洗劫当地的矿井。与他们对抗并恢复该地区的安宁。",
-      "ja": "コボルトが地元の鉱山を略奪している。彼らと対決し、地域の安全を取り戻せ。"
+      "pt": "Uma coruja colossal tem atacado viajantes durante a noite. Seus olhos brilham com energia arcana e ela desce silenciosa para capturar qualquer um que esteja sozinho. Rastreie-a nas montanhas e impeça novos desaparecimentos.",
+      "en": "A colossal owl has been attacking travelers during the night. Its eyes glow with arcane energy and it descends silently to capture anyone who is alone. Track it in the mountains and prevent new disappearances.",
+      "es": "Un búho colosal ha estado atacando a los viajeros durante la noche. Sus ojos brillan con energía arcana y desciende en silencio para capturar a cualquiera que esté solo. Rastrégalo en las montañas e impide nuevas desapariciones.",
+      "ru": "Колоссальная сова нападает на путешественников по ночам. Ее глаза светятся тайной энергией, и она бесшумно спускается, чтобы схватить любого, кто окажется в одиночестве. Выследите ее в горах и предотвратите новые исчезновения.",
+      "ja": "巨大なフクロウが夜間に旅行者を襲っています。その目は魔力のエネルギーで輝き、静かに降下して一人でいる者を捕らえます。山中で追跡し、さらなる失踪を防いでください。",
+      "zh": "一只巨型猫头鹰在夜间袭击旅行者。它的眼睛闪烁着奥术能量，静悄悄地降落，捕获任何独行者。在山中追踪它，阻止新的失踪事件。"
     },
     "type": "Fight",
     "expired_at": 2,
-    "available_from_turn": 18,
-    "duration": 5,
-    "difficulty": 0.2,
+    "available_from_turn": 31,
+    "duration": 4,
+    "difficulty": 7,
     "rewards": {
       "xp": 50
     },
@@ -738,39 +1287,7 @@
     "forbidden_heroes": []
   },
   {
-    "id": 908,
-    "name": {
-      "pt": "Guerreiros Corrompidos",
-      "en": "Corrupted Warriors",
-      "es": "Guerreros Corrompidos",
-      "ru": "Порочные Воины",
-      "zh": "堕落的战士",
-      "ja": "堕落した戦士"
-    },
-    "description": {
-      "pt": "Alguns mercenários caíram na corrupção e atacam inocentes. Derrote-os antes que o caos se espalhe.",
-      "en": "Some mercenaries have fallen into corruption and are attacking innocents. Defeat them before chaos spreads.",
-      "es": "Algunos mercenarios han caído en la corrupción y están atacando a inocentes. Derrótalos antes de que el caos se extienda.",
-      "ru": "Некоторые наемники погрязли в корrupции и нападают на невинных. Победите их, пока хаос не распространился.",
-      "zh": "一些雇佣兵已经堕落并正在袭击无辜者。在混乱蔓延之前击败他们。",
-      "ja": "一部の傭兵が堕落し、罪のない人々を襲っている。混沌が広がる前に彼らを倒せ。"
-    },
-    "type": "Fight",
-    "expired_at": 3,
-    "available_from_turn": 19,
-    "duration": 6,
-    "difficulty": 0.2,
-    "rewards": {
-      "xp": 50
-    },
-    "required_quests": [5],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  },
-  {
-    "id": 909,
+    "id": 157,
     "name": {
       "pt": "Aranha Gigante na Caverna",
       "en": "Giant Spider in the Cave",
@@ -789,173 +1306,174 @@
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 20,
-    "duration": 6,
-    "difficulty": 0.2,
+    "available_from_turn": 32,
+    "duration": 4,
+    "difficulty": 7,
     "rewards": {
       "xp": 50
     },
-    "required_quests": [8],
+    "required_quests": [],
     "forbidden_quests": [],
     "required_fail_quests": [],
     "required_heroes": [],
     "forbidden_heroes": []
   },
   {
-    "id": 910,
+    "id": 158,
     "name": {
-      "pt": "Missão de Escolta",
-      "en": "Escort Mission",
-      "es": "Misión de Escolta",
-      "ru": "Миссия Сопровождения",
-      "zh": "护送任务",
-      "ja": "護衛任務"
+      "pt": "Texugo Descomunal",
+      "en": "Colossal Badger",
+      "es": "Tejón Colosal",
+      "ru": "Колоссальный Барсук",
+      "ja": "巨大なアナグマ",
+      "zh": "巨型獾"
     },
     "description": {
-      "pt": "Escolte um grupo de mineiros até a mina.",
-      "en": "Escort a group of miners to the mine.",
-      "es": "Escolta a un grupo de mineros hasta la mina.",
-      "ru": "Сопроводите группу шахтеров до шахты.",
-      "zh": "护送一群矿工到矿井。",
-      "ja": "鉱夫のグループを鉱山まで護衛せよ。"
-    },
-    "type": "Fight",
-    "expired_at": 2,
-    "available_from_turn": 21,
-    "duration": 5,
-    "difficulty": 0.25,
-    "rewards": {
-      "xp": 50
-    },
-    "required_quests": [9],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  },
-  {
-    "id": 911,
-    "name": {
-      "pt": "Batalha na Montanha Negra",
-      "en": "Battle on Black Mountain",
-      "es": "Batalla en la Montaña Negra",
-      "ru": "Битва на Черной Горе",
-      "zh": "黑山之战",
-      "ja": "黒山の戦い"
-    },
-    "description": {
-      "pt": "Uma tribo de goblins se instalou na Montanha Negra. Limpe o acampamento e retorne em segurança.",
-      "en": "A tribe of goblins has settled on Black Mountain. Clear the camp and return safely.",
-      "es": "Una tribu de goblins se ha instalado en la Montaña Negra. Limpia el campamento y regresa sano y salvo.",
-      "ru": "Племя гоблинов поселилось на Черной Горе. Зачистите лагерь и вернитесь в безопасности.",
-      "zh": "一群哥布林在黑山安顿下来。清除营地并安全返回。",
-      "ja": "ゴブリンの一族が黒山に居座った。野営地を掃討し、安全に戻れ。"
+      "pt": "Um texugo mutado, grande como um urso, entrou em surto e começou a cavar túneis que desabam casas e estábulos. A vila pede ajuda urgente antes que o solo inteiro ceda.",
+      "en": "A mutated badger, as large as a bear, has gone berserk and started digging tunnels that cause houses and stables to collapse. The village urgently requests help before the entire ground gives way.",
+      "es": "Un tejón mutado, tan grande como un oso, ha entrado en un frenesí y ha comenzado a cavar túneles que provocan el colapso de casas y establos. El pueblo pide ayuda urgente antes de que todo el suelo ceda.",
+      "ru": "Мутировавший барсук, размером с медведя, впал в бешенство и начал рыть туннели, из-за которых обваливаются дома и конюшни. Деревня срочно просит о помощи, пока вся земля не провалилась.",
+      "ja": "クマほどの大きさの変異したアナグマが暴走し、家や馬小屋を崩壊させるトンネルを掘り始めました。村全体が地盤沈下する前に、緊急の支援を求めています。",
+      "zh": "一只变异的獾，体型如熊般大小，陷入狂暴，开始挖掘隧道，导致房屋和马厩倒塌。在整个地面彻底塌陷之前，村庄急需援助。",
+      "ko": "곰만큼 큰 돌연변이 오소리가 발광하여 터널을 파기 시작했고, 이로 인해 집과 마구간이 무너지고 있습니다. 마을 전체가 침하하기 전에 긴급 지원을 요청합니다."
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 22,
-    "duration": 5,
-    "difficulty": 0.2,
+    "available_from_turn": 35,
+    "duration": 4,
+    "difficulty": 4,
     "rewards": {
       "xp": 50
     },
-    "required_quests": [10],
+    "required_quests": [],
     "forbidden_quests": [],
     "required_fail_quests": [],
     "required_heroes": [],
     "forbidden_heroes": []
   },
   {
-    "id": 912,
+    "id": 159,
     "name": {
-      "pt": "Negociação com o Rei",
-      "en": "Negotiation with the King",
-      "es": "Negociación con el Rey",
-      "ru": "Переговоры с Королем",
-      "zh": "与国王的谈判",
-      "ja": "王との交渉"
+      "pt": "Cobra de Escamas Negras",
+      "en": "Black-Scaled Serpent",
+      "es": "Serpiente de Escamas Negras",
+      "ru": "Черночешуйчатая Змея",
+      "ja": "黒鱗の蛇",
+      "zh": "黑鳞巨蛇"
     },
     "description": {
-      "pt": "O Rei precisa de um mensageiro para um acordo de paz. Traga a notícia de volta para o reino.",
-      "en": "The King needs a messenger for a peace agreement. Bring the news back to the kingdom.",
-      "es": "El Rey necesita un mensajero para un acuerdo de paz. Trae la noticia de vuelta al reino.",
-      "ru": "Королю нужен посланник для заключения мирного соглашения. Принесите эту новость обратно в королевство.",
-      "zh": "国王需要一名信使来达成和平协议。将消息带回王国。",
-      "ja": "国王は和平協定のための使者を必要としている。その知らせを王国に持ち帰れ。"
+      "pt": "Uma cobra gigantesca surgiu no pântano, liberando um veneno que queima como ácido espiritual. A criatura tem avançado para áreas habitadas. Elimine-a antes que alguém seja atingido.",
+      "en": "A gigantic serpent has emerged in the swamp, releasing a venom that burns like spiritual acid. The creature has been advancing toward inhabited areas. Eliminate it before anyone is harmed.",
+      "es": "Una serpiente gigantesca ha surgido en el pantano, liberando un veneno que quema como ácido espiritual. La criatura ha estado avanzando hacia zonas habitadas. Elimínala antes de que alguien resulte herido.",
+      "ru": "Гигантская змея появилась на болоте, выпуская яд, который жжет как духовная кислота. Существо продвигается к населенным пунктам. Устраните его, прежде чем кто-либо пострадает.",
+      "ja": "巨大なヘビが沼地に出現し、霊的な酸のように焼ける毒を放出しています。そのクリーチャーは居住地域に向かって進んでいます。誰かが被害に遭う前に排除してください。",
+      "zh": "一条巨型毒蛇出现在沼泽地，释放出一种像精神酸液一样灼烧的毒液。这只生物正在向居住区推进。在有人受到伤害之前将其消灭。"
     },
-    "type": "Wisdom",
+    "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 23,
-    "duration": 5,
-    "difficulty": 0.2,
+    "available_from_turn": 35,
+    "duration": 4,
+    "difficulty": 4,
     "rewards": {
       "xp": 50
     },
-    "required_quests": [11],
+    "required_quests": [],
     "forbidden_quests": [],
     "required_fail_quests": [],
     "required_heroes": [],
     "forbidden_heroes": []
   },
   {
-    "id": 913,
+    "id": 160,
     "name": {
-      "pt": "Ajuda no Vilarejo",
-      "en": "Help in the Village",
-      "es": "Ayuda en la Aldea",
-      "ru": "Помощь в Деревне",
-      "zh": "村庄援助",
-      "ja": "村の援助"
+      "pt": "Morcego Albino Gigante",
+      "en": "Giant Albino Bat",
+      "es": "Murciélago Albino Gigante",
+      "ru": "Гигантская Летучая Мышь-Альбинос",
+      "ja": "巨大なアルビノコウモリ",
+      "zh": "巨型白化蝙蝠"
     },
     "description": {
-      "pt": "Um vilarejo perto da mina precisa de ajuda. Ajudar os moradores pode render uma boa recompensa.",
-      "en": "A village near the mine needs help. Helping the residents can yield a good reward.",
-      "es": "Una aldea cerca de la mina necesita ayuda. Ayudar a los residentes puede dar una buena recompensa.",
-      "ru": "Деревня рядом с шахтой нуждается в помощи. Помощь жителям может принести хорошую награду.",
-      "zh": "矿井附近的一个村庄需要帮助。帮助居民可以获得丰厚的回报。",
-      "ja": "鉱山近くの村が助けを必要としている。住民を助けることは良い報酬をもたらすかもしれない。"
+      "pt": "Um enorme morcego albino tem aterrorizado penhascos e cavernas, soltando ondas sonoras que quebram janelas e ferem viajantes. Explore seu ninho e coloque fim aos ataques noturnos.",
+      "en": "A huge albino bat has been terrorizing cliffs and caves, releasing sound waves that break windows and injure travelers. Explore its nest and put an end to the nocturnal attacks.",
+      "es": "Un enorme murciélago albino ha estado aterrorizando acantilados y cuevas, liberando ondas sonoras que rompen ventanas y hieren a los viajeros. Explora su nido y pon fin a los ataques nocturnos.",
+      "ru": "Огромная летучая мышь-альбинос терроризирует скалы и пещеры, испуская звуковые волны, которые разбивают окна и ранят путешественников. Исследуйте ее гнездо и положите конец ночным нападениям.",
+      "ja": "巨大なアルビノコウモリが崖や洞窟を恐怖に陥れており、窓を割り、旅人を傷つける音波を放っています。その巣を探索し、夜間の襲撃を終わらせてください。",
+      "zh": "一只巨大的白化蝙蝠一直在恐吓悬崖和洞穴，释放出能震碎窗户并伤害旅行者的声波。探索它的巢穴，终结夜间袭击。"
     },
-    "type": "Wisdom",
+    "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 24,
-    "duration": 5,
-    "difficulty": 0.2,
+    "available_from_turn": 38,
+    "duration": 4,
+    "difficulty": 4,
     "rewards": {
       "xp": 50
     },
-    "required_quests": [2],
+    "required_quests": [],
     "forbidden_quests": [],
     "required_fail_quests": [],
     "required_heroes": [],
     "forbidden_heroes": []
   },
   {
-    "id": 914,
+    "id": 161,
     "name": {
-      "pt": "Segredos da Mina",
-      "en": "Secrets of the Mine",
-      "es": "Secretos de la Mina",
-      "ru": "Секреты Шахты",
-      "zh": "矿井的秘密",
-      "ja": "鉱山の秘密"
+      "pt": "Tartaruga de Casco Rachado",
+      "en": "Cracked Shell Turtle",
+      "es": "Tortuga de Caparazón Agrietado",
+      "ru": "Черепаха с Треснутым Панцирем",
+      "ja": "ひび割れた甲羅の亀",
+      "zh": "裂壳巨龟"
     },
     "description": {
-      "pt": "A mina guarda segredos valiosos. Investigue a mina e encontre o que o Rei tanto busca.",
-      "en": "The mine holds valuable secrets. Investigate the mine and find what the King is looking for.",
-      "es": "La mina guarda valiosos secretos. Investiga la mina y encuentra lo que el Rey tanto busca.",
-      "ru": "Шахта хранит ценные секреты. Исследуйте шахту и найдите то, что ищет Король.",
-      "zh": "矿井里藏着宝贵的秘密。调查矿井，找到国王一直在寻找的东西。",
-      "ja": "鉱山は貴重な秘密を隠している。鉱山を調査し、国王が探しているものを見つけよ。"
+      "pt": "Uma tartaruga massiva emergiu do lago, seu casco coberto por energia corrompida. Ela bloqueia a rota fluvial e já afundou barcos. Precisamos afastá-la antes que o comércio pare completamente.",
+      "en": "A massive turtle has emerged from the lake, its shell covered in corrupted energy. It is blocking the river route and has already sunk boats. We need to drive it away before trade stops completely.",
+      "es": "Una tortuga masiva ha emergido del lago, su caparazón cubierto de energía corrompida. Está bloqueando la ruta fluvial y ya ha hundido barcos. Necesitamos ahuyentarla antes de que el comercio se detenga por completo.",
+      "ru": "Из озера появилась массивная черепаха, чей панцирь покрыт искаженной энергией. Она блокирует речной маршрут и уже потопила лодки. Мы должны прогнать ее, пока торговля не остановилась полностью.",
+      "ja": "巨大なカメが湖から出現し、その甲羅は穢れたエネルギーで覆われています。彼女は河川ルートを封鎖し、すでに複数のボートを沈めています。商業が完全に停止する前に、彼女を追い払う必要があります。",
+      "zh": "一只巨大的乌龟从湖中出现，它的外壳被腐化的能量覆盖。它阻塞了河流航线，并且已经击沉了船只。我们需要在贸易完全停止之前将其驱逐。"
     },
-    "type": "Intelligence",
+    "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 25,
-    "duration": 5,
-    "difficulty": 0.2,
+    "available_from_turn": 40,
+    "duration": 4,
+    "difficulty": 4,
     "rewards": {
       "xp": 50
     },
-    "required_quests": [2],
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 162,
+    "name": {
+      "pt": "Alce dos Galhos Corrompidos",
+      "en": "Corrupted Antlers Moose",
+      "es": "Alce de Cuernos Corrompidos",
+      "ru": "Лось Испорченных Ветвей",
+      "ja": "穢れた枝角のヘラジカ",
+      "zh": "腐化鹿角的驼鹿"
+    },
+    "description": {
+      "pt": "Um alce gigantesco, de galhadas que parecem lâminas, está atacando qualquer um que entre na floresta. A criatura parece fora de si e extremamente agressiva. Pacifique-a antes que alguém morra.",
+      "en": "A gigantic moose with blade-like antlers is attacking anyone who enters the forest. The creature seems mad and extremely aggressive. Pacify it before someone dies.",
+      "es": "Un alce gigantesco, con cuernos que parecen cuchillas, está atacando a cualquiera que entre en el bosque. La criatura parece fuera de sí y extremadamente agresiva. Pacifícala antes de que alguien muera.",
+      "ru": "Гигантский лось, чьи рога похожи на лезвия, нападает на всех, кто входит в лес. Существо кажется безумным и крайне агрессивным. Умиротворите его, прежде чем кто-либо погибнет.",
+      "ja": "刀のような枝角を持つ巨大なヘラジカが、森に入る者を誰彼構わず襲っています。そのクリーチャーは理性を失い、極めて攻撃的です。誰かが死ぬ前に鎮静化させてください。",
+      "zh": "一只鹿角形如刀刃的巨型驼鹿正在攻击任何进入森林的人。这只生物看起来神志不清，极具攻击性。在有人丧命之前，将其安抚。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 41,
+    "duration": 4,
+    "difficulty": 4,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
     "forbidden_quests": [],
     "required_fail_quests": [],
     "required_heroes": [],
@@ -981,9 +1499,9 @@
     },
     "type": "Intelligence",
     "expired_at": 3,
-    "available_from_turn": 26,
+    "available_from_turn": 500,
     "duration": 5,
-    "difficulty": 0.2,
+    "difficulty": 2,
     "rewards": {
       "xp": 50
     },
@@ -991,102 +1509,6 @@
     "forbidden_quests": [],
     "required_fail_quests": [],
     "required_heroes": [],
-    "forbidden_heroes": []
-  },
-  {
-    "id": 916,
-    "name": {
-      "pt": "Gosmas no Milharal",
-      "en": "Goo in the Cornfield",
-      "es": "Babas en el Maizal",
-      "ru": "Слизь на Кукурузном Поле",
-      "zh": "玉米田里的粘液",
-      "ja": "トウモロコシ畑の粘液"
-    },
-    "description": {
-      "pt": "Fazendeiros pedem ajuda: pequenos slimes estão devorando o milharal. São lentos, mas em grande número. Preciso que você limpe o campo.",
-      "en": "Farmers ask for help: small slimes are devouring the cornfield. They are slow, but numerous. I need you to clear the field.",
-      "es": "Los agricultores piden ayuda: pequeños slimes están devorando el maizal. Son lentos, pero numerosos. Necesito que limpies el campo.",
-      "ru": "Фермеры просят о помощи: маленькие слаймы пожирают кукурузное поле. Они медленные, но их много. Мне нужно, чтобы вы очистили поле.",
-      "zh": "农民请求帮助：小史莱姆正在吞食玉米田。它们速度慢但数量庞大。我需要你清理这块地。",
-      "ja": "農民が助けを求めている：小さなスライムがトウモロコシ畑を食い荒らしている。彼らは遅いが、数が非常に多い。畑をきれいにしてほしい。"
-    },
-    "type": "Fight",
-    "expired_at": 3,
-    "available_from_turn": 27,
-    "duration": 4,
-    "difficulty": 0.2,
-    "rewards": {
-      "xp": 50
-    },
-    "required_quests": [1],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [1],
-    "forbidden_heroes": []
-  },
-  {
-    "id": 917,
-    "name": {
-      "pt": "O Slime Dividido",
-      "en": "The Divided Slime",
-      "es": "El Slime Dividido",
-      "ru": "Разделенный Слайм",
-      "zh": "分裂史莱姆",
-      "ja": "分裂スライム"
-    },
-    "description": {
-      "pt": "Batedores relatam criaturas que, ao serem golpeadas, se multiplicam em duas. Não podemos deixar que tomem conta da floresta. Dê um fim neles.",
-      "en": "Scouts report creatures that, when struck, multiply into two. We cannot let them take over the forest. Put an end to them.",
-      "es": "Los exploradores informan de criaturas que, al ser golpeadas, se multiplican por dos. No podemos permitir que se apoderen del bosque. Acaba con ellas.",
-      "ru": "Разведчики сообщают о существах, которые при ударе делятся на две части. Мы не можем позволить им захватить лес. Положите им конец.",
-      "zh": "侦察兵报告说，有些生物在被击中时会分裂成两个。我们不能让它们占领森林。消灭它们。",
-      "ja": "斥候は、攻撃されると二つに分裂する生物を報告している。森を占領させてはならない。彼らを始末せよ。"
-    },
-    "type": "Fight",
-    "expired_at": 3,
-    "available_from_turn": 28,
-    "duration": 4,
-    "difficulty": 0.2,
-    "rewards": {
-      "xp": 50
-    },
-    "required_quests": [1],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [2],
-    "forbidden_heroes": []
-  },
-  {
-    "id": 918,
-    "name": {
-      "pt": "O Slime Ácido",
-      "en": "The Acid Slime",
-      "es": "El Slime Ácido",
-      "ru": "Кислотный Слайм",
-      "zh": "酸性史莱姆",
-      "ja": "酸性スライム"
-    },
-    "description": {
-      "pt": "Um viajante foi atacado por um slime que corrói metal e couro. Se esse tipo se espalhar, ninguém estará seguro. Investigue e destrua-o.",
-      "en": "A traveler was attacked by a slime that corrodes metal and leather. If this type spreads, no one will be safe. Investigate and destroy it.",
-      "es": "Un viajero fue atacado por un slime que corroe metal y cuero. Si este tipo se propaga, nadie estará a salvo. Investiga y destrúyelo.",
-      "ru": "Путешественник был атакован слаймом, разъедающим металл и кожу. Если этот вид распространится, никто не будет в безопасности. Исследуйте и уничтожьте его.",
-      "zh": "一名旅行者被一种腐蚀金属和皮革的史莱姆袭击。如果这种类型扩散，将无人安全。调查并摧毁它。",
-      "ja": "旅行者が金属や革を腐食させるスライムに襲われた。この種が広まれば、誰も安全ではない。調査し、それを破壊せよ。"
-    },
-    "type": "Fight",
-    "expired_at": 3,
-    "available_from_turn": 29,
-    "duration": 4,
-    "difficulty": 0.2,
-    "rewards": {
-      "xp": 50
-    },
-    "required_quests": [1],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [3],
     "forbidden_heroes": []
   }
 ]

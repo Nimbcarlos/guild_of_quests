@@ -5,7 +5,7 @@ import os
 SAVE_DIR = "saves"
 
 def save_game(manager, filename):
-    """Salva o estado atual do jogo em um arquivo JSON."""
+    """Salva o estado atual do jogo em um arquivo JSON (versão otimizada)."""
     os.makedirs(SAVE_DIR, exist_ok=True)
     path = os.path.join(SAVE_DIR, filename)
 
@@ -24,12 +24,12 @@ def save_game(manager, filename):
         for qid, hids in getattr(manager, "completed_quests", {}).items()
     }
 
-    # Serializa quests (para guardar available_since_turn)
-    quests_save = {
-        str(q.id): {
-            "available_since_turn": getattr(q, "available_since_turn", None)
-        }
+    # 🔹 OTIMIZADO: Salva apenas quests que têm available_since_turn definido
+    # Formato compacto: {"quest_id": turno}
+    quests_availability = {
+        str(q.id): getattr(q, "available_since_turn", None)
         for q in manager.quests
+        if getattr(q, "available_since_turn", None) is not None
     }
 
     data = {
@@ -47,7 +47,7 @@ def save_game(manager, filename):
             for h in manager.hero_manager.all_heroes
         ],
         "active_quests": active_quests_save,
-        "quests": quests_save,  # << salva estado extra das quests
+        "quests_availability": quests_availability,  # ← Novo formato compacto
     }
 
     with open(path, "w", encoding="utf-8") as f:
@@ -85,7 +85,7 @@ def load_game(manager, filename):
     manager.failed_quests = set(_to_int_if_possible(x) for x in data.get("failed_quests", []))
     manager.hero_manager.unlocked_heroes = set(_to_int_if_possible(x) for x in data.get("unlocked_heroes", []))
 
-    # restaura atributos dos heróis
+    # Restaura atributos dos heróis
     for hero_data in data.get("heroes", []):
         hid = _to_int_if_possible(hero_data.get("id"))
         hero = manager.hero_manager.get_hero_by_id(hid)
@@ -93,7 +93,7 @@ def load_game(manager, filename):
             hero.xp = hero_data.get("xp", getattr(hero, "xp", 0))
             hero.status = hero_data.get("status", getattr(hero, "status", "idle"))
 
-    # restaura quests ativas
+    # Restaura quests ativas
     manager.active_quests = {}
     for qid_key, qdata in data.get("active_quests", {}).items():
         try:
@@ -119,8 +119,11 @@ def load_game(manager, filename):
             "heroes": heroes_list,
         }
 
-    # restaura available_since_turn das quests
-    for qid_key, qextra in data.get("quests", {}).items():
+    # 🔹 OTIMIZADO: Restaura available_since_turn (formato compacto)
+    # Suporta tanto o formato antigo quanto o novo
+    quests_data = data.get("quests_availability") or data.get("quests", {})
+    
+    for qid_key, turn_value in quests_data.items():
         try:
             qid = int(qid_key)
         except Exception:
@@ -128,14 +131,27 @@ def load_game(manager, filename):
 
         quest = manager.get_quest(qid)
         if quest:
-            quest.available_since_turn = qextra.get("available_since_turn", None)
+            # Formato novo: {"quest_id": turno}
+            if isinstance(turn_value, int):
+                quest.available_since_turn = turn_value
+            # Formato antigo: {"quest_id": {"available_since_turn": turno}}
+            elif isinstance(turn_value, dict):
+                quest.available_since_turn = turn_value.get("available_since_turn", None)
+
+    # Revalida quests após carregar
+    manager._revalidate_available_quests()
+    
+    # Marca que a assistente não deve falar como "primeira vez"
+    if hasattr(manager, 'assistant'):
+        manager.assistant.first_time = False
 
     print(f"📂 Jogo carregado de: {path}")
     return True
 
-# Adicione esta função no seu core/save_manager.py
 
-
+# ═══════════════════════════════════════════════════════════
+# FUNÇÕES AUXILIARES (mantidas iguais)
+# ═══════════════════════════════════════════════════════════
 
 def list_saves():
     """
@@ -144,15 +160,12 @@ def list_saves():
     Returns:
         list: Lista com nomes dos arquivos de save (.json)
     """
-    # Cria o diretório se não existir
     if not os.path.exists(SAVE_DIR):
         os.makedirs(SAVE_DIR)
         return []
     
-    # Lista apenas arquivos .json
     files = [f for f in os.listdir(SAVE_DIR) if f.endswith('.json')]
     
-    # Ordena por data de modificação (mais recente primeiro)
     files.sort(
         key=lambda f: os.path.getmtime(os.path.join(SAVE_DIR, f)),
         reverse=True
@@ -196,8 +209,6 @@ def get_save_info(filename):
     Returns:
         dict: Dicionário com informações do save ou None se erro
     """
-    import json
-    
     filepath = os.path.join(SAVE_DIR, filename)
     
     try:
@@ -208,7 +219,7 @@ def get_save_info(filename):
             'turn': data.get('current_turn', 0),
             'completed_quests': len(data.get('completed_quests', [])),
             'active_quests': len(data.get('active_quests', {})),
-            'failed_quests': len(data.get('failed_quests', set())),
+            'failed_quests': len(data.get('failed_quests', [])),
         }
     except Exception as e:
         print(f"Erro ao ler info do save '{filename}': {e}")

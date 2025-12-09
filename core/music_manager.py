@@ -1,11 +1,10 @@
 """
 core/music_manager.py
-Gerencia a música de fundo do jogo
+Gerencia a música de fundo do jogo com controle adequado de estado
 """
 from kivy.core.audio import SoundLoader
 import random
 import os
-from kivy.uix.popup import Popup
 from kivy.uix.label import Label
 from kivy.clock import Clock
 from kivy.animation import Animation
@@ -21,9 +20,8 @@ class MusicNotification(FloatLayout):
         self.size_hint = (None, None)
         self.size = Window.size
         self.opacity = 0
-        self.disabled = True  # não captura eventos
+        self.disabled = True
 
-        # 🔹 Label principal (fundo translúcido e texto)
         self.label = Label(
             text=f"🎵 {track_name}",
             size_hint=(None, None),
@@ -35,7 +33,6 @@ class MusicNotification(FloatLayout):
             valign="middle",
         )
 
-        # fundo simples via canvas
         with self.label.canvas.before:
             from kivy.graphics import Color, RoundedRectangle
             Color(0, 0, 0, 0.6)
@@ -50,7 +47,6 @@ class MusicNotification(FloatLayout):
         self.add_widget(self.label)
         Window.add_widget(self)
 
-        # 🔸 Animação: aparece suave, sobe um pouco, desaparece
         anim_in = Animation(opacity=1, duration=0.3)
         anim_slide = Animation(y=self.label.y + 30, duration=2.0)
         anim_out = Animation(opacity=0, duration=1)
@@ -64,6 +60,7 @@ class MusicNotification(FloatLayout):
         if self.parent:
             Window.remove_widget(self)
 
+
 class MusicManager:
     def __init__(self, music_folder="assets/music", volume=0.5):
         """
@@ -75,16 +72,15 @@ class MusicManager:
         """
         self.music_folder = music_folder
         self.volume = volume
-        self.playlists = {}  # Múltiplas playlists por contexto
+        self.playlists = {}
         self.current_playlist = None
         self.current_track = None
         self.current_sound = None
-        self.is_playing = False
-        self.is_muted = False
+        self.is_playing = False  # ← Controla se DEVERIA estar tocando
+        self.is_muted = False    # ← Controla se está mutado
         self.shuffle = True
         self._manual_stop = False
 
-        # Carrega playlists por pasta
         self._load_playlists()
     
     def _load_playlists(self):
@@ -93,7 +89,7 @@ class MusicManager:
             'menu': 'assets/music/menu',
             'gameplay': 'assets/music/gameplay',
             'battle': 'assets/music/battle',
-            'default': 'assets/music'  # fallback
+            'default': 'assets/music'
         }
         
         for name, folder in playlist_folders.items():
@@ -102,6 +98,7 @@ class MusicManager:
             elif name == 'default' and os.path.exists(self.music_folder):
                 self.playlists[name] = self._load_from_folder(self.music_folder)
         
+        print(f"[MusicManager] Playlists carregadas: {list(self.playlists.keys())}")
     
     def _load_from_folder(self, folder):
         """Carrega músicas de uma pasta específica."""
@@ -125,45 +122,53 @@ class MusicManager:
         Args:
             playlist_name: Nome da playlist ('menu', 'gameplay', 'battle', 'default')
         """
-        # IMPORTANTE: Se já está tocando, não faz nada
-        if self.is_playing and self.current_sound and self.current_sound.state == 'play':
+        # 🔹 Se está mutado, marca como "deveria tocar" mas não toca de verdade
+        if self.is_muted:
+            self.is_playing = True  # Quando desmutar, vai continuar
+            self.current_playlist = playlist_name
+            print(f"[MusicManager] Play requisitado (mutado): {playlist_name}")
             return
         
-        # Se está pedindo para tocar a mesma playlist que já estava tocando
-        if self.current_playlist == playlist_name and self.current_sound:
-            self.is_playing = True
+        # 🔹 Se já está tocando a mesma playlist, não faz nada
+        if (self.is_playing and 
+            self.current_playlist == playlist_name and 
+            self.current_sound and 
+            self.current_sound.state == 'play'):
             return
         
-        # Se mudou de playlist, para a atual e começa nova
+        # 🔹 Se mudou de playlist, para a atual
         if self.current_playlist != playlist_name:
             if self.current_sound:
+                self._manual_stop = True
                 self.current_sound.stop()
+                self.current_sound = None
             self.current_track = None
             self.current_playlist = playlist_name
         
         playlist = self.playlists.get(playlist_name, self.playlists.get('default', []))
         
         if not playlist:
+            print(f"[MusicManager] Playlist '{playlist_name}' vazia!")
             return
         
-        if self.is_muted:
-            return
-        
-        # Se não tem música tocando, inicia uma nova
+        # 🔹 Inicia reprodução
+        self.is_playing = True
         if self.current_track is None or not self.current_sound:
             self._play_next(playlist)
-        
-        self.is_playing = True
     
     def _play_next(self, playlist=None):
+        """Toca a próxima música da playlist."""
         if playlist is None:
             playlist = self.playlists.get(self.current_playlist, [])
         if not playlist:
             return
 
+        # 🔹 Para a música atual se existir
         if self.current_sound:
+            self.current_sound.unbind(on_stop=self._on_track_end)
             self.current_sound.stop()
 
+        # 🔹 Avança para próxima faixa
         if self.current_track is None:
             self.current_track = 0
         else:
@@ -173,35 +178,58 @@ class MusicManager:
         self.current_sound = SoundLoader.load(music_path)
 
         if self.current_sound:
-            self.current_sound.volume = self.volume if not self.is_muted else 0
+            # 🔹 Define volume correto (0 se mutado, volume normal caso contrário)
+            self.current_sound.volume = 0 if self.is_muted else self.volume
             self.current_sound.loop = False
             self.current_sound.bind(on_stop=self._on_track_end)
-            self.current_sound.play()
-
-            track_name = os.path.basename(music_path).replace("_", " ")
-
-            # 🔔 Mostra popup flutuante com o nome da música
-            Clock.schedule_once(lambda dt: MusicNotification(track_name), 0)
+            
+            # 🔹 SÓ toca se NÃO estiver mutado
+            if not self.is_muted:
+                self.current_sound.play()
+                track_name = os.path.basename(music_path).replace("_", " ").rsplit('.', 1)[0]
+                print(f"[MusicManager] ♪ {track_name}")
+                
+                # Descomente para ativar notificação visual
+                # Clock.schedule_once(lambda dt: MusicNotification(track_name), 0)
+            else:
+                print(f"[MusicManager] Próxima música carregada (mutado)")
 
     def _on_track_end(self, *args):
         """Callback quando a música termina - toca a próxima."""
         if self._manual_stop:
-            # Reset flag e não toca mais nada
             self._manual_stop = False
             return
 
-        if self.is_playing:
+        # 🔹 SÓ continua tocando se is_playing == True E NÃO está mutado
+        if self.is_playing and not self.is_muted:
             playlist = self.playlists.get(self.current_playlist, [])
             self._play_next(playlist)
     
     def stop(self):
         """Para a música completamente."""
+        print("[MusicManager] Parando música")
+        
         if self.current_sound:
-            self._manual_stop = True  # marca que foi parada manualmente
-            self.current_sound.unbind(on_stop=self._on_track_end)  # evita loop
+            self._manual_stop = True
+            self.current_sound.unbind(on_stop=self._on_track_end)
             self.current_sound.stop()
             self.current_sound = None
+        
         self.is_playing = False
+        self.current_track = None
+    
+    def pause(self):
+        """Pausa a música atual (pode retomar depois)."""
+        if self.current_sound and self.is_playing:
+            self.current_sound.stop()
+            self.is_playing = False
+            print("[MusicManager] Música pausada")
+    
+    def resume(self):
+        """Retoma a música se estava pausada."""
+        if not self.is_playing and self.current_playlist:
+            self.play(self.current_playlist)
+            print("[MusicManager] Música retomada")
     
     def set_volume(self, volume):
         """
@@ -213,37 +241,50 @@ class MusicManager:
         self.volume = max(0.0, min(1.0, volume))
         if self.current_sound and not self.is_muted:
             self.current_sound.volume = self.volume
+        print(f"[MusicManager] Volume: {self.volume * 100:.0f}%")
     
     def toggle_mute(self):
         """Liga/desliga o mute."""
         self.is_muted = not self.is_muted
-        if self.current_sound:
-            self.current_sound.volume = 0 if self.is_muted else self.volume
+        
+        if self.is_muted:
+            # 🔹 Muta: Para a música mas mantém o estado
+            print("[MusicManager] Mute: ON")
+            if self.current_sound:
+                self.current_sound.stop()
+        else:
+            # 🔹 Desmuta: Retoma se deveria estar tocando
+            print("[MusicManager] Mute: OFF")
+            if self.is_playing and self.current_playlist:
+                playlist = self.playlists.get(self.current_playlist, [])
+                self._play_next(playlist)
     
     def next_track(self):
         """Pula para a próxima música."""
         if self.is_playing:
-            self._play_next()
+            playlist = self.playlists.get(self.current_playlist, [])
+            self._play_next(playlist)
     
     def previous_track(self):
         """Volta para a música anterior."""
-        if self.playlist and self.is_playing:
-            self.current_track = (self.current_track - 2) % len(self.playlist)
-            self._play_next()
+        if self.current_playlist and self.is_playing:
+            playlist = self.playlists.get(self.current_playlist, [])
+            # Volta 2 posições (porque _play_next avança 1)
+            self.current_track = (self.current_track - 2) % len(playlist)
+            self._play_next(playlist)
     
     def set_shuffle(self, shuffle):
         """Liga/desliga o shuffle."""
         self.shuffle = shuffle
-        if shuffle:
-            random.shuffle(self.playlist)
+        if shuffle and self.current_playlist:
+            playlist = self.playlists.get(self.current_playlist, [])
+            random.shuffle(playlist)
 
-    def pause(self):
-        """Pausa a música atual sem resetar."""
-        if self.current_sound and self.is_playing:
-            self.current_sound.stop()
-            self.is_playing = False
 
-# Instância global (singleton)
+# ═══════════════════════════════════════════════════════════
+# SINGLETON GLOBAL
+# ═══════════════════════════════════════════════════════════
+
 _music_manager = None
 
 def get_music_manager():

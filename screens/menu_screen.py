@@ -1,115 +1,213 @@
 # screens/menu_screen.py
 import os
 from kivy.uix.screenmanager import Screen
+from kivy.uix.floatlayout import FloatLayout
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.button import Button
-import core.save_manager as save  # seu save_manager ajustado
+from kivy.uix.image import Image
+from kivy.uix.anchorlayout import AnchorLayout
+from kivy.graphics import Color, Rectangle
+from kivy.app import App
+import core.save_manager as save
 from screens.gameplay_screen import GameplayScreen
 from core.quest_manager import QuestManager
-from core.hero_manager import HeroManager  # cria esse módulo se ainda não existir
+from core.hero_manager import HeroManager
 
 
 class MenuScreen(Screen):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        # layout principal (vertical) — guardamos em self.main_layout para reutilizar
-        self.main_layout = BoxLayout(orientation="vertical", spacing=10, padding=20)
-        self.add_widget(self.main_layout)
-        self.build_main_menu()
-
-    def build_main_menu(self):
-        """(Re)constrói a tela principal do menu com os 4 botões."""
-        self.main_layout.clear_widgets()
-
-        new_game_btn = Button(text="Novo Jogo", size_hint_y=None, height=60)
-        new_game_btn.bind(on_release=self.new_game)
-        self.main_layout.add_widget(new_game_btn)
-
-        load_game_btn = Button(text="Carregar Jogo", size_hint_y=None, height=60)
-        load_game_btn.bind(on_release=self.show_save_files)
-        self.main_layout.add_widget(load_game_btn)
-
-        settings_btn = Button(text="Configurações", size_hint_y=None, height=60)
-        settings_btn.bind(on_release=self.open_settings)
-        self.main_layout.add_widget(settings_btn)
-
-        exit_btn = Button(text="Sair", size_hint_y=None, height=60)
-        exit_btn.bind(on_release=self.exit_game)
-        self.main_layout.add_widget(exit_btn)
-
-# Correção na Lógica do MenuScreen
-
-    def new_game(self, *args):
-        # Exemplo (assumindo que o manager principal está no GameScreenManager):
-        self.manager.quest_manager = QuestManager()  # Cria uma instância totalmente nova
+        self.name = "menu"
+        self.build_ui()
+    
+    def build_ui(self):
+        """Constrói toda a interface do menu em Python puro."""
+        # FloatLayout principal
+        main_layout = FloatLayout()
         
-        # E se necessário, qualquer outro manager:
-        self.manager.quest_manager.hero_manager = HeroManager() # Cria um HeroManager novo, etc.
-
-        # 2. 🔄 Remove a tela antiga de gameplay se já existir
+        # ═══════════════════════════════════════════════════════
+        # 1️⃣ Background preto
+        # ═══════════════════════════════════════════════════════
+        with main_layout.canvas.before:
+            Color(0, 0, 0, 1)
+            self.bg_rect = Rectangle(size=main_layout.size, pos=main_layout.pos)
+        
+        # Atualiza background quando redimensionar
+        main_layout.bind(
+            size=self._update_bg,
+            pos=self._update_bg
+        )
+        
+        # ═══════════════════════════════════════════════════════
+        # 2️⃣ Pergaminho de fundo
+        # ═══════════════════════════════════════════════════════
+        pergaminho = Image(
+            source="assets/background_ls.png",
+            size_hint=(None, None),
+            size=(800, 600),
+            pos_hint={"center_x": 0.5, "center_y": 0.5},
+            allow_stretch=True,
+            keep_ratio=False
+        )
+        main_layout.add_widget(pergaminho)
+        
+        # ═══════════════════════════════════════════════════════
+        # 3️⃣ Container horizontal (logo + botões)
+        # ═══════════════════════════════════════════════════════
+        content_box = BoxLayout(
+            orientation="horizontal",
+            spacing=10,
+            size_hint=(None, None),
+            size=(800, 500),
+            pos_hint={"center_x": 0.5, "center_y": 0.5},
+            padding=[10, 10, 10, 10]
+        )
+        
+        # ═══════════════════════════════════════════════════════
+        # 4️⃣ LADO ESQUERDO: Logo
+        # ═══════════════════════════════════════════════════════
+        logo_container = AnchorLayout(
+            anchor_x="center",
+            anchor_y="center",
+            size_hint_x=0.45
+        )
+        
+        logo = Image(
+            source="assets/logo.png",
+            size_hint=(None, None),
+            size=(400, 350),
+            allow_stretch=True,
+            keep_ratio=True
+        )
+        logo_container.add_widget(logo)
+        content_box.add_widget(logo_container)
+        
+        # ═══════════════════════════════════════════════════════
+        # 5️⃣ LADO DIREITO: Botões
+        # ═══════════════════════════════════════════════════════
+        buttons_box = BoxLayout(
+            orientation="vertical",
+            spacing=15,
+            size_hint_x=0.55,
+            padding=[0, 50, 0, 0]
+        )
+        
+        # New Game Button
+        new_game_btn = Button(
+            background_normal="assets/buttons/new_game.png",
+            background_down="assets/buttons/new_game.png",
+            size_hint=(1, None),
+            height=90,
+            border=(0, 0, 0, 0)
+        )
+        new_game_btn.bind(on_release=self.new_game)
+        buttons_box.add_widget(new_game_btn)
+        
+        # Load Game Button
+        load_game_btn = Button(
+            background_normal="assets/buttons/load_game.png",
+            background_down="assets/buttons/load_game.png",
+            size_hint=(1, None),
+            height=90,
+            border=(0, 0, 0, 0)
+        )
+        load_game_btn.bind(on_release=self.open_load_game)
+        buttons_box.add_widget(load_game_btn)
+        
+        # Settings Button
+        settings_btn = Button(
+            background_normal="assets/buttons/settings.png",
+            background_down="assets/buttons/settings.png",
+            size_hint=(1, None),
+            height=90,
+            border=(0, 0, 0, 0)
+        )
+        settings_btn.bind(on_release=self.open_settings)
+        buttons_box.add_widget(settings_btn)
+        
+        # Exit Button
+        exit_btn = Button(
+            background_normal="assets/buttons/exit.png",
+            background_down="assets/buttons/exit.png",
+            size_hint=(1, None),
+            height=90,
+            border=(0, 0, 0, 0)
+        )
+        exit_btn.bind(on_release=self.exit_game)
+        buttons_box.add_widget(exit_btn)
+        
+        content_box.add_widget(buttons_box)
+        main_layout.add_widget(content_box)
+        
+        # Adiciona tudo à tela
+        self.add_widget(main_layout)
+    
+    def _update_bg(self, instance, value):
+        """Atualiza o tamanho/posição do background."""
+        self.bg_rect.size = instance.size
+        self.bg_rect.pos = instance.pos
+    
+    # ═══════════════════════════════════════════════════════════
+    # MÉTODOS DE NAVEGAÇÃO
+    # ═══════════════════════════════════════════════════════════
+    
+    def new_game(self, *args):
+        """Inicia um novo jogo."""
+        print("[MenuScreen] Iniciando novo jogo...")
+        
+        # 1️⃣ Cria managers totalmente novos
+        self.manager.quest_manager = QuestManager()
+        self.manager.quest_manager.hero_manager = HeroManager()
+        
+        # 2️⃣ Remove a tela antiga de gameplay se existir
         if self.manager.has_screen("gameplay"):
             old_screen = self.manager.get_screen("gameplay")
             self.manager.remove_widget(old_screen)
-
-        # 3. 🆕 Recria a tela de gameplay
-        # A nova tela agora usará as novas instâncias de manager zeradas.
-        new_gameplay = GameplayScreen(name="gameplay")
         
-        # 4. Adiciona a tela
+        # 3️⃣ Recria a tela de gameplay
+        new_gameplay = GameplayScreen(name="gameplay")
         self.manager.add_widget(new_gameplay)
-
-        # 5. Troca para a gameplay nova
+        
+        # 4️⃣ Vai para gameplay
         self.manager.current = "gameplay"
-
+    
+    def open_load_game(self, *args):
+        """Abre a tela de carregar jogo."""
+        self.manager.current = "loadgame"
+    
+    def open_settings(self, *args):
+        """Abre a tela de configurações."""
+        settings_screen = self.manager.get_screen("settings")
+        settings_screen.previous_screen = "menu"
+        self.manager.current = "settings"
+    
+    def exit_game(self, *args):
+        """Fecha o jogo."""
+        App.get_running_app().stop()
+    
+    # ═══════════════════════════════════════════════════════════
+    # MÉTODOS AUXILIARES (caso precise de lista de saves no menu)
+    # ═══════════════════════════════════════════════════════════
+    
     def show_save_files(self, *args):
-        print('load game')
-        """Mostra lista de saves (botões)."""
-        self.main_layout.clear_widgets()
-
-        save_files = save.list_saves()  # usa a helper do save_manager
-        if not save_files:
-            no_save_btn = Button(text="Nenhum save encontrado — Voltar", size_hint_y=None, height=60)
-            no_save_btn.bind(on_release=lambda *_: self.build_main_menu())
-            self.main_layout.add_widget(no_save_btn)
-            return
-
-        for filename in save_files:
-            # cada botão carrega o save e vai para gameplay
-            btn = Button(text=filename, size_hint_y=None, height=50)
-            # fixa filename no lambda com default arg para evitar late-binding
-            btn.bind(on_release=lambda _, fn=filename: self._on_select_save(fn))
-            self.main_layout.add_widget(btn)
-
-        back_btn = Button(text="Voltar", size_hint_y=None, height=60)
-        back_btn.bind(on_release=lambda *_: self.build_main_menu())
-        self.main_layout.add_widget(back_btn)
-
+        """
+        Mostra lista de saves (se você quiser implementar aqui).
+        Por enquanto, apenas redireciona para loadgame screen.
+        """
+        self.manager.current = "loadgame"
+    
     def _on_select_save(self, filename: str, *args):
-        """
-        Handler quando o jogador escolhe um save.
-        Carrega usando save_manager e muda para a tela de gameplay.
-        """
-        # garante que o QuestManager já existe no GameScreenManager
+        """Handler quando o jogador escolhe um save."""
         qm = getattr(self.manager, "quest_manager", None)
         if qm is None:
-            print("QuestManager não encontrado no ScreenManager. Cheque a inicialização.")
-            # ainda assim tentamos mudar de tela para não travar UX:
+            print("[MenuScreen] QuestManager não encontrado!")
             self.manager.current = "gameplay"
             return
-
+        
         ok = save.load_game(qm, filename=filename)
         if not ok:
-            # você pode abrir um Popup aqui para avisar o jogador
-            print(f"Erro ao carregar {filename}. Iniciando jogo novo.")
+            print(f"[MenuScreen] Erro ao carregar {filename}")
         else:
-            print(f"Save carregado: {filename}")
-
-        # finalmente troca para gameplay (sempre)
+            print(f"[MenuScreen] Save carregado: {filename}")
+        
         self.manager.current = "gameplay"
-
-    def open_settings(self, *args):
-        self.manager.current = "settings"
-
-    def exit_game(self, *args):
-        from kivy.app import App
-        App.get_running_app().stop()
