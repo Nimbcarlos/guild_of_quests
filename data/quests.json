@@ -473,7 +473,7 @@
     "rewards": {
       "xp": 200
     },
-    "required_quests": [102],
+    "required_quests": [105],
     "forbidden_quests": [],
     "required_fail_quests": [],
     "required_heroes": [1, 2],
@@ -758,7 +758,7 @@
     "expired_at": 3,
     "available_from_turn": 10,
     "duration": 3,
-    "difficulty": 6,
+    "difficulty": 8,
     "rewards": {
       "xp": 50
     },

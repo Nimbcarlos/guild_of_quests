@@ -2692,5 +2692,1005 @@
         ]
       }
     }
+  },
+  "124": {
+    "success": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "Eu consegui… eliminar todos os goblins que chegaram às plantações. Foi rápido demais e os fazendeiros olharam para mim enquanto eu ainda segurava a espada. Quase deixei ela cair de vergonha."
+        },
+        "2": {
+          "id": "2",
+          "text": "Acabamos com todos os goblins que vieram, mas achei mais rastros do que goblins mortos. Tem mais deles escondidos por aí, eu tenho certeza."
+        },
+        "3": {
+          "id": "3",
+          "text": "Derrotamos os goblins perto das fazendas. As vozes elogiaram minha precisão… e depois ficaram inquietas, dizendo que a terra lembrava mais passos do que corpos."
+        },
+        "4": {
+          "id": "4",
+          "text": "Eliminamos todos os goblins que chegaram às plantações. O padrão de movimentação deles não batia com a quantidade enfrentada. Existem mais grupos circulando."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "Eliminamos o grupo todo rápido. Mas encontrei rastros de mais goblins do que os que enfrentamos." },
+          { "id": "1", "text": "A Elara guiou tudo tão bem que… bem… eu só precisei acertar alguns golpes fortes. Foi meio embaraçoso quando ela elogiou minha força." },
+          { "id": "2", "text": "Ela ficou vermelha quando eu disse que ela quase derrubou dois goblins com um único balanço." },
+          { "id": "1", "text": "Mas todos os goblins que vieram foram eliminados. Ninguém ficou ferido." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "Os goblins caíram um por um. A Lyra acertou golpes que as próprias vozes ficaram assistindo em silêncio." },
+          { "id": "1", "text": "O Kael falava coisas estranhas, mas… ele me ajudou a focar. Derrubamos todos eles sem deixar ninguém chegar ao gado." },
+          { "id": "3", "text": "O curioso é que as vozes comentaram que havia mais passos do que inimigos. Talvez outros observando de longe." },
+          { "id": "1", "text": "Foi tudo eliminado… mas fiquei realmente nervosa quando percebi o Kael me encarando como se eu brilhasse." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "Os goblins foram eliminados com precisão. A Lyra derrubou metade antes que eu terminasse meu primeiro cálculo." },
+          { "id": "1", "text": "Eu… não queria exagerar, mas eles estavam atacando o gado. Eu só… fiz o que precisava." },
+          { "id": "4", "text": "Ela ficou vermelha quando eu descrevi a trajetória dos impactos dela. Era matemática bonita." },
+          { "id": "1", "text": "Conseguimos proteger tudo. Nenhum goblin ficou vivo." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "Eliminamos todos, mas tinham rastros demais para o número de goblins que atacaram. Isso não está certo." },
+          { "id": "3", "text": "As vozes disseram que os rastros sobrando eram sombras que caminham sem corpo. Eu preferi não pensar muito nisso." },
+          { "id": "2", "text": "O importante é que ninguém chegou perto das plantações. Lidamos com todos que vieram." },
+          { "id": "3", "text": "Sim. Todos caíram. Mas algo maior está se movendo por trás." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "Eliminamos o grupo inteiro, mas tinha muito mais pegadas do que corpos. Não gostei disso." },
+          { "id": "4", "text": "O padrão não fechava mesmo. A quantidade de rastros excedia o número de inimigos enfrentados." },
+          { "id": "2", "text": "Pelo menos ninguém saiu ferido. Os goblins que vieram foram todos resolvidos." },
+          { "id": "4", "text": "Sim. Todos eliminados sem danos colaterais." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "Os goblins caíram todos. A luz que eu invoquei os deixou desorientados e o Leonardo finalizou o resto com precisão." },
+          { "id": "4", "text": "Foram eliminados de maneira sistemática. O comportamento deles era estranho, porém." },
+          { "id": "3", "text": "Estranho porque havia rastros de sobra. As vozes diziam que passos demais carregam histórias demais." },
+          { "id": "4", "text": "Concordo. Isso não fecha. Mas a missão foi cumprida com eficiência total." }
+        ],
+        "1_2_3": [
+          { "id": "2", "text": "Eliminamos todos os goblins, mas encontrei mais rastros do que corpos de novo. Isso está me incomodando." },
+          { "id": "1", "text": "A Elara encontrou os rastros tão rápido que eu quase tropecei tentando acompanhar…" },
+          { "id": "3", "text": "As vozes ficaram murmurando que esses passos extras pertencem a olhos que não piscam." },
+          { "id": "1", "text": "Mas lidamos com todos os que chegaram perto das plantações… mesmo que eu tenha ficado vermelha de novo quando disseram que eu ‘esmaguei três de uma vez’." }
+        ],
+        "1_2_4": [
+          { "id": "2", "text": "Todos os goblins foram eliminados, mas os rastros extras continuam aparecendo. Isso está errado." },
+          { "id": "4", "text": "Ela rastreou a movimentação deles com uma precisão impressionante. A Lyra cuidou do resto com… força desproporcional." },
+          { "id": "1", "text": "N-não precisava falar ‘desproporcional’… eu só fiz o que deu." },
+          { "id": "4", "text": "O resultado foi excelente. Nenhum goblin restou vivo, e nenhuma plantação foi danificada." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "Os goblins caíram rápido. A Lyra abriu caminho com golpes que até as vozes acompanharam em silêncio." },
+          { "id": "4", "text": "Eles não resistiram ao ritmo do combate. Mas havia rastros demais na terra para a quantidade enfrentada." },
+          { "id": "1", "text": "Eu só… tentei não atrapalhar quando o Leonardo começou a falar de padrões e quando o Kael começou a ouvir… coisas." },
+          { "id": "3", "text": "Eu ouvi sim. E eles dizem que esses rastros extras caminham sem destino. Mesmo assim, eliminamos todos que apareceram." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "Eliminamos todos os goblins, mas achei rastros além do que enfrentamos. Muitos." },
+          { "id": "3", "text": "As vozes disseram que os passos extras pertencem a guerreiros que ainda não escolheram um inimigo." },
+          { "id": "4", "text": "Os números realmente não fechavam. Havia deslocamento suficiente para ao menos o dobro de atacantes." },
+          { "id": "2", "text": "Mas o ataque de hoje acabou. Todos os goblins que vieram foram derrotados antes de chegarem às plantações." }
+        ],
+        "1_2_3_4": [
+          { "id": "2", "text": "Acabamos com todos os goblins, mas encontrei rastros demais. Muito mais do que os que enfrentamos." },
+          { "id": "1", "text": "A Elara encontrava os caminhos antes mesmo de eu entender pra onde estávamos indo… fiquei até sem jeito quando ela disse que meus golpes estavam ‘eficientes demais’." },
+          { "id": "3", "text": "As vozes confirmaram que os passos restantes pertencem a sombras inquietas. Elas observavam de longe." },
+          { "id": "4", "text": "Apesar da discrepância numérica, a defesa foi perfeita. Nenhum goblin alcançou o gado ou as plantações. Todos foram eliminados." }
+        ]
+      }
+    },
+    "failure": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "Eu tentei segurar eles, mas fui lenta demais. Quando percebi, parte das plantações já estava caída. Sinto que falhei com todo mundo… mesmo tendo colocado toda minha força nisso."
+        },
+        "2": {
+          "id": "2",
+          "text": "Eliminamos muitos, mas encontrei rastros de bem mais goblins do que conseguimos enfrentar. Eu deveria ter percebido isso antes… talvez desse tempo de avisar os fazendeiros."
+        },
+        "3": {
+          "id": "3",
+          "text": "As vozes tentaram me alertar, mas eu interpretei mal. Quando os goblins romperam a defesa, já era tarde. Sinto como se tivesse deixado um pedido de ajuda sem resposta."
+        },
+        "4": {
+          "id": "4",
+          "text": "Analisei o terreno, mas subestimei a rota que eles usaram. Os goblins passaram por onde eu não esperava e alcançaram as plantações. A responsabilidade é minha."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "Encontrei rastros demais, e isso me deixou alerta. Mas não adiantou… eles vieram por dois flancos e não conseguimos proteger tudo." },
+          { "id": "1", "text": "Eu tentei cobrir a lateral, mas fui puxada para o front… quando vi, já havia goblins demais correndo para as plantações." },
+          { "id": "2", "text": "A força da Lyra manteve muitos afastados, mas os rastros extras que encontrei não eram blefe. Fomos superados." },
+          { "id": "1", "text": "Queria ter sido mais rápida. Acho que decepcionei o grupo e os fazendeiros…" }
+        ],
+        "1_3": [
+          { "id": "3", "text": "As vozes disseram que havia mais olhos nos observando, mas eu não entendi o aviso a tempo. Eles atacaram por onde não vimos." },
+          { "id": "1", "text": "Eu tentei segurar os que vieram pelo caminho principal… mas vieram muitos de repente. Vários passaram correndo por entre as cercas." },
+          { "id": "3", "text": "Quando percebi o significado do sussurro, já havia goblins dentro das plantações." },
+          { "id": "1", "text": "Se eu tivesse conseguido bloquear melhor… isso não teria acontecido." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "Eu fiz o cálculo errado sobre o alcance deles. Eles foram mais rápidos do que previ." },
+          { "id": "1", "text": "Eu não consegui reagir a tempo quando eles mudaram de direção. Senti como se estivesse presa no chão." },
+          { "id": "4", "text": "Minha estratégia falhou. Eles ultrapassaram a linha antes de conseguirmos nos reposicionar." },
+          { "id": "1", "text": "Eu tentei parar os que avançaram, mas quando atingi alguns, outros três já tinham passado…" }
+        ],
+        "2_3": [
+          { "id": "2", "text": "Achei rastros demais. Sabia que algo estava errado, mas mesmo assim não demos conta da quantidade real." },
+          { "id": "3", "text": "As vozes estavam inquietas… e agora entendo. Havia passos multiplicados na poeira." },
+          { "id": "2", "text": "Derrotamos vários, mas eles vieram por três direções. Era impossível cobrir tudo." },
+          { "id": "3", "text": "Falhamos com as pessoas que moram ali. E isso pesa." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "Os rastros extras estavam lá, e eu devia ter insistido que eram muitos. Mas achei que estávamos preparados…" },
+          { "id": "4", "text": "Subestimei a velocidade deles. Quando ajustei minha estratégia, eles já tinham aberto caminho até o gado." },
+          { "id": "2", "text": "Derrotamos o grupo da frente, mas os outros passaram por trás. Não conseguimos impedir." },
+          { "id": "4", "text": "Os danos foram sérios. E a falha foi nossa." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "As vozes gritavam sobre muitos passos, mas eu confiei demais nas minhas interpretações." },
+          { "id": "4", "text": "Havia sinais de movimentação múltipla, mas não calculei a rota secundária que eles usaram." },
+          { "id": "3", "text": "Quando percebemos, já havia goblins dentro das plantações." },
+          { "id": "4", "text": "Nenhum de nós conseguiu conter o avanço. Essa falha foi clara." }
+        ],
+        "1_2_3": [
+          { "id": "2", "text": "Achei rastros demais e tentei avisar, mas eles chegaram antes de conseguirmos montar a segunda linha de defesa." },
+          { "id": "1", "text": "Eu enfrentei o grupo maior… mas vários passaram pelos lados. Não consegui bloquear tudo." },
+          { "id": "3", "text": "As vozes culpam os passos invisíveis. Mas a culpa é nossa mesmo." },
+          { "id": "2", "text": "Vimos as plantações caírem de longe. Isso foi duro de assistir." }
+        ],
+        "1_2_4": [
+          { "id": "2", "text": "Os rastros extras eram reais, e eles vieram em número maior do que esperávamos." },
+          { "id": "4", "text": "A linha defensiva colapsou rápido demais. Não consegui recalcular a tempo." },
+          { "id": "1", "text": "Eu tentei conter o grupo principal, mas quando virei para ajudar… já estava tarde." },
+          { "id": "2", "text": "Falhamos em proteger as fazendas. E eu sinto que podia ter percebido antes." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "As vozes tentaram alertar para uma aproximação ampla, mas eu entendi tarde demais." },
+          { "id": "4", "text": "Eles ultrapassaram nossa projeção inicial. Avançaram por onde eu havia descartado risco." },
+          { "id": "1", "text": "Eu bati em muitos deles… mas outros escaparam pelas brechas. Não consegui acompanhar." },
+          { "id": "4", "text": "Não protegemos o que deveríamos. Isso é um peso enorme." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "Encontrei rastros demais antes do combate, e no fim realmente eram mais do que conseguimos enfrentar." },
+          { "id": "3", "text": "As vozes disseram que a terra tremia por muitos pés. Agora entendo o motivo." },
+          { "id": "4", "text": "Tudo aconteceu rápido demais. Eles passaram pelas laterais com facilidade." },
+          { "id": "2", "text": "Não conseguimos proteger as plantações. Isso foi uma derrota clara." }
+        ],
+        "1_2_3_4": [
+          { "id": "2", "text": "Eu avisei sobre os rastros extras, mas não conseguimos abrir uma defesa larga o suficiente." },
+          { "id": "1", "text": "Eu tentei segurar a linha da frente… mas os outros avançaram por trás. Senti tudo escorregando das minhas mãos." },
+          { "id": "3", "text": "As vozes lamentaram antes mesmo de tudo acabar. E eu também." },
+          { "id": "4", "text": "O ataque foi maior que nossa capacidade de resposta. Falhamos em proteger as terras agrícolas." }
+        ]
+      }
+    }
+  },
+  "125": {
+    "success": {
+      "reporters": {
+        "1": { "id": "1", "text": "Resolvi aquilo do jeito que consegui. Os goblins fugiram quando comecei a derrubar árvores sem querer. Fiquei com vergonha do barulho, mas… funcionou." },
+        "2": { "id": "2", "text": "Encontrei os grupos deles espalhados e tratei de lidar com cada um rapidamente. No fim, a floresta ficou mais silenciosa e isso me deu certo alívio." },
+        "3": { "id": "3", "text": "As vozes apontaram a direção certa. Quando alcancei os goblins, senti a floresta agradecendo. Acho que fiz o que precisava ser feito." },
+        "4": { "id": "4", "text": "Usei descargas controladas para afastá-los da fauna. Eles correram quando perceberam que eu não ia parar. Fiquei satisfeito com o resultado." }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "A Lyra assustou metade deles só de aparecer. Eu tratei dos outros com precisão." },
+          { "id": "1", "text": "A Elara foi rápida e eu só segui abrindo caminho. Ela elogiou minha força e eu quase travei." },
+          { "id": "2", "text": "A floresta ficou tranquila depois. Deu até pra respirar fundo sem tensão." },
+          { "id": "1", "text": "Terminamos mais rápido do que pensei. Acho que fomos bem juntas." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "A presença da Lyra fez os goblins hesitarem. As vozes me guiaram pelo resto." },
+          { "id": "1", "text": "O Kael falou com o vento... eu acho. Mas funcionou, e eu derrubei o que restou." },
+          { "id": "3", "text": "Quando tudo terminou, a floresta parecia respirar outra vez." },
+          { "id": "1", "text": "Voltamos logo depois. Eu ainda estava meio nervosa, mas deu certo." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "A Lyra abriu espaço e eu ajustei as descargas para encurralá-los. Resultado limpo." },
+          { "id": "1", "text": "O Leonardo controla aqueles raios como se conversasse com eles. Impressiona." },
+          { "id": "4", "text": "Os goblins recuaram sem chance de reagrupar. Nada ameaçará a fauna tão cedo." },
+          { "id": "1", "text": "Fiquei aliviada de conseguir ajudar de forma direta. Foi um bom trabalho." }
+        ],
+        "2_3": [
+          { "id": "3", "text": "A Elara se moveu entre as árvores e apontou onde eu devia estar. As vozes confirmaram." },
+          { "id": "2", "text": "O Kael parecia saber exatamente por onde eles passariam. Só precisei acompanhar." },
+          { "id": "3", "text": "Quando terminamos, senti a floresta mais calma. Foi reconfortante." },
+          { "id": "2", "text": "Voltamos com a sensação de dever cumprido. Foi uma boa missão." }
+        ],
+        "2_4": [
+          { "id": "4", "text": "A Elara vibrou quando percebi um padrão no movimento deles. Sincronizamos bem." },
+          { "id": "2", "text": "O Leonardo atacou só quando eu abri espaço. Foi tudo muito preciso." },
+          { "id": "4", "text": "Nada escapou. Protegemos a fauna sem causar danos extras." },
+          { "id": "2", "text": "Foi uma luta limpa. Gostei de trabalhar com ele." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "As vozes mostraram o fluxo deles, e o Leonardo fechou as rotas com raios atentos." },
+          { "id": "4", "text": "O Kael parecia conversar com a própria floresta. Foi eficiente, no mínimo." },
+          { "id": "3", "text": "Combinamos bem. A energia da floresta se estabilizou após a luta." },
+          { "id": "4", "text": "Voltamos em silêncio. Era um silêncio bom." }
+        ],
+        "1_2_3": [
+          { "id": "3", "text": "A Lyra avançou, a Elara circulou. As vozes guiaram o resto." },
+          { "id": "2", "text": "Com elas à frente, eu só precisei ajustar meu ritmo." },
+          { "id": "1", "text": "Fiquei envergonhada pelo barulho... mas ninguém reclamou." },
+          { "id": "3", "text": "A floresta agradeceu em silêncio quando terminamos." }
+        ],
+        "1_2_4": [
+          { "id": "4", "text": "A Lyra abriu o caminho, a Elara organizou a abordagem, eu finalizei." },
+          { "id": "2", "text": "O Leonardo teve cuidado para não atingir a fauna. Fiquei aliviada." },
+          { "id": "1", "text": "As duas foram muito rápidas. Eu só segui o fluxo delas." },
+          { "id": "4", "text": "Terminamos com precisão. Boa equipe." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "A Lyra foi a âncora da luta. Eu segui as vozes, o Leonardo completou." },
+          { "id": "4", "text": "O Kael parecia em transe, mas acertou todas as decisões." },
+          { "id": "1", "text": "Os dois sabiam exatamente o que fazer. Fiquei tranquila com isso." },
+          { "id": "3", "text": "A floresta nos recebeu em paz quando tudo terminou." }
+        ],
+        "2_3_4": [
+          { "id": "4", "text": "A Elara encontrou o ritmo da patrulha deles e nos guiou sem esforço." },
+          { "id": "3", "text": "As vozes confirmavam cada passo que ela indicava." },
+          { "id": "2", "text": "Com os dois alinhados, a luta foi rápida." },
+          { "id": "4", "text": "Saímos de lá com a sensação de ter feito algo certo." }
+        ],
+        "1_2_3_4": [
+          { "id": "4", "text": "Houve ordem no caos. Cada um fez o que precisava fazer." },
+          { "id":":3", "text": "As vozes ficaram quietas no fim. Acho que isso significa aprovação." },
+          { "id": "2", "text": "A floresta ficou segura e isso já valeu o esforço." },
+          { "id": "1", "text": "Eu… espero ter ajudado de verdade. Foi importante." }
+        ]
+      }
+    },
+
+    "failure": {
+      "reporters": {
+        "1": { "id": "1", "text": "Tentei proteger a floresta, mas eles eram mais do que imaginei. Falhei com todos ali." },
+        "2": { "id": "2", "text": "Eu não consegui impedir a destruição. Eles foram rápidos demais e eu me sinto responsável." },
+        "3": { "id": "3", "text": "As vozes gritavam demais. Não consegui entender o caminho certo. A floresta sofreu por isso." },
+        "4": { "id": "4", "text": "Calculei errado o fluxo deles. Perdi o controle da situação e isso me frustrou muito." }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "Fomos tomadas pelo ritmo deles. Não conseguimos acompanhar." },
+          { "id": "1", "text": "Eu devia ter sido mais firme… mas fiquei travada." },
+          { "id": "2", "text": "A floresta sofreu mais do que devia. Ainda estou digerindo isso." },
+          { "id": "1", "text": "Voltamos com a sensação amarga de falha." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "As vozes brigavam entre si. Fiquei perdido e isso nos custou caro." },
+          { "id": "1", "text": "Eu tentei ajudar, mas falhei. Sinto muito por isso." },
+          { "id": "3", "text": "A energia da floresta murchou na nossa frente." },
+          { "id": "1", "text": "Só espero poder compensar algum dia." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "Minhas descargas dispersaram errado e atrapalharam nossa reação." },
+          { "id": "1", "text": "Eu me assustei e perdi o tempo certo. Isso prejudicou tudo." },
+          { "id": "4", "text": "Não gosto de admitir, mas fracassamos completamente." },
+          { "id": "1", "text": "Voltei com a consciência pesada." }
+        ],
+        "2_3": [
+          { "id": "3", "text": "As vozes me confundiram e eu não consegui acompanhar a Elara." },
+          { "id": "2", "text": "Não tive precisão suficiente. Eles escapavam por toda parte." },
+          { "id": "3", "text": "A floresta ficou vulnerável e isso me dói." },
+          { "id": "2", "text": "Voltamos silenciosos. Não foi fácil aceitar." }
+        ],
+        "2_4": [
+          { "id": "4", "text": "Calculei mal e deixei aberturas. A Elara tentou cobrir, mas não deu." },
+          { "id": "2", "text": "Eu vacilei também. Não fomos bons aqui." },
+          { "id": "4", "text": "A fauna sofreu demais com essa falha." },
+          { "id": "2", "text": "Ainda estou tentando entender onde erramos tanto." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "Eu segui sinais conflitantes e arrastei o Leonardo comigo." },
+          { "id": "4", "text": "Fiquei sem dados claros e isso me travou. Foi ruim." },
+          { "id": "3", "text": "Não protegemos nada da forma que deveríamos." },
+          { "id": "4", "text": "Fracassar assim ainda pesa." }
+        ],
+        "1_2_3": [
+          { "id": "3", "text": "As vozes se calaram no pior momento. Isso derrubou nosso ritmo." },
+          { "id": "2", "text": "Eu tentei manter o controle, mas não consegui." },
+          { "id": "1", "text": "Falhei com as duas. Me sinto mal por isso." },
+          { "id": "3", "text": "A floresta sofreu pelas nossas falhas." }
+        ],
+        "1_2_4": [
+          { "id": "4", "text": "Meus cálculos atrasaram tudo. A situação desandou rápido." },
+          { "id": "2", "text": "Eu tentei conter, mas não deu." },
+          { "id": "1", "text": "Desculpem… não consegui ajudar direito." },
+          { "id": "4", "text": "Voltamos carregando um peso que não vai sumir tão cedo." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "A confusão tomou conta. Nada sincronizou." },
+          { "id": "4", "text": "Eu perdi o ritmo do grupo e isso afetou tudo." },
+          { "id": "1", "text": "Eu senti medo demais. Isso nos derrubou." },
+          { "id": "3", "text": "Não protegemos a floresta e isso ainda ecoa na minha cabeça." }
+        ],
+        "2_3_4": [
+          { "id": "4", "text": "Eu errei a ordem das ações e arrastei todos comigo." },
+          { "id": "3", "text": "As vozes ficaram distantes… como se desaprovassem." },
+          { "id": "2", "text": "Eu só queria ter feito melhor." },
+          { "id": "4", "text": "A falha foi nossa, e dói admitir." }
+        ],
+        "1_2_3_4": [
+          { "id": "4", "text": "Mesmo juntos, não encontramos o equilíbrio necessário." },
+          { "id": "3", "text": "As vozes choraram silêncio. Nunca senti isso antes." },
+          { "id": "2", "text": "Eu me senti perdida. Foi difícil." },
+          { "id": "1", "text": "Sinto muito… todos mereciam mais do que isso." }
+        ]
+      }
+    }
+  },
+  "126": {
+    "success": {
+      "reporters": {
+        "1": { "id": "1", "text": "Recuperei o minério sem causar desmoronos. Foi estranho ver tantos goblins juntos, mas deu tudo certo." },
+        "2": { "id": "2", "text": "Consegui proteger os mineradores e recuperar boa parte do minério. Fiquei orgulhosa de como lidei com a confusão." },
+        "3": { "id": "3", "text": "Recolhi o minério roubado enquanto as vozes discutiam sobre o peso das pedras. No fim, acho que fiz o certo." },
+        "4": { "id": "4", "text": "Capturei o minério e dispersei os goblins. As vibrações das rochas ainda estão ressoando na minha cabeça." }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "1", "text": "Eu segurei a linha da frente enquanto ela recuperava o minério. Funcionou bem." },
+          { "id": "2", "text": "Ela segurou tudo sozinha por alguns instantes. Fiquei impressionada." },
+          { "id": "1", "text": "Os goblins não esperavam que chegássemos tão rápido." },
+          { "id": "2", "text": "Voltamos com o minério intacto e todos em segurança." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "Ela ficou na linha de frente enquanto eu recolhia parte do que foi levado." },
+          { "id": "1", "text": "Ele parecia muito tranquilo mesmo com os goblins gritando." },
+          { "id": "3", "text": "As vozes reclamaram do barulho, mas cooperaram desta vez." },
+          { "id": "1", "text": "Conseguimos o que pediram sem problemas." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "Enquanto ela afastava os goblins, analisei por onde fugir com o minério." },
+          { "id": "1", "text": "Ele parecia entender o terreno melhor do que eu." },
+          { "id": "4", "text": "As pedras pareciam vibrar diferente depois da luta." },
+          { "id": "1", "text": "Voltamos com quase tudo recuperado." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "Ele recolheu o minério enquanto eu cuidava dos corredores estreitos." },
+          { "id": "3", "text": "Ela se moveu rápido demais para os goblins reagirem." },
+          { "id": "2", "text": "Fiquei satisfeita com o que recuperamos." },
+          { "id": "3", "text": "As vozes acharam que fizemos um bom trabalho." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "Ele ficou olhando as rochas enquanto eu resolvia os goblins." },
+          { "id": "4", "text": "Ela foi muito eficiente. Não precisei nem interferir." },
+          { "id": "2", "text": "Encontramos boa parte do minério escondido atrás de uma estrutura improvisada." },
+          { "id": "4", "text": "A vibração das pedras mudou depois disso. Acho que era o peso do minério voltando para casa." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "Ele percebeu caminhos por onde os goblins fugiriam, e isso nos ajudou." },
+          { "id": "4", "text": "As vozes dele estavam agitadas, mas cooperativas." },
+          { "id": "3", "text": "Recuperamos tudo sem muito dano ao local." },
+          { "id": "4", "text": "As rochas ainda tremem na minha memória." }
+        ],
+        "1_2_3": [
+          { "id": "1", "text": "Eu mantive os goblins ocupados enquanto eles recolhiam o minério." },
+          { "id": "2", "text": "Ela segurou tudo com muita firmeza. Impressionante." },
+          { "id": "3", "text": "As vozes ficaram tensas, mas ajudaram a encontrar o que faltava." },
+          { "id": "2", "text": "Voltamos com quase tudo organizado." }
+        ],
+        "1_2_4": [
+          { "id": "1", "text": "Enquanto eu resolvia a briga, eles recolheram o resto do minério." },
+          { "id": "4", "text": "Ela enfrentou vários goblins de uma vez sem hesitar." },
+          { "id": "2", "text": "Foi cansativo, mas deu tudo certo." },
+          { "id": "4", "text": "Saímos de lá com quase tudo recuperado." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "Ela manteve os goblins afastados enquanto investigávamos o que faltava." },
+          { "id": "1", "text": "Eles trabalharam rápido mesmo com a confusão." },
+          { "id": "4", "text": "Encontrei minério escondido sob tábuas improvisadas." },
+          { "id": "3", "text": "As vozes aprovaram o resultado." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "Eu avancei pela lateral enquanto eles lidavam com o restante." },
+          { "id": "4", "text": "Ela foi precisa o tempo todo." },
+          { "id": "3", "text": "Cada saco recuperado parecia aliviar um pouco da tensão das vozes." },
+          { "id": "2", "text": "Tivemos um bom resultado no fim das contas." }
+        ],
+        "1_2_3_4": [
+          { "id": "1", "text": "Segurei a linha de frente para eles trabalharem tranquilos." },
+          { "id": "2", "text": "Ela lidou com a confusão com uma calma que eu não teria." },
+          { "id": "3", "text": "As vozes aprovaram a organização do grupo." },
+          { "id": "4", "text": "Recuperamos quase tudo sem grandes danos." }
+        ]
+      }
+    },
+    "failure": {
+      "reporters": {
+        "1": { "id": "1", "text": "Não consegui impedir os goblins. Eles escaparam com parte do minério, e os mineradores ficaram assustados comigo lá dentro." },
+        "2": { "id": "2", "text": "Tentei fazer tudo certo, mas falhei em proteger o minério. Voltei frustrada comigo mesma." },
+        "3": { "id": "3", "text": "As vozes não entraram em acordo e isso atrapalhou. Perdemos minério demais." },
+        "4": { "id": "4", "text": "Calculei mal a movimentação dos goblins. Eles fugiram levando muito do que devíamos recuperar." }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "1", "text": "Eu não consegui impedir que eles escapassem." },
+          { "id": "2", "text": "Tentei recuperar o que pude, mas faltou coordenação nossa." },
+          { "id": "1", "text": "Os goblins foram rápidos demais." },
+          { "id": "2", "text": "Voltamos de mãos quase vazias." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "As vozes se confundiram e atrapalharam a busca." },
+          { "id": "1", "text": "Eu falhei em segurar a linha de frente." },
+          { "id": "3", "text": "Muito minério se perdeu." },
+          { "id": "1", "text": "Voltamos sem cumprir o objetivo." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "Calculei errado o tempo de reação dos goblins." },
+          { "id": "1", "text": "Eu não consegui impedir a fuga deles." },
+          { "id": "4", "text": "Muito do minério foi levado." },
+          { "id": "1", "text": "Não foi o resultado que queríamos." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "Fomos lentos para reagir à movimentação deles." },
+          { "id": "3", "text": "As vozes ficaram agitadas e me deixaram inseguro." },
+          { "id": "2", "text": "Eles escaparam com quase tudo." },
+          { "id": "3", "text": "O resultado foi bem pior do que esperávamos." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "Os goblins se espalharam antes que conseguíssemos impedir." },
+          { "id": "4", "text": "Eu estava tentando entender por onde eles vinham e falhei." },
+          { "id": "2", "text": "Perdemos muito minério." },
+          { "id": "4", "text": "Foi um retorno difícil." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "As vozes discordaram e isso atrasou tudo." },
+          { "id": "4", "text": "Eu também me perdi nos cálculos." },
+          { "id": "3", "text": "Os goblins se dispersaram com os sacos." },
+          { "id": "4", "text": "Falhamos completamente." }
+        ],
+        "1_2_3": [
+          { "id": "1", "text": "Não consegui manter os goblins ocupados." },
+          { "id": "2", "text": "Eu me perdi tentando acompanhar tudo." },
+          { "id": "3", "text": "As vozes não ajudaram e perdi o foco." },
+          { "id": "2", "text": "Perdemos mais minério do que recuperamos." }
+        ],
+        "1_2_4": [
+          { "id": "1", "text": "Eu falhei em conter o avanço deles." },
+          { "id": "4", "text": "Os cálculos ficaram confusos no meio do caos." },
+          { "id": "2", "text": "Eles correram para direções que não previmos." },
+          { "id": "1", "text": "O retorno foi bem amargo." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "As vozes ficaram agitadas demais." },
+          { "id": "4", "text": "Eu me perdi acompanhando os caminhos deles." },
+          { "id": "1", "text": "Não consegui impedir a fuga." },
+          { "id": "3", "text": "Foi um fracasso para nós três." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "Tentei ser rápida, mas eles já estavam longe." },
+          { "id": "3", "text": "As vozes atrapalharam minha concentração." },
+          { "id": "4", "text": "Os goblins escaparam por rotas que não previmos." },
+          { "id": "2", "text": "Fomos incapazes de proteger o que devíamos." }
+        ],
+        "1_2_3_4": [
+          { "id": "1", "text": "Eu não consegui conter todos." },
+          { "id": "2", "text": "Foi difícil coordenar tudo ao mesmo tempo." },
+          { "id": "3", "text": "As vozes ficaram muito caóticas." },
+          { "id": "4", "text": "Voltamos sem cumprir o esperado." }
+        ]
+      }
+    }
+  },
+  "127": {
+    "success": {
+      "reporters": {
+        "1": { "id": "1", "text": "Eu fui avançando pelos túneis, batendo nos goblins que apareciam. Quando chegamos naquela sala enorme… desculpa… só achei melhor voltar antes que alguém se machucasse de verdade." },
+        "2": { "id": "2", "text": "Passei pelos túneis desviando dos ataques e ajudando como pude. Quando vimos aquele goblin gigante com magos fazendo um ritual, achei sensato recuar. Não venceríamos do jeito que estávamos." },
+        "3": { "id": "3", "text": "Os túneis apertados sussurravam comigo enquanto eu avançava. Vi o gigante e os magos canalizando algo sombrio. As vozes pediram prudência. Então eu recuei." },
+        "4": { "id": "4", "text": "Calculei cada curva dos túneis e neutralizei o que pude. Quando encontrei aquele ritual… meu foco já estava no limite. Foi melhor recuar e preparar uma resposta adequada." }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "A Lyra limpou o caminho com uma facilidade que até assustou os goblins. No fim, quando vimos o monstro enorme com os magos, concordamos em voltar. Seria burrice continuar." },
+          { "id": "1", "text": "A Elara falou que era melhor voltar. Ela tinha razão. Eu… eu achei o lugar bem assustador." },
+          { "id": "2", "text": "Ela até ficou vermelha quando falei que salvou meu pescoço umas três vezes. Mas é verdade." },
+          { "id": "1", "text": "Não precisava comentar isso… mas obrigada. Vamos voltar melhor preparados." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "A força da Lyra abriu caminho como um sino sagrado abrindo o céu. Mesmo assim, o gigante e os magos pediam outra estratégia." },
+          { "id": "1", "text": "Eu só fiz o que precisava… mas quando o Kael disse que algo “despertava”, eu achei melhor recuar." },
+          { "id": "3", "text": "As vozes falaram para poupar forças. O ritual ecoava como um prelúdio de guerra." },
+          { "id": "1", "text": "Então concordamos em voltar. Ninguém venceria daquele jeito." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "A Lyra praticamente abriu corredores novos nos túneis. Impressionante… e útil." },
+          { "id": "1", "text": "Eu… não exagerei tanto… acho." },
+          { "id": "4", "text": "Quando vimos o chefe enorme com magos canalizando energia, ficou claro que aquilo exigia outro plano." },
+          { "id": "1", "text": "Sim. A gente volta e resolve isso direito." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "Fomos desviando dos ataques nos corredores. Quando vimos o ritual, recuar foi a única escolha lógica." },
+          { "id": "3", "text": "O gigante pulsava como um sino profano. As vozes gritaram para sair." },
+          { "id": "2", "text": "Eu só concordei. Não tínhamos chance naquele estado." },
+          { "id": "3", "text": "Voltamos com a sensação de que o pior ainda vai nascer dali." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "Passei pelos túneis me esquivando enquanto o Leo ia calculando tudo como louco." },
+          { "id": "4", "text": "Os padrões de defesa goblin eram péssimos… até chegarmos na sala final." },
+          { "id": "2", "text": "Aquele goblin enorme e os magos deixavam claro que lutar ali seria suicídio." },
+          { "id": "4", "text": "Sim. Recuar foi a variável correta." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "Os túneis sussurravam coisas sobre vigilância e fome. O Leo não parecia ouvir nada, só murmurava cálculos." },
+          { "id": "4", "text": "Eu estava analisando o fluxo do ritual. Era… perigoso demais para atacar agora." },
+          { "id": "3", "text": "As vozes pediram para voltar. Elas raramente pedem algo tão claramente." },
+          { "id": "4", "text": "Concordei. A chance de sucesso era baixa demais naquele momento." }
+        ],
+        "1_2_3": [
+          { "id": "1", "text": "Quando chegamos ao salão final, minhas pernas tremiam mais do que minha espada. Depois de tantas lutas no caminho, eu sabia que não ia durar muito se encarasse aquele goblin enorme. Fui eu quem disse que era melhor recuar." },
+          { "id": "2", "text": "Concordei na hora. Eu já estava com o braço ardendo de tanto aparar golpes nos túneis. E aqueles goblins magos lá na frente... sinceramente, ia acabar mal se insistíssemos." },
+          { "id": "3", "text": "As vozes já sussurravam que aquele ritual teria um preço que não queríamos pagar naquele estado. Então segurei meu símbolo e falei que era sabedoria voltar antes que a caverna fosse o nosso túmulo." },
+          { "id": "1", "text": "Foi estranho admitir, mas recuar foi o primeiro momento que me pareceu realmente corajoso naquele dia. Voltamos vivos para tentar de novo com a cabeça fria." }
+        ],
+        "1_2_4": [
+          { "id": "1", "text": "Eu já estava exausta quando vimos o goblin gigante e os magos. Minha mão mal fechava direito no cabo da espada. Se eu avançasse daquele jeito, ia cair no primeiro golpe." },
+          { "id": "2", "text": "Eu senti na hora que estávamos por um fio. Aquele grupo lá na frente não era para enfrentar depois de atravessar túnel por túnel brigando. Eu mesma falei que era melhor recuar." },
+          { "id": "4", "text": "E, avaliando a formação deles, era óbvio que entrar assim seria suicídio. Voltar para reagrupar foi a única decisão razoável. Mesmo que meu cérebro ainda estivesse focado nos feitiços que queria testar..." },
+          { "id": "1", "text": "Dói admitir quando não dá. Mas pelo menos voltamos todos inteiros para tentar de novo depois." }
+        ],
+
+        "1_3_4": [
+          { "id": "1", "text": "Eu não tinha mais força para levantar a espada direito quando vimos aquele goblin enorme. E depois de enfrentar cada corredor apertado... não ia dar conta de mais uma batalha assim." },
+          { "id": "3", "text": "As vozes me avisaram antes mesmo de eu perceber: se déssemos mais um passo, não voltaríamos. Aqueles magos estavam canalizando algo que não devíamos ver de perto naquele estado." },
+          { "id": "4", "text": "E, pela lógica pura, nossa chance de vitória ali era praticamente nula. A energia deles estava alta e a nossa, totalmente gasta. Voltar foi matemática simples." },
+          { "id": "1", "text": "Então fomos. Não com orgulho, mas com o alívio de que não seria o fim de ninguém ali." }
+        ],
+
+        "2_3_4": [
+          { "id": "2", "text": "Eu nunca tinha visto um goblin tão grande. E depois de avançar por aqueles túneis estreitos contra grupos e mais grupos, eu sabia que não ia dar para continuar lutando." },
+          { "id": "3", "text": "O ritual no fim do salão estava pulsando como um aviso. As vozes falavam que a derrota viria rápido se insistíssemos. Eu insisti para que recuássemos." },
+          { "id": "4", "text": "Eu só confirmei. Pela análise, nosso condicionamento físico e mágico estava no limite, e eles tinham vantagem posicional. Se atacássemos, cairíamos." },
+          { "id": "2", "text": "Voltamos para a entrada com a sensação de pendência, mas sabendo que pelo menos ainda podíamos respirar." }
+        ],
+        "1_2_3_4": [
+          { "id": "1", "text": "Mesmo com todos juntos, eu senti na hora que não ia conseguir segurar aquele goblin enorme. Minha força já estava no limite depois de cada corredor da caverna." },
+          { "id": "2", "text": "E por mais que estivéssemos em quatro, eu percebi como cada um estava exausto. Aquele ritual dos magos era algo para enfrentar descansado, não meio caída." },
+          { "id": "3", "text": "As vozes não paravam de repetir que seguir seria escolher a morte. Eu não discuti. Só pedi que déssemos meia-volta." },
+          { "id": "4", "text": "E, racionalmente, concordei. Não havia nenhuma chance real de vitória naquele momento. Recuar foi o único plano sensato." }
+        ]
+      }
+    },
+
+    "failure": {
+      "reporters": {
+        "1": { "id": "1", "text": "Os túneis eram estreitos demais. Os goblins cercaram tudo. Eu tentei, juro… mas voltamos antes de chegar a qualquer sala maior." },
+        "2": { "id": "2", "text": "Fiz o possível para guiar a rota, mas os goblins conheciam cada curva. Não cheguei longe o bastante. Foi frustrante." },
+        "3": { "id": "3", "text": "Os corredores gritavam antes mesmo dos goblins aparecerem. Recuar cedo foi amargo, mas necessário." },
+        "4": { "id": "4", "text": "As emboscadas eram densas demais para meu foco manter controle. A retirada precoce foi a única solução lógica." }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "A Lyra tentou segurar tudo, mas os goblins vinham de todos os lados. Não conseguimos avançar." },
+          { "id": "1", "text": "Desculpa… eu falhei em abrir caminho." },
+          { "id": "2", "text": "Você não falhou. Só não tínhamos espaço para lutar." },
+          { "id": "1", "text": "Vamos voltar quando eu puder avançar sem prender o braço em cada parede." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "As vozes estavam aflitas antes mesmo dos goblins atacarem. E estavam certas… não chegamos longe." },
+          { "id": "1", "text": "Eu tentei segurar eles, mas era como brigar dentro de um buraco." },
+          { "id": "3", "text": "A retirada foi feia, mas justa." },
+          { "id": "1", "text": "Prometo que da próxima vez eu abro caminho." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "As emboscadas nos túneis superaram qualquer cálculo que fiz. Foi impossível avançar." },
+          { "id": "1", "text": "Eu tentei empurrar eles para trás, mas não deu. Sinto muito." },
+          { "id": "4", "text": "Não é culpa sua. O terreno não favorecia nenhum movimento." },
+          { "id": "1", "text": "Vamos voltar mais fortes." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "Os túneis eram um labirinto controlado pelos goblins. Não conseguimos passar." },
+          { "id": "3", "text": "As vozes só gritavam retirada… e eu obedeci." },
+          { "id": "2", "text": "Foi frustrante, mas era isso ou ficar preso lá." },
+          { "id": "3", "text": "Voltaremos com mais luz e menos medo." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "A progressão foi curta. As emboscadas apertaram demais." },
+          { "id": "4", "text": "Meu foco quebrou no terceiro ataque simultâneo." },
+          { "id": "2", "text": "Recuamos antes que algo pior acontecesse." },
+          { "id": "4", "text": "Precisamos de outra abordagem." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "As vozes estavam inquietas… e quando os goblins atacaram, entendi o motivo." },
+          { "id": "4", "text": "Meu cálculo de risco estourou. Zero chance de avançar." },
+          { "id": "3", "text": "A retirada foi a única saída." },
+          { "id": "4", "text": "Com mais preparo, talvez." }
+        ],
+        "1_2_3": [
+          { "id": "1", "text": "Eu não consegui segurar o goblin gigante nem por um instante. Minha força não respondeu. Foi como bater em pedra com os braços moles." },
+          { "id": "2", "text": "Eu tentei acertar um dos magos, mas minha pontaria estava destruída depois de tanto combate. A flecha desviou feio." },
+          { "id": "3", "text": "As vozes se calaram quando tudo começou a dar errado. Não havia mais orientação… só medo." },
+          { "id": "1", "text": "Saímos vivos por pouco. Não posso chamar isso de outra coisa além de falha." }
+        ],
+        "1_2_4": [
+          { "id": "1", "text": "Eu avancei, mesmo cansada, mas o goblin gigante me jogou no chão como se eu não fosse nada. Nunca me senti tão fraca." },
+          { "id": "2", "text": "Eu puxei a Lyra e gritei para recuarmos quando vi que os magos estavam concentrando energia. Não dava mais." },
+          { "id": "4", "text": "Eu tentei pensar rápido, procurar alguma vantagem… mas minha mente estava dispersa demais. Nenhuma estratégia funcionaria naquele momento." },
+          { "id": "1", "text": "Falhamos. E doeu perceber isso enquanto corríamos pelos túneis." }
+        ],
+        "1_3_4": [
+          { "id": "1", "text": "Eu ataquei o goblin gigante, mas meu braço cedeu no meio do golpe. Senti o impacto dele no meu peito e perdi o ar." },
+          { "id": "3", "text": "Eu vi você cair e minha oração se quebrou na garganta. As vozes desapareceram. Só restou o pânico." },
+          { "id": "4", "text": "Eu tentei puxar vocês dois, mas minhas costas queimavam. A única opção era fugir." },
+          { "id": "1", "text": "Voltamos derrotados. Não consigo dizer outra coisa." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "Tentei acertar o goblin gigante, mas minhas pernas falharam. A lâmina raspou no chão. Foi vergonhoso." },
+          { "id": "3", "text": "Eu tentei conjurar proteção, mas nada saiu. Estávamos drenados." },
+          { "id": "4", "text": "Calculei em segundos: continuar significava morrer. Recuamos porque não havia outra escolha." },
+          { "id": "2", "text": "Só espero que a guilda entenda que… não dava mesmo." }
+        ],
+        "1_2_3_4": [
+          { "id": "1", "text": "Mesmo juntos, não conseguimos romper a defesa deles. O goblin gigante me derrubou na primeira troca." },
+          { "id": "2", "text": "Eu tentei proteger o flanco, mas minhas mãos escorregavam de suor. Nada encaixava mais." },
+          { "id": "3", "text": "As vozes gritavam para sair dali. Não tive coragem de ignorar." },
+          { "id": "4", "text": "Falhamos como grupo. Voltamos porque era isso ou nunca voltar." }
+        ]
+      }
+    }
+  },
+  "128": {
+    "success": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "Eu entrei na câmara achando que ia travar como sempre, mas… quando o campeão goblin correu para cima de mim, meu corpo decidiu sozinho. Eu derrubei ele no chão com um golpe só. Os magos tentaram me acertar com luz verde, e eu… eu parti os focos de magia no meio antes de pensar. Eles fugiram quando perceberam que eu não ia parar. Eu só… queria sair logo de lá."
+        },
+        "2": {
+          "id": "2",
+          "text": "Eu não deveria admitir isso, mas foi assustador ver aquele goblin enorme segurando uma clava maior que eu. Eu disse isso na cara dele enquanto desviava, e acho que isso o deixou confuso. Passei entre os magos goblin, cortei os fios do ritual e eles ficaram desnorteados. Consegui achar uma falha na defesa do campeão e atingi o ponto certo. Ele caiu com um ruído horrível. Eu fiz tudo dentro das regras… do jeito mais honesto possível."
+        },
+        "3": {
+          "id": "3",
+          "text": "A câmara vibrava. Vozes me disseram que o guerreiro ali não era apenas carne, mas orgulho e ira condensados. O campeão avançou, e quando ergui o símbolo sagrado, ele hesitou por um instante que parecia uma eternidade. Golpes vieram de todas as direções, mas algo manteve minha mão firme. As vozes guiaram minha prece para cortar o ritual dos magos e, quando o selo deles rompeu, o campeão desabou como se seu espírito tivesse sido drenado."
+        },
+        "4": {
+          "id": "4",
+          "text": "Quando vi o campeão goblin, entendi imediatamente: massa corporal para condução, músculos grossos para armazenar energia… era perfeito para testar uma descarga potente. Os magos tentaram interromper minha preparação, mas eu já tinha calculado o arco. A descarga atravessou o campeão como uma rede elétrica improvisada, cancelou o ritual e atordoou todo mundo. Eu precisava registrar cada detalhe, mas a fumaça me atrapalhou um pouco."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "A Lyra partiu para cima do campeão como se tivesse sido puxada por um ímã gigante. Ela ficou toda vermelha quando elogiei, mas foi ela quem quebrou a defesa dele para mim entrar. Cortei o círculo dos magos enquanto ela segurava tudo sozinha." },
+          { "id": "1", "text": "A Elara encontrou uma abertura bem pequena e eu só… segui. Ela acertou os magos rápido demais e fiquei com o campeão me esperando. Eu empurrei ele contra a parede e não deixei levantar. A Elara disse que foi impressionante. Eu fingi que não ouvi." },
+          { "id": "2", "text": "Quando o campeão tentou escapar, eu falei exatamente onde ele ia pisar. A Lyra esmagou o passo dele antes mesmo dele terminar o movimento. Eu só precisei acertar o golpe final." },
+          { "id": "1", "text": "Eu ainda acho que a Elara exagera quando diz que eu 'parti um goblin gigante ao meio'. Não foi assim. Eu só… acertei mais forte que o necessário. Mas funcionou." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "A Lyra avançou como um trovão silencioso quando as vozes avisaram que a ira do campeão estava prestes a explodir. Ela segurou tudo enquanto eu desfiz o fluxo mágico do ritual." },
+          { "id": "1", "text": "O Kael disse que as vozes estavam 'apontando para mim', o que me deixou um pouco nervosa. Mas funcionou. Eu consegui segurar o campeão enquanto ele desfazia a magia dos magos." },
+          { "id": "3", "text": "A queda do campeão sacudiu a câmara. As vozes disseram que a força da Lyra era um ferrolho divino. Eu só aceitei e usei isso para encerrar o ritual." },
+          { "id": "1", "text": "Quando tudo acabou, o Kael parecia esgotado. Eu carreguei ele um pouco até a saída. Ele disse que foi 'um gesto guiado', mas eu só queria tirar todo mundo dali." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "A estrutura física do campeão era perfeita para minhas descargas, e a Lyra abriu o caminho direto até ele. De perto, ela parecia uma muralha em movimento." },
+          { "id": "1", "text": "O Leonardo fez faíscas demais, mas eu tentei acompanhar. Eu empurrei o campeão para dentro do raio dele. Ele parecia feliz demais com isso." },
+          { "id": "4", "text": "Quando a Lyra ergueu o campeão do chão, mesmo que por um instante, eu consegui calcular o ângulo exato. Foi lindo. A descarga atravessou tudo que precisava." },
+          { "id": "1", "text": "O Leonardo disse que queria repetir o experimento. Eu disse que não. E ele ficou anotando mesmo assim." }
+        ],
+        "2_3": [
+          { "id": "3", "text": "A Elara cortou o ritual tão rápido que as vozes ficaram em silêncio — como se admirassem. O campeão cambaleou, e aproveitamos isso juntos." },
+          { "id": "2", "text": "O Kael ficou murmurando coisas que eu não entendi, mas ele apontou exatamente onde eu precisava atacar. Nunca vi um goblin daquele tamanho cair tão rápido." },
+          { "id": "3", "text": "A lâmina da Elara parecia guiada. As vozes disseram que ela caminhava no 'único fio verdadeiro'. Eu só confirmei com uma prece." },
+          { "id": "2", "text": "Quando terminamos, o Kael disse que a câmara estava 'respirando de novo'. Eu não senti nada disso, mas fiquei feliz por ele." }
+        ],
+        "2_4": [
+          { "id": "4", "text": "A Elara me avisou quando os magos iam lançar magia, e eu consegui ajustar minhas descargas com precisão absurda. Ela enfiou a adaga no ponto certo enquanto eu distraía todos." },
+          { "id": "2", "text": "O Leonardo quase acertou um raio em mim, mas ele avisou antes… do jeito dele. No fim, funcionou. O campeão caiu queimado por dentro." },
+          { "id": "4", "text": "A Elara foi essencial. Cada vez que eu ia errar o cálculo, ela apontava um detalhe que eu não tinha visto. Eu preciso dela em testes futuros." },
+          { "id": "2", "text": "O Leonardo ficou animado com o cheiro de queimado. Eu preferi não comentar." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "O Leonardo abriu o combate com tanta luz que as vozes se calaram. Usei esse silêncio para quebrar o ritual dos magos e o campeão ficou vulnerável." },
+          { "id": "4", "text": "O Kael disse que o campeão 'tremeu no espírito' antes de cair. Eu só vi ele tomar um raio e desabar. Mas respeito o processo." },
+          { "id": "3", "text": "Quando a descarga dele atravessou o campeão, senti algo romper na câmara. As vozes aprovaram." },
+          { "id": "4", "text": "Eu queria medir tudo, mas o Kael me puxou dizendo que a 'sombra estava inquieta'. Ele tem um timing assustador." }
+        ],
+        "1_2_3": [
+          { "id": "2", "text": "A Lyra abriu o caminho, eu marquei os pontos fracos e o Kael dissolveu o ritual. Parecia tudo encaixar perfeitamente." },
+          { "id": "3", "text": "As vozes estavam agitadas quando a Lyra golpeou o campeão. A Elara cortou o fio exato que elas mostraram." },
+          { "id": "1", "text": "Eu só segui as duas. Elas sempre entendem o que fazer. Quando vi, o campeão já estava no chão." },
+          { "id": "2", "text": "A parte mais estranha foi o Kael agradecer à câmara quando terminou. Mas funcionou." }
+        ],
+        "1_2_4": [
+          { "id": "2", "text": "A Lyra segurou o campeão enquanto o Leonardo preparava uma descarga enorme. Eu cortei os magos antes que reagissem." },
+          { "id": "4", "text": "O corpo do campeão conduziu tanta energia que eu precisei anotar mentalmente tudo. A Lyra foi essencial para mantê-lo parado." },
+          { "id": "1", "text": "Eu fiz força demais de novo… desculpa. Mas segurou ele no lugar." },
+          { "id": "2", "text": "Quando tudo acabou, o Leonardo sorriu de um jeito que me deu medo." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "A descarga do Leonardo iluminou tudo. A Lyra avançou e abriu o peito do campeão. Foi… intenso." },
+          { "id": "4", "text": "A Lyra é o melhor suporte físico que um mago poderia pedir. O Kael completou o resto com precisão assustadora." },
+          { "id": "1", "text": "Eu não gosto quando a luz é forte assim, mas aproveitei o momento para finalizar os magos." },
+          { "id": "3", "text": "Quando o campeão caiu, senti as vozes suspirarem. Foi estranho, mas bom." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "O Kael apontou onde o ritual estava preso, o Leonardo explodiu tudo e eu finalizei o campeão com um ataque preciso." },
+          { "id": "3", "text": "As vozes ficaram… calmas. A Elara mostrou o ponto certo, e Leonardo abriu espaço com trovões." },
+          { "id": "4", "text": "Quando o campeão caiu, eu queria medir a energia, mas a caverna estava instável demais. Precisamos voltar." },
+          { "id": "2", "text": "Foi uma luta feia, mas vencemos do jeito mais limpo possível." }
+        ],
+        "1_2_3_4": [
+          { "id": "2", "text": "A Lyra abriu o caminho, o Kael segurou a magia, o Leonardo explodiu o ritual e eu finalizei o campeão. Nunca lutamos tão bem juntos." },
+          { "id": "3", "text": "As vozes celebraram quando a harmonia se formou entre nós. O campeão não teve chance." },
+          { "id": "4", "text": "O corpo dele conduziu a energia perfeitamente. Preciso registrar tudo num relatório separado." },
+          { "id": "1", "text": "Só fiquei feliz que todo mundo saiu vivo… e que ninguém me pediu para explicar como quebrei aquela clava." }
+        ]
+      }
+    },
+    "failure": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "Eu tentei segurar o campeão goblin, mas ele não recuava nem quando eu acertei com tudo. Os magos reforçaram o ritual e as paredes começaram a tremer. Eu… eu não consegui manter ninguém seguro. Recuar foi a única escolha."
+        },
+        "2": {
+          "id": "2",
+          "text": "Eu fiz tudo certo, tudo limpo, tudo no tempo, mas o campeão era rápido demais e os magos não paravam de fortalecer ele. A câmara ficou instável. Se continuássemos, alguém ia morrer. Eu decidi sair e… dói admitir isso."
+        },
+        "3": {
+          "id": "3",
+          "text": "As vozes ficaram agitadas, dizendo que a câmara queria nos esmagar junto do ritual. Eu tentei interromper, mas o campeão avançou como se fosse parte do próprio lugar. Senti que continuar seria me entregar ao chão. Recuar foi a única saída."
+        },
+        "4": {
+          "id": "4",
+          "text": "Eu calculei vários cenários, todos ruins. O campeão absorvia parte das descargas dos magos, e minha magia só alimentava o campo deles. Se insistíssemos, seríamos vencidos por saturação. Retirada era matematicamente a melhor opção."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "A Lyra segurou o campeão o quanto conseguiu, mas ele não cedia. Eu tentei achar espaço para atacar, mas os magos controlavam tudo. Saímos antes de sermos cercadas." },
+          { "id": "1", "text": "A Elara disse que eu não devia me culpar, mas… eu senti que falhei quando o campeão me empurrou de volta para o corredor." },
+          { "id": "2", "text": "Quando os rituais escureceram o chão, eu puxei a Lyra. Se ficássemos, a câmara teria fechado em nós." },
+          { "id": "1", "text": "Eu ainda ouço os magos rindo. Quero voltar lá… mas não agora." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "A Lyra tentou impedir o campeão, mas o ritual crescia em volta dele. As vozes gritavam para recuar antes de sermos enterrados." },
+          { "id": "1", "text": "O Kael ficou pálido quando viu as runas brilharem. Eu segurei o campeão, mas ele ficou mais forte do que antes. Tive medo de perder o Kael ali." },
+          { "id": "3", "text": "Quando a câmara pulsou, eu senti a força dele dobrar. Não havia como vencer naquele momento." },
+          { "id": "1", "text": "Eu puxei o Kael e só corremos. Não consegui nem olhar para trás." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "A Lyra tentou segurar o campeão, mas cada golpe parecia deixá-lo mais resistente. Meus cálculos não fechavam mais." },
+          { "id": "1", "text": "O Leonardo tentava achar uma forma de acertar o campeão, mas os magos desviavam tudo. Eu não consegui manter ele longe de nós." },
+          { "id": "4", "text": "O campo mágico da câmara estava distorcendo as descargas. Eu não tinha mais controle. Tive que pedir a retirada." },
+          { "id": "1", "text": "Eu saí carregando o Leonardo porque ele ficou tonto com a luz. Foi… feio." }
+        ],
+        "2_3": [
+          { "id": "3", "text": "A Elara cortou várias runas, mas o ritual continuou. As vozes diziam que a câmara estava tomada." },
+          { "id": "2", "text": "Tentei ser precisa, mas o campeão defendia tudo com a clava. E quando os magos reforçaram ele, ficou impossível." },
+          { "id": "3", "text": "Quando senti a parede estremecer, puxei a Elara. Se ficássemos, não haveria saída." },
+          { "id": "2", "text": "Foi a primeira vez que tive medo de não dar tempo. Não gosto de admitir isso." }
+        ],
+        "2_4": [
+          { "id": "4", "text": "A Elara achou várias aberturas, mas o campeão cobria todas com força bruta. Eu não conseguia projetar um ataque viável." },
+          { "id": "2", "text": "O Leonardo avisou que as descargas estavam reagindo errado. Quando o chão brilhou, decidi sair. Aquele lugar ia nos matar." },
+          { "id": "4", "text": "Recuar foi lógico. Se eu continuasse tentando conjurar ali, ia causar um colapso na estrutura." },
+          { "id": "2", "text": "Só espero que os magos não terminem esse ritual antes de voltarmos." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "As vozes ficaram desordenadas quando o campeão avançou. Eu tentei usar o símbolo, mas as runas apagaram a luz sagrada." },
+          { "id": "4", "text": "Minhas descargas falharam três vezes seguidas. O campeão absorvia tudo. Era insustentável continuar." },
+          { "id": "3", "text": "Quando a vibração aumentou, eu tive certeza de que a câmara ia nos engolir. Pedi para recuar." },
+          { "id": "4", "text": "Nunca vi magia reagir daquele jeito. Foi… desconfortável." }
+        ],
+        "1_2_3": [
+          { "id": "2", "text": "A Lyra segurou o campeão, o Kael tentou bloquear o ritual, e mesmo assim perdemos terreno rápido demais." },
+          { "id": "3", "text": "As vozes gritavam que o chão ia romper. Eu não podia continuar." },
+          { "id": "1", "text": "Quando o campeão me empurrou, percebi que não conseguiria proteger ninguém ali dentro." },
+          { "id": "2", "text": "Sair não foi covardia. Foi sobrevivência." }
+        ],
+        "1_2_4": [
+          { "id": "2", "text": "A Lyra deu tudo o que tinha, mas os magos não paravam. O Leonardo quase caiu quando o ritual explodiu." },
+          { "id": "4", "text": "A descarga reverteu no meio do ar. Nunca vi isso. Era perigoso demais." },
+          { "id": "1", "text": "Eu tentei avançar, mas era como bater em pedra viva. Tive que aceitar que não dava." },
+          { "id": "2", "text": "Quando recuamos, eu só fiquei rezando para conseguir voltar logo." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "A Lyra lutou até o último instante, mas o campeão parecia se alimentar da câmara." },
+          { "id": "4", "text": "Todas as minhas leituras estavam erradas. Era como se a magia ali fosse… invertida." },
+          { "id": "1", "text": "Eu tentei empurrar o campeão, mas ele ficou mais forte. Tive medo de ficar para trás." },
+          { "id": "3", "text": "Retirada foi a única forma de preservar algo para a próxima luta." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "Eu cortei tudo que consegui, mas os magos reforçavam o campeão sem parar." },
+          { "id": "3", "text": "As vozes diziam que a derrota era certa se continuássemos." },
+          { "id": "4", "text": "Nada funcionava. Tudo saturava. Retirada era inevitável." },
+          { "id": "2", "text": "O pior foi ver que o campeão nem parecia cansado." }
+        ],
+        "1_2_3_4": [
+          { "id": "2", "text": "Demos tudo. Mesmo juntos, não foi suficiente. O campeão não cedia e os magos controlavam tudo." },
+          { "id": "3", "text": "A câmara pulsava como um coração doente. Ela queria nos engolir." },
+          { "id": "4", "text": "Meus cálculos falharam todos. Isso nunca tinha acontecido." },
+          { "id": "1", "text": "Eu só queria tirar todo mundo vivo dali. Foi a única coisa que consegui fazer direito." }
+        ]
+      }
+    }
+  },
+  "129": {
+    "success": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "Eu consegui parar o campeão antes dele alcançar a estrada final. Ele quase atravessou meu bloqueio… quase. Precisei usar cada gota de força que tinha. Acho que ainda estou tremendo."
+        },
+        "2": {
+          "id": "2",
+          "text": "A gente alcançou o grupo no limite. Não havia espaço para erro, e eu juro que o campeão já conseguia ver as muralhas. Fiz o que pude para derrubar os magos antes que a magia deles se soltasse. Foi por pouco."
+        },
+        "3": {
+          "id": "3",
+          "text": "As vozes gritavam que ele estava perto demais da cidade. Corri para cortar a linha dos magos, e a energia deles estourou como vidro rachado. O campeão caiu logo depois. Sinto que escapamos de algo grande."
+        },
+        "4": {
+          "id": "4",
+          "text": "Calculei os ataques, ajustei minhas descargas, e mesmo assim ele só caiu quando as pernas finalmente cederam sob o impacto. Os magos quase conseguiram reforçá-lo outra vez. Foi uma vitória apertada… demais."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "A Lyra segurou o campeão no peito, e eu cortei o caminho dos magos. Eles tentaram reforçar ele, mas nunca tiveram tempo suficiente." },
+          { "id": "1", "text": "A Elara foi rápida demais. Ela atingiu dois magos antes que eu pisasse no chão. Sem ela, eu não teria aguentado o avanço." },
+          { "id": "2", "text": "Quando o campeão avançou de novo, eu achei que ele ia nos atropelar. Mas a Lyra firmou os pés e manteve ele lá… nem sei como." },
+          { "id": "1", "text": "Eu só… empurrei até ele tombar. Não tinha mais nada em mim quando acabou." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "A Lyra correu direto para o campeão, e eu tentei silenciar os magos. As vozes diziam que o tempo era curto demais." },
+          { "id": "1", "text": "O Kael quebrou a concentração dos magos no momento certo. Se ele não tivesse feito isso, o campeão teria me tirado da estrada." },
+          { "id": "3", "text": "Quando o campeão vacilou, eu pedi às vozes clareza. Elas guiaram minha mão para impedir o último reforço." },
+          { "id": "1", "text": "Eu estava no limite. O Kael manteve tudo sob controle quando eu já não conseguia pensar direito." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "A Lyra segurou o campeão enquanto eu tentava desestabilizar os magos. Eles quase conseguiram conjurar outra onda." },
+          { "id": "1", "text": "O Leonardo acertou um raio que fez o campeão tropeçar. Foi ali que consegui derrubá-lo." },
+          { "id": "4", "text": "Minha magia estava começando a aquecer demais. Um pouco mais e teria perdido o controle da descarga." },
+          { "id": "1", "text": "Eu só lembro do chão vibrando quando acertei o último golpe. Parecia que ele nunca ia cair." }
+        ],
+        "2_3": [
+          { "id": "3", "text": "A Elara derrubou o primeiro mago antes que eu terminasse a bênção. Isso nos salvou." },
+          { "id": "2", "text": "O campeão quase me atingiu quando desviou da investida. Eu só escapei porque o Kael puxou ele com uma oração." },
+          { "id": "3", "text": "Quando os magos tentaram reforçar o campeão novamente, eu ouvi as vozes murmurando perigo. Interrompi o ritual por reflexo." },
+          { "id": "2", "text": "A gente correu contra o tempo. Se tivéssemos chegado um minuto depois, ele já estaria no portão principal." }
+        ],
+        "2_4": [
+          { "id": "4", "text": "Eu calculei que o campeão chegaria às muralhas em menos de dez minutos. A Elara avançou antes que eu terminasse a contagem." },
+          { "id": "2", "text": "Os magos tentaram me cercar, mas o Leonardo interrompeu um deles com um raio tão forte que até eu senti o impacto." },
+          { "id": "4", "text": "O reforço mágico deles colapsou quando o terceiro mago caiu. A partir daí, conseguimos pressionar o campeão juntos." },
+          { "id": "2", "text": "No fim, ele desabou no chão como uma árvore. Eu não sabia se ria ou chorava." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "As vozes avisaram que os magos estavam sincronizados demais. O Leonardo rompeu isso com precisão impressionante." },
+          { "id": "4", "text": "O campeão quase passou direto por nós. Kael o desviou com um gesto que nem deveria ser possível." },
+          { "id": "3", "text": "Quando ele recuou um passo, entendi que era a nossa chance. Pressionei com tudo o que tinha." },
+          { "id": "4", "text": "Ele caiu a metros da estrada final. Foi… assustador pensar no que teria acontecido se chegássemos mais tarde." }
+        ],
+        "1_2_3": [
+          { "id": "2", "text": "A Lyra manteve o campeão preso no centro, enquanto eu e o Kael destruímos o foco dos magos." },
+          { "id": "3", "text": "As vozes gritavam pressa, e quando o ritual desabou, senti o ar ficar mais leve." },
+          { "id": "1", "text": "Quando o campeão perdeu o equilíbrio, empurrei com tudo. Ele demorou a cair… como se não quisesse." },
+          { "id": "2", "text": "Se tivéssemos hesitado por qualquer segundo, a cidade teria amanhecido em chamas." }
+        ],
+        "1_2_4": [
+          { "id": "2", "text": "A Lyra segurou o avanço, eu cortei o caminho dos magos, e o Leonardo abriu uma brecha com uma descarga que iluminou metade da estrada." },
+          { "id": "4", "text": "Foi o ponto decisivo. Sem aquele golpe inicial de vocês, eu não teria conseguido projetar a segunda descarga." },
+          { "id": "1", "text": "Quando o campeão caiu de joelhos, eu achei que ele fosse levantar de novo. Nunca vi nada tão teimoso." },
+          { "id": "2", "text": "A gente ganhou… mas por muito pouco mesmo." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "A Lyra segurou o campeão enquanto eu quebrava o fluxo dos magos com as vozes guiando meu gesto." },
+          { "id": "4", "text": "Minhas descargas ricocheteavam pelo chão. Era difícil controlar, mas funcionou." },
+          { "id": "1", "text": "Quando os magos pararam, o campeão enfraqueceu. Foi a janela que eu precisava para derrubá-lo." },
+          { "id": "3", "text": "A vitória veio tão perto do fracasso que ainda sinto as mãos frias." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "Eu cortei o primeiro mago, o Kael interrompeu o segundo com uma oração, e o Leonardo estourou o terceiro com um raio que ecoou no vale." },
+          { "id": "3", "text": "O campeão cambaleou sem o ritual. Vi o medo nos olhos dele pela primeira vez." },
+          { "id": "4", "text": "Ajustei meu último ataque e acertei no peito. Ele ficou imóvel por longos segundos." },
+          { "id": "2", "text": "Quando ele finalmente caiu, senti o corpo inteiro relaxar de um jeito estranho." }
+        ],
+        "1_2_3_4": [
+          { "id": "2", "text": "Entramos juntos e derrubamos os magos antes que reforçassem o campeão pela última vez." },
+          { "id": "3", "text": "As vozes gritavam coragem, mas também medo. Era uma linha muito fina para caminhar." },
+          { "id": "4", "text": "Projetei o golpe final, mas a Lyra quem abriu espaço para isso realmente funcionar." },
+          { "id": "1", "text": "Ele caiu na minha frente. Eu estava tão cansada que achei que fosse cair junto." }
+        ]
+      }
+    },
+    "failure": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "Eu tentei parar o campeão... tentei mesmo. Mas ele passou por mim como se eu fosse nada. Ainda sinto o chão vibrar quando lembro. Desculpa. Eu devia ter segurado mais."
+        },
+        "2": {
+          "id": "2",
+          "text": "Eu corri até onde consegui, mas o campeão já estava perto demais. Não consegui impedir, não consegui derrubar os magos... eu só vi tudo escapando entre meus dedos."
+        },
+        "3": {
+          "id": "3",
+          "text": "As vozes sussurraram que estávamos atrasados, mas eu não quis acreditar. Quando percebi que elas estavam certas, já era tarde demais. Falhamos."
+        },
+        "4": {
+          "id": "4",
+          "text": "Calculei as rotas, recalculei, tentei cortar o avanço... nada funcionou. O campeão passou por nós com uma força que eu não soube neutralizar. Não foi suficiente."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "A Lyra tentou travar o avanço, mas o campeão quebrou a linha como se não fosse nada. Eu não consegui alcançar os magos a tempo." },
+          { "id": "1", "text": "A Elara correu na frente, tentou dar espaço pra mim… mas eu não consegui fechar a brecha que ele abriu." },
+          { "id": "2", "text": "Quando ele passou por nós, eu senti que tudo tinha sido em vão. A gente tentou. Só não deu." },
+          { "id": "1", "text": "Eu devia ter segurado mais. Ela fez tudo certo. Eu é que não aguentei." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "As vozes gritavam urgência, mas nem elas conseguiram nos puxar pro tempo certo. O campeão estava rápido demais." },
+          { "id": "1", "text": "Tentei barrar ele com tudo o que eu tinha, mas os magos já estavam longe demais do nosso alcance." },
+          { "id": "3", "text": "Eu tentei quebrar o ritual deles, tentei mesmo. Mas só alcancei o primeiro. Não bastou." },
+          { "id": "1", "text": "Quando ele me empurrou pra fora da estrada, eu soube que tínhamos perdido." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "A Lyra manteve a posição, mesmo quando já estava no limite. Eu tentei desestabilizar os magos, mas falhei nos cálculos." },
+          { "id": "1", "text": "O Leonardo fez tudo certo… eu só não consegui segurar o campeão tempo suficiente pra ele terminar." },
+          { "id": "4", "text": "Quando o campeão rompeu nossa linha, eu senti a descarga tremer dentro de mim. Não consegui completar o ataque." },
+          { "id": "1", "text": "Eu devia ter segurado. Era pra eu segurar." }
+        ],
+        "2_3": [
+          { "id": "3", "text": "A Elara avançou rápido, mas os magos já tinham preparado o caminho do campeão. Não conseguimos quebrar o foco deles." },
+          { "id": "2", "text": "Eu tentei cortar o primeiro mago, mas ele desviou no último instante. Foi aí que tudo desandou." },
+          { "id": "3", "text": "As vozes ficaram em silêncio quando o campeão passou. Nunca é um bom sinal quando elas se calam." },
+          { "id": "2", "text": "Sinto que se eu tivesse corrido um pouco mais rápido… talvez tivesse dado." }
+        ],
+        "2_4": [
+          { "id": "4", "text": "A estrada estava aberta demais, e os magos sabiam disso. Não consegui projetar o ataque no tempo certo." },
+          { "id": "2", "text": "Eu tentei distrair o campeão, mas ele simplesmente ignorou tudo o que fiz. Ele só… passou." },
+          { "id": "4", "text": "Quando percebi que o reforço deles ia completar, já era tarde demais para impedir." },
+          { "id": "2", "text": "Eu sei que falhamos. Não tem outra forma de dizer." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "As vozes avisaram que não alcançaríamos, mas eu não quis aceitar. Mesmo assim… estávamos longe demais dos magos." },
+          { "id": "4", "text": "Tentei interromper o fluxo deles com uma descarga, mas saiu fraca demais. Um erro meu." },
+          { "id": "3", "text": "Quando o campeão desviou de nós, senti o peso da falha cair no peito como pedra." },
+          { "id": "4", "text": "Eu falhei nas contas. Fui lento. E isso custou caro." }
+        ],
+        "1_2_3": [
+          { "id": "2", "text": "A gente correu até onde deu, mas os magos estavam longe demais e o campeão já tinha embalo." },
+          { "id": "3", "text": "As vozes tentaram guiar, mas nem elas conseguem mudar o tempo perdido." },
+          { "id": "1", "text": "Eu tentei parar ele com tudo o que tinha. Não foi suficiente." },
+          { "id": "2", "text": "Falhamos. Não tem como suavizar isso." }
+        ],
+        "1_2_4": [
+          { "id": "2", "text": "Eu tentei cortar o caminho dos magos, mas eles já estavam preparados demais." },
+          { "id": "4", "text": "Minhas descargas ficaram curtas. Erradas. Uma falha minha." },
+          { "id": "1", "text": "Quando ele passou por mim, eu senti tudo desabar." },
+          { "id": "2", "text": "Não conseguimos impedir. É simples assim." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "Eu tentei bloquear os magos, mas só alcancei um deles. O campeão avançou sem hesitar." },
+          { "id": "4", "text": "Minhas contas estavam certas… mas minha reação não. Fui lento demais." },
+          { "id": "1", "text": "Eu bati nele, empurrei, fiz tudo… e ainda assim ele passou." },
+          { "id": "3", "text": "As vozes ficaram tristes depois. Eu também." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "A gente tentou atacar rápido, mas nada pegou do jeito que deveria. Eles estavam preparados demais." },
+          { "id": "3", "text": "Eu tentei quebrar o ritual deles, mas só consegui atrasar, não impedir." },
+          { "id": "4", "text": "Quando o campeão abriu caminho, eu soube que já era tarde demais pra recuperar o controle." },
+          { "id": "2", "text": "Foi duro voltar sabendo que deixamos ele chegar tão perto." }
+        ],
+        "1_2_3_4": [
+          { "id": "2", "text": "Mesmo juntos, não chegamos no tempo certo. Eles estavam vários passos na nossa frente." },
+          { "id": "3", "text": "As vozes lamentaram antes mesmo de a luta acabar. Elas sentiram a derrota antes de nós." },
+          { "id": "4", "text": "Eu tentei ajustar o ataque, mas não havia mais janela. Perdemos o momento." },
+          { "id": "1", "text": "Eu sinto que devia ter segurado mais. É só isso que fica na cabeça." }
+        ]
+      }
+    }
   }
 }
