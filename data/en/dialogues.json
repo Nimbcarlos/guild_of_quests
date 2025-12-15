@@ -7784,5 +7784,2600 @@
         ]
       }
     }
+  },
+  "130": {
+    "success": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "I... I managed to get the boy out of there. The tribe tried to surround me, but... I just reacted. Before I knew it, they were already on the ground. I would have preferred to resolve this by talking, but... my hands were faster. The boy is fine, just scared of me."
+        },
+        "2": {
+          "id": "2",
+          "text": "I went after the boy and found the armed tribe. I tried to warn them I wasn't a thief, but they advanced before I finished the sentence. I did what I had to do. I don't like it, but it's the truth. The boy was hidden, unharmed."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voices said the place didn't smell of guilt. And truly... the tribe wasn't threatening the boy. I spoke with the elder; he was just protecting him from something bigger. I brought the boy back without raising my staff. Sometimes the danger is the one pointing the finger."
+        },
+        "4": {
+          "id": "4",
+          "text": "I located the boy after neutralizing the tribe's resistance. They advanced first, so I responded with controlled electrical discharges. The boy was hiding behind a pile of ceramics. No significant collateral damage... except for the ceramics."
+        }
+      },
+      "teams": {
+        "1_3": [
+          { "id": "3", "text": "When we arrived, I felt the voices whisper that no one there wanted blood. I spoke with the elder, and he explained that the boy was just scared. Lyra was relieved... I think she preferred not having to raise her sword." },
+          { "id": "1", "text": "I... I felt much calmer when I realized they didn't want to fight. Kael spoke with them before anything bad happened. I just helped calm the boy so we could return quickly." },
+          { "id": "3", "text": "The boy trusted us when I explained that the tribe was only protecting him. He held my hand when it was time to leave... as if he understood the voices too." },
+          { "id": "1", "text": "It was all... easier than I imagined. Thank goodness. I would have felt terrible if someone there had gotten hurt because of us." }
+        ],
+        "2_3": [
+          { "id": "3", "text": "The tribe was nervous, but not hostile. I spoke with peace in my heart and the voices guided every word. Elara was able to confirm that they hadn't harmed the boy." },
+          { "id": "2", "text": "They were telling the truth. I can't lie, but I also recognize when someone isn't lying. The boy was hiding out of fear, not threat." },
+          { "id": "3", "text": "The elder apologized for the misunderstanding... and for the noble's unfair accusations. Something bigger is behind this story." },
+          { "id": "2", "text": "We brought the boy back without hurting anyone. I prefer it this way. The truth hurts less when no one dies along the way." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voices told me the danger wasn't coming from the tribe. I told this to Leonardo, and he... accepted it, with that almost scientific calm he has." },
+          { "id": "4", "text": "The analysis was consistent: no one presented an aggressive stance. So I let Kael lead the dialogue. It worked surprisingly well." },
+          { "id": "3", "text": "The boy came out of hiding when I explained we weren't there to hurt anyone. He believed us before he even fully heard me." },
+          { "id": "4", "text": "We recovered the target without the need for electrical discharge. Statistically pleasing." }
+        ],
+        "1_2": [
+          { "id": "2", "text": "The confusion started fast. The natives attacked us as soon as we got close to the huts, and I only managed to react because Lyra cleared the way as if she were knocking down invisible doors." },
+          { "id": "1", "text": "I... well... I knocked some of them down without wanting to hurt them too much, but it was all very fast. Elara was shouting where more were coming from, that helped a lot." },
+          { "id": "2", "text": "I pulled the boy out from behind a pile of boxes. He was terrified, but alive. Lyra held off the enemies while we ran." },
+          { "id": "1", "text": "I was happy we managed to save him. I... I just hope the tribe can recover after all this." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "Their defense was weak. Causing a short circuit in the entrance totem was enough to create panic. Lyra took advantage of the disorder in a... considerably efficient way." },
+          { "id": "1", "text": "Yeah... I attacked those who advanced. It was all so fast I didn't even think straight. I just wanted to get the boy out of there." },
+          { "id": "4", "text": "I found the boy hiding in a dark corner. He reacted better to Lyra than to me, perhaps because I smelled of ozone." },
+          { "id": "1", "text": "I just held him and ran back. I think I was trembling more than he was." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "Their ambush was terrible. I warned Leonardo not to step on some suspicious leaves, and a second later the trap went off anyway. We dodged... almost together." },
+          { "id": "4", "text": "That poorly planned trap evaporated when I discharged energy into it. It worked too well, in fact." },
+          { "id": "2", "text": "In the end, I found the boy trapped in a makeshift half-cage. We freed him and fled before more natives appeared." },
+          { "id": "4", "text": "We returned without critical damage. Just a little soot, light cuts, and Elara's honesty making the boy even more scared." }
+        ],
+        "1_2_3": [
+          { "id": "3", "text": "I spoke with the tribe first. The atmosphere was heavy, but there was no intention to kill. Lyra breathed a sigh of relief, and Elara found signs that the boy was being well treated." },
+          { "id": "2", "text": "I confirmed they weren't lying. They were confused, not hostile. The boy was just afraid." },
+          { "id": "1", "text": "I was happy we didn't have to fight... I always end up overdoing it. Better this way. I helped carry some things to make the boy feel safe." },
+          { "id": "3", "text": "The elder thanked us for listening before hurting. The voices fell silent... which, to me, means we did the right thing." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "As soon as we arrived, I felt there was no real hostility there. I explained this to Lyra and Leonardo, and they agreed to let me try first." },
+          { "id": "4", "text": "I assessed their behavior and there were no signs of imminent aggression. So I let Kael negotiate. It was efficient." },
+          { "id": "1", "text": "I was just... relieved. I didn't want to hurt anyone from the tribe. I picked the boy up when he fell trying to run away out of fear." },
+          { "id": "3", "text": "We bring the boy back without hurting anyone. The voices approved. So did I." }
+        ],
+        "2_3_4": [
+          { "id": "3", "text": "The tribe was startled when we arrived, but didn't raise weapons with real intent. It was enough to explain we were looking for the boy, not war." },
+          { "id": "2", "text": "I checked everything around. They were scared, but they hadn't done anything wrong. And yes, the boy was well cared for." },
+          { "id": "4", "text": "The boy reacted better when Kael spoke to him. My direct attempt caused panic... so I let the emotional specialist act." },
+          { "id": "3", "text": "We returned with the boy and with the truth. Sometimes, that weighs more than any weapon." }
+        ],
+        "1_2_4": [
+          { "id": "2", "text": "The camp entrance turned into chaos in seconds. Lyra broke the front line and Leonardo made the ground glow. I just tried not to die." },
+          { "id": "1", "text": "I don't like fighting like that... but there was no way to avoid it. They were attacking us first." },
+          { "id": "4", "text": "The final discharge opened the way for us to reach the last hut. The boy was there, hyperventilating." },
+          { "id": "2", "text": "I told him the truth to calm him down: that we were there for him, not to hurt anyone without reason. He believed it. I think he needed to hear that." }
+        ],
+        "1_2_3_4": [
+          { "id": "3", "text": "I was the one who spoke with the tribe. Everyone felt the tension, but the voices guided me well. Their truth was clean as water." },
+          { "id": "2", "text": "I confirmed everything. They didn't lie at any point. The noble omitted something, that's for sure." },
+          { "id": "1", "text": "I was happy we didn't fight... I accidentally overdo it. Better this way. The boy didn't even cry when I spoke to him, I think he saw I didn't want to hurt him." },
+          { "id": "4", "text": "Operation completed without damage. I consider it a positive statistical anomaly. Kael stabilized everything with... I don't know, functional chaotic faith." }
+        ]
+      }
+    },
+    "failure": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "I tried to clear a path to find the boy, but the tribe's attacks came from many sides. I retreated when I realized I was too close to hurting people who just wanted to defend themselves. I failed him... and myself too."
+        },
+        "2": {
+          "id": "2",
+          "text": "I spoke the truth from the beginning, and I think that's what made everything worse. They understood my words as a threat, and I couldn't approach the boy without causing panic. I preferred to return before anyone died."
+        },
+        "3": {
+          "id": "3",
+          "text": "The sounds, the faces, and the tensions... everything got confused. I tried to say we didn't want war, but my own voices mixed with theirs. I couldn't reach the boy. I came back carrying more doubts than answers."
+        },
+        "4": {
+          "id": "4",
+          "text": "I tried to analyze the situation, but everything happened too fast. Any use of magic would have hit innocents. And without that, I ran out of resources to advance. Retreat was the only logical choice, but not a good choice."
+        }
+      },
+      "teams": {
+        "1_2": [
+          {
+            "id": "2",
+            "text": "We tried to enter from the least guarded side, but the truth I spoke about the boy only made the goblins even more tense. They thought I was accusing everyone, and everything just got worse."
+          },
+          {
+            "id": "1",
+            "text": "I tried to clear the way, but... I hit harder than I should have. They were terrified, and the boy ran inside the hut. I couldn't reach him without hurting more people."
+          },
+          {
+            "id": "2",
+            "text": "We retreated because I saw in their eyes that any step forward would turn into a massacre. And I wasn't going to let that happen."
+          },
+          {
+            "id": "1",
+            "text": "I felt weak... even with all my strength. I couldn't bring him back."
+          }
+        ],
+        "1_3": [
+          {
+            "id": "3",
+            "text": "I tried to talk to the tribe leaders, but they heard things that I... maybe didn't say. Or maybe I did. I couldn't control what came from me. The situation quickly spiraled."
+          },
+          {
+            "id": "1",
+            "text": "When I realized they were surrounding Kael, I tried to push them away, but ended up scaring them even more. The boy didn't appear. There was only fear on both sides."
+          },
+          {
+            "id": "3",
+            "text": "The voices told me to retreat before everything broke. And I obeyed. I don't know if it was right."
+          },
+          {
+            "id": "1",
+            "text": "We returned without answers... and without the boy."
+          }
+        ],
+        "1_4": [
+          {
+            "id": "4",
+            "text": "I tried to calculate a way to enter without causing panic, but any discharge would be fatal. Without magic, I just became another easy target."
+          },
+          {
+            "id": "1",
+            "text": "I advanced a little, but realized that if I continued I would hurt people who had nothing to do with it. I stopped. I didn't want to... ruin everything."
+          },
+          {
+            "id": "4",
+            "text": "We were forced to retreat. The tribe became even more alert, and the boy was not found."
+          },
+          {
+            "id": "1",
+            "text": "We failed. There's no way to sugarcoat it."
+          }
+        ],
+        "2_3": [
+          {
+            "id": "2",
+            "text": "I spoke the truth, as always, but they thought I was accusing the entire tribe. Even trying to explain, I only increased the confusion."
+          },
+          {
+            "id": "3",
+            "text": "I tried to calm things down, but my words got mixed up with others. Some heard a promise, others a threat. In the end, no one understood anything."
+          },
+          {
+            "id": "2",
+            "text": "When I saw bows pointed at us, I pulled Kael and turned around. We couldn't continue."
+          },
+          {
+            "id": "3",
+            "text": "It wasn't cowardice. It was just... fear of destroying something that shouldn't be destroyed."
+          }
+        ],
+        "2_4": [
+          {
+            "id": "2",
+            "text": "I told them exactly what we saw, but they became even more nervous. It seemed like any word would light a fire."
+          },
+          {
+            "id": "4",
+            "text": "Without safe space for magic and not enough mobility to escape if things went wrong, retreat was the best choice."
+          },
+          {
+            "id": "2",
+            "text": "I didn't see the boy anywhere. I think he hid from us too."
+          },
+          {
+            "id": "4",
+            "text": "It was a strategic retreat on paper. But emotionally, it was a complete defeat."
+          }
+        ],
+        "3_4": [
+          {
+            "id": "3",
+            "text": "I spoke with them, but I think I spoke too much. Or I spoke wrong. Or I spoke with people who weren't there. It's hard to know."
+          },
+          {
+            "id": "4",
+            "text": "I saw tension building up and realized that any gesture of mine would be interpreted as an attack. I retreated before everything exploded."
+          },
+          {
+            "id": "3",
+            "text": "I didn't see the boy. Maybe he didn't want to be found."
+          },
+          {
+            "id": "4",
+            "text": "Coming back without the objective accomplished is never easy, but this time it hurt more than usual."
+          }
+        ],
+        "1_2_3": [
+          {
+            "id": "2",
+            "text": "I tried to speak for all of us, telling the truth as directly as possible. But that only put the entire tribe on the defensive."
+          },
+          {
+            "id": "3",
+            "text": "And I tried to correct... but my words didn't align with hers. Everything was disjointed, as if we were speaking different languages at the same time."
+          },
+          {
+            "id": "1",
+            "text": "I was just waiting for a chance to act, but any movement of mine would turn into a bloody fight. So I didn't do anything."
+          },
+          {
+            "id": "2",
+            "text": "In the end, we didn't find the boy, and any step forward would have ended in tragedy. We returned... with nothing."
+          }
+        ],
+        "1_2_4": [
+          {
+            "id": "2",
+            "text": "The first attempt at dialogue didn't work. They thought I was accusing everyone of kidnapping."
+          },
+          {
+            "id": "1",
+            "text": "When we tried to approach, they raised weapons. I... almost advanced, but I knew what would happen if I struck."
+          },
+          {
+            "id": "4",
+            "text": "I calculated several approach routes, and all of them ended with losses on both sides. It was unacceptable."
+          },
+          {
+            "id": "1",
+            "text": "We returned. And I really wanted to have been able to help the boy."
+          }
+        ],
+        "1_3_4": [
+          {
+            "id": "3",
+            "text": "I tried to mediate, but the words slipped away like water between my fingers. They didn't seem right to anyone."
+          },
+          {
+            "id": "4",
+            "text": "Without clarity of intentions, without safe space, and without guarantees, there was no chance of advancement. It was either retreat or blow everything up."
+          },
+          {
+            "id": "1",
+            "text": "I didn't want to hurt innocents. So I stood still, holding my weapon as if it were a weight."
+          },
+          {
+            "id": "3",
+            "text": "The retreat seemed like the only path that didn't end in screams."
+          }
+        ],
+        "2_3_4": [
+          {
+            "id": "2",
+            "text": "I told them we didn't want a fight, that we just wanted the boy. The sincerity didn't help. It scared them."
+          },
+          {
+            "id": "3",
+            "text": "And when I tried to intervene, my voice fragmented. They became even more confused."
+          },
+          {
+            "id": "4",
+            "text": "From that point on, any approach was risky. I retreated before everything broke."
+          },
+          {
+            "id": "2",
+            "text": "We returned without the boy. And that weighs more than it should."
+          }
+        ],
+        "1_2_3_4": [
+          {
+            "id": "2",
+            "text": "I tried to explain everything, exactly as it was. But they thought I was looking for a fight."
+          },
+          {
+            "id": "3",
+            "text": "I tried to smooth things over... but my words arrived broken, wrong. They didn't understand anything."
+          },
+          {
+            "id": "4",
+            "text": "The quick analysis showed that any movement from us would have escalated the situation into too large a conflict. We couldn't continue."
+          },
+          {
+            "id": "1",
+            "text": "I just held my sword and stood still, because using force would have destroyed innocent people. So we returned... without him."
+          }
+        ]
+      }
+    }
+  },
+  "131": {
+    "success": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "We repelled the mercenaries. I... I fought until my hands were numb, b-but they all fell. The villagers were safe in the end, and the elder spoke something about the soil."
+        },
+        "2": {
+          "id": "2",
+          "text": "I sneaked in and cut the flanks. The mercenaries didn't expect my precision. I protected the tribe and brought them to safety, and the elder spoke something about the soil."
+        },
+        "3": {
+          "id": "3",
+          "text": "In the middle of the confrontation, I felt something coming from the ground — a firm, sacred presence, like a finger resting on the earth's chest. This gave us a small window to act; the tribe responded with courage. We left together and I asked permission to investigate."
+        },
+        "4": {
+          "id": "4",
+          "text": "I mapped the mercenaries' advance routes and calculated where to concentrate my charges. The strategy worked: we cut off the rear and the assault collapsed. I came back thinking about the data I saw in the field, and the elder spoke something about the soil."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "I cut between the tents and found the best opening; Lyra helped seal the passage with force. We broke their charge quickly." },
+          { "id": "1", "text": "I pushed a mercenary away from an elderly woman of the tribe. I don't like attention, but... it was necessary." },
+          { "id": "2", "text": "In the end, the tribe thanked us. They trusted us after seeing what we did." },
+          { "id": "1", "text": "We returned with minor injuries and the feeling that we did what needed to be done." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "While Lyra held the line, I felt the firm presence beneath the earth; it was as if the tribe itself was breathing with us. I used calm words to guide the wounded's retreat." },
+          { "id": "1", "text": "I dealt with those who came too close. Kael spoke slowly and gave courage to some villagers; this helped prevent worse losses." },
+          { "id": "3", "text": "The sacred presence seemed to protect the settlement for moments — it didn't save it by itself, but allowed us to organize." },
+          { "id": "1", "text": "We left in the end and the elder asked us to return to the guild to request permission to inspect the location." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "I created a measured distraction and Lyra used the opening to disarm the main attackers. The tactic was clean." },
+          { "id": "1", "text": "I pushed and knocked down those who needed to be knocked down. I hate talking about it, but that's what allowed us to save more people." },
+          { "id": "4", "text": "Their advance patterns were predictable; I noted everything down to report later." },
+          { "id": "1", "text": "In the end, the elder spoke something about the soil and asked us to return with permission to inspect. I was curious." }
+        ],
+        "2_3": [
+          { "id": "3", "text": "I felt the presence coming from the earth when the mercenaries surrounded the square. I spoke calmly and this helped the tribe to regroup between attacks." },
+          { "id": "2", "text": "I cut the mercenaries' support lines while Kael calmed the villagers. We gained an advantage and repelled the group." },
+          { "id": "3", "text": "The presence seemed to confirm that we shouldn't destroy it; only protect it. I requested the guild authorize us to investigate next." },
+          { "id": "2", "text": "We left with some wounded, but kept the settlement standing." }
+        ],
+        "2_4": [
+          { "id": "4", "text": "While I marked the weak points, Elara made clean cuts into the mercenaries' flanks. This broke their formation." },
+          { "id": "2", "text": "I found the spot where the mercenaries were concentrating supplies and managed to block the route. They fled after that." },
+          { "id": "4", "text": "I noted the consequences of the combat I used; there are marks worth studying." },
+          { "id": "2", "text": "We returned to the guild with the people thanking us. We promised to give notice before disturbing what lies beneath the earth." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "I felt something emerging from the earth even in the heat of battle — it was firm, sacred, a silence that held weight. This made me ask for caution in our actions." },
+          { "id": "4", "text": "My actions were calibrated not to hit the spots where I felt this presence. This prevented collateral damage." },
+          { "id": "3", "text": "The people realized we were not invaders. After the fight, the elder asked us to return with permission to examine the soil." },
+          { "id": "4", "text": "We protected the tribe and I left with important data to analyze later." }
+        ],
+        "1_2_3": [
+          { "id": "3", "text": "In the middle of the confrontation, the presence of the soil made itself heard to me; it said that there was something there that should be preserved. This changed our approach." },
+          { "id": "2", "text": "With Lyra holding the line, I was able to cut the mercenaries' rear and protect the civilians." },
+          { "id": "1", "text": "It was tough, but we kept the camp standing. Kael's vision about the earth made me intrigued." },
+          { "id": "3", "text": "We left alive and the tribe asked us to seek permission from the guild to investigate the sacred place." }
+        ],
+        "1_2_4": [
+          { "id": "4", "text": "I coordinated a sequence of containment actions while Lyra pushed the front. Elara cut off any defensive retreat they had." },
+          { "id": "2", "text": "We opened space and retreated civilians to a shelter. The elder saw that we fought to protect, not to plunder." },
+          { "id": "1", "text": "I hit until I was tired, but I didn't do more than was necessary. I feel like we helped without destroying everything." },
+          { "id": "4", "text": "We returned to request permission to investigate the strange vibrations that Kael mentioned." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "While Lyra held the line, I felt the soil as if it had a tone. This guided my words and our actions." },
+          { "id": "1", "text": "I pushed the mercenaries away from the elders and children. I don't like to talk about it, but it was fair." },
+          { "id": "4", "text": "With the data collected, we can later estimate the origin of the vibrations in the soil; for now, the priority was to protect." },
+          { "id": "3", "text": "The elder thanked us and asked us to return with permission to investigate what I felt." }
+        ],
+        "2_3_4": [
+          { "id": "3", "text": "In the heat of combat, the presence was clear — as if the earth asked us to defend it. This guided my words to calm the tribe between battles." },
+          { "id": "2", "text": "I cut the mercenaries' support points while Leo neutralized their maneuvers. They left." },
+          { "id": "4", "text": "We left with minor injuries and the promise to return equipped with permission to investigate the origin of the presence." },
+          { "id": "2", "text": "The tribe gave us their trust. That's not easily bought." }
+        ],
+        "1_2_3_4": [
+          { "id": "3", "text": "I felt the sacred force beneath our feet and spoke calmly. This changed the rhythm of the battle for decisive moments." },
+          { "id": "2", "text": "We acted quickly: Lyra opened the route, I cut off support, and Leo applied force to break the enemy formation." },
+          { "id": "4", "text": "The calculations matched. The attack was repelled efficiently." },
+          { "id": "1", "text": "In the end, the people looked at me with respect. We left requesting permission to return and investigate what was in the soil." }
+        ]
+      }
+    },
+    "failure": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "We tried to hold the mercenaries, but there was a lot of confusion and moderate losses among the tents. I retreated when I realized that continuing would cost innocent lives. We returned defeated."
+        },
+        "2": {
+          "id": "2",
+          "text": "My precision wasn't enough; there were too many mercenaries and they were well-armed. The people suffered casualties, and we had to run. I feel we could have done better."
+        },
+        "3": {
+          "id": "3",
+          "text": "Even trying to calm with the voices, I felt the sacred presence become unstable, as if something in it had been wounded. This served as a warning to me — yet, we still had to retreat."
+        },
+        "4": {
+          "id": "4",
+          "text": "My readings indicated that the enemy formation would impose losses if we insisted. Retreat was the most rational option, but no less bitter."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "I tried to open a silent path, but the mercenaries surrounded the area. We had to retreat before more villagers were hurt." },
+          { "id": "1", "text": "I hit until I couldn't anymore, but there were too many of them. I came back because I didn't want innocents to die because of my stubbornness." },
+          { "id": "2", "text": "We left with injuries and heavy hearts. The tribe lost people; that weighs heavily." },
+          { "id": "1", "text": "We couldn't protect everyone. I'll carry that with me." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "I spoke calmly, but the sacred presence was trembling, and that made my voice weak. The attempt at mediation failed." },
+          { "id": "1", "text": "When I saw that Kael's voices weren't enough, I realized it was time to retreat. I left fearing for those who remained." },
+          { "id": "3", "text": "The presence seemed wounded; the earth was crying a little. We couldn't prevent the casualties." },
+          { "id": "1", "text": "We returned without being able to save everything." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "I planned a support route, but an ambush changed everything. Lyra tried to hold, but we were forced to retreat." },
+          { "id": "1", "text": "I fought, but it wasn't enough. They were too many and well-armed." },
+          { "id": "4", "text": "We left with moderate losses. I need to review my readings." },
+          { "id": "1", "text": "I feel like I left people behind. That doesn't leave my mind." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "I tried silent tactics, but the situation rapidly degenerated. Retreat was the only way to avoid more deaths." },
+          { "id": "3", "text": "The voices became confused and the presence trembled; it was a warning sign we couldn't decode in time." },
+          { "id": "2", "text": "We returned taking the wounded. The tribe lost some of their warriors." },
+          { "id": "3", "text": "I was left with the bitter feeling that we left something behind."
+          }
+        ],
+        "2_4": [
+          { "id": "4", "text": "My maneuvers were broken by coordinated attacks; I couldn't maintain the advantage." },
+          { "id": "2", "text": "The retreat was too fast to save everyone. I feel guilty for not having arrived sooner." },
+          { "id": "4", "text": "We returned with wounded and little to celebrate." },
+          { "id": "2", "text": "The tribe trusted us and suffered for it. I won't forget." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "Even sensing the sacred presence, it was agitated — as if asking us to move away. I tried, but it wasn't enough to protect everyone." },
+          { "id": "4", "text": "My technology mentally calculated solutions, but it was too late. We retreated with wounded." },
+          { "id": "3", "text": "I felt the earth was sick. This disturbed me as we fled." },
+          { "id": "4", "text": "We returned to the guild with sad data." }
+        ],
+        "1_2_3": [
+          { "id": "2", "text": "We did everything we could, but the enemy pressure was great. Kael tried to calm things down, but the scenario evolved into confusion." },
+          { "id": "3", "text": "The voices asked for retreat — I obeyed. The presence became weak, almost tearful." },
+          { "id": "1", "text": "I felt anger that we couldn't protect everyone. We left with losses." },
+          { "id": "2", "text": "We returned defeated, and that weighs on the soul." }
+        ],
+        "1_2_4": [
+          { "id": "4", "text": "I planned a counter-attack, but the execution failed due to lack of space. We were forced to retreat." },
+          { "id": "2", "text": "I tried to save what I could, but it wasn't enough." },
+          { "id": "1", "text": "I saw people who had trusted us fall. I won't forget." },
+          { "id": "4", "text": "I recorded everything; we need to come back better prepared." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "The presence seemed to cry out for silence, but the violence took over. We left before it got worse." },
+          { "id": "4", "text": "My measurements showed increasing intensity of the attacks; we withdrew to prevent a greater massacre." },
+          { "id": "1", "text": "I felt defeated. We couldn't protect everyone." },
+          { "id": "3", "text": "We returned with heavy hearts, feeling that the earth was calling us to fix something." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "We tried surgical tactics, but the mercenaries reacted with force. Retreat was inevitable." },
+          { "id": "3", "text": "The sacred presence seemed wounded; I felt it as pain in my chest. We retreated to avoid aggravating it." },
+          { "id": "4", "text": "We returned with data on the enemy formation and heavy hearts." },
+          { "id": "2", "text": "The tribe suffered losses. That will stay with us for a while." }
+        ],
+        "1_2_3_4": [
+          { "id": "3", "text": "I did what I could with the voices, but the presence was unstable and asking for caution. The battle did not favor us." },
+          { "id": "2", "text": "We truly tried everything, and even so there were moderate casualties. We returned because we couldn't continue without losing more." },
+          { "id": "4", "text": "I recorded the attack patterns for us to analyze later. For now, it was a retreat out of responsibility." },
+          { "id": "1", "text": "I left there with the burden of not being able to save everyone. We'll have to fix this later." }
+        ]
+      }
+    }
+  },
+  "132": {
+    "success": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "I managed to open a passage under the stones and found a strange chamber. There was a dead body... enormous... trapped by glowing symbols. I felt dizzy and returned before messing up."
+        },
+        "2": {
+          "id": "2",
+          "text": "I found the hidden entrance and went down. I saw a giant corpse, trapped by glowing glyphs. I couldn't understand it, but I felt it was dangerous to stay there. I returned quickly."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voice under the soil guided me to the veiled door. Inside there was a lich sealed by sacred glyphs. It breathed without air. The seal was still holding... but it was trembling. We need to come back prepared."
+        },
+        "4": {
+          "id": "4",
+          "text": "I analyzed the stone pattern and found a mechanism. Behind it was a chamber with an animated corpse trapped by sacred runes. The arcane flow of the seal was unstable. We retreated."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "I found the opening in the stones. Lyra helped me move the rest and we entered the hidden chamber." },
+          { "id": "1", "text": "There was a huge dead thing trapped by glowing symbols. I got nervous just looking at it." },
+          { "id": "2", "text": "We didn't know what it was, only that we shouldn't touch it. It seemed too awake." },
+          { "id": "1", "text": "I left quickly. It was strong... but scary in a way I can't explain." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "The presence called to me. Lyra cleared the way and I found the chamber door." },
+          { "id": "1", "text": "I didn't like the way it... breathed while still. I was ashamed to tremble in front of Kael." },
+          { "id": "3", "text": "The lich was trapped by sacred glyphs. The seal vibrated with our arrival." },
+          { "id": "1", "text": "We returned. It was too strong for us to stay there." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "I analyzed the structure and opened the passage. Lyra went in first." },
+          { "id": "1", "text": "I felt it was... wrong. That trapped body seemed alive without being alive." },
+          { "id": "4", "text": "The sacred pattern of the glyphs was consistent: they prevented movement and regeneration." },
+          { "id": "1", "text": "I left before fainting. It was too powerful." }
+        ],
+        "2_3": [
+          { "id": "3", "text": "The presence guided my steps, and Elara found the entry point." },
+          { "id": "2", "text": "I told the truth: that was the strangest thing I'd ever seen. A giant dead body breathing light." },
+          { "id": "3", "text": "The lich was sealed by sacred glyphs, but the energy was fluctuating." },
+          { "id": "2", "text": "I left with the feeling that we saw something no one should ever see." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "I found a strange crack and Leonardo opened the mechanism." },
+          { "id": "4", "text": "Inside was a huge undead trapped by sacred symbols. The seal was close to failing." },
+          { "id": "2", "text": "I was honest: I said I wanted to leave immediately." },
+          { "id": "4", "text": "We retreated before any instability exploded." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voice of the soil guided me straight to the correct wall. Leonardo cleared the way." },
+          { "id": "4", "text": "And there he was: a sealed lich. Sacred glyphs kept him immobile." },
+          { "id": "3", "text": "The runes were trembling as if calling for reinforcement." },
+          { "id": "4", "text": "We retreated to study the seal from afar. It was too risky to stay longer." }
+        ],
+        "1_2_3": [
+          { "id": "3", "text": "The presence pulled me like a whisper. Elara found the exact spot of the door." },
+          { "id": "2", "text": "I spoke plainly: that thing was alive. Even though it was dead." },
+          { "id": "1", "text": "I was afraid to take a step. It was too strong for me." },
+          { "id": "3", "text": "We left before the seal weakened further." }
+        ],
+        "1_2_4": [
+          { "id": "2", "text": "I found a strange pattern in the stones and Leonardo opened the passage." },
+          { "id": "4", "text": "The chamber held a lich sealed by sacred energy symbols." },
+          { "id": "1", "text": "I felt like it could get up just because it existed. I almost ran." },
+          { "id": "2", "text": "We left to avoid accidentally damaging the seal." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "The voice said: 'below'. And we found the hidden door." },
+          { "id": "4", "text": "The chamber contained a lich trapped by complex sacred glyphs." },
+          { "id": "1", "text": "I trembled. I swear I saw it move a finger." },
+          { "id": "3", "text": "The seal wouldn't hold if we stayed longer. We retreated." }
+        ],
+        "2_3_4": [
+          { "id": "3", "text": "The presence guided and Elara cleared the way with precision." },
+          { "id": "2", "text": "I just said: this is too dangerous to pretend we didn't see it." },
+          { "id": "4", "text": "The lich waited, sealed, pulsating ancient energy." },
+          { "id": "3", "text": "We left to call for backup." }
+        ],
+        "1_2_3_4": [
+          { "id": "3", "text": "The presence united us in a single thought: beneath the earth." },
+          { "id": "4", "text": "I decoded the mechanism and we opened the secret chamber." },
+          { "id": "2", "text": "I immediately said: that was a living threat. Even immobile." },
+          { "id": "1", "text": "I left with a racing heart. We need help." }
+        ]
+      }
+    },
+    "failure": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "I tried to move the stones, but the ground shook and the passage almost collapsed. I couldn't open anything. I returned before hurting someone... or worse."
+        },
+        "2": {
+          "id": "2",
+          "text": "I found the entrance, but the mechanism jammed and almost trapped my hand. The hole closed before we could see anything useful. I was honest: we failed."
+        },
+        "3": {
+          "id": "3",
+          "text": "The sacred presence blocked me, as if saying 'not today'. The seal was agitated. We retreated before something woke up."
+        },
+        "4": {
+          "id": "4",
+          "text": "I analyzed the stone, forced the mechanism... and it collapsed. The runes responded with a wave of force. We retreated to avoid greater damage."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "I found the crack, but when we touched it, the ground vibrated too strongly." },
+          { "id": "1", "text": "I tried to push the stones away... but it was like they pushed back." },
+          { "id": "2", "text": "I told us to retreat. It was true: that thing was awake." },
+          { "id": "1", "text": "We returned without opening anything." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "The presence told me 'stop'. It was firm. I obeyed." },
+          { "id": "1", "text": "I tried to help, but I felt something bad would come out of there if we insisted." },
+          { "id": "3", "text": "The seal was restless, almost pulsing." },
+          { "id": "1", "text": "We returned before it was too late." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "I miscalculated the pressure on the mechanism. It almost exploded." },
+          { "id": "1", "text": "My heart pounded. There was no way to open that." },
+          { "id": "4", "text": "We retreated for safety." },
+          { "id": "1", "text": "I feel like we left something dangerous behind." }
+        ],
+        "2_3": [
+          { "id": "3", "text": "The presence closed like a door in front of me." },
+          { "id": "2", "text": "I was honest: that thing was about to wake something up, and we didn't want that." },
+          { "id": "3", "text": "The voices said to leave." },
+          { "id": "2", "text": "We returned without opening the entrance." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "The mechanism almost chewed my hand. I told him to stop." },
+          { "id": "4", "text": "The runes emitted an unpredictable arcane wave." },
+          { "id": "2", "text": "It seemed to scream not to be touched." },
+          { "id": "4", "text": "We returned before it broke completely." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The sacred presence blinked as if annoyed with us." },
+          { "id": "4", "text": "The structure almost collapsed when I tried to open it." },
+          { "id": "3", "text": "We were pushed out by the seal itself, so to speak." },
+          { "id": "4", "text": "We retreated to maintain physical integrity." }
+        ],
+        "1_2_3": [
+          { "id": "3", "text": "The voices clearly whispered 'retreat'." },
+          { "id": "2", "text": "The crack closed in our face. Literally." },
+          { "id": "1", "text": "I pulled the stones, but something pushed back." },
+          { "id": "3", "text": "We returned without opening the chamber." }
+        ],
+        "1_2_4": [
+          { "id": "4", "text": "The mechanism jammed irreversibly." },
+          { "id": "2", "text": "I told him to stop: it was about to give way." },
+          { "id": "1", "text": "I pulled, but everything was going to fall." },
+          { "id": "4", "text": "We aborted the opening." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "The presence retreated, as if telling us not to touch." },
+          { "id": "4", "text": "The stone responded with a dangerous vibration." },
+          { "id": "1", "text": "I even tried to open it more, but it was risky." },
+          { "id": "3", "text": "We returned because insisting would be bad." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "The opening closed when I tried to advance. As if it were alive." },
+          { "id": "3", "text": "The runes were restless. They didn't want to be disturbed." },
+          { "id": "4", "text": "It could collapse at any moment." },
+          { "id": "2", "text": "We returned with zero progress." }
+        ],
+        "1_2_3_4": [
+          { "id": "3", "text": "The voices said no. So clearly that they silenced all others." },
+          { "id": "2", "text": "The mechanism collapsed before fully opening." },
+          { "id": "4", "text": "The instability of the runes was too dangerous." },
+          { "id": "1", "text": "We returned without being able to open anything." }
+        ]
+      }
+    }
+  },
+  "133": {
+    "success": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "When the glyph broke, he opened his eyes for the first time. I felt my legs fail me... but I advanced anyway. I struck the blow before he could breathe again. I don't know how I managed it."
+        },
+        "2": {
+          "id": "2",
+          "text": "The glyph cracked and the lich rose as if he had remembered his own body. I told the truth: I was terrified. Even so, I managed to hit the opening that formed in his chest. It was enough."
+        },
+        "3": {
+          "id": "3",
+          "text": "When I destroyed the last link, he awakened for an instant. The voices said: 'now'. I touched his skull with the broken symbol still glowing. His soul dissolved upon impact."
+        },
+        "4": {
+          "id": "4",
+          "text": "As soon as I finalized the arcane sequence, the glyph imploded. The lich tried to rise, too unstable. I used a direct shot on the core. It shattered like doomed glass."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "The glyph gave way and he advanced somewhat staggering. I saw the energy focus opening up and pointed it out to Lyra." },
+          { "id": "1", "text": "Even trembling, I managed to hit his torso before he got close." },
+          { "id": "2", "text": "It was strange... he fell as if he had waited for that blow for centuries." },
+          { "id": "1", "text": "I only breathed deeply when I heard the body dissolve." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "When I broke the seal, he rose, starved for air. The voices told me where his weakness was." },
+          { "id": "1", "text": "I didn't think. I advanced and struck the spot Kael showed." },
+          { "id": "3", "text": "The impact went through the emptiness of his chest." },
+          { "id": "1", "text": "The body disintegrated into dark dust, right in front of me." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "The glyph faded, and he tried to rise, unstable, like an incomplete spell." },
+          { "id": "1", "text": "I took advantage of the moment and hit his torso with everything I had." },
+          { "id": "4", "text": "His structure collapsed like a burnt circuit." },
+          { "id": "1", "text": "I could only stare as he turned to dust." }
+        ],
+        "2_3": [
+          { "id": "3", "text": "I touched the final link and he awakened in a guttural whisper." },
+          { "id": "2", "text": "I saw the weak spot open and said: 'it's there'. It was the truth." },
+          { "id": "3", "text": "He recoiled when we struck at the same time." },
+          { "id": "2", "text": "The body fell in silence. It even gave me a shiver." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "As soon as the glyph disappeared, he took a crooked step forward." },
+          { "id": "4", "text": " I fired into the center to destabilize him." },
+          { "id": "2", "text": "He accidentally opened his chest when he tried to react." },
+          { "id": "4", "text": "I finished with another shot. The core completely shattered." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The link fell, and he moved his hand as if trying to remember an ancient spell." },
+          { "id": "4", "text": "I didn't let him. I launched lightning directly into his thorax." },
+          { "id": "3", "text": "The impact opened a rift in his chest." },
+          { "id": "4", "text": "He fell without making any sound." }
+        ],
+        "1_2_3": [
+          { "id": "3", "text": "We destroyed the glyph together. He rose in a painful gesture." },
+          { "id": "2", "text": "I saw the crack appear in his chest and warned immediately." },
+          { "id": "1", "text": "I struck that spot with everything I had." },
+          { "id": "3", "text": "He fell like a forgotten whisper." }
+        ],
+        "1_2_4": [
+          { "id": "4", "text": "With the arcane sequence finalized, the glyph simply died." },
+          { "id": "2", "text": "The lich took a step, and his chest opened a strange crack." },
+          { "id": "1", "text": "I hit right there. It was like breaking hollow stone." },
+          { "id": "4", "text": "The body dispersed like electrical dust." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "The seal fell and he rose like a squeezed shadow." },
+          { "id": "4", "text": "I threw energy to unbalance his body." },
+          { "id": "1", "text": "I struck the spot opened by Leo." },
+          { "id": "3", "text": "The voices silenced as he dissolved." }
+        ],
+        "2_3_4": [
+          { "id": "3", "text": "When I broke the final link, he opened his arms as if begging for air." },
+          { "id": "4", "text": "I hit his chest to expose the core." },
+          { "id": "2", "text": "I finished him, because it was what needed to be done. The pure truth." },
+          { "id": "3", "text": "He fell without resistance." }
+        ],
+        "1_2_3_4": [
+          { "id": "3", "text": "The voices said the seal would now give way. We advanced together." },
+          { "id": "4", "text": "I used the lightning to open the first crack in his body." },
+          { "id": "2", "text": "The crack widened. I pointed: 'it's there'." },
+          { "id": "1", "text": "I struck that spot with everything I had. He fell, and the chamber was finally silent." }
+        ]
+      }
+    },
+    "failure": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "I tried to break the glyph, but it returned the force. I fell to the ground with everything spinning, and I couldn't continue. He's still there... breathing without breathing."
+        },
+        "2": {
+          "id": "2",
+          "text": "I tried to help, but the glyph exploded with light when I touched it. I had to tell the truth: I didn't even come close to breaking it."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voice warned too late. I touched the wrong symbol and the seal expelled me like a gale. The lich laughed in my mind."
+        },
+        "4": {
+          "id": "4",
+          "text": "I calculated the discharge, but the glyph absorbed everything and returned an impact that threw me back. There was no way to continue."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "I touched the symbol and it burned my hand. I told Lyra to stop." },
+          { "id": "1", "text": "I tried to push the glyph, but my body seized up." },
+          { "id": "2", "text": "The truth? He almost woke up when we tried." },
+          { "id": "1", "text": "We had to run." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "The voices were confused. They were all talking at once." },
+          { "id": "1", "text": "I hit, but the symbol didn't even scratch." },
+          { "id": "3", "text": "The seal reacted violently." },
+          { "id": "1", "text": "We returned before the lich opened his eyes." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "I forced the energy, but the glyph absorbed it and returned everything amplified." },
+          { "id": "1", "text": "The impact threw me to the ground. I couldn't get up for a while." },
+          { "id": "4", "text": "It was useless to continue." },
+          { "id": "1", "text": "We returned defeated." }
+        ],
+        "2_3": [
+          { "id": "3", "text": "I felt the seal's intention. It didn't want to be touched today." },
+          { "id": "2", "text": "I said we were about to die, because it was true." },
+          { "id": "3", "text": "The glyph pulsed too strongly." },
+          { "id": "2", "text": "We left without achieving anything." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "I touched the glyph and it shone too brightly. I said to retreat." },
+          { "id": "4", "text": "I tried to minimize the damage, but the seal repelled it." },
+          { "id": "2", "text": "The air became heavy, as if someone was waking up." },
+          { "id": "4", "text": "We retreated before it went wrong." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voices screamed. It was hard to understand." },
+          { "id": "4", "text": "The glyph nullified my discharge and returned it like a punch." },
+          { "id": "3", "text": "The lich moved one finger. Just one." },
+          { "id": "4", "text": "We fled before he moved the rest." }
+        ],
+        "1_2_3": [
+          { "id": "3", "text": "Nothing matched. The voices fought among themselves." },
+          { "id": "2", "text": "I said: we are doing everything wrong. It was the truth." },
+          { "id": "1", "text": "I tried to hit it, but nothing gave way." },
+          { "id": "3", "text": "The seal almost broke... the wrong way. We fled." }
+        ],
+        "1_2_4": [
+          { "id": "4", "text": "I miscalculated the discharge. The glyph absorbed everything and returned it, blinding me for a few seconds." },
+          { "id": "2", "text": "I said he was about to wake up. No one doubted it." },
+          { "id": "1", "text": "I couldn't touch it again. I was trembling too much." },
+          { "id": "4", "text": "We abandoned the attempt." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "The presence expelled me from the creature's mind." },
+          { "id": "4", "text": "The instability was so high that the seal almost swallowed us." },
+          { "id": "1", "text": "I just managed to pull the two of them and run." },
+          { "id": "3", "text": "We failed. But we will return." }
+        ],
+        "2_3_4": [
+          { "id": "3", "text": "The voices wept. I've never heard that before." },
+          { "id": "2", "text": "I said it wasn't possible. The seal wanted us out." },
+          { "id": "4", "text": "My energy didn't even scratch the core." },
+          { "id": "3", "text": "We retreated before something woke up." }
+        ],
+        "1_2_3_4": [
+          { "id": "3", "text": "The seal screamed upon our arrival, like a wounded creature." },
+          { "id": "4", "text": "My discharge came back as an inverted explosion." },
+          { "id": "2", "text": "I said: 'he's waking up'. It was the pure truth." },
+          { "id": "1", "text": "We fled before he escaped his prison." }
+        ]
+      }
+    }
+  },
+  "134": {
+    "success": {
+      "reporters": {
+        "1": { "id": "1", "text": "I carefully searched everywhere down there... or at least I tried. The elder kept watching, so I felt really tense, but I managed to move some boards and found the hidden room. There was a strange book there. I took it and put everything back in place before climbing up." },
+        "2": { "id": "2", "text": "I followed the elder's instructions and only searched in the spots he said weren't sacred. I ended up finding a hidden door in the floor. The book was there, full of heavy symbols... I didn't like it, but I delivered it as instructed." },
+        "3": { "id": "3", "text": "The voices guided me through the corridors. They told me not to touch the walls, only the floor. When the false door gave way, the necromantic book was there, quiet, waiting. I brought it up... but it was watching me the whole time." },
+        "4": { "id": "4", "text": "The energy there was so concentrated it seemed to scream. I spent hours calculating magical patterns and discovered the hidden room. Inside, I found the necromantic book. I didn't like it... but it was clearly what we were looking for." }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "I followed the traces of ancient construction and found the false door. Lyra lifted the cover as if it were light." },
+          { "id": "1", "text": "She found it too quickly... I just held the weight of the floor. The book was well hidden." },
+          { "id": "2", "text": "We took the book and left everything in the same place, as the elder requested." },
+          { "id": "1", "text": "He was relieved when we returned everything correctly." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "The voices said where to step. Lyra opened the floor plate as if it were thin wood." },
+          { "id": "1", "text": "I just pushed... it was heavy, but it worked." },
+          { "id": "3", "text": "The necromantic book was staring at me. I preferred not to touch it more than necessary." },
+          { "id": "1", "text": "I just wanted to get out of there quickly." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "I detected a weak magical barrier. Lyra broke the seal without even noticing." },
+          { "id": "1", "text": "Sorry... I just pushed slowly." },
+          { "id": "4", "text": "The book was protected by ancient runes. I deactivated them while she waited uncomfortably." },
+          { "id": "1", "text": "At least we found what they wanted." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "I searched for mechanisms and Kael was following some instructions... of his own." },
+          { "id": "3", "text": "I followed the voices. They told me to lift the wrong cover first... but the right one afterward." },
+          { "id": "2", "text": "We opened the hidden room and the necromantic book was there." },
+          { "id": "3", "text": "It doesn't like light. But it came with us." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "I identified small cracks that didn't belong to the construction. Leonardo analyzed the rest." },
+          { "id": "4", "text": "The runes revealed the passage. I just had to dissolve the barrier." },
+          { "id": "2", "text": "The book was hidden in a battered box, but protected." },
+          { "id": "4", "text": "We brought it to deliver to the elder." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voices were restless. Leonardo said they were arcane fluctuations." },
+          { "id": "4", "text": "Because they were indeed. I found the critical point and opened the room." },
+          { "id": "3", "text": "The necromantic book was trying to whisper. I didn't listen." },
+          { "id": "4", "text": "Still, it was better to take it out of there." }
+        ],
+        "1_2_3": [
+          { "id": "2", "text": "I found the mechanisms and indicated where Lyra should pull." },
+          { "id": "1", "text": "I opened the false door. It was heavy... sorry." },
+          { "id": "3", "text": "The necromantic book was restless, but we brought it carefully." },
+          { "id": "2", "text": "We delivered everything without touching what we shouldn't." }
+        ],
+        "1_2_4": [
+          { "id": "4", "text": "I detected the runes. Elara found the physical mechanism." },
+          { "id": "2", "text": "Lyra opened the passage as if it were nothing." },
+          { "id": "1", "text": "I tried to do it slowly..." },
+          { "id": "4", "text": "The book was intact, and we delivered it as such." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "The voices showed the exact location of the passage." },
+          { "id": "4", "text": "I matched Kael's predictions with mine and they coincided. We opened the door." },
+          { "id": "1", "text": "The book was there... it gave me a shiver." },
+          { "id": "4", "text": "But we managed to retrieve it without breaking anything." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "Each of us found a different clue and we put them together." },
+          { "id": "3", "text": "The floor was breathing. It was there." },
+          { "id": "4", "text": "I unlocked the seal and we opened the room." },
+          { "id": "2", "text": "We took the book and came back." }
+        ],
+        "1_2_3_4": [
+          { "id": "4", "text": "We combined our magical readings and found the exact spot." },
+          { "id": "2", "text": "I identified the physical mechanism of the hidden door." },
+          { "id": "1", "text": "I opened it... a bit clumsily, but it worked." },
+          { "id": "3", "text": "The necromantic book was alive in a strange way. But it came with us." }
+        ]
+      }
+    },
+    "failure": {
+      "reporters": {
+        "1": { "id": "1", "text": "I tried to help look, but I think I just got in the way. The elder wasn't angry... just disappointed. We didn't find anything down there." },
+        "2": { "id": "2", "text": "I did everything he asked, but I didn't find any passage. I feel like I kept the elder waiting too long... with no result." },
+        "3": { "id": "3", "text": "The voices didn't want me to open anything. They said it was dangerous. I didn't find the room. The elder didn't seem surprised." },
+        "4": { "id": "4", "text": "I calculated everything, checked everything... and still couldn't find the secret room. Something was hiding everything from us." }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "We searched all possible spots, but nothing opened." },
+          { "id": "1", "text": "I tried to help, but I shouldn't have touched some things." },
+          { "id": "2", "text": "In the end, we left empty-handed." },
+          { "id": "1", "text": "The elder just thanked us anyway." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "The voices said it wasn't the right time." },
+          { "id": "1", "text": "I couldn't find any secret door." },
+          { "id": "3", "text": "Maybe it didn't want to be found today." },
+          { "id": "1", "text": "We returned with nothing." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "The runes were too faded to read." },
+          { "id": "1", "text": "I tried to force some stones... but nothing opened." },
+          { "id": "4", "text": "We returned and reported that we didn't find the room." },
+          { "id": "1", "text": "It wasn't our best mission." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "We followed all the elder's clues, but none led to anything concrete." },
+          { "id": "3", "text": "The voices were silent. That's never good." },
+          { "id": "2", "text": "We didn't find the book." },
+          { "id": "3", "text": "We returned with a strange emptiness." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "I checked all the structures. Nothing gave way." },
+          { "id": "4", "text": "I tried to read the runes, but everything seemed dead." },
+          { "id": "2", "text": "We left without finding the room." },
+          { "id": "4", "text": "The elder just thanked us for the attempt." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voices were mute. I didn't like that." },
+          { "id": "4", "text": "The magical readings were contradictory." },
+          { "id": "3", "text": "No door manifested." },
+          { "id": "4", "text": "We returned with no results." }
+        ],
+        "1_2_3": [
+          { "id": "2", "text": "Even with three people searching, we didn't find anything useful." },
+          { "id": "3", "text": "The voices were restless. Maybe it was a warning." },
+          { "id": "1", "text": "Sorry... I think I touched the wrong place a few times." },
+          { "id": "2", "text": "In the end, we left without finding the book." }
+        ],
+        "1_2_4": [
+          { "id": "4", "text": "I miscalculated the discharge. The glyph absorbed everything and returned it, blinding me for a few seconds." },
+          { "id": "2", "text": "I tried to find the mechanism, but there was nothing there." },
+          { "id": "4", "text": "The runes weren't responding, as if they were dead." },
+          { "id": "1", "text": "I think I just got in the way while searching." },
+          { "id": "4", "text": "We didn't find the room." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "Nothing responded to my strange prayers." },
+          { "id": "4", "text": "And nothing responded to my arcane analyses either." },
+          { "id": "1", "text": "We returned without opening any door." },
+          { "id": "3", "text": "The book didn't want to be found." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "We checked everything that could be moved without being disrespectful." },
+          { "id": "3", "text": "The floor wasn't speaking. The voices weren't either." },
+          { "id": "4", "text": "The magic was extinguished." },
+          { "id": "2", "text": "We didn't find the secret room." }
+        ],
+        "1_2_3_4": [
+          { "id": "4", "text": "Even with everyone together, it wasn't possible to identify the passage." },
+          { "id": "2", "text": "We searched for hours." },
+          { "id": "1", "text": "We tried everything we could." },
+          { "id": "3", "text": "And in the end, the book remained hidden." }
+        ]
+      }
+    }
+  },
+  "135": {
+    "success": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "When I arrived, the dead were already rising. I charged forward before thinking too much and managed to take down all those who reached the gates. The tribe managed to breathe again... and I'm still shaking a little."
+        },
+        "2": {
+          "id": "2",
+          "text": "I had never seen anything like it. Even scared, I quickly attacked those trying to reach the huts. Saving the people... that was worth every hasty step I took through the flames."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voices screamed as I pushed back the dead, but this time they wanted the same thing as me. To help the tribe. And we succeeded. I just hope the silence doesn't feel too heavy afterward."
+        },
+        "4": {
+          "id": "4",
+          "text": "It was chaotic, but I managed to control the lightning without hitting any living person. The dead fell one by one, and the tribe fled to the safe area. I can still feel the electrical discharges running through my fingers."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "1", "text": "I charged through the middle of the dead before they could reach the huts." },
+          { "id": "2", "text": "I took care of those who slipped through the sides. They were fast... but not faster than me." },
+          { "id": "1", "text": "The tribe managed to escape while we held the line." },
+          { "id": "2", "text": "It worked. And everyone got out alive. That's what mattered." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "The voices were desperate for me to act. And Lyra went first, as always." },
+          { "id": "1", "text": "I just followed... there was no room to hesitate with people screaming behind us." },
+          { "id": "3", "text": "We sealed part of the ground and the dead stopped rising." },
+          { "id": "1", "text": "The tribe was safe. And that was a huge relief." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "I opened the way with controlled lightning. Lyra broke through the line and took down the rest." },
+          { "id": "1", "text": "I did what I could... and I think it worked well." },
+          { "id": "4", "text": "We led the survivors to the safe area." },
+          { "id": "1", "text": "At least no one else rose after that." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "I moved the families out of the way while Kael held the dead in the center." },
+          { "id": "3", "text": "They came in waves, but I managed to push back those who got too close." },
+          { "id": "2", "text": "In the end, all that remained was silence and living people to tell the tale." },
+          { "id": "3", "text": "The voices approved. That gives me peace, for now." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "I dodged the dead and prevented them from reaching the last huts." },
+          { "id": "4", "text": "I electrified the surrounding ground to stop them from advancing." },
+          { "id": "2", "text": "It worked. The tribe barely escaped." },
+          { "id": "4", "text": "And no survivor was hit by my spells. That's a victory in itself." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voices screamed directions and Leonardo threw lightning where I pointed." },
+          { "id": "4", "text": "It was a strange synchrony... but it worked perfectly." },
+          { "id": "3", "text": "We managed to close the passage where the dead were coming from." },
+          { "id": "4", "text": "The tribe was safe behind us. That was enough." }
+        ],
+        "1_2_3": [
+          { "id": "2", "text": "I moved the survivors out of the way while they held off the dead." },
+          { "id": "1", "text": "I took down the closest ones before they could reach anyone." },
+          { "id": "3", "text": "And I distracted the last ones using a little faith and a lot of borrowed courage." },
+          { "id": "2", "text": "In the end, everyone got out alive. It was intense, but worth it." }
+        ],
+        "1_2_4": [
+          { "id": "4", "text": "I adjusted my spells not to hit anyone from the tribe." },
+          { "id": "2", "text": "I finished off those who escaped the discharges." },
+          { "id": "1", "text": "And I held the front line... shaking a bit, but it worked." },
+          { "id": "4", "text": "The tribe survived because everyone here did their part." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "The voices said to keep the center closed." },
+          { "id": "4", "text": "I took care of the flanks with well-dosed lightning." },
+          { "id": "1", "text": "And I attacked the rest with everything I had." },
+          { "id": "3", "text": "The dead stopped... and the living breathed again." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "I circled the huts and moved people out of danger." },
+          { "id": "3", "text": "I held the dead coming from the center." },
+          { "id": "4", "text": "And I finished off the remaining ones with short discharges." },
+          { "id": "2", "text": "In the end, no one from the tribe fell. That makes the day worthwhile." }
+        ],
+        "1_2_3_4": [
+          { "id": "4", "text": "I closed half the route with controlled electricity." },
+          { "id": "2", "text": "I moved the families out of the way." },
+          { "id": "1", "text": "I went to the front and took down as many as I could." },
+          { "id": "3", "text": "And together, we put down the dead before they put down the tribe." }
+        ]
+      }
+    },
+
+    "failure": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "When I arrived, it was already late. I tried... I tried hard, but I couldn't stop some from being reached. The feeling of being too slow is still stuck in my chest."
+        },
+        "2": {
+          "id": "2",
+          "text": "I did everything correctly, every step, every blow... but it wasn't enough. The tribe lost too many people before we arrived. I hate to admit it."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voices were in a panic, and so was I. We fought, yes, but the pain that remained in the settlement... we couldn't prevent everything. The voices are still mourning."
+        },
+        "4": {
+          "id": "4",
+          "text": "I couldn't control my spells in time. Some died before we got close enough to help. The mathematics of disaster is awful."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "We arrived running, but the dead were already in the middle of the huts." },
+          { "id": "1", "text": "I tried to open the way, but I tripped over fallen people." },
+          { "id": "2", "text": "We did what we could... it just wasn't enough." },
+          { "id": "1", "text": "The silence afterward was terrible." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "The voices screamed to go faster." },
+          { "id": "1", "text": "I could only see people running and falling." },
+          { "id": "3", "text": "We stopped the dead... but too late." },
+          { "id": "1", "text": "The feeling of failing like this... it hurts." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "I miscalculated and didn't arrive in time to protect everyone." },
+          { "id": "1", "text": "I tried to cover as much as I could, but it didn't work." },
+          { "id": "4", "text": "When we finished, the damage was already done." },
+          { "id": "1", "text": "I didn't want it to be like this." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "We arrived in a hurry, but the dead were already invading." },
+          { "id": "3", "text": "I tried to hold them back with prayers, but it was no use." },
+          { "id": "2", "text": "People fell right in front of us." },
+          { "id": "3", "text": "The voices are crying with me." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "I tried to move the families out of the way, but some were caught." },
+          { "id": "4", "text": "I missed the focus and lost important seconds." },
+          { "id": "2", "text": "Those seconds cost lives." },
+          { "id": "4", "text": "I shouldn't have failed like that." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voices became too confused." },
+          { "id": "4", "text": "I tried to compensate, but my magic was slow." },
+          { "id": "3", "text": "Some were reached before we arrived." },
+          { "id": "4", "text": "And there's no arrangement that can fix that." }
+        ],
+        "1_2_3": [
+          { "id": "2", "text": "Even together, we arrived too late." },
+          { "id": "1", "text": "I opened the way, but there were already people fallen." },
+          { "id": "3", "text": "The voices begged for forgiveness for me." },
+          { "id": "2", "text": "And we had to accept the failure." }
+        ],
+        "1_2_4": [
+          { "id": "4", "text": "My discharges didn't reach in time." },
+          { "id": "2", "text": "I saw people being dragged away..." },
+          { "id": "1", "text": "I tried to run to them... but I lost." },
+          { "id": "4", "text": "It was too ugly a defeat." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "The voices panicked when we saw the damage." },
+          { "id": "4", "text": "I quickly calculated what could be saved... and it was little." },
+          { "id": "1", "text": "We fought with everything, it just wasn't enough." },
+          { "id": "3", "text": "And the silence that remained weighs even more heavily." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "We tried to divide the tasks, but we arrived late." },
+          { "id": "3", "text": "The voices told me to run faster... I ran." },
+          { "id": "4", "text": "I finished off the dead, but they had already taken people away." },
+          { "id": "2", "text": "There's no way to soften this. We failed." }
+        ],
+        "1_2_3_4": [
+          { "id": "4", "text": "Even with all of us together, we couldn't save everyone." },
+          { "id": "2", "text": "I tried to move the families out of the way... but not all of them managed to escape." },
+          { "id": "1", "text": "I attacked as much as I could, until my arms locked up." },
+          { "id": "3", "text": "Still, we arrived late. And we all feel it." }
+        ]
+      }
+    }
+  },
+
+  "136": {
+    "success": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "I held the line as much as I could. The Silver Sword was fighting the Lich just ahead, and seeing that gave me the strength to continue. They looked like living walls... and I tried to keep up, even if my legs were shaking."
+        },
+        "2": {
+          "id": "2",
+          "text": "I had never seen warriors like those from the Silver Sword. They simply charged the Lich without hesitation. That helped me stay focused. I did my part and prevented any dead from reaching the survivors."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voices became calmer when they saw the Silver Sword facing the Lich. They said that group shone... even when surrounded by darkness. We held the rest, and it worked."
+        },
+        "4": {
+          "id": "4",
+          "text": "While the Silver Sword faced the Lich, I had to recalculate my spells many times to control the waves of the dead. Their precision on the front line... it was impressive. I did my best to keep the pace."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "1", "text": "I stayed on the front line, trying to match the way the Silver Sword held the Lich." },
+          { "id": "2", "text": "I hit the dead who tried to advance on the flanks. They fought as if they were five warriors in one." },
+          { "id": "1", "text": "Seeing that helped me not to retreat." },
+          { "id": "2", "text": "And in the end... no one got past us." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "The voices said the Silver Sword shone, even facing that enormous creature." },
+          { "id": "1", "text": "I tried to hold the line like them... even while being nervous." },
+          { "id": "3", "text": "We held well until the end." },
+          { "id": "1", "text": "I think... we lived up to their effort." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "I adjusted my spells to keep up with the rhythm of the Silver Sword, who held the Lich without backing down." },
+          { "id": "1", "text": "And I destroyed the dead who got too close." },
+          { "id": "4", "text": "They had an enviable precision." },
+          { "id": "1", "text": "And we didn't let the line fall." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "The Silver Sword charged the Lich with absurd courage. I used that to maintain focus." },
+          { "id": "3", "text": "The voices said we should imitate them, and we tried." },
+          { "id": "2", "text": "We held off the dead before they reached the survivors." },
+          { "id": "3", "text": "And that made a difference." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "Seeing the Silver Sword facing the Lich head-on was... inspiring." },
+          { "id": "4", "text": "I adjusted the lightning to match their pace." },
+          { "id": "2", "text": "We managed to secure all the escape routes." },
+          { "id": "4", "text": "A precise combat, even chaotic." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voices became calmer when they saw the Silver Sword warriors facing the Lich." },
+          { "id": "4", "text": "I adjusted the discharges to stabilize the defense as they did further ahead." },
+          { "id": "3", "text": "The dead lost strength after a while." },
+          { "id": "4", "text": "The line held. It was a relief." }
+        ],
+        "1_2_3": [
+          { "id": "2", "text": "The Silver Sword fought as if they had faced something like this before." },
+          { "id": "1", "text": "That made me want to fight better too." },
+          { "id": "3", "text": "The voices said to hold firm, and we held." },
+          { "id": "2", "text": "It was difficult... but we won." }
+        ],
+        "1_2_4": [
+          { "id": "4", "text": "I tried to follow the way the Silver Sword mages coordinated their spells." },
+          { "id": "2", "text": "They were impressive. But we held firm." },
+          { "id": "1", "text": "I applied force where they couldn't help." },
+          { "id": "4", "text": "And no one got past us." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "The voices were almost... proud, seeing the Silver Sword facing the Lich." },
+          { "id": "4", "text": "I used that to better focus on the spells." },
+          { "id": "1", "text": "And I held the strongest dead." },
+          { "id": "3", "text": "The defense remained intact. We succeeded." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "The Silver Sword warriors held the Lich in an absurd fight." },
+          { "id": "3", "text": "The voices said it was almost a dance of light and death." },
+          { "id": "4", "text": "I followed their rhythm to control the dead." },
+          { "id": "2", "text": "No one reached the survivors." }
+        ],
+        "1_2_3_4": [
+          { "id": "4", "text": "I coordinated my spells with the flow of the Silver Sword battle." },
+          { "id": "2", "text": "They were incredibly fast and firm." },
+          { "id": "1", "text": "I held the strongest dead before they could break the barricade." },
+          { "id": "3", "text": "And together, we kept everything standing." }
+        ]
+      }
+    },
+
+    "failure": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "Even seeing the Silver Sword facing the Lich... I couldn't hold the line like them. The dead got past me. And I still feel like I'm carrying every one of those lives in my arms."
+        },
+        "2": {
+          "id": "2",
+          "text": "I tried to keep up with the Silver Sword's pace, but they fought on a much higher level. When I realized it, the dead had already passed. And I... failed those who trusted me."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voices screamed that the Silver Sword was losing ground, and that made me panic. I missed directions, I missed prayers. And the dead reached those we were trying to protect."
+        },
+        "4": {
+          "id": "4",
+          "text": "I couldn't adjust my spells in time. There were too many of them, and they were fast. While the Silver Sword held the Lich, I lost control of my part of the line. And lives were lost."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "We tried to keep up with the Silver Sword's pace, but it was impossible." },
+          { "id": "1", "text": "I tried to hold the line like they did..." },
+          { "id": "2", "text": "But some dead got past us." },
+          { "id": "1", "text": "And I couldn't stop them." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "The voices became desperate seeing the Silver Sword being pressured." },
+          { "id": "1", "text": "I struck until my arms failed..." },
+          { "id": "3", "text": "And still they got past." },
+          { "id": "1", "text": "And now all that remains is the weight of this." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "I couldn't synchronize my spells with the Silver Sword's rhythm." },
+          { "id": "1", "text": "And I failed to hold the strongest dead." },
+          { "id": "4", "text": "They broke through exactly where I missed the calculation." },
+          { "id": "1", "text": "And that cost lives." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "I tried to follow the flow of the Silver Sword, but I failed." },
+          { "id": "3", "text": "The voices became too confused to help." },
+          { "id": "2", "text": "The dead reached people I was supposed to protect." },
+          { "id": "3", "text": "And nothing could be corrected afterward." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "I tried to intercept every dead one, but it was too fast." },
+          { "id": "4", "text": "And I missed two spells in a row trying to keep up with the Silver Sword mages." },
+          { "id": "2", "text": "Those mistakes opened the way for them." },
+          { "id": "4", "text": "It was a hard failure to bear." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voices screamed that the Silver Sword was losing ground." },
+          { "id": "4", "text": "I tried to adjust the lightning, but I was too slow." },
+          { "id": "3", "text": "The dead broke through our defense." },
+          { "id": "4", "text": "And we couldn't correct it." }
+        ],
+        "1_2_3": [
+          { "id": "2", "text": "The three of us tried to follow the pace of the other guild." },
+          { "id": "1", "text": "But I couldn't match their strength." },
+          { "id": "3", "text": "The voices were in a panic." },
+          { "id": "2", "text": "And the dead passed while we tried to react." }
+        ],
+        "1_2_4": [
+          { "id": "4", "text": "I missed predictions trying to keep up with the Silver Sword mages." },
+          { "id": "2", "text": "And I didn't reach the dead who escaped those failures." },
+          { "id": "1", "text": "I was overwhelmed trying to hold the rest." },
+          { "id": "4", "text": "And lives were lost because of it." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "The voices were chaotic seeing the Silver Sword's fight." },
+          { "id": "4", "text": "And I couldn't keep up with the pace of the dead." },
+          { "id": "1", "text": "They pushed me back..." },
+          { "id": "3", "text": "And we lost those we were trying to save." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "I ran as fast as I could... but I didn't reach everyone." },
+          { "id": "3", "text": "The light didn't hold the dead this time." },
+          { "id": "4", "text": "And my discharges didn't hold the tide." },
+          { "id": "2", "text": "It was a defeat we won't forget." }
+        ],
+        "1_2_3_4": [
+          { "id": "4", "text": "Even trying to match the Silver Sword's pace, we failed." },
+          { "id": "2", "text": "The dead reached people before I could act." },
+          { "id": "1", "text": "I tried to bar the strongest ones, but I was knocked down." },
+          { "id": "3", "text": "And the silence that remained... weighs on all of us." }
+        ]
+      }
+    }
+  },
+  "150": {
+    "success": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "I... went into the barn and it was quick. They all charged together, but it didn't last long. I was still shaking afterward, not from the fight... from the noise."
+        },
+        "2": {
+          "id": "2",
+          "text": "I cleared the aisles between the hay bales. It wasn't pretty, but it was straightforward. The barn was safe in the end."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voices said that wasn't normal. Rats don't move like that. Even after they were dead... something still felt wrong."
+        },
+        "4": {
+          "id": "4",
+          "text": "After it was over, I noticed mana residue on the bodies. It wasn't natural. Someone put it on them, with intent."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "1", "text": "I held the entrance while they came." },
+          { "id": "2", "text": "And I cleared between the grain sacks." },
+          { "id": "1", "text": "It ended quickly... too quickly." },
+          { "id": "2", "text": "But the barn stood." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "The voices warned before the group attack." },
+          { "id": "1", "text": "I just hit where they appeared." },
+          { "id": "3", "text": "Even dead, I didn't feel peace there." },
+          { "id": "1", "text": "Me neither." }
+        ],
+        "1_4": [
+          { "id": "1", "text": "After the fight, I thought it was over." },
+          { "id": "4", "text": "It wasn't over. There was mana trapped in the bodies." },
+          { "id": "1", "text": "So they weren't just rats..." },
+          { "id": "4", "text": "Definitely not." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "They surrounded us too fast for common animals." },
+          { "id": "3", "text": "The voices agreed. This was forced." },
+          { "id": "2", "text": "Someone wanted this." },
+          { "id": "3", "text": "And that worries me." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "The fight was simple, but strange." },
+          { "id": "4", "text": "Because there was mana infused into the rats." },
+          { "id": "2", "text": "So it wasn't accidental." },
+          { "id": "4", "text": "It was an experiment." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voices became agitated when they fell." },
+          { "id": "4", "text": "I detected unstable arcane residue." },
+          { "id": "3", "text": "That explains the behavior." },
+          { "id": "4", "text": "And raises new questions." }
+        ],
+        "1_2_3": [
+          { "id": "1", "text": "I held the center of the barn." },
+          { "id": "2", "text": "I cleared the flanks." },
+          { "id": "3", "text": "And I felt that wasn't natural." },
+          { "id": "1", "text": "In the end... we won." }
+        ],
+        "1_2_4": [
+          { "id": "2", "text": "The rats came in waves." },
+          { "id": "1", "text": "I withstood them all." },
+          { "id": "4", "text": "Afterward, I identified artificial mana in the bodies." },
+          { "id": "2", "text": "So this goes beyond the barn." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "The voices warned of something wrong." },
+          { "id": "4", "text": "And the bodies confirmed: infused mana." },
+          { "id": "1", "text": "I just know I fought." },
+          { "id": "3", "text": "But this was only the beginning." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "I ensured no rats escaped." },
+          { "id": "3", "text": "The voices became restless afterward." },
+          { "id": "4", "text": "Because the mana was still reacting." },
+          { "id": "2", "text": "Someone did this on purpose." }
+        ],
+        "1_2_3_4": [
+          { "id": "1", "text": "I held the frontal attack." },
+          { "id": "2", "text": "I took care of the sides." },
+          { "id": "3", "text": "The voices said that was wrong." },
+          { "id": "4", "text": "And the bodies proved it: there was infused mana." }
+        ]
+      }
+    },
+
+    "failure": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "I tried to hold the line... but they got past. When I realized it, it was already too late."
+        },
+        "2": {
+          "id": "2",
+          "text": "I miscalculated. Some rats escaped and the barn paid for it."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voices screamed warnings, but we couldn't contain everything. Something was left behind."
+        },
+        "4": {
+          "id": "4",
+          "text": "Even by defeating some, the mana in the bodies indicated that this won't stop here."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "1", "text": "I couldn't hold them all." },
+          { "id": "2", "text": "And some fled." },
+          { "id": "1", "text": "The barn suffered." },
+          { "id": "2", "text": "Too much." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "The voices warned too late." },
+          { "id": "1", "text": "I wasn't fast enough." },
+          { "id": "3", "text": "They escaped." },
+          { "id": "1", "text": "And that weighs on me." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "The mana was still reacting in the bodies." },
+          { "id": "1", "text": "So they were coming back?" },
+          { "id": "4", "text": "Or something worse." },
+          { "id": "1", "text": "Great..." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "We didn't close all the routes." },
+          { "id": "3", "text": "The voices fell silent afterward." },
+          { "id": "2", "text": "That's never good." },
+          { "id": "3", "text": "Never." }
+        ],
+        "2_4": [
+          { "id": "4", "text": "There was mana infused into the rats." },
+          { "id": "2", "text": "So this doesn't end here." },
+          { "id": "4", "text": "No." },
+          { "id": "2", "text": "Unfortunately." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voices became too agitated." },
+          { "id": "4", "text": "Because the mana didn't dissipate." },
+          { "id": "3", "text": "This will return." },
+          { "id": "4", "text": "I agree." }
+        ],
+        "1_2_3": [
+          { "id": "1", "text": "Even together, we failed." },
+          { "id": "2", "text": "Some got through." },
+          { "id": "3", "text": "And that will echo." },
+          { "id": "1", "text": "It will." }
+        ],
+        "1_2_4": [
+          { "id": "4", "text": "The mana indicated something bigger." },
+          { "id": "2", "text": "And we couldn't stop it." },
+          { "id": "1", "text": "That hurts to admit." },
+          { "id": "4", "text": "But it's true." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "The voices didn't stop." },
+          { "id": "4", "text": "And the mana persisted." },
+          { "id": "1", "text": "So we failed." },
+          { "id": "3", "text": "Yes." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "We couldn't contain it." },
+          { "id": "3", "text": "The voices warned of the mistake." },
+          { "id": "4", "text": "And the bodies confirmed it." },
+          { "id": "2", "text": "Defeat." }
+        ],
+        "1_2_3_4": [
+          { "id": "4", "text": "Even by defeating some, the mana remained active." },
+          { "id": "2", "text": "It wasn't enough." },
+          { "id": "1", "text": "We failed." },
+          { "id": "3", "text": "And that will take its toll." }
+        ]
+      }
+    }
+  },
+  "151": {
+    "success": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "I charged through the fields crushing whatever appeared. It was... noisy. The harvest survived, even if I prefer not to remember the sounds."
+        },
+        "2": {
+          "id": "2",
+          "text": "I did the job, but with extreme disgust. Overly large insects shouldn't exist. And they definitely shouldn't squirt when they die."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voices grew agitated near the bodies. It wasn't just exaggerated growth... something was pushing these creatures beyond the natural."
+        },
+        "4": {
+          "id": "4",
+          "text": "After the fight, I clearly felt mana infused into the insects. It wasn't natural adaptation. Someone altered these creatures."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "I still find the size of those things offensive." },
+          { "id": "1", "text": "I handled it quickly." },
+          { "id": "2", "text": "Too quickly... it splashed." },
+          { "id": "1", "text": "Sorry..." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "The voices warned where they would emerge." },
+          { "id": "1", "text": "So I struck those points." },
+          { "id": "3", "text": "It worked. But it still felt wrong." },
+          { "id": "1", "text": "It certainly did." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "The mana in the bodies was still reacting afterward." },
+          { "id": "1", "text": "So it wasn't just size." },
+          { "id": "4", "text": "No. It was interference." },
+          { "id": "1", "text": "That explains a lot." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "They came in groups. I hated that." },
+          { "id": "3", "text": "The voices said they were being guided." },
+          { "id": "2", "text": "Guided insects are even worse." },
+          { "id": "3", "text": "Agreed." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "I almost slipped on that stuff." },
+          { "id": "4", "text": "And I detected unstable mana in the remains." },
+          { "id": "2", "text": "Great. Magic insects." },
+          { "id": "4", "text": "Unfortunately." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voices became very restless after the fight." },
+          { "id": "4", "text": "Because the mana didn't dissipate properly." },
+          { "id": "3", "text": "So this continues." },
+          { "id": "4", "text": "Yes." }
+        ],
+        "1_2_3": [
+          { "id": "1", "text": "I held the main advance." },
+          { "id": "2", "text": "I took care of those crawling in." },
+          { "id": "3", "text": "And I felt it wasn't natural." },
+          { "id": "1", "text": "But we won." }
+        ],
+        "1_2_4": [
+          { "id": "2", "text": "This whole thing was disgusting." },
+          { "id": "1", "text": "But efficient." },
+          { "id": "4", "text": "And clearly caused by infused mana." },
+          { "id": "2", "text": "Someone needs to pay for this." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "The voices warned of something bigger." },
+          { "id": "4", "text": "And the bodies confirmed magical interference." },
+          { "id": "1", "text": "I just made sure none were left." },
+          { "id": "3", "text": "It was enough... for now." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "I never want to enter a field like this again." },
+          { "id": "3", "text": "The voices said this wasn't over." },
+          { "id": "4", "text": "The mana indicates the same." },
+          { "id": "2", "text": "Wonderful..." }
+        ],
+        "1_2_3_4": [
+          { "id": "1", "text": "I held the front line." },
+          { "id": "2", "text": "I dealt with the worst of the details." },
+          { "id": "3", "text": "The voices warned that something was guiding them." },
+          { "id": "4", "text": "And the mana in the bodies proved it." }
+        ]
+      }
+    },
+
+    "failure": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "I tried to hold the line, but they spread too fast. The crops suffered."
+        },
+        "2": {
+          "id": "2",
+          "text": "I did what I could, but some escaped. And honestly... it was horrible."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voices screamed warnings, but we couldn't contain everything. Something was left behind."
+        },
+        "4": {
+          "id": "4",
+          "text": "Even by defeating some, the mana in the bodies indicates that the problem persists."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "They got past us." },
+          { "id": "1", "text": "I couldn't stop them all." },
+          { "id": "2", "text": "The field paid for it." },
+          { "id": "1", "text": "Yes..." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "The voices warned too late." },
+          { "id": "1", "text": "I failed to hold the line." },
+          { "id": "3", "text": "They escaped." },
+          { "id": "1", "text": "Unfortunately." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "The mana was still reacting in the bodies." },
+          { "id": "1", "text": "So this will return?" },
+          { "id": "4", "text": "Probably." },
+          { "id": "1", "text": "Damn." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "I couldn't keep up with them all." },
+          { "id": "3", "text": "The voices grew agitated afterward." },
+          { "id": "2", "text": "That's never good." },
+          { "id": "3", "text": "Never." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "Magic insects... great." },
+          { "id": "4", "text": "Infused mana, yes." },
+          { "id": "2", "text": "And we failed." },
+          { "id": "4", "text": "We failed." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voices didn't stop." },
+          { "id": "4", "text": "Because the mana didn't dissipate." },
+          { "id": "3", "text": "This will continue." },
+          { "id": "4", "text": "I agree." }
+        ],
+        "1_2_3": [
+          { "id": "1", "text": "Even together, we failed." },
+          { "id": "2", "text": "Some escaped." },
+          { "id": "3", "text": "And that weighs on us." },
+          { "id": "1", "text": "A lot." }
+        ],
+        "1_2_4": [
+          { "id": "4", "text": "The mana indicated something bigger." },
+          { "id": "2", "text": "And we couldn't stop it." },
+          { "id": "1", "text": "That hurts to admit." },
+          { "id": "4", "text": "But it's true." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "The voices were chaotic." },
+          { "id": "4", "text": "And the mana persisted." },
+          { "id": "1", "text": "So we failed." },
+          { "id": "3", "text": "Yes." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "We couldn't contain it." },
+          { "id": "3", "text": "The voices warned of the mistake." },
+          { "id": "4", "text": "And the bodies confirmed it." },
+          { "id": "2", "text": "Defeat." }
+        ],
+        "1_2_3_4": [
+          { "id": "4", "text": "Even by defeating some, the mana remained active." },
+          { "id": "2", "text": "It wasn't enough." },
+          { "id": "1", "text": "We failed." },
+          { "id": "3", "text": "And that will take its toll." }
+        ]
+      }
+    }
+  },
+  "152": {
+    "success": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "They attacked in a group, without hesitation. I charged straight into the center of the pack to break their formation."
+        },
+        "2": {
+          "id": "2",
+          "text": "I hate to admit it, but it was disturbing. They moved as if they were coordinating everything. Animals don't do that."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voices grew restless when the first ones fell. They said something was pushing them... something that wasn't hunger."
+        },
+        "4": {
+          "id": "4",
+          "text": "After the fight, I clearly felt mana infused into the bodies. It wasn't enhanced instinct. It was direct interference."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "1", "text": "By breaking the pack, they lost their advantage." },
+          { "id": "2", "text": "Even so... that seemed rehearsed." },
+          { "id": "1", "text": "And that is not normal." },
+          { "id": "2", "text": "Not at all." }
+        ],
+        "1_3": [
+          { "id": "1", "text": "By breaking the pack, they lost their advantage." },
+          { "id": "3", "text": "The voices grew louder after their death." },
+          { "id": "1", "text": "And that is not normal." },
+          { "id": "3", "text": "The voices say not at all." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "I felt watched the whole time." },
+          { "id": "3", "text": "The voices grew louder after their death." },
+          { "id": "2", "text": "That's unnerving." },
+          { "id": "3", "text": "So this continues." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "The mana was still reacting in the muscles." },
+          { "id": "1", "text": "So it wasn't just aggression." },
+          { "id": "4", "text": "No. They were altered." },
+          { "id": "1", "text": "That explains the coordination." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "I felt watched the whole time." },
+          { "id": "4", "text": "Because they shared magical signals." },
+          { "id": "2", "text": "That's unnerving." },
+          { "id": "4", "text": "Agreed." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voices grew louder after their death." },
+          { "id": "4", "text": "The mana didn't dissipate properly." },
+          { "id": "3", "text": "So this continues." },
+          { "id": "4", "text": "Unfortunately, yes." }
+        ],
+        "1_2_3": [
+          { "id": "1", "text": "When I broke the advance, they hesitated." },
+          { "id": "2", "text": "Even so, they reacted together too fast." },
+          { "id": "3", "text": "The voices said someone taught them this." },
+          { "id": "2", "text": "Teaching animals... that doesn't sound right." }
+        ],
+        "1_2_4": [
+          { "id": "1", "text": "Strength solved the combat." },
+          { "id": "4", "text": "But it doesn't explain the coordination." },
+          { "id": "2", "text": "So it wasn't natural behavior." },
+          { "id": "4", "text": "No. It was applied mana." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "The voices grew agitated near the bodies." },
+          { "id": "4", "text": "The mana reacted even after death." },
+          { "id": "1", "text": "So this didn't start here." },
+          { "id": "3", "text": "No... it came from outside." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "They surrounded us without missing a step." },
+          { "id": "3", "text": "The voices called this unholy training." },
+          { "id": "4", "text": "Technically, it makes sense." },
+          { "id": "2", "text": "Which only makes everything worse." }
+        ],
+        "1_2_3_4": [
+          { "id": "1", "text": "I held the main advance." },
+          { "id": "2", "text": "They barely missed any attacks." },
+          { "id": "3", "text": "The voices said they were being guided." },
+          { "id": "4", "text": "And the mana in the bodies confirmed it." }
+        ]
+      }
+    },
+    "failure": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "They retreated in order. We couldn't stop them all."
+        },
+        "2": {
+          "id": "2",
+          "text": "Some fled together. Even in retreat, they were coordinated."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voices warned that this hadn't ended there."
+        },
+        "4": {
+          "id": "4",
+          "text": "The infused mana indicates that other packs might exist."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "They escaped in formation." },
+          { "id": "1", "text": "I couldn't break everything." }
+        ],
+        "1_3": [
+          { "id": "1", "text": "So we failed to contain them." },
+          { "id": "3", "text": "Yes... and this will return." }
+        ],
+        "2_3": [
+          { "id": "3", "text": "The voices said it was intentional." },
+          { "id": "2", "text": "So someone wanted them to escape." }
+        ],
+        "1_4": [
+          { "id": "1", "text": "I couldn't break everything." },
+          { "id": "4", "text": "And the mana suggests repetition." }
+        ],
+        "2_4": [
+          { "id": "4", "text": "And the mana suggests repetition." },
+          { "id": "2", "text": "This is a serious problem." }
+        ],
+        "3_4": [
+          { "id": "4", "text": "The mana didn't disappear." },
+          { "id": "3", "text": "The voices said it was intentional." }
+        ],
+        "1_2_4": [
+          { "id": "2", "text": "They escaped in formation." },
+          { "id": "1", "text": "I couldn't break everything." },
+          { "id": "4", "text": "And the mana suggests repetition." },
+          { "id": "2", "text": "This is a serious problem." }
+        ],
+        "1_2_3": [
+          { "id": "2", "text": "They regrouped too quickly." },
+          { "id": "1", "text": "I couldn't prevent the escape." },
+          { "id": "3", "text": "The voices laughed about it." },
+          { "id": "2", "text": "That worries me." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "The voices went on high alert." },
+          { "id": "4", "text": "Because the source of the mana still exists." },
+          { "id": "1", "text": "So we failed to contain them." },
+          { "id": "3", "text": "Yes... and this will return." }
+        ],
+        "2_3_4": [
+          { "id": "4", "text": "The mana didn't disappear." },
+          { "id": "3", "text": "The voices said it was intentional." },
+          { "id": "2", "text": "So someone wanted them to escape." },
+          { "id": "4", "text": "It's the logical conclusion." }
+        ],
+        "1_2_3_4": [
+          { "id": "3", "text": "The voices went on high alert." },
+          { "id": "4", "text": "Because the source of the mana still exists." },
+          { "id": "1", "text": "So we failed to contain them." },
+          { "id": "2", "text": "And this will return." }
+        ]
+      }
+    }
+  },
+  "163": {
+    "success": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "When I touched the stomach, I felt something strange, too heavy. I didn't understand why, I just knew it wasn't normal."
+        },
+        "2": {
+          "id": "2",
+          "text": "I opened it carefully and was honest with myself: there was residue glowing where it shouldn't be. I can't explain magic, but it looked like it had been swallowed."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voices grew restless near the abdomen. They said the hunger wasn't for flesh. I couldn't explain it better, I just felt that something had been consumed there."
+        },
+        "4": {
+          "id": "4",
+          "text": "I analyzed the residues in the stomach, and the pattern was clear. The mana was not injected or corrupted externally. It was ingested, metabolized, and left behind only degraded traces. The creature fed on mana."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "I opened it carefully and saw strange residues in the stomach. It didn't look like an injury or cast magic." },
+          { "id": "1", "text": "When I held the body, I felt that part was too heavy." },
+          { "id": "2", "text": "I spoke the truth: it looked like something had been consumed inside there." },
+          { "id": "1", "text": "We didn't understand how, but we could tell it wasn't natural." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "The voices grew agitated when we reached the stomach." },
+          { "id": "1", "text": "I felt a strange discomfort just by touching it." },
+          { "id": "3", "text": "They spoke of hunger, not injury." },
+          { "id": "1", "text": "I left with the feeling that something had been swallowed there." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "I examined the stomach and identified residues of degraded mana." },
+          { "id": "1", "text": "I just helped hold it, but it felt wrong." },
+          { "id": "4", "text": "The pattern indicated ingestion, not external exposure." },
+          { "id": "1", "text": "It was terrifying to hear that explained so clearly." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "I opened it and saw something glowing where it shouldn't be." },
+          { "id": "3", "text": "The voices said that had been consumed." },
+          { "id": "2", "text": "I was honest: it looked like the creature had eaten magic." },
+          { "id": "3", "text": "We couldn't explain the how, just the signal." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "I noticed residues in the stomach and said so immediately." },
+          { "id": "4", "text": "I analyzed it and confirmed the mana was ingested." },
+          { "id": "2", "text": "I didn't understand the process, I just trusted the analysis." },
+          { "id": "4", "text": "The energetic signature left no doubt." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voices focused on the stomach." },
+          { "id": "4", "text": "I examined the residues and recognized the pattern." },
+          { "id": "3", "text": "They said the hunger was arcane." },
+          { "id": "4", "text": "I concluded that the creature fed on mana." }
+        ],
+        "1_2_3": [
+          { "id": "2", "text": "I found strange residues upon opening." },
+          { "id": "1", "text": "The weight of the stomach didn't make sense." },
+          { "id": "3", "text": "The voices spoke of consumption." },
+          { "id": "2", "text": "Luckily we put the right clues together." }
+        ],
+        "1_2_4": [
+          { "id": "4", "text": "I identified residues of ingested mana." },
+          { "id": "2", "text": "I just observed and said what I saw." },
+          { "id": "1", "text": "I helped hold it and got nervous." },
+          { "id": "4", "text": "The conclusion came from the arcane analysis." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "The voices pointed out the right spot." },
+          { "id": "4", "text": "I examined it and recognized mana ingestion." },
+          { "id": "1", "text": "I didn't understand, I just felt fear." },
+          { "id": "4", "text": "I explained that the creature fed on magic." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "I saw residues and spoke up immediately." },
+          { "id": "3", "text": "The voices confirmed something was consumed." },
+          { "id": "4", "text": "The analysis closed the energetic pattern." },
+          { "id": "2", "text": "It was strange, but it made sense in the end." }
+        ],
+        "1_2_3_4": [
+          { "id": "4", "text": "I connected all the signs and confirmed mana ingestion." },
+          { "id": "2", "text": "I said exactly what I saw, nothing more." },
+          { "id": "3", "text": "The voices agreed, in heavy silence." },
+          { "id": "1", "text": "I left shaking. I didn't like knowing that was possible." }
+        ]
+      }
+    },
+    "failure": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "I handled the body carefully, but something in the stomach reacted badly. I got nervous and stopped before causing more damage. I couldn't understand what was happening."
+        },
+        "2": {
+          "id": "2",
+          "text": "I opened it carefully, but the interior was too unstable. I was honest with myself: it wasn't possible to continue without risk. I closed everything without discovering the cause."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voices became confused and started overlapping. They didn't indicate anything clearly. We retreated before things got worse."
+        },
+        "4": {
+          "id": "4",
+          "text": "I tried to analyze the residues, but the internal structure collapsed before I could conclude any pattern. The data was incomplete. It was not possible to reach a conclusion."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "I started to open it, but the internal structure gave way." },
+          { "id": "1", "text": "I tried to hold it, but I was afraid of breaking everything." },
+          { "id": "2", "text": "I spoke the truth: it was risky to continue." },
+          { "id": "1", "text": "We left without discovering anything." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "The voices became confused when we approached." },
+          { "id": "1", "text": "I felt something would go wrong if we insisted." },
+          { "id": "3", "text": "There was no clear guidance." },
+          { "id": "1", "text": "We returned without an answer." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "The analysis began, but the interior lost stability." },
+          { "id": "1", "text": "I tried to help, but I got too nervous." },
+          { "id": "4", "text": "I couldn't collect enough data." },
+          { "id": "1", "text": "We left before making it worse." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "I opened it, but something reacted badly." },
+          { "id": "3", "text": "The voices didn't agree with each other." },
+          { "id": "2", "text": "I was sincere: it wasn't possible to continue." },
+          { "id": "3", "text": "We retreated without understanding." }
+        ],
+        "2_4": [
+          { "id": "4", "text": "The internal pattern broke before the full reading." },
+          { "id": "2", "text": "I said to stop immediately." },
+          { "id": "4", "text": "The analysis was inconclusive." },
+          { "id": "2", "text": "We closed it without answers." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voices grew too agitated." },
+          { "id": "4", "text": "This disrupted the concentration of the analysis." },
+          { "id": "3", "text": "They didn't indicate anything useful." },
+          { "id": "4", "text": "We retreated without concluding." }
+        ],
+        "1_2_3": [
+          { "id": "2", "text": "The opening didn't remain stable." },
+          { "id": "1", "text": "I tried to hold it, but I shook." },
+          { "id": "3", "text": "The voices didn't help." },
+          { "id": "2", "text": "Everything was interrupted." }
+        ],
+        "1_2_4": [
+          { "id": "4", "text": "The analysis was interrupted by internal collapse." },
+          { "id": "2", "text": "I said to stop immediately." },
+          { "id": "1", "text": "I couldn't continue." },
+          { "id": "4", "text": "We were left without a conclusion." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "The voices started confusing everything." },
+          { "id": "4", "text": "This broke my line of analysis." },
+          { "id": "1", "text": "I was afraid of making it worse." },
+          { "id": "3", "text": "We returned without an answer." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "Something reacted badly when we opened it." },
+          { "id": "3", "text": "The voices became chaotic." },
+          { "id": "4", "text": "I couldn't close the pattern." },
+          { "id": "2", "text": "We ended without result." }
+        ],
+        "1_2_3_4": [
+          { "id": "4", "text": "The structure collapsed before the complete analysis." },
+          { "id": "2", "text": "I said to stop immediately." },
+          { "id": "3", "text": "The voices suddenly fell silent." },
+          { "id": "1", "text": "We left without discovering anything." }
+        ]
+      }
+    }
+  },
+  "153": {
+    "success": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "I faced the boar near the broken fences. It charged without any fear. I used full force to bring it down quickly before anyone got hurt worse."
+        },
+        "2": {
+          "id": "2",
+          "text": "I intercepted the boar before it reached the houses. It attacked too aggressively for an ordinary animal. I was direct and ended the combat."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voices screamed when the final blow fell. They said there was still a consciousness there, trapped and confused. The body fell, but something inside it seemed to quiet down afterward."
+        },
+        "4": {
+          "id": "4",
+          "text": "I analyzed the behavior during combat. The aggression and resistance extrapolated natural standards. We eliminated the threat before it reached the town."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "1", "text": "The boar came straight at us. I held the impact and created space." },
+          { "id": "2", "text": "I took advantage of the opening and attacked the most exposed points." },
+          { "id": "1", "text": "It fell after resisting more than it should have." },
+          { "id": "2", "text": "The threat was eliminated." }
+        ],
+        "1_3": [
+          { "id": "1", "text": "It charged with absurd strength. I endured the attack." },
+          { "id": "3", "text": "The voices screamed that thing was still thinking." },
+          { "id": "1", "text": "Even so, I brought the boar down." },
+          { "id": "3", "text": "When it fell, the voices fell into a heavy silence." }
+        ],
+        "1_4": [
+          { "id": "1", "text": "I held the initial attack and kept it away from the farms." },
+          { "id": "4", "text": "I observed the movement patterns and indicated the right moment." },
+          { "id": "1", "text": "I used full force to finish it." },
+          { "id": "4", "text": "The creature fell before advancing further." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "I lured the boar away from the workers." },
+          { "id": "3", "text": "The voices said it felt fear mixed with rage." },
+          { "id": "2", "text": "I attacked when it hesitated." },
+          { "id": "3", "text": "When it fell, something conscious seemed to fade out." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "I kept the boar moving to prevent greater damage." },
+          { "id": "4", "text": "I analyzed the rhythm and calculated the best moment to strike." },
+          { "id": "2", "text": "Finished the combat quickly." },
+          { "id": "4", "text": "The threat was neutralized." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voices were agitated from the start of the fight." },
+          { "id": "4", "text": "The behavior indicated something beyond animal instinct." },
+          { "id": "3", "text": "They said there was thought trapped in the flesh." },
+          { "id": "4", "text": "We brought down the boar before it reached the city." }
+        ],
+        "1_2_3": [
+          { "id": "1", "text": "I held the boar's advance." },
+          { "id": "2", "text": "I attacked the flanks to reduce its movement." },
+          { "id": "3", "text": "The voices screamed that thing still understood what was happening." },
+          { "id": "1", "text": "The final blow brought the creature down." }
+        ],
+        "1_2_4": [
+          { "id": "1", "text": "I kept the boar away from the houses." },
+          { "id": "2", "text": "I cut off its escape routes." },
+          { "id": "4", "text": "I identified the exact moment to strike." },
+          { "id": "1", "text": "It fell after resisting too much." }
+        ],
+        "1_3_4": [
+          { "id": "1", "text": "The impact nearly threw me to the ground, but I held on." },
+          { "id": "3", "text": "The voices said it was still conscious." },
+          { "id": "4", "text": "The movement pattern confirmed something abnormal." },
+          { "id": "1", "text": "I used full force to end the fight." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "I kept the boar focused on me." },
+          { "id": "3", "text": "The voices spoke of pain and confusion." },
+          { "id": "4", "text": "The resistance indicated external influence." },
+          { "id": "2", "text": "Finished the combat quickly." }
+        ],
+        "1_2_3_4": [
+          { "id": "1", "text": "I held its strongest attack." },
+          { "id": "2", "text": "I took advantage of every opening." },
+          { "id": "3", "text": "The voices cried out when it fell." },
+          { "id": "4", "text": "The threat was eliminated before reaching the town." }
+        ]
+      }
+    },
+    "failure": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "I tried to face the boar, but it was too strong at that moment. I was forced to retreat to prevent anyone from getting hurt."
+        },
+        "2": {
+          "id": "2",
+          "text": "I tried to intercept, but it broke through the defenses and fled. I was honest: I couldn't stop the creature."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voices screamed in panic. They said the consciousness there was out of control. We retreated before it got worse."
+        },
+        "4": {
+          "id": "4",
+          "text": "I analyzed the situation, but the strength and aggression surpassed our capacity at that moment. The creature escaped."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "1", "text": "I tried to hold the initial attack." },
+          { "id": "2", "text": "It broke through and advanced anyway." },
+          { "id": "1", "text": "We retreated to avoid casualties." },
+          { "id": "2", "text": "The creature escaped." }
+        ],
+        "1_3": [
+          { "id": "1", "text": "The impact was too strong to hold position." },
+          { "id": "3", "text": "The voices screamed that thing was still thinking." },
+          { "id": "1", "text": "We retreated to avoid worsening the situation." },
+          { "id": "3", "text": "The boar fled." }
+        ],
+        "1_4": [
+          { "id": "1", "text": "I couldn't contain the advance." },
+          { "id": "4", "text": "The strength extrapolated the calculations." },
+          { "id": "1", "text": "It was necessary to retreat." },
+          { "id": "4", "text": "The creature escaped." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "I tried to maintain distance." },
+          { "id": "3", "text": "The voices screamed confusedly." },
+          { "id": "2", "text": "I couldn't finish it." },
+          { "id": "3", "text": "It fled." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "It broke the containment line." },
+          { "id": "4", "text": "There was no time to adjust the strategy." },
+          { "id": "2", "text": "We retreated." },
+          { "id": "4", "text": "The threat was not eliminated." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voices panicked." },
+          { "id": "4", "text": "The situation got out of control." },
+          { "id": "3", "text": "Something conscious was still screaming." },
+          { "id": "4", "text": "The boar escaped." }
+        ],
+        "1_2_3": [
+          { "id": "1", "text": "I couldn't hold it." },
+          { "id": "2", "text": "It broke through the defense." },
+          { "id": "3", "text": "The voices screamed in disorder." },
+          { "id": "1", "text": "We retreated." }
+        ],
+        "1_2_4": [
+          { "id": "1", "text": "Its strength was too much." },
+          { "id": "2", "text": "I couldn't finish it." },
+          { "id": "4", "text": "The strategy failed." },
+          { "id": "1", "text": "It escaped." }
+        ],
+        "1_3_4": [
+          { "id": "1", "text": "I was pushed back." },
+          { "id": "3", "text": "The voices screamed that it still felt things." },
+          { "id": "4", "text": "It couldn't be contained." },
+          { "id": "1", "text": "We retreated." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "It advanced non-stop." },
+          { "id": "3", "text": "The voices panicked." },
+          { "id": "4", "text": "The situation got out of control." },
+          { "id": "2", "text": "It escaped." }
+        ],
+        "1_2_3_4": [
+          { "id": "1", "text": "I tried to hold it, but I couldn't." },
+          { "id": "2", "text": "It broke everything." },
+          { "id": "3", "text": "The voices screamed that something conscious was escaping." },
+          { "id": "4", "text": "The creature escaped to the south." }
+        ]
+      }
+    }
+  },
+  "154": {
+    "success": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "I faced the badger near the tunnels it opened. It advanced with strength and desperation. I used everything I had to bring it down before more houses collapsed."
+        },
+        "2": {
+          "id": "2",
+          "text": "I followed the tracks to the point where the soil was most unstable. The badger attacked as if cornered. I stopped the threat before the ground gave way further."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voices didn't scream like before. They spoke like someone in a panic, trying to flee. They said there was thought, fear, and intention inside. When it fell, it was like silencing a person."
+        },
+        "4": {
+          "id": "4",
+          "text": "I observed the excavation pattern and the behavior during combat. It chose routes and retreated when pressured. We eliminated the threat before a major collapse."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "1", "text": "I held the badger's advance near the tunnels." },
+          { "id": "2", "text": "I cut off the escape route to prevent further cave-ins." },
+          { "id": "1", "text": "I used full force to bring it down." },
+          { "id": "2", "text": "The area was safe afterward." }
+        ],
+        "1_3": [
+          { "id": "1", "text": "It advanced forcefully, as if desperate." },
+          { "id": "3", "text": "The voices said that thing was trying to escape." },
+          { "id": "1", "text": "I finished it before it dug more." },
+          { "id": "3", "text": "When it fell, the fear ceased." }
+        ],
+        "1_4": [
+          { "id": "1", "text": "I kept the badger away from the houses." },
+          { "id": "4", "text": "I identified the point where the ground would give way." },
+          { "id": "1", "text": "I attacked with everything to end it quickly." },
+          { "id": "4", "text": "We avoided a major collapse." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "I tried to lead it away from the structures." },
+          { "id": "3", "text": "The voices spoke like someone cornered." },
+          { "id": "2", "text": "I took advantage of the hesitation and attacked." },
+          { "id": "3", "text": "It was like silencing a plea for help." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "I kept the badger moving to prevent cave-ins." },
+          { "id": "4", "text": "I analyzed the pattern of the excavations." },
+          { "id": "2", "text": "Finished it before the ground gave way further." },
+          { "id": "4", "text": "The threat was contained." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voices spoke with unsettling clarity." },
+          { "id": "4", "text": "The behavior indicated conscious choice." },
+          { "id": "3", "text": "They said it was digging to escape." },
+          { "id": "4", "text": "We ended the combat before more damage." }
+        ],
+        "1_2_3": [
+          { "id": "1", "text": "I held the strongest advance." },
+          { "id": "2", "text": "I closed off the excavation routes." },
+          { "id": "3", "text": "The voices said it was thinking like a person." },
+          { "id": "1", "text": "The final blow ended everything." }
+        ],
+        "1_2_4": [
+          { "id": "1", "text": "I kept it away from the houses." },
+          { "id": "2", "text": "I attacked the unstable flanks." },
+          { "id": "4", "text": "I indicated the right moment." },
+          { "id": "1", "text": "It fell before causing more damage." }
+        ],
+        "1_3_4": [
+          { "id": "1", "text": "The impact nearly threw me, but I held on." },
+          { "id": "3", "text": "The voices said that thing was afraid." },
+          { "id": "4", "text": "The pattern indicated an attempt to escape." },
+          { "id": "1", "text": "I used full force to end it." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "I led it away from the structures." },
+          { "id": "3", "text": "The voices spoke like someone in a panic." },
+          { "id": "4", "text": "The choice of routes wasn't random." },
+          { "id": "2", "text": "Finished it before more cave-ins." }
+        ],
+        "1_2_3_4": [
+          { "id": "1", "text": "I held the strongest attack." },
+          { "id": "2", "text": "I cut off the escape routes." },
+          { "id": "3", "text": "The voices cried out when it fell." },
+          { "id": "4", "text": "The village was safe afterward." }
+        ]
+      }
+    },
+    "failure": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "I tried to contain the badger, but the tunnels gave way and forced me to retreat. I couldn't stop new collapses."
+        },
+        "2": {
+          "id": "2",
+          "text": "I tried to lead the creature out of the village, but the ground gave way first. I was honest: we couldn't stop the threat."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voices panicked. They said someone was trying to flee and couldn't. We retreated before the ground swallowed everything."
+        },
+        "4": {
+          "id": "4",
+          "text": "I analyzed the terrain, but the instability advanced faster than anticipated. The creature escaped through the tunnels."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "1", "text": "I tried to hold it, but the ground gave way." },
+          { "id": "2", "text": "The tunnels opened up too quickly." },
+          { "id": "1", "text": "We retreated to avoid burying anyone." },
+          { "id": "2", "text": "The creature escaped." }
+        ],
+        "1_3": [
+          { "id": "1", "text": "The ground started falling under my feet." },
+          { "id": "3", "text": "The voices screamed like someone trapped." },
+          { "id": "1", "text": "We retreated to survive." },
+          { "id": "3", "text": "The badger fled through the tunnels." }
+        ],
+        "1_4": [
+          { "id": "1", "text": "I couldn't hold position." },
+          { "id": "4", "text": "The terrain lost stability." },
+          { "id": "1", "text": "It was necessary to retreat." },
+          { "id": "4", "text": "The threat was not contained." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "The tunnels gave way when I tried to advance." },
+          { "id": "3", "text": "The voices screamed in desperation." },
+          { "id": "2", "text": "I couldn't finish it." },
+          { "id": "3", "text": "It escaped." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "The ground gave way suddenly." },
+          { "id": "4", "text": "There was no time to recalculate." },
+          { "id": "2", "text": "We retreated immediately." },
+          { "id": "4", "text": "The creature fled." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voices panicked." },
+          { "id": "4", "text": "The instability got out of control." },
+          { "id": "3", "text": "They screamed like someone buried." },
+          { "id": "4", "text": "The badger escaped." }
+        ],
+        "1_2_3": [
+          { "id": "1", "text": "I lost the ground under my feet." },
+          { "id": "2", "text": "The tunnels gave way all at once." },
+          { "id": "3", "text": "The voices screamed for a way out." },
+          { "id": "1", "text": "We retreated." }
+        ],
+        "1_2_4": [
+          { "id": "1", "text": "I couldn't hold it." },
+          { "id": "2", "text": "The ground collapsed." },
+          { "id": "4", "text": "The analysis failed." },
+          { "id": "1", "text": "It escaped." }
+        ],
+        "1_3_4": [
+          { "id": "1", "text": "The ground completely gave way." },
+          { "id": "3", "text": "The voices screamed in human panic." },
+          { "id": "4", "text": "It couldn't be contained." },
+          { "id": "1", "text": "We retreated." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "The tunnels multiplied quickly." },
+          { "id": "3", "text": "The voices spoke of despair." },
+          { "id": "4", "text": "The situation got out of control." },
+          { "id": "2", "text": "It fled." }
+        ],
+        "1_2_3_4": [
+          { "id": "1", "text": "I tried to hold on, but the ground gave way." },
+          { "id": "2", "text": "We couldn't contain it." },
+          { "id": "3", "text": "The voices screamed like someone lost." },
+          { "id": "4", "text": "The creature escaped through the tunnels." }
+        ]
+      }
+    }
+  },
+  "164": {
+    "success": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "I prepared the body and examined it carefully. Something reacted when I touched the inside. I don't know how, but I was sure that thing was once someone. I report that it wasn't just a monster."
+        },
+        "2": {
+          "id": "2",
+          "text": "I was honest in the analysis. Fortunately, the signs were clear in the stomach. That thing wasn't born like that. It was an altered body. Everything indicates it was once human."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voices spoke with unusual clarity. There were remnants of human identity mixed with the digested mana. It wasn't creation or mutation. These were people transformed and then consumed from within."
+        },
+        "4": {
+          "id": "4",
+          "text": "I analyzed the residues methodically. Through trial and error, I concluded that the original structure was human. The transformation occurred later. I cannot explain the process, only the result."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "2", "text": "Luckily, the traces indicated an original human form." },
+          { "id": "1", "text": "When I touched it, I felt it wasn't an animal." },
+          { "id": "2", "text": "I was direct: this was once someone." },
+          { "id": "1", "text": "We report it as a transformation." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "The voices said that thing once had a name." },
+          { "id": "1", "text": "That explains what I felt when touching it." },
+          { "id": "3", "text": "The human consciousness was consumed along with the mana." },
+          { "id": "1", "text": "I noted everything for the Guild." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "The base structure was human." },
+          { "id": "1", "text": "Nothing there seemed animal in origin." },
+          { "id": "4", "text": "Fortunately, the data matched up." },
+          { "id": "1", "text": "We report them as transformed people." }
+        ],
+        "2_3": [
+          { "id": "3", "text": "The voices confirmed: they were humans." },
+          { "id": "2", "text": "I was honest, this changes everything." },
+          { "id": "3", "text": "The transformation preceded the consumption." },
+          { "id": "2", "text": "I registered it exactly like that." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "Luckily, we connected the physical signs." },
+          { "id": "4", "text": "The remnants indicated human origin." },
+          { "id": "2", "text": "I spoke the truth: they weren't monsters." },
+          { "id": "4", "text": "Conclusion registered as transformation." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The voices showed who they were." },
+          { "id": "4", "text": "The data supported the human origin." },
+          { "id": "3", "text": "The consciousness was digested later." },
+          { "id": "4", "text": "Report closed." }
+        ],
+        "1_2_3": [
+          { "id": "3", "text": "The voices were clear about the human origin." },
+          { "id": "2", "text": "This explains the intelligent behavior." },
+          { "id": "1", "text": "That's why it felt wrong." },
+          { "id": "3", "text": "We report the truth." }
+        ],
+        "1_2_4": [
+          { "id": "4", "text": "The corporal base was human." },
+          { "id": "2", "text": "Fortunately, we realized this." },
+          { "id": "1", "text": "Nothing there was born a monster." },
+          { "id": "4", "text": "Partial conclusion, but sufficient." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "The voices confirmed the human transformation." },
+          { "id": "4", "text": "The physical patterns agreed." },
+          { "id": "1", "text": "This explains everything I felt." },
+          { "id": "3", "text": "The Guild needs to know." }
+        ],
+        "2_3_4": [
+          { "id": "3", "text": "They were humans before." },
+          { "id": "2", "text": "I was direct: this is unnatural." },
+          { "id": "4", "text": "The data supports it." },
+          { "id": "3", "text": "We officially recorded it." }
+        ],
+        "1_2_3_4": [
+          { "id": "3", "text": "The voices were unanimous: they were people." },
+          { "id": "4", "text": "The analysis confirms it." },
+          { "id": "2", "text": "This changes what we are facing." },
+          { "id": "1", "text": "We reported everything to the Guild." }
+        ]
+      }
+    },
+    "failure": {
+      "reporters": {
+        "1": {
+          "id": "1",
+          "text": "I prepared the body, but something reacted badly when I touched it. I got insecure and stopped before ruining everything. I couldn't tell what it was before. I report a failed analysis."
+        },
+        "2": {
+          "id": "2",
+          "text": "I was honest in the report. The signs were too confusing. Unfortunately, nothing matched up. I couldn't prove if that thing was once someone or just a strange monster."
+        },
+        "3": {
+          "id": "3",
+          "text": "The voices argued among themselves. Some said it was human, others denied it. The consciousness was too fragmented. I couldn't confirm the origin."
+        },
+        "4": {
+          "id": "4",
+          "text": "I analyzed the residues, but the data was unstable. Without a reliable pattern, any conclusion would be speculation. I report an inconclusive analysis."
+        }
+      },
+      "teams": {
+        "1_2": [
+          { "id": "1", "text": "Something reacted badly when I tried to examine it." },
+          { "id": "2", "text": "The signs didn't match." },
+          { "id": "1", "text": "I stopped before making it worse." },
+          { "id": "2", "text": "Inconclusive report sent." }
+        ],
+        "1_3": [
+          { "id": "3", "text": "The voices contradicted each other." },
+          { "id": "1", "text": "That made me nervous." },
+          { "id": "3", "text": "The consciousness was too broken." },
+          { "id": "1", "text": "We couldn't conclude." }
+        ],
+        "1_4": [
+          { "id": "4", "text": "The data didn't support anything solid." },
+          { "id": "1", "text": "Something felt wrong, but unclear." },
+          { "id": "4", "text": "No basis to affirm human origin." },
+          { "id": "1", "text": "Failure registered." }
+        ],
+        "2_3": [
+          { "id": "2", "text": "Nothing truly matched up." },
+          { "id": "3", "text": "The voices didn't agree." },
+          { "id": "2", "text": "I was honest: we couldn't affirm it." },
+          { "id": "3", "text": "The origin remained undefined." }
+        ],
+        "2_4": [
+          { "id": "2", "text": "Unfortunately, the signs got mixed up." },
+          { "id": "4", "text": "There was no reliable pattern." },
+          { "id": "2", "text": "I couldn't prove anything." },
+          { "id": "4", "text": "Inconclusive report." }
+        ],
+        "3_4": [
+          { "id": "3", "text": "The consciousness was too diluted." },
+          { "id": "4", "text": "The residues didn't support the hypothesis." },
+          { "id": "3", "text": "The voices became confused." },
+          { "id": "4", "text": "We failed to confirm." }
+        ],
+        "1_2_3": [
+          { "id": "3", "text": "The voices didn't reach an agreement." },
+          { "id": "2", "text": "Nothing there was proof." },
+          { "id": "1", "text": "I was insecure about continuing." },
+          { "id": "3", "text": "Conclusion impossible." }
+        ],
+        "1_2_4": [
+          { "id": "4", "text": "The data was contradictory." },
+          { "id": "2", "text": "Unfortunately, nothing matched up." },
+          { "id": "1", "text": "I stopped before ruining it further." },
+          { "id": "4", "text": "Failed report." }
+        ],
+        "1_3_4": [
+          { "id": "3", "text": "The consciousness wouldn't let itself be read." },
+          { "id": "4", "text": "Total instability in the residues." },
+          { "id": "1", "text": "It was impossible to continue." },
+          { "id": "3", "text": "Failure confirmed." }
+        ],
+        "2_3_4": [
+          { "id": "2", "text": "Nothing was conclusive." },
+          { "id": "3", "text": "The voices became chaotic." },
+          { "id": "4", "text": "No technical basis." },
+          { "id": "2", "text": "We couldn't prove anything." }
+        ],
+        "1_2_3_4": [
+          { "id": "3", "text": "The truth became too fragmented." },
+          { "id": "4", "text": "No reliable data." },
+          { "id": "2", "text": "I was honest: we failed." },
+          { "id": "1", "text": "We reported it as inconclusive." }
+        ]
+      }
+    }
   }
 }

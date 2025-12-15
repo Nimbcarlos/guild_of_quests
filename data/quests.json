@@ -835,6 +835,39 @@
   {
     "id": 131,
     "name": {
+      "pt": "Assentamento Tribal",
+      "en": "Tribal Settlement",
+      "es": "Asentamiento Tribal",
+      "ru": "Племенное Поселение",
+      "zh": "部落定居点",
+      "ja": "部族の集落"
+    },
+    "description": {
+      "pt": "O ancião da tribo enviou um sinal urgente: batedores avistaram um grupo de mercenários cercando seu assentamento. Os heróis devem confrontar os invasores e proteger a tribo do ataque iminente.",
+      "en": "The tribe's elder sent an urgent signal: scouts spotted a group of mercenaries surrounding their settlement. Heroes must confront the invaders and protect the tribe from the imminent attack.",
+      "es": "El anciano de la tribu envió una señal urgente: exploradores avistaron un grupo de mercenarios rodeando su asentamiento. Los héroes deben confrontar a los invasores y proteger a la tribu del ataque inminente.",
+      "ru": "Старейшина племени отправил срочный сигнал: разведчики заметили группу наемников, окруживших их поселение. Герои должны противостояar захватчикам и защитить племя от неминуемой атаки.",
+      "zh": "部落长老发出了紧急信号：侦察兵发现一群雇佣兵包围了他们的定居点。英雄们必须对抗入侵者，保护部落免受迫在眉睫的攻击。",
+      "ja": "部族の長老から緊急の合図がありました：斥候たちが、傭兵の集団が彼らの集落を包囲しているのを発見しました。英雄たちは侵略者と対決し、差し迫った攻撃から部族を守らなければならない。",
+      "kr": "부족의 장로가 긴급 신호를 보냈습니다. 정찰병들이 그들의 정착지를 포위한 용병 집단을 발견했습니다. 영웅들은 침략자들과 맞서 부족을 임박한 공격으로부터 보호해야 합니다."
+    },
+    "type": "Fight",
+    "expired_at": 5,
+    "available_from_turn": 33,
+    "duration": 3,
+    "difficulty": 2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [130],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [3],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 132,
+    "name": {
       "pt": "Presença Sagrada",
       "en": "The Mystery of the Hidden Sanctuary",
       "es": "El Misterio del Santuario Oculto",
@@ -860,14 +893,14 @@
     "rewards": {
       "xp": 50
     },
-    "required_quests": [130],
+    "required_quests": [131],
     "forbidden_quests": [],
     "required_fail_quests": [],
-    "required_heroes": [3],
+    "required_heroes": [],
     "forbidden_heroes": []
   },
 {
-  "id": 132,
+  "id": 133,
   "name": {
     "pt": "Destruindo o Lich",
     "en": "Destroying the Lich",
@@ -890,42 +923,7 @@
     "available_from_turn": 25,
     "duration": 3,
     "difficulty": 8,
-    "rewards": {
-      "xp": 50
-    },
-    "required_quests": [131],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  },
-  {
-    "id": 133,
-    "name": {
-      "pt": "Assentamento Tribal",
-      "en": "Tribal Settlement",
-      "es": "Asentamiento Tribal",
-      "ru": "Племенное Поселение",
-      "zh": "部落定居点",
-      "ja": "部族の集落"
-    },
-    "description": {
-      "pt": "O ancião da tribo enviou um sinal urgente: batedores avistaram um grupo de mercenários cercando seu assentamento. Os heróis devem confrontar os invasores e proteger a tribo do ataque iminente.",
-      "en": "The tribe's elder sent an urgent signal: scouts spotted a group of mercenaries surrounding their settlement. Heroes must confront the invaders and protect the tribe from the imminent attack.",
-      "es": "El anciano de la tribu envió una señal urgente: exploradores avistaron un grupo de mercenarios rodeando su asentamiento. Los héroes deben confrontar a los invasores y proteger a la tribu del ataque inminente.",
-      "ru": "Старейшина племени отправил срочный сигнал: разведчики заметили группу наемников, окруживших их поселение. Герои должны противостояar захватчикам и защитить племя от неминуемой атаки.",
-      "zh": "部落长老发出了紧急信号：侦察兵发现一群雇佣兵包围了他们的定居点。英雄们必须对抗入侵者，保护部落免受迫在眉睫的攻击。",
-      "ja": "部族の長老から緊急の合図がありました：斥候たちが、傭兵の集団が彼らの集落を包囲しているのを発見しました。英雄たちは侵略者と対決し、差し迫った攻撃から部族を守らなければならない。",
-      "kr": "부족의 장로가 긴급 신호를 보냈습니다. 정찰병들이 그들의 정착지를 포위한 용병 집단을 발견했습니다. 영웅들은 침략자들과 맞서 부족을 임박한 공격으로부터 보호해야 합니다."
-    },
-    "type": "Fight",
-    "expired_at": 5,
-    "available_from_turn": 33,
-    "duration": 3,
-    "difficulty": 2,
-    "rewards": {
-      "xp": 50
-    },
+    "rewards": {"xp": 50},
     "required_quests": [132],
     "forbidden_quests": [],
     "required_fail_quests": [],
@@ -1082,11 +1080,11 @@
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 20,
+    "available_from_turn": 3,
     "duration": 4,
-    "difficulty": 4,
+    "difficulty": 3,
     "rewards": {
-      "xp": 50
+      "xp": 100
     },
     "required_quests": [],
     "forbidden_quests": [],
@@ -1096,70 +1094,6 @@
   },
   {
     "id": 151,
-    "name": {
-      "pt": "Javali Descomunal",
-      "en": "Colossal Boar",
-      "es": "Jabalí Colosal",
-      "ru": "Колоссальный Кабан",
-      "ja": "巨大なイノシシ",
-      "zh": "庞大的野猪"
-    },
-    "description": {
-      "pt": "Um javali enorme apareceu nas fazendas ao sul, destruindo cercas e atacando trabalhadores. Ele é maior que um touro e age como se estivesse possuído. Intercepte-o antes que bata às portas da cidade.",
-      "en": "A massive boar has appeared in the southern farmlands, destroying fences and attacking workers. It is larger than a bull and acts as if possessed. Intercept it before it reaches the city gates.",
-      "es": "Un jabalí enorme ha aparecido en las granjas del sur, destruyendo vallas y atacando a los trabajadores. Es más grande que un toro y actúa como si estuviera poseído. Interceptadlo antes de que llegue a las puertas de la ciudad.",
-      "ru": "Огромный кабан появился на южных фермах, разрушая заборы и нападая на работников. Он больше быка и ведет себя так, будто одержим. Перехватите его, прежде чем он достигнет городских ворот.",
-      "ja": "巨大なイノシシが南の農場に出現し、柵を破壊し、労働者を襲っています。雄牛よりも大きく、まるで憑りつかれているかのように振る舞っています。都市の門に到達する前に迎撃してください。",
-      "zh": "一头庞大的野猪出现在南部农田，摧毁了栅栏并攻击工人。它比一头公牛还要大，行动起来就像被附身了一样。在它撞到城市大门之前，将其截住。"
-    },
-    "type": "Fight",
-    "expired_at": 3,
-    "available_from_turn": 22,
-    "duration": 4,
-    "difficulty": 4,
-    "rewards": {
-      "xp": 50
-    },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  },
-  {
-    "id": 152,
-    "name": {
-      "pt": "Teia da Dor",
-      "en": "Web of Pain",
-      "es": "Telaraña de Dolor",
-      "ru": "Паутина Боли",
-      "ja": "苦痛の網",
-      "zh": "痛苦之网"
-    },
-    "description": {
-      "pt": "Aranhas do bosque começaram a crescer de forma anormal. Uma delas, do tamanho de um cavalo, teceu teias pela estrada principal e capturou viajantes. Liberte os presos e elimine a aranha antes que a rota seja abandonada.",
-      "en": "Forest spiders have started growing abnormally large. One of them, the size of a horse, has spun webs across the main road and captured travelers. Free the prisoners and eliminate the spider before the route is abandoned.",
-      "es": "Las arañas del bosque han comenzado a crecer de forma anormal. Una de ellas, del tamaño de un caballo, ha tejido telarañas a lo largo de la carretera principal y ha capturado viajeros. Libera a los atrapados y elimina a la araña antes de que la ruta sea abandonada.",
-      "ru": "Лесные пауки начали аномально расти. Один из них, размером с лошадь, сплел паутину на главной дороге и захватил путешественников. Освободите пленных и уничтожьте паука, пока маршрут не будет заброшен.",
-      "ja": "森のクモが異常に巨大化し始めました。そのうちの一匹は馬ほどの大きさになり、主要な道路に巣を張り巡らせて旅行者を捕らえています。ルートが放棄される前に、囚われた人々を解放し、クモを排除してください。",
-      "zh": "森林中的蜘蛛开始异常生长。其中一只，体型有马匹大小，在主干道上织网并捕获了旅行者。在路线被遗弃之前，解救被困者并消灭这只蜘蛛。"
-    },
-    "type": "Fight",
-    "expired_at": 2,
-    "available_from_turn": 24,
-    "duration": 4,
-    "difficulty": 4,
-    "rewards": {
-      "xp": 50
-    },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  },
-  {
-    "id": 153,
     "name": {
       "pt": "Insetos Gigantes",
       "en": "Giant Insects",
@@ -1178,7 +1112,71 @@
     },
     "type": "Fight",
     "expired_at": 2,
-    "available_from_turn": 25,
+    "available_from_turn": 9,
+    "duration": 4,
+    "difficulty": 4,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 152,
+    "name": {
+      "pt": "Cachorros-Vinagre do Vale",
+      "en": "Bush Dogs of the Valley",
+      "es": "Perros de Monte del Valle",
+      "ru": "Кустарниковые Собаки Долины (Kustarnikovye Sobaki Doliny)",
+      "ja": "谷のヤブイヌ (Tani no Yabuinú)",
+      "zh": "山谷的丛林犬 (Shāngǔ de Cónglín Quǎn)"
+    },
+    "description": {
+      "pt": "Pequenos predadores conhecidos como cachorros-vinagre começaram a atacar em bandos no vale. Estão maiores, mais rápidos e agem de forma estranhamente coordenada. A vila pede ajuda antes que os ataques se tornem constantes demais para ignorar.",
+      "en": "Small predators known as bush dogs have started attacking in packs in the valley. They are larger, faster, and act in a strangely coordinated manner. The village asks for help before the attacks become too constant to ignore.",
+      "es": "Pequeños depredadores conocidos como perros de monte han comenzado a atacar en manada en el valle. Son más grandes, más rápidos y actúan de una manera extrañamente coordinada. El pueblo pide ayuda antes de que los ataques se vuelvan demasiado constantes para ignorar.",
+      "ru": "Мелкие хищники, известные как кустарниковые собаки, начали нападать стаями в долине. Они стали крупнее, быстрее и действуют странно скоординированно. Деревня просит о помощи, пока нападения не стали слишком постоянными, чтобы их игнорировать.",
+      "ja": "ヤブイヌとして知られる小型の捕食者が、谷で群れをなして襲撃し始めました。彼らはより大きく、より速く、奇妙なほど連携して行動しています。攻撃が無視できないほど頻繁になる前に、村は助けを求めています。",
+      "zh": "被称为丛林犬的小型捕食者开始在山谷成群结队地攻击。它们体型更大、速度更快，并且以一种奇怪的协调方式行动。村庄请求帮助，以免袭击变得过于频繁而无法忽视。"
+    },
+    "type": "Fight",
+    "expired_at": 2,
+    "available_from_turn": 11,
+    "duration": 4,
+    "difficulty": 4,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 153,
+    "name": {
+      "pt": "Javali Descomunal",
+      "en": "Colossal Boar",
+      "es": "Jabalí Colosal",
+      "ru": "Колоссальный Кабан",
+      "ja": "巨大なイノシシ",
+      "zh": "庞大的野猪"
+    },
+    "description": {
+      "pt": "Um javali enorme apareceu nas fazendas ao sul, destruindo cercas e atacando trabalhadores. Ele é maior que um touro e age como se estivesse possuído. Intercepte-o antes que bata às portas da cidade.",
+      "en": "A massive boar has appeared in the southern farmlands, destroying fences and attacking workers. It is larger than a bull and acts as if possessed. Intercept it before it reaches the city gates.",
+      "es": "Un jabalí enorme ha aparecido en las granjas del sur, destruyendo vallas y atacando a los trabajadores. Es más grande que un toro y actúa como si estuviera poseído. Interceptadlo antes de que llegue a las puertas de la ciudad.",
+      "ru": "Огромный кабан появился на южных фермах, разрушая заборы и нападая на работников. Он больше быка и ведет себя так, будто одержим. Перехватите его, прежде чем он достигнет городских ворот.",
+      "ja": "巨大なイノシシが南の農場に出現し、柵を破壊し、労働者を襲っています。雄牛よりも大きく、まるで憑りつかれているかのように振る舞っています。都市の門に到達する前に迎撃してください。",
+      "zh": "一头庞大的野猪出现在南部农田，摧毁了栅栏并攻击工人。它比一头公牛还要大，行动起来就像被附身了一样。在它撞到城市大门之前，将其截住。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 12,
     "duration": 4,
     "difficulty": 4,
     "rewards": {
@@ -1193,24 +1191,25 @@
   {
     "id": 154,
     "name": {
-      "pt": "Olhos na Escuridão",
-      "en": "Eyes in the Dark",
-      "es": "Ojos en la Oscuridad",
-      "ru": "Глаза в Темноте",
-      "ja": "闇の眼",
-      "zh": "黑暗中的眼睛"
+      "pt": "Texugo Descomunal",
+      "en": "Colossal Badger",
+      "es": "Tejón Colosal",
+      "ru": "Колоссальный Барсук",
+      "ja": "巨大なアナグマ",
+      "zh": "巨型獾"
     },
     "description": {
-      "pt": "Predadores noturnos estão maiores, mais rápidos e atacam em grupos coordenados. Responda aos pedidos de socorro da vila do vale e impeça mais ataques.",
-      "en": "Nocturnal predators are larger, faster, and attack in coordinated groups. Respond to the distress calls from the valley village and prevent further attacks.",
-      "es": "Los depredadores nocturnos son más grandes, más rápidos y atacan en grupos coordinados. Responde a las llamadas de auxilio del pueblo del valle e impide más ataques.",
-      "ru": "Ночные хищники стали крупнее, быстрее и нападают скоординированными группами. Ответьте на призывы о помощи из деревни в долине и предотвратите дальнейшие нападения.",
-      "ja": "夜行性の捕食者がより大きく、より速くなり、組織的なグループで襲撃しています。谷の村からの救助要請に応じ、さらなる攻撃を防いでください。",
-      "zh": "夜间捕食者体型更大、速度更快，并以协调的群体进行攻击。回应山谷村庄的求救信号，并阻止进一步的袭击。"
+      "pt": "Um texugo mutado, grande como um urso, entrou em surto e começou a cavar túneis que desabam casas e estábulos. A vila pede ajuda urgente antes que o solo inteiro ceda.",
+      "en": "A mutated badger, as large as a bear, has gone berserk and started digging tunnels that cause houses and stables to collapse. The village urgently requests help before the entire ground gives way.",
+      "es": "Un tejón mutado, tan grande como un oso, ha entrado en un frenesí y ha comenzado a cavar túneles que provocan el colapso de casas y establos. El pueblo pide ayuda urgente antes de que todo el suelo ceda.",
+      "ru": "Мутировавший барсук, размером с медведя, впал в бешенство и начал рыть туннели, из-за которых обваливаются дома и конюшни. Деревня срочно просит о помощи, пока вся земля не провалилась.",
+      "ja": "クマほどの大きさの変異したアナグマが暴走し、家や馬小屋を崩壊させるトンネルを掘り始めました。村全体が地盤沈下する前に、緊急の支援を求めています。",
+      "zh": "一只变异的獾，体型如熊般大小，陷入狂暴，开始挖掘隧道，导致房屋和马厩倒塌。在整个地面彻底塌陷之前，村庄急需援助。",
+      "ko": "곰만큼 큰 돌연변이 오소리가 발광하여 터널을 파기 시작했고, 이로 인해 집과 마구간이 무너지고 있습니다. 마을 전체가 침하하기 전에 긴급 지원을 요청합니다."
     },
     "type": "Fight",
-    "expired_at": 2,
-    "available_from_turn": 27,
+    "expired_at": 3,
+    "available_from_turn": 16,
     "duration": 4,
     "difficulty": 4,
     "rewards": {
@@ -1224,38 +1223,6 @@
   },
   {
     "id": 155,
-    "name": {
-      "pt": "Arauto do Lago",
-      "en": "Herald of the Lake",
-      "es": "Heraldo del Lago",
-      "ru": "Вестник Озера",
-      "zh": "湖之使者",
-      "ja": "湖の使者"
-    },
-    "description": {
-      "pt": "Um crocodilo gigante está ameaçando os pescadores do lago. Derrote-o antes que cause mais estragos.",
-      "en": "A giant crocodile is threatening the lake fishermen. Defeat it before it causes more damage.",
-      "es": "Un cocodrilo gigante está amenazando a los pescadores del lago. Derrótalo antes de que cause más estragos.",
-      "ru": "Гигантский крокодил угрожает рыбакам на озере. Победите его, пока он не нанес больше урона.",
-      "zh": "一只巨型鳄鱼正在威胁湖上的渔民。在它造成更多破坏之前击败它。",
-      "ja": "巨大なワニが湖の漁師を脅かしている。さらなる被害を出す前にそれを倒せ。"
-    },
-    "type": "Fight",
-    "expired_at": 2,
-    "available_from_turn": 29,
-    "duration": 4,
-    "difficulty": 6,
-    "rewards": {
-      "xp": 50
-    },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  },
-  {
-    "id": 156,
     "name": {
       "pt": "Coruja Colossal",
       "en": "Colossal Owl",
@@ -1280,38 +1247,6 @@
     "rewards": {
       "xp": 50
     },
-    "required_quests": [7],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  },
-  {
-    "id": 157,
-    "name": {
-      "pt": "Aranha Gigante na Caverna",
-      "en": "Giant Spider in the Cave",
-      "es": "Araña Gigante en la Cueva",
-      "ru": "Гигантский Паук в Пещере",
-      "zh": "洞穴中的巨型蜘蛛",
-      "ja": "洞窟の巨大な蜘蛛"
-    },
-    "description": {
-      "pt": "Uma aranha gigante bloqueia a passagem da caverna. Elimine a criatura para que os viajantes possam passar.",
-      "en": "A giant spider blocks the cave passage. Eliminate the creature so travelers can pass.",
-      "es": "Una araña gigante bloquea el pasaje de la cueva. Elimina a la criatura para que los viajeros puedan pasar.",
-      "ru": "Гигантский паук блокирует проход в пещеру. Уничтожьте существо, чтобы путники могли пройти.",
-      "zh": "一只巨型蜘蛛堵住了洞穴的通道。消灭这只生物，以便旅行者可以通行。",
-      "ja": "巨大な蜘蛛が洞窟の通路を塞いでいる。旅行者が通れるようにその生物を排除せよ。"
-    },
-    "type": "Fight",
-    "expired_at": 3,
-    "available_from_turn": 32,
-    "duration": 4,
-    "difficulty": 7,
-    "rewards": {
-      "xp": 50
-    },
     "required_quests": [],
     "forbidden_quests": [],
     "required_fail_quests": [],
@@ -1319,104 +1254,7 @@
     "forbidden_heroes": []
   },
   {
-    "id": 158,
-    "name": {
-      "pt": "Texugo Descomunal",
-      "en": "Colossal Badger",
-      "es": "Tejón Colosal",
-      "ru": "Колоссальный Барсук",
-      "ja": "巨大なアナグマ",
-      "zh": "巨型獾"
-    },
-    "description": {
-      "pt": "Um texugo mutado, grande como um urso, entrou em surto e começou a cavar túneis que desabam casas e estábulos. A vila pede ajuda urgente antes que o solo inteiro ceda.",
-      "en": "A mutated badger, as large as a bear, has gone berserk and started digging tunnels that cause houses and stables to collapse. The village urgently requests help before the entire ground gives way.",
-      "es": "Un tejón mutado, tan grande como un oso, ha entrado en un frenesí y ha comenzado a cavar túneles que provocan el colapso de casas y establos. El pueblo pide ayuda urgente antes de que todo el suelo ceda.",
-      "ru": "Мутировавший барсук, размером с медведя, впал в бешенство и начал рыть туннели, из-за которых обваливаются дома и конюшни. Деревня срочно просит о помощи, пока вся земля не провалилась.",
-      "ja": "クマほどの大きさの変異したアナグマが暴走し、家や馬小屋を崩壊させるトンネルを掘り始めました。村全体が地盤沈下する前に、緊急の支援を求めています。",
-      "zh": "一只变异的獾，体型如熊般大小，陷入狂暴，开始挖掘隧道，导致房屋和马厩倒塌。在整个地面彻底塌陷之前，村庄急需援助。",
-      "ko": "곰만큼 큰 돌연변이 오소리가 발광하여 터널을 파기 시작했고, 이로 인해 집과 마구간이 무너지고 있습니다. 마을 전체가 침하하기 전에 긴급 지원을 요청합니다."
-    },
-    "type": "Fight",
-    "expired_at": 3,
-    "available_from_turn": 35,
-    "duration": 4,
-    "difficulty": 4,
-    "rewards": {
-      "xp": 50
-    },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  },
-  {
-    "id": 159,
-    "name": {
-      "pt": "Cobra de Escamas Negras",
-      "en": "Black-Scaled Serpent",
-      "es": "Serpiente de Escamas Negras",
-      "ru": "Черночешуйчатая Змея",
-      "ja": "黒鱗の蛇",
-      "zh": "黑鳞巨蛇"
-    },
-    "description": {
-      "pt": "Uma cobra gigantesca surgiu no pântano, liberando um veneno que queima como ácido espiritual. A criatura tem avançado para áreas habitadas. Elimine-a antes que alguém seja atingido.",
-      "en": "A gigantic serpent has emerged in the swamp, releasing a venom that burns like spiritual acid. The creature has been advancing toward inhabited areas. Eliminate it before anyone is harmed.",
-      "es": "Una serpiente gigantesca ha surgido en el pantano, liberando un veneno que quema como ácido espiritual. La criatura ha estado avanzando hacia zonas habitadas. Elimínala antes de que alguien resulte herido.",
-      "ru": "Гигантская змея появилась на болоте, выпуская яд, который жжет как духовная кислота. Существо продвигается к населенным пунктам. Устраните его, прежде чем кто-либо пострадает.",
-      "ja": "巨大なヘビが沼地に出現し、霊的な酸のように焼ける毒を放出しています。そのクリーチャーは居住地域に向かって進んでいます。誰かが被害に遭う前に排除してください。",
-      "zh": "一条巨型毒蛇出现在沼泽地，释放出一种像精神酸液一样灼烧的毒液。这只生物正在向居住区推进。在有人受到伤害之前将其消灭。"
-    },
-    "type": "Fight",
-    "expired_at": 3,
-    "available_from_turn": 35,
-    "duration": 4,
-    "difficulty": 4,
-    "rewards": {
-      "xp": 50
-    },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  },
-  {
-    "id": 160,
-    "name": {
-      "pt": "Morcego Albino Gigante",
-      "en": "Giant Albino Bat",
-      "es": "Murciélago Albino Gigante",
-      "ru": "Гигантская Летучая Мышь-Альбинос",
-      "ja": "巨大なアルビノコウモリ",
-      "zh": "巨型白化蝙蝠"
-    },
-    "description": {
-      "pt": "Um enorme morcego albino tem aterrorizado penhascos e cavernas, soltando ondas sonoras que quebram janelas e ferem viajantes. Explore seu ninho e coloque fim aos ataques noturnos.",
-      "en": "A huge albino bat has been terrorizing cliffs and caves, releasing sound waves that break windows and injure travelers. Explore its nest and put an end to the nocturnal attacks.",
-      "es": "Un enorme murciélago albino ha estado aterrorizando acantilados y cuevas, liberando ondas sonoras que rompen ventanas y hieren a los viajeros. Explora su nido y pon fin a los ataques nocturnos.",
-      "ru": "Огромная летучая мышь-альбинос терроризирует скалы и пещеры, испуская звуковые волны, которые разбивают окна и ранят путешественников. Исследуйте ее гнездо и положите конец ночным нападениям.",
-      "ja": "巨大なアルビノコウモリが崖や洞窟を恐怖に陥れており、窓を割り、旅人を傷つける音波を放っています。その巣を探索し、夜間の襲撃を終わらせてください。",
-      "zh": "一只巨大的白化蝙蝠一直在恐吓悬崖和洞穴，释放出能震碎窗户并伤害旅行者的声波。探索它的巢穴，终结夜间袭击。"
-    },
-    "type": "Fight",
-    "expired_at": 3,
-    "available_from_turn": 38,
-    "duration": 4,
-    "difficulty": 4,
-    "rewards": {
-      "xp": 50
-    },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  },
-  {
-    "id": 161,
+    "id": 156,
     "name": {
       "pt": "Tartaruga de Casco Rachado",
       "en": "Cracked Shell Turtle",
@@ -1435,7 +1273,7 @@
     },
     "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 40,
+    "available_from_turn": 20,
     "duration": 4,
     "difficulty": 4,
     "rewards": {
@@ -1448,7 +1286,7 @@
     "forbidden_heroes": []
   },
   {
-    "id": 162,
+    "id": 157,
     "name": {
       "pt": "Alce dos Galhos Corrompidos",
       "en": "Corrupted Antlers Moose",
@@ -1480,32 +1318,224 @@
     "forbidden_heroes": []
   },
   {
-    "id": 915,
+    "id": 158,
     "name": {
-      "pt": "Procura na Floresta Sombria",
-      "en": "Search in the Dark Forest",
-      "es": "Búsqueda en el Bosque Oscuro",
-      "ru": "Поиск в Темном Лесу",
-      "zh": "黑暗森林搜索",
-      "ja": "暗い森の捜索"
+      "pt": "Morcego Albino Gigante",
+      "en": "Giant Albino Bat",
+      "es": "Murciélago Albino Gigante",
+      "ru": "Гигантская Летучая Мышь-Альбинос",
+      "ja": "巨大なアルビノコウモリ",
+      "zh": "巨型白化蝙蝠"
     },
     "description": {
-      "pt": "Uma criatura estranha tem assustado os viajantes na Floresta Sombria. Encontre-a e a elimine.",
-      "en": "A strange creature has been scaring travelers in the Dark Forest. Find it and eliminate it.",
-      "es": "Una criatura extraña ha estado asustando a los viajeros en el Bosque Oscuro. Encuéntrala y elimínala.",
-      "ru": "Странное существо пугает путников в Темном Лесу. Найдите его и уничтожьте.",
-      "zh": "一个奇怪的生物一直在恐吓黑暗森林里的旅行者。找到它并消灭它。",
-      "ja": "奇妙な生物が暗い森の旅行者を怖がらせている。それを見つけて排除せよ。"
+      "pt": "Um enorme morcego albino tem aterrorizado penhascos e cavernas, soltando ondas sonoras que quebram janelas e ferem viajantes. Explore seu ninho e coloque fim aos ataques noturnos.",
+      "en": "A huge albino bat has been terrorizing cliffs and caves, releasing sound waves that break windows and injure travelers. Explore its nest and put an end to the nocturnal attacks.",
+      "es": "Un enorme murciélago albino ha estado aterrorizando acantilados y cuevas, liberando ondas sonoras que rompen ventanas y hieren a los viajeros. Explora su nido y pon fin a los ataques nocturnos.",
+      "ru": "Огромная летучая мышь-альбинос терроризирует скалы и пещеры, испуская звуковые волны, которые разбивают окна и ранят путешественников. Исследуйте ее гнездо и положите конец ночным нападениям.",
+      "ja": "巨大なアルビノコウモリが崖や洞窟を恐怖に陥れており、窓を割り、旅人を傷つける音波を放っています。その巣を探索し、夜間の襲撃を終わらせてください。",
+      "zh": "一只巨大的白化蝙蝠一直在恐吓悬崖和洞穴，释放出能震碎窗户并伤害旅行者的声波。探索它的巢穴，终结夜间袭击。"
     },
-    "type": "Intelligence",
+    "type": "Fight",
     "expired_at": 3,
-    "available_from_turn": 500,
-    "duration": 5,
-    "difficulty": 2,
+    "available_from_turn": 38,
+    "duration": 4,
+    "difficulty": 4,
     "rewards": {
       "xp": 50
     },
     "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 159,
+    "name": {
+      "pt": "Arauto do Lago",
+      "en": "Herald of the Lake",
+      "es": "Heraldo del Lago",
+      "ru": "Вестник Озера",
+      "zh": "湖之使者",
+      "ja": "湖の使者"
+    },
+    "description": {
+      "pt": "Um crocodilo gigante está ameaçando os pescadores do lago. Derrote-o antes que cause mais estragos.",
+      "en": "A giant crocodile is threatening the lake fishermen. Defeat it before it causes more damage.",
+      "es": "Un cocodrilo gigante está amenazando a los pescadores del lago. Derrótalo antes de que cause más estragos.",
+      "ru": "Гигантский крокодил угрожает рыбакам на озере. Победите его, пока он не нанес больше урона.",
+      "zh": "一只巨型鳄鱼正在威胁湖上的渔民。在它造成更多破坏之前击败它。",
+      "ja": "巨大なワニが湖の漁師を脅かしている。さらなる被害を出す前にそれを倒せ。"
+    },
+    "type": "Fight",
+    "expired_at": 2,
+    "available_from_turn": 29,
+    "duration": 4,
+    "difficulty": 6,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 160,
+    "name": {
+      "pt": "Teia da Dor",
+      "en": "Web of Pain",
+      "es": "Telaraña de Dolor",
+      "ru": "Паутина Боли",
+      "ja": "苦痛の網",
+      "zh": "痛苦之网"
+    },
+    "description": {
+      "pt": "Aranhas do bosque começaram a crescer de forma anormal. Uma delas, do tamanho de um cavalo, teceu teias pela estrada principal e capturou viajantes. Liberte os presos e elimine a aranha antes que a rota seja abandonada.",
+      "en": "Forest spiders have started growing abnormally large. One of them, the size of a horse, has spun webs across the main road and captured travelers. Free the prisoners and eliminate the spider before the route is abandoned.",
+      "es": "Las arañas del bosque han comenzado a crecer de forma anormal. Una de ellas, del tamaño de un caballo, ha tejido telarañas a lo largo de la carretera principal y ha capturado viajeros. Libera a los atrapados y elimina a la araña antes de que la ruta sea abandonada.",
+      "ru": "Лесные пауки начали аномально расти. Один из них, размером с лошадь, сплел паутину на главной дороге и захватил путешественников. Освободите пленных и уничтожьте паука, пока маршрут не будет заброшен.",
+      "ja": "森のクモが異常に巨大化し始めました。そのうちの一匹は馬ほどの大きさになり、主要な道路に巣を張り巡らせて旅行者を捕らえています。ルートが放棄される前に、囚われた人々を解放し、クモを排除してください。",
+      "zh": "森林中的蜘蛛开始异常生长。其中一只，体型有马匹大小，在主干道上织网并捕获了旅行者。在路线被遗弃之前，解救被困者并消灭这只蜘蛛。"
+    },
+    "type": "Fight",
+    "expired_at": 2,
+    "available_from_turn": 24,
+    "duration": 4,
+    "difficulty": 4,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 161,
+    "name": {
+      "pt": "Aranha Gigante na Caverna",
+      "en": "Giant Spider in the Cave",
+      "es": "Araña Gigante en la Cueva",
+      "ru": "Гигантский Паук в Пещере",
+      "zh": "洞穴中的巨型蜘蛛",
+      "ja": "洞窟の巨大な蜘蛛"
+    },
+    "description": {
+      "pt": "Uma aranha gigante bloqueia a passagem da caverna. Elimine a criatura para que os viajantes possam passar.",
+      "en": "A giant spider blocks the cave passage. Eliminate the creature so travelers can pass.",
+      "es": "Una araña gigante bloquea el pasaje de la cueva. Elimina a la criatura para que los viajeros puedan pasar.",
+      "ru": "Гигантский паук блокирует проход в пещеру. Уничтожьте существо, чтобы путники могли пройти.",
+      "zh": "一只巨型蜘蛛堵住了洞穴的通道。消灭这只生物，以便旅行者可以通行。",
+      "ja": "巨大な蜘蛛が洞窟の通路を塞いでいる。旅行者が通れるようにその生物を排除せよ。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 32,
+    "duration": 4,
+    "difficulty": 7,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 162,
+    "name": {
+      "pt": "Cobra de Escamas Negras",
+      "en": "Black-Scaled Serpent",
+      "es": "Serpiente de Escamas Negras",
+      "ru": "Черночешуйчатая Змея",
+      "ja": "黒鱗の蛇",
+      "zh": "黑鳞巨蛇"
+    },
+    "description": {
+      "pt": "Uma cobra gigantesca surgiu no pântano, liberando um veneno que queima como ácido espiritual. A criatura tem avançado para áreas habitadas. Elimine-a antes que alguém seja atingido.",
+      "en": "A gigantic serpent has emerged in the swamp, releasing a venom that burns like spiritual acid. The creature has been advancing toward inhabited areas. Eliminate it before anyone is harmed.",
+      "es": "Una serpiente gigantesca ha surgido en el pantano, liberando un veneno que quema como ácido espiritual. La criatura ha estado avanzando hacia zonas habitadas. Elimínala antes de que alguien resulte herido.",
+      "ru": "Гигантская змея появилась на болоте, выпуская яд, который жжет как духовная кислота. Существо продвигается к населенным пунктам. Устраните его, прежде чем кто-либо пострадает.",
+      "ja": "巨大なヘビが沼地に出現し、霊的な酸のように焼ける毒を放出しています。そのクリーチャーは居住地域に向かって進んでいます。誰かが被害に遭う前に排除してください。",
+      "zh": "一条巨型毒蛇出现在沼泽地，释放出一种像精神酸液一样灼烧的毒液。这只生物正在向居住区推进。在有人受到伤害之前将其消灭。"
+    },
+    "type": "Fight",
+    "expired_at": 3,
+    "available_from_turn": 35,
+    "duration": 4,
+    "difficulty": 4,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 163,
+    "name": {
+      "pt": "Autópsia Arcana",
+      "en": "Arcane Autopsy",
+      "es": "Autopsia Arcana",
+      "ru": "Арканическое Вскрытие",
+      "zh": "奥术解剖",
+      "ja": "秘術解剖"
+    },
+    "description": {
+      "pt": "Após os confrontos recentes, os heróis recolheram os corpos de algumas das criaturas derrotadas para uma análise mais cuidadosa. Algo nelas não condiz com simples mutações naturais. A Guilda solicita uma autópsia mágica controlada para identificar a origem da alteração — seja influência externa, corrupção arcana ou algo ainda mais perturbador.",
+      "en": "After the recent confrontations, the heroes collected the bodies of some defeated creatures for closer examination. Something about them does not align with simple natural mutations. The Guild requests a controlled magical autopsy to determine the source of the alteration — whether external influence, arcane corruption, or something far more disturbing.",
+      "es": "Tras los enfrentamientos recientes, los héroes recogieron los cuerpos de algunas de las criaturas derrotadas para un análisis más detallado. Hay algo en ellas que no concuerda con simples mutaciones naturales. El Gremio solicita una autopsia mágica controlada para identificar el origen de la alteración, ya sea influencia externa, corrupción arcana o algo mucho más inquietante.",
+      "ru": "После недавних столкновений герои собрали тела некоторых поверженных существ для более тщательного анализа. В них есть нечто, что не соответствует обычным природным мутациям. Гильдия запрашивает контролируемое магическое вскрытие, чтобы определить источник изменений — внешнее воздействие, арканическую порчу или нечто гораздо более тревожное.",
+      "zh": "在最近的战斗之后，英雄们收集了一些被击败生物的尸体，准备进行更深入的分析。这些生物身上存在着无法用自然突变解释的异常。公会要求进行一次受控的魔法解剖，以查明变化的来源——是外来影响、奥术腐化，还是更加令人不安的存在。",
+      "ja": "最近の戦闘の後、英雄たちは討伐した一部の生物の遺体を回収し、より詳細な調査を行うことにした。そこには単なる自然変異では説明できない違和感がある。ギルドは、その変異の原因が外部からの干渉なのか、秘術的な腐食なのか、あるいはさらに不穏なものなのかを特定するため、管理された魔法的解剖を要請している。"
+    },
+    "type": "Intelligence",
+    "expired_at": 4,
+    "available_from_turn": 18,
+    "duration": 2,
+    "difficulty": 1.5,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [150, 151, 152],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [4],
+    "forbidden_heroes": []
+  },
+  {
+    "id": 164,
+    "name": {
+      "pt": "Autópsia Espiritual",
+      "en": "Spiritual Autopsy",
+      "es": "Autopsia Espiritual",
+      "ru": "Духовное Вскрытие",
+      "zh": "灵魂解剖",
+      "ja": "霊的解剖"
+    },
+    "description": {
+      "pt": "Após a eliminação de várias criaturas que demonstraram sinais claros de inteligência e até consciência, a Guilda autoriza uma autópsia espiritual. Diferente de uma análise arcana tradicional, este procedimento busca identificar vestígios de vontade, memória ou identidade que possam ter permanecido nos corpos. A tarefa exige sensibilidade mística e interpretação espiritual cuidadosa — erros podem ocultar ou distorcer a verdade.",
+      "en": "After the elimination of several creatures that displayed clear signs of intelligence and even consciousness, the Guild authorizes a spiritual autopsy. Unlike a traditional arcane analysis, this procedure seeks traces of will, memory, or identity that may still linger within the bodies. The task requires mystical sensitivity and careful spiritual interpretation — mistakes may conceal or distort the truth.",
+      "es": "Tras la eliminación de varias criaturas que mostraron claros signos de inteligencia e incluso conciencia, el Gremio autoriza una autopsia espiritual. A diferencia de un análisis arcano tradicional, este procedimiento busca rastros de voluntad, memoria o identidad que puedan permanecer en los cuerpos. La tarea exige sensibilidad mística e interpretación espiritual cuidadosa; los errores pueden ocultar o distorsionar la verdad.",
+      "ru": "После уничтожения нескольких существ, проявивших явные признаки интеллекта и даже сознания, Гильдия разрешает духовное вскрытие. В отличие от традиционного арканического анализа, эта процедура направлена на поиск следов воли, памяти или личности, которые могли сохраниться в телах. Задание требует мистической чувствительности и осторожной духовной интерпретации — ошибки могут скрыть или исказить истину.",
+      "zh": "在消灭了数个明显表现出智慧甚至意识的生物之后，公会批准进行一次灵魂解剖。与传统的奥术分析不同，这一过程旨在寻找残留在尸体中的意志、记忆或身份痕迹。该任务需要高度的灵性敏感度和谨慎的精神解读，任何失误都可能掩盖或扭曲真相。",
+      "ja": "知性、さらには意識の兆候を明確に示した複数の生物を討伐した後、ギルドは霊的解剖を許可した。これは通常の秘術的分析とは異なり、遺体に残された意志、記憶、あるいは人格の痕跡を探る試みである。この任務には高い霊的感受性と慎重な解釈が求められ、判断を誤れば真実は歪められてしまう。"
+    },
+    "type": "Wisdom",
+    "expired_at": 4,
+    "available_from_turn": 26,
+    "duration": 2,
+    "difficulty": 2,
+    "rewards": {
+      "xp": 60
+    },
+    "required_quests": [153, 154, 155],
     "forbidden_quests": [],
     "required_fail_quests": [],
     "required_heroes": [],
