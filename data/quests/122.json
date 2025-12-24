@@ -1,0 +1,35 @@
+{
+  "id": 122,
+  "name": {
+    "pt": "Entrada da Caverna",
+    "en": "Cave Entrance",
+    "es": "Entrada de la Cueva",
+    "ru": "Вход в Пещеру",
+    "zh": "洞穴入口",
+    "ja": "洞窟の入口"
+  },
+  "description": {
+    "pt": "O rastro leva a uma caverna escondida. No entanto, uma pedra enorme bloqueia a passagem, indicando que o esconderijo foi selado. Os heróis devem usar a Força para mover o obstáculo e investigar se é o refúgio principal ou apenas uma armadilha.",
+    "en": "The trail leads to a hidden cave. However, a massive boulder blocks the passage, indicating the hideout has been sealed. The heroes must use Strength to move the obstacle and investigate whether it is the main hideout or just a trap.",
+    "es": "El rastro conduce a una cueva escondida. Sin embargo, una enorme roca bloquea el pasaje, indicando que el escondite ha sido sellado. Los héroes deben usar la Fuerza para mover el obstáculo e investigar si es el escondite principal o solo una trampa.",
+    "ru": "След ведет к скрытой пещере. Однако огромный валун блокирует проход, указывая, что убежище было запечатано. Герои должны применить Силу, чтобы сдвинуть препятствие, и выяснить, является ли это основным убежищем или просто ловушкой.",
+    "zh": "踪迹 dẫn yīngxióng们来到了一个隐藏的洞穴。然而，一块巨大的石头堵住了通道，表明藏身之处已被封锁。英雄们必须动用力量移开障碍物，并调查这究竟是主要的藏身之处，还是仅仅一个陷阱。",
+    "ja": "追跡は隠された洞窟へと続いている。しかし、巨大な岩が通路を塞いでおり、隠れ家が封印されていることを示している。英雄たちは力を使ってこの障害物を取り除き、そこが主要な隠れ家なのか、単なる罠なのかを調査しなければならない。"
+  },
+  "type": "Strength",
+  "max_heroes": 1,
+  "expired_at": 4,
+  "available_from_turn": 1,
+  "duration": 3,
+  "difficulty": 2,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [
+    121
+  ],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

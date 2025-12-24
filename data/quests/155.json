@@ -1,0 +1,33 @@
+{
+  "id": 155,
+  "name": {
+    "pt": "Coruja Colossal",
+    "en": "Colossal Owl",
+    "es": "Búho Colosal",
+    "ru": "Колоссальная Сова",
+    "ja": "巨大なフクロウ",
+    "zh": "巨型猫头鹰"
+  },
+  "description": {
+    "pt": "Uma coruja colossal tem atacado viajantes durante a noite. Seus olhos brilham com energia arcana e ela desce silenciosa para capturar qualquer um que esteja sozinho. Rastreie-a nas montanhas e impeça novos desaparecimentos.",
+    "en": "A colossal owl has been attacking travelers during the night. Its eyes glow with arcane energy and it descends silently to capture anyone who is alone. Track it in the mountains and prevent new disappearances.",
+    "es": "Un búho colosal ha estado atacando a los viajeros durante la noche. Sus ojos brillan con energía arcana y desciende en silencio para capturar a cualquiera que esté solo. Rastrégalo en las montañas e impide nuevas desapariciones.",
+    "ru": "Колоссальная сова нападает на путешественников по ночам. Ее глаза светятся тайной энергией, и она бесшумно спускается, чтобы схватить любого, кто окажется в одиночестве. Выследите ее в горах и предотвратите новые исчезновения.",
+    "ja": "巨大なフクロウが夜間に旅行者を襲っています。その目は魔力のエネルギーで輝き、静かに降下して一人でいる者を捕らえます。山中で追跡し、さらなる失踪を防いでください。",
+    "zh": "一只巨型猫头鹰在夜间袭击旅行者。它的眼睛闪烁着奥术能量，静悄悄地降落，捕获任何独行者。在山中追踪它，阻止新的失踪事件。"
+  },
+  "type": "Fight",
+  "max_heroes": 1,
+  "expired_at": 2,
+  "available_from_turn": 31,
+  "duration": 4,
+  "difficulty": 7,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

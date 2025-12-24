@@ -1,0 +1,35 @@
+{
+  "id": 125,
+  "name": {
+    "pt": "Ameaça à Fauna da Floresta",
+    "en": "Threat to the Forest Fauna",
+    "es": "Amenaza a la Fauna del Bosque",
+    "ru": "Угроза Фауне Леса",
+    "zh": "森林动物群的威胁",
+    "ja": "森林の動物相への脅威"
+  },
+  "description": {
+    "pt": "O druida alertou que goblins estão caçando indiscriminadamente na floresta, afetando toda a fauna. Os heróis devem rastrear e detê-los para evitar o colapso da vida selvagem.",
+    "en": "The druid warned that goblins are hunting indiscriminately in the forest, affecting all the fauna. Heroes must track and stop them to prevent the collapse of the wildlife.",
+    "es": "El druida advirtió que los goblins están cazando indiscriminadamente en el bosque, afectando a toda la fauna. Los héroes deben rastrearlos y detenerlos para evitar el colapso de la vida silvestre.",
+    "ru": "Друид предупредил, что гоблины ведут неизбирательную охоту в лесу, нанося ущерb всей фауне. Герои должны выследить и остановить их, чтобы предотвратить коллапс дикой природы.",
+    "zh": "德鲁伊警告说，哥布林正在森林中肆意捕猎，影响了所有动物。英雄们必须追踪并阻止他们，以防止野生动物崩溃。",
+    "ja": "ドルイドは、ゴブリンが森で無差別に狩りを行い、すべての動物相に影響を与えていると警告した。英雄たちは野生動物の崩壊を防ぐために、彼らを追跡し、食い止めなければならない。"
+  },
+  "type": "Fight",
+  "max_heroes": 1,
+  "expired_at": 3,
+  "available_from_turn": 28,
+  "duration": 3,
+  "difficulty": 2,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [],
+  "forbidden_quests": [
+    121
+  ],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": 129,
+  "name": {
+    "pt": "Interceptar o Campeão Goblin",
+    "en": "Intercept the Goblin Champion",
+    "es": "Interceptar al Campeón Goblin",
+    "ru": "Перехватить Чемпиона Гоблинов",
+    "zh": "拦截哥布林冠军",
+    "ja": "ゴブリンのチャンピオンを阻止せよ"
+  },
+  "description": {
+    "pt": "O Campeão Goblin foi avistado marchando rumo à cidade, escoltado por magos goblins. Os heróis devem interceptar o grupo antes que cheguem às muralhas, pois um ataque ao portão principal é iminente.",
+    "en": "The Goblin Champion has been spotted marching toward the city, escorted by goblin mages. Heroes must intercept the group before they reach the walls, as an attack on the main gate is imminent.",
+    "es": "El Campeón Goblin ha sido avistado marchando hacia la ciudad, escoltado por magos goblins. Los héroes deben interceptar al grupo antes de que lleguen a las murallas, ya que un ataque a la puerta principal es inminente.",
+    "ru": "Чемпион Гоблинов замечен марширующим к городу, его сопровождают маги гоблинов. Герои должны перехватить группу до того, как они достигнут стен, поскольку атака на главные ворота неизбежна.",
+    "zh": "哥布林冠军已被发现正向城市进军，由哥布林法师护送。英雄们必须在他们到达城墙前拦截这群敌人，因为对主门的攻击迫在眉睫。",
+    "ja": "ゴブリンのチャンピオンがゴブリンの魔術師に護衛され、街に向かって行進しているのが目撃されました。英雄たちは彼らが城壁に到達する前にグループを阻止しなければなりません。主要な門への攻撃が差し迫っています。"
+  },
+  "type": "Fight",
+  "max_heroes": 1,
+  "expired_at": 3,
+  "available_from_turn": 30,
+  "duration": 3,
+  "difficulty": 12,
+  "rewards": {
+    "xp": 200
+  },
+  "required_quests": [],
+  "forbidden_quests": [
+    122
+  ],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": 163,
+  "name": {
+    "pt": "Autópsia Arcana",
+    "en": "Arcane Autopsy",
+    "es": "Autopsia Arcana",
+    "ru": "Арканическое Вскрытие",
+    "zh": "奥术解剖",
+    "ja": "秘術解剖"
+  },
+  "description": {
+    "pt": "Após os confrontos recentes, os heróis recolheram os corpos de algumas das criaturas derrotadas para uma análise mais cuidadosa. Algo nelas não condiz com simples mutações naturais. A Guilda solicita uma autópsia mágica controlada para identificar a origem da alteração — seja influência externa, corrupção arcana ou algo ainda mais perturbador.",
+    "en": "After the recent confrontations, the heroes collected the bodies of some defeated creatures for closer examination. Something about them does not align with simple natural mutations. The Guild requests a controlled magical autopsy to determine the source of the alteration — whether external influence, arcane corruption, or something far more disturbing.",
+    "es": "Tras los enfrentamientos recientes, los héroes recogieron los cuerpos de algunas de las criaturas derrotadas para un análisis más detallado. Hay algo en ellas que no concuerda con simples mutaciones naturales. El Gremio solicita una autopsia mágica controlada para identificar el origen de la alteración, ya sea influencia externa, corrupción arcana o algo mucho más inquietante.",
+    "ru": "После недавних столкновений герои собрали тела некоторых поверженных существ для более тщательного анализа. В них есть нечто, что не соответствует обычным природным мутациям. Гильдия запрашивает контролируемое магическое вскрытие, чтобы определить источник изменений — внешнее воздействие, арканическую порчу или нечто гораздо более тревожное.",
+    "zh": "在最近的战斗之后，英雄们收集了一些被击败生物的尸体，准备进行更深入的分析。这些生物身上存在着无法用自然突变解释的异常。公会要求进行一次受控的魔法解剖，以查明变化的来源——是外来影响、奥术腐化，还是更加令人不安的存在。",
+    "ja": "最近の戦闘の後、英雄たちは討伐した一部の生物の遺体を回収し、より詳細な調査を行うことにした。そこには単なる自然変異では説明できない違和感がある。ギルドは、その変異の原因が外部からの干渉なのか、秘術的な腐食なのか、あるいはさらに不穏なものなのかを特定するため、管理された魔法的解剖を要請している。"
+  },
+  "type": "Intelligence",
+  "max_heroes": 1,
+  "expired_at": 4,
+  "available_from_turn": 18,
+  "duration": 2,
+  "difficulty": 1.5,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [
+    150,
+    151,
+    152
+  ],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [
+    4
+  ],
+  "forbidden_heroes": []
+}

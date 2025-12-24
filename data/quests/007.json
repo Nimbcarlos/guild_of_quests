@@ -1,0 +1,33 @@
+{
+  "id": 7,
+  "name": {
+    "pt": "Ecos do Portal",
+    "en": "Echoes of the Portal",
+    "es": "Ecos del Portal",
+    "ru": "Эхо Портала",
+    "zh": "传送门的迴响",
+    "ja": "ポータルの反響"
+  },
+  "description": {
+    "pt": "Um antigo portal de teleporte foi encontrado nas ruínas de Eldenreach, mas suas runas estão apagadas e instáveis. É necessário decifrar e reativar o circuito mágico para que o teleporte volte a funcionar — sem explodir o vale no processo.",
+    "en": "An ancient teleportation portal was found in the ruins of Eldenreach, but its runes are faded and unstable. It is necessary to decipher and reactivate the magical circuit so that the teleportation works again — without blowing up the valley in the process.",
+    "es": "Se encontró un antiguo portal de teletransporte en las ruinas de Eldenreach, pero sus runas están desvanecidas e inestables. Es necesario descifrar y reactivar el circuito mágico para que el teletransporte vuelva a funcionar, sin que el valle explote en el proceso.",
+    "ru": "В руинах Элденрича был найден древний портал телепортации, но его руны стерты и нестабильны. Необходимо расшифровать и реактивировать магическую цепь, чтобы телепорт снова заработал — не взорвав при этом долину.",
+    "zh": "在埃尔登里奇的废墟中发现了一个古老的传送门，但它的符文已经褪色且不稳定。有必要解读并重新激活魔法回路，让传送门再次工作——同时不炸毁山谷。",
+    "ja": "エルデンリーチの遺跡で古代のテレポートポータルが発見されたが、そのルーンは薄れて不安定になっている。ポータルを再び機能させるためには、魔法回路を解読して再起動する必要がある — その過程で谷を爆破することなく。"
+  },
+  "type": "arcana",
+  "max_heroes": 1,
+  "expired_at": 4,
+  "available_from_turn": 4,
+  "duration": 2,
+  "difficulty": 1.5,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

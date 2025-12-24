@@ -1,0 +1,37 @@
+{
+  "id": 135,
+  "name": {
+    "pt": "Ameaça Entre as Cinzas",
+    "en": "Threat Among the Ashes",
+    "es": "Amenaza Entre las Cenizas",
+    "ru": "Угроза Среди Пепла (Ugroza Sredi Pepla)",
+    "ja": "灰の中の脅威 (Hai no Naka no Kyōi)",
+    "zh": "灰烬中的威胁 (Huījìn zhōng de Wēixié)"
+  },
+  "description": {
+    "pt": "Após o confronto no assentamento, algo maligno despertou entre os corpos. Mortos-vivos emergiram durante a noite e agora ameaçam os poucos sobreviventes da tribo. Alcance o local depressa e proteja quem restou antes que todos sejam consumidos.",
+    "en": "After the confrontation in the settlement, something evil awoke among the bodies. Undead emerged during the night and now threaten the few survivors of the tribe. Reach the location quickly and protect those who remain before everyone is consumed.",
+    "es": "Tras el enfrentamiento en el asentamiento, algo maligno despertó entre los cuerpos. Los muertos vivientes surgieron durante la noche y ahora amenazan a los pocos supervivientes de la tribu. Llega al lugar rápido y protege a los que quedan antes de que todos sean consumidos.",
+    "ru": "После столкновения в поселении, нечто злое пробудилось среди тел. Ночью появились немертвые и теперь угрожают немногим выжившим членам племени. Быстро доберитесь до места и защитите оставшихся, прежде чем все будут поглощены.",
+    "ja": "集落での衝突後、遺体の中から何か邪悪なものが目覚めました。夜の間にアンデッドが出現し、今や部族の数少ない生存者を脅かしています。急いで現地に到着し、全員が食い尽くされる前に残った人々を守ってください。",
+    "zh": "在定居点发生冲突后，尸体中唤醒了某种邪恶的东西。亡灵在夜间出现，现在威胁着部落中仅存的幸存者。迅速到达现场，保护剩下的人，以防他们全部被吞噬。"
+  },
+  "type": "Fight",
+  "max_heroes": 1,
+  "expired_at": 3,
+  "available_from_turn": 36,
+  "duration": 6,
+  "difficulty": 4,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [
+    130
+  ],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": [
+    3
+  ]
+}

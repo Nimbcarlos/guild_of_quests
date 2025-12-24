@@ -1,0 +1,60 @@
+{
+  "id": 7,
+  "name": "Aureth Valmor",
+  "role": "tank",
+  "hero_class": {
+    "en": "Paladin",
+    "pt": "Paladina",
+    "es": "Paladina",
+    "zh": "圣骑士 (Shèngqíshì)",
+    "ja": "聖騎士 (Seikishi)",
+    "ru": "Паладин",
+    "kr": "성기사 (Seonggisa)"
+  },
+  "status": {
+    "en": "Healthy",
+    "pt": "Saudável",
+    "es": "Saludable",
+    "zh": "健康 (Jiànkāng)",
+    "ja": "健康 (Kenkō)",
+    "ru": "Здоров",
+    "kr": "건강함 (Geongangham)"
+  },
+  "perks": ["religion", "diplomacy"],
+  "defects": {
+    "Mal-humored": {
+      "pt": "Mal-humorada",
+      "en": "Mal-humored",
+      "es": "Malhumorada",
+      "zh": "坏脾气 (Huài píqì)",
+      "ja": "不機嫌 (Fukigen)",
+      "ru": "Плохое настроение",
+      "kr": "불쾌한 기분 (Bulkwaehan gibun)"
+    }
+  },
+  "story": {
+    "pt": "Criada em uma ordem rígida, Aureth nunca encontrou conforto na fé, apenas dever. Mal-humorada e cética, ela luta não por devoção, mas por teimosia. Em combate, torna-se inabalável, erguendo o escudo porque alguém precisa ficar de pé.",
+    "en": "Raised in a strict order, Aureth never found comfort in faith, only duty. Bitter and cynical, she fights not out of devotion, but stubborn resolve. In battle, she becomes unyielding, holding the line because someone must.",
+    "es": "Criada en una orden estricta, Aureth nunca encontró consuelo en la fe, solo deber. Malhumorada y cínica, lucha no por devoción, sino por pura obstinación. En combate, se vuelve inquebrantable.",
+    "ru": "Выросшая в строгом ордене, Аурет никогда не находила утешения в вере, лишь долг. Угрюмая и циничная, она сражается не из преданности, а из упрямства. В бою она становится непреклонной.",
+    "zh": "奥蕾丝在严格的骑士团中长大，从未在信仰中找到安慰，只有责任。她性情阴郁而愤世嫉俗，为了坚持而战斗。战斗中，她坚如磐石。",
+    "ja": "厳格な騎士団で育ったオーレスは、信仰に安らぎを見出せず、義務だけを学んだ。不機嫌で皮肉屋な彼女は、信念ではなく意地で戦う。戦場では揺るがない盾となる。"
+  },
+  "photo_url": "assets/img/aureth.png",
+  "photo_body_url": "assets/img/aurethfullbody.png",
+  "unlock_by_quest": [],
+  "available_from_turn": 1,
+  "leave_on_quest": [],
+  "growth_curve": {
+    "1": { "strength": 3, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+    "2": { "strength": 4, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+    "3": { "strength": 5, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+    "4": { "strength": 6, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+    "5": { "strength": 7, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+    "6": { "strength": 7, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+    "7": { "strength": 8, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+    "8": { "strength": 9, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+    "9": { "strength": 10, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+    "10": { "strength": 11, "dexterity": 2, "intelligence": 2, "wisdom": 2 }
+  }
+}

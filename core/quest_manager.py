@@ -137,6 +137,12 @@ class QuestManager:
         if result is "success":
             result_key = self.lm.t(result)
             self._log(self.lm.t("quest_completed").format(name=quest.name, result=result_key))
+            self.assistant.speak(
+                "assistant_quest_completed",
+                name=quest.name,
+                result=result_key
+            )
+
 
             if quest.id not in self.completed_quests:
                 self.completed_quests[quest.id] = set()
@@ -171,12 +177,16 @@ class QuestManager:
 
 
         else:
+            self.assistant.speak(
+                "assistant_quest_failed",
+                name=quest.name
+            )
+            self._log(self.lm.t("quest_failed").format(name=quest.name))
+
             if quest.return_on_fail:
                 quest.available_since_turn = None
-                self._log(self.lm.t("quest_failed").format(name=quest.name))
             else:
                 self.failed_quests.add(quest.id)
-                self._log(self.lm.t("quest_failed").format(name=quest.name))
 
         # Reseta status dos heróis
         for hero in heroes:
@@ -188,6 +198,7 @@ class QuestManager:
         # Callback de diálogo (resultado pós-quest)
         if self.dialog_callback:
             self.dialog_callback(heroes, quest.id, result)
+            self.assistant.on_quest_resolved(quest, result)
             if self.assistant:
                 for hero_name, level in self.pending_level_ups:
                     self.assistant.speak("assistant_level_up", hero=hero_name, level=level)

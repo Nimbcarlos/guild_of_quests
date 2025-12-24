@@ -1,0 +1,37 @@
+{
+  "id": 132,
+  "name": {
+    "pt": "Presença Sagrada",
+    "en": "The Mystery of the Hidden Sanctuary",
+    "es": "El Misterio del Santuario Oculto",
+    "ru": "Тайна Скрытого Святилища",
+    "zh": "隐藏圣所之谜",
+    "ja": "隠された聖域の謎",
+    "kr": "신성한 현존"
+  },
+  "description": {
+    "pt": "Após o relatório sobre a presença 'sagrada' emanando do solo do antigo assentamento da tribo, os heróis devem retornar ao local e investigar a origem dessa energia.",
+    "en": "Following the report about the 'sacred' presence emanating from the ground of the former tribe settlement, the heroes must return to the site and investigate the origin of this energy.",
+    "es": "Tras el informe sobre la presencia 'sagrada' que emana del suelo del antiguo asentamiento de la tribu, los héroes deben regresar al lugar e investigar el origen de esta energía.",
+    "ru": "После доклада о «священном» присутствии, исходящем из земли бывшего поселения племени, герои должны вернуться на место и исследовать происхождение этой энергии.",
+    "zh": "在关于“神圣”存在从前部落定居点地面散发出来的报告之后，英雄们必须返回该地点并调查这种能量的来源。",
+    "ja": "かつての部族の集落の地面から発せられる「神聖な」気配に関する報告を受けて、英雄たちはその場所に戻り、このエネルギーの起源を調査しなければならない。",
+    "kr": "부족의 옛 정착지 땅에서 발산되는 '신성한' 존재에 대한 보고 후, 영웅들은 그 장소로 돌아가 이 에너지의 근원을 조사해야 합니다."
+  },
+  "type": "Wisdom",
+  "max_heroes": 1,
+  "expired_at": 3,
+  "available_from_turn": 25,
+  "duration": 3,
+  "difficulty": 2,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [
+    131
+  ],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

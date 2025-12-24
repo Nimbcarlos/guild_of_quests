@@ -1,0 +1,33 @@
+{
+  "id": 160,
+  "name": {
+    "pt": "Teia da Dor",
+    "en": "Web of Pain",
+    "es": "Telaraña de Dolor",
+    "ru": "Паутина Боли",
+    "ja": "苦痛の網",
+    "zh": "痛苦之网"
+  },
+  "description": {
+    "pt": "Aranhas do bosque começaram a crescer de forma anormal. Uma delas, do tamanho de um cavalo, teceu teias pela estrada principal e capturou viajantes. Liberte os presos e elimine a aranha antes que a rota seja abandonada.",
+    "en": "Forest spiders have started growing abnormally large. One of them, the size of a horse, has spun webs across the main road and captured travelers. Free the prisoners and eliminate the spider before the route is abandoned.",
+    "es": "Las arañas del bosque han comenzado a crecer de forma anormal. Una de ellas, del tamaño de un caballo, ha tejido telarañas a lo largo de la carretera principal y ha capturado viajeros. Libera a los atrapados y elimina a la araña antes de que la ruta sea abandonada.",
+    "ru": "Лесные пауки начали аномально расти. Один из них, размером с лошадь, сплел паутину на главной дороге и захватил путешественников. Освободите пленных и уничтожьте паука, пока маршрут не будет заброшен.",
+    "ja": "森のクモが異常に巨大化し始めました。そのうちの一匹は馬ほどの大きさになり、主要な道路に巣を張り巡らせて旅行者を捕らえています。ルートが放棄される前に、囚われた人々を解放し、クモを排除してください。",
+    "zh": "森林中的蜘蛛开始异常生长。其中一只，体型有马匹大小，在主干道上织网并捕获了旅行者。在路线被遗弃之前，解救被困者并消灭这只蜘蛛。"
+  },
+  "type": "Fight",
+  "max_heroes": 1,
+  "expired_at": 2,
+  "available_from_turn": 24,
+  "duration": 4,
+  "difficulty": 4,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

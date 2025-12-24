@@ -1,0 +1,41 @@
+{
+  "id": 105,
+  "name": {
+    "pt": "A Poça Cresceu...",
+    "en": "The Puddle Grew...",
+    "es": "El Charco Creció...",
+    "ru": "Лужа Разрослась... (Luzha Razroslas'...) ",
+    "ja": "水たまりが成長した… (Mizutamari ga Seichō Shita…)",
+    "zh": "水洼变大了…… (Shuǐwā Biàndà Le…)"
+  },
+  "description": {
+    "pt": "Apesar do grupo ter eliminado completamente os slimes visíveis, uma enorme poça pegajosa surge próxima ao vilarejo. Ela pulsa, expande devagar e reage ao toque, como se algo estivesse sendo formado dentro dela. Os moradores estão apavorados — não com slimes pequenos desta vez, mas com a possibilidade de algo gigante emergir dali. A guilda envia novamente os heróis para investigar a origem desse crescimento anormal da gosma.",
+    "en": "Despite the group completely eliminating the visible slimes, a massive sticky puddle has appeared near the village. It pulses, expands slowly, and reacts to touch, as if something is being formed inside it. The villagers are terrified—not of small slimes this time, but of the possibility of something gigantic emerging from it. The guild sends the heroes again to investigate the source of this abnormal goo growth.",
+    "es": "A pesar de que el grupo eliminó por completo los slimes visibles, un enorme charco pegajoso ha surgido cerca de la aldea. Pulsa, se expande lentamente y reacciona al tacto, como si algo se estuviera formando dentro de él. Los aldeanos están aterrorizados, no por slimes pequeños esta vez, sino por la posibilidad de que algo gigantesco emerja de allí. El gremio envía a los héroes de nuevo para investigar el origen de este crecimiento anormal de la baba.",
+    "ru": "Несмотря на то, что группа полностью уничтожила видимые слизни, рядом с деревней появилась огромная липкая лужа. Она пульсирует, медленно расширяется и реагирует на прикосновение, как будто внутри нее что-то формируется. Жители напуганы — на этот раз не маленькими слизнями, а возможностью того, что оттуда может появиться нечто гигантское. Гильдия снова отправляет героев расследовать причину этого аномального роста слизи. (Nesmotrya na to, chto gruppa polnost'yu unichtozhila vidimyye slizni, ryadom s derevney poyavilas' ogromnaya lipkaya luzha. Ona pul'siruyet, medlenno rasshiryayetsya i reagiruyet na prikosnoveniye, kak budto vnutri neye chto-to formiruyetsya. Zhiteli napugany — na etot raz ne malen'kimi sliznyami, a vozmozhnost'yu togo, chto ottuda mozhet poyavit'sya nechto gigantskoye. Gil'diya snova otpravlyayet geroyev rassledovat' prichinu etogo anomal'nogo rosta slizi.)",
+    "ja": "グループが目に見えるスライムを完全に排除したにもかかわらず、村の近くに巨大な粘着性の水たまりが出現しました。それは脈打ち、ゆっくりと広がり、触れると反応します。まるで内部で何かが形成されているかのようです。村人たちは恐れています。今回は小さなスライムではなく、そこから何か巨大なものが現れる可能性に怯えています。ギルドは再び英雄たちを送り込み、この異常な粘液の成長の原因を調査させます。(Gurūpu ga me ni mieru suraimu o kanzen ni haijo shita ni mo kakawarazu, mura no chikaku ni kyodai na nenchakusei no mizutamari ga shutsugen shimashita. Sore wa myakuuchi, yukkuri to hirogari, fureru to hannō shimasu. Marude naibu de nanika ga keisei sarete iru ka no yō desu. Murabito-tachi wa osorete imasu. Konkai wa chīsana suraimu dewa naku, soko kara nanika kyodai na mono ga arawareru kanōsei ni obiete imasu. Girudo wa futatabi eiyū-tachi o okurikomi, kono ijō na nen'eki no seichō no gen'in o chōsa sasemasu.)",
+    "zh": "尽管队伍已经彻底清除了可见的史莱姆，但村庄附近出现了一个巨大的粘性水洼。它正在脉动，缓慢膨胀，并且对触碰有反应，仿佛有什么东西正在其内部形成。村民们感到恐惧——这次不是因为小史莱姆，而是担心有什么巨大的东西会从中出现。公会再次派出英雄们调查这种异常粘液生长的根源。(Jǐnguǎn duìwǔ yǐjīng chèdǐ qīngchúle kějiàn de shǐ lái mǔ, dàn cūnzhuāng fùjìn chūxiànle yīgè jùdà de niánxìng shuǐwā. Tā zhèngzài màidòng, huǎnmàn péngzhàng, bìngqiě duì chù pèng yǒu fǎnyìng, fǎngfú yǒu shénme dōngxi zhèngzài qí nèibù xíngchéng. Cūnmínmen gǎndào kǒngjù—zhè cì bùshì yīnwèi xiǎo shǐ lái mǔ, ér shì dānxīn yǒu shénme jùdà de dōngxi huì cóng zhōng chūxiàn. Gōnghuì zàicì pài chū yīngxióngmen diàochá zhè zhǒng yìcháng nián yè shēngzhǎng de gēnyuán.)"
+  },
+  "type": "Fight",
+  "max_heroes": 1,
+  "expired_at": 3,
+  "available_from_turn": 19,
+  "duration": 3,
+  "difficulty": 1.5,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [
+    101
+  ],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [
+    1,
+    2
+  ],
+  "forbidden_heroes": [
+    3,
+    4
+  ]
+}

@@ -1,0 +1,61 @@
+  {
+    "id": 1,
+    "name": "Lyra",
+    "role": "tank",
+    "hero_class": {
+      "en": "Warrior",
+      "pt": "Guerreira",
+      "es": "Guerrera",
+      "zh": "战士 (Zhànshì)",
+      "ja": "戦士 (Senshi)",
+      "ru": "Воительница",
+      "kr": "전사 (Jeonsa)"
+    },
+    "status": {
+      "en": "Healthy",
+      "pt": "Saudável",
+      "es": "Saludable",
+      "zh": "健康 (Jiànkāng)",
+      "ja": "健康 (Kenkō)",
+      "ru": "Здоров",
+      "kr": "건강함 (Geongangham)"
+    },
+    "perks": ["intimidation", "athletics"],
+    "defects": {
+      "shyness": {
+        "en": "Shyness",
+        "pt": "Timidez",
+        "es": "Timidez",
+        "zh": "害羞 (Hàixiū)",
+        "ja": "内気 (Uchiki)",
+        "ru": "Застенчивость",
+        "kr": "수줍음 (Sujubeum)"
+      }
+    },
+    "story": {
+      "en": "Lyra grew up in a warrior tribe, naturally shy and averse to major interactions. She didn't know how to communicate well with people, and her words rarely came out clearly. However, when she wielded her Vorpal sword, something changed radically. In combat, the shyness completely disappeared, replaced by a savage ferocity. She moved like a force of nature, her battle cries echoing through the forest, a brutal and relentless warrior.",
+      "pt": "Lyra cresceu em uma tribo de guerreiros, naturalmente tímida e avessa a grandes interações. Ela não sabia se comunicar bem com as pessoas, e suas palavras raramente saíam de forma clara. No entanto, quando empunhava sua espada Vorpal, algo mudava radicalmente. Em combate, a timidez desaparecia por completo, substituída por uma ferocidade selvagem. Ela se movia como uma strength da natureza, seus gritos de batalha ecoando pela floresta, uma guerreira brutal e implacável.",
+      "es": "Lyra creció en una tribu de guerreros, naturalmente tímida y reacia a las interacciones importantes. No sabía comunicarse bien con la gente, y sus palabras rara vez salían con claridad. Sin embargo, cuando empuñaba su espada Vorpal, algo cambiaba radicalmente. En combate, la timidez desaparecía por completo, siendo reemplazada por una ferocidad salvaje. Se movía como una strength de la naturaleza, sus gritos de batalla resonando por el bosque, una guerrera brutal e implacable.",
+      "zh": "莱拉在一个战士部落中长大，天生害羞，不愿与人过多交流。她不擅长与人沟通，说话也很少清晰流畅。然而，当她挥舞起她的魔刃剑时，一切都发生了彻底的改变。在战斗中，害羞完全消失，取而代之的是一种野蛮的凶猛。她像一股自然strength般行动，她的战吼声响彻森林，是一位残酷无情的战士。",
+      "ja": "ライラは戦士の部族で育ちましたが、生まれつき内気で、大きな交流を避けていました。人とのコミュニケーションが苦手で、言葉がはっきりと出ることは稀でした。しかし、ヴォーパルソードを握ると、何かが劇的に変わります。戦闘では、内気さが完全に消え去り、獰猛な狂気に取って代わられます。彼女は自然の力のように動き、その雄叫びは森に響き渡り、残忍で容赦のない戦士となります。",
+      "ru": "Лира выросла в племени воинов, по натуре застенчивая и избегающая серьезного общения. Она не умела хорошо общаться с людьми, и ее слова редко звучали ясно. Однако, когда она брала в руки свой Меч Ворпал, что-то радикально менялось. В бою застенчивость полностью исчезала, заменяясь дикой свирепостью. Она двигалась как strength природы, ее боевые кличи эхом отдавались по лесу — жестокая и безжалостная воительница.",
+      "kr": "라이라는 전사 부족에서 자랐으며, 천성적으로 수줍음이 많고 주요 상호작용을 꺼립니다. 그녀는 사람들과 잘 소통하는 방법을 몰랐고, 말이 명확하게 나오는 경우가 거의 없었습니다. 하지만, 그녀가 보팔 소드를 휘두를 때, 무언가가 급격하게 변합니다. 전투에서 수줍음은 완전히 사라지고, 야만적인 흉포함으로 대체됩니다. 그녀는 자연의 힘처럼 움직이며, 전투의 함성이 숲 전체에 울려 퍼지는, 잔혹하고 무자비한 전사입니다."
+    },
+    "photo_url": "assets/img/Lyra.png",
+    "photo_body_url": "assets/img/lyrafullbody.png",
+    "unlock_by_quest": [],
+    "available_from_turn": 1,
+    "leave_on_quest": [],
+    "growth_curve": {
+      "1": { "strength": 3, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+      "2": { "strength": 4, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+      "3": { "strength": 5, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+      "4": { "strength": 6, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+      "5": { "strength": 7, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+      "6": { "strength": 7, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+      "7": { "strength": 8, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+      "8": { "strength": 9, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+      "9": { "strength": 10, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+      "10": { "strength": 11, "dexterity": 2, "intelligence": 2, "wisdom": 2 }
+    }
+  }

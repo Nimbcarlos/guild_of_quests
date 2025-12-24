@@ -1,0 +1,41 @@
+{
+  "id": 101,
+  "name": {
+    "pt": "Nascente Pegajosa",
+    "en": "Sticky Spring",
+    "es": "Manantial Pegajoso",
+    "ru": "Липкий Родник (Lipkiy Rodnik)",
+    "ja": "ねばねばの泉 (Nebaneba no Izumi)",
+    "zh": "粘稠之泉 (Niánchóu zhī Quán)"
+  },
+  "description": {
+    "pt": "Estranhas massas gelatinosas começaram a aparecer nos arredores do poço. Parece que algo lá embaixo está gerando novas criaturas. Desça novamente e descubra o que está provocando esses 'filhotes' de slime antes que a vila seja engolida por gosma.",
+    "en": "Strange gelatinous masses have started appearing around the well. It seems something down there is generating new creatures. Descend again and find out what is causing these slime 'offspring' before the village is swallowed by goo.",
+    "es": "Extrañas masas gelatinosas han comenzado a aparecer en los alrededores del pozo. Parece que algo allí abajo está generando nuevas criaturas. Desciende de nuevo y descubre qué está provocando estas 'crías' de slime antes de que la aldea sea engullida por la baba.",
+    "ru": "Странные студенистые массы начали появляться в окрестностях колодца. Кажется, что-то внизу порождает новых существ. Спуститесь снова и выясните, что́ именно вызывает появление этих 'детенышей' слизня, прежде чем деревню поглотит слизь. (Strannye studenistye massy nachali poyavlyat'sya v okrestnostyakh kolodtsa. Kazhetsya, chto-to vnizu porozhdayet novykh sushchestv. Spustites' snova i vyyasnite, chto imenno vyzyvayet poyavleniye etikh 'detenyshey' sliznya, prezhde chem derevnyu poglotit sliz'. )",
+    "ja": "奇妙なゼラチン質の塊が井戸の周りに出現し始めました。どうやら、地下の何かが新しい生き物を生み出しているようです。再び降りて、村がスライムに飲み込まれる前に、これらのスライムの「仔」を引き起こしている原因を突き止めてください。(Kimyō na zerachin-shitsu no katamari ga ido no mawari ni shutsugen shi hajimemashita. Dōyara, chika no nanika ga atarashī ikimono o umidashite iru yō desu. Futatabi orite, mura ga suraimu ni nomikomareru mae ni, korera no suraimu no 'ko' o hikiokoshite iru gen'in o tsukitomete kudasai.)",
+    "zh": "奇怪的胶状物开始出现在水井周围。似乎下面有什么东西正在生成新的生物。请再次下去，在村庄被粘液吞噬之前，查明是什么原因造成了这些史莱姆“幼崽”。(Qíguài de jiāozhuàng wù kāishǐ chūxiàn zài shuǐjǐng zhōuwéi. Sìhū xiàmiàn yǒu shénme dōngxi zhèngzài chéngshēng xīn de shēngwù. Qǐng zàicì xiàqù, zài cūnzhuāng bèi nián yè tūnshì zhīqián, chá míng shì shénme yuányīn zàochéngle zhèxiē shǐ lái mǔ 'yòuzǎi'.)"
+  },
+  "type": "Fight",
+  "max_heroes": 1,
+  "expired_at": 3,
+  "available_from_turn": 15,
+  "duration": 3,
+  "difficulty": 1.5,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [
+    100
+  ],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [
+    1,
+    2
+  ],
+  "forbidden_heroes": [
+    3,
+    4
+  ]
+}

@@ -1,10 +1,37 @@
+# quest_success_calculator.py
+
 import random
 from core.hero import Hero
 from core.quest import Quest
 from core.language_manager import LanguageManager
 
 
-# quest_success_calculator.py
+PERK_ATTRIBUTE_MAP = {
+    # 🗡️ Furtividade / crime
+    "stealth": "dexterity",      # furtividade
+    "thievery": "dexterity",     # ladinagem
+
+    # 🌿 Exploração / natureza
+    "survival": "wisdom",        # sobrevivência
+    "nature": "wisdom",          # natureza / druidismo
+
+    # 🧪 Conhecimento técnico
+    "alchemy": "intelligence",   # alquimia
+    "arcana": "intelligence",    # arcanista
+
+    # 🗣️ Social
+    "diplomacy": "wisdom",       # diplomacia
+    "intimidation": "strength",  # intimidação
+
+    # ✝️ Fé / suporte
+    "healing": "wisdom",         # cura
+    "religion": "wisdom",        # religião / exorcismo
+
+    # ⛏️ Profissões físicas
+    "mining": "strength",        # mineração
+    "blacksmith": "strength",    # ferraria
+    "athletics": "strength",     # atletismo
+}
 
 class QuestSuccessCalculator:
     def __init__(self, language_manager=None):
@@ -12,118 +39,88 @@ class QuestSuccessCalculator:
         language_manager: instância do LanguageManager para fazer mapeamento reverso
         """
         self.lm = language_manager
-        
-        # Mapeamento interno (sempre em inglês)
-        self.attribute_mapping = {
-            "fight": None,  # tratamento especial
-            "strength": "strength",
-            "dexterity": "dexterity",
-            "intelligence": "intelligence",
-            "wisdom": "wisdom"
-        }
-        
-        # Chaves de tradução para cada tipo de quest
-        # Essas chaves devem existir nos seus arquivos de tradução
-        self.quest_type_keys = {
-            "fight": "quest_type_fight",
-            "strength": "quest_type_strength",
-            "dexterity": "quest_type_dexterity",
-            "intelligence": "quest_type_intelligence",
-            "wisdom": "quest_type_wisdom"
-        }
-        
-        # Cache de traduções reversas para performance
-        self._reverse_cache = {}
-    
-    def _build_reverse_mapping(self):
-        """
-        Constrói um mapeamento reverso: tradução → ID interno
-        Usa o LanguageManager para pegar todas as traduções de todos os idiomas
-        """
-        if not self.lm:
-            return {}
-        
-        reverse_map = {}
-        
-        # Para cada tipo de quest e sua chave de tradução
-        for internal_id, translation_key in self.quest_type_keys.items():
-            # Pega a tradução em TODOS os idiomas suportados
-            for lang in ["en", "pt", "es", "ru", "zh", "ja"]:
-                try:
-                    # Salva o idioma atual
-                    current_lang = self.lm.current_language
-                    
-                    # Muda temporariamente para esse idioma
-                    self.lm.current_language = lang
-                    translated = self.lm.t(translation_key)
-                    
-                    # Adiciona ao mapeamento reverso (case-insensitive)
-                    if translated:
-                        reverse_map[translated.lower()] = internal_id
-                    
-                    # Restaura idioma original
-                    self.lm.current_language = current_lang
-                except:
-                    pass
-        
-        # Adiciona também os IDs em inglês como fallback
-        for internal_id in self.attribute_mapping.keys():
-            reverse_map[internal_id.lower()] = internal_id
-        
-        return reverse_map
-    
-    def _normalize_quest_type(self, quest_type: str) -> str:
-        """
-        Converte o tipo da quest (que pode estar em qualquer idioma) para o ID interno em inglês.
-        """
-        if not quest_type:
-            return "fight"  # fallback
-        
-        # Se não tem LanguageManager, assume que já está em inglês
-        if not self.lm:
-            return quest_type.lower()
-        
-        # Constrói o cache se ainda não existe
-        if not self._reverse_cache:
-            self._reverse_cache = self._build_reverse_mapping()
-        
-        # Busca no cache (case-insensitive)
-        normalized = quest_type.lower().strip()
-        return self._reverse_cache.get(normalized, normalized)
     
     def calculate_success_chance(self, heroes: list[Hero], quest: Quest) -> float:
-        total_rating = 0
-        
-        # Normaliza o tipo da quest para inglês
-        quest_type_normalized = self._normalize_quest_type(quest.type)
-        
-        if quest_type_normalized not in self.attribute_mapping:
-            print(f"[AVISO] Tipo de missão desconhecido: '{quest.type}' (normalizado: '{quest_type_normalized}')")
-            print(f"[AVISO] Tipos válidos: {list(self.attribute_mapping.keys())}")
+        if not heroes:
             return 0.0
 
-        # --- tratamento especial para luta ---
-        if quest_type_normalized == "fight":
-            # Combate pode usar múltiplos atributos
-            combat_attributes = ["strength", "dexterity", "intelligence", "wisdom"]
-            for hero in heroes:
-                # pega o maior atributo de combate de cada herói
-                hero_rating = max(hero.stats.get(attr, 0) for attr in combat_attributes)
-                total_rating += hero_rating
-        else:
-            main_attribute = self.attribute_mapping[quest_type_normalized]
-            for hero in heroes:
-                hero_attribute = hero.stats.get(main_attribute, 0)
-                total_rating += hero_attribute
+        total_rating = 0
+        quest_types = quest.type if isinstance(quest.type, list) else [quest.type]
 
-        # --- chance base ---
+        # 🔥 COMBATE
+        if "fight" in quest_types:
+            for hero in heroes:
+                best_combat = max(
+                    hero.stats.get(attr, 0)
+                    for attr in ["strength", "dexterity", "intelligence", "wisdom"]
+                )
+                total_rating += best_combat
+
+        # 🧠 SKILL / PERK
+        else:
+            for hero in heroes:
+                best_value = 0
+
+                for perk in getattr(hero, "perks", []):
+                    if perk not in quest_types:
+                        continue
+
+                    attribute = PERK_ATTRIBUTE_MAP.get(perk)
+                    if not attribute:
+                        continue
+
+                    value = hero.stats.get(attribute, 0)
+                    best_value = max(best_value, value)
+
+                total_rating += best_value
+
+        # ⚖️ Fórmula base
         base_chance = total_rating / (quest.difficulty * 2)
 
-        return max(0.0, min(1.0, base_chance))
-    
-    def clear_cache(self):
-        """Limpa o cache de traduções reversas (útil ao trocar de idioma)"""
-        self._reverse_cache = {}
+        # ═══════════════════════════════════════
+        # 🤝 SINERGIA DE ROLES
+        # ═══════════════════════════════════════
+        roles = [getattr(hero, "role", None) for hero in heroes]
+        party_size = len(roles)
+        print("role", roles)
+
+        synergy_bonus = 0.0
+        synergy_penalty = 0.0
+
+
+        if party_size == 2:
+            if ("tank" in roles or "healer" in roles) and "dps" in roles:
+                synergy_bonus += 0.10
+            else:
+                synergy_penalty -= 0.10
+
+        elif party_size >= 4:
+            if (
+                roles.count("tank") >= 1 and
+                roles.count("healer") >= 1 and
+                roles.count("dps") >= 2
+            ):
+                synergy_bonus += 0.20
+            else:
+                synergy_penalty -= 0.20
+
+        elif party_size >= 4:
+            if (
+                roles.count("tank") >= 1 and
+                roles.count("healer") >= 1 and
+                roles.count("dps") >= 2
+            ):
+                synergy_bonus += 0.20
+            else:
+                synergy_penalty -= 0.20
+
+        base_chance += synergy_bonus
+        base_chance -= synergy_penalty
+        print(base_chance)
+        print(synergy_bonus)
+        print(synergy_penalty)
+
+        return max(0.05, min(0.95, base_chance))
 
 def run_mission_roll(success_chance: float) -> str:
     """
@@ -167,7 +164,7 @@ if __name__ == "__main__":
     
     quest = Mock()
     quest.type = "strength"  # em português
-    quest.difficulty = 0.202
+    quest.difficulty = 1.5
     
     # Teste sem LanguageManager
     print("=== Teste sem LanguageManager ===")

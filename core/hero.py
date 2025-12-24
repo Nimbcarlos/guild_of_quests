@@ -18,6 +18,7 @@ class Hero:
         self,
         id: int,
         name,
+        role,
         hero_class,
         status: str,
         perks,
@@ -39,6 +40,7 @@ class Hero:
 
         # Campos que podem ser multilíngues
         self.name = self._get_lang_value(name)
+        self.role = self._get_lang_value(role)
         self.hero_class = self._get_lang_value(hero_class)
         self.story = self._get_lang_value(story)
 
@@ -101,18 +103,41 @@ class Hero:
         )
 
     # -------------------- Carregamento --------------------
-
     @staticmethod
-    def load_heroes(language="en") -> list["Hero"]:
-        """Carrega todos os heróis com o idioma especificado."""
-        file_path = Path("data/heroes.json")
-        if not file_path.exists():
-            raise FileNotFoundError(f"Arquivo {file_path} não encontrado.")
-
-        with open(file_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-
-        return [Hero(language=language, **hero_data) for hero_data in data]
+    def load_heroes(language="en", heroes_folder="data/heroes") -> List["Hero"]:
+        """
+        Carrega todos os heróis da pasta especificada.
+        
+        Args:
+            language: Idioma para carregar (pt, en, es, etc)
+            heroes_folder: Pasta onde estão os arquivos JSON dos heróis
+            
+        Returns:
+            Lista de objetos Hero carregados
+        """
+        folder_path = Path(heroes_folder)
+        
+        if not folder_path.exists():
+            print(f"⚠️ Pasta '{heroes_folder}' não encontrada!")
+            return []
+        
+        heroes = []
+        
+        # Busca todos os arquivos .json na pasta
+        for json_file in sorted(folder_path.glob("*.json")):
+            try:
+                with open(json_file, "r", encoding="utf-8") as f:
+                    hero_data = json.load(f)
+                
+                # Cria o herói com o idioma especificado
+                hero = Hero(language=language, **hero_data)
+                heroes.append(hero)
+                
+            except Exception as e:
+                print(f"❌ Erro ao carregar '{json_file.name}': {e}")
+                continue
+        
+        return heroes
 
     @staticmethod
     def get_hero_by_id(hero_id: int, language="en") -> Optional["Hero"]:

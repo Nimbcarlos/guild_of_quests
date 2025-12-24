@@ -1,0 +1,33 @@
+{
+  "id": 153,
+  "name": {
+    "pt": "Javali Descomunal",
+    "en": "Colossal Boar",
+    "es": "Jabalí Colosal",
+    "ru": "Колоссальный Кабан",
+    "ja": "巨大なイノシシ",
+    "zh": "庞大的野猪"
+  },
+  "description": {
+    "pt": "Um javali enorme apareceu nas fazendas ao sul, destruindo cercas e atacando trabalhadores. Ele é maior que um touro e age como se estivesse possuído. Intercepte-o antes que bata às portas da cidade.",
+    "en": "A massive boar has appeared in the southern farmlands, destroying fences and attacking workers. It is larger than a bull and acts as if possessed. Intercept it before it reaches the city gates.",
+    "es": "Un jabalí enorme ha aparecido en las granjas del sur, destruyendo vallas y atacando a los trabajadores. Es más grande que un toro y actúa como si estuviera poseído. Interceptadlo antes de que llegue a las puertas de la ciudad.",
+    "ru": "Огромный кабан появился на южных фермах, разрушая заборы и нападая на работников. Он больше быка и ведет себя так, будто одержим. Перехватите его, прежде чем он достигнет городских ворот.",
+    "ja": "巨大なイノシシが南の農場に出現し、柵を破壊し、労働者を襲っています。雄牛よりも大きく、まるで憑りつかれているかのように振る舞っています。都市の門に到達する前に迎撃してください。",
+    "zh": "一头庞大的野猪出现在南部农田，摧毁了栅栏并攻击工人。它比一头公牛还要大，行动起来就像被附身了一样。在它撞到城市大门之前，将其截住。"
+  },
+  "type": "Fight",
+  "max_heroes": 1,
+  "expired_at": 3,
+  "available_from_turn": 12,
+  "duration": 4,
+  "difficulty": 4,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

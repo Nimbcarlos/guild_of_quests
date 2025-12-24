@@ -1,0 +1,33 @@
+{
+  "id": 150,
+  "name": {
+    "pt": "Ratos no Celeiro",
+    "en": "Rats in the Barn",
+    "es": "Ratas en el Granero",
+    "ru": "Крысы в Амбаре",
+    "zh": "谷仓里的老鼠",
+    "ja": "納屋のネズミ"
+  },
+  "description": {
+    "pt": "Ratos gigantes invadiram o celeiro do vilarejo. Acabe com eles antes que destruam os alimentos.",
+    "en": "Giant rats have invaded the village barn. Get rid of them before they destroy the food.",
+    "es": "Ratas gigantes han invadido el granero del pueblo. Acaba con ellas antes de que destruyan los alimentos.",
+    "ru": "Гигантские крысы вторглись в деревенский амбар. Избавьтесь от них, пока они не уничтожили еду.",
+    "zh": "巨型老鼠入侵了村庄的谷仓。在它们毁坏食物之前消灭它们。",
+    "ja": "巨大なネズミが村の納屋に侵入した。食料を破壊される前に彼らを排除せよ。"
+  },
+  "type": "fight",
+  "max_heroes": 4,
+  "expired_at": 3,
+  "available_from_turn": 3,
+  "duration": 4,
+  "difficulty": 3,
+  "rewards": {
+    "xp": 100
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

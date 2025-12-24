@@ -1,0 +1,36 @@
+{
+  "id": 133,
+  "name": {
+    "pt": "Destruindo o Lich",
+    "en": "Destroying the Lich",
+    "es": "Destruyendo al Lich",
+    "ru": "Уничтожение Лича",
+    "zh": "消灭巫妖",
+    "ja": "リッチの破壊"
+  },
+  "description": {
+    "pt": "Precisamos por um fim definitivo nesse Lich, que se encontra selado na câmara. Os heróis devem encontrar uma maneira de destruí-lo de uma vez por todas.",
+    "en": "We must definitively put an end to this Lich, who is sealed in the chamber. Heroes must find a way to destroy it once and for all.",
+    "es": "Debemos poner fin definitivamente a este Lich, que se encuentra sellado en la cámara. Los héroes deben encontrar una forma de destruirlo de una vez por todas.",
+    "ru": "Мы должны окончательно покончить с этим Личом, который запечатан в камере. Герои должны найти способ уничтожить его раз и навсегда.",
+    "zh": "我们必须彻底解决这个被封印在密室中的巫妖。英雄们必须找到方法，一劳永逸地摧uir它。",
+    "ja": "部屋に封印されているこのリッチを、私たちは完全に打ち倒さなければなりません。英雄たちは永久に破壊する方法を見つけ出す必要があります。",
+    "kr": "우리는 방에 봉인된 이 리치를 확실하게 종결시켜야 합니다. 영웅들은 그를 완전히 파괴할 방법을 찾아야 합니다."
+  },
+  "type": "Fight",
+  "max_heroes": 1,
+  "expired_at": 5,
+  "available_from_turn": 25,
+  "duration": 3,
+  "difficulty": 8,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [
+    132
+  ],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

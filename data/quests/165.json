@@ -1,0 +1,36 @@
+{
+  "id": 165,
+  "name": {
+    "pt": "Rastros Contra a Natureza",
+    "en": "Tracks Against Nature",
+    "es": "Rastros Contra la Naturaleza",
+    "ru": "Следы против природы",
+    "zh": "违背自然的踪迹",
+    "ja": "自然に反する足跡"
+  },
+  "description": {
+    "pt": "Após os recentes confrontos com criaturas alteradas, surgiram dúvidas inquietantes sobre sua origem. Os padrões de movimento, rotas repetidas e locais de aparição sugerem que esses animais não vagavam livremente. A Guilda solicita que os heróis retornem às áreas afetadas, sigam os rastros deixados antes dos ataques e determinem se há um ponto comum de origem — algo que indique criação, alimentação dirigida ou controle deliberado.",
+    "en": "After the recent confrontations with altered creatures, troubling doubts arose about their origin. Movement patterns, repeated routes, and appearance sites suggest these animals were not roaming freely. The Guild requests that the heroes return to the affected areas, follow the tracks left before the attacks, and determine whether there is a common point of origin — something indicating breeding, directed feeding, or deliberate control.",
+    "es": "Tras los recientes enfrentamientos con criaturas alteradas, surgieron dudas inquietantes sobre su origen. Los patrones de movimiento, rutas repetidas y lugares de aparición sugieren que estos animales no vagaban libremente. El gremio solicita que los héroes regresen a las zonas afectadas, sigan los rastros dejados antes de los ataques y determinen si existe un punto común de origen — algo que indique cría, alimentación dirigida o control deliberado.",
+    "ru": "После недавних столкновений с изменёнными существами возникли тревожные сомнения об их происхождении. Схемы передвижения, повторяющиеся маршруты и места появления указывают, что эти животные не бродили свободно. Гильдия поручает героям вернуться в пострадавшие районы, проследить следы, оставленные до атак, и определить, существует ли общий источник — признак разведения, направленного кормления или намеренного контроля.",
+    "zh": "在最近与变异生物的冲突之后，人们对它们的起源产生了令人不安的怀疑。它们的行动模式、重复路线和出现地点表明，这些动物并非自然游荡。公会要求英雄们返回受影响的地区，追踪攻击前留下的痕迹，并确认是否存在共同的源头——暗示人工饲养、定向喂食或刻意操控。",
+    "ja": "最近の変異した獣との戦闘を経て、その起源について不穏な疑念が生じた。行動パターン、繰り返される移動経路、出現地点は、彼らが自然に徘徊していたわけではないことを示している。ギルドは英雄たちに被害地域へ戻り、襲撃前に残された痕跡を追い、繁殖・誘導給餌・意図的な制御を示す共通の発生源が存在するかを突き止めるよう要請する。"
+  },
+  "type": "Dexterity",
+  "max_heroes": 1,
+  "expired_at": 4,
+  "available_from_turn": 30,
+  "duration": 2,
+  "difficulty": 2,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [
+    163,
+    164
+  ],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

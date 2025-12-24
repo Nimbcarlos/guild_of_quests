@@ -1,0 +1,35 @@
+{
+  "id": 166,
+  "name": {
+    "pt": "Portões Lacrados",
+    "en": "Sealed Gates",
+    "es": "Portones Sellados",
+    "ru": "Запечатанные Ворота",
+    "zh": "封闭之门",
+    "ja": "閉ざされた門"
+  },
+  "description": {
+    "pt": "Após seguir os rastros das criaturas, os heróis chegam a uma residência isolada, bem guardada e mantida com cuidado. O local coincide com o ponto de origem dos deslocamentos observados. Para avançar na investigação, será necessário usar a autoridade da Guilda para solicitar acesso.",
+    "en": "After following the creatures’ tracks, the heroes arrive at an isolated residence, well-guarded and carefully maintained. The location matches the point of origin of the observed movements. To proceed with the investigation, the authority of the Guild must be used to request access.",
+    "es": "Tras seguir los rastros de las criaturas, los héroes llegan a una residencia aislada, bien protegida y cuidadosamente mantenida. El lugar coincide con el punto de origen de los desplazamientos observados. Para continuar la investigación, será necesario usar la autoridad del Gremio para solicitar acceso.",
+    "ru": "Проследовав по следам существ, герои прибывают к изолированной, хорошо охраняемой и тщательно содержимой резиденции. Это место совпадает с точкой происхождения замеченных перемещений. Чтобы продолжить расследование, необходимо воспользоваться властью Гильдии и запросить доступ.",
+    "zh": "沿着这些生物的踪迹前进后，英雄们来到了一处偏僻、戒备森严且维护良好的宅邸。该地点与此前观察到的行动起点相吻合。要继续调查，必须动用公会的权威来申请进入。",
+    "ja": "生物たちの痕跡を追った結果、英雄たちは人里離れた、厳重に警備され丁寧に管理された邸宅へと辿り着く。その場所は、確認されていた移動の起点と一致している。調査を進めるには、ギルドの権限を用いて立ち入りを要請する必要がある。"
+  },
+  "type": "Fight",
+  "max_heroes": 1,
+  "expired_at": 4,
+  "available_from_turn": 30,
+  "duration": 2,
+  "difficulty": 2,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [
+    165
+  ],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

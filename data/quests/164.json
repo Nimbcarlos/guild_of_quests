@@ -1,0 +1,37 @@
+{
+  "id": 164,
+  "name": {
+    "pt": "Autópsia Espiritual",
+    "en": "Spiritual Autopsy",
+    "es": "Autopsia Espiritual",
+    "ru": "Духовное Вскрытие",
+    "zh": "灵魂解剖",
+    "ja": "霊的解剖"
+  },
+  "description": {
+    "pt": "Após a eliminação de várias criaturas que demonstraram sinais claros de inteligência e até consciência, a Guilda autoriza uma autópsia espiritual. Diferente de uma análise arcana tradicional, este procedimento busca identificar vestígios de vontade, memória ou identidade que possam ter permanecido nos corpos. A tarefa exige sensibilidade mística e interpretação espiritual cuidadosa — erros podem ocultar ou distorcer a verdade.",
+    "en": "After the elimination of several creatures that displayed clear signs of intelligence and even consciousness, the Guild authorizes a spiritual autopsy. Unlike a traditional arcane analysis, this procedure seeks traces of will, memory, or identity that may still linger within the bodies. The task requires mystical sensitivity and careful spiritual interpretation — mistakes may conceal or distort the truth.",
+    "es": "Tras la eliminación de varias criaturas que mostraron claros signos de inteligencia e incluso conciencia, el Gremio autoriza una autopsia espiritual. A diferencia de un análisis arcano tradicional, este procedimiento busca rastros de voluntad, memoria o identidad que puedan permanecer en los cuerpos. La tarea exige sensibilidad mística e interpretación espiritual cuidadosa; los errores pueden ocultar o distorsionar la verdad.",
+    "ru": "После уничтожения нескольких существ, проявивших явные признаки интеллекта и даже сознания, Гильдия разрешает духовное вскрытие. В отличие от традиционного арканического анализа, эта процедура направлена на поиск следов воли, памяти или личности, которые могли сохраниться в телах. Задание требует мистической чувствительности и осторожной духовной интерпретации — ошибки могут скрыть или исказить истину.",
+    "zh": "在消灭了数个明显表现出智慧甚至意识的生物之后，公会批准进行一次灵魂解剖。与传统的奥术分析不同，这一过程旨在寻找残留在尸体中的意志、记忆或身份痕迹。该任务需要高度的灵性敏感度和谨慎的精神解读，任何失误都可能掩盖或扭曲真相。",
+    "ja": "知性、さらには意識の兆候を明確に示した複数の生物を討伐した後、ギルドは霊的解剖を許可した。これは通常の秘術的分析とは異なり、遺体に残された意志、記憶、あるいは人格の痕跡を探る試みである。この任務には高い霊的感受性と慎重な解釈が求められ、判断を誤れば真実は歪められてしまう。"
+  },
+  "type": "Wisdom",
+  "max_heroes": 1,
+  "expired_at": 4,
+  "available_from_turn": 26,
+  "duration": 2,
+  "difficulty": 2,
+  "rewards": {
+    "xp": 60
+  },
+  "required_quests": [
+    153,
+    154,
+    155
+  ],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

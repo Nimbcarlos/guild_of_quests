@@ -1,0 +1,37 @@
+{
+  "id": 134,
+  "name": {
+    "pt": "A Prova de Confiança da Tribo",
+    "en": "The Tribe's Test of Trust",
+    "es": "La Prueba de Confianza de la Tribu",
+    "ru": "Проверка Доверия Племени",
+    "zh": "部落的信任考验",
+    "ja": "部族からの信頼の試練",
+    "kr": "부족의 신뢰 시험"
+  },
+  "description": {
+    "pt": "Devido ao interesse repentino pelo assentamento, o ancião da tribo permitirá acesso à câmara subterrânea apenas após garantir que vocês não profanarão o local.",
+    "en": "Due to the sudden interest in the settlement, the tribe's elder will only grant access to the underground chamber after ensuring you will not profane the site.",
+    "es": "Debido al repentino interés en el asentamiento, el anciano de la tribu solo permitirá el acceso a la cámara subterránea después de asegurarse de que no profanarán el lugar.",
+    "ru": "Из-за внезапного интереса к поселению, старейшина племени разрешит доступ к подземной камере только после того, как убедится, что вы не оскверните это место.",
+    "zh": "由于对定居点的突然关注, 部落长老只有在确保你们不会亵渎该地点之后, 才会允许进入地下密室。",
+    "ja": "集落への突然の関心のため, 部族の長老は, あなた方がその場所を冒涜しないことを確認した後でのみ, 地下の部屋へのアクセスを許可するでしょう。",
+    "kr": "정착지에 대한 갑작스러운 관심 때문에, 부족의 장로는 당신들이 그 장소를 더럽히지 않을 것임을 확신한 후에야 지하 방에 대한 접근을 허용할 것입니다."
+  },
+  "type": "Intelligence",
+  "max_heroes": 1,
+  "expired_at": 5,
+  "available_from_turn": 33,
+  "duration": 3,
+  "difficulty": 2,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [
+    133
+  ],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

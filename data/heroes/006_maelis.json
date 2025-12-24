@@ -1,0 +1,60 @@
+  {
+    "id": 6,
+    "name": "Maelis Thornwake",
+    "role": "tank",
+    "hero_class": {
+      "en": "Druid",
+      "pt": "Druida",
+      "es": "Druida",
+      "zh": "德鲁伊",
+      "ja": "ドルイド",
+      "ru": "Друид",
+      "kr": "드루이드"  
+    },
+    "status": {
+      "en": "Healthy",
+      "pt": "Saudável",
+      "es": "Saludable",
+      "zh": "健康",
+      "ja": "健康",
+      "ru": "Здоров",
+      "kr": "건강함"
+    },
+    "perks": ["survival", "nature"],
+    "defects": {
+      "distracted": {
+        "pt": "Distraida",
+        "en": "Distracted",
+        "es": "Distraída",
+        "zh": "心不在焉",
+        "ja": "ぼんやりしている",
+        "ru": "Рассеянная",
+        "kr": "산만한"
+      }
+    },
+    "story": {
+      "pt": "Sempre distraída e distante, Maelis parecia alheia ao mundo. Poucos percebiam que sua mente estava ligada à terra. Quando o equilíbrio é ameaçado, ela se firma como raiz antiga, absorvendo golpes com a calma da floresta.",
+      "en": "Absent-minded and distant, Maelis always seemed disconnected from the world. Few realized her thoughts were rooted in the land itself. When balance is threatened, she stands firm like ancient roots.",
+      "es": "Distraída y ausente, Maelis parecía ajena al mundo. Pocos notaban que su mente estaba unida a la tierra. Cuando el equilibrio se rompe, se vuelve firme como una raíz ancestral.",
+      "ru": "Рассеянная и отстраненная, Маэлис казалась оторванной от мира. Немногие понимали, что ее разум связан с самой землей. Когда баланс нарушен, она стоит, как древний корень.",
+      "zh": "梅莉丝总是心不在焉、与世隔绝，仿佛不属于这个世界。只有在平衡被打破时，她才如古老的根系般稳固。",
+      "ja": "ぼんやりしていて現実離れしているマエリスは、世界と切り離されているように見えた。均衡が崩れると、彼女は古代の根のように揺るがなく立つ。"
+    },
+    "photo_url": "assets/img/maelis.png",
+    "photo_body_url": "assets/img/maelisfullbody.png",
+    "unlock_by_quest": [],
+    "available_from_turn": 1,
+    "leave_on_quest": [],
+    "growth_curve": {
+      "1": { "strength": 3, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+      "2": { "strength": 4, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+      "3": { "strength": 5, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+      "4": { "strength": 6, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+      "5": { "strength": 7, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+      "6": { "strength": 7, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+      "7": { "strength": 8, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+      "8": { "strength": 9, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+      "9": { "strength": 10, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+      "10": { "strength": 11, "dexterity": 2, "intelligence": 2, "wisdom": 2 }
+    }
+  }

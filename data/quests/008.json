@@ -1,0 +1,33 @@
+{
+  "id": 8,
+  "name": {
+    "pt": "O Clarão da Ala Leste",
+    "en": "The Flash of the East Wing",
+    "es": "El Destello del Ala Este",
+    "ru": "Вспышка Восточного Крыла",
+    "zh": "东翼的闪光",
+    "ja": "東翼の閃光"
+  },
+  "description": {
+    "pt": "Moradores relataram que a barreira mágica de proteção da cidade piscou por alguns instantes na ala leste. Testemunhas dizem ter visto faíscas saindo de um dos cristais de sustentação. É necessario investigar e estabilizar o campo arcano antes que a defesa da cidade falhasse completamente.",
+    "en": "Residents reported that the city's magical protection barrier flashed for a few moments in the east wing. Witnesses say they saw sparks coming from one of the supporting crystals. It is necessary to investigate and stabilize the arcane field before the city's defense fails completely.",
+    "es": "Los residentes informaron que la barrera mágica de protección de la ciudad parpadeó por unos instantes en el ala este. Testigos dicen haber visto chispas saliendo de uno de los cristales de soporte. Es necesario investigar y estabilizar el campo arcano antes de que la defensa de la ciudad falle por completo.",
+    "ru": "Жители сообщили, что магический защитный барьер города на несколько мгновений вспыхнул в восточном крыле. Свидетели говорят, что видели искры, исходящие из одного из поддерживающих кристаллов. Необходимо исследовать и стабилизировать тайное поле, прежде чем оборона города полностью рухнет.",
+    "zh": "居民报告称，城市的魔法保护屏障在东翼闪烁了几下。目击者称看到其中一个支撑水晶冒出火花。有必要在城市防御完全失效之前调查并稳定奥术场。",
+    "ja": "住民は、街の魔法防御バリアが東翼で数瞬点滅したと報告した。目撃者は、支持クリスタルの1つから火花が出ているのを見たという。街の防御が完全に失敗する前に、アルカナ場を調査し安定させる必要がある。"
+  },
+  "type": "arcana",
+  "max_heroes": 1,
+  "expired_at": 4,
+  "available_from_turn": 8,
+  "duration": 2,
+  "difficulty": 1.5,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

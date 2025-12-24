@@ -1,0 +1,33 @@
+{
+  "id": 6,
+  "name": {
+    "pt": "Fé Pesada",
+    "en": "Heavy Faith",
+    "es": "Fe Pesada",
+    "ru": "Тяжелая Вера",
+    "zh": "沉重的信仰",
+    "ja": "重い信仰"
+  },
+  "description": {
+    "pt": "O bispo de Ardent pediu ajuda para instalar o grande sino no topo da catedral. A peça pesa quase uma tonelada, e sua bênção só será ouvida se alguém conseguir erguê-la. Força será essencial... mas talvez fé e engenhosidade também ajudem.",
+    "en": "The bishop of Ardent asked for help installing the great bell atop the cathedral. The piece weighs nearly a ton, and its blessing will only be heard if someone manages to lift it. Strength will be essential... but perhaps faith and ingenuity will also help.",
+    "es": "El obispo de Ardent pidió ayuda para instalar la gran campana en la cima de la catedral. La pieza pesa casi una tonelada, y su bendición solo se escuchará si alguien logra levantarla. La fuerza será esencial... pero quizás la fe y el ingenio también ayuden.",
+    "ru": "Епископ Ардента попросил помощи в установке большого колокола на вершине собора. Колокол весит почти тонну, и его благословение будет услышано, только если кому-то удастся его поднять. Сила будет необходима... но, возможно, вера и изобретательность тоже помогут.",
+    "zh": "阿登特主教请求协助将大钟安装到大教堂顶上。这件物品重达近一吨，只有有人能成功举起它，它的祝福才会被听到。力量至关重要……但也许信仰和智慧也会有所帮助。",
+    "ja": "アーデントの司教は、大聖堂の頂上に大きな鐘を設置するのを手伝ってほしいと頼んだ。この鐘は1トン近くあり、誰かが持ち上げることができれば、その祝福が聞かれるだろう。力は不可欠だが... おそらく信仰と創意工夫も役立つだろう。"
+  },
+  "type": "athletics",
+  "max_heroes": 1,
+  "expired_at": 4,
+  "available_from_turn": 7,
+  "duration": 2,
+  "difficulty": 1.5,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

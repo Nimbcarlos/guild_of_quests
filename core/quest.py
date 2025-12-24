@@ -10,6 +10,7 @@ class Quest:
         name,
         description,
         type: str,
+        max_heroes: int,
         expired_at: int,
         available_from_turn: int,
         duration: int,
@@ -32,7 +33,8 @@ class Quest:
         self.name = self._get_lang_value(name)
         self.description = self._get_lang_value(description)
 
-        self.type = type
+        self.type = type or []
+        self.max_heroes = max_heroes
         self.expired_at = expired_at
         self.available_from_turn = available_from_turn
         self.duration = duration
@@ -69,6 +71,7 @@ class Quest:
             f"Quest: {self.name}\n"
             f"Descrição: {self.description}\n"
             f"Tipo: {self.type}\n"
+            f"Qtd herois: {self.max_heroes}\n"
             f"Expira em: {self.expired_at}\n"
             f"Duração: {self.duration} turnos\n"
             f"Turnos Restantes: {self.remaining_turns}\n"
@@ -89,16 +92,51 @@ class Quest:
 
     # 🔹 Carrega quests de acordo com o idioma
     @staticmethod
-    def load_quests(language="en") -> list["Quest"]:
-        """Carrega todos os heróis com o idioma especificado."""
-        file_path = Path("data/quests.json")
-        if not file_path.exists():
-            raise FileNotFoundError(f"Arquivo {file_path} não encontrado.")
+    def load_quests(language="en", quests_folder="data/quests") -> List["Quest"]:
+        """
+        Carrega todos os heróis da pasta especificada.
+        
+        Args:
+            language: Idioma para carregar (pt, en, es, etc)
+            quests_folder: Pasta onde estão os arquivos JSON dos heróis
+            
+        Returns:
+            Lista de objetos Hero carregados
+        """
+        folder_path = Path(quests_folder)
+        
+        if not folder_path.exists():
+            print(f"⚠️ Pasta '{quests_folder}' não encontrada!")
+            return []
+        
+        quests = []
+        
+        # Busca todos os arquivos .json na pasta
+        for json_file in sorted(folder_path.glob("*.json")):
+            try:
+                with open(json_file, "r", encoding="utf-8") as f:
+                    hero_data = json.load(f)
+                
+                # Cria o herói com o idioma especificado
+                quest = Quest(language=language, **hero_data)
+                quests.append(quest)
+                
+            except Exception as e:
+                print(f"❌ Erro ao carregar '{json_file.name}': {e}")
+                continue
+        
+        return quests
 
-        with open(file_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
+    # def load_quests(language="en") -> list["Quest"]:
+    #     """Carrega todos os heróis com o idioma especificado."""
+    #     file_path = Path("data/quests.json")
+    #     if not file_path.exists():
+    #         raise FileNotFoundError(f"Arquivo {file_path} não encontrado.")
 
-        return [Quest(language=language, **quest_data ) for quest_data in data]
+    #     with open(file_path, "r", encoding="utf-8") as f:
+    #         data = json.load(f)
+
+    #     return [Quest(language=language, **quest_data ) for quest_data in data]
 
     @staticmethod
     def get_quest_by_name(name: str, language: str = "en") -> Optional["Quest"]:

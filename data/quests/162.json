@@ -1,0 +1,33 @@
+{
+  "id": 162,
+  "name": {
+    "pt": "Cobra de Escamas Negras",
+    "en": "Black-Scaled Serpent",
+    "es": "Serpiente de Escamas Negras",
+    "ru": "Черночешуйчатая Змея",
+    "ja": "黒鱗の蛇",
+    "zh": "黑鳞巨蛇"
+  },
+  "description": {
+    "pt": "Uma cobra gigantesca surgiu no pântano, liberando um veneno que queima como ácido espiritual. A criatura tem avançado para áreas habitadas. Elimine-a antes que alguém seja atingido.",
+    "en": "A gigantic serpent has emerged in the swamp, releasing a venom that burns like spiritual acid. The creature has been advancing toward inhabited areas. Eliminate it before anyone is harmed.",
+    "es": "Una serpiente gigantesca ha surgido en el pantano, liberando un veneno que quema como ácido espiritual. La criatura ha estado avanzando hacia zonas habitadas. Elimínala antes de que alguien resulte herido.",
+    "ru": "Гигантская змея появилась на болоте, выпуская яд, который жжет как духовная кислота. Существо продвигается к населенным пунктам. Устраните его, прежде чем кто-либо пострадает.",
+    "ja": "巨大なヘビが沼地に出現し、霊的な酸のように焼ける毒を放出しています。そのクリーチャーは居住地域に向かって進んでいます。誰かが被害に遭う前に排除してください。",
+    "zh": "一条巨型毒蛇出现在沼泽地，释放出一种像精神酸液一样灼烧的毒液。这只生物正在向居住区推进。在有人受到伤害之前将其消灭。"
+  },
+  "type": "Fight",
+  "max_heroes": 1,
+  "expired_at": 3,
+  "available_from_turn": 35,
+  "duration": 4,
+  "difficulty": 4,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

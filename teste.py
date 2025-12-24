@@ -1,24 +1,52 @@
+import os
 import json
 
-with open("data/quests.json", "r", encoding="utf-8") as f:
-    data = json.load(f)
-    for q in data:
-        print(q['id'])
+def update_quests():
+    # Caminho para a pasta das quests
+    folder_path = os.path.join('data', 'quests')
+    
+    # Verifica se a pasta existe
+    if not os.path.exists(folder_path):
+        print(f"Erro: A pasta {folder_path} não foi encontrada.")
+        return
 
-        # print("id:", q['id'],"\n",
-        #       "Nome:", q['name']['pt'],"\n",
-        #       q['description']['pt'],"\n",
-        #       "Apartir do turno:", q['available_from_turn'],"\n",
-        #       "Duração:", q['duration'],"\n",
-        #       "Depende da quest:", q['required_quests'],"\n",
-        #       "Nao pode ter completado a quesr id:", q['forbidden_quests'],"\n",
-        #       "hero necessario/proibido para aparecer", q['required_heroes'], q['forbidden_heroes'])
-        # print(q['name']['pt'], q['description']['pt'])
-        # print("Tipo:", q['type'], "| dificuldade:", q['difficulty'])
+    count = 0
+    # Percorre todos os arquivos na pasta
+    for filename in os.listdir(folder_path):
+        if filename.endswith('.json'):
+            file_path = os.path.join(folder_path, filename)
+            
+            try:
+                # 1. Abre e lê o arquivo original
+                with open(file_path, 'r', encoding='utf-8') as file:
+                    data = json.load(file)
+                
+                # 2. Adiciona o campo max_heroes (se já não existir ou para sobrescrever)
+                # Colocamos após o campo 'type' para manter a organização visual
+                # Se preferir apenas adicionar ao final, use: data['max_heroes'] = 1
+                
+                # Criando um novo dicionário para garantir a ordem visual (Python 3.7+)
+                new_data = {}
+                for key, value in data.items():
+                    new_data[key] = value
+                    if key == "type":
+                        new_data["max_heroes"] = 1
+                
+                # Caso a chave 'type' não exista por algum motivo, garante que max_heroes esteja lá
+                if "max_heroes" not in new_data:
+                    new_data["max_heroes"] = 1
 
-# from core.quest import Quest
+                # 3. Salva o arquivo de volta com formatação
+                with open(file_path, 'w', encoding='utf-8') as file:
+                    json.dump(new_data, file, indent=2, ensure_ascii=False)
+                
+                print(f"Sucesso: {filename} atualizado.")
+                count += 1
+                
+            except Exception as e:
+                print(f"Erro ao processar {filename}: {e}")
 
-# q = Quest.load_quests(language='pt')
-# for i in q:
-#     print(i.id)
-# print(len(q))
+    print(f"\nTotal de {count} arquivos atualizados.")
+
+if __name__ == "__main__":
+    update_quests()

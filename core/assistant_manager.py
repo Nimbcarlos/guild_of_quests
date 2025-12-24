@@ -18,6 +18,7 @@ class AssistantManager:
         self.fake_hero = Hero(
             id=self.id,
             name=self.name,
+            role="Assistant",
             hero_class='Assistant',
             status="assistant_only",
             perks=[],
@@ -30,6 +31,12 @@ class AssistantManager:
             leave_on_quest=False,
             growth_curve={}
         )
+
+        self.commentary_quests = {
+            "166": "assistant_166",
+            "2": "assistant_test_2",
+            "3": "assistant_test_3"
+        }
 
     # -------------------------------------------------------------
     #   ESCOLHA DE HUMOR
@@ -109,3 +116,24 @@ class AssistantManager:
 
     def on_quests_expired(self, quest_names):
         self.speak("assistant_quest_expired", quests=", ".join(quest_names))
+
+    def on_quest_resolved(self, quest, result):
+        quest_id = str(quest.id)
+
+        # só reage às quests especiais
+        if quest_id not in self.commentary_quests:
+            return
+
+        key = self.commentary_quests[quest_id]
+
+        if result == "success":
+            self.speak(
+                f"{key}_success",
+                name=quest.name
+            )
+        else:
+            self.speak(
+                f"{key}_fail",
+                name=quest.name,
+                randomize=False
+            )

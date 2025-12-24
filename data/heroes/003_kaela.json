@@ -1,0 +1,61 @@
+{
+  "id": 3,
+  "name": "Kaela",
+  "role": "healer",
+  "hero_class": {
+    "en": "Cleric",
+    "pt": "Clériga",
+    "es": "Clériga",
+    "zh": "牧师 (Mùshī)",
+    "ja": "聖職者 (Seishokusha)",
+    "ru": "Жрица",
+    "kr": "성직자 (Seongjikja)"
+  },
+  "status": {
+    "en": "Healthy",
+    "pt": "Saudável",
+    "es": "Saludable",
+    "zh": "健康 (Jiànkāng)",
+    "ja": "健康 (Kenkō)",
+    "ru": "Здорова",
+    "kr": "건강함 (Geongangham)"
+  },
+  "perks": ["religion", "cure"],
+  "defects": {
+    "schizophrenia": {
+      "en": "schizophrenia",
+      "pt": "esquizofrenia",
+      "es": "esquizofrenia",
+      "zh": "精神分裂症",
+      "ja": "精神分裂症",
+      "ru": "шизофрения",
+      "kr": "정신분열증"
+    }
+  },
+  "story": {
+    "en": "Kaela always heard voices. Since childhood, the whispers of the city, the booming laughter of unseen beings, and the conversations of creatures dancing at the edges of her vision were her only companions. While other children played, Kaela would crouch, trying to decipher the words only she could hear. To the world, she was merely strange and distant. But to Kaela, those voices were echoes of the divine, the chaotic chorus of the universe calling her to a life of faith.",
+    "pt": "Kaela sempre ouviu vozes. Desde a infância, os sussurros da cidade, os risos estrondosos de seres invisíveis e as conversas de criaturas que dançavam nos cantos de sua visão eram sua única companhia. Enquanto outras crianças brincavam, Kaela se encolhia, tentando decifrar palavras que só ela conseguia ouvir. Para o mundo, era apenas estranha e distante. Mas para Kaela, aquelas vozes eram ecos do divino, o coral caótico do universo chamando-a para uma vida de fé.",
+    "es": "Kaela siempre escuchó voces. Desde la infancia, los susurros de la ciudad, las risas atronadoras de seres invisibles y las conversaciones de criaturas que danzaban en los bordes de su visión fueron su única compañía. Mientras otros niños jugaban, Kaela se encogía, intentando descifrar palabras que solo ella podía oír. Para el mundo, era simplemente extraña y distante. Pero para Kaela, esas voces eran ecos de lo divino, el coro caótico del universo que la llamaba a una vida de fe.",
+    "zh": "凯拉总是能听到声音。从童年起，城市的低语、看不见存在的轰鸣笑声，以及在她视野边缘舞动的生物的交谈，成了她唯一的陪伴。当其他孩子玩耍时，凯拉蜷缩着，试图解读只有她才能听见的话语。对世界而言，她只是一个古怪而疏离的人。但对凯拉来说，那些声音是神性的回响，是宇宙混沌的合唱，呼唤她走向信仰的人生。",
+    "ja": "カエラはいつも声を聞いていました。幼い頃から、都市のささやき、見えない存在の轟く笑い声、そして視界の端で踊る生き物たちの会話が、彼女の唯一の仲間でした。他の子供たちが遊んでいる間、カエラはうずくまり、彼女だけに聞こえる言葉を解き明かそうとしていました。世間から見れば、彼女は奇妙で距離を置いた存在でした。しかしカエラにとって、それらの声は神聖なるもののこだま、彼女を信仰の道へと導く宇宙の混沌とした合唱だったのです。",
+    "ru": "Каэла всегда слышала голоса. С самого детства шепот города, громкий смех невидимых существ и разговоры созданий, танцующих на краю её зрения, были её единственной компанией. Пока другие дети играли, Каэла сжималась, пытаясь понять слова, которые слышала только она. Для мира она была лишь странной и отстранённой. Но для Каэлы эти голоса были эхом божественного, хаотическим хором вселенной, призывающим её к жизни веры.",
+    "kr": "카엘라는 항상 목소리를 들었습니다. 어린 시절부터 도시의 속삭임, 보이지 않는 존재들의 굉음 같은 웃음소리, 그리고 그녀의 시야 가장자리에서 춤추는 생물들의 대화가 그녀의 유일한 동반자였습니다. 다른 아이들이 놀 때, 카엘라는 웅크린 채 오직 자신만이 들을 수 있는 말을 해석하려 했습니다. 세상에서는 그녀를 그저 이상하고 거리감 있는 존재로 보았습니다. 그러나 카엘라에게 그 목소리들은 신성함의 메아리였고, 그녀를 신앙의 삶으로 부르는 우주의 혼돈스러운 합창이었습니다."
+  },
+  "photo_url": "assets/img/kaela.png",
+  "photo_body_url": "assets/img/kaelafullbody.png",
+  "unlock_by_quest": [],
+  "available_from_turn": 1,
+  "leave_on_quest": [],
+  "growth_curve": {
+    "1": { "strength": 1, "dexterity": 1, "intelligence": 1, "wisdom": 3 },
+    "2": { "strength": 1, "dexterity": 1, "intelligence": 1, "wisdom": 4 },
+    "3": { "strength": 1, "dexterity": 1, "intelligence": 1, "wisdom": 5 },
+    "4": { "strength": 1, "dexterity": 1, "intelligence": 1, "wisdom": 6 },
+    "5": { "strength": 1, "dexterity": 1, "intelligence": 1, "wisdom": 7 },
+    "6": { "strength": 2, "dexterity": 2, "intelligence": 2, "wisdom": 7 },
+    "7": { "strength": 2, "dexterity": 2, "intelligence": 2, "wisdom": 8 },
+    "8": { "strength": 2, "dexterity": 2, "intelligence": 2, "wisdom": 9 },
+    "9": { "strength": 2, "dexterity": 2, "intelligence": 2, "wisdom": 10 },
+    "10": { "strength": 2, "dexterity": 2, "intelligence": 2, "wisdom": 11 }
+  }
+}

@@ -1161,5 +1161,349 @@
         "ru": "Музыка: Solas Composer | Лицензия: CC BY-SA 4.0\nSoundCloud: solas_composer | YouTube: MedievalLofi",
         "zh": "音乐作者：Solas Composer | 许可：CC BY-SA 4.0\nSoundCloud：solas_composer | YouTube：MedievalLofi",
         "ja": "音楽：Solas Composer | ライセンス: CC BY-SA 4.0\nSoundCloud: solas_composer | YouTube: MedievalLofi"
+    },
+  "assistant_quest_completed": {
+    "pt": {
+      "normal": "A missão \"{name}\" foi concluída. Bom trabalho.",
+      "happy": "Conseguimos! A missão \"{name}\" foi um sucesso! Eu sabia que daria certo!",
+      "ironic": "Olha só… a missão \"{name}\" deu certo. Quem diria.",
+      "dark": "A missão \"{name}\" terminou. As consequências virão depois.",
+      "bipolar_up": "SUCESSO! \"{name}\" FOI CONCLUÍDA! EU AMO QUANDO TUDO DÁ CERTO!",
+      "bipolar_down": "\"{name}\" acabou… ótimo. Próxima."
+    },
+    "en": {
+      "normal": "The quest \"{name}\" has been completed. Good work.",
+      "happy": "We did it! \"{name}\" was a success! I knew it!",
+      "ironic": "Well look at that… \"{name}\" actually worked out.",
+      "dark": "\"{name}\" is over. The consequences will follow.",
+      "bipolar_up": "SUCCESS! \"{name}\" IS DONE! THIS IS AMAZING!",
+      "bipolar_down": "\"{name}\" is finished… whatever."
+    },
+    "es": {
+      "normal": "La misión \"{name}\" fue completada. Buen trabajo.",
+      "happy": "¡Lo logramos! ¡\"{name}\" fue un éxito!",
+      "ironic": "Mira tú… \"{name}\" salió bien.",
+      "dark": "La misión \"{name}\" terminó. Nada termina de verdad.",
+      "bipolar_up": "¡ÉXITO! ¡\"{name}\" COMPLETADA! ¡ME ENCANTA!",
+      "bipolar_down": "\"{name}\" terminó… da igual."
+    },
+    "ru": {
+      "normal": "Задание «{name}» выполнено. Хорошая работа.",
+      "happy": "Получилось! «{name}» — успех!",
+      "ironic": "Надо же… «{name}» сработало.",
+      "dark": "Задание «{name}» завершено. Последствия неизбежны.",
+      "bipolar_up": "УСПЕХ! «{name}» ВЫПОЛНЕНО!",
+      "bipolar_down": "«{name}» закончилось… и что с того."
+    },
+    "zh": {
+      "normal": "任务「{name}」已完成。干得好。",
+      "happy": "成功了！任务「{name}」完成得非常漂亮！",
+      "ironic": "哦？任务「{name}」居然成功了。",
+      "dark": "任务「{name}」结束了，后果还在路上。",
+      "bipolar_up": "成功！！「{name}」完成了！！太棒了！！",
+      "bipolar_down": "「{name}」完成了……随便吧。"
+    },
+    "ja": {
+      "normal": "クエスト「{name}」は完了しました。お疲れさまです。",
+      "happy": "やった！「{name}」は大成功です！",
+      "ironic": "へえ…「{name}」が成功するとは。",
+      "dark": "「{name}」は終わった。代償はこれから。",
+      "bipolar_up": "成功！！「{name}」完了！！最高！！",
+      "bipolar_down": "「{name}」が終わった…どうでもいい。"
     }
+  },
+
+  "assistant_quest_failed": {
+    "pt": {
+      "normal": "A missão \"{name}\" falhou.",
+      "happy": "Bem… a missão \"{name}\" falhou, mas ei! Aprendizado!",
+      "ironic": "Surpresa nenhuma: \"{name}\" falhou.",
+      "dark": "A missão \"{name}\" fracassou. Outras guildas já estão de olho.",
+      "bipolar_up": "FALHA! \"{name}\" DEU ERRADO! UAU QUE CAOS!",
+      "bipolar_down": "\"{name}\" falhou… outras guildas vão pegar essa missão agora."
+    },
+    "en": {
+      "normal": "The quest \"{name}\" has failed.",
+      "happy": "Well… \"{name}\" failed, but failure is progress, right?",
+      "ironic": "No surprise here: \"{name}\" failed.",
+      "dark": "\"{name}\" failed. Other guilds will take advantage of it.",
+      "bipolar_up": "FAILURE! \"{name}\" COLLAPSED! WHAT A DISASTER!",
+      "bipolar_down": "\"{name}\" failed… other guilds can have it."
+    },
+    "es": {
+      "normal": "La misión \"{name}\" fracasó.",
+      "happy": "Bueno… \"{name}\" falló, pero se aprende.",
+      "ironic": "Como era de esperar, \"{name}\" falló.",
+      "dark": "\"{name}\" fracasó. Otras guildas aprovecharán esto.",
+      "bipolar_up": "¡FALLO! ¡\"{name}\" SALIÓ MAL!",
+      "bipolar_down": "\"{name}\" falló… que la tome otra guilda."
+    },
+    "ru": {
+      "normal": "Задание «{name}» провалено.",
+      "happy": "Ну… «{name}» не удалось, но опыт есть опыт.",
+      "ironic": "Как и ожидалось: «{name}» провалилось.",
+      "dark": "«{name}» провалено. Другие гильдии уже в пути.",
+      "bipolar_up": "ПРОВАЛ! «{name}» РАЗВАЛИЛОСЬ!",
+      "bipolar_down": "«{name}» провалилось… пусть другие берут."
+    },
+    "zh": {
+      "normal": "任务「{name}」失败了。",
+      "happy": "嗯…「{name}」失败了，但至少学到了点东西。",
+      "ironic": "不出所料，「{name}」失败了。",
+      "dark": "任务「{name}」失败了，其他公会会接手。",
+      "bipolar_up": "失败！！「{name}」彻底崩了！！",
+      "bipolar_down": "「{name}」失败了……让别的公会来吧。"
+    },
+    "ja": {
+      "normal": "クエスト「{name}」は失敗しました。",
+      "happy": "ええと…「{name}」は失敗しましたが、経験です！",
+      "ironic": "予想通り、「{name}」は失敗。",
+      "dark": "「{name}」は失敗。他のギルドが動き出します。",
+      "bipolar_up": "失敗！！「{name}」大失敗！！",
+      "bipolar_down": "「{name}」は失敗…他のギルドに任せよう。"
+    }
+  },
+  "assistant_166_success": {
+    "pt": {
+      "normal": "Só um lembrete: cutucar um lorde nunca é só sobre justiça. É sobre contratos que somem, portas que se fecham e olhos que passam a observar demais. Para os negócios da Guilda… isso costuma ser caro.",
+      "happy": "Hehe… só lembrando! Mexer com um lorde nunca é só justiça. Tem contratos que evaporam, portas que batem e olhares curiosos surgindo. Para a Guilda? Normalmente dói no bolso!",
+      "ironic": "Claro, cutucar um lorde deve ter parecido uma ótima ideia. Justiça, honra… e contratos sumindo, portas fechadas e gente demais observando. A Guilda vai sentir isso.",
+      "dark": "Cutucar um lorde nunca termina em justiça. Termina em contratos apagados, portas seladas e olhos que vigiam no escuro. A Guilda vai pagar. Sempre paga.",
+      "bipolar_up": "UHUL! Cutucar um lorde! Justiça! Coragem! …e contratos sumindo, portas fechadas e todo mundo nos olhando. A Guilda vai amar isso. Ou não.",
+      "bipolar_down": "Mexer com um lorde… justiça… tanto faz. Contratos vão sumir, portas vão fechar, olhos vão observar. A Guilda paga. Como sempre."
+    },
+    "en": {
+      "normal": "Just a reminder: poking a lord is never just about justice. It's about contracts disappearing, doors closing, and too many eyes starting to watch. For the Guild’s business… that usually gets expensive.",
+      "happy": "Just a tiny reminder! Poking a lord isn’t only about justice. Contracts vanish, doors slam shut, and suddenly everyone’s watching. The Guild usually pays for that!",
+      "ironic": "Of course. Poking a lord. Justice, honor… and then contracts disappear, doors close, and eyes start watching. The Guild will feel this.",
+      "dark": "Poking a lord never ends in justice. It ends with erased contracts, sealed doors, and watching eyes in the dark. The Guild will pay. It always does.",
+      "bipolar_up": "YES! Poking a lord! Justice! Courage! …and vanished contracts, closed doors, and everyone watching us. The Guild is going to love this!",
+      "bipolar_down": "Poking a lord… justice… whatever. Contracts vanish, doors close, eyes watch. The Guild pays. It always pays."
+    },
+    "es": {
+      "normal": "Solo un recordatorio: provocar a un lord nunca es solo justicia. Es contratos que desaparecen, puertas que se cierran y demasiados ojos observando. Para los negocios del Gremio… suele ser caro.",
+      "happy": "¡Solo un pequeño aviso! Molestar a un lord no es solo justicia. Los contratos se esfuman, las puertas se cierran y todos miran. ¡Al Gremio le cuesta!",
+      "ironic": "Claro, provocar a un lord. Justicia y honor… y luego contratos perdidos, puertas cerradas y miradas incómodas. El Gremio lo sentirá.",
+      "dark": "Provocar a un lord nunca termina en justicia. Termina en contratos borrados, puertas selladas y ojos vigilando en la oscuridad. El Gremio pagará.",
+      "bipolar_up": "¡SÍ! ¡Provocar a un lord! ¡Justicia! ¡Valentía! …y contratos desapareciendo, puertas cerradas y todos observando. ¡Al Gremio le encantará!",
+      "bipolar_down": "Provocar a un lord… justicia… da igual. Contratos se pierden, puertas se cierran, ojos observan. El Gremio paga."
+    },
+    "ru": {
+      "normal": "Напоминание: задевать лорда — это не только про справедливость. Это исчезающие контракты, закрытые двери и слишком внимательные взгляды. Для дел Гильдии… это обычно дорого.",
+      "happy": "Просто напоминание! Задеть лорда — не только справедливость. Контракты пропадают, двери закрываются, все начинают смотреть. Гильдии это обходится дорого!",
+      "ironic": "Конечно. Задеть лорда. Справедливость, честь… а потом контракты исчезают, двери закрываются, взгляды следят. Гильдия почувствует.",
+      "dark": "Задевать лорда никогда не заканчивается справедливостью. Это заканчивается стертыми контрактами, запертыми дверями и глазами во тьме. Гильдия заплатит.",
+      "bipolar_up": "ДА! Задеть лорда! Справедливость! Смелость! …и исчезающие контракты, закрытые двери и все смотрят. Гильдии это понравится!",
+      "bipolar_down": "Задеть лорда… справедливость… не важно. Контракты исчезают, двери закрываются, глаза следят. Гильдия платит."
+    },
+    "zh": {
+      "normal": "提醒一下：招惹领主从来不只是正义的问题。合同消失，大门关闭，越来越多的目光在盯着。对公会的生意来说……代价不小。",
+      "happy": "小小提醒！惹领主可不只是正义哦。合同会消失，门会关上，大家都会看过来。公会要付出代价啦！",
+      "ironic": "当然，去惹领主。正义、荣耀……然后合同消失，门关上，目光聚集。公会会感受到的。",
+      "dark": "招惹领主从不会以正义收场。只会留下被抹去的合同、紧闭的门和黑暗中的目光。公会会付出代价。",
+      "bipolar_up": "太棒了！惹领主！正义！勇气！……然后合同消失、门关上、所有人都在看。公会肯定喜欢这个！",
+      "bipolar_down": "惹领主……正义……无所谓。合同消失，门关闭，目光盯着。公会付钱。"
+    },
+    "ja": {
+      "normal": "念のため言っておくけど、領主に手を出すのは正義だけの話じゃない。消える契約、閉ざされる扉、増えていく監視の目。ギルドの商売には…高くつく。",
+      "happy": "ちょっとした注意ね！領主に手を出すのは正義だけじゃないよ。契約は消えて、扉は閉じて、みんな見てる。ギルドは大変！",
+      "ironic": "なるほど、領主に手を出したのね。正義と名誉…そして消える契約、閉じる扉、注がれる視線。ギルドは痛い目を見る。",
+      "dark": "領主に手を出して正義で終わることはない。消された契約、閉ざされた扉、闇で見つめる目。ギルドは代償を払う。",
+      "bipolar_up": "やった！領主に手を出す！正義！勇気！…で、契約は消えて扉は閉まり、みんなが見てる。ギルドは大丈夫かな！",
+      "bipolar_down": "領主に手を出す…正義…どうでもいい。契約は消え、扉は閉じ、視線が増える。ギルドは払う。"
+    }
+  },
+  "thievery": {
+    "en": "Thievery",
+    "pt": "Ladinagem",
+    "es": "Latrocinio",
+    "zh": "盗术",
+    "ja": "盗賊技",
+    "ru": "Воровские навыки",
+    "kr": "절도 기술"
+  },
+  "survival": {
+    "en": "Survival",
+    "pt": "Sobrevivência",
+    "es": "Supervivencia",
+    "zh": "生存",
+    "ja": "生存",
+    "ru": "Воровские навыки",
+    "kr": "절도 기술"
+  },
+  "arcana": {
+    "en": "arcana",
+    "pt": "arcanismo",
+    "es": "arcanismo",
+    "zh": "奥术",
+    "ja": "アルカナ",
+    "ru": "арканум",
+    "kr": "비전 (Bijeon)"
+  },
+  "religion": {
+    "pt": "Religião",
+    "en": "Religion",
+    "es": "Religión",
+    "zh": "宗教",
+    "ja": "宗教",
+    "ru": "Религия",
+    "kr": "종교"
+  },
+  "diplomacy": {
+    "pt": "Diplomacia",
+    "en": "Diplomacy",
+    "es": "Diplomacia",
+    "zh": "外交",
+    "ja": "外交",
+    "ru": "Дипломатия",
+    "kr": "외교"
+  },
+  "intimidation": {
+    "pt": "Intimidação",
+    "es": "Intimidación",
+    "zh": "强壮 (Qiángzhuàng)",
+    "ja": "強い (Tsuyoi)",
+    "ru": "Сильная",
+    "kr": "강함 (Gangham)",
+    "en": "Intimidation"
+  },
+  "athletics": {
+    "pt": "Atletismo",
+    "es": "Atletismo",
+    "zh": "运动",
+    "ja": "運動",
+    "ru": "Атлетика",
+    "en": "Athletics",
+    "kr": "운동"
+  },
+  "cure": {
+    "en": "Cure",
+    "pt": "Cura",
+    "es": "Curación",
+    "zh": "治疗",
+    "ja": "治癒",
+    "ru": "Исцеление",
+    "kr": "치유"
+  },
+  "no_eligible_heroes": {
+    "pt": "Não há heróis qualificados disponíveis para esta missão.",
+    "en": "No eligible heroes available for this quest.",
+    "es": "No hay héroes elegibles disponibles para esta misión.",
+    "ru": "Нет подходящих героев для этого задания.",
+    "zh": "没有符合条件的英雄可以执行此任务。",
+    "ja": "このクエストに該当するヒーローがいません。"
+  },
+  "nature": {
+    "en": "Nature",
+    "pt": "Natureza",
+    "es": "Naturaleza",
+    "zh": "自然",
+    "ja": "自然",
+    "ru": "Природа",
+    "kr": "자연"
+  },
+  "recommended_party": {
+  "pt": "Grupo recomendado",
+  "en": "Recommended party",
+  "es": "Grupo recomendado",
+  "ru": "Рекомендуемый отряд",
+  "zh": "推荐小队",
+  "ja": "推奨パーティ"
+  },
+  "max_party": {
+    "pt": "Tamanho máximo do grupo",
+    "en": "Max party size",
+    "es": "Tamaño máximo del grupo",
+    "ru": "Макс. размер отряда",
+    "zh": "最大小队人数",
+    "ja": "最大パーティ人数"
+  },
+  "role": {
+  "pt": "Função",
+  "en": "Role",
+  "es": "Rol",
+  "ru": "Роль",
+  "zh": "角色定位",
+  "ja": "役割"
+  },
+  "max_heroes_reached": {
+    "pt": "Limite máximo de heróis atingido",
+    "en": "Maximum number of heroes reached",
+    "es": "Límite máximo de héroes alcanzado",
+    "ru": "Достигнуто максимальное число героев",
+    "zh": "已达到英雄上限",
+    "ja": "ヒーローが上限に達しました"
+  },
+  "tier_reckless": {
+    "pt": "Temerário",
+    "en": "Reckless",
+    "es": "Temerario",
+    "ru": "Безрассудный",
+    "zh": "鲁莽",
+    "ja": "無謀"
+  },
+  "tier_risky": {
+    "pt": "Arriscado",
+    "en": "Risky",
+    "es": "Arriesgado",
+    "ru": "Рискованный",
+    "zh": "冒险",
+    "ja": "危険"
+  },
+  "tier_uncertain": {
+    "pt": "Incerto",
+    "en": "Uncertain",
+    "es": "Incierto",
+    "ru": "Неопределенный",
+    "zh": "不确定",
+    "ja": "不確実"
+  },
+  "tier_safe": {
+    "pt": "Seguro",
+    "en": "Safe",
+    "es": "Seguro",
+    "ru": "Безопасный",
+    "zh": "安全",
+    "ja": "安全"
+  },
+  "tier_trivial": {
+    "pt": "Tranquilo",
+    "en": "Trivial",
+    "es": "Trivial",
+    "ru": "Простой",
+    "zh": "简单",
+    "ja": "容易"
+  },
+  "role_dps": {
+    "pt": "Dano",
+    "en": "Damage",
+    "es": "Daño",
+    "ru": "Урон",
+    "zh": "输出",
+    "ja": "アタッカー"
+  },
+  "role_healer": {
+    "pt": "Curador",
+    "en": "Healer",
+    "es": "Sanador",
+    "ru": "Целитель",
+    "zh": "治疗者",
+    "ja": "ヒーラー"
+  },
+  "role_tank": {
+    "pt": "Tanque",
+    "en": "Tank",
+    "es": "Tanque",
+    "ru": "Танк",
+    "zh": "坦克",
+    "ja": "タンク"
+  },
+  "role_support": {
+    "pt": "Suporte",
+    "en": "Support",
+    "es": "Soporte",
+    "ru": "Поддержка",
+    "zh": "辅助",
+    "ja": "サポート"
+  }
 }

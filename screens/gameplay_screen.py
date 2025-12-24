@@ -65,7 +65,6 @@ class GameplayScreen(Screen):
             self.qm.assistant.on_game_start()
             self.first_time_entering = False
         elif self.coming_from_load:
-            print("teste 2")
             # Voltando de um LOAD GAME
             self.qm.assistant.on_game_start()  # Chama welcome_back
 
@@ -203,54 +202,104 @@ class GameplayScreen(Screen):
         )
 
     def show_quest_details(self, quest, *_):
-        """Mostra painel com detalhes da quest e opções de heróis."""
+        """
+        Mostra painel com detalhes da quest e opções de heróis.
+        Combate é escalável por quantidade, não por composição fixa.
+        """
         container = self.ids.quest_details
         container.clear_widgets()
 
         self.pending_assignments[quest.id] = []
+        self.qm.hero_manager.check_hero_unlocks(
+            self.qm.completed_quests,
+            self.qm.current_turn
+        )
 
-        self.qm.hero_manager.check_hero_unlocks(self.qm.completed_quests, self.qm.current_turn)
+        # ═══════════════════════════════════════
+        # 🎯 DADOS DA QUEST
+        # ═══════════════════════════════════════
+        quest_types = self._parse_quest_types(quest.type)
+        is_combat = "fight" in quest_types
 
-        # Lista os heróis disponíveis
-        available_heroes = self.qm.hero_manager.get_available_heroes()
+        self.max_heroes = getattr(quest, "max_heroes", 1)
+        recommended = getattr(quest, "recommended_heroes", 1)
 
+        # ═══════════════════════════════════════
+        # 🎯 HERÓIS ELEGÍVEIS
+        # ═══════════════════════════════════════
+        if is_combat:
+            eligible_heroes = self._get_combat_eligible_heroes()
+        else:
+            eligible_heroes = self._filter_heroes_by_quest_type(quest_types)
+
+        # ═══════════════════════════════════════
+        # CABEÇALHO
+        # ═══════════════════════════════════════
         container.add_widget(Label(
             text=f"[b]{quest.name}[/b]",
-            markup=True, font_size=24, color=(0, 0, 0, 1),
-            size_hint_y=None, height=28
+            markup=True,
+            font_size=24,
+            color=(0, 0, 0, 1),
+            size_hint_y=None,
+            height=28
         ))
 
+        type_text = " + ".join(quest_types)
         container.add_widget(Label(
-            text=f"{self.lm.t('type_label')}: {quest.type} | {self.lm.t('difficulty_label')}: {quest.difficulty}",
+            text=f"{self.lm.t('type_label')}: {type_text} | "
+                f"{self.lm.t('difficulty_label')}: {quest.difficulty}",
             color=(0, 0, 0, 1),
             size_hint_y=None,
             height=18
         ))
 
-        # Taxa de sucesso
+        # ═══════════════════════════════════════
+        # INFO DE COMBATE (SEM TRAVAR)
+        # ═══════════════════════════════════════
+        if is_combat:
+            container.add_widget(Label(
+                text=(
+                    f"[b]{self.lm.t('recommended_party')}:[/b] {recommended} | "
+                    f"[b]{self.lm.t('max_party')}:[/b] {self.max_heroes}"
+                ),
+                markup=True,
+                color=(0.2, 0.2, 0.8, 1),
+                size_hint_y=None,
+                height=20
+            ))
+
+        # ═══════════════════════════════════════
+        # TAXA DE SUCESSO
+        # ═══════════════════════════════════════
         self.success_label = Label(
-            text=f'{self.lm.t('success_rate')}: --',
+            text=f"{self.lm.t('success_rate')}: --",
             color=(0, 0, 0, 1),
             size_hint_y=None,
             height=18
         )
         container.add_widget(self.success_label)
 
+        # ═══════════════════════════════════════
+        # DESCRIÇÃO
+        # ═══════════════════════════════════════
         desc_label = Label(
             text=quest.description,
             color=(0, 0, 0, 1),
             halign="left",
-            text_size=(container.width * 0.95, None),
             valign="top",
+            text_size=(container.width * 0.95, None),
             size_hint_y=None,
             font_size=max(16, int(container.width * 0.024)),
         )
         desc_label.bind(
-            texture_size=lambda *x: desc_label.setter("height")(desc_label, desc_label.texture_size[1])
+            texture_size=lambda *_:
+            desc_label.setter("height")(desc_label, desc_label.texture_size[1])
         )
         container.add_widget(desc_label)
 
-        # "Heróis disponíveis:"
+        # ═══════════════════════════════════════
+        # LISTA DE HERÓIS
+        # ═══════════════════════════════════════
         container.add_widget(Label(
             text=self.lm.t("available_heroes"),
             bold=True,
@@ -259,45 +308,121 @@ class GameplayScreen(Screen):
             height=25
         ))
 
-        heroes_box = BoxLayout(orientation="vertical", size_hint_y=None)
+        heroes_box = BoxLayout(
+            orientation="vertical",
+            size_hint_y=None
+        )
         heroes_box.bind(minimum_height=heroes_box.setter("height"))
+
+        if not eligible_heroes:
+            heroes_box.add_widget(Label(
+                text=self.lm.t("no_eligible_heroes"),
+                color=(0.8, 0, 0, 1),
+                size_hint_y=None,
+                height=40
+            ))
+        else:
+            for hero in eligible_heroes:
+                heroes_box.add_widget(
+                    self._create_hero_row(hero, quest, is_combat)
+                )
+
+        scroll = ScrollView(size_hint_y=0.4)
+        scroll.add_widget(heroes_box)
+        container.add_widget(scroll)
+
+        # ═══════════════════════════════════════
+        # BOTÃO FINAL
+        # ═══════════════════════════════════════
+        container.add_widget(Button(
+            text=self.lm.t("send_to_quest_btn"),
+            size_hint_y=None,
+            height=50,
+            on_release=lambda *_: self.start_quest(quest)
+        ))
+
+    def _parse_quest_types(self, quest_type) -> list:
+        if not quest_type:
+            return []
+
+        # 🔹 Caso já seja lista (novo formato)
+        if isinstance(quest_type, list):
+            return [str(t).strip().lower() for t in quest_type]
+
+        # 🔹 Caso seja string com múltiplos tipos
+        if isinstance(quest_type, str):
+            if "+" in quest_type:
+                return [t.strip().lower() for t in quest_type.split("+")]
+            return [quest_type.strip().lower()]
+
+        # fallback defensivo
+        return []
+
+    def _filter_heroes_by_quest_type(self, quest_types: list) -> list:
         available_heroes = self.qm.hero_manager.get_available_heroes()
+        eligible = []
 
         for hero in available_heroes:
+            hero_perks = [p.lower() for p in getattr(hero, "perks", [])]
 
-            row = BoxLayout(size_hint_y=None, height=40, spacing=10)
+            # se bater qualquer tipo da quest, o herói é válido
+            if any(qt in hero_perks for qt in quest_types):
+                eligible.append(hero)
 
-            # Foto do herói (assumindo que hero.photo é o caminho da imagem)
-            if getattr(hero, "photo_url", None):
-                row.add_widget(Image(
-                    source=hero.photo_url,
-                    size_hint_x=None,
-                    width=50
-                ))
-            else:
-                row.add_widget(Label(
-                    text="❓",
-                    size_hint_x=None,
-                    width=50
-                ))
+        return eligible
 
-            # Nome permanece
+    def _get_combat_eligible_heroes(self) -> list:
+        available_heroes = self.qm.hero_manager.get_available_heroes()
+        
+        # Filtra apenas heróis que têm roles definidas
+        return [h for h in available_heroes if getattr(h, "role", [])]
+
+
+    def _create_hero_row(self, hero, quest, is_combat: bool, required_composition: dict = None):
+        row = BoxLayout(size_hint_y=None, height=50, spacing=10)
+
+        # Foto do herói
+        if getattr(hero, "photo_url", None):
+            row.add_widget(Image(
+                source=hero.photo_url,
+                size_hint_x=None,
+                width=50
+            ))
+        else:
             row.add_widget(Label(
-                text=hero.name,
-                color=(0, 0, 0, 1),
-                halign="left",
-                valign="middle"
+                text="❓",
+                size_hint_x=None,
+                width=50
             ))
 
-            # Classe (traduz rótulo "Classe")
+        # Nome
+        row.add_widget(Label(
+            text=hero.name,
+            color=(0, 0, 0, 1),
+            halign="left",
+            valign="middle"
+        ))
+
+        # Classe
+        row.add_widget(Label(
+            text=f"{self.lm.t('class')}: {getattr(hero, 'hero_class', 'Unknown')}",
+            color=(0, 0, 0, 1),
+            halign="left",
+            valign="middle"
+        ))
+
+        # 🔹 NOVO: Mostra role se for combate
+        if is_combat:
+            roles = getattr(hero, "role", [])
             row.add_widget(Label(
-                text=f"{self.lm.t('class')}: {getattr(hero, 'hero_class', 'Unknown')}",
+                text=f"{self.lm.t('role')}: {roles}",
                 color=(0, 0, 0, 1),
                 halign="left",
-                valign="middle"
+                valign="middle",
+                size_hint_x=0.8
             ))
-
-            # Level — CORREÇÃO: use o atributo 'level' do hero, não a tradução como nome de atributo
+        else:
+            # Level
             row.add_widget(Label(
                 text=f"{self.lm.t('lvl_prefix')} {getattr(hero, 'level', 1)}",
                 color=(0, 0, 0, 1),
@@ -305,53 +430,49 @@ class GameplayScreen(Screen):
                 valign="middle"
             ))
 
-
-            # Botão de detalhes
-            row.add_widget(Button(
-                background_normal='assets/img/default_hero.png',
-                size_hint_x=None,
-                width=50,
-                on_release=lambda *_, h=hero: show_hero_details(self, h)
-            ))
-
-            # --- Botão de seleção com feedback visual ---
-            select_btn = Button(
-                text=self.lm.t('select'),
-                size_hint_x=None,
-                width=120,
-                background_color=(0.8, 0.8, 0.8, 1)  # cinza claro (não selecionado)
-            )
-
-            def on_select_press(btn, h=hero):
-                """Chama a função original e alterna o visual."""
-                self.select_hero_for_quest(quest, h)
-
-                quest_id = quest.id
-                if h.id in self.pending_assignments.get(quest_id, []):
-                    # Está selecionado → destacar
-                    btn.text = self.lm.t('selected')
-                    btn.background_color = (0.4, 0.8, 0.4, 1)  # verde
-                else:
-                    # Foi removido → voltar ao normal
-                    btn.text = self.lm.t('select')
-                    btn.background_color = (0.8, 0.8, 0.8, 1)  # cinza
-
-            select_btn.bind(on_release=on_select_press)
-            row.add_widget(select_btn)
-
-            heroes_box.add_widget(row)
-
-        scroll = ScrollView(size_hint_y=0.4)
-        scroll.add_widget(heroes_box)
-        container.add_widget(scroll)
-
-        # Botão enviar
-        container.add_widget(Button(
-            text=self.lm.t("send_to_quest_btn"),
-            size_hint_y=None,
-            height=50,
-            on_release=lambda *_: self.start_quest(quest)
+        # Botão de detalhes
+        row.add_widget(Button(
+            background_normal='assets/img/default_hero.png',
+            size_hint_x=None,
+            width=50,
+            on_release=lambda *_, h=hero: show_hero_details(self, h)
         ))
+
+        # Botão de seleção com feedback visual
+        select_btn = Button(
+            text=self.lm.t('select'),
+            size_hint_x=None,
+            width=120,
+            background_color=(0.8, 0.8, 0.8, 1)
+        )
+
+        def on_select_press(btn, h=hero):
+            quest_id = quest.id
+            selected = self.pending_assignments.get(quest_id, [])
+
+            if h.id in selected:
+                selected.remove(h.id)
+                btn.text = self.lm.t('select')
+                btn.background_color = (0.8, 0.8, 0.8, 1)
+                self.update_success_label(quest)
+                return
+
+            # 🚫 limite atingido
+            if len(selected) >= self.max_heroes:
+                self.qm._log(
+                    self.lm.t("max_heroes_reached").format(max=self.max_heroes)
+                )
+                return
+
+            selected.append(h.id)
+            btn.text = self.lm.t('selected')
+            btn.background_color = (0.4, 0.8, 0.4, 1)
+            self.update_success_label(quest)
+
+        select_btn.bind(on_release=on_select_press)
+        row.add_widget(select_btn)
+
+        return row
 
     def show_active_quest_details(self, quest, *_):
         """Mostra painel de detalhes de uma quest ativa — heróis designados e turnos restantes."""
@@ -457,30 +578,6 @@ class GameplayScreen(Screen):
             on_release=lambda *_: container.clear_widgets()
         ))
 
-    def select_hero_for_quest(self, quest, hero):
-        """Adiciona ou remove um herói da seleção dessa quest."""
-        if quest.id not in self.pending_assignments:
-            self.pending_assignments[quest.id] = []
-
-        if hero.id in self.pending_assignments[quest.id]:
-            # já estava selecionado → desmarca
-            self.pending_assignments[quest.id].remove(hero.id)
-        else:
-            # adiciona
-            self.pending_assignments[quest.id].append(hero.id)
-        self.update_success_label(quest)
-
-    def confirm_quest_assignment(self, quest):
-        """Confirma e envia os heróis selecionados para a quest."""
-        hero_ids = self.pending_assignments.get(quest.id, [])
-        if not hero_ids:
-            self.qm._log(self.lm.t("no_hero_selected"))
-            return
-
-        self.qm.send_heroes_on_quest(quest.id, hero_ids)
-        # limpa seleção dessa quest
-        self.pending_assignments.pop(quest.id, None)
-
     def start_quest(self, quest):
         """Envia os heróis selecionados para uma quest específica e mostra o diálogo inicial."""
         hero_ids = self.pending_assignments.get(quest.id, [])
@@ -518,11 +615,6 @@ class GameplayScreen(Screen):
         # Atualiza as listas (active/available/completed) e o contador de turno
         self.update_sidebar()
         self.turn_bar()
-
-        # Fecha popups/diálogos abertos do DialogueBox, se desejar
-        # (não fecha o diálogo inicial que acabamos de abrir — a menos que queira)
-        # self.clear_ui()  # opcional — descomente se quiser fechar tudo aqui
-
 
     def clear_ui(self):
         """Limpeza geral da UI do gameplay (fechar popups, limpar painéis, limpar seleção)."""
@@ -581,14 +673,34 @@ class GameplayScreen(Screen):
     def update_success_label(self, quest):
         """Atualiza a taxa de sucesso no label quando heróis são selecionados."""
         hero_ids = self.pending_assignments.get(quest.id, [])
-        heroes = [self.qm.get_hero(hid) for hid in hero_ids if self.qm.get_hero(hid)]
+        heroes = [
+            self.qm.get_hero(hid)
+            for hid in hero_ids
+            if self.qm.get_hero(hid)
+        ]
 
         if not heroes:
-            self.success_label.text = f"{self.lm.t('success_rate')}: --%"
+            self.success_label.text = f"{self.lm.t('success_rate')}: --"
             return
 
         chance = calculate_success_chance(heroes, quest)
-        self.success_label.text = f"{self.lm.t("success_rate")}: {chance*100:.0f}%"
+        tier = self.get_narrative_tier(chance)
+
+        # 🔹 Tradução via chave (ex: tier_safe, tier_risky…)
+        tier_text = self.lm.t(f"tier_{tier}")
+
+        self.success_label.text = f"{self.lm.t('success_rate')}: {tier_text}"
+
+    def get_narrative_tier(self, chance: float) -> str:
+        if chance < 0.2:
+            return "reckless"
+        if chance < 0.4:
+            return "risky"
+        if chance < 0.6:
+            return "uncertain"
+        if chance < 0.8:
+            return "safe"
+        return "trivial"
 
     def open_pause_menu(self):
         if self.pause_popup and self.pause_popup.parent:

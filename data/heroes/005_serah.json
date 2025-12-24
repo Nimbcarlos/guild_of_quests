@@ -1,0 +1,58 @@
+{
+  "id": 5,
+  "name": "Serah Korr",
+  "role": "tank",
+  "hero_class": {
+    "en": "Monja",
+    "pt": "Monja",
+    "es": "Monja",
+    "zh": "修女 (Xiūnǚ)",
+    "ja": "修道女 (Shūdōjo)",
+    "ru": "Монахиня",
+    "kr": "수녀 (Sunyeo)"
+  },
+  "status": {
+    "en": "Healthy",
+    "pt": "Saudável",
+    "es": "Saludable",
+    "zh": "健康 (Jiànkāng)",
+    "ja": "健康 (Kenkō)",
+    "ru": "Здоров",
+    "kr": "건강함 (Geongangham)"
+  },
+  "perks": ["athletics", "religion"],
+  "defects": {
+    "Violent": {
+      "pt": "Violenta",
+      "en": "Violent",
+      "es": "Violenta",
+      "zh": "暴力 (Bàolì)",
+      "ja": "暴力的 (Bōryokuteki)"
+    }
+  },
+  "story": {
+    "pt": "Serah aprendeu cedo que dor ensina mais rápido que palavras. Violenta e impaciente, ela nunca buscou calma. Em combate, seu foco é absoluto, interceptando inimigos com golpes rápidos e agressivos.",
+    "en": "Serah learned early that pain teaches faster than words. Violent and impatient, she never sought calm. In battle, her focus is absolute, stopping enemies through sheer aggression.",
+    "es": "Serah aprendió pronto que el dolor enseña más rápido que las palabras. Violenta e impaciente, nunca buscó calma. En combate, su enfoque es absoluto.",
+    "ru": "Сера рано поняла, что боль учит быстрее слов. Агрессивная и нетерпеливая, она не ищет покоя. В бою ее концентрация абсолютна.",
+    "zh": "瑟拉很早就明白，痛苦比语言更有效。她暴躁而缺乏耐心，从不追求平静。战斗中，她以绝对的专注压制敌人。",
+    "ja": "セラは言葉よりも痛みの方が早く教えると早くに学んだ。暴力的で短気な彼女は平穏を求めない。戦闘では圧倒的な集中力を見せる。"
+  },
+  "photo_url": "assets/img/serah.png",
+  "photo_body_url": "assets/img/serahfullbody.png",
+  "unlock_by_quest": [],
+  "available_from_turn": 1,
+  "leave_on_quest": [],
+  "growth_curve": {
+    "1": { "strength": 3, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+    "2": { "strength": 4, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+    "3": { "strength": 5, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+    "4": { "strength": 6, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+    "5": { "strength": 7, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+    "6": { "strength": 7, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+    "7": { "strength": 8, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+    "8": { "strength": 9, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+    "9": { "strength": 10, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+    "10": { "strength": 11, "dexterity": 2, "intelligence": 2, "wisdom": 2 }
+    }
+  }

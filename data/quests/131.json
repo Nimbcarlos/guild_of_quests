@@ -1,0 +1,38 @@
+{
+  "id": 131,
+  "name": {
+    "pt": "Assentamento Tribal",
+    "en": "Tribal Settlement",
+    "es": "Asentamiento Tribal",
+    "ru": "Племенное Поселение",
+    "zh": "部落定居点",
+    "ja": "部族の集落"
+  },
+  "description": {
+    "pt": "O ancião da tribo enviou um sinal urgente: batedores avistaram um grupo de mercenários cercando seu assentamento. Os heróis devem confrontar os invasores e proteger a tribo do ataque iminente.",
+    "en": "The tribe's elder sent an urgent signal: scouts spotted a group of mercenaries surrounding their settlement. Heroes must confront the invaders and protect the tribe from the imminent attack.",
+    "es": "El anciano de la tribu envió una señal urgente: exploradores avistaron un grupo de mercenarios rodeando su asentamiento. Los héroes deben confrontar a los invasores y proteger a la tribu del ataque inminente.",
+    "ru": "Старейшина племени отправил срочный сигнал: разведчики заметили группу наемников, окруживших их поселение. Герои должны противостояar захватчикам и защитить племя от неминуемой атаки.",
+    "zh": "部落长老发出了紧急信号：侦察兵发现一群雇佣兵包围了他们的定居点。英雄们必须对抗入侵者，保护部落免受迫在眉睫的攻击。",
+    "ja": "部族の長老から緊急の合図がありました：斥候たちが、傭兵の集団が彼らの集落を包囲しているのを発見しました。英雄たちは侵略者と対決し、差し迫った攻撃から部族を守らなければならない。",
+    "kr": "부족의 장로가 긴급 신호를 보냈습니다. 정찰병들이 그들의 정착지를 포위한 용병 집단을 발견했습니다. 영웅들은 침략자들과 맞서 부족을 임박한 공격으로부터 보호해야 합니다."
+  },
+  "type": "Fight",
+  "max_heroes": 1,
+  "expired_at": 5,
+  "available_from_turn": 33,
+  "duration": 3,
+  "difficulty": 2,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [
+    130
+  ],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [
+    3
+  ],
+  "forbidden_heroes": []
+}

@@ -10,12 +10,12 @@
       "ja": "忘れられた者の金庫"
     },
     "description": {
-      "pt": "Um nobre do reino perdeu a combinação do próprio cofre e enviou um pedido “urgente” à guilda. Ele jura que o conteúdo é “estritamente pessoal” — o que, vindo de um nobre, sempre soa suspeito. Política!",
-      "en": "A noble of the realm lost the combination to his own vault and sent an \"urgent\" request to the guild. He swears the content is \"strictly personal\" — which, coming from a noble, always sounds suspicious. Politics!",
-      "es": "Un noble del reino perdió la combinación de su propia caja fuerte y envió una solicitud \"urgente\" al gremio. Jura que el contenido es \"estrictamente personal\" — lo que, viniendo de un noble, siempre suena sospechoso. ¡Política!",
-      "ru": "Дворянин королевства потерял код от своего сейфа и отправил «срочный» запрос в гильдию. Он клянется, что содержимое «строго личное» — что, учитывая, кто это говорит, всегда подозрительно. Политика!",
-      "zh": "领地的一位贵族丢失了自己金库的密码，并向公会发送了“紧急”请求。他发誓内容是“绝对私人的”——来自贵族的话，这听起来总是可疑。政治！",
-      "ja": "領地の貴族が自身の金庫の暗証番号を紛失し、ギルドに「緊急」の依頼を送ってきた。彼は内容が「極秘の個人的なもの」だと断言している — 貴族の言うことなので、常に疑わしい。政治だ！"
+      "pt": "Lorde Cassian Weycroft, um nobre influente do reino, perdeu a combinação do próprio cofre e enviou um pedido “urgente” à guilda. Ele jura que o conteúdo é “estritamente pessoal” — o que, vindo de Cassian Weycroft, sempre soa suspeito. Política.",
+      "en": "Lord Cassian Weycroft, an influential noble of the realm, lost the combination to his own vault and sent an \"urgent\" request to the guild. He swears the contents are \"strictly personal\" — which, coming from Cassian Weycroft, always sounds suspicious. Politics.",
+      "es": "Lord Cassian Weycroft, un noble influyente del reino, perdió la combinación de su propia caja fuerte y envió una solicitud \"urgente\" al gremio. Jura que el contenido es \"estrictamente personal\" — lo que, viniendo de Cassian Weycroft, siempre suena sospechoso. Política.",
+      "ru": "Лорд Кассиан Вейкрофт, влиятельный дворянин королевства, потерял код от своего сейфа и отправил «срочный» запрос в гильдию. Он клянется, что содержимое «строго личное» — что, исходя от Кассиана Вейкрофта, всегда звучит подозрительно. Политика.",
+      "zh": "王国中颇具影响力的贵族卡西安·维克罗夫特勋爵丢失了自己金库的密码，并向公会发送了“紧急”请求。他坚称内容是“绝对私人的”——但这话出自卡西安·维克罗夫特之口，总显得可疑。政治。",
+      "ja": "王国で影響力を持つ貴族、カシアン・ウェイクロフト卿が自身の金庫の暗証番号を紛失し、ギルドに「緊急」の依頼を送ってきた。彼は中身が「完全に個人的なもの」だと断言しているが、カシアン・ウェイクロフト卿の言葉となると、常に疑わしい。政治だ。"
     },
     "type": "Dexterity",
     "expired_at": 4,
@@ -811,12 +811,12 @@
       "ja": "貴族の息子"
     },
     "description": {
-      "pt": "O filho de um nobre desapareceu, e ele afirma que uma tribo o sequestrou. A pista leva a um assentamento afastado. Os heróis devem investigar o local, resgatar o jovem e eliminar qualquer ameaça que tentar impedir o resgate.",
-      "en": "A noble's son has disappeared, and the noble claims a tribe kidnapped him. The lead points to a remote settlement. Heroes must investigate the location, rescue the young man, and eliminate any threat that attempts to prevent the rescue.",
-      "es": "El hijo de un noble ha desaparecido, y él afirma que una tribu lo secuestró. La pista conduce a un asentamiento remoto. Los héroes deben investigar el lugar, rescatar al joven y eliminar cualquier amenaza que intente impedir el rescate.",
-      "ru": "Сын дворянина исчез, и он утверждает, что его похитило племя. След ведет к удаленному поселению. Герои должны исследовать место, спасти юношу и устранить любую угрозу, которая попытается помешать спасению.",
-      "zh": "一位贵族的儿子失踪了，他声称是一个部落绑架了他。线索指向一个偏远的定居点。英雄们必须调查该地点，营救这名年轻人，并消灭任何试图阻止营救的威胁。",
-      "ja": "ある貴族の息子が失踪し、貴族は部族が彼を誘拐したと主張している。手がかりは離れた集落を示している。英雄たちはその場所を調査し、若者を救出し、救出を阻止しようとするあらゆる脅威を排除しなければならない。"
+      "pt": "O filho de Lorde Cassian Weycroft desapareceu, e o nobre afirma que uma tribo o sequestrou. A pista leva a um assentamento afastado. Os heróis devem investigar o local, resgatar o jovem e eliminar qualquer ameaça que tentar impedir o resgate.",
+      "en": "Lord Cassian Weycroft's son has disappeared, and the noble claims a tribe kidnapped him. The lead points to a remote settlement. Heroes must investigate the location, rescue the young man, and eliminate any threat that attempts to prevent the rescue.",
+      "es": "El hijo de Lord Cassian Weycroft ha desaparecido, y el noble afirma que una tribu lo secuestró. La pista conduce a un asentamiento remoto. Los héroes deben investigar el lugar, rescatar al joven y eliminar cualquier amenaza que intente impedir el rescate.",
+      "ru": "Сын лорда Кассиана Вейкрофта исчез, и дворянин утверждает, что его похитило племя. След ведет к удаленному поселению. Герои должны исследовать место, спасти юношу и устранить любую угрозу, которая попытается помешать спасению.",
+      "zh": "卡西安·韦克罗夫特领主的儿子失踪了，他声称是一个部落绑架了他。线索指向一个偏远的定居点。英雄们必须调查该地点，营救这名年轻人，并消灭任何试图阻止营救的威胁。",
+      "ja": "ロード・カシアン・ウェイクロフトの息子が失踪し、彼は部族が誘拐したと主張している。手がかりは離れた集落を示している。英雄たちはその場所を調査し、若者を救出し、救出を阻止しようとするあらゆる脅威を排除しなければならない。"
     },
     "type": "Fight",
     "expired_at": 3,
@@ -1082,7 +1082,7 @@
     "expired_at": 3,
     "available_from_turn": 3,
     "duration": 4,
-    "difficulty": 3,
+    "difficulty": 1.5,
     "rewards": {
       "xp": 100
     },
@@ -1114,7 +1114,7 @@
     "expired_at": 2,
     "available_from_turn": 9,
     "duration": 4,
-    "difficulty": 4,
+    "difficulty": 1.5,
     "rewards": {
       "xp": 50
     },
@@ -1536,6 +1536,68 @@
       "xp": 60
     },
     "required_quests": [153, 154, 155],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+   "id": 165,
+    "name": {
+      "pt": "Rastros Contra a Natureza",
+      "en": "Tracks Against Nature",
+      "es": "Rastros Contra la Naturaleza",
+      "ru": "Следы против природы",
+      "zh": "违背自然的踪迹",
+      "ja": "自然に反する足跡"
+    },
+    "description": {
+      "pt": "Após os recentes confrontos com criaturas alteradas, surgiram dúvidas inquietantes sobre sua origem. Os padrões de movimento, rotas repetidas e locais de aparição sugerem que esses animais não vagavam livremente. A Guilda solicita que os heróis retornem às áreas afetadas, sigam os rastros deixados antes dos ataques e determinem se há um ponto comum de origem — algo que indique criação, alimentação dirigida ou controle deliberado.",
+      "en": "After the recent confrontations with altered creatures, troubling doubts arose about their origin. Movement patterns, repeated routes, and appearance sites suggest these animals were not roaming freely. The Guild requests that the heroes return to the affected areas, follow the tracks left before the attacks, and determine whether there is a common point of origin — something indicating breeding, directed feeding, or deliberate control.",
+      "es": "Tras los recientes enfrentamientos con criaturas alteradas, surgieron dudas inquietantes sobre su origen. Los patrones de movimiento, rutas repetidas y lugares de aparición sugieren que estos animales no vagaban libremente. El gremio solicita que los héroes regresen a las zonas afectadas, sigan los rastros dejados antes de los ataques y determinen si existe un punto común de origen — algo que indique cría, alimentación dirigida o control deliberado.",
+      "ru": "После недавних столкновений с изменёнными существами возникли тревожные сомнения об их происхождении. Схемы передвижения, повторяющиеся маршруты и места появления указывают, что эти животные не бродили свободно. Гильдия поручает героям вернуться в пострадавшие районы, проследить следы, оставленные до атак, и определить, существует ли общий источник — признак разведения, направленного кормления или намеренного контроля.",
+      "zh": "在最近与变异生物的冲突之后，人们对它们的起源产生了令人不安的怀疑。它们的行动模式、重复路线和出现地点表明，这些动物并非自然游荡。公会要求英雄们返回受影响的地区，追踪攻击前留下的痕迹，并确认是否存在共同的源头——暗示人工饲养、定向喂食或刻意操控。",
+      "ja": "最近の変異した獣との戦闘を経て、その起源について不穏な疑念が生じた。行動パターン、繰り返される移動経路、出現地点は、彼らが自然に徘徊していたわけではないことを示している。ギルドは英雄たちに被害地域へ戻り、襲撃前に残された痕跡を追い、繁殖・誘導給餌・意図的な制御を示す共通の発生源が存在するかを突き止めるよう要請する。"
+    },
+   "type": "Dexterity",
+    "expired_at": 4,
+    "available_from_turn": 30,
+    "duration": 2,
+    "difficulty": 2,
+    "rewards": {
+      "xp": 50
+    },
+    "required_quests": [163, 164],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+  {
+   "id": 166,
+    "name": {
+      "pt": "Portões Lacrados",
+      "en": "Sealed Gates",
+      "es": "Portones Sellados",
+      "ru": "Запечатанные Ворота",
+      "zh": "封闭之门",
+      "ja": "閉ざされた門"
+    },
+    "description": {
+      "pt": "Após seguir os rastros das criaturas, os heróis chegam a uma residência isolada, bem guardada e mantida com cuidado. O local coincide com o ponto de origem dos deslocamentos observados. Para avançar na investigação, será necessário usar a autoridade da Guilda para solicitar acesso.",
+      "en": "After following the creatures’ tracks, the heroes arrive at an isolated residence, well-guarded and carefully maintained. The location matches the point of origin of the observed movements. To proceed with the investigation, the authority of the Guild must be used to request access.",
+      "es": "Tras seguir los rastros de las criaturas, los héroes llegan a una residencia aislada, bien protegida y cuidadosamente mantenida. El lugar coincide con el punto de origen de los desplazamientos observados. Para continuar la investigación, será necesario usar la autoridad del Gremio para solicitar acceso.",
+      "ru": "Проследовав по следам существ, герои прибывают к изолированной, хорошо охраняемой и тщательно содержимой резиденции. Это место совпадает с точкой происхождения замеченных перемещений. Чтобы продолжить расследование, необходимо воспользоваться властью Гильдии и запросить доступ.",
+      "zh": "沿着这些生物的踪迹前进后，英雄们来到了一处偏僻、戒备森严且维护良好的宅邸。该地点与此前观察到的行动起点相吻合。要继续调查，必须动用公会的权威来申请进入。",
+      "ja": "生物たちの痕跡を追った結果、英雄たちは人里離れた、厳重に警備され丁寧に管理された邸宅へと辿り着く。その場所は、確認されていた移動の起点と一致している。調査を進めるには、ギルドの権限を用いて立ち入りを要請する必要がある。"
+    },
+   "type": "Fight",
+    "expired_at": 4,
+    "available_from_turn": 30,
+    "duration": 2,
+    "difficulty": 2,
+    "rewards": {"xp": 50},
+    "required_quests": [165],
     "forbidden_quests": [],
     "required_fail_quests": [],
     "required_heroes": [],

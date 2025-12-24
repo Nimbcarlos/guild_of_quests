@@ -1,0 +1,33 @@
+{
+  "id": 158,
+  "name": {
+    "pt": "Morcego Albino Gigante",
+    "en": "Giant Albino Bat",
+    "es": "Murciélago Albino Gigante",
+    "ru": "Гигантская Летучая Мышь-Альбинос",
+    "ja": "巨大なアルビノコウモリ",
+    "zh": "巨型白化蝙蝠"
+  },
+  "description": {
+    "pt": "Um enorme morcego albino tem aterrorizado penhascos e cavernas, soltando ondas sonoras que quebram janelas e ferem viajantes. Explore seu ninho e coloque fim aos ataques noturnos.",
+    "en": "A huge albino bat has been terrorizing cliffs and caves, releasing sound waves that break windows and injure travelers. Explore its nest and put an end to the nocturnal attacks.",
+    "es": "Un enorme murciélago albino ha estado aterrorizando acantilados y cuevas, liberando ondas sonoras que rompen ventanas y hieren a los viajeros. Explora su nido y pon fin a los ataques nocturnos.",
+    "ru": "Огромная летучая мышь-альбинос терроризирует скалы и пещеры, испуская звуковые волны, которые разбивают окна и ранят путешественников. Исследуйте ее гнездо и положите конец ночным нападениям.",
+    "ja": "巨大なアルビノコウモリが崖や洞窟を恐怖に陥れており、窓を割り、旅人を傷つける音波を放っています。その巣を探索し、夜間の襲撃を終わらせてください。",
+    "zh": "一只巨大的白化蝙蝠一直在恐吓悬崖和洞穴，释放出能震碎窗户并伤害旅行者的声波。探索它的巢穴，终结夜间袭击。"
+  },
+  "type": "Fight",
+  "max_heroes": 1,
+  "expired_at": 3,
+  "available_from_turn": 38,
+  "duration": 4,
+  "difficulty": 4,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}
