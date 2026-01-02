@@ -1,0 +1,60 @@
+{
+  "id": 13,
+  "name": "Mina Gravebloom",
+  "role": "dps",
+  "hero_class": {
+    "en": "Necromancer",
+    "pt": "Necromante",
+    "es": "Necromante",
+    "zh": "死灵法师",
+    "ja": "ネクロマンサー",
+    "ru": "Некромант",
+    "kr": "네크로맨서"
+  },
+  "status": {
+    "en": "Healthy",
+    "pt": "Saudável",
+    "es": "Saludable",
+    "zh": "健康",
+    "ja": "健康",
+    "ru": "Здоров",
+    "kr": "건강함 (Geongangham)"
+  },
+  "perks": ["arcana", "diplomacy"],
+  "defects": {
+    "Pet Mon": {
+      "en": "Pet Mon",
+      "pt": "Monstro de Estimação",
+      "es": "Monstruo de Compañía",
+      "zh": "宠物怪物",
+      "ja": "ペットモン",
+      "ru": "Домашний Монстр",
+      "kr": "애완 몬스터"
+    }
+  },
+  "story": {
+    "en": "Mina grew up in a world of unresolved goodbyes, learning early that the silence of the dead wasn't an empty void—it was just shy. While others saw cold corpses, she saw company that never left. She never truly 'commands' her undead; she asks them for help. They stay by her side not out of dark compulsion, but because she is the only one who finally remembers their names. To the world, she is a macabre girl talking to bones; to the dead, she is the only one who truly listens.",
+    "pt": "Mina cresceu cercada de despedidas mal resolvidas, descobrindo cedo que o silêncio dos mortos não era um vazio — era apenas tímido. Enquanto outros viam cadáveres, ela via companhia. Ela nunca 'comanda' os mortos; ela pede. E eles ficam ao seu lado, não por obrigação ou força sombria, mas porque alguém finalmente lembrou seus nomes. Para o mundo, ela é uma garota macabra falando com ossos; para os mortos, ela é a única que realmente os ouve.",
+    "es": "Mina creció rodeada de despedidas inconclusas, descubriendo pronto que el silencio de los muertos no era un vacío, sino simple timidez. Mientras otros veían cadáveres, ella veía compañía. Nunca 'ordena' a los muertos; les pide ayuda. Y se quedan a su lado, no por obligación o fuerza oscura, sino porque alguien finalmente recordó sus nombres. Para el mundo, es una chica macabra hablando con huesos; para los muertos, es la única que realmente los escucha.",
+    "ru": "Мина выросла в мире неразрешенных прощаний, рано поняв, что тишина мертвых не была пустотой — она была просто робкой. Пока другие видели холодные трупы, она видела компанию, которая никогда не уходит. Она никогда не «командует» мертвыми; она просит их о помощи. Они остаются рядом с ней не по принуждению, а потому что она — единственная, кто наконец вспомнил их имена. Для мира она — макабрическая девушка, говорящая с костями; для мертвых она — единственная, кто по-настоящему слушает.",
+    "zh": "米娜在未竟的告别中长大，很早就发现死者的沉默并非虚无——那只是羞涩。当他人看到冰冷的尸体时，她看到的是永不离去的陪伴。她从不真正“命令”死者；她只是寻求帮助。他们留在她身边并非出于黑暗的强迫，而是因为终于有人记得他们的名字。对世界而言，她是一个对着白骨说话的可怕女孩；对死者而言，她是唯一真正倾听的人。",
+    "ja": "ミーナは解決されない別れに囲まれて育ち、死者の沈黙は虚無ではなく、ただ内気なだけだと早くに気づいた。他の者が死体を見る中、彼女は決して離れない連れ（カンパニー）を見た。彼女は決して死者を「命じ」ない。ただ、助けをお願いするのだ。彼らが留まるのは暗黒の強制からではなく、ようやく誰かが自分の名前を覚えてくれたからだ。世界にとって彼女は骨に話しかける不気味な少女だが、死者にとって彼女は唯一の理解者なのだ。"
+  },
+  "photo_url": "assets/img/mina.png",
+  "photo_body_url": "assets/img/minafullbody.png",
+  "unlock_by_quest": [],
+  "available_from_turn": 1,
+  "leave_on_quest": [],
+  "growth_curve": {
+    "1": { "strength": 1, "dexterity": 1, "intelligence": 3, "wisdom": 1 },
+    "2": { "strength": 1, "dexterity": 1, "intelligence": 4, "wisdom": 1 },
+    "3": { "strength": 1, "dexterity": 1, "intelligence": 5, "wisdom": 1 },
+    "4": { "strength": 1, "dexterity": 1, "intelligence": 6, "wisdom": 1 },
+    "5": { "strength": 1, "dexterity": 1, "intelligence": 7, "wisdom": 1 },
+    "6": { "strength": 2, "dexterity": 2, "intelligence": 7, "wisdom": 2 },
+    "7": { "strength": 2, "dexterity": 2, "intelligence": 8, "wisdom": 2 },
+    "8": { "strength": 2, "dexterity": 2, "intelligence": 9, "wisdom": 2 },
+    "9": { "strength": 2, "dexterity": 2, "intelligence": 10, "wisdom": 2 },
+    "10": { "strength": 2, "dexterity": 2, "intelligence": 11, "wisdom": 2 }
+  }
+}

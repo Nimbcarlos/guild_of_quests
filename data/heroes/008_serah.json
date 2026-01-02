@@ -1,0 +1,58 @@
+{
+  "id": 8,
+  "name": "Serah Korr",
+  "role": "dps",
+  "hero_class": {
+    "en": "Monja",
+    "pt": "Monja",
+    "es": "Monja",
+    "zh": "修女 (Xiūnǚ)",
+    "ja": "修道女 (Shūdōjo)",
+    "ru": "Монахиня",
+    "kr": "수녀 (Sunyeo)"
+  },
+  "status": {
+    "en": "Healthy",
+    "pt": "Saudável",
+    "es": "Saludable",
+    "zh": "健康 (Jiànkāng)",
+    "ja": "健康 (Kenkō)",
+    "ru": "Здоров",
+    "kr": "건강함 (Geongangham)"
+  },
+  "perks": ["athletics", "religion"],
+  "defects": {
+    "Violent": {
+      "pt": "Violenta",
+      "en": "Violent",
+      "es": "Violenta",
+      "zh": "暴力 (Bàolì)",
+      "ja": "暴力的 (Bōryokuteki)"
+    }
+  },
+  "story": {
+    "en": "Serah learned that pain was the only honest teacher. Outside of combat, she is blunt, abrasive, and constantly on edge. But once a fight begins, Serah becomes terrifyingly focused. She tanks not by enduring pain, but by delivering it faster than anyone else could.",
+    "pt": "Serah aprendeu que a dor era o único mestre honesto. Fora de combate, ela é direta, ríspida e constantemente tensa. Mas, uma vez que a luta começa, Serah torna-se terrivelmente focada. Ela atua como linha de frente não por suportar a dor, mas por entregá-la mais rápido do que qualquer outra pessoa poderia.",
+    "es": "Serah aprendió que el dolor era el único maestro honesto. Fuera del combate, es franca, abrasiva y está constantemente nerviosa. Pero una vez que comienza la pelea, Serah se vuelve terriblemente concentrada. No resiste el dolor aguantando, sino infligiéndolo más rápido que cualquier otro.",
+    "ru": "Сера усвоила, что боль — единственный честный учитель. Вне боя она резка, груба и постоянно на взводе. Но как только начинается схватка, Сера становится пугающе сосредоточенной. Она принимает на себя удар не за счет выносливости, а нанося урон быстрее, чем кто-либо другой.",
+    "zh": "塞拉明白痛苦是唯一诚实的老师。在战斗之外，她直率、生硬且时刻紧绷。但一旦战斗开始，塞拉就会变得极其专注。她不是通过忍受痛苦来承担伤害，而是通过比任何人都更快地施加痛苦。",
+    "ja": "セラは、痛みこそが唯一の正直な教師であると学んだ。戦闘以外ではぶっきらぼうで刺々しく、常に神経を尖らせている。しかし、一度戦いが始まれば、彼女は恐ろしいほどの集中力を見せる。彼女が盾となるのは痛みに耐えるからではなく、誰よりも早く痛みを叩き込むからだ。"
+  },
+  "photo_url": "assets/img/serah.png",
+  "photo_body_url": "assets/img/serahfullbody.png",
+  "unlock_by_quest": [],
+  "available_from_turn": 1,
+  "leave_on_quest": [],
+  "growth_curve": {
+    "1": { "strength": 3, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+    "2": { "strength": 4, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+    "3": { "strength": 5, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+    "4": { "strength": 6, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+    "5": { "strength": 7, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+    "6": { "strength": 7, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+    "7": { "strength": 8, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+    "8": { "strength": 9, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+    "9": { "strength": 10, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+    "10": { "strength": 11, "dexterity": 2, "intelligence": 2, "wisdom": 2 }
+    }
+  }

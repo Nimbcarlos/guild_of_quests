@@ -1,0 +1,31 @@
+  {
+    "id": 42,
+    "name": {
+      "pt": "O Contraventamento do Túnel",
+      "en": "Shoring the Tunnel",
+      "es": "El Apuntalamiento del Túnel",
+      "ru": "Укрепление Туннеля",
+      "zh": "隧道加固",
+      "ja": "坑道の補強"
+    },
+    "description": {
+      "pt": "Um tremor de terra abalou a mina principal. As vigas de sustentação estão rachadas e o teto cede centímetro a centímetro. Trabalhadores ainda estão lá dentro, e cada segundo sem reforço aproxima um soterramento fatal.",
+      "en": "An earthquake shook the main mine. Support beams are cracked and the ceiling is slowly collapsing. Workers are still inside, and every second brings a fatal cave-in closer.",
+      "es": "Un temblor sacudió la mina principal. Las vigas están dañadas y el techo cede lentamente. Aún hay trabajadores dentro.",
+      "ru": "Землетрясение повредило шахту. Опоры треснули, потолок оседает. Люди всё ещё внутри.",
+      "zh": "地震破坏了主矿井，支撑梁开裂，顶部正在坍塌，仍有人被困其中。",
+      "ja": "地震で坑道が損傷した。支柱は割れ、天井がゆっくり崩れつつある。中にはまだ人がいる。"
+    },
+    "type": "athletics",
+    "max_heroes": 2,
+    "expired_at": 2,
+    "available_from_turn": 1,
+    "duration": 1,
+    "difficulty": 1.6,
+    "rewards": { "xp": 75 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  }

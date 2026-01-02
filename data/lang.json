@@ -1505,5 +1505,37 @@
     "ru": "Поддержка",
     "zh": "辅助",
     "ja": "サポート"
+  },
+  "mining": {
+    "pt": "Mineração",
+    "en": "Mining",
+    "es": "Minería",
+    "kr": "채광",
+    "ja": "採掘",
+    "ru": "Горное дело"
+  },
+  "smithing": {
+    "pt": "Ferraria",
+    "en": "Smithing",
+    "es": "Herrería",
+    "kr": "제련",
+    "ja": "鍛冶",
+    "ru": "Кузнечное дело"
+  },
+  "stealth": {
+    "pt": "Furtividade",
+    "en": "Stealth",
+    "es": "Sigilo",
+    "kr": "은신",
+    "ja": "隠密",
+    "ru": "Скрытность"
+  },
+  "alchemy": {
+    "pt": "Alquimia",
+    "en": "Alchemy",
+    "es": "Alquimia",
+    "kr": "연금술",
+    "ja": "錬金術",
+    "ru": "Алхимия"
   }
 }

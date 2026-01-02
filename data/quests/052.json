@@ -1,0 +1,31 @@
+  {
+    "id": 52,
+    "name": {
+      "pt": "Resgate da Chave de Água",
+      "en": "Water Key Recovery",
+      "es": "Rescate de la Llave del Agua",
+      "ru": "Возвращение Водного Ключа",
+      "zh": "水闸钥匙夺回",
+      "ja": "水門の鍵奪還"
+    },
+    "description": {
+      "pt": "Bandidos roubaram a chave que controla as comportas da represa da vila. Sem a liberação da água, as plantações morrerão em poucos dias. A chave está guardada em um esconderijo improvisado.",
+      "en": "Bandits stole the key that controls the village dam gates. Without water, the crops will die within days.",
+      "es": "Bandidos robaron la llave de la represa. Sin agua, la cosecha morirá.",
+      "ru": "Бандиты украли ключ от плотины. Без воды урожай погибнет.",
+      "zh": "盗匪抢走了控制水坝闸门的钥匙，没有水，庄稼将枯死。",
+      "ja": "盗賊が水門の鍵を奪った。水がなければ作物は枯れる。"
+    },
+    "type": "stealth",
+    "max_heroes": 2,
+    "expired_at": 3,
+    "available_from_turn": 2,
+    "duration": 1,
+    "difficulty": 1.5,
+    "rewards": { "xp": 75 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  }

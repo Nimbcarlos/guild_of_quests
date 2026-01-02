@@ -1,0 +1,31 @@
+  {
+    "id": 50,
+    "name": {
+      "pt": "O Caminho das Pedras de Fogo",
+      "en": "The Path of Fire Stones",
+      "es": "El Camino de las Piedras Ardientes",
+      "ru": "Путь Огненных Камней",
+      "zh": "火石之路",
+      "ja": "燃える石の道"
+    },
+    "description": {
+      "pt": "O solo de uma caverna tornou-se instável e superaquecido. A única travessia possível exige saltos precisos entre plataformas de pedra que afundam lentamente.",
+      "en": "The cave floor has become unstable and overheated. Crossing requires precise jumps between sinking stone platforms.",
+      "es": "El suelo es inestable y ardiente. Solo se puede cruzar saltando.",
+      "ru": "Почва раскалена и нестабильна. Переправа возможна только прыжками.",
+      "zh": "洞穴地面过热且不稳定，只能在下沉的石块间跳跃。",
+      "ja": "洞窟の床が高温で不安定になり、沈む岩を跳び渡るしかない。"
+    },
+    "type": "athletics",
+    "max_heroes": 2,
+    "expired_at": 3,
+    "available_from_turn": 4,
+    "duration": 2,
+    "difficulty": 1.8,
+    "rewards": { "xp": 95 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  }

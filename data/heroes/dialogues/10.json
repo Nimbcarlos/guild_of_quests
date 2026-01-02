@@ -1,0 +1,48 @@
+{
+  "start_dialogues": {
+    "default": {
+      "en": [
+        "Understood. I won't take anything that isn't mine.",
+        "Just tell me what you need, and I will do it. No tricks.",
+        "The payment is for my mother, so the mission will be completed.",
+        "Don't worry about my presence. If I do my job, no one will notice me.",
+        "What was promised will be delivered. Count on me."
+      ],
+      "pt": [
+        "Entendido. Não vou pegar nada que não seja meu.",
+        "Apenas me diga o que precisa e eu farei. Sem truques.",
+        "O pagamento é para minha mãe, então a missão será concluída.",
+        "Não se preocupe com a minha presença. Se eu fizer meu trabalho, ninguém vai me notar.",
+        "O que foi prometido será entregue. Conte comigo."
+      ],
+      "es": [
+        "Entendido. No tomaré nada que no sea mío.",
+        "Solo dime lo que necesitas y lo haré. Sin trucos.",
+        "El pago es para mi madre, así que la misión se completará.",
+        "No te preocupes por mi presencia. Si hago mi trabajo, nadie me notará.",
+        "Lo prometido será entregado. Cuenta conmigo."
+      ],
+      "ru": [
+        "Поняла. Я не возьму ничего, что мне не принадлежит.",
+        "Просто скажите, что вам нужно, и я это сделаю. Без уловок.",
+        "Плата предназначена моей матери, поэтому миссия будет выполнена.",
+        "Не беспокойтесь о моем присутствии. Если я сделаю свою работу, меня никто не заметит.",
+        "Что было обещано, то будет доставлено. Рассчитывайте на меня."
+      ],
+      "zh": [
+        "明白了。我不会拿走任何不属于我的东西。",
+        "只需告诉我你需要什么，我就会去做。不用耍花招。",
+        "报酬是给我的母亲的，所以任务一定会完成。",
+        "不用担心我的存在。如果我做好我的工作，没有人会注意到我。",
+        "承诺过的事情一定会兑现。相信我。"
+      ],
+      "ja": [
+        "承知しました。私のものではないものは何も取りません。",
+        "必要なことだけおっしゃってください、私がやります。裏工作はなしで。",
+        "報酬は母のためなので、ミッションは完了させます。",
+        "私の存在は気にしないでください。私が仕事をすれば、誰も私に気づきません。",
+        "約束されたものは届けられます。私を頼りにしてください。"
+      ]
+    }
+  }
+}

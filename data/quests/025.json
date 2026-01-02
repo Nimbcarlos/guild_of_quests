@@ -1,0 +1,31 @@
+  {
+    "id": 25,
+    "name": {
+      "pt": "O Grimório Fugitivo",
+      "en": "The Runaway Grimoire",
+      "es": "El Grimorio Fugitivo",
+      "ru": "Беглый Гримуар",
+      "zh": "逃跑的魔导书",
+      "ja": "逃げた魔導書"
+    },
+    "description": {
+      "pt": "Um antigo grimório ganhou consciência própria e decidiu que a biblioteca era entediante demais. Agora flutua pela cidade, lançando feitiços aleatórios para \"corrigir\" a realidade.",
+      "en": "An ancient grimoire has gained consciousness and decided the library was too boring. It now floats through the city, casting random spells to \"fix\" reality.",
+      "es": "Un grimorio antiguo ganó conciencia propia y decidió que la biblioteca era demasiado aburrida. Ahora flota por la ciudad lanzando hechizos aleatorios para \"arreglar\" la realidad.",
+      "ru": "Древний гримуар обрёл сознание и решил, что библиотека слишком скучна. Теперь он летает по городу, накладывая случайные заклинания, чтобы «исправить» реальность.",
+      "zh": "一本古老的魔法书获得了意识，认为图书馆太无聊，如今在城市中漂浮，用随机法术“修正”现实。",
+      "ja": "古代の魔導書が自我を持ち、図書館は退屈だと判断した。今では街を漂い、現実を「修正」するために無作為な魔法を放っている。"
+    },
+    "type": "arcana",
+    "max_heroes": 2,
+    "expired_at": 5,
+    "available_from_turn": 3,
+    "duration": 2,
+    "difficulty": 1.6,
+    "rewards": { "xp": 80 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  }

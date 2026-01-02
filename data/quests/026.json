@@ -1,0 +1,31 @@
+  {
+    "id": 26,
+    "name": {
+      "pt": "O Vórtice do Mercado",
+      "en": "The Market Vortex",
+      "es": "El Vórtice del Mercado",
+      "ru": "Рыночный Вихрь",
+      "zh": "市场漩涡",
+      "ja": "市場の渦"
+    },
+    "description": {
+      "pt": "Um portal instável para uma dimensão de puro vácuo abriu-se entre as barracas do mercado. Ele não libera monstros, mas suga tudo que contém metal ou magia.",
+      "en": "An unstable portal to a dimension of pure void has opened in the marketplace. It releases no monsters, but pulls in anything made of metal or magic.",
+      "es": "Un portal inestable a una dimensión de vacío puro se abrió en el mercado. No libera monstruos, pero absorbe todo lo hecho de metal o magia.",
+      "ru": "На рынке открылся нестабильный портал в измерение чистого вакуума. Он не выпускает монстров, но засасывает всё металлическое и магическое.",
+      "zh": "一个通往纯粹虚空的传送门在市场中打开，它不释放怪物，却会吸走一切金属或魔法物品。",
+      "ja": "市場に純粋な虚無へ通じる不安定なポータルが開いた。怪物は出てこないが、金属や魔法の物を吸い込んでいく。"
+    },
+    "type": "arcana",
+    "max_heroes": 3,
+    "expired_at": 4,
+    "available_from_turn": 2,
+    "duration": 2,
+    "difficulty": 1.7,
+    "rewards": { "xp": 85 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  }

@@ -1,0 +1,60 @@
+{
+  "id": 9,
+  "name": "Seraphine Quillwick",
+  "role": "dps",
+  "hero_class": {
+    "en": "Alchemist",
+    "pt": "Alquimista",
+    "es": "Alquimista",
+    "zh": "炼金术士",
+    "ja": "錬金術師",
+    "ru": "Алхимик",
+    "kr": "연금술사"
+  },
+  "status": {
+    "en": "Healthy",
+    "pt": "Saudável",
+    "es": "Saludable",
+    "zh": "健康",
+    "ja": "健康",
+    "ru": "Здоров",
+    "kr": "건강함"
+  },
+  "perks": ["alchemy", "investigation"],
+  "defects": {
+    "sarcastic": {
+      "pt": "Sarcástica",
+      "en": "Sarcastic",
+      "es": "Sarcastica",
+      "zh": "讽刺",
+      "ja": "皮肉屋",
+      "ru": "Саркастичная",
+      "kr": "비꼬는 성격"
+    }
+  },
+  "story": {
+    "en": "Seraphine never trusted divine grace or heroic destiny. If someone survived, it was because the mixture worked. She learned alchemy by cataloging mistakes — most of them made by others. In battle, she observes wounds with clinical precision, muttering dry remarks while sealing flesh and neutralizing toxins. Her cures are effective, her tone is not comforting, and she insists that survival is not a miracle — just chemistry done correctly.",
+    "pt": "Seraphine nunca confiou em graça divina ou destino heroico. Se alguém sobreviveu, foi porque a mistura funcionou. Ela aprendeu alquimia catalogando erros — a maioria cometidos por outras pessoas. Em combate, observa ferimentos com precisão clínica, soltando comentários secos enquanto fecha carne e neutraliza toxinas. Suas curas funcionam, seu tom não conforta, e ela insiste que sobreviver não é milagre — é química bem feita.",
+    "es": "Seraphine nunca confió en la gracia divina ni en el destino heroico. Si alguien sobrevivió, fue porque la mezcla funcionó. Aprendió alquimia catalogando errores — la mayoría cometidos por otros. En combate, examina las heridas con precisión clínica, soltando comentarios secos mientras sella la carne y neutraliza toxinas. Sus curas funcionan, su tono no consuela, y ella insiste en que sobrevivir no es un milagro — es química bien hecha.",
+    "ru": "Серафина никогда не верила в божественную благодать или героическую судьбу. Если кто-то выжил, значит смесь сработала. Алхимию она изучала, систематизируя ошибки — в основном чужие. В бою она оценивает раны с холодной точностью, отпуская сухие комментарии, пока заживляет плоть и нейтрализует токсины. Её лечение эффективно, её тон — нет, и она настаивает: выживание — не чудо, а правильно сделанная химия.",
+    "zh": "塞拉芬从不相信神恩或英雄宿命。如果有人活下来，那只是因为配方奏效了。她通过整理失败案例学习炼金术——而这些错误大多是别人犯的。战斗中，她以冷静而精准的方式检查伤口，一边冷嘲热讽，一边封合血肉、清除毒素。她的治疗有效，但语气毫不安慰，因为在她看来，生存不是奇迹——只是化学正确运作。",
+    "ja": "セラフィンは神の加護や英雄的な運命を信じたことがない。誰かが生き延びたなら、それは調合が成功したからだ。彼女は主に他人の失敗を記録することで錬金術を学んだ。戦場では傷を冷静に分析し、皮肉を漏らしながら肉体を修復し毒を中和する。治療は確実だが、口調は優しくない。生存は奇跡ではなく、正しい化学反応だと彼女は言い切る。"
+  },
+  "photo_url": "assets/img/seraphine.png",
+  "photo_body_url": "assets/img/seraphinefullbody.png",
+  "unlock_by_quest": [],
+  "available_from_turn": 1,
+  "leave_on_quest": [],
+  "growth_curve": {
+    "1": { "strength": 1, "dexterity": 2, "intelligence": 3, "wisdom": 2 },
+    "2": { "strength": 1, "dexterity": 2, "intelligence": 4, "wisdom": 2 },
+    "3": { "strength": 1, "dexterity": 2, "intelligence": 5, "wisdom": 2 },
+    "4": { "strength": 1, "dexterity": 2, "intelligence": 6, "wisdom": 2 },
+    "5": { "strength": 1, "dexterity": 2, "intelligence": 7, "wisdom": 2 },
+    "6": { "strength": 2, "dexterity": 3, "intelligence": 7, "wisdom": 3 },
+    "7": { "strength": 2, "dexterity": 3, "intelligence": 8, "wisdom": 3 },
+    "8": { "strength": 2, "dexterity": 3, "intelligence": 9, "wisdom": 3 },
+    "9": { "strength": 2, "dexterity": 3, "intelligence": 10, "wisdom": 3 },
+    "10": { "strength": 2, "dexterity": 3, "intelligence": 11, "wisdom": 3 }
+  }
+}

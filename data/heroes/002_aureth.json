@@ -1,0 +1,60 @@
+{
+  "id": 2,
+  "name": "Aureth Valmor",
+  "role": "tank",
+  "hero_class": {
+    "en": "Paladin",
+    "pt": "Paladina",
+    "es": "Paladina",
+    "zh": "圣骑士 (Shèngqíshì)",
+    "ja": "聖騎士 (Seikishi)",
+    "ru": "Паладин",
+    "kr": "성기사 (Seonggisa)"
+  },
+  "status": {
+    "en": "Healthy",
+    "pt": "Saudável",
+    "es": "Saludable",
+    "zh": "健康 (Jiànkāng)",
+    "ja": "健康 (Kenkō)",
+    "ru": "Здоров",
+    "kr": "건강함 (Geongangham)"
+  },
+  "perks": ["religion", "diplomacy"],
+  "defects": {
+    "Mal-humored": {
+      "pt": "Mal-humorada",
+      "en": "Mal-humored",
+      "es": "Malhumorada",
+      "zh": "坏脾气 (Huài píqì)",
+      "ja": "不機嫌 (Fukigen)",
+      "ru": "Плохое настроение",
+      "kr": "불쾌한 기분 (Bulkwaehan gibun)"
+    }
+  },
+  "story": {
+    "en": "Aureth was raised within the strict walls of a militant order, surrounded by prayer, doctrine, and expectations she never asked for. Faith, to her, was obligation. She grew cynical toward sermons, her patience worn thin by those who spoke of divine will but never stood in front of danger. Yet, when battle began, Aureth became unyielding, protecting others because someone had to.",
+    "pt": "Aureth foi criada entre as muralhas rígidas de uma ordem militante, cercada por orações, doutrinas e expectativas que nunca pediu. A fé, para ela, era obrigação. Tornou-se cínica em relação a sermões, com a paciência esgotada por aqueles que falam da vontade divina, mas nunca enfrentam o perigo. No entanto, em batalha, Aureth torna-se inabalável, protegendo os outros porque alguém precisa fazê-lo.",
+    "es": "Aureth se crió entre los estrictos muros de una orden militante, rodeada de oraciones, doctrinas y expectativas que nunca pidió. Para ella, la fe era una obligación. Se volvió cínica ante los sermones, con la paciencia agotada por quienes hablan de la voluntad divina pero nunca se enfrentan al peligro. Sin embargo, en la batalla, Aureth se vuelve inquebrantable, protegiendo a los demás porque alguien tiene que hacerlo.",
+    "ru": "Аурет выросла в строгих стенах военного ордена, в окружении молитв, доктрин и ожиданий, о которых она не просила. Вера для нее была обязанностью. Она стала цинично относиться к проповедям, ее терпение исчерпали те, кто говорит о божественной воле, но никогда не стоит перед лицом опасности. Тем не менее, в бою Аурет становится непоколебимой, защищая других, потому что кто-то должен это делать.",
+    "zh": "奥雷丝在严密的军事教团中长大，身边充斥着祷告、教义和她从未要求的期望。对她而言，信仰是一种义务。她对说教变得愤世嫉俗，对那些空谈神圣意志却从不直面危险的人失去了耐心。然而，当战斗开始时，奥雷丝变得坚不可摧，保护他人，因为总得有人挺身而出。",
+    "ja": "オーレスは厳格な騎士団の壁の中で、祈り、教義、そして望んでもいない期待に囲まれて育った。彼女にとって信仰は義務だった。神の意志を語りながら危険の前に立とうとしない者たちに愛想を尽かし、説教には冷笑的になった。しかし、いざ戦いが始まればオーレスは不屈の存在となり、誰かがやらねばならないからと他者を守り抜く。"  
+  },
+  "photo_url": "assets/img/aureth.png",
+  "photo_body_url": "assets/img/aurethfullbody.png",
+  "unlock_by_quest": [],
+  "available_from_turn": 1,
+  "leave_on_quest": [],
+  "growth_curve": {
+    "1": { "strength": 3, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+    "2": { "strength": 4, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+    "3": { "strength": 5, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+    "4": { "strength": 6, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+    "5": { "strength": 7, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+    "6": { "strength": 7, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+    "7": { "strength": 8, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+    "8": { "strength": 9, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+    "9": { "strength": 10, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+    "10": { "strength": 11, "dexterity": 2, "intelligence": 2, "wisdom": 2 }
+  }
+}

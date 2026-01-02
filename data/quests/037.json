@@ -1,0 +1,32 @@
+
+  {
+    "id": 37,
+    "name": {
+      "pt": "Migração ao Contrário",
+      "en": "Backward Migration",
+      "es": "Migración Invertida",
+      "ru": "Обратная Миграция",
+      "zh": "逆向迁徙",
+      "ja": "逆の渡り"
+    },
+    "description": {
+      "pt": "Pássaros estão migrando para o norte em pleno inverno. Outros animais demonstram confusão e desorientação, como se os ciclos naturais tivessem sido rompidos.",
+      "en": "Birds are migrating north during winter. Other animals show confusion, as if natural cycles were broken.",
+      "es": "Las aves migran al norte en invierno. Otros animales muestran desorientación.",
+      "ru": "Птицы летят на север зимой. Животные дезориентированы.",
+      "zh": "鸟类在冬季向北迁徙，动物行为异常，仿佛自然法则被打破。",
+      "ja": "冬にも関わらず鳥が北へ渡っている。自然の周期が乱れている。"
+    },
+    "type": "nature",
+    "max_heroes": 2,
+    "expired_at": 6,
+    "available_from_turn": 4,
+    "duration": 3,
+    "difficulty": 1.7,
+    "rewards": { "xp": 90 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  }

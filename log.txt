@@ -1,12 +1,12 @@
 
 ============================================================
-Erro em: 2025-12-22 16:07:55.167364
+Erro em: 2025-12-25 07:30:50.407286
 Exception: AttributeError
-Arquivo: d:\Python\Jogo\screens\gameplay_screen.py
-Linha: 361
-Função: _filter_heroes_by_quest_type
-Mensagem: 'list' object has no attribute 'perks'
-Código: print(available_heroes.perks)
+Arquivo: d:\Python\Jogo\core\dialogue_manager.py
+Linha: 109
+Função: show_quest_dialogue
+Mensagem: 'list' object has no attribute 'get'
+Código: base_texts = base_block.get(self.language)
 
 --- Traceback completo ---
 Traceback (most recent call last):
@@ -38,23 +38,38 @@ Traceback (most recent call last):
   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 230, in show_quest_details
-    eligible_heroes = self._filter_heroes_by_quest_type(quest_types)
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 361, in _filter_heroes_by_quest_type
-    print(available_heroes.perks)
-          ^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'list' object has no attribute 'perks'
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 139, in <lambda>
+    on_release=lambda *_: self.advance_turn()
+                          ~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 851, in advance_turn
+    self.qm.advance_turn()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\core\quest_manager.py", line 274, in advance_turn
+    self.resolve_quest(qid, data)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "d:\Python\Jogo\core\quest_manager.py", line 200, in resolve_quest
+    self.dialog_callback(heroes, quest.id, result)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 843, in open_dialog
+    self.dialog_box.show_dialogue(selected_heroes, quest, result, parent_size=self.size)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\dialog_box.py", line 46, in show_dialogue
+    dialogues = self.dm.show_quest_dialogue(heroes, quest_id, result)
+  File "d:\Python\Jogo\core\dialogue_manager.py", line 109, in show_quest_dialogue
+    base_texts = base_block.get(self.language)
+                 ^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
 
 ============================================================
 
 ============================================================
-Erro em: 2025-12-22 19:40:31.558524
+Erro em: 2025-12-25 07:44:01.882143
 Exception: AttributeError
-Arquivo: d:\Python\Jogo\screens\gameplay_screen.py
-Linha: 330
-Função: <lambda>
-Mensagem: 'GameplayScreen' object has no attribute 'start_quest'
-Código: on_release=lambda *_: self.start_quest(quest)
+Arquivo: d:\Python\Jogo\core\dialogue_manager.py
+Linha: 194
+Função: get_start_dialogue
+Mensagem: 'list' object has no attribute 'get'
+Código: default_texts = default_block.get(self.language)
 
 --- Traceback completo ---
 Traceback (most recent call last):
@@ -86,380 +101,35 @@ Traceback (most recent call last):
   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 330, in <lambda>
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 341, in <lambda>
     on_release=lambda *_: self.start_quest(quest)
-                          ^^^^^^^^^^^^^^^^
-AttributeError: 'GameplayScreen' object has no attribute 'start_quest'
+                          ~~~~~~~~~~~~~~~~^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 602, in start_quest
+    self.qm.send_heroes_on_quest(quest.id, hero_ids)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\core\quest_manager.py", line 116, in send_heroes_on_quest
+    self.dialog_callback(selected_heroes, quest.id, "start")
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 843, in open_dialog
+    self.dialog_box.show_dialogue(selected_heroes, quest, result, parent_size=self.size)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\dialog_box.py", line 43, in show_dialogue
+    dialogues = self.dm.get_start_dialogue(heroes)
+  File "d:\Python\Jogo\core\dialogue_manager.py", line 194, in get_start_dialogue
+    default_texts = default_block.get(self.language)
+                    ^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'get'
 
 ============================================================
 
 ============================================================
-Erro em: 2025-12-22 19:41:57.999939
-Exception: UnboundLocalError
-Arquivo: d:\Python\Jogo\screens\gameplay_screen.py
-Linha: 831
-Função: update_success_label
-Mensagem: cannot access local variable 'chance' where it is not associated with a value
-Código: print(chance)
-
---- Traceback completo ---
-Traceback (most recent call last):
-  File "d:\Python\Jogo\main.py", line 95, in <module>
-    GameApp().run()
-    ~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
-    runTouchApp()
-    ~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
-    EventLoop.mainloop()
-    ~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
-    self.idle()
-    ~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
-    self.dispatch_input()
-    ~~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
-    post_dispatch_input(*pop(0))
-    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
-    wid.dispatch('on_touch_up', me)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
-    self.dispatch('on_release')
-    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
-  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
-  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 523, in on_select_press
-    self.update_success_label(quest)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 831, in update_success_label
-    print(chance)
-          ^^^^^^
-UnboundLocalError: cannot access local variable 'chance' where it is not associated with a value
-
-============================================================
-
-============================================================
-Erro em: 2025-12-23 08:24:40.627996
-Exception: AttributeError
-Arquivo: d:\Python\Jogo\screens\gameplay_screen.py
-Linha: 343
-Função: _parse_quest_types
-Mensagem: 'list' object has no attribute 'strip'
-Código: return [quest_type.strip().lower()]
-
---- Traceback completo ---
-Traceback (most recent call last):
-  File "d:\Python\Jogo\main.py", line 95, in <module>
-    GameApp().run()
-    ~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
-    runTouchApp()
-    ~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
-    EventLoop.mainloop()
-    ~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
-    self.idle()
-    ~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
-    self.dispatch_input()
-    ~~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
-    post_dispatch_input(*pop(0))
-    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
-    wid.dispatch('on_touch_up', me)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
-    self.dispatch('on_release')
-    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
-  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
-  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 220, in show_quest_details
-    quest_types = self._parse_quest_types(quest.type)
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 343, in _parse_quest_types
-    return [quest_type.strip().lower()]
-            ^^^^^^^^^^^^^^^^
-AttributeError: 'list' object has no attribute 'strip'
-
-============================================================
-
-============================================================
-Erro em: 2025-12-23 11:53:24.947718
-Exception: AttributeError
-Arquivo: d:\Python\Jogo\screens\gameplay_screen.py
-Linha: 222
-Função: show_quest_details
-Mensagem: 'GameplayScreen' object has no attribute '_parse_quest_types'
-Código: quest_types = self._parse_quest_types(quest.type)
-
---- Traceback completo ---
-Traceback (most recent call last):
-  File "d:\Python\Jogo\main.py", line 95, in <module>
-    GameApp().run()
-    ~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
-    runTouchApp()
-    ~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
-    EventLoop.mainloop()
-    ~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
-    self.idle()
-    ~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
-    self.dispatch_input()
-    ~~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
-    post_dispatch_input(*pop(0))
-    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
-    wid.dispatch('on_touch_up', me)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
-    self.dispatch('on_release')
-    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
-  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
-  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 222, in show_quest_details
-    quest_types = self._parse_quest_types(quest.type)
-                  ^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'GameplayScreen' object has no attribute '_parse_quest_types'
-
-============================================================
-
-============================================================
-Erro em: 2025-12-23 12:06:11.939662
-Exception: AttributeError
-Arquivo: d:\Python\Jogo\screens\gameplay_screen.py
-Linha: 348
-Função: _parse_quest_types
-Mensagem: 'list' object has no attribute 'strip'
-Código: return [quest_type.strip().lower()]
-
---- Traceback completo ---
-Traceback (most recent call last):
-  File "d:\Python\Jogo\main.py", line 95, in <module>
-    GameApp().run()
-    ~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
-    runTouchApp()
-    ~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
-    EventLoop.mainloop()
-    ~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
-    self.idle()
-    ~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
-    self.dispatch_input()
-    ~~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
-    post_dispatch_input(*pop(0))
-    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
-    wid.dispatch('on_touch_up', me)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
-    self.dispatch('on_release')
-    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
-  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
-  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 222, in show_quest_details
-    quest_types = self._parse_quest_types(quest.type)
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 348, in _parse_quest_types
-    return [quest_type.strip().lower()]
-            ^^^^^^^^^^^^^^^^
-AttributeError: 'list' object has no attribute 'strip'
-
-============================================================
-
-============================================================
-Erro em: 2025-12-23 12:46:28.061071
-Exception: AttributeError
-Arquivo: d:\Python\Jogo\core\quest_success_calculator.py
-Linha: 84
-Função: _normalize_quest_type
-Mensagem: 'list' object has no attribute 'lower'
-Código: return quest_type.lower()
-
---- Traceback completo ---
-Traceback (most recent call last):
-  File "d:\Python\Jogo\main.py", line 95, in <module>
-    GameApp().run()
-    ~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
-    runTouchApp()
-    ~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
-    EventLoop.mainloop()
-    ~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
-    self.idle()
-    ~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
-    self.dispatch_input()
-    ~~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
-    post_dispatch_input(*pop(0))
-    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
-    wid.dispatch('on_touch_up', me)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
-    self.dispatch('on_release')
-    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
-  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
-  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 474, in on_select_press
-    self.update_success_label(quest)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 685, in update_success_label
-    chance = calculate_success_chance(heroes, quest)
-  File "d:\Python\Jogo\core\quest_success_calculator.py", line 158, in calculate_success_chance
-    return _global_calculator.calculate_success_chance(heroes, quest)
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
-  File "d:\Python\Jogo\core\quest_success_calculator.py", line 98, in calculate_success_chance
-    quest_type_normalized = self._normalize_quest_type(quest.type)
-  File "d:\Python\Jogo\core\quest_success_calculator.py", line 84, in _normalize_quest_type
-    return quest_type.lower()
-           ^^^^^^^^^^^^^^^^
-AttributeError: 'list' object has no attribute 'lower'
-
-============================================================
-
-============================================================
-Erro em: 2025-12-23 12:48:45.462930
-Exception: AttributeError
-Arquivo: d:\Python\Jogo\core\quest_success_calculator.py
-Linha: 84
-Função: _normalize_quest_type
-Mensagem: 'list' object has no attribute 'lower'
-Código: return quest_type.lower()
-
---- Traceback completo ---
-Traceback (most recent call last):
-  File "d:\Python\Jogo\main.py", line 95, in <module>
-    GameApp().run()
-    ~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
-    runTouchApp()
-    ~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
-    EventLoop.mainloop()
-    ~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
-    self.idle()
-    ~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
-    self.dispatch_input()
-    ~~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
-    post_dispatch_input(*pop(0))
-    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
-    wid.dispatch('on_touch_up', me)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
-    self.dispatch('on_release')
-    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
-  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
-  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 474, in on_select_press
-    self.update_success_label(quest)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 685, in update_success_label
-    chance = calculate_success_chance(heroes, quest)
-  File "d:\Python\Jogo\core\quest_success_calculator.py", line 158, in calculate_success_chance
-    return _global_calculator.calculate_success_chance(heroes, quest)
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
-  File "d:\Python\Jogo\core\quest_success_calculator.py", line 98, in calculate_success_chance
-    quest_type_normalized = self._normalize_quest_type(quest.type)
-  File "d:\Python\Jogo\core\quest_success_calculator.py", line 84, in _normalize_quest_type
-    return quest_type.lower()
-           ^^^^^^^^^^^^^^^^
-AttributeError: 'list' object has no attribute 'lower'
-
-============================================================
-
-============================================================
-Erro em: 2025-12-23 13:37:21.202860
-Exception: AttributeError
-Arquivo: d:\Python\Jogo\core\quest_success_calculator.py
-Linha: 84
-Função: _normalize_quest_type
-Mensagem: 'list' object has no attribute 'lower'
-Código: return quest_type.lower()
-
---- Traceback completo ---
-Traceback (most recent call last):
-  File "d:\Python\Jogo\main.py", line 95, in <module>
-    GameApp().run()
-    ~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
-    runTouchApp()
-    ~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
-    EventLoop.mainloop()
-    ~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
-    self.idle()
-    ~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
-    self.dispatch_input()
-    ~~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
-    post_dispatch_input(*pop(0))
-    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
-    wid.dispatch('on_touch_up', me)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
-    self.dispatch('on_release')
-    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
-  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
-  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 471, in on_select_press
-    self.update_success_label(quest)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 682, in update_success_label
-    chance = calculate_success_chance(heroes, quest)
-  File "d:\Python\Jogo\core\quest_success_calculator.py", line 158, in calculate_success_chance
-    return _global_calculator.calculate_success_chance(heroes, quest)
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
-  File "d:\Python\Jogo\core\quest_success_calculator.py", line 98, in calculate_success_chance
-    quest_type_normalized = self._normalize_quest_type(quest.type)
-  File "d:\Python\Jogo\core\quest_success_calculator.py", line 84, in _normalize_quest_type
-    return quest_type.lower()
-           ^^^^^^^^^^^^^^^^
-AttributeError: 'list' object has no attribute 'lower'
-
-============================================================
-
-============================================================
-Erro em: 2025-12-23 14:49:31.008367
+Erro em: 2025-12-31 07:58:32.063786
 Exception: TypeError
-Arquivo: d:\Python\Jogo\screens\gameplay_screen.py
-Linha: 682
-Função: update_success_label
-Mensagem: GameplayScreen.get_narrative_tier() takes 1 positional argument but 2 were given
-Código: self.success_label.text = f"{self.lm.t("success_rate")}: {self.get_narrative_tier(chance)}"
+Arquivo: kivy\\properties.pyx
+Linha: 815
+Função: kivy.properties.ObservableList.__init__
+Mensagem: 'int' object is not iterable
+Código: 
 
 --- Traceback completo ---
 Traceback (most recent call last):
@@ -491,121 +161,37 @@ Traceback (most recent call last):
   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 470, in on_select_press
-    self.update_success_label(quest)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 682, in update_success_label
-    self.success_label.text = f"{self.lm.t("success_rate")}: {self.get_narrative_tier(chance)}"
-                                                              ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
-TypeError: GameplayScreen.get_narrative_tier() takes 1 positional argument but 2 were given
-
-============================================================
-
-============================================================
-Erro em: 2025-12-23 14:55:36.479795
-Exception: TypeError
-Arquivo: d:\Python\Jogo\screens\gameplay_screen.py
-Linha: 687
-Função: update_success_label
-Mensagem: GameplayScreen.get_narrative_tier() takes 1 positional argument but 2 were given
-Código: tier = self.get_narrative_tier(chance)
-
---- Traceback completo ---
-Traceback (most recent call last):
-  File "d:\Python\Jogo\main.py", line 95, in <module>
-    GameApp().run()
-    ~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
-    runTouchApp()
-    ~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
-    EventLoop.mainloop()
-    ~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
-    self.idle()
-    ~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
-    self.dispatch_input()
-    ~~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
-    post_dispatch_input(*pop(0))
-    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
-    wid.dispatch('on_touch_up', me)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
-    self.dispatch('on_release')
-    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
-  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
-  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 470, in on_select_press
-    self.update_success_label(quest)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 687, in update_success_label
-    tier = self.get_narrative_tier(chance)
-TypeError: GameplayScreen.get_narrative_tier() takes 1 positional argument but 2 were given
-
-============================================================
-
-============================================================
-Erro em: 2025-12-23 15:52:22.990753
-Exception: UnboundLocalError
-Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
-Linha: 89
-Função: show_hero_details
-Mensagem: cannot access local variable 'perks_text' where it is not associated with a value
-Código: text=f"[b]{lm.t('perks')}:[/b] {perks_text}",
-
---- Traceback completo ---
-Traceback (most recent call last):
-  File "d:\Python\Jogo\main.py", line 95, in <module>
-    GameApp().run()
-    ~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
-    runTouchApp()
-    ~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
-    EventLoop.mainloop()
-    ~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
-    self.idle()
-    ~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
-    self.dispatch_input()
-    ~~~~~~~~~~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
-    post_dispatch_input(*pop(0))
-    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
-    wid.dispatch('on_touch_up', me)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
-    self.dispatch('on_release')
-    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
-  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
-  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 437, in <lambda>
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
     on_release=lambda *_, h=hero: show_hero_details(self, h)
                                   ~~~~~~~~~~~~~~~~~^^^^^^^^^
-  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 89, in show_hero_details
-    text=f"[b]{lm.t('perks')}:[/b] {perks_text}",
-                                    ^^^^^^^^^^
-UnboundLocalError: cannot access local variable 'perks_text' where it is not associated with a value
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 114, in show_hero_details
+    story_label = Label(
+        text=hero.story or "",
+    ...<5 lines>...
+        size_hint_y=None
+    )
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\label.py", line 319, in __init__
+    super(Label, self).__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\widget.py", line 357, in __init__
+    super(Widget, self).__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "kivy\\_event.pyx", line 262, in kivy._event.EventDispatcher.__init__
+  File "kivy\\properties.pyx", line 520, in kivy.properties.Property.__set__
+  File "kivy\\properties.pyx", line 938, in kivy.properties.ListProperty.set
+  File "kivy\\properties.pyx", line 815, in kivy.properties.ObservableList.__init__
+TypeError: 'int' object is not iterable
 
 ============================================================
 
 ============================================================
-Erro em: 2025-12-23 21:59:08.080685
-Exception: UnboundLocalError
-Arquivo: d:\Python\Jogo\core\quest_success_calculator.py
-Linha: 116
-Função: calculate_success_chance
-Mensagem: cannot access local variable 'synergy_penalty' where it is not associated with a value
-Código: base_chance += synergy_penalty
+Erro em: 2025-12-31 07:59:05.628701
+Exception: TypeError
+Arquivo: kivy\\properties.pyx
+Linha: 815
+Função: kivy.properties.ObservableList.__init__
+Mensagem: 'int' object is not iterable
+Código: 
 
 --- Traceback completo ---
 Traceback (most recent call last):
@@ -637,17 +223,25 @@ Traceback (most recent call last):
   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 470, in on_select_press
-    self.update_success_label(quest)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 686, in update_success_label
-    chance = calculate_success_chance(heroes, quest)
-  File "d:\Python\Jogo\core\quest_success_calculator.py", line 152, in calculate_success_chance
-    return _global_calculator.calculate_success_chance(heroes, quest)
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
-  File "d:\Python\Jogo\core\quest_success_calculator.py", line 116, in calculate_success_chance
-    base_chance += synergy_penalty
-                   ^^^^^^^^^^^^^^^
-UnboundLocalError: cannot access local variable 'synergy_penalty' where it is not associated with a value
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 114, in show_hero_details
+    story_label = Label(
+        text=hero.story or "",
+    ...<5 lines>...
+        size_hint_y=None
+    )
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\label.py", line 319, in __init__
+    super(Label, self).__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\widget.py", line 357, in __init__
+    super(Widget, self).__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "kivy\\_event.pyx", line 262, in kivy._event.EventDispatcher.__init__
+  File "kivy\\properties.pyx", line 520, in kivy.properties.Property.__set__
+  File "kivy\\properties.pyx", line 938, in kivy.properties.ListProperty.set
+  File "kivy\\properties.pyx", line 815, in kivy.properties.ObservableList.__init__
+TypeError: 'int' object is not iterable
 
 ============================================================

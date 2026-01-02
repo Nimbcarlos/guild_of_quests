@@ -1,0 +1,48 @@
+{
+  "start_dialogues": {
+    "default": {
+      "en": [
+        "They tell me the path is safe... if we go east.",
+        "The mountain owl warns us... It says the cure for the evil is high up.",
+        "We need to hurry. The river's whisper is growing impatient.",
+        "The silver voice asks me to bless the entrance, but the iron voice says to go at once.",
+        "My inner guides have agreed. We can depart."
+      ],
+      "pt": [
+        "Eles me dizem que o caminho é seguro... se formos pelo leste.",
+        "A coruja da montanha nos avisa... Ela diz que a cura para o mal está no alto.",
+        "Precisamos nos apressar. O sussurro do rio está ficando impaciente.",
+        "A voz de prata me pede para abençoar a entrada, mas a voz de ferro diz para irmos de uma vez.",
+        "Minhas guias interiores concordaram. Podemos partir."
+      ],
+      "es": [
+        "Me dicen que el camino es seguro... si vamos por el este.",
+        "La lechuza de la montaña nos advierte... Dice que la cura para el mal está en lo alto.",
+        "Necesitamos apresurarnos. El susurro del río está impacientándose.",
+        "La voz de plata me pide que bendiga la entrada, pero la voz de hierro dice que vayamos de inmediato.",
+        "Mis guías interiores han estado de acuerdo. Podemos partir."
+      ],
+      "ru": [
+        "Они говорят мне, что путь безопасен... если мы пойдем на восток.",
+        "Горная сова предупреждает нас... Она говорит, что лекарство от зла находится высоко.",
+        "Нам нужно поторопиться. Шепот реки становится нетерпеливым.",
+        "Серебряный голос просит меня благословить вход, но железный голос говорит идти немедленно.",
+        "Мои внутренние проводники согласились. Мы можем отправляться."
+      ],
+      "zh": [
+        "他们告诉我路是安全的... 如果我们向东走。",
+        "山猫头鹰警告我们... 它说邪恶的解药在高处。",
+        "我们需要快点。河流的低语正变得不耐烦。",
+        "银色的声音让我祝福入口，但铁的声音说立刻动身。",
+        "我的内在向导们已经同意了。我们可以出发了。"
+      ],
+      "ja": [
+        "彼らは、東へ行けば道は安全だと私に言います。",
+        "山のフクロウが私たちに警告しています... 悪を治す薬は高いところにあると。",
+        "急ぐ必要があります。川のささやきがせっかちになっています。",
+        "銀の声は入口を祝福するように頼みますが、鉄の声はすぐに行くように言います。",
+        "私の内なる導きが同意しました。出発できます。"
+      ]
+    }
+  }
+}

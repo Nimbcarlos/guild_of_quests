@@ -1,0 +1,31 @@
+  {
+    "id": 38,
+    "name": {
+      "pt": "O Jardim que Morde",
+      "en": "The Biting Garden",
+      "es": "El Jardín que Ataca",
+      "ru": "Кусающий Сад",
+      "zh": "噬人花园",
+      "ja": "噛みつく庭園"
+    },
+    "description": {
+      "pt": "Plantas de um jardim botânico desenvolveram consciência e atacam visitantes. O local era usado para pesquisa e preservação.",
+      "en": "Plants in a botanical garden have gained awareness and attack visitors. The site was meant for research and preservation.",
+      "es": "Las plantas de un jardín botánico ganaron conciencia y atacan visitantes.",
+      "ru": "Растения ботанического сада обрели сознание и нападают на людей.",
+      "zh": "植物园中的植物获得意识并攻击游客。",
+      "ja": "植物園の植物が自我を持ち、来訪者を襲っている。"
+    },
+    "type": "nature",
+    "max_heroes": 3,
+    "expired_at": 4,
+    "available_from_turn": 3,
+    "duration": 2,
+    "difficulty": 1.6,
+    "rewards": { "xp": 80 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  }

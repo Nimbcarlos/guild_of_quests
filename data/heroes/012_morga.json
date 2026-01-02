@@ -1,0 +1,60 @@
+  {
+    "id": 12,
+    "name": "Morga Sixfold",
+    "role": "dps",
+    "hero_class": {
+      "en": "Barbarian",
+      "pt": "Bárbara",
+      "es": "Bárbara",
+      "zh": "野蛮人",
+      "ja": "バーバリアン",
+      "ru": "Варвар",
+      "kr": "야만인"
+    },
+    "status": {
+      "en": "Healthy",
+      "pt": "Saudável",
+      "es": "Saludable",
+      "zh": "健康 (Jiànkāng)",
+      "ja": "健康 (Kenkō)",
+      "ru": "Здоров",
+      "kr": "건강함 (Geongangham)"
+    },
+    "perks": ["intimidation", "athletics"],
+    "defects": {
+      "ocd": {
+        "en": "Obsessive-Compulsive Disorder",
+        "pt": "Transtorno Obsessivo-Compulsivo",
+        "es": "Trastorno Obsesivo-Compulsivo",
+        "zh": "强迫症",
+        "ja": "強迫性障害",
+        "ru": "Обсессивно-компульсивное расстройство",
+        "kr": "강박 장애"
+      }
+    },
+    "story": {
+      "en": "Morga was born into a clan where strength was measured by the mess you left behind. While her kin reveled in mindless carnage, Morga felt a physical itch at the sight of uneven wounds. She earned the name 'Sixfold' because she refuses to stop an attack until she has landed exactly six blows—or multiples of six. To her family, she is a strange, slow eccentric; to Morga, they are mere amateurs of slaughter. She joined the Guild to prove that precision and perfect symmetry are far more terrifying than any berserker's rage.",
+      "pt": "Morga nasceu em um clã onde a força era medida pela bagunça que você deixava para trás. Enquanto seus parentes se deleitavam em carnificina irracional, Morga sentia uma agonia física ao ver feridas desiguais. Ela ganhou o nome 'Sixfold' porque se recusa a parar um ataque até desferir exatamente seis golpes — ou múltiplos de seis. Para sua família, ela é uma excêntrica lenta; para Morga, eles são meros amadores do abate. Ela se juntou à Guilda para provar que a precisão e a simetria perfeita são muito mais terríveis do que qualquer fúria berserker.",
+      "es": "Morga nació en un clan donde la fuerza se medía por el desorden que dejabas atrás. Mientras sus parientes se deleitaban en una carnicería sin sentido, Morga sentía una agonía física al ver heridas desiguales. Se ganó el nombre de 'Sixfold' porque se niega a detener un ataque hasta haber asestado exactamente seis golpes, o múltiplos de seis. Para su familia, es una excéntrica lenta; para Morga, ellos son simples aficionados al sacrificio. Se unió al Gremio para demostrar que la precisión y la simetría perfecta son mucho más terroríficas que cualquier furia berserker.",
+      "ru": "Морга родилась в клане, где сила измерялась хаосом, который ты оставляешь после себя. Пока её сородичи упивались бессмысленной резней, Морга чувствовала физическую агонию при виде несимметричных ран. Она получила прозвище «Шестикратная», потому что отказывается прекращать атаку, пока не нанесет ровно шесть ударов — или число, кратное шести. Для своей семьи она — странная и медлительная чудачка; для Морги же они — просто дилетанты в деле забоя. Она вступила в Гильдию, чтобы доказать: точность и идеальная симметрия гораздо страшнее, чем любая ярость берсерка.",
+      "zh": "摩尔加出生在一个以破坏程度来衡量力量的氏族。当她的族人沉溺于盲目的屠杀时，摩尔加看到参差不齐的伤口却会感到身体上的不适。她赢得了“六重”的名字，因为她拒绝停止攻击，直到她刚好挥出六击——或是六的倍数。对于她的家人来说，她是一个奇怪且缓慢的古怪分子；对摩尔加来说，他们只是屠宰业的业余爱好者。她加入公会是为了证明，精准和完美的对称比任何狂战士的愤怒都更加可怕。",
+      "ja": "モルガは、残した惨状のひどさで強さが測られる氏族に生まれた。親族が無秩序な殺戮にふける中、モルガは不揃いな傷跡を見るたびに肉体的な苦痛を感じていた。彼女が「シックスフォールド」の名を得たのは、正確に6回、あるいは6の倍数の打撃を繰り出すまで攻撃をやめないからだ。家族にとって彼女は奇妙でどん臭い変わり者だが、モルガにとって彼らは殺しの素人に過ぎない。彼女がギルドに加わったのは、精密さと完璧な対称性が、いかなる狂戦士の怒りよりもはるかに恐ろしいものであると証明するためだ。"
+    },
+    "photo_url": "assets/img/morga.png",
+    "photo_body_url": "assets/img/morgafullbody.png",
+    "unlock_by_quest": [],
+    "available_from_turn": 1,
+    "leave_on_quest": [],
+    "growth_curve": {
+      "1": { "strength": 3, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+      "2": { "strength": 4, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+      "3": { "strength": 5, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+      "4": { "strength": 6, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+      "5": { "strength": 7, "dexterity": 1, "intelligence": 1, "wisdom": 1 },
+      "6": { "strength": 7, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+      "7": { "strength": 8, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+      "8": { "strength": 9, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+      "9": { "strength": 10, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+      "10": { "strength": 11, "dexterity": 2, "intelligence": 2, "wisdom": 2 }
+    }
+  }

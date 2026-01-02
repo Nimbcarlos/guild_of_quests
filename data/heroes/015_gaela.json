@@ -1,0 +1,60 @@
+{
+  "id": 15,
+  "name": "Gaela Stoneecho",
+  "role": "dps",
+  "hero_class": {
+    "en": "Geomancer",
+    "pt": "Geomante",
+    "es": "Geomante",
+    "zh": "地占师",
+    "ja": "ジオマンサー",
+    "ru": "Геомант",
+    "kr": "지오맨서"
+  },
+  "status": {
+    "en": "Healthy",
+    "pt": "Saudável",
+    "es": "Saludable",
+    "zh": "健康",
+    "ja": "健康",
+    "ru": "Здорова",
+    "kr": "건강함"
+  },
+  "perks": ["survival", "mining"],
+  "defects": {
+    "stutter": {
+      "en": "Stutter",
+      "pt": "Gagueira",
+      "es": "Tartamudez",
+      "zh": "口吃",
+      "ja": "吃音",
+      "ru": "Заикание",
+      "kr": "말더듬"
+    }
+  },
+  "story": {
+    "en": "Gaela was not raised by people. She learned to walk following the scrape of claws on stone and to sleep listening to breath echoing through a cave. Animals taught her what words could not: when the ground trembles, you listen; when stone cracks, you move. Human language came later, clumsy and fractured, never quite fitting her thoughts. She stutters not from fear, but because her mind still speaks in shifts of rock and pressure. As a geomancer, Gaela does not command the earth — she asks, patiently, the way one asks an old den for shelter. And the stone answers, because it remembers her.",
+    "pt": "Gaela não foi criada por pessoas. Aprendeu a andar seguindo o som de garras na pedra e a dormir ouvindo respirações ecoarem pela caverna. Foram os animais que lhe ensinaram o que palavras não conseguiam: quando o chão treme, escute; quando a rocha racha, mova-se. A linguagem humana veio depois, quebrada e difícil, nunca acompanhando totalmente seus pensamentos. Sua gagueira não vem do medo, mas do fato de que sua mente ainda fala em pressão e deslocamento. Como geomante, Gaela não ordena a terra — ela pede, com a paciência de quem pede abrigo a um lugar antigo. E a pedra responde, porque se lembra dela.",
+    "es": "Gaela no fue criada por personas. Aprendió a caminar siguiendo el sonido de garras sobre la piedra y a dormir escuchando respiraciones que resonaban en la cueva. Los animales le enseñaron lo que las palabras no podían: cuando el suelo tiembla, escucha; cuando la roca se quiebra, muévete. El lenguaje humano llegó después, torpe y fragmentado, nunca del todo alineado con sus pensamientos. Su tartamudez no nace del miedo, sino de que su mente aún habla en presión y desplazamiento. Como geomante, Gaela no ordena a la tierra — le pide, con la paciencia de quien solicita refugio a un lugar antiguo. Y la piedra responde, porque la recuerda.",
+    "ru": "Гаэла была воспитана не людьми. Она училась ходить, следуя звуку когтей по камню, и засыпала, слушая дыхание, эхом разносившееся по пещере. Животные научили её тому, чему не могли слова: если земля дрожит — слушай; если камень трескается — двигайся. Человеческая речь пришла позже, ломкая и непослушная, не успевающая за её мыслями. Она заикается не из-за страха, а потому что её разум всё ещё говорит языком давления и сдвигов. Как геомант, Гаэла не приказывает земле — она просит, терпеливо, как просят убежища у древнего логова. И камень отвечает, потому что помнит её.",
+    "zh": "盖拉并非由人类抚养长大。她学会走路，是跟随着石壁上爪痕的声音；她入睡时，听的是洞穴中回荡的呼吸声。动物教会了她语言无法表达的事：当大地震动时，倾听；当岩石开裂时，行动。人类的语言来得很晚，生涩而破碎，始终跟不上她的思维。她的口吃并非源于恐惧，而是因为她的思绪仍然用压力与位移来表达。作为一名地占师，盖拉从不命令大地——她耐心地请求，如同向古老洞穴请求庇护。而岩石回应了她，因为它记得她。",
+    "ja": "ガエラは人に育てられたのではない。彼女は岩に爪が擦れる音を追って歩くことを覚え、洞窟に響く呼吸を聞きながら眠った。動物たちは言葉では教えられないことを教えてくれた。大地が震えたら聞け、岩が割れたら動け。人間の言葉は後から来たが、ぎこちなく、思考に追いつかなかった。彼女の吃音は恐怖からではなく、思考が今も圧力と地層の言葉で動いているからだ。ジオマンサーとして、ガエラは大地に命令しない。古い巣に避難を願うように、静かに頼む。そして石は応える。彼女を覚えているからだ。"
+  },
+  "photo_url": "assets/img/gaela.png",
+  "photo_body_url": "assets/img/gaelafullbody.png",
+  "unlock_by_quest": [],
+  "available_from_turn": 1,
+  "leave_on_quest": [],
+  "growth_curve": {
+    "1": { "strength": 2, "dexterity": 1, "intelligence": 2, "wisdom": 2 },
+    "2": { "strength": 2, "dexterity": 1, "intelligence": 3, "wisdom": 2 },
+    "3": { "strength": 2, "dexterity": 1, "intelligence": 4, "wisdom": 2 },
+    "4": { "strength": 2, "dexterity": 1, "intelligence": 5, "wisdom": 2 },
+    "5": { "strength": 2, "dexterity": 1, "intelligence": 6, "wisdom": 2 },
+    "6": { "strength": 3, "dexterity": 2, "intelligence": 6, "wisdom": 3 },
+    "7": { "strength": 3, "dexterity": 2, "intelligence": 7, "wisdom": 3 },
+    "8": { "strength": 3, "dexterity": 2, "intelligence": 8, "wisdom": 3 },
+    "9": { "strength": 3, "dexterity": 2, "intelligence": 9, "wisdom": 3 },
+    "10": { "strength": 3, "dexterity": 2, "intelligence": 10, "wisdom": 3 }
+  }
+}

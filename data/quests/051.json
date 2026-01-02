@@ -1,0 +1,31 @@
+  {
+    "id": 51,
+    "name": {
+      "pt": "O Teste do Castelo",
+      "en": "The Castle Test",
+      "es": "La Prueba del Castillo",
+      "ru": "Испытание Замка",
+      "zh": "城堡试炼",
+      "ja": "城の試験"
+    },
+    "description": {
+      "pt": "O Rei tornou-se paranoico com sua própria segurança. Para confirmar suas suspeitas, ele contratou a Guilda para invadir o tesouro real sem ser detectada. O objetivo não é roubar, mas provar que as defesas atuais falham — e quem falhar será punido.",
+      "en": "The King has grown paranoid about his security. He hires the Guild to infiltrate the royal treasury undetected, not to steal, but to prove the current defenses are flawed.",
+      "es": "El Rey está paranoico con su seguridad. Contrata al Gremio para infiltrarse en el tesoro real y demostrar que las defensas fallan.",
+      "ru": "Король подозревает, что защита слаба. Он нанимает Гильдию для тайного проникновения в сокровищницу.",
+      "zh": "国王对自身安保产生怀疑，雇佣公会秘密潜入王室宝库以验证防御漏洞。",
+      "ja": "王は城の警備に疑念を抱き、ギルドに宝物庫への潜入を依頼した。"
+    },
+    "type": "stealth",
+    "max_heroes": 2,
+    "expired_at": 4,
+    "available_from_turn": 3,
+    "duration": 2,
+    "difficulty": 1.7,
+    "rewards": { "xp": 90 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  }

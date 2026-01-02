@@ -1,0 +1,33 @@
+{
+  "id": 11,
+  "name": {
+    "pt": "O Pilar Caído",
+    "en": "The Fallen Pillar",
+    "es": "El Pilar Caído",
+    "ru": "Павший Столп",
+    "zh": "倒塌之柱",
+    "ja": "倒れた柱"
+  },
+  "description": {
+    "pt": "Durante uma prece, o pilar central do Templo do Deus da Luz ruiu, selando a única entrada sob toneladas de mármore consagrado. Fiéis ficaram presos no interior, e o ar começa a se esgotar. A guilda precisa abrir passagem antes que seja tarde.",
+    "en": "During a prayer, the central pillar of the Temple of the God of Light collapsed, sealing the only entrance under tons of consecrated marble. Worshippers are trapped inside, and the air is running out. The guild must open a passage before it is too late.",
+    "es": "Durante una oración, el pilar central del Templo del Dios de la Luz se derrumbó, sellando la única entrada bajo toneladas de mármol consagrado. Hay fieles atrapados en el interior y el aire se está agotando. El gremio debe abrir paso antes de que sea demasiado tarde.",
+    "ru": "Во время молитвы центральный столп Храма Бога Света обрушился, запечатав единственный вход под тоннами освящённого мрамора. Верующие оказались в ловушке, и воздух на исходе. Гильдия должна открыть проход, пока не стало слишком поздно.",
+    "zh": "在一次祈祷中，光之神殿的中央支柱倒塌，将唯一的入口封死在成吨的圣洁大理石之下。信徒被困在内部，空气正在耗尽。公会必须尽快打开通路。",
+    "ja": "祈りの最中、光の神の神殿の中央柱が崩れ、唯一の入口が大量の聖なる大理石に塞がれた。中には信者が閉じ込められ、空気が尽きかけている。手遅れになる前に、ギルドは通路を開かなければならない。"
+  },
+  "type": "athletics",
+  "max_heroes": 1,
+  "expired_at": 4,
+  "available_from_turn": 3,
+  "duration": 2,
+  "difficulty": 1.6,
+  "rewards": {
+    "xp": 55
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

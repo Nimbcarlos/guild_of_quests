@@ -27,37 +27,31 @@ class DialogueBox:
         self.typing_event = None
         self.heroes = []
 
-    def get_start_dialogues(self, hero_id: str, completed_quests):
+    def show_dialogue(self, heroes, quest_id, result, parent_size):
         """
-        Busca falas iniciais genéricas + específicas por quest completada
-        """
-        if not isinstance(completed_quests, (set, list, tuple)):
-            completed_quests = set()
-
-        hero_data = self.dm.start_dialogues.get("heroes", {}).get(str(hero_id), {})
-        pool = []
-
-        pool.extend(hero_data.get("default", []))
-
-        for key, texts in hero_data.items():
-            quest_id = key
-            if quest_id in completed_quests:
-                pool.extend(texts)
-
-        if not pool:
-            return None
-        return random.choice(pool)
-
-    def show_dialogue(self, heroes, quest_id, result: str, parent_size: list):
-        """
-        Mostra um diálogo, enfileirando caso já exista outro ativo.
-        parent_size: [width, height] do ResponsiveFrame para escalar corretamente.
-        """
-        self.queue.append((heroes, quest_id, result, parent_size))
+        Mostra diálogo dos heróis.
         
+        Args:
+            heroes: Lista de objetos Hero
+            quest_id: ID da quest
+            result: "start", "success" ou "failure"
+            parent_size: Tamanho do widget pai (para posicionar popup)
+        """
+        # Determina qual método usar baseado no resultado
+        if result == "start":
+            # ✅ Diálogo inicial (ao começar quest)
+            dialogues = self.dm.get_start_dialogue(heroes)
+        else:
+            # ✅ Diálogo de resultado (após completar)
+            dialogues = self.dm.show_quest_dialogue(heroes, quest_id, result)
+        
+        # Adiciona na fila
+        self.queue.append((heroes, quest_id, dialogues, parent_size))
+        
+        # Se não tem popup aberto, processa imediatamente
         if not self.popup:
             self._process_next()
-
+            
     def _process_next(self):
         if not self.queue:
             return

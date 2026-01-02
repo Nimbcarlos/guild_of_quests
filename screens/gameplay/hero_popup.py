@@ -17,7 +17,7 @@ def show_hero_details(screen_instance, hero):
     portrait = Image(
         source=hero.photo_body_url or "assets/img/default_hero.png",
         size_hint=(None, 1),
-        width=180,
+        width=250,
         allow_stretch=True,
         keep_ratio=True
     )
@@ -32,10 +32,10 @@ def show_hero_details(screen_instance, hero):
     content.add_widget(Label(
         text=f"[b]{hero.name}[/b]",
         markup=True,
-        font_size=22,
+        font_size=38,
         color=(0, 0, 0, 1),
         size_hint_y=None,
-        height=30,
+        height=38,
         halign="left",
         valign="middle"
     ))
@@ -44,6 +44,7 @@ def show_hero_details(screen_instance, hero):
     role_text = lm.t(f"role_{hero.role}") if hero.role else "—"
     content.add_widget(Label(
         text=f"{hero.hero_class} • {role_text}",
+        font_size=20,
         color=(0, 0, 0, 1),
         size_hint_y=None,
         height=24,
@@ -57,6 +58,7 @@ def show_hero_details(screen_instance, hero):
     def stat(label, value):
         return Label(
             text=f"[b]{lm.t(label)}[/b]: {value}",
+            font_size=20,
             markup=True,
             color=(0, 0, 0, 1),
             halign="left",
@@ -89,6 +91,7 @@ def show_hero_details(screen_instance, hero):
 
     content.add_widget(Label(
         text=f"[b]{perks_text}[/b]",
+        font_size=20,
         markup=True,
         color=(0, 0, 0, 1),
         size_hint_y=None,
@@ -113,6 +116,7 @@ def show_hero_details(screen_instance, hero):
     story_scroll = ScrollView()
     story_label = Label(
         text=hero.story or "",
+        font_size=20,
         markup=True,
         color=(0, 0, 0, 1),
         halign="left",
@@ -138,7 +142,7 @@ def show_hero_details(screen_instance, hero):
         title='',
         content=root,
         size_hint=(None, None),
-        size=(720, 620),
+        size=(700, 700),
         title_align="center",
         title_color=(0, 0, 0, 1),
         title_size=1,

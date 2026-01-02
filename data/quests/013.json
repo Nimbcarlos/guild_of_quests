@@ -1,0 +1,33 @@
+{
+  "id": 13,
+  "name": {
+    "pt": "A Porta Que Não Cede",
+    "en": "The Unyielding Gate",
+    "es": "La Puerta Que No Cede",
+    "ru": "Неподатливые Врата",
+    "zh": "不屈之门",
+    "ja": "屈しない門"
+  },
+  "description": {
+    "pt": "O Portão das Lamentações selou-se por um antigo mecanismo interno, corroído pelo tempo. Não há fechaduras acessíveis nem magia ativa que o mova. As engrenagens estão travadas pelo próprio peso do metal. Apenas força bruta suficiente pode arrancar o portão de sua decisão final.",
+    "en": "The Gate of Lamentations has sealed itself through an ancient internal mechanism, corroded by time. There are no accessible locks or active magic to move it. The gears are jammed by the sheer weight of the metal. Only raw strength can tear the gate from its final decision.",
+    "es": "La Puerta de las Lamentaciones se ha sellado mediante un antiguo mecanismo interno, corroído por el tiempo. No hay cerraduras accesibles ni magia activa que la mueva. Los engranajes están atascados por el peso del metal. Solo la fuerza bruta puede arrancarla de su veredicto final.",
+    "ru": "Врата Стенаний запечатались древним внутренним механизмом, разъеденным временем. Нет доступных замков и активной магии, способной их сдвинуть. Шестерни заклинило под весом металла. Лишь грубая сила может вырвать врата из их окончательного решения.",
+    "zh": "哀恸之门因内部古老机制而自行封闭，岁月已将其严重腐蚀。没有可用的锁具，也不存在仍然有效的魔法。齿轮被沉重的金属卡死，唯有纯粹的力量才能迫使大门屈服。",
+    "ja": "嘆きの門は、時に侵食された古い内部機構によって封じられている。解錠できる鍵も、動かせる魔法も存在しない。歯車は金属の重みによって完全に固着している。この門を開くには、純粋な力しかない。"
+  },
+  "type": "athletics",
+  "max_heroes": 1,
+  "expired_at": 5,
+  "available_from_turn": 4,
+  "duration": 2,
+  "difficulty": 1.7,
+  "rewards": {
+    "xp": 60
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

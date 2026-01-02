@@ -1,0 +1,31 @@
+  {
+    "id": 16,
+    "name": {
+      "pt": "Greve dos Mineiros",
+      "en": "Miners' Strike",
+      "es": "Huelga de Mineros",
+      "ru": "Забастовка Шахтёров",
+      "zh": "矿工罢工",
+      "ja": "鉱夫のストライキ"
+    },
+    "description": {
+      "pt": "A extração de minério foi interrompida. Os mineiros exigem melhores condições de trabalho e segurança contra gritos vindos das profundezas.",
+      "en": "Ore extraction has stopped. Miners demand better working conditions and protection from screams coming from the depths.",
+      "es": "La extracción de mineral se ha detenido. Los mineros exigen mejores condiciones y protección contra gritos desde las profundidades.",
+      "ru": "Добыча руды остановлена. Шахтёры требуют лучших условий и защиты от криков из глубин.",
+      "zh": "矿石开采停止了。矿工要求改善工作条件，并防范来自深处的诡异尖叫。",
+      "ja": "鉱石の採掘が停止した。鉱夫たちは労働環境の改善と、地下から聞こえる叫び声への対策を求めている。"
+    },
+    "type": "investigation",
+    "max_heroes": 3,
+    "expired_at": 6,
+    "available_from_turn": 2,
+    "duration": 3,
+    "difficulty": 1.6,
+    "rewards": { "xp": 80 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  }

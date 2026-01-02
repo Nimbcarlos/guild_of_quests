@@ -1,0 +1,33 @@
+{
+  "id": 10,
+  "name": {
+    "pt": "Ecos Após o Brinde",
+    "en": "Echoes After the Toast",
+    "es": "Ecos Tras el Brindis",
+    "ru": "Эхо После Тоста",
+    "zh": "祝酒之后的回声",
+    "ja": "乾杯の後の余波"
+  },
+  "description": {
+    "pt": "O banquete terminou sem sangue, mas a trégua permanece instável. Comentários calculados, olhares trocados e gestos fora de lugar levantaram suspeitas. A Guilda é chamada discretamente para investigar quem tentou sabotar o acordo — e se ainda pretende fazê-lo. Algumas pistas apontam para alguém que deveria desejar a paz tanto quanto os nobres envolvidos.",
+    "en": "The banquet ended without bloodshed, but the truce remains unstable. Calculated remarks, exchanged glances, and misplaced gestures raised suspicion. The Guild is quietly summoned to investigate who attempted to sabotage the agreement — and whether they still intend to do so. Some clues point toward someone who should desire peace as much as the nobles involved.",
+    "es": "El banquete terminó sin derramamiento de sangre, pero la tregua sigue siendo inestable. Comentarios calculados, miradas cruzadas y gestos fuera de lugar despertaron sospechas. El Gremio es llamado discretamente para investigar quién intentó sabotear el acuerdo — y si aún pretende hacerlo. Algunas pistas apuntan a alguien que debería desear la paz tanto como los nobles implicados.",
+    "ru": "Пир завершился без кровопролития, но перемирие остаётся шатким. Продуманные реплики, обмен взглядами и неуместные жесты вызвали подозрения. Гильдию тайно просят выяснить, кто пытался сорвать соглашение — и собирается ли он продолжить. Некоторые следы указывают на того, кто должен был бы желать мира не меньше самих дворян.",
+    "zh": "宴会在未流血的情况下结束，但停战依然岌岌可危。精心设计的言辞、交换的眼神和不合时宜的举动引发了怀疑。公会被秘密召集，调查是谁试图破坏协议，以及是否仍在继续行动。一些线索指向一个本应和贵族们一样渴望和平的人。",
+    "ja": "晩餐会は流血なく終わったが、休戦は依然として不安定だ。計算された発言、交わされた視線、不自然な振る舞いが疑念を呼んだ。ギルドは密かに呼び出され、誰が合意を壊そうとしたのか、そしてそれが続いているのかを調査することになる。いくつかの手がかりは、貴族たちと同じくらい平和を望むはずの人物を示している。"
+  },
+  "type": "investigation",
+  "max_heroes": 1,
+  "expired_at": 6,
+  "available_from_turn": 6,
+  "duration": 3,
+  "difficulty": 1.6,
+  "rewards": {
+    "xp": 70
+  },
+  "required_quests": [9],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

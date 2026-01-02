@@ -1,52 +1,97 @@
-import os
 import json
+import os
+from core.hero import Hero
+from pathlib import Path
 
-def update_quests():
-    # Caminho para a pasta das quests
-    folder_path = os.path.join('data', 'quests')
-    
-    # Verifica se a pasta existe
-    if not os.path.exists(folder_path):
-        print(f"Erro: A pasta {folder_path} não foi encontrada.")
-        return
+'''
 
-    count = 0
-    # Percorre todos os arquivos na pasta
-    for filename in os.listdir(folder_path):
-        if filename.endswith('.json'):
-            file_path = os.path.join(folder_path, filename)
-            
-            try:
-                # 1. Abre e lê o arquivo original
-                with open(file_path, 'r', encoding='utf-8') as file:
-                    data = json.load(file)
-                
-                # 2. Adiciona o campo max_heroes (se já não existir ou para sobrescrever)
-                # Colocamos após o campo 'type' para manter a organização visual
-                # Se preferir apenas adicionar ao final, use: data['max_heroes'] = 1
-                
-                # Criando um novo dicionário para garantir a ordem visual (Python 3.7+)
-                new_data = {}
-                for key, value in data.items():
-                    new_data[key] = value
-                    if key == "type":
-                        new_data["max_heroes"] = 1
-                
-                # Caso a chave 'type' não exista por algum motivo, garante que max_heroes esteja lá
-                if "max_heroes" not in new_data:
-                    new_data["max_heroes"] = 1
+OLD_BASE = "data/old"
+HERO_BASE = "data/heroes"
 
-                # 3. Salva o arquivo de volta com formatação
-                with open(file_path, 'w', encoding='utf-8') as file:
-                    json.dump(new_data, file, indent=2, ensure_ascii=False)
-                
-                print(f"Sucesso: {filename} atualizado.")
-                count += 1
-                
-            except Exception as e:
-                print(f"Erro ao processar {filename}: {e}")
+LANGUAGES = ["en", "pt", "es", "ru", "zh", "ja"]
 
-    print(f"\nTotal de {count} arquivos atualizados.")
+os.makedirs(HERO_BASE, exist_ok=True)
 
-if __name__ == "__main__":
-    update_quests()
+def load_json(path):
+    if not os.path.exists(path):
+        print("❌ Arquivo não existe:", path)
+        return {}
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+def save_json(path, data):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+collector = {}
+
+for lang in LANGUAGES:
+    path = os.path.join(OLD_BASE, lang, "start_dialogues.json")
+    print(f"\n📖 Lendo {path}")
+
+    data = load_json(path)
+    if not data:
+        continue
+
+    # 🔑 suporta os dois formatos
+    heroes_block = data.get("heroes", data)
+
+    for hero_id, hero_block in heroes_block.items():
+        defaults = hero_block.get("default")
+
+        if not isinstance(defaults, list):
+            continue
+
+        collector.setdefault(hero_id, {})
+        collector[hero_id][lang] = defaults
+
+        print(f"  ✔ Hero {hero_id} ({lang}) -> {len(defaults)} falas")
+
+if not collector:
+    print("\n⚠️ NENHUM DIÁLOGO COLETADO. Verifique o formato do JSON antigo.")
+    exit()
+
+for hero_id, lang_map in collector.items():
+    hero_path = os.path.join(HERO_BASE, f"{hero_id}.json")
+    hero_data = load_json(hero_path)
+
+    hero_data.setdefault("start_dialogues", {})
+    hero_data["start_dialogues"].setdefault("default", {})
+
+    for lang, texts in lang_map.items():
+        hero_data["start_dialogues"]["default"][lang] = texts
+
+    save_json(hero_path, hero_data)
+    print(f"💾 Hero {hero_id}.json salvo")
+'''
+'''
+
+heroes_folder = "data/heroes"
+folder_path = Path(heroes_folder)
+
+# Busca todos os arquivos .json na pasta
+for json_file in sorted(folder_path.glob("*.json")):
+    try:
+        with open(json_file, "r", encoding="utf-8") as f:
+            hero_data = json.load(f)
+            print(hero_data["name"])
+            print(hero_data["story"]['pt'])
+            print(hero_data["perks"])
+    except Exception as e:
+        print(e)
+'''
+
+
+heroes_folder = "data/quests"
+folder_path = Path(heroes_folder)
+
+# Busca todos os arquivos .json na pasta
+for json_file in sorted(folder_path.glob("*.json")):
+    try:
+        with open(json_file, "r", encoding="utf-8") as f:
+            hero_data = json.load(f)
+            print(hero_data["id"])
+            print(hero_data["name"]['pt'])
+            print(hero_data["type"])
+    except Exception as e:
+        print(e)

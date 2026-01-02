@@ -1,0 +1,31 @@
+  {
+    "id": 53,
+    "name": {
+      "pt": "A Relíquia Devolvida",
+      "en": "The Returned Relic",
+      "es": "La Reliquia Devuelta",
+      "ru": "Возвращённая Реликвия",
+      "zh": "归还的遗物",
+      "ja": "返却された聖遺物"
+    },
+    "description": {
+      "pt": "Um ladrão arrependido entregou à Guilda uma relíquia roubada de um museu. O problema é que o local está em alerta máximo, e o diretor se recusa a aceitar a devolução por orgulho e desconfiança.",
+      "en": "A repentant thief handed a stolen relic to the Guild. The museum is on high alert, and the director refuses to accept the return.",
+      "es": "Un ladrón arrepentido entregó una reliquia robada. El museo no acepta devoluciones.",
+      "ru": "Вор раскаялся и передал реликвию Гильдии. Музей в тревоге.",
+      "zh": "悔过的小偷将遗物交给公会，但博物馆拒绝接受。",
+      "ja": "悔い改めた盗賊が遺物を渡したが、博物館は受け取らない。"
+    },
+    "type": "stealth",
+    "max_heroes": 1,
+    "expired_at": 5,
+    "available_from_turn": 4,
+    "duration": 2,
+    "difficulty": 1.6,
+    "rewards": { "xp": 80 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  }

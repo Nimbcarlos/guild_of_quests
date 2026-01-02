@@ -1,3 +1,4 @@
+# core/dialogue_manager.py
 import json
 import random
 import os
@@ -8,132 +9,163 @@ class DialogueManager:
     def __init__(self, language="en"):
         self.language = language
         self.lm = LanguageManager()
-
-        # caminhos dinamicos por idioma
-        base = f"data/{self.language}"
-
-        self.start_path = os.path.join(base, "start_dialogues.json")
-        self.dialogues_path = os.path.join(base, "dialogues.json")
-
-        # fallback se o idioma não existir
-        if not os.path.exists(self.start_path):
-            print(f"[DialogueManager] Idioma '{self.language}' não encontrado. Usando fallback EN.")
-            self.language = "en"
-            base = f"data/en"
-            self.start_path = os.path.join(base, "start_dialogues.json")
-            self.dialogues_path = os.path.join(base, "dialogues.json")
-
-        self.start_dialogues = self._load_dialogues(self.start_path)
-        self.dialogues = self._load_dialogues(self.dialogues_path)
+        self.heroes_folder = "data/heroes/dialogues"
 
     def set_language(self, language):
-        """Permite trocar o idioma em tempo real"""
-        self.__init__(language)
+        self.language = language
 
-    def _load_dialogues(self, file_path: str):
-        try:
-            with open(file_path, 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except FileNotFoundError:
-            print(f"[DialogueManager] Arquivo não encontrado: {file_path}")
-            return {}
-        except json.JSONDecodeError:
-            print(f"[DialogueManager] JSON inválido: {file_path}")
-            return {}
-
-    def get_quest_dialogue(self, quest_id, result):
-        result = result.lower()
-        dialogue_data = self.dialogues.get(str(quest_id), {})
-        return dialogue_data.get(result)
-
-    def _get_team_key(self, hero_ids: list) -> str:
-        return "_".join(sorted(hero_ids))
-
-    def show_quest_dialogue(self, heroes: list, quest_id: str, result: str):
-        quest_id = str(quest_id)
-        dialogue_data = self.get_quest_dialogue(quest_id, result)
-
-        if not dialogue_data:
-            print("texto com erro", quest_id, result)
-            return [{"id": "assistant", "text": self.lm.t("assistant_fallback_no_quest_dialogue")}]
-
-        hero_ids = [str(hero.id) for hero in heroes]
-        num_heroes = len(hero_ids)
-
-        # 1 — combinação exata
-        team_key = self._get_team_key(hero_ids)
-        teams = dialogue_data.get("teams", {})
+    def _load_hero_dialogue(self, hero_id: str) -> dict:
+        path = os.path.join(self.heroes_folder, f"{hero_id}.json")
         
-        if team_key in teams:
-            return teams[team_key]
+        if not os.path.exists(path):
+            print(f"[DialogueManager] Arquivo de diálogos não encontrado: {path}")
+            return {}
+        
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"[DialogueManager] Erro ao carregar {path}: {e}")
+            return {}
 
-        # 2 — genérico por quantidade
-        multi_key = f"multi_{num_heroes}"
-        if multi_key in dialogue_data:
-            return dialogue_data[multi_key]
-
-        # 3 — genérico geral
-        if "multi" in dialogue_data:
-            return dialogue_data["multi"]
-
-        # 4 — fallback individual
-        reporters = dialogue_data.get("reporters", {})
+    def show_quest_dialogue(self, heroes: list, quest_id: str, result: str) -> list:
+        quest_id = str(quest_id)
+        result = result.lower()
+        
+        # Cria set com IDs de todos os heróis na party (para busca rápida)
+        party_ids = {str(h.id) for h in heroes}
+        
         falas = []
+        
+        # Para cada herói, busca seu diálogo
         for hero in heroes:
             hero_id = str(hero.id)
-            if hero_id in reporters:
-                falas.append(reporters[hero_id])
-        
-        if falas:
-            return falas
-        
-        return [{"id": "assistant", "text": self.lm.t("assistant_fallback_basic_report")}]
+            
+            # Carrega JSON do herói
+            hero_data = self._load_hero_dialogue(hero_id)
+            if not hero_data:
+                continue
+            
+            # Navega: hero_data → "quests" → quest_id → result
+            quest_block = hero_data.get("quests", {}).get(quest_id)
+            if not quest_block:
+                continue
 
-    def get_start_dialogues(self, hero_id: int, completed_quests):
-        if not isinstance(completed_quests, (set, list, tuple)):
-            completed_quests = {completed_quests}
+            result_block = quest_block.get(result)
+            if not result_block:
+                continue
+            
+            chosen_text = None
 
-        hero_data = self.start_dialogues.get("heroes", {}).get(str(hero_id), {})
-        pool = []
+            # Relações específicas
+            for other_hero_id in party_ids:
+                if other_hero_id == hero_id:
+                    continue
 
-        pool.extend(hero_data.get("default", []))
+                lang_block = result_block.get(other_hero_id, {})
+                texts = lang_block.get(self.language)
 
-        for key, texts in hero_data.items():
-            if key in completed_quests:
-                pool.extend(texts)
+                if isinstance(texts, list) and texts:
+                    chosen_text = random.choice(texts)
+                    break
 
-        if not pool:
-            return None
-        return random.choice(pool)
+            # Texto base
+            if not chosen_text:
+                base_block = result_block.get("text", {})
+                base_texts = base_block.get(self.language)
 
-    def show_start_dialogues(self, heroes: list, completed_quests: set[str]):
-        falas = []
-        for hero in heroes:
-            fala = self.get_start_dialogues(hero.id, completed_quests)
-            if fala:
+                if isinstance(base_texts, list) and base_texts:
+                    chosen_text = random.choice(base_texts)
+            
+            # Adiciona a fala se encontrou algum texto
+            if chosen_text:
                 falas.append({
-                    "id": str(hero.id),
-                    "text": fala
+                    "id": hero_id,
+                    "text": chosen_text
                 })
         
+        # Fallback se nenhum herói falou
         if not falas:
-            return [{"id": "assistant", "text": self.lm.t("assistant_fallback_silent_start")}]
+            return [{
+                "id": "assistant",
+                "text": self.lm.t("assistant_fallback_basic_report")
+            }]
         
         return falas
 
+    def get_start_dialogue(self, heroes: list, relation_counters: dict = None) -> list:
+        if relation_counters is None:
+            relation_counters = {}
+        
+        # Cria set com IDs dos heróis na party
+        party_ids = {str(h.id) for h in heroes}
+        
+        falas = []
 
-# --- Teste ---
-if __name__ == '__main__':
-    class DummyHero:
-        def __init__(self, id, name):
-            self.id = id
-            self.name = name
+        for hero in heroes:
+            hero_id = str(hero.id)
+            
+            # Carrega JSON do herói
+            hero_data = self._load_hero_dialogue(hero_id)
+            if not hero_data:
+                continue
+            
+            # Navega para diálogos iniciais
+            start_data = hero_data.get("start_dialogues", {})
+            
+            chosen_text = None
+            
+            # 🎯 PRIORIDADE 1: Verifica cadeias de relação (contador)
+            chains = start_data.get("chains", {})
 
-    dm = DialogueManager()
 
-    herois = [DummyHero(id=2, name="Elara"), DummyHero(id=3, name="Kael")]
-    teste1 = dm.show_quest_dialogue(herois, "1", "sucesso")
-    
-    print("=== TESTE: Diálogos retornados ===")
-    for i, fala in enumerate(teste1):
-        print(f"{i}: {fala}")
+            for other_hero in heroes:
+                if other_hero.id == hero.id:
+                    continue
+                
+                # Chave pode ser nome ou ID do outro herói
+                other_key = str(other_hero.id)
+                
+                if other_key not in chains:
+                    continue
+                
+                # Pega o contador de relação
+                counter = relation_counters.get(hero_id, {}).get(other_key, 0)
+                counter_str = str(counter)
+                
+                # Verifica se existe texto para esse contador
+                lang_block = chains[other_key].get(counter_str, {})
+                chain_texts = lang_block.get(self.language)
+                if isinstance(chain_texts, list) and chain_texts:
+                    chosen_text = random.choice(chain_texts)
+                    break  # Encontrou, para de procurar
+
+                print("HERO:", hero_id)
+                print("OTHER:", other_key)
+                print("COUNTER:", counter_str)
+                print("CHAIN EXISTS:", other_key in chains)
+                print("LANG BLOCK:", chains.get(other_key, {}).get(counter_str))
+
+
+            # 🎯 PRIORIDADE 2: Texto base (default)
+            if not chosen_text:
+                default_block = start_data.get("default", {})
+                default_texts = default_block.get(self.language)
+                if isinstance(default_texts, list) and default_texts:
+                    chosen_text = random.choice(default_texts)
+            
+            # Adiciona a fala
+            if chosen_text:
+                falas.append({
+                    "id": hero_id,
+                    "text": chosen_text
+                })
+        
+        # Fallback
+        if not falas:
+            return [{
+                "id": "assistant",
+                "text": self.lm.t("assistant_fallback_silent_start")
+            }]
+        
+        return falas

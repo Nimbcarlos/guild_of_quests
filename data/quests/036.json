@@ -1,0 +1,31 @@
+  {
+    "id": 36,
+    "name": {
+      "pt": "Águas Envenenadas",
+      "en": "Poisoned Waters",
+      "es": "Aguas Envenenadas",
+      "ru": "Отравленные Воды",
+      "zh": "毒化水源",
+      "ja": "汚染された水"
+    },
+    "description": {
+      "pt": "O rio da região escureceu, peixes aparecem mortos e animais evitam beber da água. Algo está contaminando a nascente.",
+      "en": "The regional river has darkened, fish are found dead, and animals avoid drinking from it. Something is polluting the source.",
+      "es": "El río se oscureció, peces aparecen muertos y los animales evitan beber. Algo contamina la fuente.",
+      "ru": "Река потемнела, рыба мертва, животные избегают воды. Источник заражён.",
+      "zh": "河水变黑，鱼类死亡，动物避开水源，污染源尚未查明。",
+      "ja": "川の水が黒ずみ、魚が死に、動物が近づかない。水源が汚染されている。"
+    },
+    "type": "investigation",
+    "max_heroes": 3,
+    "expired_at": 5,
+    "available_from_turn": 3,
+    "duration": 3,
+    "difficulty": 1.6,
+    "rewards": { "xp": 85 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  }

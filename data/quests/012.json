@@ -1,0 +1,33 @@
+{
+  "id": 12,
+  "name": {
+    "pt": "Carga Impossível",
+    "en": "Impossible Cargo",
+    "es": "Carga Imposible",
+    "ru": "Неподъёмный Груз",
+    "zh": "不可能的货物",
+    "ja": "不可能な積荷"
+  },
+  "description": {
+    "pt": "Uma carroça carregando minério raro afundou até o eixo no Pântano dos Choros. As bestas de carga, exaustas e aterrorizadas pelos sons que ecoam na lama, recusam-se a avançar. O metal continua afundando e, se não for retirado agora, será perdido para sempre.",
+    "en": "A wagon transporting rare ore has sunk up to its axles in the Swamp of Wails. The draft beasts, exhausted and frightened by the sounds echoing through the mud, refuse to move. The metal keeps sinking, and if it is not retrieved now, it will be lost forever.",
+    "es": "Una carreta que transportaba mineral raro se hundió hasta los ejes en el Pantano de los Lamentos. Las bestias de carga, exhaustas y aterrorizadas por los sonidos que resuenan en el fango, se niegan a avanzar. El metal sigue hundiéndose y, si no se recupera ahora, se perderá para siempre.",
+    "ru": "Повозка с редкой рудой увязла по оси в Топи Стонов. Вьючные звери, измученные и напуганные звуками, доносящимися из грязи, отказываются двигаться. Металл продолжает тонуть, и если его не вытащить сейчас, он будет потерян навсегда.",
+    "zh": "一辆运载稀有矿石的货车在哀嚎沼泽中陷至车轴。役兽因疲惫和泥沼中回荡的声音而惊恐不已，拒绝前进。矿石仍在下沉，若现在不取出，将永远失去。",
+    "ja": "希少な鉱石を運んでいた荷車が、嘆きの沼地で車軸まで沈んでしまった。泥の中から響く音に怯え、疲れ切った家畜たちは動こうとしない。鉱石は沈み続けており、今引き上げなければ永遠に失われるだろう。"
+  },
+  "type": "athletics",
+  "max_heroes": 1,
+  "expired_at": 4,
+  "available_from_turn": 3,
+  "duration": 2,
+  "difficulty": 1.4,
+  "rewards": {
+    "xp": 50
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

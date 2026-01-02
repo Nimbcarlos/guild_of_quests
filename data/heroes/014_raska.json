@@ -1,0 +1,60 @@
+{
+  "id": 14,
+  "name": "Raska Ironcoil",
+  "role": "dps",
+  "hero_class": {
+    "en": "Engineer",
+    "pt": "Engenhoqueira",
+    "es": "Ingeniera",
+    "zh": "工程师",
+    "ja": "エンジニア",
+    "ru": "Инженер",
+    "kr": "엔지니어"
+  },
+  "status": {
+    "en": "Healthy",
+    "pt": "Saudável",
+    "es": "Saludable",
+    "zh": "健康",
+    "ja": "健康",
+    "ru": "Здоров",
+    "kr": "건강함"
+  },
+  "perks": ["mining", "smithing"],
+  "defects": {
+    "Tourette": {
+      "en": "Tourette Syndrome",
+      "pt": "Síndrome de Tourette",
+      "es": "Síndrome de Tourette",
+      "zh": "抽动秽语综合征",
+      "ja": "トゥレット症候群",
+      "ru": "Синдром Туретта",
+      "kr": "뚜렛 증후군"
+    }
+  },
+  "story": {
+    "en": "Raska learned early that machines are honest. They break when pushed too far. People don’t. She grew up between mines and forges, raised by pressure gauges, cracked stone, and overheated steel. While others learned etiquette, she learned tolerances and failure points. Her mind always runs ahead of her mouth, and under stress, words escape like sparks from exposed wiring. She doesn’t explain them. She fixes what’s about to fail. Raska became a hero not to save ideals, but to prevent collapse — reinforcing gates, repairing defenses, and making sure no system breaks on her watch.",
+    "pt": "Raska aprendeu cedo que máquinas são honestas. Elas quebram quando são forçadas demais. Pessoas não. Ela cresceu entre minas e forjas, criada por manômetros, rocha rachada e aço superaquecido. Enquanto outros aprendiam etiqueta, ela aprendia limites e pontos de falha. Sua mente corre sempre à frente da boca, e sob pressão palavras escapam como faíscas de fios expostos. Ela não se explica. Ela conserta o que está prestes a falhar. Raska virou heroína não para salvar ideais, mas para evitar colapsos — reforçando portões, reparando defesas e garantindo que nenhum sistema quebre sob sua vigília.",
+    "es": "Raska aprendió pronto que las máquinas son honestas. Se rompen cuando se las exige demasiado. Las personas no. Creció entre minas y forjas, criada por manómetros, piedra agrietada y acero al rojo vivo. Mientras otros aprendían modales, ella aprendía límites y puntos de fallo. Su mente siempre va más rápido que su boca, y bajo presión las palabras escapan como chispas de cables expuestos. No se explica. Repara lo que está a punto de fallar. Raska se convirtió en heroína no para salvar ideales, sino para evitar colapsos — reforzando puertas, arreglando defensas y asegurándose de que ningún sistema falle bajo su cuidado.",
+    "ru": "Раска рано поняла, что машины честны. Они ломаются, если на них давят слишком сильно. Люди — нет. Она выросла между шахтами и кузнями, среди манометров, треснувшего камня и раскалённой стали. Пока другие учились этикету, она изучала пределы и точки отказа. Её мысли всегда опережают речь, и под давлением слова вырываются, как искры из оголённых проводов. Она не объясняется. Она чинит то, что вот-вот сломается. Раска стала героиней не ради идеалов, а чтобы предотвращать обрушения — укрепляя ворота, ремонтируя оборону и следя, чтобы ни одна система не дала сбой.",
+    "zh": "拉斯卡很早就明白，机器是诚实的。被逼得太狠就会坏，人却不会。她在矿井与锻炉之间长大，伴随着压力表、裂开的岩石和炽热的钢铁。别人学习礼仪，她学习极限与失效点。她的思维总是跑在语言前面，在压力下，词语会像裸露电线的火花一样蹦出。她不会解释，只会修复即将崩溃的系统。拉斯卡成为英雄不是为了理想，而是为了防止崩塌——加固城门、修复防御，确保没有系统在她眼前失效。",
+    "ja": "ラスカは早くから、機械は正直だと知っていた。限界を超えれば壊れる。人はそうではない。彼女は鉱山と鍛冶場の間で育ち、圧力計、ひび割れた岩、過熱した鋼に囲まれて成長した。他人が礼儀を学ぶ中、彼女は限界と故障点を学んだ。思考は常に言葉より先を走り、緊張すると露出した配線の火花のように言葉が飛び出す。彼女は説明しない。壊れそうなものを直す。ラスカが英雄になった理由は理想のためではなく、崩壊を防ぐため — 門を補強し、防衛を修理し、どんな仕組みも彼女の前で壊させないためだ。"
+  },
+  "photo_url": "assets/img/raska.png",
+  "photo_body_url": "assets/img/raskafullbody.png",
+  "unlock_by_quest": [],
+  "available_from_turn": 1,
+  "leave_on_quest": [],
+  "growth_curve": {
+    "1": { "strength": 2, "dexterity": 2, "intelligence": 2, "wisdom": 1 },
+    "2": { "strength": 3, "dexterity": 2, "intelligence": 2, "wisdom": 1 },
+    "3": { "strength": 4, "dexterity": 2, "intelligence": 2, "wisdom": 1 },
+    "4": { "strength": 5, "dexterity": 2, "intelligence": 2, "wisdom": 1 },
+    "5": { "strength": 6, "dexterity": 2, "intelligence": 2, "wisdom": 1 },
+    "6": { "strength": 6, "dexterity": 3, "intelligence": 3, "wisdom": 2 },
+    "7": { "strength": 7, "dexterity": 3, "intelligence": 3, "wisdom": 2 },
+    "8": { "strength": 8, "dexterity": 3, "intelligence": 3, "wisdom": 2 },
+    "9": { "strength": 9, "dexterity": 3, "intelligence": 3, "wisdom": 2 },
+    "10": { "strength": 10, "dexterity": 3, "intelligence": 3, "wisdom": 2 }
+  }
+}

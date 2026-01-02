@@ -1,0 +1,60 @@
+{
+  "id": 4,
+  "name": "Saryth Moonsong",
+  "role": "healer",
+  "hero_class": {
+    "en": "Shaman",
+    "pt": "Xamã",
+    "es": "Chamán",
+    "zh": "萨满",
+    "ja": "シャーマン",
+    "ru": "Шаман",
+    "kr": "주술사"
+  },
+  "status": {
+    "en": "Healthy",
+    "pt": "Saudável",
+    "es": "Saludable",
+    "zh": "健康",
+    "ja": "健康",
+    "ru": "Здоров",
+    "kr": "건강함"
+  },
+  "perks": ["cure", "nature"],
+  "defects": {
+    "narcissistic": {
+      "pt": "Narcisista",
+      "en": "Narcissistic",
+      "es": "Narcisista",
+      "zh": "自恋",
+      "ja": "自己陶酔",
+      "ru": "Нарциссизм",
+      "kr": "자기애"
+    }
+  },
+  "story": {
+    "en": "Saryth was initiated into the Moonveil Covenant, a shamanic order that believes spirits must be called, named, and acknowledged. From an early age, she learned that communion is a performance — rituals are meant to be seen, voices meant to be heard. Spirits answer her readily, drawn by confidence and certainty. When she heals, she does so with unmistakable presence, leaving no doubt about who guided the spirits’ hands.",
+    "pt": "Saryth foi iniciada no Pacto do Véu Lunar, uma ordem xamânica que acredita que os espíritos devem ser chamados, nomeados e reconhecidos. Desde cedo, aprendeu que comunhão é performance — rituais precisam ser vistos, vozes precisam ser ouvidas. Os espíritos a respondem prontamente, atraídos por sua confiança e certeza. Quando cura, o faz com presença inconfundível, sem deixar dúvidas sobre quem guiou as mãos espirituais.",
+    "es": "Saryth fue iniciada en el Pacto del Velo Lunar, una orden chamánica que cree que los espíritus deben ser invocados, nombrados y reconocidos. Desde temprana edad aprendió que la comunión es una puesta en escena — los rituales deben verse, las voces deben oírse. Los espíritus le responden con facilidad, atraídos por su confianza y seguridad. Cuando sana, lo hace con una presencia inconfundible, sin dejar dudas sobre quién guió las manos espirituales.",
+    "ru": "Сарит была посвящена в Пакт Лунной Вуали — шаманский орден, верящий, что духов нужно призывать, называть и признавать. С ранних лет она усвоила, что общение — это представление: ритуалы должны быть видимы, голоса — услышаны. Духи охотно отвечают ей, привлечённые уверенностью и решимостью. Когда она исцеляет, её присутствие невозможно не заметить — всегда ясно, кто направлял руки духов.",
+    "zh": "萨瑞丝加入了月帷契约，一个相信灵魂必须被召唤、命名并被承认的萨满组织。她从小就学会，沟通是一种仪式性的展现——仪式必须被看见，声音必须被听到。灵魂回应她的呼唤，被她的自信与笃定所吸引。当她进行治疗时，她的存在感无法忽视，毫无疑问是谁引导了灵魂之手。",
+    "ja": "サリスは〈ムーンヴェイル・カヴナント〉に迎え入れられた。そこは、精霊は呼びかけられ、名を与えられ、認められるべきだと信じるシャーマンの結社だ。彼女は幼い頃から、交信とは演出であり、儀式は見られるべきもので、声は届くべきものだと学んできた。精霊たちは彼女の自信と確信に引き寄せられ、容易に応える。癒しの際、その存在感は疑いようがなく、誰が精霊の手を導いたのかは明白だ。"
+  },
+  "photo_url": "assets/img/saryth.png",
+  "photo_body_url": "assets/img/sarythfullbody.png",
+  "unlock_by_quest": [],
+  "available_from_turn": 1,
+  "leave_on_quest": [],
+  "growth_curve": {
+    "1": { "strength": 1, "dexterity": 1, "intelligence": 1, "wisdom": 3 },
+    "2": { "strength": 1, "dexterity": 1, "intelligence": 1, "wisdom": 4 },
+    "3": { "strength": 1, "dexterity": 1, "intelligence": 1, "wisdom": 5 },
+    "4": { "strength": 1, "dexterity": 1, "intelligence": 1, "wisdom": 6 },
+    "5": { "strength": 1, "dexterity": 1, "intelligence": 1, "wisdom": 7 },
+    "6": { "strength": 2, "dexterity": 2, "intelligence": 2, "wisdom": 7 },
+    "7": { "strength": 2, "dexterity": 2, "intelligence": 2, "wisdom": 8 },
+    "8": { "strength": 2, "dexterity": 2, "intelligence": 2, "wisdom": 9 },
+    "9": { "strength": 2, "dexterity": 2, "intelligence": 2, "wisdom": 10 },
+    "10": { "strength": 2, "dexterity": 2, "intelligence": 2, "wisdom": 11 }
+  }
+}

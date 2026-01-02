@@ -18,13 +18,14 @@ PERK_ATTRIBUTE_MAP = {
     # 🧪 Conhecimento técnico
     "alchemy": "intelligence",   # alquimia
     "arcana": "intelligence",    # arcanista
+    "investigation": "intelligence",    # arcanista
 
     # 🗣️ Social
     "diplomacy": "wisdom",       # diplomacia
     "intimidation": "strength",  # intimidação
 
     # ✝️ Fé / suporte
-    "healing": "wisdom",         # cura
+    "cure": "wisdom",         # cura
     "religion": "wisdom",        # religião / exorcismo
 
     # ⛏️ Profissões físicas
@@ -54,7 +55,9 @@ class QuestSuccessCalculator:
                     hero.stats.get(attr, 0)
                     for attr in ["strength", "dexterity", "intelligence", "wisdom"]
                 )
+                print("best_combat", best_combat)
                 total_rating += best_combat
+                print("total_rating", total_rating)
 
         # 🧠 SKILL / PERK
         else:
@@ -81,18 +84,28 @@ class QuestSuccessCalculator:
         # 🤝 SINERGIA DE ROLES
         # ═══════════════════════════════════════
         roles = [getattr(hero, "role", None) for hero in heroes]
-        party_size = len(roles)
-        print("role", roles)
+        party_size = quest.max_heroes
 
-        synergy_bonus = 0.0
-        synergy_penalty = 0.0
+        synergy_multiplier = 1.0
 
+        def has(role, n=1):
+            return roles.count(role) >= n
 
         if party_size == 2:
             if ("tank" in roles or "healer" in roles) and "dps" in roles:
-                synergy_bonus += 0.10
+                synergy_multiplier += 1
             else:
-                synergy_penalty -= 0.10
+                synergy_multiplier -= 1
+
+        elif party_size >= 3:
+            if (
+                roles.count("tank") >= 1 and
+                roles.count("healer") >= 1 and
+                roles.count("dps") >= 1
+            ):
+                synergy_multiplier += 1
+            else:
+                synergy_multiplier -= 1
 
         elif party_size >= 4:
             if (
@@ -100,25 +113,13 @@ class QuestSuccessCalculator:
                 roles.count("healer") >= 1 and
                 roles.count("dps") >= 2
             ):
-                synergy_bonus += 0.20
+                synergy_multiplier += 1
             else:
-                synergy_penalty -= 0.20
+                synergsynergy_multipliery_penalty -= 1
 
-        elif party_size >= 4:
-            if (
-                roles.count("tank") >= 1 and
-                roles.count("healer") >= 1 and
-                roles.count("dps") >= 2
-            ):
-                synergy_bonus += 0.20
-            else:
-                synergy_penalty -= 0.20
-
-        base_chance += synergy_bonus
-        base_chance -= synergy_penalty
-        print(base_chance)
-        print(synergy_bonus)
-        print(synergy_penalty)
+        base_chance *= synergy_multiplier
+        print(f"base_chance: {base_chance * 100:.1f}%")
+        print(f"synergy_bonus: {synergy_multiplier * 100:.1f}%")
 
         return max(0.05, min(0.95, base_chance))
 

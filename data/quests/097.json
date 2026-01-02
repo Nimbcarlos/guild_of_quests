@@ -1,0 +1,225 @@
+[
+  {
+    "id": 401,
+    "name": {
+      "pt": "O Teste do Castelo",
+      "en": "The Castle Test",
+      "es": "La Prueba del Castillo",
+      "ru": "Испытание Замка",
+      "zh": "城堡试炼",
+      "ja": "城の試験"
+    },
+    "description": {
+      "pt": "O Rei tornou-se paranoico com sua própria segurança. Para confirmar suas suspeitas, ele contratou a Guilda para invadir o tesouro real sem ser detectada. O objetivo não é roubar, mas provar que as defesas atuais falham — e quem falhar será punido.",
+      "en": "The King has grown paranoid about his security. He hires the Guild to infiltrate the royal treasury undetected, not to steal, but to prove the current defenses are flawed.",
+      "es": "El Rey está paranoico con su seguridad. Contrata al Gremio para infiltrarse en el tesoro real y demostrar que las defensas fallan.",
+      "ru": "Король подозревает, что защита слаба. Он нанимает Гильдию для тайного проникновения в сокровищницу.",
+      "zh": "国王对自身安保产生怀疑，雇佣公会秘密潜入王室宝库以验证防御漏洞。",
+      "ja": "王は城の警備に疑念を抱き、ギルドに宝物庫への潜入を依頼した。"
+    },
+    "type": "stealth",
+    "max_heroes": 2,
+    "expired_at": 4,
+    "available_from_turn": 3,
+    "duration": 2,
+    "difficulty": 1.7,
+    "rewards": { "xp": 90 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+
+  {
+    "id": 402,
+    "name": {
+      "pt": "Resgate da Chave de Água",
+      "en": "Water Key Recovery",
+      "es": "Rescate de la Llave del Agua",
+      "ru": "Возвращение Водного Ключа",
+      "zh": "水闸钥匙夺回",
+      "ja": "水門の鍵奪還"
+    },
+    "description": {
+      "pt": "Bandidos roubaram a chave que controla as comportas da represa da vila. Sem a liberação da água, as plantações morrerão em poucos dias. A chave está guardada em um esconderijo improvisado.",
+      "en": "Bandits stole the key that controls the village dam gates. Without water, the crops will die within days.",
+      "es": "Bandidos robaron la llave de la represa. Sin agua, la cosecha morirá.",
+      "ru": "Бандиты украли ключ от плотины. Без воды урожай погибнет.",
+      "zh": "盗匪抢走了控制水坝闸门的钥匙，没有水，庄稼将枯死。",
+      "ja": "盗賊が水門の鍵を奪った。水がなければ作物は枯れる。"
+    },
+    "type": "stealth",
+    "max_heroes": 2,
+    "expired_at": 3,
+    "available_from_turn": 2,
+    "duration": 1,
+    "difficulty": 1.5,
+    "rewards": { "xp": 75 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+
+  {
+    "id": 403,
+    "name": {
+      "pt": "A Relíquia Devolvida",
+      "en": "The Returned Relic",
+      "es": "La Reliquia Devuelta",
+      "ru": "Возвращённая Реликвия",
+      "zh": "归还的遗物",
+      "ja": "返却された聖遺物"
+    },
+    "description": {
+      "pt": "Um ladrão arrependido entregou à Guilda uma relíquia roubada de um museu. O problema é que o local está em alerta máximo, e o diretor se recusa a aceitar a devolução por orgulho e desconfiança.",
+      "en": "A repentant thief handed a stolen relic to the Guild. The museum is on high alert, and the director refuses to accept the return.",
+      "es": "Un ladrón arrepentido entregó una reliquia robada. El museo no acepta devoluciones.",
+      "ru": "Вор раскаялся и передал реликвию Гильдии. Музей в тревоге.",
+      "zh": "悔过的小偷将遗物交给公会，但博物馆拒绝接受。",
+      "ja": "悔い改めた盗賊が遺物を渡したが、博物館は受け取らない。"
+    },
+    "type": "stealth",
+    "max_heroes": 1,
+    "expired_at": 5,
+    "available_from_turn": 4,
+    "duration": 2,
+    "difficulty": 1.6,
+    "rewards": { "xp": 80 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+
+  {
+    "id": 404,
+    "name": {
+      "pt": "Desarmando a Armadilha",
+      "en": "Disarming the Trap",
+      "es": "Desactivar la Trampa",
+      "ru": "Обезвреживание Ловушки",
+      "zh": "解除陷阱",
+      "ja": "罠の解除"
+    },
+    "description": {
+      "pt": "Aventureiros inexperientes ficaram presos em uma tumba antiga. Armadilhas mecânicas ainda ativas liberam areia continuamente, e o tempo está se esgotando.",
+      "en": "Inexperienced adventurers are trapped in an ancient tomb. Active traps are filling the chamber with sand.",
+      "es": "Aventureros novatos están atrapados en una tumba llena de trampas.",
+      "ru": "Новички застряли в гробнице, наполненной ловушками.",
+      "zh": "新手冒险者被困在充满机关的古墓中。",
+      "ja": "未熟な冒険者たちが罠だらけの古代墳墓に閉じ込められた。"
+    },
+    "type": "stealth",
+    "max_heroes": 2,
+    "expired_at": 1,
+    "available_from_turn": 1,
+    "duration": 1,
+    "difficulty": 1.8,
+    "rewards": { "xp": 100 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+
+  {
+    "id": 405,
+    "name": {
+      "pt": "O Cão de Estimação do Nobre",
+      "en": "The Noble’s Pet",
+      "es": "La Mascota del Noble",
+      "ru": "Питомец Дворянина",
+      "zh": "贵族的宠物",
+      "ja": "貴族のペット"
+    },
+    "description": {
+      "pt": "Um nobre cruel confiscou o cachorro de uma criança pobre, alegando que o animal é de raça rara. O cão está preso em um canil luxuoso, fortemente vigiado.",
+      "en": "A cruel noble seized a poor child’s dog, claiming it is a rare breed. The animal is kept in a heavily guarded luxury kennel.",
+      "es": "Un noble cruel confiscó el perro de un niño pobre. Está bajo fuerte vigilancia.",
+      "ru": "Жестокий дворянин отобрал собаку у ребёнка. Пёс под охраной.",
+      "zh": "残忍的贵族夺走了贫民孩子的狗，并严密看守。",
+      "ja": "残酷な貴族が貧しい子供から犬を奪い、厳重に監視している。"
+    },
+    "type": "stealth",
+    "max_heroes": 1,
+    "expired_at": 6,
+    "available_from_turn": 2,
+    "duration": 1,
+    "difficulty": 1.4,
+    "rewards": { "xp": 70 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+
+  {
+    "id": 406,
+    "name": {
+      "pt": "Espionagem Humanitária",
+      "en": "Humanitarian Espionage",
+      "es": "Espionaje Humanitario",
+      "ru": "Гуманитарный Шпионаж",
+      "zh": "慈善间谍",
+      "ja": "人道的諜報"
+    },
+    "description": {
+      "pt": "Há rumores de que um armazém de caridade esconde armas ilegais a mando de um conselheiro corrupto. Provas são necessárias antes que o escândalo exploda.",
+      "en": "Rumors suggest a charity warehouse hides illegal weapons for a corrupt councilor. Evidence is needed.",
+      "es": "Se rumorea que un almacén benéfico oculta armas ilegales.",
+      "ru": "Ходят слухи, что под видом благотворительности хранят оружие.",
+      "zh": "传闻称慈善仓库暗藏非法武器，需要证据。",
+      "ja": "慈善倉庫が違法武器の隠し場所だという噂がある。"
+    },
+    "type": "stealth",
+    "max_heroes": 2,
+    "expired_at": 5,
+    "available_from_turn": 4,
+    "duration": 2,
+    "difficulty": 1.7,
+    "rewards": { "xp": 95 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  },
+
+  {
+    "id": 407,
+    "name": {
+      "pt": "O Inventário Silencioso",
+      "en": "The Silent Inventory",
+      "es": "El Inventario Silencioso",
+      "ru": "Тихая Инвентаризация",
+      "zh": "无声清点",
+      "ja": "静寂の在庫調査"
+    },
+    "description": {
+      "pt": "Um alquimista excêntrico desapareceu, deixando para trás substâncias instáveis. O laboratório está repleto de sensores mágicos que reagem a qualquer som.",
+      "en": "An eccentric alchemist vanished, leaving unstable substances behind. The lab is filled with sound-sensitive magical sensors.",
+      "es": "Un alquimista desapareció, dejando sustancias inestables y sensores mágicos.",
+      "ru": "Алхимик исчез, оставив нестабильные вещества и звуковые ловушки.",
+      "zh": "炼金术士失踪，实验室布满对声音敏感的魔法装置。",
+      "ja": "錬金術師が失踪し、音に反応する魔法装置が残された。"
+    },
+    "type": "stealth",
+    "max_heroes": 1,
+    "expired_at": 6,
+    "available_from_turn": 3,
+    "duration": 2,
+    "difficulty": 1.8,
+    "rewards": { "xp": 105 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  }
+]

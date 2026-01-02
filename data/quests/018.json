@@ -1,0 +1,31 @@
+  {
+    "id": 18,
+    "name": {
+      "pt": "Sucessão do Conselho",
+      "en": "Council Succession",
+      "es": "Sucesión del Consejo",
+      "ru": "Наследие Совета",
+      "zh": "议会继任",
+      "ja": "評議会の継承"
+    },
+    "description": {
+      "pt": "Um conselheiro nobre morreu. Três candidatos disputam o posto, cada um prometendo favorecer ou prejudicar a Guilda.",
+      "en": "A noble councilor has died. Three candidates fight for the position, each promising to favor or harm the Guild.",
+      "es": "Un consejero noble murió. Tres candidatos luchan por el puesto, prometiendo favorecer o perjudicar al gremio.",
+      "ru": "Знатный советник умер. Трое кандидатов борются за место, обещая помочь или навредить гильдии.",
+      "zh": "一名贵族议员去世，三名候选人为席位争斗，各自承诺支持或打压公会。",
+      "ja": "貴族の評議員が死亡し、三人の候補者がその地位を巡って争っている。ギルドへの態度はそれぞれ異なる。"
+    },
+    "type": "diplomacy",
+    "max_heroes": 3,
+    "expired_at": 7,
+    "available_from_turn": 3,
+    "duration": 3,
+    "difficulty": 1.7,
+    "rewards": { "xp": 90 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  }

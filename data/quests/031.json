@@ -1,0 +1,31 @@
+  {
+    "id": 31,
+    "name": {
+      "pt": "O Cidadão de Ouro",
+      "en": "The Golden Citizen",
+      "es": "El Ciudadano de Oro",
+      "ru": "Золотой Гражданин",
+      "zh": "黄金之人",
+      "ja": "黄金の市民"
+    },
+    "description": {
+      "pt": "Um comerciante vendeu um anel de \"sorte\" que transforma lentamente o portador em ouro maciço. O comprador já está parcialmente petrificado e agindo de forma agressiva.",
+      "en": "A merchant sold a \"lucky\" ring that slowly turns its wearer into solid gold. The buyer is half petrified and growing aggressive.",
+      "es": "Un mercader vendió un anillo de \"suerte\" que transforma lentamente al portador en oro sólido. El comprador ya está parcialmente petrificado.",
+      "ru": "Торговец продал «счастливое» кольцо, медленно превращающее владельца в золото. Покупатель наполовину окаменел и ведёт себя агрессивно.",
+      "zh": "一名商人出售了所谓的“幸运戒指”，实则会将佩戴者逐渐变成纯金。购买者已半身金化并变得暴躁。",
+      "ja": "商人が売った「幸運の指輪」は、着用者を徐々に純金へと変える代物だった。購入者は半身が金化し、攻撃的になっている。"
+    },
+    "type": "arcana",
+    "max_heroes": 2,
+    "expired_at": 4,
+    "available_from_turn": 2,
+    "duration": 2,
+    "difficulty": 1.6,
+    "rewards": { "xp": 80 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  }

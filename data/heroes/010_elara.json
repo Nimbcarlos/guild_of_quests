@@ -1,0 +1,61 @@
+  {
+    "id": 10,
+    "name": "Elara Truestep",
+    "role": "dps",
+    "hero_class": {
+      "en": "Rogue",
+      "pt": "Ladina",
+      "es": "Pícara",
+      "zh": "游荡者 (Yóudàngzhě)",
+      "ja": "盗賊 (Tōzoku)",
+      "ru": "Плутовка",
+      "kr": "도적 (Dojeok)"
+    },
+    "status": {
+      "en": "Healthy",
+      "pt": "Saudável",
+      "es": "Saludable",
+      "zh": "健康 (Jiànkāng)",
+      "ja": "健康 (Kenkō)",
+      "ru": "Здоров",
+      "kr": "건강함 (Geongangham)"
+    },
+    "perks": ["thievery", "stealth"],
+    "defects": {
+      "Honesty": {
+        "pt": "Honestidade",
+        "en": "Honesty",
+        "es": "Honestidad",
+        "zh": "诚实",
+        "ja": "正直",
+        "ru": "Честность",
+        "kr": "정직함"
+      }
+    },
+    "story": {
+      "en": "Elara grew up in the alleyways of a city where dishonesty was the rule. But for her, truth was a non-negotiable principle. Her mother, sick and needing care that Elara's honesty could barely sustain, was the main reason for her actions. Elara used her rogue talents — her nimble hands and her ability to move unnoticed — not for stealing, but for honest work, such as finding lost items or mapping dangerous areas, which paid enough to keep her mother comfortable.",
+      "pt": "Elara cresceu nas vielas de uma cidade onde a desonestidade era a regra. Mas, para ela, a verdade era um princípio inegociável. Sua mãe, doente e precisando de cuidados que a honestidade de Elara mal conseguia sustentar, foi a principal razão de suas ações. Elara usava seus talentos de ladina — suas mãos ágeis e sua capacidade de se mover sem ser notada — não para roubar, mas para realizar trabalhos honestos, como encontrar itens perdidos ou mapear áreas perigosas, que pagavam o suficiente para manter sua mãe confortável.",
+      "es": "Elara creció en los callejones de una ciudad donde la deshonestidad era la regla. Pero para ella, la verdad era un principio innegociable. Su madre, enferma y necesitando cuidados que la honestidad de Elara apenas podía sostener, fue la razón principal de sus acciones. Elara usó sus talentos de pícara — sus manos ágiles y su capacidad para moverse desapercibida — no para robar, sino para realizar trabajos honestos, como encontrar objetos perdidos o mapear áreas peligrosas, que pagaban lo suficiente para mantener cómoda a su madre.",
+      "zh": "艾拉拉在一个以不诚实为准则的城市的巷道中长大。但对她来说，真理是一个不容置疑的原则。她生病的母亲需要照顾，而艾拉拉的诚实几乎无法维持这份开支，这是她行动的主要原因。艾拉拉利用她的游荡者天赋——灵巧的双手和不被察觉地移动的能力——不是为了偷窃，而是为了做诚实的工作，比如寻找丢失的物品或绘制危险区域地图，这些工作足以让她母亲过得舒适。",
+      "ja": "エララは、不正が当たり前の都市の裏通りで育ちました。しかし、彼女にとって真実は譲れない原則でした。病気の母親を抱え、エララの誠実さだけでは賄えないほどの介護が必要だったことが、彼女の行動の主な理由でした。エララは盗賊としての才能—素早い手と気づかれずに動く能力—を盗みのためではなく、失われたアイテムの発見や危険区域のマッピングなど、母親を快適に過ごさせるのに十分な報酬が得られる正直な仕事に利用しました。",
+      "ru": "Элара выросла в переулках города, где нечестность была правилом. Но для нее правда была нерушимым принципом. Ее больная мать, нуждающаяся в уходе, который честность Элары едва могла обеспечить, была главной причиной ее действий. Элара использовала свои таланты плутовки — ловкие руки и способность двигаться незаметно — не для воровства, а для честной работы, такой как поиск потерянных предметов или картирование опасных зон, что платило достаточно, чтобы ее мать чувствовала себя комфортно.",
+      "kr": "엘라라는 부정직이 만연한 도시의 뒷골목에서 자랐습니다. 하지만 그녀에게 진실은 협상 불가능한 원칙이었습니다. 병든 어머니는 엘라라의 정직만으로는 감당하기 힘든 보살핌이 필요했고, 이것이 그녀 행동의 주된 이유였습니다. 엘라라는 그녀의 도적 재능 — 날렵한 손과 눈에 띄지 않게 움직이는 능력 —을 훔치는 데 사용하지 않고, 잃어버린 물건 찾기나 위험 지역 지도 제작과 같은 정직한 일에 사용하여 어머니를 편안하게 해 드릴 충분한 보수를 벌었습니다."
+    },
+    "photo_url": "assets/img/Elara.png",
+    "photo_body_url": "assets/img/elarafullbody.png",
+    "unlock_by_quest": [],
+    "available_from_turn": 1,
+    "leave_on_quest": [],
+    "growth_curve": {
+      "1": { "strength": 1, "dexterity": 3, "intelligence": 1, "wisdom": 1 },
+      "2": { "strength": 1, "dexterity": 4, "intelligence": 1, "wisdom": 1 },
+      "3": { "strength": 1, "dexterity": 5, "intelligence": 1, "wisdom": 1 },
+      "4": { "strength": 1, "dexterity": 6, "intelligence": 1, "wisdom": 1 },
+      "5": { "strength": 1, "dexterity": 7, "intelligence": 1, "wisdom": 1 },
+      "6": { "strength": 2, "dexterity": 7, "intelligence": 2, "wisdom": 2 },
+      "7": { "strength": 2, "dexterity": 8, "intelligence": 2, "wisdom": 2 },
+      "8": { "strength": 2, "dexterity": 9, "intelligence": 2, "wisdom": 2 },
+      "9": { "strength": 2, "dexterity": 10, "intelligence": 2, "wisdom": 2 },
+      "10": { "strength": 2, "dexterity": 11, "intelligence": 2, "wisdom": 2 }
+    }
+  }

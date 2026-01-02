@@ -1,0 +1,60 @@
+  {
+    "id": 11,
+    "name": "Nyx Varrow",
+    "role": "dps",
+    "hero_class": {
+      "en": "Assassin",
+      "pt": "Assassina",
+      "es": "Asesina",
+      "zh": "刺客",
+      "ja": "暗殺者",
+      "ru": "Ассасин",
+      "kr": "암살자"
+    },
+    "status": {
+      "en": "Healthy",
+      "pt": "Saudável",
+      "es": "Saludable",
+      "zh": "健康 (Jiànkāng)",
+      "ja": "健康 (Kenkō)",
+      "ru": "Здоров",
+      "kr": "건강함 (Geongangham)"
+    },
+    "perks": ["thievery", "stealth"],
+    "defects": {
+      "sadism": {
+        "en": "Sadism",
+        "pt": "Sadismo",
+        "es": "Sádico",
+        "zh": "施虐狂",
+        "ja": "サディズム",
+        "ru": "Садизм",
+        "kr": "가학증"
+      }
+    },
+    "story": {
+      "en": "Nyx was forged in the cold 'Order of the Veiled Blade', where children were weapons. She saw how humans broke, how they begged, and the 'ghosts' their deaths left behind. When the Guild dismantled the Order, Nyx pivoted. She swore never to take a human life again—not out of kindness, but to stop the haunting. Instead, she turned her honed sadism toward monsters. To Nyx, a beast is the perfect victim: it doesn't plead, it doesn't leave guilt, and it doesn't haunt. In the dark, she is the nightmare that monsters fear.",
+      "pt": "Nyx foi forjada na fria 'Ordem da Lâmina Velada', onde crianças eram armas. Ela viu como os humanos quebram, como imploram e os 'fantasmas' que suas mortes deixavam para trás. Quando a Guilda desmantelou a Ordem, Nyx mudou. Jurou nunca mais tirar uma vida humana — não por bondade, mas para parar a assombração. Em vez disso, voltou seu sadismo refinado para os monstros. Para Nyx, uma fera é a vítima perfeita: não implora, não deixa culpa e não assombra. No escuro, ela é o pesadelo que os monstros temem.",
+      "es": "Nyx fue forjada en la fría 'Orden de la Hoja Velada', donde los niños eran armas. Vio cómo los humanos se quiebran, cómo suplican y los 'fantasmas' que dejaban sus muertes. Cuando el Gremio desmanteló la Orden, Nyx cambió de rumbo. Juró no volver a arrebatar una vida humana, no por bondad, sino para detener el tormento. En su lugar, dirigió su sadismo refinado hacia los monstruos. Para Nyx, una bestia es la víctima perfecta: no suplica, no deja culpa y no atormenta. En la oscuridad, ella es la pesadilla que los monstruos temen.",
+      "ru": "Никс была выкована в холодном «Ордене Завуалированного Клинка», где дети были оружием. Она видела, как ломаются люди, как они умоляют и какие «призраки» остаются после их смерти. Когда Гильдия распустила Орден, Никс сменила цель. Она поклялась больше никогда не отнимать человеческую жизнь — не из доброты, а чтобы остановить преследование теней. Вместо этого она направила свой отточенный садизм на монстров. Для Никс монстр — идеальная жертва: он не молит о пощаде, не оставляет чувства вины и не преследует во снах. Во тьме она — кошмар, которого боятся сами чудовища.",
+      "zh": "尼克斯在冷酷的“面纱之刃”教团中成长，那里将孩子视作武器。她见过人类如何崩溃，如何哀求，以及死亡留下的“幽灵”。当公会取缔教团时，尼克斯改变了方向。她发誓不再夺取人类的性命——并非出于善良，而是为了停止内心的煎熬。相反，她将磨炼出的残忍投向了怪物。对尼克斯而言，野兽是完美的受害者：它们不会求饶，不会留下罪恶感，也不会阴魂不散。在黑暗中，她就是怪物所畏惧的噩梦。",
+      "ja": "ニクスは子供を兵器として扱う冷酷な「ヴェール・ブレイド教団」で鍛えられた。彼女は人間がどのように壊れ、どのように命乞いをするか、そして死が残す「幽霊」を見てきた。ギルドが教団を解体したとき、ニクスは転向した。二度と人の命を奪わないと誓ったのだ。それは善意からではなく、幽霊に苛まれるのを止めるためだった。代わりに、彼女は研ぎ澄まされたサディズムを魔物へと向けた。ニクスにとって、魔物は完璧な犠牲者だ。命乞いをせず、罪悪感を残さず、決して化けて出ない。闇の中で、彼女は魔物たちが恐れる悪夢そのものなのだ。"
+    },
+    "photo_url": "assets/img/nyx.png",
+    "photo_body_url": "assets/img/nyxfullbody.png",
+    "unlock_by_quest": [],
+    "available_from_turn": 1,
+    "leave_on_quest": [],
+    "growth_curve": {
+      "1": { "strength": 1, "dexterity": 3, "intelligence": 1, "wisdom": 1 },
+      "2": { "strength": 1, "dexterity": 4, "intelligence": 1, "wisdom": 1 },
+      "3": { "strength": 1, "dexterity": 5, "intelligence": 1, "wisdom": 1 },
+      "4": { "strength": 1, "dexterity": 6, "intelligence": 1, "wisdom": 1 },
+      "5": { "strength": 1, "dexterity": 7, "intelligence": 1, "wisdom": 1 },
+      "6": { "strength": 2, "dexterity": 7, "intelligence": 2, "wisdom": 2 },
+      "7": { "strength": 2, "dexterity": 8, "intelligence": 2, "wisdom": 2 },
+      "8": { "strength": 2, "dexterity": 9, "intelligence": 2, "wisdom": 2 },
+      "9": { "strength": 2, "dexterity": 10, "intelligence": 2, "wisdom": 2 },
+      "10": { "strength": 2, "dexterity": 11, "intelligence": 2, "wisdom": 2 }
+    }
+  }

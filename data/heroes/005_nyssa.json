@@ -1,0 +1,60 @@
+{
+  "id": 5,
+  "name": "Nyssa Duskstring",
+  "role": "healer",
+  "hero_class": {
+    "en": "Bard",
+    "pt": "Barda",
+    "es": "Barda",
+    "zh": "吟游诗人",
+    "ja": "吟遊詩人",
+    "ru": "Бард",
+    "kr": "바드"
+  },
+  "status": {
+    "en": "Healthy",
+    "pt": "Saudável",
+    "es": "Saludable",
+    "zh": "健康",
+    "ja": "健康",
+    "ru": "Здоров",
+    "kr": "건강함"
+  },
+  "perks": ["thievery", "diplomacy"],
+  "defects": {
+    "pessimistic": {
+      "pt": "Pessimista",
+      "en": "Pessimistic",
+      "es": "Pesimista",
+      "zh": "悲观",
+      "ja": "悲観的",
+      "ru": "Пессимистка",
+      "kr": "비관적"
+    }
+  },
+  "story": {
+    "en": "Nyssa learned early that songs do not save people — people endure despite them. Her music never promises victory, only survival. Each verse acknowledges loss, each melody accepts that wounds leave scars. Strangely, this honesty steadies those who listen. When Nyssa sings, allies fight on not because they believe they will win, but because they know they can last a little longer.",
+    "pt": "Nyssa aprendeu cedo que canções não salvam pessoas — pessoas sobrevivem apesar delas. Sua música nunca promete vitória, apenas resistência. Cada verso reconhece a perda, cada melodia aceita que feridas deixam marcas. Estranhamente, essa honestidade sustenta quem a escuta. Quando Nyssa canta, aliados continuam lutando não porque acreditam que vão vencer, mas porque sabem que conseguem aguentar mais um pouco.",
+    "es": "Nyssa aprendió pronto que las canciones no salvan a las personas — las personas resisten a pesar de ellas. Su música nunca promete victoria, solo resistencia. Cada verso reconoce la pérdida, cada melodía acepta que las heridas dejan cicatrices. Curiosamente, esta honestidad fortalece a quienes la escuchan. Cuando Nyssa canta, los aliados siguen luchando no porque crean que ganarán, sino porque saben que pueden aguantar un poco más.",
+    "ru": "Нисса рано поняла, что песни не спасают людей — люди выживают вопреки им. Её музыка никогда не обещает победы, лишь стойкость. Каждый куплет признаёт утрату, каждая мелодия принимает, что раны оставляют шрамы. Парадоксально, именно эта честность укрепляет слушателей. Когда Нисса поёт, союзники продолжают бой не потому, что верят в победу, а потому, что знают — смогут продержаться ещё немного.",
+    "zh": "妮莎很早就明白，歌曲并不能拯救人们——人们是在逆境中坚持下来。她的音乐从不承诺胜利，只强调忍耐。每一段歌词都承认失去，每一段旋律都接受伤痕的存在。奇妙的是，这种诚实反而稳住了听众。当妮莎歌唱时，盟友继续战斗，并不是因为他们相信会赢，而是因为他们知道还能坚持一会儿。",
+    "ja": "ニッサは早くから、歌が人を救うのではなく、人はそれでも耐えるのだと理解していた。彼女の音楽は決して勝利を約束せず、ただ耐え抜くことを語る。すべての詩は喪失を認め、すべての旋律は傷が残ることを受け入れる。不思議なことに、その正直さが人々を支える。ニッサが歌うとき、仲間たちは勝てると信じて戦うのではなく、もう少し耐えられると知って前に進むのだ。"
+  },
+  "photo_url": "assets/img/nyssa.png",
+  "photo_body_url": "assets/img/nyssafullbody.png",
+  "unlock_by_quest": [],
+  "available_from_turn": 1,
+  "leave_on_quest": [],
+  "growth_curve": {
+    "1": { "strength": 1, "dexterity": 2, "intelligence": 2, "wisdom": 2 },
+    "2": { "strength": 1, "dexterity": 2, "intelligence": 2, "wisdom": 3 },
+    "3": { "strength": 1, "dexterity": 2, "intelligence": 2, "wisdom": 4 },
+    "4": { "strength": 1, "dexterity": 2, "intelligence": 2, "wisdom": 5 },
+    "5": { "strength": 1, "dexterity": 2, "intelligence": 2, "wisdom": 6 },
+    "6": { "strength": 2, "dexterity": 3, "intelligence": 3, "wisdom": 6 },
+    "7": { "strength": 2, "dexterity": 3, "intelligence": 3, "wisdom": 7 },
+    "8": { "strength": 2, "dexterity": 3, "intelligence": 3, "wisdom": 8 },
+    "9": { "strength": 2, "dexterity": 3, "intelligence": 3, "wisdom": 9 },
+    "10": { "strength": 2, "dexterity": 3, "intelligence": 3, "wisdom": 10 }
+  }
+}

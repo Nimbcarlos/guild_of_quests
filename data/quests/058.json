@@ -1,0 +1,31 @@
+  {
+    "id": 58,
+    "name": {
+      "pt": "O Inventário Silencioso",
+      "en": "The Silent Inventory",
+      "es": "El Inventario Silencioso",
+      "ru": "Тихая Инвентаризация",
+      "zh": "无声清点",
+      "ja": "静寂の在庫調査"
+    },
+    "description": {
+      "pt": "Um alquimista excêntrico desapareceu, deixando para trás substâncias instáveis. O laboratório está repleto de sensores mágicos que reagem a qualquer som.",
+      "en": "An eccentric alchemist vanished, leaving unstable substances behind. The lab is filled with sound-sensitive magical sensors.",
+      "es": "Un alquimista desapareció, dejando sustancias inestables y sensores mágicos.",
+      "ru": "Алхимик исчез, оставив нестабильные вещества и звуковые ловушки.",
+      "zh": "炼金术士失踪，实验室布满对声音敏感的魔法装置。",
+      "ja": "錬金術師が失踪し、音に反応する魔法装置が残された。"
+    },
+    "type": "stealth",
+    "max_heroes": 1,
+    "expired_at": 6,
+    "available_from_turn": 3,
+    "duration": 2,
+    "difficulty": 1.8,
+    "rewards": { "xp": 105 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  }

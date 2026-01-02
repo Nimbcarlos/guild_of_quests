@@ -1,0 +1,31 @@
+  {
+    "id": 35,
+    "name": {
+      "pt": "A Colmeia do Celeiro",
+      "en": "The Barn Hive",
+      "es": "La Colmena del Granero",
+      "ru": "Амбарный Улей",
+      "zh": "谷仓蜂巢",
+      "ja": "納屋の巣"
+    },
+    "description": {
+      "pt": "Uma colmeia gigantesca se formou dentro de um celeiro. As abelhas não atacam sem provocação, mas os agricultores exigem que o local seja incendiado.",
+      "en": "A massive beehive has formed inside a barn. The bees are not aggressive unless provoked, but farmers demand it be burned down.",
+      "es": "Una colmena gigante se formó dentro de un granero. Las abejas no atacan sin provocación, pero los granjeros exigen quemarla.",
+      "ru": "Огромный улей появился в амбаре. Пчёлы не агрессивны, но фермеры требуют сжечь строение.",
+      "zh": "巨大的蜂巢出现在谷仓中，蜜蜂并不主动攻击，但农民要求焚毁。",
+      "ja": "巨大な蜂の巣が納屋にできた。蜂は攻撃的ではないが、農民は焼き払うことを望んでいる。"
+    },
+    "type": "nature",
+    "max_heroes": 2,
+    "expired_at": 4,
+    "available_from_turn": 2,
+    "duration": 2,
+    "difficulty": 1.4,
+    "rewards": { "xp": 65 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  }

@@ -1,0 +1,48 @@
+{
+  "start_dialogues": {
+    "default": {
+      "en": [
+        "Threat mapped. Lightning vector is most efficient. Proceed.",
+        "Eliminate imbalance. High voltage will neutralize anomalies. Maintain formation.",
+        "Lightning calculated for convergence. Precision and speed are sufficient. Depart now.",
+        "Risk of escalation. Binary resolution is necessary. Apply energy at least resistance.",
+        "Strength directs, Dexterity tracks. I execute. Immobilize anything fast-moving with shock."
+      ],
+      "pt": [
+        "Ameaça mapeada. Vetor Relâmpago é o mais eficiente. Prosseguir.",
+        "Eliminar o desequilíbrio. Alta voltagem neutralizará anomalias. Manter formação.",
+        "Raio calculado para convergência. Precisão e velocidade são suficientes. Partir agora.",
+        "Risco de escalonamento. Resolução binária é necessária. Aplicar energia na menor resistência.",
+        "A Força direciona, a Destreza rastreia. Eu executo. Imobilizar com choque o que se mover rápido."
+      ],
+      "es": [
+        "Amenaza mapeada. El vector Rayo es el más eficiente. Proceder.",
+        "Eliminar el desequilibrio. El alto voltaje neutralizará anomalías. Mantener formación.",
+        "Rayo calculado para convergencia. La precisión y la velocidad son suficientes. Partir ahora.",
+        "Riesgo de escalada. Se requiere resolución binaria. Aplicar energía en la menor resistencia.",
+        "La Fuerza dirige, la Destreza rastrea. Yo ejecuto. Inmovilizar con choque lo que se mueva rápido."
+      ],
+      "ru": [
+        "Угроза нанесена на карту. Вектор Молнии наиболее эффективен. Продолжаем.",
+        "Устранить дисбаланс. Высокое напряжение нейтрализует аномалии. Сохранять строй.",
+        "Молния рассчитана для схождения. Точность и скорость достаточны. Выдвигаемся сейчас.",
+        "Риск эскалации. Требуется бинарное решение. Применить энергию при наименьшем сопротивлении.",
+        "Сила направляет, Ловкость отслеживает. Я исполняю. Обезвредить шоком всё, что движется быстро."
+      ],
+      "zh": [
+        "威胁已定位。闪电向量最有效。继续。",
+        "消除不平衡。高压将中和异常。保持阵型。",
+        "闪电已计算收敛。精度和速度足够。立即出发。",
+        "升级风险。需要二元解决方案。在最小阻力处施加能量。",
+        "力量指引，敏捷追踪。我来执行。用电击固定快速移动的目标。"
+      ],
+      "ja": [
+        "脅威をマッピングした。雷のベクトルが最も効率的だ。進行する。",
+        "不均衡を排除する。高電圧が異常を無力化する。隊形を維持せよ。",
+        "収束に向けて雷を計算した。精度と速度で十分だ。今すぐ出発する。",
+        "エスカレーションのリスク。二値的解決が必要だ。最小抵抗でエネルギーを適用する。",
+        "力が指示し、敏捷性が追跡する。私が実行する。素早く動くものはショックで無力化する。"
+      ]
+    }
+  }
+}

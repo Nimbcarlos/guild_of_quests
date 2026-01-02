@@ -1,0 +1,88 @@
+{
+  "start_dialogues": {
+    "default": {
+      "en": [
+        "Yes... I understand.",
+        "Where... exactly?",
+        "I will... try.",
+        "Starting now.",
+        "The map... please?"
+      ],
+      "pt": [
+        "Sim... entendi.",
+        "Onde... exatamente?",
+        "Vou... tentar.",
+        "Começo agora.",
+        "O mapa... por favor?"
+      ],
+      "es": [
+        "Sí... entiendo.",
+        "¿Dónde... exactamente?",
+        "Voy a... intentarlo.",
+        "Empiezo ahora.",
+        "¿El mapa... por favor?"
+      ],
+      "ru": [
+        "Да... поняла.",
+        "Где... именно?",
+        "Я... попытаюсь.",
+        "Начинаю сейчас.",
+        "Карту... пожалуйста?"
+      ],
+      "zh": [
+        "是的... 我明白了。",
+        "在哪里... 确切地说？",
+        "我将... 尝试。",
+        "现在开始。",
+        "地图... 请给我？"
+      ],
+      "ja": [
+        "はい... わかりました。",
+        "どこに... 正確には？",
+        "やって... みます。",
+        "今すぐ始めます。",
+        "地図は... ありますか？"
+      ]
+    },
+    "chains": {
+      "4": {
+        "0": {
+          "pt": [ "Leo vai com a gente? Ótimo... mais explicações científicas." ],
+          "en": [ "Is Leo coming with us? Great... more scientific explanations." ]
+        },
+        "1": {
+          "pt": [ "Leo, tenta não calcular demais durante a luta, ok?" ],
+          "en": [ "Leo, try not to overanalyze during the fight, okay?" ]
+        },
+        "2": {
+          "pt": [ "Já estou acostumada com suas análises, Leo. Vamos logo." ],
+          "en": [ "I'm used to your analyses, Leo. Let's go." ]
+        }
+      }
+    }
+  },
+  "quests": { 
+    "3": {
+      "success": {
+        "text": {
+          "pt": [ "Eu avancei primeiro. Acertei o braço do campeão." ],
+          "en": [ "I charged first and hit the champion’s arm." ]
+        },
+        "4": {
+          "pt": [ "Eu segurei o monstro enquanto Leo falava demais." ],
+          "en": [ "I held the monster while Leo talked too much." ]
+        }
+      },
+      "failure": {
+        "text": {
+          "pt": [ "Eu avancei primeiro. Acertei o braço do campeão." ],
+          "en": [ "I charged first and hit the champion’s arm." ]
+        },
+        "4": {
+          "pt": [ "Eu segurei o monstro enquanto Leo falava demais." ],
+          "en": [ "I held the monster while Leo talked too much." ]
+        }
+      }
+    }
+  }
+}

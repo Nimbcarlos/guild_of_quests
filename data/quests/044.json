@@ -1,0 +1,31 @@
+  {
+    "id": 44,
+    "name": {
+      "pt": "O Desvio do Fluxo de Lava",
+      "en": "Diverting the Lava Flow",
+      "es": "El Desvío de la Lava",
+      "ru": "Отклонение Лавы",
+      "zh": "熔岩改道",
+      "ja": "溶岩流の進路変更"
+    },
+    "description": {
+      "pt": "Um fluxo de lava recém-formado desce lentamente em direção a um orfanato. O solo é duro demais para escavação e a única chance é redirecionar a lava à força.",
+      "en": "A newly formed lava flow is moving toward an orphanage. The ground is too hard to dig, leaving brute force as the only option.",
+      "es": "Un flujo de lava avanza hacia un orfanato. No hay tiempo ni terreno para excavar.",
+      "ru": "Поток лавы движется к приюту. Копать невозможно, остаётся только физическое вмешательство.",
+      "zh": "新形成的熔岩流正逼近孤儿院，无法挖掘，只能强行改变方向。",
+      "ja": "溶岩流が孤児院に向かっている。掘削は不可能で、力ずくしかない。"
+    },
+    "type": "athletics",
+    "max_heroes": 3,
+    "expired_at": 2,
+    "available_from_turn": 3,
+    "duration": 1,
+    "difficulty": 1.8,
+    "rewards": { "xp": 100 },
+    "required_quests": [],
+    "forbidden_quests": [],
+    "required_fail_quests": [],
+    "required_heroes": [],
+    "forbidden_heroes": []
+  }
