@@ -17,9 +17,9 @@
     "ja": "トンネルの終わりに暗黒の部屋が発見されました。その中でゴブリンの魔術師たちが巨大なゴブリンのために儀式を行っており、それがゴブリンのチャンピオンであると私たちは信じています。"
   },
   "type": "Fight",
-  "max_heroes": 1,
+  "max_heroes": 3,
   "expired_at": 3,
-  "available_from_turn": 10,
+  "available_from_turn": 83,
   "duration": 3,
   "difficulty": 8,
   "rewards": {

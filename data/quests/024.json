@@ -1,31 +1,36 @@
-  {
-    "id": 24,
-    "name": {
-      "pt": "Tratado de Paz",
-      "en": "Peace Treaty",
-      "es": "Tratado de Paz",
-      "ru": "Мирный Договор",
-      "zh": "和平条约",
-      "ja": "和平条約"
-    },
-    "description": {
-      "pt": "Duas vilas disputam recursos hídricos há gerações. A nascente que abastece ambas está secando.",
-      "en": "Two villages have fought over water resources for generations. The spring that supplies both is drying up.",
-      "es": "Dos aldeas luchan por recursos hídricos desde generaciones. El manantial que abastece a ambas se está secando.",
-      "ru": "Две деревни веками спорят за воду. Источник, снабжающий обе, пересыхает.",
-      "zh": "两个村庄世代争夺水资源，如今共同的水源正在干涸。",
-      "ja": "二つの村が何世代にもわたって水資源を巡り争っている。両方を支える水源が枯れつつある。"
-    },
-    "type": "diplomacy",
-    "max_heroes": 3,
-    "expired_at": 7,
-    "available_from_turn": 4,
-    "duration": 3,
-    "difficulty": 1.6,
-    "rewards": { "xp": 85 },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  }
+{
+  "id": 24,
+  "name": {
+    "pt": "Tratado de Paz",
+    "en": "Peace Treaty",
+    "es": "Tratado de Paz",
+    "ru": "Мирный Договор",
+    "zh": "和平条约",
+    "ja": "和平条約"
+  },
+  "description": {
+    "pt": "Duas vilas disputam recursos hídricos há gerações. A nascente que abastece ambas está secando.",
+    "en": "Two villages have fought over water resources for generations. The spring that supplies both is drying up.",
+    "es": "Dos aldeas luchan por recursos hídricos desde generaciones. El manantial que abastece a ambas se está secando.",
+    "ru": "Две деревни веками спорят за воду. Источник, снабжающий обе, пересыхает.",
+    "zh": "两个村庄世代争夺水资源，如今共同的水源正在干涸。",
+    "ja": "二つの村が何世代にもわたって水資源を巡り争っている。両方を支える水源が枯れつつある。"
+  },
+  "type": [
+    "diplomacy",
+    "engineering"
+  ],
+  "max_heroes": 1,
+  "expired_at": 7,
+  "available_from_turn": 125,
+  "duration": 3,
+  "difficulty": 1.6,
+  "rewards": {
+    "xp": 85
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

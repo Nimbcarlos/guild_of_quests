@@ -9,6 +9,7 @@ from kivy.uix.label import Label
 from kivy.uix.textinput import TextInput
 from kivy.uix.spinner import Spinner
 from kivy.uix.popup import Popup
+from core.font_manager import FontManager
 
 QUESTS_PATH = "data/quests"
 HEROES_PATH = "data/heroes"
@@ -41,7 +42,7 @@ class QuestEditor(BoxLayout):
         
         # Painel direito - Editor
         self.editor_panel = ScrollView(size_hint=(0.75, 1))
-        self.editor_content = GridLayout(cols=2, spacing=10, padding=10, size_hint_y=None)
+        self.editor_content = GridLayout(cols=2, spacing=2, padding=5, size_hint_y=None)
         self.editor_content.bind(minimum_height=self.editor_content.setter('height'))
         self.editor_panel.add_widget(self.editor_content)
         self.add_widget(self.editor_panel)
@@ -150,9 +151,14 @@ class QuestEditor(BoxLayout):
         for lang in ['pt', 'en', 'es', 'ru', 'zh', 'ja']:
             self.add_field(f'  {lang.upper()}', quest_data['description'].get(lang, ''), f'description.{lang}', multiline=True)
         
-        # Tipo
-        types = ['str', 'dex', 'int', 'sab', 'luta', 'athletics', 'nature', 'stealth', 'thievery', 'arcana', 'investigation', 'alchemy', 'cure', 'religion', 'diplomacy', 'intimidation', 'survival', 'mining', 'smithing']
-        self.add_spinner_field('Type', quest_data['type'], 'type', types)
+        # Tipo (pode ser string ou lista)
+        quest_type = quest_data.get('type', 'str')
+        if isinstance(quest_type, list):
+            type_display = ', '.join(quest_type)
+        else:
+            type_display = quest_type
+        
+        self.add_type_field('Type', quest_type, 'type')
         
         # Campos numéricos
         self.add_field('Max Heroes', str(quest_data['max_heroes']), 'max_heroes')
@@ -175,7 +181,7 @@ class QuestEditor(BoxLayout):
         self.editor_content.add_widget(Label(text='', size_hint_y=None, height=20))
         self.editor_content.add_widget(Label(text='', size_hint_y=None, height=20))
         
-        btn_layout = BoxLayout(size_hint_y=None, height=50, spacing=10)
+        btn_layout = BoxLayout(size_hint_y=None, height=50, spacing=2)
         
         save_btn = Button(text='Salvar')
         save_btn.bind(on_press=self.save_current_quest)
@@ -201,17 +207,86 @@ class QuestEditor(BoxLayout):
         text_input.field_path = field_path
         self.editor_content.add_widget(text_input)
 
-    def add_spinner_field(self, label, value, field_path, values):
-        self.editor_content.add_widget(Label(text=f'{label}:', size_hint_y=None, height=40))
+    def add_type_field(self, label, value, field_path):
+        """Campo especial para type que pode ser string ou lista"""
+        self.editor_content.add_widget(Label(text=f'{label}:', size_hint_y=None, height=40, bold=True))
+        
+        btn_layout = BoxLayout(size_hint_y=None, height=40)
+        add_btn = Button(text='+ Adicionar Type', size_hint_x=0.3)
+        add_btn.bind(on_press=lambda x: self.add_type_to_list(field_path))
+        btn_layout.add_widget(add_btn)
+        self.editor_content.add_widget(btn_layout)
+        
+        # Mostrar types atuais
+        current_types = value if isinstance(value, list) else [value]
+        
+        for type_name in current_types:
+            self.editor_content.add_widget(Label(text=f'  • {type_name}', size_hint_y=None, height=30))
+            
+            remove_btn = Button(text='X', size_hint=(0.1, None), height=30, background_color=(1, 0.3, 0.3, 1))
+            remove_btn.bind(on_press=lambda x, t=type_name, fp=field_path: self.remove_type_from_list(fp, t))
+            self.editor_content.add_widget(remove_btn)
+
+    def add_type_to_list(self, field_path):
+        """Adiciona um type à lista"""
+        types = ['str', 'dex', 'int', 'sab', 'luta', 'athletics', 'nature', 'stealth', 
+                 'thievery', 'arcana', 'investigation', 'alchemy', 'cure', 'religion', 
+                 'diplomacy', 'intimidation', 'survival', 'mining', 'smithing']
+        
+        content = BoxLayout(orientation='vertical', padding=5, spacing=2)
+        content.add_widget(Label(text='Selecione o type:'))
         
         spinner = Spinner(
-            text=value,
-            values=values,
+            text=types[0],
+            values=types,
             size_hint_y=None,
             height=40
         )
-        spinner.field_path = field_path
-        self.editor_content.add_widget(spinner)
+        content.add_widget(spinner)
+        
+        popup = Popup(title='Adicionar Type', content=content, size_hint=(0.5, 0.4))
+        
+        def add_action(instance):
+            current_value = self.current_quest.get('type', 'str')
+            
+            # Converter para lista se ainda não for
+            if isinstance(current_value, str):
+                self.current_quest['type'] = [current_value]
+            
+            # Adicionar novo type se não existir
+            if spinner.text not in self.current_quest['type']:
+                self.current_quest['type'].append(spinner.text)
+            
+            self.load_quest(self.current_quest)
+            popup.dismiss()
+        
+        add_btn = Button(text='Adicionar', size_hint_y=None, height=40)
+        add_btn.bind(on_press=add_action)
+        content.add_widget(add_btn)
+        
+        popup.open()
+
+    def remove_type_from_list(self, field_path, type_name):
+        """Remove um type da lista"""
+        current_value = self.current_quest.get('type')
+        
+        if isinstance(current_value, list):
+            if len(current_value) > 1:
+                current_value.remove(type_name)
+                # Se sobrar só um, pode converter de volta para string (opcional)
+                # if len(current_value) == 1:
+                #     self.current_quest['type'] = current_value[0]
+            else:
+                # Não permitir remover o último
+                popup = Popup(
+                    title='Erro',
+                    content=Label(text='Quest precisa ter pelo menos 1 type!'),
+                    size_hint=(0.5, 0.3)
+                )
+                popup.open()
+                return
+        
+        self.load_quest(self.current_quest)
 
     def add_list_field(self, label, items, field_path, item_type):
         self.editor_content.add_widget(Label(text=f'{label}:', size_hint_y=None, height=40, bold=True))
@@ -237,7 +312,7 @@ class QuestEditor(BoxLayout):
             self.editor_content.add_widget(remove_btn)
 
     def add_item_to_list(self, field_path, item_type):
-        content = BoxLayout(orientation='vertical', padding=10, spacing=10)
+        content = BoxLayout(orientation='vertical', padding=5, spacing=2)
         
         content.add_widget(Label(text=f'Adicionar {item_type} ID:'))
         
@@ -277,11 +352,9 @@ class QuestEditor(BoxLayout):
         self.load_quest(self.current_quest)
 
     def save_current_quest(self, instance):
-        # Coletar dados dos campos
+        # Coletar dados dos campos (exceto type que é gerenciado separadamente)
         for widget in self.editor_content.children:
             if isinstance(widget, TextInput) and hasattr(widget, 'field_path'):
-                self.set_nested_value(self.current_quest, widget.field_path, widget.text)
-            elif isinstance(widget, Spinner) and hasattr(widget, 'field_path'):
                 self.set_nested_value(self.current_quest, widget.field_path, widget.text)
         
         self.save_quest(self.current_quest)
@@ -322,10 +395,10 @@ class QuestEditor(BoxLayout):
             json.dump(data, f, ensure_ascii=False, indent=2)
 
     def delete_current_quest(self, instance):
-        content = BoxLayout(orientation='vertical', padding=10, spacing=10)
+        content = BoxLayout(orientation='vertical', padding=5, spacing=2)
         content.add_widget(Label(text='Tem certeza que deseja deletar esta quest?'))
         
-        btn_layout = BoxLayout(size_hint_y=None, height=50, spacing=10)
+        btn_layout = BoxLayout(size_hint_y=None, height=50, spacing=2)
         
         def confirm_delete(x):
             path = os.path.join(QUESTS_PATH, self.current_quest['_file'])
@@ -350,6 +423,7 @@ class QuestEditor(BoxLayout):
 
 class QuestEditorApp(App):
     def build(self):
+        FontManager.register_fonts()
         return QuestEditor()
 
 

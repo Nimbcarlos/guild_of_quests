@@ -10,6 +10,7 @@ PERK_ATTRIBUTE_MAP = {
     # 🗡️ Furtividade / crime
     "stealth": "dexterity",      # furtividade
     "thievery": "dexterity",     # ladinagem
+    "performance": "dexterity",   # performance artística
 
     # 🌿 Exploração / natureza
     "survival": "wisdom",        # sobrevivência
@@ -30,7 +31,8 @@ PERK_ATTRIBUTE_MAP = {
 
     # ⛏️ Profissões físicas
     "mining": "strength",        # mineração
-    "blacksmith": "strength",    # ferraria
+    "smithing": "strength",    # ferraria
+    "engineering": "intelligence",    # ferraria
     "athletics": "strength",     # atletismo
 }
 
@@ -74,11 +76,14 @@ class QuestSuccessCalculator:
 
                     value = hero.stats.get(attribute, 0)
                     best_value = max(best_value, value)
+                    print("best_value", best_value)
 
                 total_rating += best_value
+                print("total_rating", total_rating)
 
         # ⚖️ Fórmula base
         base_chance = total_rating / (quest.difficulty * 2)
+        print(f"Total Rating: {total_rating}, Quest Difficulty: {quest.difficulty}")
 
         # ═══════════════════════════════════════
         # 🤝 SINERGIA DE ROLES
@@ -86,7 +91,12 @@ class QuestSuccessCalculator:
         roles = [getattr(hero, "role", None) for hero in heroes]
         party_size = quest.max_heroes
 
-        synergy_multiplier = 1.0
+        if "fight" in quest_types:
+            # Aplica bônus/penalidade de sinergia
+            synergy_multiplier = 1.0  # ou 0.9, etc
+        else:
+            # Quest de habilidade: SEM sinergia
+            synergy_multiplier = 0.0
 
         def has(role, n=1):
             return roles.count(role) >= n

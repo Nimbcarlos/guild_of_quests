@@ -20,7 +20,7 @@
     "ru": "Здоров",
     "kr": "건강함"
   },
-  "perks": ["mining", "smithing"],
+  "perks": ["investigation", "engineering", "thievery"],
   "defects": {
     "Tourette": {
       "en": "Tourette Syndrome",

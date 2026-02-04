@@ -1,31 +1,33 @@
-  {
-    "id": 40,
-    "name": {
-      "pt": "Luz Mortal",
-      "en": "Deadly Glow",
-      "es": "Brillo Mortal",
-      "ru": "Смертельное Свечение",
-      "zh": "致命荧光",
-      "ja": "死の光"
-    },
-    "description": {
-      "pt": "Cogumelos bioluminescentes surgiram na floresta. São belos, mas altamente tóxicos ao toque ou inalação.",
-      "en": "Bioluminescent mushrooms have appeared in the forest. They are beautiful but highly toxic.",
-      "es": "Hongos bioluminiscentes aparecieron en el bosque. Son bellos pero tóxicos.",
-      "ru": "В лесу появились биолюминесцентные грибы. Красивы, но ядовиты.",
-      "zh": "森林中出现了生物荧光蘑菇，美丽却致命。",
-      "ja": "森に発光するキノコが現れた。美しいが猛毒だ。"
-    },
-    "type": "nature",
-    "max_heroes": 2,
-    "expired_at": 4,
-    "available_from_turn": 3,
-    "duration": 2,
-    "difficulty": 1.4,
-    "rewards": { "xp": 65 },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  }
+{
+  "id": 40,
+  "name": {
+    "pt": "Luz Mortal",
+    "en": "Deadly Glow",
+    "es": "Brillo Mortal",
+    "ru": "Смертельное Свечение",
+    "zh": "致命荧光",
+    "ja": "死の光"
+  },
+  "description": {
+    "pt": "Cogumelos bioluminescentes surgiram na floresta. São belos, mas altamente tóxicos ao toque ou inalação.",
+    "en": "Bioluminescent mushrooms have appeared in the forest. They are beautiful but highly toxic.",
+    "es": "Hongos bioluminiscentes aparecieron en el bosque. Son bellos pero tóxicos.",
+    "ru": "В лесу появились биолюминесцентные грибы. Красивы, но ядовиты.",
+    "zh": "森林中出现了生物荧光蘑菇，美丽却致命。",
+    "ja": "森に発光するキノコが現れた。美しいが猛毒だ。"
+  },
+  "type": "nature",
+  "max_heroes": 1,
+  "expired_at": 4,
+  "available_from_turn": 90,
+  "duration": 3,
+  "difficulty": 1.4,
+  "rewards": {
+    "xp": 65
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

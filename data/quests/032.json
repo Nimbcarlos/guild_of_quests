@@ -19,7 +19,7 @@
   "type": "arcana",
   "max_heroes": 1,
   "expired_at": 5,
-  "available_from_turn": 10,
+  "available_from_turn": 124,
   "duration": 3,
   "difficulty": 2,
   "rewards": {

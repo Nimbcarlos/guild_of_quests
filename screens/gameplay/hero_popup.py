@@ -4,20 +4,27 @@ from kivy.uix.popup import Popup
 from kivy.uix.image import Image
 from kivy.uix.scrollview import ScrollView
 from core.language_manager import LanguageManager
+from core.hero import Hero
 
 
-def show_hero_details(screen_instance, hero):
+def show_hero_details(screen_instance, hero, parent_size):
     lm = getattr(screen_instance, "lm", LanguageManager())
+    language = lm.language
+    frame_width, frame_height = parent_size
 
-    root = BoxLayout(orientation="horizontal", spacing=10, padding=10)
+    popup_width = frame_width * 0.70
+    popup_height = frame_height * 0.90
+
+    root = BoxLayout(orientation="horizontal", spacing=15, padding=10)
 
     # ═══════════════════════════════════════════════
     # 🖼️ RETRATO
     # ═══════════════════════════════════════════════
+
     portrait = Image(
         source=hero.photo_body_url or "assets/img/default_hero.png",
-        size_hint=(None, 1),
-        width=250,
+        size_hint=(0.55, 1),
+        width=350,
         allow_stretch=True,
         keep_ratio=True
     )
@@ -26,16 +33,16 @@ def show_hero_details(screen_instance, hero):
     # ═══════════════════════════════════════════════
     # 📜 CONTEÚDO
     # ═══════════════════════════════════════════════
-    content = BoxLayout(orientation="vertical", spacing=8)
+    content = BoxLayout(orientation="vertical", spacing=15)
 
     # ── Nome
     content.add_widget(Label(
         text=f"[b]{hero.name}[/b]",
         markup=True,
-        font_size=38,
+        font_size=max(38, int(frame_height * 0.0335)),
         color=(0, 0, 0, 1),
         size_hint_y=None,
-        height=38,
+        height=50,
         halign="left",
         valign="middle"
     ))
@@ -44,7 +51,7 @@ def show_hero_details(screen_instance, hero):
     role_text = lm.t(f"role_{hero.role}") if hero.role else "—"
     content.add_widget(Label(
         text=f"{hero.hero_class} • {role_text}",
-        font_size=20,
+        font_size=max(22, int(frame_height * 0.0295)),
         color=(0, 0, 0, 1),
         size_hint_y=None,
         height=24,
@@ -58,14 +65,14 @@ def show_hero_details(screen_instance, hero):
     def stat(label, value):
         return Label(
             text=f"[b]{lm.t(label)}[/b]: {value}",
-            font_size=20,
+            font_size=max(22, int(frame_height * 0.0295)),
             markup=True,
             color=(0, 0, 0, 1),
             halign="left",
             valign="middle"
         )
 
-    stats_box = BoxLayout(orientation="vertical", size_hint_y=None, height=70)
+    stats_box = BoxLayout(orientation="vertical", size_hint_y=None, height=90)
 
     row1 = BoxLayout()
     row1.add_widget(stat("strength", hero.stats.get("strength", 0)))
@@ -91,7 +98,7 @@ def show_hero_details(screen_instance, hero):
 
     content.add_widget(Label(
         text=f"[b]{perks_text}[/b]",
-        font_size=20,
+        font_size=max(22, int(frame_height * 0.0295)),
         markup=True,
         color=(0, 0, 0, 1),
         size_hint_y=None,
@@ -114,9 +121,11 @@ def show_hero_details(screen_instance, hero):
     # 📖 HISTÓRIA
     # ═══════════════════════════════════════════════
     story_scroll = ScrollView()
+    heroes = Hero.get_hero_by_id(hero.id, language=language)
+
     story_label = Label(
-        text=hero.story or "",
-        font_size=20,
+        text=heroes.story or "",
+        font_size=max(22, int(frame_height * 0.0295)),
         markup=True,
         color=(0, 0, 0, 1),
         halign="left",
@@ -134,7 +143,6 @@ def show_hero_details(screen_instance, hero):
     content.add_widget(story_scroll)
 
     root.add_widget(content)
-
     # ═══════════════════════════════════════════════
     # 🪟 POPUP
     # ═══════════════════════════════════════════════
@@ -142,7 +150,7 @@ def show_hero_details(screen_instance, hero):
         title='',
         content=root,
         size_hint=(None, None),
-        size=(700, 700),
+        size=(popup_width, popup_height),
         title_align="center",
         title_color=(0, 0, 0, 1),
         title_size=1,

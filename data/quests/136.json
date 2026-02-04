@@ -17,10 +17,10 @@
     "zh": "一个巫妖出现在部落定居点，屠杀了村庄，成群的亡灵正沿着附近的道路和村庄推进。“银剑”公会将直接对抗巫妖——你的任务是牵制亡灵，并在对抗结束前保护该地区。"
   },
   "type": "Fight",
-  "max_heroes": 1,
+  "max_heroes": 4,
   "expired_at": 3,
-  "available_from_turn": 40,
-  "duration": 6,
+  "available_from_turn": 113,
+  "duration": 3,
   "difficulty": 8,
   "rewards": {
     "xp": 50

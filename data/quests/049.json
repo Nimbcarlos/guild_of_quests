@@ -1,31 +1,36 @@
-  {
-    "id": 49,
-    "name": {
-      "pt": "A Roda do Moinho Travada",
-      "en": "The Jammed Mill Wheel",
-      "es": "La Rueda Atascada",
-      "ru": "Заклинившее Колесо",
-      "zh": "卡死的磨轮",
-      "ja": "止まった水車"
-    },
-    "description": {
-      "pt": "A engrenagem principal do moinho travou com um objeto metálico. Se o vento girar as pás bruscamente, todo o mecanismo pode explodir.",
-      "en": "The mill’s main gear is jammed by a metal object. If the wind turns the blades suddenly, the mechanism will explode.",
-      "es": "La rueda está atascada. Un giro brusco causará una explosión.",
-      "ru": "Механизм заклинило. Резкое вращение приведёт к взрыву.",
-      "zh": "磨坊齿轮被金属卡住，强转可能引发爆炸。",
-      "ja": "水車の歯車が詰まり、急回転すれば爆発しかねない。"
-    },
-    "type": "athletics",
-    "max_heroes": 1,
-    "expired_at": 2,
-    "available_from_turn": 2,
-    "duration": 1,
-    "difficulty": 1.4,
-    "rewards": { "xp": 60 },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  }
+{
+  "id": 49,
+  "name": {
+    "pt": "A Roda do Moinho Travada",
+    "en": "The Jammed Mill Wheel",
+    "es": "La Rueda Atascada",
+    "ru": "Заклинившее Колесо",
+    "zh": "卡死的磨轮",
+    "ja": "止まった水車"
+  },
+  "description": {
+    "pt": "A engrenagem principal do moinho travou com um objeto metálico. Se o vento girar as pás bruscamente, todo o mecanismo pode explodir.",
+    "en": "The mill’s main gear is jammed by a metal object. If the wind turns the blades suddenly, the mechanism will explode.",
+    "es": "La rueda está atascada. Un giro brusco causará una explosión.",
+    "ru": "Механизм заклинило. Резкое вращение приведёт к взрыву.",
+    "zh": "磨坊齿轮被金属卡住，强转可能引发爆炸。",
+    "ja": "水車の歯車が詰まり、急回転すれば爆発しかねない。"
+  },
+  "type": [
+    "athletics",
+    "engineering"
+  ],
+  "max_heroes": 1,
+  "expired_at": 2,
+  "available_from_turn": 130,
+  "duration": 3,
+  "difficulty": 1.4,
+  "rewards": {
+    "xp": 60
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

@@ -16,11 +16,14 @@
     "zh": "在一次祈祷中，光之神殿的中央支柱倒塌，将唯一的入口封死在成吨的圣洁大理石之下。信徒被困在内部，空气正在耗尽。公会必须尽快打开通路。",
     "ja": "祈りの最中、光の神の神殿の中央柱が崩れ、唯一の入口が大量の聖なる大理石に塞がれた。中には信者が閉じ込められ、空気が尽きかけている。手遅れになる前に、ギルドは通路を開かなければならない。"
   },
-  "type": "athletics",
+  "type": [
+    "athletics",
+    "engineering"
+  ],
   "max_heroes": 1,
   "expired_at": 4,
-  "available_from_turn": 3,
-  "duration": 2,
+  "available_from_turn": 32,
+  "duration": 3,
   "difficulty": 1.6,
   "rewards": {
     "xp": 55

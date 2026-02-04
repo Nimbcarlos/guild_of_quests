@@ -156,5 +156,5 @@ class Hero:
 
 
 if __name__ == "__main__":
-    hero = Hero.get_hero_by_id(1, language="en")
-    print(hero)
+    hero = Hero.get_hero_by_id(1, language="pt")
+    print(hero.story)

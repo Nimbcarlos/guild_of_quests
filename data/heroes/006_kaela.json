@@ -1,6 +1,6 @@
 {
   "id": 6,
-  "name": "Kaela",
+  "name": "Kaela Dawnlight",
   "role": "healer",
   "hero_class": {
     "en": "Cleric",
@@ -20,7 +20,7 @@
     "ru": "Здорова",
     "kr": "건강함 (Geongangham)"
   },
-  "perks": ["religion", "cure"],
+  "perks": ["religion", "cure", "investigation"],
   "defects": {
     "schizophrenia": {
       "en": "schizophrenia",

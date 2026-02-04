@@ -9,17 +9,17 @@
     "ja": "井戸のスライム"
   },
   "description": {
-    "pt": "Um slime surgiu dentro do poço da vila e contaminou a água. Desça até lá e acabe com essa gosma antes que todos adoeçam.",
-    "en": "A slime has appeared inside the village well, contaminating the water. Go down there and get rid of that goo before everyone falls ill.",
-    "es": "Un slime apareció en el pozo del pueblo y contaminó el agua. Baja y acaba con esa baba antes de que todos enfermen.",
-    "ru": "В деревенском колодце появился слайм и загрязнил воду. Спуститесь туда и избавьтесь от этой слизи, пока все не заболели.",
-    "zh": "一只史莱姆出现在村庄的井里，污染了水源。下去消灭那团粘液，以免所有人都生病。",
-    "ja": "村の井戸の中にスライムが現れ、水を汚染した。皆が病気になる前に、そこへ降りてそのベトベトしたものを排除せよ。"
+    "pt": "Um slime passou a se formar no fundo do poço da vila, contaminando a água usada por todos. O espaço é estreito demais para um confronto direto, mas a criatura reage a vibrações e movimento na superfície. É preciso atraí-la, contê-la ou destruí-la a partir da borda do poço antes que a vila inteira adoeça.",
+    "en": "A slime has begun forming at the bottom of the village well, contaminating the water supply. The space is far too narrow for direct combat, but the creature reacts to movement and vibrations above. It must be lured, contained, or destroyed from the well’s edge before the entire village falls ill.",
+    "es": "Un slime comenzó a formarse en el fondo del pozo del pueblo, contaminando el agua que todos usan. El espacio es demasiado estrecho para un combate directo, pero la criatura reacciona a vibraciones y movimientos en la superficie. Debe ser atraído, contenido o destruido desde el borde del pozo antes de que toda la aldea enferme.",
+    "ru": "На дне деревенского колодца начал формироваться слайм, загрязняя воду, которой пользуются все жители. Пространство слишком узкое для прямого боя, но существо реагирует на вибрации и движение сверху. Его необходимо выманить, сдержать или уничтожить с края колодца, прежде чем вся деревня заболеет.",
+    "zh": "一只史莱姆正在村庄水井的底部逐渐形成，污染了所有人使用的水源。井内空间过于狭窄，无法进行正面战斗，但该生物会对井口的震动和动作产生反应。必须从井口引诱、控制或消灭它，否则整座村庄都会生病。",
+    "ja": "村の井戸の底でスライムが発生し始め、水源が汚染されている。内部は狭すぎて正面から戦うことはできないが、井戸の縁での振動や動きには反応する。村全体が病に倒れる前に、井戸の上から誘導、封じ込め、もしくは排除しなければならない。"
   },
   "type": "fight",
   "max_heroes": 1,
   "expired_at": 3,
-  "available_from_turn": 9,
+  "available_from_turn": 2,
   "duration": 3,
   "difficulty": 1.5,
   "rewards": {

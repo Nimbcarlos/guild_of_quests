@@ -1,31 +1,33 @@
-  {
-    "id": 55,
-    "name": {
-      "pt": "O Cão de Estimação do Nobre",
-      "en": "The Noble’s Pet",
-      "es": "La Mascota del Noble",
-      "ru": "Питомец Дворянина",
-      "zh": "贵族的宠物",
-      "ja": "貴族のペット"
-    },
-    "description": {
-      "pt": "Um nobre cruel confiscou o cachorro de uma criança pobre, alegando que o animal é de raça rara. O cão está preso em um canil luxuoso, fortemente vigiado.",
-      "en": "A cruel noble seized a poor child’s dog, claiming it is a rare breed. The animal is kept in a heavily guarded luxury kennel.",
-      "es": "Un noble cruel confiscó el perro de un niño pobre. Está bajo fuerte vigilancia.",
-      "ru": "Жестокий дворянин отобрал собаку у ребёнка. Пёс под охраной.",
-      "zh": "残忍的贵族夺走了贫民孩子的狗，并严密看守。",
-      "ja": "残酷な貴族が貧しい子供から犬を奪い、厳重に監視している。"
-    },
-    "type": "stealth",
-    "max_heroes": 1,
-    "expired_at": 6,
-    "available_from_turn": 2,
-    "duration": 1,
-    "difficulty": 1.4,
-    "rewards": { "xp": 70 },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  }
+{
+  "id": 55,
+  "name": {
+    "pt": "O Cão de Estimação do Nobre",
+    "en": "The Noble’s Pet",
+    "es": "La Mascota del Noble",
+    "ru": "Питомец Дворянина",
+    "zh": "贵族的宠物",
+    "ja": "貴族のペット"
+  },
+  "description": {
+    "pt": "Um nobre cruel confiscou o cachorro de uma criança pobre, alegando que o animal é de raça rara. O cão está preso em um canil luxuoso, fortemente vigiado.",
+    "en": "A cruel noble seized a poor child’s dog, claiming it is a rare breed. The animal is kept in a heavily guarded luxury kennel.",
+    "es": "Un noble cruel confiscó el perro de un niño pobre. Está bajo fuerte vigilancia.",
+    "ru": "Жестокий дворянин отобрал собаку у ребёнка. Пёс под охраной.",
+    "zh": "残忍的贵族夺走了贫民孩子的狗，并严密看守。",
+    "ja": "残酷な貴族が貧しい子供から犬を奪い、厳重に監視している。"
+  },
+  "type": "stealth",
+  "max_heroes": 1,
+  "expired_at": 6,
+  "available_from_turn": 53,
+  "duration": 3,
+  "difficulty": 1.4,
+  "rewards": {
+    "xp": 70
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

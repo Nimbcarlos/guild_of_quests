@@ -20,7 +20,7 @@
     "ru": "Здоров",
     "kr": "건강함"
   },
-  "perks": ["thievery", "diplomacy"],
+  "perks": ["thievery", "diplomacy", "performance"],
   "defects": {
     "pessimistic": {
       "pt": "Pessimista",

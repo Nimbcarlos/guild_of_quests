@@ -1,31 +1,36 @@
-  {
-    "id": 98,
-    "name": {
-      "pt": "A Mudança do Sino Monumental",
-      "en": "The Monumental Bell",
-      "es": "La Campana Monumental",
-      "ru": "Монументальный Колокол",
-      "zh": "巨钟升顶",
-      "ja": "巨大な鐘の移設"
-    },
-    "description": {
-      "pt": "O sino de bronze da catedral, pesando três toneladas, precisa ser erguido até o topo da torre. As roldanas quebraram e não há substitutas disponíveis.",
-      "en": "The cathedral’s bronze bell, weighing three tons, must be lifted to the tower top. The pulleys are broken, and no replacements exist.",
-      "es": "La campana de tres toneladas debe ser elevada sin poleas funcionales.",
-      "ru": "Трёхтонный колокол нужно поднять без рабочих блоков.",
-      "zh": "三吨重的青铜钟需要在没有滑轮的情况下升至塔顶。",
-      "ja": "三トンの鐘を、壊れた滑車なしで塔の頂上まで運ばねばならない。"
-    },
-    "type": "athletics",
-    "max_heroes": 3,
-    "expired_at": 5,
-    "available_from_turn": 200,
-    "duration": 2,
-    "difficulty": 1.9,
-    "rewards": { "xp": 110 },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  }
+{
+  "id": 98,
+  "name": {
+    "pt": "A Dança das Sombras",
+    "en": "The Dance of Shadows",
+    "es": "La Danza de las Sombras",
+    "ru": "Танец теней",
+    "zh": "暗影舞动",
+    "ja": "影の舞"
+  },
+  "description": {
+    "pt": "Para distrair os guardas de uma mansão durante uma infiltração aliada, a Guilda deve realizar uma performance de rua hipnotizante. A música e os movimentos devem ser tão cativantes que ninguém note o que acontece nas janelas acima.",
+    "en": "To distract manor guards during an allied infiltration, the Guild must perform a mesmerizing street performance. The music and movements must be so captivating that no one notices what happens in the windows above.",
+    "es": "Para distraer a los guardas de una mansión durante una infiltración aliada, el Gremio debe realizar una actuación callejera hipnotizante. La música y los movimientos deben ser tan cautivadores que nadie note lo que ocurre en las ventanas de arriba.",
+    "ru": "Чтобы отвлечь стражу поместья во время проникновения союзников, Гильдия должна устроить завораживающее уличное представление. Музыка и движения должны быть настолько захватывающими, чтобы никто не заметил происходящего в окнах выше.",
+    "zh": "为了在盟友渗透期间分散庄园守卫的注意力，公会必须进行一场令人着迷的街头表演。音乐和动作必须非常有吸引力，以至于没有人注意到上方窗户里发生了什么。",
+    "ja": "味方の潜入中に屋敷の衛兵の注意をそらすため、ギルドは魅惑的な路上パフォーマンスを行わなければならない。音楽と動きは、上の窓で何が起きているか誰も気づかないほど魅力的である必要がある。"
+  },
+  "type": [
+    "performance",
+    "stealth"
+  ],
+  "max_heroes": 2,
+  "expired_at": 2,
+  "available_from_turn": 123,
+  "duration": 3,
+  "difficulty": 2.5,
+  "rewards": {
+    "xp": 115
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

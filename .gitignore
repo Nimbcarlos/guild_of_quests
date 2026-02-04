@@ -10,4 +10,14 @@ assets/music/*
 
 # --- Outros ---
 teste.py
-imagebutton.kv
+build/
+dist/
+test.py
+steam_api.dll
+steam_api.lib
+steam_api64.dll
+steam_api64.lib
+steam_appid.txt
+SteamworksPy64.dll
+Alagazaha.spec
+steamworks/

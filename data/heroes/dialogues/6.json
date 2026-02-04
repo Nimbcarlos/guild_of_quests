@@ -43,6 +43,90 @@
         "銀の声は入口を祝福するように頼みますが、鉄の声はすぐに行くように言います。",
         "私の内なる導きが同意しました。出発できます。"
       ]
+    },
+    "chains": {
+      "13": {
+        "0": {
+          "pt": ["Mina, o coral está cantando o nome dos seus amigos hoje. É... gentil."],
+          "en": ["Mina, the chorus is singing your friends' names today. It's... gentle."],
+          "es": ["Mina, el coro canta hoy los nombres de tus amigos. Es... gentil."],
+          "ru": ["Мина, хор сегодня поет имена твоих друзей. Это... так нежно."],
+          "zh": ["米娜，合唱团今天在歌唱你朋友们的名字。这……很温柔。"],
+          "ja": ["ミーナ、合唱が今日はあなたの友達の名前を歌っているわ。とても……優しい響き。"]
+        },
+        "1": {
+          "pt": ["As vozes dizem que você é a guardiã das memórias esquecidas. Elas gostam de você."],
+          "en": ["The voices say you are the guardian of forgotten memories. They like you."],
+          "es": ["Las voces dicen que eres la guardiana de los recuerdos olvidados. Les agradas."],
+          "ru": ["Голоса говорят, что ты — хранительница забытых воспоминаний. Ты им нравишься."],
+          "zh": ["那些声音说你是被遗忘记忆的守护者。它们喜欢你。"],
+          "ja": ["声たちが言っているわ、あなたは忘れ去られた記憶の守護者だって。気に入られているわよ。"]
+        },
+        "2": {
+          "pt": ["O riso deles... os seus amigos invisíveis parecem tão reais quanto as minhas vozes."],
+          "en": ["Their laughter... your unseen friends seem as real as my voices."],
+          "es": ["Su risa... tus amigos invisibles parecen tan reales como mis voces."],
+          "ru": ["Их смех... твои невидимые друзья кажутся такими же реальными, как мои голоса."],
+          "zh": ["他们的笑声……你那些看不见的朋友看起来和我听到的声音一样真实。"],
+          "ja": ["彼らの笑い声……あなたの目に見えない友達は、私の聞く声と同じくらい本物に見えるわ。"]
+        },
+        "3": {
+          "pt": ["Eu ouço o divino, você ouve o passado. Juntas, ouvimos tudo."],
+          "en": ["I hear the divine, you hear the past. Together, we hear everything."],
+          "es": ["Yo escucho lo divino, tú el pasado. Juntas, lo escuchamos todo."],
+          "ru": ["Я слышу божественное, ты слышишь прошлое. Вместе мы слышим всё."],
+          "zh": ["我听到神启，你听到往昔。在一起，我们听到了所有。"],
+          "ja": ["私は神聖なものを聞き、あなたは過去を聞く。二人なら、すべてが聞こえるわ。"]
+        },
+        "4": {
+          "pt": ["Mina, diga ao Bram para não se preocupar. As vozes dizem que ele ainda é amado."],
+          "en": ["Mina, tell Bram not to worry. The voices say he is still loved."],
+          "es": ["Mina, dile a Bram que no se preocupe. Las voces dicen que aún es amado."],
+          "ru": ["Мина, скажи Браму, чтобы не волновался. Голоса говорят, что его всё еще любят."],
+          "zh": ["米娜，告诉布拉姆别担心。那些声音说他依然被爱着。"],
+          "ja": ["ミーナ、ブラムに心配しないでって伝えて。声たちが、彼は今も愛されていると言っているわ。"]
+        },
+        "5": {
+          "pt": ["Às vezes as vozes gritam, mas quando estou perto de você, elas apenas... sussurram."],
+          "en": ["Sometimes the voices scream, but when I'm near you, they just... whisper."],
+          "es": ["A veces las voces gritan, pero cuando estoy cerca de ti, solo... susurran."],
+          "ru": ["Иногда голоса кричат, но когда я рядом с тобой, они только... шепчут."],
+          "zh": ["有时那些声音在尖叫，但当我靠近你时，它们只是……在低语。"],
+          "ja": ["時々声が叫ぶけれど、あなたのそばにいると、ただ……囁くだけになるの。"]
+        },
+        "6": {
+          "pt": ["Você não me olha como se eu fosse louca. É porque você também vê o que os outros ignoram?"],
+          "en": ["You don't look at me like I'm crazy. Is it because you also see what others ignore?"],
+          "es": ["No me miras como si estuviera loca. ¿Es porque tú también ves lo que otros ignoran?"],
+          "ru": ["Ты не смотришь на меня как на сумасшедшую. Это потому, что ты тоже видишь то, что другие игнорируют?"],
+          "zh": ["你没有像看疯子一样看着我。是因为你也看到了别人忽略的东西吗？"],
+          "ja": ["あなたは私を狂人を見るような目で見ないわね。他の人が無視するもの、あなたにも見えているから？"]
+        },
+        "7": {
+          "pt": ["Há tantas almas dançando ao seu redor, Mina. É um coral lindo."],
+          "en": ["There are so many souls dancing around you, Mina. It's a beautiful chorus."],
+          "es": ["Hay tantas almas danzando a tu alrededor, Mina. Es un coro hermoso."],
+          "ru": ["Вокруг тебя танцует столько душ, Мина. Это прекрасный хор."],
+          "zh": ["米娜，你周围有这么多灵魂在跳舞。这是一个美丽的合唱团。"],
+          "ja": ["あなたの周りでたくさんの魂が踊っているわ、ミーナ。美しい合唱団ね。"]
+        },
+        "8": {
+          "pt": ["O universo diz que hoje o véu entre nós e o 'lá' está bem fininho."],
+          "en": ["The universe says that today the veil between us and 'beyond' is very thin."],
+          "es": ["El universo dice que hoy el velo entre nosotros y el 'más allá' es muy fino."],
+          "ru": ["Вселенная говорит, что сегодня завеса между нами и «тем миром» совсем тонкая."],
+          "zh": ["宇宙说，今天我们与“彼岸”之间的薄幕变得非常透明。"],
+          "ja": ["宇宙が言っているわ。今日、私たちと「向こう側」を隔てる幕はとても薄くなっているって。"]
+        },
+        "9": {
+          "pt": ["Mina, vamos levar seus amigos para passear. As vozes querem cantar para eles."],
+          "en": ["Mina, let's take your friends for a walk. The voices want to sing for them."],
+          "es": ["Mina, llevemos a tus amigos a pasear. Las voces quieren cantar para ellos."],
+          "ru": ["Мина, давай выгуляем твоих друзей. Голоса хотят спеть для них."],
+          "zh": ["米娜，带上你的朋友们去散散步吧。那些声音想为他们唱歌。"],
+          "ja": ["ミーナ、あなたの友達を連れて行きましょう。声たちが彼らのために歌いたがっているわ。"]
+        }
+      }
     }
   }
 }

@@ -1,31 +1,33 @@
-  {
-    "id": 99,
-    "name": {
-      "pt": "A Matilha da Estrada",
-      "en": "The Roadside Pack",
-      "es": "La Manada del Camino",
-      "ru": "Дорожная Стая",
-      "zh": "道路狼群",
-      "ja": "街道の狼群"
-    },
-    "description": {
-      "pt": "Lobos têm atacado viajantes à luz do dia, algo incomum para a espécie. Testemunhas relatam que a matilha caça de forma coordenada e sem medo de humanos.",
-      "en": "Wolves have been attacking travelers in broad daylight, an unusual behavior. Witnesses claim the pack hunts in a coordinated manner without fear of humans.",
-      "es": "Lobos atacan viajeros a plena luz del día, un comportamiento inusual. Testigos afirman que cazan de forma coordinada y sin temor.",
-      "ru": "Волки нападают на путников при свете дня, что крайне необычно. Свидетели говорят о слаженной охоте без страха перед людьми.",
-      "zh": "狼群在白天袭击旅人，行为反常，且配合默契，毫无畏惧。",
-      "ja": "狼が昼間に旅人を襲っている。群れは連携しており、人間を恐れていない。"
-    },
-    "type": "survival",
-    "max_heroes": 2,
-    "expired_at": 3,
-    "available_from_turn": 200,
-    "duration": 1,
-    "difficulty": 1.3,
-    "rewards": { "xp": 55 },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  }
+{
+  "id": 99,
+  "name": {
+    "pt": "Infiltração no Arquivo Olvidado",
+    "en": "Infiltration of the Forgotten Archive",
+    "es": "Infiltración en el Archivo Olvidado",
+    "ru": "Проникновение в забытый архив",
+    "zh": "潜入遗忘档案室",
+    "ja": "忘れられた記録保管所への潜入"
+  },
+  "description": {
+    "pt": "Um testamento antigo foi escondido nos arquivos de um tabelião corrupto. O local é vigiado dia e noite. Você precisa de alguém que se mova como uma sombra para recuperar o documento sem deixar rastros ou disparar alarmes.",
+    "en": "An ancient will was hidden in a corrupt notary's archives. The place is guarded day and night. You need someone who moves like a shadow to recover the document without leaving traces or triggering alarms.",
+    "es": "Un testamento antiguo fue escondido en los archivos de un notario corrupto. El lugar está vigilado día y noche. Necesitas a alguien que se mueva como una sombra para recuperar el documento sin dejar rastros ni activar alarmas.",
+    "ru": "Древнее завещание было спрятано в архивах коррумпированного нотариуса. Место охраняется днем и ночью. Вам нужен кто-то, кто движется как тень, чтобы вернуть документ, не оставляя следов и не поднимая тревоги.",
+    "zh": "一份古老的遗嘱被藏在一个腐败公证人的档案室里。那里日夜有人看守。你需要一个像影子一样行动的人来找回这份文件，而不留下任何踪迹或触发警报。",
+    "ja": "古い遺言書が腐敗した公証人の記録保管所に隠された。そこは昼夜を問わず警備されている。痕跡を残さず、警報を鳴らさずに書類を回収するために、影のように動く人物が必要だ。"
+  },
+  "type": "stealth",
+  "max_heroes": 1,
+  "expired_at": 6,
+  "available_from_turn": 134,
+  "duration": 3,
+  "difficulty": 2.3,
+  "rewards": {
+    "xp": 90
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

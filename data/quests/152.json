@@ -19,8 +19,8 @@
   "type": "Fight",
   "max_heroes": 1,
   "expired_at": 2,
-  "available_from_turn": 11,
-  "duration": 4,
+  "available_from_turn": 28,
+  "duration": 3,
   "difficulty": 4,
   "rewards": {
     "xp": 50

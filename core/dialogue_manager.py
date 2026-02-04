@@ -31,22 +31,29 @@ class DialogueManager:
     def show_quest_dialogue(self, heroes: list, quest_id: str, result: str) -> list:
         quest_id = str(quest_id)
         result = result.lower()
-        
-        # Cria set com IDs de todos os heróis na party (para busca rápida)
+
+        ROLE_ORDER = {
+            "tank": 0,
+            "dps": 1,
+            "healer": 2
+        }
+
+        # Ordena heróis pela ordem narrativa desejada
+        ordered_heroes = sorted(
+            heroes,
+            key=lambda h: ROLE_ORDER.get((h.role or "").lower(), 99)
+        )
+
         party_ids = {str(h.id) for h in heroes}
-        
         falas = []
-        
-        # Para cada herói, busca seu diálogo
-        for hero in heroes:
+
+        for hero in ordered_heroes:
             hero_id = str(hero.id)
-            
-            # Carrega JSON do herói
+
             hero_data = self._load_hero_dialogue(hero_id)
             if not hero_data:
                 continue
-            
-            # Navega: hero_data → "quests" → quest_id → result
+
             quest_block = hero_data.get("quests", {}).get(quest_id)
             if not quest_block:
                 continue
@@ -54,7 +61,7 @@ class DialogueManager:
             result_block = quest_block.get(result)
             if not result_block:
                 continue
-            
+
             chosen_text = None
 
             # Relações específicas
@@ -76,21 +83,19 @@ class DialogueManager:
 
                 if isinstance(base_texts, list) and base_texts:
                     chosen_text = random.choice(base_texts)
-            
-            # Adiciona a fala se encontrou algum texto
+
             if chosen_text:
                 falas.append({
                     "id": hero_id,
                     "text": chosen_text
                 })
-        
-        # Fallback se nenhum herói falou
+
         if not falas:
             return [{
                 "id": "assistant",
                 "text": self.lm.t("assistant_fallback_basic_report")
             }]
-        
+
         return falas
 
     def get_start_dialogue(self, heroes: list, relation_counters: dict = None) -> list:

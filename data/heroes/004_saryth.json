@@ -20,7 +20,7 @@
     "ru": "Здоров",
     "kr": "건강함"
   },
-  "perks": ["cure", "nature"],
+  "perks": ["cure", "nature", "performance"],
   "defects": {
     "narcissistic": {
       "pt": "Narcisista",

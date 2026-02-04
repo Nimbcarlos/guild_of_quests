@@ -1,31 +1,36 @@
-  {
-    "id": 23,
-    "name": {
-      "pt": "Acusação Falsa",
-      "en": "False Accusation",
-      "es": "Acusación Falsa",
-      "ru": "Ложное Обвинение",
-      "zh": "虚假指控",
-      "ja": "冤罪"
-    },
-    "description": {
-      "pt": "Um jovem estrangeiro foi acusado de roubo. A ala norte da cidade se prepara para um linchamento.",
-      "en": "A young foreigner has been accused of theft. The northern district prepares for a lynching.",
-      "es": "Un joven extranjero fue acusado de robo. El distrito norte se prepara para un linchamiento.",
-      "ru": "Молодого иностранца обвинили в краже. Северный район готовится к самосуду.",
-      "zh": "一名外来青年被指控盗窃，城市北区正准备私刑处置。",
-      "ja": "若い外国人が窃盗の罪で告発され、北地区ではリンチが起きそうになっている。"
-    },
-    "type": "investigation",
-    "max_heroes": 3,
-    "expired_at": 4,
-    "available_from_turn": 1,
-    "duration": 1,
-    "difficulty": 1.5,
-    "rewards": { "xp": 75 },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  }
+{
+  "id": 23,
+  "name": {
+    "pt": "Acusação Falsa",
+    "en": "False Accusation",
+    "es": "Acusación Falsa",
+    "ru": "Ложное Обвинение",
+    "zh": "虚假指控",
+    "ja": "冤罪"
+  },
+  "description": {
+    "pt": "Um jovem estrangeiro foi acusado de roubo. A ala norte da cidade se prepara para um linchamento.",
+    "en": "A young foreigner has been accused of theft. The northern district prepares for a lynching.",
+    "es": "Un joven extranjero fue acusado de robo. El distrito norte se prepara para un linchamiento.",
+    "ru": "Молодого иностранца обвинили в краже. Северный район готовится к самосуду.",
+    "zh": "一名外来青年被指控盗窃，城市北区正准备私刑处置。",
+    "ja": "若い外国人が窃盗の罪で告発され、北地区ではリンチが起きそうになっている。"
+  },
+  "type": [
+    "investigation",
+    "diplomacy"
+  ],
+  "max_heroes": 1,
+  "expired_at": 4,
+  "available_from_turn": 101,
+  "duration": 3,
+  "difficulty": 1.5,
+  "rewards": {
+    "xp": 75
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

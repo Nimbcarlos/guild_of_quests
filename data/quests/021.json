@@ -1,32 +1,34 @@
-
-  {
-    "id": 21,
-    "name": {
-      "pt": "Herança Disputada",
-      "en": "Disputed Inheritance",
-      "es": "Herencia Disputada",
-      "ru": "Спорное Наследство",
-      "zh": "遗产纠纷",
-      "ja": "相続争い"
-    },
-    "description": {
-      "pt": "Três irmãos brigam por uma grande fortuna. Eles exigem que a Guilda atue como juíza imparcial do inventário.",
-      "en": "Three siblings fight over a large fortune. They demand the Guild act as an impartial judge of the estate.",
-      "es": "Tres hermanos luchan por una gran fortuna. Exigen que el gremio actúe como juez imparcial.",
-      "ru": "Трое братьев и сестёр спорят из-за крупного наследства. Они требуют, чтобы гильдия была беспристрастным судьёй.",
-      "zh": "三名兄弟姐妹为巨额遗产争执，要求公会作为公正的裁定者。",
-      "ja": "三人の兄弟姉妹が莫大な遺産を巡って争っており、ギルドに公平な裁定を求めている。"
-    },
-    "type": "investigation",
-    "max_heroes": 2,
-    "expired_at": 6,
-    "available_from_turn": 3,
-    "duration": 2,
-    "difficulty": 1.3,
-    "rewards": { "xp": 65 },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  }
+{
+  "id": 21,
+  "name": {
+    "pt": "Silêncio Antes da Morte",
+    "en": "Silence Before Death",
+    "es": "Silencio Antes de la Muerte",
+    "ru": "Тишина Перед Смертью",
+    "zh": "死亡前的寂静",
+    "ja": "死の前の静寂"
+  },
+  "description": {
+    "pt": "Todos os ladinos da Guilda Espada de Prata estão em missão no momento. Uma masmorra recém-descoberta revelou-se um labirinto de armadilhas mecânicas e mágicas extremamente refinadas. Os monstros que habitam as áreas internas estão além da capacidade atual dos heróis da guilda, tornando qualquer confronto inviável. A tarefa é simples e mortal: localizar, mapear e desarmar o maior número possível de armadilhas sem entrar em combate. Um erro não significa luta — significa fim imediato.",
+    "en": "All rogues of the Silver Sword Guild are currently deployed. A newly discovered dungeon has proven to be a labyrinth of highly refined mechanical and magical traps. The creatures deeper within are beyond the guild’s current combat capabilities, making confrontation impossible. The task is simple and lethal: locate, map, and disarm as many traps as possible without engaging in combat. One mistake does not mean a fight — it means immediate death.",
+    "es": "Todos los pícaros del Gremio Espada de Plata están actualmente en misión. Una mazmorra recién descubierta resultó ser un laberinto de trampas mecánicas y mágicas extremadamente refinadas. Las criaturas que habitan las zonas internas superan la capacidad de combate actual de la guilda, haciendo imposible cualquier enfrentamiento. La tarea es simple y mortal: localizar, mapear y desactivar la mayor cantidad de trampas posible sin entrar en combate. Un error no significa lucha — significa muerte inmediata.",
+    "ru": "Все разбойники Гильдии Серебряного Меча сейчас находятся на заданиях. Недавно обнаруженное подземелье оказалось лабиринтом из изощрённых механических и магических ловушек. Существа в глубинных зонах превосходят боевые возможности гильдии, поэтому любое столкновение недопустимо. Задача проста и смертельно опасна: обнаружить, нанести на карту и обезвредить как можно больше ловушек, не вступая в бой. Одна ошибка — не бой, а мгновенная смерть.",
+    "zh": "银剑公会的所有盗贼目前都在执行任务。一座新发现的地下城被证实是由高度精密的机械与魔法陷阱组成的迷宫。更深处的怪物远超公会目前的战斗能力，任何正面冲突都是不可行的。任务既简单又致命：在不进入战斗的情况下，定位、记录并解除尽可能多的陷阱。一次失误不意味着战斗，而是立即死亡。",
+    "ja": "銀剣ギルドの盗賊は全員任務中だ。最近発見されたダンジョンは、極めて精巧な機械式および魔法式の罠で構成された迷宮だった。奥に潜む魔物は、現在のギルド戦力では対処不能であり、戦闘は不可能である。任務は単純で致命的だ。戦闘を避けつつ、罠を発見し、記録し、可能な限り解除すること。ミスは戦闘を意味しない――即死だ。",
+    "kr": "은검 길드의 모든 도적들은 현재 임무 중이다. 새로 발견된 던전은 고도로 정교한 기계식 및 마법식 함정으로 이루어진 미궁으로 판명되었다. 내부 깊숙한 곳의 몬스터들은 현재 길드 전투 능력을 초과하여, 전투는 불가능하다. 임무는 단순하지만 치명적이다. 전투 없이 함정을 탐지하고, 기록하며, 가능한 한 많이 해체하라. 실수는 전투를 의미하지 않는다 — 즉사다."
+  },
+  "type": "thievery",
+  "max_heroes": 1,
+  "expired_at": 5,
+  "available_from_turn": 117,
+  "duration": 3,
+  "difficulty": 2.2,
+  "rewards": {
+    "xp": 80
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

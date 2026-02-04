@@ -17,9 +17,9 @@
     "ja": "ロード・カシアン・ウェイクロフトの息子が失踪し、彼は部族が誘拐したと主張している。手がかりは離れた集落を示している。英雄たちはその場所を調査し、若者を救出し、救出を阻止しようとするあらゆる脅威を排除しなければならない。"
   },
   "type": "Fight",
-  "max_heroes": 1,
+  "max_heroes": 2,
   "expired_at": 3,
-  "available_from_turn": 25,
+  "available_from_turn": 96,
   "duration": 3,
   "difficulty": 4,
   "rewards": {

@@ -1,31 +1,33 @@
-  {
-    "id": 30,
-    "name": {
-      "pt": "O Sindicato dos Esqueletos",
-      "en": "The Skeleton Union",
-      "es": "El Sindicato de Esqueletos",
-      "ru": "Союз Скелетов",
-      "zh": "骷髅工会",
-      "ja": "骸骨組合"
-    },
-    "description": {
-      "pt": "Um necromante oferece mão de obra barata usando esqueletos, com contratos assinados em vida e consentimento das famílias. A ala sul da cidade considera a prática profana.",
-      "en": "A necromancer offers cheap labor using skeletons, with contracts signed in life and family consent. The southern district deems the practice profane.",
-      "es": "Un nigromante ofrece mano de obra barata usando esqueletos, con contratos firmados en vida y consentimiento familiar. El distrito sur lo considera profano.",
-      "ru": "Некромант предлагает дешёвую рабочую силу в виде скелетов, с договорами, подписанными при жизни. Южный район считает это кощунством.",
-      "zh": "一名死灵法师用生前签署合同的骷髅提供廉价劳力，但城市南区认为这是亵渎行为。",
-      "ja": "ネクロマンサーが、生前に契約を結んだ骸骨による安価な労働力を提供している。南地区はこれを冒涜だと考えている。"
-    },
-    "type": "diplomacy",
-    "max_heroes": 2,
-    "expired_at": 6,
-    "available_from_turn": 4,
-    "duration": 3,
-    "difficulty": 1.5,
-    "rewards": { "xp": 75 },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  }
+{
+  "id": 30,
+  "name": {
+    "pt": "O Sindicato dos Esqueletos",
+    "en": "The Skeleton Union",
+    "es": "El Sindicato de Esqueletos",
+    "ru": "Союз Скелетов",
+    "zh": "骷髅工会",
+    "ja": "骸骨組合"
+  },
+  "description": {
+    "pt": "Um necromante oferece mão de obra barata usando esqueletos, com contratos assinados em vida e consentimento das famílias. A ala sul da cidade considera a prática profana.",
+    "en": "A necromancer offers cheap labor using skeletons, with contracts signed in life and family consent. The southern district deems the practice profane.",
+    "es": "Un nigromante ofrece mano de obra barata usando esqueletos, con contratos firmados en vida y consentimiento familiar. El distrito sur lo considera profano.",
+    "ru": "Некромант предлагает дешёвую рабочую силу в виде скелетов, с договорами, подписанными при жизни. Южный район считает это кощунством.",
+    "zh": "一名死灵法师用生前签署合同的骷髅提供廉价劳力，但城市南区认为这是亵渎行为。",
+    "ja": "ネクロマンサーが、生前に契約を結んだ骸骨による安価な労働力を提供している。南地区はこれを冒涜だと考えている。"
+  },
+  "type": "diplomacy",
+  "max_heroes": 1,
+  "expired_at": 6,
+  "available_from_turn": 109,
+  "duration": 3,
+  "difficulty": 1.5,
+  "rewards": {
+    "xp": 75
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

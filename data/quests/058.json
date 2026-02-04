@@ -1,31 +1,36 @@
-  {
-    "id": 58,
-    "name": {
-      "pt": "O Inventário Silencioso",
-      "en": "The Silent Inventory",
-      "es": "El Inventario Silencioso",
-      "ru": "Тихая Инвентаризация",
-      "zh": "无声清点",
-      "ja": "静寂の在庫調査"
-    },
-    "description": {
-      "pt": "Um alquimista excêntrico desapareceu, deixando para trás substâncias instáveis. O laboratório está repleto de sensores mágicos que reagem a qualquer som.",
-      "en": "An eccentric alchemist vanished, leaving unstable substances behind. The lab is filled with sound-sensitive magical sensors.",
-      "es": "Un alquimista desapareció, dejando sustancias inestables y sensores mágicos.",
-      "ru": "Алхимик исчез, оставив нестабильные вещества и звуковые ловушки.",
-      "zh": "炼金术士失踪，实验室布满对声音敏感的魔法装置。",
-      "ja": "錬金術師が失踪し、音に反応する魔法装置が残された。"
-    },
-    "type": "stealth",
-    "max_heroes": 1,
-    "expired_at": 6,
-    "available_from_turn": 3,
-    "duration": 2,
-    "difficulty": 1.8,
-    "rewards": { "xp": 105 },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  }
+{
+  "id": 58,
+  "name": {
+    "pt": "O Cofre das Cinquenta Agulhas",
+    "en": "The Chest of Fifty Needles",
+    "es": "El Cofre de las Cincuenta Agujas",
+    "ru": "Сундук Пятидесяти Игл",
+    "zh": "五十针之匣",
+    "ja": "五十本の針の箱"
+  },
+  "description": {
+    "pt": "A Guilda recuperou um cofre antigo durante uma operação anterior, mas perdeu dois aprendizes ao tentar abri-lo. O mecanismo interno dispara cinquenta agulhas envenenadas em uma sequência microscópica, invisível a olho nu. Não há alavancas externas nem margem para erro. O Conselho exige que o cofre seja aberto para catalogação oficial, mesmo ciente de que qualquer falha será fatal.",
+    "en": "The Guild recovered an ancient chest during a previous operation but lost two apprentices attempting to open it. Its internal mechanism fires fifty poisoned needles in a microscopic sequence, invisible to the naked eye. There are no external levers and no margin for error. The Council demands the chest be opened for official cataloging, fully aware that any mistake will be fatal.",
+    "es": "La Guilda recuperó un cofre antiguo durante una operación anterior, pero perdió a dos aprendices al intentar abrirlo. El mecanismo interno dispara cincuenta agujas envenenadas en una secuencia microscópica, invisible a simple vista. No hay palancas externas ni margen de error. El Consejo exige que el cofre sea abierto para su catalogación oficial, consciente de que cualquier fallo será fatal.",
+    "ru": "Гильдия ранее изъяла древний сундук, но потеряла двух учеников при попытке его открыть. Внутренний механизм выпускает пятьдесят отравленных игл в микроскопической последовательности, незаметной невооружённому глазу. Внешних рычагов нет, права на ошибку тоже. Совет требует вскрыть сундук для официальной каталогизации, понимая, что любая ошибка будет смертельной.",
+    "zh": "公会在之前的行动中回收了一个古老的宝箱，但在尝试开启时失去了两名学徒。其内部机制会以肉眼无法察觉的微观顺序射出五十根毒针。没有外部杠杆，也没有任何容错空间。议会要求将其开启以进行正式登记，并清楚地知道任何失误都会致命。",
+    "ja": "ギルドは以前の作戦で古い箱を回収したが、開封を試みた際に見習いを二人失った。内部機構は肉眼では確認できない微細な順序で、五十本の毒針を発射する。外部レバーは存在せず、失敗の余地もない。評議会は、いかなるミスも致命的であると理解した上で、公式記録のために開封を要求している。"
+  },
+  "type": [
+    "thievery",
+    "engineering"
+  ],
+  "max_heroes": 1,
+  "expired_at": 6,
+  "available_from_turn": 121,
+  "duration": 3,
+  "difficulty": 2.6,
+  "rewards": {
+    "xp": 90
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

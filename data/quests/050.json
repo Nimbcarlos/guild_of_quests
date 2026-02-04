@@ -1,31 +1,33 @@
-  {
-    "id": 50,
-    "name": {
-      "pt": "O Caminho das Pedras de Fogo",
-      "en": "The Path of Fire Stones",
-      "es": "El Camino de las Piedras Ardientes",
-      "ru": "Путь Огненных Камней",
-      "zh": "火石之路",
-      "ja": "燃える石の道"
-    },
-    "description": {
-      "pt": "O solo de uma caverna tornou-se instável e superaquecido. A única travessia possível exige saltos precisos entre plataformas de pedra que afundam lentamente.",
-      "en": "The cave floor has become unstable and overheated. Crossing requires precise jumps between sinking stone platforms.",
-      "es": "El suelo es inestable y ardiente. Solo se puede cruzar saltando.",
-      "ru": "Почва раскалена и нестабильна. Переправа возможна только прыжками.",
-      "zh": "洞穴地面过热且不稳定，只能在下沉的石块间跳跃。",
-      "ja": "洞窟の床が高温で不安定になり、沈む岩を跳び渡るしかない。"
-    },
-    "type": "athletics",
-    "max_heroes": 2,
-    "expired_at": 3,
-    "available_from_turn": 4,
-    "duration": 2,
-    "difficulty": 1.8,
-    "rewards": { "xp": 95 },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  }
+{
+  "id": 50,
+  "name": {
+    "pt": "O Caminho das Pedras de Fogo",
+    "en": "The Path of Fire Stones",
+    "es": "El Camino de las Piedras Ardientes",
+    "ru": "Путь Огненных Камней",
+    "zh": "火石之路",
+    "ja": "燃える石の道"
+  },
+  "description": {
+    "pt": "Uma veia de magma rompeu-se sob as minas, isolando um carregamento de cristais purificadores essenciais para a cidade. O solo da caverna tornou-se um labirinto de pedra superaquecida e plataformas que afundam lentamente. A Guilda precisa de alguém com agilidade e fôlego para atravessar o setor e resgatar a carga antes que o calor a destrua.",
+    "en": "A magma vein has burst beneath the mines, isolating a shipment of purifying crystals essential for the city. The cave floor has become a labyrinth of overheated stone and slowly sinking platforms. The Guild needs someone with agility and stamina to cross the sector and rescue the cargo before the heat destroys it.",
+    "es": "Una veta de magma se rompió bajo las minas, aislando un cargamento de cristais purificadores esenciales para la ciudad. El suelo de la cueva se ha convertido en un laberinto de piedra ardiente y plataformas que se hunden. El gremio necesita a alguien con agilidad y resistencia para rescatar la carga antes de que el calor la destruya.",
+    "ru": "Под шахтами прорвалась магматическая жила, отрезав партию очищающих кристаллов, необходимых городу. Пол пещеры превратился в лабиринт из раскаленных камней и медленно тонущих платформ. Гильдии нужен кто-то ловкий и выносливый, чтобы пересечь сектор и спасти груз, пока жара не уничтожила его.",
+    "zh": "矿井下方的一条岩浆脉破裂，使城市必需的一批净化水晶被孤立。洞穴地面变成了一个由过热石头和缓慢下沉的平台组成的迷宫。公会需要一个敏捷且有耐力的人穿过该区域，在高温摧毁货物之前将其救出。",
+    "ja": "鉱山の地下で溶岩流が噴出し、街に不可欠な浄化クリスタルの積み荷が孤立してしまった。洞窟の床は過熱した岩とゆっくり沈みゆく足場の迷宮と化している。熱で積み荷が破壊される前に、その区域を横断して回収できる敏捷性とスタミナを持つ者をギルドは必要としている。"
+  },
+  "type": "athletics",
+  "max_heroes": 1,
+  "expired_at": 3,
+  "available_from_turn": 131,
+  "duration": 3,
+  "difficulty": 1.8,
+  "rewards": {
+    "xp": 95
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

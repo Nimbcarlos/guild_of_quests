@@ -17,9 +17,9 @@
     "zh": "粘稠的水洼终于崩塌了。从中出现的不仅仅是一个巨大的史莱姆，而是一个巨大、脉动的怪物——村民们已经称之为“史莱姆王”。这只生物正缓慢地向村庄中心移动，不断释放出腐蚀性的粘液，溶解沿途的一切。村庄面临的威胁是即刻和全面的。现在的目标很简单：消灭史莱姆王，并一劳永逸地摧毁其再生的源头。(Niánchóu de shuǐwā zhōngyú bēngtāle. Cóng zhōng chūxiàn de bùjǐn jǐn shì yīgè jùdà de shǐ lái mǔ, ér shì yīgè jùdà, màidòng de guàiwù—cūnmínmen yǐjīng chēng zhī wèi 'Shǐ lái mǔ Wáng'. Zhè zhī shēngwù zhèng huǎnmàn de xiàng cūnzhuāng zhōngxīn yídòng, búduàn shìfàng chū fǔshí xìng de nián yè, róngjiě yántú de yīqiè. Cūnzhuāng miànlín de wēixié shì jíkè hé quánmiàn de. Xiànzài de mùbiāo hěn jiǎndān: xiāomiè Shǐ lái mǔ Wáng, bìng yī láo yǒng yì de cuīhuǐ qí zàishēng de yuántóu.)"
   },
   "type": "Fight",
-  "max_heroes": 1,
+  "max_heroes": 4,
   "expired_at": 3,
-  "available_from_turn": 24,
+  "available_from_turn": 50,
   "duration": 3,
   "difficulty": 8,
   "rewards": {

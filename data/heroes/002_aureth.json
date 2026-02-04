@@ -20,16 +20,16 @@
     "ru": "Здоров",
     "kr": "건강함 (Geongangham)"
   },
-  "perks": ["religion", "diplomacy"],
+  "perks": ["religion", "diplomacy", "intimidation"],
   "defects": {
     "Mal-humored": {
       "pt": "Mal-humorada",
       "en": "Mal-humored",
       "es": "Malhumorada",
-      "zh": "坏脾气 (Huài píqì)",
-      "ja": "不機嫌 (Fukigen)",
+      "zh": "坏脾气",
+      "ja": "不機嫌",
       "ru": "Плохое настроение",
-      "kr": "불쾌한 기분 (Bulkwaehan gibun)"
+      "kr": "불쾌한 기분"
     }
   },
   "story": {

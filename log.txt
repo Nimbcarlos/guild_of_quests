@@ -245,3 +245,1810 @@ Traceback (most recent call last):
 TypeError: 'int' object is not iterable
 
 ============================================================
+
+============================================================
+Erro em: 2026-01-05 14:19:18.005984
+Exception: TypeError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 137
+Função: show_hero_details
+Mensagem: can't multiply sequence by non-int of type 'float'
+Código: popup_size = parent_size * 0.8
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 137, in show_hero_details
+    popup_size = parent_size * 0.8
+                 ~~~~~~~~~~~~^~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+
+============================================================
+
+============================================================
+Erro em: 2026-01-05 14:21:16.361557
+Exception: TypeError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 137
+Função: show_hero_details
+Mensagem: can't multiply sequence by non-int of type 'float'
+Código: popup_size = int(parent_size * 0.8)
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 137, in show_hero_details
+    popup_size = int(parent_size * 0.8)
+                     ~~~~~~~~~~~~^~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+
+============================================================
+
+============================================================
+Erro em: 2026-01-05 14:22:20.896011
+Exception: TypeError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 137
+Função: show_hero_details
+Mensagem: can't multiply sequence by non-int of type 'float'
+Código: popup_size = float(parent_size * 0.8)
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 137, in show_hero_details
+    popup_size = float(parent_size * 0.8)
+                       ~~~~~~~~~~~~^~~~~
+TypeError: can't multiply sequence by non-int of type 'float'
+
+============================================================
+
+============================================================
+Erro em: 2026-01-05 14:29:28.866919
+Exception: NameError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 149
+Função: show_hero_details
+Mensagem: name 'popup_size' is not defined
+Código: size=(popup_size),
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 149, in show_hero_details
+    size=(popup_size),
+          ^^^^^^^^^^
+NameError: name 'popup_size' is not defined. Did you mean: 'popup_width'?
+
+============================================================
+
+============================================================
+Erro em: 2026-01-06 12:30:59.305818
+Exception: AttributeError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 28
+Função: show_hero_details
+Mensagem: 'str' object has no attribute 'width'
+Código: print(hero.photo_body_url.width)
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 28, in show_hero_details
+    print(hero.photo_body_url.width)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'width'
+
+============================================================
+
+============================================================
+Erro em: 2026-01-06 12:43:51.669259
+Exception: AttributeError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 28
+Função: show_hero_details
+Mensagem: 'str' object has no attribute 'width'
+Código: print(hero.photo_body_url.width)
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 28, in show_hero_details
+    print(hero.photo_body_url.width)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'width'
+
+============================================================
+
+============================================================
+Erro em: 2026-01-06 14:08:17.669769
+Exception: TypeError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 29
+Função: show_hero_details
+Mensagem: Image.__init__() takes 1 positional argument but 2 were given
+Código: img = Image(hero.photo_body_url)
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 29, in show_hero_details
+    img = Image(hero.photo_body_url)
+TypeError: Image.__init__() takes 1 positional argument but 2 were given
+
+============================================================
+
+============================================================
+Erro em: 2026-01-06 14:13:15.071257
+Exception: TypeError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 29
+Função: show_hero_details
+Mensagem: Image.__init__() takes 1 positional argument but 2 were given
+Código: img = Image(hero.photo_body_url)
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 29, in show_hero_details
+    img = Image(hero.photo_body_url)
+TypeError: Image.__init__() takes 1 positional argument but 2 were given
+
+============================================================
+
+============================================================
+Erro em: 2026-01-09 09:37:33.212616
+Exception: AttributeError
+Arquivo: d:\Python\Jogo\core\quest_success_calculator.py
+Linha: 65
+Função: calculate_success_chance
+Mensagem: 'list' object has no attribute 'type'
+Código: if isinstance(quest.type, str):
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 470, in on_select_press
+    self.update_success_label(quest)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 686, in update_success_label
+    chance = calculate_success_chance(heroes, quest)
+  File "d:\Python\Jogo\core\quest_success_calculator.py", line 243, in calculate_success_chance
+    return _global_calculator.calculate_success_chance(heroes, quest)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\core\quest_success_calculator.py", line 65, in calculate_success_chance
+    if isinstance(quest.type, str):
+                  ^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'type'
+
+============================================================
+
+============================================================
+Erro em: 2026-01-12 19:26:36.478933
+Exception: AttributeError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 124
+Função: show_hero_details
+Mensagem: 'str' object has no attribute 'get'
+Código: story_text = hero.story.get(language)
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 124, in show_hero_details
+    story_text = hero.story.get(language)
+                 ^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+============================================================
+
+============================================================
+Erro em: 2026-01-12 19:27:49.842154
+Exception: AttributeError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 124
+Função: show_hero_details
+Mensagem: 'str' object has no attribute 'getattr'
+Código: story_text = hero.story.getattr(hero.story, language)
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 124, in show_hero_details
+    story_text = hero.story.getattr(hero.story, language)
+                 ^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'getattr'
+
+============================================================
+
+============================================================
+Erro em: 2026-01-12 19:28:30.543292
+Exception: AttributeError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 124
+Função: show_hero_details
+Mensagem: 'str' object has no attribute 'pt'
+Código: story_text = getattr(hero.story, language)
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 124, in show_hero_details
+    story_text = getattr(hero.story, language)
+AttributeError: 'str' object has no attribute 'pt'
+
+============================================================
+
+============================================================
+Erro em: 2026-01-12 19:34:18.513613
+Exception: TypeError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 124
+Função: show_hero_details
+Mensagem: string indices must be integers, not 'str'
+Código: hero_story = hero.story[language]
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 124, in show_hero_details
+    hero_story = hero.story[language]
+                 ~~~~~~~~~~^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+============================================================
+
+============================================================
+Erro em: 2026-01-12 19:35:46.180759
+Exception: TypeError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 124
+Função: show_hero_details
+Mensagem: string indices must be integers, not 'str'
+Código: print(hero.story[language])
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 124, in show_hero_details
+    print(hero.story[language])
+          ~~~~~~~~~~^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+============================================================
+
+============================================================
+Erro em: 2026-01-12 19:36:54.366785
+Exception: TypeError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 124
+Função: show_hero_details
+Mensagem: string indices must be integers, not 'str'
+Código: print(hero.story[str(language)])
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 124, in show_hero_details
+    print(hero.story[str(language)])
+          ~~~~~~~~~~^^^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+============================================================
+
+============================================================
+Erro em: 2026-01-12 20:08:36.485016
+Exception: TypeError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 124
+Função: show_hero_details
+Mensagem: 'Hero' object is not iterable
+Código: for x in hero:
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 124, in show_hero_details
+    for x in hero:
+             ^^^^
+TypeError: 'Hero' object is not iterable
+
+============================================================
+
+============================================================
+Erro em: 2026-01-12 20:18:07.390671
+Exception: AttributeError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 50
+Função: show_hero_details
+Mensagem: 'Hero' object has no attribute 'role'
+Código: role_text = lm.t(f"role_{hero.role}") if hero.role else "—"
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 50, in show_hero_details
+    role_text = lm.t(f"role_{hero.role}") if hero.role else "—"
+                                             ^^^^^^^^^
+AttributeError: 'Hero' object has no attribute 'role'
+
+============================================================
+
+============================================================
+Erro em: 2026-01-12 20:18:50.053500
+Exception: AttributeError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 50
+Função: show_hero_details
+Mensagem: 'Hero' object has no attribute 'role'
+Código: role_text = lm.t(f"role_{hero.role}") if hero.role else "—"
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 50, in show_hero_details
+    role_text = lm.t(f"role_{hero.role}") if hero.role else "—"
+                                             ^^^^^^^^^
+AttributeError: 'Hero' object has no attribute 'role'
+
+============================================================
+
+============================================================
+Erro em: 2026-01-12 20:19:24.040931
+Exception: AttributeError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 50
+Função: show_hero_details
+Mensagem: 'Hero' object has no attribute 'role'
+Código: role_text = lm.t(f"role_{hero.role}") if hero.role else "—"
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 50, in show_hero_details
+    role_text = lm.t(f"role_{hero.role}") if hero.role else "—"
+                                             ^^^^^^^^^
+AttributeError: 'Hero' object has no attribute 'role'
+
+============================================================
+
+============================================================
+Erro em: 2026-01-12 20:23:46.132134
+Exception: AttributeError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 125
+Função: show_hero_details
+Mensagem: 'NoneType' object has no attribute 'story'
+Código: print(heroes.story)
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 125, in show_hero_details
+    print(heroes.story)
+          ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'story'
+
+============================================================
+
+============================================================
+Erro em: 2026-01-12 20:24:07.532620
+Exception: AttributeError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 125
+Função: show_hero_details
+Mensagem: 'NoneType' object has no attribute 'story'
+Código: print(heroes.story)
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 125, in show_hero_details
+    print(heroes.story)
+          ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'story'
+
+============================================================
+
+============================================================
+Erro em: 2026-01-12 20:24:44.168068
+Exception: AttributeError
+Arquivo: d:\Python\Jogo\screens\gameplay\hero_popup.py
+Linha: 128
+Função: show_hero_details
+Mensagem: 'NoneType' object has no attribute 'story'
+Código: text=heroes.story or "",
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 438, in <lambda>
+    on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
+                                  ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\screens\gameplay\hero_popup.py", line 128, in show_hero_details
+    text=heroes.story or "",
+         ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'story'
+
+============================================================
+
+============================================================
+Erro em: 2026-01-28 09:18:38.054381
+Exception: NameError
+Arquivo: d:\Python\Jogo\screens\dialog_box.py
+Linha: 124
+Função: _open_popup
+Mensagem: name 'Image' is not defined
+Código: speaker_bg = Image(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 379, in idle
+    Clock.tick()
+    ~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 776, in post_idle
+    self._process_events()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "kivy\\_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 370, in _update
+    self.stop(widget)
+    ~~~~~~~~~^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 236, in stop
+    self.dispatch('on_complete', widget)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\screenmanager.py", line 419, in _on_complete
+    self.screen_in.dispatch('on_enter')
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 65, in on_enter
+    self.qm.assistant.on_game_start()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\core\assistant_manager.py", line 107, in on_game_start
+    self.speak("assistant_intro_1")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\core\assistant_manager.py", line 91, in speak
+    self.dialogue_box._process_next()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\screens\dialog_box.py", line 78, in _process_next
+    self._open_popup()
+    ~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\screens\dialog_box.py", line 124, in _open_popup
+    speaker_bg = Image(
+                 ^^^^^
+NameError: name 'Image' is not defined
+
+============================================================
+
+============================================================
+Erro em: 2026-01-28 09:19:42.591336
+Exception: NameError
+Arquivo: d:\Python\Jogo\screens\dialog_box.py
+Linha: 162
+Função: _open_popup
+Mensagem: name 'speaker_box' is not defined
+Código: speaker_box.add_widget(self.speaker_label)
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 379, in idle
+    Clock.tick()
+    ~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 776, in post_idle
+    self._process_events()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "kivy\\_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 370, in _update
+    self.stop(widget)
+    ~~~~~~~~~^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 236, in stop
+    self.dispatch('on_complete', widget)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\screenmanager.py", line 419, in _on_complete
+    self.screen_in.dispatch('on_enter')
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 65, in on_enter
+    self.qm.assistant.on_game_start()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\core\assistant_manager.py", line 107, in on_game_start
+    self.speak("assistant_intro_1")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\core\assistant_manager.py", line 91, in speak
+    self.dialogue_box._process_next()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\screens\dialog_box.py", line 80, in _process_next
+    self._open_popup()
+    ~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\screens\dialog_box.py", line 162, in _open_popup
+    speaker_box.add_widget(self.speaker_label)
+    ^^^^^^^^^^^
+NameError: name 'speaker_box' is not defined. Did you mean: 'speaker_bg'?
+
+============================================================
+
+============================================================
+Erro em: 2026-01-28 09:22:29.477007
+Exception: ModuleNotFoundError
+Arquivo: d:\Python\Jogo\screens\dialog_box.py
+Linha: 82
+Função: _open_popup
+Mensagem: No module named 'kivy.uix.canvas'
+Código: from kivy.uix.canvas import Color, RoundedRectangle
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 379, in idle
+    Clock.tick()
+    ~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 776, in post_idle
+    self._process_events()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "kivy\\_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 370, in _update
+    self.stop(widget)
+    ~~~~~~~~~^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 236, in stop
+    self.dispatch('on_complete', widget)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\screenmanager.py", line 419, in _on_complete
+    self.screen_in.dispatch('on_enter')
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 65, in on_enter
+    self.qm.assistant.on_game_start()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\core\assistant_manager.py", line 107, in on_game_start
+    self.speak("assistant_intro_1")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\core\assistant_manager.py", line 91, in speak
+    self.dialogue_box._process_next()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\screens\dialog_box.py", line 78, in _process_next
+    self._open_popup()
+    ~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\screens\dialog_box.py", line 82, in _open_popup
+    from kivy.uix.canvas import Color, RoundedRectangle
+ModuleNotFoundError: No module named 'kivy.uix.canvas'
+
+============================================================
+
+============================================================
+Erro em: 2026-01-28 10:56:47.550634
+Exception: TypeError
+Arquivo: kivy\\_event.pyx
+Linha: 238
+Função: kivy._event.EventDispatcher.__init__
+Mensagem: Properties ['orientation'] passed to __init__ may not be existing property names. Valid properties are ['_bar_color', '_handle_x_pos', '_handle_x_size', '_handle_y_pos', '_handle_y_size', '_viewport', 'always_overscroll', 'bar_color', 'bar_inactive_color', 'bar_margin', 'bar_pos', 'bar_pos_x', 'bar_pos_y', 'bar_width', 'center', 'center_x', 'center_y', 'children', 'cls', 'disabled', 'do_scroll', 'do_scroll_x', 'do_scroll_y', 'effect_cls', 'effect_x', 'effect_y', 'hbar', 'height', 'ids', 'motion_filter', 'opacity', 'parent', 'pos', 'pos_hint', 'right', 'scroll_distance', 'scroll_timeout', 'scroll_type', 'scroll_wheel_distance', 'scroll_x', 'scroll_y', 'size', 'size_hint', 'size_hint_max', 'size_hint_max_x', 'size_hint_max_y', 'size_hint_min', 'size_hint_min_x', 'size_hint_min_y', 'size_hint_x', 'size_hint_y', 'smooth_scroll_end', 'top', 'valign', 'vbar', 'viewport_size', 'width', 'x', 'y']
+Código: 
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "kivy\\_event.pyx", line 235, in kivy._event.EventDispatcher.__init__
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 379, in idle
+    Clock.tick()
+    ~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 776, in post_idle
+    self._process_events()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "kivy\\_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 370, in _update
+    self.stop(widget)
+    ~~~~~~~~~^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 236, in stop
+    self.dispatch('on_complete', widget)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\screenmanager.py", line 419, in _on_complete
+    self.screen_in.dispatch('on_enter')
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 65, in on_enter
+    self.qm.assistant.on_game_start()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\core\assistant_manager.py", line 107, in on_game_start
+    self.speak("assistant_intro_1")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\core\assistant_manager.py", line 91, in speak
+    self.dialogue_box._process_next()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\screens\dialog_box.py", line 79, in _process_next
+    self._open_popup()
+    ~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\screens\dialog_box.py", line 143, in _open_popup
+    dialogue_box = ScrollView(
+        orientation='vertical',
+        size_hint_y=None,
+        height=95 + new_frame_height
+    )
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\scrollview.py", line 543, in __init__
+    super(ScrollView, self).__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\widget.py", line 357, in __init__
+    super(Widget, self).__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "kivy\\_event.pyx", line 238, in kivy._event.EventDispatcher.__init__
+TypeError: Properties ['orientation'] passed to __init__ may not be existing property names. Valid properties are ['_bar_color', '_handle_x_pos', '_handle_x_size', '_handle_y_pos', '_handle_y_size', '_viewport', 'always_overscroll', 'bar_color', 'bar_inactive_color', 'bar_margin', 'bar_pos', 'bar_pos_x', 'bar_pos_y', 'bar_width', 'center', 'center_x', 'center_y', 'children', 'cls', 'disabled', 'do_scroll', 'do_scroll_x', 'do_scroll_y', 'effect_cls', 'effect_x', 'effect_y', 'hbar', 'height', 'ids', 'motion_filter', 'opacity', 'parent', 'pos', 'pos_hint', 'right', 'scroll_distance', 'scroll_timeout', 'scroll_type', 'scroll_wheel_distance', 'scroll_x', 'scroll_y', 'size', 'size_hint', 'size_hint_max', 'size_hint_max_x', 'size_hint_max_y', 'size_hint_min', 'size_hint_min_x', 'size_hint_min_y', 'size_hint_x', 'size_hint_y', 'smooth_scroll_end', 'top', 'valign', 'vbar', 'viewport_size', 'width', 'x', 'y']
+
+============================================================
+
+============================================================
+Erro em: 2026-01-28 14:08:46.073032
+Exception: TypeError
+Arquivo: kivy\\_event.pyx
+Linha: 238
+Função: kivy._event.EventDispatcher.__init__
+Mensagem: Properties ['orientation'] passed to __init__ may not be existing property names. Valid properties are ['_bar_color', '_handle_x_pos', '_handle_x_size', '_handle_y_pos', '_handle_y_size', '_viewport', 'always_overscroll', 'bar_color', 'bar_inactive_color', 'bar_margin', 'bar_pos', 'bar_pos_x', 'bar_pos_y', 'bar_width', 'center', 'center_x', 'center_y', 'children', 'cls', 'disabled', 'do_scroll', 'do_scroll_x', 'do_scroll_y', 'effect_cls', 'effect_x', 'effect_y', 'hbar', 'height', 'ids', 'motion_filter', 'opacity', 'parent', 'pos', 'pos_hint', 'right', 'scroll_distance', 'scroll_timeout', 'scroll_type', 'scroll_wheel_distance', 'scroll_x', 'scroll_y', 'size', 'size_hint', 'size_hint_max', 'size_hint_max_x', 'size_hint_max_y', 'size_hint_min', 'size_hint_min_x', 'size_hint_min_y', 'size_hint_x', 'size_hint_y', 'smooth_scroll_end', 'top', 'valign', 'vbar', 'viewport_size', 'width', 'x', 'y']
+Código: 
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "kivy\\_event.pyx", line 235, in kivy._event.EventDispatcher.__init__
+TypeError: object.__init__() takes exactly one argument (the instance to initialize)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 379, in idle
+    Clock.tick()
+    ~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 776, in post_idle
+    self._process_events()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "kivy\\_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 370, in _update
+    self.stop(widget)
+    ~~~~~~~~~^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 236, in stop
+    self.dispatch('on_complete', widget)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\screenmanager.py", line 419, in _on_complete
+    self.screen_in.dispatch('on_enter')
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 65, in on_enter
+    self.qm.assistant.on_game_start()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\core\assistant_manager.py", line 107, in on_game_start
+    self.speak("assistant_intro_1")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\core\assistant_manager.py", line 91, in speak
+    self.dialogue_box._process_next()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\screens\dialog_box.py", line 79, in _process_next
+    self._open_popup()
+    ~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\screens\dialog_box.py", line 144, in _open_popup
+    dialogue_box = ScrollView(
+        orientation='vertical',
+        size_hint_y=None,
+        height=popup_height * 0.65
+    )
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\scrollview.py", line 543, in __init__
+    super(ScrollView, self).__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\widget.py", line 357, in __init__
+    super(Widget, self).__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "kivy\\_event.pyx", line 238, in kivy._event.EventDispatcher.__init__
+TypeError: Properties ['orientation'] passed to __init__ may not be existing property names. Valid properties are ['_bar_color', '_handle_x_pos', '_handle_x_size', '_handle_y_pos', '_handle_y_size', '_viewport', 'always_overscroll', 'bar_color', 'bar_inactive_color', 'bar_margin', 'bar_pos', 'bar_pos_x', 'bar_pos_y', 'bar_width', 'center', 'center_x', 'center_y', 'children', 'cls', 'disabled', 'do_scroll', 'do_scroll_x', 'do_scroll_y', 'effect_cls', 'effect_x', 'effect_y', 'hbar', 'height', 'ids', 'motion_filter', 'opacity', 'parent', 'pos', 'pos_hint', 'right', 'scroll_distance', 'scroll_timeout', 'scroll_type', 'scroll_wheel_distance', 'scroll_x', 'scroll_y', 'size', 'size_hint', 'size_hint_max', 'size_hint_max_x', 'size_hint_max_y', 'size_hint_min', 'size_hint_min_x', 'size_hint_min_y', 'size_hint_x', 'size_hint_y', 'smooth_scroll_end', 'top', 'valign', 'vbar', 'viewport_size', 'width', 'x', 'y']
+
+============================================================
+
+============================================================
+Erro em: 2026-01-29 16:13:52.202126
+Exception: AttributeError
+Arquivo: d:\Python\Jogo\screens\dialog_box.py
+Linha: 154
+Função: _open_popup
+Mensagem: 'DialogueBox' object has no attribute 'width'
+Código: font_size=(self.width, None),
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 379, in idle
+    Clock.tick()
+    ~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 776, in post_idle
+    self._process_events()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "kivy\\_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 370, in _update
+    self.stop(widget)
+    ~~~~~~~~~^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 236, in stop
+    self.dispatch('on_complete', widget)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\screenmanager.py", line 419, in _on_complete
+    self.screen_in.dispatch('on_enter')
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 65, in on_enter
+    self.qm.assistant.on_game_start()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\core\assistant_manager.py", line 107, in on_game_start
+    self.speak("assistant_intro_1")
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Python\Jogo\core\assistant_manager.py", line 91, in speak
+    self.dialogue_box._process_next()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\screens\dialog_box.py", line 79, in _process_next
+    self._open_popup()
+    ~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\screens\dialog_box.py", line 154, in _open_popup
+    font_size=(self.width, None),
+               ^^^^^^^^^^
+AttributeError: 'DialogueBox' object has no attribute 'width'
+
+============================================================
+
+============================================================
+Erro em: 2026-01-29 17:17:17.377435
+Exception: AttributeError
+Arquivo: d:\Python\Jogo\screens\dialog_box.py
+Linha: 257
+Função: _typewriter_effect
+Mensagem: 'DialogueBox' object has no attribute 'scroll_instance'
+Código: self.scroll_instance.scroll_y = 0
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 379, in idle
+    Clock.tick()
+    ~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 776, in post_idle
+    self._process_events()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "kivy\\_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy\\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "d:\Python\Jogo\screens\dialog_box.py", line 257, in _typewriter_effect
+    self.scroll_instance.scroll_y = 0
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DialogueBox' object has no attribute 'scroll_instance'
+
+============================================================
+
+============================================================
+Erro em: 2026-02-02 13:01:11.218085
+Exception: TypeError
+Arquivo: d:\Python\Jogo\screens\menu_screen.py
+Linha: 204
+Função: exit_game
+Mensagem: ConfirmationPopup.__init__() missing 1 required positional argument: 'message_key'
+Código: popup = ConfirmationPopup(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\menu_screen.py", line 204, in exit_game
+    popup = ConfirmationPopup(
+        title=title,
+    ...<4 lines>...
+        on_cancel=None  # Não faz nada ao cancelar
+    )
+TypeError: ConfirmationPopup.__init__() missing 1 required positional argument: 'message_key'
+
+============================================================
+
+============================================================
+Erro em: 2026-02-02 13:04:31.645575
+Exception: TypeError
+Arquivo: d:\Python\Jogo\screens\menu_screen.py
+Linha: 204
+Função: exit_game
+Mensagem: ConfirmationPopup.__init__() missing 1 required positional argument: 'message_key'
+Código: popup = ConfirmationPopup(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\menu_screen.py", line 204, in exit_game
+    popup = ConfirmationPopup(
+        title=title,
+    ...<4 lines>...
+        on_cancel=None  # Não faz nada ao cancelar
+    )
+TypeError: ConfirmationPopup.__init__() missing 1 required positional argument: 'message_key'
+
+============================================================
+
+============================================================
+Erro em: 2026-02-02 13:06:01.562528
+Exception: TypeError
+Arquivo: d:\Python\Jogo\screens\menu_screen.py
+Linha: 204
+Função: exit_game
+Mensagem: ConfirmationPopup.__init__() missing 1 required positional argument: 'message_key'
+Código: popup = ConfirmationPopup(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\menu_screen.py", line 204, in exit_game
+    popup = ConfirmationPopup(
+        title=title,
+    ...<4 lines>...
+        on_cancel=None  # Não faz nada ao cancelar
+    )
+TypeError: ConfirmationPopup.__init__() missing 1 required positional argument: 'message_key'
+
+============================================================
+
+============================================================
+Erro em: 2026-02-02 13:06:13.414461
+Exception: TypeError
+Arquivo: d:\Python\Jogo\screens\menu_screen.py
+Linha: 204
+Função: exit_game
+Mensagem: ConfirmationPopup.__init__() missing 1 required positional argument: 'message_key'
+Código: popup = ConfirmationPopup(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\menu_screen.py", line 204, in exit_game
+    popup = ConfirmationPopup(
+        title=title,
+    ...<4 lines>...
+        on_cancel=None  # Não faz nada ao cancelar
+    )
+TypeError: ConfirmationPopup.__init__() missing 1 required positional argument: 'message_key'
+
+============================================================
+
+============================================================
+Erro em: 2026-02-02 13:07:48.792348
+Exception: TypeError
+Arquivo: d:\Python\Jogo\screens\menu_screen.py
+Linha: 204
+Função: exit_game
+Mensagem: ConfirmationPopup.__init__() missing 1 required positional argument: 'message_key'
+Código: popup = ConfirmationPopup(
+
+--- Traceback completo ---
+Traceback (most recent call last):
+  File "d:\Python\Jogo\main.py", line 95, in <module>
+    GameApp().run()
+    ~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\app.py", line 956, in run
+    runTouchApp()
+    ~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 574, in runTouchApp
+    EventLoop.mainloop()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
+    self.idle()
+    ~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+  File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+  File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
+  File "d:\Python\Jogo\screens\menu_screen.py", line 204, in exit_game
+    popup = ConfirmationPopup(
+        title=title,
+    ...<4 lines>...
+        on_cancel=None  # Não faz nada ao cancelar
+    )
+TypeError: ConfirmationPopup.__init__() missing 1 required positional argument: 'message_key'
+
+============================================================

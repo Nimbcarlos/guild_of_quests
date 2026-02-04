@@ -1,31 +1,33 @@
-  {
-    "id": 14,
-    "name": {
-      "pt": "Disputa de Fronteira",
-      "en": "Border Dispute",
-      "es": "Disputa de Frontera",
-      "ru": "Пограничный Спор",
-      "zh": "边界争端",
-      "ja": "境界線の争い"
-    },
-    "description": {
-      "pt": "Dois fazendeiros teimosos disputam três metros de terra há mais de vinte anos. O conflito escalou recentemente para ameaças de morte.",
-      "en": "Two stubborn farmers have disputed three meters of land for over twenty years. The conflict has recently escalated into death threats.",
-      "es": "Dos agricultores obstinados disputan tres metros de tierra desde hace más de veinte años. El conflicto ha escalado a amenazas de muerte.",
-      "ru": "Два упрямых фермера спорят из-за трёх метров земли более двадцати лет. Конфликт перерос в угрозы убийства.",
-      "zh": "两名固执的农夫为三米土地争执了二十多年，最近事态升级，出现了死亡威胁。",
-      "ja": "二人の頑固な農民が、二十年以上にわたり三メートルの土地を巡って争っている。最近、殺害予告にまで発展した。"
-    },
-    "type": "diplomacy",
-    "max_heroes": 2,
-    "expired_at": 5,
-    "available_from_turn": 1,
-    "duration": 2,
-    "difficulty": 1.2,
-    "rewards": { "xp": 60 },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  }
+{
+  "id": 14,
+  "name": {
+    "pt": "Disputa de Fronteira",
+    "en": "Border Dispute",
+    "es": "Disputa de Frontera",
+    "ru": "Пограничный Спор",
+    "zh": "边界争端",
+    "ja": "境界線の争い"
+  },
+  "description": {
+    "pt": "Dois fazendeiros teimosos disputam três metros de terra há mais de vinte anos. O conflito escalou recentemente para ameaças de morte.",
+    "en": "Two stubborn farmers have disputed three meters of land for over twenty years. The conflict has recently escalated into death threats.",
+    "es": "Dos agricultores obstinados disputan tres metros de tierra desde hace más de veinte años. El conflicto ha escalado a amenazas de muerte.",
+    "ru": "Два упрямых фермера спорят из-за трёх метров земли более двадцати лет. Конфликт перерос в угрозы убийства.",
+    "zh": "两名固执的农夫为三米土地争执了二十多年，最近事态升级，出现了死亡威胁。",
+    "ja": "二人の頑固な農民が、二十年以上にわたり三メートルの土地を巡って争っている。最近、殺害予告にまで発展した。"
+  },
+  "type": "diplomacy",
+  "max_heroes": 1,
+  "expired_at": 5,
+  "available_from_turn": 1,
+  "duration": 3,
+  "difficulty": 1.2,
+  "rewards": {
+    "xp": 60
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

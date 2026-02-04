@@ -43,6 +43,114 @@
         "エスカレーションのリスク。二値的解決が必要だ。最小抵抗でエネルギーを適用する。",
         "力が指示し、敏捷性が追跡する。私が実行する。素早く動くものはショックで無力化する。"
       ]
+    },
+    "chains": {
+      "2": {
+        "0": {
+          "pt": ["Relaxe, Aureth. Seus níveis de estresse estão prejudicando sua eficiência."],
+          "en": ["Relax, Aureth. Your stress levels are hindering your efficiency."],
+          "es": ["Relájate, Aureth. Tus niveles de estrés están perjudicando tu eficiencia."],
+          "ru": ["Расслабься, Арет. Твой уровень стресса мешает твоей эффективности."],
+          "zh": ["放松点，奥莱斯。你的压力水平正在影响你的效率。"],
+          "ja": ["リラックスして、オーレス。ストレスのせいで効率が落ちてるわよ。"]
+        },
+        "1": {
+          "pt": ["Pelo menos sei que terei uma barreira física bem rabugenta à minha frente."],
+          "en": ["At least I know I'll have a very grumpy physical barrier in front of me."],
+          "es": ["Al menos sé que tendré una barrera física muy gruñona frente a mí."],
+          "ru": ["По крайней мере, я знаю, что передо мной будет очень ворчливый физический барьер."],
+          "zh": ["至少我知道我面前会有一个非常暴躁的物理屏障。"],
+          "ja": ["少なくとも、目の前にすごく不機嫌な物理的障壁があることは安心ね。"]
+        },
+        "2": {
+          "pt": ["Eu sei me cuidar! Mas... obrigada por checar os fechos da minha mochila."],
+          "en": ["I can take care of myself! But... thanks for checking my bag straps."],
+          "es": ["¡Sé cuidarme sola! Pero... gracias por revisar los cierres de mi mochila."],
+          "ru": ["Я могу о себе позаботиться! Но... спасибо, что проверила застежки на моем рюкзаке."],
+          "zh": ["我能照顾好自己！不过……谢谢你帮我检查背包扣。"],
+          "ja": ["自分のことは自分でできるわ！でも……リュックの留め具をチェックしてくれてありがとう。"]
+        },
+        "3": {
+          "pt": ["Sua frequência cardíaca subiu 20% só de me ver. Você se preocupa demais."],
+          "en": ["Your heart rate went up 20% just by seeing me. You worry too much."],
+          "es": ["Tu ritmo cardíaco subió un 20% solo con verme. Te preocupas demasiado."],
+          "ru": ["Твой пульс подскочил на 20% только при виде меня. Ты слишком много волнуешься."],
+          "zh": ["一见到我你的心率就上升了20%。你担心过头了。"],
+          "ja": ["私を見ただけで心拍数が20％上がったわよ。心配しすぎ。"]
+        },
+        "4": {
+          "pt": ["Aureth, se você apertar esse escudo com tanta força, vai acabar entortando o metal."],
+          "en": ["Aureth, if you grip that shield any harder, you'll bend the metal."],
+          "es": ["Aureth, si aprietas ese escudo con más fuerza, vas a doblar el metal."],
+          "ru": ["Арет, если ты будешь сжимать щит еще сильнее, ты погнешь металл."],
+          "zh": ["奥莱斯，如果你再用力握那个盾牌，金属都要被你捏弯了。"],
+          "ja": ["オーレス、そんなに強く盾を握ったら、金属が曲がっちゃうわよ。"]
+        },
+        "5": {
+          "pt": ["Dizem que a raiva é um catalisador ruim para a fé. Como você ainda tem poderes?"],
+          "en": ["They say anger is a poor catalyst for faith. How do you still have powers?"],
+          "es": ["Dicen que la ira es un mal catalizador para la fe. ¿Cómo es que aún tienes poderes?"],
+          "ru": ["Говорят, гнев — плохой катализатор для веры. Как у тебя все еще есть силы?"],
+          "zh": ["他们说愤怒是信仰的糟糕催化剂。你怎么还有力量？"],
+          "ja": ["怒りは信仰の触媒としては最悪だって言われてるわ。どうしてまだ力が使えるの？"]
+        },
+        "6": {
+          "pt": ["Sim, sim... 'fique atrás de mim'. Já decorei seu roteiro, irmã."],
+          "en": ["Yes, yes... 'stay behind me'. I've already memorized your script, sister."],
+          "es": ["Sí, sí... 'quédate detrás de mí'. Ya me memoricé tu guion, hermana."],
+          "ru": ["Да-да... «стой за мной». Я уже выучила твой сценарий, сестра."],
+          "zh": ["行了行了……“待在我后面”。姐姐，我早把你的台词背下来了。"],
+          "ja": ["はいはい……「私の後ろにいなさい」。お姉ちゃんの台詞はもう暗記したわ。"]
+        },
+        "7": {
+          "pt": ["Vou tentar não explodir nada que você goste hoje. Sem promessas."],
+          "en": ["I'll try not to blow up anything you like today. No promises."],
+          "es": ["Intentaré no explotar nada que te guste hoy. Sin promesas."],
+          "ru": ["Постараюсь сегодня не взорвать ничего, что тебе дорого. Но не обещаю."],
+          "zh": ["我会尽量不炸毁你今天喜欢的任何东西。不保证哦。"],
+          "ja": ["今日はお姉ちゃんのお気に入りを爆破しないようにするわ。約束はできないけど。"]
+        },
+        "8": {
+          "pt": ["Você é tão rígida que às vezes esqueço que somos do mesmo sangue."],
+          "en": ["You're so rigid that sometimes I forget we share the same blood."],
+          "es": ["Eres tan rígida que a veces olvido que compartimos la misma sangre."],
+          "ru": ["Ты такая жесткая, что я иногда забываю, что в нас течет одна кровь."],
+          "zh": ["你太死板了，有时我都忘了我们流着同样的血。"],
+          "ja": ["お姉ちゃんは固すぎて、時々同じ血が流れてるってことを忘れちゃうわ。"]
+        },
+        "9": {
+          "pt": ["Vamos terminar logo. Você precisa de um chá de camomila e 12 horas de sono."],
+          "en": ["Let's finish this. You need chamomile tea and 12 hours of sleep."],
+          "es": ["Terminemos con esto. Necesitas un té de manzanilla y 12 horas de sueño."],
+          "ru": ["Давай закончим с этим. Тебе нужен ромашковый чай и 12 часов сна."],
+          "zh": ["赶紧结束吧。你需要一杯洋甘菊茶和12小时的睡眠。"],
+          "ja": ["さっさと終わらせましょう。お姉ちゃんにはカモミールティーと12時間の睡眠が必要よ。"]
+        }
+      }
+    }
+  },
+  "quests": { 
+    "0": {
+      "success": {
+        "text": {
+          "pt": [ "Leona, successo teste" ],
+          "en": [ "Leona, success test" ]
+        },
+        "1": {
+          "pt": [ "Leona, teste de sucesso lyra" ],
+          "en": [ "Leona, lyra success test" ]
+        }
+      },
+      "failure": {
+        "text": {
+          "pt": [ "Leona, falha teste" ],
+          "en": [ "Leona, failure test" ]
+        },
+        "1": {
+          "pt": [ "Leona, teste de falha lyra" ],
+          "en": [ "Leona, lyra failure test" ]
+        }
+      }
     }
   }
 }

@@ -1,29 +1,32 @@
 {
   "id": 9,
   "name": {
-    "pt": "O Banquete da Trégua",
-    "en": "The Banquet of Truce",
-    "es": "El Banquete de la Tregua",
-    "ru": "Пир Перемирия",
-    "zh": "停战宴会",
-    "ja": "休戦の晩餐"
+    "pt": "Harmonia no Banquete da Trégua",
+    "en": "Harmony at the Truce Banquet",
+    "es": "Armonía en el Banquete de la Tregua",
+    "ru": "Гармония на пиру перемирия",
+    "zh": "停战宴会的和谐",
+    "ja": "休戦の晩餐会の調和"
   },
   "description": {
-    "pt": "Uma trégua frágil entre duas casas nobres rivais será selada durante um banquete de gala. A Guilda foi convidada para acompanhar o evento como presença neutra e garantir que o acordo seja respeitado. Rumores discretos, porém, falam de um possível insulto público planejado para quebrar a trégua sem assumir a culpa.",
-    "en": "A fragile truce between two rival noble houses will be sealed during a gala banquet. The Guild has been invited as a neutral presence to ensure the agreement is respected. Quiet rumors, however, suggest that a public insult may be planned to break the truce without taking the blame.",
-    "es": "Una frágil tregua entre dos casas nobles rivales será sellada durante un banquete de gala. El Gremio ha sido invitado como presencia neutral para garantizar que el acuerdo se respete. Sin embargo, circulan rumores discretos sobre un posible insulto público planeado para romper la tregua sin asumir la culpa.",
-    "ru": "Хрупкое перемирие между двумя враждующими знатными домами должно быть скреплено на торжественном пиру. Гильдию пригласили в качестве нейтральной стороны, чтобы обеспечить соблюдение соглашения. Однако ходят тихие слухи о запланированном публичном оскорблении, призванном разрушить перемирие без явного виновника.",
-    "zh": "两个敌对贵族家族之间的脆弱停战将通过一场盛大宴会正式确立。公会被邀请作为中立方出席，以确保协议得到遵守。然而，私下流传着传闻，称有人计划通过公开羞辱来破坏停战，却不愿承担责任。",
-    "ja": "敵対してきた二つの貴族家の脆い休戦は、盛大な晩餐会で正式に結ばれる予定だ。ギルドは中立の立場として招かれ、合意が守られるかを見届ける役目を担う。しかし、責任を負わずに休戦を破るための公然の侮辱が計画されているという噂が静かに流れている。"
+    "pt": "Uma trégua frágil entre duas casas nobres rivais será selada. A Guilda deve enviar uma dupla: um artista para entreter os convidados e abafar insultos com música e distração, e um diplomata para mediar as conversas ácidas nos bastidores. O sucesso depende da sincronia entre o espetáculo e a negociação.",
+    "en": "A fragile truce between two rival noble houses is to be sealed. The Guild must send a duo: a performer to entertain guests and drown out insults with music and distraction, and a diplomat to mediate sour conversations behind the scenes. Success depends on the synchrony between the show and the negotiation.",
+    "es": "Se sellará una frágil tregua entre dos casas nobles rivales. El Gremio debe enviar un dúo: un artista para entretener a los invitados y silenciar insultos con música y distracción, y un diplomático para mediar las conversaciones tensas. El éxito depende de la sincronía entre el espectáculo y la negociación.",
+    "ru": "Хрупкое перемирие между двумя враждующими домами должно быть скреплено. Гильдия должна направить дуэт: артиста, чтобы развлекать гостей и заглушать оскорбления музыкой, и дипломата для посредничества в острых спорах. Успех зависит от синхронности шоу и переговоров.",
+    "zh": "两个敌对贵族家族之间的脆弱停战即将达成。公会必须派出一对搭档：一名表演者负责款待宾客并用音乐和娱乐掩盖羞辱，一名外交官负责在幕后调解尖锐的对话。成功取决于演出与谈判之间的同步。",
+    "ja": "二つの敵対する貴族家の間で脆い休戦が結ばれようとしている。ギルドは二人組を派遣しなければならない。一人は音楽と余興で客を楽しませ侮辱をかき消すパフォーマー、もう一人は舞台裏で辛辣な会話を仲裁する外交官だ。成功は、見世物と交渉の同調にかかっている。"
   },
-  "type": "diplomacy",
-  "max_heroes": 1,
+  "type": [
+    "performance",
+    "diplomacy"
+  ],
+  "max_heroes": 2,
   "expired_at": 5,
-  "available_from_turn": 4,
-  "duration": 2,
-  "difficulty": 1.4,
+  "available_from_turn": 17,
+  "duration": 3,
+  "difficulty": 2.2,
   "rewards": {
-    "xp": 55
+    "xp": 110
   },
   "required_quests": [],
   "forbidden_quests": [],

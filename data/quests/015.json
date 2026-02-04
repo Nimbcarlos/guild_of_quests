@@ -1,31 +1,33 @@
-  {
-    "id": 15,
-    "name": {
-      "pt": "Casamento Arranjado",
-      "en": "Arranged Marriage",
-      "es": "Matrimonio Arreglado",
-      "ru": "Договорной Брак",
-      "zh": "包办婚姻",
-      "ja": "政略結婚"
-    },
-    "description": {
-      "pt": "A filha de um mercador rico se recusa a casar com o filho de um nobre falido. O acordo é vital para evitar uma crise financeira na cidade.",
-      "en": "The daughter of a wealthy merchant refuses to marry the son of a bankrupt noble. The agreement is vital to prevent a financial crisis in the city.",
-      "es": "La hija de un mercader rico se niega a casarse con el hijo de un noble arruinado. El acuerdo es vital para evitar una crisis financiera.",
-      "ru": "Дочь богатого торговца отказывается выходить замуж за сына разорившегося дворянина. Сделка необходима, чтобы избежать финансового кризиса.",
-      "zh": "一名富商的女儿拒绝与破产贵族之子成婚，而这项联姻对避免城市财政危机至关重要。",
-      "ja": "裕福な商人の娘が、没落貴族の息子との結婚を拒んでいる。この婚姻は都市の財政危機を防ぐために不可欠だ。"
-    },
-    "type": "diplomacy",
-    "max_heroes": 2,
-    "expired_at": 6,
-    "available_from_turn": 2,
-    "duration": 3,
-    "difficulty": 1.4,
-    "rewards": { "xp": 70 },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  }
+{
+  "id": 15,
+  "name": {
+    "pt": "Casamento Arranjado",
+    "en": "Arranged Marriage",
+    "es": "Matrimonio Arreglado",
+    "ru": "Договорной Брак",
+    "zh": "包办婚姻",
+    "ja": "政略結婚"
+  },
+  "description": {
+    "pt": "A filha de um mercador rico se recusa a casar com o filho de um nobre falido. O acordo é vital para evitar uma crise financeira na cidade.",
+    "en": "The daughter of a wealthy merchant refuses to marry the son of a bankrupt noble. The agreement is vital to prevent a financial crisis in the city.",
+    "es": "La hija de un mercader rico se niega a casarse con el hijo de un noble arruinado. El acuerdo es vital para evitar una crisis financiera.",
+    "ru": "Дочь богатого торговца отказывается выходить замуж за сына разорившегося дворянина. Сделка необходима, чтобы избежать финансового кризиса.",
+    "zh": "一名富商的女儿拒绝与破产贵族之子成婚，而这项联姻对避免城市财政危机至关重要。",
+    "ja": "裕福な商人の娘が、没落貴族の息子との結婚を拒んでいる。この婚姻は都市の財政危機を防ぐために不可欠だ。"
+  },
+  "type": "diplomacy",
+  "max_heroes": 1,
+  "expired_at": 6,
+  "available_from_turn": 7,
+  "duration": 3,
+  "difficulty": 1.4,
+  "rewards": {
+    "xp": 70
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

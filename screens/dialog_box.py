@@ -2,6 +2,7 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.label import Label
 from kivy.uix.popup import Popup
 from kivy.uix.image import Image as KivyImage
+from kivy.uix.scrollview import ScrollView
 from kivy.clock import Clock
 from core.hero import Hero
 from typing import Optional
@@ -88,7 +89,7 @@ class DialogueBox:
             frame_width, frame_height = Window.width, Window.height
         
         popup_width = max(700, min(frame_width * 0.85, 1200))
-        popup_height = max(180, min(frame_height * 0.22, 260))
+        popup_height = max(250, min(frame_height * 0.22, 260))
         
         # ==================== IMAGEM ====================
         portrait_width = int(popup_height * 0.85)
@@ -114,14 +115,18 @@ class DialogueBox:
         )
 
         # ----- BOX DO SPEAKER -----
+        # Aumentamos a altura para não sufocar o nome
+        speaker_height = max(5, int(popup_height * 0.05)) 
         speaker_box = BoxLayout(
             orientation='vertical',
             size_hint_y=None,
-            height=20
+            height=speaker_height
         )
+        
         self.speaker_label = Label(
             text="",
-            font_size=max(22, int(frame_height * 0.0035)),
+            # Ajustado de 0.0035 para 0.1 (ex: 250 * 0.1 = 25px)
+            font_size=max(22, int(popup_height * 0.1)), 
             bold=True,
             color=(0.16, 0.09, 0.06, 1),
             halign="left",
@@ -133,34 +138,42 @@ class DialogueBox:
 
         speaker_box.add_widget(self.speaker_label)
         text_layout.add_widget(speaker_box)
-        if frame_height > 800:
-            new_frame_height = frame_height * 0.045
-        else:
-            new_frame_height = frame_height * 0.0035
 
-        # ----- BOX DO DIÁLOGO -----
-        dialogue_box = BoxLayout(
-            orientation='vertical',
-            size_hint_y=None,
-            height=95 + new_frame_height
+        # O ScrollView ocupará o espaço restante (0.65 do popup)
+        self.scroll = ScrollView(
+            size_hint=(1, None),
+            height=popup_height * 0.65,
+            do_scroll_x=False,
+            do_scroll_y=True,
+            bar_width=4,
+            scroll_type=['bars', 'content']
         )
 
         self.dialogue_label = Label(
             text="",
-            font_size=max(16, int(frame_height * 0.024)),
+            font_size=max(18, int(popup_height * 0.08)),
             halign="left",
             valign="top",
-            color=(0.16, 0.09, 0.06, 1)
+            color=(0.16, 0.09, 0.06, 1),
+            markup=True,
+            size_hint_y=None # Crucial para o ScrollView funcionar
         )
-        self.dialogue_label.bind(
-            size=lambda instance, value: setattr(instance, 'text_size', (value[0], None))
-        )
+        
+        # Ajusta a largura do texto e a altura do Label dinamicamente
+        def update_label_height(instance, size):
+            instance.text_size = (size[0], None) # Trava a largura
+            
+        def update_texture_height(instance, texture_size):
+            instance.height = max(instance.parent.height if instance.parent else 0, texture_size[1])
 
-        dialogue_box.add_widget(self.dialogue_label)
-        text_layout.add_widget(dialogue_box)
+        self.dialogue_label.bind(size=update_label_height)
+        self.dialogue_label.bind(texture_size=update_texture_height)
+
+        self.scroll.add_widget(self.dialogue_label)
+        text_layout.add_widget(self.scroll)
 
         main_layout.add_widget(text_layout)
-        
+
         # ==================== POPUP ====================
         self.popup = Popup(
             title="",
@@ -240,6 +253,8 @@ class DialogueBox:
         if self.char_index < len(self.full_text):
             self.dialogue_label.text += self.full_text[self.char_index]
             self.char_index += 1
+
+            self.scroll.scroll_y = 0
         else:
             if self.typing_event:
                 self.typing_event.cancel()

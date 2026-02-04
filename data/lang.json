@@ -1338,7 +1338,7 @@
     "zh": "奥术",
     "ja": "アルカナ",
     "ru": "арканум",
-    "kr": "비전 (Bijeon)"
+    "kr": "비전"
   },
   "religion": {
     "pt": "Religião",
@@ -1361,10 +1361,10 @@
   "intimidation": {
     "pt": "Intimidação",
     "es": "Intimidación",
-    "zh": "强壮 (Qiángzhuàng)",
-    "ja": "強い (Tsuyoi)",
+    "zh": "强壮",
+    "ja": "強い",
     "ru": "Сильная",
-    "kr": "강함 (Gangham)",
+    "kr": "강함",
     "en": "Intimidation"
   },
   "athletics": {
@@ -1537,5 +1537,45 @@
     "kr": "연금술",
     "ja": "錬金術",
     "ru": "Алхимия"
+  },
+  "performance": {
+    "pt": "Atuação",
+    "en": "Performance",
+    "es": "Actuación",
+    "kr": "공연",
+    "ja": "パフォーマンス",
+    "ru": "Исполнение"
+  },
+  "engineering": {
+    "pt": "Engenharia",
+    "en": "Engineering",
+    "es": "Ingeniería",
+    "kr": "공학",
+    "ja": "工学",
+    "ru": "Инженерия"
+},
+  "investigation": {
+    "pt": "Investigação",
+    "en": "Investigation",
+    "es": "Investigación",
+    "kr": "조사",
+    "ja": "調査",
+    "ru": "Расследование"
+},
+  "exit_confirm_title": {
+    "pt": "Confirmação",
+    "en": "Confirmation"
+  },
+  "exit_confirm_message": {
+    "pt": "Você tem certeza que deseja sair?",
+    "en": "Are you sure you want to exit?"
+  },
+  "exit_confirm_yes": {
+    "pt": "Sim",
+    "en": "Yes"
+  },
+  "exit_confirm_no": {
+    "pt": "Não",
+    "en": "No"
   }
 }

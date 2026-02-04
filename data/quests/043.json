@@ -1,31 +1,33 @@
-  {
-    "id": 43,
-    "name": {
-      "pt": "A Âncora do Dirigível",
-      "en": "The Airship Anchor",
-      "es": "El Ancla del Dirigible",
-      "ru": "Якорь Дирижабля",
-      "zh": "飞艇锚索",
-      "ja": "飛行船の係留索"
-    },
-    "description": {
-      "pt": "Durante uma tempestade violenta, as cordas de amarração de um balão de observação se romperam. Ele já começa a subir, levando documentos estratégicos que não podem cair em mãos erradas.",
-      "en": "During a violent storm, the mooring ropes of an observation balloon snapped. It is already rising, carrying vital documents that must not be lost.",
-      "es": "Durante una tormenta, las cuerdas de un globo de observación se rompieron. Está a punto de elevarse con documentos cruciales.",
-      "ru": "Во время шторма оборвались канаты дирижабля. Он поднимается, унося важные документы.",
-      "zh": "暴风雨中，飞艇的系绳断裂，正带着重要文件缓缓升空。",
-      "ja": "嵐の中、観測用気球の係留索が切れた。重要書類を積んだまま浮上している。"
-    },
-    "type": "athletics",
-    "max_heroes": 1,
-    "expired_at": 1,
-    "available_from_turn": 2,
-    "duration": 1,
-    "difficulty": 1.5,
-    "rewards": { "xp": 65 },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  }
+{
+  "id": 43,
+  "name": {
+    "pt": "A Âncora do Dirigível",
+    "en": "The Airship Anchor",
+    "es": "El Ancla del Dirigible",
+    "ru": "Якорь Дирижабля",
+    "zh": "飞艇锚索",
+    "ja": "飛行船の係留索"
+  },
+  "description": {
+    "pt": "Durante uma tempestade violenta, as cordas de amarração de um balão de observação se romperam. Ele já começa a subir, levando documentos estratégicos que não podem cair em mãos erradas.",
+    "en": "During a violent storm, the mooring ropes of an observation balloon snapped. It is already rising, carrying vital documents that must not be lost.",
+    "es": "Durante una tormenta, las cuerdas de un globo de observación se rompieron. Está a punto de elevarse con documentos cruciales.",
+    "ru": "Во время шторма оборвались канаты дирижабля. Он поднимается, унося важные документы.",
+    "zh": "暴风雨中，飞艇的系绳断裂，正带着重要文件缓缓升空。",
+    "ja": "嵐の中、観測用気球の係留索が切れた。重要書類を積んだまま浮上している。"
+  },
+  "type": "athletics",
+  "max_heroes": 1,
+  "expired_at": 1,
+  "available_from_turn": 18,
+  "duration": 3,
+  "difficulty": 1.5,
+  "rewards": {
+    "xp": 65
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

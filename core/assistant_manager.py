@@ -33,9 +33,9 @@ class AssistantManager:
         )
 
         self.commentary_quests = {
-            "166": "assistant_166",
-            "2": "assistant_test_2",
-            "3": "assistant_test_3"
+            "997": "assistant_997",
+            "998": "assistant_998",
+            "999": "assistant_999"
         }
 
     # -------------------------------------------------------------

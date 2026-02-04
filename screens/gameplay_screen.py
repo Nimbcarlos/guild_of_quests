@@ -435,7 +435,7 @@ class GameplayScreen(Screen):
             background_normal='assets/img/default_hero.png',
             size_hint_x=None,
             width=50,
-            on_release=lambda *_, h=hero: show_hero_details(self, h)
+            on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
         ))
 
         # Botão de seleção com feedback visual
@@ -561,7 +561,7 @@ class GameplayScreen(Screen):
                 background_normal='assets/img/default_hero.png',
                 size_hint_x=None,
                 width=50,
-                on_release=lambda *_, h=hero: show_hero_details(self, h)
+                on_release=lambda *_, h=hero: show_hero_details(self, h, parent_size=self.size)
             ))
 
             heroes_box.add_widget(row)

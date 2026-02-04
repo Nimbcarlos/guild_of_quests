@@ -17,13 +17,13 @@
     "ja": "ゴブリンが拠点として使用している洞窟の入口を特定しました。英雄たちは潜入する必要がありますが、最初のトンネルは非常に狭い。"
   },
   "type": "Fight",
-  "max_heroes": 1,
+  "max_heroes": 2,
   "expired_at": 3,
-  "available_from_turn": 10,
+  "available_from_turn": 79,
   "duration": 3,
   "difficulty": 4,
   "rewards": {
-    "xp": 50
+    "xp": 100
   },
   "required_quests": [
     122

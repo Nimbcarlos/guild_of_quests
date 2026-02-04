@@ -20,7 +20,7 @@
       "ru": "Здоров",
       "kr": "건강함 (Geongangham)"
     },
-    "perks": ["thievery", "stealth"],
+    "perks": ["thievery", "stealth", "investigation"],
     "defects": {
       "Honesty": {
         "pt": "Honestidade",

@@ -1,31 +1,36 @@
-  {
-    "id": 22,
-    "name": {
-      "pt": "Festival Interrompido",
-      "en": "Interrupted Festival",
-      "es": "Festival Interrumpido",
-      "ru": "Прерванный Праздник",
-      "zh": "节日冲突",
-      "ja": "中断された祭り"
-    },
-    "description": {
-      "pt": "Duas religiões diferentes exigem usar o mesmo local sagrado no mesmo dia para seus festivais.",
-      "en": "Two different religions demand the same sacred site on the same day for their festivals.",
-      "es": "Dos religiones distintas exigen usar el mismo sitio sagrado el mismo día.",
-      "ru": "Две разные религии требуют использовать одно священное место в один и тот же день.",
-      "zh": "两种不同的宗教要求在同一天使用同一处圣地举行节日。",
-      "ja": "二つの宗教が同じ日に同じ聖地で祭りを行おうとしている。"
-    },
-    "type": ["diplomacy", "religion"],
-    "max_heroes": 1,
-    "expired_at": 5,
-    "available_from_turn": 2,
-    "duration": 2,
-    "difficulty": 1.2,
-    "rewards": { "xp": 60 },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  }
+{
+  "id": 22,
+  "name": {
+    "pt": "Festival Interrompido",
+    "en": "Interrupted Festival",
+    "es": "Festival Interrumpido",
+    "ru": "Прерванный Праздник",
+    "zh": "节日冲突",
+    "ja": "中断された祭り"
+  },
+  "description": {
+    "pt": "Duas religiões diferentes exigem usar o mesmo local sagrado no mesmo dia para seus festivais.",
+    "en": "Two different religions demand the same sacred site on the same day for their festivals.",
+    "es": "Dos religiones distintas exigen usar el mismo sitio sagrado el mismo día.",
+    "ru": "Две разные религии требуют использовать одно священное место в один и тот же день.",
+    "zh": "两种不同的宗教要求在同一天使用同一处圣地举行节日。",
+    "ja": "二つの宗教が同じ日に同じ聖地で祭りを行おうとしている。"
+  },
+  "type": [
+    "diplomacy",
+    "religion"
+  ],
+  "max_heroes": 1,
+  "expired_at": 5,
+  "available_from_turn": 70,
+  "duration": 3,
+  "difficulty": 1.2,
+  "rewards": {
+    "xp": 60
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

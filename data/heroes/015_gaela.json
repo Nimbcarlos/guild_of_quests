@@ -20,7 +20,7 @@
     "ru": "Здорова",
     "kr": "건강함"
   },
-  "perks": ["survival", "mining"],
+  "perks": ["survival", "arcana", "nature"],
   "defects": {
     "stutter": {
       "en": "Stutter",

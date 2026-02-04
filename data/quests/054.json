@@ -1,31 +1,36 @@
-  {
-    "id": 54,
-    "name": {
-      "pt": "Desarmando a Armadilha",
-      "en": "Disarming the Trap",
-      "es": "Desactivar la Trampa",
-      "ru": "Обезвреживание Ловушки",
-      "zh": "解除陷阱",
-      "ja": "罠の解除"
-    },
-    "description": {
-      "pt": "Aventureiros inexperientes ficaram presos em uma tumba antiga. Armadilhas mecânicas ainda ativas liberam areia continuamente, e o tempo está se esgotando.",
-      "en": "Inexperienced adventurers are trapped in an ancient tomb. Active traps are filling the chamber with sand.",
-      "es": "Aventureros novatos están atrapados en una tumba llena de trampas.",
-      "ru": "Новички застряли в гробнице, наполненной ловушками.",
-      "zh": "新手冒险者被困在充满机关的古墓中。",
-      "ja": "未熟な冒険者たちが罠だらけの古代墳墓に閉じ込められた。"
-    },
-    "type": "stealth",
-    "max_heroes": 2,
-    "expired_at": 1,
-    "available_from_turn": 1,
-    "duration": 1,
-    "difficulty": 1.8,
-    "rewards": { "xp": 100 },
-    "required_quests": [],
-    "forbidden_quests": [],
-    "required_fail_quests": [],
-    "required_heroes": [],
-    "forbidden_heroes": []
-  }
+{
+  "id": 54,
+  "name": {
+    "pt": "Desarmando a Armadilha",
+    "en": "Disarming the Trap",
+    "es": "Desactivar la Trampa",
+    "ru": "Обезвреживание Ловушки",
+    "zh": "解除陷阱",
+    "ja": "罠の解除"
+  },
+  "description": {
+    "pt": "Aventureiros inexperientes ficaram presos em uma tumba antiga. Armadilhas mecânicas ainda ativas liberam areia continuamente.",
+    "en": "Inexperienced adventurers are trapped in an ancient tomb. Active traps are filling the chamber with sand.",
+    "es": "Aventureros novatos están atrapados en una tumba llena de trampas.",
+    "ru": "Новички застряли в гробнице, наполненной ловушками.",
+    "zh": "新手冒险者被困在充满机关的古墓中。",
+    "ja": "未熟な冒険者たちが罠だらけの古代墳墓に閉じ込められた。"
+  },
+  "type": [
+    "thievery",
+    "engineering"
+  ],
+  "max_heroes": 1,
+  "expired_at": 1,
+  "available_from_turn": 40,
+  "duration": 3,
+  "difficulty": 1.8,
+  "rewards": {
+    "xp": 100
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

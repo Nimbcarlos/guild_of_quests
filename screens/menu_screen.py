@@ -12,12 +12,14 @@ import core.save_manager as save
 from screens.gameplay_screen import GameplayScreen
 from core.quest_manager import QuestManager
 from core.hero_manager import HeroManager
+from screens.confirmation_popup import ConfirmationPopup  # ✅ NOVO IMPORT
 
 
 class MenuScreen(Screen):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         self.name = "menu"
+        self.language_manager = None  # ✅ Será setado pelo app
         self.build_ui()
     
     def build_ui(self):
@@ -133,7 +135,7 @@ class MenuScreen(Screen):
             height=90,
             border=(0, 0, 0, 0)
         )
-        exit_btn.bind(on_release=self.exit_game)
+        exit_btn.bind(on_release=self.exit_game)  # ✅ Agora vai abrir o popup
         buttons_box.add_widget(exit_btn)
         
         content_box.add_widget(buttons_box)
@@ -182,9 +184,19 @@ class MenuScreen(Screen):
         self.manager.current = "settings"
     
     def exit_game(self, *args):
-        """Fecha o jogo."""
+        """Mostra popup de confirmação para sair do jogo."""
+        # ✅ USA A NOVA ASSINATURA DO ConfirmationPopup
+        popup = ConfirmationPopup(
+            message_key="exit_confirm_message",
+            on_confirm=self._confirm_exit
+        )
+        popup.open()
+
+    def _confirm_exit(self):
+        """Fecha o app após confirmação."""
+        print("[MenuScreen] Saindo do jogo...")
         App.get_running_app().stop()
-    
+
     # ═══════════════════════════════════════════════════════════
     # MÉTODOS AUXILIARES (caso precise de lista de saves no menu)
     # ═══════════════════════════════════════════════════════════

@@ -17,9 +17,9 @@
     "ja": "ゴブリンのチャンピオンがゴブリンの魔術師に護衛され、街に向かって行進しているのが目撃されました。英雄たちは彼らが城壁に到達する前にグループを阻止しなければなりません。主要な門への攻撃が差し迫っています。"
   },
   "type": "Fight",
-  "max_heroes": 1,
+  "max_heroes": 4,
   "expired_at": 3,
-  "available_from_turn": 30,
+  "available_from_turn": 89,
   "duration": 3,
   "difficulty": 12,
   "rewards": {

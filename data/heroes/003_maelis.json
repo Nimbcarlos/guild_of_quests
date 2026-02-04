@@ -20,7 +20,7 @@
     "ru": "Здоров",
     "kr": "건강함"
   },
-  "perks": ["survival", "nature"],
+  "perks": ["survival", "nature", "athletics"],
   "defects": {
     "distracted": {
       "pt": "Distraida",
