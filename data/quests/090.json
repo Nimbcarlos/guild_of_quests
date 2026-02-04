@@ -1,0 +1,35 @@
+{
+  "id": 90,
+  "name": {
+    "pt": "Rastros Sob a Chuva",
+    "en": "Tracks Under the Rain",
+    "es": "Rastros Bajo la Lluvia",
+    "ru": "Следы Под Дождём",
+    "zh": "雨中的踪迹",
+    "ja": "雨に消える足跡"
+  },
+  "description": {
+    "pt": "Uma criança foi sequestrada. O responsável tem aproximadamente seis horas de vantagem. A floresta é densa, o terreno irregular e a chuva já começou a cair, ameaçando apagar os últimos rastros visíveis. Cada minuto perdido torna o caminho mais confuso e o resgate mais improvável. Encontrar a rota correta rapidamente pode ser a única diferença entre um resgate e um corpo perdido na mata.",
+    "en": "A child has been kidnapped. The captor has approximately a six-hour head start. The forest is dense, the ground uneven, and rain has begun to fall, threatening to erase the last visible tracks. Every minute lost makes the trail harder to follow and the rescue less likely. Finding the correct route quickly may be the only difference between saving a life and losing it to the woods.",
+    "es": "Un niño fue secuestrado. El responsable tiene aproximadamente seis horas de ventaja. El bosque es denso, el terreno irregular y la lluvia ya comenzó, amenazando con borrar los últimos rastros visibles. Cada minuto perdido vuelve el rastro más confuso y el rescate menos probable. Encontrar el camino correcto a tiempo puede ser la diferencia entre la vida y la muerte.",
+    "ru": "Ребёнок был похищен. Похититель имеет примерно шестичасовое преимущество. Лес густой, местность неровная, и уже начался дождь, который вот-вот сотрёт последние видимые следы. Каждая потерянная минута усложняет преследование и снижает шансы на спасение. Быстро найти правильный путь — единственный шанс на успех.",
+    "zh": "一名儿童被绑架，绑匪大约领先六个小时。森林茂密，地形崎岖，降雨已经开始，随时可能抹去最后可见的踪迹。每耽误一分钟，追踪就会变得更加困难，营救的希望也随之降低。能否迅速找到正确路线，可能决定生死。",
+    "ja": "子どもが誘拐された。犯人は約六時間の先行を得ている。森は深く、地形は不安定で、すでに雨が降り始めており、最後に残った痕跡も消えつつある。時間を無駄にすればするほど追跡は困難になり、救出の可能性は低下する。正しい道を素早く見つけられるかどうかが、生死を分ける。"
+  },
+  "type": [
+    "survival"
+  ],
+  "max_heroes": 1,
+  "expired_at": 1,
+  "available_from_turn": 49,
+  "duration": 3,
+  "difficulty": 2.8,
+  "rewards": {
+    "xp": 95
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": 62,
+  "name": {
+    "pt": "Bomba Alquímica na Ala Norte",
+    "en": "North Wing Alchemical Bomb",
+    "es": "Bomba Alquímica en el Ala Norte",
+    "ru": "Алхимическая бомба в Северном крыле",
+    "zh": "北翼炼金炸弹",
+    "ja": "北翼の錬金術爆弾"
+  },
+  "description": {
+    "pt": "Uma bomba alquímica foi plantada na Ala Norte da cidade. O terrorista morreu antes de revelar como desarmá-la. O artefato é instável e reage a vibrações, calor e magia.",
+    "en": "An alchemical bomb was planted in the city's North Wing. The terrorist died before revealing how to disarm it. The artifact is unstable and reacts to vibrations, heat, and magic.",
+    "es": "Una bomba alquímica fue plantada en el Ala Norte de la ciudad. El terrorista murió antes de revelar cómo desactivarla. El artefacto es inestable y reacciona a las vibraciones, el calor y la magia.",
+    "ru": "В Северном крыле города была заложена алхимическая бомба. Террорист умер, не успев рассказать, как ее обезвредить. Артефакт нестабилен и реагирует на вибрации, тепло и магию.",
+    "zh": "城里的北翼被安置了一枚炼金炸弹。恐怖分子在透露拆除方法前就死掉了。该装置极其不稳定，会对震动、热量和魔法产生反应。",
+    "ja": "街の北翼に錬金術爆弾が仕掛けられた。テロリストは解体方法を明かす前に死亡した。その装置は不安定で、振動、熱、そして魔法に反応する。"
+  },
+  "type": [
+    "alchemy",
+    "arcana"
+  ],
+  "max_heroes": 1,
+  "expired_at": 3,
+  "available_from_turn": 62,
+  "duration": 3,
+  "difficulty": 2.7,
+  "rewards": {
+    "xp": 130
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

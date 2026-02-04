@@ -1,0 +1,36 @@
+{
+  "id": 87,
+  "name": {
+    "pt": "Exorcismo Público",
+    "en": "Public Exorcism",
+    "es": "Exorcismo Público",
+    "ru": "Публичный экзорцизм",
+    "zh": "公开驱魔",
+    "ja": "公開悪魔祓い"
+  },
+  "description": {
+    "pt": "Uma possessão ocorreu durante um festival. O exorcismo precisa ser feito como parte do espetáculo, sem revelar a verdade. Se o público perceber o perigo, o caos será imediato.",
+    "en": "A possession occurred during a festival. The exorcism must be performed as part of the show, without revealing the truth. If the public perceives the danger, chaos will be immediate.",
+    "es": "Una posesión ocurrió durante un festival. El exorcismo debe realizarse como parte del espectáculo, sin revelar la verdad. Si el público nota el peligro, el caos será inmediato.",
+    "ru": "Во время фестиваля произошло одержимость. Экзорцизм должен быть проведен как часть шоу, без раскрытия правды. Если толпа почувствует опасность, немедленно начнется хаос.",
+    "zh": "节日期间发生了附身事件。驱魔必须作为演出的一部分进行，不能透露真相。如果民众察觉到危险，混乱将立即爆发。",
+    "ja": "祭りの最中に憑依事件が発生した。真実を伏せたまま、ショーの一部として悪魔祓いを行わなければならない。観客に危険を察知されれば、直ちに混沌が巻き起こる。"
+  },
+  "type": [
+    "performance",
+    "religion"
+  ],
+  "max_heroes": 1,
+  "expired_at": 3,
+  "available_from_turn": 120,
+  "duration": 3,
+  "difficulty": 2.8,
+  "rewards": {
+    "xp": 140
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

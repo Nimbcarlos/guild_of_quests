@@ -1,0 +1,36 @@
+{
+  "id": 71,
+  "name": {
+    "pt": "Surto de Loucura",
+    "en": "Outbreak of Madness",
+    "es": "Brote de Locura",
+    "ru": "Вспышка безумия",
+    "zh": "疯狂爆发",
+    "ja": "狂気の発症"
+  },
+  "description": {
+    "pt": "Após beberem do poço, moradores agem de forma errática. Algo afeta a mente coletiva da aldeia.",
+    "en": "After drinking from the well, villagers act erratically. Something affects the village's collective mind.",
+    "es": "Tras beber del pozo, los aldeanos actúan de forma errática.",
+    "ru": "После того как жители попили из колодца, они ведут себя странно. Что-то влияет на коллективный разум.",
+    "zh": "饮用井水后，村民们行为反常。某种力量正在影响村庄的集体意识。",
+    "ja": "井戸の水を飲んだ後、村人たちが異常な行動をとっている。集団心理に何かが影響している。"
+  },
+  "type": [
+    "cure",
+    "investigation"
+  ],
+  "max_heroes": 1,
+  "expired_at": 6,
+  "available_from_turn": 119,
+  "duration": 3,
+  "difficulty": 2.4,
+  "rewards": {
+    "xp": 95
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": 93,
+  "name": {
+    "pt": "Dissuadir o Duelo",
+    "en": "Dissuade the Duel",
+    "es": "Disuadir el Duelo",
+    "ru": "Отговорить от дуэли",
+    "zh": "劝阻决斗",
+    "ja": "決闘の阻止"
+  },
+  "description": {
+    "pt": "Dois jovens nobres de sangue quente marcaram um duelo ao amanhecer por uma ofensa fútil. A morte de qualquer um deles causaria uma guerra entre famílias. Você deve enviar alguém para intimidá-los a desistir dessa loucura.",
+    "en": "Two hot-headed young nobles have scheduled a duel at dawn over a trivial offense. The death of either would cause a war between families. You must send someone to intimidate them into giving up this madness.",
+    "es": "Dos jóvenes nobles impulsivos han programado un duelo al amanecer por una ofensa trivial. La muerte de cualquiera de ellos causaría una guerra entre familias. Debes enviar a alguien para intimidarlos y que abandonen esa locura.",
+    "ru": "Двое вспыльчивых молодых дворян назначили дуэль на рассвете из-за пустяковой обиды. Смерть любого из них вызовет войну между семьями. Вы должны прислать кого-то, кто запугает их и заставит отказаться от этого безумия.",
+    "zh": "两名血气方刚的年轻贵族因琐事定于黎明决斗。任何一方死亡都会引发家族间的战争。你必须派人去威慑他们，让他们放弃这种疯狂的行为。",
+    "ja": "血気盛んな二人の若き貴族が、些細な侮辱を理由に夜明けの決闘を約束した。どちらの死も家系間の戦争を引き起こすだろう。彼らを威圧してこの狂気を断念させる人物を派遣しなければならない。"
+  },
+  "type": [
+    "intimidation",
+    "diplomacy"
+  ],
+  "max_heroes": 1,
+  "expired_at": 2,
+  "available_from_turn": 42,
+  "duration": 3,
+  "difficulty": 2.7,
+  "rewards": {
+    "xp": 130
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

@@ -1,0 +1,49 @@
+{
+  "start_dialogues": {
+    "default": {
+      "en": [
+        "A new quest. Let us see how much more we can endure before the end.",
+        "My songs won't bring victory, but they might help you survive the scars to come.",
+        "Loss is inevitable. I will play so you can at least face it standing up.",
+        "Don't expect a hero's anthem. I only sing for those who refuse to fall just yet.",
+        "We are going. Not because we will win, but because we haven't broken yet."
+      ],
+      "pt": [
+        "Uma nova missão. Vamos ver quanto mais conseguimos aguentar antes do fim.",
+        "Minhas músicas não trarão a vitória, mas podem ajudar você a sobreviver às cicatrizes que virão.",
+        "A perda é inevitável. Eu tocarei para que você possa, ao menos, enfrentá-la de pé.",
+        "Não espere um hino heroico. Eu só canto para aqueles que se recusam a cair agora.",
+        "Nós vamos. Não porque vamos vencer, mas porque ainda não fomos quebrados."
+      ],
+      "es": [
+        "Una nueva misión. Veamos cuánto más podemos aguantar antes del final.",
+        "Mis canciones no traerán la victoria, pero podrían ayudarte a sobrevivir a las cicatrices por venir.",
+        "La pérdida es inevitable. Tocaré para que al menos puedas enfrentarla de pie.",
+        "No esperes un himno heroico. Solo canto para aquellos que se niegan a caer todavía.",
+        "Iremos. No porque vayamos a ganar, sino porque aún no nos han roto."
+      ],
+      "ru": [
+        "Новое задание. Посмотрим, сколько еще мы сможем вынести до самого конца.",
+        "Мои песни не принесут победы, но они могут помочь вам пережить будущие шрамы.",
+        "Потеря неизбежна. Я буду играть, чтобы вы могли хотя бы встретить ее стоя.",
+        "Не ждите героического гимна. Я пою только для тех, кто пока отказывается падать.",
+        "Мы идем. Не потому, что победим, а потому, что нас еще не сломили."
+      ],
+      "zh": [
+        "新的任务。让我们看看在结束前我们还能忍受多少。",
+        "我的歌声不会带来胜利，但它们或许能帮你从将要留下的伤疤中幸存。",
+        "失去是必然的。我会演奏，这样你至少能站着面对它。",
+        "别指望英雄赞歌。我只为那些还不愿倒下的人歌唱。",
+        "我们出发吧。不是因为我们会赢，而是因为我们还没崩溃。"
+      ],
+      "ja": [
+        "新しい任務ね。終わりが来るまで、あとどれだけ耐えられるか試してみましょう。",
+        "私の歌は勝利を約束しない。でも、これから刻まれる傷跡を生き延びる助けにはなるわ。",
+        "喪失は避けられない。せめてあなたが立って立ち向かえるように、私は奏でるわ。",
+        "英雄の賛歌なんて期待しないで。私はただ、まだ倒れたくない人のために歌うだけ。",
+        "行きましょう。勝つためじゃなく、まだ私たちが壊れていないからよ。"
+      ]
+    },
+    "chains": {}
+  }
+}

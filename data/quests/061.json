@@ -1,0 +1,35 @@
+{
+  "id": 61,
+  "name": {
+    "pt": "Antídoto Impossível",
+    "en": "Impossible Antidote",
+    "es": "Antídoto Imposible",
+    "ru": "Невозможный антидот",
+    "zh": "不可能的解药",
+    "ja": "不可能な解毒剤"
+  },
+  "description": {
+    "pt": "Um conselheiro foi envenenado por uma substância rara. O ingrediente-chave do antídoto foi extinto há décadas. Apenas uma substituição alquímica ousada pode salvá-lo.",
+    "en": "A councilor was poisoned by a rare substance. The key ingredient for the antidote went extinct decades ago. Only a bold alchemical substitution can save him.",
+    "es": "Un consejero fue envenenado por una sustancia rara. El ingrediente clave del antídoto se extinguió hace décadas. Solo una audaz sustitución alquímica puede salvarlo.",
+    "ru": "Советник был отравлен редким веществом. Ключевой ингредиент противоядия вымер десятилетия назад. Только смелая алхимическая замена может спасти его.",
+    "zh": "一名顾问被一种稀有物质下毒。解药的关键成分已在几十年前灭绝。只有通过大胆的炼金替代方案才能救他。",
+    "ja": "顧問が希少な物質で毒を盛られた。解毒剤の主成分は何十年も前に絶滅している。大胆な錬金術的代用案のみが彼を救うことができる。"
+  },
+  "type": [
+    "alchemy"
+  ],
+  "max_heroes": 1,
+  "expired_at": 4,
+  "available_from_turn": 24,
+  "duration": 3,
+  "difficulty": 2.6,
+  "rewards": {
+    "xp": 115
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

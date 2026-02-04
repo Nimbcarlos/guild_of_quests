@@ -1,0 +1,156 @@
+{
+  "start_dialogues": {
+    "default": {
+      "en": [
+        "The wind changed direction... Ah, the quest? Yes, I heard. The forest is restless too.",
+        "Silence says much more than orders. But if balance demands it, I will be the tree that does not fall.",
+        "Hm? Sorry, I was listening to the roots beneath the floor... What must we protect today?",
+        "I don't need shouts or glory. The earth endures everything in silence, and I shall do the same.",
+        "I am ready. My roots are already on the path, even if my thoughts still seem distant."
+      ],
+      "pt": [
+        "O vento mudou de direção... Ah, a missão? Sim, eu ouvi. A floresta também está inquieta.",
+        "O silêncio diz muito mais que essas ordens. Mas se o equilíbrio exige, eu serei a árvore que não cai.",
+        "Hm? Desculpe, estava ouvindo as raízes sob o piso... O que temos que proteger hoje?",
+        "Não preciso de gritos ou glória. A terra suporta tudo em silêncio, e eu farei o mesmo.",
+        "Estou pronta. Minhas raízes já estão no caminho, mesmo que meus pensamentos pareçam distantes."
+      ],
+      "es": [
+        "El viento cambió de dirección... Ah, ¿la misión? Sí, escuché. El bosque también está inquieto.",
+        "El silencio dice mucho más que las órdenes. Pero si el equilibrio lo exige, seré el árbol que no cae.",
+        "¿Hm? Lo siento, estaba escuchando las raíces bajo el suelo... ¿Qué debemos proteger hoy?",
+        "No necesito gritos ni gloria. La tierra soporta todo en silencio, y yo haré lo mismo.",
+        "Estoy lista. Mis raíces ya están en el camino, aunque mis pensamientos parezcan distantes."
+      ],
+      "ru": [
+        "Ветер переменился... Ах, задание? Да, я слышала. Лес тоже беспокоен.",
+        "Тишина говорит гораздо больше, чем приказы. Но если баланс требует этого, я буду деревом, которое не упадет.",
+        "Хм? Извините, я слушала корни под полом... Что мы должны защитить сегодня?",
+        "Мне не нужны крики или слава. Земля выносит всё в тишине, и я сделаю то же самое.",
+        "Я готова. Мои корни уже в пути, даже если мои мысли всё еще кажутся далекими."
+      ],
+      "zh": [
+        "风向变了……啊，任务？是的，我听到了。森林也焦躁不安。",
+        "沉默比命令包含更多。但如果平衡需要，我会成为那棵屹立不倒的树。",
+        "嗯？抱歉，我在听地板下的根须声……今天我们要保护什么？",
+        "我不需要呐喊或荣耀。大地在沉默中忍受一切，我也会一样。",
+        "我准备好了。我的根已经踏上了旅程，即使我的思绪看起来依然遥远。"
+      ],
+      "ja": [
+        "風向きが変わったわ……あ、任務のこと？ええ、聞いてる。森も落ち着かないみたい。",
+        "沈黙は命令よりも多くのことを語る。でも均衡がそれを求めるなら、私は倒れない大樹となるわ。",
+        "ん？ごめんなさい、床の下の根の声を聞いていたの……今日は何を守ればいい？",
+        "叫びも栄光もいらない。大地は沈黙の中で全てに耐える、私も同じようにするだけ。",
+        "準備はできている。たとえ思考が遠くにあるように見えても、私の根はすでに道にあるわ。"
+      ]
+    },
+    "chains": {
+      "4": {
+        "0": {
+          "pt": ["Tanto barulho... Os espíritos não são surdos, Saryth, eles apenas preferem o silêncio."],
+          "en": ["So much noise... The spirits aren't deaf, Saryth; they just prefer silence."],
+          "es": ["Tanto ruido... Los espíritus no son sordos, Saryth, solo prefieren el silencio."],
+          "ru": ["Столько шума... Духи не глухие, Сарит, они просто предпочитают тишину."],
+          "zh": ["太吵了……神灵并不聋，萨丽丝，他们只是喜欢安静。"],
+          "ja": ["なんて騒がしいの……精霊は耳が聞こえないわけじゃないわ、サリス。静寂を好むだけ。"]
+        },
+        "1": {
+          "pt": ["O Pacto do Véu Lunar sempre foi... espalhafatoso. Tente não me cegar com o seu brilho."],
+          "en": ["The Moonveil Covenant was always... flashy. Try not to blind me with your glitter."],
+          "es": ["El Pacto del Velo Lunar siempre fue... ostentoso. Intenta no cegarme con tu brillo."],
+          "ru": ["Ковенант Лунной Вуали всегда был... вычурным. Постарайся не ослепить меня своим блеском."],
+          "zh": ["月幕契约总是那么……花哨。试着别用你的光芒闪瞎我。"],
+          "ja": ["ムーンヴェイルの連中はいつも……派手ね。その輝きで私の目をくらませないで。"]
+        },
+        "2": {
+          "pt": ["Uma missão com um Véu Lunar? A floresta vai levar dias para se acalmar depois disso."],
+          "en": ["A mission with a Moonveil? The forest will take days to calm down after this."],
+          "es": ["¿Una misión con un Velo Lunar? El bosque tardará días en calmarse después de esto."],
+          "ru": ["Задание с представителем Лунной Вуали? Лесу понадобятся дни, чтобы успокоиться после этого."],
+          "zh": ["和月幕的人一起执行任务？森林在那之后要花好几天才能平静下来。"],
+          "ja": ["ムーンヴェイルと一緒に任務？その後、森が落ち着くのに何日もかかるわ。"]
+        },
+        "3": {
+          "pt": ["Eu serei a raiz, você será o trovão. Tente não assustar os animais... mais do que o necessário."],
+          "en": ["I'll be the root, you'll be the thunder. Try not to scare the animals... more than necessary."],
+          "es": ["Yo seré la raíz, tú serás el trueno. Intenta no asustar a los animales... más de lo necesario."],
+          "ru": ["Я буду корнем, ты — громом. Постарайся не пугать животных... сильнее, чем нужно."],
+          "zh": ["我将是根，你将是雷。试着别吓到动物……除非必要。"],
+          "ja": ["私は根となり、あなたは雷となる。必要以上に……動物を驚かせないで。"]
+        },
+        "4": {
+          "pt": ["Hm? Ah, Saryth... desculpe, eu estava a ouvir o crescimento do musgo. O que dizia sobre a sua 'performance'?"],
+          "en": ["Hm? Oh, Saryth... sorry, I was listening to the moss growing. What were you saying about your 'performance'?"],
+          "es": ["¿Hm? Oh, Saryth... lo siento, estaba escuchando crecer el musgo. ¿Qué decías de tu 'actuación'?"],
+          "ru": ["Хм? О, Сарит... прости, я слушала, как растет мох. Что ты там говорила про свое «выступление»?"],
+          "zh": ["嗯？噢，萨丽丝……抱歉，我刚才在听苔藓生长的声音。你刚才说你的“表演”怎么了？"],
+          "ja": ["ん？あ、サリス……ごめんなさい、苔が育つ音を聞いていたわ。あなたの「パフォーマンス」が何だって？"]
+        },
+        "5": {
+          "pt": ["A força não precisa de um palco, Saryth. A montanha não grita."],
+          "en": ["Strength doesn't need a stage, Saryth. The mountain doesn't scream."],
+          "es": ["La fuerza no necesita un escenario, Saryth. La montaña no grita."],
+          "ru": ["Силе не нужна сцена, Сарит. Гора не кричит."],
+          "zh": ["力量不需要舞台，萨丽丝。大山并不会尖叫。"],
+          "ja": ["強さに舞台はいらないわ、サリス。山は叫んだりしない。"]
+        },
+        "6": {
+          "pt": ["Seus espíritos são atraídos pelo orgulho. Os meus... pela paciência."],
+          "en": ["Your spirits are drawn by pride. Mine... by patience."],
+          "es": ["Tus espíritos se sienten atraídos por el orgullo. Los míos... por la paciencia."],
+          "ru": ["Твоих духов привлекает гордыня. Моих... терпение."],
+          "zh": ["你的灵体被傲慢吸引。而我的……被耐心吸引。"],
+          "ja": ["あなたの精霊は傲慢に惹かれる。私の精霊は……忍耐に。"]
+        },
+        "7": {
+          "pt": ["Você brilha demais para quem quer passar despercebida na caça."],
+          "en": ["You shine too bright for someone who wants to go unnoticed in the hunt."],
+          "es": ["Brillas demasiado para alguien que quiere pasar desapercibida en la caza."],
+          "ru": ["Ты сияешь слишком ярко для того, кто хочет остаться незамеченным на охоте."],
+          "zh": ["对于一个想在狩猎中不被发现的人来说，你闪耀得太过头了。"],
+          "ja": ["狩りで目立たないようにしたい者にしては、あなたは輝きすぎているわ。"]
+        },
+        "8": {
+          "pt": ["Os ancestrais de Thornwake tinham um ditado sobre xamãs barulhentos... mas eu esqueci."],
+          "en": ["The Thornwake ancestors had a saying about loud shamans... but I forgot it."],
+          "es": ["Los ancestros de Thornwake tenían un dicho sobre los chamanes ruidosos... pero lo olvidé."],
+          "ru": ["У предков Торнвейка была поговорка о шумных шаманах... но я ее забыла."],
+          "zh": ["索恩威克的祖先们有一句关于大声嚷嚷的萨满的谚语……但我忘了。"],
+          "ja": ["ソーンウェイクの先祖は、騒がしいシャーマンについての格言を残していたけど……忘れたわ。"]
+        },
+        "9": {
+          "pt": ["Estou pronta. Só... mantenha os fogos de artifício rituais ao mínimo."],
+          "en": ["I'm ready. Just... keep the ritual fireworks to a minimum."],
+          "es": ["Estoy lista. Solo... mantén los fuegos artificiales rituales al mínimo."],
+          "ru": ["Я готова. Только... сведи ритуальные фейерверки к минимуму."],
+          "zh": ["我准备好了。只是……把你的仪式烟花减到最少。"],
+          "ja": ["準備はいいわ。ただ……儀式の花火は最小限にしてちょうだい。"]
+        }
+      }
+    }
+  },
+  "quests": { 
+    "0": {
+      "success": {
+        "text": {
+          "pt": [ "Maelis, successo teste" ],
+          "en": [ "Maelis, success test" ]
+        },
+        "1": {
+          "pt": [ "Maelis, teste de sucesso lyra" ],
+          "en": [ "Maelis, lyra success test" ]
+        }
+      },
+      "failure": {
+        "text": {
+          "pt": [ "Maelis, falha teste" ],
+          "en": [ "Maelis, failure test" ]
+        },
+        "1": {
+          "pt": [ "Maelis, teste de falha lyra" ],
+          "en": [ "Maelis, lyra failure test" ]
+        }
+      }
+    }
+  }
+}

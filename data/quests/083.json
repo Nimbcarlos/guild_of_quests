@@ -1,0 +1,33 @@
+{
+  "id": 83,
+  "name": {
+    "pt": "Espionagem Teatral",
+    "en": "Theatrical Espionage",
+    "es": "Espionaje Teatral",
+    "ru": "Театральный шпионаж",
+    "zh": "剧场间谍活动",
+    "ja": "演劇スパイ"
+  },
+  "description": {
+    "pt": "Uma trupe de teatro itinerante é, na verdade, fachada para espiões estrangeiros. A única forma de se infiltrar é subir ao palco com eles e atuar melhor do que os próprios atores.",
+    "en": "A traveling theater troupe is actually a front for foreign spies. The only way to infiltrate is to get on stage with them and out-act the actors themselves.",
+    "es": "Una compañía de teatro itinerante es en realidad una fachada para espías extranjeros. La única forma de infiltrarse es subir al escenario y actuar mejor que los propios actores.",
+    "ru": "Бродячая театральная труппа — это прикрытие для иностранных шпионов. Единственный способ внедриться — выйти с ними на сцену и переиграть самих актеров.",
+    "zh": "一个巡回剧团实际上是外国间谍的掩护。唯一的渗透方法就是和他们一起上台，并表现出比演员更精湛的演技。",
+    "ja": "旅の劇団は、実は外国のスパイの隠れ蓑だ。潜入する唯一の方法は、彼らと一緒に舞台に上がり、本物の役者以上の演技を披露することだ。"
+  },
+  "type": "performance",
+  "max_heroes": 2,
+  "expired_at": 6,
+  "available_from_turn": 92,
+  "duration": 3,
+  "difficulty": 2.6,
+  "rewards": {
+    "xp": 110
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

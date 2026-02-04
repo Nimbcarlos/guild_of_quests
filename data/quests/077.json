@@ -1,0 +1,35 @@
+{
+  "id": 77,
+  "name": {
+    "pt": "Fungo Alquímico Mutante",
+    "en": "Mutant Alchemical Fungus",
+    "es": "Hongo Alquímico Mutante",
+    "ru": "Мутантный алхимический грибок",
+    "zh": "变异炼金真菌",
+    "ja": "変異した錬金術的菌類"
+  },
+  "description": {
+    "pt": "Um experimento criou um fungo que consome madeira, pedra e carne. Seus esporos explodem ao contato com o ar, tornando métodos comuns de contenção inúteis.",
+    "en": "An experiment created a fungus that consumes wood, stone, and flesh. Its spores explode upon contact with air, making common containment methods useless.",
+    "es": "Un experimento creó un hongo que consume madera, piedra y carne. Sus esporas explotan al contacto con el aire, invalidando los métodos comunes de contención.",
+    "ru": "В ходе эксперимента возник грибок, пожирающий дерево, камень и плоть. Его споры взрываются при контакте с воздухом, что делает обычные методы сдерживания бесполезными.",
+    "zh": "一项实验产生了一种消耗木材、石头和肉体的真菌。它的孢子在接触空气时会爆炸，使普通的遏制方法失效。",
+    "ja": "ある実験によって、木、石、そして肉を消費する菌類が生まれた。その胞子は空気に触れると爆発するため、通常の封じ込め方法は役に立たない。"
+  },
+  "type": [
+    "alchemy"
+  ],
+  "max_heroes": 1,
+  "expired_at": 4,
+  "available_from_turn": 94,
+  "duration": 3,
+  "difficulty": 2.7,
+  "rewards": {
+    "xp": 125
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

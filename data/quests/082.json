@@ -1,0 +1,36 @@
+{
+  "id": 82,
+  "name": {
+    "pt": "Contendo a Revolta no Solar",
+    "en": "Quelling the Manor Revolt",
+    "es": "Conteniendo la Revuelta en el Solar",
+    "ru": "Подавление бунта в поместье",
+    "zh": "平息庄园叛乱",
+    "ja": "領主邸の暴動鎮圧"
+  },
+  "description": {
+    "pt": "Uma multidão enfurecida marcha em direção à mansão do Barão local. Palavras erradas podem virar um massacre nos portões. Discursos, música ou os símbolos certos podem acalmar os ânimos e salvar centenas de vidas.",
+    "en": "An enraged crowd marches toward the local Baron's manor. Wrong words could turn into a massacre at the gates. The right speeches, music, or symbols can calm the tempers and save hundreds of lives.",
+    "es": "Una multitud enfurecida marcha hacia la mansión del barón local. Las palabras equivocadas pueden terminar en una masacre en las puertas. Discursos, música o símbolos adecuados pueden calmar los ánimos.",
+    "ru": "Разъяренная толпа марширует к поместью местного барона. Неверные слова могут привести к резне у ворот. Правильные речи, музыка или символы могут успокоить гнев и спасти сотни жизней.",
+    "zh": "愤怒的人群正向当地男爵的庄园进发。言语不当可能导致大门口的一场大屠杀。正确的演说、音乐或象征物可以平息情绪并挽救数百条生命。",
+    "ja": "怒れる群衆が地元の男爵の屋敷に向かって行進している。言葉を間違えれば門前で大虐殺になりかねない。適切な演説、音楽、あるいは象徴が怒りを鎮め、数百の命を救うことができる。"
+  },
+  "type": [
+    "performance",
+    "diplomacy"
+  ],
+  "max_heroes": 1,
+  "expired_at": 3,
+  "available_from_turn": 46,
+  "duration": 3,
+  "difficulty": 2.4,
+  "rewards": {
+    "xp": 85
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

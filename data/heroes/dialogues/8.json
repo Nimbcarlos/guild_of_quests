@@ -1,0 +1,156 @@
+{
+  "start_dialogues": {
+    "default": {
+      "en": [
+        "Stop talking. Tell me who I need to break so we can get this over with.",
+        "Pain is the only truth in this world. I'm ready to teach it to someone.",
+        "Don't expect kindness. I'm here to deliver results, not comfort.",
+        "I'm already on edge. Let's hope the enemies are fast, or they won't last a second.",
+        "Focus. If you get in my way while I'm working, you'll feel it too."
+      ],
+      "pt": [
+        "Pare de falar. Diga-me quem eu preciso quebrar para acabarmos logo com isso.",
+        "A dor é a única verdade neste mundo. Estou pronta para ensiná-la a alguém.",
+        "Não espere gentileza. Estou aqui para entregar resultados, não conforto.",
+        "Já estou no meu limite. Vamos torcer para que os inimigos sejam rápidos, ou não durarão um segundo.",
+        "Foco. Se você entrar no meu caminho enquanto eu trabalho, você também vai sentir."
+      ],
+      "es": [
+        "Deja de hablar. Dime a quién tengo que romper para que terminemos con esto.",
+        "El dolor es la única verdad en este mundo. Estoy lista para enseñárselo a alguien.",
+        "No esperes amabilidad. Estoy aquí para entregar resultados, no consuelo.",
+        "Ya estoy al límite. Esperemos que los enemigos sean rápidos, o no durarán ni un segundo.",
+        "Concéntrate. Si te cruzas en mi camino mientras trabajo, tú también lo sentirás."
+      ],
+      "ru": [
+        "Хватит болтать. Скажи, кого мне нужно сломать, чтобы мы покончили с этим.",
+        "Боль — единственная правда в этом мире. Я готова преподать кому-нибудь урок.",
+        "Не ждите доброты. Я здесь, чтобы давать результат, а не утешать.",
+        "Я и так на взводе. Будем надеяться, что враги окажутся быстрыми, иначе они и секунды не продержатся.",
+        "Сосредоточься. Если встанешь у меня на пути во время работы, тебе тоже мало не покажется."
+      ],
+      "zh": [
+        "闭嘴。告诉我需要废掉谁，好让我们赶紧结束这件事。",
+        "痛苦是这个世界上唯一的真理。我准备好教教别人了。",
+        "别指望我会仁慈。我是来交差的，不是来安慰人的。",
+        "我已经快没耐心了。希望敌人动作快点，否则他们一秒钟都撑不住。",
+        "集中注意力。如果在我动手时挡路，你也会感同身受。"
+      ],
+      "ja": [
+        "喋るな。誰を壊せばいいか教えろ。さっさと終わらせたいんだ。",
+        "痛みはこの世で唯一の真実だ。それを誰かに教えてやる準備はできている。",
+        "優しさなんて期待するな。私は結果を出すためにここにいる。慰めるためじゃない。",
+        "もう限界だ。敵が素早いことを祈るんだな。さもないと一瞬で終わるぞ。",
+        "集中しろ。私の邪魔をすれば、貴様も同じ痛みを味わうことになる。"
+      ]
+    },
+    "chains": {
+      "11": {
+        "0": {
+          "pt": ["Nyx. Eu quebro os ossos, você termina o serviço. Sem hesitação."],
+          "en": ["Nyx. I break the bones, you finish the job. No hesitation."],
+          "es": ["Nyx. Yo rompo los huesos, tú terminas el trabajo. Sin dudar."],
+          "ru": ["Никс. Я ломаю кости, ты заканчиваешь работу. Без колебаний."],
+          "zh": ["尼克斯。我来捏碎骨头，你来收尾。不要犹豫。"],
+          "ja": ["ニクス。私が骨を砕き、あんたが仕留める。躊躇はなしよ。"]
+        },
+        "1": {
+          "pt": ["Gosto do seu estilo, sombra. Você não se importa se eles sofrem."],
+          "en": ["I like your style, shadow. You don't care if they suffer."],
+          "es": ["Me gusta tu estilo, sombra. No te importa si sufren."],
+          "ru": ["Мне нравится твой стиль, тень. Тебе плевать, страдают ли они."],
+          "zh": ["我喜欢你的风格，影子。你不在乎它们是否痛苦。"],
+          "ja": ["あんたのやり方、気に入ったわ。苦しもうがお構いなしね。"]
+        },
+        "2": {
+          "pt": ["Tente não se divertir demais enquanto eu estiver segurando a fera, Nyx."],
+          "en": ["Try not to have too much fun while I'm holding the beast down, Nyx."],
+          "es": ["Intenta no divertirte demasiado mientras mantengo a la bestia quieta, Nyx."],
+          "ru": ["Постарайся не слишком развлекаться, пока я держу зверя, Никс."],
+          "zh": ["当我按住那头畜生的时候，尼克斯，试着别玩得太疯。"],
+          "ja": ["私が獣を押さえつけている間、あまり楽しみすぎないでね、ニクス。"]
+        },
+        "3": {
+          "pt": ["Eles dizem que você é sádica. Eu digo que você é apenas... eficiente."],
+          "en": ["They say you're sadistic. I say you're just... efficient."],
+          "es": ["Dicen que eres sádica. Yo digo que solo eres... eficiente."],
+          "ru": ["Говорят, ты садистка. Я говорю, что ты просто... эффективна."],
+          "zh": ["他们说你有施虐倾向。我说你只是……效率高。"],
+          "ja": ["あんたはサディストだって言われてるけど、私に言わせれば単に……効率的なだけよ。"]
+        },
+        "4": {
+          "pt": ["Se um monstro gritar, não pare. A dor é a única verdade."],
+          "en": ["If a monster screams, don't stop. Pain is the only truth."],
+          "es": ["Si un monstruo grita, no pares. El dolor es la única verdad."],
+          "ru": ["Если монстр кричит — не останавливайся. Боль — единственная истина."],
+          "zh": ["如果怪物尖叫，不要停。痛苦是唯一的真相。"],
+          "ja": ["モンスターが悲鳴を上げても止めるな。痛みこそが唯一の真実だ。"]
+        },
+        "5": {
+          "pt": ["Você guarda suas lâminas, eu guardo meus punhos. Vamos ver quem faz mais sujeira."],
+          "en": ["You keep your blades, I keep my fists. Let's see who makes the bigger mess."],
+          "es": ["Tú con tus hojas, yo con mis puños. Veamos quién ensucia más."],
+          "ru": ["У тебя клинки, у меня кулаки. Посмотрим, кто оставит после себя больше хаоса."],
+          "zh": ["你用你的刃，我用我的拳。看看谁留下的场面更乱。"],
+          "ja": ["あんたは刃、私は拳。どっちが派手に暴れるか勝負ね。"]
+        },
+        "6": {
+          "pt": ["A Ordem te fez uma arma, Nyx. O monastério me fez um pesadelo. Ótima dupla."],
+          "en": ["The Order made you a weapon, Nyx. The monastery made me a nightmare. Great pair."],
+          "es": ["La Orden te hizo un arma, Nyx. El monasterio me hizo una pesadilla. Gran pareja."],
+          "ru": ["Орден сделал из тебя оружие, Никс. Монастырь сделал из меня кошмар. Отличная парочка."],
+          "zh": ["教团把你变成了武器，尼克斯。寺院把我变成了噩梦。绝配。"],
+          "ja": ["オーダーはあんたを武器にし、修道院は私を悪夢に変えた。最高のコンビね。"]
+        },
+        "7": {
+          "pt": ["Não precisa de furtividade hoje. Deixe que eles vejam quem vai matá-los."],
+          "en": ["No need for stealth today. Let them see who's going to kill them."],
+          "es": ["Hoy no hace falta sigilo. Deja que vean quién los va a matar."],
+          "ru": ["Сегодня скрытность не нужна. Пусть видят, кто пришел их убить."],
+          "zh": ["今天不需要潜行。让他们看清楚是谁要宰了他们。"],
+          "ja": ["今日は隠れる必要なんてないわ。誰に殺されるか、奴らに拝ませてやりなさい。"]
+        },
+        "8": {
+          "pt": ["Sua sede de sangue... ela é honesta. Eu respeito isso."],
+          "en": ["Your bloodlust... it's honest. I respect that."],
+          "es": ["Tu sed de sangre... es honesta. Respeto eso."],
+          "ru": ["Твоя жажда крови... она честная. Я уважаю это."],
+          "zh": ["你的杀戮欲望……很真实。我尊敬这一点。"],
+          "ja": ["あんたの血への渇望……正直ね。嫌いじゃないわ。"]
+        },
+        "9": {
+          "pt": ["Vamos logo. Meus punhos estão coçando e sei que suas adagas também estão."],
+          "en": ["Let's go. My fists are itching, and I know your daggers are too."],
+          "es": ["Vamos. Me pican los puños, y sé que a tus dagas también."],
+          "ru": ["Пошли. У меня кулаки чешутся, и я знаю, что у твоих кинжалов тоже."],
+          "zh": ["走吧。我的拳头已经发痒了，我知道你的短剑也一样。"],
+          "ja": ["行くわよ。拳が疼いてるわ。あんたの短剣もそうでしょう？"]
+        }
+      }
+    }
+  },
+  "quests": { 
+    "0": {
+      "success": {
+        "text": {
+          "pt": [ "Serah, successo teste" ],
+          "en": [ "Serah, success test" ]
+        },
+        "1": {
+          "pt": [ "Serah, teste de sucesso lyra" ],
+          "en": [ "Serah, lyra success test" ]
+        }
+      },
+      "failure": {
+        "text": {
+          "pt": [ "Serah, falha teste" ],
+          "en": [ "Serah, failure test" ]
+        },
+        "1": {
+          "pt": [ "Serah, teste de falha lyra" ],
+          "en": [ "Serah, lyra failure test" ]
+        }
+      }
+    }
+  }
+}

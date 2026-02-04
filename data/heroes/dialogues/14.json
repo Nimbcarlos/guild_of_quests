@@ -1,0 +1,132 @@
+{
+  "start_dialogues": {
+    "default": {
+      "en": [
+        "System check... *tick*... functional. Tell me what's broken and I'll make it hold.",
+        "A quest? *Clank!* Let's move. I can hear the structural fatigue from here.",
+        "People lie, but steel never does. *Bzzzt!* Ready to reinforce the line.",
+        "My mind is racing faster than a loose gear. *Whirrr!* Just show me the path.",
+        "I don't do 'ideals'. I do tolerances. *Snap!* Let's make sure nothing collapses today."
+      ],
+      "pt": [
+        "Checagem de sistema... *tique*... funcional. Diga o que está quebrado e eu farei aguentar.",
+        "Uma missão? *Clank!* Vamos logo. Consigo ouvir a fadiga estrutural daqui.",
+        "Pessoas mentem, mas o aço nunca mente. *Bzzzt!* Pronta para reforçar a linha.",
+        "Minha mente corre mais que uma engrenagem solta. *Whirrr!* Apenas me mostre o caminho.",
+        "Eu não trabalho com 'ideais'. Eu trabalho com tolerâncias. *Snap!* Vamos garantir que nada colapse hoje."
+      ],
+      "es": [
+        "Chequeo de sistema... *tic*... funcional. Dime qué está roto y haré que aguante.",
+        "¿Una misión? *¡Clank!* Vamos. Puedo oír la fatiga estructural desde aquí.",
+        "La gente miente, pero el acero nunca. *¡Bzzzt!* Lista para reforzar la línea.",
+        "Mi mente corre más rápido que un engranaje suelto. *¡Whirrr!* Solo muéstrame el camino.",
+        "No trabajo con 'ideales'. Trabajo con tolerancias. *¡Snap!* Asegurémonos de que nada colapse hoy."
+      ],
+      "ru": [
+        "Проверка системы... *тик*... функционирует. Скажи, что сломано, и я это починю.",
+        "Задание? *Дзынь!* Идем. Я отсюда слышу усталость металла.",
+        "Люди лгут, а сталь — никогда. *Бзззт!* Готова укреплять позиции.",
+        "Мои мысли несутся быстрее сорванной шестерни. *Вжжж!* Просто покажи дорогу.",
+        "Я не занимаюсь «идеалами». Я занимаюсь допусками. *Щелк!* Сделаем так, чтобы сегодня ничего не рухнуло."
+      ],
+      "zh": [
+        "系统检查……*滴答*……正常。告诉我什么坏了，我会让它撑住。",
+        "任务？*当啷！* 走吧。我在这儿都能听到结构疲劳的声音。",
+        "人会撒谎，但钢铁不会。*滋滋！* 准备好加固防线。",
+        "我的思绪转得比松动的齿轮还快。*呼呼！* 指给我路就行。",
+        "我不谈什么“理想”。我谈的是公差。*啪！* 让我们确保今天什么都不会崩溃。"
+      ],
+      "ja": [
+        "システムチェック……*チッ*……正常。壊れている箇所を教えなさい、私が補強してあげる。",
+        "任務？*ガチャン！* 行くわよ。ここからでも構造疲労の音が聞こえるわ。",
+        "人は嘘をつくけど、鋼は嘘をつかない。*ブーッ！* 防線を強化する準備はできているわ。",
+        "思考が外れた歯車より速く回ってる……*ウィーン！* 道を示してちょうだい。",
+        "「理想」なんてやらないわ。やるのは許容誤差よ。*パチン！* 今日は何も崩壊させないようにしましょう。"
+      ]
+    },
+    "chains": {
+      "9": {
+        "0": {
+          "pt": ["Alquimia? *Tick!* Cuidado com esses frascos, Seraphine. O coeficiente de expansão é... perigoso."],
+          "en": ["Alchemy? *Tick!* Watch those flasks, Seraphine. The expansion coefficient is... dangerous."],
+          "es": ["¿Alquimia? *¡Tic!* Cuidado con esos frascos, Seraphine. El coeficiente de expansión es... peligroso."],
+          "ru": ["Алхимия? *Тик!* Осторожнее с этими колбами, Серафина. Коэффициент расширения... опасен."],
+          "zh": ["炼金术？*嘀嗒！* 小心那些烧瓶，塞拉菲娜。膨胀系数非常……危险。"],
+          "ja": ["錬金術？*チッ！* そのフラスコには気をつけなさい、セラフィーン。膨張係数が……危険だわ。"]
+        },
+        "1": {
+          "pt": ["Engrenagens são honestas. *Clank!* Poções são... instáveis demais para o meu gosto."],
+          "en": ["Gears are honest. *Clank!* Potions are... too unstable for my taste."],
+          "es": ["Los engranajes son honestos. *¡Clank!* Las pociones são... demasiado inestables para mi gusto."],
+          "ru": ["Шестерни честны. *Дзынь!* Зелья... слишком нестабильны на мой вкус."],
+          "zh": ["齿轮是诚实的。*当啷！* 药剂……对我来说太不稳定了。"],
+          "ja": ["歯車は正直よ。*ガチャン！* ポーションは……私の好みには不安定すぎるわ。"]
+        },
+        "2": {
+          "pt": ["Sua mistura... *Bzzzt!*... cheira a falha iminente. Precisa de mais estabilizador."],
+          "en": ["Your mixture... *Bzzzt!*... smells like imminent failure. Needs more stabilizer."],
+          "es": ["Tu mezcla... *¡Bzzzt!*... huele a fallo inminente. Necesita más estabilizador."],
+          "ru": ["Твоя смесь... *Бзззт!*... пахнет скорым провалом. Нужно больше стабилизатора."],
+          "zh": ["你的混合物……*滋滋！*……闻起来像要失败了。需要更多稳定剂。"],
+          "ja": ["あなたの混合物……*ブーッ！*……故障の予感がするわ。スタビライザーが足りない。"]
+        },
+        "3": {
+          "pt": ["Você cura a carne, eu conserto as portas. *Snap!* Sistema completo."],
+          "en": ["You heal the flesh, I fix the gates. *Snap!* Complete system."],
+          "es": ["Tú curas la carne, yo arreglo las puertas. *¡Snap!* Sistema completo."],
+          "ru": ["Ты лечишь плоть, я чиню ворота. *Щелк!* Система в сборе."],
+          "zh": ["你治愈肉体，我修理大门。*啪！* 系统完整了。"],
+          "ja": ["あなたは肉体を癒やし、私は門を直す。*パチン！* これでシステムは完結ね。"]
+        },
+        "4": {
+          "pt": ["Pare de m-me analisar! *Whirrr!* Sou uma engenheira, não um experimento químico!"],
+          "en": ["Stop a-analyzing me! *Whirrr!* I'm an engineer, not a chemical experiment!"],
+          "es": ["¡Deja de a-analizarme! *¡Whirrr!* ¡Soy ingeniera, no un experimento químico!"],
+          "ru": ["Хватит меня а-анализировать! *Вжжж!* Я инженер, а не химический эксперимент!"],
+          "zh": ["别分、分析我了！*呼呼！* 我是工程师，不是化学实验品！"],
+          "ja": ["私を分、分析するのはやめて！*ウィーン！* 私はエンジニアよ、化学実験の被験者じゃないわ！"]
+        },
+        "5": {
+          "pt": ["Alquimia sem cálculos é só superstição líquida. *Clink!* E eu não confio nisso."],
+          "en": ["Alchemy without calculations is just liquid superstition. *Clink!* And I don't trust that."],
+          "es": ["La alquimia sin cálculos es solo superstición líquida. *¡Clink!* Y no confío en eso."],
+          "ru": ["Алхимия без расчетов — просто жидкое суеверие. *Дзынь!* Я этому не доверяю."],
+          "zh": ["没有计算的炼金术只是液态迷信。*叮当！* 我不信这个。"],
+          "ja": ["計算のない錬金術は、ただの液体迷信よ。*カチン！* 信じないわ。"]
+        },
+        "6": {
+          "pt": ["Se isso borbulhar mais uma vez, eu vou instalar uma válvula de emergência. Em você."],
+          "en": ["If that bubbles one more time, I'm installing an emergency valve. On you."],
+          "es": ["Si eso burbujea una vez más, voy a instalar una válvula de emergencia. En ti."],
+          "ru": ["Если это еще раз забулькает, я установлю аварийный клапан. На тебе."],
+          "zh": ["如果它再冒一次泡，我就给你装个应急阀门。"],
+          "ja": ["もう一回泡立ったら、非常弁を取り付けるわ。あなたに。"]
+        },
+        "7": {
+          "pt": ["*T-tick!* Não mexe nisso! A pressão interna ainda não estabilizou!"],
+          "en": ["*T-tick!* Don't touch that! Internal pressure hasn't stabilized yet!"],
+          "es": ["*¡T-tic!* ¡No toques eso! ¡La presión interna no se ha estabilizado!"],
+          "ru": ["*Т-так!* Не трогай! Внутреннее давление еще нестабильно!"],
+          "zh": ["*滴、滴！* 别碰！内部压力还没稳定！"],
+          "ja": ["*チ、チッ！* 触らないで！内部圧力がまだ安定してない！"]
+        },
+        "8": {
+          "pt": ["Prefiro um parafuso mal apertado a uma poção 'quase segura'."],
+          "en": ["I'd rather have a loose screw than a 'mostly safe' potion."],
+          "es": ["Prefiero un tornillo flojo a una poción 'casi segura'."],
+          "ru": ["Я лучше выберу плохо затянутый болт, чем «почти безопасное» зелье."],
+          "zh": ["我宁愿要一颗松动的螺丝，也不要“一般安全”的药剂。"],
+          "ja": ["「ほぼ安全」なポーションより、緩んだネジの方がマシよ。"]
+        },
+        "9": {
+          "pt": ["Se isso explodir, não diga que foi azar. Foi falta de teste."],
+          "en": ["If that explodes, don't call it bad luck. Call it lack of testing."],
+          "es": ["Si eso explota, no lo llames mala suerte. Llámalo falta de pruebas."],
+          "ru": ["Если это взорвется, не называй это неудачей. Назови это отсутствием тестов."],
+          "zh": ["要是爆炸了，别说是运气不好。那是没测试。"],
+          "ja": ["爆発したら運が悪いとか言わないで。テスト不足よ。"]
+        }
+      }
+    }    
+  }
+}

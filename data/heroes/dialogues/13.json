@@ -1,0 +1,132 @@
+{
+  "start_dialogues": {
+    "default": {
+      "en": [
+        "A quest? Wait, let me ask Bram if he's feeling up for a walk today.",
+        "Don't be afraid of the silence. They aren't gone, they're just waiting for an invitation.",
+        "I'll go. My friends say the earth is whispering about something interesting ahead.",
+        "I never command them. I just ask nicely... and they never say no to a friend.",
+        "They have so many stories to tell. Maybe we'll find some new ones on this journey."
+      ],
+      "pt": [
+        "Uma missão? Esperem, deixem-me perguntar ao Bram se ele está a fim de caminhar hoje.",
+        "Não tenha medo do silêncio. Eles não se foram, só estão esperando por um convite.",
+        "Eu vou. Meus amigos dizem que a terra está sussurrando sobre algo interessante à frente.",
+        "Eu nunca os comando. Eu só peço gentilmente... e eles nunca dizem não para uma amiga.",
+        "Eles têm tantas histórias para contar. Talvez encontremos algumas novas nessa jornada."
+      ],
+      "es": [
+        "¿Una misión? Espera, deja que le pregunte a Bram si tiene ganas de caminar hoy.",
+        "No temas al silencio. No se han ido, solo están esperando una invitación.",
+        "Iré. Mis amigos dicen que la tierra susurra sobre algo interesante más adelante.",
+        "Nunca los mando. Solo se lo pido amablemente... y nunca le dicen que no a una amiga.",
+        "Tienen tantas historias que contar. Quizás encontremos algunas nuevas en este viaje."
+      ],
+      "ru": [
+        "Задание? Погодите, я спрошу у Брама, готов ли он сегодня прогуляться.",
+        "Не бойтесь тишины. Они не ушли, они просто ждут приглашения.",
+        "Я пойду. Мои друзья говорят, что земля нашептывает о чем-то интересном впереди.",
+        "Я никогда не приказываю им. Я просто вежливо прошу... а они никогда не говорят «нет» подруге.",
+        "У них так много историй. Может быть, в этом путешествии мы найдем новые."
+      ],
+      "zh": [
+        "任务？等等，让我问问布拉姆今天想不想去散步。",
+        "不要害怕沉默。他们没有离开，只是在等待邀请。",
+        "我会去的。我的朋友们说，大地正低语着前方有趣的事情。",
+        "我从不命令他们。我只是礼貌地请求……他们从不会对朋友说不。",
+        "他们有很多故事要讲。也许我们在这次旅程中会发现一些新的故事。"
+      ],
+      "ja": [
+        "任務？待って、ブラムに今日はお散歩に行く気分か聞いてみるわね。",
+        "静寂を怖がらないで。彼らは消えたんじゃなくて、招かれるのを待っているだけなの。",
+        "行くわ。土の下の友達が、この先に面白いものがあるって囁いているの。",
+        "命令なんてしないわ。優しくお願いするだけ……友達の頼みを断る子なんていないもの。",
+        "彼らにはたくさんの物語があるの。この旅で、また新しいお話が見つかるかもしれないわね。"
+      ]
+    },
+    "chains": {
+      "6": {
+        "0": {
+          "pt": ["Kaela, o Bram disse que as vozes que você ouve hoje estão... muito bonitas."],
+          "en": ["Kaela, Bram said the voices you're hearing today are... very beautiful."],
+          "es": ["Kaela, Bram dijo que las voces que escuchas hoy son... muy hermosas."],
+          "ru": ["Каэла, Брам сказал, что голоса, которые ты слышишь сегодня... очень красивые."],
+          "zh": ["凯拉，布拉姆说你今天听到的声音……非常动听。"],
+          "ja": ["カエラ、ブラムが言ってたわ。今日あなたが聞いている声は……とても綺麗だって。"]
+        },
+        "1": {
+          "pt": ["Você ouve o coral do universo, eu ouço o sussurro da terra. Pelo menos não estamos sozinhas."],
+          "en": ["You hear the universe's chorus, I hear the earth's whisper. At least we aren't alone."],
+          "es": ["Tú escuchas el coro del universo, yo el susurro de la tierra. Al menos no estamos solas."],
+          "ru": ["Ты слышишь хор вселенной, я слышу шепот земли. По крайней мере, мы не одиноки."],
+          "zh": ["你听到宇宙的合唱，我听到大地的私语。起码我们并不孤单。"],
+          "ja": ["あなたは宇宙の合唱を聞き、私は大地の囁きを聞く。少なくとも、私たちは一人じゃないわ。"]
+        },
+        "2": {
+          "pt": ["Meus amigos gostam de você, Kaela. Eles dizem que sua alma brilha como uma canção."],
+          "en": ["My friends like you, Kaela. They say your soul shines like a song."],
+          "es": ["A mis amigos les gustas, Kaela. Dicen que tu alma brilla como una canción."],
+          "ru": ["Моим друзьям ты нравишься, Каэла. Они говорят, что твоя душа сияет, как песня."],
+          "zh": ["我的朋友们很喜欢你，凯拉。他们说你的灵魂像歌声一样闪耀。"],
+          "ja": ["私の友達はあなたのことが好きよ、カエラ。あなたの魂は歌のように輝いているって。"]
+        },
+        "3": {
+          "pt": ["Não se encolha, Kaela. Eu estou ouvindo também, de um jeito diferente."],
+          "en": ["Don't huddle away, Kaela. I'm listening too, in a different way."],
+          "es": ["No te encojas, Kaela. Yo también estoy escuchando, de una forma diferente."],
+          "ru": ["Не сжимайся, Каэла. Я тоже слушаю, просто по-другому."],
+          "zh": ["别蜷缩起来，凯拉。我也在听，只是方式不同。"],
+          "ja": ["震えないで、カエラ。私も聞いているわ、少し違うやり方だけど。"]
+        },
+        "4": {
+          "pt": ["O universo é barulhento para você, não é? Se precisar de silêncio, meus amigos podem ajudar."],
+          "en": ["The universe is noisy for you, isn't it? If you need silence, my friends can help."],
+          "es": ["El universo es ruidoso para ti, ¿verdad? Si necesitas silencio, mis amigos pueden ayudar."],
+          "ru": ["Вселенная для тебя слишком шумная, верно? Если тебе нужна тишина, мои друзья помогут."],
+          "zh": ["宇宙对你来说太吵了，对吧？如果你需要安静，我的朋友们可以帮忙。"],
+          "ja": ["宇宙はあなたにとって騒がしすぎるのね。静寂が必要なら、私の友達が助けてくれるわ。"]
+        },
+        "5": {
+          "pt": ["Você vê as criaturas que dançam? Elas parecem... felizes com a nossa missão."],
+          "en": ["Do you see the dancing creatures? They seem... happy about our mission."],
+          "es": ["¿Ves a las criaturas que danzan? Parecen... felices con nuestra misión."],
+          "ru": ["Ты видишь танцующих существ? Кажется, они... рады нашему заданию."],
+          "zh": ["你看到那些跳舞的生物了吗？它们似乎……对我们的任务感到很高兴。"],
+          "ja": ["踊っている生き物が見える？私たちの任務を……喜んでいるみたい。"]
+        },
+        "6": {
+          "pt": ["Kaela, os mortos dizem que o coral divino está ficando mais alto hoje."],
+          "en": ["Kaela, the dead say the divine chorus is getting louder today."],
+          "es": ["Kaela, los muertos dicen que el coro divino suena más fuerte hoy."],
+          "ru": ["Каэла, мертвые говорят, что божественный хор сегодня звучит громче."],
+          "zh": ["凯拉，死者说神圣的合唱今天变得更响亮了。"],
+          "ja": ["カエラ、死者たちが言ってるわ。今日は神聖な合唱がより大きく聞こえるって。"]
+        },
+        "7": {
+          "pt": ["Eles não acham você estranha. Eles acham você especial. Eu também."],
+          "en": ["They don't think you're strange. They think you're special. So do I."],
+          "es": ["Ellos no creen que seas extraña. Creen que eres especial. Yo también."],
+          "ru": ["Они не считают тебя странной. Они считают тебя особенной. И я тоже."],
+          "zh": ["他们不觉得你奇怪。他们觉得你很特别。我也这么觉得。"],
+          "ja": ["彼らはあなたをおかしいなんて思ってない。特別だと思ってる。私もよ。"]
+        },
+        "8": {
+          "pt": ["Se as vozes gritarem muito, segure minha mão. O frio da terra acalma."],
+          "en": ["If the voices scream too much, hold my hand. The cold of the earth is calming."],
+          "es": ["Si las voces gritan mucho, toma mi mano. El frío de la tierra calma."],
+          "ru": ["Если голоса будут кричать слишком громко, возьми меня за руку. Холод земли успокаивает."],
+          "zh": ["如果那些声音吵得太厉害，就握住我的手。大地的冰冷能让人平静。"],
+          "ja": ["声がうるさすぎるときは、私の手を握って。地の冷たさは心を落ち着かせてくれるわ。"]
+        },
+        "9": {
+          "pt": ["Vamos, Kaela. O universo e o submundo estão esperando por nós."],
+          "en": ["Come on, Kaela. The universe and the underworld are waiting for us."],
+          "es": ["Vamos, Kaela. El universo y el inframundo nos están esperando."],
+          "ru": ["Пойдем, Каэла. Вселенная и преисподняя ждут нас."],
+          "zh": ["走吧，凯拉。宇宙和冥界都在等着我们。"],
+          "ja": ["行きましょう、カエラ。宇宙と冥界が私たちを待っているわ。"]
+        }
+      }
+    }
+  }
+}

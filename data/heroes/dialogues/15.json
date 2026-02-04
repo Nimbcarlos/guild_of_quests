@@ -1,0 +1,49 @@
+{
+  "start_dialogues": {
+    "default": {
+      "en": [
+        "The r-rock... it remembers m-me. I'll go.",
+        "The m-mountain is... qu-quiet today. A g-good day for a hunt.",
+        "W-words are hard. B-but the ground... it sp-speaks cl-clearly.",
+        "D-do you feel that? The s-stone is... h-heavy ahead.",
+        "I will p-p-ask the earth for... a-abrigo. For s-shelter. It will l-listen."
+      ],
+      "pt": [
+        "A p-pedra... se l-lembra de mim. Eu v-vou.",
+        "A m-montanha está... qu-quieta hoje. B-bom dia para caçar.",
+        "P-palavras são d-difíceis. Mas o ch-chão... ele f-fala claro.",
+        "V-você sente? A r-rocha está... p-pesada lá na f-frente.",
+        "Vou p-p-pedir abrigo à t-terra. Ela vai... esc-escutar."
+      ],
+      "es": [
+        "La p-piedra... me rec-cuerda. Yo v-voy.",
+        "La m-montaña está... qu-quieta hoy. B-buen día para cazar.",
+        "Las p-palabras son d-difíciles. Pero el s-suelo... habla cl-claro.",
+        "¿S-sientes eso? La r-roca está... p-pesada adelante.",
+        "Le p-p-pediré refugio a la t-tierra. Ella... esc-escuchará."
+      ],
+      "ru": [
+        "К-камень... помнит м-меня. Я п-пойду.",
+        "Г-гора сегодня... т-тихая. Х-хороший день для охоты.",
+        "С-слова — это т-трудно. Но з-земля... говорит ч-четко.",
+        "Т-ты чувствуешь? К-камень впереди... т-тяжелый.",
+        "Я п-п-попрошу у земли... у-убежища. Она п-послушает."
+      ],
+      "zh": [
+        "岩石……还记、记得我。我会、会去的。",
+        "山脉今天……很安、安静。是打猎的……好、好日子。",
+        "说、说话很难。但大、大地……说得很清楚。",
+        "你感、感觉到了吗？前面的岩石……很沉、沉重。",
+        "我会向大地……寻、寻求庇护。它会……听、听见的。"
+      ],
+      "ja": [
+        "石が……私を覚えている。い、行くわ。",
+        "山が……今日は静か。か、狩りにいい日。",
+        "言、言葉は難しい。でも地、地面は……はっきり喋る。",
+        "感、感じる？先の岩が……お、重たいわ。",
+        "大地に……あ、雨宿りをお願いする。地、地面は聞いてくれる。"
+      ]
+    },
+    "chains": {}
+  }
+}

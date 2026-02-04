@@ -1,0 +1,35 @@
+{
+  "id": 89,
+  "name": {
+    "pt": "Travessia Antes do Inverno",
+    "en": "Crossing Before Winter",
+    "es": "El Cruce Antes del Invierno",
+    "ru": "Переход До Зимы",
+    "zh": "寒冬之前的穿越",
+    "ja": "冬が来る前の越境"
+  },
+  "description": {
+    "pt": "Duzentos refugiados precisam atravessar a cordilheira antes que o inverno feche todas as passagens. A rota principal está bloqueada por deslizamentos recentes. O único caminho alternativo passa por encostas instáveis, zonas de avalanche, neblina constante e pontes antigas que rangem sob peso excessivo. Cada decisão errada pode significar dezenas de mortes. A missão não é rápida, mas precisa ser precisa.",
+    "en": "Two hundred refugees must cross the mountain range before winter seals all passages. The main route has been blocked by recent landslides. The only alternative path runs through unstable slopes, avalanche zones, constant fog, and ancient bridges that creak under heavy loads. Every wrong decision could cost dozens of lives. This mission is not about speed, but about precision.",
+    "es": "Doscientos refugiados deben cruzar la cordillera antes de que el invierno cierre todos los pasos. La ruta principal está bloqueada por deslizamientos recientes. El único camino alternativo atraviesa laderas inestables, zonas de avalanchas, niebla constante y puentes antiguos que crujen bajo el peso. Cada error puede costar decenas de vidas. No es una misión rápida, sino una que exige precisión.",
+    "ru": "Двести беженцев должны пересечь горный хребет до того, как зима закроет все перевалы. Основной маршрут заблокирован недавними обвалами. Единственный альтернативный путь проходит через нестабильные склоны, зоны лавин, постоянный туман и древние мосты, скрипящие под нагрузкой. Любая ошибка может стоить десятков жизней. Эта миссия требует точности, а не скорости.",
+    "zh": "两百名难民必须在冬季封山之前穿越山脉。主要路线因近期山体滑坡而被封锁。唯一的替代路线经过不稳定的山坡、雪崩区域、常年浓雾以及在重压下吱吱作响的古老桥梁。任何一次错误判断都可能导致数十人丧生。这不是一场比速度的任务，而是一场考验判断力的考验。",
+    "ja": "二百人の難民が、冬によって全ての山道が閉ざされる前に山脈を越えなければならない。主要ルートは最近の土砂崩れで封鎖されている。唯一の迂回路は、不安定な斜面、雪崩の危険地帯、濃い霧、そして重さに耐えきれず軋む古い橋を通る。判断を誤れば、多くの命が失われる。この任務に必要なのは速さではなく、正確さだ。"
+  },
+  "type": [
+    "survival"
+  ],
+  "max_heroes": 1,
+  "expired_at": 8,
+  "available_from_turn": 30,
+  "duration": 3,
+  "difficulty": 3.0,
+  "rewards": {
+    "xp": 110
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": 94,
+  "name": {
+    "pt": "Imposição na Fronteira",
+    "en": "Border Imposition",
+    "es": "Imposición en la Frontera",
+    "ru": "Наведение порядка на границе",
+    "zh": "边界威慑",
+    "ja": "国境の威圧"
+  },
+  "description": {
+    "pt": "Bandoleiros estão testando as defesas de um vilarejo fronteiriço. A guarda local é fraca, mas a presença de uma figura aterrorizante da Guilda nos muros pode ser o suficiente para convencê-los de que o vilarejo não é um alvo fácil.",
+    "en": "Bandits are testing the defenses of a border village. The local guard is weak, but the presence of a terrifying figure from the Guild on the walls might be enough to convince them the village is not an easy target.",
+    "es": "Bandoleros están probando las defensas de una aldea fronteriza. La guardia local es débil, pero la presencia de una figura aterradora del Gremio en las murallas podría ser suficiente para convencerlos de que la aldea no es un objetivo fácil.",
+    "ru": "Бандиты проверяют оборону пограничной деревни. Местная стража слаба, но присутствие на стенах устрашающей фигуры из Гильдии может быть достаточно, чтобы убедить их, что деревня — не легкая мишень.",
+    "zh": "土匪正在测试边境村庄的防御。当地卫兵很弱，但公会中一个令人恐惧的人物出现在城墙上，可能足以让他们相信这个村庄不是一个容易的目标。",
+    "ja": "山賊たちが国境沿いの村の防御を試している。地元の衛兵は弱いが、城壁にギルドの恐ろしい人物がいるだけで、その村が簡単な標的ではないと思い知らせるのに十分かもしれない。"
+  },
+  "type": [
+    "intimidation"
+  ],
+  "max_heroes": 1,
+  "expired_at": 5,
+  "available_from_turn": 64,
+  "duration": 3,
+  "difficulty": 2.4,
+  "rewards": {
+    "xp": 95
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

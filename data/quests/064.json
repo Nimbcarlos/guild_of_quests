@@ -1,0 +1,33 @@
+{
+  "id": 64,
+  "name": {
+    "pt": "Doze Portas, Um Erro",
+    "en": "Twelve Doors, One Mistake",
+    "es": "Doce Puertas, Un Error",
+    "ru": "Двенадцать Дверей, Одна Ошибка",
+    "zh": "十二道门，一次失误",
+    "ja": "十二の扉、一つの過ち"
+  },
+  "description": {
+    "pt": "A Guilda foi contratada para avaliar a segurança de uma câmara do tesouro recém-construída. O local possui doze portas internas, cada uma equipada com um tipo distinto de fechadura. Elas devem ser abertas em sequência cronometrada: exceder cinco minutos em qualquer porta reinicia todo o sistema. O objetivo não é roubo, mas demonstrar que, sob pressão real, até mecanismos perfeitos falham.",
+    "en": "The Guild has been hired to assess the security of a newly constructed treasury chamber. The room contains twelve internal doors, each fitted with a different type of lock. They must be opened in a timed sequence: exceeding five minutes on any door resets the entire system. The goal is not theft, but to prove that under real pressure, even perfect mechanisms fail.",
+    "es": "La Guilda fue contratada para evaluar la seguridad de una cámara del tesoro recién construida. El lugar contiene doce puertas internas, cada una con un tipo distinto de cerradura. Deben abrirse en una secuencia cronometrada: superar los cinco minutos en cualquier puerta reinicia todo el sistema. El objetivo no es robar, sino demostrar que bajo presión real, incluso los mecanismos perfectos fallan.",
+    "ru": "Гильдия была нанята для проверки безопасности недавно построенной сокровищницы. В помещении находятся двенадцать внутренних дверей, каждая с уникальным типом замка. Их необходимо открывать в строго ограниченное время: превышение пяти минут на любой двери перезапускает всю систему. Цель не в краже, а в доказательстве того, что под реальным давлением ломается даже идеальная защита.",
+    "zh": "公会受雇评估一间新建宝库的安全性。房间内有十二道内门，每一道都配有不同类型的锁，必须按时间顺序开启。任何一道门超过五分钟，整个系统都会重置。目标不是盗窃，而是证明在真实压力下，即便完美的系统也会失败。",
+    "ja": "ギルドは新設された宝物庫の安全性評価を依頼された。内部には十二の扉があり、それぞれ異なる種類の錠前が取り付けられている。制限時間内に順番通り開けなければならず、いずれかで五分を超えると全システムがリセットされる。目的は盗みではなく、現実の緊張下では完璧な仕組みでさえ破綻することを証明することだ。"
+  },
+  "type": "thievery",
+  "max_heroes": 1,
+  "expired_at": 5,
+  "available_from_turn": 133,
+  "duration": 3,
+  "difficulty": 2.3,
+  "rewards": {
+    "xp": 95
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

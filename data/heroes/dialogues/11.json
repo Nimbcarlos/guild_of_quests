@@ -1,0 +1,132 @@
+{
+  "start_dialogues": {
+    "default": {
+      "en": [
+        "Tell me there are beasts involved. They don't leave ghosts behind when they break.",
+        "I'll go, as long as no humans die. I've had enough hauntings for one lifetime.",
+        "Monsters are the perfect victims. They don't beg, and they certainly don't haunt.",
+        "In the dark, even the nightmares have something to fear. That something is me.",
+        "I'm ready to hunt. Let's find something that screams without leaving a spirit to follow me home."
+      ],
+      "pt": [
+        "Diga-me que há feras envolvidas. Elas não deixam fantasmas para trás quando quebram.",
+        "Eu vou, contanto que nenhum humano morra. Já tive assombrações suficientes para uma vida inteira.",
+        "Monstros são as vítimas perfeitas. Eles não imploram e, certamente, não assombram.",
+        "No escuro, até os pesadelos têm algo a temer. Esse algo sou eu.",
+        "Estou pronta para caçar. Vamos encontrar algo que grite sem deixar um espírito para me seguir até em casa."
+      ],
+      "es": [
+        "Dime que hay bestias involucradas. No dejan fantasmas cuando se rompen.",
+        "Iré, siempre y cuando no muera ningún humano. Ya he tenido suficientes apariciones para toda una vida.",
+        "Los monstruos son las víctimas perfectas. No ruegan y, ciertamente, no persiguen como espectros.",
+        "En la oscuridad, hasta las pesadillas tienen algo que temer. Ese algo soy yo.",
+        "Estoy lista para cazar. Busquemos algo que grite sin dejar un espíritu que me siga a casa."
+      ],
+      "ru": [
+        "Скажи мне, что там будут чудовища. Они не оставляют призраков, когда ломаются.",
+        "Я пойду, пока никто из людей не умирает. Мне хватило призраков на целую жизнь.",
+        "Монстры — идеальные жертвы. Они не умоляют и уж точно не преследуют после смерти.",
+        "В темноте даже у кошмаров есть повод для страха. И этот повод — я.",
+        "Я готова к охоте. Давайте найдем того, кто будет кричать, не оставляя духа, который потащится за мной домой."
+      ],
+      "zh": [
+        "告诉我这次有怪兽。它们崩溃时不会留下幽灵。",
+        "我会去，只要没有人命。我这辈子见的鬼已经够多了。",
+        "怪兽是完美的受害者。它们不会哀求，当然也不会纠缠不休。",
+        "在黑暗中，连噩梦也有恐惧的东西。那个东西就是我。",
+        "我准备好狩猎了。让我们找些只会尖叫而不会留下灵魂跟着我回家的东西。"
+      ],
+      "ja": [
+        "そこに獣がいると言って。あいつらは壊れても幽霊を残さないから。",
+        "行くわ、人間が死なない限りね。化けて出られるのはもう一生分味わったわ。",
+        "モンスターは最高の犠牲者よ。命乞いもしないし、決して取り憑いたりもしない。",
+        "暗闇では、悪夢ですら恐れるものがある。それは私よ。",
+        "狩りの時間ね。私を家までつけ回す霊を残さずに、叫び声を上げる獲物を見つけましょう。"
+      ]
+    },
+    "chains": {
+      "8": {
+        "0": {
+          "pt": ["Bata forte, Serah. Eu quero ouvir o som dos ossos antes de cortar."],
+          "en": ["Hit them hard, Serah. I want to hear the sound of bones before I cut."],
+          "es": ["Golpea fuerte, Serah. Quiero oír el sonido de los huesos antes de cortar."],
+          "ru": ["Бей сильнее, Сера. Я хочу услышать хруст костей перед тем, как нанесу удар."],
+          "zh": ["狠狠地打，莎拉。我想在下刀前听到骨头碎裂的声音。"],
+          "ja": ["強く打ち込みなさい、セラ。切り刻む前に、骨の砕ける音が聞きたいわ。"]
+        },
+        "1": {
+          "pt": ["Você não tem medo da dor. Isso faz de você a distração perfeita para o meu trabalho."],
+          "en": ["You're not afraid of pain. That makes you the perfect distraction for my work."],
+          "es": ["No temes al dolor. Eso te convierte en la distracción perfecta para mi trabajo."],
+          "ru": ["Ты не боишься боли. Это делает тебя идеальным отвлечением для моей работы."],
+          "zh": ["你不怕疼。这让你成为我干活时完美的诱饵。"],
+          "ja": ["あんたは痛みを恐れない。私の仕事にとって最高の囮ね。"]
+        },
+        "2": {
+          "pt": ["Monstros não sentem culpa, Serah. Podemos ser tão cruéis quanto quisermos."],
+          "en": ["Monsters don't feel guilt, Serah. We can be as cruel as we want."],
+          "es": ["Los monstruos no sienten culpa, Serah. Podemos ser tan crueles como queramos."],
+          "ru": ["Монстры не чувствуют вины, Сера. Мы можем быть настолько жестокими, насколько захотим."],
+          "zh": ["怪物没有罪恶感，莎拉。我们可以尽情残忍。"],
+          "ja": ["モンスターに罪悪感なんてない。好きなだけ残酷になれるわね、セラ。"]
+        },
+        "3": {
+          "pt": ["Suas mãos estão manchadas, monja. Gosto disso. Combina com as minhas adagas."],
+          "en": ["Your hands are stained, monk. I like that. It matches my daggers."],
+          "es": ["Tus manos están manchadas, monja. Me gusta. Combina con mis dagas."],
+          "ru": ["Твои руки запятнаны, монахиня. Мне это нравится. Подходит к моим кинжалам."],
+          "zh": ["你的手沾满了污点，修女。我喜欢，跟我的短剑很配。"],
+          "ja": ["あんたの手、汚れているわね。いいわ、私の短剣とお揃いよ。"]
+        },
+        "4": {
+          "pt": ["Mantenha-os ocupados. Vou garantir que a morte deles seja... demorada."],
+          "en": ["Keep them busy. I'll make sure their death is... slow."],
+          "es": ["Mantenlos ocupados. Me aseguraré de que su muerte sea... lenta."],
+          "ru": ["Займи их. Я позабочусь о том, чтобы их смерть была... долгой."],
+          "zh": ["牵制住它们。我会确保它们的死亡过程……很漫长。"],
+          "ja": ["奴らを釘付けにしなさい。死ぬまで……たっぷり時間をかけてあげるから。"]
+        },
+        "5": {
+          "pt": ["Você entrega a brutalidade, eu entrego a agonia. Uma missão adorável."],
+          "en": ["You deliver brutality, I deliver agony. A lovely mission."],
+          "es": ["Tú entregas brutalidad, yo entrego agonía. Una misión encantadora."],
+          "ru": ["Ты несешь жестокость, я несу агонию. Прекрасное задание."],
+          "zh": ["你负责野蛮，我负责痛苦。多么可爱的任务。"],
+          "ja": ["あんたは蛮勇を、私は苦悶を。素敵な任務になりそうね。"]
+        },
+        "6": {
+          "pt": ["Não ore por eles, Serah. Use essa raiva para esmagá-los."],
+          "en": ["Don't pray for them, Serah. Use that rage to crush them."],
+          "es": ["No reces por ellos, Serah. Usa esa rabia para aplastarlos."],
+          "ru": ["Не молись за них, Сера. Используй эту ярость, чтобы раздавить их."],
+          "zh": ["别为它们祈祷，莎拉。用那股怒火粉碎它们。"],
+          "ja": ["奴らのために祈る必要なんてないわ、セラ。その怒りで叩き潰しなさい。"]
+        },
+        "7": {
+          "pt": ["Fantasmas não me seguem quando mato feras. Por isso, não tenha piedade."],
+          "en": ["Ghosts don't follow me when I kill beasts. So, show no mercy."],
+          "es": ["Los fantasmas no me siguen cuando mato bestias. Así que no tengas piedad."],
+          "ru": ["Призраки не преследуют меня, когда я убиваю зверей. Так что не ведай милосердия."],
+          "zh": ["杀掉畜生时，幽灵不会跟着我。所以，别发慈悲。"],
+          "ja": ["獣を殺しても幽霊は憑いてこない。だから、慈悲なんて無用よ。"]
+        },
+        "8": {
+          "pt": ["A força da casca da árvore... é assim que chamam? Eu prefiro o brilho do aço cortando a carne."],
+          "en": ["The strength of the tree bark... is that what they call it? I prefer the gleam of steel cutting flesh."],
+          "es": ["La fuerza de la corteza del árbol... ¿así lo llaman? Prefiero el brillo del acero cortando carne."],
+          "ru": ["Сила древесной коры... так это называют? Я предпочитаю блеск стали, режущей плоть."],
+          "zh": ["树皮般的力量……他们是这么叫的吗？我更喜欢钢铁切开血肉的光泽。"],
+          "ja": ["木の皮のような強さ……そう呼ばれているの？私は肉を断つ鋼の輝きのほうが好きだわ。"]
+        },
+        "9": {
+          "pt": ["Fique na frente, monja. Eu estarei nas sombras, apreciando o espetáculo."],
+          "en": ["Stay in front, monk. I'll be in the shadows, enjoying the show."],
+          "es": ["Quédate al frente, monja. Yo estaré en las sombras, disfrutando el espectáculo."],
+          "ru": ["Будь впереди, монахиня. Я буду в тенях, наслаждаться зрелищем."],
+          "zh": ["守在前面，修女。我会待在阴影里，欣赏这场好戏。"],
+          "ja": ["前にいなさい、セラ。私は影からショーを楽しませてもらうわ。"]
+        }
+      }
+    }
+  }
+}

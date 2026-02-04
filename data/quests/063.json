@@ -1,0 +1,36 @@
+{
+  "id": 63,
+  "name": {
+    "pt": "O Anel que Nunca Foi Vendido",
+    "en": "The Ring That Was Never Sold",
+    "es": "El Anillo que Nunca Fue Vendido",
+    "ru": "Кольцо, Которое Никогда Не Продавали",
+    "zh": "从未出售的戒指",
+    "ja": "売られなかった指輪"
+  },
+  "description": {
+    "pt": "Durante um banquete diplomático, um nobre ostenta um anel mágico que pertence legalmente à Guilda, confiscado anos atrás sob falsos pretextos. Qualquer acusação pública causaria um escândalo político grave. A recuperação exige coordenação perfeita: enquanto uma presença carismática mantém atenções, olhares e conversas longe do alvo, outra mão precisa agir no momento exato. O anel deve desaparecer sem confronto, sem interrupções e sem que o portador ou seus guardas percebam — enquanto ainda estiver em seu dedo.",
+    "en": "During a diplomatic banquet, a noble flaunts a magical ring that legally belongs to the Guild, confiscated years ago under false pretenses. Any public accusation would trigger a major political scandal. Recovery demands flawless coordination: while one presence draws eyes, conversations, and attention away, another hand must act at the precise moment. The ring must vanish without confrontation, interruption, or detection — while it is still being worn.",
+    "es": "Durante un banquete diplomático, un noble ostenta un anillo mágico que pertenece legalmente a la Guilda, confiscado hace años bajo falsos pretextos. Cualquier acusación pública provocaría un grave escándalo político. La recuperación exige coordinación perfecta: mientras una presencia carismática desvía miradas, conversaciones y atención, otra mano debe actuar en el instante preciso. El anillo debe desaparecer sin confrontación, sin interrupciones y sin que el portador o sus guardias lo noten, mientras aún lo lleva puesto.",
+    "ru": "Во время дипломатического банкета один из дворян демонстрирует магическое кольцо, которое по праву принадлежит Гильдии и было изъято много лет назад под ложным предлогом. Любое публичное обвинение приведёт к политическому скандалу. Возврат требует идеальной координации: пока один участник отвлекает взгляды, разговоры и внимание, другая рука должна действовать в точный момент. Кольцо должно исчезнуть без конфликта, шума и обнаружения — пока оно всё ещё на пальце владельца.",
+    "zh": "在一次外交宴会上，一名贵族炫耀着一枚依法属于公会的魔法戒指，该戒指多年前在虚假指控下被没收。任何公开指责都会引发严重的政治丑闻。取回戒指需要完美的配合：一人负责吸引目光、谈话和注意力，另一人则必须在恰当的时机出手。戒指必须在目标仍佩戴的情况下悄然消失，不能引发冲突、骚动或察觉。",
+    "ja": "外交晩餐会の最中、ある貴族がギルドに正当な所有権のある魔法の指輪を誇示している。それは数年前、虚偽の理由で没収されたものだ。公に指摘すれば重大な政治的スキャンダルになる。回収には完璧な連携が求められる。ひとりが視線や会話、注目を引きつけている間に、もうひとりが正確な瞬間に手を伸ばす。指輪は、相手や護衛に気づかれることなく、身につけたままの状態で消えなければならない。"
+  },
+  "type": [
+    "thievery",
+    "performance"
+  ],
+  "max_heroes": 2,
+  "expired_at": 4,
+  "available_from_turn": 76,
+  "duration": 3,
+  "difficulty": 2.4,
+  "rewards": {
+    "xp": 85
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

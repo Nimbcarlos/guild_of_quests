@@ -1,0 +1,35 @@
+{
+  "id": 78,
+  "name": {
+    "pt": "Elixir da Juventude Falsificado",
+    "en": "Fake Elixir of Youth",
+    "es": "Elixir de la Juventud Falsificado",
+    "ru": "Поддельный эликсир молодости",
+    "zh": "伪造的青春灵药",
+    "ja": "偽の若返りの薬"
+  },
+  "description": {
+    "pt": "Um charlatão vendeu um suposto elixir da juventude. As vítimas rejuvenescem rápido demais, regredindo a estágios instáveis. Se não for revertido, a transformação será permanente.",
+    "en": "A charlatan sold a supposed elixir of youth. The victims are rejuvenating too fast, regressing to unstable stages. If not reversed soon, the transformation will become permanent.",
+    "es": "Un charlatán vendió un supuesto elixir de la juventud. Las víctimas rejuvenecen demasiado rápido, regresando a etapas inestables. Si no se revierte pronto, la transformación será permanente.",
+    "ru": "Шарлатан продал поддельный эликсир молодости. Жертвы омолаживаются слишком быстро, возвращаясь к нестабильным стадиям. Если это не исправить в ближайшее время, трансформация станет необратимой.",
+    "zh": "一名江湖骗子出售了一种所谓的青春灵药。受害者们年轻化得过快，正退化到不稳定的阶段。如果不尽快扭转，这种转变将变成永久性的。",
+    "ja": "詐欺師が若返りの薬とされるものを販売した。犠牲者たちはあまりにも早く若返り、不安定な段階まで逆行している。すぐに元に戻さなければ、この変化は永続的なものになるだろう。"
+  },
+  "type": [
+    "alchemy"
+  ],
+  "max_heroes": 1,
+  "expired_at": 5,
+  "available_from_turn": 103,
+  "duration": 3,
+  "difficulty": 2.6,
+  "rewards": {
+    "xp": 110
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

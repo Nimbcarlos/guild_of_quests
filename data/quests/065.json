@@ -1,0 +1,35 @@
+{
+  "id": 65,
+  "name": {
+    "pt": "Epidemia no Porto",
+    "en": "Port Epidemic",
+    "es": "Epidemia en el Puerto",
+    "ru": "Эпидемия в порту",
+    "zh": "港口瘟疫",
+    "ja": "港の流行病"
+  },
+  "description": {
+    "pt": "Uma doença desconhecida espalha-se rapidamente entre os marinheiros. Febre extrema e agressividade tornam os doentes perigosos.",
+    "en": "An unknown disease is spreading among sailors. Extreme fever and aggression make the sick dangerous.",
+    "es": "Una enfermedad desconocida se propaga entre los marineros. La fiebre extrema los vuelve agresivos.",
+    "ru": "Среди моряков распространяется неизвестная болезнь. Жар и агрессия делают больных опасными.",
+    "zh": "一种不明疾病在水手中蔓延。极端的高烧和攻击性使病人变得危险。",
+    "ja": "船乗りの間で未知の病が広がっている。高熱と攻撃性により、病人は危険な状態にある。"
+  },
+  "type": [
+    "cure"
+  ],
+  "max_heroes": 1,
+  "expired_at": 4,
+  "available_from_turn": 8,
+  "duration": 3,
+  "difficulty": 2.3,
+  "rewards": {
+    "xp": 75
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

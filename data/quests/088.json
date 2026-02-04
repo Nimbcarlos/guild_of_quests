@@ -1,0 +1,35 @@
+{
+  "id": 88,
+  "name": {
+    "pt": "Perdidos nas Dunas Sussurrantes",
+    "en": "Lost in the Whispering Dunes",
+    "es": "Perdidos en las Dunas Susurrantes",
+    "ru": "Затерянные в Шепчущих Дюнах",
+    "zh": "迷失在低语沙丘中",
+    "ja": "囁く砂丘での遭難"
+  },
+  "description": {
+    "pt": "Uma caravana comercial desapareceu nas Dunas Sussurrantes há três dias. Uma tempestade de areia violenta apagou completamente trilhas, marcas de rodas e pontos de referência. O deserto muda de forma a cada hora, e o vento não deixa pistas óbvias. As provisões de água da caravana devem estar no limite. Se não forem localizados rapidamente, ninguém sobreviverá ao calor e à desorientação do deserto.",
+    "en": "A торговая caravan disappeared in the Whispering Dunes three days ago. A violent sandstorm erased all tracks, wheel marks, and landmarks. The desert reshapes itself hour by hour, and the wind leaves no obvious clues behind. The caravan’s water supplies must be nearly depleted. If they are not found quickly, no one will survive the heat and disorientation of the dunes.",
+    "es": "Una caravana comercial desapareció en las Dunas Susurrantes hace tres días. Una violenta tormenta de arena borró por completo huellas, marcas de ruedas y puntos de referencia. El desierto cambia de forma a cada hora, y el viento no deja pistas claras. Las reservas de agua de la caravana deben estar al límite. Si no son encontrados pronto, nadie sobrevivirá al calor y la desorientación.",
+    "ru": "Торговый караван исчез в Шепчущих Дюнах три дня назад. Сильная песчаная буря полностью стерла следы, колеи и ориентиры. Пустыня меняется каждый час, а ветер не оставляет очевидных зацепок. Запасы воды у каравана, вероятно, на исходе. Если их не найти в ближайшее время, никто не переживёт жару и потерю ориентации.",
+    "zh": "一支商队在三天前于低语沙丘中失踪。一场猛烈的沙暴抹去了所有足迹、车辙和地标。沙漠每小时都在改变形态，风也不会留下明显线索。商队的饮水补给很可能已经接近耗尽。如果不能尽快找到他们，没有人能在酷热和迷失方向中生存下来。",
+    "ja": "商隊は三日前、囁く砂丘で消息を絶った。激しい砂嵐が通過し、足跡や車輪の跡、目印となる地形は完全に消え去った。砂漠は刻一刻と姿を変え、風は手がかりを残さない。商隊の水はすでに限界に近いだろう。迅速に発見できなければ、熱と方向感覚の喪失に誰も耐えられない。"
+  },
+  "type": [
+    "survival"
+  ],
+  "max_heroes": 1,
+  "expired_at": 6,
+  "available_from_turn": 16,
+  "duration": 3,
+  "difficulty": 2.6,
+  "rewards": {
+    "xp": 90
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

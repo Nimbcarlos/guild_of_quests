@@ -1,0 +1,35 @@
+{
+  "id": 91,
+  "name": {
+    "pt": "Cobrança de Proteção",
+    "en": "Protection Collection",
+    "es": "Cobro de Protección",
+    "ru": "Сбор за защиту",
+    "zh": "保护费收取",
+    "ja": "用心棒代の回収"
+  },
+  "description": {
+    "pt": "Uma gangue local está extorquindo os mercadores do distrito sul. A Guilda foi contratada não para lutar, mas para enviar alguém cuja presença e olhar sejam suficientes para fazer os criminosos recuarem e abandonarem o território.",
+    "en": "A local gang is extorting merchants in the southern district. The Guild was hired not to fight, but to send someone whose presence and gaze are enough to make the criminals back down and abandon the territory.",
+    "es": "Una banda local está extorsionando a los comerciantes del distrito sur. El Gremio fue contratado no para luchar, sino para enviar a alguien cuya presencia y mirada sean suficientes para que los criminales retrocedan y abandonen el territorio.",
+    "ru": "Местная банда вымогает деньги у торговцев южного района. Гильдию наняли не для драки, а для того, чтобы прислать кого-то, чьего присутствия и взгляда будет достаточно, чтобы преступники отступили и покинули территорию.",
+    "zh": "当地一个帮派正在勒索南区的商人。公会受雇并不是为了战斗，而是为了派出一个仅凭存在和目光就足以让犯罪分子退缩并放弃领地的人。",
+    "ja": "地元のギャングが南部地区の商人からみかじめ料を揺すり取っている。ギルドは戦うためではなく、その存在感と眼光だけで犯罪者を退かせ、縄張りを放棄させるような人物を派遣するために雇われた。"
+  },
+  "type": [
+    "intimidation"
+  ],
+  "max_heroes": 1,
+  "expired_at": 4,
+  "available_from_turn": 10,
+  "duration": 3,
+  "difficulty": 2.2,
+  "rewards": {
+    "xp": 80
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": 80,
+  "name": {
+    "pt": "Metal Vivo",
+    "en": "Living Metal",
+    "es": "Metal Vivo",
+    "ru": "Живой металл",
+    "zh": "活体金属",
+    "ja": "意志を持つ金属"
+  },
+  "description": {
+    "pt": "Uma liga metálica desenvolveu consciência e está absorvendo armas e ferramentas para crescer. Se não for contida, ela consumirá toda a forja da cidade.",
+    "en": "A metal alloy has developed consciousness and is absorbing weapons and tools to grow. If not contained, it will consume the entire city forge.",
+    "es": "Una aleación metálica ha desarrollado conciencia y está absorbiendo armas y herramientas para crecer. Si no se detiene, consumirá toda la forja de la ciudad.",
+    "ru": "Металлический сплав обрел сознание и поглощает оружие и инструменты, чтобы расти. Если его не остановить, он поглотит всю городскую кузницу.",
+    "zh": "一种金属合金产生了意识，正在吸收武器和工具以生长。如果不加遏制，它将吞噬整个城市的锻造厂。",
+    "ja": "ある金属合金が意識を持ち、成長するために武器や道具を吸収している。封じ込めなければ、街の鍛冶場をすべて飲み込んでしまうだろう。"
+  },
+  "type": [
+    "alchemy"
+  ],
+  "max_heroes": 1,
+  "expired_at": 5,
+  "available_from_turn": 112,
+  "duration": 3,
+  "difficulty": 2.8,
+  "rewards": {
+    "xp": 150
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

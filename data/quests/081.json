@@ -1,0 +1,35 @@
+{
+  "id": 81,
+  "name": {
+    "pt": "Chuva Negra",
+    "en": "Black Rain",
+    "es": "Lluvia Negra",
+    "ru": "Черный дождь",
+    "zh": "黑雨",
+    "ja": "黒い雨"
+  },
+  "description": {
+    "pt": "Nuvens alquímicas liberam uma chuva negra e corrosiva que destrói plantações e telhados. Cada nova precipitação piora o estado da cidade e a moral da população.",
+    "en": "Alchemical clouds release a corrosive black rain that destroys crops and roofs. Each new precipitation worsens the city's state and the population's morale.",
+    "es": "Nubes alquímicas liberan una lluvia negra corrosiva que destruye cultivos y techos. Cada nueva precipitación empeora el estado de la ciudad y la moral de la población.",
+    "ru": "Алхимические облака извергают едкий черный дождь, который уничтожает урожай и крыши. Каждое новое выпадение осадков ухудшает состояние города и моральный дух населения.",
+    "zh": "炼金云层释放出具有腐蚀性的黑雨，摧毁了农作物和屋顶。每一次新的降雨都会恶化城市的状态和民众的士气。",
+    "ja": "錬金術的な雲から、作物や屋根を破壊する腐食性の黒い雨が降っている。雨が降るたびに街の状態は悪化し、住民の士気は低下していく。"
+  },
+  "type": [
+    "alchemy"
+  ],
+  "max_heroes": 1,
+  "expired_at": 8,
+  "available_from_turn": 115,
+  "duration": 3,
+  "difficulty": 2.7,
+  "rewards": {
+    "xp": 135
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

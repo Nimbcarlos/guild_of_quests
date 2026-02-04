@@ -1,0 +1,156 @@
+{
+  "start_dialogues": {
+    "default": {
+      "en": [
+        "Watch closely; you are about to witness how a true master calls the stars.",
+        "The spirits have been waiting for someone with my presence to lead them.",
+        "A quest? Perfect. The world deserves to see my ritual in action today.",
+        "I shall guide their hands. Try not to blink, or you might miss the brilliance of my work.",
+        "Make sure everyone knows it was I, Saryth, who restored the balance."
+      ],
+      "pt": [
+        "Observe com atenção; você está prestes a testemunhar como um verdadeiro mestre chama as estrelas.",
+        "Os espíritos estavam esperando por alguém com a minha presença para guiá-los.",
+        "Uma missão? Perfeito. O mundo merece ver meu ritual em ação hoje.",
+        "Eu guiarei as mãos deles. Tente não piscar, ou perderá o brilhantismo do meu trabalho.",
+        "Certifique-se de que todos saibam que fui eu, Saryth, quem restaurou o equilíbrio."
+      ],
+      "es": [
+        "Mira de cerca; estás a punto de presenciar cómo un verdadero maestro llama a las estrellas.",
+        "Los espíritos han estado esperando a alguien con mi presencia para guiarlos.",
+        "¿Una misión? Perfecto. El mundo merece ver mi ritual en acción hoy.",
+        "Yo guiaré sus manos. Trata de no parpadear, o te perderás la brillantez de mi trabajo.",
+        "Asegúrate de que todos sepan que fui yo, Saryth, quien restauró el equilibrio."
+      ],
+      "ru": [
+        "Смотри внимательно; ты вот-вот увидишь, как истинный мастер призывает звезды.",
+        "Духи ждали кого-то с моим присутствием, чтобы он повел их за собой.",
+        "Задание? Прекрасно. Мир заслуживает того, чтобы увидеть мой ритуал в действии сегодня.",
+        "Я буду направлять их руки. Старайся не моргать, иначе упустишь блеск моей работы.",
+        "Убедись, что все знают: это я, Сарит, восстановила равновесие."
+      ],
+      "zh": [
+        "看好了；你即将见证一位真正的宗师是如何召唤星辰的。",
+        "灵体们一直在等待像我这样有气场的人来领导他们。",
+        "任务？完美。今天这个世界值得一见我的仪式风采。",
+        "我将指引他们的双手。尽量不要眨眼，否则你可能会错过我工作的光辉。",
+        "确保每个人都知道，是我，萨丽丝，恢复了平衡。"
+      ],
+      "ja": [
+        "よく見ていなさい。真のマスターがいかにして星々を呼ぶか、目撃させてあげるわ。",
+        "精霊たちは、私のような存在感のある者が導いてくれるのを待っていたのよ。",
+        "任務？完璧ね。世界は今日、私の儀式が動く様を見るに値するわ。",
+        "私が彼らの手を引くわ。まばたきしないで、私の仕事の輝きを見逃してしまうから。",
+        "バランスを戻したのはこの私、サリスだということを皆に知らしめておきなさい。"
+      ]
+    },
+    "chains": {
+      "3": {
+        "0": {
+          "pt": ["Maelis? Tente não adormecer enquanto eu faço o trabalho real."],
+          "en": ["Maelis? Try not to fall asleep while I do the actual work."],
+          "es": ["¿Maelis? Intenta no dormirte mientras yo hago el trabajo real."],
+          "ru": ["Маэлис? Постарайся не уснуть, пока я выполняю настоящую работу."],
+          "zh": ["麦莉丝？在我干正事的时候，你试着别睡着。"],
+          "ja": ["メイリス？私が本当の仕事をしている間に寝ないようにしてね。"]
+        },
+        "1": {
+          "pt": ["O Círculo Thornwake é tão... monótono. Alguém precisa de trazer cor a esta missão."],
+          "en": ["The Thornwake Circle is so... dull. Someone needs to bring color to this mission."],
+          "es": ["El Círculo Thornwake es tan... monótono. Alguien tiene que traer color a esta misión."],
+          "ru": ["Круг Торнвейка такой... унылый. Кто-то должен привнести красок в это задание."],
+          "zh": ["索恩威克圆环真是……乏味。总得有人给这次任务带点色彩。"],
+          "ja": ["ソーンウェイクの円環はなんて……退屈なの。誰かがこの任務に彩りを与えないとね。"]
+        },
+        "2": {
+          "pt": ["Você fala tanto com as pedras que acabou por ficar igual a elas: parada e sem graça."],
+          "en": ["You talk to stones so much that you've ended up just like them: still and boring."],
+          "es": ["Hablas tanto con las piedras que has acabado como ellas: quieta y aburrida."],
+          "ru": ["Ты столько разговариваешь с камнями, что в итоге стала как они: неподвижной и скучной."],
+          "zh": ["你总是和石头说话，结果变得和它们一样：呆板又无趣。"],
+          "ja": ["石とばかり話しているから、あなた自身も石みたいになっちゃったのよ。静止していて退屈。"]
+        },
+        "3": {
+          "pt": ["Observe, Thornwake. É assim que se invoca o poder com dignidade e estilo!"],
+          "en": ["Watch, Thornwake. This is how you invoke power with dignity and style!"],
+          "es": ["Mira, Thornwake. ¡Así es como se invoca el poder con dignidad y estilo!"],
+          "ru": ["Смотри, Торнвейк. Вот как нужно призывать силу — с достоинством и стилем!"],
+          "zh": ["看好了，索恩威克。这才是如何带着尊严和格调调用力量！"],
+          "ja": ["見ていなさい、ソーンウェイク。これこそが威厳とスタイルを持って力を呼び出す方法よ！"]
+        },
+        "4": {
+          "pt": ["Os espíritos do Véu Lunar exigem um público. Suas raízes só exigem... terra?"],
+          "en": ["The Moonveil spirits demand an audience. Your roots only demand... dirt?"],
+          "es": ["Los espíritus del Velo Lunar exigen una audiencia. ¿Tus raíces solo exigen... tierra?"],
+          "ru": ["Духи Лунной Вуали требуют аудитории. А твои корни требуют только... грязи?"],
+          "zh": ["月幕的灵体需要观众。而你的根只要求……泥土？"],
+          "ja": ["ムーンヴェイルの精霊は観衆を求めるわ。あなたの根が求めるのは……ただの土？"]
+        },
+        "5": {
+          "pt": ["A Maelis está ali? Às vezes esqueço que ela não é parte do cenário."],
+          "en": ["Is Maelis over there? Sometimes I forget she's not part of the scenery."],
+          "es": ["¿Está Maelis ahí? A veces olvido que no es parte del paisaje."],
+          "ru": ["Маэлис там? Иногда я забываю, что она не часть декораций."],
+          "zh": ["麦莉丝在那儿吗？有时我都会忘了她不是布景的一部分。"],
+          "ja": ["メイリスはそこにいるの？時々、彼女が風景の一部じゃないってことを忘れちゃうわ。"]
+        },
+        "6": {
+          "pt": ["Silêncio não é comunhão, é falta de assunto. Eu trarei a voz que falta."],
+          "en": ["Silence isn't communion; it's just having nothing to say. I'll bring the missing voice."],
+          "es": ["El silencio no es comunión, es falta de tema. Yo traeré la voz que falta."],
+          "ru": ["Тишина — это не единение, это просто когда нечего сказать. Я буду тем голосом, которого не хватает."],
+          "zh": ["沉默不是交感，只是没话可说。我会带来所缺失的声音。"],
+          "ja": ["沈黙は交信じゃないわ、ただ話すことがないだけ。私が欠けている声を届けてあげる。"]
+        },
+        "7": {
+          "pt": ["Não se preocupe com a glória, Maelis. Eu ficarei com toda ela."],
+          "en": ["Don't worry about the glory, Maelis. I'll take it all."],
+          "es": ["No te preocupes por la gloria, Maelis. Yo me la llevaré toda."],
+          "ru": ["Не беспокойся о славе, Маэлис. Я заберу ее всю себе."],
+          "zh": ["别担心荣耀的事，麦莉丝。我会全部拿走的。"],
+          "ja": ["栄光のことは心配しないで、メイリス。私が全部いただくから。"]
+        },
+        "8": {
+          "pt": ["Se eu curar você, tente fazer uma pose de agradecimento pelo menos."],
+          "en": ["If I heal you, at least try to strike a grateful pose."],
+          "es": ["Si te curo, al menos intenta poner una pose de agradecimiento."],
+          "ru": ["Если я тебя исцелю, хотя бы попытайся принять благодарную позу."],
+          "zh": ["如果我治愈了你，起码试着摆个感激的姿势。"],
+          "ja": ["もし私があなたを癒やしてあげたら、せめて感謝のポーズくらい取りなさいよ。"]
+        },
+        "9": {
+          "pt": ["Vamos logo. Os espíritos estão impacientes por um espetáculo, e eu odeio atrasos."],
+          "en": ["Let's go. The spirits are impatient for a show, and I hate delays."],
+          "es": ["Vamos ya. Los espíritus están impacientes por un espectáculo, y odio los retrasos."],
+          "ru": ["Идем скорее. Духи жаждут зрелища, а я ненавижу задержки."],
+          "zh": ["走吧。灵体们正迫不及待地想看表演，而我讨厌迟到。"],
+          "ja": ["行きましょう。精霊たちがショーを待ちわびているわ。私は遅れるのが嫌いなの。"]
+        }
+      }
+    }
+  },
+  "quests": { 
+    "0": {
+      "success": {
+        "text": {
+          "pt": [ "Saryth, successo teste" ],
+          "en": [ "Saryth, success test" ]
+        },
+        "1": {
+          "pt": [ "Saryth, teste de sucesso lyra" ],
+          "en": [ "Saryth, lyra success test" ]
+        }
+      },
+      "failure": {
+        "text": {
+          "pt": [ "Saryth, falha teste" ],
+          "en": [ "Saryth, failure test" ]
+        },
+        "1": {
+          "pt": [ "Saryth, teste de falha lyra" ],
+          "en": [ "Saryth, lyra failure test" ]
+        }
+      }
+    }
+  }  
+}

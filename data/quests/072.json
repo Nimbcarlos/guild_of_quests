@@ -1,0 +1,35 @@
+{
+  "id": 72,
+  "name": {
+    "pt": "Quebra-Ossos em Série",
+    "en": "Massive Fall Injuries",
+    "es": "Lesiones por Caída",
+    "ru": "Множественные переломы",
+    "zh": "连环骨折",
+    "ja": "連続落盤負傷"
+  },
+  "description": {
+    "pt": "Trabalhadores caíram de um andaime. Fraturas múltiplas tornam qualquer movimento um risco fatal.",
+    "en": "Workers fell from a scaffold. Multiple fractures make any movement a fatal risk.",
+    "es": "Trabajadores cayeron de un andamio. Las fracturas múltiples son críticas.",
+    "ru": "Рабочие упали со строительных лесов. Из-за множественных переломов любое движение смертельно опасно.",
+    "zh": "工人们从脚手架上摔下。多处骨折使得任何移动都具有致命风险。",
+    "ja": "足場から作業員たちが転落した。多発骨折により、わずかな移動も命取りになる。"
+  },
+  "type": [
+    "cure"
+  ],
+  "max_heroes": 1,
+  "expired_at": 3,
+  "available_from_turn": 135,
+  "duration": 3,
+  "difficulty": 2.3,
+  "rewards": {
+    "xp": 80
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

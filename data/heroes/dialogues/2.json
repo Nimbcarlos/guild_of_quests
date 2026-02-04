@@ -1,0 +1,132 @@
+{
+  "start_dialogues": {
+    "default": {
+      "en": [
+        "Spare me the sermons and just tell me who I need to protect this time.",
+        "Another 'divine will'? Funny how fate always needs me to take the hits.",
+        "I'll handle it. Not because the gods want it, but because someone has to.",
+        "I hope the reward is worth the patience I already lost before leaving.",
+        "I'm going. But if I hear one prayer about 'destiny', someone will regret it."
+      ],
+      "pt": [
+        "Poupe-me dos sermões e me diga logo quem eu preciso proteger desta vez.",
+        "Mais uma 'vontade divina'? Engraçado como o destino sempre precisa que eu leve os golpes.",
+        "Vou resolver isso. Não porque os deuses querem, mas porque alguém tem que fazer o trabalho sujo.",
+        "Espero que a recompensa valha a paciência que eu já perdi antes mesmo de sair.",
+        "Estou indo. Mas se eu ouvir uma única oração sobre 'destino', alguém vai se arrepender."
+      ],
+      "es": [
+        "Ahórrate los sermones y dime a quién tengo que proteger esta vez.",
+        "¿Otra 'voluntad divina'? Es curioso como el destino siempre necesita que yo reciba los golpes.",
+        "Lo resolveré. No porque los dioses lo quieran, sino porque alguien tiene que hacer el trabajo sucio.",
+        "Espero que la recompensa valga la paciencia que ya perdí antes de salir.",
+        "Me voy. Pero si escucho una sola oración sobre el 'destino', alguien se arrepentirá."
+      ],
+      "ru": [
+        "Избавь меня от проповедей и просто скажи, кого мне нужно защитить на этот раз.",
+        "Очередная 'божественная воля'? Забавно, как судьбе всегда нужно, чтобы я принимала удары.",
+        " Я разберусь. Не потому, что боги этого хотят, а потому что кто-то должен делать грязную работу.",
+        "Надеюсь, награда стоит того терпения, которое я уже потеряла, не успев выйти.",
+        "Я иду. Но если я услышу хоть одну молитву о 'судьбе', кто-то пожалеет об этом."
+      ],
+      "zh": [
+        "省省那些说教吧，直接告诉我这次需要保护谁。",
+        "又是“神圣意志”？真有趣，命运总是需要我替别人挨打。",
+        "我会处理的。不是因为神灵的意愿，而是因为总得有人来干这脏活。",
+        "我希望奖励能抵得上我在出发前就已经耗尽的耐心。",
+        "我这就去。但如果我在路上听到一句关于“命运”的祷告，有人会后悔的。"
+      ],
+      "ja": [
+        "説教はいいから、今回は誰をを守ればいいのか教えて。",
+        "また「神の御心」？運命ってやつは、いつも私に盾になれって言うのね。",
+        "私がやるわ。神が望んでいるからじゃなくて、誰かがやらなきゃいけないからよ。",
+        "報酬が、出発前にすでに使い果たした私の忍耐に見合うものであることを願うわ。",
+        "行くわよ。でも、道中で「運命」なんて祈りが聞こえたら、タダじゃおかないから。"
+      ]
+    },
+    "chains": {
+      "7": {
+        "0": {
+          "pt": ["Leona? Tente ficar atrás do meu escudo e não se distrair com 'anomalias'."],
+          "en": ["Leona? Try to stay behind my shield and don't get distracted by 'anomalies'."],
+          "es": ["¿Leona? Intenta quedarte detrás de mi escudo y no te distraigas con 'anomalías'."],
+          "ru": ["Леона? Постарайся держаться за моим щитом и не отвлекайся на «аномалии»."],
+          "zh": ["莱奥娜？试着待在我的盾牌后面，别被什么“异常情况”分心。"],
+          "ja": ["レオナ？私の盾の後ろにいなさい。「異常」に気を取られないようにね。"]
+        },
+        "1": {
+          "pt": ["Se eu ganhar um fio de cabelo branco por sua causa hoje, te tranco na biblioteca."],
+          "en": ["If I get a single gray hair because of you today, I'm locking you in the library."],
+          "es": ["Si me sale una sola cana por tu culpa hoy, te encierro en la biblioteca."],
+          "ru": ["Если у меня сегодня появится хоть один седой волос из-за тебя, я запру тебя в библиотеке."],
+          "zh": ["如果今天因为你我多了一根白头发，我就把你锁进图书馆里。"],
+          "ja": ["今日あんたのせいで白髪が一本でも増えたら、図書館に閉じ込めるからね。"]
+        },
+        "2": {
+          "pt": ["Apenas... fique por perto. Não quero explicar para a família por que você virou cinzas."],
+          "en": ["Just... stay close. I don't want to explain to the family why you turned into ash."],
+          "es": ["Solo... mantente cerca. No quiero explicarle a la familia por qué te hiciste cenizas."],
+          "ru": ["Просто... будь рядом. Я не хочу объяснять семье, почему ты превратилась в пепел."],
+          "zh": ["就在……附近待着。我不想向家里人解释你为什么变成了灰烬。"],
+          "ja": ["ただ……近くにいなさい。あんたが灰になった理由を家族に説明したくないの。"]
+        },
+        "3": {
+          "pt": ["Pare de analisar o suor da minha testa e foque na magia, Leona."],
+          "en": ["Stop analyzing the sweat on my forehead and focus on the magic, Leona."],
+          "es": ["Deja de analizar el sudor de mi frente y concéntrate en la magia, Leona."],
+          "ru": ["Хватит анализировать пот на моем лбу, Леона, лучше займись магией."],
+          "zh": ["别再分析我额头上的汗了，专注于你的魔法，莱奥娜。"],
+          "ja": ["私の額の汗を分析するのはやめて、魔法に集中して、レオナ。"]
+        },
+        "4": {
+          "pt": ["Mantenha esses frascos explosivos longe da minha capa. Estou falando sério."],
+          "en": ["Keep those explosive flasks away from my cape. I'm serious."],
+          "es": ["Mantén esos frascos explosivos lejos de mi capa. Hablo en serio."],
+          "ru": ["Держи свои взрывные колбы подальше от моего плаща. Я серьезно."],
+          "zh": ["让那些爆炸瓶离我的斗篷远点。我是认真的。"],
+          "ja": ["その爆発瓶を私のマントに近づけないで。本気よ。"]
+        },
+        "5": {
+          "pt": ["Você ainda é lenta demais para quem sabe tanto sobre 'física', maninha."],
+          "en": ["You're still too slow for someone who knows so much about 'physics', sis."],
+          "es": ["Todavía eres demasiado lenta para alguien que sabe tanto de 'física', hermanita."],
+          "ru": ["Ты все еще слишком медлительна для той, кто так много знает о «физике», сестренка."],
+          "zh": ["对于一个精通“物理”的人来说，你动作还是太慢了，小妹。"],
+          "ja": ["「物理」に詳しいわりには、あんたの動きはまだ遅すぎるわね、妹よ。"]
+        },
+        "6": {
+          "pt": ["Se as coisas ficarem feias, corra. Eu cuido do resto."],
+          "en": ["If things get ugly, run. I'll handle the rest."],
+          "es": ["Si las cosas se ponen feas, corre. Yo me encargo del resto."],
+          "ru": ["Если дело запахнет жареным — беги. С остальным я разберусь."],
+          "zh": ["如果情况不对，就跑。剩下的交给我。"],
+          "ja": ["状況が悪くなったら逃げなさい。あとは私がなんとかする。"]
+        },
+        "7": {
+          "pt": ["Não revire os olhos para mim, Leona. Eu vi isso!"],
+          "en": ["Don't roll your eyes at me, Leona. I saw that!"],
+          "es": ["No me tuerzas los ojos, Leona. ¡Te vi!"],
+          "ru": ["Не закатывай глаза, Леона. Я все видела!"],
+          "zh": ["别向我翻白眼，莱奥娜。我看见了！"],
+          "ja": ["私に白目を見せないで、レオナ。見てたんだからね！"]
+        },
+        "8": {
+          "pt": ["Mais uma expedição onde eu sou a babá e você é a enciclopédia."],
+          "en": ["Another expedition where I'm the babysitter and you're the encyclopedia."],
+          "es": ["Otra expedición donde yo soy la niñera y tú la enciclopedia."],
+          "ru": ["Очередная экспедиция, где я нянька, а ты — энциклопедия."],
+          "zh": ["又是一次我是保姆、你是百科全书的探险。"],
+          "ja": ["また私が子守役で、あんたが百科事典役の遠征ね。"]
+        },
+        "9": {
+          "pt": ["Abaixe a cabeça quando eu mandar. Não questione, apenas faça."],
+          "en": ["Get your head down when I tell you. Don't question, just do it."],
+          "es": ["Agacha la cabeza cuando te lo diga. No preguntes, solo hazlo."],
+          "ru": ["Пригибайся, когда я скажу. Не спрашивай, просто делай."],
+          "zh": ["我叫你低头就低头。别问，照做就是了。"],
+          "ja": ["私が言ったら頭を下げなさい。質問しないで、ただやるのよ。"]
+        }
+      }
+    }
+  }
+}

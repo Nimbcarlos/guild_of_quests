@@ -1,0 +1,35 @@
+{
+  "id": 73,
+  "name": {
+    "pt": "Água Transformada em Ácido",
+    "en": "Water Turned to Acid",
+    "es": "Agua Transformada en Ácido",
+    "ru": "Вода, ставшая кислотой",
+    "zh": "化水为酸",
+    "ja": "酸に変わった水"
+  },
+  "description": {
+    "pt": "Após um desastre alquímico, o rio que abastece a região tornou-se corrosivo. A vila precisa de água potável antes que o pânico se espalhe.",
+    "en": "After an alchemical disaster, the river supplying the region became corrosive. The village needs clean water before panic spreads.",
+    "es": "Tras un desastre alquímico, el río que abastece a la región se volvió corrosivo. La aldea necesita agua potable antes de que cunda el pánico.",
+    "ru": "После алхимической катастрофы река, снабжающая регион, стала едкой. Деревне нужна питьевая вода, пока не началась паника.",
+    "zh": "在一次炼金灾难之后，供应该地区的河流变得具有腐蚀性。在恐慌蔓延之前，村庄急需饮用水。",
+    "ja": "錬金術的災害の後、地域に供給している川が腐食性になった。パニックが広がる前に、村は飲料水を必要としている。"
+  },
+  "type": [
+    "alchemy"
+  ],
+  "max_heroes": 1,
+  "expired_at": 5,
+  "available_from_turn": 38,
+  "duration": 3,
+  "difficulty": 2.5,
+  "rewards": {
+    "xp": 105
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

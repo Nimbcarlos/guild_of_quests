@@ -1,0 +1,132 @@
+{
+  "start_dialogues": {
+    "default": {
+      "en": [
+        "A quest? Fine. Let's see if your strategy is as flawed as your previous chemistry.",
+        "Don't thank the gods if we return. Thank the fact that I didn't mix the wrong reagents.",
+        "I'll go, but if you get hurt, try to bleed in a way that doesn't ruin my samples.",
+        "Survival isn't a miracle, it's just science. Sadly, most of you are barely a passing grade.",
+        "Ready to see how real efficiency looks? Or should I wait for you to finish your 'heroic' speech?"
+      ],
+      "pt": [
+        "Uma missão? Certo. Vamos ver se sua estratégia é tão falha quanto sua última mistura química.",
+        "Não agradeça aos deuses se voltarmos. Agradeça ao fato de eu não ter misturado os reagentes errados.",
+        "Eu vou, mas se você se ferir, tente sangrar de um jeito que não estrague minhas amostras.",
+        "Sobreviver não é um milagre, é apenas ciência. Infelizmente, a maioria de vocês mal chega à média.",
+        "Prontos para ver como é a verdadeira eficiência? Ou devo esperar você terminar seu discurso 'heroico'?"
+      ],
+      "es": [
+        "¿Una misión? Bien. Veamos si tu estrategia es tan defectuosa como tu química anterior.",
+        "No agradezcas a los dioses si volvemos. Agradece al hecho de que no mezclé los reactivos equivocados.",
+        "Iré, pero si te hieren, intenta sangrar de una forma que no arruine mis muestras.",
+        "Sobrevivir no es un milagro, es solo ciencia. Lamentablemente, la mayoría de ustedes apenas aprueba.",
+        "¿Listos para ver cómo luce la verdadera eficiencia? ¿O debo esperar a que termines tu discurso 'heroico'?"
+      ],
+      "ru": [
+        "Задание? Ладно. Посмотрим, не так ли глупа твоя стратегия, как твои познания в химии.",
+        "Не благодари богов, если мы вернемся. Благодари тот факт, что я не перепутала реагенты.",
+        "Я пойду, но если тебя ранят, постарайся истекать кровью так, чтобы не испортить мои образцы.",
+        "Выживание — это не чудо, это просто наука. К сожалению, большинство из вас едва тянет на тройку.",
+        "Готовы увидеть, как выглядит настоящая эффективность? Или мне подождать, пока ты закончишь свою «героическую» речь?"
+      ],
+      "zh": [
+        "任务？好吧。让我们看看你的策略是否像你之前的化学水平一样漏洞百出。",
+        "如果我们能回来，别感谢神灵。感谢我没有混错反应剂吧。",
+        "我会去，但如果你受伤了，尽量别让流的血弄坏我的样本。",
+        "生存不是奇迹，只是科学。遗憾的是，你们中的大多数人连及格线都够不到。",
+        "准备好见识真正的效率了吗？还是我得等你发表完那番“英雄”演说？"
+      ],
+      "ja": [
+        "任務？いいわ。あんたの作戦が、前回の調合と同じくらい欠陥品じゃないことを祈るわね。",
+        "戻れたとしても神に感謝しないで。私が試薬を混ぜ間違えなかった事実に感謝しなさい。",
+        "行くわよ。でも怪我をするなら、私の検体を汚さないように血を流してちょうだい。",
+        "生存は奇跡じゃない、ただの科学よ。悲しいことに、あんたたちのほとんどは落第点だけど。",
+        "本物の効率ってやつを見せてあげる。それとも、あんたの「英雄的」な演説が終わるまで待った方がいいかしら？"
+      ]
+    },
+    "chains": {
+      "14": {
+        "0": {
+          "pt": ["Ora, se não é a minha colega de 'marteladas'. Tentando não explodir seus parafusos hoje?"],
+          "en": ["Well, if it isn't my 'hammering' colleague. Trying not to blow your bolts today?"],
+          "es": ["Vaya, si es mi colega de los 'martillazos'. ¿Intentando que no se te salten los pernos hoy?"],
+          "ru": ["Ну надо же, моя коллега по «молоткам». Постараешься сегодня не растерять свои болты?"],
+          "zh": ["哟，这不是我的“锤击”同事吗。今天能不能别让你的螺栓飞出来？"],
+          "ja": ["あら、私の「金槌」仲間じゃない。今日はネジを飛ばさないように気をつけることね。"]
+        },
+        "1": {
+          "pt": ["Raska, seu tique nervoso está em 45 batidas por minuto. Quer uma poção para acalmar ou vai apenas apertar um parafuso?"],
+          "en": ["Raska, your nervous tic is at 45 beats per minute. Want a calming potion or are you just going to tighten a screw?"],
+          "es": ["Raska, tu tic nervioso está a 45 pulsaciones por minuto. ¿Quieres una poción para calmarte o solo vas a apretar un tornillo?"],
+          "ru": ["Раска, твой нервный тик — 45 ударов в минуту. Хочешь успокаивающее зелье или просто подкрутишь винтик?"],
+          "zh": ["拉斯卡，你的神经性抽搐是每分钟45次。想要瓶镇静药剂，还是你只想拧紧个螺丝？"],
+          "ja": ["ラスカ、神経性チックが毎分45回ね。落ち着くポーションが欲しい？それともただネジを締めるだけ？"]
+        },
+        "2": {
+          "pt": ["Sua mente corre rápido demais, querida. É um problema de lubrificação ou apenas falta de química?"],
+          "en": ["Your mind runs too fast, darling. Is it a lubrication issue or just a lack of chemistry?"],
+          "es": ["Tu mente corre demasiado rápido, querida. ¿Es un problema de lubricación o solo falta de química?"],
+          "ru": ["Твои мысли бегут слишком быстро, дорогая. Это проблемы со смазкой или просто нехватка химии?"],
+          "zh": ["你的思维转得太快了，亲爱的。是润滑问题，还是单纯缺乏化学反应？"],
+          "ja": ["思考が速すぎるわね。潤滑不足かしら、それともただの化学反応不足？"]
+        },
+        "3": {
+          "pt": ["Mecânica é apenas química com peças maiores e menos elegância. Mas admito, você é útil."],
+          "en": ["Mechanics is just chemistry with larger parts and less elegance. But I admit, you're useful."],
+          "es": ["La mecánica es solo química con piezas más grandes y menos elegancia. Pero admito que eres útil."],
+          "ru": ["Механика — это та же химия, только детали крупнее, а элегантности меньше. Но признаю, ты полезна."],
+          "zh": ["机械学只是零件更大、更不优雅的化学而已。不过我承认，你还挺有用的。"],
+          "ja": ["力学なんて、部品が大きくて優雅さに欠ける化学に過ぎないわ。でも、あなたは役に立つって認めてあげる。"]
+        },
+        "4": {
+          "pt": ["Não se preocupe com o colapso, Raska. Se o sistema quebrar, eu tenho um ácido que dissolve o que sobrar."],
+          "en": ["Don't worry about the collapse, Raska. If the system breaks, I have an acid that dissolves whatever's left."],
+          "es": ["No te preocupes por el colapso, Raska. Si el sistema falla, tengo un ácido que disuelve lo que quede."],
+          "ru": ["Не волнуйся о крахе, Раска. Если система рухнет, у меня есть кислота, которая растворит остатки."],
+          "zh": ["别担心崩溃的事，拉斯卡。如果系统坏了，我有酸液能把剩下的东西都溶解掉。"],
+          "ja": ["崩壊なんて気にしないで、ラスカ。システムが壊れたら、残ったものを溶かす酸があるから。"]
+        },
+        "5": {
+          "pt": ["Você trata metal como se fosse paciente. Interessante. Eu trato pacientes como problemas químicos."],
+          "en": ["You treat metal like a patient. Interesting. I treat patients like chemical problems."],
+          "es": ["Tratas el metal como si fuera un paciente. Interesante. Yo trato a los pacientes como problemas químicos."],
+          "ru": ["Ты обращаешься с металлом как с пациентом. Любопытно. Я с пациентами — как с химическими задачами."],
+          "zh": ["你把金属当病人看。真有趣。我把病人当化学问题。"],
+          "ja": ["金属を患者みたいに扱うのね。面白いわ。私は患者を化学問題として見るけど。"]
+        },
+        "6": {
+          "pt": ["Seus cálculos são sólidos. Sua postura, nem tanto. Endireite a coluna."],
+          "en": ["Your calculations are solid. Your posture, not so much. Straighten your back."],
+          "es": ["Tus cálculos son sólidos. Tu postura, no tanto. Endereza la espalda."],
+          "ru": ["Твои расчеты надежны. Осанка — не очень. Выпрямись."],
+          "zh": ["你的计算很稳。但你的站姿不行。站直。"],
+          "ja": ["計算は完璧。でも姿勢が悪いわ。背筋を伸ばして。"]
+        },
+        "7": {
+          "pt": ["Admito: sem você, metade dessas portas já teria desabado. Irritante."],
+          "en": ["I admit it: without you, half these doors would have collapsed already. Annoying."],
+          "es": ["Lo admito: sin ti, la mitad de estas puertas ya se habría derrumbado. Molesto."],
+          "ru": ["Признаю: без тебя половина этих ворот уже бы рухнула. Раздражает."],
+          "zh": ["我承认，没有你，这些门早就塌了一半。真烦。"],
+          "ja": ["認めるわ。あなたがいなかったら、もう半分は崩れてた。腹立たしいけど。"]
+        },
+        "8": {
+          "pt": ["Você evita colapsos físicos. Eu evito mortes. Somos complementares."],
+          "en": ["You prevent structural collapse. I prevent death. We're complementary."],
+          "es": ["Tú evitas colapsos estructurales. Yo evito muertes. Somos complementarias."],
+          "ru": ["Ты предотвращаешь обрушения. Я — смерти. Мы дополняем друг друга."],
+          "zh": ["你防止结构崩塌，我防止死亡。我们互补。"],
+          "ja": ["あなたは構造崩壊を防ぐ。私は死を防ぐ。相性はいいわね。"]
+        },
+        "9": {
+          "pt": ["Relaxe, Raska. Se algo der errado, prometo que a autópsia será rápida."],
+          "en": ["Relax, Raska. If something goes wrong, I promise the autopsy will be quick."],
+          "es": ["Relájate, Raska. Si algo sale mal, prometo que la autopsia será rápida."],
+          "ru": ["Расслабься, Раска. Если что-то пойдет не так, обещаю — вскрытие будет быстрым."],
+          "zh": ["放松点，拉斯卡。如果出事了，我保证解剖会很快。"],
+          "ja": ["落ち着いて、ラスカ。何かあっても、解剖は手早く済ませるから。"]
+        }
+      }
+    }
+  }
+}

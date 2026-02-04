@@ -1,0 +1,35 @@
+{
+  "id": 95,
+  "name": {
+    "pt": "O Cerco Branco",
+    "en": "The White Siege",
+    "es": "El Cerco Blanco",
+    "ru": "Белая осада",
+    "zh": "白色围困",
+    "ja": "白の包囲"
+  },
+  "description": {
+    "pt": "Uma nevasca imprevista isolou um grupo de lenhadores em uma cabana precária dentro de um território de lobos. Com o frio extremo e predadores territoriais bloqueando a saída, eles precisam de um guia de sobrevivência para escapar.",
+    "en": "An unforeseen blizzard has isolated a group of woodcutters in a precarious cabin within wolf territory. With extreme cold and territorial predators blocking the exit, they need a survival guide to escape.",
+    "es": "Una nevada imprevista ha aislado a un grupo de leñadores en una cabaña precaria dentro de un territorio de lobos. Con el frío extremo y depredadores territoriales bloqueando la salida, necesitan un guía de supervivencia para escapar.",
+    "ru": "Непредвиденная метель отрезала группу лесорубов в ветхой хижине на территории волков. Сильный мороз и территориальные хищники преграждают путь — им нужен проводник по выживанию, чтобы выбраться.",
+    "zh": "一场突如其来的暴风雪将一群伐木工困在了一座位于狼群领地的破旧小木屋里。极度的寒冷和领地意识极强的掠食者封锁了出口，他们需要一名生存专家带他们逃离。",
+    "ja": "予期せぬ吹雪により、木こりの一団が狼の縄張り内にある不安定な小屋に孤立した。極寒と縄張りを守る捕食者が出口を塞ぐ中、彼らが脱出するには生存ガイドが必要だ。"
+  },
+  "type": [
+    "survival"
+  ],
+  "max_heroes": 1,
+  "expired_at": 3,
+  "available_from_turn": 75,
+  "duration": 3,
+  "difficulty": 2.6,
+  "rewards": {
+    "xp": 120
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

@@ -1,0 +1,35 @@
+{
+  "id": 76,
+  "name": {
+    "pt": "Gás Tóxico na Mina",
+    "en": "Toxic Gas in the Mine",
+    "es": "Gas Tóxico en la Mina",
+    "ru": "Токсичный газ в шахте",
+    "zh": "矿井中的毒气",
+    "ja": "鉱山の有毒ガス"
+  },
+  "description": {
+    "pt": "Um bolsão de gás alquímico foi liberado na mina. Mineiros estão presos e o oxigênio está acabando.",
+    "en": "A pocket of alchemical gas was released in the mine. Miners are trapped and oxygen is running out.",
+    "es": "Una bolsa de gas alquímico fue liberada en la mina. Los mineros están atrapados y el oxígeno se está agotando.",
+    "ru": "В шахте произошел выброс алхимического газа. Шахтеры оказались в ловушке, и кислород на исходе.",
+    "zh": "矿井中释放出了一股炼金气体。矿工们被困，氧气即将耗尽。",
+    "ja": "鉱山で錬金術的なガスの層が放出された。炭鉱夫たちが閉じ込められ、酸素が尽きようとしている。"
+  },
+  "type": [
+    "alchemy"
+  ],
+  "max_heroes": 1,
+  "expired_at": 3,
+  "available_from_turn": 82,
+  "duration": 3,
+  "difficulty": 2.4,
+  "rewards": {
+    "xp": 90
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

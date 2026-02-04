@@ -1,0 +1,156 @@
+{
+  "start_dialogues": {
+    "default": {
+      "en": [
+        "Six strikes per target. Not five, not seven. I will bring order to this mess.",
+        "A quest? I hope the enemies have an even number of limbs. It makes my work so much cleaner.",
+        "Symmetry is the ultimate terror. I'll show them that precision beats mindless rage.",
+        "I'm ready. I've already sharpened my blade six times. It's time for the sixfold cut.",
+        "Don't rush me. A perfect slaughter requires exact numbers and balanced wounds."
+      ],
+      "pt": [
+        "Seis golpes por alvo. Nem cinco, nem sete. Eu trarei ordem a essa bagunça.",
+        "Uma missão? Espero que os inimigos tenham um número par de membros. Torna meu trabalho muito mais limpo.",
+        "Simetria é o terror supremo. Vou mostrar a eles que a precisão vence a fúria irracional.",
+        "Estou pronta. Já afiei minha lâmina seis vezes. É hora do corte sêxtuplo.",
+        "Não me apresse. Um abate perfeito exige números exatos e feridas equilibradas."
+      ],
+      "es": [
+        "Seis golpes por objetivo. Ni cinco, ni siete. Traeré orden a este desastre.",
+        "¿Una misión? Espero que los enemigos tengan un número par de extremidades. Hace que mi trabajo sea mucho más limpio.",
+        "La simetría es el terror definitivo. Les mostraré que la precisión vence a la furia sin sentido.",
+        "Estoy lista. He afilado mi hoja seis veces. Es hora del corte séxtuple.",
+        "No me apresures. Una masacre perfecta requiere números exactos y heridas equilibradas."
+      ],
+      "ru": [
+        "Шесть ударов на цель. Не пять, не семь. Я наведу порядок в этом хаосе.",
+        "Задание? Надеюсь, у врагов четное число конечностей. Это сделает мою работу намного чище.",
+        "Симметрия — это истинный ужас. Я покажу им, что точность бьет бездумную ярость.",
+        "Я готова. Я уже наточила клинок шесть раз. Пора для шестикратного удара.",
+        "Не торопи меня. Идеальная бойня требует точных цифр и сбалансированных ран."
+      ],
+      "zh": [
+        "每个目标六击。不能是五次，也不能是七次。我会终结这场混乱。",
+        "任务？我希望敌人的肢体是偶数。这会让我的工作变得整洁得多。",
+        "对称是终极的恐怖。我会让他们看到，精准远胜于盲目的愤怒。",
+        "我准备好了。我的刀已经磨了六次。是时候进行六重斩击了。",
+        "别催我。完美的屠戮需要精确的数量和均衡的伤口。"
+      ],
+      "ja": [
+        "一匹につき六撃。五つでも七つでもない。この乱雑な戦場に秩序をもたらしてあげるわ。",
+        "任務？敵の肢体が偶数であることを願うわね。その方が私の仕事が綺麗に仕上がるから。",
+        "対称性こそが究極の恐怖よ。理性のない怒りよりも精密さが勝ることを教えてあげる。",
+        "準備はいいわ。刃は六回研いでおいた。六重の斬撃（シックスフォールド）を見せる時ね。",
+        "急かさないで。完璧な屠殺には正確な数と、均衡のとれた傷跡が必要なのよ。"
+      ]
+    },
+    "chains": {
+      "1": {
+        "0": {
+          "pt": ["Lyra, seus ombros são perfeitamente simétricos... Eu poderia olhar para eles por seis horas."],
+          "en": ["Lyra, your shoulders are perfectly symmetrical... I could stare at them for six hours."],
+          "es": ["Lyra, tus hombros son perfectamente simétricos... Podría mirarlos por seis horas."],
+          "ru": ["Лира, твои плечи идеально симметричны... Я могла бы смотреть на них шесть часов."],
+          "zh": ["莱拉，你的肩膀完美对称……我可以盯着看六个小时。"],
+          "ja": ["リラ、あんたの肩は完璧に対称ね……6時間は眺めていられるわ。"]
+        },
+        "1": {
+          "pt": ["Sabe, Lyra... você fica tão linda quando está coberta pelo sangue de exatamente seis inimigos."],
+          "en": ["You know, Lyra... you look so beautiful when covered in the blood of exactly six enemies."],
+          "es": ["Sabes, Lyra... te ves tan hermosa cuando estás cubierta por la sangre de exactamente seis enemigos."],
+          "ru": ["Знаешь, Лира... ты так прекрасна, когда покрыта кровью ровно шести врагов."],
+          "zh": ["你知道吗，莱拉……当你沾满整整六个敌人的鲜血时，看起来真迷人。"],
+          "ja": ["ねえリラ……ちょうど6人の敵の返り血を浴びている時のあんた、すごく綺麗よ。"]
+        },
+        "2": {
+          "pt": ["Por que está vermelha? É uma cor tão equilibrada no seu rosto... Quero ver mais."],
+          "en": ["Why are you blushing? It's such a balanced color on your face... I want to see more."],
+          "es": ["¿Por qué te sonrojas? Es un color tan equilibrado en tu rostro... Quiero ver más."],
+          "ru": ["Почему ты краснеешь? Это такой сбалансированный цвет на твоем лице... Хочу видеть больше."],
+          "zh": ["你为什么脸红？这种颜色在你脸上看起来真均衡……我想看更多。"],
+          "ja": ["どうして赤くなってるの？あんたの顔の上でとても均衡の取れた色ね……もっと見せて。"]
+        },
+        "3": {
+          "pt": ["Seu batimento cardíaco está em um ritmo sêxtuplo agora. O que eu fiz para te deixar assim?"],
+          "en": ["Your heart rate is in a sixfold rhythm right now. What did I do to make you like this?"],
+          "es": ["Tu ritmo cardíaco tiene un ritmo séxtuple ahora mismo. ¿Qué hice para ponerte así?"],
+          "ru": ["Твое сердце сейчас бьется в шестикратном ритме. Что же я сделала, что ты так разволновалась?"],
+          "zh": ["你的心跳现在正处于六倍律动中。我做了什么让你变成这样？"],
+          "ja": ["あんたの鼓動、今は6拍子のリズムを刻んでるわね。私、何かしたかしら？"]
+        },
+        "4": {
+          "pt": ["Lyra, deixe-me ajustar sua armadura. Se ela não estiver milimetricamente centrada, eu vou ter que te despir e começar de novo."],
+          "en": ["Lyra, let me adjust your armor. If it's not millimetrically centered, I'll have to undress you and start over."],
+          "es": ["Lyra, déjame ajustarte la armadura. Si no está milimétricamente centrada, tendré que desnudarte y empezar de nuevo."],
+          "ru": ["Лира, дай мне поправить твою броню. Если она не будет отцентрована до миллиметра, мне придется раздеть тебя и начать заново."],
+          "zh": ["莱拉，让我帮你调整一下盔甲。如果它不处于毫米级的中心位置，我就不得不帮你脱掉重新开始。"],
+          "ja": ["リラ、鎧を直させて。ミリ単位で中心に合ってないと、全部脱がせて最初からやり直さなきゃいけなくなるわ。"]
+        },
+        "5": {
+          "pt": ["Você é a única bagunça que eu não quero organizar, Lyra. Quero apenas... observar."],
+          "en": ["You're the only mess I don't want to tidy up, Lyra. I just want to... observe."],
+          "es": ["Eres el único desastre que no quiero organizar, Lyra. Solo quiero... observar."],
+          "ru": ["Ты — единственный беспорядок, который я не хочу убирать, Лира. Я просто хочу... наблюдать."],
+          "zh": ["你是唯一一个我不想整理的混乱，莱拉。我只想……观察。"],
+          "ja": ["あんたは私が整理したくない唯一の無秩序よ、リラ。ただ……観察していたい。"]
+        },
+        "6": {
+          "pt": ["Quantos beijos seriam necessários para você parar de tremer? Seis? Doze?"],
+          "en": ["How many kisses would it take for you to stop trembling? Six? Twelve?"],
+          "es": ["¿Cuántos besos harían falta para que dejes de temblar? ¿Seis? ¿Doce?"],
+          "ru": ["Сколько поцелуев нужно, чтобы ты перестала дрожать? Шесть? Двенадцать?"],
+          "zh": ["要多少个吻才能让你停止发抖？六个？还是十二个？"],
+          "ja": ["あと何回キスすれば震えが止まるかしら？6回？それとも12回？"]
+        },
+        "7": {
+          "pt": ["Adoro quando você fica sem palavras. O silêncio é tão... geometricamente perfeito."],
+          "en": ["I love when you're speechless. Silence is so... geometrically perfect."],
+          "es": ["Me encanta cuando te quedas sin palabras. El silencio es tan... geométricamente perfecto."],
+          "ru": ["Обожаю, когда ты теряешь дар речи. Тишина такая... геометрически совершенная."],
+          "zh": ["我喜欢你无言以对的样子。沉默是如此……几何般的完美。"],
+          "ja": ["あんたが絶句するの大好きよ。沈黙はとても……幾何学的に完璧だわ。"]
+        },
+        "8": {
+          "pt": ["Suas cicatrizes contam uma história... se você me deixar contar cada uma das seis principais, eu te conto a minha."],
+          "en": ["Your scars tell a story... if you let me count each of the main six, I'll tell you mine."],
+          "es": ["Tus cicatrices cuentan una historia... si me dejas contar cada una de las seis principales, te contaré la mía."],
+          "ru": ["Твои шрамы рассказывают историю... если позволишь мне пересчитать каждый из шести главных, я расскажу тебе свою."],
+          "zh": ["你的伤疤述说着故事……如果你让我数数那最主要的六道，我也告诉你我的故事。"],
+          "ja": ["あんたの傷跡は物語を語っているわ……主な6つを数えさせてくれたら、私の話もしてあげる。"]
+        },
+        "9": {
+          "pt": ["Fique perto de mim na luta. Quero ver seus músculos se movendo em perfeita sincronia."],
+          "en": ["Stay close to me in the fight. I want to see your muscles moving in perfect synchrony."],
+          "es": ["Quédate cerca de mí en la pelea. Quiero ver tus músculos moviéndose en perfecta sincronía."],
+          "ru": ["Будь рядом со мной в бою. Я хочу видеть, как твои мускулы движутся в идеальной синхронности."],
+          "zh": ["战斗时离我近点。我想看着你的肌肉以完美的同步律动。"],
+          "ja": ["戦う時は私のそばにいなさい。あんたの筋肉が完璧に同調して動くのを見たいの。"]
+        }
+      }
+    }
+  },
+  "quests": { 
+    "0": {
+      "success": {
+        "text": {
+          "pt": [ "Morga, successo teste" ],
+          "en": [ "Morga, success test" ]
+        },
+        "1": {
+          "pt": [ "Morga, teste de sucesso lyra" ],
+          "en": [ "Morga, lyra sucess test" ]
+        }
+      },
+      "failure": {
+        "text": {
+          "pt": [ "Morga, falha teste" ],
+          "en": [ "Morga, failure test" ]
+        },
+        "1": {
+          "pt": [ "Morga, teste de falha lyra" ],
+          "en": [ "Morga, lyra failure test" ]
+        }
+      }
+    }
+  }
+}

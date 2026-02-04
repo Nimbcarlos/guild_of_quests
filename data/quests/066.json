@@ -1,0 +1,35 @@
+{
+  "id": 66,
+  "name": {
+    "pt": "Veneno no Banquete",
+    "en": "Poison at the Feast",
+    "es": "Veneno en el Banquete",
+    "ru": "Яд на банкете",
+    "zh": "宴会投毒",
+    "ja": "宴の毒"
+  },
+  "description": {
+    "pt": "Vinte nobres foram envenenados. O antídoto comum é lento demais para salvá-los. Intervenção imediata é necessária.",
+    "en": "Twenty nobles were poisoned. The common antidote is too slow to save them. Immediate intervention required.",
+    "es": "Veinte nobles han sido envenenados. El antídoto común es demasiado lento.",
+    "ru": "Двадцать дворян отравлены. Обычное противоядие действует слишком медленно.",
+    "zh": "二十名贵族中毒了。普通解药奏效太慢，无法救命。需要立即干预。",
+    "ja": "20人の貴族が毒を盛られた。通常の解毒剤では間に合わない。即急な処置が必要だ。"
+  },
+  "type": [
+    "cure"
+  ],
+  "max_heroes": 1,
+  "expired_at": 3,
+  "available_from_turn": 19,
+  "duration": 3,
+  "difficulty": 2.6,
+  "rewards": {
+    "xp": 100
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}

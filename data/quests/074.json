@@ -1,0 +1,35 @@
+{
+  "id": 74,
+  "name": {
+    "pt": "Transmutação Fora de Controle",
+    "en": "Out-of-Control Transmutation",
+    "es": "Transmutación Fuera de Control",
+    "ru": "Неуправляемая трансмутация",
+    "zh": "失控的蜕变",
+    "ja": "制御不能な変成"
+  },
+  "description": {
+    "pt": "Um aprendiz falhou ao tentar transmutar chumbo em ouro. Agora tudo o que toca se transforma em chumbo, incluindo pessoas.",
+    "en": "An apprentice failed while trying to transmute lead into gold. Now everything they touch turns into lead, including people.",
+    "es": "Un aprendiz fracasó al intentar transmutar plomo en oro. Ahora todo lo que toca se transforma en plomo, incluidas las personas.",
+    "ru": "Ученик потерпел неудачу, пытаясь превратить свинец в золото. Теперь все, к чему он прикасается, превращается в свинец, включая людей.",
+    "zh": "一名学徒在尝试将铅炼成黄金时失败了。现在他们接触到的一切都会变成铅，包括人。",
+    "ja": "見習いが鉛を金に変えようとして失敗した。今や彼が触れるものはすべて、人間も含めて鉛に変わってしまう。"
+  },
+  "type": [
+    "alchemy"
+  ],
+  "max_heroes": 1,
+  "expired_at": 6,
+  "available_from_turn": 59,
+  "duration": 3,
+  "difficulty": 2.8,
+  "rewards": {
+    "xp": 140
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": []
+}
