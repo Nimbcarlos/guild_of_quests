@@ -17,7 +17,7 @@
     "zh": "被称为丛林犬的小型捕食者开始在山谷成群结队地攻击。它们体型更大、速度更快，并且以一种奇怪的协调方式行动。村庄请求帮助，以免袭击变得过于频繁而无法忽视。"
   },
   "type": "Fight",
-  "max_heroes": 1,
+  "max_heroes": 2,
   "expired_at": 2,
   "available_from_turn": 28,
   "duration": 3,

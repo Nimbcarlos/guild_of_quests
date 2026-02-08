@@ -17,7 +17,7 @@
     "ja": "巨大な昆虫が耕作地にはびこっている。収穫を守るために彼らを排除せよ。"
   },
   "type": "Fight",
-  "max_heroes": 1,
+  "max_heroes": 2,
   "expired_at": 2,
   "available_from_turn": 21,
   "duration": 3,

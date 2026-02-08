@@ -1,0 +1,125 @@
+{
+  "start_dialogues": {
+    "default": {
+      "en": [
+        "text",
+        "text",
+        "text",
+        "text"
+      ],
+      "pt": [
+        "texto"
+      ],
+      "es": [
+      ],
+      "ru": [
+      ],
+      "zh": [
+      ],
+      "ja": [
+      ]
+    },
+    "chains": {
+      "7": {
+        "0": {
+          "pt": ["texto'."],
+          "en": ["text."],
+          "es": ["texto."],
+          "ru": ["текст."],
+          "zh": ["文本。"],
+          "ja": ["テキスト。"]
+        },
+        "1": {
+          "pt": ["texto'."],
+          "en": ["text."],
+          "es": ["texto."],
+          "ru": ["текст."],
+          "zh": ["文本。"],
+          "ja": ["テキスト。"]
+        }
+      }
+    }
+  },
+  "quests": { 
+    "0": {
+      "arrived": {
+        "1": {
+        "pt": [ "texto {enemy} {location}"],
+        "en": [ "text {enemy} {location}" ],
+        "es": [ "texto {enemy} {location}" ],
+        "ru": [ "текст {enemy} {location}" ],
+        "zh": [ "文本 {enemy} {location}" ],
+        "ja": [ "テキスト {enemy} {location}" ]
+        },
+        "2": {
+        "pt": [ "texto {enemy} {location}"],
+        "en": [ "text {enemy} {location}" ],
+        "es": [ "texto {enemy} {location}" ],
+        "ru": [ "текст {enemy} {location}" ],
+        "zh": [ "文本 {enemy} {location}" ],
+        "ja": [ "テキスト {enemy} {location}" ]
+        }
+      },
+      "action": {
+        "1": {
+        "pt": [ "texto" ],
+        "en": [ "text" ],
+        "es": [ "texto" ],
+        "ru": [ "текст" ],
+        "zh": [ "文本" ],
+        "ja": [ "テキスト" ]
+        },
+        "2": {
+        "pt": [ "texto" ],
+        "en": [ "text" ],
+        "es": [ "texto" ],
+        "ru": [ "текст" ],
+        "zh": [ "文本" ],
+        "ja": [ "テキスト" ]
+        }
+      },
+      "others": {
+        "hero_id":{
+          "1": {
+          "pt": [ "texto" ],
+          "en": [ "text" ],
+          "es": [ "texto" ],
+          "ru": [ "текст" ],
+          "zh": [ "文本" ],
+          "ja": [ "テキスト" ]
+          },
+          "2": {
+          "pt": [ "texto" ],
+          "en": [ "text" ],
+          "es": [ "texto" ],
+          "ru": [ "текст" ],
+          "zh": [ "文本" ],
+          "ja": [ "テキスト" ]
+          }
+        }
+      },
+      "quest_id": {
+        "success": {
+          "text": {
+            "pt": [ "texto" ],
+            "en": [ "text" ],
+            "es": [ "texto" ],
+            "ru": [ "текст" ],
+            "zh": [ "文本" ],
+            "ja": [ "テキスト" ]
+          }
+        },
+        "failure": {
+          "text": {
+            "pt": [ "texto" ],
+            "en": [ "text" ],
+            "es": [ "texto" ],
+            "ru": [ "текст" ],
+            "zh": [ "文本" ],
+            "ja": [ "テキスト" ]
+        }
+      }
+    }
+    }
+  }
+}

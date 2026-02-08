@@ -17,7 +17,7 @@
     "ja": "巨大なワニが湖の漁師を脅かしている。さらなる被害を出す前にそれを倒せ。"
   },
   "type": "Fight",
-  "max_heroes": 1,
+  "max_heroes": 3,
   "expired_at": 2,
   "available_from_turn": 77,
   "duration": 3,

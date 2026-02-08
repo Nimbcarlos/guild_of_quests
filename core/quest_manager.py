@@ -113,7 +113,7 @@ class QuestManager:
 
         # Diálogo inicial, se existir callback
         if self.dialog_callback:
-            self.dialog_callback(selected_heroes, quest.id, "start")
+            self.dialog_callback(selected_heroes, quest.id, "start", quest.type, quest.context)
 
         if hasattr(self, "ui_callback") and self.ui_callback:
             self.ui_callback()
@@ -197,7 +197,7 @@ class QuestManager:
 
         # Callback de diálogo (resultado pós-quest)
         if self.dialog_callback:
-            self.dialog_callback(heroes, quest.id, result)
+            self.dialog_callback(heroes, quest.id, result, quest.type, quest.context)
             self.assistant.on_quest_resolved(quest, result)
             if self.assistant:
                 for hero_name, level in self.pending_level_ups:

@@ -25,6 +25,8 @@ class Quest:
         forbidden_heroes: List[str] = None,
         available_since_turn=None,
         language: str = "en",
+        context: dict | None = None,
+        conclusion: dict | None = None,
     ):
         self.id = id
         self.language = language
@@ -50,6 +52,8 @@ class Quest:
         self.available_since_turn = available_since_turn
 
         self.remaining_turns = duration
+        self.conclusion = conclusion or {}
+        self.context = context or {}
 
     # -------------------- Métodos auxiliares --------------------
 

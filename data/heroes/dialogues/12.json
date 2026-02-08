@@ -129,26 +129,177 @@
       }
     }
   },
-  "quests": { 
-    "0": {
-      "success": {
-        "text": {
-          "pt": [ "Morga, successo teste" ],
-          "en": [ "Morga, success test" ]
-        },
-        "1": {
-          "pt": [ "Morga, teste de sucesso lyra" ],
-          "en": [ "Morga, lyra sucess test" ]
+  "fight_blocks": {
+    "arrived": {
+      "alone": {
+        "en": [
+          "Arrived near {location}. Steps counted and corrected.",
+          "Stopped in front of {location}. Alignment verified.",
+          "Advanced toward {location}. No deviation allowed.",
+          "Position taken near {location}. Pattern maintained.",
+          "Visual contact with {location}. Situation under control.",
+          "Arrival confirmed at {location}. Order verified.",
+          "Moved closer to {location}. Advance corrected.",
+          "Held position before {location}. Full assessment complete.",
+          "Passed through {location}. Nothing out of place.",
+          "Final position at {location}. Ready to act."
+        ],
+        "pt": [
+          "Cheguei perto d{location}. Passos contados e corrigidos.",
+          "Parei diante d{location}. Esperei alinhamento adequado.",
+          "Avancei até d{location}. Nenhum desvio tolerado.",
+          "Posição tomada perto d{location}. Padrão mantido.",
+          "Contato visual com d{location}. Situação sob controle.",
+          "Chegada confirmada d{location}. Ordem verificada.",
+          "Aproximei-me d{location}. Ajustei avanço antes de prosseguir.",
+          "Mantive posição diante d{location}. Avaliação completa.",
+          "Passei por d{location}. Nada fora do lugar.",
+          "Posição final d{location}. Pronta para agir."
+        ],
+        "es": [
+          "Llegué cerca d{location}. Pasos contados y corregidos.",
+          "Me detuve frente d{location}. Esperé la alineación correcta.",
+          "Avancé hasta d{location}. Ninguna desviación tolerada.",
+          "Posición tomada cerca d{location}. Patrón mantenido.",
+          "Contacto visual con {location}. Situación bajo control.",
+          "Llegada confirmada d{location}. Orden verificado.",
+          "Me acerqué d{location}. Ajusté el avance antes de seguir.",
+          "Mantuve posición frente d{location}. Evaluación completa.",
+          "Pasé por d{location}. Nada fuera de lugar.",
+          "Posición final d{location}. Lista para actuar."
+        ]
+      },
+      "group": {
+        "en": [
+          "Arrived near {location}. Group pace adjusted.",
+          "Halted the group before {location}. Reorganization applied.",
+          "Advanced toward {location}. Formation corrected.",
+          "Position taken near {location}. Group held back.",
+          "Visual contact with {location}. Formation stable.",
+          "Arrival confirmed at {location}. Order restored.",
+          "Held the advance at {location}. Corrections applied.",
+          "Moved first through {location}. Path validated.",
+          "Kept everyone behind {location}. No pattern breaks.",
+          "Final position at {location}. Group ready."
+        ],
+        "pt": [
+          "Chegamos perto d{location}. Ritmo do grupo ajustado.",
+          "Interrompi o avanço diante d{location}. Reorganização feita.",
+          "Avançamos até d{location}. Formação corrigida.",
+          "Posição tomada perto d{location}. Grupo mantido atrás.",
+          "Contato visual com d{location}. Formação estável.",
+          "Chegada confirmada d{location}. Ordem restabelecida.",
+          "Segurei o avanço d{location}. Correções aplicadas.",
+          "Passei primeiro por d{location}. Caminho validado.",
+          "Mantive todos atrás d{location}. Nenhuma quebra de padrão.",
+          "Posição final d{location}. Grupo pronto."
+        ],
+        "es": [
+          "Llegamos cerca d{location}. Ritmo del grupo ajustado.",
+          "Detuve el avance frente d{location}. Reorganización aplicada.",
+          "Avanzamos hasta d{location}. Formación corregida.",
+          "Posición tomada cerca d{location}. Grupo mantenido atrás.",
+          "Contacto visual con d{location}. Formación estable.",
+          "Llegada confirmada d{location}. Orden restablecido.",
+          "Contuve el avance d{location}. Correcciones aplicadas.",
+          "Pasé primero por d{location}. Camino validado.",
+          "Mantuve a todos detrás d{location}. Ninguna ruptura de patrón.",
+          "Posición final d{location}. Grupo listo."
+        ]      
+      }
+    },
+    "action": {
+      "alone": {
+        "en": [
+          "Attack initiated. Six strikes delivered against {enemy}.",
+          "Sequence executed. Impacts counted against {enemy}.",
+          "Cycle completed. Sixth strike confirmed against {enemy}.",
+          "Precise execution. No errors against {enemy}.",
+          "Rhythm maintained. Constant pressure against {enemy}.",
+          "Posture corrected. Finalization against {enemy}.",
+          "Attack concluded. Pattern preserved against {enemy}.",
+          "Full control. Final strike against {enemy}.",
+          "Withdrawal only after the sixth impact against {enemy}.",
+          "Combat ended. {enemy} neutralized."
+        ],
+        "pt": [
+          "Ataque iniciado. Seis golpes aplicados n{enemy}.",
+          "Sequência executada. Impactos contados n{enemy}.",
+          "Ciclo fechado. Sexto golpe confirmado n{enemy}.",
+          "Execução precisa. Nenhum erro n{enemy}.",
+          "Ritmo mantido. Pressão constante n{enemy}.",
+          "Postura corrigida. Finalização n{enemy}.",
+          "Ataque concluído. Padrão preservado n{enemy}.",
+          "Controle absoluto. Golpe final n{enemy}.",
+          "Recuo somente após o sexto impacto n{enemy}.",
+          "Combate encerrado. {enemy} neutralizado."
+        ],
+        "es": [
+          "Ataque iniciado. Seis golpes aplicados contra {enemy}.",
+          "Secuencia ejecutada. Impactos contados contra {enemy}.",
+          "Ciclo cerrado. Sexto golpe confirmado contra {enemy}.",
+          "Ejecución precisa. Ningún error contra {enemy}.",
+          "Ritmo mantenido. Presión constante contra {enemy}.",
+          "Postura corregida. Finalización contra {enemy}.",
+          "Ataque concluido. Patrón preservado contra {enemy}.",
+          "Control absoluto. Golpe final contra {enemy}.",
+          "Retirada solo después del sexto impacto contra {enemy}.",
+          "Combate finalizado. {enemy} neutralizado."
+        ]
+      },
+      "group": {
+        "en": [
+          "Attack initiated. Six strikes delivered against {enemy}.",
+          "Sequence executed. Impacts counted against {enemy}.",
+          "Cycle completed. Sixth strike confirmed against {enemy}.",
+          "Precise execution. No errors against {enemy}.",
+          "Rhythm maintained. Constant pressure against {enemy}.",
+          "Posture corrected. Finalization against {enemy}.",
+          "Attack concluded. Pattern preserved against {enemy}.",
+          "Full control. Final strike against {enemy}.",
+          "Withdrawal only after the sixth impact against {enemy}.",
+          "Combat ended. {enemy} neutralized."
+        ],
+        "pt": [
+          "Ataque iniciado. Seis golpes aplicados n{enemy}.",
+          "Sequência executada. Impactos contados n{enemy}.",
+          "Ciclo fechado. Sexto golpe confirmado n{enemy}.",
+          "Execução precisa. Nenhum erro n{enemy}.",
+          "Ritmo mantido. Pressão constante n{enemy}.",
+          "Postura corrigida. Finalização n{enemy}.",
+          "Ataque concluído. Padrão preservado n{enemy}.",
+          "Controle absoluto. Golpe final n{enemy}.",
+          "Recuo somente após o sexto impacto n{enemy}.",
+          "Combate encerrado. {enemy} neutralizado."
+        ],
+        "es": [
+          "Ataque iniciado. Seis golpes aplicados contra {enemy}.",
+          "Secuencia ejecutada. Impactos contados contra {enemy}.",
+          "Ciclo cerrado. Sexto golpe confirmado contra {enemy}.",
+          "Ejecución precisa. Ningún error contra {enemy}.",
+          "Ritmo mantenido. Presión constante contra {enemy}.",
+          "Postura corregida. Finalización contra {enemy}.",
+          "Ataque concluido. Patrón preservado contra {enemy}.",
+          "Control absoluto. Golpe final contra {enemy}.",
+          "Retirada solo después del sexto impacto contra {enemy}.",
+          "Combate finalizado. {enemy} neutralizado."
+        ]
+      }
+    },
+    "others": {
+      "1": {
+       "group": {
+          "pt": [
+            "{hero_name} ficou atrás de mim. Isso ajudou.",
+            "Saber que {hero_name} estava ali me deixou mais firme."
+          ]
         }
       },
-      "failure": {
-        "text": {
-          "pt": [ "Morga, falha teste" ],
-          "en": [ "Morga, failure test" ]
-        },
-        "1": {
-          "pt": [ "Morga, teste de falha lyra" ],
-          "en": [ "Morga, lyra failure test" ]
+      "2": {
+       "group": {
+          "pt": [
+            "{hero_name} cobriu minha retaguarda enquanto eu segurava o {enemy}."
+          ]
         }
       }
     }

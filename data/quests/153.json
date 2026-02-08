@@ -17,7 +17,7 @@
     "zh": "一头庞大的野猪出现在南部农田，摧毁了栅栏并攻击工人。它比一头公牛还要大，行动起来就像被附身了一样。在它撞到城市大门之前，将其截住。"
   },
   "type": "Fight",
-  "max_heroes": 1,
+  "max_heroes": 2,
   "expired_at": 3,
   "available_from_turn": 35,
   "duration": 3,

@@ -4,9 +4,6 @@ from kivy.uix.popup import Popup
 from kivy.uix.image import Image as KivyImage
 from kivy.uix.scrollview import ScrollView
 from kivy.clock import Clock
-from core.hero import Hero
-from typing import Optional
-import random
 from collections import deque
 from kivy.core.window import Window
 
@@ -28,7 +25,7 @@ class DialogueBox:
         self.typing_event = None
         self.heroes = []
 
-    def show_dialogue(self, heroes, quest_id, result, parent_size):
+    def show_dialogue(self, heroes, quest_id, result, parent_size, quest_type=None, context=None):
         """
         Mostra diálogo dos heróis.
         
@@ -44,8 +41,13 @@ class DialogueBox:
             dialogues = self.dm.get_start_dialogue(heroes)
         else:
             # ✅ Diálogo de resultado (após completar)
-            dialogues = self.dm.show_quest_dialogue(heroes, quest_id, result)
-        
+            dialogues = self.dm.show_quest_dialogue(
+                heroes,
+                quest_id,
+                result,
+                quest_type,
+                context=context
+            )        
         # Adiciona na fila
         self.queue.append((heroes, quest_id, dialogues, parent_size))
         

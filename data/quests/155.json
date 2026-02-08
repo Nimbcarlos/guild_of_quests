@@ -17,7 +17,7 @@
     "zh": "一只巨型猫头鹰在夜间袭击旅行者。它的眼睛闪烁着奥术能量，静悄悄地降落，捕获任何独行者。在山中追踪它，阻止新的失踪事件。"
   },
   "type": "Fight",
-  "max_heroes": 1,
+  "max_heroes": 2,
   "expired_at": 2,
   "available_from_turn": 44,
   "duration": 3,

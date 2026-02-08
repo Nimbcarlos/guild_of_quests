@@ -17,7 +17,7 @@
     "zh": "森林中的蜘蛛开始异常生长。其中一只，体型有马匹大小，在主干道上织网并捕获了旅行者。在路线被遗弃之前，解救被困者并消灭这只蜘蛛。"
   },
   "type": "Fight",
-  "max_heroes": 1,
+  "max_heroes": 2,
   "expired_at": 2,
   "available_from_turn": 81,
   "duration": 3,

@@ -18,7 +18,7 @@
     "ko": "곰만큼 큰 돌연변이 오소리가 발광하여 터널을 파기 시작했고, 이로 인해 집과 마구간이 무너지고 있습니다. 마을 전체가 침하하기 전에 긴급 지원을 요청합니다."
   },
   "type": "Fight",
-  "max_heroes": 1,
+  "max_heroes": 2,
   "expired_at": 3,
   "available_from_turn": 41,
   "duration": 3,

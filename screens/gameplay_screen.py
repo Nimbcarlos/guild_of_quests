@@ -588,16 +588,6 @@ class GameplayScreen(Screen):
         # Pega os objetos dos heróis selecionados
         heroes = [self.qm.get_hero(hid) for hid in hero_ids if self.qm.get_hero(hid)]
 
-        # 🔹 Mostra diálogo inicial antes de enviar (usa o DialogueBox)
-        # use "start" para disparar o fluxo adequado dentro do DialogueBox/DialogueManager
-        # if heroes:
-        #     try:
-        #         # DialogueBox.show_dialogue trata result == "start" como diálogo inicial
-        #         self.dialog_box.show_dialogue(heroes, quest.id, "start", parent_size=self.size)
-        #     except Exception as e:
-        #         # fallback silencioso em caso de algo errado no diálogo
-        #         print("Erro ao abrir diálogo inicial:", e)
-
         # 🔹 Chama o QuestManager para registrar a missão
         self.qm.send_heroes_on_quest(quest.id, hero_ids)
 
@@ -838,9 +828,16 @@ class GameplayScreen(Screen):
         # volta ao menu principal
         self.manager.current = "menu"
 
-    def open_dialog(self, selected_heroes, quest, result):
+    def open_dialog(self, selected_heroes, quest, result, quest_type, quest_context):
+        print(quest_type, quest_context)
+        print(""*30)
         # Aqui você só chama a função passando heróis, quest_id e resultado
-        self.dialog_box.show_dialogue(selected_heroes, quest, result, parent_size=self.size)
+        self.dialog_box.show_dialogue(selected_heroes,
+                                      quest,
+                                      result,
+                                      parent_size=self.size,
+                                      quest_type=quest_type,
+                                      context=quest_context)
 
     @staticmethod
     def safe_input_filter(substring, from_undo):

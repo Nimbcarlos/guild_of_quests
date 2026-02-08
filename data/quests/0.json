@@ -8,10 +8,10 @@
     "en": "Test for the win"
   },
   "type": "fight",
-  "max_heroes": 4,
+  "max_heroes": 2,
   "expired_at": 3,
   "available_from_turn": 1,
-  "duration": 3,
+  "duration": 1,
   "difficulty": 2.5,
   "rewards": {
     "xp": 100
@@ -20,5 +20,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": "Floresta",
+    "enemy": "Urso"
+  },
+  "conclusion": {
+    "success": {
+      "pt": [
+        "No fim, a ameaça foi derrotada e o caminho ficou seguro.",
+        "Depois da luta, ficou claro que ninguém mais passaria por isso tão cedo."
+      ]
+    },
+    "failure": {
+      "pt": [
+        "A luta saiu do controle. Tivemos que recuar.",
+        "Não conseguimos segurar a situação e as coisas pioraram."
+      ]
+    }
+  }
 }
