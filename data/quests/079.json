@@ -31,5 +31,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a arena",
+      "en": "the arena",
+      "es": "la arena",
+      "ru": "арена",
+      "zh": "竞技场",
+      "ja": "闘技場"
+    },
+    "challenge": {
+      "pt": "os gladiadores",
+      "en": "the gladiators",
+      "es": "los gladiadores",
+      "ru": "гладиаторы",
+      "zh": "角斗士",
+      "ja": "剣闘士"
+    }
+  }
 }

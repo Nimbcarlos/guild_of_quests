@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a fronteira disputada",
+      "en": "the disputed border",
+      "es": "la frontera disputada",
+      "ru": "оспариваемая граница",
+      "zh": "争议边界",
+      "ja": "争われた国境"
+    },
+    "challenge": {
+      "pt": "os fazendeiros",
+      "en": "the farmers",
+      "es": "los granjeros",
+      "ru": "фермеры",
+      "zh": "农民们",
+      "ja": "農民たち"
+    }
+  }
 }

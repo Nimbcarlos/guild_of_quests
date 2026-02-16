@@ -9,12 +9,12 @@
     "ja": "返却された聖遺物"
   },
   "description": {
-    "pt": "Um ladrão arrependido entregou à Guilda uma relíquia roubada de um museu. O problema é que o local está em alerta máximo, e o diretor se recusa a aceitar a devolução por orgulho e desconfiança.",
-    "en": "A repentant thief handed a stolen relic to the Guild. The museum is on high alert, and the director refuses to accept the return.",
-    "es": "Un ladrón arrepentido entregó una reliquia robada. El museo no acepta devoluciones.",
-    "ru": "Вор раскаялся и передал реликвию Гильдии. Музей в тревоге.",
-    "zh": "悔过的小偷将遗物交给公会，但博物馆拒绝接受。",
-    "ja": "悔い改めた盗賊が遺物を渡したが、博物館は受け取らない。"
+    "pt": "Um ladrão arrependido entregou à Guilda uma relíquia roubada, temendo a execução caso fosse entregue à guarda. A Guilda decidiu mantê-lo sob sua custódia, mas a relíquia precisa ser devolvida ao museu sem revelar a identidade do responsável. O local está em alerta máximo, e qualquer erro exporá mais do que apenas o artefato.",
+    "en": "A repentant thief has turned over a stolen relic to the Guild, fearing execution if handed over to the guards. The Guild has decided to keep him in custody, but the relic needs to be returned to the museum without revealing the identity of the culprit. The location is on high alert, and any mistake will expose more than just the artifact.",
+    "es": "Un ladrón arrepentido ha entregado una reliquia robada a la Guild, temiendo la ejecución si se la entrega a los guardias. La Guild ha decidido mantenerlo bajo custodia, pero la reliquia debe ser devuelta al museo sin revelar la identidad del culpable. El lugar está en máxima alerta, y cualquier error expondrá más que solo el artefacto.",
+    "ru": "Раскаявшийся вор передал украденную реликвию Гильдии, опасаясь казни, если ее передадут стражникам. Гильдия решила держать его под стражей, но реликвию нужно вернуть в музей, не раскрывая личность виновного. Место находится в состоянии повышенной готовности, и любая ошибка обнажит больше, чем просто артефакт.",
+    "zh": "一名悔过的盗贼将一件被盗的遗物交给了公会，担心如果交给守卫会被处死。公会决定将他拘留，但需要将遗物归还给博物馆，同时不透露罪犯的身份。该地点处于高度警戒状态，任何错误都会暴露的不仅仅是文物。",
+    "ja": "悔い改めた盗賊が盗まれた聖遺物をギルドに渡し、警備員に渡すと処刑されることを恐れている。ギルドは彼を拘留することに決めたが、犯人の身元を明かさずに博物館に聖遺物を返却する必要がある。場所は厳戒態勢で、どんなミスも単なるアーティファクト以上のものを暴露することになる。"
   },
   "type": "stealth",
   "max_heroes": 1,
@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o museu",
+      "en": "the museum",
+      "es": "el museo",
+      "ru": "музей",
+      "zh": "博物馆",
+      "ja": "博物館"
+    },
+    "challenge": {
+      "pt": "a relíquia",
+      "en": "the relic",
+      "es": "la reliquia",
+      "ru": "реликвия",
+      "zh": "圣物",
+      "ja": "聖遺物"
+    }
+  }
 }

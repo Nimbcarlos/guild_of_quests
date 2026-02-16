@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o acampamento",
+      "en": "the camp",
+      "es": "el campamento",
+      "ru": "лагерь",
+      "zh": "营地",
+      "ja": "キャンプ"
+    },
+    "challenge": {
+      "pt": "os sobreviventes",
+      "en": "the survivors",
+      "es": "los sobrevivientes",
+      "ru": "выжившие",
+      "zh": "幸存者",
+      "ja": "生存者"
+    }
+  }
 }

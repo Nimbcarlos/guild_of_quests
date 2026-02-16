@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a Ala Norte",
+      "en": "the North Wing",
+      "es": "el Ala Norte",
+      "ru": "Северное крыло",
+      "zh": "北翼",
+      "ja": "北翼"
+    },
+    "challenge": {
+      "pt": "a bomba alquímica",
+      "en": "the alchemical bomb",
+      "es": "la bomba alquímica",
+      "ru": "алхимическая бомба",
+      "zh": "炼金炸弹",
+      "ja": "錬金術の爆弾"
+    }
+  }
 }

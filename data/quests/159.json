@@ -16,7 +16,7 @@
     "zh": "一只巨型鳄鱼正在威胁湖上的渔民。在它造成更多破坏之前击败它。",
     "ja": "巨大なワニが湖の漁師を脅かしている。さらなる被害を出す前にそれを倒せ。"
   },
-  "type": "Fight",
+  "type": "fight",
   "max_heroes": 3,
   "expired_at": 2,
   "available_from_turn": 77,
@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o lago",
+      "en": "the lake",
+      "es": "el lago",
+      "ru": "озеро",
+      "zh": "湖",
+      "ja": "湖"
+    },
+    "enemy": {
+      "pt": "o crocodilo",
+      "en": "the crocodile",
+      "es": "el cocodrilo",
+      "ru": "крокодил",
+      "zh": "鳄鱼",
+      "ja": "ワニ"
+    }
+  }
 }

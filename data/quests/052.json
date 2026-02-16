@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o esconderijo dos bandidos",
+      "en": "the bandits' hideout",
+      "es": "el escondite de los bandidos",
+      "ru": "логово бандитов",
+      "zh": "匪巢",
+      "ja": "盗賊のアジト"
+    },
+    "challenge": {
+      "pt": "a chave roubada",
+      "en": "the stolen key",
+      "es": "la llave robada",
+      "ru": "украденный ключ",
+      "zh": "被盗的钥匙",
+      "ja": "盗まれた鍵"
+    }
+  }
 }

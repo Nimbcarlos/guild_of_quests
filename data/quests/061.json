@@ -31,5 +31,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a casa do conselheiro",
+      "en": "the councillor's house",
+      "es": "la casa del consejero",
+      "ru": "дом советника",
+      "zh": "议员的住宅",
+      "ja": "顧問の家"
+    },
+    "challenge": {
+      "pt": "o conselheiro",
+      "en": "the councillor",
+      "es": "el consejero",
+      "ru": "советник",
+      "zh": "议员",
+      "ja": "顧問"
+    }
+  }
 }

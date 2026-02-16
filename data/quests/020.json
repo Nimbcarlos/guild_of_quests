@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a mansão da família",
+      "en": "the family mansion",
+      "es": "la mansión de la familia",
+      "ru": "семейный особняк",
+      "zh": "家族豪宅",
+      "ja": "家族の邸宅"
+    },
+    "challenge": {
+      "pt": "os irmãos",
+      "en": "the siblings",
+      "es": "los hermanos",
+      "ru": "братья и сестры",
+      "zh": "兄弟姐妹们",
+      "ja": "兄弟姉妹"
+    }
+  }
 }

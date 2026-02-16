@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o salão do conselho",
+      "en": "the council hall",
+      "es": "el salón del consejo",
+      "ru": "зал совета",
+      "zh": "议会大厅",
+      "ja": "議会の広間"
+    },
+    "challenge": {
+      "pt": "os conselheiros",
+      "en": "the council members",
+      "es": "los miembros del consejo",
+      "ru": "члены совета",
+      "zh": "议会成员",
+      "ja": "議会のメンバー"
+    }
+  }
 }

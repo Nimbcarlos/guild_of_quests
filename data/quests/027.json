@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a cidade",
+      "en": "the city",
+      "es": "la ciudad",
+      "ru": "город",
+      "zh": "城市",
+      "ja": "街"
+    },
+    "challenge": {
+      "pt": "o elemental de fogo",
+      "en": "the fire elemental",
+      "es": "el elemental de fuego",
+      "ru": "огненный элементаль",
+      "zh": "火焰元素",
+      "ja": "火の精霊"
+    }
+  }
 }

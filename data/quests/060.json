@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a enfermaria",
+      "en": "the infirmary",
+      "es": "la enfermería",
+      "ru": "больничный корпус",
+      "zh": "医务室",
+      "ja": "病棟"
+    },
+    "challenge": {
+      "pt": "os infectados",
+      "en": "the infected",
+      "es": "los infectados",
+      "ru": "зараженные",
+      "zh": "被感染的人",
+      "ja": "感染した者"
+    }
+  }
 }

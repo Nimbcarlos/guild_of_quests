@@ -31,5 +31,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "as tavernas",
+      "en": "the taverns",
+      "es": "las tabernas",
+      "ru": "таверны",
+      "zh": "酒馆",
+      "ja": "酒場"
+    },
+    "challenge": {
+      "pt": "os boatos plantados",
+      "en": "the rumors planted",
+      "es": "los rumores sembrados",
+      "ru": "слухи, запущенные",
+      "zh": "被散布的谣言",
+      "ja": "流された噂"
+    }
+  }
 }

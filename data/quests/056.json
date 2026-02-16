@@ -10,11 +10,11 @@
   },
   "description": {
     "pt": "Há rumores de que um armazém de caridade esconde armas ilegais a mando de um conselheiro corrupto. Provas são necessárias antes que o escândalo exploda.",
-    "en": "Rumors suggest a charity warehouse hides illegal weapons for a corrupt councilor. Evidence is needed.",
-    "es": "Se rumorea que un almacén benéfico oculta armas ilegales.",
-    "ru": "Ходят слухи, что под видом благотворительности хранят оружие.",
-    "zh": "传闻称慈善仓库暗藏非法武器，需要证据。",
-    "ja": "慈善倉庫が違法武器の隠し場所だという噂がある。"
+    "en": "Rumors suggest a charity warehouse is hiding illegal weapons on the orders of a corrupt councilor. Evidence is needed before the scandal breaks.",
+    "es": "Los rumores sugieren que un almacén de caridad esconde armas ilegales por orden de un concejal corrupto. Se necesitan pruebas antes de que estalle el escándalo.",
+    "ru": "Ходят слухи, что склад благотворительной организации скрывает нелегальное оружие по приказу коррумпированного советника. Необходимы доказательства, прежде чем разразится скандал.",
+    "zh": "有传言称一个慈善仓库在一个腐败的议员的命令下隐藏非法武器。在丑闻爆发之前需要证据。",
+    "ja": "ある腐敗した議員の命令で、慈善倉庫が違法な武器を隠しているという噂があります。スキャンダルが発覚する前に証拠が必要です。"
   },
   "type": "stealth",
   "max_heroes": 1,
@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o armazém",
+      "en": "the warehouse",
+      "es": "el almacén",
+      "ru": "склад",
+      "zh": "仓库",
+      "ja": "倉庫"
+    },
+    "challenge": {
+      "pt": "as armas escondidas",
+      "en": "the hidden weapons",
+      "es": "las armas ocultas",
+      "ru": "скрытое оружие",
+      "zh": "隐藏的武器",
+      "ja": "隠された武器"
+    }
+  }
 }

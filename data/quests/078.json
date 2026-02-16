@@ -31,5 +31,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a casa das vítimas",
+      "en": "the victims' house",
+      "es": "la casa de las víctimas",
+      "ru": "дом жертв",
+      "zh": "受害者之家",
+      "ja": "被害者の家"
+    },
+    "challenge": {
+      "pt": "as vítimas",
+      "en": "the victims",
+      "es": "las víctimas",
+      "ru": "жертвы",
+      "zh": "受害者",
+      "ja": "被害者"
+    }
+  }
 }

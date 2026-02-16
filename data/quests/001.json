@@ -33,5 +33,17 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a mansão de Lorde Cassian",
+      "en": "Lord Cassian's mansion",
+      "es": "la mansión del Lord Cassian"
+    },
+    "challenge": {
+      "pt": "o cofre trancado",
+      "en": "the locked safe",
+      "es": "la caja fuerte cerrada"
+    }
+  }
 }

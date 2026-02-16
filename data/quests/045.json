@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o desfiladeiro",
+      "en": "the canyon",
+      "es": "el desfiladero",
+      "ru": "ущелье",
+      "zh": "峡谷",
+      "ja": "峡谷"
+    },
+    "challenge": {
+      "pt": "o batedor",
+      "en": "the batter",
+      "es": "el bateador",
+      "ru": "бэттер",
+      "zh": "击球手",
+      "ja": "バッター"
+    }
+  }
 }

@@ -20,7 +20,7 @@
     "performance",
     "diplomacy"
   ],
-  "max_heroes": 1,
+  "max_heroes": 2,
   "expired_at": 3,
   "available_from_turn": 46,
   "duration": 3,
@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a mansão do Barão",
+      "en": "the Baron's mansion",
+      "es": "la mansión del Barón",
+      "ru": "особняк барона",
+      "zh": "男爵的豪宅",
+      "ja": "男爵の邸宅"
+    },
+    "challenge": {
+      "pt": "a multidão",
+      "en": "the crowd",
+      "es": "la multitud",
+      "ru": "толпа",
+      "zh": "人群",
+      "ja": "群衆"
+    }
+  }
 }

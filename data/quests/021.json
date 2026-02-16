@@ -30,5 +30,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a masmorra",
+      "en": "the dungeon",
+      "es": "la mazmorra",
+      "ru": "подземелье",
+      "zh": "地牢",
+      "ja": "ダンジョン"
+    },
+    "challenge": {
+      "pt": "as armadilhas",
+      "en": "the traps",
+      "es": "las trampas",
+      "ru": "ловушки",
+      "zh": "陷阱们",
+      "ja": "罠たち"
+    }
+  }
 }

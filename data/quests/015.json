@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a mansão do mercador",
+      "en": "the merchant's mansion",
+      "es": "la mansión del comerciante",
+      "ru": "особняк торговца",
+      "zh": "商人的豪宅",
+      "ja": "商人の邸宅"
+    },
+    "challenge": {
+      "pt": "a filha do mercador",
+      "en": "the merchant's daughter",
+      "es": "la hija del comerciante",
+      "ru": "дочь торговца",
+      "zh": "商人的女儿",
+      "ja": "商人の娘"
+    }
+  }
 }

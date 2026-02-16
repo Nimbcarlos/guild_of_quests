@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o Pântano dos Choros",
+      "en": "the Swamp of Wails",
+      "es": "el Pantano de los Lamentos",
+      "ru": "Болото Плачей",
+      "zh": "哀嚎沼泽",
+      "ja": "嘆きの沼"
+    },
+    "challenge": {
+      "pt": "a carroça afundada",
+      "en": "the sunken wagon",
+      "es": "la carreta hundida",
+      "ru": "утонувший вагон",
+      "zh": "沉没的马车",
+      "ja": "沈んだ馬車"
+    }
+  }
 }

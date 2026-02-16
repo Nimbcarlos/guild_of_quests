@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a ala norte da cidade",
+      "en": "the city's north wing",
+      "es": "el ala norte de la ciudad",
+      "ru": "северное крыло города",
+      "zh": "城市的北翼",
+      "ja": "街の北翼"
+    },
+    "challenge": {
+      "pt": "a multidão",
+      "en": "the mob",
+      "es": "la multitud",
+      "ru": "толпа",
+      "zh": "暴民",
+      "ja": "暴徒"
+    }
+  }
 }

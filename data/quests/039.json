@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o bosque",
+      "en": "the grove",
+      "es": "el bosque",
+      "ru": "роща",
+      "zh": "丛林",
+      "ja": "森"
+    },
+    "challenge": {
+      "pt": "os druidas",
+      "en": "the druids",
+      "es": "los druidas",
+      "ru": "друиды",
+      "zh": "德鲁伊",
+      "ja": "ドルイド"
+    }
+  }
 }

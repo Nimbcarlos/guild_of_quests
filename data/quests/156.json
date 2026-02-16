@@ -16,7 +16,7 @@
     "ja": "巨大なカメが湖から出現し、その甲羅は穢れたエネルギーで覆われています。彼女は河川ルートを封鎖し、すでに複数のボートを沈めています。商業が完全に停止する前に、彼女を追い払う必要があります。",
     "zh": "一只巨大的乌龟从湖中出现，它的外壳被腐化的能量覆盖。它阻塞了河流航线，并且已经击沉了船只。我们需要在贸易完全停止之前将其驱逐。"
   },
-  "type": "Fight",
+  "type": "fight",
   "max_heroes": 2,
   "expired_at": 3,
   "available_from_turn": 54,
@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o lago",
+      "en": "the lake",
+      "es": "el lago",
+      "ru": "озеро",
+      "zh": "湖",
+      "ja": "湖"
+    },
+    "enemy": {
+      "pt": "a tartaruga",
+      "en": "the turtle",
+      "es": "la tortuga",
+      "ru": "черепаха",
+      "zh": "乌龟",
+      "ja": "カメ"
+    }
+  }
 }

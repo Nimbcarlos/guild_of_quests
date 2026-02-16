@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o casamento",
+      "en": "the wedding",
+      "es": "la boda",
+      "ru": "свадьба",
+      "zh": "婚礼",
+      "ja": "結婚式"
+    },
+    "challenge": {
+      "pt": "a cerimônia",
+      "en": "the ceremony",
+      "es": "la ceremonia",
+      "ru": "церемония",
+      "zh": "仪式",
+      "ja": "式典"
+    }
+  }
 }

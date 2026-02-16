@@ -1562,20 +1562,36 @@
     "ja": "調査",
     "ru": "Расследование"
 },
-  "exit_confirm_title": {
-    "pt": "Confirmação",
-    "en": "Confirmation"
-  },
-  "exit_confirm_message": {
-    "pt": "Você tem certeza que deseja sair?",
-    "en": "Are you sure you want to exit?"
-  },
-  "exit_confirm_yes": {
-    "pt": "Sim",
-    "en": "Yes"
-  },
-  "exit_confirm_no": {
-    "pt": "Não",
-    "en": "No"
-  }
+"exit_confirm_title": {
+  "pt": "Confirmação",
+  "en": "Confirmation",
+  "es": "Confirmación",
+  "ru": "Подтверждение",
+  "zh": "确认",
+  "ja": "確認"
+},
+"exit_confirm_message": {
+  "pt": "Você tem certeza que deseja sair?",
+  "en": "Are you sure you want to exit?",
+  "es": "¿Estás seguro de que deseas salir?",
+  "ru": "Вы уверены, что хотите выйти?",
+  "zh": "确定要退出吗？",
+  "ja": "本当に終了しますか？"
+},
+"exit_confirm_yes": {
+  "pt": "Sim",
+  "en": "Yes",
+  "es": "Sí",
+  "ru": "Да",
+  "zh": "是",
+  "ja": "はい"
+},
+"exit_confirm_no": {
+  "pt": "Não",
+  "en": "No",
+  "es": "No",
+  "ru": "Нет",
+  "zh": "否",
+  "ja": "いいえ"
+}
 }

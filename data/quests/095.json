@@ -31,5 +31,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a cabana isolada",
+      "en": "the isolated cabin",
+      "es": "la cabaña aislada",
+      "ru": "изолированная хижина",
+      "zh": "孤立的小屋",
+      "ja": "孤立した小屋"
+    },
+    "challenge": {
+      "pt": "os lenhadores",
+      "en": "the woodcutters",
+      "es": "los leñadores",
+      "ru": "лесорубы",
+      "zh": "樵夫",
+      "ja": "木こり"
+    }
+  }
 }

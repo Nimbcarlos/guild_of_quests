@@ -16,7 +16,7 @@
     "zh": "巨型老鼠入侵了村庄的谷仓。在它们毁坏食物之前消灭它们。",
     "ja": "巨大なネズミが村の納屋に侵入した。食料を破壊される前に彼らを排除せよ。"
   },
-  "type": "Fight",
+  "type": "fight",
   "max_heroes": 2,
   "expired_at": 3,
   "available_from_turn": 14,
@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o celeiro",
+      "en": "the barn",
+      "es": "el granero",
+      "ru": "сарая",
+      "zh": "谷仓",
+      "ja": "小屋"
+    },
+    "enemy": {
+      "pt": "os ratos gigantes",
+      "en": "the giant rats",
+      "es": "los ratones gigantes",
+      "ru": "гигантские крысы",
+      "zh": "巨大的老鼠",
+      "ja": "巨大なネズミ"
+    }
+  }
 }

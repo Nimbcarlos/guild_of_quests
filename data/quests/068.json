@@ -31,5 +31,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o local da emboscada",
+      "en": "the ambush site",
+      "es": "el lugar de la emboscada",
+      "ru": "место засады",
+      "zh": "埋伏地点",
+      "ja": "奇襲現場"
+    },
+    "challenge": {
+      "pt": "os feridos",
+      "en": "the wounded",
+      "es": "los heridos",
+      "ru": "раненые",
+      "zh": "伤员",
+      "ja": "負傷者"
+    }
+  }
 }

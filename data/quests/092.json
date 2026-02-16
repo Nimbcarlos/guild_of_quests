@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a prisão",
+      "en": "the prison",
+      "es": "la prisión",
+      "ru": "тюрьма",
+      "zh": "监狱",
+      "ja": "牢獄"
+    },
+    "challenge": {
+      "pt": "o cúmplice",
+      "en": "the accomplice",
+      "es": "el cómplice",
+      "ru": "соучастник",
+      "zh": "同谋",
+      "ja": "共犯者"
+    }
+  }
 }

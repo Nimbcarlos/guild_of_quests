@@ -31,5 +31,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o laboratório",
+      "en": "the laboratory",
+      "es": "el laboratorio",
+      "ru": "лаборатория",
+      "zh": "实验室",
+      "ja": "実験室"
+    },
+    "challenge": {
+      "pt": "o fungo",
+      "en": "the fungus",
+      "es": "el hongo",
+      "ru": "гриб",
+      "zh": "真菌",
+      "ja": "菌類"
+    }
+  }
 }

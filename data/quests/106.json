@@ -16,7 +16,7 @@
     "ja": "粘着性の水たまりがついに決壊しました。そこから現れたのは、ただの巨大なスライムではなく、村人たちがすでに「スライムキング」と呼んでいる、巨大で脈打つ怪物です。そのクリーチャーは村の中心に向かってゆっくりと移動しており、その進路上のすべてを溶解させる腐食性の粘液を絶えず放出しています。村への脅威は即座かつ全面的です。今の目標は単純です。スライムキングを排除し、その再生の源を完全に破壊することです。(Nenchakusei no mizutamari ga tsuini kekkai shimashita. Soko kara arawareta no wa, tada no kyodai na suraimu dewa naku, murabito-tachi ga sude ni 'Suraimu Kingu' to yonde iru, kyodai de myakuutsu kaibutsu desu. Sono kurīchā wa mura no chūshin ni mukatte yukkuri to idō shite ori, sono shinro-jō no subete o yōkai saseru fushoku-sei no nen'eki o taezu hōshutsu shite imasu. Mura e no kyōi wa sokuza katsu zenmenteki desu. Ima no mokuhyō wa tanjun desu: Suraimu Kingu o haijo shi, sono saisei no minamoto o kanzen ni hakai suru koto desu.)",
     "zh": "粘稠的水洼终于崩塌了。从中出现的不仅仅是一个巨大的史莱姆，而是一个巨大、脉动的怪物——村民们已经称之为“史莱姆王”。这只生物正缓慢地向村庄中心移动，不断释放出腐蚀性的粘液，溶解沿途的一切。村庄面临的威胁是即刻和全面的。现在的目标很简单：消灭史莱姆王，并一劳永逸地摧毁其再生的源头。(Niánchóu de shuǐwā zhōngyú bēngtāle. Cóng zhōng chūxiàn de bùjǐn jǐn shì yīgè jùdà de shǐ lái mǔ, ér shì yīgè jùdà, màidòng de guàiwù—cūnmínmen yǐjīng chēng zhī wèi 'Shǐ lái mǔ Wáng'. Zhè zhī shēngwù zhèng huǎnmàn de xiàng cūnzhuāng zhōngxīn yídòng, búduàn shìfàng chū fǔshí xìng de nián yè, róngjiě yántú de yīqiè. Cūnzhuāng miànlín de wēixié shì jíkè hé quánmiàn de. Xiànzài de mùbiāo hěn jiǎndān: xiāomiè Shǐ lái mǔ Wáng, bìng yī láo yǒng yì de cuīhuǐ qí zàishēng de yuántóu.)"
   },
-  "type": "Fight",
+  "type": "fight",
   "max_heroes": 4,
   "expired_at": 3,
   "available_from_turn": 50,
@@ -37,5 +37,23 @@
   "forbidden_heroes": [
     3,
     4
-  ]
+  ],
+  "context": {
+    "location": {
+      "pt": "o vilarejo",
+      "en": "the village",
+      "es": "la aldea",
+      "ru": "деревня",
+      "zh": "村庄",
+      "ja": "村"
+    },
+    "enemy": {
+      "pt": "o Rei Slime",
+      "en": "the Slime King",
+      "es": "el Rey Slime",
+      "ru": "Король Слизней",
+      "zh": "史莱姆王",
+      "ja": "スライムキング"
+    }
+  }
 }

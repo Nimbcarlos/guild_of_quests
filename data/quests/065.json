@@ -31,5 +31,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o porto",
+      "en": "the port",
+      "es": "el puerto",
+      "ru": "порт",
+      "zh": "港口",
+      "ja": "港"
+    },
+    "challenge": {
+      "pt": "os marinheiros",
+      "en": "the sailors",
+      "es": "los marineros",
+      "ru": "моряки",
+      "zh": "水手们",
+      "ja": "水夫たち"
+    }
+  }
 }

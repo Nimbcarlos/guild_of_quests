@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "as plantações",
+      "en": "the plantations",
+      "es": "las plantaciones",
+      "ru": "поля",
+      "zh": "农田",
+      "ja": "農地"
+    },
+    "challenge": {
+      "pt": "os insetos",
+      "en": "the insects",
+      "es": "los insectos",
+      "ru": "насекомые",
+      "zh": "昆虫",
+      "ja": "虫"
+    }
+  }
 }

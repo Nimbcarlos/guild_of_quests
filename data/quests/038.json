@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o jardim botânico",
+      "en": "the botanical garden",
+      "es": "el jardín botánico",
+      "ru": "ботанический сад",
+      "zh": "植物园",
+      "ja": "植物園"
+    },
+    "challenge": {
+      "pt": "as plantas",
+      "en": "the plants",
+      "es": "las plantas",
+      "ru": "растения",
+      "zh": "植物",
+      "ja": "植物"
+    }
+  }
 }

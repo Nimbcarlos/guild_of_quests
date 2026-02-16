@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a represa",
+      "en": "the dam",
+      "es": "la represa",
+      "ru": "плотина",
+      "zh": "水坝",
+      "ja": "ダム"
+    },
+    "challenge": {
+      "pt": "a rachadura",
+      "en": "the crack",
+      "es": "la grieta",
+      "ru": "трещина",
+      "zh": "裂缝",
+      "ja": "亀裂"
+    }
+  }
 }

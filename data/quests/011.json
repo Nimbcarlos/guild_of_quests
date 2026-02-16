@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o Templo do Deus da Luz",
+      "en": "the Temple of the Light God",
+      "es": "el Templo del Dios de la Luz",
+      "ru": "Храм Бога Света",
+      "zh": "光之神殿",
+      "ja": "光の神殿"
+    },
+    "challenge": {
+      "pt": "os escombros",
+      "en": "the rubble",
+      "es": "los escombros",
+      "ru": "руины",
+      "zh": "废墟",
+      "ja": "瓦礫"
+    }
+  }
 }

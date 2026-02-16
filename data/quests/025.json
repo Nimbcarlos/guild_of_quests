@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a cidade",
+      "en": "the city",
+      "es": "la ciudad",
+      "ru": "город",
+      "zh": "城市",
+      "ja": "街"
+    },
+    "challenge": {
+      "pt": "o grimório",
+      "en": "the grimoire",
+      "es": "el grimorio",
+      "ru": "гримуар",
+      "zh": "魔法书",
+      "ja": "魔導書"
+    }
+  }
 }

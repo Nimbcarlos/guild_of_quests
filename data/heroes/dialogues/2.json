@@ -128,5 +128,890 @@
         }
       }
     }
+  },
+    "dialogue_blocks": {
+      "arrived": {
+        "alone": {
+          "pt": [
+            "Finalmente pisei no solo d{location}. O silêncio dali era quase tão irritante quanto os sermões da Ordem.",
+            "Cheguei n{location}. Ajustei as tiras do meu escudo; senti que aquele lugar exigiria cada grama de metal que eu carregava.",
+            "Desci da sela e observei a entrada d{location}. O vento trouxe um cheiro que eu conhecia bem demais.",
+            "Estive n{location}. Empunhei minha maça apenas pelo hábito de sentir o peso familiar na mão.",
+            "Caminhei pelas bordas d{location}, mantendo os olhos baixos e a guarda alta. Não vim ali para fazer amigos.",
+            "Então o buraco era {location}. Ótimo. Chutei as pedras no caminho e me perguntei que pecado cometi para acabar ali.",
+            "Cheguei n{location} sentindo o peso da minha armadura e o dobro do peso da minha má vontade.",
+            "Pisei n{location} e já senti o cheiro de problemas. Apertei o cabo da arma; pelo menos o metal não reclamava.",
+            "Estive n{location}. Olhei ao redor e só vi mais um lugar que os deuses esqueceram de limpar.",
+            "Finalmente n{location}. Bufei de irritação enquanto verificava se meu escudo ainda aguentava mais uma estupidez."
+          ],
+          "en": [
+            "I finally set foot on {location}. The silence there was almost as irritating as the sermons from the Order.",
+            "I arrived at {location}. I adjusted the straps of my shield; I felt that place would require every gram of metal I carried.",
+            "I dismounted and observed the entrance to {location}. The wind brought a smell I knew all too well.",
+            "I had been to {location}. I wielded my mace just out of habit, feeling the familiar weight in my hand.",
+            "I walked along the edges of {location}, keeping my eyes low and my guard high. I didn't come here to make friends.",
+            "So the hole was {location}. Great. I kicked the stones on the path and wondered what sin I committed to end up there.",
+            "I arrived at {location} feeling the weight of my armor and twice the weight of my bad mood.",
+            "I stepped into {location} and already smelled trouble. I tightened my grip on the weapon; at least the metal didn't complain.",
+            "I had been to {location}. I looked around and only saw another place that the gods forgot to clean up.",
+            "Finally at {location}. I huffed in irritation while checking if my shield could still take one more stupidity."
+          ],
+          "es": [
+            "Finalmente puse un pie en {location}. El silencio allí era casi tan irritante como los sermones de la Orden.",
+            "Llegué a {location}. Ajusté las correas de mi escudo; sentí que ese lugar requeriría cada gramo de metal que llevaba.",
+            "Desmonté y observé la entrada a {location}. El viento trajo un olor que conocía demasiado bien.",
+            "Había estado en {location}. Empuñé mi maza solo por hábito, sintiendo el peso familiar en mi mano.",
+            "Caminé por los bordes de {location}, manteniendo los ojos bajos y la guardia alta. No vine aquí para hacer amigos.",
+            "Así que el agujero era {location}. Genial. Pateé las piedras en el camino y me pregunté qué pecado cometí para terminar allí.",
+            "Llegué a {location} sintiendo el peso de mi armadura y el doble del peso de mi mal humor.",
+            "Entré en {location} y ya olía a problemas. Apreté mi agarre en el arma; al menos el metal no se quejaba.",
+            "Había estado en {location}. Miré alrededor y solo vi otro lugar que los dioses olvidaron limpiar.",
+            "Finalmente en {location}. Resoplé con irritación mientras revisaba si mi escudo aún podía soportar una estupidez más."
+          ],
+          "ru": [
+            "Наконец я ступила на землю {location}. Тишина там была почти такой же раздражающей, как проповеди из Ордена.",
+            "Я прибыла в {location}. Я отрегулировала ремни своего щита; я чувствовала, что это место потребует каждого грамма металла, который я ношу.",
+            "Я спешилась и наблюдала за входом в {location}. Ветер принес запах, который я знала слишком хорошо.",
+            "Я была в {location}. Я взяла в руки свою булаву просто по привычке, чувствуя знакомый вес в своей руке.",
+            "Я шла по краям {location}, держа глаза низко и охрану высоко. Я не пришла сюда, чтобы заводить друзей.",
+            "Так что дыра была {location}. Отлично. Я пнула камни на пути и задумалась, какой грех я совершила, чтобы оказаться там.",
+            "Я прибыла в {location}, чувствуя вес своих доспехов и двойной вес своего плохого настроения.",
+            "Я вошла в {location} и уже почувствовала запах проблем. Я крепче сжала оружие; по крайней мере металл не жаловался.",
+            "Я была в {location}. Я огляделась и увидела только еще одно место, которое боги забыли убрать.",
+            "Наконец-то в {location}. Я раздраженно фыркнула, проверяя, может ли мой щит выдержать еще одну глупость."
+          ],
+          "zh": [
+            "我终于踏上了{location}的土地。那里寂静得几乎和秩序的说教一样让人烦躁。",
+            "我来到了{location}。我调整了盾牌的带子；我感觉那个地方需要我携带的每一克金属。",
+            "我下了马，观察着{location}的入口。风带来了一个我太熟悉的气味。",
+            "我曾经去过{location}。我习惯性地挥舞着我的锤子，感觉到手中熟悉的重量。",
+            "我沿着{location}的边缘走着，保持低头和高度警惕。我不是来这里交朋友的。",
+            "所以那个洞是{location}。太好了。我踢了踢路上的石头，想知道我犯了什么罪才会落到那里。",
+            "我来到{location}时感觉到盔甲的重量和坏心情的双倍重量。",
+            "我踏入{location}时已经闻到了麻烦的气息。我紧握武器；至少金属没有抱怨。",
+            "我曾经去过{location}。环顾四周，我只看到了另一个被神遗忘的地方。",
+            "终于到了{location}。我愤怒地哼了一声，同时检查我的盾牌是否还能承受更多的愚蠢行为。"
+          ],
+          "ja": [
+            "ついに{location}の地を踏んだ。あそこは、オーダーの説教と同じくらいイライラする静けさだった。",
+            "{location}に到着した。盾のストラップを調整した。あそこは、私が持っている金属のすべてを必要とする場所だと感じた。",
+            "馬を降りて{location}の入り口を観察した。風が、私があまりにもよく知っている匂いを運んできた。",
+            "{location}には行ったことがある。習慣でメイスを振るった。手に馴染みのある重さを感じながら。",
+            "{location}の端を歩きながら、目を低くして警戒を高く保った。友達を作りに来たわけじゃない。",
+            "穴は{location}だった。素晴らしい。道の石を蹴って、なぜそこに行くことになったのか自分が犯した罪について考えた。",
+            "{location}に到着したとき、鎧の重さと悪い気分の倍の重さを感じた。",
+            "{location}に足を踏み入れたとき、すでにトラブルの匂いがした。武器へのグリップを強めた。少なくとも金属は文句を言わなかった。",
+            "{location}には行ったことがある。周りを見渡して、神々が掃除するのを忘れた別の場所しか見えなかった。",
+            "ついに{location}に着いた。さらに愚かなことができるかどうか盾を確認しながら、イライラして息を吐いた。"
+          ]
+        },
+        "group": {
+          "pt": [
+            "Chegamos n{location}. Mandei que parassem de resmungar e ficassem atrás do meu escudo se quisessem continuar inteiros.",
+            "Estávamos n{location}. Fui na frente abrindo caminho; pedi que não tropeçassem nas próprias botas enquanto eu vigiava.",
+            "Alcançamos {location}. Ordenei que mantivessem a formação e fechassem a boca; o barulho deles atraía mais problemas do que precisávamos.",
+            "Parei o passo. Estávamos n{location}. Olhei para os lados buscando cobertura enquanto eles decidiam o que fazer.",
+            "A travessia para {location} terminou. Mandei que mantivessem as mãos nas armas e parassem de esperar por um milagre divino.",
+            "Chegamos n{location}. Avisei para que não morressem nos primeiros cinco minutos; eu detestava carregar corpos.",
+            "Estávamos n{location}. Ameacei jogar o próximo de um penhasco se ouvisse mais uma reclamação sobre o caminho.",
+            "Pedi que parassem de babar e olhassem ao redor, pois havíamos chegado n{location}. Fiquei na frente e mandei que ficassem quietos.",
+            "Chegamos. {location} era tão deplorável quanto imaginei. Disse que não me perderiam de vista, porque eu não procuraria ninguém.",
+            "Estávamos n{location}. Ajustei meu protetor de pescoço e rezei — não para os deuses, mas para que eles não fizessem nenhuma idiotice."
+          ],
+          "en": [
+            "We arrived at {location}. I told them to stop grumbling and stay behind my shield if they wanted to stay intact.",
+            "We were at {location}. I went ahead, clearing the way; I asked them not to trip over their own boots while I kept watch.",
+            "We reached {location}. I ordered them to maintain formation and shut up; their noise was attracting more trouble than we needed.",
+            "I stopped walking. We were at {location}. I looked around for cover while they decided what to do.",
+            "The crossing to {location} ended. I told them to keep their hands on their weapons and stop waiting for a divine miracle.",
+            "We arrived at {location}. I warned them not to die in the first five minutes; I hated carrying bodies.",
+            "We were at {location}. I threatened to throw the next one off a cliff if I heard one more complaint about the path.",
+            "I asked them to stop drooling and look around, as we had reached {location}. I stayed in front and told them to be quiet.",
+            "We arrived. {location} was as deplorable as I imagined. I said they wouldn't lose sight of me, because I wouldn't look for anyone.",
+            "We were at {location}. I adjusted my neck guard and prayed — not to the gods, but that they wouldn't do anything stupid."
+          ],
+          "es": [
+            "Llegamos a {location}. Les dije que dejaran de refunfuñar y se quedaran detrás de mi escudo si querían mantenerse intactos.",
+            "Estábamos en {location}. Fui adelante, despejando el camino; les pedí que no tropezaran con sus propias botas mientras yo vigilaba.",
+            "Llegamos a {location}. Les ordené que mantuvieran la formación y se callaran; su ruido estaba atrayendo más problemas de los que necesitábamos.",
+            "Me detuve. Estábamos en {location}. Busqué cobertura mientras ellos decidían qué hacer.",
+            "El cruce hacia {location} terminó. Les dije que mantuvieran las manos en sus armas y dejaran de esperar un milagro divino.",
+            "Llegamos a {location}. Les advertí que no murieran en los primeros cinco minutos; odiaba cargar cuerpos.",
+            "Estábamos en {location}. Amenacé con arrojar al siguiente por un acantilado si escuchaba una queja más sobre el camino.",
+            "Les pedí que dejaran de babear y miraran alrededor, ya que habíamos llegado a {location}. Me quedé al frente y les dije que se callaran.",
+            "Llegamos. {location} era tan deplorable como imaginé. Dije que no perderían de vista, porque yo no buscaría a nadie.",
+            "Estábamos en {location}. Ajusté mi protector de cuello y recé, no a los dioses, sino para que no hicieran nada estúpido."
+          ],
+          "ru": [
+            "Мы прибыли в {location}. Я сказала им перестать ворчать и оставаться за моим щитом, если они хотят остаться целыми.",
+            "Мы были в {location}. Я пошла вперед, расчищая путь; я попросила их не спотыкаться о свои собственные ботинки, пока я следила.",
+            "Мы достигли {location}. Я приказала им сохранять строй и заткнуться; их шум привлекал больше проблем, чем нам нужно.",
+            "Я остановилась. Мы были в {location}. Я огляделась в поисках укрытия, пока они решали, что делать.",
+            "Переход к {location} закончился. Я сказала им держать руки на оружии и перестать ждать божественного чуда.",
+            "Мы прибыли в {location}. Я предупредила их не умирать в первые пять минут; я ненавидела носить тела.",
+            "Мы были в {location}. Я пригрозила выбросить следующего с обрыва, если услышу еще одну жалобу на путь.",
+            "Я попросила их перестать пускать слюни и осмотреться, так как мы достигли {location}. Я осталась впереди и сказала им замолчать.",
+            "Мы прибыли. {location} был таким же жалким, как я и представляла. Я сказала, что они не потеряют меня из виду, потому что я не буду искать никого.",
+            "Мы были в {location}. Я отрегулировала защиту шеи и помолилась — не богам, а тому, чтобы они не сделали ничего глупого."
+          ],
+          "zh": [
+            "我们到达了{location}。我告诉他们如果想保持完整就别再抱怨了，乖乖待在我的盾牌后面。",
+            "我们在{location}。我走在前面，清理道路；我让他们不要绊倒自己的靴子，我会看着的。",
+            "我们到达了{location}。我命令他们保持队形并闭嘴；他们的吵闹吸引了比我们需要的更多麻烦。",
+            "我停下了脚步。我们在{location}。我环顾四周寻找掩护，而他们决定该怎么办。",
+            "穿越到{location}结束了。我告诉他们把手放在武器上，不要再等什么神迹了。",
+            "我们到达了{location}。我警告他们不要在前五分钟内死掉；我讨厌搬运尸体。",
+            "我们在{location}。如果再听到一个关于路的抱怨，我就威胁要把下一个扔下悬崖。",
+            "我让他们别再流口水了，看看周围，因为我们已经到了{location}。我留在前面，让他们安静下来。",
+            "我们到了。{location}和我想象的一样糟糕。我说他们不会失去我的视线，因为我不会去找任何人。",
+            "我们在{location}。我调整了我的颈部护具并祈祷——不是向神祇，而是希望他们不要做任何愚蠢的事。"
+          ],
+          "ja": [
+            "{location}に到着した。彼らには文句を言うのをやめて、無傷でいたいなら私の盾の後ろにいなさいと言った。",
+            "{location}にいた。私は先頭に立って道を切り開いた。彼らには自分のブーツにつまずかないように頼んだ。",
+            "{location}に到達した。私は彼らに隊形を維持して黙るように命じた。彼らの騒音は必要以上のトラブルを引き寄せていた。",
+            "私は歩みを止めた。{location}にいた。彼らがどうするか決める間、周りを見回して隠れる場所を探した。",
+            "{location}への渡りは終わった。私は彼らに武器から手を離さないように言い、神の奇跡を待つのはやめるように言った。",
+            "{location}に到着した。私は最初の5分で死なないように警告した。私は死体を運ぶのが嫌いだったからだ。",
+            "{location}にいた。道についてもう一つ不満が聞こえたら、次の人を崖から投げ落とすと脅した。",
+            "{location}に到着したとき、彼らにはよだれを垂らすのをやめて周りを見るように頼んだ。私は前にいて静かになるように言った。",
+            "私たちは到着した。{location}は私が想像していたほどひどかった。私は彼らが私から目を離さないと言った。なぜなら私も誰も探さないからだ。",
+            "{location}にいた。私は首当てを調整し、祈った—神々ではなく、彼らが愚かなことをしないことを願って。"
+          ]
+        }
+      },
+      "action": {
+        "fight": {
+          "alone": {
+            "pt": [
+              "Ergui meu escudo contra o avanço d{enemy}. Não houve luz ou glória n{location}, apenas o som seco do metal contra a carne.",
+              "Bati com o pomo da maça no n{enemy}. Dizem que a justiça é cega, mas eu senti cada osso quebrado sob minhas mãos.",
+              "Pisei firme no solo d{location} e forcei o bloqueio contra {enemy}. Pela luz? Não, foi pela minha própria sobrevivência.",
+              "Encarei {enemy} nos olhos enquanto o impacto vibrou no meu braço. Eu podia ter feito isso o dia todo, mas minha paciência acabou no primeiro golpe.",
+              "Desviei do golpe d{enemy} e preparei o contra-ataque. Fiz de {location} o meu próprio julgamento, sem esperar por martelos divinos.",
+              "Girei minha maça e quebrei a postura d{enemy}. N{location}, não houve coros celestiais, apenas o som da minha respiração pesada.",
+              "Recebi o golpe d{enemy} em cheio no peito. O impacto teria matado um fiel comum, mas eu sou feita de metal e teimosia.",
+              "Avancei através {location} e colidi meu escudo contra {enemy}. Não precisei de orações para sentir o crânio deles cedendo.",
+              "Cortei o ar com um movimento brusco enquanto {enemy} recuava. Eles vieram buscar glória, mas eu só entreguei cansaço e aço.",
+              "Arrastei meu pé no chão d{location} e me preparei para o próximo choque com {enemy}. Jurei proteger este lugar, mesmo que o mundo se esqueça de mim."
+            ],
+            "en": [
+              "I raised my shield against {enemy}'s advance. There was no light or glory in {location}, just the dull sound of metal against flesh.",
+              "I struck {enemy} with the pommel of my mace. They say justice is blind, but I felt every bone break under my hands.",
+              "I planted my feet on the ground of {location} and forced the block against {enemy}. For the light? No, it was for my own survival.",
+              "I stared {enemy} in the eyes as the impact vibrated through my arm. I could have done this all day, but my patience ran out on the first hit.",
+              "I dodged {enemy}'s strike and prepared to counterattack. I made {location} my own judgment, without waiting for divine hammers.",
+              "I swung my mace and broke {enemy}'s posture. In {location}, there were no heavenly choirs, just the sound of my heavy breathing.",
+              "I took {enemy}'s blow squarely on the chest. The impact would have killed a common faithful, but I'm made of metal and stubbornness.",
+              "I advanced through {location} and collided my shield against {enemy}. I didn't need prayers to feel their skull giving way.",
+              "I cut through the air with a sharp movement as {enemy} retreated. They came seeking glory, but I only delivered exhaustion and steel.",
+              "I dragged my foot on the ground of {location} and braced for the next clash with {enemy}. I vowed to protect this place, even if the world forgets about me."
+            ],
+            "es": [
+              "Levanté mi escudo contra el avance de {enemy}. No hubo luz ni gloria en {location}, solo el sonido sordo del metal contra la carne.",
+              "Golpeé a {enemy} con el pomo de mi maza. Dicen que la justicia es ciega, pero sentí cada hueso romperse bajo mis manos.",
+              "Planté mis pies en el suelo de {location} y forcé el bloqueo contra {enemy}. ¿Por la luz? No, fue por mi propia supervivencia.",
+              "Miré a {enemy} a los ojos mientras el impacto vibraba a través de mi brazo. Podría haber hecho esto todo el día, pero mi paciencia se agotó en el primer golpe.",
+              "Esquivé el golpe de {enemy} y me preparé para contraatacar. Hice de {location} mi propio juicio, sin esperar por martillos divinos.",
+              "Gire mi maza y rompí la postura de {enemy}. En {location}, no hubo coros celestiales, solo el sonido de mi respiración pesada.",
+              "Recibí el golpe de {enemy} directamente en el pecho. El impacto habría matado a un fiel común, pero estoy hecha de metal y terquedad.",
+              "Avancé a través de {location} y colisioné mi escudo contra {enemy}. No necesité oraciones para sentir su cráneo ceder.",
+              "Corté el aire con un movimiento brusco mientras {enemy} retrocedía. Vinieron buscando gloria, pero solo entregué cansancio y acero.",
+              "Arrastré mi pie en el suelo de {location} y me preparé para el próximo choque con {enemy}. Juré proteger este lugar, incluso si el mundo se olvida de mí."
+            ],
+            "ru": [
+              "Я подняла щит против наступления {enemy}. В {location} не было ни света, ни славы, только глухой звук металла о плоть.",
+              "Я ударила {enemy} рукояткой своей булавы. Говорят, что справедливость слепа, но я чувствовала, как каждая кость ломается под моими руками.",
+              "Я встала на землю {location} и заставила блокировать {enemy}. Ради света? Нет, это было ради моего собственного выживания.",
+              "Я уставилась {enemy} в глаза, когда удар вибрировал по моей руке. Я могла бы делать это весь день, но мое терпение закончилось на первом ударе.",
+              "Я уклонилась от удара {enemy} и приготовилась к контратаке. Я сделала {location} своим собственным судом, не ожидая божественных молотов.",
+              "Я замахнулась булавой и сломала позу {enemy}. В {location} не было небесных хоров, только звук моего тяжелого дыхания.",
+              "Я приняла удар {enemy} прямо в грудь. Удар убил бы обычного верующего, но я сделана из металла и упрямства.",
+              "Я продвинулась через {location} и столкнула свой щит с {enemy}. Мне не нужны были молитвы, чтобы почувствовать их череп поддающимся.",
+              "Я прорезала воздух резким движением, когда {enemy} отступал. Они пришли за славой, но я только доставила усталость и сталь.",
+              "Я волочила ногу по земле {location} и готовилась к следующему столкновению с {enemy}. Я поклялась защищать это место, даже если мир забудет обо мне."
+            ],
+            "zh": [
+              "我举起盾牌抵挡{enemy}的进攻。在{location}没有光明或荣耀，只有金属与肉体碰撞的沉闷声音。",
+              "我用我的锤柄击打{enemy}。他们说正义是盲目的，但我感觉到每一块骨头在我的手下断裂。",
+              "我在{location}的地面上站稳脚跟，强行阻挡{enemy}。为了光明？不，这是为了我自己的生存。",
+              "当冲击震动我的手臂时，我直视{enemy}的眼睛。我可以整天这样做，但我的耐心在第一击就耗尽了。",
+              "我躲开了{enemy}的攻击，准备反击。我让{location}成为我自己的审判，不等待神圣的锤子。",
+              "我挥舞着我的锤子，打破了{enemy}的姿态。在{location}，没有天上的合唱，只有我沉重呼吸的声音。",
+              "我直接接受了{enemy}的攻击。这个冲击会杀死一个普通的信徒，但我是由金属和固执制成的。",
+              "我穿过{location}前进，与{enemy}的盾牌碰撞。我不需要祈祷就能感觉到他们的头骨在让步。",
+              "当{enemy}撤退时，我用一个锐利的动作切开空气。他们来寻求荣耀，但我只带来了疲惫和钢铁。",
+              "我在{location}的地面上拖着脚，准备迎接与{enemy}的下一次冲突。我发誓要保护这个地方，即使世界忘记了我。"
+            ],
+            "ja": [
+              "{enemy}の進撃に対して盾を上げた。{location}には光も栄光もなく、ただ金属が肉に当たる鈍い音だけだった。",
+              "メイスの柄で{enemy}を打った。正義は盲目だと言われているが、私は手の下で骨が折れるのを感じた。",
+              "{location}の地面に足を踏みしめ、{enemy}に対してブロックを強制した。光のため？いいえ、それは自分の生存のためだった。",
+              "衝撃が腕を震わせる中、{enemy}の目を見つめた。これを一日中できたかもしれないが、最初の一撃で我慢が尽きた。",
+              "{enemy}の攻撃をかわし、反撃の準備をした。{location}を自分自身の裁きとし、神聖なハンマーを待たなかった。",
+              "メイスを振り回し、{enemy}の姿勢を崩した。{location}では天国の合唱はなく、ただ私の重い呼吸の音だけだった。",
+              "{enemy}の攻撃を胸にまともに受けた。その衝撃は普通の信者なら死んでいただろうが、私は金属と頑固さでできている。",
+              "{location}を進みながら{enemy}と盾で衝突した。祈りは必要なかった。彼らの頭蓋骨が崩れるのを感じることができたからだ。",
+              "{enemy}が退くとき、鋭い動きで空気を切った。彼らは栄光を求めて来たが、私は疲労と鋼鉄しか届けなかった。",
+              "{location}の地面に足を引きずりながら、次の{enemy}との衝突に備えた。この場所を守ると誓った。世界が私を忘れても。"
+            ]
+          },
+          "group": {
+            "pt": [
+              "Avancei e segurei o impacto d{enemy}. Gritei para que não esperassem por milagres, pois eu era o único muro entre eles e a morte.",
+              "Golpeei o flanco d{enemy} para abrir espaço. Mantiveram a maldita linha ou eu mesma iria garantirir que ninguém saisse d{location} vivo!",
+              "Bloqueei a investida d{enemy} e senti o peso de todos vocês no meu braço. É por isso que eu carrego o escudo e vocês as dúvidas.",
+              "Gritei ordens enquanto empurrei {enemy} para trás. Disse para olharem para mim e não para os céus; a ajuda estava aqui embaixo, sangrando.",
+              "Interpus meu corpo entre o grupo e o ataque d{enemy}. Deixei que os deuses julgassem depois; eu apenas segurei a porta.",
+              "Rosnei para o grupo enquanto bloqueava a fúria d{enemy}. Gritei que eu era o sol deles agora, e que era melhor não desviarem o olhar.",
+              "Forcei meu caminho entre as lâminas d{enemy} e os idiotas que eu protejo. Fiz o que tinha que ser feito, sem esperar gratidão.",
+              "Segurei a investida d{enemy} até meus dedos sangrarem sob as manoplas. Avisei que, enquanto eu estivesse de pé, ninguém passaria por mim.",
+              "Lancei um olhar de desprezo para o grupo e avancei contra {enemy}. Limpei o caminho n{location} porque nenhum de vocês teve coragem.",
+              "Bati no escudo, chamando a atenção d{enemy} para longe dos meus aliados. Disse que eles estavam lutando contra uma montanha, e montanhas não caem."
+            ],
+            "en": [
+              "I advanced and held {enemy}'s impact. I shouted for them not to wait for miracles, as I was the only wall between them and death.",
+              "I struck {enemy}'s flank to open space. Keep the damn line or I'll make sure no one leaves {location} alive!",
+              "I blocked {enemy}'s charge and felt the weight of all of you on my arm. That's why I carry the shield and you carry doubts.",
+              "I shouted orders as I pushed {enemy} back. I told them to look at me and not the skies; help was down here, bleeding.",
+              "I interposed my body between the group and {enemy}'s attack. Let the gods judge later; I just held the door.",
+              "I snarled at the group as I blocked {enemy}'s fury. I shouted that I was their sun now, and it was better not to look away.",
+              "I forced my way between {enemy}'s blades and the idiots I protect. I did what had to be done, without expecting gratitude.",
+              "I held {enemy}'s charge until my fingers bled under the gauntlets. I warned that as long as I stood, no one would pass me.",
+              "I cast a look of disdain at the group and advanced against {enemy}. I cleared the way in {location} because none of you had the guts.",
+              "I struck my shield, drawing {enemy}'s attention away from my allies. I said they were fighting a mountain, and mountains don't fall."
+             ],
+             "es": [
+              "Avancé y sostuve el impacto de {enemy}. Grité para que no esperaran milagros, ya que yo era la única pared entre ellos y la muerte.",
+              "Golpeé el flanco de {enemy} para abrir espacio. ¡Mantengan la maldita línea o me aseguraré de que nadie salga vivo de {location}!",
+              "Bloqueé la carga de {enemy} y sentí el peso de todos ustedes en mi brazo. Por eso llevo el escudo y ustedes llevan dudas.",
+              "Grité órdenes mientras empujaba a {enemy} hacia atrás. Les dije que me miraran a mí y no a los cielos; la ayuda estaba aquí abajo, sangrando.",
+              "Interpuse mi cuerpo entre el grupo y el ataque de {enemy}. Que los dioses juzguen después; yo solo sostuve la puerta.",
+              "Gruñí al grupo mientras bloqueaba la furia de {enemy}. Grité que ahora era su sol, y que era mejor no desviar la mirada.",
+              "Me abrí paso entre las hojas de {enemy} y los idiotas que protejo. Hice lo que tenía que hacer, sin esperar gratitud.",
+              "Sostuve la carga de {enemy} hasta que mis dedos sangraron bajo las manoplas. Advertí que mientras yo estuviera de pie, nadie me pasaría.",
+              "Eché una mirada de desprecio al grupo y avancé contra {enemy}. Limpié el camino en {location} porque ninguno de ustedes tuvo el valor.",
+              "Golpeé mi escudo, atrayendo la atención de {enemy} lejos de mis aliados. Dije que estaban luchando contra una montaña, y las montañas no caen."
+             ],
+              "ru": [
+                "Я продвинулась и выдержала удар {enemy}. Я кричала, чтобы они не ждали чудес, так как я была единственной стеной между ними и смертью.",
+                "Я ударила по флангу {enemy}, чтобы открыть пространство. Держите чертову линию, или я позабочусь о том, чтобы никто не покинул {location} живым!",
+                "Я блокировала атаку {enemy} и чувствовала вес всех вас на своей руке. Вот почему я ношу щит, а вы носите сомнения.",
+                "Я кричала приказы, отталкивая {enemy} назад. Я сказала им смотреть на меня, а не в небо; помощь была здесь внизу, кровоточащая.",
+                "Я поставила свое тело между группой и атакой {enemy}. Пусть боги судят позже; я просто держала дверь.",
+                "Я рычала на группу, блокируя ярость {enemy}. Я кричала, что я их солнце сейчас, и лучше не отводить взгляд.",
+                "Я пробивалась между лезвиями {enemy} и идиотами, которых я защищаю. Я делала то, что должна была делать, не ожидая благодарности.",
+                "Я держала атаку {enemy}, пока мои пальцы не запеклись кровью под рукавицами. Я предупредила, что пока я стою, никто не пройдет мимо меня.",
+                "Я бросила презрительный взгляд на группу и продвинулась против {enemy}. Я очистила путь в {location}, потому что ни у кого из вас не хватило смелости.",
+                "Я ударила по своему щиту, отвлекая внимание {enemy} от моих союзников. Я сказала, что они сражаются с горой, а горы не падают."
+              ],
+              "zh": [
+                "我前进并承受了{enemy}的冲击。我大喊着让他们不要等待奇迹，因为我是他们和死亡之间的唯一屏障。",
+                "我打击了{enemy}的侧翼以打开空间。保持该死的阵线，否则我会确保没有人活着离开{location}！",
+                "我阻挡了{enemy}的冲锋，感觉到你们所有人的重量在我的手臂上。这就是为什么我携带盾牌，而你们携带疑虑。",
+                "当我把{enemy}推回去时，我大喊着命令。我告诉他们看着我而不是天空；帮助就在这里，在下面，流血了。",
+                "我把身体放在团队和{enemy}的攻击之间。让神明之后评判；我只是守住了门。",
+                "当我阻挡{enemy}的愤怒时，我对团队咆哮。我大喊着说我现在是他们的太阳，最好不要移开视线。",
+                "我强行穿过{enemy}的刀刃和我保护的傻瓜之间。我做了必须做的事，不期待感激。",
+                "我一直承受着{enemy}的攻击，直到我的手指在护手下流血。我警告说，只要我站着，就没有人能通过我。",
+                "我对团队投以鄙视的目光，并向{enemy}前进。我清理了{location}中的道路，因为你们没有一个人有勇气。",
+                "我敲击我的盾牌，吸引了{enemy}远离我的盟友。我说他们正在与一座山作战，而山不会倒下。"
+              ],
+              "ja": [
+                "{enemy}の衝撃を受け止めて前進した。奇跡を待たないように叫んだ。私は彼らと死の間の唯一の壁だったからだ。",
+                "{enemy}の側面を攻撃してスペースを開けた。くそったれなラインを保て、さもないと{location}から誰も生きて出られなくなるぞ！",
+                "{enemy}の突撃をブロックして、あなたたち全員の重みを腕で感じた。だからこそ私は盾を持ち、あなたたちは疑念を持っているんだ。",
+                "{enemy}を押し返しながら命令を叫んだ。空ではなく私を見るように言った。助けはここにあって、血を流しているんだ。",
+                "グループと{enemy}の攻撃の間に体を置いた。後で神々が裁くことになるだろうが、私はただドアを守っただけだ。",
+                "{enemy}の怒りをブロックしながらグループに向かって唸った。今や私は彼らの太陽だと言い、目をそらさない方がいいと叫んだ。",
+                "{enemy}の刃と私が守る馬鹿どもの間に強引に道を開いた。感謝されることなく、やるべきことをやった。",
+                "{enemy}の突撃をガントレットの下で指が血まみれになるまで耐えた。私が立っている限り誰も私を通過できないと警告した。",
+                "グループに軽蔑の目を投げかけて{enemy}に前進した。{location}で道を掃除した。なぜならあなたたちには勇気がなかったからだ。",
+                "盾を叩いて{enemy}の注意を味方からそらした。彼らは山と戦っていると言い、山は倒れないと言った。"
+              ]
+          }
+        },
+        "religion": {
+          "alone": {
+          "pt": [
+            "Recitei o rito diante d{challenge} sem elevar a voz, apenas o suficiente para que ninguém fingisse não ouvir.",
+            "Tracei o símbolo sagrado em direção {challenge} e esperei, observando quem desviava o olhar.",
+            "Toquei o amuleto e encarei {challenge} em silêncio, deixando claro que fé não era espetáculo."
+          ],
+          "en": [
+            "I recited the rite in front of {challenge} without raising my voice, just enough for no one to pretend they didn't hear.",
+            "I traced the sacred symbol towards {challenge} and waited, watching who looked away.",
+            "I touched the amulet and stared at {challenge} in silence, making it clear that faith was not a spectacle."
+           ],
+           "es": [
+            "Recité el rito frente a {challenge} sin levantar la voz, lo suficiente para que nadie fingiera no escuchar.",
+            "Dibujé el símbolo sagrado hacia {challenge} y esperé, observando quién desviaba la mirada.",
+            "Toqué el amuleto y miré a {challenge} en silencio, dejando claro que la fe no era un espectáculo."
+           ],
+           "ru": [
+            "Я произнесла ритуал перед {challenge}, не повышая голоса, достаточно тихо, чтобы никто не мог притвориться, что не слышит.",
+            "Я нарисовала священный символ в направлении {challenge} и подождала, наблюдая, кто отводит взгляд.",
+            "Я коснулась амулета и молча уставилась на {challenge}, ясно дав понять, что вера — это не зрелище."
+           ],
+           "zh": [
+            "我在{challenge}面前背诵了仪式，没有提高声音，只是足够让没有人假装没听到。",
+            "我朝{challenge}画了一个神圣的符号并等待，观察谁会移开视线。",
+            "我触摸了护身符，默默地盯着{challenge}，明确表示信仰不是一场表演。"
+           ],
+           "ja": [
+            "{challenge}の前で儀式を声を上げずに唱えた。誰も聞こえないふりをできないように、ちょうどいいくらいの声で。",
+            "{challenge}に向かって聖なるシンボルを描き、誰が目をそらすか見ながら待った。",
+            "私はお守りに触れ、{challenge}を黙って見つめた。信仰は見世物ではないことをはっきりさせるために。"
+           ]
+          }
+        },
+        "diplomacy": {
+          "alone": {
+          "pt": [
+            "Interpus-me diante d{challenge} e falei o necessário, sem paciência para discursos longos.",
+            "Cruzei os braços frente a {challenge} e conduzi a conversa com frases curtas e tom firme.",
+            "Mantive a postura rígida ao lidar com {challenge}, cortando excessos antes que virassem gritos."
+          ],
+          "en": [
+            "I interposed myself in front of {challenge} and spoke what was necessary, with no patience for long speeches.",
+            "I crossed my arms in front of {challenge} and led the conversation with short phrases and a firm tone.",
+            "I maintained a rigid posture when dealing with {challenge}, cutting excess before it turned into shouting."
+           ],
+           "es": [
+            "Me interpuse frente a {challenge} y hablé lo necesario, sin paciencia para discursos largos.",
+            "Crucé los brazos frente a {challenge} y dirigí la conversación con frases cortas y un tono firme.",
+            "Mantuve una postura rígida al tratar con {challenge}, cortando el exceso antes de que se convirtiera en gritos."
+           ],
+           "ru": [
+            "Я встала перед {challenge} и сказала то, что было необходимо, не имея терпения для длинных речей.",
+            "Я скрестила руки перед {challenge} и вела разговор короткими фразами и твердым тоном.",
+            "Я сохраняла жесткую позу при общении с {challenge}, отрезая излишества, прежде чем они превратятся в крики."
+           ],
+           "zh": [
+            "我站在{challenge}面前，说了必要的话，没有耐心听长篇大论。",
+            "我在{challenge}面前交叉双臂，用简短的短语和坚定的语气引导对话。",
+            "我在处理{challenge}时保持僵硬的姿态，在它变成喊叫之前切断多余的话。"
+           ],
+           "ja": [
+            "{challenge}の前に立ち、必要なことを話した。長いスピーチには我慢できない。",
+            "{challenge}の前で腕を組み、短いフレーズと堅い口調で会話をリードした。",
+            "{challenge}を相手にするときは厳しい姿勢を保ち、叫び声になる前に余分なものを切り捨てた。"
+           ]
+          }
+          },
+        "intimidation": {
+          "alone": {
+          "pt": [
+            "Avancei um passo contra {challenge} e deixei o silêncio pesar mais que qualquer ameaça.",
+            "Fixei o olhar n{challenge} e apoiei a mão na arma, sem explicar o motivo.",
+            "Aproximei-me d{challenge} até invadir espaço suficiente para que entendessem."
+          ],
+          "en": [
+            "I stepped forward against {challenge} and let the silence weigh heavier than any threat.",
+            "I fixed my gaze on {challenge} and rested my hand on my weapon, without explaining why.",
+            "I approached {challenge} until I invaded enough space for them to understand."
+           ],
+           "es": [
+            "Di un paso adelante contra {challenge} y dejé que el silencio pesara más que cualquier amenaza.",
+            "Fijé mi mirada en {challenge} y apoyé mi mano en mi arma, sin explicar por qué.",
+            "Me acerqué a {challenge} hasta invadir suficiente espacio para que entendieran."
+           ],
+           "ru": [
+            "Я сделала шаг вперед против {challenge} и позволила тишине весить тяжелее любой угрозы.",
+            "Я уставилась на {challenge} и положила руку на оружие, не объясняя почему.",
+            "Я подошла к {challenge}, пока не вторглась в достаточно пространства, чтобы они поняли."
+           ],
+           "zh": [
+            "我向{challenge}迈出一步，让沉默比任何威胁都更有分量。",
+            "我盯着{challenge}看，把手放在武器上，没有解释为什么。",
+            "我接近{challenge}，直到我入侵了足够的空间让他们明白。"
+           ],
+           "ja": [
+            "{challenge}に一歩踏み出し、沈黙がどんな脅威よりも重くなるようにした。",
+            "{challenge}をじっと見つめ、理由を説明せずに武器に手を置いた。",
+            "{challenge}に近づき、彼らが理解できるほどのスペースを侵入した。"
+           ]
+          }
+          }
+      },
+      "others": {
+        "1": {
+          "group": {
+            "pt": [
+              "A Lyra foi silenciosa o trajeto inteiro, o que foi a única coisa boa, mas quando aquela espada Vorpal começou a retalhar, até eu senti o baque. Foi o único momento em que vi algo útil sendo feito sem um sermão acompanhando.",
+              "Fiquei perto da Lyra e vi como a natureza dela era bruta; ela não disse uma palavra, apenas passou por cima de quem estava no caminho como se fossem grama seca.",
+              "Eu segurei o impacto e a Lyra cuidou da carnificina. Foi a única vez que não saí de uma missão com uma enxaqueca causada por tagarelice alheia."
+            ],
+              "en": [
+                "Lyra was silent the entire way, which was the only good thing, but when that Vorpal sword started slashing, even I felt the thud. It was the only moment I saw something useful being done without a sermon accompanying it.",
+                "I stayed close to Lyra and saw how her nature was brutal; she didn't say a word, just went over anyone in her way like they were dry grass.",
+                "I held the impact and Lyra took care of the carnage. It was the only time I didn't come out of a mission with a headache caused by other people's chatter."
+              ],
+              "es": [
+                "Lyra estuvo en silencio todo el camino, lo cual fue lo único bueno, pero cuando esa espada Vorpal comenzó a cortar, incluso yo sentí el golpe. Fue el único momento en que vi algo útil hecho sin un sermón acompañándolo.",
+                "Me quedé cerca de Lyra y vi cómo su naturaleza era brutal; no dijo una palabra, simplemente pasó por encima de cualquiera que estuviera en su camino como si fueran hierba seca.",
+                "Sostuve el impacto y Lyra se encargó de la carnicería. Fue la única vez que no salí de una misión con un dolor de cabeza causado por la charla de otras personas."
+              ],
+              "ru": [
+                "Лира молчала весь путь, что было единственным хорошим моментом, но когда этот меч Ворпал начал рубить, даже я почувствовала удар. Это был единственный момент, когда я увидела что-то полезное без сопутствующей проповеди.",
+                "Я держалась рядом с Лирой и видела, насколько ее натура была жестокой; она не сказала ни слова, просто прошла по любому на своем пути, как по сухой траве.",
+                "Я выдержала удар, а Лира позаботилась о резне. Это был единственный раз, когда я не вышла из миссии с головной болью от болтовни других людей."
+              ],
+              "zh": [
+                "Lyra一路保持沉默，这是唯一的好事，但当那把Vorpal剑开始砍杀时，连我都感觉到了沉重的撞击。这是我看到有用的东西被完成而没有伴随讲道的唯一时刻。",
+                "我紧跟着Lyra，看到她的本性是残暴的；她一句话也没说，只是像对待干草一样碾过任何挡在她面前的人。",
+                "我承受了冲击，Lyra处理了屠杀。这是我唯一一次没有因为别人的闲聊而在任务结束时感到头痛。"
+              ],
+              "ja": [
+                "Lyraは道中ずっと無口で、それが唯一の良いことでしたが、そのVorpal剣が斬り始めたとき、私でさえもドスンと感じました。説教なしで有用なことが行われるのを見た唯一の瞬間でした。",
+                "私はLyraの近くにいて、彼女の性格が残酷であることを見ました。彼女は一言も言わず、ただ道にいる誰かを乾いた草のように踏みつけていました。",
+                "私は衝撃を受け止め、Lyraは虐殺を処理しました。他人の雑談で頭痛になることなくミッションから出た唯一の時間でした。"
+               ]
+          }
+        },
+        "3": {
+          "group": {
+            "pt": [
+              "A Maelis pareceu estar em outro mundo metade do tempo, mas quando o chão tremeu, percebi que ela finalmente tinha acordado. Haja paciência para esperar uma druida decidir agir.",
+              "Caminhar ao lado da Maelis foi como escoltar uma árvore; ela não precisou de metal para aguentar os golpes, mas a lerdeza dela quase me fez perder os estribos.",
+              "Ela jurou que estava escutando a floresta... eu só escutei o som dos ossos quebrando sob os galhos dela. Pelo menos o resultado serviu para alguma coisa."
+            ],
+              "en": [
+                "Maelis seemed to be in another world half the time, but when the ground shook, I realized she had finally woken up. It takes patience to wait for a druid to decide to act.",
+                "Walking alongside Maelis was like escorting a tree; she didn't need metal to withstand the blows, but her slowness almost made me lose my temper.",
+                "She swore she was listening to the forest... I only heard the sound of bones breaking under her branches. At least the outcome served some purpose."
+              ],
+              "es": [
+                "Maelis parecía estar en otro mundo la mitad del tiempo, pero cuando el suelo tembló, me di cuenta de que finalmente había despertado. Se necesita paciencia para esperar a que un druida decida actuar.",
+                "Caminar junto a Maelis fue como escoltar un árbol; no necesitaba metal para soportar los golpes, pero su lentitud casi me hizo perder la paciencia.",
+                "Ella juró que estaba escuchando al bosque... yo solo escuché el sonido de los huesos rompiéndose bajo sus ramas. Al menos el resultado sirvió para algo."
+              ],
+              "ru": [
+                "Маэлис казалось, была в другом мире половину времени, но когда земля затряслась, я поняла, что она наконец проснулась. Нужно терпение, чтобы ждать, пока друид решит действовать.",
+                "Гулять рядом с Маэлис было как сопровождать дерево; ей не нужен был металл, чтобы выдерживать удары, но ее медлительность почти заставила меня потерять терпение.",
+                "Она клялась, что слушает лес... я только слышала звук ломаемых костей под ее ветвями. По крайней мере результат послужил какой-то цели."
+              ],
+              "zh": [
+                "Maelis似乎有一半时间都在另一个世界，但当地面震动时，我意识到她终于醒了。等待一个德鲁伊决定行动需要耐心。",
+                "和Maelis一起走就像护送一棵树；她不需要金属来承受打击，但她的迟钝几乎让我失去耐心。",
+                "她发誓她在听森林的声音...我只听到了她树枝下骨头断裂的声音。至少结果有了一些用处。"
+              ],
+              "ja": [
+                "マエリスは半分の時間、別の世界にいるようでしたが、地面が揺れたとき、彼女がついに目を覚ましたことに気づきました。ドruidが行動を決定するのを待つには忍耐が必要です。",
+                "マエリスと一緒に歩くのは木を護衛するようなものでした。彼女は打撃に耐えるために金属を必要としませんでしたが、彼女の遅さは私をイライラさせそうになりました。",
+                "彼女は森の声を聞いていると誓いました...私はただ彼女の枝の下で骨が折れる音を聞いただけでした。少なくとも結果は何かの役に立ちました。"
+              ]
+          }
+        },
+        "4": {
+          "group": {
+            "pt": [
+              "A Saryth tratou a cura como se fosse um espetáculo de teatro. Eu teria preferido que ela fosse discreta, mas ela insistiu em fazer uma cena para cada arranhão que fechou.",
+              "Mais uma performance, Saryth? Bufei de raiva enquanto esperava as luzes coloridas dela terminarem o show para que pudéssemos sair daquele buraco.",
+              "Ela chamou e reconheceu os espíritos... eu apenas sangrei e esperei a boa vontade dela acabar com o drama e fazer o trabalho logo."
+            ],
+              "en": [
+                "Saryth treated healing like it was a theater performance. I would have preferred her to be discreet, but she insisted on putting on a show for every scratch she closed.",
+                "Another performance, Saryth? I huffed in anger as I waited for her colorful lights to finish the show so we could get out of that hole.",
+                "She called and acknowledged the spirits... I just bled and waited for her goodwill to end the drama and get the job done already."
+              ],
+              "es": [
+                "Saryth trató la curación como si fuera una actuación teatral. Hubiera preferido que fuera discreta, pero insistió en hacer un espectáculo por cada rasguño que cerraba.",
+                "¿Otra actuación, Saryth? Resoplé de ira mientras esperaba a que sus luces coloridas terminaran el espectáculo para que pudiéramos salir de ese agujero.",
+                "Ella llamó y reconoció a los espíritus... yo solo sangré y esperé a que su buena voluntad terminara el drama y hiciera el trabajo de una vez."
+              ],
+              "ru": [
+                "Сарит относилась к исцелению, как к театральному представлению. Я бы предпочла, чтобы она была сдержанной, но она настаивала на том, чтобы устраивать шоу для каждой царапины, которую она закрывала.",
+                "Еще одно представление, Сарит? Я злобно фыркнула, ожидая, когда ее красочные огни закончат шоу, чтобы мы могли выбраться из этой ямы.",
+                "Она призвала и признала духов... я просто кровоточила и ждала, когда ее доброжелательность закончится драмой и она уже сделает свою работу."
+              ],
+              "zh": [
+                "Saryth把治疗当成了戏剧表演。我更希望她能低调一些，但她坚持要为她关闭的每一个划痕表演一场秀。",
+                "又一场表演，Saryth？我愤怒地哼了一声，等待她那五颜六色的灯光完成表演，这样我们就可以离开那个洞了。",
+                "她呼唤并承认了那些精神...我只是流血并等待她的好意结束戏剧并尽快完成工作。"
+              ],
+              "ja": [
+                "Sarythは治癒を劇場のパフォーマンスのように扱いました。私は彼女が控えめであることを望んでいましたが、彼女は閉じたすべての傷にショーをすることに固執しました。",
+                "またパフォーマンスですか、Saryth？私は怒りで息を吐きながら、彼女のカラフルなライトがショーを終えるのを待って、私たちがその穴から出ることができるようにしました。",
+                "彼女は霊を呼び、認めました...私はただ血を流し、彼女の善意がドラマを終わらせてすでに仕事をするのを待っていました。"
+               ]
+          }
+        },
+        "5": {
+          "group": {
+            "pt": [
+              "A Nyssa foi a única que não tentou me vender mentiras sobre destino. Ela sabia que o mundo era um lixo, e aquela música melancólica foi a única coisa honesta que ouvi naquele dia.",
+              "Ouvir a Nyssa cantar foi como cutucar uma ferida aberta; doeu, mas foi melhor do que as promessas vazias que os outros ficavam balbuciando.",
+              "Ela não prometeu vitória nenhuma, apenas que íamos aguentar o tranco. Finalmente alguém que não vive em um conto de fadas irritante."
+            ],
+              "en": [
+                "Nyssa was the only one who didn't try to sell me lies about destiny. She knew the world was trash, and that melancholy music was the only honest thing I heard that day.",
+                "Hearing Nyssa sing was like poking an open wound; it hurt, but it was better than the empty promises the others kept babbling.",
+                "She didn't promise any victory, just that we would hold the line. Finally someone who doesn't live in an annoying fairy tale."
+              ],
+              "es": [
+                "Nyssa fue la única que no intentó venderme mentiras sobre el destino. Sabía que el mundo era basura, y esa música melancólica fue lo único honesto que escuché ese día.",
+                "Escuchar a Nyssa cantar fue como tocar una herida abierta; dolió, pero fue mejor que las promesas vacías que los demás seguían balbuceando.",
+                "No prometió ninguna victoria, solo que aguantaríamos la línea. Finalmente alguien que no vive en un molesto cuento de hadas."
+              ],
+              "ru": [
+                "Нисса была единственной, кто не пытался продавать мне ложь о судьбе. Она знала, что мир - это мусор, и эта меланхоличная музыка была единственной честной вещью, которую я услышала в тот день.",
+                "Слушать, как Нисса поет, было похоже на тыкание в открытую рану; это было больно, но лучше, чем пустые обещания, которые другие продолжали бормотать.",
+                "Она не обещала никакой победы, просто сказала, что мы будем держать линию. Наконец-то кто-то, кто не живет в раздражающей сказке."
+              ],
+              "zh": [
+                "Nyssa是唯一一个没有试图向我兜售关于命运的谎言的人。她知道世界是垃圾，那首忧郁的音乐是我那天听到的唯一诚实的东西。",
+                "听Nyssa唱歌就像戳一个开放的伤口；它很痛，但比其他人不断咕哝的空洞承诺要好。",
+                "她没有承诺任何胜利，只是说我们会坚守阵线。终于有人不生活在烦人的童话故事里了。"
+              ],
+              "ja": [
+                "Nyssaは運命についての嘘を売ろうとしなかった唯一の人でした。彼女は世界がゴミだと知っていて、その憂鬱な音楽はその日私が聞いた唯一の正直なものでした。",
+                "Nyssaの歌を聞くことは、開いた傷を突くようなものでした。それは痛かったですが、他の人がバブリングし続ける空虚な約束よりはましでした。",
+                "彼女は勝利を約束しませんでした、ただ私たちがラインを保持するだろうと言いました。やっと誰かが迷惑な童話に住んでいないことがわかりました。"
+               ]
+          }
+        },
+        "6": {
+          "group": {
+            "pt": [
+              "A Kaela passou a missão inteira conversando com o vento. Eu já tinha visto fanáticos demais na Ordem, mas uma clériga que se perde em sussurros no meio do combate foi quase demais para mim.",
+              "Tive que puxar a Kaela pelo braço; ela esqueceu o perigo real porque estava ocupada demais ouvindo ecos que ninguém mais percebia.",
+              "Ela chamou aquele caos de 'coral'. Eu chamei de falta de atenção. Só não a deixei para trás porque o código da guilda me impediu."
+            ],
+              "en": [
+                "Kaela spent the entire mission talking to the wind. I've seen too many fanatics in the Order, but a cleric who gets lost in whispers in the middle of combat was almost too much for me.",
+                "I had to pull Kaela by the arm; she forgot about the real danger because she was too busy listening to echoes no one else noticed.",
+                "She called that chaos a 'choral'. I called it lack of attention. I just didn't leave her behind because the guild code prevented me."
+              ],
+              "es": [
+                "Kaela pasó toda la misión hablando con el viento. He visto demasiados fanáticos en la Orden, pero una clériga que se pierde en susurros en medio del combate fue casi demasiado para mí.",
+                "Tuve que jalar a Kaela por el brazo; ella olvidó el peligro real porque estaba demasiado ocupada escuchando ecos que nadie más notaba.",
+                "Ella llamó a ese caos un 'coral'. Yo lo llamé falta de atención. Simplemente no la dejé atrás porque el código del gremio me lo impidió."
+              ],
+              "ru": [
+                "Каэла провела всю миссию, разговаривая с ветром. Я видела слишком много фанатиков в Ордене, но жрица, которая теряется в шепоте посреди боя, была почти слишком для меня.",
+                "Мне пришлось потянуть Каэлу за руку; она забыла о реальной опасности, потому что была слишком занята слушанием эха, которое никто другой не заметил.",
+                "Она назвала этот хаос 'хором'. Я назвала это невнимательностью. Я просто не оставила ее позади, потому что кодекс гильдии мне это не позволял."
+              ],
+              "zh": [
+                "Kaela整个任务都在和风说话。我在秩序中见过太多狂热分子，但一个在战斗中迷失在耳语中的牧师几乎让我受不了。",
+                "我不得不拉着Kaela的手臂；她忘记了真正的危险，因为她太忙于听那些别人都没有注意到的回声了。",
+                "她把那个混乱叫做'合唱团'。我称之为缺乏注意力。我只是没有把她丢在后面，因为公会的规则不允许我这样做。"
+              ],
+              "ja": [
+                "Kaelaはミッション全体を風と話して過ごしました。私はオーダーであまりにも多くの狂信者を見てきましたが、戦闘の真っ只中でささやきに迷う聖職者は私にはほとんど耐えられませんでした。",
+                "私はKaelaの腕を引っ張らなければなりませんでした。彼女は誰も気づかなかったエコーを聞いているのに忙しすぎて、実際の危険を忘れていました。",
+                "彼女はその混乱を「合唱団」と呼びました。私はそれを注意力の欠如と呼びました。ギルドコードが私を妨げたので、彼女を置いていくだけではありませんでした。"
+               ]
+          }
+        },
+        "7": {
+          "group": {
+            "pt": [
+              "Leona, eu mandei ela abaixar a mão! Ela quase deixou o cajado cair porque se distraiu com uma 'equação' no meio da lama. Fiquei na sua frente o tempo todo para garantir que sua lógica não te matasse!",
+              "Minha irmã achou que o mundo era um cálculo, mas esqueceu que um machado não segue regra nenhuma. Se um arranhão tivesse encostado nela, eu teria reduzido aquele lugar a pó só de raiva.",
+              "Mandei a Leona parar de investigar a eletricidade e olhar para onde pisava! Ela foi brilhante, sim, mas agiu como uma tonta. Eu segurei o perigo, e ela ficou com os raios... bem longe de mim, como ordenei."
+            ],
+              "en": [
+                "Leona, I told her to put her hand down! She almost dropped the staff because she got distracted by an 'equation' in the middle of the mud. I stayed in front of her the whole time to make sure her logic didn't get her killed!",
+                "My sister thought the world was a calculation, but forgot that an axe doesn't follow any rules. If a scratch had touched her, I would have reduced that place to dust just out of anger.",
+                "I told Leona to stop investigating electricity and look where she was stepping! She was brilliant, yes, but acted like a fool. I held the danger, and she dealt with the lightning... well away from me, as I ordered."
+              ],
+              "es": [
+                "Leona, ¡le dije que bajara la mano! Casi dejó caer el bastón porque se distrajo con una 'ecuación' en medio del barro. Me quedé frente a ella todo el tiempo para asegurarme de que su lógica no la matara.",
+                "Mi hermana pensó que el mundo era un cálculo, pero olvidó que un hacha no sigue ninguna regla. Si un rasguño la hubiera tocado, habría reducido ese lugar a polvo solo por la ira.",
+                "¡Le dije a Leona que dejara de investigar la electricidad y mirara dónde estaba pisando! Ella era brillante, sí, pero actuaba como una tonta. Yo mantuve el peligro, y ella se encargó del rayo... bien lejos de mí, como ordené."
+              ],
+              "ru": [
+                "Леона, я сказала ей опустить руку! Она чуть не уронила посох, потому что отвлеклась на 'уравнение' посреди грязи. Я все время стояла перед ней, чтобы убедиться, что ее логика не убьет ее!",
+                "Моя сестра думала, что мир - это расчет, но забыла, что топор не следует никаким правилам. Если бы царапина коснулась ее, я бы превратила это место в пыль только от злости.",
+                "Я сказала Леоне перестать исследовать электричество и смотреть под ноги! Она была блестящей, да, но вела себя как дура. Я держала опасность, а она справлялась с молнией... далеко от меня, как я приказала."
+              ],
+              "zh": [
+                "Leona，我告诉她把手放下！她差点把法杖掉了，因为她被泥巴中间的一个'方程式'分散了注意力。我一直站在她面前，确保她的逻辑不会让她丢命！",
+                "我妹妹认为世界是一个计算，但忘了斧头不遵循任何规则。如果一个划痕碰到她，我会因为愤怒而把那个地方变成灰尘。",
+                "我告诉Leona停止调查电力，看看她踩在哪里！她很聪明，是的，但表现得像个傻瓜。我控制了危险，她处理了闪电...远离我，就像我命令的那样。"
+              ],
+              "ja": [
+                "Leona、彼女に手を下ろすように言いました！彼女は泥の中の「方程式」に気を取られて杖を落としそうになりました。私は彼女の前にずっと立っていて、彼女の論理が彼女を殺さないようにしました！",
+                "私の姉は世界が計算だと思っていましたが、斧はどんなルールも守らないことを忘れていました。もし傷が彼女に触れていたら、私は怒りでその場所を粉々にしていたでしょう。",
+                "Leonaに電気の調査をやめて、どこを踏んでいるかを見るように言いました！彼女は素晴らしかったですが、愚か者のように振る舞いました。私は危険を抑え、彼女は雷を処理しました...私から遠く離れて、私が命じたように。"
+               ]
+          }
+        },
+        "8": {
+          "group": {
+            "pt": [
+              "A Serah entregou dor mais rápido do que eu pude contar. Foi uma tática eficiente, embora a grosseria dela tenha competido diretamente com a minha.",
+              "Ríspida e tensa o tempo todo. Se todos fossem como a Serah, não teríamos perdido horas com aquelas reuniões inúteis que o mestre da ordem adora.",
+              "Ela não aguentou a dor, ela a devolveu com juros. Apoiei a filosofia, desde que ela ficasse longe da minha linha de defesa."
+            ],
+              "en": [
+                "Serah delivered pain faster than I could count. It was an efficient tactic, although her rudeness directly competed with mine.",
+                "Grumpy and tense the whole time. If everyone were like Serah, we wouldn't have lost hours with those useless meetings that the order master loves.",
+                "She didn't endure the pain, she returned it with interest. I supported the philosophy, as long as she stayed away from my line of defense."
+              ],
+              "es": [
+                "Serah entregó dolor más rápido de lo que pude contar. Fue una táctica eficiente, aunque su rudeza compitió directamente con la mía.",
+                "Gruñona y tensa todo el tiempo. Si todos fueran como Serah, no habríamos perdido horas con esas reuniones inútiles que el maestro de la orden adora.",
+                "Ella no soportó el dolor, lo devolvió con intereses. Apoyé la filosofía, siempre que se mantuviera alejada de mi línea de defensa."
+              ],
+              "ru": [
+                "Серах доставляла боль быстрее, чем я могла сосчитать. Это была эффективная тактика, хотя ее грубость напрямую конкурировала с моей.",
+                "Ворчливая и напряженная все время. Если бы все были как Серах, мы бы не потеряли часы на эти бесполезные встречи, которые любит мастер ордена.",
+                "Она не выдерживала боль, она возвращала ее с процентами. Я поддерживала философию, пока она держалась подальше от моей линии защиты."
+              ],
+              "zh": [
+                "Serah传递痛苦的速度比我数数还快。这是一种有效的策略，尽管她的粗鲁直接与我的竞争。",
+                "整个时间都很暴躁和紧张。如果每个人都像Serah一样，我们就不会在那些秩序大师喜欢的无用会议上浪费几个小时了。",
+                "她没有忍受痛苦，她以利息回报了它。我支持这个哲学，只要她远离我的防线。"
+              ],
+              "ja": [
+                "Serahは私が数えるよりも速く痛みを与えました。それは効率的な戦術でしたが、彼女の無礼さは私のものと直接競合していました。",
+                "ずっと不機嫌で緊張していました。もしみんながSerahのようだったら、私たちは秩序のマスターが大好きなあの無駄な会議に何時間も費やすことはなかったでしょう。",
+                "彼女は痛みに耐えたわけではなく、利子をつけてそれを返しました。私はその哲学を支持しましたが、彼女が私の防衛ラインから離れている限り。"
+               ]
+          }
+        },
+        "9": {
+          "group": {
+            "pt": [
+              "A Seraphine tratou a nossa sobrevivência como uma mistura de laboratório. Sem deuses, sem sorte, apenas química. Foi um alívio não ter que ouvir agradecimentos aos céus.",
+              "Ignorei os comentários secos da Seraphine; ela foi tão amarga quanto o veneno que estava neutralizando. Pelo menos ela não tentou me abraçar.",
+              "Se alguém saiu vivo, foi pela mistura dela e não por milagre. Ela fez questão de deixar isso claro com aquele tom de voz insuportável."
+            ],
+              "en": [
+                "Seraphine treated our survival like a lab mix. No gods, no luck, just chemistry. It was a relief not having to hear thanks to the heavens.",
+                "I ignored Seraphine's dry comments; she was as bitter as the poison she was neutralizing. At least she didn't try to hug me.",
+                "If anyone came out alive, it was because of her mixture and not by miracle. She made sure to make that clear with that unbearable tone of voice."
+              ],
+              "es": [
+                "Seraphine trató nuestra supervivencia como una mezcla de laboratorio. Sin dioses, sin suerte, solo química. Fue un alivio no tener que escuchar agradecimientos a los cielos.",
+                "Ignoré los comentarios secos de Seraphine; ella era tan amarga como el veneno que estaba neutralizando. Al menos no intentó abrazarme.",
+                "Si alguien salió vivo, fue por su mezcla y no por milagro. Se aseguró de dejar eso claro con ese tono de voz insoportable."
+              ],
+              "ru": [
+                "Серафин относилась к нашему выживанию как к лабораторной смеси. Нет богов, нет удачи, только химия. Было облегчением не слышать благодарности небесам.",
+                "Я игнорировала сухие комментарии Серафин; она была такой же горькой, как и яд, который она нейтрализовала. По крайней мере она не пыталась обнять меня.",
+                "Если кто-то вышел живым, то это было благодаря ее смеси, а не чуду. Она позаботилась о том, чтобы это было ясно с этим невыносимым тоном голоса."
+              ],
+              "zh": [
+                "Seraphine把我们的生存当成了实验室混合物。没有神，没有运气，只有化学反应。听到感谢上天的声音是一种解脱。",
+                "我忽略了Seraphine的干巴巴的评论；她和她正在中和的毒药一样苦涩。至少她没有试图拥抱我。",
+                "如果有人活着出来，那是因为她的混合物，而不是奇迹。她确保用那种令人难以忍受的语气清楚地表达了这一点。"
+              ],
+              "ja": [
+                "Seraphineは私たちの生存を実験室の混合物のように扱いました。神も運もなく、ただ化学だけでした。天に感謝する声を聞かなくて済むのは安心でした。",
+                "私はSeraphineの乾いたコメントを無視しました。彼女は中和している毒と同じくらい苦い人でした。少なくとも彼女は私を抱きしめようとはしませんでした。",
+                "誰かが生きて出てきたとしたら、それは彼女の混合物のおかげであって、奇跡ではありませんでした。彼女はその耐え難い口調でそれを明確にすることを確実にしました。"
+               ]
+          }
+        },
+        "10": {
+          "group": {
+            "pt": [
+              "A Elara foi honesta demais para o próprio bem. Em um mundo de canalhas, a moralidade dela me deu nos nervos; parecia um defeito de fabricação.",
+              "Ela se moveu sem fazer barulho, mas a consciência dela gritava tanto que quase estragou o elemento surpresa. Uma ladina com princípios... que piada.",
+              "Mantive a Elara por perto para achar o rastro, mas desisti de esperar que ela fizesse o trabalho sujo. A ética dela era rígida demais para a vida real."
+            ],
+              "en": [
+                "Elara was too honest for her own good. In a world of scoundrels, her morality got on my nerves; it felt like a manufacturing defect.",
+                "She moved without making noise, but her conscience screamed so loud that it almost ruined the element of surprise. A rogue with principles... what a joke.",
+                "I kept Elara close to find the trail, but I gave up waiting for her to do the dirty work. Her ethics were too rigid for real life."
+              ],
+              "es": [
+                "Elara era demasiado honesta para su propio bien. En un mundo de sinvergüenzas, su moralidad me ponía nervioso; se sentía como un defecto de fabricación.",
+                "Se movía sin hacer ruido, pero su conciencia gritaba tan fuerte que casi arruinó el elemento sorpresa. Un pícaro con principios... qué broma.",
+                "Mantuve a Elara cerca para encontrar el rastro, pero me rendí esperando que hiciera el trabajo sucio. Su ética era demasiado rígida para la vida real."
+              ],
+              "ru": [
+                "Элара была слишком честной для своего же блага. В мире негодяев ее мораль раздражала меня; это казалось производственным дефектом.",
+                "Она двигалась, не издавая шума, но ее совесть кричала так громко, что почти испортила элемент неожиданности. Разбойник с принципами... какая шутка.",
+                "Я держала Элару рядом, чтобы найти след, но я сдалась ждать, пока она сделает грязную работу. Ее этика была слишком жесткой для реальной жизни."
+              ],
+              "zh": [
+                "Elara对自己的好处过于诚实。在一个无赖的世界里，她的道德让我很烦；感觉就像是制造缺陷。",
+                "她悄无声息地移动，但她的良心大声尖叫，几乎破坏了惊喜的元素。一个有原则的流氓...真是个笑话。",
+                "我让Elara靠近以找到踪迹，但我放弃了等待她做肮脏的工作。她的道德对于现实生活来说太僵硬了。"
+              ],
+              "ja": [
+                "Elaraは自分のために正直すぎました。悪党の世界では、彼女の道徳は私の神経に触りました。それは製造上の欠陥のように感じました。",
+                "彼女は音を立てずに動きましたが、彼女の良心はとても大声で叫んでいて、ほとんど驚きの要素を台無しにしました。原則を持つローグ...なんて冗談でしょう。",
+                "私はElaraを近くに保ってトレイルを見つけましたが、彼女が汚い仕事をするのを待つのをあきらめました。彼女の倫理は現実の生活には厳しすぎました。"
+               ]
+          }
+        },
+        "11": {
+          "group": {
+            "pt": [
+              "A Nyx foi o pesadelo que eu costumava caçar nos tempos de Ordem. Ter ela ao lado foi um mal necessário, embora o sadismo dela tenha me deixado em alerta o tempo todo.",
+              "Ela não deixou rastros, apenas carcaças de monstros. Foi um serviço limpo, mas a forma como ela sorria no escuro me fez apertar o cabo da maça.",
+              "Fiquei na sombra com a Nyx e vi quem era o verdadeiro monstro. Foi melhor não ser o alvo daquela crueldade."
+            ],
+              "en": [
+                "Nyx was the nightmare I used to hunt in my Order days. Having her by my side was a necessary evil, although her sadism kept me on edge the whole time.",
+                "She left no tracks, just monster carcasses. It was a clean service, but the way she smiled in the dark made me grip the mace handle.",
+                "I stayed in the shadows with Nyx and saw who the real monster was. It was better not to be the target of that cruelty."
+              ],
+              "es": [
+                "Nyx era la pesadilla que solía cazar en mis días de Orden. Tenerla a mi lado fue un mal necesario, aunque su sadismo me mantuvo alerta todo el tiempo.",
+                "No dejó rastros, solo cadáveres de monstruos. Fue un servicio limpio, pero la forma en que sonreía en la oscuridad me hizo agarrar el mango de la maza.",
+                "Me quedé en las sombras con Nyx y vi quién era el verdadero monstruo. Fue mejor no ser el objetivo de esa crueldad."
+              ],
+              "ru": [
+                "Никс была кошмаром, которого я охотилась в свои дни в Ордене. Иметь ее рядом было необходимым злом, хотя ее садизм держал меня в напряжении все время.",
+                "Она не оставляла следов, только трупы монстров. Это была чистая работа, но то, как она улыбалась в темноте, заставило меня крепко держать ручку булавы.",
+                "Я оставалась в тени с Никс и увидела, кто настоящий монстр. Было лучше не быть целью этой жестокости."
+              ],
+              "zh": [
+                "Nyx是我在秩序日子里曾经追捕的噩梦。让她在我身边是一个必要的恶，尽管她的虐待狂让我一直处于紧张状态。",
+                "她没有留下任何痕迹，只有怪物的尸体。这是一项干净的服务，但她在黑暗中微笑的方式让我紧握着锤柄。",
+                "我和Nyx一起呆在阴影中，看到了真正的怪物是谁。最好不要成为那种残酷的目标。"
+              ],
+              "ja": [
+                "Nyxは私がオーダーの日々に狩っていた悪夢でした。彼女を私のそばに置くことは必要な悪でしたが、彼女のサディズムは私をずっと緊張させました。",
+                "彼女は痕跡を残さず、ただモンスターの死体を残しました。それはクリーンなサービスでしたが、彼女が暗闇で笑う様子は私をメイスの柄にしっかりと握らせました。",
+                "私はNyxと一緒に影に留まり、誰が本当のモンスターかを見ました。その残酷さのターゲットにならない方が良かったです。"
+               ]
+          }
+        },
+        "12": {
+          "group": {
+            "pt": [
+              "A Morga e aquela obsessão idiota por seis golpes... Se ela tivesse parado de contar e apenas batido, teríamos voltado para casa muito mais cedo.",
+              "A precisão dela foi nojenta de assistir. Foi uma carnificina metódica que me deu mais asco do que uma fúria descontrolada.",
+              "Seis golpes, sempre seis. A Morga provou que a loucura pode ser muito bem organizada, o que só a tornou mais irritante."
+            ],
+              "en": [
+                "Morga and that stupid obsession with six strikes... If she had stopped counting and just hit, we would have gotten home much earlier.",
+                "Her precision was disgusting to watch. It was a methodical slaughter that made me more disgusted than an uncontrolled rage.",
+                "Six strikes, always six. Morga proved that madness can be very well organized, which only made her more irritating."
+              ],
+              "es": [
+                "Morga y esa estúpida obsesión por seis golpes... Si hubiera dejado de contar y simplemente golpeara, habríamos llegado a casa mucho antes.",
+                "Su precisión era asquerosa de ver. Fue una matanza metódica que me disgustó más que una rabia incontrolada.",
+                "Seis golpes, siempre seis. Morga demostró que la locura puede estar muy bien organizada, lo que solo la hizo más irritante."
+              ],
+              "ru": [
+                "Морга и эта глупая одержимость шестью ударами... Если бы она перестала считать и просто ударила, мы бы вернулись домой намного раньше.",
+                "Ее точность было отвратительно наблюдать. Это была методичная резня, которая вызвала у меня больше отвращения, чем неконтролируемая ярость.",
+                "Шесть ударов, всегда шесть. Морга доказала, что безумие может быть очень хорошо организовано, что только сделало ее более раздражающей."
+              ],
+              "zh": [
+                "Morga和那个愚蠢的六击痴迷...如果她停止计数并直接打，我们会更早回家的。",
+                "她的精准让人恶心。那是一场有条不紊的屠杀，比失控的愤怒更让我厌恶。",
+                "六击，总是六击。Morga证明了疯狂可以非常有组织，这只让她更烦人了。"
+              ],
+              "ja": [
+                "Morgaとその6回の攻撃への愚かな執着...もし彼女が数えるのをやめてただ打っていたら、私たちはもっと早く家に帰れたでしょう。",
+                "彼女の正確さは見るのが嫌でした。それは無制御の怒りよりも私を嫌悪させる体系的な虐殺でした。",
+                "6回の攻撃、常に6回。Morgaは狂気が非常によく組織されていることを証明しましたが、それは彼女をさらにイライラさせるだけでした。"
+               ]
+          }
+        },
+        "13": {
+          "group": {
+            "pt": [
+              "A Mina conversou com os esqueletos como se fossem vizinhos. Foi uma cena macabra que quase me fez esquecer o cheiro de mofo.",
+              "Ela não deu ordens, ela pediu... e os mortos obedeceram. Foi uma diplomacia bizarra que me deixou com um gosto amargo na boca.",
+              "Enquanto a Mina ouvia as lamentações dos defuntos, eu garanti que mais ninguém virasse assunto para ela naquele dia."
+            ],
+            "en": [
+              "Mina spoke to the skeletons as if they were neighbors. It was a macabre scene that almost made me forget the smell of mold.",
+              "She didn't give orders, she asked... and the dead obeyed. It was a strange diplomacy that left me with a bitter taste in my mouth.",
+              "While Mina listened to the lamentations of the dead, I made sure no one else became a topic for her that day."
+            ],
+            "es": [
+              "Mina habló con los esqueletos como si fueran vecinos. Fue una escena macabra que casi me hizo olvidar el olor del moho.",
+              "Ella no dio órdenes, preguntó... y los muertos obedecieron. Fue una diplomacia extraña que me dejó con un sabor amargo en la boca.",
+              "Mientras Mina escuchaba las lamentaciones de los muertos, me aseguré de que nadie más se convirtiera en tema para ella ese día."
+          ],
+          "ru": [
+              "Мина говорила с скелетами, как будто они были соседями. Это была мрачная сцена, которая почти заставила меня забыть запах плесени.",
+              "Она не давала приказов, она просила... и мертвые подчинялись. Это была странная дипломатия, которая оставила у меня горький вкус во рту.",
+              "Пока Мина слушала стенания мертвых, я убедилась, что никто другой не станет для нее темой в тот день."
+          ],
+          "zh": [
+              "Mina和骷髅说话，就好像他们是邻居一样。这是一个令人毛骨悚然的场景，几乎让我忘记了霉味。",
+              "她没有发号施令，她只是问...然后死者就服从了。这是一种奇怪的外交，让我感到苦涩。",
+              "当Mina听着死者的哀叹时，我确保没有其他人那天成为她的话题。"
+          ],
+          "ja": [
+              "Minaは骸骨に隣人のように話しかけました。それはカビの臭いを忘れさせるほど不気味な光景でした。",
+              "彼女は命令を出さず、尋ねました...そして死者は従いました。それは私の口に苦い味を残す奇妙な外交でした。",
+              "Minaが死者の嘆きを聞いている間、私はその日誰も彼女の話題にならないようにしました。"
+          ]
+        }
+        },
+        "14": {
+          "group": {
+            "pt": [
+              "A Raska falou como se estivesse cuspindo engrenagens, mas as máquinas dela seguraram o tranco. Ela consertou o que os outros idiotas tentaram quebrar.",
+              "Não pedi explicações para a Raska, só deixei que ela soldasse o portão. Ela viu as falhas antes mesmo de eu levantar o escudo.",
+              "Ela não salvou ideais bobos, ela impediu um desastre estrutural. Foi a única ali com os pés realmente no chão."
+            ],
+              "en": [
+                "Raska spoke as if she were spitting gears, but her machines held the line. She fixed what the other idiots tried to break.",
+                "I didn't ask Raska for explanations, I just let her weld the gate. She saw the flaws even before I raised the shield.",
+                "She didn't save any silly ideals, she prevented a structural disaster. She was the only one there with her feet really on the ground."
+              ],
+              "es": [
+                "Raska habló como si estuviera escupiendo engranajes, pero sus máquinas mantuvieron la línea. Arregló lo que los otros idiotas intentaron romper.",
+                "No le pedí explicaciones a Raska, solo la dejé soldar la puerta. Ella vio las fallas incluso antes de que yo levantara el escudo.",
+                "Ella no salvó ningún ideal tonto, evitó un desastre estructural. Fue la única allí con los pies realmente en el suelo."
+              ],
+              "ru": [
+                "Раска говорила так, как будто она плевала шестеренки, но ее машины держали линию. Она исправила то, что другие идиоты пытались сломать.",
+                "Я не просила Раску объяснений, я просто позволила ей сварить ворота. Она увидела недостатки даже до того, как я подняла щит.",
+                "Она не спасла никаких глупых идеалов, она предотвратила структурную катастрофу. Она была единственной там с ногами действительно на земле."
+              ],
+              "zh": [
+                "Raska说话就像在吐齿轮，但她的机器坚守阵线。她修好了其他傻瓜试图破坏的东西。",
+                "我没有向Raska询问解释，我只是让她焊接了大门。她甚至在我举起盾牌之前就看到了缺陷。",
+                "她没有拯救任何愚蠢的理想，她阻止了一场结构灾难。她是那里唯一真正脚踏实地的人。"
+              ],
+              "ja": [
+                "Raskaは歯車を吐き出すように話しましたが、彼女の機械はラインを保ちました。彼女は他の馬鹿が壊そうとしたものを修正しました。",
+                "私はRaskaに説明を求めませんでした、私はただ彼女がゲートを溶接するのを許しました。彼女は私が盾を上げる前にすでに欠陥を見ていました。",
+                "彼女は愚かな理想を救ったのではなく、構造的な災害を防ぎました。彼女はそこにいる唯一の人で、足が本当に地面に着いていました。"
+               ]
+          }
+        },
+        "15": {
+          "group": {
+            "pt": [
+              "A Gaela quase não falou, mas a terra respondeu por ela de um jeito que fez minhas orações parecerem leitura de bula de remédio.",
+              "Quando a Gaela gaguejou, percebi que era porque ela estava sentindo o peso das pedras se movendo. O silêncio dela foi mais barulhento que qualquer grito.",
+              "Ela não deu ordens ao chão, ela pediu permissão. Uma humildade que eu nunca vi em nenhum daqueles sumos sacerdotes de nariz empinado."
+            ],
+              "en": [
+                "Gaela barely spoke, but the earth responded for her in a way that made my prayers sound like reading a medicine leaflet.",
+                "When Gaela stuttered, I realized it was because she was feeling the weight of the moving stones. Her silence was louder than any scream.",
+                "She didn't give orders to the ground, she asked for permission. A humility I've never seen in any of those snobby high priests."
+              ],
+              "es": [
+                "Gaela apenas habló, pero la tierra respondió por ella de una manera que hizo que mis oraciones sonaran como leer un folleto de medicina.",
+                "Cuando Gaela tartamudeó, me di cuenta de que era porque estaba sintiendo el peso de las piedras en movimiento. Su silencio era más fuerte que cualquier grito.",
+                "Ella no dio órdenes al suelo, pidió permiso. Una humildad que nunca he visto en ninguno de esos sacerdotes altos y arrogantes."
+              ],
+              "ru": [
+                "Гаэла едва говорила, но земля отвечала за нее так, что мои молитвы звучали как чтение инструкции к лекарству.",
+                "Когда Гаэла запиналась, я понял, что это потому, что она чувствовала вес движущихся камней. Ее молчание было громче любого крика.",
+                "Она не давала приказы земле, она просила разрешения. Скромность, которую я никогда не видел ни у одного из этих высокомерных верховных жрецов."
+              ],
+              "zh": [
+                "Gaela几乎没有说话，但大地以一种方式回应了她，让我的祈祷听起来像是在读药品说明书。",
+                "当Gaela结巴时，我意识到那是因为她感觉到了移动石头的重量。她的沉默比任何尖叫都要响亮。",
+                "她没有对地面发号施令，她请求许可。我从未在那些傲慢的高阶祭司中见过这样的谦逊。"
+              ],
+              "ja": [
+                "Gaelaはほとんど話しませんでしたが、地面は彼女のために反応しました。私の祈りが薬の説明書を読むように聞こえるほどでした。",
+                "Gaelaがどもったとき、私はそれは動いている石の重さを感じているからだと気づきました。彼女の沈黙はどんな叫びよりも大きかったです。",
+                "彼女は地面に命令を出すのではなく、許可を求めました。私はあの鼻持ちならない高僧の中でそんな謙虚さを見たことがありませんでした。"
+               ]
+          }
+        }
+      }
+    }
   }
-}
+

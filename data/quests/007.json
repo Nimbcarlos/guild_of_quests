@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "as ruínas de Eldenreach",
+      "en": "the Eldenreach ruins",
+      "es": "las ruinas de Eldenreach",
+      "ru": "руины Элденрича",
+      "zh": "艾尔登里奇废墟",
+      "ja": "エルデンリーチの遺跡"
+    },
+    "challenge": {
+      "pt": "o portal instável",
+      "en": "the unstable portal",
+      "es": "el portal inestable",
+      "ru": "нестабильный портал",
+      "zh": "不稳定的传送门",
+      "ja": "不安定なポータル"
+    }
+  }
 }

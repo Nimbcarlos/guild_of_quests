@@ -20,7 +20,7 @@
     "performance",
     "religion"
   ],
-  "max_heroes": 1,
+  "max_heroes": 2,
   "expired_at": 4,
   "available_from_turn": 99,
   "duration": 3,
@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o festival",
+      "en": "the festival",
+      "es": "el festival",
+      "ru": "фестиваль",
+      "zh": "节日",
+      "ja": "祭り"
+    },
+    "challenge": {
+      "pt": "o ritual",
+      "en": "the ritual",
+      "es": "el ritual",
+      "ru": "ритуал",
+      "zh": "仪式",
+      "ja": "儀式"
+    }
+  }
 }

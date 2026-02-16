@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o templo do culto",
+      "en": "the cult temple",
+      "es": "el templo del culto",
+      "ru": "храм культа",
+      "zh": "邪教神殿",
+      "ja": "邪教の寺院"
+    },
+    "challenge": {
+      "pt": "o culto",
+      "en": "the cult",
+      "es": "el culto",
+      "ru": "культ",
+      "zh": "邪教",
+      "ja": "邪教"
+    }
+  }
 }

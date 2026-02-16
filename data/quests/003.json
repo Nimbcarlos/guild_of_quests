@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "as aldeias Urmir e Tavak",
+      "en": "the Urmir and Tavak villages",
+      "es": "las aldeas Urmir y Tavak",
+      "ru": "деревни Урмир и Тавак",
+      "zh": "乌米尔和塔瓦克村庄",
+      "ja": "ウルミアとタヴァクの村"
+    },
+    "challenge": {
+      "pt": "o conflito",
+      "en": "the conflict",
+      "es": "el conflicto",
+      "ru": "конфликт",
+      "zh": "冲突",
+      "ja": "対立"
+    }
+  }
 }

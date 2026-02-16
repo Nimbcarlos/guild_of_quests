@@ -16,9 +16,9 @@
     "ja": "森のクモが異常に巨大化し始めました。そのうちの一匹は馬ほどの大きさになり、主要な道路に巣を張り巡らせて旅行者を捕らえています。ルートが放棄される前に、囚われた人々を解放し、クモを排除してください。",
     "zh": "森林中的蜘蛛开始异常生长。其中一只，体型有马匹大小，在主干道上织网并捕获了旅行者。在路线被遗弃之前，解救被困者并消灭这只蜘蛛。"
   },
-  "type": "Fight",
+  "type": "fight",
   "max_heroes": 2,
-  "expired_at": 2,
+  "expired_at": 3,
   "available_from_turn": 81,
   "duration": 3,
   "difficulty": 4,
@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a estrada",
+      "en": "the road",
+      "es": "el camino",
+      "ru": "дорога",
+      "zh": "道路",
+      "ja": "道"
+    },
+    "enemy": {
+      "pt": "as aranhas",
+      "en": "the spiders",
+      "es": "las arañas",
+      "ru": "пауки",
+      "zh": "蜘蛛",
+      "ja": "クモ"
+    }
+  }
 }

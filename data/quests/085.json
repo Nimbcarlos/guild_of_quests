@@ -9,12 +9,12 @@
     "ja": "家長の最後の別れ"
   },
   "description": {
-    "pt": "O funeral de um Lorde influente exige uma lamentação ritual exata. Um erro de tom, letra ou gesto pode ser interpretado como um insulto político grave entre famílias aliadas.",
-    "en": "The funeral of an influential Lord requires an exact ritual lamentation. An error in tone, lyrics, or gesture can be interpreted as a grave political insult between allied families.",
-    "es": "El funeral de un Lord influyente exige un lamento ritual exacto. Un error de tono, letra o gesto puede interpretarse como un grave insulto político entre familias aliadas.",
-    "ru": "Похороны влиятельного лорда требуют точного ритуального плача. Ошибка в тоне, словах или жесте может быть истолкована как серьезное политическое оскорбление между союзными семьями.",
-    "zh": "一位有影响力的领主的葬礼需要精准的祭奠仪式。音调、歌词或手势的错误都可能被解读为盟友家族之间严重的政治侮辱。",
-    "ja": "有力な領主の葬儀には、正確な儀式的哀悼が求められる。声のトーン、歌詞、仕草のわずかな誤りも、同盟関係にある家系間の重大な政治的侮辱と見なされる可能性がある。"
+    "pt": "O funeral de um Lorde influente exige a execução impecável do cântico fúnebre tradicional da família. Um deslize no tom, nas palavras ou nos gestos pode ser interpretado como um insulto político grave entre casas aliadas.",
+    "en": "The funeral of an influential Lord demands a flawless performance of the family's traditional funeral chant. A misstep in tone, words, or gesture could be taken as a grave political insult between allied houses.",
+    "es": "El funeral de un Lord influyente exige una interpretación impecable del canto fúnebre tradicional de la familia. Un error en el tono, las palabras o los gestos puede interpretarse como un grave insulto político entre casas aliadas.",
+    "ru": "Похороны влиятельного лорда требуют безупречного исполнения традиционного погребального песнопения семьи. Ошибка в тоне, словах или жестах может быть воспринята как серьёзное политическое оскорбление между союзными домами.",
+    "zh": "一位有影响力的领主的葬礼必须完美演绎家族的传统哀歌。音调、词句或礼仪上的差错都可能被视为盟友家族之间严重的政治冒犯。",
+    "ja": "有力な領主の葬儀では、一族に伝わる弔いの詠唱を完璧に執り行わなければならない。声の調子や言葉、所作のわずかな誤りでさえ、同盟家門への重大な政治的侮辱と受け取られる可能性がある。"
   },
   "type": [
     "performance",
@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o funeral",
+      "en": "the funeral",
+      "es": "el funeral",
+      "ru": "похороны",
+      "zh": "葬礼",
+      "ja": "葬儀"
+    },
+    "challenge": {
+      "pt": "a família",
+      "en": "the family",
+      "es": "la familia",
+      "ru": "семья",
+      "zh": "家族",
+      "ja": "一族"
+    }
+  }
 }

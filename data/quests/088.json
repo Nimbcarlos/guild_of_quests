@@ -31,5 +31,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "as Dunas Sussurrantes",
+      "en": "the Whispering Dunes",
+      "es": "las Dunas Susurrantes",
+      "ru": "Шепчущие Дюны",
+      "zh": "低语沙丘",
+      "ja": "囁きの砂丘"
+    },
+    "challenge": {
+      "pt": "a caravana perdida",
+      "en": "the lost caravan",
+      "es": "la caravana perdida",
+      "ru": "потерявшийся караван",
+      "zh": "失踪的商队",
+      "ja": "失われたキャラバン"
+    }
+  }
 }

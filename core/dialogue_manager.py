@@ -14,14 +14,11 @@ class DialogueManager:
     def set_language(self, language):
         self.language = language
 
-
     def _load_quest_dialogue(self, quest_id: str) -> dict:
         path = os.path.join("data/quests", f"{quest_id}.json")
-
         if not os.path.exists(path):
             print(f"[DialogueManager] Quest dialogue não encontrado: {path}")
             return {}
-
         try:
             with open(path, "r", encoding="utf-8") as f:
                 return json.load(f)
@@ -31,11 +28,9 @@ class DialogueManager:
 
     def _load_hero_dialogue(self, hero_id: str) -> dict:
         path = os.path.join(self.heroes_folder, f"{hero_id}.json")
-        
         if not os.path.exists(path):
             print(f"[DialogueManager] Arquivo de diálogos não encontrado: {path}")
             return {}
-        
         try:
             with open(path, "r", encoding="utf-8") as f:
                 return json.load(f)
@@ -43,239 +38,201 @@ class DialogueManager:
             print(f"[DialogueManager] Erro ao carregar {path}: {e}")
             return {}
 
+    def _resolve_context(self, context: dict) -> dict:
+        resolved = {}
+        for key, value in context.items():
+            if isinstance(value, dict):
+                resolved[key] = value.get(self.language) or value.get("en")
+            else:
+                resolved[key] = value
+        return resolved
+
+    def _resolve_perk(self, heroes: list, context: dict) -> str | None:
+        """Retorna o primeiro perk da party que esteja nos perks usados na quest."""
+        used_perks = context.get("perks", [])
+        party_perks = {perk for h in heroes for perk in getattr(h, "perks", [])}
+        for perk in used_perks:
+            if perk in party_perks:
+                return perk
+        return None
+
+    # ─────────────────────────────────────────────────────────────────────
+    # 🎯 FUNÇÃO UNIFICADA
+    # ─────────────────────────────────────────────────────────────────────
     def show_quest_dialogue(
         self,
         heroes: list,
         quest_id: str,
         result: str,
-        quest_type: str = None,
+        quest_type: str = "fight",
         context: dict | None = None
     ) -> list:
+        """
+        Monta as falas da party para qualquer tipo de quest.
 
-        quest_id = str(quest_id)
-        result = result.lower()
+        Estrutura esperada no JSON do herói:
+        {
+            "dialogue_blocks": {
+                "arrived":  { "alone": { "en": [...] }, "group": { "en": [...] } },
+                "action": {
+                    "fight":    { "alone": { "en": [...] }, "group": { "en": [...] } },
+                    "stealth":  { "alone": { "en": [...] }, "group": { "en": [...] } },
+                    "trade":    { ... },
+                    ...
+                },
+                "others": {
+                    "<other_hero_id>": { "alone": { "en": [...] }, "group": { "en": [...] } }
+                }
+            }
+        }
+
+        Estrutura esperada no JSON da quest:
+        {
+            "conclusion": {
+                "success": {
+                    "default":   { "en": [...] },
+                    "<perk>":    { "en": [...] }
+                },
+                "failure": { ... }
+            }
+        }
+        """
+        quest_id  = str(quest_id)
+        result    = result.lower()
+
+        if isinstance(quest_type, list):
+            quest_type = quest_type[0] if quest_type else "fight"
+        quest_type = quest_type.lower()
 
         if context is None:
             context = {}
 
-        ROLE_ORDER = {
-            "tank": 0,
-            "dps": 1,
-            "healer": 2
-        }
+        resolved_ctx = self._resolve_context(context)
 
-        # ───────────────────────────────────────────
-        # Ordena heróis por papel narrativo
-        # ───────────────────────────────────────────
+        # ── Ordenação narrativa: tank → dps → healer ──────────────────
+        ROLE_ORDER = {"tank": 0, "dps": 1, "healer": 2}
         ordered_heroes = sorted(
             heroes,
             key=lambda h: ROLE_ORDER.get((h.role or "").lower(), 99)
         )
 
         if not ordered_heroes:
-            return [{
-                "id": "assistant",
-                "text": self.lm.t("assistant_fallback_basic_report")
-            }]
+            return [{"id": "assistant", "text": self.lm.t("assistant_fallback_basic_report")}]
 
-        # ───────────────────────────────────────────
-        # 🎯 Define herói âncora
-        # ───────────────────────────────────────────
-        anchor_hero = None
-        for role in ("tank", "dps", "healer"):
-            for h in ordered_heroes:
-                if (h.role or "").lower() == role:
-                    anchor_hero = h
-                    break
-            if anchor_hero:
-                break
+        # ── Herói âncora (primeiro na ordem narrativa) ────────────────
+        anchor_id  = str(ordered_heroes[0].id)
+        party_key  = "alone" if len(ordered_heroes) == 1 else "group"
+        matched_perk = self._resolve_perk(ordered_heroes, context)
 
-        if not anchor_hero:
-            anchor_hero = min(ordered_heroes, key=lambda h: int(h.id))
-
-        anchor_id = str(anchor_hero.id)
-        party_key = "alone" if len(ordered_heroes) == 1 else "group"
-
-        # ───────────────────────────────────────────
-        # Carrega diálogo da quest (conclusão)
-        # ───────────────────────────────────────────
-        quest_dialogue = self._load_quest_dialogue(quest_id)
+        # ── Carrega conclusão da quest ────────────────────────────────
+        quest_dialogue   = self._load_quest_dialogue(quest_id)
+        conclusion_root  = quest_dialogue.get("conclusion", {}).get(result, {})
+        conclusion_texts = (
+            conclusion_root.get(matched_perk or "default", {}).get(self.language)
+            or conclusion_root.get("default", {}).get(self.language)
+        )
 
         falas = []
 
-        # ───────────────────────────────────────────
-        # Montagem das falas
-        # ───────────────────────────────────────────
         for index, hero in enumerate(ordered_heroes):
-            hero_id = str(hero.id)
-
+            hero_id   = str(hero.id)
             hero_data = self._load_hero_dialogue(hero_id)
             if not hero_data:
                 continue
 
-            fight_blocks = hero_data.get("fight_blocks")
+            blocks = hero_data.get("dialogue_blocks", {})
+            parts  = []
 
-            parts = []
-
-            # ───────── ARRIVED ─────────
-            if hero_id == anchor_id and fight_blocks:
+            # ── ARRIVED: apenas o herói âncora fala ao chegar ─────────
+            if hero_id == anchor_id:
                 arrived_texts = (
-                    fight_blocks
-                    .get("arrived", {})
-                    .get(party_key, {})
-                    .get(self.language)
+                    blocks.get("arrived", {})
+                          .get(party_key, {})
+                          .get(self.language)
                 )
-
                 if isinstance(arrived_texts, list) and arrived_texts:
-                    text = random.choice(arrived_texts)
-                    parts.append(text.format(**context))
+                    parts.append(random.choice(arrived_texts).format(**resolved_ctx))
 
-            # ───────── ACTION ─────────
-            if fight_blocks:
-                action_texts = (
-                    fight_blocks
-                    .get("action", {})
-                    .get(party_key, {})
-                    .get(self.language)
-                )
+            # ── ACTION: escolhido pelo tipo da quest ──────────────────
+            action_texts = (
+                blocks.get("action", {})
+                      .get(quest_type, {})
+                      .get(party_key, {})
+                      .get(self.language)
+            )
+            if isinstance(action_texts, list) and action_texts:
+                parts.append(random.choice(action_texts).format(**resolved_ctx))
+            else:
+                print(f"[DialogueManager] WARN: sem action '{quest_type}' para herói {hero_id}")
 
-                if isinstance(action_texts, list) and action_texts:
-                    text = random.choice(action_texts)
-                    parts.append(text.format(**context))
-
-            # ───────── OTHERS ─────────
-            if fight_blocks and len(ordered_heroes) > 1:
-                others_block = fight_blocks.get("others", {})
-
+            # ── OTHERS: menção a outros heróis da party ───────────────
+            if len(ordered_heroes) > 1:
+                others_block = blocks.get("others", {})
                 for other in ordered_heroes:
                     if other.id == hero.id:
                         continue
-
-                    other_id = str(other.id)
                     other_texts = (
-                        others_block
-                        .get(other_id, {})
-                        .get(party_key, {})
-                        .get(self.language)
+                        others_block.get(str(other.id), {})
+                                    .get(party_key, {})
+                                    .get(self.language)
                     )
-
                     if isinstance(other_texts, list) and other_texts:
-                        text = random.choice(other_texts)
-                        text = text.replace(
-                            "{hero_name}",
-                            getattr(other, "name", f"hero_{other_id}")
+                        text = random.choice(other_texts).replace(
+                            "{hero_name}", getattr(other, "name", f"hero_{other.id}")
                         )
-                        parts.append(text.format(**context))
-                        break
+                        parts.append(text.format(**resolved_ctx))
+                        break  # Uma menção por herói é suficiente
 
-            # ───────── CONCLUSION ─────────
-            is_last = index == len(ordered_heroes) - 1
-            if is_last:
-                conclusion_texts = (
-                    quest_dialogue
-                    .get("conclusion", {})
-                    .get(result, {})
-                    .get(self.language)
-                )
-
+            # ── CONCLUSION: apenas o último herói da party ────────────
+            if index == len(ordered_heroes) - 1:
                 if isinstance(conclusion_texts, list) and conclusion_texts:
-                    text = random.choice(conclusion_texts)
-                    parts.append(text.format(**context))
+                    parts.append(random.choice(conclusion_texts).format(**resolved_ctx))
 
-            # ───────── FINAL ─────────
             if parts:
-                final_text = " ".join(parts)
-                falas.append({
-                    "id": hero_id,
-                    "text": final_text
-                })
+                falas.append({"id": hero_id, "text": " ".join(parts)})
 
-        # ───────────────────────────────────────────
-        # Fallback final
-        # ───────────────────────────────────────────
-        if not falas:
-            return [{
-                "id": "assistant",
-                "text": self.lm.t("assistant_fallback_basic_report")
-            }]
+        return falas or [{"id": "assistant", "text": self.lm.t("assistant_fallback_basic_report")}]
 
-        return falas
-
+    # ─────────────────────────────────────────────────────────────────────
+    # 🎯 DIÁLOGO INICIAL (início da quest)
+    # ─────────────────────────────────────────────────────────────────────
     def get_start_dialogue(self, heroes: list, relation_counters: dict = None) -> list:
         if relation_counters is None:
             relation_counters = {}
-        
-        # Cria set com IDs dos heróis na party
-        party_ids = {str(h.id) for h in heroes}
-        
+
         falas = []
 
         for hero in heroes:
-            hero_id = str(hero.id)
-            
-            # Carrega JSON do herói
+            hero_id   = str(hero.id)
             hero_data = self._load_hero_dialogue(hero_id)
             if not hero_data:
                 continue
-            
-            # Navega para diálogos iniciais
-            start_data = hero_data.get("start_dialogues", {})
-            
-            chosen_text = None
-            
-            # 🎯 PRIORIDADE 1: Verifica cadeias de relação (contador)
+
+            start_data   = hero_data.get("start_dialogues", {})
+            chosen_text  = None
+
+            # Prioridade 1: cadeia de relação com outro herói
             chains = start_data.get("chains", {})
-
-
-            for other_hero in heroes:
-                if other_hero.id == hero.id:
+            for other in heroes:
+                if other.id == hero.id:
                     continue
-                
-                # Chave pode ser nome ou ID do outro herói
-                other_key = str(other_hero.id)
-                
+                other_key = str(other.id)
                 if other_key not in chains:
                     continue
-                
-                # Pega o contador de relação
-                counter = relation_counters.get(hero_id, {}).get(other_key, 0)
-                counter_str = str(counter)
-                
-                # Verifica se existe texto para esse contador
-                lang_block = chains[other_key].get(counter_str, {})
-                chain_texts = lang_block.get(self.language)
+                counter      = relation_counters.get(hero_id, {}).get(other_key, 0)
+                lang_block   = chains[other_key].get(str(counter), {})
+                chain_texts  = lang_block.get(self.language)
                 if isinstance(chain_texts, list) and chain_texts:
                     chosen_text = random.choice(chain_texts)
-                    break  # Encontrou, para de procurar
+                    break
 
-            # 🎯 PRIORIDADE 2: Texto base (default)
+            # Prioridade 2: texto padrão
             if not chosen_text:
-                default_block = start_data.get("default", {})
-                default_texts = default_block.get(self.language)
+                default_texts = start_data.get("default", {}).get(self.language)
                 if isinstance(default_texts, list) and default_texts:
                     chosen_text = random.choice(default_texts)
-            
-            # Adiciona a fala
+
             if chosen_text:
-                falas.append({
-                    "id": hero_id,
-                    "text": chosen_text
-                })
-        
-        # Fallback
-        if not falas:
-            return [{
-                "id": "assistant",
-                "text": self.lm.t("assistant_fallback_silent_start")
-            }]
-        
-        return falas
+                falas.append({"id": hero_id, "text": chosen_text})
 
-
-if __name__ == "__main__":
-    dm = DialogueManager(language="en")
-    
-
-    dialogues = dm.show_quest_dialogue(1, quest_id=0, result="success")
-    for fala in dialogues:
-        print(f"{fala['id']}: {fala['text']}")
+        return falas or [{"id": "assistant", "text": self.lm.t("assistant_fallback_silent_start")}]

@@ -10,13 +10,12 @@
     "kr": "신성한 현존"
   },
   "description": {
-    "pt": "Após o relatório sobre a presença 'sagrada' emanando do solo do antigo assentamento da tribo, os heróis devem retornar ao local e investigar a origem dessa energia.",
-    "en": "Following the report about the 'sacred' presence emanating from the ground of the former tribe settlement, the heroes must return to the site and investigate the origin of this energy.",
-    "es": "Tras el informe sobre la presencia 'sagrada' que emana del suelo del antiguo asentamiento de la tribu, los héroes deben regresar al lugar e investigar el origen de esta energía.",
-    "ru": "После доклада о «священном» присутствии, исходящем из земли бывшего поселения племени, герои должны вернуться на место и исследовать происхождение этой энергии.",
-    "zh": "在关于“神圣”存在从前部落定居点地面散发出来的报告之后，英雄们必须返回该地点并调查这种能量的来源。",
-    "ja": "かつての部族の集落の地面から発せられる「神聖な」気配に関する報告を受けて、英雄たちはその場所に戻り、このエネルギーの起源を調査しなければならない。",
-    "kr": "부족의 옛 정착지 땅에서 발산되는 '신성한' 존재에 대한 보고 후, 영웅들은 그 장소로 돌아가 이 에너지의 근원을 조사해야 합니다."
+    "pt": "Após o relatório sobre a presença 'sagrada' emanando do solo do assentamento da tribo Ashal’Kai, os heróis devem retornar ao local e investigar a origem dessa energia.",
+    "en": "Following the report of a 'sacred' presence emanating from the ground of the Ashal’Kai tribal settlement, the heroes must return to the site and investigate the source of this energy.",
+    "es": "Tras el informe sobre una presencia 'sagrada' emanando del suelo del asentamiento tribal Ashal’Kai, los héroes deben regresar al lugar e investigar la fuente de esta energía.",
+    "ru": "После сообщения о 'священном' присутствии, исходящем из земли племенного поселения Ашал'Кай, героям необходимо вернуться на место и расследовать источник этой энергии.",
+    "zh": "在关于从Ashal’Kai部落定居点的地面散发出“神圣”存在的报告之后，英雄们必须返回现场调查这种能量的来源。",
+    "ja": "Ashal’Kai部族の集落の地面から発せられる「神聖な」存在の報告を受けて、英雄たちは現場に戻り、このエネルギーの源を調査しなければなりません。"
   },
   "type": [
     "religion",
@@ -36,5 +35,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o assentamento",
+      "en": "the settlement",
+      "es": "el asentamiento",
+      "ru": "поселение",
+      "zh": "定居点",
+      "ja": "集落"
+    },
+    "challenge": {
+      "pt": "a presença sagrada",
+      "en": "the sacred presence",
+      "es": "la presencia sagrada",
+      "ru": "священное присутствие",
+      "zh": "神圣的存在",
+      "ja": "神聖な存在"
+    }
+  }
 }

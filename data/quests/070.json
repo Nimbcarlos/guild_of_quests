@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a casa da família",
+      "en": "the family home",
+      "es": "la casa familiar",
+      "ru": "семейный дом",
+      "zh": "家庭住所",
+      "ja": "家族の家"
+    },
+    "challenge": {
+      "pt": "a mulher ressuscitada",
+      "en": "the resurrected wife",
+      "es": "la esposa resucitada",
+      "ru": "воскрешенная жена",
+      "zh": "复活的妻子",
+      "ja": "復活した妻"
+    }
+  }
 }

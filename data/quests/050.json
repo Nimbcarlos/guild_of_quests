@@ -9,12 +9,12 @@
     "ja": "燃える石の道"
   },
   "description": {
-    "pt": "Uma veia de magma rompeu-se sob as minas, isolando um carregamento de cristais purificadores essenciais para a cidade. O solo da caverna tornou-se um labirinto de pedra superaquecida e plataformas que afundam lentamente. A Guilda precisa de alguém com agilidade e fôlego para atravessar o setor e resgatar a carga antes que o calor a destrua.",
-    "en": "A magma vein has burst beneath the mines, isolating a shipment of purifying crystals essential for the city. The cave floor has become a labyrinth of overheated stone and slowly sinking platforms. The Guild needs someone with agility and stamina to cross the sector and rescue the cargo before the heat destroys it.",
-    "es": "Una veta de magma se rompió bajo las minas, aislando un cargamento de cristais purificadores esenciales para la ciudad. El suelo de la cueva se ha convertido en un laberinto de piedra ardiente y plataformas que se hunden. El gremio necesita a alguien con agilidad y resistencia para rescatar la carga antes de que el calor la destruya.",
-    "ru": "Под шахтами прорвалась магматическая жила, отрезав партию очищающих кристаллов, необходимых городу. Пол пещеры превратился в лабиринт из раскаленных камней и медленно тонущих платформ. Гильдии нужен кто-то ловкий и выносливый, чтобы пересечь сектор и спасти груз, пока жара не уничтожила его.",
-    "zh": "矿井下方的一条岩浆脉破裂，使城市必需的一批净化水晶被孤立。洞穴地面变成了一个由过热石头和缓慢下沉的平台组成的迷宫。公会需要一个敏捷且有耐力的人穿过该区域，在高温摧毁货物之前将其救出。",
-    "ja": "鉱山の地下で溶岩流が噴出し、街に不可欠な浄化クリスタルの積み荷が孤立してしまった。洞窟の床は過熱した岩とゆっくり沈みゆく足場の迷宮と化している。熱で積み荷が破壊される前に、その区域を横断して回収できる敏捷性とスタミナを持つ者をギルドは必要としている。"
+    "pt": "Uma veia de magma rompeu-se sob uma mina, isolando uma remessa selada de cristais purificadores destinados às reservas de água da cidade. O solo das cavernas tornou-se um labirinto de pedra superaquecida e plataformas que afundam lentamente. A Guilda precisa de alguém com agilidade e fôlego para atravessar o setor e resgatar a carga antes que o calor destrua os cristais.",
+    "en": "A vein of magma has ruptured beneath a mine, isolating a sealed shipment of purifying crystals destined for the city's water reserves. The cavern floor has become a maze of overheated stone and slowly sinking platforms. The Guild needs someone with agility and stamina to navigate the sector and rescue the cargo before the heat destroys the crystals.",
+    "es": "Una vena de magma se ha roto debajo de una mina, aislando un envío sellado de cristales purificadores destinados a las reservas de agua de la ciudad. El suelo de la caverna se ha convertido en un laberinto de piedra sobrecalentada y plataformas que se hunden lentamente. La Guild necesita a alguien con agilidad y resistencia para navegar por el sector y rescatar la carga antes de que el calor destruya los cristales.",
+    "ru": "Вена магмы прорвалась под шахтой, изолируя запечатанную партию очищающих кристаллов, предназначенных для водных резервов города. Пол пещеры превратился в лабиринт из перегретого камня и медленно погружающихся платформ. Гильдии нужен кто-то с ловкостью и выносливостью, чтобы пройти через сектор и спасти груз, прежде чем тепло уничтожит кристаллы.",
+    "zh": "一条岩浆脉在矿井下破裂，隔离了一批密封的净化水晶，这些水晶是送往城市水库的。洞穴的地面变成了一个过热的石头迷宫和缓慢下沉的平台。公会需要一个有敏捷性和耐力的人来穿越这个区域，在热量摧毁水晶之前救出货物。",
+    "ja": "マグマの脈が鉱山の下で破裂し、都市の水源に向けた浄化クリスタルの密封された出荷が孤立しています。洞窟の床は過熱した石とゆっくりと沈むプラットフォームの迷路になっています。ギルドは、セクターをナビゲートし、熱がクリスタルを破壊する前に貨物を救出するための敏捷性とスタミナを持つ人が必要です。"
   },
   "type": "athletics",
   "max_heroes": 1,
@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a mina",
+      "en": "the mine",
+      "es": "la mina",
+      "ru": "шахта",
+      "zh": "矿井",
+      "ja": "鉱山"
+    },
+    "challenge": {
+      "pt": "os cristais",
+      "en": "the crystals",
+      "es": "los cristales",
+      "ru": "кристаллы",
+      "zh": "水晶",
+      "ja": "クリスタル"
+    }
+  }
 }

@@ -16,7 +16,7 @@
     "ja": "刀のような枝角を持つ巨大なヘラジカが、森に入る者を誰彼構わず襲っています。そのクリーチャーは理性を失い、極めて攻撃的です。誰かが死ぬ前に鎮静化させてください。",
     "zh": "一只鹿角形如刀刃的巨型驼鹿正在攻击任何进入森林的人。这只生物看起来神志不清，极具攻击性。在有人丧命之前，将其安抚。"
   },
-  "type": "Fight",
+  "type": "fight",
   "max_heroes": 2,
   "expired_at": 3,
   "available_from_turn": 61,
@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a floresta",
+      "en": "the forest",
+      "es": "el bosque",
+      "ru": "лес",
+      "zh": "森林",
+      "ja": "森"
+    },
+    "enemy": {
+      "pt": "o alce",
+      "en": "the moose",
+      "es": "el alce",
+      "ru": "лось",
+      "zh": "驼鹿",
+      "ja": "モース"
+    }
+  }
 }

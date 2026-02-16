@@ -16,7 +16,7 @@
     "zh": "哥布林冠军已被发现正向城市进军，由哥布林法师护送。英雄们必须在他们到达城墙前拦截这群敌人，因为对主门的攻击迫在眉睫。",
     "ja": "ゴブリンのチャンピオンがゴブリンの魔術師に護衛され、街に向かって行進しているのが目撃されました。英雄たちは彼らが城壁に到達する前にグループを阻止しなければなりません。主要な門への攻撃が差し迫っています。"
   },
-  "type": "Fight",
+  "type": "fight",
   "max_heroes": 4,
   "expired_at": 3,
   "available_from_turn": 89,
@@ -31,5 +31,23 @@
   ],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a estrada para a cidade",
+      "en": "the road to the city",
+      "es": "el camino a la ciudad",
+      "ru": "дорога к городу",
+      "zh": "通往城市的道路",
+      "ja": "街への道"
+    },
+    "enemy": {
+      "pt": "o Campeão Goblin",
+      "en": "the Goblin Champion",
+      "es": "el Campeón Goblin",
+      "ru": "Гоблинский чемпион",
+      "zh": "哥布林冠军",
+      "ja": "ゴブリンチャンピオン"
+    }
+  }
 }

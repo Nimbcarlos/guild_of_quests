@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o bosque",
+      "en": "the woods",
+      "es": "el bosque",
+      "ru": "лес",
+      "zh": "树林",
+      "ja": "森"
+    },
+    "challenge": {
+      "pt": "as armadilhas",
+      "en": "the traps",
+      "es": "las trampas",
+      "ru": "ловушки",
+      "zh": "陷阱",
+      "ja": "罠"
+    }
+  }
 }

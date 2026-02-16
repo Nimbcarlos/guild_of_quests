@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a mina",
+      "en": "the mine",
+      "es": "la mina",
+      "ru": "шахта",
+      "zh": "矿井",
+      "ja": "鉱山"
+    },
+    "challenge": {
+      "pt": "os mineiros",
+      "en": "the miners",
+      "es": "los mineros",
+      "ru": "шахтеры",
+      "zh": "矿工们",
+      "ja": "鉱夫たち"
+    }
+  }
 }

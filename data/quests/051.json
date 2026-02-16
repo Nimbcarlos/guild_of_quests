@@ -9,12 +9,12 @@
     "ja": "城の試験"
   },
   "description": {
-    "pt": "O Rei tornou-se paranoico com sua própria segurança. Para confirmar suas suspeitas, ele contratou a Guilda para invadir o tesouro real sem ser detectada. O objetivo não é roubar, mas provar que as defesas atuais falham.",
-    "en": "The King has grown paranoid about his security. He hires the Guild to infiltrate the royal treasury undetected, not to steal, but to prove the current defenses are flawed.",
-    "es": "El Rey está paranoico con su seguridad. Contrata al Gremio para infiltrarse en el tesoro real y demostrar que las defensas fallan.",
-    "ru": "Король подозревает, что защита слаба. Он нанимает Гильдию для тайного проникновения в сокровищницу.",
-    "zh": "国王对自身安保产生怀疑，雇佣公会秘密潜入王室宝库以验证防御漏洞。",
-    "ja": "王は城の警備に疑念を抱き、ギルドに宝物庫への潜入を依頼した。"
+    "pt": "Um lorde influente tornou-se obcecado com a própria segurança. Para testar suas defesas, contratou a Guilda para infiltrar-se em seu tesouro sem ser detectada. O objetivo não é roubar nada, mas deixar uma marca inequívoca que prove a vulnerabilidade do castelo.",
+    "en": "An influential lord has become obsessed with his own security. To test his defenses, he has hired the Guild to infiltrate his treasury undetected. The goal is not to steal anything, but to leave an unmistakable mark that proves the castle's vulnerability.",
+    "es": "Un señor influyente se ha obsesionado con su propia seguridad. Para probar sus defensas, ha contratado a la Guild para infiltrarse en su tesoro sin ser detectado. El objetivo no es robar nada, sino dejar una marca inconfundible que demuestre la vulnerabilidad del castillo.",
+    "ru": "Влиятельный лорд стал одержим своей собственной безопасностью. Чтобы проверить свои обороны, он нанял Гильдию для проникновения в его сокровищницу незамеченным. Цель не в том, чтобы что-то украсть, а в том, чтобы оставить неопровержимый след, доказывающий уязвимость замка.",
+    "zh": "一位有影响力的领主对自己的安全变得痴迷。为了测试他的防御能力，他雇佣了公会来悄无声息地渗透他的宝库。目标不是偷走任何东西，而是留下一个明确的标记，证明城堡的脆弱性。",
+    "ja": "ある有力な領主は自分の安全に取り憑かれている。防御を試すため、彼はギルドを雇って、見つからずに宝物庫に潜入させた。目的は何も盗むことではなく、城の脆弱性を証明する明確な印を残すことだ。"
   },
   "type": "stealth",
   "max_heroes": 1,
@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o castelo",
+      "en": "the castle",
+      "es": "el castillo",
+      "ru": "замок",
+      "zh": "城堡",
+      "ja": "城"
+    },
+    "challenge": {
+      "pt": "as defesas",
+      "en": "the defenses",
+      "es": "las defensas",
+      "ru": "защита",
+      "zh": "防御",
+      "ja": "防衛"
+    }
+  }
 }

@@ -16,7 +16,7 @@
     "zh": "一只巨型蜘蛛堵住了洞穴的通道。消灭这只生物，以便旅行者可以通行。",
     "ja": "巨大な蜘蛛が洞窟の通路を塞いでいる。旅行者が通れるようにその生物を排除せよ。"
   },
-  "type": "Fight",
+  "type": "fight",
   "max_heroes": 3,
   "expired_at": 3,
   "available_from_turn": 85,
@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a caverna",
+      "en": "the cave",
+      "es": "la cueva",
+      "ru": "пещера",
+      "zh": "洞穴",
+      "ja": "洞窟"
+    },
+    "enemy": {
+      "pt": "a aranha gigante",
+      "en": "the giant spider",
+      "es": "la araña gigante",
+      "ru": "гигантский паук",
+      "zh": "巨型蜘蛛",
+      "ja": "巨大なクモ"
+    }
+  }
 }

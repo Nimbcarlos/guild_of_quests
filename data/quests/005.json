@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a montanha",
+      "en": "the mountain",
+      "es": "la montaña",
+      "ru": "гора",
+      "zh": "山",
+      "ja": "山"
+    },
+    "challenge": {
+      "pt": "a pedra",
+      "en": "the stone",
+      "es": "la piedra",
+      "ru": "камень",
+      "zh": "石头",
+      "ja": "石"
+    }
+  }
 }

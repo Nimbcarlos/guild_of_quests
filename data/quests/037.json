@@ -10,11 +10,11 @@
   },
   "description": {
     "pt": "Pássaros estão migrando para o norte em pleno inverno. Outros animais demonstram confusão e desorientação, como se os ciclos naturais tivessem sido rompidos.",
-    "en": "Birds are migrating north during winter. Other animals show confusion, as if natural cycles were broken.",
-    "es": "Las aves migran al norte en invierno. Otros animales muestran desorientación.",
-    "ru": "Птицы летят на север зимой. Животные дезориентированы.",
-    "zh": "鸟类在冬季向北迁徙，动物行为异常，仿佛自然法则被打破。",
-    "ja": "冬にも関わらず鳥が北へ渡っている。自然の周期が乱れている。"
+    "en": "Birds are migrating north in the middle of winter. Other animals show confusion and disorientation, as if natural cycles have been disrupted.",
+    "es": "Los pájaros migran hacia el norte en pleno invierno. Otros animales muestran confusión y desorientación, como si los ciclos naturales se hubieran roto.",
+    "ru": "Птицы мигрируют на север посреди зимы. Другие животные демонстрируют замешательство и дезориентацию, как будто природные циклы нарушены.",
+    "zh": "鸟类在冬季中迁徙到北方。其他动物表现出困惑和迷失方向，就好像自然周期被打乱了一样。",
+    "ja": "鳥が冬の真っ只中に北へ渡っています。他の動物は混乱と方向感覚の喪失を示し、自然のサイクルが乱されたかのようです。"
   },
   "type": [
     "nature",
@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a região",
+      "en": "the region",
+      "es": "la región",
+      "ru": "регион",
+      "zh": "地区",
+      "ja": "地域"
+    },
+    "challenge": {
+      "pt": "a migração anormal",
+      "en": "the abnormal migration",
+      "es": "la migración anormal",
+      "ru": "аномальная миграция",
+      "zh": "异常迁徙",
+      "ja": "異常な移動"
+    }
+  }
 }

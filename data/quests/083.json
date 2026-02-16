@@ -9,15 +9,15 @@
     "ja": "演劇スパイ"
   },
   "description": {
-    "pt": "Uma trupe de teatro itinerante é, na verdade, fachada para espiões estrangeiros. A única forma de se infiltrar é subir ao palco com eles e atuar melhor do que os próprios atores.",
-    "en": "A traveling theater troupe is actually a front for foreign spies. The only way to infiltrate is to get on stage with them and out-act the actors themselves.",
-    "es": "Una compañía de teatro itinerante es en realidad una fachada para espías extranjeros. La única forma de infiltrarse es subir al escenario y actuar mejor que los propios actores.",
-    "ru": "Бродячая театральная труппа — это прикрытие для иностранных шпионов. Единственный способ внедриться — выйти с ними на сцену и переиграть самих актеров.",
-    "zh": "一个巡回剧团实际上是外国间谍的掩护。唯一的渗透方法就是和他们一起上台，并表现出比演员更精湛的演技。",
-    "ja": "旅の劇団は、実は外国のスパイの隠れ蓑だ。潜入する唯一の方法は、彼らと一緒に舞台に上がり、本物の役者以上の演技を披露することだ。"
+    "pt": "Uma trupe de teatro itinerante levantou suspeitas de espionagem estrangeira. Comentários discretos, encontros fora de hora e rotas incomuns chamaram a atenção das autoridades. A Guilda deve infiltrar-se entre os artistas, subir ao palco se necessário, e descobrir se as suspeitas são reais ou fruto de paranoia.",
+    "en": "A traveling theater troupe has raised suspicions of foreign espionage. Discreet remarks, late-night meetings, and unusual routes have drawn attention. The Guild must infiltrate the performers, take the stage if necessary, and determine whether the suspicions are real or mere paranoia.",
+    "es": "Una compañía de teatro itinerante ha despertado sospechas de espionaje extranjero. Comentarios discretos, reuniones nocturnas y rutas inusuales han llamado la atención. El Gremio debe infiltrarse entre los artistas, subir al escenario si es necesario y determinar si las sospechas son reales o fruto de la paranoia.",
+    "ru": "Бродячая театральная труппа вызвала подозрения в иностранном шпионаже. Тайные разговоры, ночные встречи и странные маршруты привлекли внимание властей. Гильдии предстоит внедриться в труппу, при необходимости выйти на сцену и выяснить, обоснованы ли подозрения или это лишь паранойя.",
+    "zh": "一支巡回剧团引发了有关外国间谍活动的怀疑。隐秘的言谈、深夜会面和异常的行程引起了关注。公会需要潜入其中，必要时登台演出，查明这些怀疑是真实威胁还是无端猜测。",
+    "ja": "旅回りの劇団に外国のスパイ疑惑が持ち上がった。密かな会話や深夜の集まり、不自然な移動経路が注目を集めている。ギルドは劇団に潜入し、必要であれば舞台に立ち、疑惑が事実かそれとも単なる思い込みかを突き止めなければならない。"
   },
   "type": "performance",
-  "max_heroes": 2,
+  "max_heroes": 1,
   "expired_at": 6,
   "available_from_turn": 92,
   "duration": 3,
@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o teatro",
+      "en": "the theater",
+      "es": "el teatro",
+      "ru": "театр",
+      "zh": "剧院",
+      "ja": "劇場"
+    },
+    "challenge": {
+      "pt": "a trupe",
+      "en": "the troupe",
+      "es": "la compañía",
+      "ru": "труппа",
+      "zh": "剧团",
+      "ja": "劇団"
+    }
+  }
 }

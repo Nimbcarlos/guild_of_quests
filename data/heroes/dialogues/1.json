@@ -129,83 +129,888 @@
       }
     }
   },
-  "fight_blocks": {
+  "dialogue_blocks": {
     "arrived": {
       "alone": {
         "pt": [
-          "C-chegamos n{location}. Eu fui na frente com meu escudo, como o Mestre pediu.",
-          "{location} parecia perigoso. Eu assumi a linha de frente pra n-ninguém se machucar.",
-          "Eu me p-posicionei n{location} e pedi pra ficarem atrás de m-mim.",
-          "J-já estávamos n{location}. Eu fui primeiro pra garantir o caminho.",
-          "Chegamos. M-mestre, segurei o avanço logo na entrada d{location}.",
-          "E-estávamos n{location}. Meu escudo ficou pronto pra s-ser a barreira.",
-          "Entramos n{location}. Eu t-tentei ser corajosa e liderei o grupo.",
-          "{location} era assustador... mas eu fui na frente com o escudo.",
-          "C-chegada n{location}. Eu t-tomei a frente da formação.",
-          "P-posicionada n{location}. Prometi que ninguém passaria por mim."
-          ]
-        },
-      "group": {
-        "pt": [
-          "C-chegamos n{location}. Eu fui na frente com meu escudo, como o Mestre pediu.",
-          "{location} parecia perigoso. Eu assumi a linha de frente pra n-ninguém se machucar.",
-          "Eu me p-posicionei n{location} e pedi pra ficarem atrás de m-mim.",
-          "J-já estávamos n{location}. Eu fui primeiro pra garantir o caminho.",
-          "Chegamos. M-mestre, segurei o avanço logo na entrada de {location}.",
-          "E-estávamos n{location}. Meu escudo ficou pronto pra s-ser a barreira.",
-          "Entramos n{location}. Eu t-tentei ser corajosa e liderei o grupo.",
-          "{location} era assustador... mas eu fui na frente com o escudo.",
-          "C-chegada n{location}. Eu t-tomei a frente da formação.",
-          "P-posicionada n{location}. Prometi que ninguém passaria por mim."
+          "C-cheguei n{location}. Fiquei parada um instante antes de dar primeiro passo.",
+          "Estive n{location}. Ajustei escudo devagar, tentando p-parecer confiante.",
+          "Cheguei sozinha n{location}. Respirei fundo antes de avançar.",
+          "Pisei n{location} com cuidado. Não gosto de lugares onde todos olham.",
+          "Já estava n{location}. Segurei escudo firme pra esconder tremor.",
+          "Entrei n{location} em silêncio. Preferi que ninguém notasse presença.",
+          "N{location} parecia grande demais... mas fiquei na frente mesmo assim.",
+          "P-posicionada n{location}. Mantive olhos baixos e escudo pronto.",
+          "Avancei até n{location}. Esperei coração acalmar antes de seguir.",
+          "Fiquei n{location}. Não sou boa falando... então permaneci de guarda."
+        ],
+        "en": [
+          "I-I arrived at {location}. I paused before taking first step.",
+          "I was at {location}. Adjusted shield slowly, trying to l-look confident.",
+          "Arrived alone at {location}. Took deep breath before moving.",
+          "Stepped into {location} carefully. I dislike places where all stare.",
+          "Was already at {location}. Held shield tight to hide trembling.",
+          "Entered {location} in silence. Preferred no one noticed presence.",
+          "{location} felt too large... but I stayed at front anyway.",
+          "P-positioned at {location}. Kept eyes low and shield ready.",
+          "Moved toward {location}. Waited for heartbeat to calm first.",
+          "Stayed at {location}. Not good with words... remained on guard."
+        ],
+        "es": [
+          "L-llegué a {location}. Me detuve antes de dar primer paso.",
+          "Estuve en {location}. Ajusté escudo despacio, intentando p-parecer segura.",
+          "Llegué sola a {location}. Respiré hondo antes de avanzar.",
+          "Entré en {location} con cuidado. No me gustan miradas.",
+          "Ya estaba en {location}. Sujeté escudo firme para ocultar temblor.",
+          "Entré en {location} en silencio. Preferí que nadie notara presencia.",
+          "{location} parecía demasiado grande... pero me quedé al frente.",
+          "Me p-posicioné en {location}. Manteniendo mirada baja y escudo listo.",
+          "Avancé hacia {location}. Esperé que corazón se calmara.",
+          "Permanecí en {location}. No hablo bien... quedé de guardia."
+        ],
+        "ru": [
+          "Я-я прибыла в {location}. Замерла перед первым шагом.",
+          "Была в {location}. Медленно поправила щит, стараясь в-выглядеть уверенно.",
+          "Прибыла одна в {location}. Сделала глубокий вдох перед движением.",
+          "Вошла в {location} осторожно. Не люблю чужие взгляды.",
+          "Уже была в {location}. Крепко держала щит, скрывая дрожь.",
+          "Вошла в {location} молча. Хотела остаться незамеченной.",
+          "{location} казалось слишком большим... но осталась впереди.",
+          "З-заняла позицию в {location}. Опустила взгляд, щит готов.",
+          "Продвинулась к {location}. Ждала, пока сердце успокоится.",
+          "Осталась в {location}. Плохо говорю... стояла на страже."
+        ],
+        "ja": [
+          "わ、私は{location}に到着した。最初の一歩の前に立ち止まった。",
+          "{location}にいた。ゆっくり盾を直し、じ、自信あるふりをした。",
+          "ひとりで{location}に到着した。進む前に深呼吸した。",
+          "{location}に慎重に入った。視線は苦手。",
+          "すでに{location}にいた。震えを隠すように盾を握った。",
+          "静かに{location}へ入った。気づかれない方がよかった。",
+          "{location}は広すぎた…でも前に立った。",
+          "{location}で位置についた。目を伏せ、盾を構えた。",
+          "{location}へ進んだ。鼓動が落ち着くのを待った。",
+          "{location}に残った。話すのは苦手…だから守りに立った。"
+        ],
+        "zh": [
+          "我、我抵达了{location}。在迈出第一步前停了一下。",
+          "我在{location}。慢慢调整盾牌，努、努力装作镇定。",
+          "独自来到{location}。前进前深吸了一口气。",
+          "小心走进{location}。我不喜欢被注视。",
+          "已经在{location}。紧握盾牌掩饰颤抖。",
+          "安静进入{location}。希望没人注意到我。",
+          "{location}显得太大了…但还是站在前面。",
+          "在{location}站好位置。低着头，盾牌准备好。",
+          "走向{location}。等心跳慢下来才继续。",
+          "留在{location}。不擅长说话…所以守在那里。"
         ]
+      },
+    "group": {
+      "pt": [
+        "C-chegamos n{location}. Eu fiquei na frente, mesmo evitando olhar para trás.",
+        "Entramos n{location}. Segurei escudo firme enquanto passos ecoavam atrás.",
+        "Já estávamos n{location}. Mantive posição à frente, mesmo com voz baixa.",
+        "Avançamos até n{location}. Respirei fundo antes de liderar caminho.",
+        "Pisei primeiro n{location}. Preferi que ninguém notasse hesitação.",
+        "Seguimos para n{location}. Fiquei diante de todos com escudo erguido.",
+        "Chegamos juntos n{location}. Mantive olhos baixos e linha firme.",
+        "N{location} parecia ameaçador... mas tomei frente da formação.",
+        "Estávamos n{location}. Ajustei postura para parecer mais confiante.",
+        "Paramos n{location}. Permaneci na dianteira, mesmo sentindo tremor."
+      ],
+      "en": [
+        "W-we arrived at {location}. I stayed at front, avoiding looking back.",
+        "Entered {location}. Held shield firm while footsteps echoed behind.",
+        "Were already at {location}. Kept position at front, voice low.",
+        "Moved toward {location}. Took deep breath before leading.",
+        "Stepped first into {location}. Hoped no one noticed hesitation.",
+        "Went to {location}. Stayed ahead with shield raised.",
+        "Arrived together at {location}. Kept eyes down, line steady.",
+        "{location} felt threatening... but I took front position.",
+        "Were at {location}. Adjusted stance to look more confident.",
+        "Stopped at {location}. Remained at front despite trembling."
+      ],
+      "es": [
+        "L-llegamos a {location}. Me quedé al frente sin mirar atrás.",
+        "Entramos en {location}. Sujeté escudo mientras pasos sonaban detrás.",
+        "Ya estábamos en {location}. Manteniendo posición al frente.",
+        "Avanzamos hacia {location}. Respiré hondo antes de liderar.",
+        "Pisé primero en {location}. Esperaba que nadie notara duda.",
+        "Fuimos a {location}. Permanecí delante con escudo alzado.",
+        "Llegamos juntos a {location}. Mirada baja, línea firme.",
+        "{location} parecía amenazante... pero tomé el frente.",
+        "Estábamos en {location}. Ajusté postura para parecer segura.",
+        "Nos detuvimos en {location}. Seguí al frente pese al temblor."
+      ],
+      "ru": [
+        "М-мы прибыли в {location}. Осталась впереди, не оглядываясь.",
+        "Вошли в {location}. Держала щит, слыша шаги позади.",
+        "Уже были в {location}. Сохраняла позицию впереди.",
+        "Продвинулись к {location}. Сделала вдох перед тем как вести.",
+        "Шагнула первой в {location}. Надеялась скрыть сомнение.",
+        "Направились к {location}. Стояла впереди со щитом.",
+        "Прибыли вместе в {location}. Опустила взгляд, строй держала.",
+        "{location} казалось угрожающим... но заняла переднюю позицию.",
+        "Находились в {location}. Поправила стойку для уверенности.",
+        "Остановились в {location}. Осталась впереди, несмотря на дрожь."
+      ],
+      "ja": [
+        "わ、私たちは{location}に到着した。前に立ち、振り返らなかった。",
+        "{location}に入った。後ろの足音を聞きながら盾を握った。",
+        "すでに{location}にいた。前の位置を守った。",
+        "{location}へ進んだ。先に立つ前に深呼吸した。",
+        "最初に{location}へ足を踏み入れた。迷いを隠した。",
+        "{location}へ向かった。前で盾を構えた。",
+        "一緒に{location}へ到着した。目を伏せ隊列を保った。",
+        "{location}は脅威に見えた…でも前に立った。",
+        "{location}にいた。姿勢を直して落ち着いたふりをした。",
+        "{location}で止まった。震えながらも前に残った。"
+      ],
+      "zh": [
+        "我、我们抵达了{location}。我站在前面，没有回头。",
+        "进入{location}。握紧盾牌，听见身后脚步声。",
+        "已经在{location}。我保持在最前方。",
+        "向{location}前进。站到前面前深吸一口气。",
+        "第一个踏入{location}。努力隐藏犹豫。",
+        "前往{location}。举盾站在队伍前方。",
+        "一起到达{location}。低着头保持队形。",
+        "{location}看起来很危险…但我站在最前面。",
+        "在{location}。调整姿势装作镇定。",
+        "停在{location}。即使颤抖也留在前线。"
+      ]
       }
     },
     "action": {
-      "alone": {
-        "pt": [
-          "Bati a Vorpal no escudo e gritei pra chamar {enemy}.",
-          "Avancei rápido e provoquei {enemy} antes que pensasse.",
-          "Ergui o escudo e atraí {enemy} pra cima de mim.",
-          "Gritei alto e corri direto contra {enemy}.",
-          "Dei um passo à frente e forcei {enemy} a me atacar.",
-          "Golpeei o chão com a Vorpal pra chamar {enemy}.",
-          "Respirei fundo e avancei pra travar {enemy}.",
-          "Rosnei e investi com tudo contra {enemy}.",
-          "Levantei o escudo e provoquei {enemy} sem recuar.",
-          "Gritei com força e puxei {enemy} pra longe do grupo." 
-        ]
-    },
-      "group": {
-        "pt": [
-          "Bati a Vorpal no escudo e gritei pra chamar {enemy}.",
-          "Avancei rápido e provoquei {enemy} antes que pensasse.",
-          "Ergui o escudo e atraí {enemy} pra cima de mim.",
-          "Gritei alto e corri direto contra {enemy}.",
-          "Dei um passo à frente e forcei {enemy} a me atacar.",
-          "Golpeei o chão com a Vorpal pra chamar {enemy}.",
-          "Respirei fundo e avancei pra travar {enemy}.",
-          "Rosnei e investi com tudo contra {enemy}.",
-          "Levantei o escudo e provoquei {enemy} sem recuar.",
-          "Gritei com força e puxei {enemy} pra longe do grupo." 
-        ]
-      }
-    },
-    "others": {
-      "7": {
-       "group": {
+      "fight": {
+        "alone": {
           "pt": [
-            "{hero_name} ficou atrás de mim. Isso ajudou.",
-            "Saber que {hero_name} estava ali me deixou mais firme."
+            "Bati Vorpal no escudo e gritei para chamar {enemy}.",
+            "Avancei sem hesitar e provoquei {enemy}.",
+            "Ergui escudo e forcei confronto direto com {enemy}.",
+            "Corri contra {enemy} antes que pudesse reagir.",
+            "Dei passo firme e obriguei {enemy} a lutar comigo.",
+            "Golpeei chão com Vorpal e desafiei {enemy}.",
+            "Respirei fundo e investi pesado contra {enemy}.",
+            "Rosnei baixo e ataquei {enemy} sem recuar.",
+            "Levantei escudo e pressionei {enemy} com força.",
+            "Gritei e avancei até travar combate com {enemy}."
+          ],
+          "en": [
+            "I banged Vorpal on my shield and shouted to draw {enemy}.",
+            "I advanced without hesitation and provoked {enemy}.",
+            "Raised shield and forced direct confrontation with {enemy}.",
+            "Rushed at {enemy} before they could react.",
+            "Took firm step and made {enemy} fight me.",
+            "Struck ground with Vorpal and challenged {enemy}.",
+            "Took deep breath and charged hard against {enemy}.",
+            "Growled low and attacked {enemy} without retreating.",
+            "Lifted shield and pressured {enemy} with force.",
+            "Shouted and moved in to engage {enemy}."
+          ],
+          "es": [
+            "Golpeé Vorpal en mi escudo y grité para atraer a {enemy}.",
+            "Avancé sin dudar y provoqué a {enemy}.",
+            "Levanté el escudo y forcé un enfrentamiento directo con {enemy}.",
+            "Corrí hacia {enemy} antes de que pudiera reaccionar.",
+            "Di un paso firme e hice que {enemy} luchara conmigo.",
+            "Golpeé el suelo con Vorpal y desafié a {enemy}.",
+            "Respiré hondo y cargué con fuerza contra {enemy}.",
+            "Gruñí bajo y ataqué a {enemy} sin retroceder.",
+            "Levanté el escudo y presioné a {enemy} con fuerza.",
+            "Grité y avancé para enfrentar a {enemy}."
+          ],
+          "ru": [
+            "Я ударила Ворпал по щиту и закричала, чтобы привлечь {enemy}.",
+            "Я без колебаний двинулась вперед и спровоцировала {enemy}.",
+            "Подняла щит и заставила {enemy} вступить в прямой бой.",
+            "Ринулась на {enemy} прежде, чем он смог отреагировать.",
+            "Сделала уверенный шаг и заставила {enemy} сражаться со мной.",
+            "Ударила землю Ворпал и вызвала {enemy} на бой.",
+            "Глубоко вздохнула и набросилась с силой на {enemy}.",
+            "Проворчала низко и атаковала {enemy}, не отступая.",
+            "Подняла щит и давила на {enemy} с силой.",
+            "Закричала и двинулась, чтобы вступить в бой с {enemy}."
+          ],
+          "ja": [
+            "Vorpalを盾に叩きつけて{enemy}を呼び寄せた。",
+            "ためらわずに前進し、{enemy}を挑発した。",
+            "盾を上げて{enemy}との直接対決を強制した。",
+            "{enemy}が反応する前に突進した。",
+            "しっかりと踏み出して{enemy}を戦わせた。",
+            "Vorpalで地面を打ち、{enemy}に挑戦した。",
+            "深呼吸して{enemy}に強く突撃した。",
+            "低くうなりながら後退せずに{enemy}を攻撃した。",
+            "盾を持ち上げて{enemy}に力で圧力をかけた。",
+            "叫んで{enemy}と戦うために前進した。"
+          ],
+          "zh": [
+            "我用Vorpal敲击盾牌，喊叫着引来{enemy}。",
+            "毫不犹豫地向前推进，挑衅{enemy}。",
+            "举起盾牌，强迫{enemy}直接对抗。",
+            "在{enemy}反应之前冲了过去。",
+            "坚定地迈出一步，让{enemy}和我战斗。",
+            "用Vorpal击打地面，向{enemy}发出挑战。",
+            "深呼吸后重重地冲向{enemy}。",
+            "低声咆哮着攻击{enemy}，不退缩。",
+            "举起盾牌，用力压制{enemy}。",
+            "大喊着前进，与{enemy}交战。"
+          ]
+        },
+        "group": {
+          "pt": [
+            "Bati a Vorpal no escudo e gritei pra chamar {enemy}.",
+            "Avancei rápido e provoquei {enemy} antes que pensasse.",
+            "Ergui o escudo e atraí {enemy} pra cima de mim.",
+            "Gritei alto e corri direto contra {enemy}.",
+            "Dei um passo à frente e forcei {enemy} a me atacar.",
+            "Golpeei o chão com a Vorpal pra chamar {enemy}.",
+            "Respirei fundo e avancei pra travar {enemy}.",
+            "Rosnei e investi com tudo contra {enemy}.",
+            "Levantei o escudo e provoquei {enemy} sem recuar.",
+            "Gritei com força e puxei {enemy} pra longe do grupo." 
+          ],
+          "en": [
+            "I banged Vorpal on my shield and shouted to draw {enemy}.",
+            "I advanced quickly and provoked {enemy} before they thought.",
+            "Raised shield and drew {enemy} onto me.",
+            "Shouted loudly and ran straight at {enemy}.",
+            "Took a step forward and forced {enemy} to attack me.",
+            "Struck ground with Vorpal to call {enemy}.",
+            "Took deep breath and moved in to engage {enemy}.",
+            "Growled and charged hard against {enemy}.",
+            "Lifted shield and provoked {enemy} without retreating.",
+            "Shouted forcefully and pulled {enemy} away from group."
+          ],
+          "es": [
+            "Golpeé Vorpal en mi escudo y grité para atraer a {enemy}.",
+            "Avancé rápido y provoqué a {enemy} antes de que pensara.",
+            "Levanté el escudo y atraje a {enemy} hacia mí.",
+            "Grité fuerte y corrí directo hacia {enemy}.",
+            "Di un paso adelante y forcé a {enemy} a atacarme.",
+            "Golpeé el suelo con Vorpal para llamar a {enemy}.",
+            "Respiré hondo y me moví para enfrentar a {enemy}.",
+            "Gruñí y cargué con fuerza contra {enemy}.",
+            "Levanté el escudo y provoqué a {enemy} sin retroceder.",
+            "Grité con fuerza y alejé a {enemy} del grupo."
+          ],
+          "ru": [
+            "Я ударила Ворпал по щиту и закричала, чтобы привлечь {enemy}.",
+            "Я быстро двинулась вперед и спровоцировала {enemy} прежде, чем он подумал.",
+            "Подняла щит и притянула {enemy} на себя.",
+            "Громко закричала и побежала прямо на {enemy}.",
+            "Сделала шаг вперед и заставила {enemy} атаковать меня.",
+            "Ударила землю Ворпал, чтобы позвать {enemy}.",
+            "Глубоко вздохнула и двинулась, чтобы вступить в бой с {enemy}.",
+            "Проворчала и набросилась с силой на {enemy}.",
+            "Подняла щит и спровоцировала {enemy}, не отступая.",
+            "Громко закричала и оттянула {enemy} от группы."
+          ],
+          "ja": [
+            "Vorpalを盾に叩きつけて{enemy}を呼び寄せた。",
+            "素早く前進し、{enemy}を挑発した。",
+            "盾を上げて{enemy}を引き寄せた。",
+            "大声で叫び、{enemy}にまっすぐ走った。",
+            "一歩前に出て{enemy}を攻撃させた。",
+            "Vorpalで地面を打ち、{enemy}を呼び寄せた。",
+            "深呼吸して{enemy}に突撃した。",
+            "うなりながら{enemy}を攻撃し、後退しなかった。",
+            "盾を持ち上げて{enemy}を挑発した。",
+            "力強く叫び、{enemy}をグループから引き離した。"
+          ],
+          "zh": [
+            "我用Vorpal敲击盾牌，喊叫着引来{enemy}。",
+            "迅速向前推进，在{enemy}反应之前挑衅了它。",
+            "举起盾牌，把{enemy}吸引到我身上。",
+            "大声喊叫着直接冲向{enemy}。",
+            "向前迈出一步，迫使{enemy}攻击我。",
+            "用Vorpal击打地面，呼唤{enemy}。",
+            "深呼吸后冲向{enemy}进行战斗。",
+            "低声咆哮着攻击{enemy}，不退缩。",
+            "举起盾牌，挑衅{enemy}不退缩。",
+            "大声喊叫着把{enemy}从队伍中拉开。"
+           ]
+        }
+      },
+      "intimidation": {
+        "alone": {
+          "pt": [
+            "Fiquei em frente a {challenge} e sustentei olhar.",
+            "Aproximei devagar de {challenge}, sem dizer palavra.",
+            "Mantive postura firme diante de {challenge}."
+          ],
+          "en": [
+            "I stood in front of {challenge} and held eye contact.",
+            "I approached {challenge} slowly, without saying a word.",
+            "I kept a steady posture in front of {challenge}."
+          ],
+          "es": [
+            "Me paré frente a {challenge} y mantuve contacto visual.",
+            "Me acerqué lentamente a {challenge}, sin decir una palabra.",
+            "Mantuve una postura firme frente a {challenge}."
+          ],
+          "ru": [
+            "Я встала перед {challenge} и удерживала зрительный контакт.",
+            "Я медленно подошла к {challenge}, не говоря ни слова.",
+            "Я сохраняла устойчивую позу перед {challenge}."
+          ],
+          "zh": [
+            "我站在{challenge}面前，保持眼神交流。",
+            "我慢慢接近{challenge}，没有说一句话。",
+            "我在{challenge}面前保持稳定的姿势。"
+          ],
+          "ja": [
+            "私は{challenge}の前に立ち、目を合わせた。",
+            "私は{challenge}にゆっくり近づき、何も言わなかった。",
+            "私は{challenge}の前で安定した姿勢を保った。"
           ]
         }
       },
-        "12": {
-       "group": {
+      "athletics": {
+        "alone": {
           "pt": [
-            "{hero_name} cobriu minha retaguarda enquanto eu segurava {enemy}."
-          ]
+            "Apoiei pés no chão e forcei {challenge}.",
+            "Segurei peso de {challenge} nos ombros.",
+            "Empurrei {challenge} usando toda força."
+          ],
+          "en": [
+            "I planted my feet and forced {challenge}.",
+            "I held {challenge}'s weight on my shoulders.",
+            "I pushed {challenge} using all my strength."
+          ],
+          "es": [
+            "Apoyé mis pies en el suelo y forcé a {challenge}.",
+            "Sostuve el peso de {challenge} en mis hombros.",
+            "Empujé a {challenge} usando toda mi fuerza."
+          ],
+          "ru": [
+            "Я поставила ноги на землю и заставила {challenge}.",
+            "Я держала вес {challenge} на своих плечах.",
+            "Я толкнула {challenge}, используя всю свою силу."
+          ],
+          "zh": [
+            "我把脚踩在地上，强迫{challenge}。",
+            "我肩负着{challenge}的重量。",
+            "我用尽全力推开{challenge}。"
+          ],
+          "ja": [
+            "私は足を地面にしっかりつけて{challenge}を押し切った。",
+            "私は{challenge}の重さを肩に乗せた。",
+            "私は全力で{challenge}を押した。"
+           ]
+        }
+      },
+      "survival": {
+        "alone": {
+          "pt": [
+            "Observei sinais deixados por {challenge}.",
+            "Examinei terreno ao redor de {challenge}.",
+            "Segui marcas associadas a {challenge}."
+          ],
+          "en": [
+            "I observed signs left by {challenge}.",
+            "I examined terrain around {challenge}.",
+            "I followed tracks associated with {challenge}."
+          ],
+          "es": [
+            "Observé señales dejadas por {challenge}.",
+            "Examiné el terreno alrededor de {challenge}.",
+            "Seguí las marcas asociadas con {challenge}."
+          ],
+          "ru": [
+            "Я наблюдала за следами, оставленными {challenge}.",
+            "Я осмотрела местность вокруг {challenge}.",
+            "Я следовала по следам, связанным с {challenge}."
+          ],
+          "zh": [
+            "我观察了{challenge}留下的迹象。",
+            "我检查了{challenge}周围的地形。",
+            "我跟踪了与{challenge}相关的痕迹。"
+          ],
+          "ja": [
+            "私は{challenge}が残した痕跡を観察した。",
+            "私は{challenge}の周りの地形を調べた。",
+            "私は{challenge}に関連する足跡を追った。"
+           ]
+        }
+      }
+    },
+    "others": {
+      "2": {
+        "group": {
+          "pt": [
+            "{hero_name} estava mal-humorada como sempre... mas ficou ao meu lado.",
+            "O olhar severo de {hero_name} quase me fez tremer mais que {enemy}.",
+            "{hero_name} reclamou baixo enquanto eu lutava... mas não recuou."
+          ],
+          "en": [
+            "{hero_name} was grumpy as always... but stayed by my side.",
+            "{hero_name}'s stern gaze almost made me tremble more than {enemy}.",
+            "{hero_name} muttered under breath while I fought... but didn't back down."
+          ],
+          "es": [
+            "{hero_name} estaba gruñona como siempre... pero se quedó a mi lado.",
+            "La mirada severa de {hero_name} casi me hizo temblar más que {enemy}.",
+            "{hero_name} murmuró entre dientes mientras luchaba... pero no retrocedió."
+          ],
+          "ru": [
+            "{hero_name} была ворчлива, как всегда... но оставалась рядом.",
+            "Суровый взгляд {hero_name} почти заставил меня дрожать больше, чем {enemy}.",
+            "{hero_name} бормотала себе под нос, пока я сражалась... но не отступила."
+          ],
+          "zh": [
+            "{hero_name}一如既往地脾气不好……但还是留在我身边。",
+            "{hero_name}严厉的目光几乎让我比{enemy}还要颤抖。",
+            "{hero_name}在我战斗时低声咕哝……但没有退缩。"
+          ],
+          "ja": [
+            "{hero_name}はいつも通り不機嫌だったけど…私のそばにいてくれた。",
+            "{hero_name}の厳しい視線は{enemy}よりも私を震えさせた。",
+            "{hero_name}は私が戦っている間、低くつぶやいていたけど…引き下がらなかった。"
+           ]
+        }
+      },
+      "3": {
+        "group": {
+          "pt": [
+            "{hero_name} parecia distraída... mas raízes surgiram quando precisei.",
+            "Achei que {hero_name} estava longe em pensamentos, mas ela segurou firme.",
+            "{hero_name} olhava para árvores enquanto eu lutava... mesmo assim permaneceu."
+          ],
+          "en": [
+            "{hero_name} seemed distracted... but roots came up when I needed.",
+            "I thought {hero_name} was lost in thought, but she held firm.",
+            "{hero_name} looked at trees while I fought... but stayed anyway."
+          ],
+          "es": [
+            "{hero_name} parecía distraída... pero las raíces surgieron cuando las necesité.",
+            "Pensé que {hero_name} estaba perdida en sus pensamientos, pero se mantuvo firme.",
+            "{hero_name} miraba los árboles mientras luchaba... pero se quedó de todos modos."
+          ],
+          "ru": [
+            "{hero_name} казалась рассеянной... но корни появились, когда мне это было нужно.",
+            "Я думала, что {hero_name} потерялась в своих мыслях, но она держалась.",
+            "{hero_name} смотрела на деревья, пока я сражалась... но все равно осталась."
+          ],
+          "zh": [
+            "{hero_name}看起来心不在焉……但当我需要时，树根出现了。",
+            "我以为{hero_name}陷入了沉思，但她坚持住了。",
+            "{hero_name}在我战斗时看着树……但还是留下了。"
+          ],
+          "ja": [
+            "{hero_name}は気が散っているようだったけど…必要なときに根が出てきた。",
+            "{hero_name}は考え事をしていると思ったけど、しっかりしていた。",
+            "{hero_name}は私が戦っている間、木を見ていたけど…それでも残った。"
+           ]
+        }
+      },
+      "4": {
+        "group": {
+          "pt": [
+            "{hero_name} falou alto enquanto curava... parecia gostar disso.",
+            "Luz envolveu campo quando {hero_name} ergueu mãos. Ela sabia que todos viam.",
+            "{hero_name} sorriu depois de curar. Acho que esperava aplauso."
+          ],
+          "en": [
+            "{hero_name} spoke loudly while healing... seemed to enjoy it.",
+            "Light surrounded the field when {hero_name} raised hands. She knew everyone saw.",
+            "{hero_name} smiled after healing. I think she expected applause."
+          ],
+          "es": [
+            "{hero_name} habló alto mientras curaba... parecía disfrutarlo.",
+            "La luz rodeó el campo cuando {hero_name} levantó las manos. Sabía que todos lo veían.",
+            "{hero_name} sonrió después de curar. Creo que esperaba aplausos."
+          ],
+          "ru": [
+            "{hero_name} громко говорила, пока лечила... казалось, ей это нравилось.",
+            "Свет окружил поле, когда {hero_name} подняла руки. Она знала, что все видят.",
+            "{hero_name} улыбнулась после лечения. Думаю, она ожидала аплодисментов."
+          ],
+          "zh": [
+            "{hero_name}在治疗时大声说话……似乎很享受。",
+            "当{hero_name}举起手时，光环绕着战场。她知道每个人都看见了。",
+            "{hero_name}治疗后微笑。我觉得她期待着掌声。"
+          ],
+          "ja": [
+            "{hero_name}は治療しながら大声で話していた…楽しんでいるようだった。",
+            "{hero_name}が手を上げると光がフィールドを包んだ。彼女はみんなが見ていることを知っていた。",
+            "{hero_name}は治療の後に笑った。拍手を期待していたと思う。"
+           ]
+        }
+      },      
+      "5": {
+        "group": {
+          "pt": [
+            "{hero_name} cantou sobre perdas... mesmo assim continuei lutando.",
+            "A voz de {hero_name} não prometia vitória, só resistência.",
+            "{hero_name} parecia esperar o pior... e ainda assim ficou."
+          ],
+          "en": [
+            "{hero_name} sang about losses... but I kept fighting.",
+            "{hero_name}'s voice didn't promise victory, just endurance.",
+            "{hero_name} seemed to expect the worst... and still stayed."
+          ],
+          "es": [
+            "{hero_name} cantó sobre pérdidas... pero seguí luchando.",
+            "La voz de {hero_name} no prometía victoria, solo resistencia.",
+            "{hero_name} parecía esperar lo peor... y aún así se quedó."
+          ],
+          "ru": [
+            "{hero_name} пела о потерях... но я продолжала сражаться.",
+            "Голос {hero_name} не обещал победу, только выносливость.",
+            "{hero_name} казалось, ожидала худшего... и все же осталась."
+          ],
+          "zh": [
+            "{hero_name}唱着关于失去的歌……但我继续战斗。",
+            "{hero_name}的声音没有承诺胜利，只有耐力。",
+            "{hero_name}似乎预料到了最坏的情况……但还是留下了。"
+          ],
+          "ja": [
+            "{hero_name}は損失について歌っていた…でも私は戦い続けた。",
+            "{hero_name}の声は勝利を約束するものではなく、ただ耐えることを約束していた。",
+            "{hero_name}は最悪を予想しているようだった…それでも残った。"
+           ]
+        }
+      },
+      "6": {
+        "group": {
+          "pt": [
+            "{hero_name} murmurava sozinha... mas luz respondeu.",
+            "Ouvi {hero_name} falar com algo invisível enquanto eu lutava.",
+            "{hero_name} parecia distante... mas cura veio no momento certo."
+          ],
+          "en": [
+            "{hero_name} murmured alone... but light responded.",
+            "I heard {hero_name} speak to something invisible while I fought.",
+            "{hero_name} seemed distant... but healing came at the right time."
+          ],
+          "es": [
+            "{hero_name} murmuraba sola... pero la luz respondió.",
+            "Escuché a {hero_name} hablar con algo invisible mientras luchaba.",
+            "{hero_name} parecía distante... pero la curación llegó en el momento justo."
+          ],
+          "ru": [
+            "{hero_name} шептала одна... но свет ответил.",
+            "Я услышала, как {hero_name} говорит с чем-то невидимым, пока я сражалась.",
+            "{hero_name} казалась отстранённой... но исцеление пришло в нужный момент."
+          ],
+          "zh": [
+            "{hero_name}独自低语……但光回应了。",
+            "我听到{hero_name}和看不见的东西说话，而我正在战斗。",
+            "{hero_name}看起来很遥远……但治疗在正确的时间到来。"
+          ],
+          "ja": [
+            "{hero_name}は一人でつぶやいていた…でも光は応答した。",
+            "私は{hero_name}が戦っている間、見えないものと話しているのを聞いた。",
+            "{hero_name}は遠くに見えた…でも治療はちょうどその時来た。"
+           ]
+        }
+      },
+      "7": {
+        "group": {
+          "pt": [
+            "{hero_name} analisava tudo enquanto eu segurava combate.",
+            "Vi olhos de {hero_name} brilharem quando magia começou.",
+            "{hero_name} ignorou caos... concentrada só em padrão."
+          ],
+          "en": [
+            "{hero_name} analyzed everything while I held combat.",
+            "I saw {hero_name}'s eyes light up when magic started.",
+            "{hero_name} ignored chaos... focused only on pattern."
+          ],
+          "es": [
+            "{hero_name} analizaba todo mientras yo mantenía el combate.",
+            "Vi los ojos de {hero_name} iluminarse cuando comenzó la magia.",
+            "{hero_name} ignoró el caos... se concentró solo en el patrón."
+          ],
+          "ru": [
+            "{hero_name} анализировала всё, пока я держала бой.",
+            "Я увидела, как глаза {hero_name} загорелись, когда началась магия.",
+            "{hero_name} игнорировала хаос... сосредоточилась только на узоре."
+          ],
+          "zh": [
+            "{hero_name}在我战斗时分析了一切。",
+            "当魔法开始时，我看到{hero_name}的眼睛亮了起来。",
+            "{hero_name}忽略了混乱...只专注于模式。"
+          ],
+          "ja": [
+            "{hero_name}は私が戦闘を維持している間、すべてを分析していた。",
+            "魔法が始まると{hero_name}の目が輝いているのを見た。",
+            "{hero_name}は混乱を無視して…パターンにだけ集中していた。"
+           ]
+        }
+      },
+      "8": {
+        "group": {
+          "pt": [
+            "{hero_name} falava ríspido... mas entrou primeiro na dor.",
+            "Vi {hero_name} receber golpe sem recuar.",
+            "{hero_name} parecia tensa... até começar luta."
+          ],
+          "en": [
+            "{hero_name} spoke sharply... but entered pain first.",
+            "I saw {hero_name} take a hit without backing down.",
+            "{hero_name} seemed tense... until the fight began."
+          ],
+          "es": [
+            "{hero_name} hablaba con rudeza... pero entró primero en el dolor.",
+            "Vi a {hero_name} recibir un golpe sin retroceder.",
+            "{hero_name} parecía tensa... hasta que comenzó la lucha."
+          ],
+          "ru": [
+            "{hero_name} говорила резко... но первая боль её не остановила.",
+            "Я видела, как {hero_name} получила удар без отступления.",
+            "{hero_name} казалась напряженной... пока бой не начался."
+          ],
+          "zh": [
+            "{hero_name}说话很尖锐……但首先承受了痛苦。",
+            "我看到{hero_name}在没有退缩的情况下受到打击。",
+            "{hero_name}看起来很紧张……直到战斗开始。"
+          ],
+          "ja": [
+            "{hero_name}は鋭く話していた…でも最初に痛みを受けた。",
+            "私は{hero_name}が後退することなく攻撃を受けたのを見た。",
+            "{hero_name}は緊張していた…戦いが始まるまで。"
+           ]
+        }
+      },
+      "9": {
+        "group": {
+          "pt": [
+            "{hero_name} lançou frasco e observou efeito como experimento.",
+            "Explosão veio precisa quando {hero_name} sorriu de lado.",
+            "{hero_name} analisou reação d{enemy} antes de atacar outra vez."
+          ],
+          "en": [
+            "{hero_name} threw vial and watched effect like experiment.",
+            "Explosion came precisely when {hero_name} smirked.",
+            "{hero_name} analyzed {enemy}'s reaction before attacking again."
+          ],
+          "es": [
+            "{hero_name} lanzó un frasco y observó el efecto como un experimento.",
+            "La explosión llegó precisamente cuando {hero_name} sonrió con suficiencia.",
+            "{hero_name} analizó la reacción de {enemy} antes de atacar de nuevo."
+          ],
+          "ru": [
+            "{hero_name} бросила флакон и наблюдала за эффектом, как за экспериментом.",
+            "Взрыв произошёл точно в тот момент, когда {hero_name} ухмыльнулась.",
+            "{hero_name} проанализировала реакцию {enemy} перед тем, как снова атаковать."
+          ],
+          "zh": [
+            "{hero_name}扔出药瓶，像实验一样观察效果。",
+            "当{hero_name}露出得意的笑容时，爆炸正好发生了。",
+            "{hero_name}在再次攻击之前分析了{enemy}的反应。"
+          ],
+          "ja": [
+            "{hero_name}はフラスコを投げ、実験のように効果を見ていた。",
+            "{hero_name}がニヤリとしたときに爆発が正確に起こった。",
+            "{hero_name}は再び攻撃する前に{enemy}の反応を分析した。"
+           ]
+        }
+      },
+      "10": {
+        "group": {
+          "pt": [
+            "{hero_name} disse verdade mesmo quando era difícil.",
+            "{hero_name} moveu-se em silêncio... mas nunca mentiu.",
+            "Confiei em {hero_name}. Ela não engana."
+          ],
+          "en": [
+            "{hero_name} spoke truth even when it was hard.",
+            "{hero_name} moved in silence... but never lied.",
+            "I trusted {hero_name}. She doesn't deceive."
+          ],
+          "es": [
+            "{hero_name} dijo la verdad incluso cuando era difícil.",
+            "{hero_name} se movió en silencio... pero nunca mintió.",
+            "Confié en {hero_name}. Ella no engaña."
+          ],
+          "ru": [
+            "{hero_name} говорила правду, даже когда это было трудно.",
+            "{hero_name} двигалась в молчании... но никогда не лгала.",
+            "Я доверяла {hero_name}. Она не обманывает."
+          ],
+          "zh": [
+            "{hero_name}即使在困难时也说真话。",
+            "{hero_name}默默行动……但从不说谎。",
+            "我信任{hero_name}。她从不欺骗。"
+          ],
+          "ja": [
+            "{hero_name}は困難なときでも真実を言った。",
+            "{hero_name}は静かに動いた…でも嘘はつかなかった。",
+            "私は{hero_name}を信じた。彼女は欺かない。"
+           ]
+        }
+      },
+      "11": {
+        "group": {
+          "pt": [
+            "{hero_name} surgiu do escuro antes que eu percebesse.",
+            "O silêncio de {hero_name} assustou mais que {enemy}.",
+            "{hero_name} não hesitou contra monstro."
+          ],
+          "en": [
+            "{hero_name} appeared from darkness before I noticed.",
+            "{hero_name}'s silence was scarier than {enemy}.",
+            "{hero_name} didn't hesitate against monster."
+          ],
+          "es": [
+            "{hero_name} apareció de la oscuridad antes de que me diera cuenta.",
+            "El silencio de {hero_name} era más aterrador que {enemy}.",
+            "{hero_name} no dudó contra el monstruo."
+          ],
+          "ru": [
+            "{hero_name} появилась из темноты, прежде чем я заметила.",
+            "Тишина {hero_name} была страшнее, чем {enemy}.",
+            "{hero_name} не колебалась перед монстром."
+          ],
+          "zh": [
+            "{hero_name}在我注意到之前就从黑暗中出现了。",
+            "{hero_name}的沉默比{enemy}更可怕。",
+            "{hero_name}在面对怪物时毫不犹豫。"
+          ],
+          "ja": [
+            "{hero_name}は私が気づく前に暗闇から現れた。",
+            "{hero_name}の沈黙は{enemy}よりも怖かった。",
+            "{hero_name}はモンスターに対して躊躇しなかった。"
+           ]
+        }
+      },
+      "12": {
+        "group": {
+          "pt": [
+            "{hero_name} deu cantada no meio da luta. Quase perdi foco.",
+            "Ouvi {hero_name} elogiar meus golpes... fiquei vermelha.",
+            "{hero_name} piscou pra mim após sexto impacto. Eu queria sumir."
+          ],
+          "en": [
+            "{hero_name} sang in the middle of battle. I almost lost focus.",
+            "I heard {hero_name} praise my strikes... I blushed.",
+            "{hero_name} winked at me after the sixth hit. I wanted to hide."
+          ],
+          "es": [
+            "{hero_name} cantó en medio de la lucha. Casi perdí el enfoque.",
+            "Escuché a {hero_name} elogiar mis golpes... me sonrojé.",
+            "{hero_name} me guiñó el ojo después del sexto impacto. Quería esconderme."
+          ],
+          "ru": [
+            "{hero_name} пела посреди боя. Я почти потеряла фокус.",
+            "Я услышала, как {hero_name} хвалила мои удары... я покраснела.",
+            "{hero_name} подмигнула мне после шестого удара. Я хотела исчезнуть."
+          ],
+          "zh": [
+            "{hero_name}在战斗中唱起了歌。我几乎失去了专注。",
+            "我听到{hero_name}夸奖我的攻击……我脸红了。",
+            "{hero_name}在第六次击中后朝我眨了眨眼。我想躲起来。"
+          ],
+          "ja": [
+            "{hero_name}は戦闘中に歌を歌った。私は集中できなかった。",
+            "{hero_name}が私の攻撃を称賛したのを聞いた…私は赤くなった。",
+            "{hero_name}は第六回の攻撃後、私にウィンクした。私は隠れたくなった。"
+           ]
+        }
+      },
+      "13": {
+        "group": {
+          "pt": [
+            "{hero_name} falou com ossos como velhos amigos.",
+            "Vi mortos seguirem {hero_name} sem medo.",
+            "{hero_name} parecia ouvir algo que eu não ouvia."
+          ],
+          "en": [
+            "{hero_name} spoke with bones like old friends.",
+            "I saw the dead follow {hero_name} without fear.",
+            "{hero_name} seemed to hear something I didn't."
+          ],
+          "es": [
+            "{hero_name} habló con huesos como viejos amigos.",
+            "Vi a los muertos seguir a {hero_name} sin miedo.",
+            "{hero_name} parecía escuchar algo que yo no escuchaba."
+          ],
+          "ru": [
+            "{hero_name} говорила с костями, как со старыми друзьями.",
+            "Я видела, как мертвецы следовали за {hero_name} без страха.",
+            "{hero_name} казалось, слышала что-то, чего я не слышала."
+          ],
+          "zh": [
+            "{hero_name}像老朋友一样与骨头交谈。",
+            "我看到死者们无畏地跟随{hero_name}。",
+            "{hero_name}似乎听到了我听不到的东西。"
+          ],
+          "ja": [
+            "{hero_name}は骨と古い友のように話した。",
+            "死体が{hero_name}を恐れずに追いかけていたのを見た。",
+            "{hero_name}は私には聞こえなかった何かを聞いたようだった。"
+           ]
+        }
+      },
+      "14": {
+        "group": {
+          "pt": [
+            "{hero_name} ajustou engrenagem enquanto eu lutava.",
+            "Palavras de {hero_name} saíram rápidas como faíscas.",
+            "{hero_name} consertou antes que tudo quebrasse."
+          ],
+          "en": [
+            "{hero_name} adjusted gears while I fought.",
+            "{hero_name}'s words came out fast like sparks.",
+            "{hero_name} fixed things before they broke."
+          ],
+          "es": [
+            "{hero_name} ajustó engranajes mientras luchaba.",
+            "Las palabras de {hero_name} salieron rápidas como chispas.",
+            "{hero_name} arregló antes de que todo se rompiera."
+          ],
+          "ru": [
+            "{hero_name} настраивала шестерни, пока я сражалась.",
+            "Слова {hero_name} вылетали быстро, как искры.",
+            "{hero_name} починила всё до того, как всё сломалось."
+          ],
+          "zh": [
+            "{hero_name}在我战斗时调整了齿轮。",
+            "{hero_name}的话语像火花一样快速。",
+            "{hero_name}在一切破碎之前就修好了。"
+          ],
+          "ja": [
+            "{hero_name}は私が戦っている間に歯車を調整した。",
+            "{hero_name}の言葉は火花のように速く出た。",
+            "{hero_name}はすべてが壊れる前に修理した。"
+           ]
+        }
+      },
+      "15": {
+          "group": {
+            "pt": [
+              "{hero_name} tocou chão antes de falar.",
+              "Pedras responderam quando {hero_name} pediu.",
+              "Gagueira de {hero_name} não atrapalhou terra."
+            ],
+            "en": [
+              "{hero_name} touched the ground before speaking.",
+              "Stones responded when {hero_name} asked.",
+              "{hero_name}'s stutter didn't hinder the earth."
+            ],
+            "es": [
+              "{hero_name} tocó el suelo antes de hablar.",
+              "Las piedras respondieron cuando {hero_name} preguntó.",
+              "La tartamudez de {hero_name} no obstaculizó la tierra."
+            ],
+            "ru": [
+              "{hero_name} коснулась земли перед тем, как говорить.",
+              "Камни ответили, когда {hero_name} попросила.",
+              "Старание {hero_name} не мешало земле."
+            ],
+            "zh": [
+              "{hero_name}说话前触摸了地面。",
+              "当{hero_name}询问时，石头回应了。",
+              "{hero_name}的口吃没有妨碍大地。"
+            ],
+            "ja": [
+              "{hero_name}は話す前に地面に触れた。",
+              "{hero_name}が尋ねたとき、石が反応した。",
+              "{hero_name}の詰め込みは大地を妨げなかった。"
+             ]
+          }
         }
       }
     }
   }
-}

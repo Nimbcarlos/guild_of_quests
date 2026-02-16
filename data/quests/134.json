@@ -10,13 +10,12 @@
     "kr": "부족의 신뢰 시험"
   },
   "description": {
-    "pt": "Devido ao interesse repentino pelo assentamento, o ancião da tribo permitirá acesso à câmara subterrânea apenas após garantir que vocês não profanarão o local.",
-    "en": "Due to the sudden interest in the settlement, the tribe's elder will only grant access to the underground chamber after ensuring you will not profane the site.",
-    "es": "Debido al repentino interés en el asentamiento, el anciano de la tribu solo permitirá el acceso a la cámara subterránea después de asegurarse de que no profanarán el lugar.",
-    "ru": "Из-за внезапного интереса к поселению, старейшина племени разрешит доступ к подземной камере только после того, как убедится, что вы не оскверните это место.",
-    "zh": "由于对定居点的突然关注, 部落长老只有在确保你们不会亵渎该地点之后, 才会允许进入地下密室。",
-    "ja": "集落への突然の関心のため, 部族の長老は, あなた方がその場所を冒涜しないことを確認した後でのみ, 地下の部屋へのアクセスを許可するでしょう。",
-    "kr": "정착지에 대한 갑작스러운 관심 때문에, 부족의 장로는 당신들이 그 장소를 더럽히지 않을 것임을 확신한 후에야 지하 방에 대한 접근을 허용할 것입니다."
+    "pt": "Devido ao interesse repentino pelo assentamento, o ancião da tribo Ashal’Kai permitirá acesso à câmara subterrânea apenas após garantir que vocês não profanarão o local.",
+    "en": "Due to the sudden interest in the settlement, the elder of the Ashal’Kai tribe will allow access to the underground chamber only after ensuring that you will not desecrate the site.",
+    "es": "Debido al repentino interés en el asentamiento, el anciano de la tribu Ashal’Kai permitirá el acceso a la cámara subterránea solo después de asegurarse de que no profanarás el sitio.",
+    "ru": "Из-за внезапного интереса к поселению старейшина племени Ашал'Кай позволит доступ к подземной камере только после того, как убедится, что вы не оскверните это место.",
+    "zh": "由于对定居点的突然兴趣，Ashal’Kai部落的长老将只在确保你不会亵渎这个地方之后才允许进入地下密室。",
+    "ja": "定住地への突然の関心のため、Ashal’Kai部族の長老は、あなたがその場所を冒涜しないことを確認した後にのみ、地下の部屋へのアクセスを許可します。"
   },
   "type": "arcana",
   "max_heroes": 1,
@@ -33,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a câmara subterrânea",
+      "en": "the underground chamber",
+      "es": "la cámara subterránea",
+      "ru": "подземная камера",
+      "zh": "地下密室",
+      "ja": "地下の部屋"
+    },
+    "challenge": {
+      "pt": "as inscrições antigas",
+      "en": "the ancient inscriptions",
+      "es": "las inscripciones antiguas",
+      "ru": "древние надписи",
+      "zh": "古老的铭文",
+      "ja": "古代の刻印"
+    }
+  }
 }

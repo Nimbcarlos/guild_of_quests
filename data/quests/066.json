@@ -9,15 +9,16 @@
     "ja": "宴の毒"
   },
   "description": {
-    "pt": "Vinte nobres foram envenenados. O antídoto comum é lento demais para salvá-los. Intervenção imediata é necessária.",
-    "en": "Twenty nobles were poisoned. The common antidote is too slow to save them. Immediate intervention required.",
-    "es": "Veinte nobles han sido envenenados. El antídoto común es demasiado lento.",
-    "ru": "Двадцать дворян отравлены. Обычное противоядие действует слишком медленно.",
-    "zh": "二十名贵族中毒了。普通解药奏效太慢，无法救命。需要立即干预。",
-    "ja": "20人の貴族が毒を盛られた。通常の解毒剤では間に合わない。即急な処置が必要だ。"
+    "pt": "Vinte servos de Lorde Cassimir Dorneval foram envenenados. O antídoto comum é lento demais para salvá-los. Intervenção imediata é necessária.",
+    "en": "Twenty of Lord Cassimir Dorneval's servants have been poisoned. The common antidote is too slow to save them. Immediate intervention is necessary.",
+    "es": "Veinte sirvientes de Lord Cassimir Dorneval han sido envenenados. El antídoto común es demasiado lento para salvarlos. Se necesita intervención inmediata.",
+    "ru": "Двадцать слуг лорда Кассимира Дорневала отравлены. Обычный антидот слишком медленный, чтобы спасти их. Необходима немедленная помощь.",
+    "zh": "卡西米尔·多尔内瓦尔爵士的二十名仆人被毒死了。常见的解药太慢了，无法救他们。需要立即干预。",
+    "ja": "カシミール・ドーネヴァル卿の20人の使用人が毒殺されました。一般的な解毒剤は彼らを救うには遅すぎます。即時の介入が必要です。"
   },
   "type": [
-    "cure"
+    "cure",
+    "alchemy"
   ],
   "max_heroes": 1,
   "expired_at": 3,
@@ -31,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a mansão do Lorde Cassimir Dorneval",
+      "en": "Lord Cassimir Dorneval's mansion",
+      "es": "la mansión del Lord Cassimir Dorneval",
+      "ru": "дом лорда Кассимира Дорневала",
+      "zh": "卡西米尔·多尔内瓦尔爵士的宅邸",
+      "ja": "カシミール・ドーネヴァル卿の邸宅"
+    },
+    "challenge": {
+      "pt": "os servos",
+      "en": "the servants",
+      "es": "los sirvientes",
+      "ru": "слуги",
+      "zh": "仆人们",
+      "ja": "使用人"
+    }
+  }
 }

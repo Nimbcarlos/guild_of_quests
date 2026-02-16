@@ -8,7 +8,7 @@ def check_available_turn(quest, manager) -> bool:
 def check_required_quests(quest, manager) -> bool:
     required_quests = getattr(quest, "required_quests", [])
     forbidden_quests = getattr(quest, "forbidden_quests", [])
-    required_heroes = getattr(quest, "required_heroes", [])
+    required_perks = getattr(quest, "required_perks", [])
     forbidden_heroes = getattr(quest, "forbidden_heroes", [])
 
     # 1 — Verifica se required_quests foram concluídas
@@ -32,42 +32,35 @@ def check_required_quests(quest, manager) -> bool:
         if not quest_requirement_met:
             return False
 
-    # 3 — Forbidden Quests
+    # 2 — Forbidden Quests
     for fquest in forbidden_quests:
         if int(fquest) in manager.completed_quests:
             return False
 
-    # 2 — Required Heroes (agora com O, E e combos)
-    if required_heroes:
-        # Pega todos os heróis que completaram cada quest requerida
-        # (Normalmente só tem uma quest requerida, mas mantemos compatível)
+    # 3 — Required Perks (NOVA LÓGICA)
+    if required_perks:
         completed_by_all = set()
+
+        # Coleta todos os heróis que completaram as quests requeridas
         for req in required_quests:
             completed_by_all |= manager.completed_quests.get(req, set())
 
-        # 🎯 NOVA LÓGICA:
-        # Basta UM dos requisitos ser atendido!
-        requirement_met = False
+        perk_met = False
 
-        for hero_req in required_heroes:
-            hero_req_str = str(hero_req)
+        for hero_id in completed_by_all:
+            hero = manager.hero_manager.get(hero_id)
+            if not hero:
+                continue
 
-            # Caso "AND" → 1_2_3
-            if "_" in hero_req_str:
-                ids_needed = [int(h.strip()) for h in hero_req_str.split("_")]
-                if all(hid in completed_by_all for hid in ids_needed):
-                    requirement_met = True
+            # Se o herói tiver QUALQUER perk exigido → passa
+            if any(perk in hero.perks for perk in required_perks):
+                perk_met = True
+                break
 
-            # Caso simples → OR
-            else:
-                if int(hero_req_str) in completed_by_all:
-                    requirement_met = True
-        
-        # Se nenhum requisito foi atendido → falha
-        if not requirement_met:
+        if not perk_met:
             return False
 
-    # 3 — Forbidden Heroes
+    # 4 — Forbidden Heroes (mantido como está)
     if forbidden_heroes:
         for req in required_quests:
             completed_by = manager.completed_quests.get(req, set())

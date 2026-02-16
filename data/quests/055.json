@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a mansão do nobre",
+      "en": "the noble's mansion",
+      "es": "la mansión del noble",
+      "ru": "особняк дворянина",
+      "zh": "贵族的豪宅",
+      "ja": "貴族の邸宅"
+    },
+    "challenge": {
+      "pt": "o cão",
+      "en": "the dog",
+      "es": "el perro",
+      "ru": "собака",
+      "zh": "狗",
+      "ja": "犬"
+    }
+  }
 }

@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a aldeia",
+      "en": "the hamlet",
+      "es": "la aldea",
+      "ru": "деревня",
+      "zh": "村落",
+      "ja": "村"
+    },
+    "challenge": {
+      "pt": "os moradores",
+      "en": "the residents",
+      "es": "los habitantes",
+      "ru": "жители",
+      "zh": "居民",
+      "ja": "住人"
+    }
+  }
 }

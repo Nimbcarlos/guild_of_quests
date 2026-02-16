@@ -36,5 +36,23 @@
   "required_heroes": [
     2
   ],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a floresta",
+      "en": "the forest",
+      "es": "el bosque",
+      "ru": "лес",
+      "zh": "森林",
+      "ja": "森"
+    },
+    "challenge": {
+      "pt": "os rastros de goblins",
+      "en": "the goblin tracks",
+      "es": "los rastros de goblins",
+      "ru": "следы гоблинов",
+      "zh": "哥布林的足迹",
+      "ja": "ゴブリンの足跡"
+    }
+  }
 }

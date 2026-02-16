@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o laboratório",
+      "en": "the laboratory",
+      "es": "el laboratorio",
+      "ru": "лаборатория",
+      "zh": "实验室",
+      "ja": "実験室"
+    },
+    "challenge": {
+      "pt": "os sensores mágicos",
+      "en": "the magical sensors",
+      "es": "los sensores mágicos",
+      "ru": "магические сенсоры",
+      "zh": "魔法传感器",
+      "ja": "魔法センサー"
+    }
+  }
 }

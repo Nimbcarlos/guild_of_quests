@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o Pântano",
+      "en": "the Swamp",
+      "es": "el Pantano",
+      "ru": "болото",
+      "zh": "沼泽",
+      "ja": "沼地"
+    },
+    "challenge": {
+      "pt": "o mensageiro",
+      "en": "the messenger",
+      "es": "el mensajero",
+      "ru": "гонец",
+      "zh": "信使",
+      "ja": "使者"
+    }
+  }
 }

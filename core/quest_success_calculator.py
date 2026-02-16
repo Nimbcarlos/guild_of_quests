@@ -96,7 +96,7 @@ class QuestSuccessCalculator:
             synergy_multiplier = 1.0  # ou 0.9, etc
         else:
             # Quest de habilidade: SEM sinergia
-            synergy_multiplier = 0.0
+            synergy_multiplier = 1.0
 
         def has(role, n=1):
             return roles.count(role) >= n

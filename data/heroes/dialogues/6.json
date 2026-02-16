@@ -127,6 +127,93 @@
           "ja": ["ミーナ、あなたの友達を連れて行きましょう。声たちが彼らのために歌いたがっているわ。"]
         }
       }
+    },
+    "dialogue_blocks": {
+      "arrived": {
+        "alone": {
+          "pt": [
+            "Eu parei diante d{location} e respirei fundo; uma voz antiga sussurrou que a luz sempre encontra um caminho, mesmo quando tudo parece perdido.",
+            "Eu toquei o símbolo no meu peito ao cruzar a entrada d{location}, enquanto alguém murmurava que a cura começa onde a fé é testada.",
+            "Eu caminhei até d{location} sentindo um coro invisível discutir entre si, repetindo que até os mais sombrios merecem redenção.",
+            "Eu ajoelhei por um instante antes de entrar d{location}, porque uma das vozes insistiu que a disciplina é o primeiro milagre.",
+            "Eu observei cada detalhe d{location} enquanto um timbre severo ecoava na minha mente dizendo que devo proteger os fracos, custe o que custar.",
+            "Eu avancei por d{location} com cuidado, e alguém declarou dentro da minha cabeça que a esperança é uma chama que nunca deve ser apagada.",
+            "Eu segurei meu cajado com firmeza ao pisar d{location}, enquanto um sussurro firme repetia que a fé sem ação é apenas ruído.",
+            "Eu inclinei a cabeça ao atravessar d{location}, porque uma voz gentil lembrava que toda dor pode ser transformada.",
+            "Eu tracei um pequeno símbolo no ar diante d{location}, seguindo a orientação de um eco que dizia que a luz precisa ser invocada com intenção.",
+            "Eu entrei d{location} em silêncio, escutando um conselho insistente que afirmava que até na escuridão mais densa há propósito."
+          ]
+        },
+        "group": {
+          "pt": [
+            "Eu caminhei ao lado deles até d{location}, enquanto uma voz murmurava que líderes verdadeiros guiam sem serem vistos; eu apenas apertei o passo.",
+            "Eu parei diante d{location} e pedi que mantivessem formação, mesmo com um sussurro insistindo que a fé deveria ser suficiente para nos proteger.",
+            "Eu observei cada um antes de avançarmos por d{location}, porque um eco na minha mente repetia que proteger os outros é um juramento, não uma escolha.",
+            "Eu ajustei meu símbolo sagrado ao entrar d{location}, ignorando a voz que dizia que alguns ali precisavam ser testados pelo fogo.",
+            "Eu respirei fundo e sinalizei para seguirmos por d{location}, enquanto um tom solene lembrava que a esperança deve ser carregada como armadura.",
+            "Eu toquei o ombro de um deles antes de cruzarmos d{location}, já que uma voz suave insistia que até guerreiros precisam ser lembrados de sua humanidade.",
+            "Eu avancei por d{location} mantendo-me entre eles e o desconhecido, mesmo quando alguém dentro da minha cabeça questionava minha própria força.",
+            "Eu pedi silêncio ao grupo ao nos aproximarmos d{location}, enquanto um coro invisível discutia sobre sacrifício e propósito.",
+            "Eu tracei um pequeno gesto de bênção antes de entrarmos d{location}, apesar de uma voz mais rígida afirmar que fé não substitui preparo.",
+            "Eu caminhei com eles por d{location}, ouvindo um conselho interno que dizia que cada passo compartilhado é também uma responsabilidade."
+          ]
+        }
+      },
+      "action": {
+        "fight": {
+          "alone": {
+            "pt": [
+              "Eu ergui meu símbolo sagrado e invoquei a luz contra {enemy}, enquanto uma voz firme declarava que a purificação começa pelo fogo.",
+              "Eu canalizei energia divina na direção de {enemy}, ouvindo um sussurro solene afirmar que a fé é a arma mais antiga do mundo.",
+              "Eu avancei alguns passos e deixei a luz se condensar em minhas mãos antes de lançá-la contra {enemy}, como alguém já havia ensinado em outra era.",
+              "Eu tracei um círculo luminoso no ar e o projetei sobre {enemy}, enquanto um eco distante repetia que até a escuridão teme a aurora.",
+              "Eu pressionei o símbolo contra o peito e liberei um feixe radiante em direção a {enemy}, seguindo a orientação de uma voz que falava sobre disciplina e sacrifício.",
+              "Eu estendi o cajado e deixei a energia sagrada correr até atingir {enemy}, ouvindo um conselho antigo sobre proteger os inocentes a qualquer custo.",
+              "Eu murmurei palavras rituais e conduzi a luz contra {enemy}, enquanto alguém na minha mente lembrava que milagres exigem convicção.",
+              "Eu concentrei a chama divina na palma da mão e a direcionei a {enemy}, escutando um comentário severo sobre justiça inevitável.",
+              "Eu avancei sob o peso das vozes e projetei um clarão contra {enemy}, como se estivesse repetindo um ensinamento transmitido de geração em geração.",
+              "Eu invoquei um brilho quase celestial e o enviei contra {enemy}, enquanto o coro interno discutia se aquilo era punição ou redenção."
+            ]
+          },
+          "group": {
+            "pt": [
+              "Eu permaneci próxima deles enquanto enfrentavam {enemy}, canalizando luz para fechar as feridas que surgiam, como uma velha mentora certa vez descrevera.",
+              "Eu ergui meu símbolo e deixei a energia fluir sobre os aliados sempre que podia, ouvindo uma voz suave dizer que cura é também uma forma de coragem.",
+              "Eu toquei cada um que vacilava diante de {enemy}, conduzindo a luz com cuidado, como se repetisse um ritual ensinado em um templo distante.",
+              "Eu mantive minha posição atrás da linha de frente contra {enemy}, restaurando forças conforme surgiam cortes e hematomas, enquanto um eco lembrava que o dever do clérigo é sustentar.",
+              "Eu tracei bênçãos rápidas sobre os companheiros durante o confronto com {enemy}, escutando alguém afirmar que proteger é mais nobre do que destruir.",
+              "Eu observei os movimentos deles contra {enemy} e intervim sempre que uma ferida se abria, guiada por um conselho antigo sobre misericórdia ativa.",
+              "Eu pressionei minha mão luminosa contra armaduras rachadas e ombros sangrando enquanto {enemy} avançava, como se seguisse uma liturgia memorizada.",
+              "Eu deixei a luz circular entre nós durante a batalha com {enemy}, lembrando das palavras de um velho sermão sobre manter a chama acesa.",
+              "Eu caminhei entre eles sob a ameaça de {enemy}, restaurando o que era possível, enquanto o coral interno discutia a diferença entre milagre e técnica.",
+              "Eu mantive o símbolo erguido durante o confronto com {enemy}, enviando ondas suaves de cura aos aliados sempre que podia, seguindo a orientação de vozes que falavam sobre compaixão disciplinada."
+            ]
+          }
+        },
+        "perks": {
+          "religion": {
+            "pt": [
+              "Eu recitei os preceitos sagrados diante de {challenge}, enquanto uma das vozes insistia que tradição é a espinha dorsal da fé.",
+              "Eu tracei símbolos antigos ao encarar {challenge}, ouvindo um eco afirmar que todo lugar carrega um vestígio do divino.",
+              "Eu citei um trecho de um antigo sermão enquanto lidava com {challenge}, mesmo com o coral interno debatendo interpretações diferentes."
+            ]
+          },
+          "cure": {
+            "pt": [
+              "Eu pressionei minhas mãos sobre a dor causada por {challenge} e canalizei energia sagrada com cuidado, enquanto uma voz suave lembrava que restaurar é um ato de coragem.",
+              "Eu murmurei palavras de bênção enquanto respondia a {challenge}, deixando a luz fluir de forma controlada, seguindo a orientação de um conselho antigo sobre compaixão ativa.",
+              "Eu mantive o símbolo erguido diante de {challenge} e conduzi energia curativa sempre que necessário, ouvindo alguém comentar que milagres exigem disciplina."
+            ]
+          },
+          "investigation": {
+            "pt": [
+              "Eu examinei atentamente os sinais deixados por {challenge}, enquanto uma voz mais rígida dizia que até a fé precisa de evidências.",
+              "Eu observei marcas relacionadas a {challenge} ao meu redor, escutando um sussurro afirmar que o divino também fala através de padrões.",
+              "Eu caminhei lentamente analisando cada detalhe envolvendo {challenge}, enquanto o coral interno discutia se aquilo era presságio ou apenas descuido humano."
+            ]
+          }
+        }
     }
   }
+}
 }

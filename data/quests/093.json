@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o local do duelo",
+      "en": "the duel site",
+      "es": "el lugar del duelo",
+      "ru": "место дуэли",
+      "zh": "决斗地点",
+      "ja": "決闘の場所"
+    },
+    "challenge": {
+      "pt": "os nobres",
+      "en": "the nobles",
+      "es": "los nobles",
+      "ru": "дворяне",
+      "zh": "贵族",
+      "ja": "貴族"
+    }
+  }
 }

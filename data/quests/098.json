@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a mansão",
+      "en": "the mansion",
+      "es": "la mansión",
+      "ru": "особняк",
+      "zh": "豪宅",
+      "ja": "邸宅"
+    },
+    "challenge": {
+      "pt": "os guardas",
+      "en": "the guards",
+      "es": "los guardias",
+      "ru": "стражники",
+      "zh": "守卫",
+      "ja": "警備員"
+    }
+  }
 }

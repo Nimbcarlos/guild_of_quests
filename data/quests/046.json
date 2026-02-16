@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o monumento religioso",
+      "en": "the religious monument",
+      "es": "el monumento religioso",
+      "ru": "религиозный памятник",
+      "zh": "宗教纪念碑",
+      "ja": "宗教的なモニュメント"
+    },
+    "challenge": {
+      "pt": "os escombros",
+      "en": "the rubble",
+      "es": "los escombros",
+      "ru": "руины",
+      "zh": "废墟",
+      "ja": "瓦礫"
+    }
+  }
 }

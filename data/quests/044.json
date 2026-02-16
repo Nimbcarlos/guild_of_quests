@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a encosta vulcânica",
+      "en": "the volcanic slope",
+      "es": "la ladera volcánica",
+      "ru": "вулканический склон",
+      "zh": "火山坡",
+      "ja": "火山斜面"
+    },
+    "challenge": {
+      "pt": "a lava",
+      "en": "the lava",
+      "es": "la lava",
+      "ru": "лава",
+      "zh": "熔岩",
+      "ja": "溶岩"
+    }
+  }
 }

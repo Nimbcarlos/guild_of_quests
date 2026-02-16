@@ -1,33 +1,51 @@
 {
   "id": 99,
   "name": {
-    "pt": "Infiltração no Arquivo Olvidado",
-    "en": "Infiltration of the Forgotten Archive",
-    "es": "Infiltración en el Archivo Olvidado",
-    "ru": "Проникновение в забытый архив",
-    "zh": "潜入遗忘档案室",
-    "ja": "忘れられた記録保管所への潜入"
+    "pt": "Entre as Sombras",
+    "en": "Among the Shadows",
+    "es": "Entre las Sombras",
+    "ru": "Среди теней",
+    "zh": "行走于阴影",
+    "ja": "影の中を歩く者"
   },
   "description": {
-    "pt": "Um testamento antigo foi escondido nos arquivos de um tabelião corrupto. O local é vigiado dia e noite. Você precisa de alguém que se mova como uma sombra para recuperar o documento sem deixar rastros ou disparar alarmes.",
-    "en": "An ancient will was hidden in a corrupt notary's archives. The place is guarded day and night. You need someone who moves like a shadow to recover the document without leaving traces or triggering alarms.",
-    "es": "Un testamento antiguo fue escondido en los archivos de un notario corrupto. El lugar está vigilado día y noche. Necesitas a alguien que se mueva como una sombra para recuperar el documento sin dejar rastros ni activar alarmas.",
-    "ru": "Древнее завещание было спрятано в архивах коррумпированного нотариуса. Место охраняется днем и ночью. Вам нужен кто-то, кто движется как тень, чтобы вернуть документ, не оставляя следов и не поднимая тревоги.",
-    "zh": "一份古老的遗嘱被藏在一个腐败公证人的档案室里。那里日夜有人看守。你需要一个像影子一样行动的人来找回这份文件，而不留下任何踪迹或触发警报。",
-    "ja": "古い遺言書が腐敗した公証人の記録保管所に隠された。そこは昼夜を問わず警備されている。痕跡を残さず、警報を鳴らさずに書類を回収するために、影のように動く人物が必要だ。"
+    "pt": "Relatos indicam que um pequeno gangue atua à noite nos distritos mais escuros da cidade, sempre desaparecendo antes que a guarda chegue. A Guilda precisa descobrir onde eles se escondem. A tarefa não é confrontar nem alertar — apenas seguir, observar e memorizar rotas, encontros e pontos de fuga, movendo-se pelas sombras sem jamais ser notado.",
+    "en": "Reports suggest a small gang operates at night in the darkest districts of the city, vanishing before the guards arrive. The Guild must uncover their hideout. The task is not to confront or interfere, but to follow, observe, and memorize routes, meetings, and escape points while moving through the shadows without being seen.",
+    "es": "Los informes indican que una pequeña banda opera de noche en los distritos más oscuros de la ciudad, desapareciendo antes de que llegue la guardia. El Gremio debe descubrir su escondite. La tarea no es confrontar ni interferir, sino seguir, observar y memorizar rutas, encuentros y vías de escape, moviéndose entre las sombras sin ser detectado.",
+    "ru": "Сообщения указывают, что небольшая банда действует по ночам в самых тёмных районах города, исчезая до прибытия стражи. Гильдии необходимо обнаружить их убежище. Задача — не вступать в контакт, а следить, наблюдать и запоминать маршруты, встречи и пути отхода, оставаясь в тени и не будучи замеченным.",
+    "zh": "报告显示，一支小型帮派在城市最阴暗的区域夜间活动，总是在守卫到来前消失。公会需要找出他们的藏身处。任务不是对抗或干预，而是悄然尾随、观察并记住他们的路线、接头地点和逃生路径，在阴影中行动且不被发现。",
+    "ja": "報告によれば、都市の最も暗い地区で小規模なギャングが夜間に活動し、衛兵が到着する前に姿を消しているという。ギルドは彼らの隠れ家を突き止めなければならない。目的は対峙や介入ではなく、影に紛れて尾行し、動線や接触場所、逃走経路を把握することだ。決して気付かれてはならない。"
   },
   "type": "stealth",
   "max_heroes": 1,
-  "expired_at": 6,
-  "available_from_turn": 134,
+  "expired_at": 5,
+  "available_from_turn": 62,
   "duration": 3,
-  "difficulty": 2.3,
+  "difficulty": 1.9,
   "rewards": {
-    "xp": 90
+    "xp": 85
   },
   "required_quests": [],
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o distrito",
+      "en": "the district",
+      "es": "el distrito",
+      "ru": "район",
+      "zh": "区域",
+      "ja": "地区"
+    },
+    "challenge": {
+      "pt": "a gangue",
+      "en": "the gang",
+      "es": "la pandilla",
+      "ru": "банда",
+      "zh": "帮派",
+      "ja": "ギャング"
+    }
+  }
 }

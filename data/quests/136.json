@@ -9,14 +9,14 @@
     "zh": "巫妖的崛起 (Wūyāo de Juéqǐ)"
   },
   "description": {
-    "pt": "Um Lich surgiu no assentamento tribal, massacrou a vila e hordas de mortos-vivos avançam pelas estradas e vilas próximas. A Guilda da \"Espada de Prata\" enfrentará o Lich diretamente — sua missão é conter os mortos-vivos e proteger a região até que o confronto termine.",
-    "en": "A Lich has emerged in the tribal settlement, massacring the village, and hordes of undead are advancing through nearby roads and villages. The \"Silver Sword\" Guild will face the Lich directly — your mission is to contain the undead and protect the region until the confrontation ends.",
-    "es": "Un Lich ha surgido en el asentamiento tribal, masacrando la aldea, y hordas de muertos vivientes avançan por los caminos y aldeas cercanas. El Gremio de la \"Espada de Plata\" se enfrentará directamente al Lich — su misión es contener a los muertos vivientes y proteger la región hasta que termine el enfrentamiento.",
-    "ru": "Лич появился в племенном поселении, устроив резню в деревне, и орды немертвых продвигаются по близлежащим дорогам и деревням. Гильдия «Серебряный Меч» вступит в прямое противостояние с Личем — ваша задача — сдержать немертвых и защитить регион до завершения этого боя.",
-    "ja": "部族の集落にリッチが出現し、村を虐殺し、アンデッドの群れが近くの道路や村を進軍しています。「銀の剣」ギルドがリッチに直接立ち向かいます — あなた方の任務は、その対決が終わるまでアンデッドを食い止め、地域を守ることです。",
-    "zh": "一个巫妖出现在部落定居点，屠杀了村庄，成群的亡灵正沿着附近的道路和村庄推进。“银剑”公会将直接对抗巫妖——你的任务是牵制亡灵，并在对抗结束前保护该地区。"
+    "pt": "Um Lich surgiu no assentamento da tribo Ashal’Kai, massacrou a vila e hordas de mortos-vivos avançam pelas estradas e vilas próximas. A Guilda da \"Espada de Prata\" enfrentará o Lich diretamente — sua missão é conter os mortos-vivos e proteger a região até que o confronto termine.",
+    "en": "A Lich has risen in the Ashal’Kai tribal settlement, massacred the village, and hordes of undead are advancing through nearby roads and villages. The \"Silver Sword\" Guild will face the Lich directly — their mission is to contain the undead and protect the region until the confrontation ends.",
+    "es": "Un Lich ha surgido en el asentamiento tribal Ashal’Kai, masacró la aldea y hordas de no muertos avanzan por las carreteras y aldeas cercanas. La Guilda de la \"Espada de Plata\" enfrentará al Lich directamente: su misión es contener a los no muertos y proteger la región hasta que termine el enfrentamiento.",
+    "ru": "Лич восстал в племенном поселении Ашал’Кай, устроил резню в деревне, и орды нежити продвигаются по близлежащим дорогам и деревням. Гильдия \"Серебряный Меч\" столкнется с Личом напрямую — их миссия заключается в том, чтобы сдержать нежить и защитить регион до окончания противостояния.",
+    "zh": "一个巫妖在Ashal’Kai部落定居点崛起，屠杀了村庄，成群的亡灵正在附近的道路和村庄中推进。\"银剑\"公会将直接面对巫妖——他们的任务是遏制亡灵并保护该地区，直到对抗结束。",
+    "ja": "Ashal’Kai部族の集落でリッチが出現し、村を虐殺し、近くの道路や村を通ってアンデッドの大群が進んでいます。 「シルバースウォード」ギルドはリッチと直接対決します - 彼らの使命はアンデッドを封じ込め、対決が終わるまで地域を保護することです。"
   },
-  "type": "Fight",
+  "type": "fight",
   "max_heroes": 4,
   "expired_at": 3,
   "available_from_turn": 113,
@@ -31,5 +31,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "as estradas",
+      "en": "the roads",
+      "es": "las carreteras",
+      "ru": "дороги",
+      "zh": "道路",
+      "ja": "道路"
+    },
+    "enemy": {
+      "pt": "os mortos-vivos",
+      "en": "the undead hordes",
+      "es": "las hordas de no-muertos",
+      "ru": "орды нечестивых",
+      "zh": "亡灵大军",
+      "ja": "アンデッドの大群"
+    }
+  }
 }

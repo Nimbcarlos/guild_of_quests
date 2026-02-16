@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a ala sul da cidade",
+      "en": "the city's south wing",
+      "es": "el ala sur de la ciudad",
+      "ru": "южное крыло города",
+      "zh": "城市的南翼",
+      "ja": "街の南翼"
+    },
+    "challenge": {
+      "pt": "moradores",
+      "en": "residents",
+      "es": "residentes",
+      "ru": "жители",
+      "zh": "居民",
+      "ja": "住民"
+    }
+  }
 }

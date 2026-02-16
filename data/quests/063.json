@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o banquete",
+      "en": "the banquet",
+      "es": "el banquete",
+      "ru": "банкет",
+      "zh": "宴会",
+      "ja": "宴会"
+    },
+    "challenge": {
+      "pt": "o anel",
+      "en": "the ring",
+      "es": "el anillo",
+      "ru": "кольцо",
+      "zh": "戒指",
+      "ja": "指輪"
+    }
+  }
 }

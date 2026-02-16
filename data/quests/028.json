@@ -9,12 +9,12 @@
     "ja": "夢の疫病"
   },
   "description": {
-    "pt": "Um mago onírico entrou em coma, e seu subconsciente projeta o mesmo pesadelo para todos que dormem na cidade. Ninguém descansa há três dias.",
-    "en": "A dream mage has fallen into a coma, projecting the same nightmare into everyone who sleeps in the city. No one has rested for three days.",
-    "es": "Un mago onírico cayó en coma y proyecta la misma pesadilla a todos los que duermen en la ciudad. Nadie descansa desde hace tres días.",
-    "ru": "Онирический маг впал в кому, и его подсознание проецирует один и тот же кошмар всем спящим в городе. Никто не отдыхал уже три дня.",
-    "zh": "一名梦境法师陷入昏迷，他的潜意识将同一个噩梦投射给整座城市的睡眠者，已无人安眠三日。",
-    "ja": "夢を操る魔術師が昏睡状態に陥り、その潜在意識が街中の眠る者すべてに同じ悪夢を見せている。三日間、誰も休めていない。"
+    "pt": "Vaelor, o mago onírico entrou em coma, e seu subconsciente projeta o mesmo pesadelo para todos que dormem na cidade. Ninguém descansa há três dias.",
+    "en": "Vaelor, the oneiric mage, has fallen into a coma, and his subconscious is projecting the same nightmare to everyone who sleeps in the city. No one has rested for three days.",
+    "es": "Vaelor, el mago onírico, ha caído en coma, y su subconsciente está proyectando la misma pesadilla a todos los que duermen en la ciudad. Nadie ha descansado durante tres días.",
+    "ru": "Ваэлор, онейрический маг, впал в кому, и его подсознание проецирует один и тот же кошмар всем, кто спит в городе. Никто не отдыхал уже три дня.",
+    "zh": "梦境法师瓦埃洛尔陷入了昏迷，他的潜意识将同一个噩梦投射给了城市里所有睡觉的人。已经三天没有人休息了。",
+    "ja": "ワエロール、ワンイリックメイジは昏睡状態に陥り、彼の潜在意識は都市で眠るすべての人に同じ悪夢を投影しています。誰も3日間休んでいません。"
   },
   "type": "arcana",
   "max_heroes": 1,
@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a cidade",
+      "en": "the city",
+      "es": "la ciudad",
+      "ru": "город",
+      "zh": "城市",
+      "ja": "街"
+    },
+    "challenge": {
+      "pt": "o mago",
+      "en": "the mage",
+      "es": "el mago",
+      "ru": "маг",
+      "zh": "法师",
+      "ja": "魔法使い"
+    }
+  }
 }

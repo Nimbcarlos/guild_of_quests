@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a vila",
+      "en": "the village",
+      "es": "la aldea",
+      "ru": "деревня",
+      "zh": "村庄",
+      "ja": "村"
+    },
+    "challenge": {
+      "pt": "os aldeões",
+      "en": "the villagers",
+      "es": "los aldeanos",
+      "ru": "деревенские жители",
+      "zh": "村民",
+      "ja": "村人"
+    }
+  }
 }

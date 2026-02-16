@@ -35,5 +35,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "as áreas dos confrontos recentes",
+      "en": "the recent battle sites",
+      "es": "las zonas de los enfrentamientos recientes",
+      "ru": "районы недавних столкновений",
+      "zh": "近期战斗区域",
+      "ja": "最近の戦闘地域"
+    },
+    "challenge": {
+      "pt": "os rastros deixados pelas criaturas alteradas",
+      "en": "the tracks left by the altered creatures",
+      "es": "los rastros dejados por las criaturas alteradas",
+      "ru": "следы, оставленные изменёнными существами",
+      "zh": "变异生物留下的痕迹",
+      "ja": "変異した獣が残した痕跡"
+    }
+  }
 }

@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a vila",
+      "en": "the village",
+      "es": "la aldea",
+      "ru": "деревня",
+      "zh": "村庄",
+      "ja": "村"
+    },
+    "challenge": {
+      "pt": "as crianças",
+      "en": "the children",
+      "es": "los niños",
+      "ru": "дети",
+      "zh": "孩子们",
+      "ja": "子供たち"
+    }
+  }
 }

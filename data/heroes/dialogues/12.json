@@ -129,7 +129,7 @@
       }
     }
   },
-  "fight_blocks": {
+  "dialogue_blocks": {
     "arrived": {
       "alone": {
         "en": [
@@ -153,7 +153,7 @@
           "Chegada confirmada d{location}. Ordem verificada.",
           "Aproximei-me d{location}. Ajustei avanço antes de prosseguir.",
           "Mantive posição diante d{location}. Avaliação completa.",
-          "Passei por d{location}. Nada fora do lugar.",
+          "Passei por {location}. Nada fora do lugar.",
           "Posição final d{location}. Pronta para agir."
         ],
         "es": [
@@ -165,9 +165,45 @@
           "Llegada confirmada d{location}. Orden verificado.",
           "Me acerqué d{location}. Ajusté el avance antes de seguir.",
           "Mantuve posición frente d{location}. Evaluación completa.",
-          "Pasé por d{location}. Nada fuera de lugar.",
+          "Pasé por {location}. Nada fuera de lugar.",
           "Posición final d{location}. Lista para actuar."
-        ]
+        ],
+        "ru": [
+          "Прибыл к {location}. Шаги посчитаны и исправлены.",
+          "Остановился перед {location}. Выравнивание проверено.",
+          "Продвинулся к {location}. Отклонение не допускается.",
+          "Занял позицию возле {location}. Паттерн сохранен.",
+          "Визуальный контакт с {location}. Ситуация под контролем.",
+          "Прибытие подтверждено к {location}. Порядок проверен.",
+          "Приблизился к {location}. Исправил продвижение перед продолжением.",
+          "Удерживал позицию перед {location}. Полная оценка завершена.",
+          "Прошел через {location}. Ничего не выбивается из места.",
+          "Финальная позиция у {location}. Готов к действию."
+        ],
+        "zh": [
+          "到达{location}附近。步伐已数过并纠正。",
+          "停在{location}前面。等待正确的对齐。",
+          "向{location}推进。任何偏离都不允许。",
+          "在{location}附近占位。保持模式。",
+          "与{location}视觉接触。情况受控。",
+          "确认到达{location}。秩序已验证。",
+          "靠近{location}。在继续之前调整了前进。",
+          "在{location}前保持位置。完成全面评估。",
+          "通过{location}。没有任何异常。",
+          "在{location}的最终位置。准备行动。"
+        ],
+          "ja": [
+            "{location}の近くに到着。歩数を数えて修正。",
+            "{location}の前で停止。正しい位置を待つ。",
+            "{location}に向かって進む。どんな逸脱も許されない。",
+            "{location}の近くに位置を取る。パターンを維持。",
+            "{location}と視覚的接触。状況は制御下にある。",
+            "{location}への到着を確認。秩序を検証。",
+            "{location}に近づく。続行前に前進を修正。",
+            "{location}の前で位置を保持。完全な評価が完了。",
+            "{location}を通過。何も異常はない。",
+            "{location}の最終位置。行動の準備ができている。"
+          ]
       },
       "group": {
         "en": [
@@ -209,96 +245,734 @@
       }
     },
     "action": {
-      "alone": {
-        "en": [
-          "Attack initiated. Six strikes delivered against {enemy}.",
-          "Sequence executed. Impacts counted against {enemy}.",
-          "Cycle completed. Sixth strike confirmed against {enemy}.",
-          "Precise execution. No errors against {enemy}.",
-          "Rhythm maintained. Constant pressure against {enemy}.",
-          "Posture corrected. Finalization against {enemy}.",
-          "Attack concluded. Pattern preserved against {enemy}.",
-          "Full control. Final strike against {enemy}.",
-          "Withdrawal only after the sixth impact against {enemy}.",
-          "Combat ended. {enemy} neutralized."
-        ],
-        "pt": [
-          "Ataque iniciado. Seis golpes aplicados n{enemy}.",
-          "Sequência executada. Impactos contados n{enemy}.",
-          "Ciclo fechado. Sexto golpe confirmado n{enemy}.",
-          "Execução precisa. Nenhum erro n{enemy}.",
-          "Ritmo mantido. Pressão constante n{enemy}.",
-          "Postura corrigida. Finalização n{enemy}.",
-          "Ataque concluído. Padrão preservado n{enemy}.",
-          "Controle absoluto. Golpe final n{enemy}.",
-          "Recuo somente após o sexto impacto n{enemy}.",
-          "Combate encerrado. {enemy} neutralizado."
-        ],
-        "es": [
-          "Ataque iniciado. Seis golpes aplicados contra {enemy}.",
-          "Secuencia ejecutada. Impactos contados contra {enemy}.",
-          "Ciclo cerrado. Sexto golpe confirmado contra {enemy}.",
-          "Ejecución precisa. Ningún error contra {enemy}.",
-          "Ritmo mantenido. Presión constante contra {enemy}.",
-          "Postura corregida. Finalización contra {enemy}.",
-          "Ataque concluido. Patrón preservado contra {enemy}.",
-          "Control absoluto. Golpe final contra {enemy}.",
-          "Retirada solo después del sexto impacto contra {enemy}.",
-          "Combate finalizado. {enemy} neutralizado."
-        ]
+      "fight": {
+        "alone": {
+          "pt": [
+            "Pelo segredo do aço, desferi seis golpes n{enemy}. Nem um a mais, nem um a menos.",
+            "O aço não mente. O sexto golpe n{enemy} encerrou sua patética existência.",
+            "Por Morc, executei a sequência perfeita n{enemy}. A simetria é o único deus que sigo.",
+            "Saboreei o peso da espada enquanto contava cada impacto n{enemy} até o sexto.",
+            "Civilização é um veneno, mas n{enemy} sentiu a pureza de seis cortes exatos.",
+            "Morc ri do alto de sua montanha, mas ele viu minha lâmina cair seis vezes n{enemy}.",
+            "Deixei a terra beber o sangue n{enemy} apenas após o sexto e definitivo golpe.",
+            "A lâmina longa respondeu ao meu comando. Seis vezes ela beijou a carne n{enemy}.",
+            "O vento sopra das estepes, e meu aço cantou seis vezes n{enemy} antes do silêncio.",
+            "Não sou uma berserker irracional; sou o carrasco que deu a {enemy} seis cortes simétricos."
+          ],
+           "en": [
+            "By the secret of steel, I delivered six strikes against {enemy}. Not one more, not one less.",
+            "Steel does not lie. The sixth strike against {enemy} ended its pathetic existence.",
+            "By Morc, I executed the perfect sequence against {enemy}. Symmetry is the only god I follow.",
+            "I savored the weight of the blade as I counted each impact against {enemy} up to the sixth.",
+            "Civilization is a poison, but {enemy} felt the purity of six exact cuts.",
+            "Morc laughs from atop his mountain, but he saw my blade fall six times against {enemy}.",
+            "I let the earth drink {enemy}'s blood only after the sixth and final strike.",
+            "The long blade responded to my command. Six times it kissed {enemy}'s flesh.",
+            "The wind blows from the steppes, and my steel sang six times against {enemy} before the silence.",
+            "I am not a mindless berserker; I am the executioner who gave {enemy} six symmetrical cuts."
+          ],
+           "es": [
+            "Por el secreto del acero, desferí seis golpes contra {enemy}. Ni uno más, ni uno menos.",
+            "El acero no miente. El sexto golpe contra {enemy} terminó su patética existencia.",
+            "Por Morc, ejecuté la secuencia perfecta contra {enemy}. La simetría es el único dios que sigo.",
+            "Saboreé el peso de la espada mientras contaba cada impacto contra {enemy} hasta el sexto.",
+            "La civilización es un veneno, pero {enemy} sintió la pureza de seis cortes exactos.",
+            "Morc ríe desde lo alto de su montaña, pero vio mi hoja caer seis veces contra {enemy}.",
+            "Dejé que la tierra bebiera la sangre de {enemy} solo después del sexto y definitivo golpe.",
+            "La hoja larga respondió a mi comando. Seis veces besó la carne de {enemy}.",
+            "El viento sopla desde las estepas, y mi acero cantó seis veces contra {enemy} antes del silencio.",
+            "No soy un berserker sin sentido; soy el verdugo que le dio a {enemy} seis cortes simétricos."
+          ],
+           "ru": [
+            "По секрету стали, я нанес шесть ударов по {enemy}. Ни одного больше, ни одного меньше.",
+            "Сталь не лжет. Шестой удар по {enemy} положил конец его жалкому существованию.",
+            "Во имя Морка, я выполнил идеальную последовательность против {enemy}. Симметрия — единственный бог, которому я следую.",
+            "Я наслаждался весом клинка, считая каждый удар по {enemy} до шестого.",
+            "Цивилизация — это яд, но {enemy} почувствовал чистоту шести точных ударов.",
+            "Морк смеется с вершины своей горы, но он видел, как мое лезвие падало шесть раз по {enemy}.",
+            "Я позволил земле пить кровь {enemy} только после шестого и последнего удара.",
+            "Длинный клинок ответил на мою команду. Шесть раз он поцеловал плоть {enemy}.",
+            "Ветер дует со степей, и мой сталь пела шесть раз по {enemy} перед тишиной.",
+            "Я не безумный берсерк; я палач, который дал {enemy} шесть симметричных ударов."
+          ],
+           "zh": [
+            "凭借钢铁的秘密，我对{enemy}施以六击。不是多一个，也不是少一个。",
+            "钢铁不会说谎。对{enemy}的第六击结束了它可怜的存在。",
+            "以莫克之名，我对{enemy}执行了完美的序列。对称是我唯一崇拜的神。",
+            "我用我的剑，为{enemy}画出了完美的六边形。",
+            "文明是毒药，但{enemy}感受到了六个精确的打击。",
+            "莫克从他的山顶上笑着，但他看到了我的剑六次落在{enemy}身上。",
+            "我让大地喝下{enemy}的血，只有在第六次打击之后。",
+            "长剑响应了我的命令。它六次亲吻了{enemy}的肉体。",
+            "风从草原吹来，我的钢铁在{enemy}身上唱了六次，然后是寂静。",
+            "我不是一个无脑的狂战士；我是那个给了{enemy}六个对称切口的刽子手。"
+          ],
+           "ja": [
+            "鋼の秘密によって、私は{enemy}に六撃を与えた。多くもなく、少なくもない。",
+            "鋼は嘘をつかない。{enemy}への六撃目が、その哀れな存在を終わらせた。",
+            "モルクの名のもとに、私は{enemy}に完璧なシーケンスを実行した。対称性は私が従う唯一の神だ。",
+            "私の剣は私の意志に従った。六回、{enemy}の肉体を撫でた。",
+            "文明は毒だが、{enemy}は六つの正確な切り傷の純粋さを感じた。",
+            "モルクは山の頂から笑っているが、彼は私の剣が{enemy}に六回落ちるのを見た。",
+            "私は{enemy}の命を奪った。六つの斬撃で、完璧な対称性を示した。",
+            "長い剣は私の命令に応じた。六回、{enemy}の肉体を撫でた。",
+            "風はステップから吹き、私の鋼は{enemy}に六回歌い、その後沈黙した。",
+            "私は無意味な狂戦士ではない。私は{enemy}に六つの対称的な切口を与えた処刑者だ。"
+          ]
+        },
+        "group": {
+          "pt": [
+            "Avancei primeiro e garanti seis golpes precisos n{enemy}, como Khoram exige.",
+            "O grupo observou enquanto minha espada longa ditou o ritmo: seis marcas n{enemy}.",
+            "Eles seguiram meus passos, mas conduzi a lâmina até fechar o sexto ciclo n{enemy}.",
+            "Eles lutaram com impulso; eu mantive a frieza do aço. Foram seis impactos n{enemy}.",
+            "O metal ecoou seis vezes n{enemy}, cada descida medida.",
+            "Meus flancos foram protegidos enquanto busquei o silêncio do sexto golpe n{enemy}.",
+            "Ajustei o compasso do combate até alinhar seis cortes exatos n{enemy}.",
+            "Sob o olhar do Deus da Montanha, executei seis golpes contados n{enemy}.",
+            "Mantive postura firme até sentir o sexto impacto atravessar n{enemy}.",
+            "Restaurei a simetria do confronto com seis cortes profundos n{enemy}."
+          ],
+          "en": [
+            "I advanced first and ensured six precise strikes against {enemy}, as Khoram demands.",
+            "The group watched as my long blade set the pace: six marks against {enemy}.",
+            "They followed my lead, but I drove the blade to close the sixth cycle against {enemy}.",
+            "They fought with momentum; I maintained the coldness of steel. There were six impacts against {enemy}.",
+            "The metal echoed six times against {enemy}, each descent measured.",
+            "My flanks were protected as I sought the silence of the sixth strike against {enemy}.",
+            "I adjusted the rhythm of combat until I aligned six exact cuts against {enemy}.",
+            "Under the gaze of the Mountain God, I executed six counted strikes against {enemy}.",
+            "I held a firm posture until I felt the sixth impact pierce through {enemy}.",
+            "I restored the symmetry of the confrontation with six deep cuts against {enemy}."
+          ],
+          "es": [
+            "Avancé primero y aseguré seis golpes precisos contra {enemy}, como exige Khoram.",
+            "El grupo observó mientras mi hoja larga marcaba el ritmo: seis marcas contra {enemy}.",
+            "Siguieron mi ejemplo, pero conduje la hoja para cerrar el sexto ciclo contra {enemy}.",
+            "Lucharon con impulso; yo mantuve la frialdad del acero. Hubo seis impactos contra {enemy}.",
+            "El metal resonó seis veces contra {enemy}, cada descenso medido.",
+            "Mis flancos fueron protegidos mientras buscaba el silencio del sexto golpe contra {enemy}.",
+            "Ajusté el ritmo del combate hasta alinear seis cortes exactos contra {enemy}.",
+            "Bajo la mirada del Dios de la Montaña, ejecuté seis golpes contados contra {enemy}.",
+            "Mantuvé una postura firme hasta sentir el sexto impacto atravesar a {enemy}.",
+            "Restauré la simetría del enfrentamiento con seis cortes profundos contra {enemy}."
+          ],
+          "ru": [
+            "Я продвинулся первым и обеспечил шесть точных ударов по {enemy}, как требует Хорам.",
+            "Группа наблюдала, как мой длинный клинок задавал ритм: шесть отметок по {enemy}.",
+            "Они следовали за мной, но я вел клинок, чтобы закрыть шестой цикл по {enemy}.",
+            "Они сражались с импульсом; я сохранял холодность стали. Было шесть ударов по {enemy}.",
+            "Металл эхом отозвался шесть раз по {enemy}, каждый спуск был измерен.",
+            "Мои фланги были защищены, пока я искал тишину шестого удара по {enemy}.",
+            "Я отрегулировал ритм боя, пока не выровнял шесть точных ударов по {enemy}.",
+            "Под взглядом Бога Горы я выполнил шесть отсчитанных ударов по {enemy}.",
+            "Я держал твердую позу, пока не почувствовал, как шестой удар пронзает {enemy}.",
+            "Я восстановил симметрию противостояния шестью глубокими порезами по {enemy}."
+          ],
+          "zh": [
+            "我先行一步，确保了对{enemy}的六次精准打击，正如Khoram所要求的。",
+            "当我的长剑设定节奏时，队伍注视着：对{enemy}的六个标记。",
+            "他们跟随我的引导，但我驱动剑刃完成了对{enemy}的第六个循环。",
+            "他们带着势头战斗；我保持了钢铁的冷静。对{enemy}有六次冲击。",
+            "金属在{enemy}上回响了六次，每一次下降都经过测量。",
+            "当我寻找第六次打击的寂静时，我的侧翼得到了保护。",
+            "我调整了战斗的节奏，直到我对{enemy}对齐了六个精确的切口。",
+            "在山神的注视下，我对{enemy}执行了六次计数打击。",
+            "我保持坚定的姿态，直到感觉到第六次冲击穿透了{enemy}。",
+            "我用对{enemy}的六个深切口恢复了对抗的对称性。"
+          ],
+          "ja": [
+            "{enemy}に対して、私は最初に進み、Khoramが要求するように6つの正確な攻撃を確実にしました。",
+            "私の長い刃がペースを設定するのをグループは見守りました：{enemy}に対して6つのマーク。",
+            "彼らは私のリードに従いましたが、私は刃を駆使して{enemy}に対して6番目のサイクルを閉じました。",
+            "彼らは勢いで戦いました；私は鋼の冷たさを保ちました。{enemy}に対して6つの衝撃がありました。",
+            "金属は{enemy}に対して6回こだまし、各下降は測定されました。",
+            "私の側面は保護されていましたが、私は{enemy}に対する6番目の攻撃の静けさを求めました。",
+            "私は戦闘のリズムを調整し、{enemy}に対して6つの正確な切り傷を合わせました。",
+            "山の神の視線の下で、私は{enemy}に対して6つのカウントされた攻撃を実行しました。",
+            "私は{enemy}に対して6番目の衝撃が突き 刺さるのを感じるまで、しっかりとした姿勢を保ちました。",
+            "私は{enemy}に対して6つの深い切り傷で対決の対称性を回復しました。"
+          ]
+        }        
       },
-      "group": {
-        "en": [
-          "Attack initiated. Six strikes delivered against {enemy}.",
-          "Sequence executed. Impacts counted against {enemy}.",
-          "Cycle completed. Sixth strike confirmed against {enemy}.",
-          "Precise execution. No errors against {enemy}.",
-          "Rhythm maintained. Constant pressure against {enemy}.",
-          "Posture corrected. Finalization against {enemy}.",
-          "Attack concluded. Pattern preserved against {enemy}.",
-          "Full control. Final strike against {enemy}.",
-          "Withdrawal only after the sixth impact against {enemy}.",
-          "Combat ended. {enemy} neutralized."
-        ],
-        "pt": [
-          "Ataque iniciado. Seis golpes aplicados n{enemy}.",
-          "Sequência executada. Impactos contados n{enemy}.",
-          "Ciclo fechado. Sexto golpe confirmado n{enemy}.",
-          "Execução precisa. Nenhum erro n{enemy}.",
-          "Ritmo mantido. Pressão constante n{enemy}.",
-          "Postura corrigida. Finalização n{enemy}.",
-          "Ataque concluído. Padrão preservado n{enemy}.",
-          "Controle absoluto. Golpe final n{enemy}.",
-          "Recuo somente após o sexto impacto n{enemy}.",
-          "Combate encerrado. {enemy} neutralizado."
-        ],
-        "es": [
-          "Ataque iniciado. Seis golpes aplicados contra {enemy}.",
-          "Secuencia ejecutada. Impactos contados contra {enemy}.",
-          "Ciclo cerrado. Sexto golpe confirmado contra {enemy}.",
-          "Ejecución precisa. Ningún error contra {enemy}.",
-          "Ritmo mantenido. Presión constante contra {enemy}.",
-          "Postura corregida. Finalización contra {enemy}.",
-          "Ataque concluido. Patrón preservado contra {enemy}.",
-          "Control absoluto. Golpe final contra {enemy}.",
-          "Retirada solo después del sexto impacto contra {enemy}.",
-          "Combate finalizado. {enemy} neutralizado."
-        ]
+      "athletics": {
+        "alone": {
+          "pt": [
+            "Ajustei os pés, alinhei o corpo e apliquei força medida em {challenge}.",
+            "Forcei {challenge} em ciclos curtos, repetindo o movimento até manter o padrão.",
+            "Usei o peso exato contra {challenge}, corrigindo cada desvio."
+          ],
+          "en": [
+            "I adjusted my feet, aligned my body, and applied measured force against {challenge}.",
+            "I forced {challenge} into short cycles, repeating the movement until I maintained the pattern.",
+            "I used exact weight against {challenge}, correcting each deviation."
+          ],
+          "es": [
+            "Ajusté mis pies, alineé mi cuerpo y apliqué fuerza medida contra {challenge}.",
+            "Forcé a {challenge} en ciclos cortos, repitiendo el movimiento hasta mantener el patrón.",
+            "Usé peso exacto contra {challenge}, corrigiendo cada desviación."
+          ],
+          "ru": [
+            "Я отрегулировал свои ноги, выровнял тело и применил измеренную силу против {challenge}.",
+            "Я заставил {challenge} работать в коротких циклах, повторяя движение, пока не поддерживал паттерн.",
+            "Я использовал точный вес против {challenge}, исправляя каждое отклонение."
+          ],
+          "zh": [
+            "我调整了我的脚，调整了我的身体，并对{challenge}施加了适度的力量。",
+            "我将{challenge}强制进入短周期，重复动作直到保持模式。",
+            "我对{challenge}使用了精确的重量，纠正了每一个偏差。"
+          ],
+          "ja": [
+            "私は足を調整し、体を整え、{challenge}に対して測定された力を加えました。",
+            "{challenge}を短いサイクルに強制し、パターンを維持するまで動きを繰り返しました。",
+            "{challenge}に対して正確な重さを使い、各偏差を修正しました。"
+          ]
+        }
+      },
+      "intimidation": {
+        "alone": {
+          "pt": [
+            "Aproximei-me de {challenge} e deixei o silêncio organizar o espaço.",
+            "Mantive o olhar fixo em {challenge} até que a desordem cessasse.",
+            "Falei baixo para {challenge}, cada palavra colocada no lugar certo."
+          ],
+          "en": [
+            "I approached {challenge} and let silence organize the space.",
+            "I held my gaze fixed on {challenge} until the disorder ceased.",
+            "I spoke softly to {challenge}, each word placed in the right spot."
+          ],
+          "es": [
+            "Me acerqué a {challenge} y dejé que el silencio organizara el espacio.",
+            "Mantuvé mi mirada fija en {challenge} hasta que el desorden cesó.",
+            "Hablé suavemente a {challenge}, cada palabra colocada en el lugar correcto."
+          ],
+          "ru": [
+            "Я подошел к {challenge} и позволил тишине организовать пространство.",
+            "Я удерживал взгляд на {challenge}, пока беспорядок не прекратился.",
+            "Я говорил тихо с {challenge}, каждое слово было размещено в нужном месте."
+          ],
+          "zh": [
+            "我走近{challenge}，让沉默来组织空间。",
+            "我盯着{challenge}看，直到混乱停止。",
+            "我对{challenge}轻声说话，每个字都放在正确的位置。"
+          ],
+          "ja": [
+            "{challenge}に近づき、沈黙が空間を整理するのを待ちました。",
+            "{challenge}に視線を固定し、混乱が収まるまで見つめ続けました。",
+            "{challenge}に静かに話しかけ、言葉を適切な場所に配置しました。"
+           ]
+        }
+      },
+      "survival": {
+        "alone": {
+          "pt": [
+            "Observei padrões ao redor de {challenge} antes de avançar.",
+            "Marquei referências próximas de {challenge} para manter direção.",
+            "Ajustei meu ritmo conforme os sinais que cercavam {challenge}."
+          ],
+          "en": [
+            "I observed patterns around {challenge} before advancing.",
+            "I marked nearby references to {challenge} to maintain direction.",
+            "I adjusted my pace according to the signs surrounding {challenge}."
+          ],
+          "es": [
+            "Observé patrones alrededor de {challenge} antes de avanzar.",
+            "Marqué referencias cercanas a {challenge} para mantener la dirección.",
+            "Ajusté mi ritmo según las señales que rodeaban a {challenge}."
+          ],
+          "ru": [
+            "Я наблюдал за шаблонами вокруг {challenge} перед тем, как продвигаться.",
+            "Я отметил ближайшие ориентиры к {challenge}, чтобы поддерживать направление.",
+            "Я отрегулировал свой ритм в соответствии с признаками, окружающими {challenge}."
+          ],
+          "zh": [
+            "我在前进之前观察了{challenge}周围的模式。",
+            "我标记了{challenge}附近的参考点以保持方向。",
+            "我根据围绕{challenge}的迹象调整了我的节奏。"
+          ],
+          "ja": [
+            "{challenge}の周りのパターンを観察してから前進しました。",
+            "{challenge}の近くの参照点をマークして方向を維持しました。",
+            "{challenge}を取り巻くサインに従ってペースを調整しました。"
+           ]
+        }
       }
     },
     "others": {
       "1": {
-       "group": {
-          "pt": [
-            "{hero_name} ficou atrás de mim. Isso ajudou.",
-            "Saber que {hero_name} estava ali me deixou mais firme."
-          ]
+        "group": {
+          "pt":
+          [
+            "Louvei a força de Lyra no meio da luta. Ela gaguejou tanto que quase derrubou a espada.",
+            "Disse que a ferocidade de Lyra era a coisa mais linda que já vi. Ela ficou vermelha como uma brasa.",
+            "Pisquei para Lyra após o meu sexto impacto. Ela tentou se esconder atrás do escudo, mas eu vi o sorriso."
+          ],
+          "en": [
+            "I praised Lyra's strength in the middle of the fight. She stammered so much she almost dropped her sword.",
+            "I said Lyra's ferocity was the most beautiful thing I've ever seen. She blushed like a ember.",
+            "I winked at Lyra after my sixth strike. She tried to hide behind her shield, but I saw the smile."
+          ],
+          "es": [
+            "Elogié la fuerza de Lyra en medio de la pelea. Tartamudeó tanto que casi dejó caer su espada.",
+            "Dije que la ferocidad de Lyra era lo más hermoso que he visto. Se sonrojó como una brasa.",
+            "Le guiñé a Lyra después de mi sexto golpe. Intentó esconderse detrás de su escudo, pero vi la sonrisa."
+          ],
+          "ru": [
+            "Я похвалил силу Лиры посреди боя. Она так запиналась, что чуть не уронила меч.",
+            "Я сказал, что свирепость Лиры — самая красивая вещь, которую я когда-либо видел. Она покраснела, как уголь.",
+            "Я подмигнул Лире после моего шестого удара. Она попыталась спрятаться за своим щитом, но я увидел улыбку."
+          ],
+          "zh": [
+            "我在战斗中称赞了莱拉的力量。她结巴得几乎掉了剑。",
+            "我说莱拉的凶猛是我见过的最美的东西。她像炭火一样脸红了。",
+            "在我的第六次攻击后，我向莱拉眨了眨眼。她试图躲在盾牌后面，但我看到了笑容。"
+          ],
+          "ja": [
+            "戦いの途中でリラの強さを褒めました。彼女はあまりにもどもって、剣を落としそうになりました。",
+            "リラの獰猛さは私が今まで見た中で最も美しいものだと言いました。彼女は炭のように赤面しました。",
+            "私の6回目の攻撃の後、リラにウインクしました。彼女は盾の後ろに隠れようとしましたが、私は笑顔を見ました。"
+           ]
         }
       },
       "2": {
-       "group": {
+        "group": {
           "pt": [
-            "{hero_name} cobriu minha retaguarda enquanto eu segurava o {enemy}."
+            "Aureth revirou os olhos para minhas preces a Morc. Ela não entende o valor do aço.",
+            "A paladina bloqueou um golpe que arruinaria minha sequência. Foi... eficiente.",
+            "Aureth resmungou sobre deuses enquanto eu limpava o sangue em seis movimentos."
+          ],
+          "en": [
+            "Aureth rolled her eyes at my prayers to Morc. She doesn't understand the value of steel.",
+            "The paladin blocked a strike that would have ruined my sequence. It was... efficient.",
+            "Aureth grumbled about gods as I wiped blood in six movements."
+          ],
+          "es": [
+            "Aureth rodó los ojos ante mis oraciones a Morc. Ella no entiende el valor del acero.",
+            "La paladina bloqueó un golpe que habría arruinado mi secuencia. Fue... eficiente.",
+            "Aureth refunfuñó sobre los dioses mientras limpiaba la sangre en seis movimientos."
+          ],
+          "ru": [
+            "Аурет закатила глаза на мои молитвы Морку. Она не понимает ценности стали.",
+            "Паладин заблокировал удар, который бы испортил мою последовательность. Это было... эффективно.",
+            "Аурет ворчала о богах, пока я вытирал кровь шестью движениями."
+          ],
+          "zh": [
+            "Aureth对我向Morc祈祷的行为翻了个白眼。她不理解钢铁的价值。",
+            "女圣骑士挡住了一个会破坏我的连击的攻击。那是……有效的。",
+            "当我用六个动作擦拭血迹时，Aureth抱怨着神明。"
+          ],
+          "ja": [
+            "Aurethは私のMorcへの祈りに目を向けました。彼女は鋼の価値を理解していません。",
+            "パラディンは私のシーケンスを台無しにする攻撃をブロックしました。それは...効率的でした。",
+            "Aurethは私が6つの動きで血を拭いている間、神々について不平を言いました。"
+           ]
+        }
+      },
+      "3": {
+        "group": {
+          "pt": [
+            "Maelis é silenciosa como uma rocha. Ela respeita o tempo de cada batida.",
+            "A druida não fala, mas seus galhos seguraram o alvo para meus seis cortes.",
+            "Maelis me observou contar os golpes. Acho que ela entende a paciência da terra."
+          ],
+          "en": [
+            "Maelis is silent as a rock. She respects the timing of each strike.",
+            "The druid doesn't speak, but her branches held the target for my six cuts.",
+            "Maelis watched me count the strikes. I think she understands the patience of the earth."
+          ],
+          "es": [
+            "Maelis es silenciosa como una roca. Ella respeta el tiempo de cada golpe.",
+            "La druida no habla, pero sus ramas sostuvieron el objetivo para mis seis cortes.",
+            "Maelis me observó contar los golpes. Creo que ella entiende la paciencia de la tierra."
+          ],
+          "ru": [
+            "Маэлис молчалива, как скала. Она уважает тайминг каждого удара.",
+            "Друид не говорит, но ее ветви держали цель для моих шести ударов.",
+            "Маэлис наблюдала, как я считал удары. Думаю, она понимает терпение земли."
+          ],
+          "zh": [
+            "Maelis像岩石一样沉默。她尊重每一次打击的时机。",
+            "德鲁伊不说话，但她的树枝为我的六次切割固定了目标。",
+            "Maelis看着我数着打击。我想她理解大地的耐心。"
+          ],
+          "ja": [
+            "Maelisは岩のように静かです。彼女は各攻撃のタイミングを尊重します。",
+            "ドルイドは話しませんが、彼女の枝は私の6つの切り傷のためにターゲットを保持しました。",
+            "Maelisは私が攻撃を数えるのを見ていました。彼女は地球の忍耐を理解していると思います。"
+           ]
+        }
+      },
+      "4": {
+        "group": {
+          "pt": [
+            "Saryth faz um espetáculo de cada cura. Muita fumaça para pouca precisão.",
+            "A xamã chamou os espíritos. Eles bagunçaram o campo, mas ajudei a organizar.",
+            "Saryth queria que eu dançasse. Eu disse que só danço em múltiplos de seis."
+          ],
+          "en": [
+            "Saryth makes a spectacle of every heal. Too much smoke for little precision.",
+            "The shaman called the spirits. They messed up the field, but I helped organize.",
+            "Saryth wanted me to dance. I said I only dance in multiples of six."
+          ],
+          "es": [
+            "Saryth hace un espectáculo de cada curación. Demasiado humo para poca precisión.",
+            "El chamán llamó a los espíritus. Desordenaron el campo, pero ayudé a organizar.",
+            "Saryth quería que bailara. Dije que solo bailo en múltiplos de seis."
+          ],
+          "ru": [
+            "Saryth устраивает шоу с каждым исцелением. Слишком много дыма для небольшой точности.",
+            "Шаман призвал духов. Они испортили поле, но я помог организовать.",
+            "Saryth хотел, чтобы я танцевал. Я сказал, что танцую только в кратных шести."
+          ],
+          "zh": [
+            "Saryth把每次治疗都弄得像个表演。太多的烟雾，精确度却很低。",
+            "萨满召唤了灵魂。他们弄乱了战场，但我帮忙整理了。",
+            "Saryth想让我跳舞。我说我只在六的倍数时跳舞。"
+          ],
+          "ja": [
+            "Sarythは毎回の治癒を見せ物にします。精度の低い煙が多すぎます。",
+            "シャーマンは精霊を呼びました。彼らはフィールドを混乱させましたが、私は整理するのを手伝いました。",
+            "Sarythは私に踊ってほしかった。私は6の倍数でしか踊らないと言いました。"
+           ]
+        }
+      },
+      "5": {
+        "group": {
+          "pt": [
+            "Nyssa canta sobre derrotas. Isso me faz querer golpear com mais força.",
+            "A barda marcou o tempo da música. Usei o ritmo dela para meus seis ataques.",
+            "Nyssa disse que minhas feridas contam uma história triste. Eu disse que são apenas exatas."
+          ],
+          "en": [
+            "Nyssa sings about defeats. It makes me want to strike with more force.",
+            "The bard marked the time of the music. I used her rhythm for my six attacks.",
+            "Nyssa said my wounds tell a sad story. I said they're just exact."
+          ],
+          "es": [
+            "Nyssa canta sobre derrotas. Eso me hace querer golpear con más fuerza.",
+            "La barda marcó el tiempo de la música. Usé su ritmo para mis seis ataques.",
+            "Nyssa dijo que mis heridas cuentan una historia triste. Dije que son solo exactas."
+          ],
+          "ru": [
+            "Nyssa поет о поражениях. Это заставляет меня хотеть ударить с большей силой.",
+            "Барда отметила время музыки. Я использовал ее ритм для своих шести атак.",
+            "Nyssa сказала, что мои раны рассказывают печальную историю. Я сказал, что они просто точные."
+          ],
+          "zh": [
+            "Nyssa唱着关于失败的歌。这让我想要更有力地攻击。",
+            "吟游诗人标记了音乐的节奏。我用她的节奏进行我的六次攻击。",
+            "Nyssa说我的伤口讲述了一个悲伤的故事。我说它们只是准确的。"
+          ],
+          "ja": [
+            "Nyssaは敗北について歌います。それは私にもっと強く打ちたいと思わせます。",
+            "バードは音楽の時間をマークしました。私は彼女のリズムを私の6つの攻撃に使いました。",
+            "Nyssaは私の傷が悲しい物語を語っていると言いました。私はそれらはただ正確だと言いました。"
+           ]
+        }
+      },
+      "6": {
+        "group": {
+          "pt": [
+            "Kaela ouve vozes demais. Eu prefiro o som único do metal no osso.",
+            "A clériga sorriu para o vazio enquanto eu finalizava o ciclo n{enemy}.",
+            "Kaela me disse que os anjos gostam da minha contagem. Achei... aceitável."
+          ],
+          "en": [
+            "Kaela hears too many voices. I prefer the single sound of metal on bone.",
+            "The cleric smiled at the void as I finished the cycle against {enemy}.",
+            "Kaela told me the angels like my counting. I found it... acceptable."
+          ],
+          "es": [
+            "Kaela escucha demasiadas voces. Prefiero el sonido único del metal sobre el hueso.",
+            "La clériga sonrió al vacío mientras terminaba el ciclo contra {enemy}.",
+            "Kaela me dijo que a los ángeles les gusta mi conteo. Lo encontré... aceptable."
+          ],
+          "ru": [
+            "Kaela слышит слишком много голосов. Я предпочитаю единственный звук металла по кости.",
+            "Клирик улыбнулся в пустоту, когда я закончил цикл против {enemy}.",
+            "Kaela сказала мне, что ангелам нравится мой счет. Я нашел это... приемлемым."
+          ],
+          "zh": [
+            "Kaela听到太多声音了。我更喜欢金属碰撞骨头的单一声音。",
+            "当我完成对{enemy}的循环时，牧师对着虚空微笑。",
+            "Kaela告诉我天使喜欢我的计数。我觉得...可以接受。"
+          ],
+          "ja": [
+            "Kaelaはあまりにも多くの声を聞きます。私は骨に金属が当たる単一の音が好きです。",
+            "クレリックは{enemy}に対するサイクルを終えると虚空に微笑みました。",
+            "Kaelaは天使が私のカウントを気に入っていると言いました。私はそれを...受け入れられると感じました。"
+          ]
+        }
+      },
+      "7": {
+        "group": {
+          "pt": [
+            "Leona entende a lógica. Ela apreciou a matemática dos meus seis cortes.",
+            "O relâmpago de Leona é rápido, mas não tem a substância do aço.",
+            "Leona tentou calcular minha força. Eu apenas mostrei o resultado em seis partes."
+          ],
+          "en": [
+            "Leona understands logic. She appreciated the math of my six cuts.",
+            "Leona's lightning is fast, but it lacks the substance of steel.",
+            "Leona tried to calculate my strength. I just showed the result in six parts."
+          ],
+          "es": [
+            "Leona entiende la lógica. Ella apreció las matemáticas de mis seis cortes.",
+            "El relámpago de Leona es rápido, pero carece de la sustancia del acero.",
+            "Leona intentó calcular mi fuerza. Solo mostré el resultado en seis partes."
+          ],
+          "ru": [
+            "Leona понимает логику. Она оценила математику моих шести ударов.",
+            "Молния Леоны быстрая, но ей не хватает субстанции стали.",
+            "Леона пыталась вычислить мою силу. Я просто показал результат в шести частях."
+          ],
+          "zh": [
+            "Leona懂得逻辑。她欣赏我六次切割的数学。",
+            "Leona的闪电很快，但缺乏钢铁的实质。",
+            "Leona试图计算我的力量。我只是以六个部分展示了结果。"
+          ],
+          "ja": [
+            "Leonaは論理を理解しています。彼女は私の6つの切り傷の数学を評価しました。",
+            "Leonaの雷は速いですが、鋼の実体が欠けています。",
+            "Leonaは私の強さを計算しようとしました。私はただ結果を6つの部分で示しました。"
+           ]
+        }
+      },
+      "8": {
+        "group": {
+          "pt": [
+            "Serah entrega a dor rápido demais. Quase não me deixou tempo para contar.",
+            "A monja é tensa como uma corda de arco. Ela precisa de um ciclo de seis para relaxar.",
+            "Lutamos lado a lado. Os punhos dela são rápidos, mas minha lâmina é absoluta."
+          ],
+          "en": [
+            "Serah delivers pain too quickly. She barely gave me time to count.",
+            "The nun is tense like a bowstring. She needs a six-cycle to relax.",
+            "We fought side by side. Her fists are fast, but my blade is absolute."
+          ],
+          "es": [
+            "Serah entrega el dolor demasiado rápido. Casi no me dejó tiempo para contar.",
+            "La monja está tensa como una cuerda de arco. Necesita un ciclo de seis para relajarse.",
+            "Luchamos lado a lado. Sus puños son rápidos, pero mi cuchilla es absoluta."
+          ],
+          "ru": [
+            "Серах слишком быстро доставляет боль. Ей почти не оставалось времени считать.",
+            "Монахиня натянута, как струна лука. Ей нужен шестикратный цикл для расслабления.",
+            "Мы сражались рядом. Ее кулаки быстры, но мой клинок абсолютен."
+          ],
+          "zh": [
+            "Serah太快地给予痛苦。她几乎没有给我时间数数。",
+            "修女像弓弦一样紧绷。她需要六个循环才能放松。",
+            "我们并肩作战。她的拳头很快，但我的刀刃是绝对的。"
+          ],
+          "ja": [
+            "Serahは痛みをあまりにも速く与えます。彼女は数える時間すら与えませんでした。",
+            "修道女は弓の弦のように緊張しています。彼女は6回のサイクルが必要です。",
+            "私たちは横に戦いました。彼女の拳は速いですが、私の刃は絶対です。"
+           ]
+          }
+      },
+      "9": {
+        "group": {
+          "pt": [
+            "Seraphine criticou o ângulo do meu corte. Disse que era 'química ineficiente'.",
+            "A alquimista me deu um tônico amargo. Me ajudou a manter o ritmo até o fim.",
+            "Seraphine observou n{enemy} e anotou algo sobre meus seis pontos de pressão."
+          ],
+          "en": [
+            "Seraphine criticized the angle of my cut. She said it was 'inefficient chemistry'.",
+            "The alchemist gave me a bitter tonic. It helped me keep the rhythm until the end.",
+            "Seraphine observed {enemy} and noted something about my six pressure points."
+          ],
+          "es": [
+            "Seraphine criticó el ángulo de mi corte. Dijo que era 'química ineficiente'.",
+            "La alquimista me dio un tónico amargo. Me ayudó a mantener el ritmo hasta el final.",
+            "Seraphine observó a {enemy} y anotó algo sobre mis seis puntos de presión."
+          ],
+          "ru": [
+            "Seraphine критиковала угол моего удара. Она сказала, что это 'неэффективная химия'.",
+            "Алхимик дал мне горький тоник. Он помог мне сохранять ритм до конца.",
+            "Seraphine наблюдала за {enemy} и отметила что-то о моих шести точках давления."
+          ],
+          "zh": [
+            "Seraphine批评了我的切割角度。她说那是“效率低下的化学反应”。",
+            "炼金术士给了我一种苦涩的补药。它帮助我保持节奏直到最后。",
+            "Seraphine观察了{enemy}，并记录了关于我的六个压力点的东西。"
+          ],
+          "ja": [
+            "Seraphineは私の切り傷の角度を批判しました。彼女はそれが「非効率な化学」と言いました。",
+            "錬金術師は私に苦いトニックをくれました。それは最後までリズムを保つのに役立ちました。",
+            "Seraphineは{enemy}を観察し、私の6つの圧力ポイントについて何かを記録しました。"
+           ]
+        }
+      },
+      "10": {
+        "group": {
+          "pt": [
+            "Elara é honesta demais para uma ladina. Pelo menos ela não rouba meus abates.",
+            "A garota se move sem som, mas eu sempre sinto quando ela observa minha técnica.",
+            "Elara encontrou um item. Eu disse que só aceitaria se encontrasse mais cinco."
+          ],
+          "en": [
+            "Elara is too honest for a rogue. At least she doesn't steal my kills.",
+            "The girl moves silently, but I always feel when she observes my technique.",
+            "Elara found an item. I said I would only accept it if she found five more."
+          ],
+          "es": [
+            "Elara es demasiado honesta para una ladrona. Al menos no roba mis muertes.",
+            "La chica se mueve silenciosamente, pero siempre siento cuando observa mi técnica.",
+            "Elara encontró un objeto. Dije que solo lo aceptaría si encontraba cinco más."
+          ],
+          "ru": [
+            "Elara слишком честная для разбойницы. По крайней мере, она не крадет мои убийства.",
+            "Девочка движется бесшумно, но я всегда чувствую, когда она наблюдает за моей техникой.",
+            "Elara нашла предмет. Я сказал, что приму его только если она найдет еще пять."
+          ],
+          "zh": [
+            "Elara对于一个盗贼来说太诚实了。至少她不会偷我的击杀。",
+            "这个女孩悄无声息地移动，但当她观察我的技术时，我总能感觉到。",
+            "Elara找到了一件物品。我说只有当她再找到五件时我才会接受它。"
+          ],
+          "ja": [
+            "Elaraはローグには正直すぎます。少なくとも彼女は私のキルを盗みません。",
+            "その少女は静かに動きますが、私はいつも彼女が私の技術を観察していると感じます。",
+            "Elaraはアイテムを見つけました。私は彼女がさらに5つ見つけた場合にのみそれを受け入れると言いました。"
+           ]
+        }
+      },
+      "11": {
+        "group": {
+          "pt": [
+            "Nyx é um pesadelo. Ela entende que o abate deve ser uma obra de arte.",
+            "A assassina não deixa fantasmas. Eu deixo apenas seis marcas profundas.",
+            "Nyx sorriu ao ver a simetria n{enemy}. Pela primeira vez, não senti medo dela."
+          ],
+          "en": [
+            "Nyx is a nightmare. She understands that the kill must be a work of art.",
+            "The assassin leaves no ghosts. I leave only six deep marks.",
+            "Nyx smiled at the sight of the symmetry against {enemy}. For the first time, I didn't feel afraid of her."
+          ],
+          "es": [
+            "Nyx es una pesadilla. Ella entiende que la muerte debe ser una obra de arte.",
+            "La asesina no deja fantasmas. Solo dejo seis marcas profundas.",
+            "Nyx sonrió al ver la simetría contra {enemy}. Por primera vez, no sentí miedo de ella."
+          ],
+          "ru": [
+            "Nyx — это кошмар. Она понимает, что убийство должно быть произведением искусства.",
+            "Убийца не оставляет призраков. Я оставляю только шесть глубоких отметок.",
+            "Nyx улыбнулась при виде симметрии против {enemy}. Впервые я не почувствовал страха перед ней."
+          ],
+          "zh": [
+            "Nyx是一个噩梦。她明白杀戮必须是一件艺术品。",
+            "刺客不留下鬼魂。我只留下六个深深的标记。",
+            "Nyx看到{enemy}的对称时微笑了。第一次，我没有感到害怕她。"
+          ],
+          "ja": [
+            "Nyxは悪夢です。彼女はキルが芸術作品でなければならないことを理解しています。",
+            "暗殺者はゴーストを残しません。私は6つの深いマークだけを残します。",
+            "Nyxは{enemy}に対する対称性を見て微笑みました。初めて、私は彼女を怖がらなかった。"
+           ]
+        }
+      },
+      "13": {
+        "group": {
+          "pt": [
+            "Mina trouxe um aliado morto. Ele era bem mais organizado que os vivos.",
+            "A necromante pediu licença ao cadáver. Eu já tinha dado a ele seis motivos para cair.",
+            "Mina disse que os ossos lembram do meu nome. Espero que lembrem do número seis também."
+          ],
+          "en": [
+            "Mina brought a dead ally. He was much more organized than the living.",
+            "The necromancer asked the corpse for permission. I had already given it six reasons to fall.",
+            "Mina said the bones remember my name. I hope they remember the number six too."
+          ],
+          "es": [
+            "Mina trajo un aliado muerto. Era mucho más organizado que los vivos.",
+            "La necromante pidió permiso al cadáver. Ya le había dado seis razones para caer.",
+            "Mina dijo que los huesos recuerdan mi nombre. Espero que también recuerden el número seis."
+          ],
+          "ru": [
+            "Мина принесла мертвого союзника. Он был гораздо более организован, чем живые.",
+            "Некромант попросил разрешения у трупа. Я уже дал ему шесть причин упасть.",
+            "Мина сказала, что кости помнят мое имя. Надеюсь, они также помнят число шесть."
+          ],
+          "zh": [
+            "Mina带来了一个死去的盟友。他比活人更有组织。",
+            "死灵法师向尸体请求许可。我已经给了它六个倒下的理由。",
+            "Mina说骨头记得我的名字。我希望他们也记得数字六。"
+          ],
+          "ja": [
+            "Minaは死んだ仲間を連れてきました。彼は生きている人よりはるかに組織的でした。",
+            "死霊術師は死体に許可を求めました。私はすでにそれに倒れるための6つの理由を与えていました。",
+            "Minaは骨が私の名前を覚えていると言いました。彼らも数字の6を覚えていることを願っています。"
+           ]
+        }
+      },
+      "14": {
+        "group": {
+          "pt": [
+            "Raska entende de pontos de falha. Eu mostrei seis deles n{enemy}.",
+            "A engenheira reclamou do meu suor na engrenagem. Eu reclamei do barulho dela.",
+            "Raska consertou minha guarda. Uma manutenção necessária para o próximo ciclo."
+          ],
+          "en": [
+            "Raska understands failure points. I showed six of them against {enemy}.",
+            "The engineer complained about my sweat on the gear. I complained about her noise.",
+            "Raska repaired my guard. A necessary maintenance for the next cycle."
+          ],
+          "es": [
+            "Raska entiende los puntos de falla. Le mostré seis de ellos contra {enemy}.",
+            "La ingeniera se quejó de mi sudor en el engranaje. Me quejé de su ruido.",
+            "Raska reparó mi guardia. Un mantenimiento necesario para el próximo ciclo."
+          ],
+          "ru": [
+            "Raska понимает точки отказа. Я показал шесть из них против {enemy}.",
+            "Инженер пожаловалась на мой пот на шестерне. Я пожаловался на ее шум.",
+            "Raska отремонтировала мою защиту. Необходимое обслуживание для следующего цикла."
+          ],
+          "zh": [
+            "Raska了解失败点。我向{enemy}展示了其中的六个。",
+            "工程师抱怨我在齿轮上的汗水。我抱怨她的噪音。",
+            "Raska修理了我的防守。为下一个循环进行必要的维护。"
+          ],
+          "ja": [
+            "Raskaは失敗ポイントを理解しています。私は{enemy}に対してそのうちの6つを示しました。",
+            "エンジニアはギアの私の汗について不満を言いました。私は彼女の騒音について不満を言いました。",
+            "Raskaは私のガードを修理しました。次のサイクルのための必要なメンテナンスです。"
+           ]
+        }
+      },
+      "15": {
+        "group": {
+          "pt": [
+            "Gaela gagueja com as palavras, mas o chão que ela move fala claramente.",
+            "A geomante tremeu a terra. Tive que ajustar meus pés para não errar a conta.",
+            "Gaela pediu abrigo às rochas. Eu dei a {enemy} um abrigo de seis palmos."
+          ],
+          "en": [
+            "Gaela stammers with words, but the ground she moves speaks clearly.",
+            "The geomancer trembled the earth. I had to adjust my feet to not miss the count.",
+            "Gaela asked the rocks for shelter. I gave {enemy} a six-inch shelter."
+          ],
+          "es": [
+            "Gaela tartamudea con las palabras, pero el suelo que mueve habla claramente.",
+            "La geomante tembló la tierra. Tuve que ajustar mis pies para no perder la cuenta.",
+            "Gaela pidió refugio a las rocas. Le di a {enemy} un refugio de seis pulgadas."
+          ],
+          "ru": [
+            "Гаэла заикается словами, но земля, которую она двигает, говорит ясно.",
+            "Геомант дрожал землей. Мне пришлось отрегулировать ноги, чтобы не пропустить счет.",
+            "Гаэла попросила укрытия у скал. Я дал {enemy} укрытие в шесть дюймов."
+          ],
+          "zh": [
+            "Gaela说话结巴，但她移动的地面说得很清楚。",
+            "地质学家震动了地面。我不得不调整我的脚以免错过计数。",
+            "Gaela向岩石请求庇护。我给了{enemy}一个六英寸的庇护所。"
+          ],
+          "ja": [
+            "Gaelaは言葉でどもりますが、彼女が動かす地面ははっきりと話します。",
+            "ジオマンサーは地面を震わせました。私はカウントを逃さないように足を調整しなければなりませんでした。",
+            "Gaelaは岩に避難所を求めました。私は{enemy}に6インチの避難所を与えました。"
           ]
         }
       }

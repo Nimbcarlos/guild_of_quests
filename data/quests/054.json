@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a tumba",
+      "en": "the tomb",
+      "es": "la tumba",
+      "ru": "гробница",
+      "zh": "古墓",
+      "ja": "古墳"
+    },
+    "challenge": {
+      "pt": "as armadilhas",
+      "en": "the traps",
+      "es": "las trampas",
+      "ru": "ловушки",
+      "zh": "陷阱",
+      "ja": "罠"
+    }
+  }
 }

@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o mercado",
+      "en": "the marketplace",
+      "es": "el mercado",
+      "ru": "рынок",
+      "zh": "市场",
+      "ja": "市場"
+    },
+    "challenge": {
+      "pt": "o portal",
+      "en": "the portal",
+      "es": "el portal",
+      "ru": "портал",
+      "zh": "传送门",
+      "ja": "ポータル"
+    }
+  }
 }

@@ -16,7 +16,7 @@
     "zh": "巨型昆虫侵扰了耕地。消灭它们以保护收成。",
     "ja": "巨大な昆虫が耕作地にはびこっている。収穫を守るために彼らを排除せよ。"
   },
-  "type": "Fight",
+  "type": "fight",
   "max_heroes": 2,
   "expired_at": 2,
   "available_from_turn": 21,
@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "os campos de cultivo",
+      "en": "the cultivation fields",
+      "es": "los campos de cultivo",
+      "ru": "поля для выращивания",
+      "zh": "耕作田",
+      "ja": "耕作地"
+    },
+    "enemy": {
+      "pt": "os insetos gigantes",
+      "en": "the giant insects",
+      "es": "los insectos gigantes",
+      "ru": "гигантские насекомые",
+      "zh": "巨大的昆虫",
+      "ja": "巨大な昆虫"
+    }
+  }
 }

@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o local sagrado",
+      "en": "the sacred site",
+      "es": "el lugar sagrado",
+      "ru": "священное место",
+      "zh": "神圣的地方",
+      "ja": "神聖な場所"
+    },
+    "challenge": {
+      "pt": "os religiosos",
+      "en": "the religious",
+      "es": "los religiosos",
+      "ru": "религиозные",
+      "zh": "宗教人士",
+      "ja": "宗教者たち"
+    }
+  }
 }

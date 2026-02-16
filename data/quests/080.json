@@ -31,5 +31,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a forja",
+      "en": "the forge",
+      "es": "la forja",
+      "ru": "кузница",
+      "zh": "锻造厂",
+      "ja": "鍛冶場"
+    },
+    "challenge": {
+      "pt": "o metal vivo",
+      "en": "the living metal",
+      "es": "el metal vivo",
+      "ru": "живой металл",
+      "zh": "活金属",
+      "ja": "生きた金属"
+    }
+  }
 }

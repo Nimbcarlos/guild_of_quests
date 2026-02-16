@@ -31,5 +31,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o vilarejo fronteiriço",
+      "en": "the frontier village",
+      "es": "el pueblo fronterizo",
+      "ru": "пограничная деревня",
+      "zh": "边境村庄",
+      "ja": "国境の村"
+    },
+    "challenge": {
+      "pt": "os bandoleiros",
+      "en": "the bandits",
+      "es": "los bandoleros",
+      "ru": "разбойники",
+      "zh": "强盗",
+      "ja": "山賊"
+    }
+  }
 }

@@ -32,5 +32,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o armazen da guild",
+      "en": "the guild's storage",
+      "es": "el almacén de la guild",
+      "ru": "склад гильдии",
+      "zh": "公会的仓库",
+      "ja": "ギルドの倉庫"
+    },
+    "challenge": {
+      "pt": "o cofre mortal",
+      "en": "the deadly vault",
+      "es": "la caja fuerte mortal",
+      "ru": "смертоносный сейф",
+      "zh": "致命的金库",
+      "ja": "致命的な金庫"
+    }
+  }
 }

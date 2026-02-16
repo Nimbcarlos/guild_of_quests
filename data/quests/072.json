@@ -31,5 +31,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o canteiro de obras",
+      "en": "the construction site",
+      "es": "la obra",
+      "ru": "стройка",
+      "zh": "工地",
+      "ja": "工事現場"
+    },
+    "challenge": {
+      "pt": "os trabalhadores",
+      "en": "the workers",
+      "es": "los trabajadores",
+      "ru": "рабочие",
+      "zh": "工人们",
+      "ja": "作業員"
+    }
+  }
 }

@@ -9,18 +9,18 @@
     "ja": "黒い雨"
   },
   "description": {
-    "pt": "Nuvens alquímicas liberam uma chuva negra e corrosiva que destrói plantações e telhados. Cada nova precipitação piora o estado da cidade e a moral da população.",
-    "en": "Alchemical clouds release a corrosive black rain that destroys crops and roofs. Each new precipitation worsens the city's state and the population's morale.",
-    "es": "Nubes alquímicas liberan una lluvia negra corrosiva que destruye cultivos y techos. Cada nueva precipitación empeora el estado de la ciudad y la moral de la población.",
-    "ru": "Алхимические облака извергают едкий черный дождь, который уничтожает урожай и крыши. Каждое новое выпадение осадков ухудшает состояние города и моральный дух населения.",
-    "zh": "炼金云层释放出具有腐蚀性的黑雨，摧毁了农作物和屋顶。每一次新的降雨都会恶化城市的状态和民众的士气。",
-    "ja": "錬金術的な雲から、作物や屋根を破壊する腐食性の黒い雨が降っている。雨が降るたびに街の状態は悪化し、住民の士気は低下していく。"
+    "pt": "Nuvens alquímicas pairam sobre as fazendas próximas à cidade, liberando uma chuva negra e corrosiva que destrói plantações, celeiros e animais. Cada nova precipitação arruína mais colheitas e ameaça o abastecimento antes mesmo que o problema alcance os muros urbanos.",
+    "en": "Alchemical clouds gather over the farms near the city, releasing a corrosive black rain that destroys crops, barns, and livestock. Each new rainfall ruins more harvests and threatens the food supply before the disaster reaches the city walls.",
+    "es": "Nubes alquímicas se ciernen sobre las granjas cercanas a la ciudad, liberando una lluvia negra y corrosiva que destruye cultivos, graneros y ganado. Cada nueva precipitación arruina más cosechas y amenaza el abastecimiento antes de que el desastre alcance las murallas.",
+    "ru": "Алхимические облака нависли над фермами у города, проливая едкий чёрный дождь, который уничтожает посевы, амбары и скот. Каждое новое выпадение осадков губит всё больше урожая и ставит под угрозу снабжение ещё до того, как бедствие достигнет городских стен.",
+    "zh": "炼金云层笼罩着城市附近的农场，降下具有腐蚀性的黑雨，摧毁庄稼、谷仓和牲畜。每一次降雨都进一步破坏收成，在灾难蔓延至城墙之前就威胁到粮食供应。",
+    "ja": "錬金術的な雲が街の近郊にある農場の上空に立ちこめ、作物や納屋、家畜を破壊する腐食性の黒い雨を降らせている。雨が降るたびに収穫は失われ、被害は城壁に及ぶ前から食糧供給を脅かしている。"
   },
   "type": [
     "alchemy"
   ],
   "max_heroes": 1,
-  "expired_at": 8,
+  "expired_at": 3,
   "available_from_turn": 115,
   "duration": 3,
   "difficulty": 2.7,
@@ -31,5 +31,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "as fazendas",
+      "en": "the farms",
+      "es": "las granjas",
+      "ru": "фермы",
+      "zh": "农场",
+      "ja": "農場"
+    },
+    "challenge": {
+      "pt": "as nuvens alquímicas",
+      "en": "the alchemical clouds",
+      "es": "las nubes alquímicas",
+      "ru": "алхимические облака",
+      "zh": "炼金云",
+      "ja": "錬金術の雲"
+    }
+  }
 }

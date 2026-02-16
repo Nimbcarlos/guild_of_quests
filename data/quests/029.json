@@ -1,0 +1,51 @@
+{
+  "id": 29,
+  "name": {
+    "pt": "A Fornalha Pensante",
+    "en": "The Thinking Furnace",
+    "es": "La Horno Pensante",
+    "ru": "Думающая печь",
+    "zh": "会思考的熔炉",
+    "ja": "考える炉"
+  },
+  "description": {
+    "pt": "Uma fornalha alquímica começou a reagir de forma autônoma: ajusta sua própria temperatura, rejeita ingredientes e, segundo os aprendizes, murmurou instruções. O mestre alquimista está convicto de que ela desenvolveu uma forma rudimentar de consciência. O problema é que ela também começou a recusar o desligamento.",
+    "en": "An alchemical furnace has started reacting autonomously: it adjusts its own temperature, rejects ingredients, and according to the apprentices, it murmured instructions. The master alchemist is convinced it has developed a rudimentary form of consciousness. The problem is that it also started refusing to be turned off.",
+    "es": "Una fornalha alquímica ha comenzado a reaccionar de forma autónoma: ajusta su propia temperatura, rechaza ingredientes y, según los aprendices, murmuró instrucciones. El maestro alquimista está convencido de que ha desarrollado una forma rudimentaria de conciencia. El problema es que también comenzó a negarse a apagarse.",
+    "ru": "Алхимическая печь начала реагировать автономно: она регулирует свою температуру, отказывается от ингредиентов и, по словам учеников, бормочет инструкции. Мастер-алхимик убежден, что она развила примитивную форму сознания. Проблема в том, что она также начала отказываться выключаться.",
+    "zh": "一个炼金炉开始自主反应：它调整自己的温度，拒绝原料，并且据学徒们说，它还嘟囔着指令。炼金大师确信它已经发展出一种原始的意识形式。问题是它也开始拒绝被关闭。",
+    "ja": "ある錬金術の炉が自律的に反応し始めました：自分で温度を調整し、材料を拒否し、見習いたちによれば指示をつぶやいているそうです。マスター錬金術師は、それが原始的な意識の形を発達させたと確信しています。問題は、それが電源を切ることも拒否し始めたことです。"
+  },
+  "type": "alchemy",
+  "max_heroes": 1,
+  "expired_at": 5,
+  "available_from_turn": 60,
+  "duration": 3,
+  "difficulty": 1.8,
+  "rewards": {
+    "xp": 95
+  },
+  "required_quests": [],
+  "forbidden_quests": [],
+  "required_fail_quests": [],
+  "required_heroes": [],
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a praça central",
+      "en": "the central square",
+      "es": "la plaza central",
+      "ru": "центральная площадь",
+      "zh": "中央广场",
+      "ja": "中央広場"
+    },
+    "challenge": {
+      "pt": "o espelho",
+      "en": "the mirror",
+      "es": "el espejo",
+      "ru": "зеркало",
+      "zh": "镜子",
+      "ja": "鏡"
+    }
+  }
+}

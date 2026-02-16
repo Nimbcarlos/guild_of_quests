@@ -31,5 +31,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o rio",
+      "en": "the river",
+      "es": "el río",
+      "ru": "река",
+      "zh": "河流",
+      "ja": "川"
+    },
+    "challenge": {
+      "pt": "as águas",
+      "en": "the waters",
+      "es": "las aguas",
+      "ru": "воды",
+      "zh": "水域",
+      "ja": "水域"
+    }
+  }
 }

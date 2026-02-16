@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o Portão das Lamentações",
+      "en": "the Gate of Lamentations",
+      "es": "la Puerta de las Lamentaciones",
+      "ru": "Врата Плачей",
+      "zh": "哀嚎之门",
+      "ja": "嘆きの門"
+    },
+    "challenge": {
+      "pt": "o portão selado",
+      "en": "the sealed gate",
+      "es": "la puerta sellada",
+      "ru": "запечатанные ворота",
+      "zh": "封印的门",
+      "ja": "封印された門"
+    }
+  }
 }

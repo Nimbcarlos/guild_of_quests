@@ -31,5 +31,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a caverna escondida",
+      "en": "the hidden cave",
+      "es": "la cueva oculta",
+      "ru": "скрытая пещера",
+      "zh": "隐藏的洞穴",
+      "ja": "隠された洞窟"
+    },
+    "challenge": {
+      "pt": "a pedra que bloqueava a entrada",
+      "en": "the stone blocking the entrance",
+      "es": "la piedra bloqueando la entrada",
+      "ru": "камень, блокирующий вход",
+      "zh": "阻挡入口的石头",
+      "ja": "入口を塞ぐ石"
+    }
+  }
 }

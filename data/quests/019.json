@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o acampamento nômade",
+      "en": "the nomadic camp",
+      "es": "el campamento nómada",
+      "ru": "кочевой лагерь",
+      "zh": "游牧营地",
+      "ja": "遊牧キャンプ"
+    },
+    "challenge": {
+      "pt": "os nômades",
+      "en": "the nomads",
+      "es": "los nómadas",
+      "ru": "кочевники",
+      "zh": "游牧民",
+      "ja": "遊牧民"
+    }
+  }
 }

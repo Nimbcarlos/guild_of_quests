@@ -29,5 +29,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o rio",
+      "en": "the river",
+      "es": "el río",
+      "ru": "река",
+      "zh": "河流",
+      "ja": "川"
+    },
+    "challenge": {
+      "pt": "a contaminação",
+      "en": "the contamination",
+      "es": "la contaminación",
+      "ru": "заражение",
+      "zh": "污染",
+      "ja": "汚染"
+    }
+  }
 }

@@ -31,5 +31,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a cordilheira",
+      "en": "the mountain range",
+      "es": "la cordillera",
+      "ru": "горный хребет",
+      "zh": "山脉",
+      "ja": "山脈"
+    },
+    "challenge": {
+      "pt": "os refugiados",
+      "en": "the refugees",
+      "es": "los refugiados",
+      "ru": "беженцы",
+      "zh": "难民",
+      "ja": "難民"
+    }
+  }
 }

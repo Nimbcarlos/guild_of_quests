@@ -829,8 +829,6 @@ class GameplayScreen(Screen):
         self.manager.current = "menu"
 
     def open_dialog(self, selected_heroes, quest, result, quest_type, quest_context):
-        print(quest_type, quest_context)
-        print(""*30)
         # Aqui você só chama a função passando heróis, quest_id e resultado
         self.dialog_box.show_dialogue(selected_heroes,
                                       quest,

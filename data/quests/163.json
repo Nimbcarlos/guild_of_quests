@@ -35,5 +35,23 @@
   "required_heroes": [
     4
   ],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "o laboratório da Guilda",
+      "en": "the Guild laboratory",
+      "es": "el laboratorio del Gremio",
+      "ru": "лаборатория гильдии",
+      "zh": "公会实验室",
+      "ja": ".guildの実験室"
+    },
+    "challenge": {
+      "pt": "os corpos das criaturas",
+      "en": "the creatures' bodies",
+      "es": "los cuerpos de las criaturas",
+      "ru": "тела существ",
+      "zh": "生物的尸体",
+      "ja": "生物の死体"
+    }
+  }
 }

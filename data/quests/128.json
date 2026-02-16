@@ -16,7 +16,7 @@
     "zh": "在隧道尽头发现了黑暗密室。里面有哥布林法师正在为一个巨大的哥布林举行仪式，我们相信它就是哥布林冠军。",
     "ja": "トンネルの終わりに暗黒の部屋が発見されました。その中でゴブリンの魔術師たちが巨大なゴブリンのために儀式を行っており、それがゴブリンのチャンピオンであると私たちは信じています。"
   },
-  "type": "Fight",
+  "type": "fight",
   "max_heroes": 3,
   "expired_at": 3,
   "available_from_turn": 83,
@@ -31,5 +31,23 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_heroes": [],
-  "forbidden_heroes": []
+  "forbidden_heroes": [],
+  "context": {
+    "location": {
+      "pt": "a Câmara Escura",
+      "en": "the Dark Chamber",
+      "es": "la Cámara Oscura",
+      "ru": "Темная камера",
+      "zh": "黑暗密室",
+      "ja": "暗い部屋"
+    },
+    "enemy": {
+      "pt": "o Campeão Goblin",
+      "en": "the Goblin Champion",
+      "es": "el Campeón Goblin",
+      "ru": "Гоблинский чемпион",
+      "zh": "哥布林冠军",
+      "ja": "ゴブリンチャンピオン"
+    }
+  }
 }
