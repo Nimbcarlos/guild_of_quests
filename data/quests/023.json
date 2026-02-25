@@ -50,5 +50,107 @@
       "zh": "暴民",
       "ja": "暴徒"
     }
+  },
+"conclusion": {
+  "success": {
+    "investigation": {
+      "pt": [
+        "Reconstituí a cena do crime e localizei os itens supostamente roubados escondidos pelo próprio acusador. A farsa foi exposta diante da multidão e o jovem estrangeiro foi liberado sob custódia oficial.",
+        "Rastreei os passos do suspeito e encontrei evidências de que ele estava em outro setor no momento do crime. Com as provas em mãos, a acusação desmoronou e o linchamento foi evitado.",
+        "Identifiquei contradições nos depoimentos das testemunhas e localizei o verdadeiro culpado tentando fugir. A multidão redirecionou sua atenção para o criminoso real, inocentando o jovem."
+      ],
+      "en": [
+        "I reconstructed the crime scene and located the supposedly stolen items hidden by the accuser himself. The farce was exposed before the mob, and the young foreigner was released under official custody.",
+        "I tracked the suspect's steps and found evidence that he was in another sector at the time of the crime. With the evidence in hand, the accusation collapsed and the lynching was prevented.",
+        "I identified contradictions in the witness statements and located the true culprit trying to flee. The mob redirected its attention to the actual criminal, exonerating the young man."
+      ],
+      "es": [
+        "Reconstruí la escena y localicé los objetos robados escondidos por el propio acusador. La farsa fue expuesta ante la multitud y el joven extranjero fue liberado bajo custodia.",
+        "Rastreé los pasos del sospechoso y encontré pruebas de que estaba en otro sector. Con las pruebas, la acusación se desmoronó y se evitó el linchamiento.",
+        "Identifiqué contradicciones en los testimonios y localicé al verdadero culpable. La multitud redirigió su atención hacia el criminal real, inocentando al joven."
+      ],
+      "ru": [
+        "Я восстановила сцену преступления и нашла якобы украденные вещи, спрятанные самим обвинителем. Фарс был разоблачен перед толпой, и иностранец был освобожден.",
+        "Я проследила путь подозреваемого и нашла доказательства его пребывания в другом секторе. Обвинение рассыпалось, самосуд был предотвращен.",
+        "Я выявила противоречия в показаниях свидетелей и нашла настоящего преступника. Толпа переключила внимание на истинного виновного, оправдав юношу."
+      ],
+      "zh": [
+        "我重建了犯罪现场，并找到了被指控者自己藏起来的所谓赃物。骗局在暴民面前被揭穿，外来青年被移交给官方监护后释放。",
+        "我追踪了嫌疑人的踪迹，发现他在案发时身处另一区域。证据确凿后，指控宣告失败，私刑得以避免。",
+        "我发现了证人证词中的矛盾，并找到了正企图逃跑的真凶。暴民将注意力转向了真正的罪犯，洗清了青年的冤屈。"
+      ],
+      "ja": [
+        "犯行現場を再現し、告発者自身が隠していた「盗品」を発見しました。群衆の前で偽装が暴かれ、若い外国人は公式な保護下で釈放されました。",
+        "容疑者の足取りを追跡し、事件当時に別の区画にいた証拠を見つけました。証拠の提示により告発は崩れ、リンチは阻止されました。",
+        "証言の矛盾を特定し、逃亡を図っていた真犯人を拘束しました。暴徒の関心は真犯人へと移り、青年の無実が証明されました。"
+      ]
+    },
+    "default": {
+      "pt": [
+        "Intervim no círculo de linchamento e convenci os líderes da ala norte a aguardarem um julgamento oficial. A ordem foi restaurada e o jovem foi levado para a segurança da guarda.",
+        "Apaziguei os ânimos da multidão utilizando argumentos sobre a honra da cidade e os riscos de um erro judiciário. A turba se dispersou e o conflito foi contido sem violência.",
+        "Estabeleci uma mediação entre os acusadores e o jovem. Consegui tempo suficiente para que a guarda interviesse, garantindo a integridade física do estrangeiro até o julgamento."
+      ],
+      "en": [
+        "I intervened in the lynching circle and convinced the northern district leaders to await an official trial. Order was restored, and the young man was taken to the safety of the guard.",
+        "I calmed the crowd's spirits using arguments about the city's honor and the risks of a judicial error. The mob dispersed, and the conflict was contained without violence.",
+        "I established mediation between the accusers and the young man. I secured enough time for the guard to intervene, ensuring the foreigner's physical integrity until the trial."
+      ],
+      "es": [
+        "Intervine en el círculo del linchamiento y convencí a los líderes de esperar a un juicio oficial. Se restauró el orden y el joven fue llevado a un lugar seguro.",
+        "Calmé los ánimos de la multitud con argumentos sobre el honor de la ciudad. La turba se dispersó y el conflicto se contuvo sin violencia.",
+        "Establecí una mediación entre los acusadores y el joven. Gané tiempo suficiente para que la guardia interviniera, garantizando la integridad del extranjero."
+      ],
+      "ru": [
+        "Я вмешалась в ситуацию и убедила лидеров северного района дождаться официального суда. Порядок был восстановлен, юноша передан страже.",
+        "Я успокоила толпу, используя аргументы о чести города и риске судебной ошибки. Люди разошлись, конфликт был исчерпан без насилия.",
+        "Я выступила посредником между обвинителями и юношей. Это дало страже время вмешаться и обеспечить безопасность иностранца до суда."
+      ],
+      "zh": [
+        "我介入了私刑现场，并说服北区领袖等待官方审判。秩序得以恢复，青年被送往守卫处安全安置。",
+        "我利用关于城市荣誉和司法错误风险的论点平息了暴民的情绪。人群散去，冲突在未发生暴力的情况下得到控制。",
+        "我在原告与青年之间建立了调解。我争取到了足够的时间让守卫介入，确保了外来者在审判前的身体完整。"
+      ],
+      "ja": [
+        "リンチの場に介入し、公式な裁判を待つよう北地区の指導者たちを説得しました。秩序は回復し、青年は衛兵の保護下へ移されました。",
+        "街の誇りと誤審のリスクを説くことで、暴徒化した群衆を鎮めました。群衆は解散し、暴力沙汰になる前に事態は収束しました。",
+        "告発者と青年の間に入って仲裁を行いました。衛兵が介入するまでの時間を稼ぎ、裁判まで外国人の安全を確保しました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "Não cheguei a tempo de conter a violência. A multidão executou o jovem estrangeiro antes que qualquer prova pudesse ser apresentada, gerando revolta diplomática com sua nação de origem.",
+        "Minha tentativa de diálogo foi ignorada pela turba enfurecida. O linchamento ocorreu em praça pública, manchando a reputação da guilda e da ala norte da cidade.",
+        "As evidências que encontrei foram destruídas pelos próprios acusadores durante o tumulto. Sem provas ou autoridade, não pude impedir a morte do inocente."
+      ],
+      "en": [
+        "I did not arrive in time to contain the violence. The mob executed the young foreigner before any evidence could be presented, causing a diplomatic outcry with his home nation.",
+        "My attempt at dialogue was ignored by the enraged crowd. The lynching took place in a public square, staining the reputation of both the guild and the city's north wing.",
+        "The evidence I found was destroyed by the accusers themselves during the riot. Without proof or authority, I could not prevent the death of the innocent."
+      ],
+      "es": [
+        "No llegué a tiempo. La multitud ejecutó al joven antes de presentar pruebas, generando una revuelta diplomática con su nación de origen.",
+        "Mi intento de diálogo fue ignorado por la turba enfurecida. El linchamiento ocurrió en la plaza pública, manchando la reputación del gremio.",
+        "Las pruebas que encontré fueron destruidas por los acusadores durante el tumulto. Sin pruebas ni autoridad, no pude impedir la muerte del inocente."
+      ],
+      "ru": [
+        "Я не успела вовремя остановить насилие. Толпа казнила иностранца до предъявления улик, что вызвало дипломатический скандал с его родиной.",
+        "Мои попытки диалога были проигнорированы разъяренной толпой. Самосуд произошел на площади, запятнав репутацию гильдии и района.",
+        "Найденные мною улики были уничтожены обвинителями во время беспорядков. Без доказательств я не смогла предотвратить смерть невиновного."
+      ],
+      "zh": [
+        "我未能及时赶到以制止暴力。在任何证据呈上之前，暴民就处决了外来青年，引发了与其原籍国的外交纠纷。",
+        "我的对话尝试被愤怒的人群无视。私刑在公共广场发生，污损了公会和城市北区的声誉。",
+        "我找到的证据在骚乱中被原告销毁。由于缺乏证据和权威，我无法阻止无辜者的死亡。"
+      ],
+      "ja": [
+        "暴力を止めるには間に合いませんでした。証拠が提示される前に群衆が外国人の青年を処刑し、彼の母国との間に外交問題が発生しました。",
+        "逆上した暴徒には対話が通じませんでした。リンチは広場で行われ、ギルドと北地区の評判に泥を塗る結果となりました。",
+        "見つけた証拠は騒乱の中で告発者たちに破壊されました。証拠も権威も欠いた状態では、無実の者の死を防ぐことは不可能でした。"
+      ]
+    }
   }
+}  
 }

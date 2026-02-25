@@ -47,5 +47,75 @@
       "zh": "狗",
       "ja": "犬"
     }
+  },
+"conclusion": {
+  "success": {
+    "default": {
+      "pt": [
+        "Infiltrei-me pelos jardins laterais e alcancei o canil sem alertar os guardas. Retirei o cão e saí pelo mesmo trajeto.",
+        "Esperei a troca de vigia e abri o canil em silêncio. O cão foi retirado sem registro da invasão.",
+        "Desativei temporariamente a iluminação externa e conduzi o animal para fora da mansão sem ser detectado."
+      ],
+      "en": [
+        "I infiltrated through the side gardens and reached the kennel without alerting the guards. I removed the dog and exited along the same route.",
+        "I waited for the guard shift and opened the kennel silently. The dog was retrieved with no record of intrusion.",
+        "I temporarily disabled the outer lights and led the animal out of the mansion undetected."
+      ],
+      "es": [
+        "Me infiltré por los jardines laterales y llegué al canil sin alertar a los guardias. Retiré al perro y salí por la misma ruta.",
+        "Esperé el cambio de guardia y abrí el canil en silencio. El perro fue recuperado sin registro de intrusión.",
+        "Desactivé temporalmente la iluminación exterior y saqué al animal sin ser detectado."
+      ],
+      "ru": [
+        "Я проник через боковые сады и добрался до псарни, не подняв тревоги. Пёс был выведен тем же путём.",
+        "Дождался смены караула и бесшумно открыл вольер. Следов проникновения не осталось.",
+        "Временно отключил внешнее освещение и вывел животное незамеченным."
+      ],
+      "zh": [
+        "我从侧花园潜入，未惊动守卫到达犬舍，带走狗后原路撤离。",
+        "我等待换岗时机，悄然打开犬舍，未留下入侵记录。",
+        "我暂时关闭外部照明，将狗带离豪宅而未被发现。"
+      ],
+      "ja": [
+        "側庭から潜入し、警備に気付かれず犬舎へ到達しました。犬を連れ同経路で離脱しました。",
+        "交代の隙に静かに犬舎を開放。侵入の痕跡なく回収しました。",
+        "外灯を一時停止し、気付かれずに犬を邸宅外へ導きました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "Um vigia inesperado cruzou meu trajeto antes da retirada do cão.",
+        "O canil possuía um alarme oculto acionado durante a abertura.",
+        "Não consegui atravessar o perímetro interno sem comprometer a operação."
+      ],
+      "en": [
+        "An unexpected guard crossed my path before the dog could be removed.",
+        "The kennel had a hidden alarm triggered during opening.",
+        "I failed to cross the inner perimeter without compromising the operation."
+      ],
+      "es": [
+        "Un guardia inesperado cruzó mi ruta antes de retirar al perro.",
+        "El canil tenía una alarma oculta que se activó al abrirlo.",
+        "No logré atravesar el perímetro interno sin comprometer la operación."
+      ],
+      "ru": [
+        "Неожиданный страж пересёк мой путь до освобождения собаки.",
+        "Вольер оказался оснащён скрытой сигнализацией.",
+        "Мне не удалось пройти внутренний периметр без раскрытия."
+      ],
+      "zh": [
+        "在带走狗之前，一名守卫意外出现。",
+        "犬舍设有隐藏警报，开启时触发。",
+        "未能在不暴露的情况下突破内部防线。"
+      ],
+      "ja": [
+        "犬を連れ出す前に予期せぬ警備が現れました。",
+        "犬舎に隠し警報があり作動しました。",
+        "内部区域を突破できず、作戦は失敗しました。"
+      ]
+    }
   }
+}
 }

@@ -47,5 +47,75 @@
       "zh": "木头",
       "ja": "丸太"
     }
+  },
+"conclusion": {
+  "success": {
+    "default": {
+      "pt": [
+        "Ergui os troncos um a um e atravessei o leito instável mantendo equilíbrio constante. O material chegou intacto ao outro lado.",
+        "Usei o próprio peso dos troncos para estabilizar minha passada no rio. Transporte concluído sem perdas.",
+        "Apoiei os troncos nos ombros e avancei contra a corrente até alcançar terreno firme."
+      ],
+      "en": [
+        "I lifted the logs one by one and crossed the unstable riverbed with steady balance. The material reached the other side intact.",
+        "I used the logs’ own weight to stabilize my footing in the river. Transport completed without loss.",
+        "I braced the logs on my shoulders and pushed through the current until I reached solid ground."
+      ],
+      "es": [
+        "Levanté los troncos uno por uno y crucé el lecho inestable manteniendo el equilibrio. El material llegó intacto.",
+        "Usé el peso de los troncos para estabilizar mi paso en el río. Transporte completado sin pérdidas.",
+        "Apoyé los troncos en los hombros y avancé contra la corriente hasta terreno firme."
+      ],
+      "ru": [
+        "Я перенёс брёвна по одному через нестабильное русло, удерживая равновесие. Материал доставлен.",
+        "Использовал вес брёвен для устойчивости в воде. Перевозка завершена без потерь.",
+        "Нёс брёвна на плечах и продвигался против течения до твёрдой почвы."
+      ],
+      "zh": [
+        "我逐一搬运木头，稳住步伐穿过不稳的河床，材料完好送达。",
+        "我利用木头的重量稳定脚步，成功完成运输。",
+        "我将木头扛在肩上，顶着水流前进，抵达坚实地面。"
+      ],
+      "ja": [
+        "丸太を一本ずつ運び、不安定な川床を均衡を保って渡りました。資材は無事に到達しました。",
+        "丸太の重さで足場を安定させ、輸送を完了しました。",
+        "丸太を肩に担ぎ、流れに逆らって進み、固い地面に到達しました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "Perdi o equilíbrio no leito instável e um dos troncos foi arrastado pela corrente.",
+        "A força da água superou minha passada e não consegui concluir o transporte.",
+        "O terreno cedeu sob o peso combinado e fui forçado a recuar."
+      ],
+      "en": [
+        "I lost balance on the unstable riverbed and one log was swept away.",
+        "The current overpowered my footing and I could not complete the transport.",
+        "The ground gave way under the combined weight and I was forced to withdraw."
+      ],
+      "es": [
+        "Perdí el equilibrio en el lecho inestable y un tronco fue arrastrado por la corriente.",
+        "La fuerza del agua superó mi paso y no logré completar el transporte.",
+        "El terreno cedió bajo el peso combinado y tuve que retirarme."
+      ],
+      "ru": [
+        "Я потерял равновесие в нестабильном русле, и одно бревно унесло течением.",
+        "Течение оказалось сильнее, и я не смог завершить перенос.",
+        "Почва просела под общим весом, пришлось отступить."
+      ],
+      "zh": [
+        "我在不稳的河床上失去平衡，一根木头被水流冲走。",
+        "水流过强，无法完成运输。",
+        "地面在重量下塌陷，我被迫撤退。"
+      ],
+      "ja": [
+        "不安定な川床でバランスを崩し、一本が流されました。",
+        "流れが強く、輸送を完了できませんでした。",
+        "重量で足場が崩れ、撤退しました。"
+      ]
+    }
   }
+}
 }

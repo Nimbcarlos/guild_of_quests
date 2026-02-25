@@ -50,5 +50,107 @@
       "zh": "齿轮",
       "ja": "歯車"
     }
+  },
+"conclusion": {
+  "success": {
+    "engineering": {
+      "pt": [
+        "Bloqueei as pás antes de remover o objeto metálico da engrenagem. O mecanismo voltou a girar com controle.",
+        "Desmontei a seção travada e extraí o metal com precisão. Reencaixei as peças e testei a rotação.",
+        "Alinhei os dentes da engrenagem e liberei o eixo principal. O sistema retomou operação segura."
+      ],
+      "en": [
+        "I locked the blades before removing the metal object from the gear. The mechanism resumed controlled rotation.",
+        "I disassembled the jammed section and extracted the metal precisely. I reassembled and tested the rotation.",
+        "I realigned the gear teeth and freed the main shaft. The system returned to safe operation."
+      ],
+      "es": [
+        "Bloqueé las aspas antes de retirar el objeto metálico del engranaje. El mecanismo volvió a girar con control.",
+        "Desmonté la sección atascada y extraje el metal con precisión. Reensamblé y probé la rotación.",
+        "Realineé los dientes del engranaje y liberé el eje principal. El sistema volvió a operar con seguridad."
+      ],
+      "ru": [
+        "Я зафиксировал лопасти перед извлечением металлического предмета из шестерни. Механизм снова стал вращаться контролируемо.",
+        "Разобрал заклинившую часть и аккуратно удалил металл. Собрал и проверил вращение.",
+        "Выравнял зубья и освободил главный вал. Система вернулась к безопасной работе."
+      ],
+      "zh": [
+        "我先固定叶片，再移除卡住齿轮的金属物。装置恢复受控运转。",
+        "我拆解卡死部件，精确取出金属后重新组装并测试。",
+        "我重新对齐齿轮齿并释放主轴，系统恢复安全运行。"
+      ],
+      "ja": [
+        "羽根を固定してから歯車の金属片を除去しました。機構は制御下で回転を再開しました。",
+        "詰まった部分を分解し、金属を正確に取り除きました。再組立し回転を確認しました。",
+        "歯を再調整して主軸を解放しました。装置は安全に稼働しました。"
+      ]
+    },
+    "default": {
+      "pt": [
+        "Segurei as pás contra o vento enquanto removia o metal à força. A engrenagem liberou.",
+        "Imobilizei o eixo principal e puxei o objeto travado. O movimento voltou gradualmente.",
+        "Mantive pressão manual no mecanismo até desalojar o bloqueio."
+      ],
+      "en": [
+        "I held the blades against the wind while forcing the metal free. The gear released.",
+        "I immobilized the main shaft and pulled the lodged object out. Movement returned gradually.",
+        "I applied manual pressure to the mechanism until the blockage came loose."
+      ],
+      "es": [
+        "Sostuve las aspas contra el viento mientras retiraba el metal por la fuerza. El engranaje se liberó.",
+        "Inmovilicé el eje principal y extraje el objeto atascado. El movimiento volvió gradualmente.",
+        "Apliqué presión manual al mecanismo hasta liberar el bloqueo."
+      ],
+      "ru": [
+        "Я удерживал лопасти, пока силой извлекал металл. Шестерня освободилась.",
+        "Зафиксировал вал и вытащил застрявший предмет. Вращение постепенно восстановилось.",
+        "Давил на механизм вручную, пока блокировка не вышла."
+      ],
+      "zh": [
+        "我顶住叶片的风力，强行取出金属物，齿轮恢复运转。",
+        "我固定主轴并拔出卡住物，转动逐渐恢复。",
+        "我对装置施加手动压力，直到阻塞解除。"
+      ],
+      "ja": [
+        "風に逆らって羽根を押さえ、金属片を力で取り除きました。歯車は解放されました。",
+        "主軸を固定し、詰まりを引き抜きました。回転は徐々に戻りました。",
+        "手動で圧をかけ続け、詰まりを解消しました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "Uma rajada girou as pás antes da remoção completa. O mecanismo sofreu danos internos.",
+        "O objeto metálico deformou os dentes da engrenagem durante a tentativa.",
+        "Não consegui conter a rotação repentina e a estrutura entrou em colapso parcial."
+      ],
+      "en": [
+        "A gust turned the blades before full removal. The mechanism suffered internal damage.",
+        "The metal object warped the gear teeth during the attempt.",
+        "I failed to contain the sudden rotation and the structure partially collapsed."
+      ],
+      "es": [
+        "Una ráfaga giró las aspas antes de completar la retirada. El mecanismo sufrió daños internos.",
+        "El objeto metálico deformó los dientes del engranaje durante el intento.",
+        "No logré contener la rotación repentina y la estructura colapsó parcialmente."
+      ],
+      "ru": [
+        "Порыв ветра провернул лопасти до завершения работ. Механизм получил внутренние повреждения.",
+        "Металлический предмет повредил зубья шестерни.",
+        "Я не смог остановить резкое вращение, и конструкция частично разрушилась."
+      ],
+      "zh": [
+        "强风在完全移除前带动叶片转动，装置内部受损。",
+        "金属物在过程中损坏了齿轮齿。",
+        "未能控制突然转动，结构部分崩坏。"
+      ],
+      "ja": [
+        "完全除去前に突風で回転し、内部が損傷しました。",
+        "金属片が歯を変形させました。",
+        "急回転を抑えきれず、構造が部分的に崩れました。"
+      ]
+    }
   }
+}
 }

@@ -47,5 +47,75 @@
       "zh": "魔法书",
       "ja": "魔導書"
     }
+  },
+"conclusion": {
+  "success": {
+    "default": {
+      "pt": [
+        "Identifiquei a frequência da ressonância mágica do grimório e utilizei um selo de estase para neutralizar sua consciência. O livro foi devolvido à biblioteca sob novos protocolos de segurança.",
+        "Consegui 'argumentar' através de fórmulas rúnicas, convencendo o grimório de que a realidade urbana não suportaria suas correções. Ele aceitou ser selado em uma redoma de contenção.",
+        "Rastreei os rastros de mana deixados pelos feitiços aleatórios e cerquei o grimório com um campo de vácuo arcano. Privado de energia externa, ele adormeceu e foi capturado com segurança."
+      ],
+      "en": [
+        "I identified the grimoire's magic resonance frequency and used a stasis seal to neutralize its consciousness. The book was returned to the library under new security protocols.",
+        "I managed to 'argue' through runic formulas, convincing the grimoire that urban reality could not withstand its corrections. It accepted being sealed in a containment dome.",
+        "I tracked the mana trails left by the random spells and surrounded the grimoire with an arcane vacuum field. Deprived of external energy, it fell asleep and was safely captured."
+      ],
+      "es": [
+        "Identifiqué la frecuencia de resonancia mágica del grimorio y utilicé un sello de estasis. El libro fue devuelto a la biblioteca bajo nuevos protocolos de seguridad.",
+        "Logré 'argumentar' mediante fórmulas rúnicas, convenciendo al grimorio de que la realidad no soportaría sus correcciones. Aceptó ser sellado en una cúpula de contención.",
+        "Rastreé los rastros de maná y rodeé al grimorio con un campo de vacío arcano. Privado de energía, se durmió y fue capturado de forma segura."
+      ],
+      "ru": [
+        "Я определила частоту магического резонанса гримуара и использовала печать стазиса. Книга была возвращена в библиотеку с соблюдением новых протоколов безопасности.",
+        "Мне удалось «переубедить» его с помощью рунических формул, доказав, что реальность не выдержит таких правок. Гримуар согласился на заточение в защитный купол.",
+        "Я проследила за потоками маны и окружила гримуар полем арканного вакуума. Лишившись подпитки, он уснул и был благополучно захвачен."
+      ],
+      "zh": [
+        "我识别了魔导书的魔法共振频率，并使用定身印记中和了它的意识。该书已在新的安全协议下归还图书馆。",
+        "我通过符文公式成功地与其“辩论”，说服魔导书城市现实无法承受它的修正。它接受了被封印在隔离罩中的结果。",
+        "我追踪了随机法术留下的魔力踪迹，并用奥术真空场包围了魔导书。由于失去了外部能量，它陷入了沉睡并被安全捕获。"
+      ],
+      "ja": [
+        "魔導書の魔法共鳴周波数を特定し、停滞の封印を用いてその自我を無力化しました。書物は新たなセキュリティプロトコルの下で図書館に返却されました。",
+        "ルーンの数式を通じて「説得」に成功し、都市の現実はその修正に耐えられないことを魔導書に理解させました。魔導書は封じ込めドームに入ることに同意しました。",
+        "無作為な魔法が残したマナの痕跡を追跡し、魔導書を秘術的な真空フィールドで包囲しました。外部エネルギーを絶たれた魔導書は休眠状態に入り、無事に回収されました。"
+      ]
+    }
+  },
+"failure": {
+    "default": {
+      "pt": [
+        "O grimório transmutou minhas ferramentas em borboletas antes que eu pudesse agir. Ele desapareceu em uma dobra espacial, deixando metade de um bairro com gravidade invertida.",
+        "Subestimei a complexidade dos feitiços de defesa do livro. Fui atingido por um feitiço de silenciamento arcano e o grimório continuou sua jornada de 'correção' pela cidade.",
+        "A tentativa de contenção apenas irritou a consciência do livro. Ele lançou uma explosão de energia bruta que destruiu parte da biblioteca e fugiu para as montanhas vizinhas."
+      ],
+      "en": [
+        "The grimoire transmuted my tools into butterflies before I could act. It disappeared into a space fold, leaving half a neighborhood with inverted gravity.",
+        "I underestimated the complexity of the book's defense spells. I was hit by an arcane silencing spell, and the grimoire continued its journey of 'fixing' the city.",
+        "The containment attempt only irritated the book's consciousness. It unleashed a blast of raw energy that destroyed part of the library and fled to the nearby mountains."
+      ],
+      "es": [
+        "El grimorio transmutó mis herramientas en mariposas antes de que pudiera actuar. Desapareció en un pliegue espacial, dejando un barrio con gravedad invertida.",
+        "Subestimé los hechizos de defensa del libro. Fui alcanzado por un hechizo de silencio arcano y el grimorio continuó su viaje de 'corrección'.",
+        "El intento de contención solo irritó al libro. Lanzó una explosión de energía pura que destruyó parte de la biblioteca y huyó a las montañas."
+      ],
+      "ru": [
+        "Гримуар превратил мои инструменты в бабочек раньше, чем я успела что-то сделать. Он исчез в пространственной складке, оставив полрайона с инвертированной гравитацией.",
+        "Я недооценила сложность защитных заклинаний книги. На меня наложили заклятие немоты, и гримуар продолжил свой путь «исправления» города.",
+        "Попытка захвата лишь разозлила книгу. Она выпустила поток чистой энергии, разрушивший часть библиотеки, и скрылась в горах."
+      ],
+      "zh": [
+        "在我采取行动前，魔导书将我的工具变成了蝴蝶。它消失在空间褶皱中，留下半个街区处于重力反转状态。",
+        "我低估了该书防御法术的复杂性。我中了奥术沉默咒，魔导书继续在城市中执行它的“修正”之旅。",
+        "收容尝试激怒了书的意识。它释放了一股原始能量爆发，摧毁了图书馆的一部分并逃往附近的山脉。"
+      ],
+      "ja": [
+        "手を打つ前に、魔導書によって道具を蝶に変えられてしまいました。魔導書は空間の歪みに消え、街の半分は重力が反転したまま取り残されました。",
+        "本の防御魔法の複雑さを過小評価していました。沈黙の魔法をかけられ、魔導書は街の「修正」の旅を続けてしまいました。",
+        "封じ込めの試みは本の自我を刺激しただけでした。魔導書は生体エネルギーの爆発を放って図書館の一部を破壊し、近くの山へと逃走しました。"
+      ]
+    }
   }
+}    
 }

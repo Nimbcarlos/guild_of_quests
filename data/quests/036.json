@@ -47,5 +47,75 @@
       "zh": "污染",
       "ja": "汚染"
     }
+  },
+"conclusion": {
+  "success": {
+    "default": {
+      "pt": [
+        "Descobri que a contaminação vinha de uma alga invasora que liberava toxinas após um desequilíbrio na temperatura. Introduzi crustáceos nativos que se alimentam dessa alga, limpando o leito do rio de forma orgânica e segura.",
+        "Identifiquei um bloqueio de sedimentos na nascente que estava apodrecendo a vegetação submersa. Ao liberar o fluxo e plantar juncos filtrantes nas margens, a água recuperou sua transparência e oxigenação em poucos dias.",
+        "Rastreei a poluição até uma carcaça de criatura gigante presa na nascente. Com a ajuda da fauna local, acelerei a decomposição natural e purifiquei as margens com musgos absorventes, devolvendo a vida ao rio."
+      ],
+      "en": [
+        "I discovered the contamination came from an invasive alga releasing toxins due to a temperature imbalance. I introduced native crustaceans that feed on this alga, cleaning the riverbed organically and safely.",
+        "I identified a sediment blockage at the source that was rotting submerged vegetation. By freeing the flow and planting filtering reeds along the banks, the water regained its clarity and oxygenation within days.",
+        "I tracked the pollution to a giant creature's carcass trapped at the source. With help from local fauna, I accelerated natural decomposition and purified the banks with absorbent mosses, restoring life to the river."
+      ],
+      "es": [
+        "Descubrí que la contaminación venía de un alga invasora. Introduje crustáceos nativos que se alimentan de ella, limpiando el lecho del río de forma orgánica y segura.",
+        "Identifiqué un bloqueo de sedimentos que pudría la vegetación. Al liberar el flujo y plantar juncos filtrantes, el agua recuperó su transparencia en pocos días.",
+        "Rastreé la contaminación hasta el cadáver de una criatura en la fuente. Aceleré la descomposición natural y purifiqué las orillas con musgos absorbentes, devolviendo la vida al río."
+      ],
+      "ru": [
+        "Я выяснила, что заражение вызвано инвазивными водорослями, выделяющими токсины. Я завезла местных ракообразных, которые питаются этими водорослями, очистив русло реки органическим путем.",
+        "Я обнаружила засор из осадочных пород, из-за которого гнила подводная растительность. Освободив поток и высадив фильтрующий камыш, я вернула воде прозрачность за несколько дней.",
+        "Я отследила загрязнение до туши гигантского существа в источнике. С помощью местной фауны я ускорила разложение и очистила берега мхом, вернув реку к жизни."
+      ],
+      "zh": [
+        "我发现污染源于一种因温度失衡而释放毒素的入侵藻类。我引入了以这种藻类为食的本地甲壳类动物，以有机且安全的方式清理了河床。",
+        "我确认水源处的沉积物阻塞导致水下植物腐烂。通过疏通水流并在岸边种植过滤芦苇，河水在几天内恢复了清澈和含氧量。",
+        "我将污染源追踪到卡在水源处的一具巨型生物尸体。在当地动物群的帮助下，我加速了自然分解，并用吸收性苔藓净化了河岸，让河流重获生机。"
+      ],
+      "ja": [
+        "温度変化で毒素を出す外来藻類が原因であることを突き止めました。この藻を食べる在来の甲殻類を導入することで、有機的かつ安全に川床を浄化しました。",
+        "水源の堆積物が水没した植物を腐らせているのを発見しました。流れを確保し、岸辺にろ過能力のある植物を植えることで、数日で水の透明度と酸素濃度が回復しました。",
+        "水源に挟まった巨大な生物の死骸が汚染源であることを特定しました。地域の動物たちの助けを借りて自然分解を早め、吸着性の苔で岸を浄化し、川に生命を戻しました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "A toxina espalhou-se mais rápido do que a minha capacidade de filtrar o leito. O rio tornou-se estéril por quilômetros, forçando a vila a abandonar suas terras e buscar fontes de água distantes.",
+        "Minha tentativa de introduzir espécies filtrantes causou um segundo desequilíbrio ecológico. O rio agora está infestado por pragas que destruíram o que restava da fauna nativa.",
+        "O herói adoeceu ao tentar investigar a nascente sem a proteção adequada. Sem intervenção, a contaminação atingiu o lençol freático, condenando os poços da cidade por uma geração."
+      ],
+      "en": [
+        "The toxin spread faster than my ability to filter the bed. The river became sterile for miles, forcing the village to abandon its lands and seek distant water sources.",
+        "My attempt to introduce filtering species caused a second ecological imbalance. The river is now infested with pests that destroyed what remained of the native fauna.",
+        "The hero fell ill while trying to investigate the source without proper protection. Without intervention, the contamination reached the water table, condemning the city's wells for a generation."
+      ],
+      "es": [
+        "La toxina se extendió más rápido que mi capacidad de filtrado. El río quedó estéril por kilómetros, obligando a la aldea a buscar fuentes de agua distantes.",
+        "Mi intento de introducir especies filtrantes causó un segundo desequilibrio. El río está ahora infestado de plagas que destruyeron la fauna nativa restante.",
+        "El héroe enfermó al investigar la fuente. Sin intervención, la contaminación llegó al agua subterránea, condenando los pozos de la ciudad por una generación."
+      ],
+      "ru": [
+        "Токсин распространялся быстрее, чем я успевала фильтровать русло. Река стала мертвой на многие мили, вынудив жителей покинуть земли в поисках других источников.",
+        "Попытка внедрить фильтрующие виды вызвала второй экологический дисбаланс. Река теперь кишит вредителями, которые уничтожили остатки местной фауны.",
+        "Герой заболел, пытаясь исследовать источник без должной защиты. Без вмешательства заражение достигло грунтовых вод, отравив колодцы города на поколение."
+      ],
+      "zh": [
+        "毒素扩散的速度超过了我过滤河床的能力。河流在数英里内变得荒芜，迫使村庄放弃土地寻找遥远的水源。",
+        "我引入过滤物种的尝试引发了第二次生态失衡。河流现在害虫泛滥，摧毁了原本剩余的本地动物群。",
+        "英雄在没有适当防护的情况下调查水源时病倒了。由于缺乏干预，污染渗透到了地下水层，使城市的水井在未来一代人的时间内都无法使用。"
+      ],
+      "ja": [
+        "毒素の拡散がろ過能力を上回ってしまいました。川は何マイルにもわたって死の川となり、村は土地を捨てて遠くの水源を探すことを余儀なくされました。",
+        "浄化目的で導入した種が二次的な生態系破壊を引き起こしました。川は害虫に支配され、残っていた在来種も全滅してしまいました。",
+        "適切な保護なしに水源を調査したため、英雄が病に倒れました。介入が遅れたことで汚染は地下水脈に達し、街の井戸は一世代にわたって使えなくなりました。"
+      ]
+    }
   }
+}
 }

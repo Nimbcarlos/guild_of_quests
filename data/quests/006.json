@@ -50,5 +50,139 @@
       "zh": "大钟",
       "ja": "大鐘"
     }
+  },
+  "conclusion": {
+    "success": {  
+      "religion": {
+        "pt": [
+          "Mais do que erguer o metal, entendi a ressonância necessária para a bênção. Guiei o içamento com cânticos rituais que mantiveram os trabalhadores focados; o sino agora canta com uma pureza divina.",
+          "Tratei o sino como um objeto sagrado, não apenas peso. Minha prece durante a instalação pareceu tornar o bronze mais leve, e o bispo afirma que Ardent nunca teve um protetor tão dedicado.",
+          "Sincronizei o balanço do sino com a geometria sagrada da torre. Ao soar pela primeira vez, a vibração limpou as energias negativas da catedral, selando o serviço com glória."
+        ],
+        "en": [
+          "More than just lifting the metal, I understood the resonance needed for the blessing. I guided the lifting with ritual chants that kept the workers focused; the bell now sings with divine purity.",
+          "I treated the bell as a sacred object, not just weight. My prayer during installation seemed to make the bronze lighter, and the bishop claims Ardent has never had such a dedicated protector.",
+          "I synchronized the bell's swing with the sacred geometry of the tower. When it rang for the first time, the vibration cleared negative energies from the cathedral, sealing the service with glory."
+        ],
+        "es": [
+          "Más que elevar el metal, entendí la resonancia necesaria para la bendición. Guié el levantamiento con cánticos rituales que mantuvieron a los trabajadores enfocados; la campana ahora canta con una pureza divina.",
+          "Traté la campana como un objeto sagrado, no solo como peso. Mi oración durante la instalación pareció hacer el bronce más ligero, y el obispo afirma que Ardent nunca ha tenido un protector tan dedicado.",
+          "Sincronicé el balanceo de la campana con la geometría sagrada de la torre. Al sonar por primera vez, la vibración limpió las energías negativas de la catedral, sellando el servicio con gloria."
+        ],
+        "ru": [
+          "Я поняла, что важно не просто поднять металл, но и добиться резонанса для благословения. Я направляла подъем ритуальными песнопениями, которые поддерживали сосредоточенность рабочих; теперь колокол поет с божественной чистотой.",
+          "Я отнеслась к колоколу как к священному объекту, а не просто к грузу. Моя молитва во время установки, казалось, сделала бронзу легче, и епископ утверждает, что у Ардента никогда не было такого преданного защитника.",
+          "Я синхронизировала раскачивание колокола со священной геометрией башни. Когда он прозвонил в первый раз, вибрация очистила собор от негативной энергии, увенчав службу славой."
+        ],
+        "zh": [
+          "我不只是在举起金属，我理解祝福所需的共鸣。我用仪式性的圣歌指引吊装过程，使工人们保持专注；现在大钟正以神圣的纯洁感鸣响。",
+          "我将大钟视为神圣之物，而非单纯的重物。安装过程中的祷告似乎让青铜变得轻盈，主教声称阿登特从未有过如此虔诚的守护者。",
+          "我将大钟的摆动与钟楼的神圣几何结构同步。当它第一次敲响时，震动清除了大教堂内的负能量，为这项工作画上了光荣的句号。"
+        ],
+        "ja": [
+          "ただ金属を持ち上げるだけでなく、祝福に必要な共鳴を理解していました。労働者たちの集中力を維持するために儀式の詠唱で吊り上げを導き、今、鐘は神聖な清らかさで鳴り響いています。",
+          "鐘を単なる重りではなく、神圣な象徴として扱いました。設置中の祈りが青銅を軽くしたかのようで、司教はアーデントにこれほど献身的な守護者はかつていなかったと称賛しています。",
+          "鐘の揺れを塔の神聖幾何学と同期させました。初めて鐘が鳴ったとき、その振動は大聖堂の邪気を払い、この任務を栄光とともに完遂させました。"
+        ]
+      },
+      "engineering": {
+      "pt": [
+        "Projetei um sistema de polias reforçadas para içar a tonelada de bronze. A instalação foi cirúrgica e o sino está perfeitamente equilibrado no topo da catedral.",
+        "A estrutura antiga da torre era um risco, então instalei contrafortes antes do serviço. O sino foi erguido sem um único estalo na alvenaria.",
+        "Calculei a tensão exata das cordas para evitar acidentes. O mecanismo de balanço que instalei garantirá que o sino soe por séculos sem desgastar o suporte."
+      ],
+      "en": [
+        "I designed a reinforced pulley system to hoist the ton of bronze. The installation was surgical, and the bell is perfectly balanced atop the cathedral.",
+        "The tower's ancient structure was a risk, so I installed buttresses before the service. The bell was lifted without a single crack in the masonry.",
+        "I calculated the exact rope tension to avoid accidents. The swinging mechanism I installed will ensure the bell rings for centuries without wearing out the support."
+      ],
+      "es": [
+        "Diseñé un sistema de poleas reforzadas para izar la tonelada de bronce. La instalación fue quirúrgica y la campana está perfectamente equilibrada en la cima de la catedral.",
+        "La antigua estructura de la torre era un riesgo, así que instalé contrafuertes antes del servicio. La campana se elevó sin una sola grieta en la mampostería.",
+        "Calculé la tensión exacta de las cuerdas para evitar accidentes. El mecanismo de oscilación que instalé asegurará que la campana suene por siglos sin desgastar el soporte."
+      ],
+      "ru": [
+        "Я спроектировала систему усиленных шкивов для подъема тонны бронзы. Установка прошла хирургически точно, и колокол идеально сбалансирован на вершине собора.",
+        "Древняя структура башни была в зоне риска, поэтому я установила контрфорсы перед началом работ. Колокол был поднят без единой трещины в кладке.",
+        "Я рассчитала точное натяжение канатов, чтобы избежать несчастных случаев. Установленный мной маятниковый механизм обеспечит звон колокола на века без износа опоры."
+      ],
+      "zh": [
+        "我设计了一套加强型滑轮系统来吊起一吨重的青铜。安装过程非常精准，大钟在大教堂顶端达到了完美的平衡。",
+        "钟楼的古老结构存在风险，因此我在工作前加装了扶壁。大钟被吊起时，砖石结构没有出现一丝裂缝。",
+        "我计算了绳索的精确张力以避免事故。我安装的摆动机构将确保大钟鸣响数百年而不会磨损支架。"
+      ],
+      "ja": [
+        "1トンの青銅を吊り上げるために、強化プーリー（滑車）システムを設計しました。設置は外科手術のように正確で、鐘は大聖堂の頂上で完璧なバランスを保っています。",
+        "塔の古い構造にはリスクがあったため、作業前に扶壁を設置しました。石造りの壁に亀裂一つ入れることなく、鐘を吊り上げることができました。",
+        "事故を避けるためにロープの張力を正確に計算しました。私が設置したスイング機構により、支柱を摩耗させることなく何世紀にもわたって鐘が鳴り続けるでしょう。"
+      ]
+    },
+    "default": {
+      "pt": [
+        "Minhas costas arderam sob o esforço, mas a peça de metal finalmente cedeu à minha força. O sino está no lugar e o bispo abençoou meus músculos pelo serviço.",
+        "Puxei as cordas até o limite do meu vigor. Ver o sino atingir o topo foi a recompensa para cada gota de suor derramada nesta catedral.",
+        "Não precisei de truques, apenas determinação. Ergui o sino de uma tonelada e garanti que a voz de Ardent voltasse a ser ouvida por todos."
+      ],
+      "en": [
+        "My back burned under the effort, but the metal piece finally yielded to my strength. The bell is in place, and the bishop blessed my muscles for the service.",
+        "I pulled the ropes to the limit of my vigor. Seeing the bell reach the top was the reward for every drop of sweat shed in this cathedral.",
+        "I didn't need tricks, just determination. I lifted the ton-heavy bell and ensured that Ardent's voice would be heard by everyone again."
+      ],
+      "es": [
+        "Mi espalda ardió bajo el esfuerzo, pero la pieza de metal finalmente cedió a mi fuerza. La campana está en su lugar y el obispo bendijo mis músculos por el servicio.",
+        "Tiré de las cuerdas hasta el límite de mi vigor. Ver la campana llegar a la cima fue la recompensa por cada gota de sudor derramada en esta catedral.",
+        "No necesité trucos, solo determinación. Elevé la campana de una tonelada y aseguré que la voz de Ardent volviera a ser escuchada por todos."
+      ],
+      "ru": [
+        "Спина горела от усилий, но кусок металла наконец поддался моей силе. Колокол на месте, и епископ благословил мои мышцы за эту службу.",
+        "Я тянула канаты на пределе своих сил. Видеть, как колокол достигает вершины, было наградой за каждую каплю пота, пролитую в этом соборе.",
+        "Мне не нужны были хитрости, только решимость. Я подняла тонный колокол и сделала так, чтобы голос Ардента снова был услышан всеми."
+      ],
+      "zh": [
+        "我的背部在重压下感到灼热，但金属块最终在我的力量面前屈服了。大钟已安置妥当，主教为我的辛劳祝福了我的肌肉。",
+        "我将绳索拉到了体力的极限。看着大钟达到顶端，是对在这座大教堂流下的每一滴汗水的奖励。",
+        "我不需要技巧，只需要决心。我举起了一吨重的大钟，确保阿登特的声音能再次被所有人听到。"
+      ],
+      "ja": [
+        "重圧で背中が焼けるようでしたが、ついに金属の塊が私の力に屈しました。鐘は設置され、司教はこの奉仕に対して私の筋肉に祝福を与えてくれました。",
+        "体力の限界までロープを引きました。鐘が頂上に達するのを見ることは、この大聖堂で流した汗の一滴一滴に対する報酬でした。",
+        "小細工は不要でした。ただ決意のみです。1トンの鐘を持ち上げ、アーデントの声が再び皆に届くようにしました。"
+      ]
+    }    
+    },
+  "failure": {
+      "default": {
+        "pt": [
+          "Uma das roldanas estourou e o sino despencou, rachando o piso de mármore da catedral. O bispo está inconsolável e fomos expulsos sob olhares de censura.",
+          "O peso era excessivo e a estrutura da torre começou a ceder. Tivemos que abortar o serviço antes que a catedral inteira desabasse sobre nossas cabeças.",
+          "A falta de coordenação no içamento fez o sino travar na metade do caminho. Ele permanece suspenso e perigoso, e o serviço foi considerado um fracasso."
+        ],
+        "en": [
+          "One of the pulleys snapped and the bell plummeted, cracking the cathedral's marble floor. The bishop is inconsolable, and we were expelled under reproachful glares.",
+          "The weight was excessive and the tower's structure began to give way. We had to abort the service before the entire cathedral collapsed on our heads.",
+          "The lack of coordination in the lifting caused the bell to jam halfway up. It remains suspended and dangerous, and the service was deemed a failure."
+        ],
+        "es": [
+          "Una de las poleas se rompió y la campana se desplomó, agrietando el suelo de mármol de la catedral. El obispo está inconsolable y fuimos expulsados bajo miradas de reproche.",
+          "El peso era excesivo y la estructura de la torre comenzó a ceder. Tuvimos que abortar el servicio antes de que la catedral entera colapsara sobre nuestras cabezas.",
+          "La falta de coordinación en el izamiento hizo que la campana se trabara a mitad de camino. Permanece suspendida y peligrosa, y el servicio fue considerado un fracaso."
+        ],
+        "ru": [
+          "Один из шкивов лопнул, и колокол рухнул, расколов мраморный пол собора. Епископ безутешен, а нас выгнали под осуждающими взглядами.",
+          "Вес был чрезмерным, и структура башни начала поддаваться. Нам пришлось прервать службу, пока весь собор не рухнул нам на головы.",
+          "Отсутствие координации при подъеме привело к тому, что колокол заклинило на полпути. Он остается подвешенным и опасным, а служба признана неудачной."
+        ],
+        "zh": [
+          "其中一个滑轮断裂，大钟坠落，砸碎了大教堂的大理石地面。主教悲痛欲绝，我们在责难的目光中被驱逐了。",
+          "重量过大，钟楼结构开始塌陷。在整个大教堂崩塌在我们头上之前，我们不得不中止工作。",
+          "吊装过程中缺乏协调导致大钟卡在半路。它现在悬挂在那里非常危险，这项工作被判定为失败。"
+        ],
+        "ja": [
+          "プーリーの一つが壊れ、鐘が落下して大聖堂の大理石の床を砕いてしまいました。司教はひどく落胆し、私たちは非難の眼差しの中で追い出されました。",
+          "重量が重すぎて塔の構造がしなり始めました。大聖堂全体が崩壊する前に、作業を中止せざるを得ませんでした。",
+          "吊り上げの連携が取れず、鐘が途中で止まってしまいました。吊るされたままの状態は危険であり、任務は失敗と見なされました。"
+        ]
+      }
+    }
   }
 }

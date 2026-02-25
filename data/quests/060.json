@@ -50,5 +50,107 @@
       "zh": "被感染的人",
       "ja": "感染した者"
     }
+  },
+"conclusion": {
+  "success": {
+    "cure": {
+      "pt": [
+        "Isoliei os infectados e removi o tecido necrosado antes da aplicação do tratamento.",
+        "Apliquei antídoto progressivo e estabilizei a expansão da necrose.",
+        "Estabeleci protocolo de contenção e reverti o avanço da infecção."
+      ],
+      "en": [
+        "I isolated the infected and removed necrotic tissue before applying treatment.",
+        "I administered a progressive antidote and stabilized the spread of necrosis.",
+        "I established a containment protocol and reversed the infection’s advance."
+      ],
+      "es": [
+        "Aislé a los infectados y retiré el tejido necrótico antes del tratamiento.",
+        "Apliqué un antídoto progresivo y estabilicé la necrosis.",
+        "Establecí un protocolo de contención y revertí el avance."
+      ],
+      "ru": [
+        "Я изолировал заражённых и удалил некротические ткани перед лечением.",
+        "Применил прогрессивный антидот и стабилизировал некроз.",
+        "Ввел протокол сдерживания и остановил распространение."
+      ],
+      "zh": [
+        "我隔离感染者并清除坏死组织后施治。",
+        "我施用渐进解毒剂并稳定坏疽扩散。",
+        "我建立控制流程并阻止感染蔓延。"
+      ],
+      "ja": [
+        "感染者を隔離し、壊死組織を除去してから治療しました。",
+        "段階的解毒剤で壊死の拡大を安定化しました。",
+        "封じ込め手順を確立し進行を止めました。"
+      ]
+    },
+    "default": {
+      "pt": [
+        "Identifiquei o vínculo arcano que alimentava a necrose e o dissipei.",
+        "Interrompi o fluxo mágico parasitário antes que alcançasse órgãos vitais.",
+        "Selo arcano aplicado para romper a conexão com a fonte da infecção."
+      ],
+      "en": [
+        "I identified the arcane bond sustaining the necrosis and dispelled it.",
+        "I severed the parasitic magical flow before it reached vital organs.",
+        "I applied an arcane seal to break the infection’s source connection."
+      ],
+      "es": [
+        "Identifiqué el vínculo arcano que sostenía la necrosis y lo disipé.",
+        "Interrumpí el flujo mágico parasitario antes de alcanzar órganos vitales.",
+        "Apliqué un sello arcano para romper la conexión."
+      ],
+      "ru": [
+        "Я выявил арканную связь, подпитывающую некроз, и рассеял её.",
+        "Прервал паразитический поток до поражения органов.",
+        "Наложил арканную печать, разорвав источник."
+      ],
+      "zh": [
+        "我识别并驱散维持坏疽的奥术联系。",
+        "我切断寄生魔力流向关键器官。",
+        "我施加奥术封印，断开感染源。"
+      ],
+      "ja": [
+        "壊死を支える秘術の結合を特定し解除しました。",
+        "寄生的魔力の流れを遮断しました。",
+        "秘術封印で感染源との接続を断ちました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "A necrose avançou além do ponto de reversão.",
+        "O vínculo arcano reagiu ao tratamento e acelerou a propagação.",
+        "Não foi possível conter a infecção a tempo."
+      ],
+      "en": [
+        "The necrosis advanced beyond reversal.",
+        "The arcane bond reacted to treatment and accelerated spread.",
+        "The infection could not be contained in time."
+      ],
+      "es": [
+        "La necrosis avanzó más allá de reversión.",
+        "El vínculo arcano reaccionó al tratamiento y aceleró la propagación.",
+        "No fue posible contener la infección a tiempo."
+      ],
+      "ru": [
+        "Некроз зашёл слишком далеко.",
+        "Арканная связь отреагировала и ускорила распространение.",
+        "Сдержать инфекцию не удалось."
+      ],
+      "zh": [
+        "坏疽发展超出可逆范围。",
+        "奥术联系对治疗产生反应并加速扩散。",
+        "未能及时控制感染。"
+      ],
+      "ja": [
+        "壊死は回復不能域に達しました。",
+        "秘術の結合が反応し拡大しました。",
+        "感染を封じ込められませんでした。"
+      ]
+    }
   }
+}
 }

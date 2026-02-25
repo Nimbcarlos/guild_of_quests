@@ -127,6 +127,7 @@
           "ja": ["ミーナ、あなたの友達を連れて行きましょう。声たちが彼らのために歌いたがっているわ。"]
         }
       }
+    }
     },
     "dialogue_blocks": {
       "arrived": {
@@ -142,6 +143,66 @@
             "Eu inclinei a cabeça ao atravessar d{location}, porque uma voz gentil lembrava que toda dor pode ser transformada.",
             "Eu tracei um pequeno símbolo no ar diante d{location}, seguindo a orientação de um eco que dizia que a luz precisa ser invocada com intenção.",
             "Eu entrei d{location} em silêncio, escutando um conselho insistente que afirmava que até na escuridão mais densa há propósito."
+          ],
+          "en": [
+            "I stood before {location} and took a deep breath; an ancient voice whispered that light always finds a way, even when all seems lost.",
+            "I touched the symbol on my chest as I crossed the entrance of {location}, while someone murmured that healing begins where faith is tested.",
+            "I walked to {location} feeling an invisible chorus arguing among themselves, repeating that even the darkest deserve redemption.",
+            "I knelt for a moment before entering {location}, because one of the voices insisted that discipline is the first miracle.",
+            "I observed every detail of {location} while a stern voice echoed in my mind saying I must protect the weak, whatever the cost.",
+            "I moved through {location} carefully, and someone inside my head declared that hope is a flame that must never be extinguished.",
+            "I held my staff firmly as I stepped into {location}, while a steady whisper repeated that faith without action is just noise.",
+            "I bowed my head while passing through {location}, because a gentle voice reminded me that all pain can be transformed.",
+            "I traced a small symbol in the air before {location}, following the guidance of an echo saying that light must be invoked with intention.",
+            "I entered {location} in silence, listening to insistent advice stating that even in the densest darkness, there is purpose."
+          ],
+          "es": [
+            "Me detuve ante {location} y respiré hondo; una voz antigua susurró que la luz siempre encuentra un camino, incluso cuando todo parece perdido.",
+            "Toqué el símbolo en mi pecho al cruzar la entrada de {location}, mientras alguien murmuraba que la curación comienza donde la fe es puesta a prueba.",
+            "Caminé hacia {location} sintiendo un coro invisible discutir entre sí, repitiendo que incluso los más oscuros merecen redención.",
+            "Me arrodillé por un instante antes de entrar en {location}, porque una de las voces insistió en que la disciplina es el primer milagro.",
+            "Observé cada detalle de {location} mientras un timbre severo resonaba en mi mente diciendo que debo proteger a los débiles, cueste lo que cueste.",
+            "Avancé por {location} con cuidado, y alguien declaró dentro de mi cabeza que la esperanza es una llama que nunca debe apagarse.",
+            "Sujeté mi bastón con firmeza al pisar {location}, mientras un susurro firme repetía que la fe sin acción es solo ruido.",
+            "Incliné la cabeza al atravesar {location}, porque una voz gentil recordaba que todo dolor puede ser transformado.",
+            "Tracé un pequeño símbolo en el aire ante {location}, siguiendo la guía de un eco que decía que la luz debe ser invocada con intención.",
+            "Entré en {location} en silencio, escuchando un consejo insistente que afirmaba que incluso en la oscuridad más densa hay un propósito."
+          ],
+          "ru": [
+            "Я остановилась перед {location} и глубоко вздохнула; древний голос прошептал, что свет всегда находит путь, даже когда всё кажется потерянным.",
+            "Я коснулась символа на своей груди, переступая порог {location}, пока кто-то бормотал, что исцеление начинается там, где вера подвергается испытанию.",
+            "Я шла к {location}, чувствуя, как невидимый хор спорит между собой, повторяя, что даже самые мрачные заслуживают искупления.",
+            "Я преклонила колени на мгновение перед входом в {location}, потому что один из голосов настоял на том, что дисциплина — это первое чудо.",
+            "Я осмотрела каждую деталь {location}, пока суровый голос эхом отдавался в моей голове, говоря, что я должна защищать слабых любой ценой.",
+            "Я осторожно продвигалась по {location}, и кто-то в моей голове заявил, что надежда — это пламя, которое никогда не должно угаснуть.",
+            "Я крепко сжала свой посох, ступая в {location}, пока настойчивый шепот повторял, что вера без действий — это всего лишь шум.",
+            "Я склонила голову, проходя через {location}, потому что нежный голос напомнил, что любую боль можно преобразить.",
+            "Я начертала в воздухе перед {location} небольшой символ, следуя указанию эха, которое говорило, что свет нужно призывать с намерением.",
+            "Я вошла в {location} в тишине, прислушиваясь к настойчивому совету, гласящему, что даже в самой густой тьме есть смысл."
+          ],
+          "zh": [
+            "我站在{location}前深吸了一口气；一个古老的声音低声说，即使在一切似乎都迷失的时候，光总能找到出路。",
+            "当我跨进{location}的入口时，我抚摸着胸前的符号，有人喃喃自语，治愈始于信仰受到考验的地方。",
+            "我走向{location}，感觉到一个隐形的合唱团在争吵，重复着即使是最黑暗的人也值得救赎。",
+            "在进入{location}之前我跪了一会儿，因为其中一个声音坚持认为纪律是第一个奇迹。",
+            "我观察着{location}的每一个细节，一个严厉的声音在我的脑海中回荡，说无论付出什么代价，我都必须保护弱者。",
+            "我小心翼翼地在{location}中前进，脑海中有人宣布，希望是永不熄灭的火焰。",
+            "当我踏入{location}时，我紧紧握住法杖，一个坚定的低语重复着：没有行动的信仰只是噪音。",
+            "经过{location}时我低下了头，因为一个温柔的声音提醒我，所有的痛苦都可以被转化。",
+            "我在{location}前的空中画了一个小符号，遵循着一个回声的指引，它说必须用意志来唤回光明。",
+            "我静静地进入了{location}，听着一个坚持的建议，声称即使在最浓重的黑暗中也有其意义。"
+          ],
+          "ja": [
+            "私は{location}の前に立ち、深呼吸をしました。古い声が、すべてが失われたように見えても、光は常に道を見つけると囁きました。",
+            "{location}の入り口を横切るとき、胸のシンボルに触れました。誰かが、癒しは信仰が試される場所から始まると呟いていました。",
+            "{location}へと歩きながら、目に見えない合唱が互いに議論し、最も暗い者でさえ救済に値すると繰り返しているのを感じました。",
+            "{location}に入る前に一瞬膝をつきました。声の一つが、規律こそが最初の奇迹だと主張したからです。",
+            "{location}の細部を観察していると、厳しい音色が私の頭の中に響き、何があっても弱者を守らなければならないと言いました。",
+            "慎重に{location}を進むと、頭の中で誰かが、希望は決して消してはならない炎だと宣言しました。",
+            "{location}に足を踏み入れたとき、杖をしっかりと握りました。確かな囁きが、行動を伴わない信仰はただの雑音だと繰り返していました。",
+            "{location}を通り抜けるとき、頭を垂れました。優しい声が、すべての痛みは変容させることができると思い出させてくれたからです。",
+            "{location}の前で空中に小さな印を描きました。光は意図を持って呼び出される必要があるという残響の導きに従ったのです。",
+            "静かに{location}に入り、最も深い暗闇の中にさえ目的があるという執拗な助言に耳を傾けました。"
           ]
         },
         "group": {
@@ -156,6 +217,66 @@
             "Eu pedi silêncio ao grupo ao nos aproximarmos d{location}, enquanto um coro invisível discutia sobre sacrifício e propósito.",
             "Eu tracei um pequeno gesto de bênção antes de entrarmos d{location}, apesar de uma voz mais rígida afirmar que fé não substitui preparo.",
             "Eu caminhei com eles por d{location}, ouvindo um conselho interno que dizia que cada passo compartilhado é também uma responsabilidade."
+          ],
+          "en": [
+            "I walked alongside them to {location}, while a voice murmured that true leaders lead without being seen; I just picked up the pace.",
+            "I stopped before {location} and asked them to hold formation, even with a whisper insisting that faith should be enough to protect us.",
+            "I observed each of them before we advanced through {location}, because an echo in my mind repeated that protecting others is an oath, not a choice.",
+            "I adjusted my holy symbol upon entering {location}, ignoring the voice that said some there needed to be tested by fire.",
+            "I took a deep breath and signaled for us to follow through {location}, while a solemn tone reminded me that hope must be worn like armor.",
+            "I touched the shoulder of one of them before we crossed {location}, as a soft voice insisted that even warriors need to be reminded of their humanity.",
+            "I moved through {location} keeping myself between them and the unknown, even when someone inside my head questioned my own strength.",
+            "I asked the group for silence as we approached {location}, while an invisible chorus argued about sacrifice and purpose.",
+            "I traced a small gesture of blessing before we entered {location}, despite a stricter voice claiming that faith does not replace preparation.",
+            "I walked with them through {location}, listening to internal advice saying that every shared step is also a responsibility."
+          ],
+          "es": [
+            "Caminé junto a ellos hasta {location}, mientras una voz murmuraba que los verdaderos líderes guían sin ser vistos; simplemente apreté el paso.",
+            "Me detuve ante {location} y les pedí que mantuvieran la formación, incluso con un susurro insistiendo en que la fe debería ser suficiente para protegernos.",
+            "Observé a cada uno antes de avanzar por {location}, porque un eco en mi mente repetía que proteger a los demás es un juramento, no una elección.",
+            "Ajusté mi símbolo sagrado al entrar en {location}, ignorando la voz que decía que algunos allí necesitaban ser probados por el fuego.",
+            "Respiré hondo y les hice señas para seguir por {location}, mientras un tono solemne recordaba que la esperanza debe llevarse como una armadura.",
+            "Toqué el hombro de uno de ellos antes de cruzar {location}, ya que una voz suave insistía en que incluso los guerreros necesitan que se les recuerde su humanidad.",
+            "Avancé por {location} manteniéndome entre ellos y lo desconocido, incluso cuando alguien dentro de mi cabeza cuestionaba mi propia fuerza.",
+            "Pedí silencio al grupo al acercarnos a {location}, mientras un coro invisible discutía sobre el sacrificio y el propósito.",
+            "Tracé un pequeño gesto de bendición antes de entrar en {location}, a pesar de que una voz más rígida afirmaba que la fe no sustituye la preparación.",
+            "Caminé con ellos por {location}, escuchando un consejo interno que decía que cada paso compartido es también una responsabilidad."
+          ],
+          "ru": [
+            "Я шла рядом с ними к {location}, пока голос шептал, что истинные лидеры ведут, оставаясь невидимыми; я просто прибавила шагу.",
+            "Я остановилась перед {location} и попросила их держать строй, хотя шепот настаивал, что веры должно быть достаточно, чтобы защитить нас.",
+            "Я осмотрела каждого из них перед тем, как мы двинулись через {location}, потому что эхо в моей голове повторяло, что защита других — это клятва, а не выбор.",
+            "Я поправила свой священный символ при входе в {location}, игнорируя голос, который говорил, что некоторые здесь должны быть испытаны огнем.",
+            "Я глубоко вздохнула и подала сигнал следовать через {location}, в то время как торжественный тон напоминал, что надежду нужно носить как доспехи.",
+            "Я коснулась плеча одного из них перед тем, как мы пересекли {location}, так как мягкий голос настаивал на том, что даже воинам нужно напоминать об их человечности.",
+            "Я продвигалась по {location}, держась между ними и неизвестностью, даже когда кто-то в моей голове сомневался в моей собственной силе.",
+            "Я попросила группу о тишине при приближении к {location}, пока невидимый хор спорил о жертве и цели.",
+            "Я совершила небольшой жест благословения перед входом в {location}, несмотря на то что более строгий голос утверждал, что вера не заменяет подготовку.",
+            "Я шла с ними через {location}, прислушиваясь к внутреннему совету, который говорил, что каждый общий шаг — это также и ответственность."
+          ],
+          "zh": [
+            "我走在他们身边前往{location}，一个声音喃喃说真正的领导者在不被看见的情况下引导；我只是加快了脚步。",
+            "我停在{location}前，要求他们保持阵型，尽管有个声音坚持认为信仰足以保护我们。",
+            "在进入{location}之前，我观察了每一个人，因为我脑海中的一个回声重复着：保护他人是一种誓言，而非一种选择。",
+            "进入{location}时我调整了神圣符号，无视了那个说这里有些人需要接受烈火考验的声音。",
+            "我深吸一口气，示意我们继续穿过{location}，一个庄严的语调提醒我，必须像穿盔甲一样带着希望。",
+            "在穿过{location}之前，我碰了一个人的肩膀，因为一个温柔的声音坚持说即使是战士也需要被提醒他们的人性。",
+            "我穿过{location}，让自己处于他们与未知之间，即使脑海中有人在质疑我自己的力量。",
+            "当我们靠近{location}时，我要求队伍保持安静，而一个隐形的合唱团正在争论牺牲与目的。",
+            "进入{location}之前我画了一个小小的祝福手势，尽管一个更严厉的声音声称信仰不能取代准备。",
+            "我与他们一同走过{location}，听着内心的建议，它说每一步共同的跨越也是一份责任。"
+          ],
+          "ja": [
+            "私は彼らの隣を歩いて{location}へ向かいました。声が、真のリーダーは姿を見せずに導くものだと囁いていました。私はただ歩調を早めました。",
+            "{location}の前に立ち、陣形を維持するように頼みました。信仰だけで私たちを守るのに十分なはずだという囁きを無視して。",
+            "{location}を進む前に一人一人を観察しました。脳裏に響く残響が、他者を守ることは選択ではなく誓いなのだと繰り返していたからです。",
+            "{location}に入るとき、聖なるシンボルを整えました。ここにいる何人かは火の試練を受ける必要があるという声を無視しながら。",
+            "深呼吸をして{location}を進むよう合図を送りました。厳かな音色が、希望は鎧のように身に纏わなければならないと思い出させてくれました。",
+            "{location}を越える前に一人の肩に触れました。穏やかな声が、戦士であっても人間であることを思い出させる必要があると主張したからです。",
+            "{location}を進む間、彼らと未知のものの間に身を置きました。頭の中の誰かが私自身の力を疑っているときでさえ。",
+            "{location}に近づく際、一行に静粛を求めました。目に見えない合唱が犠牲と目的について議論している間。",
+            "{location}に入る前に小さな祝福の仕草をしました。より厳しい声が、信仰は準備の代わりにはならないと断言していたにもかかわらず。",
+            "彼らと共に{location}を歩きました。共有する一歩一歩がまた一つの責任であるという内なる助言を聞きながら。"
           ]
         }
       },
@@ -187,33 +308,650 @@
               "Eu deixei a luz circular entre nós durante a batalha com {enemy}, lembrando das palavras de um velho sermão sobre manter a chama acesa.",
               "Eu caminhei entre eles sob a ameaça de {enemy}, restaurando o que era possível, enquanto o coral interno discutia a diferença entre milagre e técnica.",
               "Eu mantive o símbolo erguido durante o confronto com {enemy}, enviando ondas suaves de cura aos aliados sempre que podia, seguindo a orientação de vozes que falavam sobre compaixão disciplinada."
+            ],
+            "en": [
+              "I raised my holy symbol and invoked the light against {enemy}, while a firm voice declared that purification begins with fire.",
+              "I channeled divine energy toward {enemy}, hearing a solemn whisper affirm that faith is the oldest weapon in the world.",
+              "I stepped forward and let the light condense in my hands before launching it at {enemy}, as someone had taught in another age.",
+              "I traced a luminous circle in the air and projected it over {enemy}, while a distant echo repeated that even darkness fears the dawn.",
+              "I pressed the symbol against my chest and released a radiant beam toward {enemy}, following the guidance of a voice speaking of discipline and sacrifice.",
+              "I extended my staff and let the sacred energy flow until it hit {enemy}, hearing ancient advice about protecting the innocent at any cost.",
+              "I murmured ritual words and led the light against {enemy}, while someone in my mind reminded me that miracles require conviction.",
+              "I concentrated the divine flame in the palm of my hand and directed it at {enemy}, listening to a stern comment about inevitable justice.",
+              "I advanced under the weight of the voices and projected a flash against {enemy}, as if repeating a teaching passed down from generation to generation.",
+              "I invoked an almost celestial glow and sent it against {enemy}, while the inner chorus debated whether that was punishment or redemption."
+            ],
+            "es": [
+              "Alcé mi símbolo sagrado e invoqué la luz contra {enemy}, mientras una voz firme declaraba que la purificación comienza con el fuego.",
+              "Canalicé energía divina hacia {enemy}, escuchando un susurro solemne afirmar que la fe es el arma más antigua del mundo.",
+              "Avancé unos pasos y dejé que la luz se condensara en mis manos antes de lanzarla contra {enemy}, tal como alguien enseñó en otra era.",
+              "Tracé un círculo luminoso en el aire y lo proyecté sobre {enemy}, mientras un eco distante repetía que incluso la oscuridad teme al amanecer.",
+              "Presioné el símbolo contra mi pecho y liberé un haz radiante hacia {enemy}, siguiendo la guía de una voz que hablaba de disciplina y sacrificio.",
+              "Extendí el báculo y dejé que la energía sagrada fluyera hasta alcanzar a {enemy}, escuchando un consejo antiguo sobre proteger a los inocentes a cualquier precio.",
+              "Murmuré palabras rituales y conduje la luz contra {enemy}, mientras alguien en mi mente recordaba que los milagros requieren convicción.",
+              "Concentré la llama divina en la palma de mi mano y la dirigí a {enemy}, escuchando un comentario severo sobre la justicia inevitable.",
+              "Avancé bajo el peso de las voces y proyecté un destello contra {enemy}, como si repitiera una enseñanza transmitida de generación en generación.",
+              "Invoqué un brillo casi celestial y lo envié contra {enemy}, mientras el coro interno discutía si aquello era castigo o redención."
+            ],
+            "ru": [
+              "Я подняла свой священный символ и призвала свет против {enemy}, в то время как твердый голос объявил, что очищение начинается с огня.",
+              "Я направила божественную энергию на {enemy}, слыша торжественный шепот, утверждающий, что вера — старейшее оружие в мире.",
+              "Я сделала несколько шагов вперед и дала свету сгуститься в моих руках, прежде чем обрушить его на {enemy}, как кто-то учил в другую эпоху.",
+              "Я начертила в воздухе светящийся круг и спроецировала его на {enemy}, пока далекое эхо повторяло, что даже тьма боится рассвета.",
+              "Я прижала символ к груди и выпустила сияющий луч в сторону {enemy}, следуя указаниям голоса, говорившего о дисциплине и жертвенности.",
+              "Я вытянула посох и позволила священной энергии течь, пока она не поразила {enemy}, слыша древний совет о защите невинных любой ценой.",
+              "Я пробормотала ритуальные слова и направила свет против {enemy}, пока кто-то в моей голове напоминал, что чудеса требуют убежденности.",
+              "Я сосредоточила божественное пламя в ладони и направила его на {enemy}, прислушиваясь к суровому замечанию о неизбежной справедливости.",
+              "Я шла вперед под тяжестью голосов и метнула вспышку в {enemy}, словно повторяя учение, передаваемое из поколения в поколение.",
+              "Я призвала почти небесное сияние и направила его против {enemy}, пока внутренний хор спорил, было ли это наказанием или искуплением."
+            ],
+            "zh": [
+              "我举起神圣的符号，对着{enemy}召唤光芒，一个坚定的声音宣布净化始于火焰。",
+              "我将神圣能量导向{enemy}，听到一个庄严的低语断言信仰是世界上最古老的武器。",
+              "我向前迈了几步，让光在手中凝聚，然后将其掷向{enemy}，就像另一个时代有人教导的那样。",
+              "我在空中画了一个发光的圆圈并将其投射到{enemy}身上，而远处的回声重复着：即使是黑暗也畏惧黎明。",
+              "我将符号紧贴胸口，向{enemy}发出一道灿烂的光束，遵循着一个关于纪律与牺牲的声音的指引。",
+              "我伸出法杖，让神圣能量流动直至击中{enemy}，听到一个关于不惜一切代价保护无辜者的古老建议。",
+              "我低声念诵祭祀咒语，引导光芒对抗{enemy}，脑海中有人提醒我，奇迹需要坚定的信念。",
+              "我将神圣之火集中在掌心并指向{enemy}，听着关于必然正义的严厉评论。",
+              "我在众声的重压下前进，向{enemy}投射出一道闪光，仿佛在重复代代相传的教诲。",
+              "我召唤出近乎神圣的光辉并将其射向{enemy}，而内心的合唱正在争论那是惩罚还是救赎。"
+            ],
+            "ja": [
+              "聖なるシンボルを掲げ、{enemy}に対して光を呼び出しました。確かな声が、浄化は火から始まると宣言しました。",
+              "{enemy}に向かって神聖なエネルギーを送り込みました。信仰は世界で最も古い武器であるという厳かな囁きを聞きながら。",
+              "数歩前へ進み、別の時代に誰かが教えてくれたように、手の中で光を凝縮させてから{enemy}に放ちました。",
+              "空中に光の輪を描き、それを{enemy}に投影しました。遠くの残響が、暗闇でさえ夜明けを恐れると繰り返していました。",
+              "シンボルを胸に押し当て、規律と犠牲について語る声の導きに従って、{enemy}に向かって輝く光線を放ちました。",
+              "杖を突き出し、聖なるエネルギーが{enemy}に届くまで流しました。どんな犠牲を払っても無実の者を守れという古い助言を聞きながら。",
+              "儀式の言葉を呟き、{enemy}に光を向けました。奇跡には確信が必要だと、頭の中の誰かが思い出させてくれました。",
+              "手のひらに神聖な炎を集中させて{enemy}に向けました。避けられない正義についての厳しいコメントに耳を傾けながら。",
+              "声の重圧の下で前進し、代々受け継がれてきた教えを繰り返すかのように、{enemy}に閃光を放ちました。",
+              "天界のような輝きを呼び出し、それを{enemy}に送りました。内なる合唱が、それが罰なのか救済なのかを議論している間。"
             ]
           }
         },
-        "perks": {
-          "religion": {
+        "religion": {
+          "alone": {
             "pt": [
               "Eu recitei os preceitos sagrados diante de {challenge}, enquanto uma das vozes insistia que tradição é a espinha dorsal da fé.",
               "Eu tracei símbolos antigos ao encarar {challenge}, ouvindo um eco afirmar que todo lugar carrega um vestígio do divino.",
               "Eu citei um trecho de um antigo sermão enquanto lidava com {challenge}, mesmo com o coral interno debatendo interpretações diferentes."
+            ],
+            "en": [
+              "I recited the holy precepts before {challenge}, while one of the voices insisted that tradition is the backbone of faith.",
+              "I traced ancient symbols while facing {challenge}, hearing an echo affirm that every place carries a trace of the divine.",
+              "I quoted a passage from an ancient sermon while dealing with {challenge}, even with the internal chorus debating different interpretations."
+            ],
+            "es": [
+              "Recité los preceptos sagrados ante {challenge}, mientras una de las voces insistía en que la tradición es la columna vertebral de la fe.",
+              "Tracé símbolos antiguos al enfrentarme a {challenge}, escuchando un eco afirmar que cada lugar lleva un vestigio de lo divino.",
+              "Cité un fragmento de un antiguo sermón mientras lidiaba con {challenge}, incluso con el coro interno debatiendo diferentes interpretaciones."
+            ],
+            "ru": [
+              "Я зачитала священные заповеди перед {challenge}, в то время как один из голосов настаивал на том, что традиция — это костяк веры.",
+              "Я чертила древние символы, столкнувшись с {challenge}, слыша эхо, утверждающее, что каждое место несет в себе след божественного.",
+              "Я процитировала отрывок из древней проповеди, разбираясь с {challenge}, даже когда внутренний хор спорил о различных толкованиях."
+            ],
+            "zh": [
+              "我在{challenge}前诵读神圣的诫命，其中一个声音坚持认为传统是信仰的支柱。",
+              "面对{challenge}时我画下了古老的符号，听到一个回声断言每个地方都留有神圣的痕迹。",
+              "在处理{challenge}时，我引用了一段古老的布道词，尽管内心的合唱正在辩论不同的解读。"
+            ],
+            "ja": [
+              "{challenge}の前で聖なる教えを唱えました。声の一つが、伝統こそが信仰の根幹であると主張していました。",
+              "{challenge}に立ち向かいながら古代の印を描きました。あらゆる場所には神聖な名残があるという残響の肯定を聞きながら。",
+              "{challenge}に対処しながら古い説教の一節を引用しました。内なる合唱が異なる解釈で議論している最中でも。"
             ]
+
+          }
           },
-          "cure": {
+        "cure": {
+          "alone": {
             "pt": [
               "Eu pressionei minhas mãos sobre a dor causada por {challenge} e canalizei energia sagrada com cuidado, enquanto uma voz suave lembrava que restaurar é um ato de coragem.",
               "Eu murmurei palavras de bênção enquanto respondia a {challenge}, deixando a luz fluir de forma controlada, seguindo a orientação de um conselho antigo sobre compaixão ativa.",
               "Eu mantive o símbolo erguido diante de {challenge} e conduzi energia curativa sempre que necessário, ouvindo alguém comentar que milagres exigem disciplina."
+            ],
+            "en": [
+              "I pressed my hands over the pain caused by {challenge} and carefully channeled holy energy, while a soft voice reminded me that restoring is an act of courage.",
+              "I murmured words of blessing while responding to {challenge}, letting the light flow in a controlled way, following the guidance of ancient advice on active compassion.",
+              "I kept the symbol raised before {challenge} and directed healing energy whenever necessary, hearing someone comment that miracles require discipline."
+            ],
+            "es": [
+              "Presioné mis manos sobre el dolor causado por {challenge} y canalicé energía sagrada con cuidado, mientras una voz suave recordaba que restaurar es un acto de valentía.",
+              "Murmuré palabras de bendición mientras respondía a {challenge}, dejando que la luz fluyera de forma controlada, siguiendo la guía de un antiguo consejo sobre la compasión activa.",
+              "Mantuve el símbolo en alto ante {challenge} y dirigí energía curativa siempre que fue necesario, escuchando a alguien comentar que los milagros requieren disciplina."
+            ],
+            "ru": [
+              "Я прижала руки к боли, вызванной {challenge}, и осторожно направила священную энергию, пока мягкий голос напоминал, что восстановление — это акт мужества.",
+              "Я бормотала слова благословения, отвечая на {challenge}, позволяя свету течь под контролем, следуя руководству древнего совета о деятельном сострадании.",
+              "Я держала символ поднятым перед {challenge} и направляла исцеляющую энергию всякий раз, когда это было необходимо, слыша, как кто-то комментирует, что чудеса требуют дисциплины."
+            ],
+            "zh": [
+              "我将双手按在由{challenge}引起的痛处，小心地引导神圣能量，一个温柔的声音提醒我，修复是一种勇气之举。",
+              "在应对{challenge}时，我低声念诵祝福之词，让光芒受控地流动，遵循关于积极慈悲的古老建议的指引。",
+              "我在{challenge}面前高举符号，并在必要时引导治愈能量，听到有人评论说奇迹需要纪律。"
+            ],
+            "ja": [
+              "{challenge}による痛みに手を当て、慎重に聖なるエネルギーを注ぎました。回復させることは勇気ある行為だと、穏やかな声が思い出させてくれました。",
+              "{challenge}に応じながら祝福の言葉を呟き、能動的な慈愛に関する古い助言に従って、制御された光を流しました。",
+              "{challenge}の前でシンボルを掲げ続け、必要に応じて癒しのエネルギーを向けました。奇跡には規律が必要だという誰かのコメントを聞きながら。"
             ]
-          },
-          "investigation": {
+          }
+        },
+        "investigation": {
+          "alone": {
             "pt": [
               "Eu examinei atentamente os sinais deixados por {challenge}, enquanto uma voz mais rígida dizia que até a fé precisa de evidências.",
               "Eu observei marcas relacionadas a {challenge} ao meu redor, escutando um sussurro afirmar que o divino também fala através de padrões.",
               "Eu caminhei lentamente analisando cada detalhe envolvendo {challenge}, enquanto o coral interno discutia se aquilo era presságio ou apenas descuido humano."
+            ],
+            "en": [
+              "I closely examined the signs left by {challenge}, while a stricter voice said that even faith needs evidence.",
+              "I observed marks related to {challenge} around me, listening to a whisper claim that the divine also speaks through patterns.",
+              "I walked slowly, analyzing every detail involving {challenge}, while the inner chorus debated whether it was an omen or just human neglect."
+            ],
+            "es": [
+              "Examiné atentamente las señales dejadas por {challenge}, mientras una voz más rígida decía que incluso la fe necesita evidencias.",
+              "Observé marcas relacionadas con {challenge} a mi alrededor, escuchando un susurro afirmar que lo divino también habla a través de patrones.",
+              "Caminé lentamente analizando cada detalle relacionado con {challenge}, mientras el coro interno discutía si aquello era un presagio o simplemente descuido humano."
+            ],
+            "ru": [
+              "Я внимательно изучила знаки, оставленные {challenge}, в то время как более строгий голос говорил, что даже вера нуждается в доказательствах.",
+              "Я наблюдала за следами, связанными с {challenge} вокруг меня, слушая шепот, утверждающий, что божественное также говорит через закономерности.",
+              "Я медленно шла, анализируя каждую деталь, связанную с {challenge}, пока внутренний хор спорил, было ли это предзнаменованием или просто человеческой неосторожностью."
+            ],
+            "zh": [
+              "我仔细检查了{challenge}留下的迹象，一个更严厉的声音说即使是信仰也需要证据。",
+              "我观察周围与{challenge}相关的痕迹，听着一个低语声称神圣也会通过模式来沟通。",
+              "我缓慢行走，分析涉及{challenge}的每一个细节，而内心的合唱正在争论那是预兆还是仅仅是人类的疏忽。"
+            ],
+            "ja": [
+              "{challenge}が残した兆候を注意深く調べました。より厳しい声が、信仰でさえ証拠を必要とすると言っていました。",
+              "周囲にある{challenge}に関連する跡を観察しました。神聖なものはパターンを通しても語りかけるという囁きを聞きながら。",
+              "{challenge}にまつわる細部を分析しながらゆっくりと歩きました。内なる合唱が、それが不吉な前兆なのか、あるいは単なる人間の不注意なのかを議論している間。"
             ]
           }
         }
+      },
+      "others": {
+        "1": {
+          "group": {
+            "pt": [
+              "Eu caminhei ao lado de Lyra enquanto ela segurava a espada com mãos firmes e evitava qualquer conversa; uma voz murmurou que algumas tempestades só sabem falar em trovões.",
+              "Eu observei Lyra corar quando alguém a elogiou e, segundos depois, avançar com brutalidade; o coral comentou que timidez e fúria às vezes dividem o mesmo altar.",
+              "Eu permaneci próxima dela enquanto ajustava sua postura antes do confronto; uma das vozes disse que a força dela era uma oração sem palavras."
+            ],
+            "en": [
+              "I walked alongside Lyra while she held her sword with firm hands and avoided any conversation; a voice murmured that some storms only know how to speak in thunder.",
+              "I observed Lyra blush when someone praised her and, seconds later, charge forward with brutality; the chorus commented that shyness and fury sometimes share the same altar.",
+              "I stayed close to her as she adjusted her stance before the confrontation; one of the voices said her strength was a wordless prayer."
+            ],
+            "es": [
+              "Caminé al lado de Lyra mientras ella sostenía la espada con manos firmes y evitaba cualquier conversación; una voz murmuró que algunas tormentas solo saben hablar con truenos.",
+              "Observé a Lyra sonrojarse cuando alguien la elogió y, segundos después, avanzar con brutalidad; el coro comentó que la timidez y la furia a veces comparten el mismo altar.",
+              "Permanecí cerca de ella mientras ajustaba su postura antes del enfrentamiento; una de las voces dijo que su fuerza era una oración sin palabras."
+            ],
+            "ru": [
+              "Я шла рядом с Лирой, пока она крепко сжимала меч и избегала любых разговоров; голос прошептал, что некоторые бури умеют говорить только громом.",
+              "Я видела, как Лира покраснела от чьей-то похвалы, а через секунду бросилась вперед с яростью; хор заметил, что застенчивость и ярость иногда делят один алтарь.",
+              "Я оставалась рядом с ней, пока она поправляла стойку перед схваткой; один из голосов сказал, что ее сила — это молитва без слов."
+            ],
+            "zh": [
+              "我走在莱拉身边，她双手紧握长剑，避开任何交谈；一个声音喃喃说，有些风暴只懂得用雷鸣来表达。",
+              "我观察到莱拉在受到称赞时脸红了，但几秒钟后就残暴地冲上前去；合唱团评论说，羞怯与愤怒有时共用同一座祭坛。",
+              "在对抗前她调整姿态时，我待在她身边；其中一个声音说，她的力量是一场无声的祈祷。"
+            ],
+            "ja": [
+              "ライラが固く剣を握り、会話を避けて歩く隣を共に進みました。声が、嵐の中には雷鳴でしか語れぬものもあると囁いていました。",
+              "誰かに褒められてライラが赤面し、その数秒後に荒々しく突き進むのを見ました。内なる合唱は、羞恥と怒りは時に同じ祭壇を分かち合うものだと言いました。",
+              "対峙を前に彼女が構えを正す間、そばに留まりました。声の一つが、彼女の強さは言葉のない祈りだと言いました。"
+            ]
+          }
+        },
+        "2": {
+          "group": {
+            "pt": [
+              "Eu acompanhei Aureth enquanto ela mantinha a formação com expressão cansada; uma voz comentou que até quem duvida ainda pode proteger.",
+              "Eu escutei Aureth responder com impaciência a mais um discurso sobre fé, e o coral dentro de mim riu baixo como se reconhecesse o cansaço.",
+              "Eu caminhei atrás dela quando se colocou entre nós e o perigo; uma voz solene declarou que obrigação também pode ser devoção."
+            ],
+            "en": [
+              "I accompanied Aureth while she maintained formation with a tired expression; a voice commented that even those who doubt can still protect.",
+              "I heard Aureth respond impatiently to another speech about faith, and the chorus inside me laughed softly as if recognizing the weariness.",
+              "I walked behind her when she placed herself between us and danger; a solemn voice declared that duty can also be devotion."
+            ],
+            "es": [
+              "Acompañé a Aureth mientras mantenía la formación con expresión cansada; una voz comentó que incluso quien duda aún puede proteger.",
+              "Escuché a Aureth responder con impaciencia a otro discurso sobre la fe, y el coro dentro de mí rió bajo como si reconociera el cansancio.",
+              "Caminé detrás de ella cuando se colocó entre nosotros y el peligro; una voz solemne declaró que la obligación también puede ser devoción."
+            ],
+            "ru": [
+              "Я сопровождала Орет, пока она с усталым видом держала строй; голос заметил, что даже те, кто сомневается, всё еще могут защищать.",
+              "Я слышала, как Орет нетерпеливо ответила на очередную речь о вере, и хор внутри меня тихо рассмеялся, словно узнавая эту усталость.",
+              "Я шла позади нее, когда она встала между нами и опасностью; торжественный голос объявил, что долг тоже может быть преданностью."
+            ],
+            "zh": [
+              "我陪着奥莱丝，她带着疲惫的神情保持着阵型；一个声音评论说，即使是怀疑者也依然可以提供保护。",
+              "我听到奥莱丝对又一场关于信仰的演说表现出不耐烦，我体内的合唱团低声笑了起来，仿佛认出了那种疲惫。",
+              "当她挡在我们与危险之间时，我走在后面；一个庄严的声音宣布，责任也可以是一种虔诚。"
+            ],
+            "ja": [
+              "疲れ切った表情で陣形を維持するオーレスに同行しました。疑いを抱く者であっても守ることはできるのだと、声が言いました。",
+              "信仰についての演説にオーレスが苛立ちながら答えるのを聞き、私の中の合唱はその疲れに共感するように低く笑いました。",
+              "彼女が私たちと危険の間に身を置いたとき、その後ろを歩きました。義務もまた献身になり得ると、厳かな声が宣言しました。"
+            ]
+          }
+        },
+        "3": {
+          "group": {
+            "pt": [
+              "Eu observei Maelis tocar a terra antes de avançar; uma voz sussurrou que raízes escutam melhor que ouvidos.",
+              "Eu mantive silêncio ao lado dela enquanto analisava o ambiente; o coral afirmou que equilíbrio não precisa anunciar presença.",
+              "Eu caminhei próxima quando sua pele parecia endurecer sob tensão; uma voz murmurou que paciência também é poder."
+            ],
+            "en": [
+              "I observed Maelis touch the earth before advancing; a voice whispered that roots listen better than ears.",
+              "I kept silent beside her while she analyzed the environment; the chorus stated that balance doesn't need to announce its presence.",
+              "I walked close when her skin seemed to harden under tension; a voice murmured that patience is also power."
+            ],
+            "es": [
+              "Observé a Maelis tocar la tierra antes de avanzar; una voz susurró que las raíces escuchan mejor que los oídos.",
+              "Mantuve silencio a su lado mientras analizaba el entorno; el coro afirmó que el equilibrio no necesita anunciar su presencia.",
+              "Caminé cerca cuando su piel parecía endurecerse bajo tensión; una voz murmuró que la paciencia también es poder."
+            ],
+            "ru": [
+              "Я видела, как Мэлис коснулась земли перед тем, как идти вперед; голос прошептал, что корни слушают лучше, чем уши.",
+              "Я молча стояла рядом с ней, пока она изучала обстановку; хор утверждал, что равновесию не нужно заявлять о своем присутствии.",
+              "Я шла рядом, когда ее кожа, казалось, грубела от напряжения; голос прошептал, что терпение — это тоже сила."
+            ],
+            "zh": [
+              "我观察到梅莉丝在前进前触摸了大地；一个声音低声说，根须比耳朵听得更清楚。",
+              "当她分析环境时，我待在她身边保持沉默；合唱团称，平衡不需要宣告自己的存在。",
+              "当她的皮肤在紧张下似乎变得坚硬时，我走得很近；一个声音喃喃说，耐心也是一种力量。"
+            ],
+            "ja": [
+              "進む前に大地に触れるメイリスを観察しました。耳よりも根の方がよく聞き届けるものだと、声が囁きました。",
+              "彼女が周囲を分析する間、隣で沈黙を守りました。調和は自らの存在を誇示する必要はないと、合唱が断言しました。",
+              "緊張で彼女の肌が硬くなったように見えたとき、そばに寄りました。忍耐もまた力であると、声が呟きました。"
+            ]
+          }
+        },
+        "4": {
+          "group": {
+            "pt": [
+              "Eu assisti Saryth invocar os espíritos com confiança visível; dentro de mim, algumas vozes discutiram se performance também era forma de fé.",
+              "Eu permaneci ao lado dela enquanto seus rituais ecoavam; um sussurro comentou que espíritos gostam de quem fala alto.",
+              "Eu observei sua presença dominar o espaço; o coral refletiu que convicção pode soar tão forte quanto revelação."
+            ],
+            "en": [
+              "I watched Saryth invoke spirits with visible confidence; within me, some voices argued whether performance was also a form of faith.",
+              "I stayed by her side while her rituals echoed; a whisper commented that spirits like those who speak loudly.",
+              "I observed her presence dominate the space; the chorus reflected that conviction can sound as strong as revelation."
+            ],
+            "es": [
+              "Vi a Saryth invocar a los espíritus con confianza visible; dentro de mí, algunas voces discutían si la actuación también era una forma de fe.",
+              "Permanecí a su lado mientras sus rituales resonaban; un susurro comentó que a los espíritus les gustan los que hablan alto.",
+              "Observé su presencia dominar el espacio; el coro reflexionó que la convicción puede sonar tan fuerte como una revelación."
+            ],
+            "ru": [
+              "Я смотрела, как Сарит с явной уверенностью призывает духов; внутри меня некоторые голоса спорили, является ли представление также формой веры.",
+              "Я оставалась рядом с ней, пока эхом отдавались ее ритуалы; шепот заметил, что духам нравятся те, кто говорит громко.",
+              "Я видела, как ее присутствие заполняет всё пространство; хор размышлял о том, что убежденность может звучать так же сильно, как откровение."
+            ],
+            "zh": [
+              "我看着莎莉丝带着显而易见的自信召唤灵体；我内心的一些声音在争论，表演是否也是信仰的一种形式。",
+              "当她的仪式回响时，我守在她身边；一个低语评论说，灵体喜欢大声说话的人。",
+              "我观察到她的存在感统治了整个空间；合唱团反思道，定见听起来可以和启示一样强而有力。"
+            ],
+            "ja": [
+              "サリスが確かな自信を持って精霊を呼び出すのを見守りました。私の中では、演じることもまた信仰の形なのかと声たちが議論していました。",
+              "彼女の儀式が響き渡る間、そばに留まりました。精霊は声の大きい者を好むものだと、囁きが聞こえました。",
+              "彼女の存在感がその場を支配するのを見ました。確信は天啓と同じくらい強く響くものだと、合唱が思案していました。"
+            ]
+          }
+        },
+        "5": {
+          "group": {
+            "pt": [
+              "Eu escutei Nyssa cantar versos que não prometiam vitória; uma voz suave disse que honestidade também sustenta.",
+              "Eu caminhei enquanto a música dela envolvia o grupo; o coral comentou que resistência é um tipo discreto de milagre.",
+              "Eu observei seus olhos firmes enquanto cantava sobre perdas; uma voz murmurou que aceitar cicatrizes é uma forma de cura."
+            ],
+            "en": [
+              "I listened to Nyssa sing verses that didn't promise victory; a soft voice said that honesty also sustains.",
+              "I walked while her music enveloped the group; the chorus commented that resilience is a discreet type of miracle.",
+              "I observed her steady eyes as she sang about losses; a voice murmured that accepting scars is a form of healing."
+            ],
+            "es": [
+              "Escuché a Nyssa cantar versos que no prometían victoria; una voz suave dijo que la honestidad también sostiene.",
+              "Caminé mientras su música envolvía al grupo; el coro comentó que la resistencia es un tipo discreto de milagro.",
+              "Observé sus ojos firmes mientras cantaba sobre pérdidas; una voz murmuró que aceptar las cicatrices es una forma de curación."
+            ],
+            "ru": [
+              "Я слушала, как Нисса поет куплеты, не обещающие победы; мягкий голос сказал, что честность тоже дает опору.",
+              "Я шла, пока ее музыка окутывала группу; хор заметил, что стойкость — это неявный вид чуда.",
+              "Я видела ее непоколебимый взгляд, когда она пела об утратах; голос прошептал, что принятие шрамов — это форма исцеления."
+            ],
+            "zh": [
+              "我听着尼莎唱着并不承诺胜利的诗句；一个温柔的声音说，诚实也是一种支撑。",
+              "当她的音乐环绕着队伍时，我向前走去；合唱团评论说，韧性是一种隐形的神迹。",
+              "当她歌唱失去时，我观察她坚定的眼神；一个声音喃喃说，接受伤疤也是一种治愈。"
+            ],
+            "ja": [
+              "勝利を約束しない詩を歌うニッサの声を聞きました。穏やかな声が、誠実さもまた支えになると言いました。",
+              "彼女の音楽が一行を包み込む中を歩きました。合唱は、耐え忍ぶことは控えめな奇跡の一種だと言いました。",
+              "喪失について歌う彼女の確かな瞳を見つめました。傷跡を受け入れることも癒しの一つの形だと、声が囁きました。"
+            ]
+          }
+        },
+        "7": {
+          "group": {
+            "pt": [
+              "Eu acompanhei Leona enquanto ela analisava padrões invisíveis; uma voz dentro de mim comentou que lógica também pode ser sagrada.",
+              "Eu observei seus olhos seguirem trajetórias precisas; o coral disse que relâmpagos obedecem leis que poucos entendem.",
+              "Eu caminhei próxima enquanto ela calculava antes de agir; uma voz murmurou que ordem pode nascer do caos."
+            ],
+            "en": [
+              "I accompanied Leona while she analyzed invisible patterns; a voice inside me commented that logic can also be holy.",
+              "I observed her eyes follow precise trajectories; the chorus said that lightning obeys laws that few understand.",
+              "I walked close while she calculated before acting; a voice murmured that order can be born from chaos."
+            ],
+            "es": [
+              "Acompañé a Leona mientras analizaba patrones invisibles; una voz dentro de mí comentó que la lógica también puede ser sagrada.",
+              "Observé sus ojos seguir trayectorias precisas; el coro dijo que los rayos obedecen leyes que pocos entienden.",
+              "Caminé cerca mientras ella calculaba antes de actuar; una voz murmuró que el orden puede nacer del caos."
+            ],
+            "ru": [
+              "Я сопровождала Леону, пока она анализировала невидимые закономерности; голос внутри меня заметил, что логика тоже может быть священной.",
+              "Я видела, как ее глаза следят за точными траекториями; хор сказал, что молнии подчиняются законам, которые понимают немногие.",
+              "Я шла рядом, пока она просчитывала действия; голос прошептал, что порядок может родиться из хаоса."
+            ],
+            "zh": [
+              "我陪着蕾欧娜，她分析着隐形的模式；我内心的声音评论说，逻辑也可以是神圣的。",
+              "我观察她的双眼紧盯着精准的轨迹；合唱团说，闪电遵循着极少数人能理解的规律。",
+              "在她行动前计算时，我走在近旁；一个声音喃喃说，秩序可以从混沌中诞生。"
+            ],
+            "ja": [
+              "目に見えないパターンを分析するレオナに同行しました。私の中の声が、論理もまた神聖なものになり得ると言いました。",
+              "彼女の瞳が正確な軌跡を追うのを見ました。合唱は、雷はごくわずかな者しか理解できない法則に従うものだと言いました。",
+              "行動前に計算を重ねる彼女のそばを歩きました。混沌から秩序が生まれることもあると、声が呟きました。"
+            ]
+          }
+        },
+        "8": {
+          "group": {
+            "pt": [
+              "Eu vi Serah avançar sem hesitar; uma voz severa comentou que dor reconhece quem não foge dela.",
+              "Eu permaneci atrás enquanto ela absorvia o impacto inicial; o coral afirmou que foco pode ser uma forma de oração.",
+              "Eu observei sua tensão antes do combate; uma voz murmurou que disciplina às vezes veste punhos cerrados."
+            ],
+            "en": [
+              "I saw Serah advance without hesitation; a stern voice commented that pain recognizes those who do not flee from it.",
+              "I remained behind while she absorbed the initial impact; the chorus stated that focus can be a form of prayer.",
+              "I observed her tension before combat; a voice murmured that discipline sometimes wears clenched fists."
+            ],
+            "es": [
+              "Vi a Serah avanzar sin dudar; una voz severa comentó que el dolor reconoce a quienes no huyen de él.",
+              "Permanecí atrás mientras ella absorbía el impacto inicial; el coro afirmó que el enfoque puede ser una forma de oración.",
+              "Observé su tensión antes del combate; una voz murmuró que la disciplina a veces viste puños cerrados."
+            ],
+            "ru": [
+              "Я видела, как Сера идет вперед без колебаний; суровый голос заметил, что боль узнает тех, кто не бежит от нее.",
+              "Я оставалась позади, пока она принимала на себя первый удар; хор утверждал, что сосредоточенность может быть формой молитвы.",
+              "Я видела ее напряжение перед боем; голос прошептал, что дисциплина иногда носит сжатые кулаки."
+            ],
+            "zh": [
+              "我看到塞拉毫不犹豫地前进；一个严厉的声音评论说，痛苦能认出那些不逃避它的人。",
+              "当她承受最初的冲击时，我留在后方；合唱团称，专注也可以是一种祷告的形式。",
+              "我在战斗前观察她的紧张状态；一个声音喃喃说，纪律有时紧握双拳。"
+            ],
+            "ja": [
+              "ためらうことなく進むセラの姿を見ました。厳しい声が、痛みはそこから逃げ出さない者を認識すると言いました。",
+              "彼女が最初の一撃を受け止める間、私は後ろに控えました。合唱は、集中もまた祈りの形になり得ると断言しました。",
+              "戦闘前の彼女の緊張を観察しました。規律は時として、握りしめた拳の姿を借りるのだと声が囁きました。"
+            ]
+          }
+        },
+        "9": {
+          "group": {
+            "pt": [
+              "Eu acompanhei Seraphine enquanto ela analisava ferimentos com frieza; uma voz comentou que precisão também salva.",
+              "Eu observei seus frascos tilintarem enquanto trabalhava; o coral discutiu se química e milagre eram apenas nomes diferentes.",
+              "Eu caminhei ao lado dela enquanto catalogava riscos; uma voz murmurou que método pode ser mais confiável que fé."
+            ],
+            "en": [
+              "I accompanied Seraphine while she analyzed injuries with coldness; a voice commented that precision also saves.",
+              "I observed her flasks jingle while she worked; the chorus debated whether chemistry and miracles were just different names.",
+              "I walked alongside her while she cataloged risks; a voice murmured that method can be more reliable than faith."
+            ],
+            "es": [
+              "Acompañé a Seraphine mientras analizaba heridas con frialdad; una voz comentó que la precisión también salva.",
+              "Observé sus frascos tintinear mientras trabajaba; el coro debatió si la química y el milagro eran solo nombres diferentes.",
+              "Caminé a su lado mientras catalogaba riesgos; una voz murmuró que el método puede ser más confiable que la fe."
+            ],
+            "ru": [
+              "Я сопровождала Серафину, пока она с хладнокровием изучала раны; голос заметил, что точность тоже спасает.",
+              "Я видела, как позвякивают ее флаконы во время работы; хор спорил, не являются ли химия и чудо просто разными названиями.",
+              "Я шла рядом с ней, пока она распределяла риски; голос прошептал, что метод может быть надежнее веры."
+            ],
+            "zh": [
+              "我陪着塞拉芬娜，她冷静地分析着伤口；一个声音评论说，精准也能救人。",
+              "当她工作时，我观察着她的烧瓶叮当作响；合唱团辩论着化学与神迹是否只是不同的名称。",
+              "在她记录风险时，我走在身边；一个声音喃喃说，方法可能比信仰更可靠。"
+            ],
+            "ja": [
+              "冷静に傷口を分析するセラフィーンに同行しました。声が、正確さもまた人を救うと言いました。",
+              "彼女が働く間、フラスコが鳴る音を聞きました。合唱は、化学と奇跡はただ呼び名が違うだけではないかと議論していました。",
+              "彼女がリスクを分類する傍らを歩きました。手法は信仰よりも信頼に足る場合があると、声が呟きました。"
+            ]
+          }
+        },
+        "10": {
+          "group": {
+            "pt": [
+              "Eu vi Elara agir com honestidade mesmo nas sombras; uma voz comentou que verdade também pode ser lâmina.",
+              "Eu caminhei ao lado dela enquanto mapeava o caminho; o coral afirmou que transparência exige coragem.",
+              "Eu observei sua firmeza ao recusar atalhos ilícitos; uma voz murmurou que princípios são armaduras invisíveis."
+            ],
+            "en": [
+              "I saw Elara act with honesty even in the shadows; a voice commented that truth can also be a blade.",
+              "I walked alongside her while she mapped the way; the chorus stated that transparency requires courage.",
+              "I observed her firmness in refusing illicit shortcuts; a voice murmured that principles are invisible armor."
+            ],
+            "es": [
+              "Vi a Elara actuar con honestidad incluso en las sombras; una voz comentó que la verdad también puede ser una hoja.",
+              "Caminé a su lado mientras mapeaba el camino; el coro afirmó que la transparencia requiere valentía.",
+              "Observé su firmeza al rechazar atajos ilícitos; una voz murmuró que los principios son armaduras invisibles."
+            ],
+            "ru": [
+              "Я видела, как Элара действует честно даже в тени; голос заметил, что правда тоже может быть клинком.",
+              "Я шла рядом с ней, пока она прокладывала путь; хор утверждал, что открытость требует мужества.",
+              "Я видела ее твердость в отказе от незаконных путей; голос прошептал, что принципы — это невидимые доспехи."
+            ],
+            "zh": [
+              "我看到埃拉拉即使在阴影中也表现得诚实；一个声音评论说，真相也可以是一把利刃。",
+              "在她绘制地图时，我走在身侧；合唱团称，透明需要勇气。",
+              "我观察到她坚决拒绝非法捷径；一个声音喃喃说，原则是无形的盔甲。"
+            ],
+            "ja": [
+              "影の中でも誠実に振る舞うエララの姿を見ました。声が、真実もまた刃になり得ると言いました。",
+              "彼女が道を記す傍らを歩きました。合唱は、透明であることは勇気を必要とすると断言しました。",
+              "不正な近道を拒む彼女の固い意志を観察しました。信念は見えない鎧なのだと、声が呟きました。"
+            ]
+          }
+        },
+        "11": {
+          "group": {
+            "pt": [
+              "Eu acompanhei Nyx nas sombras; uma voz comentou que até monstros temem quem não carrega culpa.",
+              "Eu observei seu silêncio calculado; o coral murmurou que fantasmas seguem quem já os conheceu.",
+              "Eu caminhei atrás dela enquanto escolhia seus movimentos; uma voz disse que contenção também é uma decisão."
+            ],
+            "en": [
+              "I accompanied Nyx in the shadows; a voice commented that even monsters fear those who carry no guilt.",
+              "I observed her calculated silence; the chorus murmured that ghosts follow those who have already known them.",
+              "I walked behind her while she chose her movements; a voice said that restraint is also a decision."
+            ],
+            "es": [
+              "Acompañé a Nyx en las sombras; una voz comentó que hasta los monstruos temen a quien no carga culpa.",
+              "Observé su silencio calculado; el coro murmuró que los fantasmas siguen a quienes ya los han conocido.",
+              "Caminé detrás de ella mientras elegía sus movimientos; una voz dijo que la contención también es una decisión."
+            ],
+            "ru": [
+              "Я сопровождала Никс в тенях; голос заметил, что даже монстры боятся тех, кто не несет в себе вины.",
+              "Я наблюдала за ее расчетливым молчанием; хор прошептал, что призраки следуют за теми, кто уже знаком с ними.",
+              "Я шла позади нее, пока она выбирала каждое движение; голос сказал, что сдержанность — это тоже решение."
+            ],
+            "zh": [
+              "我陪着尼克斯走在阴影中；一个声音评论说，即使是怪物也害怕那些不带罪疚感的人。",
+              "我观察她深思熟虑的沉默；合唱团低语说，幽灵会跟随那些已经了解他们的人。",
+              "在她选择动作时，我走在后面；一个声音说，克制也是一种决定。"
+            ],
+            "ja": [
+              "影の中でニクスに同行しました。罪を背負わぬ者は怪物でさえ恐れるものだと、声が言いました。",
+              "彼女の計算された沈黙を観察しました。合唱は、幽灵はすでに彼らを知る者に付き従うものだと呟きました。",
+              "動きを選ぶ彼女の後ろを歩きました。抑制もまた一つの決断であると、声が言いました。"
+            ]
+          }
+        },
+        "12": {
+          "group": {
+            "pt": [
+              "Eu assisti Morga contar golpes em voz baixa; uma voz comentou que ordem pode morar dentro do caos.",
+              "Eu caminhei ao lado dela enquanto buscava simetria no confronto; o coral murmurou que precisão também é ritual.",
+              "Eu observei sua irritação diante de desorganização; uma voz afirmou que obsessão pode ser uma forma de devoção."
+            ],
+            "en": [
+              "I watched Morga count strikes in a low voice; a voice commented that order can dwell within chaos.",
+              "I walked alongside her as she sought symmetry in the confrontation; the chorus murmured that precision is also ritual.",
+              "I observed her irritation at disorganization; a voice stated that obsession can be a form of devotion."
+            ],
+            "es": [
+              "Vi a Morga contar los golpes en voz baja; una voz comentó que el orden puede habitar dentro del caos.",
+              "Caminé a su lado mientras buscaba simetría en el enfrentamiento; el coro murmuró que la precisión también es un ritual.",
+              "Observé su irritación ante la desorganización; una voz afirmó que la obsesión puede ser una forma de devoción."
+            ],
+            "ru": [
+              "Я видела, как Морга вполголоса считает удары; голос заметил, что порядок может жить внутри хаоса.",
+              "Я шла рядом с ней, пока она искала симметрию в схватке; хор прошептал, что точность — это тоже ритуал.",
+              "Я видела ее раздражение при беспорядке; голос утверждал, что одержимость может быть формой преданности."
+            ],
+            "zh": [
+              "我看着摩加低声计数着击打次数；一个声音评论说，秩序可以寓于混沌之中。",
+              "当她在对抗中寻求对称时，我走在身边；合唱团低语说，精准也是一种仪式。",
+              "我观察她面对混乱时的恼怒；一个声音声称，执念也可以是一种虔诚的形式。"
+            ],
+            "ja": [
+              "モルガが低い声で打撃を数えるのを見ました。混沌の中にも秩序は宿るものだと、声が言いました。",
+              "対峙の中に左右対称を求める彼女の傍らを歩きました。正確さもまた儀式なのだと、合唱が呟きました。",
+              "無秩序に対する彼女の苛立ちを観察しました。執着もまた献身の一つの形になり得ると、声が断言しました。"
+            ]
+          }
+        },
+        "13": {
+          "group": {
+            "pt": [
+              "Eu permaneci próxima de Mina enquanto ela sussurrava nomes aos mortos; o coral dentro de mim silenciou como se estivesse ouvindo também.",
+              "Eu observei seus mortos se moverem com calma; uma voz murmurou que companhia não termina com o último suspiro.",
+              "Eu caminhei ao lado dela sentindo menos estranheza do que de costume; alguém em minha mente comentou que ela também escutava aquilo que o mundo prefere ignorar."
+            ],
+            "en": [
+              "I stayed close to Mina while she whispered names to the dead; the chorus inside me fell silent as if it were listening too.",
+              "I watched her dead move calmly; a voice murmured that companionship doesn't end with the last breath.",
+              "I walked alongside her feeling less strangeness than usual; someone in my mind commented that she also listened to what the world prefers to ignore."
+            ],
+            "es": [
+              "Permanecí cerca de Mina mientras susurraba nombres a los muertos; el coro dentro de mí guardó silencio como si también estuviera escuchando.",
+              "Observé a sus muertos moverse con calma; una voz murmuró que la compañía no termina con el último suspiro.",
+              "Caminé a su lado sintiendo menos extrañez de lo habitual; alguien en mi mente comentó que ella también escuchaba lo que el mundo prefiere ignorar."
+            ],
+            "ru": [
+              "Я оставалась рядом с Миной, пока она шептала имена мертвым; хор внутри меня затих, словно тоже прислушивался.",
+              "Я наблюдала, как ее мертвецы спокойно двигаются; голос прошептал, что общение не заканчивается с последним вздохом.",
+              "Я шла рядом с ней, чувствуя меньше странности, чем обычно; кто-то в моей голове заметил, что она тоже слушает то, что мир предпочитает игнорировать."
+            ],
+            "zh": [
+              "当米娜向死者低语名字时，我待在她身边；我内心的合唱静了下来，仿佛也在倾听。",
+              "我看着她的死者平静地移动；一个声音喃喃说，陪伴并不会随着最后一息而结束。",
+              "我走在她身边，感觉比平时少了一份异样；脑海中有人评论说，她也在倾听这个世界选择忽视的声音。"
+            ],
+            "ja": [
+              "ミーナが死者に名前を囁いている間、私は彼女のそばにいました。私の中の合唱は、まるで一緒に聞いているかのように静まり返りました。",
+              "彼女の死者たちが静かに動くのを見守りました。声が、連れ添うことは最期の息で終わるのではないと囁きました。",
+              "いつもより違和感を感じずに彼女の隣を歩きました。世界が無視したがるものを彼女もまた聞いているのだと、頭の中の誰かが言いました。"
+            ]
+          }
+        },
+        "14": {
+          "group": {
+            "pt": [
+              "Eu acompanhei Raska enquanto reforçava estruturas; uma voz comentou que sistemas também precisam de cuidado.",
+              "Eu observei suas mãos ágeis ajustarem mecanismos; o coral murmurou que máquinas são previsíveis, pessoas não.",
+              "Eu caminhei próxima enquanto ela antecipava falhas; uma voz afirmou que prevenir também é proteger."
+            ],
+            "en": [
+              "I accompanied Raska while she reinforced structures; a voice commented that systems also need care.",
+              "I observed her agile hands adjust mechanisms; the chorus murmured that machines are predictable, people are not.",
+              "I walked close while she anticipated failures; a voice stated that preventing is also protecting."
+            ],
+            "es": [
+              "Acompañé a Raska mientras reforzaba estructuras; una voz comentó que los sistemas también necesitan cuidado.",
+              "Observé sus manos ágiles ajustar mecanismos; el coro murmuró que las máquinas son predecibles, las personas no.",
+              "Caminé cerca mientras ella anticipaba fallas; una voz afirmó que prevenir también es proteger."
+            ],
+            "ru": [
+              "Я сопровождала Раску, пока она укрепляла конструкции; голос заметил, что системы тоже нуждаются в уходе.",
+              "Я видела, как ее ловкие руки настраивают механизмы; хор прошептал, что машины предсказуемы, а люди — нет.",
+              "Я шла рядом, пока она предвидела поломки; голос утверждал, что предупреждение — это тоже защита."
+            ],
+            "zh": [
+              "我陪着拉斯卡加固结构；一个声音评论说，系统也需要照料。",
+              "我观察她灵活的双脚调整机械装置；合唱团低语说，机器是可预测的，人则不然。",
+              "当她预判故障时，我走在近旁；一个声音声称，预防也是一种保护。"
+            ],
+            "ja": [
+              "構造を補強するラスカに同行しました。システムもまた手入れを必要とするものだと、声が言いました。",
+              "彼女の器用な手が仕掛けを調整するのを見ました。合唱は、機械は予測できるが人はそうではないと呟きました。",
+              "故障を予見する彼女のそばを歩きました。防ぐこともまた守ることなのだと、声が断言しました。"
+            ]
+          }
+        },
+        "15": {
+          "group": {
+            "pt": [
+              "Eu vi Gaela tocar a pedra antes de avançar; uma voz sussurrou que a terra reconhece quem a escuta.",
+              "Eu caminhei ao lado dela enquanto o chão parecia responder; o coral comentou que algumas línguas não usam palavras.",
+              "Eu observei sua concentração ao sentir vibrações no solo; uma voz murmurou que memória pode morar na rocha."
+            ],
+            "en": [
+              "I saw Gaela touch the stone before advancing; a voice whispered that the earth recognizes those who listen to it.",
+              "I walked alongside her while the ground seemed to respond; the chorus commented that some languages do not use words.",
+              "I observed her concentration as she felt vibrations in the soil; a voice murmured that memory can live in rock."
+            ],
+            "es": [
+              "Vi a Gaela tocar la piedra antes de avanzar; una voz susurró que la tierra reconoce a quienes la escuchan.",
+              "Caminé a su lado mientras el suelo parecía responder; el coro comentó que algunos lenguajes no usan palabras.",
+              "Observé su concentración al sentir vibraciones en el suelo; una voz murmuró que la memoria puede habitar en la roca."
+            ],
+            "ru": [
+              "Я видела, как Гаэла касается камня перед тем, как идти вперед; голос прошептал, что земля узнает тех, кто ее слушает.",
+              "Я шла рядом с ней, пока почва, казалось, отвечала ей; хор заметил, что некоторые языки не используют слов.",
+              "Я видела ее сосредоточенность, когда она чувствовала вибрации в земле; голос прошептал, что память может жить в скале."
+            ],
+            "zh": [
+              "我看到盖拉在前进前触摸了石头；一个声音低声说，大地能认出那些倾听它的人。",
+              "我走在她身边，地面似乎在回应她；合唱团评论说，有些语言并不使用文字。",
+              "我观察她感受土壤震动时的专注；一个声音喃喃说，记忆可以寄存在岩石之中。"
+            ],
+            "ja": [
+              "進む前に石に触れるガエラの姿を見ました。大地は耳を傾ける者を認識するものだと、声が囁きました。",
+              "地面が応えるかのような中、彼女の隣を歩きました。言葉を使わない言語もあるのだと、合唱が言いました。",
+              "土の振動を感じ取る彼女の集中力を観察しました。記憶は岩の中に宿ることもあるのだと、声が呟きました。"
+            ]
+          }
+        }
+      }
     }
   }
-}
-}

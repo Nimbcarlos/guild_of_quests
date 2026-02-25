@@ -1,0 +1,39 @@
+{
+  "id": 3,
+  "name": {
+    "pt": "O Maior de Todos os Bodes",
+    "en": "The G.O.A.T.",
+    "es": "La Cabra Suprema",
+    "ru": "Величайший козел",
+    "zh": "史上最强山羊",
+    "ja": "史上最高のヤギ"
+  },
+  "description": {
+    "pt": "Um bode de proporções colossais está devastando as plantações. Os fazendeiros dizem que ele não é apenas um animal, mas o 'ápice da espécie'. Ele parece olhar para todos com um desprezo profundo, como se fosse superior a qualquer herói.",
+    "en": "A goat of colossal proportions is devastating the crops. Farmers say he's not just an animal, but the 'peak of the species'. He seems to look at everyone with deep contempt, as if he were superior to any hero.",
+    "es": "Una cabra de proporciones colosais está devastando los cultivos. Los granjeros dicen que no es solo un animal, sino la 'cima de la especie'. Parece mirar a todos con un profundo desprecio, como si fuera superior a cualquier héroe.",
+    "ru": "Козел колоссальных размеров опустошает посевы. Фермеры говорят, что он не просто животное, а «вершина вида». Кажется, он смотрит на всех с глубоким презрением, как будто он выше любого героя.",
+    "zh": "一只体型巨大的山羊正在蹂躏农作物。农民们说它不只是一只动物，而是“物种的巅峰”。它似乎带着深深的蔑视看着每个人，仿佛它比任何英雄都优越。",
+    "ja": "巨大すぎるヤギが作物を荒らしている。農民たちは、それはただの動物ではなく「種の頂点」だと言っている。彼はまるですべての英雄よりも優れているかのように、深い軽蔑の眼差しで全員を見ている。"
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Derrubamos a fera. No fim, ele era apenas um animal grande com um ego maior ainda.",
+          "O bode finalmente parou de berrar. Os fazendeiros agora podem colher o que restou em paz.",
+          "A criatura foi contida. Provamos que nenhum título de 'melhor de todos' vence uma lâmina bem afiada."
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Fomos humilhados por um animal. Ele fugiu saltando por cima de nós como se não fôssemos nada.",
+          "O bode provou que o título era merecido. Saímos de lá cobertos de lama e sem a recompensa.",
+          "A investida da criatura foi forte demais. Tivemos que recuar enquanto ele comia o último pé de alface."
+        ]
+      }
+    }
+  }
+}

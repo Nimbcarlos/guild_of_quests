@@ -47,5 +47,75 @@
       "zh": "封印的门",
       "ja": "封印された門"
     }
+  },
+"conclusion": {
+  "success": {
+    "default": {
+      "pt": [
+        "Apertei as mãos contra as frestas do metal e apliquei pressão contínua. As engrenagens corroídas cederam sob a força bruta, forçando a abertura do mecanismo e liberando a passagem.",
+        "Utilizei o ponto de apoio nas dobradiças e empurrei com toda a carga muscular. O Portão das Lamentações rangeu enquanto o metal se dobrava, até que a entrada foi finalmente desobstruída.",
+        "Ignorei a resistência do mecanismo travado e arranquei as travas internas pelo esforço de tração. O portão foi aberto e o caminho está livre para a guilda."
+      ],
+      "en": [
+        "I gripped the metal gaps and applied continuous pressure. The corroded gears yielded under raw force, forcing the mechanism open and clearing the passage.",
+        "I used the leverage at the hinges and pushed with full muscular load. The Gate of Lamentations groaned as the metal bent, until the entrance was finally cleared.",
+        "I ignored the resistance of the jammed mechanism and tore the internal locks through pulling effort. The gate was opened and the path is clear for the guild."
+      ],
+      "es": [
+        "Sujeté las grietas del metal y apliqué presión continua. Los engranajes corroídos cedieron ante la fuerza bruta, forzando la apertura del mecanismo y liberando el paso.",
+        "Usé el punto de apoyo en las bisagras y empujé con toda mi carga muscular. La Puerta de las Lamentaciones crujió mientras el metal se doblaba, hasta que la entrada fue despejada.",
+        "Ignoré la resistencia del mecanismo atascado y arranqué las trabas internas mediante esfuerzo de tracción. La puerta se abrió y el camino está libre para el gremio."
+      ],
+      "ru": [
+        "Я вцепилась в щели металла и приложила постоянное давление. Разъеденные шестерни поддались грубой силе, вынудив механизм открыться и освободив проход.",
+        "Я использовала упор на петлях и толкнула всей мышечной массой. Врата Стенаний заскрежетали, когда металл начал гнуться, пока вход не был окончательно расчищен.",
+        "Я проигнорировала сопротивление заклинившего механизма и вырвала внутренние фиксаторы усилием тяги. Врата открыты, путь для гильдии свободен."
+      ],
+      "zh": [
+        "我紧握金属缝隙并持续施压。腐蚀的齿轮在纯粹的力量下屈服，迫使机构打开，清除了通道。",
+        "我利用合页处的杠杆作用，用全身肌肉负荷推动。随着金属弯曲，哀恸之门发出刺耳声，入口终于被打开。",
+        "我无视了卡死机构的阻力，通过拉拽力撕开了内部锁扣。大门已开启，公会的道路已畅通。"
+      ],
+      "ja": [
+        "金属の隙間を掴み、持続的な圧力を加えました。腐食した歯車が純粋な力に屈し、機構を強制的に開放して通路を確保しました。",
+        "蝶番を支点にし、全身の筋力で押し込みました。金属が歪む音とともに嘆きの門が軋み、ついに通路がこじ開けられました。",
+        "固着した機構の抵抗を無視し、牽引力によって内部のロックを引きちぎりました。門は開かれ、ギルドの道は確保されました。"
+      ]
+    }
+  },
+"failure": {
+    "default": {
+      "pt": [
+        "A resistência do metal corroído superou a minha capacidade física. O portão não se moveu um milímetro e o esforço excessivo causou fadiga muscular severa.",
+        "O mecanismo interno está soldado pelo tempo e pela oxidação. Minha força não foi suficiente para romper o bloqueio, e o Portão das Lamentações permanece lacrado.",
+        "A tentativa de forçar a abertura resultou apenas no empenamento externo do metal, travando ainda mais o sistema interno. A passagem continua inacessível."
+      ],
+      "en": [
+        "The resistance of the corroded metal exceeded my physical capacity. The gate did not move a millimeter, and the excessive effort caused severe muscle fatigue.",
+        "The internal mechanism is welded by time and oxidation. My strength was not enough to break the blockage, and the Gate of Lamentations remains sealed.",
+        "The attempt to force it open only resulted in the external warping of the metal, further jamming the internal system. The passage remains inaccessible."
+      ],
+      "es": [
+        "La resistencia del metal corroído superó mi capacidad física. La puerta no se movió ni un milímetro y el esfuerzo excesivo causó fatiga muscular severa.",
+        "El mecanismo interno está soldado por el tiempo y la oxidación. Mi fuerza no fue suficiente para romper el bloqueo y la Puerta de las Lamentaciones sigue sellada.",
+        "El intento de forzar la apertura solo resultó en la deformación externa del metal, bloqueando aún más el sistema interno. El paso sigue inaccesible."
+      ],
+      "ru": [
+        "Сопротивление коррозийного металла превысило мои физические возможности. Врата не сдвинулись ни на миллиметр, а чрезмерное усилие вызвало сильное мышечное утомление.",
+        "Внутренний механизм спаялся от времени и окисления. Моей силы не хватило, чтобы прорвать блокировку, и Врата Стенаний остаются запечатанными.",
+        "Попытка форсировать открытие привела лишь к внешней деформации металла, еще сильнее заклинив внутреннюю систему. Проход остается недоступным."
+      ],
+      "zh": [
+        "被腐蚀金属的阻力超过了我的体力极限。大门纹丝未动，过度的劳累导致了严重的肌肉疲劳。",
+        "内部机制因岁月和氧化而焊死。我的力量不足以打破封锁，哀恸之门依然封闭。",
+        "强行开启的尝试仅导致金属外部变形，进一步卡死了内部系统。通道仍然无法进入。"
+      ],
+      "ja": [
+        "腐食した金属の抵抗が私の肉体的限界を超えていました。門は1ミリも動かず、無理な負荷により深刻な筋肉疲労が残りました。",
+        "内部機構が経年劣化と酸化で溶着しています。私の力ではこの封鎖を破るには至らず、嘆きの門は閉ざされたままです。",
+        "無理に開けようとしたことで外部の金属が歪み、内部システムがさらに噛み合ってしまいました。通路は依然として通行不可能です。"
+      ]
+    }
   }
+}
 }

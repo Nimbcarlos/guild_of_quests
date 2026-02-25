@@ -47,5 +47,75 @@
       "zh": "兄弟姐妹们",
       "ja": "兄弟姉妹"
     }
+  },
+"conclusion": {
+  "success": {
+    "default": {
+      "pt": [
+        "Analisei o testamento e dividi os bens de acordo com o valor de mercado e a liquidez dos ativos. Os irmãos aceitaram a partilha técnica e o inventário foi encerrado sem novos litígios.",
+        "Apresentei uma proposta de gestão compartilhada para as propriedades comerciais e divisão direta do capital móvel. A solução foi ratificada por todos, preservando a fortuna da família.",
+        "Intervi nas discussões passionais e foquei na conformidade legal da sucessão. O processo foi concluído com a assinatura de um acordo irrevogável entre os herdeiros."
+      ],
+      "en": [
+        "I analyzed the will and divided the assets based on market value and liquidity. The siblings accepted the technical partition, and the probate was closed without further litigation.",
+        "I presented a proposal for shared management of the commercial properties and direct division of movable capital. The solution was ratified by everyone, preserving the family fortune.",
+        "I intervened in passionate discussions and focused on the legal compliance of the succession. The process was concluded with the signing of an irrevocable agreement among the heirs."
+      ],
+      "es": [
+        "Analicé el testamento y dividí los bienes según el valor de mercado y la liquidez. Los hermanos aceptaron la partición técnica y el inventario se cerró sin más litigios.",
+        "Presenté una propuesta de gestión compartida para las propiedades y división directa del capital. La solución fue ratificada, preservando la fortuna familiar.",
+        "Intervine en las discusiones y me centré en el cumplimiento legal de la sucesión. El proceso concluyó con la firma de un acuerdo irrevocable entre los herederos."
+      ],
+      "ru": [
+        "Я проанализировал завещание и разделил активы в соответствии с их рыночной стоимостью и ликвидностью. Наследники приняли технический раздел, и дело было закрыто.",
+        "Я предложил план совместного управления коммерческой недвижимостью и прямого раздела денежного капитала. Решение было утверждено, состояние семьи сохранено.",
+        "Я пресек эмоциональные споры и сосредоточился на юридическом соответствии наследования. Процесс завершился подписанием безотзывного соглашения."
+      ],
+      "zh": [
+        "我分析了遗嘱，并根据市场价值和资产流动性分配了财产。兄弟姐妹们接受了技术性划分，遗产清算顺利结束，无进一步诉讼。",
+        "我提出了商业地产共同管理和动产直接分配的方案。方案获得全体通过，保留了家族财富。",
+        "我介入了激烈的争论，专注于继任的合法合规性。过程随继承人签署不可撤销协议而圆满结束。"
+      ],
+      "ja": [
+        "遺言書を分析し、市場価値と流動性に基づいて資産を分割しました。兄弟たちは実務的な配分を受け入れ、遺産目録の作成は新たな訴訟なしに完了しました。",
+        "商業資産の共同管理と動産の直接分割案を提示しました。この解決策は全員に批准され、家族の資産は守られました。",
+        "感情的な議論を制止し、相続の法的遵守に焦点を当てました。プロセスは相続人間での不可逆的な合意署名をもって終了しました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "Minha mediação não foi aceita. A falta de consenso entre os herdeiros resultou no congelamento judicial dos bens e na falência iminente dos negócios da família.",
+        "Os irmãos rejeitaram a partilha proposta e a disputa escalou para sabotagens internas. A guilda foi removida do processo e a fortuna está sendo consumida por multas legais.",
+        "Não consegui manter a imparcialidade exigida ou convencer as partes. O inventário permanece aberto e o conflito familiar tornou-se um transtorno público para a cidade."
+      ],
+      "en": [
+        "My mediation was not accepted. The lack of consensus among the heirs resulted in a judicial freeze of assets and the imminent bankruptcy of the family businesses.",
+        "The siblings rejected the proposed partition, and the dispute escalated into internal sabotage. The guild was removed from the process, and the fortune is being consumed by legal fines.",
+        "I was unable to maintain the required impartiality or convince the parties. The probate remains open, and the family conflict has become a public nuisance for the city."
+      ],
+      "es": [
+        "Mi mediación no fue aceptada. La falta de consenso resultó en el congelamiento judicial de los bienes y la quiebra inminente de los negocios familiares.",
+        "Los hermanos rechazaron la partición y la disputa escaló a sabotajes internos. El gremio fue apartado y la fortuna se está consumiendo en multas legales.",
+        "No pude mantener la imparcialidad o convencer a las partes. El inventario sigue abierto y el conflicto familiar se convirtió en un trastorno público."
+      ],
+      "ru": [
+        "Мое посредничество не было принято. Отсутствие консенсуса привело к судебной заморозке активов и неминуемому банкротству семейного бизнеса.",
+        "Наследники отвергли предложенный раздел, и спор перерос во внутренний саботаж. Гильдия была отстранена, а состояние тает из-за юридических штрафов.",
+        "Мне не удалось сохранить беспристрастность или убедить стороны. Дело остается открытым, а семейный конфликт стал публичным скандалом."
+      ],
+      "zh": [
+        "我的调解未被接受。继承人之间缺乏共识导致资产被司法冻结，家族企业面临破产。",
+        "兄弟姐妹拒绝了提议的划分，争端升级为内部破坏。公会被撤出流程，财富正因法律罚款而流失。",
+        "我未能维持所需的公正性或说服各方。遗产清算仍未完成，家族冲突已演变成城市的公共骚乱。"
+      ],
+      "ja": [
+        "調停は受け入れられませんでした。相続人間の合意形成に失敗し、資産の司法凍結と家族経営の破綻を招く結果となりました。",
+        "兄弟たちは提案された分割を拒否し、争いは内部的な妨害工作に発展しました。ギルドは解任され、遺産は法的罰金によって目減りしています。",
+        "必要な公平性を維持できず、当事者を説得することもできませんでした。相続争いは未解決のままで、家族の紛争は街の公害となっています。"
+      ]
+    }
   }
+}  
 }

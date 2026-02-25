@@ -50,5 +50,107 @@
       "zh": "沉没的马车",
       "ja": "沈んだ馬車"
     }
+  },
+"conclusion": {
+  "success": {
+    "engineering": {
+      "pt": [
+        "Instalei pranchas de madeira sob as rodas para distribuir o peso e utilizei um sistema de polias fixado em árvores próximas. A carroça foi içada da lama e o minério está seguro.",
+        "Calculei o centro de gravidade da carga e drenei parte da lama ao redor do eixo. Com alavancas de torque, desloquei a carroça para solo firme sem danificar a estrutura.",
+        "Utilizei contrapesos para compensar o peso do minério raro enquanto estabilizava o terreno. A carga foi recuperada e está pronta para o transporte."
+      ],
+      "en": [
+        "I placed wooden planks under the wheels to distribute the weight and used a pulley system anchored to nearby trees. The wagon was hoisted from the mud and the ore is safe.",
+        "I calculated the cargo's center of gravity and drained part of the mud around the axle. Using torque levers, I moved the wagon to firm ground without structural damage.",
+        "I used counterweights to offset the rare ore's weight while stabilizing the ground. The cargo was retrieved and is ready for transport."
+      ],
+      "es": [
+        "Coloqué tablones de madera bajo las ruedas para distribuir el peso y usé un sistema de poleas anclado a árboles cercanos. La carreta fue izada del lodo y el mineral está a salvo.",
+        "Calculé el centro de gravedad de la carga y drené parte del lodo alrededor del eje. Con palancas de torsión, moví la carreta a suelo firme sin daños estructurales.",
+        "Usé contrapesos para compensar el peso del mineral raro mientras estabilizaba el terreno. La carga fue recuperada y está lista para el transporte."
+      ],
+      "ru": [
+        "Я подложил деревянные доски под колеса для распределения веса и использовал систему блоков, закрепленную на деревьях. Повозка вытащена из грязи, руда в безопасности.",
+        "Я рассчитал центр тяжести груза и откачал часть грязи вокруг оси. С помощью рычагов я переместил повозку на твердую почву без повреждений.",
+        "Я использовал противовесы, чтобы компенсировать вес редкой руды при стабилизации грунта. Груз извлечен и готов к транспортировке."
+      ],
+      "zh": [
+        "我在轮下放置木板以分散重量，并利用固定在附近树木上的滑轮组。货车已从泥浆中吊起，矿石安全。",
+        "我计算了货物的重心并排干了车轴周围的部分泥浆。利用扭矩杠杆，我将货车移至坚实地面，未造成结构损坏。",
+        "在稳定地面的同时，我利用配重抵消了稀有矿石的重量。货物已取回，可以运输。"
+      ],
+      "ja": [
+        "重量を分散させるために車輪の下に木板を敷き、近くの木に固定した滑車システムを使用しました。荷車は泥から引き上げられ、鉱石は無事です。",
+        "積荷の重心を計算し、車軸周囲の泥を一部排出しました。トルクレバーを使用して、構造を損傷させることなく荷車を固い地面に移動させました。",
+        "地面を安定させながら、分銅を使用して希少鉱石の重さを相殺しました。積荷は回収され、輸送の準備が整いました。"
+      ]
+    },
+"default": {
+      "pt": [
+        "Substituí as bestas de carga no esforço de tração. Apliquei força constante no chassi até que as rodas rompessem a sucção do pântano. O minério foi salvo.",
+        "Removi manualmente parte da carga para aliviar o peso e empurrei a carroça para fora do atoleiro. Após o resgate, o minério foi reembarcado com sucesso.",
+        "Ergui o eixo traseiro por tempo suficiente para que calços fossem colocados. A extração foi concluída e a rota de transporte foi retomada."
+      ],
+      "en": [
+        "I replaced the draft beasts in the pulling effort. I applied constant force to the chassis until the wheels broke the swamp's suction. The ore was saved.",
+        "I manually removed part of the cargo to lighten the weight and pushed the wagon out of the quagmire. After the rescue, the ore was successfully reloaded.",
+        "I lifted the rear axle long enough for chocks to be placed. The extraction was completed and the transport route was resumed."
+      ],
+      "es": [
+        "Sustituí a las bestias en el esfuerzo de tracción. Apliqué fuerza constante al chasis hasta que las ruedas rompieron la succión del pantano. El mineral fue salvado.",
+        "Retiré manualmente parte de la carga para aliviar el peso y empujé la carreta fuera del atolladero. Tras el rescate, el mineral fue reembarcado con éxito.",
+        "Levanté el eje trasero el tiempo suficiente para colocar calzos. La extracción finalizó y se retomó la ruta de transporte."
+      ],
+      "ru": [
+        "Я заменил тягловых животных в усилии. Прикладывал постоянную силу к шасси, пока колеса не преодолели сопротивление болота. Руда спасена.",
+        "Я вручную снял часть груза, чтобы облегчить вес, и вытолкнул повозку из трясины. После спасения руда была успешно загружена обратно.",
+        "Я поднял заднюю ось на достаточное время, чтобы подложить упоры. Извлечение завершено, транспортный маршрут возобновлен."
+      ],
+      "zh": [
+        "我代替役兽进行拉拽。持续向底盘施力，直到车轮脱离沼泽的吸力。矿石获救。",
+        "我手动卸下部分货物以减轻重量，并将货车推出泥潭。救援后，矿石已成功重新装载。",
+        "我抬起后轴足够长时间以便放置垫块。提取完成，运输路线恢复。"
+      ],
+      "ja": [
+        "牽引作業において家畜の代わりを務めました。車輪が沼の吸着力に打ち勝つまで、シャーシに一定の力を加えました。鉱石は保護されました。",
+        "重量を軽くするために手作業で積荷の一部を下ろし、荷車を泥沼から押し出しました。救出後、鉱石は無事に積み直されました。",
+        "輪留めを置くのに十分な時間、後軸を持ち上げました。引き上げ作業は完了し、輸送ルートが再開されました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "O minério é pesado demais para o terreno instável. A tentativa de tração rompeu o eixo da carroça e a carga afundou completamente. Perda total confirmada.",
+        "A sucção da lama superou a força aplicada. A carroça tombou lateralmente, espalhando o minério pelo pântano. A recuperação é impossível sem equipamento pesado.",
+        "O tempo de extração excedeu o limite de segurança. A estrutura da carroça colapsou sob a pressão da lama e o minério foi perdido para as profundezas."
+      ],
+      "en": [
+        "The ore is too heavy for the unstable terrain. The pulling attempt snapped the wagon's axle and the cargo sank completely. Confirmed total loss.",
+        "The mud's suction exceeded the applied force. The wagon tipped sideways, scattering the ore across the swamp. Recovery is impossible without heavy equipment.",
+        "The extraction time exceeded the safety limit. The wagon structure collapsed under mud pressure and the ore was lost to the depths."
+      ],
+      "es": [
+        "El mineral es demasiado pesado para el terreno inestable. El intento de tracción rompió el eje de la carreta y la carga se hundió por completo. Pérdida total confirmada.",
+        "La succión del lodo superó la fuerza aplicada. La carreta volcó lateralmente, esparciendo el mineral por el pantano. Recuperación imposible sin equipo pesado.",
+        "El tiempo de extracción excedió el límite de seguridad. La estructura de la carreta colapsó bajo la presión del lodo y el mineral se perdió en las profundezas."
+      ],
+      "ru": [
+        "Руда слишком тяжела для нестабильного грунта. Попытка вытянуть повозку сломала ось, и груз полностью затонул. Подтверждена полная потеря.",
+        "Вязкость грязи превысила приложенную силу. Повозка опрокинулась, рассыпав руду по болоту. Спасение невозможно без тяжелого оборудования.",
+        "Время извлечения превысило предел безопасности. Структура повозки разрушилась под давлением грязи, и руда была потеряна в глубине."
+      ],
+      "zh": [
+        "矿石对于不稳定的地形来说过重。拉拽尝试折断了车轴，货物完全下沉。确认全损。",
+        "泥浆的吸力超过了施加的力量。货车侧翻，矿石散落在沼泽中。没有重型设备无法回收。",
+        "提取时间超过了安全时限。货车结构在泥浆压力下坍塌，矿石消失在深处。"
+      ],
+      "ja": [
+        "不安定な地盤に対して鉱石が重すぎました。牽引の試みで車軸が折れ、積荷は完全に沈没しました。全損が確認されました。",
+        "泥の吸着力が加えた力を上回りました。荷車が横倒しになり、鉱石が沼に散乱しました。重機なしでの回収は不可能です。",
+        "作業時間が安全限界を超えました。泥の圧力で荷車の構造が崩壊し、鉱石は深淵に失われました。"
+      ]
+    }
   }
+}    
 }

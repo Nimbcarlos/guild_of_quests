@@ -50,5 +50,107 @@
       "zh": "戒指",
       "ja": "指輪"
     }
+  },
+"conclusion": {
+  "success": {
+    "thievery": {
+      "pt": [
+        "Soltei o anel do dedo do nobre durante um brinde coletivo e o substituí por peso idêntico.",
+        "Afrouxei a joia enquanto o portador gesticulava e removi o anel sem alterar sua postura.",
+        "Utilizei o momento do aplauso no banquete para extrair o anel sem que os guardas percebessem."
+      ],
+      "en": [
+        "I slipped the ring from the noble’s finger during a collective toast and replaced its weight.",
+        "I loosened the jewel while the wearer gestured and removed the ring without shifting his stance.",
+        "I used the banquet’s applause to extract the ring without alerting the guards."
+      ],
+      "es": [
+        "Deslicé el anillo del dedo del noble durante un brindis y sustituí su peso.",
+        "Aflojé la joya mientras gesticulaba y retiré el anillo sin alterar su postura.",
+        "Aproveché el aplauso del banquete para extraer el anillo sin alertar a los guardias."
+      ],
+      "ru": [
+        "Я снял кольцо с пальца дворянина во время тоста и подменил вес.",
+        "Ослабил оправу, пока он жестикулировал, и снял кольцо незаметно.",
+        "Использовал аплодисменты на банкете, чтобы извлечь кольцо."
+      ],
+      "zh": [
+        "我在祝酒时从贵族手指上滑下戒指并替换等重物。",
+        "趁其挥手时松动戒指并取下，未改变其姿态。",
+        "利用宴会掌声掩护取走戒指。"
+      ],
+      "ja": [
+        "乾杯の最中に指輪を外し、同重量の代替物に置き換えました。",
+        "身振りの瞬間に緩めて指輪を外しました。",
+        "宴会の拍手に紛れて指輪を抜き取りました。"
+      ]
+    },
+    "default": {
+      "pt": [
+        "Mantive os olhares do banquete longe do anel com discurso calculado.",
+        "Conduzi a conversa política para longe do portador enquanto o anel era removido.",
+        "Centralizei a atenção da mesa principal, criando a janela exata para a ação."
+      ],
+      "en": [
+        "I held the banquet’s attention away from the ring with a calculated speech.",
+        "I steered political conversation away from the wearer while the ring was taken.",
+        "I centralized attention at the main table, creating the exact window for action."
+      ],
+      "es": [
+        "Mantuve la atención del banquete lejos del anillo con un discurso calculado.",
+        "Desvié la conversación política mientras retiraban el anillo.",
+        "Concentré las miradas en la mesa principal creando la ventana exacta."
+      ],
+      "ru": [
+        "Я отвлёк внимание гостей речью, уводя взгляды от кольца.",
+        "Перенаправил разговор, пока кольцо снимали.",
+        "Сфокусировал внимание на главном столе, создав окно для действия."
+      ],
+      "zh": [
+        "我用演讲将宴会目光从戒指上转移。",
+        "我引导谈话远离佩戴者，掩护取回戒指。",
+        "我集中主桌注意力，创造行动窗口。"
+      ],
+      "ja": [
+        "計算された演説で視線を指輪から逸らしました。",
+        "会話を逸らし、指輪回収を支援しました。",
+        "主卓に注目を集め、行動の隙を作りました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "O anel reagiu ao toque e emitiu pulso visível no salão.",
+        "O portador percebeu a pressão alterada no dedo.",
+        "Um guarda notou a manipulação do anel durante o brinde."
+      ],
+      "en": [
+        "The ring reacted to touch and emitted a visible pulse.",
+        "The wearer sensed the pressure shift on his finger.",
+        "A guard noticed the ring being manipulated during the toast."
+      ],
+      "es": [
+        "El anillo reaccionó al contacto y emitió un pulso visible.",
+        "El portador sintió el cambio de presión en el dedo.",
+        "Un guardia notó la manipulación durante el brindis."
+      ],
+      "ru": [
+        "Кольцо отреагировало на прикосновение вспышкой.",
+        "Владелец почувствовал изменение давления на пальце.",
+        "Страж заметил манипуляцию во время тоста."
+      ],
+      "zh": [
+        "戒指对触碰产生可见脉冲。",
+        "佩戴者察觉手指压力变化。",
+        "守卫在祝酒时注意到操作。"
+      ],
+      "ja": [
+        "指輪が接触に反応し発光しました。",
+        "装着者が指の違和感に気付きました。",
+        "乾杯中に操作が見抜かれました。"
+      ]
+    }
   }
+}  
 }

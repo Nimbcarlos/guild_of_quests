@@ -128,5 +128,883 @@
         }
       }
     }
+  },
+  "dialogue_blocks": {
+    "arrived": {
+      "alone": {
+        "pt": [
+          "Eu me misturava às sombras d{location}, observando cada movimento sem ser notada.",
+          "O silêncio d{location} era interrompido apenas pelo som da minha lâmina deslizando na bainha.",
+          "Eu estudava os pontos vitais d{location}, procurando onde a dor seria mais profunda.",
+          "Meus passos não deixavam marcas no solo d{location}; eu era apenas um presságio invisível.",
+          "Eu verificava o fio da adaga enquanto os ventos d{location} sopravam contra meu rosto.",
+          "Eu deslizava entre as brechas d{location}, sentindo a pulsação de cada sombra ao meu redor.",
+          "Minha respiração se tornava uma com o ar d{location}, tornando-me uma extensão do escuro.",
+          "Eu testava o peso das minhas adagas enquanto circulava o perímetro d{location}.",
+          "Eu buscava por sinais de vida d{location}, imaginando qual deles não teria voz para gritar.",
+          "Meus sentidos se aguçavam sob o céu d{location}, esperando o momento exato para o primeiro corte."
+          ],
+          "en": [
+            "I blended into the shadows of {location}, observing every movement without being noticed.",
+            "The silence of {location} was broken only by the sound of my blade sliding in its sheath.",
+            "I studied the vital points of {location}, searching for where the pain would be deepest.",
+            "My footsteps left no marks on the ground of {location}; I was merely an invisible omen.",
+            "I checked the dagger's edge as the winds of {location} blew against my face.",
+            "I glided through the gaps of {location}, feeling the pulse of every shadow around me.",
+            "My breathing became one with the air of {location}, making me an extension of the dark.",
+            "I tested the weight of my daggers while circling the perimeter of {location}.",
+            "I searched for signs of life in {location}, imagining which one would have no voice to scream.",
+            "My senses sharpened under the sky of {location}, waiting for the exact moment for the first cut."
+          ],
+          "es": [
+            "Me mezclaba con las sombras de {location}, observando cada movimiento sin ser notada.",
+            "El silencio de {location} solo era interrumpido por el sonido de mi hoja deslizándose en la vaina.",
+            "Estudiaba los puntos vitales de {location}, buscando dónde el dolor sería más profundo.",
+            "Mis pasos no dejaban huellas en el suelo de {location}; yo era solo un presagio invisible.",
+            "Verificaba el filo de la daga mientras los vientos de {location} soplaban contra mi rostro.",
+            "Me deslizaba entre las brechas de {location}, sintiendo la pulsación de cada sombra a mi alrededor.",
+            "Mi respiración se volvía una con el aire de {location}, convirtiéndome en una extensión de la oscuridad.",
+            "Probaba el peso de mis dagas mientras recorría el perímetro de {location}.",
+            "Buscaba señales de vida en {location}, imaginando cuál de ellas no tendría voz para gritar.",
+            "Mis sentidos se agudizaban bajo el cielo de {location}, esperando el momento exacto para el primer corte."
+          ],
+          "ru": [
+            "Я сливалась с тенями {location}, наблюдая за каждым движением, оставаясь незамеченной.",
+            "Тишину {location} нарушал лишь звук моего клинка, скользящего в ножнах.",
+            "Я изучала жизненно важные точки в {location}, выискивая, где боль будет глубже всего.",
+            "Мои следы не оставляли отметок на почве {location}; я была лишь невидимым предзнаменованием.",
+            "Я проверяла остроту кинжала, пока ветры {location} дули мне в лицо.",
+            "Я скользила в расщелинах {location}, чувствуя пульсацию каждой тени вокруг меня.",
+            "Мое дыхание сливалось с воздухом {location}, превращая меня в продолжение тьмы.",
+            "Я проверяла вес своих кинжалов, обходя периметр {location}.",
+            "Я искала признаки жизни в {location}, представляя, у кого из них не будет голоса, чтобы закричать.",
+            "Мои чувства обострялись под небом {location} в ожидании точного момента для первого надреза."
+          ],
+          "zh": [
+            "我融入了{location}的阴影中，在不被察觉的情况下观察着一举一动。",
+            "{location}的宁静只被我的刀刃滑入鞘中的声音所打破。",
+            "我研究着{location}的要害，寻找痛苦最深的地方。",
+            "我的脚步在{location}的土地上没有留下痕迹；我只是一个隐形的预兆。",
+            "当{location}的风吹拂着我的脸庞时，我检查着匕首的锋利程度。",
+            "我滑过{location}的缝隙，感受着周围每一道阴影的脉动。",
+            "我的呼吸与{location}的空气合而为一，使我成为黑暗的延伸。",
+            "我在绕行{location}周界时测试着匕首的重量。",
+            "我在{location}中寻找生命迹象，想象着哪一个会没有声音发出尖叫。",
+            "我的感官在{location}的天空下变得敏锐，等待着第一刀的准确时刻。"
+          ],
+          "ja": [
+            "私は{location}の影に溶け込み、気づかれることなくあらゆる動きを観察しました。",
+            "{location}の静寂は、鞘に滑り込む刃の音だけによって破られました。",
+            "私は{location}の急所を研究し、どこで最も深い痛みを与えられるかを探しました。",
+            "{location}の地面に私の足跡は残りません。私はただの目に見えない前兆でした。",
+            "{location}の風が顔に吹き付ける中、私は短剣の切れ味を確かめました。",
+            "{location}の隙間をすり抜け、周囲のあらゆる影の鼓動を感じました。",
+            "私の呼吸は{location}の空気と一体になり、私は暗闇の延長となりました。",
+            "{location}の周囲を巡りながら、短剣の重さを確かめました。",
+            "{location}の中に生命の兆候を探し、どれが悲鳴を上げる声さえ持てないかを想像しました。",
+            "最初の切り込みを入れる正確な瞬間を待ちながら、{location}の空の下で私の五感は研ぎ澄まされました。"
+          ]
+        },
+      "group": {
+        "pt": [
+          "Eu caminhava na retaguarda d{location}, garantindo que nada saísse vivo do nosso rastro.",
+          "Enquanto o grupo avançava por {location}, eu mapeava as gargantas que logo estariam ao meu alcance.",
+          "Eu me afastava dos outros em {location}, preferindo o conforto do escuro ao brilho das tochas.",
+          "Meus olhos percorriam {location} em busca de presas que não pudessem implorar por misericórdia.",
+          "Eu ignorava as conversas e focava no cheiro de sangue que emanava d{location}.",
+          "Eu monitorava os flancos d{location}, pronta para punir qualquer criatura que ousasse se aproximar.",
+          "Enquanto o grupo discutia planos em {location}, eu já contava as possíveis saídas de emergência.",
+          "Eu desaparecia na névoa d{location}, mantendo a distância necessária para não ouvir as súplicas alheias.",
+          "Meus olhos brilhavam na penumbra d{location}, antecipando o prazer de uma caçada sem remorsos.",
+          "Eu seguia os passos pesados dos meus aliados por {location}, mantendo-me leve como um espectro."        
+        ],
+        "en": [
+          "I walked in the rear of {location}, ensuring that nothing left our trail alive.",
+          "As the group advanced through {location}, I mapped the throats that would soon be within my reach.",
+          "I distanced myself from the others in {location}, preferring the comfort of the dark to the glare of the torches.",
+          "My eyes scanned {location} for prey that could not beg for mercy.",
+          "I ignored the conversations and focused on the scent of blood emanating from {location}.",
+          "I monitored the flanks of {location}, ready to punish any creature that dared to approach.",
+          "While the group discussed plans in {location}, I was already counting potential emergency exits.",
+          "I disappeared into the mist of {location}, keeping the necessary distance to avoid hearing others' pleas.",
+          "My eyes glowed in the dim light of {location}, anticipating the pleasure of a remorseless hunt.",
+          "I followed the heavy footsteps of my allies through {location}, staying light as a specter."
+        ],
+        "es": [
+          "Caminaba en la retaguardia de {location}, asegurándome de que nada saliera vivo de nuestro rastro.",
+          "Mientras el grupo avanzaba por {location}, mapeaba las gargantas que pronto estarían a mi alcance.",
+          "Me alejaba de los demás en {location}, prefiriendo el consuelo de la oscuridad al brillo de las antorchas.",
+          "Mis ojos recorrían {location} en busca de presas que no pudieran suplicar misericordia.",
+          "Ignoraba las conversaciones y me enfocaba en el olor a sangre que emanaba de {location}.",
+          "Monitoreaba los flancos de {location}, lista para castigar a cualquier criatura que osara acercarse.",
+          "Mientras el grupo discutía planes en {location}, yo ya contaba las posibles salidas de emergencia.",
+          "Desaparecía en la niebla de {location}, manteniendo la distancia necesaria para no escuchar las súplicas ajenas.",
+          "Mis ojos brillaban en la penumbra de {location}, anticipando el placer de una caza sin remordimientos.",
+          "Seguía los pasos pesados de mis aliados por {location}, manteniéndome ligera como un espectro."
+        ],
+        "ru": [
+          "Я шла в арьергарде {location}, следя за тем, чтобы ничто не покинуло наш след живым.",
+          "Пока группа продвигалась по {location}, я намечала глотки, которые вскоре окажутся в пределах моей досягаемости.",
+          "Я держалась подальше от остальных в {location}, предпочитая уют тьмы блеску факелов.",
+          "Мои глаза сканировали {location} в поисках добычи, которая не сможет молить о пощаде.",
+          "Я игнорировала разговоры и сосредотачивалась на запахе крови, исходящем из {location}.",
+          "Я следила за флангами в {location}, готовая покарать любое существо, которое осмелится приблизиться.",
+          "Пока группа обсуждала планы в {location}, я уже подсчитывала возможные аварийные выходы.",
+          "Я исчезала в тумане {location}, держась на расстоянии, чтобы не слышать чужих мольб.",
+          "Мои глаза светились в полумраке {location} в предвкушении удовольствия от охоты без угрызений совести.",
+          "Я следовала за тяжелыми шагами союзников по {location}, оставаясь легкой, как призрак."
+        ],
+        "zh": [
+          "我在{location}的后方行走，确保没有生物能从我们的追踪中生还。",
+          "当小队穿过{location}推进时，我已经在勾勒那些很快就会落入我手中的咽喉。",
+          "我在{location}中与他人保持距离，比起火炬的强光，我更喜欢黑暗的安逸。",
+          "我的目光扫视着{location}，寻找那些无法祈求仁慈的猎物。",
+          "我无视了谈话，专注于从{location}散发出的血腥味。",
+          "我监控着{location}的侧翼，准备惩罚任何敢于靠近的生物。",
+          "当小队在{location}讨论计划时，我已经在计算可能的紧急出口。",
+          "我消失在{location}的迷雾中，保持必要的距离以免听到他人的哀求。",
+          "我的眼睛在{location}的幽暗中发光，期待着一场毫无悔意的狩猎快感。",
+          "我紧随盟友在{location}中沉重的脚步，自己却轻盈得像个幽灵。"
+        ],
+        "ja": [
+          "私は{location}の後方を歩き、私たちの足跡から生きて逃げられるものがいないようにしました。",
+          "グループが{location}を進む間、私はすぐに手の届くところに来るであろう喉元を定めていました。",
+          "{location}では他の者たちから距離を置き、松明のまぶしさよりも暗闇の心地よさを好みました。",
+          "慈悲を乞うことすらできない獲物を探して、私の目は{location}を走査しました。",
+          "会話は無視し、{location}から漂う血の匂いに集中しました。",
+          "{location}の側面を監視し、近づこうとするいかなるクリーチャーにも罰を与える準備を整えました。",
+          "グループが{location}で計画を話し合っている間、私はすでに可能な非常出口を数えていました。",
+          "他人の嘆願を聞かずに済むよう必要な距離を保ちながら、私は{location}の霧の中に消えました。",
+          "悔恨のない狩りの快感を予感して、{location}の薄暗がりの中で私の目は光りました。",
+          "味方たちの重い足跡を追って{location}を通りながら、私は亡霊のように軽くあり続けました。"
+        ]
+      }
+    },
+    "action": {
+      "fight": {
+        "alone": {
+          "pt": [
+            "Eu despencava do alto sobre o {enemy}, usando o peso do corpo para silenciar qualquer grito.",
+            "Eu surgia das sombras como um espectro, cravando minhas lâminas nas articulações do {enemy}.",
+            "Eu circulava o {enemy} sob a luz pálida, desferindo cortes precisos onde o sangue corre mais rápido.",
+            "Eu utilizava a arquitetura para flanquear o {enemy}, golpeando seus pontos cegos com violência metódica.",
+            "Eu saltava entre os escombros para envolver o pescoço do {enemy}, ignorando seus olhos aterrorizados.",
+            "Eu deslizava pelo chão úmido, golpeando os tendões do {enemy} para que ele não pudesse fugir.",
+            "Eu girava minhas adagas no ar, projetando minha silhueta contra o {enemy} antes do impacto.",
+            "Eu me tornava um borrão negro, atingindo o {enemy} com uma sequência de socos e cortes brutais.",
+            "Eu prendia o {enemy} contra a parede, focando no prazer de cada golpe desferido sem remorso.",
+            "Eu aproveitava cada segundo para desorientar o {enemy} com fintas rápidas e lâminas ocultas."
+          ],
+          "en": [
+            "I plummeted from above onto the {enemy}, using my body weight to silence any scream.",
+            "I emerged from the shadows like a specter, driving my blades into the {enemy}'s joints.",
+            "I circled the {enemy} under the pale light, delivering precise cuts where the blood flows fastest.",
+            "I used the architecture to flank the {enemy}, striking their blind spots with methodical violence.",
+            "I leaped between the rubble to wrap around the {enemy}'s neck, ignoring their terrified eyes.",
+            "I slid across the damp floor, striking the {enemy}'s tendons so they couldn't flee.",
+            "I spun my daggers in the air, projecting my silhouette against the {enemy} before impact.",
+            "I became a black blur, hitting the {enemy} with a sequence of brutal punches and cuts.",
+            "I pinned the {enemy} against the wall, focusing on the pleasure of every strike delivered without remorse.",
+            "I took advantage of every second to disorient the {enemy} with quick feints and hidden blades."
+          ],
+          "es": [
+            "Me desplomaba desde lo alto sobre el {enemy}, usando el peso de mi cuerpo para silenciar cualquier grito.",
+            "Surgía de las sombras como un espectro, clavando mis cuchillas en las articulaciones del {enemy}.",
+            "Rodeaba al {enemy} bajo la luz pálida, asestando cortes precisos donde la sangre corre más rápido.",
+            "Utilizaba la arquitectura para flanquear al {enemy}, golpeando sus puntos ciegos con violencia metódica.",
+            "Saltaba entre los escombros para envolver el cuello del {enemy}, ignorando sus ojos aterrorizados.",
+            "Me deslizaba por el suelo húmedo, golpeando los tendones del {enemy} para que no pudiera huir.",
+            "Giraba mis dagas en el aire, proyectando mi silueta contra el {enemy} antes del impacto.",
+            "Me convertía en un borrón negro, golpeando al {enemy} con una secuencia de puñetazos y cortes brutales.",
+            "Acorralaba al {enemy} contra la pared, concentrándome en el placer de cada golpe asestado sin remordimientos.",
+            "Aprovechaba cada segundo para desorientar al {enemy} con fintas rápidas y hojas ocultas."
+          ],
+          "ru": [
+            "Я обрушивалась сверху на {enemy}, используя вес своего тела, чтобы заглушить любой крик.",
+            "Я возникала из теней как призрак, вонзая клинки в суставы {enemy}.",
+            "Я кружила вокруг {enemy} при бледном свете, нанося точные порезы там, где кровь течет быстрее всего.",
+            "Я использовала архитектуру, чтобы обойти {enemy} с фланга, нанося удары по слепым зонам с методичной жестокостью.",
+            "Я прыгала по обломкам, чтобы вцепиться в шею {enemy}, игнорируя его испуганные глаза.",
+            "Я скользила по сырому полу, подрезая сухожилия {enemy}, чтобы он не мог сбежать.",
+            "Я вращала кинжалы в воздухе, проецируя свой силуэт на {enemy} перед ударом.",
+            "Я становилась черным пятном, поражая {enemy} серией жестоких ударов и порезов.",
+            "Я прижимала {enemy} к стене, наслаждаясь каждым ударом, нанесенным без тени сожаления.",
+            "Я использовала каждую секунду, чтобы дезориентировать {enemy} быстрыми финтами и скрытыми клинками."
+          ],
+          "zh": [
+            "我从高处坠落在{enemy}身上，利用体重压制住任何尖叫。",
+            "我像幽灵一样从阴影中出现，将刀刃刺入{enemy}的关节。",
+            "我在苍白的光线下环绕着{enemy}，在血液流动最快的地方精准切割。",
+            "我利用建筑结构侧击{enemy}，以有条不紊的暴力打击其盲区。",
+            "我跃过废墟锁住{enemy}的脖子，无视他们恐惧的眼神。",
+            "我在潮湿的地面上滑行，切断{enemy}的肌腱让他们无法逃跑。",
+            "我在空中旋转匕首，在撞击前将影子投射在{enemy}身上。",
+            "我化作一道黑影，以连贯的重拳和利刃重创{enemy}。",
+            "我将{enemy}钉在墙上，专注于毫无悔意地挥出的每一记打击所带来的快感。",
+            "我利用每一秒钟，通过快速的佯攻和暗刃让{enemy}失去方向感。"
+          ],
+          "ja": [
+            "私は上空から{enemy}に飛び降り、体重をかけて悲鳴を封じ込めました。",
+            "亡霊のように影から現れ、{enemy}の関節に刃を突き立てました。",
+            "青白い光の下で{enemy}の周りを回り、血が最も速く流れる場所に正確な切り傷を負わせました。",
+            "建築物を利用して{enemy}の側面を突き、計画的な暴力で死角を攻撃しました。",
+            "瓦礫の間を飛び跳ねて{enemy}の首に巻き付き、その怯えた瞳を無視しました。",
+            "湿った床を滑り、{enemy}の腱を切り裂いて逃げられないようにしました。",
+            "短剣を空中で回転させ、衝撃の直前に{enemy}に対して自分のシルエットを投影しました。",
+            "私は黒い残像となり、残忍な突きと斬撃の連続で{enemy}を打ちのめしました。",
+            "悔恨の念もなく放たれる一撃一撃の快感に集中しながら、{enemy}を壁に押しつけました。",
+            "素早いフェイントと隠し刃で、{enemy}を混乱させるために一秒一秒を惜しみなく使いました。"
+          ]
+        },
+        "group": {
+          "pt": [
+            "Eu usava a distração dos meus aliados para emergir atrás do {enemy} com um golpe fatal.",
+            "Enquanto o grupo avançava, eu saltava sobre o {enemy} para derrubá-lo antes que reagisse.",
+            "Eu me separava da formação, caçando o {enemy} pelos flancos com a frieza de um predador.",
+            "Eu saltava por cima, cravando o aço no {enemy} com força desmedida.",
+            "Eu desaparecia da vista de todos para reaparecer golpeando o {enemy} pelas costas.",
+            "Eu utilizava o caos da batalha para isolar o {enemy} em um canto escuro e punitivo.",
+            "Enquanto as magias iluminavam, eu aproveitava as sombras geradas para fustigar o {enemy}.",
+            "Eu coordenava meus ataques com o ritmo, atingindo o {enemy} enquanto ele focava nos outros.",
+            "Eu limpava o caminho, desferindo chutes e cortes no {enemy} para abrir passagem ao grupo.",
+            "Eu saltava de uma cobertura diretamente sobre o {enemy}, agindo como a lâmina invisível da guilda."
+          ],
+          "en": [
+            "I used my allies' distraction to emerge behind the {enemy} with a fatal blow.",
+            "As the group advanced, I leaped onto the {enemy} to take them down before they could react.",
+            "I broke from formation, hunting the {enemy} from the flanks with a predator's coldness.",
+            "I leaped over, driving steel into the {enemy} with unmeasured force.",
+            "I vanished from everyone's sight only to reappear striking the {enemy} from behind.",
+            "I used the chaos of battle to isolate the {enemy} in a dark and punishing corner.",
+            "As spells lit up the area, I took advantage of the generated shadows to harass the {enemy}.",
+            "I coordinated my attacks with the rhythm, hitting the {enemy} while they focused on the others.",
+            "I cleared the way, delivering kicks and slashes to the {enemy} to open a path for the group.",
+            "I leaped from cover directly onto the {enemy}, acting as the guild's invisible blade."
+          ],
+          "es": [
+            "Usaba la distracción de mis aliados para emerger detrás del {enemy} con un golpe fatal.",
+            "Mientras el grupo avanzaba, saltaba sobre el {enemy} para derribarlo antes de que reaccionara.",
+            "Me separaba de la formación, cazando al {enemy} por los flancos con la frialdad de un depredador.",
+            "Saltaba por encima, clavando el acero en el {enemy} con una fuerza desmedida.",
+            "Desaparecía de la vista de todos para reaparecer golpeando al {enemy} por la espalda.",
+            "Utilizaba el caos de la batalla para aislar al {enemy} en un rincón oscuro y punitivo.",
+            "Mientras las magias iluminaban, aprovechaba las sombras generadas para hostigar al {enemy}.",
+            "Coordinaba mis ataques con el ritmo, golpeando al {enemy} mientras se concentraba en los demás.",
+            "Despejaba el camino, propinando patadas y cortes al {enemy} para abrir paso al grupo.",
+            "Saltaba desde una cobertura directamente sobre el {enemy}, actuando como la hoja invisible del gremio."
+          ],
+          "ru": [
+            "Я использовала отвлекающий маневр союзников, чтобы нанести смертельный удар, появившись за спиной {enemy}.",
+            "Пока группа наступала, я прыгала на {enemy}, чтобы свалить его до того, как он успеет среагировать.",
+            "Я выходила из строя, выслеживая {enemy} с флангов с холодностью хищника.",
+            "Я перепрыгивала сверху, вонзая сталь в {enemy} с безмерной силой.",
+            "Я исчезала из виду, чтобы снова появиться, нанося удар {enemy} в спину.",
+            "Я использовала хаос битвы, чтобы изолировать {enemy} в темном и карающем углу.",
+            "Пока заклинания освещали всё вокруг, я пользовалась возникающими тенями, чтобы изводить {enemy}.",
+            "Я координировала свои атаки с ритмом боя, нанося удары {enemy}, пока он был сосредоточен на других.",
+            "Я расчищала путь, нанося удары ногами и порезы {enemy}, чтобы открыть дорогу группе.",
+            "Я прыгала из укрытия прямо на {enemy}, действуя как невидимый клинок гильдии."
+          ],
+          "zh": [
+            "我利用盟友的分心，在{enemy}背后现身并给予致命一击。",
+            "当小队推进时，我跃向{enemy}，在他们反应过来之前将其放倒。",
+            "我脱离阵型，以掠食者的冰冷从侧翼猎杀{enemy}。",
+            "我纵身跃过，以惊人的力量将钢刃刺入{enemy}。",
+            "我从众人的视线中消失，只为了再次出现从背后袭击{enemy}。",
+            "我利用战斗的混乱，将{enemy}孤立在一个阴暗且危险的角落。",
+            "当法术照亮区域时，我利用产生的阴影不断袭扰{enemy}。",
+            "我配合着节奏协调攻击，在{enemy}专注于他人时发起打击。",
+            "我清理道路，对{enemy}施以踢击和斩击，为小队开路。",
+            "我从掩体直接跃向{enemy}，充当公会那柄无形的利刃。"
+          ],
+          "ja": [
+            "味方の注意を逸らした隙を利用して、{enemy}の背後に現れ致命的な一撃を加えました。",
+            "グループが進む中、{enemy}が反応する前に仕留めるために飛びかかりました。",
+            "陣形を離れ、捕食者のような冷徹さで側面から{enemy}を狩りました。",
+            "飛び越えながら、計り知れない力で{enemy}に鋼を突き立てました。",
+            "皆の視界から消え、背後から{enemy}を攻撃するために再出現しました。",
+            "戦闘の混乱を利用して、暗く過酷な隅へと{enemy}を追い込みました。",
+            "魔法が周囲を照らす中、生じた影を利用して{enemy}を苦しめました。",
+            "リズムに合わせて攻撃を調整し、{enemy}が他の者に集中している隙に打ち込みました。",
+            "蹴りと斬撃を{enemy}に浴びせて道を切り開き、グループの進路を確保しました。",
+            "隠れ家から直接{enemy}の上に飛び降り、ギルドの見えない刃として行動しました。"
+          ]
+        }
+      },
+      "thievery": {
+        "pt": [
+          "Eu deslizava meus dedos sentindo {challenge} ceder sob minha perícia.",
+          "Eu manipulava as ferramentas com leveza, focando na resistência d{challenge} enquanto o suor frio escorria.",
+          "Eu testava a tensão do {challenge}, ignorando o mundo ao redor para ouvir o clique metálico do meu sucesso iminente."
+        ],
+        "en": [
+          "I glided my fingers, feeling {challenge} yield under my expertise.",
+          "I manipulated the tools with lightness, focusing on the resistance of {challenge} as cold sweat dripped.",
+          "I tested the tension of {challenge}, ignoring the world around me to hear the metallic click of my imminent success."
+        ],
+        "es": [
+          "Deslizaba mis dedos sintiendo cómo {challenge} cedía ante mi pericia.",
+          "Manipulaba las herramientas con ligereza, enfocándome en la resistencia de {challenge} mientras el sudor frío resbalaba.",
+          "Probaba la tensión de {challenge}, ignorando el mundo a mi alrededor para escuchar el clic metálico de mi éxito inminente."
+        ],
+        "ru": [
+          "Я скользила пальцами, чувствуя, как {challenge} поддается моему мастерству.",
+          "Я легко манипулировала инструментами, сосредоточившись на сопротивлении {challenge}, пока стекал холодный пот.",
+          "Я проверяла натяжение {challenge}, игнорируя окружающий мир, чтобы услышать металлический щелчок моего неминуемого успеха."
+        ],
+        "zh": [
+          "我的手指轻轻滑过，感受到{challenge}在我的技艺下屈服。",
+          "我轻巧地操作着工具，在冷汗流下时专注于{challenge}的阻力。",
+          "我测试着{challenge}的张力，无视周围的一切，只为听到即将成功的金属咔哒声。"
+        ],
+        "ja": [
+          "私の技量によって{challenge}が屈服していくのを指先で感じました。",
+          "冷や汗が流れる中、{challenge}の抵抗に集中しながら、軽やかに道具を操りました。",
+          "迫りくる成功の金属音を聞くために周囲の世界を無視し、{challenge}のテンションを確かめました。"
+        ]
+      },
+      "stealth": {
+        "pt": [
+          "Eu me tornava uma mancha indistinguível nas paredes d{location}, deslizando para contornar o {challenge} sem emitir som.",
+          "Eu cronometrava minha respiração com o vento d{location}, movendo-me centímetro a centímetro para que o {challenge} não percebesse minha sombra.",
+          "Eu utilizava cada irregularidade d{location} para me ocultar, observando o {challenge} de uma distância perigosamente curta."
+        ],
+        "en": [
+          "I became an indistinguishable blur on the walls of {location}, gliding to bypass {challenge} without making a sound.",
+          "I timed my breathing with the wind of {location}, moving inch by inch so that {challenge} wouldn't notice my shadow.",
+          "I used every irregularity of {location} to hide myself, watching {challenge} from a dangerously short distance."
+        ],
+        "es": [
+          "Me convertía en una mancha indistinguible en las paredes de {location}, deslizándome para rodear {challenge} sin emitir sonido.",
+          "Sincronizaba mi respiración con el viento de {location}, moviéndome centímetro a centímetro para que {challenge} no notara mi sombra.",
+          "Utilizaba cada irregularidad de {location} para ocultarme, observando a {challenge} desde una distancia peligrosamente corta."
+        ],
+        "ru": [
+          "Я становилась неразличимым пятном на стенах {location}, скользя мимо {challenge} без единого звука.",
+          "Я подстраивала дыхание под ветер {location}, продвигаясь дюйм за дюймом, чтобы {challenge} не заметил мою тень.",
+          "Я использовала каждую неровность {location}, чтобы скрыться, наблюдая за {challenge} с опасно близкого расстояния."
+        ],
+        "zh": [
+          "我成了{location}墙壁上难以辨认的暗影，悄无声息地滑过以绕开{challenge}。",
+          "我的呼吸配合着{location}的风声，一寸一寸地挪动，以免{challenge}察觉到我的影子。",
+          "我利用{location}的每一处凹凸来隐藏自己，在极其危险的近距离观察着{challenge}。"
+        ],
+        "ja": [
+          "私は{location}の壁に溶け込む影となり、音を立てずに{challenge}を回避しました。",
+          "{challenge}に影を悟られないよう、{location}の風に合わせて呼吸を整え、一歩一寸ずつ移動しました。",
+          "自らを隠すために{location}のあらゆる凹凸を利用し、危険なほど短い距離から{challenge}を観察しました。"
+        ]
+      },
+      "intimidation": {
+        "pt": [
+          "Eu emergia da penumbra com o aço frio tocando {challenge}, deixando que o medo fizesse o trabalho pesado.",
+          "Eu sussurrava promessas de dor no ouvido do {challenge}, garantindo que ele entendesse que não sou uma heroína bondosa.",
+          "Eu projetava minha intenção assassina contra o {challenge}, usando o silêncio e meu olhar vazio para desestabilizá-lo."
+        ],
+        "en": [
+          "I emerged from the dimness with cold steel touching {challenge}, letting fear do the heavy lifting.",
+          "I whispered promises of pain into {challenge}'s ear, ensuring they understood I am no kind hero.",
+          "I projected my killing intent against {challenge}, using silence and my empty gaze to destabilize them."
+        ],
+        "es": [
+          "Emergía de la penumbra con el acero frío tocando a {challenge}, dejando que el miedo hiciera el trabajo pesado.",
+          "Susurraba promesas de dolor al oído de {challenge}, asegurándome de que entendiera que no soy una heroína bondadosa.",
+          "Proyectaba mi intención asesina contra {challenge}, usando el silencio y mi mirada vacía para desestabilizarlo."
+        ],
+        "ru": [
+          "Я возникала из полумрака, касаясь {challenge} холодной сталью, позволяя страху сделать всю тяжелую работу.",
+          "Я шептала обещания боли на ухо {challenge}, давая понять, что я не добрая героиня.",
+          "Я направляла свое намерение убить на {challenge}, используя тишину и пустой взгляд, чтобы дестабилизировать его."
+        ],
+        "zh": [
+          "我从昏暗中现身，冰冷的钢铁触碰着{challenge}，让恐惧完成接下来的重活。",
+          "我在{challenge}耳边低声许下痛苦的承诺，确保他们明白我并非仁慈的英雄。",
+          "我向{challenge}释放杀气，用沉默和空洞的眼神击溃他们的心理防线。"
+        ],
+        "ja": [
+          "冷たい鋼で{challenge}に触れながら薄暗がりから現れ、恐怖にその後の仕事を委ねました。",
+          "自分が慈悲深い英雄ではないことを理解させるために、{challenge}の耳元で苦痛の約束を囁きました。",
+          "{challenge}に対して殺気を放ち、沈黙と虚ろな眼差しで相手を動揺させました。"
+        ]
+      }
+    },
+    "others": {
+      "1": { 
+        "group": { 
+          "pt": [
+          "O silêncio de Lyra em {location} é quase reconfortante, até que a lâmina dela começa a gritar por nós duas.",
+          "Eu observava a timidez de Lyra sumir em {location}; ela se tornava a mesma fera que eu fui treinada para caçar.",
+          "Enquanto Lyra rugia em {location}, eu deslizava pelo rastro de sangue que ela deixava, limpando o que sobrava."
+      ],
+      "en": [
+        "Lyra's silence in {location} is almost comforting, until her blade starts screaming for both of us.",
+        "I watched Lyra's shyness vanish in {location}; she became the very beast I was trained to hunt.",
+        "While Lyra roared in {location}, I glided through the trail of blood she left behind, cleaning up what remained."
+      ],
+      "es": [
+        "El silencio de Lyra en {location} es casi reconfortante, hasta que su hoja comienza a gritar por las dos.",
+        "Observaba cómo la timidez de Lyra desaparecía en {location}; se convertía en la misma fiera que fui entrenada para cazar.",
+        "Mientras Lyra rugía en {location}, yo me deslizaba por el rastro de sangre que dejaba, limpiando lo que sobraba."
+      ],
+      "ru": [
+        "Молчание Лиры в {location} почти утешает, пока её клинок не начинает кричать за нас обеих.",
+        "Я видела, как застенчивость Лиры исчезает в {location}; она становилась тем самым зверем, на которого меня учили охотиться.",
+        "Пока Лира рычала в {location}, я скользила по оставленному ею кровавому следу, подчищая то, что осталось."
+      ],
+      "zh": [
+        "莱拉在{location}的沉默几乎令人欣慰，直到她的刀刃开始为我们两人呐喊。",
+        "我看着莱拉的羞怯在{location}消失；她变成了那个我曾被训练去猎杀的野兽。",
+        "当莱拉在{location}咆哮时，我沿着她留下的血迹滑行，清理余下的残局。"
+      ],
+      "ja": [
+        "{location}でのライラの沈黙はほとんど心地よいものですが、それも彼女の刃が私たちのために叫び始めるまでのことです。",
+        "{location}でライラの恥ずかしがり屋な一面が消えていくのを見ていました。彼女はまさに私が狩るように訓練された獣そのものになっていました。",
+        "ライラが{location}で咆哮する間、私は彼女が残した血の跡を滑るように進み、残骸を片付けました。"
+      ]
+    } 
+    },
+      "2": { 
+        "group": { 
+          "pt": [
+          "Aureth carrega o peso do dever em {location}; ela protege os vivos para que eu não tenha que lidar com seus fantasmas.",
+          "Eu via o cinismo nos olhos de Aureth em {location}; somos duas mulheres cansadas de ordens que nunca pedimos.",
+          "Aureth mantinha a guarda em {location}, um escudo inabalável que me permitia focar apenas na anatomia da dor."
+      ],
+      "en": [
+        "Aureth carries the weight of duty in {location}; she protects the living so I don't have to deal with their ghosts.",
+        "I saw the cynicism in Aureth's eyes in {location}; we are two women tired of orders we never asked for.",
+        "Aureth held the line in {location}, an unshakable shield that allowed me to focus only on the anatomy of pain."
+      ],
+      "es": [
+        "Aureth carga con el peso del deber en {location}; ella protege a los vivos para que yo no tenga que lidiar con sus fantasmas.",
+        "Veía el cinismo en los ojos de Aureth en {location}; somos dos mujeres cansadas de órdenes que nunca pedimos.",
+        "Aureth mantenía la guardia en {location}, un escudo inabalable que me permitía enfocarme solo en la anatomía del dolor."
+      ],
+      "ru": [
+        "Орет несет бремя долга в {location}; она защищает живых, чтобы мне не приходилось иметь дело с их призраками.",
+        "Я видела цинизм в глазах Орет в {location}; мы — две женщины, уставшие от приказов, о которых никогда не просили.",
+        "Орет держала оборону в {location}, будучи непоколебимым щитом, который позволял мне сосредоточиться только на анатомии боли."
+      ],
+      "zh": [
+        "奥莱丝在{location}背负着职责的重量；她保护生者，这样我就不必处理他们的幽灵。",
+        "我在{location}看到了奥莱丝眼中的愤世嫉俗；我们是两个厌倦了从未请求过的命令的女人。",
+        "奥莱丝在{location}坚守阵地，她那不可撼动的盾牌让我能专心研究痛苦的解剖结构。"
+      ],
+      "ja": [
+        "オーレスは{location}で義務の重荷を背負っています。彼女が生者を守ってくれるおかげで、私はその幽霊たちの相手をせずに済みます。",
+        "{location}でのオーレスの瞳に冷笑を見ました。私たちは二人とも、望んでもいない命令に疲れ果てた女なのです。",
+        "オーレスは{location}で守りを固めていました。その揺るぎない盾のおかげで、私は痛みの解剖学だけに集中することができました。"
+      ]
+    } 
+    },
+      "3": { 
+        "group": { 
+          "pt": [
+          "Maelis é como as raízes d{location}: silenciosa, imóvel e letal quando decide que algo não deve mais respirar.",
+          "Eu sentia a paciência de Maelis em {location}; ela esperava o momento de golpear como uma armadilha natural.",
+          "Enquanto o mundo caía em {location}, Maelis permanecia firme; eu aprecio quem não precisa gritar para mostrar poder."
+      ],
+      "en": [
+        "Maelis is like the roots of {location}: silent, still, and lethal when she decides that something should no longer breathe.",
+        "I felt Maelis's patience in {location}; she waited for the moment to strike like a natural trap.",
+        "While the world fell in {location}, Maelis remained firm; I appreciate those who don't need to shout to show power."
+      ],
+      "es": [
+        "Maelis es como las raíces de {location}: silenciosa, inmóvil y letal cuando decide que algo no debe respirar más.",
+        "Sentía la paciencia de Maelis en {location}; esperaba el momento de golpear como una trampa natural.",
+        "Mientras el mundo caía en {location}, Maelis permanecía firme; aprecio a quien no necesita gritar para mostrar poder."
+      ],
+      "ru": [
+        "Мэлис подобна корням {location}: безмолвная, неподвижная и смертоносная, когда решает, что кто-то больше не должен дышать.",
+        "Я чувствовала терпение Мэлис в {location}; она ждала момента для удара, словно природная ловушка.",
+        "Пока мир рушился в {location}, Мэлис оставалась твердой; я ценю тех, кому не нужно кричать, чтобы показать силу."
+      ],
+      "zh": [
+        "梅莉丝就像{location}的树根：沉默、静止，且当她决定某个生物不再呼吸时，她是致命的。",
+        "我感受到了梅莉丝在{location}的耐心；她像天然陷阱一样等待着出击的时刻。",
+        "当世界在{location}崩塌时，梅莉丝依然坚定；我欣赏那些不需要大声叫喊就能展现力量的人。"
+      ],
+      "ja": [
+        "メイリスは{location}の根のようです。静かで動かず、何かの息の根を止めると決めたときは致命的です。",
+        "{location}でのメイリスの忍耐を感じました。彼女は自然の罠のように、打ちかかる瞬間を待っていました。",
+        "{location}で世界が崩れゆく中、メイリスは毅然としていました。力を示すために叫ぶ必要のない者を、私は高く評価します。"
+      ]
+    } 
+    },
+      "4": { 
+        "group": { 
+          "pt": [
+          "Saryth faz um espetáculo em {location}, mas enquanto os espíritos dela mantiverem meu corpo inteiro, eu tolero o barulho.",
+          "Eu via as cores das curas de Saryth em {location} e me perguntava se os mortos também viam aquele brilho.",
+          "Saryth chamava os espíritos em {location} com tanta certeza que, por um momento, o medo das assombrações diminuía."
+      ],
+      "en": [
+        "Saryth puts on a show in {location}, but as long as her spirits keep my body whole, I'll tolerate the noise.",
+        "I saw the colors of Saryth's healings in {location} and wondered if the dead also saw that glow.",
+        "Saryth called the spirits in {location} with such certainty that, for a moment, the fear of hauntings diminished."
+      ],
+      "es": [
+        "Saryth monta un espectáculo en {location}, pero mientras sus espíritus mantengan mi cuerpo entero, toleraré el ruido.",
+        "Veía los colores de las curaciones de Saryth en {location} y me preguntaba si los muertos también veían ese brillo.",
+        "Saryth llamaba a los espíritus en {location} con tanta certeza que, por un momento, el miedo a las apariciones disminuía."
+      ],
+      "ru": [
+        "Сарит устраивает шоу в {location}, но пока её духи сохраняют моё тело целым, я потерплю этот шум.",
+        "Я видела цвета исцелений Сарит в {location} и гадала, видят ли мертвые это сияние.",
+        "Сарит призывала духов в {location} с такой уверенностью, что на мгновение страх перед призраками отступал."
+      ],
+      "zh": [
+        "莎莉丝在{location}进行着表演，但只要她的灵体能保我身体完好，我能容忍这些噪音。",
+        "我在{location}看到了莎莉丝治疗时的色彩，心想死者是否也能看到那道光芒。",
+        "莎莉丝在{location}以如此坚定的语气呼唤灵体，以至于有一瞬间，对闹鬼的恐惧都减轻了。"
+      ],
+      "ja": [
+        "サリスは{location}でショーを披露しますが、彼女の精霊たちが私の体を無事に保ってくれる限り、その騒々しさは我慢しましょう。",
+        "{location}でサリスの治癒の色を見て、死者たちもあの輝きを見ているのだろうかと考えました。",
+        "サリスが{location}であまりにも確信を持って精灵を呼ぶので、一瞬、幽霊への恐怖が和らぎました。"
+      ]
+    } 
+    },
+      "5": { 
+        "group": { 
+          "pt": [
+          "As canções de Nyssa em {location} aceitam a dor; é a única melodia que não me soa como uma mentira infantil.",
+          "Eu ouvia a melodia de Nyssa em {location} e sentia que ela entendia a marca que cada cicatriz deixa na alma.",
+          "Enquanto Nyssa cantava sobre a perda em {location}, eu me sentia menos sozinha em minha própria escuridão."
+      ],
+      "en": [
+        "Nyssa's songs in {location} embrace the pain; it's the only melody that doesn't sound like a childish lie to me.",
+        "I heard Nyssa's melody in {location} and felt that she understood the mark each scar leaves on the soul.",
+        "While Nyssa sang about loss in {location}, I felt less alone in my own darkness."
+      ],
+      "es": [
+        "Las canciones de Nyssa en {location} aceptan el dolor; es la única melodía que no me suena a mentira infantil.",
+        "Escuchaba la melodía de Nyssa en {location} y sentía que ella entendía la marca que cada cicatriz deja en el alma.",
+        "Mientras Nyssa cantaba sobre la pérdida en {location}, me sentía menos sola en mi propia oscuridad."
+      ],
+      "ru": [
+        "Песни Ниссы в {location} принимают боль; это единственная мелодия, которая не кажется мне детской ложью.",
+        "Я слушала мелодию Ниссы в {location} и чувствовала, что она понимает след, который каждый шрам оставляет в душе.",
+        "Пока Нисса пела об утрате в {location}, я чувствовала себя менее одинокой в своей собственной тьме."
+      ],
+      "zh": [
+        "尼莎在{location}的歌声接纳了痛苦；这是唯一一首听起来不像是幼稚谎言的旋律。",
+        "我在{location}听着尼莎的旋律，感觉到她理解每一道伤疤在灵魂上留下的印记。",
+        "当尼莎在{location}歌唱失去时，我在自己的黑暗中感到不再那么孤独。"
+      ],
+      "ja": [
+        "{location}でのニッサの歌は痛みを受け入れています。私にとって、子供じみた嘘のように聞こえない唯一のメロディです。",
+        "{location}でニッサの調べを聴き、彼女はそれぞれの傷跡が魂に残す印を理解しているのだと感じました。",
+        "ニッサが{location}で喪失について歌う間、私は自分自身の暗闇の中で孤独が和らぐのを感じました。"
+      ]      
+      } 
+    },
+      "6": { 
+        "group": { 
+          "pt": [
+          "Kaela ouve vozes que eu luto para esquecer em {location}; espero que as dela sejam mais gentis que as minhas.",
+          "Eu via Kaela sussurrando para o vazio em {location}; o som de vozes invisíveis sempre me faz apertar o cabo da adaga.",
+          "Kaela parecia confortável com o caos invisível d{location}, enquanto eu só desejava o silêncio absoluto."
+      ],
+      "en": [
+        "Kaela hears voices that I struggle to forget in {location}; I hope hers are kinder than mine.",
+        "I saw Kaela whispering to the void in {location}; the sound of invisible voices always makes me tighten my grip on my dagger's hilt.",
+        "Kaela seemed comfortable with the invisible chaos of {location}, while I only wished for absolute silence."
+      ],
+      "es": [
+        "Kaela escucha voces que yo lucho por olvidar en {location}; espero que las suyas sean más amables que las mías.",
+        "Veía a Kaela susurrando al vacío en {location}; el sonido de voces invisibles siempre me hace apretar el mango de mi daga.",
+        "Kaela parecía cómoda con el caos invisible de {location}, mientras que yo solo deseaba el silencio absoluto."
+      ],
+      "ru": [
+        "Каэла слышит голоса в {location}, которые я изо всех сил стараюсь забыть; надеюсь, её голоса добрее моих.",
+        "Я видела, как Каэла шепчется с пустотой в {location}; звук невидимых голосов всегда заставляет меня крепче сжимать рукоять кинжала.",
+        "Каэла казалась спокойной среди невидимого хаоса {location}, в то время как я мечтала лишь об абсолютной тишине."
+      ],
+      "zh": [
+        "凯拉在{location}听到了我努力想要遗忘的声音；我希望她的那些声音比我的要温柔。",
+        "我在{location}看到凯拉对着虚空低语；那些看不见的声音总是让我不自觉地握紧匕首柄。",
+        "凯拉似乎对{location}中看不见的混乱感到自在，而我只希望得到绝对的宁静。"
+      ],
+      "ja": [
+        "カエラは{location}で、私が忘れようともがいている声を聴いています。彼女の声が私のものより優しいことを願います。",
+        "{location}で虚空に向かって囁くカエラを見ました。目に見えない声は、いつも私に短剣の柄を握り締めさせます。",
+        "カエラは{location}の目に見えない混沌を心地よく感じているようでしたが、私はただ絶対的な静寂を望むばかりでした。"
+      ]
+    } 
+    },
+      "7": { 
+        "group": { 
+          "pt": [
+          "A lógica de Leona corta o caos d{location} tão puramente quanto meu aço corta a carne de uma fera.",
+          "Eu observava Leona analisar as correntes elétricas em {location}; há uma beleza fria em quem vê o mundo como um sistema.",
+          "Leona não se perdia em emoções em {location}; ela encontrava a solução mais elegante para o extermínio."
+      ],
+      "en": [
+        "Leona's logic cuts through the chaos of {location} as purely as my steel cuts through a beast's flesh.",
+        "I watched Leona analyze the electrical currents in {location}; there is a cold beauty in those who see the world as a system.",
+        "Leona didn't lose herself in emotions in {location}; she found the most elegant solution for extermination."
+      ],
+      "es": [
+        "La lógica de Leona corta el caos de {location} tan puramente como mi acero corta la carne de una fiera.",
+        "Observaba a Leona analizar las corrientes eléctricas en {location}; hay una belleza fría en quienes ven el mundo como un sistema.",
+        "Leona no se perdía en emociones en {location}; encontraba la solución más elegante para el exterminio."
+      ],
+      "ru": [
+        "Логика Леоны прорезает хаос {location} так же чисто, как моя сталь прорезает плоть зверя.",
+        "Я наблюдала, как Леона анализирует электрические токи в {location}; есть холодная красота в тех, кто видит мир как систему.",
+        "Леона не теряла себя в эмоциях в {location}; она находила самое элегантное решение для истребления."
+      ],
+      "zh": [
+        "利奥娜的逻辑穿透了{location}的混乱，就像我的钢刃刺穿野兽的血肉一样纯粹。",
+        "我观察着利奥娜在{location}分析电流；那些将世界视为系统的人身上有一种冷峻的美感。",
+        "利奥娜在{location}没有沉溺于情绪中；她找到了最优雅的歼灭方案。"
+      ],
+      "ja": [
+        "レオナの論理は、私の鋼が獣の肉を切り裂くのと同じくらい純粋に{location}の混沌を切り裂きます。",
+        "{location}で電流を分析するレオナを見ていました。世界をシステムとして見る者には、冷徹な美しさがあります。",
+        "レオナは{location}で感情に溺れることはありませんでした。彼女は抹殺のための最も優雅な解決策を見つけ出したのです。"
+      ]
+    } 
+    },
+      "8": { 
+        "group": { 
+          "pt": [
+          "Serah e eu compartilhamos uma afinidade sombria em {location}: ambas sabemos que a dor é a única linguagem que os monstros entendem.",
+          "Eu via o foco de Serah em entregar a agonia em {location}; em combate, nossas intenções se tornam uma só.",
+          "Serah não buscava glória em {location}, apenas a eficiência da dor; eu reconhecia aquele mestre nela."
+      ],
+      "en": [
+        "Serah and I share a dark affinity in {location}: we both know that pain is the only language monsters understand.",
+        "I saw Serah's focus on delivering agony in {location}; in combat, our intentions become one.",
+        "Serah didn't seek glory in {location}, only the efficiency of pain; I recognized that mastery in her."
+      ],
+      "es": [
+        "Serah y yo compartimos una afinidad sombría en {location}: ambas sabemos que el dolor es el único lenguaje que los monstruos entienden.",
+        "Veía el enfoque de Serah en entregar agonía en {location}; en combate, nuestras intenciones se vuelven una sola.",
+        "Serah no buscaba gloria en {location}, solo la eficiencia del dolor; reconocía esa maestría en ella."
+      ],
+      "ru": [
+        "У нас с Серой мрачное сходство в {location}: мы обе знаем, что боль — единственный язык, который понимают монстры.",
+        "Я видела, как Сера сосредоточена на причинении агонии в {location}; в бою наши намерения становятся единым целым.",
+        "Сера не искала славы в {location}, только эффективности боли; я узнала в ней это мастерство."
+      ],
+      "zh": [
+        "莎拉和我其同在{location}有一种阴暗的默契：我们都知道痛苦是怪物唯一能听懂的语言。",
+        "我看到了莎拉在{location}专注于施加痛苦；在战斗中，我们的意图合二为一。",
+        "莎拉在{location}不追求荣耀，只追求痛苦的效率；我从她身上认出了那种精湛的技艺。"
+      ],
+      "ja": [
+        "セーラと私は{location}で暗い親近感を共有しています。怪物が理解できる唯一の言語は苦痛であることを、私たちは共に知っています。",
+        "{location}で苦悶を与えることに集中するセーラの姿を見ました。戦闘中、私たちの意図は一つになります。",
+        "セーラは{location}で栄光を求めず、ただ苦痛の効率のみを求めていました。私は彼女の中にその極致を見ました。"
+      ]
+    } 
+    },
+      "9": { 
+        "group": { 
+          "pt": [
+          "Seraphine trata a vida em {location} como uma equação química; eu aprecio quem não tenta romantizar o rastro de sangue.",
+          "Eu ouvia os comentários secos de Seraphine em {location} enquanto ela fechava carne; a precisão dela é quase cirúrgica.",
+          "Para Seraphine, sobreviver em {location} era apenas ciência; para mim, era apenas mais um dia sem novos fantasmas."
+      ],
+      "en": [
+        "Seraphine treats life in {location} as a chemical equation; I appreciate those who don't try to romanticize the trail of blood.",
+        "I heard Seraphine's dry comments in {location} while she closed wounds; her precision is almost surgical.",
+        "For Seraphine, surviving in {location} was just science; for me, it was just another day without new ghosts."
+      ],
+      "es": [
+        "Seraphine trata la vida en {location} como una ecuación química; aprecio a quien no intenta romantizar el rastro de sangre.",
+        "Escuchaba los comentarios secos de Seraphine en {location} mientras cerraba la carne; su precisión es casi quirúrgica.",
+        "Para Seraphine, sobrevivir en {location} era solo ciencia; para mí, era solo un día más sin nuevos fantasmas."
+      ],
+      "ru": [
+        "Серафина относится к жизни в {location} как к химическому уравнению; я ценю тех, кто не пытается романтизировать кровавый след.",
+        "Я слышала сухие комментарии Серафины в {location}, пока она зашивала плоть; её точность почти хирургическая.",
+        "Для Серафины выживание в {location} было просто наукой; для меня — еще одним днем без новых призраков."
+      ],
+      "zh": [
+        "塞拉芬娜将{location}的生命视为化学方程式；我欣赏那些不试图将血迹浪漫化的人。",
+        "当塞拉芬娜在{location}缝合血肉时，我听着她干巴巴的评论；她的精准度几乎是手术级的。",
+        "对塞拉芬娜来说，在{location}生存只是科学；对我来说，这只是又一个没有新幽灵增加的一天。"
+      ],
+      "ja": [
+        "セラフィーンは{location}での命を化学反応式のように扱います。血の跡を美化しようとしない者を、私は好ましく思います。",
+        "{location}で傷口を塞ぐセラフィーンの素っ気ない言葉を聴きました。彼女の正確さはほとんど外科的です。",
+        "セラフィーンにとって{location}での生存はただの科学であり、私にとっては新しい幽霊が増えないただの一日でした。"
+      ]
+    } 
+    },
+      "10": { 
+        "group": { 
+          "pt": [
+          "Elara e eu nos movemos por {location} com a mesma afinidade pelo invisível, embora nossos objetivos sejam opostos.",
+          "Eu sentia a presença de Elara nas sombras d{location}; é raro encontrar alguém que entenda o peso de um passo silencioso.",
+          "Enquanto Elara mapeava as rotas d{location}, eu mapeava as gargantas; uma afinidade técnica que não requer palavras."
+      ],
+      "en": [
+        "Elara and I move through {location} with the same affinity for the invisible, though our goals are opposite.",
+        "I felt Elara's presence in the shadows of {location}; it's rare to find someone who understands the weight of a silent step.",
+        "While Elara mapped the routes of {location}, I mapped the throats; a technical affinity that requires no words."
+      ],
+      "es": [
+        "Elara y yo nos movemos por {location} con la misma afinidad por lo invisible, aunque nuestros objetivos sean opuestos.",
+        "Sentía la presencia de Elara en las sombras de {location}; es raro encontrar a alguien que entienda el peso de un paso silencioso.",
+        "Mientras Elara mapeaba las rutas de {location}, yo mapeaba las gargantas; una afinidad técnica que no requiere palabras."
+      ],
+      "ru": [
+        "Мы с Эларой движемся по {location} с одинаковой склонностью к невидимому, хотя наши цели противоположны.",
+        "Я чувствовала присутствие Элары в тенях {location}; редко встретишь того, кто понимает вес бесшумного шага.",
+        "Пока Элара намечала маршруты в {location}, я намечала глотки; техническое сходство, не требующее слов."
+      ],
+      "zh": [
+        "埃拉拉和我以同样对隐形的亲和力穿行于{location}，尽管我们的目标截然相反。",
+        "我在{location}的阴影中感受到了埃拉拉的存在；很少能遇到理解无声脚步之重量的人。",
+        "当埃拉拉在{location}绘制路线图时，我则在绘制咽喉分布图；这是一种不需要语言的技术默契。"
+      ],
+      "ja": [
+        "エララと私は、目的こそ逆ですが、目に見えないものへの同じ親和性を持って{location}を進みます。",
+        "{location}の影の中にエララの気配を感じました。静かな一歩の重みを理解する者に出会うのは稀なことです。",
+        "エララが{location}のルートをマッピングする間、私は喉元をマッピングしていました。言葉を必要としない技術的な親和性です。"
+      ]
+    } 
+    },
+      "12": { 
+        "group": { 
+          "pt": [
+          "A obsessão de Morga pela simetria em {location} é quase poética; ela transforma a matança em uma geometria impecável.",
+          "Eu contava os golpes de Morga em {location} até o sexto; há um conforto estranho na previsibilidade da violência dela.",
+          "Morga via arte onde outros viam apenas sangue em {location}; eu via apenas uma técnica que evitava erros desnecessários."
+        ],
+        "en": [
+          "Morga's obsession with symmetry in {location} is almost poetic; she turns slaughter into flawless geometry.",
+          "I counted Morga's strikes in {location} up to the sixth; there is a strange comfort in the predictability of her violence.",
+          "Morga saw art where others saw only blood in {location}; I saw only a technique that avoided unnecessary mistakes."
+        ],
+        "es": [
+          "La obsesión de Morga por la simetría en {location} es casi poética; convierte la matanza en una geometría impecable.",
+          "Contaba los golpes de Morga en {location} hasta el sexto; hay un extraño consuelo en la previsibilidad de su violencia.",
+          "Morga veía arte donde otros solo veían sangre en {location}; yo veía solo una técnica que evitaba errores innecesarios."
+        ],
+        "ru": [
+          "Одержимость Морги симметрией в {location} почти поэтична; она превращает резню в безупречную геометрию.",
+          "Я считала удары Морги в {location} до шестого; есть странное утешение в предсказуемости её насилия.",
+          "Морга видела искусство там, где другие видели только кровь в {location}; я видела лишь технику, исключающую лишние ошибки."
+        ],
+        "zh": [
+          "摩加在{location}对对称的执着几乎是诗意的；她将杀戮变成了完美的几何学。",
+          "我在{location}数着摩加的打击次数，直到第六次；她暴力的可预测性带给我一种奇怪的慰藉。",
+          "在{location}，摩加在他人只看到鲜血的地方看到了艺术；而我只看到了避免不必要错误的技巧。"
+        ],
+        "ja": [
+          "{location}でのモルガの対称性への執着はほとんど詩的です。彼女は虐殺を完璧な幾何学へと変えます。",
+          "{location}でモルガの打撃を6回まで数えました。彼女の暴力の予見可能性には、奇妙な安らぎがあります。",
+          "{location}で他の者が血しか見ない場所に、モルガは芸術を見ていました。私は不必要なミスを避ける技術だけを見ていました。"
+        ]        
+      } 
+    },
+      "13": { 
+        "group": { 
+          "pt": [
+          "Mina conversa com o que eu mais temo em {location}; eu prefiro que ela mantenha o diálogo com os mortos longe dos meus ouvidos.",
+          "Eu via Mina tratando cadáveres como amigos em {location}; eu só consigo vê-los como as assombrações que me perseguem.",
+          "O modo como Mina ouve os mortos em {location} me dá calafrios; eu passei a vida tentando ignorar esses mesmos sussurros."
+      ],
+      "en": [
+        "Mina talks to what I fear most in {location}; I prefer she keeps her dialogue with the dead away from my ears.",
+        "I saw Mina treating corpses like friends in {location}; I can only see them as the hauntings that pursue me.",
+        "The way Mina listens to the dead in {location} gives me chills; I've spent my life trying to ignore those same whispers."
+      ],
+      "es": [
+        "Mina habla con lo que más temo en {location}; prefiero que mantenga su diálogo con los muertos lejos de mis oídos.",
+        "Veía a Mina tratando a los cadáveres como amigos en {location}; yo solo puedo verlos como las apariciones que me persiguen.",
+        "La forma en que Mina escucha a los muertos en {location} me da escalofríos; he pasado mi vida intentando ignorar esos mismos susurros."
+      ],
+      "ru": [
+        "Мина разговаривает с тем, чего я боюсь больше всего в {location}; я предпочитаю, чтобы она держала свои диалоги с мертвыми подальше от моих ушей.",
+        "Я видела, как Мина относится к трупам как к друзьям в {location}; я же вижу в них только призраков, преследующих меня.",
+        "То, как Мина слушает мертвых в {location}, бросает меня в дрожь; я всю жизнь пыталась игнорировать этот самый шепот."
+      ],
+      "zh": [
+        "米娜在{location}与我最恐惧的事物交谈；我宁愿她让那些与死者的对话远离我的耳朵。",
+        "我看到米娜在{location}像对待朋友一样对待尸体；而我只能将它们视为追逐我的幻影。",
+        "米娜在{location}倾听死者声音的方式让我感到脊背发凉；我花了一辈子的时间试图忽视同样的声音。"
+      ],
+      "ja": [
+        "ミーナは{location}で私が最も恐れるものと語り合います。死者との対話は私の耳に届かないところでやってほしいものです。",
+        "{location}で死体を友人のように扱うミーナを見ました。私には、それらは自分を追いかけてくる亡霊にしか見えません。",
+        "{location}でミーナが死者の声に耳を傾ける様子には寒気がします。私は人生をかけて、その同じ囁きを無視しようとしてきたのですから。"
+      ]
+    } 
+    },
+      "14": { 
+        "group": { 
+          "pt": [
+          "Raska entende que tudo em {location} tem um ponto de falha; eu sou apenas a ferramenta que acelera esse colapso.",
+          "Eu ouvia as palavras rápidas de Raska em {location} enquanto ela reforçava as defesas; ela conserta coisas, eu quebro vidas.",
+          "Raska via honestidade no aço d{location}; eu via apenas o instrumento que me permite caçar sem remorso."
+      ],
+      "en": [
+        "Raska understands that everything in {location} has a failure point; I am just the tool that accelerates that collapse.",
+        "I heard Raska's quick words in {location} while she reinforced defenses; she fixes things, I break lives.",
+        "Raska saw honesty in the steel of {location}; I saw only the instrument that allows me to hunt without remorse."
+      ],
+      "es": [
+        "Raska entiende que todo en {location} tiene un punto de falla; yo soy solo la herramienta que acelera ese colapso.",
+        "Escuchaba las palabras rápidas de Raska en {location} mientras reforzaba las defensas; ella arregla cosas, yo rompo vidas.",
+        "Raska veía honestidad en el acero de {location}; yo veía solo el instrumento que me permite cazar sin remordimientos."
+      ],
+      "ru": [
+        "Раска понимает, что у всего в {location} есть точка отказа; я лишь инструмент, ускоряющий этот крах.",
+        "Я слышала быструю речь Раски в {location}, пока она укрепляла защиту; она чинит вещи, я ломаю жизни.",
+        "Раска видела честность в стали {location}; я видела лишь инструмент, позволяющий мне охотиться без угрызений совести."
+      ],
+      "zh": [
+        "拉斯卡明白{location}中的一切都有故障点；而我只是加速这种崩溃的工具。",
+        "当拉斯卡在{location}加固防御时，我听着她急促的话语；她修理东西，而我摧毁生命。",
+        "拉斯卡在{location}的钢铁中看到了诚实；而我只看到了让我能毫无悔意地进行狩猎的工具。"
+      ],
+      "ja": [
+        "ラスカは{location}のあらゆるものに故障点があることを理解しています。私はその崩壊を早める道具に過ぎません。",
+        "{location}で防御を固めるラスカの早口な言葉を聴きました。彼女は物を直し、私は命を壊します。",
+        "ラスカは{location}の鋼に正直さを見ていました。私は、悔恨なく狩りをするための道具しか見ていません。"
+      ]
+    } 
+    },
+      "15": { 
+        "group": { 
+          "pt": [
+          "Gaela entende a terra d{location} melhor que as pessoas; eu respeito quem prefere o eco da pedra às palavras humanas.",
+          "Eu sentia a vibração do solo quando Gaela pedia ajuda às rochas d{location}; uma comunicação que não deixa espaço para mentiras.",
+          "Enquanto Gaela ouvia a montanha em {location}, eu vigiava as sombras; ambas buscamos respostas no que é antigo e silencioso."
+      ],
+      "en": [
+        "Gaela understands the earth of {location} better than people; I respect those who prefer the stone's echo to human words.",
+        "I felt the vibration of the ground when Gaela asked the rocks of {location} for help; a communication that leaves no room for lies.",
+        "While Gaela listened to the mountain in {location}, I watched the shadows; both of us seek answers in what is ancient and silent."
+      ],
+      "es": [
+        "Gaela entiende la tierra de {location} mejor que a las personas; respeto a quien prefiere el eco de la piedra a las palabras humanas.",
+        "Sentía la vibración del suelo cuando Gaela pedía ayuda a las rocas de {location}; una comunicación que no deja espacio para mentiras.",
+        "Mientras Gaela escuchaba a la montaña en {location}, yo vigilaba las sombras; ambas buscamos respuestas en lo que es antiguo y silencioso."
+      ],
+      "ru": [
+        "Гаэла понимает землю {location} лучше, чем людей; я уважаю тех, кто предпочитает эхо камня человеческим словам.",
+        "Я чувствовала вибрацию почвы, когда Гаэла просила помощи у скал {location}; общение, в котором нет места лжи.",
+        "Пока Гаэла слушала гору в {location}, я следила за тенями; мы обе ищем ответы в том, что вечно и безмолвно."
+      ],
+      "zh": [
+        "盖拉比人类更了解{location}的土地；我尊重那些比起人类语言更喜欢石头回声的人。",
+        "当盖拉请求{location}的岩石提供帮助时，我感受到了大地的震动；这种交流不给谎言留任何空间。",
+        "当盖拉在{location}倾听山脉的声音时，我注视着阴影；我们都在古老而宁静的事物中寻找答案。"
+      ],
+      "ja": [
+        "ガエラは人よりも{location}の大地を理解しています。人の言葉よりも石の残響を好む者を、私は尊敬します。",
+        "ガエラが{location}の岩に助けを求めたとき、地面の振動を感じました。嘘の入り込む余地のない対話です。",
+        "ガエラが{location}で山に耳を傾ける間、私は影を見張っていました。私たちは共に、古く静かなものの中に答えを求めているのです。"
+      ]
+    } 
+    }
+    }    
   }
 }

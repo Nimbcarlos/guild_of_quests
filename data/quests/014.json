@@ -47,5 +47,75 @@
       "zh": "农民们",
       "ja": "農民たち"
     }
+  },
+"conclusion": {
+  "success": {
+    "default": {
+      "pt": [
+        "Intervim nas ameaças e apresentei uma solução de uso compartilhado para a faixa de terra. Após mediar as queixas acumuladas por décadas, os fazendeiros aceitaram um novo marco divisório.",
+        "Apaziguei os ânimos de ambos os lados e estabeleci um contrato formal de fronteira. O acordo foi assinado e a ameaça de violência foi neutralizada mediante compensações mútuas.",
+        "Identifiquei que o conflito era mantido por teimosia, não por necessidade. Estabeleci uma nova demarcação e garanti que ambos os vizinhos entendessem as perdas legais de um possível homicídio."
+      ],
+      "en": [
+        "I intervened in the threats and presented a shared-use solution for the strip of land. After mediating decades of accumulated grievances, the farmers accepted a new boundary marker.",
+        "I calmed tempers on both sides and established a formal border contract. The agreement was signed, and the threat of violence was neutralized through mutual compensation.",
+        "I identified that the conflict was maintained by stubbornness, not necessity. I established a new demarcation and ensured both neighbors understood the legal losses of a potential homicide."
+      ],
+      "es": [
+        "Intervine en las amenazas y presenté una solución de uso compartido para la franja de tierra. Tras mediar en quejas de décadas, los agricultores aceptaron un nuevo marco divisorio.",
+        "Calmé los ánimos de ambos lados y establecí un contrato formal de frontera. El acuerdo fue firmado y la amenaza de violencia fue neutralizada mediante compensaciones mutuas.",
+        "Identifiqué que el conflicto se mantenía por terquedad, no por necesidad. Establecí una nueva demarcación y aseguré que ambos entendieran las pérdidas legales de un posible homicidio."
+      ],
+      "ru": [
+        "Я вмешалась в ситуацию и предложила решение о совместном использовании полосы земли. После разбора многолетних жалоб фермеры приняли новый пограничный знак.",
+        "Я успокоила обе стороны и составила формальный договор о границе. Соглашение было подписано, а угроза насилия нейтрализована путем взаимных компенсаций.",
+        "Я определила, что конфликт поддерживался упрямством, а не необходимостью. Я установила новую демаркацию и убедилась, что оба соседа осознали правовые последствия убийства."
+      ],
+      "zh": [
+        "我介入了威胁并提出了土地共享使用方案。在调解了数十年的积怨后，农夫们接受了新的边界标志。",
+        "我平息了双方的情绪，并建立了一份正式的边界合同。协议已签署，通过相互补偿中和了暴力威胁。",
+        "我发现冲突是源于固执而非必要性。我划定了新界限，并确保双方邻居都明白潜在谋杀带来的法律损失。"
+      ],
+      "ja": [
+        "殺害予告に介入し、土地の共同利用案を提示しました。数十年にわたる不満を仲裁した結果、農民たちは新しい境界標を受け入れました。",
+        "双方の興奮を鎮め、正式な境界契約を締結しました。合意書が署名され、相互補償を通じて暴力の脅威は中和されました。",
+        "紛争が実利ではなく頑固さによるものだと特定しました。新たな境界線を設定し、殺人が起きた場合の法的損失を双方に理解させました。"
+      ]
+    }
+  },
+"failure": {
+    "default": {
+      "pt": [
+        "A mediação falhou devido à intransigência de uma das partes. Minha presença apenas acelerou a troca de agressões físicas e a disputa permanece sem solução, agora com feridos.",
+        "Não consegui estabelecer um terreno comum. Os fazendeiros rejeitaram todas as propostas de acordo e a fronteira continua sendo um ponto de conflito armado iminente.",
+        "Minhas tentativas de diálogo foram ignoradas. A teimosia de vinte anos provou-se mais forte que a diplomacia, e a milícia local teve que ser acionada para evitar mortes."
+      ],
+      "en": [
+        "Mediation failed due to the intransigence of one of the parties. My presence only accelerated the exchange of physical aggression, and the dispute remains unresolved, now with injuries.",
+        "I failed to establish common ground. The farmers rejected all settlement proposals, and the border remains a point of imminent armed conflict.",
+        "My attempts at dialogue were ignored. Twenty years of stubbornness proved stronger than diplomacy, and the local militia had to be called in to prevent deaths."
+      ],
+      "es": [
+        "La mediación falló debido a la intransigencia de una de las partes. Mi presencia solo aceleró el intercambio de agresiones físicas y la disputa sigue sin resolverse.",
+        "No logré establecer un terreno común. Los agricultores rechazaron todas las propuestas de acuerdo y la frontera sigue siendo un punto de conflicto armado inminente.",
+        "Mis intentos de diálogo fueron ignorados. La terquedad de veinte años resultó más fuerte que la diplomacia, y se tuvo que llamar a la milicia local."
+      ],
+      "ru": [
+        "Посредничество провалилось из-за непримиримости одной из сторон. Мое присутствие лишь ускорило переход к физической агрессии, спор остается нерешенным, теперь с ранеными.",
+        "Мне не удалось найти общий язык. Фермеры отвергли все предложения по урегулированию, и граница остается точкой неизбежного вооруженного конфликта.",
+        "Мои попытки диалога были проигнорированы. Двадцатилетнее упрямство оказалось сильнее дипломатии, пришлось вызвать местное ополчение."
+      ],
+      "zh": [
+        "由于其中一方固执己见，调解失败。我的出现仅加速了身体攻击的发生，争端仍未解决，且出现了伤者。",
+        "我未能建立共识。农夫们拒绝了所有和解提议，边界仍是迫在眉睫的武装冲突点。",
+        "我的对话尝试被无视。二十年的固执证明了它比外交手段更强硬，不得不动用地方民兵以防止死亡。"
+      ],
+      "ja": [
+        "一方の不譲歩により仲裁は失敗しました。私の介入はかえって物理的な衝突を早める結果となり、負傷者を出したまま紛争は未解決です。",
+        "妥協点を見出すことができませんでした。農民たちはすべての和解案を拒否し、境界線は依然として武力衝突の危機のままです。",
+        "対話の試みは無視されました。二十年来の頑固さは外交よりも強く、死者を防ぐために地元民兵を呼ぶ事態となりました。"
+      ]
+    }
   }
+}
 }

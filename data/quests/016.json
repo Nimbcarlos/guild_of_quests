@@ -50,5 +50,107 @@
       "zh": "矿工们",
       "ja": "鉱夫たち"
     }
+  },
+"conclusion": {
+  "success": {
+    "investigation": {
+      "pt": [
+        "Inspecionei as galerias inferiores e identifiquei que os gritos eram causados por ventilação irregular em fendas geológicas. O isolamento das cavidades cessou o fenômeno e a extração foi retomada.",
+        "Rastreei a origem dos ruídos até um sistema de cavernas adjacente habitado por fauna subterrânea. Com a instalação de barreiras acústicas, os mineiros retornaram ao trabalho.",
+        "Identifiquei que o pânico foi amplificado por gases alucinógenos naturais em um novo setor. Após a purificação do ar e a explicação técnica aos mineiros, a greve foi encerrada."
+      ],
+      "en": [
+        "I inspected the lower galleries and identified that the screams were caused by irregular ventilation in geological fissures. Sealing the cavities stopped the phenomenon, and extraction resumed.",
+        "I traced the origin of the noises to an adjacent cave system inhabited by subterranean fauna. With the installation of acoustic barriers, the miners returned to work.",
+        "I identified that the panic was amplified by natural hallucinogenic gases in a new sector. After air purification and technical explanation to the miners, the strike ended."
+      ],
+      "es": [
+        "Inspeccioné las galerías inferiores e identifiqué que los gritos eran causados por ventilación irregular en grietas geológicas. El sellado de las cavidades detuvo el fenómeno.",
+        "Rastreé el origen de los ruidos hasta un sistema de cuevas adyacente habitado por fauna subterránea. Con barreras acústicas, los mineros regresaron al trabajo.",
+        "Identifiqué que el pánico fue amplificado por gases alucinógenos naturales. Tras la purificación del aire y la explicación técnica, la huelga terminó."
+      ],
+      "ru": [
+        "Я осмотрела нижние галереи и определила, что крики были вызваны неправильной вентиляцией в геологических трещинах. Изоляция пустот прекратила явление.",
+        "Я проследила источник шума до соседней системы пещер, заселенной подземной фауной. После установки акустических барьеров шахтеры вернулись к работе.",
+        "Я выяснила, что паника была усилена природными галлюциногенными газами. После очистки воздуха и технического объяснения забастовка была прекращена."
+      ],
+      "zh": [
+        "我检查了下层坑道，确认尖叫声是由地质裂缝中的不规则通风引起的。封堵孔洞后现象消失，开采恢复。",
+        "我将噪音源追踪到由地下生物栖息的相邻洞穴系统。通过安装隔音屏障，矿工们恢复了工作。",
+        "我确认恐慌是由新区域的天然致幻气体放大的。经过空气净化和向矿工进行技术解释后，罢工结束。"
+      ],
+      "ja": [
+        "下層ギャラリーを調査し、叫び声が地質学的亀裂内の不規則な換気によるものであると特定しました。空洞を封鎖して現象は収まり、採掘が再開されました。",
+        "騒音の源を特定し、地下生物が生息する隣接する洞穴システムであることを突き止めました。遮音壁の設置により、鉱夫たちは仕事に戻りました。",
+        "パニックが新セクターの天然幻覚ガスによって増幅されていたことを特定しました。空気洗浄と技術的な説明の後、ストライキは解除されました。"
+      ]
+    },
+"default": {
+      "pt": [
+        "Realizei ritos de consagração nas entradas das minas e distribuí amuletos de proteção. A sensação de segurança foi restaurada e os mineiros aceitaram retornar às profundezas sob a guarda divina.",
+        "Purifiquei os túneis de energias residuais e estabeleci um perímetro sagrado. O medo espiritual foi neutralizado e a produção de minério foi normalizada imediatamente.",
+        "Conduzi uma prece coletiva e selei as fendas de onde vinham os sons com selos rúnicos. A crença na proteção do templo foi suficiente para encerrar a paralisação."
+      ],
+      "en": [
+        "I performed consecration rites at the mine entrances and distributed protection amulets. The sense of security was restored, and the miners agreed to return to the depths under divine watch.",
+        "I purified the tunnels of residual energies and established a sacred perimeter. Spiritual fear was neutralized, and ore production was normalized immediately.",
+        "I led a collective prayer and sealed the fissures where the sounds came from with runic seals. Belief in the temple's protection was enough to end the shutdown."
+      ],
+      "es": [
+        "Realicé ritos de consagración y distribuí amuletos de protección. Se restauró la sensación de seguridad y los mineros aceptaron regresar a las profundidades.",
+        "Purifiqué los túneles de energías residuales y establecí un perímetro sagrado. El miedo espiritual fue neutralizado y la producción se normalizó.",
+        "Dirigí una oración colectiva y sellé las grietas con sellos rúnicos. La creencia en la protección del templo fue suficiente para terminar el paro."
+      ],
+      "ru": [
+        "Я провела обряды освящения и раздала защитные амулеты. Чувство безопасности было восстановлено, и шахтеры согласились вернуться в глубины.",
+        "Я очистила туннели от остаточной энергии и установила священный периметр. Духовный страх был нейтрализован, добыча руды нормализовалась.",
+        "Я провела общую молитву и закрыла трещины руническими печатями. Вера в защиту храма оказалась достаточной для прекращения забастовки."
+      ],
+      "zh": [
+        "我在矿井入口举行了祝圣仪式并分发了保护符。安全感得到恢复，矿工们同意在神灵庇佑下返回深处。",
+        "我净化了隧道中的残留能量并建立了神圣边界。精神上的恐惧被抵消，矿石生产立即恢复正常。",
+        "我带领大家进行了集体祈祷，并用符文印记封印了发出声音的裂缝。对神殿保护的信仰足以结束停工。"
+      ],
+      "ja": [
+        "鉱山の入口で清めの儀式を行い、護符を配布しました。安全性が確保されたと判断し、鉱夫たちは神の加護のもとで地下に戻ることに同意しました。",
+        "トンネル内の残留エネルギーを浄化し、聖域を設定しました。精神的な恐怖は払拭され、鉱石の生産は直ちに正常化しました。",
+        "合同祈祷を行い、音の発生源である亀裂をルーンの封印で閉じました。神殿の加護への信頼により、ストライキは終了しました。"
+      ]
+    }
+  },
+"failure": {
+    "default": {
+      "pt": [
+        "Não consegui identificar a origem dos sons nem acalmar a superstição dos mineiros. A greve persiste e o suprimento de metal da cidade começou a escassear.",
+        "A tentativa de intervenção foi vista como insuficiente. O pânico aumentou após um novo incidente sonoro, e os mineiros abandonaram a mina por tempo indeterminado.",
+        "Minha presença na mina não resolveu o impasse. A falta de provas físicas ou conforto espiritual manteve os postos de trabalho vazios, prejudicando a economia local."
+      ],
+      "en": [
+        "I was unable to identify the source of the sounds or calm the miners' superstition. The strike persists, and the city's metal supply has begun to run low.",
+        "The intervention attempt was seen as insufficient. Panic increased after a new sound incident, and the miners abandoned the mine indefinitely.",
+        "My presence at the mine did not resolve the deadlock. The lack of physical evidence or spiritual comfort kept the workstations empty, harming the local economy."
+      ],
+      "es": [
+        "No pude identificar el origen de los sonidos ni calmar la superstición. La huelga persiste y el suministro de metal ha comenzado a escasear.",
+        "El intento de intervención fue visto como insuficiente. El pánico aumentó y los mineros abandonaron la mina por tiempo indeterminado.",
+        "Mi presencia no resolvió el estancamiento. La falta de pruebas o consuelo espiritual mantuvo los puestos vacíos, perjudicando la economía."
+      ],
+      "ru": [
+        "Мне не удалось определить источник звуков или успокоить суеверия шахтеров. Забастовка продолжается, поставки металла в город сократились.",
+        "Попытка вмешательства была сочтена недостаточной. Паника усилилась, и шахтеры покинули шахту на неопределенный срок.",
+        "Мое присутствие не решило тупиковую ситуацию. Отсутствие улик или духовного утешения оставило рабочие места пустыми."
+      ],
+      "zh": [
+        "我未能识别声音的来源，也未能平息矿工的迷信。罢工持续，城市的金属供应开始短缺。",
+        "干预尝试被认为是不充分的。在发生新的噪音事件后恐慌加剧，矿工们无限期放弃了矿井。",
+        "我在矿井的出现未能解决僵局。由于缺乏物理证据或精神慰藉，工位依然空缺，损害了地方经济。"
+      ],
+      "ja": [
+        "音の源を特定できず、鉱夫たちの迷信を静めることもできませんでした。ストライキは続き、都市の金属供給が不足し始めています。",
+        "介入の試みは不十分と見なされました。新たな騒音の発生でパニックが増大し、鉱夫たちは無期限に鉱山を放棄しました。",
+        "私の派遣ではデッドロックを解消できませんでした。物理的な証拠も精神的な救いも欠けていたため、職場は空席のままで地域経済に悪影響を与えています。"
+      ]
+    }
   }
+}
 }

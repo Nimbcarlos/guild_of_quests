@@ -45,5 +45,107 @@
       "en": "the locked safe",
       "es": "la caja fuerte cerrada"
     }
+  },
+  "conclusion": {
+    "success": {
+      "arcana": {
+        "pt": [
+          "O metal vibrava como se pertencesse a um povo mágico distante. Encontrei pergaminhos antigos com selos arcanos que o Lorde tentou esconder.",
+          "A estrutura do cofre remetia a um povo arcano de terras remotas. Os pergaminhos lá dentro exalavam uma energia muito antiga e suspeita.",
+          "Identifiquei traços de magia de um povo distante no mecanismo. Havia pergaminhos com fórmulas que o nobre pegou com pressa."
+        ],
+        "en": [
+          "The mechanism seemed forged by a distant magical people. We found ancient scrolls with strange seals inside.",
+          "I identified traces of a remote civilization in the vault's structure. Weycroft collected the scrolls with suspicious haste.",
+          "The technique used belonged to a faraway people. I noticed some scrolls with coordinates before the Lord slammed the door shut."
+        ],
+        "es": [
+          "El mecanismo parecía forjado por un pueblo mágico distante. Encontramos pergaminhos antiguos con sellos extraños dentro.",
+          "Identifiqué rastros de un pueblo remoto en la estructura de la bóveda. Weycroft recogió los pergaminhos con una prisa sospechosa.",
+          "La técnica utilizada pertenecía a un pueblo lejano. Noté algunos pergaminhos con coordenadas antes de que el Lord cerrara la puerta."
+        ],
+        "ru": [
+          "Механизм казался выкованным далеким магическим народом. Внутри мы нашли древние свитки со странными печатями.",
+          "Я обнаружила следы исчезнувшей цивилизации в структуре хранилища. Уэйкрофт забрал свитки с подозрительной поспешностью.",
+          "Использованная техника принадлежала далекому народу. Я заметила свитки с координатами до того, как Лорд захлопнул дверь."
+        ],
+        "zh": [
+          "这个机构似乎是由遥远的魔法种族锻造的。我们在里面发现了带有奇怪封印的古老卷轴。",
+          "我在金库结构中发现了偏远种族的痕迹。威克罗夫特以一种可疑的匆忙收起了卷轴。",
+          "所使用的技术属于一个遥远的民族。在领主关门之前，我注意到一些带有坐标的卷轴。"
+        ],
+        "ja": [
+          "その仕掛けは遠方の魔法の民によって鍛造されたようでした。中に奇妙な封印が施された古文書を見つけました。",
+          "金庫の構造に遠い民の痕跡を確認しました。ウェイクロフトは疑わしいほど急いで文書を回収していました。",
+          "使われていた技術は遠方の民のものでした。領主が扉を閉める前に、座標が記されたいくつかの文書に気づきました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Consegui abrir o mecanismo. O Lorde recolheu os pergaminhos rapidamente e nos mandou embora sem dizer uma palavra.",
+          "A porta finalmente cedeu. O conteúdo parecia ser apenas pergaminhos pessoais, mas a reação de Weycroft foi muito exagerada.",
+          "O cofre foi aberto com sucesso. Entregamos os pergaminhos solicitados e fomos pagos com uma pressa desconfortável."
+        ],
+        "en": [
+          "I managed to release the final latch. The Lord took his documents and dismissed us without another word.",
+          "The combination finally worked. Weycroft recovered what he wanted and paid us as agreed.",
+          "The safe opened without major issues. We finished the job and left the manor under the noble's watchful eye."
+        ],
+        "es": [
+          "Logré liberar el pestillo final. El Lord tomó sus documentos y nos despidió sin decir una palabra más.",
+          "La combinación finalmente funcionó. Weycroft recuperó lo que quería y nos pagó según lo acordado.",
+          "La caja fuerte se abrió sin mayores problemas. Terminamos el trabajo y salimos de la mansión bajo la mirada vigilante del noble."
+        ],
+        "ru": [
+          "Мне удалось освободить последнюю защелку. Лорд забрал свои документы и отпустил нас, не сказав больше ни слова.",
+          "Комбинация наконец сработала. Уэйкрофт вернул то, что хотел, и заплатил нам, как договаривались.",
+          "Сейф открылся без особых проблем. Мы закончили работу и покинули поместье под бдительным взором дворянина."
+        ],
+        "zh": [
+          "我设法松开了最后的插销。领主拿走了他的文件，一言不发地打发了我们。",
+          "密码终于生效了。威克罗夫特拿回了他想要的东西，并按照约定支付了我们的报酬。",
+          "保险箱顺利打开。我们完成了工作，在贵族警惕的目光下离开了庄园。"
+        ],
+        "ja": [
+          "最後のラッチを外すことができました。領主は書類を手に取ると、それ以上何も言わずに私たちを下がらせました。",
+          "ついに暗証番号が機能しました。ウェイクロフトは望みのものを回収し、約束通りに報酬を支払いました。",
+          "金庫は大きな問題もなく開きました。仕事を終え、貴族の監視の眼の下、邸宅を後にしました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "O mecanismo interno colapsou e a porta selou de vez. O Lorde ficou furioso por não recuperarmos seus pergaminhos.",
+          "Não conseguimos desvendar a trava a tempo e fomos expulsos da mansão sob o olhar de puro ódio de Weycroft.",
+          "A tranca emperrou permanentemente. Falhamos em recuperar os documentos e saímos de lá antes que os guardas chegassem."
+        ],
+        "en": [
+          "The security system locked permanently. The Lord was furious that we didn't recover his scrolls.",
+          "We failed to decipher the mechanism in time. We were expelled from the manor under threats from the guards.",
+          "The lock jammed irreversibly. We left before the situation with Weycroft could worsen."
+        ],
+        "es": [
+          "El sistema de seguridad se bloqueó permanentemente. El Lord estaba furioso porque no recuperamos sus pergaminhos.",
+          "No logramos descifrar el mecanismo a tiempo. Fuimos expulsados de la mansión bajo amenazas de los guardias.",
+          "La cerradura se atascó de forma irreversible. Salimos de allí antes de que la situación con Weycroft empeorara."
+        ],
+        "ru": [
+          "Система безопасности заблокировалась окончательно. Лорд был в ярости из-за того, что мы не вернули его свитки.",
+          "Мы не успели расшифровать механизм вовремя. Нас выставили из поместья под угрозами стражи.",
+          "Замок заклинило безвозвратно. Мы ушли оттуда, пока ситуация с Уэйкрофтом не стала еще хуже."
+        ],
+        "zh": [
+          "安保系统永久锁定了。领主因为我们没能找回他的卷轴而勃然大怒。",
+          "我们没能及时破译这个机构。在卫兵的威胁下，我们被逐出了庄园。",
+          "锁死死地卡住了。在与威克罗夫特的关系进一步恶化之前，我们离开了那里。"
+        ],
+        "ja": [
+          "セキュリティシステムが永久にロックされました。領主は文書を回収できなかったことに激怒していました。",
+          "時間内に仕掛けを解読できませんでした。衛兵の脅しを受けながら、邸宅から追い出されました。",
+          "鍵が修復不可能なほど詰まってしまいました。ウェイクロフトとの状況が悪化する前に、そこを去りました。"
+        ]
+      }
+    }
   }
 }

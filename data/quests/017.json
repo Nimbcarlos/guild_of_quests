@@ -50,5 +50,107 @@
       "zh": "商人",
       "ja": "商人"
     }
+  },
+"conclusion": {
+  "success": {
+    "intimidation": {
+      "pt": [
+        "Expus as consequências legais e físicas de continuar com a sabotagem do suprimento público. Os mercadores encerraram as hostilidades de imediato para evitar sanções da guilda.",
+        "Interrompi um ato de sabotagem em curso e demonstrei que a guilda não tolerará a fome da ala leste por interesses privados. Os estoques foram liberados sob vigilância.",
+        "Enquadrei ambos os mercadores sob ameaça de exílio comercial. A disputa foi encerrada por medo de retaliação, garantindo a retomada imediata das entregas de comida."
+      ],
+      "en": [
+        "I exposed the legal and physical consequences of continuing to sabotage public supplies. The merchants ended hostilities immediately to avoid guild sanctions.",
+        "I interrupted an ongoing act of sabotage and demonstrated that the guild will not tolerate hunger in the east wing for private interests. Stocks were released under surveillance.",
+        "I cornered both merchants under threat of commercial exile. The dispute ended due to fear of retaliation, ensuring the immediate resumption of food deliveries."
+      ],
+      "es": [
+        "Expuse las consecuencias legales y físicas de continuar saboteando los suministros públicos. Los mercaderes terminaron las hostilidades para evitar sanciones del gremio.",
+        "Interrumpí un acto de sabotaje y demostré que el gremio no tolerará el hambre por intereses privados. Las reservas fueron liberadas bajo vigilancia.",
+        "Encuadré a ambos mercaderes bajo amenaza de exilio comercial. La disputa terminó por miedo a represalias, asegurando la reanudação de las entregas."
+      ],
+      "ru": [
+        "Я раскрыл юридические и физические последствия продолжения саботажа общественных поставок. Торговцы немедленно прекратили вражду, чтобы избежать санкций гильдии.",
+        "Я пресек акт саботажа и продемонстрировал, что гильдия не потерпит голода в восточном крыле ради частных интересов. Запасы были разблокированы под надзором.",
+        "Я пригрозил обоим торговцам торговым изгнанием. Спор прекратился из-за страха возмездия, что обеспечило немедленное возобновление поставок еды."
+      ],
+      "zh": [
+        "我揭示了继续破坏公共供应的法律和身体后果。商人们立即停止了敌对行动，以避免公会的制裁。",
+        "我中断了正在进行的破坏行为，并表明公会不会为了私人利益而容忍东区的饥饿。库存在监管下获释。",
+        "我以商业流放威胁两名商人。由于担心报复，争端结束，确保了食品递送立即恢复。"
+      ],
+      "ja": [
+        "公共の供給妨害を続けた場合の法的および実力行使による結末を突きつけました。商人はギルドの制裁を避けるため、即座に敵対行為を停止しました。",
+        "進行中の妨害行為を阻止し、私利私欲のために東地区を飢えさせることはギルドが許さないことを示しました。在庫は監視下で開放されました。",
+        "商業的な追放を盾に両商人を問い詰めました。報復への恐れから争いは終結し、食料配送の即時再開が確保されました。"
+      ]
+    },
+    "diplomacy": {
+      "pt": [
+        "Apresentei uma análise das perdas financeiras projetadas para ambos os lados caso a sabotagem continuasse. Os mercadores aceitaram um acordo de preços e o estoque da ala leste foi reabastecido.",
+        "Mediei a divisão das rotas de distribuição entre os rivais. Com o fim dos ataques mútuos aos comboios, o fluxo de alimentos foi normalizado imediatamente.",
+        "Estabeleci um pacto de não agressão mediado pela guilda. A competição foi canalizada para métodos legais, garantindo a segurança do abastecimento da cidade."
+      ],
+      "en": [
+        "I presented an analysis of the projected financial losses for both sides if the sabotage continued. The merchants accepted a pricing agreement and the east wing stock was replenished.",
+        "I mediated the division of distribution routes between the rivals. With the end of mutual attacks on convoys, the food flow was normalized immediately.",
+        "I established a non-aggression pact mediated by the guild. Competition was channeled into legal methods, ensuring the security of the city's supplies."
+      ],
+      "es": [
+        "Presenté un análisis de las pérdidas financieras proyectadas para ambos lados. Los mercaderes aceptaron un acuerdo de precios y el stock del ala este fue reabastecido.",
+        "Medié la división de las rutas de distribución. Con el fin de los ataques mutuos a los convoyes, el flujo de alimentos se normalizó de inmediato.",
+        "Establecí un pacto de no agresión mediado por el gremio. La competencia se canalizó hacia métodos legales, asegurando el suministro de la ciudad."
+      ],
+      "ru": [
+        "Я представил анализ прогнозируемых финансовых потерь для обеих сторон. Торговцы приняли соглашение о ценах, и запасы восточного крыла были пополнены.",
+        "Я выступил посредником в разделении маршрутов распределения. С прекращением взаимных атак на конвои поток продовольствия немедленно нормализовался.",
+        "Я установил пакт о ненападении при посредничестве гильдии. Соперничество было переведено в законное русло, что обеспечило безопасность снабжения города."
+      ],
+      "zh": [
+        "我提交了一份关于如果破坏活动持续下去双方预计财务损失的分析。商人接受了价格协议，东翼的库存得到了补充。",
+        "我调解了竞争对手之间配送路线的划分。随着对车队相互攻击的停止，食物供应立即恢复正常。",
+        "我建立了一个由公会调解的互不侵犯公约。竞争被引导至合法手段，确保了城市供应的安全。"
+      ],
+      "ja": [
+        "妨害工作が続いた場合の双方の予測損失分析を提示しました。商人は価格協定を受け入れ、東地区の在庫は補充されました。",
+        "ライバル間の配送ルートの分割を仲裁しました。コンボイへの相互攻撃が終了したことで、食料の流れは直ちに正常化しました。",
+        "ギルドを仲介役とした不可侵条約を締結しました。競争は合法的な手法へと向けられ、街の供給の安全が確保されました。"
+      ]
+    }
+    },
+    "failure": {
+    "default": {
+      "pt": [
+        "Não consegui interromper o ciclo de sabotagem. Ambos os mercadores destruíram os armazéns um do outro, resultando em escassez total de comida na ala leste.",
+        "A tentativa de intervenção apenas radicalizou a disputa. Os preços dispararam e os comboios foram desviados para fora da cidade. A fome na região é iminente.",
+        "O impasse continua. A influência da guilda foi ignorada e os mercadores preferiram o prejuízo mútuo ao acordo, deixando a população sem suprimentos básicos."
+      ],
+      "en": [
+        "I was unable to break the cycle of sabotage. Both merchants destroyed each other's warehouses, resulting in total food shortages in the east wing.",
+        "The intervention attempt only radicalized the dispute. Prices skyrocketed and convoys were diverted out of the city. Hunger in the region is imminent.",
+        "The deadlock continues. The guild's influence was ignored and the merchants preferred mutual loss over agreement, leaving the population without basic supplies."
+      ],
+      "es": [
+        "No pude romper el ciclo de sabotaje. Ambos mercaderes destruyeron los almacenes del otro, resultando en una escasez total de comida.",
+        "El intento de intervención solo radicalizó la disputa. Los precios se dispararon y los suministros fueron desviados. El hambre en la región es inminente.",
+        "El estancamiento continúa. La influencia del gremio fue ignorada y los mercaderes prefirieron la pérdida mutua, dejando a la población sin suministros."
+      ],
+      "ru": [
+        "Мне не удалось разорвать порочный круг саботажа. Оба торговца уничтожили склады друг друга, что привело к полной нехватке еды в восточном крыле.",
+        "Попытка вмешательства лишь радикализировала спор. Цены взлетели, а конвои были направлены в обход города. Голод в регионе неизбежен.",
+        "Тупиковая ситуация сохраняется. Влияние гильдии было проигнорировано, торговцы предпочли взаимные убытки соглашению, оставив население без снабжения."
+      ],
+      "zh": [
+        "我未能打破破坏的循环。两名商人都摧毁了对方的仓库，导致东区完全断粮。",
+        "干预尝试仅使争端激进化。价格飞涨，车队被转至城外。该地区的饥荒迫在眉睫。",
+        "僵局仍在持续。公会的影响力被无视，商人宁愿共同受损也不愿达成协议，导致平民失去基本供应。"
+      ],
+      "ja": [
+        "妨害の連鎖を断ち切ることができませんでした。両商人が互いの倉庫を破壊し、東地区は完全な食料不足に陥りました。",
+        "介入の試みは争いを激化させただけでした。価格は急騰し、コンボイは街の外へ迂回させられました。地域的な飢餓は避けられません。",
+        "デッドロックは続いています。ギルドの影響力は無視され、商人は合意よりも共倒れを選んだため、住民は基本物資を失ったままです。"
+      ]
+    }
   }
+}
 }

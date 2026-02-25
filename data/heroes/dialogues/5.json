@@ -45,7 +45,7 @@
       ]
     },
     "chains": {}
-    },
+  },
     "dialogue_blocks": {
       "arrived": {
         "alone": {
@@ -922,13 +922,13 @@
           "私のパフォーマンスは{challenge}を気晴らしするための葬送の賛歌であり、真実に耐えられない世界でのエンターテイメントの一環でした。",
           "私は千の失望の重みで各ノートを演奏し、残りが静かに崩壊する間、すべての人が{challenge}を無視するように強いました。"
          ],
-         "en": [
-          "I let the music flow to hide {challenge}, creating a curtain of sound to hide the ugliness of what was happening.",
-          "My performance was a funeral hymn to distract {challenge}, a note of entertainment in a world that can't handle the truth.",
-          "I played each note with the weight of a thousand disappointments, forcing everyone to ignore {challenge} while the rest quietly collapsed."
-           ]
+          "en": [
+            "I let the music flow to hide {challenge}, creating a curtain of sound to hide the ugliness of what was happening.",
+            "My performance was a funeral hymn to distract {challenge}, a note of entertainment in a world that can't handle the truth.",
+            "I played each note with the weight of a thousand disappointments, forcing everyone to ignore {challenge} while the rest quietly collapsed."
+          ]
+        }
       }
     }
   }
-}
-      
+    

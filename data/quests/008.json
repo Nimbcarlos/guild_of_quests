@@ -50,5 +50,107 @@
       "zh": "不稳定的魔法屏障",
       "ja": "不安定な魔法の障壁"
     }
+  },
+"conclusion": {
+  "success": {
+    "engineering": {
+      "pt": [
+        "A base de contenção do cristal estava desgastada, permitindo vazamentos de energia. Substituí os isolantes e apertei o suporte físico, estabilizando o campo.",
+        "O problema era mecânico: o dissipador de calor do cristal estava travado. Limpei as engrenagens e reajustei o suporte, eliminando o risco de explosão.",
+        "Instalei novos condutores de precisão ao redor do cristal. A engenharia da ala leste agora suporta oscilações de carga sem que a barreira pisque novamente."
+      ],
+      "en": [
+        "The crystal's containment base was worn, allowing energy leaks. I replaced the insulators and tightened the physical support, stabilizing the field.",
+        "The problem was mechanical: the crystal's heat sink was jammed. I cleaned the gears and readjusted the mount, eliminating the risk of explosion.",
+        "I installed new precision conductors around the crystal. The east wing's engineering now withstands load oscillations without the barrier flickering again."
+      ],
+      "es": [
+        "La base de contención del cristal estaba desgastada, permitiendo fugas de energía. Reemplacé los aislantes y ajusté el soporte físico, estabilizando el campo.",
+        "El problema era mecánico: el disipador de calor del cristal estaba atascado. Limpié los engranajes y reajusté el soporte, eliminando el riesgo de explosión.",
+        "Instalé nuevos conductores de precisión alrededor del cristal. La ingeniería del ala este ahora soporta oscilaciones de carga sin que la barrera parpadee."
+      ],
+      "ru": [
+        "Основание кристалла износилось, что привело к утечке энергии. Я заменила изоляторы и закрепила опору, стабилизировав поле.",
+        "Проблема была механической: радиатор кристалла заклинило. Я очистила шестерни и перенастроила крепление, устранив риск взрыва.",
+        "Я установила новые прецизионные проводники вокруг кристалла. Теперь инженерные системы восточного крыла выдерживают колебания нагрузки."
+      ],
+      "zh": [
+        "水晶的容纳基座已磨损，导致能量泄漏。我更换了绝缘体并加固了物理支撑，稳定了磁场。",
+        "问题出在机械方面：水晶的散热器卡住了。我清理了齿轮并重新调整了支架，消除了爆炸风险。",
+        "我在水晶周围安装了新的精密导体。东翼的工程现在可以承受负载波动，而不会让屏障再次闪烁。"
+      ],
+      "ja": [
+        "クリスタルの収容ベースが摩耗し、エネルギー漏れが発生していました。絶縁体を交換し、物理的な支持を強化したことで、フィールドが安定しました。",
+        "問題は機械的なものでした。クリスタルのヒートシンクが詰まっていました。ギアを清掃し、マウントを再調整することで、爆発の危険を取り除きました。",
+        "クリスタルの周囲に新しい精密導体を設置しました。東翼の機構は、障壁が再び点滅することなく負荷の変動に耐えられるようになりました。"
+      ]
+    },
+    "default": {
+      "pt": [
+        "O cristal estava sofrendo de uma sobrecarga harmônica. Realinhei as frequências arcanas e a barreira voltou a brilhar com uma intensidade constante e segura.",
+        "Drenei o excesso de energia instável que causava o clarão. Após um ritual de purificação rúnica, o campo protetor da ala leste recuperou sua integridade total.",
+        "Sincronizei o fluxo do cristal com o núcleo central da cidade. As faíscas pararam e a barreira agora está mais resiliente do que antes da falha."
+      ],
+      "en": [
+        "The crystal was suffering from a harmonic overload. I realigned the arcane frequencies, and the barrier returned to shining with a constant and safe intensity.",
+        "I drained the excess unstable energy that caused the flash. After a runic purification ritual, the east wing's protective field regained its full integrity.",
+        "I synchronized the crystal's flow with the city's central core. The sparks stopped, and the barrier is now more resilient than it was before the failure."
+      ],
+      "es": [
+        "El cristal sufría una sobrecarga armónica. Realineé las frecuencias arcanas y la barrera volvió a brillar con una intensidad constante y segura.",
+        "Drené el exceso de energía inestable que causaba el destello. Tras un ritual de purificación rúnica, el campo protector recuperó su integridad total.",
+        "Sincronicé el flujo del cristal con el núcleo central de la ciudad. Las chispas cesaron y la barrera es ahora más fuerte que antes de la falla."
+      ],
+      "ru": [
+        "Кристалл страдал от гармонической перегрузки. Я перенастроила арканные частоты, и барьер снова засиял с постоянной и безопасной интенсивностью.",
+        "Я отвела избыток нестабильной энергии, вызывавшей вспышку. После ритуала рунического очищения защитное поле восточного крыла восстановило свою целостность.",
+        "Я синхронизировала поток кристалла с центральным ядром города. Искры прекратились, и теперь барьер стал даже более устойчивым, чем до сбоя."
+      ],
+      "zh": [
+        "水晶正处于谐波过载状态。我重新调整了奥术频率，屏障恢复了恒定且安全的亮度。",
+        "我排出了引起闪光的多余不稳定能量。经过符文净化仪式后，东翼的保护场完全恢复了完整性。",
+        "我将水晶的能量流与城市的中央核心同步。火花消失了，现在的屏障比发生故障前更加坚固。"
+      ],
+      "ja": [
+        "クリスタルが調和過負荷を起こしていました。アルカナ周波数を再調整したことで、障壁は一定の安全な輝きを取り戻しました。",
+        "閃光の原因となっていた不安定な余剰エネルギーを排出しました。ルーン浄化の儀式を経て、東翼の防御フィールドは完全に修復されました。",
+        "クリスタルの流れを街の中央核と同期させました。火花は収まり、障壁は故障前よりも弾力性が増しています。"
+      ]
+    }
+    },
+"failure": {
+      "default": {
+        "pt": [
+          "Minha tentativa de estabilização causou um curto-circuito arcano. A barreira da ala leste caiu completamente por algumas horas, gerando pânico na população.",
+          "O cristal estilhaçou sob a pressão. A defesa da cidade agora tem um buraco permanente e o conselho está furioso com o meu fracasso técnico.",
+          "Não consegui identificar a origem da falha a tempo. A barreira parou de piscar apenas porque o cristal se apagou, deixando a ala leste vulnerável."
+        ],
+        "en": [
+          "My stabilization attempt caused an arcane short circuit. The east wing's barrier fell completely for a few hours, causing panic among the population.",
+          "The crystal shattered under pressure. The city's defense now has a permanent hole, and the council is furious with my technical failure.",
+          "I couldn't identify the source of the failure in time. The barrier stopped flashing only because the crystal went out, leaving the east wing vulnerable."
+        ],
+        "es": [
+          "Mi intento de estabilización causó un cortocircuito arcano. La barrera del ala este cayó por completo durante unas horas, generando pánico.",
+          "El cristal se hizo añicos bajo la presión. La defensa de la ciudad ahora tiene un agujero permanente y el consejo está furioso.",
+          "No logré identificar el origen de la falla a tiempo. La barrera dejó de parpadear solo porque el cristal se apagó, dejando el ala este vulnerable."
+        ],
+        "ru": [
+          "Моя попытка стабилизации вызвала магическое короткое замыкание. Барьер восточного крыла полностью упал на несколько часов, вызвав панику.",
+          "Кристалл разлетелся вдребезги под давлением. В обороне города теперь зияет дыра, и совет в ярости от моего технического провала.",
+          "Мне не удалось вовремя найти причину сбоя. Барьер перестал мигать только потому, что кристалл погас, оставив восточное крыло беззащитным."
+        ],
+        "zh": [
+          "我的稳定尝试导致了奥术短路。东翼屏障完全倒塌了几个小时，引发了民众恐慌。",
+          "水晶在压力下粉碎了。城市的防御现在出现了一个永久性的漏洞，委员会对我的技术失败感到愤怒。",
+          "我未能及时找到故障源。屏障停止闪烁仅仅是因为水晶熄灭了，使东翼处于易受攻击的状态。"
+        ],
+        "ja": [
+          "安定化の試みがアルカナ短絡を引き起こしました。東翼の障壁が数時間完全に消失し、住民の間にパニックが発生しました。",
+          "圧力に耐えきれずクリスタルが粉々に砕けました。街の防御には永久的な穴が空き、評議会は私の技術的失敗に激怒しています。",
+          "時間内に故障の原因を特定できませんでした。クリスタルが消灯したために点滅が止まっただけで、東翼は無防備なままです。"
+        ]
+      }
+    }
   }
 }

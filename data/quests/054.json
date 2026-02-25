@@ -50,5 +50,107 @@
       "zh": "陷阱",
       "ja": "罠"
     }
+  },
+"conclusion": {
+  "success": {
+    "engineering": {
+      "pt": [
+        "Bloqueei os condutos superiores e redirecionei a descarga de areia para um canal lateral.",
+        "Reforcei as engrenagens principais e interrompi o eixo de liberação.",
+        "Instalei travas temporárias no mecanismo central até cessar o acionamento."
+      ],
+      "en": [
+        "I sealed the upper ducts and redirected the sand discharge to a side channel.",
+        "I reinforced the main gears and halted the release shaft.",
+        "I installed temporary locks on the central mechanism until activation ceased."
+      ],
+      "es": [
+        "Sellé los conductos superiores y redirigí la descarga de arena a un canal lateral.",
+        "Reforcé los engranajes principales y detuve el eje de liberación.",
+        "Instalé bloqueos temporales en el mecanismo central hasta detener la activación."
+      ],
+      "ru": [
+        "Я перекрыл верхние каналы и перенаправил поток песка в сторону.",
+        "Укрепил основные шестерни и остановил вал выброса.",
+        "Установил временные фиксаторы на центральный механизм до полной остановки."
+      ],
+      "zh": [
+        "我封闭上方通道，将沙流引至侧向通道。",
+        "我加固主齿轮并停止释放轴。",
+        "我在中央装置安装临时锁定装置，直至系统停止。"
+      ],
+      "ja": [
+        "上部通路を封鎖し、砂の流れを側路へ変更しました。",
+        "主歯車を補強し放出軸を停止しました。",
+        "中央機構に仮固定を設置し、作動を止めました。"
+      ]
+    },
+    "default": {
+      "pt": [
+        "Identifiquei os gatilhos sob a areia e neutralizei os mecanismos um a um. O fluxo cessou.",
+        "Desativei as placas de pressão antes que completassem o ciclo. A câmara estabilizou.",
+        "Interrompi o sistema principal com ajuste fino nas engrenagens internas. A areia parou de cair."
+      ],
+      "en": [
+        "I identified the triggers beneath the sand and disabled the mechanisms one by one. The flow stopped.",
+        "I disarmed the pressure plates before they completed another cycle. The chamber stabilized.",
+        "I interrupted the main system with precise adjustments to the internal gears. The sand stopped falling."
+      ],
+      "es": [
+        "Identifiqué los activadores bajo la arena y neutralicé los mecanismos uno por uno. El flujo se detuvo.",
+        "Desactivé las placas de presión antes de completar el ciclo. La cámara se estabilizó.",
+        "Interrumpí el sistema principal con ajustes precisos en los engranajes internos. La arena dejó de caer."
+      ],
+      "ru": [
+        "Я обнаружил спусковые механизмы под песком и обезвредил их по одному. Поток прекратился.",
+        "Отключил нажимные плиты до завершения цикла. Камера стабилизировалась.",
+        "Прервал основной механизм точной настройкой шестерён. Песок перестал сыпаться."
+      ],
+      "zh": [
+        "我在沙下找到触发装置并逐一解除，流沙停止。",
+        "我在完成循环前解除压力板，密室恢复稳定。",
+        "我精确调整内部齿轮，中断主系统，沙子停止倾泻。"
+      ],
+      "ja": [
+        "砂の下の作動機構を特定し、一つずつ無効化しました。流砂は止まりました。",
+        "圧力板を周期完了前に解除。室内は安定しました。",
+        "内部歯車を精密に調整し主機構を停止。砂は止まりました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "Um gatilho secundário ativou outro ciclo de liberação.",
+        "A areia acumulou-se mais rápido do que consegui neutralizar o sistema.",
+        "O mecanismo interno travou antes da desativação completa."
+      ],
+      "en": [
+        "A secondary trigger activated another release cycle.",
+        "The sand accumulated faster than I could neutralize the system.",
+        "The internal mechanism jammed before full disarmament."
+      ],
+      "es": [
+        "Un activador secundario inició otro ciclo de liberación.",
+        "La arena se acumuló más rápido de lo que pude neutralizar el sistema.",
+        "El mecanismo interno se bloqueó antes de completar la desactivación."
+      ],
+      "ru": [
+        "Вторичный спусковой механизм запустил новый цикл.",
+        "Песок накапливался быстрее, чем я успевал обезвредить систему.",
+        "Внутренний механизм заклинило до полной остановки."
+      ],
+      "zh": [
+        "次级触发装置启动了新的释放循环。",
+        "沙子堆积速度超过了我的处理能力。",
+        "内部装置在完全解除前卡死。"
+      ],
+      "ja": [
+        "二次作動機構が再び起動しました。",
+        "砂の蓄積が解除より早く進みました。",
+        "完全解除前に内部機構が停止しました。"
+      ]
+    }
   }
+}
 }

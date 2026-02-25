@@ -49,5 +49,75 @@
       "zh": "水手们",
       "ja": "水夫たち"
     }
+  },
+"conclusion": {
+  "success": {
+    "default": {
+      "pt": [
+        "Isolei os marinheiros febris em um setor do porto e iniciei triagem por sinais neurológicos. A agressividade foi controlada.",
+        "Apliquei protocolo de resfriamento e hidratação reforçada, evitando contágio cruzado entre as docas.",
+        "Identifiquei o padrão inicial da doença e distribuí tratamento de suporte, estabilizando os casos mais graves."
+      ],
+      "en": [
+        "I isolated the febrile sailors in a port sector and triaged for neurological signs. Aggression was brought under control.",
+        "I applied a cooling and reinforced hydration protocol, preventing cross-contagion across the docks.",
+        "I identified the disease’s early pattern and distributed supportive care, stabilizing the worst cases."
+      ],
+      "es": [
+        "Aislé a los marineros con fiebre en un sector del puerto e hice triaje por signos neurológicos. La agresividad fue controlada.",
+        "Apliqué un protocolo de enfriamiento e hidratación reforzada, evitando contagio cruzado en los muelles.",
+        "Identifiqué el patrón inicial de la enfermedad y administré tratamiento de soporte, estabilizando los casos graves."
+      ],
+      "ru": [
+        "Я изолировал моряков с жаром в отдельной зоне порта и провёл сортировку по неврологическим признакам. Агрессию удалось контролировать.",
+        "Применил охлаждение и усиленную регидратацию, предотвратив перекрёстное заражение на причалах.",
+        "Выявил ранний шаблон болезни и организовал поддерживающее лечение, стабилизировав тяжёлых."
+      ],
+      "zh": [
+        "我将高烧的水手隔离在港口单独区域并按神经症状分诊，控制了攻击性。",
+        "我执行降温与强化补液流程，避免码头间交叉感染。",
+        "我识别疾病早期模式并安排支持治疗，稳定了最重病例。"
+      ],
+      "ja": [
+        "高熱の水夫を港の隔離区画に集め、神経症状でトリアージしました。攻撃性は制御できました。",
+        "冷却と補水強化の手順を実施し、埠頭間の交差感染を防ぎました。",
+        "病の初期パターンを把握し、支持療法を配布して重症例を安定化させました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "A doença se espalhou pelas docas antes do isolamento completo.",
+        "A febre extrema provocou surtos de agressividade que interromperam o atendimento.",
+        "Não consegui identificar o padrão a tempo e os casos graves pioraram."
+      ],
+      "en": [
+        "The disease spread across the docks before isolation was complete.",
+        "Extreme fever caused aggressive outbreaks that disrupted treatment.",
+        "I failed to identify the pattern in time and severe cases worsened."
+      ],
+      "es": [
+        "La enfermedad se propagó por los muelles antes de completar el aislamiento.",
+        "La fiebre extrema provocó brotes de agresividad que interrumpieron la atención.",
+        "No identifiqué el patrón a tiempo y los casos graves empeoraron."
+      ],
+      "ru": [
+        "Болезнь распространилась по причалам до завершения изоляции.",
+        "Сильный жар вызвал вспышки агрессии и сорвал помощь.",
+        "Я не успел распознать закономерность, и тяжёлые случаи ухудшились."
+      ],
+      "zh": [
+        "隔离完成前疾病已扩散到码头。",
+        "极端高烧引发攻击性爆发，打断救治。",
+        "未能及时识别规律，重症继续恶化。"
+      ],
+      "ja": [
+        "隔離が完了する前に病が埠頭へ広がりました。",
+        "高熱で攻撃性が爆発し、対応が中断されました。",
+        "手遅れで傾向を掴めず、重症が悪化しました。"
+      ]
+    }
   }
+}
 }

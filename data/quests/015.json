@@ -47,5 +47,75 @@
       "zh": "商人的女儿",
       "ja": "商人の娘"
     }
+  },
+"conclusion": {
+  "success": {
+    "default": {
+      "pt": [
+        "Apresentei os dados da crise financeira iminente e os benefícios legais do matrimônio. A resistência foi neutralizada pela lógica contratual e os preparativos para o casamento prosseguiram conforme o planejado.",
+        "Mediei a negociação focando na preservação do patrimônio da família. Convenci a filha do mercador de que a união é uma transação necessária para a manutenção do status quo e da economia local.",
+        "Utilizei argumentos pragmáticos sobre dever e estabilidade urbana. O acordo foi ratificado, garantindo o fluxo de capital necessário para evitar o colapso financeiro da cidade."
+      ],
+      "en": [
+        "I presented the data on the imminent financial crisis and the legal benefits of the marriage. Resistance was neutralized by contractual logic, and wedding preparations proceeded as planned.",
+        "I mediated the negotiation focusing on family asset preservation. I convinced the merchant's daughter that the union is a necessary transaction for maintaining the status quo and the local economy.",
+        "I used pragmatic arguments about duty and urban stability. The agreement was ratified, ensuring the capital flow needed to prevent the city's financial collapse."
+      ],
+      "es": [
+        "Presenté los datos de la crisis financiera inminente y los beneficios legales del matrimonio. La resistencia fue neutralizada por la lógica contractual y los preparativos avanzaron según lo previsto.",
+        "Medié la negociación centrándome en la preservación del patrimonio familiar. Convencí a la hija del comerciante de que la unión es una transacción necesaria para la economía local.",
+        "Utilicé argumentos pragmáticos sobre el deber y la estabilidad urbana. El acuerdo fue ratificado, asegurando el flujo de capital necesario para evitar el colapso financiero."
+      ],
+      "ru": [
+        "Я представила данные о неизбежном финансовом кризисе и юридических выгодах брака. Сопротивление было подавлено контрактной логикой, подготовка к свадьбе идет по плану.",
+        "Я провела переговоры, сосредоточившись на сохранении семейных активов. Я убедила дочь торговца, что союз — это необходимая сделка для поддержания статус-кво.",
+        "Я использовала прагматичные аргументы о долге и городской стабильности. Соглашение было ратифицировано, что обеспечило приток капитала для спасения города."
+      ],
+      "zh": [
+        "我提交了关于即将来临的财政危机和婚姻法律利益的数据。合同逻辑抵消了反抗情绪，婚礼筹备按计划进行。",
+        "我专注于家族资产保护进行了调解。我使商人的女儿确信，这次联姻是维持现状和地方经济的必要交易。",
+        "我利用关于责任和城市稳定的务实论点说服了对方。协议获得批准，确保了防止城市财政崩溃所需的资金流。"
+      ],
+      "ja": [
+        "目前に迫った財政危機のデータと婚姻の法的利益を提示しました。契約論理によって抵抗は無効化され、婚礼の準備は計画通りに進められました。",
+        "家族資産の保全に焦点を当てて仲裁を行いました。現状維持と地域経済のために、この結婚が必要な取引であることを商人の娘に納得させました。",
+        "義務と都市の安定に関する実利的な議論を用いました。合意は批准され、都市の財政破綻を防ぐために必要な資金流入が確保されました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "A diplomacia não foi capaz de superar a recusa obstinada da filha do mercador. O acordo foi cancelado, deixando a cidade vulnerável à crise financeira iminente.",
+        "Não houve concessão por parte da envolvida. A negociação falhou em estabelecer termos aceitáveis, e o colapso econômico local agora é inevitável sem este aporte de capital.",
+        "A tentativa de coerção lógica falhou. Sem o selo do casamento, o contrato entre as casas foi anulado, resultando em instabilidade imediata no mercado da cidade."
+      ],
+      "en": [
+        "Diplomacy was unable to overcome the merchant's daughter's stubborn refusal. The agreement was canceled, leaving the city vulnerable to the imminent financial crisis.",
+        "There was no concession from the party involved. The negotiation failed to establish acceptable terms, and the local economic collapse is now inevitable without this capital injection.",
+        "The attempt at logical coercion failed. Without the marriage seal, the contract between the houses was voided, resulting in immediate instability in the city's market."
+      ],
+      "es": [
+        "La diplomacia no pudo superar la negativa obstinada de la hija del comerciante. El acuerdo fue cancelado, dejando a la ciudad vulnerable a la crisis financiera.",
+        "No hubo concesión por parte de la involucrada. La negociación no logró establecer términos aceptables y el colapso económico local es ahora inevitable.",
+        "El intento de coerción lógica falló. Sin el sello del matrimonio, el contrato entre las casas fue anulado, resultando en una inestabilidade inmediata."
+      ],
+      "ru": [
+        "Дипломатия не смогла преодолеть упрямый отказ дочери торговца. Сделка была отменена, что сделало город уязвимым перед лицом финансового кризиса.",
+        "Уступок со стороны вовлеченной стороны не последовало. Переговоры не привели к приемлемым условиям, и экономический крах теперь неизбежен.",
+        "Попытка логического принуждения провалилась. Без брачной печати контракт между домами был аннулирован, что привело к нестабильности на рынке."
+      ],
+      "zh": [
+        "外交手段未能克服商人女儿的固执拒绝。协议被取消，使城市在即将来临的财政危机面前弱不禁风。",
+        "相关方未做出任何让步。谈判未能达成可接受的条款，没有这笔资金注入，当地经济崩溃已不可避免。",
+        "逻辑胁迫的尝试失败了。由于没有婚姻契约，两家之间的合同被废除，导致城市市场立即陷入动荡。"
+      ],
+      "ja": [
+        "外交努力では商人の娘の頑固な拒絶を克服できませんでした。合意は白紙となり、都市は差し迫った財政危機に対して無防備な状態となりました。",
+        "当事者からの譲歩は得られませんでした。交渉は合意に至らず、資金注入がないまま地域経済の崩壊は避けられない事態となりました。",
+        "論理的な説得の試みは失敗しました。婚姻による捺印が得られず、家同士の契約は無効となり、市場に即座の不安定さをもたらしました。"
+      ]
+    }
   }
+}
 }

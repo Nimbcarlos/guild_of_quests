@@ -50,5 +50,107 @@
       "zh": "隧道",
       "ja": "トンネル"
     }
+  },
+"conclusion": {
+  "success": {
+"engineering": {
+  "pt": [
+    "Identifiquei os pontos de compressão crítica e instalei escoras em ângulos precisos. O arco de descarga que projetei estabilizou o teto da mina imediatamente.",
+    "Em vez de tentar segurar o teto, usei cunhas de madeira e reforços metálicos. A aplicação técnica correta interrompeu o colapso e salvou a mina.",
+    "Analisei o padrão das rachaduras e redistribuí o peso da montanha de volta para as paredes sólidas com um sistema de calços, salvando os trabalhadores."
+  ],
+  "en": [
+    "I identified critical compression points and installed shoring at precise angles. The relief arch I designed stabilized the mine ceiling immediately.",
+    "Instead of trying to hold up the ceiling, I used wooden wedges and metal reinforcements. The correct technical application halted the collapse and saved the mine.",
+    "I analyzed the crack patterns and redistributed the mountain's weight back to the solid walls using a system of shims, saving the workers."
+  ],
+  "es": [
+    "Identifiqué los puntos de compresión crítica e instalé puntales en ángulos precisos. El arco de descarga que diseñé estabilizó el techo de la mina.",
+    "En lugar de sostener el techo, usé cuñas de madera y refuerzos metálicos. La aplicación técnica correcta detuvo el colapso y salvó la mina.",
+    "Analicé el patrón de grietas y redistribuí el peso de la montaña hacia las paredes sólidas con un sistema de calzos, salvando a los trabajadores."
+  ],
+  "ru": [
+    "Я выявила критические точки сжатия и установила опоры под точными углами. Спроектированная мною разгрузочная арка немедленно стабилизировала свод шахты.",
+    "Вместо того чтобы держать потолок, я использовала деревянные клинья и металлические распорки. Правильный технический расчет остановил обрушение.",
+    "Я проанализировала структуру трещин и перераспределила вес горы на прочные стены с помощью системы прокладок, спасая рабочих."
+  ],
+  "zh": [
+    "我识别了关键压缩点并以精确的角度安装了支护。我设计的卸载拱立即稳定了矿井顶部。",
+    "我没有试图撑起顶部，而是使用了木楔和金属加固。正确的术应用阻止了坍塌并挽救了矿井。",
+    "我分析了裂缝模式，并通过垫片系统将山的重量重新分配到坚固的墙壁上，救出了工人。"
+  ],
+  "ja": [
+    "臨界圧縮ポイントを特定し、正確な角度で支柱を設置しました。設計した放圧アーチにより、坑道の天井は即座に安定しました。",
+    "天井を支えようとする代わりに、木製の楔と金属補強材を使用しました。適切な技術的処置により崩落を食い止め、坑道を救いました。",
+    "亀裂のパターンを分析し、シムシステムを使用して山の重みを頑丈な壁に再分配することで、作業員を救出しました。"
+  ]
+},
+"default": {
+  "pt": [
+    "As vigas estalaram e o teto começou a ceder, mas eu sustentei toneladas de rocha pura com meus próprios ombros até o último homem escapar.",
+    "Com o tempo se esgotando, carreguei pilares de carvalho maciço sozinho para o fundo da mina e os martelei no lugar com força bruta.",
+    "Usei minha força para remover manualmente toneladas de escombros que bloqueavam a saída, mantendo uma viga rachada no lugar com o outro braço."
+  ],
+  "en": [
+    "The beams snapped and the ceiling began to sag, but I held up tons of pure rock with my own shoulders until the last man escaped.",
+    "With time running out, I carried solid oak pillars alone to the back of the mine and hammered them into place with brute force.",
+    "I used my strength to manually remove tons of rubble blocking the exit, while holding a cracked beam in place with my other arm."
+  ],
+  "es": [
+    "Las vigas crujieron y el techo cedió, pero sostuve toneladas de roca con mis propios hombros hasta que el último hombre escapó.",
+    "Con el tiempo agotándose, cargué pilares de roble macizo solo hacia el fondo de la mina y los martillé en su lugar con fuerza bruta.",
+    "Usé mi fuerza para remover manualmente toneladas de escombros que bloqueaban la salida, mientras sostenía una viga dañada con el otro brazo."
+  ],
+  "ru": [
+    "Балки треснули, и потолок начал оседать, но я удерживала тонны горной породы на собственных плечах, пока последний человек не спасся.",
+    "Когда время на исходе, я в одиночку занесла дубовые столбы вглубь шахты и вбила их на место грубой силой.",
+    "Я использовала свою силу, чтобы вручную разобрать тонны завалов на выходе, удерживая треснувшую балку другой рукой."
+  ],
+  "zh": [
+    "梁柱断裂，顶部开始下陷，但我用双肩撑起了数吨重的岩石，直到最后一个人逃脱。",
+    "在时间紧迫的情况下，我独自将实心橡木柱搬运到矿井深处，并用蛮力将它们锤入到位。",
+    "我用力量徒手清除了堵塞出口的数吨碎石，同时用另一只胳膊稳住开裂的梁柱。"
+  ],
+  "ja": [
+    "梁が折れ天井が沈み始めましたが、最後の一人が逃げ出すまで、数トンの岩石を自分の肩で支え続けました。",
+    "時間が迫る中、一人で硬いオークの柱を坑道の奥まで運び、怪力でそれらを打ち込んで固定しました。",
+    "片腕で割れた梁を固定しながら、もう片方の腕で出口を塞ぐ数トンの瓦礫を力任せに排除しました。"
+  ]
+}
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "As vigas cederam antes que eu pudesse posicionar os reforços. O túnel colapsou parcialmente, bloqueando o acesso aos trabalhadores e forçando a interdição da mina por tempo indeterminado.",
+        "Subestimei o peso da rocha e o escoramento improvisado partiu-se sob pressão. Tive que recuar para não ser soterrado, deixando para trás equipamentos caros e vidas em perigo.",
+        "Minha falha técnica ao calcular os pontos de apoio causou um efeito dominó. O tremor secundário terminou o que o primeiro começou, soterrando o setor principal da mina de forma catastrófica."
+      ],
+      "en": [
+        "The beams gave way before I could position the reinforcements. The tunnel partially collapsed, blocking access to the workers and forcing the mine's indefinite closure.",
+        "I underestimated the rock's weight, and the improvised shoring snapped under pressure. I had to retreat to avoid being buried, leaving behind expensive equipment and lives in danger.",
+        "My technical failure in calculating support points caused a domino effect. The aftershock finished what the first earthquake started, catastrophically burying the mine's main sector."
+      ],
+      "es": [
+        "Las vigas cedieron antes de poder reforzarlas. El túnel colapsó parcialmente, bloqueando el acceso y forzando el cierre indefinido de la mina.",
+        "Subestimé el peso de la roca y el apuntalamiento se rompió. Tuve que retroceder para no ser sepultado, dejando atrás equipos y vidas en peligro.",
+        "Mi fallo técnico al calcular los puntos de apoyo causó un efecto dominó. El temblor secundario terminó de sepultar el sector principal de forma catastrófica."
+      ],
+      "ru": [
+        "Балки рухнули до того, как я успела их укрепить. Туннель частично обвалился, заблокировав рабочих и вынудив закрыть шахту на неопределенный срок.",
+        "Я недооценила вес скалы, и временные опоры лопнули под давлением. Мне пришлось отступить, оставив оборудование и людей под завалом.",
+        "Техническая ошибка в расчетах вызвала эффект домино. Повторный толчок завершил начатое, катастрофически похоронив главный сектор шахты."
+      ],
+      "zh": [
+        "在我安放加固设施前，梁柱就已断裂。隧道部分坍塌，封死了工人的退路，并迫使矿井无限期关闭。",
+        "我低估了岩石的重量，临时支撑在压力下折断。为了不被活埋，我不得不撤退，留下了昂贵的设备和处于危险中的生命。",
+        "我在计算支撑点时的技术失误引发了连锁反应。余震完成了第一次地震未竟的破坏，灾难性地埋没了矿井的核心区域。"
+      ],
+      "ja": [
+        "補強を終える前に梁が屈してしまいました。坑道は部分的に崩落し、作業員への道が断たれ、鉱山は無期限の閉鎖を余儀なくされました。",
+        "岩の重さを過小評価しており、即席の支柱が圧力でへし折れました。生き埋めを避けるために退避せざるを得ず、高価な機材と命を危険にさらしたまま残すことになりました。",
+        "支点の計算ミスがドミノ倒しのような崩落を招きました。余震が追い打ちをかけ、鉱山の主要セクターは壊滅的に埋没しました。"
+      ]
+    }
   }
+}
 }

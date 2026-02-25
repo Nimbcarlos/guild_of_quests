@@ -67,6 +67,8 @@ class DialogueManager:
         quest_type: str = "fight",
         context: dict | None = None
     ) -> list:
+        for i in heroes:
+            print(i.perks)
         """
         Monta as falas da party para qualquer tipo de quest.
 
@@ -168,7 +170,12 @@ class DialogueManager:
             # ── OTHERS: menção a outros heróis da party ───────────────
             if len(ordered_heroes) > 1:
                 others_block = blocks.get("others", {})
-                for other in ordered_heroes:
+
+                # candidatos: todo mundo exceto o próprio herói
+                candidates = [h for h in ordered_heroes if h.id != hero.id]
+                random.shuffle(candidates)  # <- pulo do gato
+
+                for other in candidates:
                     if other.id == hero.id:
                         continue
                     other_texts = (
@@ -236,3 +243,150 @@ class DialogueManager:
                 falas.append({"id": hero_id, "text": chosen_text})
 
         return falas or [{"id": "assistant", "text": self.lm.t("assistant_fallback_silent_start")}]
+    
+"""
+🧪 TESTE SIMPLES PARA DIALOGUE MANAGER
+=======================================
+
+Cole este código no final do seu core/dialogue_manager.py
+
+Execute: python core/dialogue_manager.py
+Digite os IDs e veja o resultado!
+"""
+
+if __name__ == "__main__":
+    import os
+    
+    # Mock simples de herói
+    class MockHero:
+        def __init__(self, id, role="tank", perks=None):
+            self.id = id
+            self.name = f"Hero_{id}"
+            self.role = role
+            self.perks = perks or []
+    
+    def load_quest_context(quest_id):
+        """Carrega o context automático da quest"""
+        path = os.path.join("data/quests", f"{quest_id}.json")
+        if os.path.exists(path):
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    return data.get("context", {})
+            except:
+                pass
+        return {}
+    
+    def quick_test():
+        dm = DialogueManager(language="pt")
+        
+        print("\n" + "="*60)
+        print("🧪 TESTE RÁPIDO DE DIÁLOGOS")
+        print("="*60)
+        
+        # ─────────────────────────────────────────────────
+        # 📝 INPUT DOS DADOS
+        # ─────────────────────────────────────────────────
+        print("\n📌 Digite os IDs dos heróis (separados por vírgula):")
+        print("   Exemplo: 1,2,3")
+        hero_ids = input("   IDs: ").strip()
+        
+        print("\n📌 Digite o ID da quest:")
+        quest_id = input("   Quest ID: ").strip()
+        
+        print("\n📌 Digite o resultado (success/failure):")
+        result = input("   Resultado: ").strip() or "success"
+        
+        print("\n📌 Digite o tipo da quest (fight/thievery/diplomacy/etc):")
+        print("   (deixe vazio para auto-detectar)")
+        quest_type = input("   Tipo: ").strip()
+        
+        # ─────────────────────────────────────────────────
+        # 🔧 PROCESSAMENTO
+        # ─────────────────────────────────────────────────
+        
+        # Cria heróis
+        heroes = []
+        roles = ["tank", "dps", "healer"]
+        for idx, hid in enumerate(hero_ids.split(",")):
+            hid = hid.strip()
+            if hid:
+                role = roles[idx % len(roles)]
+                heroes.append(MockHero(hid, role))
+        
+        if not heroes:
+            print("\n❌ Nenhum herói especificado!")
+            return
+        
+        # Carrega context da quest automaticamente
+        context = load_quest_context(quest_id)
+        
+        # Auto-detecta tipo se não especificado
+        if not quest_type:
+            quest_path = os.path.join("data/quests", f"{quest_id}.json")
+            try:
+                with open(quest_path, "r", encoding="utf-8") as f:
+                    quest_data = json.load(f)
+                    quest_type = quest_data.get("type", "fight")
+                    if isinstance(quest_type, list):
+                        quest_type = quest_type[0]
+            except:
+                quest_type = "fight"
+        
+        # ─────────────────────────────────────────────────
+        # ✨ EXECUTA O TESTE
+        # ─────────────────────────────────────────────────
+        print("\n" + "="*60)
+        print("📤 EXECUTANDO...")
+        print("="*60)
+        print(f"Heróis: {[h.id for h in heroes]}")
+        print(f"Quest: {quest_id}")
+        print(f"Tipo: {quest_type}")
+        print(f"Resultado: {result}")
+        print(f"Context: {bool(context)}")
+        
+        try:
+            falas = dm.show_quest_dialogue(
+                heroes=heroes,
+                quest_id=quest_id,
+                result=result,
+                quest_type=quest_type,
+                context=context
+            )
+            
+            print("\n" + "="*60)
+            print("📝 RESULTADO:")
+            print("="*60)
+            
+            for fala in falas:
+                print(f"\n[Hero {fala['id']}]")
+                print(f"{fala['text']}")
+            
+            print("\n" + "="*60)
+            
+        except Exception as e:
+            print(f"\n❌ ERRO: {e}")
+            import traceback
+            traceback.print_exc()
+    
+    # ═══════════════════════════════════════════════════
+    # LOOP PRINCIPAL
+    # ═══════════════════════════════════════════════════
+    while True:
+        try:
+            quick_test()
+            
+            print("\n")
+            continuar = input("Testar novamente? (s/n): ").strip().lower()
+            if continuar != 's':
+                print("\n👋 Saindo...")
+                break
+                
+        except KeyboardInterrupt:
+            print("\n\n👋 Saindo...")
+            break
+        except Exception as e:
+            print(f"\n❌ Erro inesperado: {e}")
+            import traceback
+            traceback.print_exc()
+            break

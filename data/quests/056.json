@@ -47,5 +47,75 @@
       "zh": "隐藏的武器",
       "ja": "隠された武器"
     }
+  },
+"conclusion": {
+  "success": {
+    "default": {
+      "pt": [
+        "Acessei o armazém pelo setor de carga e documentei as armas escondidas. Saí com provas verificáveis.",
+        "Localizei o compartimento oculto e registrei números de série e registros internos antes de restaurar o ambiente.",
+        "Copiei documentos de remessa e confirmei a origem ilegal das armas sem alterar o estoque."
+      ],
+      "en": [
+        "I accessed the warehouse through the loading sector and documented the hidden weapons. I exited with verifiable evidence.",
+        "I located the concealed compartment and recorded serial numbers and internal logs before restoring the scene.",
+        "I copied shipping documents and confirmed the illegal origin of the weapons without altering inventory."
+      ],
+      "es": [
+        "Accedí al almacén por el sector de carga y documenté las armas ocultas. Salí con pruebas verificables.",
+        "Localicé el compartimento oculto y registré números de serie y documentos internos antes de restaurar el entorno.",
+        "Copié documentos de envío y confirmé el origen ilegal de las armas sin alterar el inventario."
+      ],
+      "ru": [
+        "Я проник на склад через грузовой сектор и задокументировал скрытое оружие. Покинул место с проверяемыми доказательствами.",
+        "Обнаружил тайник, зафиксировал серийные номера и внутренние записи, восстановив обстановку перед уходом.",
+        "Скопировал накладные и подтвердил незаконное происхождение оружия, не меняя содержимое склада."
+      ],
+      "zh": [
+        "我从装卸区进入仓库，记录隐藏武器并带走可核实证据。",
+        "我找到隐藏隔间，记录序列号和内部日志后恢复现场。",
+        "我复制货运文件，确认武器来源非法且未改变库存。"
+      ],
+      "ja": [
+        "搬入口から倉庫へ入り、隠された武器を記録しました。検証可能な証拠を持って退出しました。",
+        "隠し区画を発見し、製造番号と内部記録を控えてから原状復帰しました。",
+        "出荷書類を複写し、在庫を変えずに違法な出所を確認しました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "Uma ronda inesperada interrompeu a coleta completa das provas.",
+        "Os registros estavam protegidos e não consegui acessá-los sem detecção.",
+        "A vigilância reforçada impediu a documentação adequada das armas."
+      ],
+      "en": [
+        "An unexpected patrol interrupted full evidence collection.",
+        "The records were secured and I could not access them without detection.",
+        "Increased surveillance prevented proper documentation of the weapons."
+      ],
+      "es": [
+        "Una patrulla inesperada interrumpió la recolección completa de pruebas.",
+        "Los registros estaban protegidos y no pude acceder sin ser detectado.",
+        "La vigilancia reforzada impidió documentar adecuadamente las armas."
+      ],
+      "ru": [
+        "Неожиданный патруль прервал сбор доказательств.",
+        "Документы были защищены, и я не смог получить к ним доступ незаметно.",
+        "Усиленная охрана помешала полноценной фиксации оружия."
+      ],
+      "zh": [
+        "突发巡逻打断了完整的证据收集。",
+        "记录受保护，无法在不被发现的情况下访问。",
+        "加强的监控阻止了对武器的完整记录。"
+      ],
+      "ja": [
+        "予期せぬ巡回で証拠収集が中断されました。",
+        "記録は保護されており、発覚せずに閲覧できませんでした。",
+        "強化された警備により十分な記録が取れませんでした。"
+      ]
+    }
   }
+}
 }

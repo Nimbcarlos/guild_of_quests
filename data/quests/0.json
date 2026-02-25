@@ -50,6 +50,13 @@
           "A missão foi concluída."
         ]
       }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A missão não foi concluída."
+        ]
+      }
     }
   }
  }

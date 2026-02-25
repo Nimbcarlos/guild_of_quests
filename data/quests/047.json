@@ -50,5 +50,107 @@
       "zh": "裂缝",
       "ja": "亀裂"
     }
+  },
+"conclusion": {
+  "success": {
+    "engineering": {
+      "pt": [
+        "Avaliei a pressão na base e inseri reforços estruturais na rachadura. O vazamento foi contido.",
+        "Apliquei travas de madeira cruzadas e selagem interna. A estrutura voltou a suportar a carga.",
+        "Redistribuí a tensão com suportes adicionais e comprimi a fissura até estabilizar a base."
+      ],
+      "en": [
+        "I assessed the base pressure and inserted structural supports into the crack. The leak was contained.",
+        "I applied cross-braced timber locks and internal sealing. The structure resumed bearing the load.",
+        "I redistributed the stress with additional supports and compressed the fissure until the base stabilized."
+      ],
+      "es": [
+        "Evalué la presión en la base e instalé refuerzos estructurales en la grieta. La filtración fue contenida.",
+        "Apliqué refuerzos cruzados y sellado interno. La estructura volvió a soportar la carga.",
+        "Redistribuí la tensión con soportes adicionales y comprimí la fisura hasta estabilizar la base."
+      ],
+      "ru": [
+        "Я оценил давление у основания и установил конструкционные опоры в трещину. Протечка была остановлена.",
+        "Применил перекрёстные балки и внутреннюю герметизацию. Плотина вновь выдержала нагрузку.",
+        "Перераспределил напряжение дополнительными опорами и сжал трещину до стабилизации основания."
+      ],
+      "zh": [
+        "我评估了底部压力，在裂缝处加装结构支撑，成功控制渗漏。",
+        "我设置交叉木梁并进行内部封堵，结构重新承受水压。",
+        "我通过增加支撑重新分配受力，并压紧裂缝直至底部稳定。"
+      ],
+      "ja": [
+        "基部の圧力を確認し、亀裂に構造補強を施しました。漏水は抑えられました。",
+        "交差補強と内部封止を行い、構造は再び荷重に耐えました。",
+        "追加支柱で応力を分散し、亀裂を圧縮して安定させました。"
+      ]
+    },
+    "default": {
+      "pt": [
+        "Forcei tábuas na rachadura e mantive pressão constante até reduzir o vazamento.",
+        "Usei meu corpo como apoio enquanto encaixava vigas improvisadas na base.",
+        "Empurrei reforços contra a fissura sob a força da água até estabilizar a estrutura."
+      ],
+      "en": [
+        "I forced planks into the crack and maintained pressure until the leak slowed.",
+        "I braced my body while fitting improvised beams into the base.",
+        "I pushed reinforcements against the fissure under water pressure until the structure stabilized."
+      ],
+      "es": [
+        "Forcé tablones en la grieta y mantuve presión hasta reducir la filtración.",
+        "Usé mi cuerpo como apoyo mientras encajaba vigas improvisadas en la base.",
+        "Empujé refuerzos contra la fisura bajo la presión del agua hasta estabilizar la estructura."
+      ],
+      "ru": [
+        "Я вбил доски в трещину и удерживал давление, пока течь не уменьшилась.",
+        "Использовал своё тело как упор, устанавливая балки у основания.",
+        "Под давлением воды прижимал усиления к трещине до стабилизации."
+      ],
+      "zh": [
+        "我将木板塞入裂缝并持续施压，直到渗漏减缓。",
+        "我用身体支撑，将临时梁固定在底部。",
+        "在水压下将加固物压向裂缝，直到结构稳定。"
+      ],
+      "ja": [
+        "板を亀裂に押し込み、漏水が弱まるまで圧をかけ続けました。",
+        "身体を支えにして即席の梁を基部に固定しました。",
+        "水圧に耐えながら補強材を押し当て、構造を安定させました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "A pressão da água ampliou a rachadura antes que o reforço fosse concluído.",
+        "Os suportes improvisados cederam sob a carga acumulada.",
+        "A fissura se expandiu além do controle e fui forçado a recuar."
+      ],
+      "en": [
+        "Water pressure widened the crack before reinforcement was completed.",
+        "The improvised supports failed under accumulated load.",
+        "The fissure expanded beyond control and I was forced to withdraw."
+      ],
+      "es": [
+        "La presión del agua amplió la grieta antes de completar el refuerzo.",
+        "Los soportes improvisados cedieron bajo la carga acumulada.",
+        "La fisura se expandió fuera de control y tuve que retirarme."
+      ],
+      "ru": [
+        "Давление воды расширило трещину до завершения укрепления.",
+        "Импровизированные опоры не выдержали нагрузки.",
+        "Трещина вышла из-под контроля, пришлось отступить."
+      ],
+      "zh": [
+        "在加固完成前水压扩大了裂缝。",
+        "临时支撑在压力下失效。",
+        "裂缝失控扩大，我被迫撤离。"
+      ],
+      "ja": [
+        "補強完了前に水圧で亀裂が広がりました。",
+        "即席の支柱が荷重に耐えられませんでした。",
+        "亀裂が制御不能に拡大し、撤退しました。"
+      ]
+    }
   }
+}
 }

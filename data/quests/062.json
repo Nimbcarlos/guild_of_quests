@@ -50,5 +50,107 @@
       "zh": "炼金炸弹",
       "ja": "錬金術の爆弾"
     }
+  },
+"conclusion": {
+  "success": {
+    "alchemy": {
+      "pt": [
+        "Isolei o núcleo reagente e neutralizei os compostos voláteis antes da reação em cadeia.",
+        "Reduzi a temperatura interna com solução estabilizadora e interrompi o ciclo alquímico.",
+        "Separei os catalisadores ativos e converti a mistura em estado inerte."
+      ],
+      "en": [
+        "I isolated the reactive core and neutralized volatile compounds before chain reaction.",
+        "I reduced internal temperature with a stabilizing solution and halted the alchemical cycle.",
+        "I separated active catalysts and converted the mixture into an inert state."
+      ],
+      "es": [
+        "Aislé el núcleo reactivo y neutralicé los compuestos volátiles antes de la reacción en cadena.",
+        "Reduje la temperatura interna con una solución estabilizadora y detuve el ciclo alquímico.",
+        "Separé los catalizadores activos y convertí la mezcla en un estado inerte."
+      ],
+      "ru": [
+        "Я изолировал реактивное ядро и нейтрализовал летучие соединения до цепной реакции.",
+        "Снизил внутреннюю температуру стабилизирующим раствором и остановил цикл.",
+        "Отделил активные катализаторы и перевёл смесь в инертное состояние."
+      ],
+      "zh": [
+        "我隔离反应核心并在连锁反应前中和挥发成分。",
+        "我用稳定溶液降低内部温度并停止炼金循环。",
+        "我分离活性催化剂并将混合物转为惰性状态。"
+      ],
+      "ja": [
+        "反応核を隔離し、連鎖反応前に揮発成分を中和しました。",
+        "安定化溶液で内部温度を下げ、錬金循環を停止しました。",
+        "活性触媒を分離し、不活性状態へ転換しました。"
+      ]
+    },
+    "arcana": {
+      "pt": [
+        "Tracei o padrão mágico do artefato e desativei sua matriz de ativação.",
+        "Interrompi o fluxo arcano que alimentava a instabilidade do núcleo.",
+        "Apliquei selo de contenção para suprimir reações vibracionais e térmicas."
+      ],
+      "en": [
+        "I traced the artifact’s magical pattern and disabled its activation matrix.",
+        "I severed the arcane flow sustaining the core instability.",
+        "I applied a containment seal to suppress vibrational and thermal reactions."
+      ],
+      "es": [
+        "Rastreé el patrón mágico y desactivé la matriz de activación.",
+        "Interrumpí el flujo arcano que sostenía la inestabilidad.",
+        "Apliqué un sello de contención para suprimir reacciones."
+      ],
+      "ru": [
+        "Я проследил магическую структуру и отключил матрицу активации.",
+        "Прервал арканный поток, питающий нестабильность.",
+        "Наложил печать сдерживания для подавления реакций."
+      ],
+      "zh": [
+        "我追踪魔法结构并关闭启动矩阵。",
+        "我切断维持不稳定的奥术能流。",
+        "我施加封印抑制震动与热反应。"
+      ],
+      "ja": [
+        "魔法構造を解析し、起動行列を無効化しました。",
+        "不安定を支える秘術の流れを遮断しました。",
+        "振動と熱反応を抑える封印を施しました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "Uma reação secundária foi iniciada durante a tentativa de neutralização.",
+        "O núcleo reagiu a uma vibração residual e entrou em sobrecarga.",
+        "A matriz arcana colapsou antes da contenção completa."
+      ],
+      "en": [
+        "A secondary reaction triggered during neutralization.",
+        "The core reacted to residual vibration and entered overload.",
+        "The arcane matrix collapsed before full containment."
+      ],
+      "es": [
+        "Una reacción secundaria se activó durante la neutralización.",
+        "El núcleo reaccionó a una vibración residual y se sobrecargó.",
+        "La matriz arcana colapsó antes de la contención total."
+      ],
+      "ru": [
+        "Вторичная реакция началась во время обезвреживания.",
+        "Ядро отреагировало на вибрацию и перегрузилось.",
+        "Арканная матрица разрушилась до полной изоляции."
+      ],
+      "zh": [
+        "中和过程中触发了次级反应。",
+        "核心对残余震动产生反应并过载。",
+        "奥术矩阵在完全控制前崩溃。"
+      ],
+      "ja": [
+        "無力化中に二次反応が発生しました。",
+        "残留振動で核が過負荷になりました。",
+        "完全封鎖前に秘術行列が崩壊しました。"
+      ]
+    }
   }
+}
 }

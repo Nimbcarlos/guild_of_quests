@@ -47,5 +47,75 @@
       "zh": "居民",
       "ja": "住民"
     }
+  },
+"conclusion": {
+  "success": {
+    "default": {
+      "pt": [
+        "Negociei uma zona restrita de trabalho para os esqueletos, mantendo-os longe de templos e áreas residenciais. A ala sul aceitou a trégua desde que os contratos sejam auditados pela guilda.",
+        "Convenci o necromante a utilizar mantos e máscaras nos trabalhadores mortos-vivos para mitigar o impacto visual. Com a 'humanização' estética, a tensão dos moradores diminuiu consideravelmente.",
+        "Estabeleci um fundo de compensação onde parte do lucro do Sindicato é revertido para obras sociais na ala sul. O benefício financeiro direto acalmou os críticos mais fervorosos da prática."
+      ],
+      "en": [
+        "I negotiated a restricted work zone for the skeletons, keeping them away from temples and residential areas. The south wing accepted the truce as long as the contracts are audited by the guild.",
+        "I convinced the necromancer to use robes and masks on the undead workers to mitigate the visual impact. With this aesthetic 'humanization,' the residents' tension decreased significantly.",
+        "I established a compensation fund where part of the Union's profit is reinvested into social works in the south wing. The direct financial benefit calmed the most fervent critics of the practice."
+      ],
+      "es": [
+        "Negocié una zona restringida para los esqueletos, manteniéndolos lejos de templos. El ala sur aceptó la tregua siempre que los contratos sean auditados por el gremio.",
+        "Convencí al nigromante de usar túnicas y máscaras en los trabajadores para mitigar el impacto visual. Con la 'humanización', la tensión de los residentes disminuyó.",
+        "Establecí un fondo de compensación donde parte del beneficio se revierte en obras sociales. El beneficio financiero calmó a los críticos más fervorosos."
+      ],
+      "ru": [
+        "Я договорилась об ограниченной рабочей зоне для скелетов, вдали от храмов. Южный район принял перемирие при условии аудита контрактов гильдией.",
+        "Я убедила некроманта использовать робы и маски для нежити, чтобы смягчить визуальный эффект. С такой «гуманизацией» напряжение жителей спало.",
+        "Я создала компенсационный фонд, часть прибыли которого идет на социальные нужды южного района. Прямая выгода успокоила ярых критиков."
+      ],
+      "zh": [
+        "我协商了骷髅的限制工作区，让他们远离寺庙和住宅区。南区接受了休战协定，前提是由公会对合同进行审计。",
+        "我通过说服死灵法师给亡灵工人穿上长袍并戴上面具，以减轻视觉冲击。随着这种审美上的“人性化”，居民的紧张情绪显著下降。",
+        "我建立了一个补偿基金，将工会的部分利润用于南区的社会工程。直接的经济利益平息了那些最激烈的反对者。"
+      ],
+      "ja": [
+        "骸骨たちの作業区域を限定し、寺院や居住区から遠ざける交渉を行いました。南地区は、ギルドが契約を監査することを条件に休戦を受け入れました。",
+        "視覚的な不快感を和らげるため、不死の労働者にローブと仮面を着用させるよう説得しました。この「人間化」により、住民の反発は大幅に緩和されました。",
+        "組合の利益の一部を南地区の社会事業に還元する補償基金を設立しました。直接的な経済的利益が、この慣習に対する熱狂的な批判を鎮めました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "A mediação falhou e moradores furiosos invadiram os canteiros de obra. Diversos esqueletos foram destruídos, resultando em processos judiciais caros contra a cidade e uma revolta na ala sul.",
+        "Minha tentativa de conciliação foi vista como apoio à profanação. A ala sul declarou boicote à guilda e o necromante retirou seu investimento, deixando obras públicas inacabadas.",
+        "Um esqueleto mal selado agrediu um cidadão durante o tumulto, validando todos os medos da população. A prática foi banida violentamente e a reputação da guilda foi manchada."
+      ],
+      "en": [
+        "Mediation failed, and enraged residents stormed the construction sites. Several skeletons were destroyed, resulting in costly lawsuits against the city and a riot in the south wing.",
+        "My attempt at conciliation was seen as support for profanation. The south wing declared a boycott against the guild, and the necromancer withdrew his investment, leaving public works unfinished.",
+        "A poorly sealed skeleton attacked a citizen during the riot, validating all the population's fears. The practice was violently banned, and the guild's reputation was stained."
+      ],
+      "es": [
+        "La mediación falló y los residentes furiosos invadieron las obras. Varios esqueletos fueron destruidos, resultando en demandas contra la ciudad y revueltas.",
+        "Mi intento de conciliación fue visto como apoyo a la profanación. El ala sur declaró un boicot al gremio y las obras públicas quedaron inconclusas.",
+        "Un esqueleto mal sellado agredió a un ciudadano, validando los miedos de la población. La práctica fue prohibida violentamente y la reputação del gremio quedó manchada."
+      ],
+      "ru": [
+        "Посредничество провалилось, и разгневанные жители ворвались на стройки. Скелеты были уничтожены, что привело к искам против города и беспорядкам.",
+        "Моя попытка примирения была воспринята как поддержка кощунства. Южный район объявил бойкот гильдии, а некромант прекратил инвестиции.",
+        "Плохо запечатанный скелет напал на горожанина, подтвердив все страхи. Практика была жестоко запрещена, а репутация гильдии пострадала."
+      ],
+      "zh": [
+        "调解失败，愤怒的居民冲进了施工现场。数具骷髅被毁，导致针对城市的昂贵诉讼和南区的骚乱。",
+        "我的调解尝试被视为对亵渎的支持。南区宣布抵制公会，死灵法师撤回了投资，留下了未完成的公共工程。",
+        "一具密封不当的骷髅在骚乱中袭击了市民，证实了民众的所有恐惧。该行为被暴力禁止，公会的名誉受损。"
+      ],
+      "ja": [
+        "仲裁は失敗し、激昂した住民が工事現場に乱入しました。複数の骸骨が破壊され、街に対する高額な訴訟と南地区の暴動に発展しました。",
+        "和解の試みが冒涜への加担と見なされました。南地区はギルドへのボイコットを宣言し、ネクロマンサーは投資を引き揚げ、公共事業は未完了のまま放置されました。",
+        "封印の甘い骸骨が騒動中に市民を攻撃し、住民の不信感が的中してしまいました。この慣習は暴力的に禁止され、ギルドの評判は失墜しました。"
+      ]
+    }
   }
+}
 }

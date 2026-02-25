@@ -47,5 +47,75 @@
       "zh": "被盗的钥匙",
       "ja": "盗まれた鍵"
     }
+  },
+"conclusion": {
+  "success": {
+    "default": {
+      "pt": [
+        "Infiltrei-me pelo perímetro menos vigiado e localizei a chave roubada. Saí sem alertar os guardas.",
+        "Esperei a troca de turno e acessei o esconderijo em silêncio. Recuperei a chave e deixei o local intacto.",
+        "Neutralizei sentinelas isolados e alcancei o cofre improvisado. A chave foi recuperada sem detecção."
+      ],
+      "en": [
+        "I infiltrated through the least guarded perimeter and located the stolen key. I exited without alerting the guards.",
+        "I waited for the shift change and accessed the hideout silently. I recovered the key and left the site undisturbed.",
+        "I neutralized isolated sentries and reached the makeshift vault. The key was recovered undetected."
+      ],
+      "es": [
+        "Me infiltré por el perímetro menos vigilado y localicé la llave robada. Salí sin alertar a los guardias.",
+        "Esperé el cambio de turno y accedí al escondite en silencio. Recuperé la llave y dejé el lugar intacto.",
+        "Neutralicé centinelas aislados y alcancé el cofre improvisado. La llave fue recuperada sin ser detectado."
+      ],
+      "ru": [
+        "Я проник через наименее охраняемый участок и нашёл украденный ключ. Вышел, не подняв тревоги.",
+        "Дождался смены караула и бесшумно вошёл в логово. Ключ возвращён без следов вмешательства.",
+        "Обезвредил изолированных стражей и добрался до тайника. Ключ извлечён незаметно."
+      ],
+      "zh": [
+        "我从防守最薄弱处潜入，找到被盗的钥匙，未惊动守卫便撤离。",
+        "我等待换岗时机，悄然进入藏身处，取回钥匙并保持现场原状。",
+        "我解决孤立守卫，抵达临时藏匿处，成功无声取回钥匙。"
+      ],
+      "ja": [
+        "最も警戒の薄い経路から潜入し、盗まれた鍵を発見しました。警備に気付かれず退出しました。",
+        "交代の隙を突いて静かに侵入。鍵を回収し痕跡を残さず離脱しました。",
+        "孤立した見張りを無力化し、隠し場所へ到達。鍵を気付かれず奪還しました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "Um vigia alterou a rota e fui detectado antes de alcançar a chave.",
+        "O esconderijo possuía um alarme oculto que acionou reforços.",
+        "Não consegui atravessar o perímetro externo sem comprometer a missão."
+      ],
+      "en": [
+        "A guard altered his route and I was detected before reaching the key.",
+        "The hideout had a hidden alarm that summoned reinforcements.",
+        "I failed to breach the outer perimeter without compromising the mission."
+      ],
+      "es": [
+        "Un guardia cambió su ruta y fui detectado antes de alcanzar la llave.",
+        "El escondite tenía una alarma oculta que llamó refuerzos.",
+        "No logré atravesar el perímetro externo sin comprometer la misión."
+      ],
+      "ru": [
+        "Страж изменил маршрут, и меня обнаружили до ключа.",
+        "В логове оказался скрытый сигнал тревоги, вызвавший подкрепление.",
+        "Не удалось пройти внешний периметр без раскрытия."
+      ],
+      "zh": [
+        "守卫改变巡逻路线，我在抵达钥匙前被发现。",
+        "藏身处设有隐藏警报，触发增援。",
+        "未能在不暴露的情况下突破外围防线。"
+      ],
+      "ja": [
+        "巡回経路の変更で鍵に届く前に発見されました。",
+        "隠れ家に警報装置があり、増援を呼ばれました。",
+        "外周を突破できず、任務は失敗しました。"
+      ]
+    }
   }
+}
 }

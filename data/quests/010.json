@@ -49,5 +49,75 @@
       "zh": "被散布的谣言",
       "ja": "流された噂"
     }
+  },
+"conclusion": {
+  "success": {
+    "default": {
+      "pt": [
+        "Consegui rastrear a origem dos boatos. Não foram apenas comentários bêbados, mas frases ensaiadas plantadas por informantes pagos. O rastro leva a alguém que lucra com a instabilidade das Casas Nobres.",
+        "Analisei os gestos relatados no banquete. Um dos conselheiros trocou sinais com um mensageiro externo. Descobri que a sabotagem visava fragilizar a região para uma futura tomada de controle por terceiros.",
+        "Filtrei as mentiras nas tavernas e encontrei um padrão. Alguém de confiança dos nobres está vazando segredos para garantir que a paz nunca seja duradoura. O inimigo está mais perto do que eles imaginam."
+      ],
+      "en": [
+        "I managed to trace the origin of the rumors. They weren't just drunken remarks, but rehearsed phrases planted by paid informants. The trail leads to someone who profits from the instability of the Noble Houses.",
+        "I analyzed the gestures reported at the banquet. One of the councilors exchanged signals with an external messenger. I discovered that the sabotage aimed to weaken the region for a future takeover by third parties.",
+        "I filtered the lies in the taverns and found a pattern. Someone trusted by the nobles is leaking secrets to ensure peace is never lasting. The enemy is closer than they imagine."
+      ],
+      "es": [
+        "Logré rastrear el origen de los rumores. No fueron solo comentarios de borrachos, sino frases ensayadas sembradas por informantes pagados. El rastro conduce a alguien que lucra con la inestabilidad.",
+        "Analicé los gestos reportados en el banquete. Uno de los consejeros intercambió señales con un mensajero externo. Descubrí que el sabotaje buscaba debilitar la región para un futuro control externo.",
+        "Filtré las mentiras en las tabernas y encontré un patrón. Alguien de confianza de los nobles está filtrando secretos para asegurar que la paz nunca dure. El enemigo está más cerca de lo que imaginan."
+      ],
+      "ru": [
+        "Мне удалось выследить источник слухов. Это были не просто пьяные выкрики, а отрепетированные фразы, запущенные нанятыми информаторами. След ведет к тому, кому выгодна нестабильность великих домов.",
+        "Я проанализировала жесты, замеченные на банкете. Один из советников обменивался сигналами с внешним гонцом. Я выяснила, что саботаж был направлен на ослабление региона для будущего захвата власти.",
+        "Я отсеяла ложь в тавернах и нашла закономерность. Кто-то из доверенных лиц дворян выдает секреты, чтобы мир не продлился долго. Враг ближе, чем они думают."
+      ],
+      "zh": [
+        "我成功追踪到了谣言的源头。这些不只是酒后的胡言乱语，而是由受雇的线人散布的排练好的话语。线索指向一个从贵族家族的不稳定中获利的人。",
+        "我分析了宴会上报告的举动。其中一名顾问与一名外部信使交换了信号。我发现这次破坏旨在削弱该地区，以便第三方未来夺权。",
+        "我过滤了酒馆里的谎言并发现了一个规律。贵族信任的某人正在泄露秘密，以确保和平永远不会持久。敌人比他们想象的更近。"
+      ],
+      "ja": [
+        "噂の出所を突き止めました。ただの酔っ払いの発言ではなく、雇われた情報提供者によって植え付けられた台本通りの言葉でした。その足跡は、貴族家の不安定さから利益を得ている人物へと続いています。",
+        "晩餐会で報告された不審な動きを分析しました。評議員の一人が外部の使者と合図を交わしていました。この破壊工作は、将来的な第三者による支配のために地域を弱体化させることが目的だと判明しました。",
+        "酒場に流れる嘘を精査したところ、あるパターンが見つかりました。貴族の信頼を得ている誰かが秘密を漏らし、平和が長続きしないように仕組んでいます。敵は彼らが想像するよりも近くにいます。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "Minhas perguntas foram diretas demais. Os informantes silenciaram e quase fui cercado em um beco. Voltei de mãos vazias e a trégua continua por um fio.",
+        "Fui seguido durante a investigação e acabei em uma pista falsa. Enquanto eu perdia tempo, os agitadores desapareceram nas sombras da ala leste.",
+        "Não consegui extrair nada útil das tavernas. O medo parece ser maior que a vontade de falar, e as pistas sobre o sabotador esfriaram completamente."
+      ],
+      "en": [
+        "My questions were too direct. The informants went silent, and I was nearly cornered in an alley. I returned empty-handed, and the truce remains on thin ice.",
+        "I was followed during the investigation and ended up on a false lead. While I wasted time, the agitators disappeared into the shadows of the east wing.",
+        "I couldn't extract anything useful from the taverns. Fear seems greater than the will to speak, and the clues about the saboteur have gone cold."
+      ],
+      "es": [
+        "Mis preguntas fueron demasiado directas. Los informantes guardaron silencio y casi me acorralan en un callejón. Regresé con las manos vacías y la tregua pende de un hilo.",
+        "Me siguieron durante la investigación y terminé en una pista falsa. Mientras perdía el tiempo, los agitadores desaparecieron en las sombras del ala este.",
+        "No logré extraer nada útil de las tabernas. El miedo parece ser mayor que la voluntad de hablar, y las pistas sobre el saboteador se han enfriado por completo."
+      ],
+      "ru": [
+        "Мои вопросы были слишком прямыми. Информаторы замолчали, и меня чуть не зажали в переулке. Я вернулась с пустыми руками, и перемирие висит на волоске.",
+        "Во время расследования за мной следили, и я пошла по ложному следу. Пока я теряла время, подстрекатели исчезли в тенях восточного крыла.",
+        "Мне не удалось выведать в тавернах ничего полезного. Страх кажется сильнее желания говорить, и следы саботажника полностью остыли."
+      ],
+      "zh": [
+        "我的提问过于直接。线人们沉默了，我差点在小巷里被围堵。我空手而归，停战协议依然岌岌可危。",
+        "我在调查过程中被跟踪，结果追查到了错误线索。在我浪费时间时，煽动者已消失在东翼的阴影中。",
+        "我没能从酒馆中套取任何有用信息。恐惧似乎战胜了倾诉的欲望，关于破坏者的线索已完全中断。"
+      ],
+      "ja": [
+        "質問が直接的すぎました。情報提供者たちは口を閉ざし、路地裏で囲まれそうになりました。手ぶらで戻る羽目になり、休戦は風前の灯火です。",
+        "調査中に尾行され、偽の手がかりに踊らされました。時間を浪費している間に、扇動者たちは東翼の闇に消えてしまいました。",
+        "酒場から有用な情報を引き出すことができませんでした。話したい欲求よりも恐怖の方が勝っているようで、破壊工作員に関する手がかりは完全に途絶えました。"
+      ]
+    }
   }
+}
 }

@@ -47,5 +47,75 @@
       "zh": "石像鬼",
       "ja": "ゴーレム"
     }
+  },
+"conclusion": {
+  "success": {
+    "default": {
+      "pt": [
+        "Identifiquei o glifo mestre nas costas dos golems e utilizei um contra-feitiço de dispersão. As criaturas cessaram as hostilidades e retornaram ao estado inerte sem sofrer um único arranhão estrutural.",
+        "Em vez de combater a força física, sobrepus a rede de mana dos golems com uma frequência de repouso. Eles pararam de atacar imediatamente, preservando o investimento caríssimo do proprietário da mina.",
+        "Tecendo um laço de contenção espiritual, consegui reescrever as diretrizes corrompidas no núcleo arcano de cada golem. Eles não apenas pararam o ataque, como retomaram o trabalho de mineração com segurança."
+      ],
+      "en": [
+        "I identified the master glyph on the golems' backs and used a dispersion counter-spell. The creatures ceased hostilities and returned to an inert state without suffering a single structural scratch.",
+        "Instead of fighting physical force, I overlaid the golems' mana net with a resting frequency. They stopped attacking immediately, preserving the mine owner's expensive investment.",
+        "Weaving a spiritual containment bond, I managed to rewrite the corrupted directives in each golem's arcane core. They not only stopped the attack but safely resumed their mining work."
+      ],
+      "es": [
+        "Identifiqué el glifo maestro y utilicé un contrahechizo de dispersión. Las criaturas cesaron las hostilidades y volvieron a un estado inerte sin sufrir ni un solo rasguño estructural.",
+        "En lugar de combatir la fuerza física, superpuse la red de maná con una frecuencia de reposo. Se detuvieron inmediatamente, preservando la costosa inversión.",
+        "Tejiendo un lazo de contención espiritual, logré reescribir las directrizes corruptas. No solo detuvieron el ataque, sino que retomaron el trabajo de forma segura."
+      ],
+      "ru": [
+        "Я нашла главный глиф на спинах големов и использовала контрзаклинание рассеивания. Существа прекратили вражду и вернулись в инертное состояние без единой царапины.",
+        "Вместо того чтобы бороться с физической силой, я наложила на мана-сеть големов частоту покоя. Они немедленно остановились, сохранив дорогостоящие инвестиции владельца.",
+        "Сплетя узы духовного сдерживания, я переписала поврежденные директивы в арканных ядрах. Големы не только прекратили атаку, но и благополучно вернулись к работе."
+      ],
+      "zh": [
+        "我识别出了傀儡背后的主符文，并使用了驱散反咒。这些生物停止了攻击，恢复到静止状态，且没有受到任何结构性损伤。",
+        "我没有与其蛮力抗衡，而是用一种休止频率覆盖了傀儡的法力网。它们立即停止了攻击，保住了矿主昂贵的投资。",
+        "通过编织精神束缚，我成功改写了每个傀儡奥术核心中的错误指令。它们不仅停止了攻击，还安全地恢复了采矿工作。"
+      ],
+      "ja": [
+        "ゴーレムの背中にあるマスターグリフを特定し、霧散の対抗呪文を使用しました。ゴーレムたちは構造的な損傷を一切受けることなく敵対行為をやめ、不活性状態に戻りました。",
+        "物理的な力に対抗する代わりに、ゴーレムのマナネットに休息の周波数を重ね合わせました。彼らは即座に停止し、鉱山主の非常に高価な投資が守られました。",
+        "精神的な拘束の絆を編み、各ゴーレムの秘術核にある破損した指令を書き換えることに成功しました。彼らは攻撃をやめただけでなく、安全に採掘作業を再開しました。"
+      ]
+    }
+  },
+"failure": {
+    "default": {
+      "pt": [
+        "Minha tentativa de selamento rúnico falhou e os golems entraram em um ciclo de defesa agressiva. Para salvar a equipe de mineiros, fui forçado a fragmentar os núcleos, destruindo as valiosas máquinas.",
+        "A ressonância arcana foi instável demais. A explosão de feedback não só deixou o herói atordoado, como causou um desmoronamento parcial na mina, soterrando os golems e parte do lucro do mês.",
+        "Subestimei a resistência mágica das criaturas. Os golems ignoraram meus feitiços de contenção e destruíram os equipamentos de suporte da mina antes de pararem por exaustão de energia."
+      ],
+      "en": [
+        "My runic sealing attempt failed and the golems entered an aggressive defense cycle. To save the mining team, I was forced to fragment the cores, destroying the valuable machines.",
+        "The arcane resonance was too unstable. The feedback blast not only stunned the hero but caused a partial cave-in, burying the golems and part of the month's profit.",
+        "I underestimated the creatures' magical resistance. The golems ignored my containment spells and destroyed the mine's support equipment before stopping from energy exhaustion."
+      ],
+      "es": [
+        "Mi intento de sellado falló y los golems entraron en un ciclo de defensa agresiva. Para salvar al equipo, me vi obligado a fragmentar los núcleos, destruyendo las máquinas.",
+        "La resonancia arcana fue inestable. La explosión de retroalimentación aturdió al héroe y provocó un derrumbe parcial, sepultando a los golems.",
+        "Subestimé la resistencia mágica. Los golems ignoraron mis hechizos y destruyeron el equipo de soporte antes de agotarse."
+      ],
+      "ru": [
+        "Моя попытка рунического запечатывания провалилась, и големы перешли в режим агрессивной защиты. Чтобы спасти шахтеров, мне пришлось разбить ядра, уничтожив ценные машины.",
+        "Арканный резонанс оказался слишком нестабильным. Вспышка обратной связи не только оглушила героя, но и вызвала частичный обвал, похоронив големов и прибыль за месяц.",
+        "Я недооценила магическое сопротивление существ. Големы проигнорировали заклинания сдерживания и разрушили оборудование шахты, прежде чем их энергия иссякла."
+      ],
+      "zh": [
+        "我的符文封印尝试失败了，傀儡进入了攻击性防御循环。为了营救矿工队伍，我被迫粉碎了核心，摧毁了这些昂贵的机器。",
+        "奥术共振过于不稳定。反馈爆发不仅震晕了英雄，还导致了矿井部分塌方，掩埋了傀儡和本月的部分利润。",
+        "我低估了这些生物的魔法抗性。傀儡无视了我的束缚法术，在能量耗尽停止前拆毁了矿井的支撑设备。"
+      ],
+      "ja": [
+        "ルーン封印の試みが失敗し、ゴーレムは攻撃的な防衛サイクルに入りました。坑夫たちを救うため、核を砕かざるを得ず、高価な機械を破壊してしまいました。",
+        "秘術の共鳴が不安定すぎました。フィードバックの爆発で英雄が気絶しただけでなく、鉱山の一部が崩落し、ゴーレムと今月の利益の一部が埋もれてしまいました。",
+        "クリーチャーの魔法耐性を過小評価していました。ゴーレムは拘束呪文を無視し、エネルギーが枯渇して止まる前に鉱山の支援設備を破壊し尽くしました。"
+      ]
+    }
   }
+}
 }

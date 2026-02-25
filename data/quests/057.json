@@ -50,5 +50,107 @@
       "zh": "魔法传感器",
       "ja": "魔法センサー"
     }
+  },
+"conclusion": {
+  "success": {
+    "engineering": {
+      "pt": [
+        "Redirecionei a energia dos sensores para um circuito isolado antes de iniciar a inspeção.",
+        "Instalei amortecedores temporários nas superfícies vibratórias do laboratório.",
+        "Recalibrei os sensores para limiar mínimo e executei o inventário."
+      ],
+      "en": [
+        "I redirected sensor energy to an isolated circuit before beginning inspection.",
+        "I installed temporary dampeners on the lab’s vibration surfaces.",
+        "I recalibrated the sensors to minimum threshold and performed the inventory."
+      ],
+      "es": [
+        "Redirigí la energía de los sensores a un circuito aislado antes de iniciar la inspección.",
+        "Instalé amortiguadores temporales en las superficies vibratorias del laboratorio.",
+        "Recalibré los sensores al umbral mínimo y ejecuté el inventario."
+      ],
+      "ru": [
+        "Я перенаправил энергию сенсоров в изолированную цепь перед осмотром.",
+        "Установил временные демпферы на вибрирующие поверхности лаборатории.",
+        "Перекалибровал сенсоры на минимальный порог и провёл инвентаризацию."
+      ],
+      "zh": [
+        "我将传感器能量引至隔离回路后开始检查。",
+        "我在实验室振动表面安装临时减震装置。",
+        "我将传感器重新校准至最低阈值并完成清点。"
+      ],
+      "ja": [
+        "検査前にセンサーのエネルギーを隔離回路へ転送しました。",
+        "振動面に一時的な減衰装置を設置しました。",
+        "感度を最低閾値に再調整し、在庫調査を実施しました。"
+      ]
+    },
+    "default": {
+      "pt": [
+        "Identifiquei os pontos de ativação dos sensores mágicos e ajustei os cristais receptores. O inventário foi concluído sem ruído.",
+        "Avancei sincronizando movimentos com pulsos ambientais e evitei disparos mágicos.",
+        "Desativei temporariamente os sensores principais e registrei as substâncias instáveis."
+      ],
+      "en": [
+        "I identified the magical sensors' trigger points and adjusted the receiver crystals. The inventory was completed silently.",
+        "I synchronized movements with ambient pulses and avoided magical triggers.",
+        "I temporarily disabled the primary sensors and logged the unstable substances."
+      ],
+      "es": [
+        "Identifiqué los puntos de activación de los sensores mágicos y ajusté los cristales receptores. El inventario se completó en silencio.",
+        "Sincronicé mis movimientos con los pulsos ambientales y evité activaciones mágicas.",
+        "Desactivé temporalmente los sensores principales y registré las sustancias inestables."
+      ],
+      "ru": [
+        "Я определил точки активации магических сенсоров и настроил кристаллы-приёмники. Инвентаризация прошла бесшумно.",
+        "Синхронизировал движения с фоновыми импульсами и избежал срабатывания.",
+        "Временно отключил основные сенсоры и зафиксировал нестабильные вещества."
+      ],
+      "zh": [
+        "我找到魔法传感器的触发点并调整接收水晶，安静完成清点。",
+        "我与环境脉冲同步行动，避免触发装置。",
+        "我暂时关闭主要传感器并记录不稳定物质。"
+      ],
+      "ja": [
+        "魔法センサーの作動点を特定し、受信クリスタルを調整しました。無音で在庫確認を完了しました。",
+        "環境の脈動に合わせて移動し、発動を回避しました。",
+        "主要センサーを一時停止し、不安定物質を記録しました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "Um ruído residual ativou os sensores mágicos antes da conclusão.",
+        "A recalibração falhou e o sistema entrou em alerta.",
+        "As vibrações do ambiente ultrapassaram o limite seguro."
+      ],
+      "en": [
+        "Residual noise triggered the magical sensors before completion.",
+        "Recalibration failed and the system entered alert mode.",
+        "Environmental vibrations exceeded the safe threshold."
+      ],
+      "es": [
+        "Un ruido residual activó los sensores antes de completar.",
+        "La recalibración falló y el sistema entró en alerta.",
+        "Las vibraciones ambientales superaron el límite seguro."
+      ],
+      "ru": [
+        "Остаточный шум активировал сенсоры до завершения.",
+        "Перекалибровка не удалась, система перешла в режим тревоги.",
+        "Вибрации превысили безопасный порог."
+      ],
+      "zh": [
+        "残余噪音在完成前触发了传感器。",
+        "重新校准失败，系统进入警报状态。",
+        "环境振动超过安全阈值。"
+      ],
+      "ja": [
+        "残留音が作動し、完了前に検知されました。",
+        "再調整に失敗し、警報が発動しました。",
+        "環境振動が安全域を超えました。"
+      ]
+    }
   }
+}
 }

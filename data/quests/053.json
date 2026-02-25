@@ -47,5 +47,75 @@
       "zh": "圣物",
       "ja": "聖遺物"
     }
+  },
+"conclusion": {
+  "success": {
+    "default": {
+      "pt": [
+        "Acesseio museu durante a troca de turno e reposicionei a relíquia no expositor original. Saí sem alterar registros ou levantar suspeitas.",
+        "Utilizei uma entrada de manutenção para devolver a relíquia à vitrine correta. Nenhum alerta foi acionado.",
+        "Desativei temporariamente um sensor interno, deixei a peça no local exato e restabeleci o sistema antes de sair."
+      ],
+      "en": [
+        "I accessed the museum during a shift change and restored the relic to its original display. I exited without altering records or raising suspicion.",
+        "I used a maintenance entry to return the relic to the correct case. No alarms were triggered.",
+        "I temporarily disabled an internal sensor, placed the piece in its exact position, and restored the system before leaving."
+      ],
+      "es": [
+        "Accedí al museo durante el cambio de turno y devolví la reliquia a su vitrina original. Salí sin levantar sospechas.",
+        "Usé una entrada de mantenimiento para colocar la reliquia en la vitrina correcta. No se activaron alarmas.",
+        "Desactivé temporalmente un sensor interno, dejé la pieza en su lugar exacto y restablecí el sistema antes de salir."
+      ],
+      "ru": [
+        "Я проник в музей во время смены караула и вернул реликвию на прежнее место. Ушёл, не вызвав подозрений.",
+        "Использовал служебный вход, чтобы вернуть реликвию в витрину. Сигнализация не сработала.",
+        "Временно отключил датчик, разместил предмет на точной позиции и восстановил систему перед уходом."
+      ],
+      "zh": [
+        "我在换岗时进入博物馆，将圣物放回原展柜，未引起怀疑。",
+        "我通过维修通道归还圣物，未触发警报。",
+        "我短暂关闭内部感应器，将文物放回准确位置后恢复系统并撤离。"
+      ],
+      "ja": [
+        "交代の隙に博物館へ入り、聖遺物を元の展示位置に戻しました。疑いを残さず退出しました。",
+        "保守用通路を使い、正しいケースへ返却。警報は作動しませんでした。",
+        "内部センサーを一時停止し、正確な位置に戻してから復旧。痕跡なく離脱しました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "Um guarda inesperado entrou na galeria antes da reposição completa.",
+        "Um registro interno detectou a abertura não autorizada da vitrine.",
+        "Não consegui atravessar o perímetro sem comprometer a identidade protegida."
+      ],
+      "en": [
+        "An unexpected guard entered the gallery before the placement was complete.",
+        "An internal log detected the unauthorized opening of the display case.",
+        "I failed to cross the perimeter without risking exposure of the protected identity."
+      ],
+      "es": [
+        "Un guardia inesperado entró en la galería antes de completar la reposición.",
+        "Un registro interno detectó la apertura no autorizada de la vitrina.",
+        "No logré cruzar el perímetro sin comprometer la identidad protegida."
+      ],
+      "ru": [
+        "Неожиданный страж вошёл в зал до завершения возврата.",
+        "Система зафиксировала несанкционированное открытие витрины.",
+        "Я не смог пройти периметр, не рискуя раскрыть защищённую личность."
+      ],
+      "zh": [
+        "在完成归还前，一名守卫进入展厅。",
+        "系统记录到未经授权的展柜开启。",
+        "未能在不暴露受保护身份的情况下通过外围防线。"
+      ],
+      "ja": [
+        "返却完了前に警備が展示室へ入りました。",
+        "無許可のケース開放が記録されました。",
+        "保護対象の身元を危険にさらさず突破できませんでした。"
+      ]
+    }
   }
+}
 }
