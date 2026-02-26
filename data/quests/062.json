@@ -85,7 +85,7 @@
         "活性触媒を分離し、不活性状態へ転換しました。"
       ]
     },
-    "arcana": {
+    "default": {
       "pt": [
         "Tracei o padrão mágico do artefato e desativei sua matriz de ativação.",
         "Interrompi o fluxo arcano que alimentava a instabilidade do núcleo.",

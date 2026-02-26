@@ -49,5 +49,75 @@
       "zh": "帮派",
       "ja": "ギャング"
     }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Encarei a gangue no distrito sul e eles abandonaram a cobrança de proteção imediatamente.",
+          "Deixei claro que o território estava sob vigilância da Guilda e a gangue recuou sem confronto.",
+          "Intimidei os líderes da gangue e os mercadores voltaram a negociar sem extorsão."
+        ],
+        "en": [
+          "I confronted the gang in the south district and they immediately abandoned their protection scheme.",
+          "I made it clear the territory was under Guild watch and the gang withdrew without a fight.",
+          "I intimidated the gang leaders and the merchants resumed business without extortion."
+        ],
+        "es": [
+          "Enfrenté a la pandilla en el distrito sur y abandonaron el cobro de protección de inmediato.",
+          "Dejé claro que el territorio estaba bajo vigilancia del Gremio y se retiraron sin lucha.",
+          "Intimidé a los líderes y los comerciantes volvieron a operar sin extorsión."
+        ],
+        "ru": [
+          "Я вышел к банде в южном районе, и они немедленно прекратили сбор денег.",
+          "Дал понять, что территория под наблюдением Гильдии, и банда отступила без драки.",
+          "Запугал лидеров банды, и торговцы возобновили работу без вымогательства."
+        ],
+        "zh": [
+          "我在南区直面帮派，他们立即停止收取保护费。",
+          "我表明该区域受公会监控，帮派在未开战的情况下撤退。",
+          "我震慑了帮派头目，商人们恢复正常经营。"
+        ],
+        "ja": [
+          "南地区でギャングと対峙し、みかじめ料の徴収を即座にやめさせました。",
+          "この区域はギルドの監視下にあると示し、戦闘なく撤退させました。",
+          "首領を威圧し、商人たちは恐喝なしで商売を再開しました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Minha presença não foi suficiente e a gangue manteve a extorsão no distrito sul.",
+          "A tentativa de intimidação falhou e os criminosos desafiaram abertamente a Guilda.",
+          "A gangue ignorou o aviso e a cobrança de proteção continuou."
+        ],
+        "en": [
+          "My presence was not enough and the gang continued extorting the south district.",
+          "The intimidation failed and the criminals openly defied the Guild.",
+          "The gang ignored the warning and the protection scheme persisted."
+        ],
+        "es": [
+          "Mi presencia no fue suficiente y la pandilla continuó extorsionando el distrito sur.",
+          "La intimidación fracasó y los criminales desafiaron al Gremio.",
+          "Ignoraron la advertencia y el cobro de protección continuó."
+        ],
+        "ru": [
+          "Моего присутствия оказалось недостаточно, и банда продолжила вымогательства.",
+          "Попытка запугивания провалилась, и преступники бросили вызов Гильдии.",
+          "Банда проигнорировала предупреждение, и сбор денег продолжился."
+        ],
+        "zh": [
+          "我的威慑不足，帮派继续在南区勒索。",
+          "威吓失败，罪犯公开挑战公会。",
+          "帮派无视警告，保护费仍在收取。"
+        ],
+        "ja": [
+          "威圧は十分ではなく、ギャングは徴収を続けました。",
+          "脅しは失敗し、犯罪者はギルドに公然と反抗しました。",
+          "警告は無視され、みかじめ料は続きました。"
+        ]
+      }
+    }
   }
 }

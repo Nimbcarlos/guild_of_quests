@@ -50,7 +50,7 @@
   },
 "conclusion": {
   "success": {
-    "thievery": {
+    "default": {
       "pt": [
         "Abri as doze portas da câmara do tesouro dentro do intervalo de cinco minutos cada, sem acionar o reinício.",
         "Adaptei a técnica a cada fechadura e mantive a sequência cronometrada intacta.",

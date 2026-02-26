@@ -50,5 +50,107 @@
       "zh": "仪式",
       "ja": "式典"
     }
+  },
+  "conclusion": {
+    "success": {
+      "diplomacy": {
+        "pt": [
+          "A apresentação consolidou o acordo e as casas reafirmaram a paz.",
+          "Após a cerimônia, os líderes selaram publicamente a aliança.",
+          "O casamento encerrou as hostilidades e firmou um tratado duradouro."
+        ],
+        "en": [
+          "The performance solidified the accord and the houses reaffirmed peace.",
+          "After the ceremony, the leaders publicly sealed their alliance.",
+          "The wedding ended hostilities and secured a lasting treaty."
+        ],
+        "es": [
+          "La actuación consolidó el acuerdo y las casas reafirmaron la paz.",
+          "Tras la ceremonia, los líderes sellaron públicamente la alianza.",
+          "La boda puso fin a las hostilidades y aseguró un tratado duradero."
+        ],
+        "ru": [
+          "Выступление укрепило соглашение, и дома подтвердили мир.",
+          "После церемонии лидеры публично закрепили союз.",
+          "Свадьба положила конец вражде и обеспечила прочный договор."
+        ],
+        "zh": [
+          "演出巩固了协议，双方家族重申和平。",
+          "仪式后，领袖公开确认联盟。",
+          "婚礼结束了敌对状态，确立了长期条约。"
+        ],
+        "ja": [
+          "演奏が合意を強化し、両家は和平を再確認しました。",
+          "式後、指導者たちは公に同盟を確立しました。",
+          "結婚式は敵対を終わらせ、恒久的な条約を結びました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Executei a peça central da cerimônia sem falhas e a união foi celebrada sob aplausos.",
+          "Mantive o ritmo e a harmonia exatos, e a música foi recebida como sinal de prosperidade.",
+          "Conduzi a apresentação até o final e a cerimônia foi vista como um presságio favorável."
+        ],
+        "en": [
+          "I performed the ceremony’s central piece flawlessly and the union was celebrated with applause.",
+          "I kept perfect rhythm and harmony, and the music was taken as a sign of prosperity.",
+          "I carried the performance to its end and the ceremony was seen as a favorable omen."
+        ],
+        "es": [
+          "Interpreté la pieza central sin errores y la unión fue celebrada con aplausos.",
+          "Mantuve el ritmo y la armonía exactos, y la música fue vista como señal de prosperidad.",
+          "Conduje la actuación hasta el final y la ceremonia fue considerada un buen presagio."
+        ],
+        "ru": [
+          "Я безупречно исполнил центральную часть, и союз был встречен аплодисментами.",
+          "Сохранил точный ритм и гармонию, и музыка стала символом процветания.",
+          "Довёл выступление до конца, и церемонию сочли добрым предзнаменованием."
+        ],
+        "zh": [
+          "我完美演奏了仪式的核心曲目，婚礼在掌声中完成。",
+          "我保持精准节奏与和声，音乐被视为繁荣的象征。",
+          "我将演出顺利完成，仪式被解读为吉兆。"
+        ],
+        "ja": [
+          "式の中心曲を完璧に演奏し、祝福の拍手で結ばれました。",
+          "正確なリズムと調和を保ち、音楽は繁栄の兆しと受け取られました。",
+          "最後まで演奏を導き、式は吉兆として締めくくられました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Errei a execução e o silêncio foi interpretado como mau presságio.",
+          "Uma falha na apresentação gerou acusações de sabotagem.",
+          "A cerimônia terminou sob tensão e a paz foi questionada."
+        ],
+        "en": [
+          "I faltered in the performance and the silence was taken as a bad omen.",
+          "A mistake during the piece led to accusations of sabotage.",
+          "The ceremony ended in tension and the peace was questioned."
+        ],
+        "es": [
+          "Fallé en la ejecución y el silencio fue visto como mal presagio.",
+          "Un error generó acusaciones de sabotaje.",
+          "La ceremonia terminó en tensión y la paz fue cuestionada."
+        ],
+        "ru": [
+          "Я допустил ошибку, и тишина стала дурным знаком.",
+          "Сбой вызвал обвинения в саботаже.",
+          "Церемония завершилась напряжённо, и мир оказался под вопросом."
+        ],
+        "zh": [
+          "我演奏失误，沉默被视为凶兆。",
+          "失误引发了蓄意破坏的指控。",
+          "仪式在紧张中结束，和平受到质疑。"
+        ],
+        "ja": [
+          "演奏に失敗し、沈黙は不吉な兆しと受け取られました。",
+          "失敗は妨害の疑いを招きました。",
+          "式は緊張のうちに終わり、和平は揺らぎました。"
+        ]
+      }
+    }
   }
 }

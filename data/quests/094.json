@@ -49,5 +49,75 @@
       "zh": "强盗",
       "ja": "山賊"
     }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Posicionei-me nos muros do vilarejo fronteiriço e os bandoleiros recuaram antes de testar as defesas.",
+          "Deixei claro que o vilarejo estava sob proteção direta da Guilda e os invasores abandonaram a investida.",
+          "A demonstração de força foi suficiente para dispersar os bandoleiros sem confronto."
+        ],
+        "en": [
+          "I stood upon the frontier village walls and the bandits withdrew before testing the defenses.",
+          "I made it clear the village was under direct Guild protection and the raiders abandoned their attempt.",
+          "The show of force was enough to scatter the bandits without a fight."
+        ],
+        "es": [
+          "Me posicioné en las murallas y los bandoleros retrocedieron sin poner a prueba las defensas.",
+          "Dejé claro que el pueblo estaba bajo protección del Gremio y abandonaron el intento.",
+          "La demostración de fuerza bastó para dispersarlos sin combate."
+        ],
+        "ru": [
+          "Я занял позицию на стенах деревни, и разбойники отступили, не проверяя оборону.",
+          "Дал понять, что деревня под защитой Гильдии, и налётчики отказались от нападения.",
+          "Одной демонстрации силы хватило, чтобы разогнать их без боя."
+        ],
+        "zh": [
+          "我站在城墙上，强盗在试探防御前就撤退了。",
+          "我表明村庄受公会保护，袭击者放弃了进攻。",
+          "一次威慑展示便足以让他们不战而退。"
+        ],
+        "ja": [
+          "国境の村の城壁に立つと、山賊は防御を試す前に退きました。",
+          "この村はギルドの保護下にあると示し、襲撃は断念されました。",
+          "力の誇示だけで戦わずして散らせました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Minha presença não foi suficiente e os bandoleiros atacaram o vilarejo.",
+          "A tentativa de intimidação falhou e as defesas foram testadas à força.",
+          "Os invasores ignoraram o aviso e o confronto tornou-se inevitável."
+        ],
+        "en": [
+          "My presence was not enough and the bandits attacked the village.",
+          "The intimidation failed and the defenses were tested by force.",
+          "The raiders ignored the warning and confrontation became inevitable."
+        ],
+        "es": [
+          "Mi presencia no fue suficiente y los bandoleros atacaron el pueblo.",
+          "La intimidación fracasó y las defensas fueron probadas por la fuerza.",
+          "Ignoraron la advertencia y el enfrentamiento fue inevitable."
+        ],
+        "ru": [
+          "Моего присутствия оказалось недостаточно, и разбойники напали.",
+          "Попытка запугивания провалилась, и оборону проверили силой.",
+          "Они проигнорировали предупреждение, и столкновение стало неизбежным."
+        ],
+        "zh": [
+          "我的威慑不足，强盗发起了进攻。",
+          "威吓失败，防线被强行试探。",
+          "他们无视警告，冲突不可避免。"
+        ],
+        "ja": [
+          "威圧は十分ではなく、山賊は村を襲いました。",
+          "脅しは失敗し、防御は力ずくで試されました。",
+          "警告は無視され、衝突は避けられませんでした。"
+        ]
+      }
+    }
   }
 }

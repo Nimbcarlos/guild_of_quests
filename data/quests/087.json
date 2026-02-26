@@ -50,5 +50,107 @@
       "zh": "表演",
       "ja": "スペクタクル"
     }
+  },
+  "conclusion": {
+    "success": {
+      "religion": {
+        "pt": [
+          "Expulsei o espírito do artista e encerrei a possessão antes da manifestação pública.",
+          "Romp i o vínculo do espírito e purifiquei o corpo do anfitrião no festival.",
+          "Sela i o local do ritual e garanti que o espírito não retornasse ao espetáculo."
+        ],
+        "en": [
+          "I expelled the spirit from the performer and ended the possession before a public manifestation.",
+          "I severed the spirit’s link and purified the host’s body at the festival.",
+          "I sealed the ritual site and ensured the spirit could not return to the spectacle."
+        ],
+        "es": [
+          "Expulsé al espíritu del artista y terminé la posesión antes de que se manifestara en público.",
+          "Rompí el vínculo del espíritu y purifiqué al anfitrión en el festival.",
+          "Sellé el lugar del rito y aseguré que el espíritu no regresara al espectáculo."
+        ],
+        "ru": [
+          "Я изгнал дух из артиста и прекратил одержимость до публичного проявления.",
+          "Разорвал связь духа и очистил носителя на фестивале.",
+          "Запечатал место обряда и не дал духу вернуться к шоу."
+        ],
+        "zh": [
+          "我将灵体从演员体内驱逐，阻止了其在公众面前显现。",
+          "我切断了灵体的附着并净化了宿主。",
+          "我封印了仪式节点，确保灵体无法重返表演。"
+        ],
+        "ja": [
+          "演者から霊を追い出し、公の顕現前に憑依を終わらせました。",
+          "霊の結びつきを断ち、祭りの場で宿主を浄化しました。",
+          "儀式の要所を封じ、霊が再び演目に戻れないようにしました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Mantive o público focado no espetáculo e impedi que percebessem o exorcismo.",
+          "Sustentei a distração no festival até o espírito ser removido sem alarde.",
+          "Transformei a tensão em aplausos e segurei a multidão longe do artista possuído."
+        ],
+        "en": [
+          "I kept the crowd focused on the spectacle and prevented them from noticing the exorcism.",
+          "I held the festival’s attention until the spirit was removed without alarm.",
+          "I turned the tension into applause and kept the crowd away from the possessed performer."
+        ],
+        "es": [
+          "Mantuve al público centrado en el espectáculo y evité que notaran el exorcismo.",
+          "Sostuve la distracción en el festival hasta que el espíritu fue expulsado sin alboroto.",
+          "Convertí la tensión en aplausos y mantuve a la multitud lejos del artista poseído."
+        ],
+        "ru": [
+          "Я удержал внимание толпы на шоу и не дал заметить экзорцизм.",
+          "Сохранил отвлечение на фестивале, пока дух не был изгнан без шума.",
+          "Преобразовал напряжение в аплодисменты и оттеснил толпу от одержимого артиста."
+        ],
+        "zh": [
+          "我让观众专注于表演，没让他们察觉驱魔正在进行。",
+          "我在节日上维持分散注意力，直到灵体被悄然驱逐。",
+          "我把紧张情绪转成掌声，并让人群远离被附身的演员。"
+        ],
+        "ja": [
+          "観客の注意を演目に固定し、祓いが行われていることに気づかせませんでした。",
+          "祭りの盛り上がりを保ち、霊が騒ぎなく追い払われるまで時間を稼ぎました。",
+          "緊張を拍手に変え、憑依された演者から群衆を遠ざけました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "O espírito se manifestou em público e o festival virou pânico.",
+          "A multidão percebeu o ritual e o caos tomou o espetáculo.",
+          "Falhei em remover o espírito e o artista foi tomado diante de todos."
+        ],
+        "en": [
+          "The spirit manifested in public and the festival turned into panic.",
+          "The crowd noticed the ritual and chaos overtook the spectacle.",
+          "I failed to remove the spirit and the performer was overtaken in front of everyone."
+        ],
+        "es": [
+          "El espíritu se manifestó en público y el festival se volvió pánico.",
+          "La multitud notó el ritual y el caos se apoderó del espectáculo.",
+          "No logré expulsar al espíritu y el artista fue tomado ante todos."
+        ],
+        "ru": [
+          "Дух проявился публично, и фестиваль охватила паника.",
+          "Толпа заметила обряд, и шоу превратилось в хаос.",
+          "Мне не удалось изгнать дух, и артист был захвачен на глазах у всех."
+        ],
+        "zh": [
+          "灵体公开显现，节日陷入恐慌。",
+          "人群察觉到仪式，表演现场失控。",
+          "我未能驱逐灵体，演员当众被彻底占据。"
+        ],
+        "ja": [
+          "霊が公然と顕現し、祭りはパニックになりました。",
+          "観客が儀式に気づき、舞台は混乱に飲まれました。",
+          "祓いに失敗し、演者は皆の前で完全に乗っ取られました。"
+        ]
+      }
+    }
   }
 }

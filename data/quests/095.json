@@ -49,5 +49,75 @@
       "zh": "樵夫",
       "ja": "木こり"
     }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Tracei uma rota segura a partir da cabana isolada e conduzi os lenhadores para fora do território dos lobos.",
+          "Organizei a saída durante a nevasca e todos escaparam do frio extremo com vida.",
+          "Afastei os predadores, mantive o grupo unido e os levei até abrigo seguro."
+        ],
+        "en": [
+          "I charted a safe route from the isolated cabin and led the woodcutters out of wolf territory.",
+          "I organized the escape during the blizzard and everyone survived the extreme cold.",
+          "I drove off the predators, kept the group together, and brought them to safe shelter."
+        ],
+        "es": [
+          "Tracé una ruta segura desde la cabaña aislada y guié a los leñadores fuera del territorio de lobos.",
+          "Organicé la salida en medio de la nevada y todos sobrevivieron al frío extremo.",
+          "Ahuyenté a los depredadores, mantuve al grupo unido y los llevé a refugio seguro."
+        ],
+        "ru": [
+          "Я проложил безопасный путь от хижины и вывел лесорубов из волчьей территории.",
+          "Организовал выход во время метели, и все пережили лютый холод.",
+          "Отогнал хищников, удержал группу вместе и доставил их в безопасное место."
+        ],
+        "zh": [
+          "我规划了安全路线，将樵夫们带出狼群领地。",
+          "我在暴风雪中组织撤离，所有人都在严寒中幸存。",
+          "我驱散掠食者，稳住队伍，将他们带到安全避难所。"
+        ],
+        "ja": [
+          "孤立した小屋から安全な経路を見つけ、木こりたちを狼の縄張りから脱出させました。",
+          "吹雪の中で退路を確保し、全員が極寒を生き延びました。",
+          "捕食者を退け、隊列を保ち、安全な避難所まで導きました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A rota escolhida foi bloqueada e o grupo permaneceu cercado pela nevasca.",
+          "Não consegui afastar os lobos e a retirada falhou.",
+          "O frio extremo dispersou o grupo antes que alcançássemos abrigo seguro."
+        ],
+        "en": [
+          "The chosen route was blocked and the group remained trapped by the blizzard.",
+          "I failed to drive off the wolves and the escape collapsed.",
+          "The extreme cold scattered the group before we reached safe shelter."
+        ],
+        "es": [
+          "La ruta elegida estaba bloqueada y el grupo quedó atrapado por la nevada.",
+          "No logré ahuyentar a los lobos y la retirada fracasó.",
+          "El frío extremo dispersó al grupo antes de llegar al refugio."
+        ],
+        "ru": [
+          "Выбранный путь оказался перекрыт, и группа осталась в окружении метели.",
+          "Мне не удалось отогнать волков, и отступление сорвалось.",
+          "Сильный мороз рассеял группу до того, как мы добрались до укрытия."
+        ],
+        "zh": [
+          "所选路线被封锁，队伍仍被暴风雪围困。",
+          "我未能驱散狼群，撤离失败。",
+          "严寒让队伍在到达避难所前分散。"
+        ],
+        "ja": [
+          "選んだ経路は塞がれ、吹雪の中に取り残されました。",
+          "狼を退けられず、脱出は失敗しました。",
+          "極寒により、安全な場所へ着く前に隊が散り散りになりました。"
+        ]
+      }
+    }
   }
 }

@@ -50,5 +50,107 @@
       "zh": "孩子们",
       "ja": "子供たち"
     }
+  },
+"conclusion": {
+  "success": {
+    "nature": {
+      "pt": [
+        "Identifiquei as flores amaldiçoadas na vila e neutralizei seu pólen.",
+        "Purifiquei o solo contaminado pelas flores e removi a fonte da praga.",
+        "Quebrei o vínculo natural das flores com os sonhos das crianças."
+      ],
+      "en": [
+        "I identified the cursed flowers in the village and neutralized their pollen.",
+        "I purified the soil contaminated by the flowers and removed the source.",
+        "I severed the flowers’ natural link to the children’s dreams."
+      ],
+      "es": [
+        "Identifiqué las flores malditas y neutralicé su polen.",
+        "Purifiqué el suelo contaminado y eliminé la fuente.",
+        "Rompí el vínculo natural con los sueños de los niños."
+      ],
+      "ru": [
+        "Я обнаружил проклятые цветы и нейтрализовал их пыльцу.",
+        "Очистил заражённую почву и устранил источник.",
+        "Разорвал природную связь с детскими снами."
+      ],
+      "zh": [
+        "我识别并中和被诅咒花朵的花粉。",
+        "我净化受污染土壤并移除源头。",
+        "我切断花朵与孩子梦境的自然联系。"
+      ],
+      "ja": [
+        "呪われた花を特定し、花粉を無力化しました。",
+        "汚染された土壌を浄化し、源を除去しました。",
+        "花と子供たちの夢の結び付きを断ちました。"
+      ]
+    },
+    "default": {
+      "pt": [
+        "Induzi resposta controlada nas crianças em coma e estabilizei seus sinais vitais na vila.",
+        "Quebrei o ciclo de pesadelo recorrente e trouxe as mentes de volta à vigília.",
+        "Apliquei sedação reversiva para retirar as crianças do estado profundo."
+      ],
+      "en": [
+        "I induced a controlled response in the comatose children and stabilized their vital signs in the village.",
+        "I broke the recurring nightmare cycle and brought their minds back to wakefulness.",
+        "I applied a reversing sedative to pull the children from deep coma."
+      ],
+      "es": [
+        "Induje respuesta controlada en los niños en coma y estabilicé sus signos vitales.",
+        "Rompí el ciclo de pesadillas y devolví sus mentes a la vigilia.",
+        "Apliqué sedación reversiva para sacarlos del estado profundo."
+      ],
+      "ru": [
+        "Я вызвал контролируемую реакцию у детей в коме и стабилизировал их состояние.",
+        "Прервал цикл кошмаров и вернул сознание.",
+        "Применил обратную седацию для вывода из глубокой комы."
+      ],
+      "zh": [
+        "我对昏迷的孩子实施控制性唤醒并稳定生命体征。",
+        "我打破反复的噩梦循环，使意识恢复。",
+        "我施用逆向镇静将其从深度昏迷中唤回。"
+      ],
+      "ja": [
+        "昏睡状態の子供たちに制御的刺激を与え、生命兆候を安定させました。",
+        "悪夢の循環を断ち、意識を覚醒へ戻しました。",
+        "逆作用の鎮静処置で深い昏睡から引き戻しました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "As crianças permaneceram presas nos pesadelos.",
+        "A remoção das flores não interrompeu a praga dos sonhos.",
+        "O coma se aprofundou antes da intervenção completa."
+      ],
+      "en": [
+        "The children remained trapped in nightmares.",
+        "Removing the flowers did not end the dream plague.",
+        "The coma deepened before full intervention."
+      ],
+      "es": [
+        "Los niños permanecieron atrapados en pesadillas.",
+        "La retirada de las flores no detuvo la plaga.",
+        "El coma se agravó antes de completar la intervención."
+      ],
+      "ru": [
+        "Дети остались в плену кошмаров.",
+        "Удаление цветов не остановило чуму снов.",
+        "Кома усилилась до завершения вмешательства."
+      ],
+      "zh": [
+        "孩子仍被困在噩梦中。",
+        "移除花朵未能终止梦魇之疫。",
+        "在完全干预前昏迷加深。"
+      ],
+      "ja": [
+        "子供たちは悪夢に囚われたままでした。",
+        "花の除去でも疫病は止まりませんでした。",
+        "完全な処置前に昏睡が悪化しました。"
+      ]
+    }
   }
+}
 }

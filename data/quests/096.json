@@ -50,5 +50,107 @@
       "zh": "信使",
       "ja": "使者"
     }
+  },
+  "conclusion": {
+    "success": {
+      "survival": {
+        "pt": [
+          "Encontrei uma rota estável pelo Pântano e atravessei o terreno instável sem perder o rumo.",
+          "Neutralizei os efeitos dos gases e conduzi a travessia com segurança até o outro lado.",
+          "Marquei o caminho seguro e escapei do labirinto vivo antes que a maré mudasse."
+        ],
+        "en": [
+          "I found a stable path through the Swamp and crossed the unstable ground without losing direction.",
+          "I neutralized the effects of the gases and guided the crossing safely to the far side.",
+          "I marked a safe route and escaped the living labyrinth before the tide shifted."
+        ],
+        "es": [
+          "Encontré una ruta estable por el Pantano y crucé el terreno inestable sin perder el rumbo.",
+          "Neutralicé los gases y guié la travesía con seguridad.",
+          "Marqué un camino seguro y escapé del laberinto antes de que cambiara la marea."
+        ],
+        "ru": [
+          "Я нашёл устойчивый путь через болото и пересёк его, не сбившись с направления.",
+          "Нейтрализовал воздействие газов и безопасно провёл переход.",
+          "Отметил безопасную тропу и выбрался до смены прилива."
+        ],
+        "zh": [
+          "我找到一条稳定路线，成功穿越沼泽未迷失方向。",
+          "我减轻了毒气影响，安全引导穿越。",
+          "我标记安全路径，在潮汐变化前逃离迷宫。"
+        ],
+        "ja": [
+          "安定した経路を見つけ、方向を失わず沼地を横断しました。",
+          "ガスの影響を抑え、安全に渡り切りました。",
+          "安全な道を示し、潮が変わる前に脱出しました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Localizei o mensageiro e recuperei os documentos vitais.",
+          "Segui os vestígios restantes e encontrei o ponto exato onde ele caiu.",
+          "Reconstruí os últimos passos do mensageiro e trouxe os documentos de volta."
+        ],
+        "en": [
+          "I located the messenger and recovered the vital documents.",
+          "I followed the remaining traces and found the exact spot where he fell.",
+          "I reconstructed the messenger’s final steps and returned with the documents."
+        ],
+        "es": [
+          "Localicé al mensajero y recuperé los documentos vitales.",
+          "Seguí los rastros restantes y hallé el lugar exacto de su caída.",
+          "Reconstruí sus últimos pasos y regresé con los documentos."
+        ],
+        "ru": [
+          "Я нашёл гонца и вернул важные документы.",
+          "Проследил оставшиеся следы и обнаружил место его падения.",
+          "Воссоздал последние шаги гонца и принёс документы обратно."
+        ],
+        "zh": [
+          "我找到信使并取回重要文件。",
+          "我追踪残留痕迹，发现他倒下的位置。",
+          "我还原了他的行踪，带回了文件。"
+        ],
+        "ja": [
+          "使者を発見し、重要書類を回収しました。",
+          "残された痕跡を追い、倒れた場所を突き止めました。",
+          "最後の足取りを再現し、書類を持ち帰りました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Perdi a orientação no Pântano e não encontrei o mensageiro a tempo.",
+          "Os gases distorceram minha percepção e a busca fracassou.",
+          "A maré mudou antes da travessia e os documentos permaneceram perdidos."
+        ],
+        "en": [
+          "I lost my bearings in the Swamp and failed to find the messenger in time.",
+          "The gases distorted my perception and the search collapsed.",
+          "The tide shifted before I could cross and the documents remained lost."
+        ],
+        "es": [
+          "Perdí la orientación en el Pantano y no encontré al mensajero a tiempo.",
+          "Los gases alteraron mi percepción y la búsqueda fracasó.",
+          "La marea cambió antes del cruce y los documentos siguieron perdidos."
+        ],
+        "ru": [
+          "Я потерял ориентацию в болоте и не нашёл гонца вовремя.",
+          "Газы исказили восприятие, и поиски провалились.",
+          "Прилив сменился раньше перехода, и документы остались утрачены."
+        ],
+        "zh": [
+          "我在沼泽中迷失方向，未能及时找到信使。",
+          "毒气干扰判断，搜寻失败。",
+          "潮汐变化过快，文件仍然遗失。"
+        ],
+        "ja": [
+          "沼地で道に迷い、使者を見つけられませんでした。",
+          "ガスで判断を誤り、捜索は失敗しました。",
+          "潮が変わり、書類は回収できませんでした。"
+        ]
+      }
+    }
   }
 }

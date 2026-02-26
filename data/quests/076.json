@@ -49,5 +49,75 @@
       "zh": "有毒气体",
       "ja": "有毒ガス"
     }
+  },
+"conclusion": {
+  "success": {
+    "default": {
+      "pt": [
+        "Neutralizei o gás tóxico na mina com reagentes voláteis e abri corredor de ar respirável.",
+        "Absorvi o bolsão alquímico com solução quelante e estabilizei o ambiente.",
+        "Reagi o gás em composto inerte e restabeleci oxigênio suficiente para a retirada."
+      ],
+      "en": [
+        "I neutralized the mine’s toxic gas with volatile reagents and opened a breathable air corridor.",
+        "I absorbed the alchemical pocket with a chelating solution and stabilized the area.",
+        "I converted the gas into an inert compound and restored enough oxygen for extraction."
+      ],
+      "es": [
+        "Neutralicé el gas tóxico con reactivos volátiles y abrí un corredor de aire respirable.",
+        "Absorbí la bolsa alquímica con una solución quelante y estabilicé el entorno.",
+        "Convertí el gas en un compuesto inerte y recuperé oxígeno suficiente."
+      ],
+      "ru": [
+        "Я нейтрализовал токсичный газ летучими реагентами и создал коридор пригодного воздуха.",
+        "Абсорбировал алхимический карман хелатирующим раствором и стабилизировал среду.",
+        "Превратил газ в инертное соединение и восстановил кислород для эвакуации."
+      ],
+      "zh": [
+        "我用挥发性试剂中和矿井毒气并打开可呼吸通道。",
+        "我用螯合溶液吸收炼金气团并稳定环境。",
+        "我将气体转化为惰性化合物并恢复足够氧气撤离。"
+      ],
+      "ja": [
+        "鉱山の有毒ガスを揮発性試薬で中和し、呼吸可能な空気の通路を確保しました。",
+        "キレート溶液でガスの層を吸収し、環境を安定化させました。",
+        "ガスを不活性化合物に変え、退避に必要な酸素を回復させました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "O gás reagiu aos reagentes e aumentou a toxicidade.",
+        "Não consegui estabilizar o bolsão antes do oxigênio acabar.",
+        "A neutralização falhou e a área permaneceu inalável."
+      ],
+      "en": [
+        "The gas reacted to reagents and increased toxicity.",
+        "I failed to stabilize the pocket before oxygen ran out.",
+        "Neutralization failed and the area remained unbreathable."
+      ],
+      "es": [
+        "El gas reaccionó a los reactivos y aumentó la toxicidad.",
+        "No logré estabilizar la bolsa antes de que se agotara el oxígeno.",
+        "La neutralización falló y el área siguió irrespirable."
+      ],
+      "ru": [
+        "Газ отреагировал на реагенты и стал токсичнее.",
+        "Не удалось стабилизировать выброс до исчерпания кислорода.",
+        "Нейтрализация сорвалась, и зона осталась непригодной для дыхания."
+      ],
+      "zh": [
+        "毒气与试剂反应导致毒性增强。",
+        "未能在氧气耗尽前稳定气团。",
+        "中和失败，区域仍无法呼吸。"
+      ],
+      "ja": [
+        "ガスが試薬に反応して毒性が増しました。",
+        "酸素が尽きる前にガス層を安定化できませんでした。",
+        "中和に失敗し、区域は呼吸不能のままでした。"
+      ]
+    }
   }
+}
 }

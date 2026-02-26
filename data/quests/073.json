@@ -49,5 +49,75 @@
       "zh": "水域",
       "ja": "水域"
     }
+  },
+"conclusion": {
+  "success": {
+    "default": {
+      "pt": [
+        "Neutralizei a acidez do rio com reagentes alquímicos e interrompi a corrosão.",
+        "Filtrei a água contaminada e restabeleci potabilidade imediata.",
+        "Estabilizei a composição do rio e distribuí água segura à vila."
+      ],
+      "en": [
+        "I neutralized the river’s acidity with alchemical reagents and stopped corrosion.",
+        "I filtered the contaminated water and restored immediate potability.",
+        "I stabilized the river’s composition and supplied safe water to the village."
+      ],
+      "es": [
+        "Neutralicé la acidez del río con reactivos alquímicos.",
+        "Filtré el agua contaminada y restablecí su potabilidad.",
+        "Estabilicé la composición del río y abastecí a la aldea."
+      ],
+      "ru": [
+        "Я нейтрализовал кислотность реки алхимическими реагентами.",
+        "Очистил заражённую воду и восстановил её пригодность.",
+        "Стабилизировал состав реки и обеспечил деревню водой."
+      ],
+      "zh": [
+        "我用炼金试剂中和河水酸性。",
+        "我过滤污染水源并恢复可饮用性。",
+        "我稳定河流成分并向村庄供水。"
+      ],
+      "ja": [
+        "錬金試薬で川の酸性を中和しました。",
+        "汚染水を濾過し、飲用可能に戻しました。",
+        "川の成分を安定させ、村に安全な水を供給しました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "A acidez do rio superou a neutralização.",
+        "A água permaneceu corrosiva após o tratamento.",
+        "Não consegui estabilizar a composição antes do pânico."
+      ],
+      "en": [
+        "The river’s acidity exceeded neutralization.",
+        "The water remained corrosive after treatment.",
+        "I failed to stabilize the composition before panic spread."
+      ],
+      "es": [
+        "La acidez del río superó la neutralización.",
+        "El agua siguió siendo corrosiva tras el tratamiento.",
+        "No logré estabilizarla antes del pánico."
+      ],
+      "ru": [
+        "Кислотность превысила возможности нейтрализации.",
+        "Вода осталась едкой после обработки.",
+        "Не удалось стабилизировать ситуацию вовремя."
+      ],
+      "zh": [
+        "河水酸性超出中和范围。",
+        "处理后水仍具腐蚀性。",
+        "未能在恐慌前稳定水源。"
+      ],
+      "ja": [
+        "酸性が中和能力を上回りました。",
+        "処理後も水は腐食性のままでした。",
+        "パニック前に安定化できませんでした。"
+      ]
+    }
   }
+}
 }

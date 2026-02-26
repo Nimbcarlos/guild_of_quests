@@ -85,7 +85,7 @@
         "商業的な追放を盾に両商人を問い詰めました。報復への恐れから争いは終結し、食料配送の即時再開が確保されました。"
       ]
     },
-    "diplomacy": {
+    "default": {
       "pt": [
         "Apresentei uma análise das perdas financeiras projetadas para ambos os lados caso a sabotagem continuasse. Os mercadores aceitaram um acordo de preços e o estoque da ala leste foi reabastecido.",
         "Mediei a divisão das rotas de distribuição entre os rivais. Com o fim dos ataques mútuos aos comboios, o fluxo de alimentos foi normalizado imediatamente.",

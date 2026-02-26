@@ -49,5 +49,75 @@
       "zh": "孩子",
       "ja": "子供"
     }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Identifiquei rastros quase apagados sob a chuva e alcancei o sequestrador a tempo de resgatar a criança.",
+          "Segui marcas sutis na lama e recuperei a criança viva na floresta.",
+          "Antecipei a rota de fuga e interceptei o responsável antes que os vestígios desaparecessem."
+        ],
+        "en": [
+          "I identified nearly erased tracks in the rain and caught the captor in time to rescue the child.",
+          "I followed faint marks in the mud and recovered the child alive in the forest.",
+          "I anticipated the escape route and intercepted the culprit before the trail vanished."
+        ],
+        "es": [
+          "Identifiqué rastros casi borrados por la lluvia y alcancé al secuestrador a tiempo para rescatar al niño.",
+          "Seguí marcas sutiles en el barro y recuperé al niño con vida en el bosque.",
+          "Anticipé la ruta de escape e intercepté al responsable antes de que desaparecieran los rastros."
+        ],
+        "ru": [
+          "Я распознал почти смытые дождём следы и настиг похитителя вовремя, чтобы спасти ребёнка.",
+          "Проследил едва заметные отметки в грязи и вернул ребёнка живым.",
+          "Предугадал путь бегства и перехватил преступника до исчезновения следов."
+        ],
+        "zh": [
+          "我在雨中辨认出几乎被抹去的踪迹，及时追上绑匪并救回孩子。",
+          "我沿着泥地中的细微痕迹追踪，在森林中救出了活着的孩子。",
+          "我预判了逃跑路线，在线索消失前拦截了绑匪。"
+        ],
+        "ja": [
+          "雨で消えかけた痕跡を見抜き、犯人に追いついて子どもを救出しました。",
+          "泥のわずかな跡を辿り、森の中で無事に救出しました。",
+          "逃走経路を先読みし、痕跡が消える前に犯人を捕らえました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A chuva apagou os últimos rastros e perdi a trilha da criança na floresta.",
+          "Segui uma rota equivocada e cheguei tarde demais para impedir a fuga.",
+          "Não consegui localizar o sequestrador antes que os vestígios desaparecessem por completo."
+        ],
+        "en": [
+          "The rain erased the final tracks and I lost the child’s trail in the forest.",
+          "I followed the wrong route and arrived too late to stop the escape.",
+          "I failed to locate the captor before all traces disappeared."
+        ],
+        "es": [
+          "La lluvia borró los últimos rastros y perdí la pista del niño en el bosque.",
+          "Seguí una ruta equivocada y llegué demasiado tarde para impedir la huida.",
+          "No logré encontrar al secuestrador antes de que desaparecieran todas las huellas."
+        ],
+        "ru": [
+          "Дождь смыл последние следы, и я потерял путь ребёнка в лесу.",
+          "Я выбрал неверное направление и опоздал остановить бегство.",
+          "Не удалось найти похитителя до полного исчезновения следов."
+        ],
+        "zh": [
+          "雨水抹去了最后的踪迹，我在森林中失去了孩子的行踪。",
+          "我走错路线，来不及阻止逃离。",
+          "在所有线索消失前，我未能找到绑匪。"
+        ],
+        "ja": [
+          "雨が最後の痕跡を消し、森で子どもの足取りを見失いました。",
+          "誤った進路を取り、逃走を止めるには遅すぎました。",
+          "痕跡が完全に消える前に犯人を見つけられませんでした。"
+        ]
+      }
+    }
   }
 }

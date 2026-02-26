@@ -50,5 +50,107 @@
       "zh": "人群",
       "ja": "群衆"
     }
+  },
+"conclusion": {
+  "success": {
+    "diplomacy": {
+      "pt": [
+        "Estabeleci diálogo entre líderes da multidão e representantes do Barão.",
+        "Negociei concessões imediatas e suspendi o confronto iminente.",
+        "Formalizei um acordo provisório que evitou o massacre nos portões."
+      ],
+      "en": [
+        "I established dialogue between the crowd’s leaders and the Baron’s envoys.",
+        "I negotiated immediate concessions and suspended the imminent clash.",
+        "I formalized a provisional agreement that prevented a massacre at the gates."
+      ],
+      "es": [
+        "Establecí diálogo entre los líderes de la multitud y los representantes del Barón.",
+        "Negocié concesiones inmediatas y suspendí el enfrentamiento inminente.",
+        "Formalizé un acuerdo provisional que evitó la masacre en las puertas."
+      ],
+      "ru": [
+        "Я наладил диалог между лидерами толпы и представителями барона.",
+        "Добился немедленных уступок и предотвратил столкновение.",
+        "Заключил временное соглашение, избежав резни у ворот."
+      ],
+      "zh": [
+        "我在群众领袖与男爵代表之间建立对话。",
+        "我谈成了即时让步并阻止了冲突爆发。",
+        "我达成临时协议，避免了门前的屠杀。"
+      ],
+      "ja": [
+        "群衆の指導者と男爵側の代表の間に対話を築きました。",
+        "即時の譲歩を引き出し、衝突を回避しました。",
+        "門前の虐殺を防ぐ暫定合意を成立させました。"
+      ]
+    },
+    "default": {
+      "pt": [
+        "Projetei minha voz sobre a multidão e redirecionei sua fúria para negociação.",
+        "Usei símbolos e palavras precisas para dispersar a revolta nos portões.",
+        "Conduzi a multidão à retirada organizada diante da mansão do Barão."
+      ],
+      "en": [
+        "I projected my voice over the crowd and redirected their fury into negotiation.",
+        "I used precise words and symbols to disperse the revolt at the gates.",
+        "I led the crowd into an orderly withdrawal before the Baron’s mansion."
+      ],
+      "es": [
+        "Proyecté mi voz sobre la multitud y redirigí su furia hacia la negociación.",
+        "Usé palabras y símbolos precisos para dispersar la revuelta en las puertas.",
+        "Conduje a la multitud a una retirada ordenada frente a la mansión del Barón."
+      ],
+      "ru": [
+        "Я возвысил голос над толпой и направил ярость в русло переговоров.",
+        "Использовал точные слова и символы, чтобы рассеять бунт у ворот.",
+        "Организовал упорядоченное отступление толпы от особняка барона."
+      ],
+      "zh": [
+        "我以演说压过人群，将愤怒引向谈判。",
+        "我用恰当的言辞与象征物驱散了门前的暴动。",
+        "我引导人群有序撤离男爵的豪宅。"
+      ],
+      "ja": [
+        "群衆の上に声を響かせ、怒りを交渉へと向けました。",
+        "的確な言葉と象徴で門前の暴動を解きました。",
+        "男爵の邸宅前で群衆を秩序ある撤退へ導きました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "A multidão rompeu as fileiras e invadiu os portões da mansão.",
+        "Palavras mal escolhidas incendiaram ainda mais a revolta.",
+        "O confronto tornou-se inevitável diante do solar."
+      ],
+      "en": [
+        "The crowd broke ranks and stormed the mansion gates.",
+        "Poorly chosen words ignited the revolt further.",
+        "The clash became inevitable before the manor."
+      ],
+      "es": [
+        "La multitud rompió filas y asaltó las puertas de la mansión.",
+        "Palabras mal elegidas avivaron la revuelta.",
+        "El enfrentamiento se volvió inevitable frente al solar."
+      ],
+      "ru": [
+        "Толпа прорвала строй и штурмовала ворота поместья.",
+        "Неудачные слова лишь разожгли бунт.",
+        "Столкновение у особняка стало неизбежным."
+      ],
+      "zh": [
+        "人群冲破防线，攻向庄园大门。",
+        "不当言辞进一步激化了暴动。",
+        "冲突在庄园前变得无法避免。"
+      ],
+      "ja": [
+        "群衆は隊列を崩し、邸宅の門へ突入しました。",
+        "不用意な言葉が暴動をさらに激化させました。",
+        "屋敷前での衝突は避けられませんでした。"
+      ]
+    }
   }
+}
 }

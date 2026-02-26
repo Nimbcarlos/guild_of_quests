@@ -50,5 +50,107 @@
       "zh": "居民",
       "ja": "住人"
     }
+  },
+"conclusion": {
+  "success": {
+    "cure": {
+      "pt": [
+        "Administrei contramedidas aos moradores afetados e estabilizei o comportamento coletivo.",
+        "Reduzi a agitação com tratamento rápido e interrompi a progressão do surto.",
+        "Estabeleci isolamento dos casos graves e normalizei a resposta mental."
+      ],
+      "en": [
+        "I administered countermeasures to the affected residents and stabilized collective behavior.",
+        "I reduced agitation with rapid treatment and halted the outbreak’s progression.",
+        "I isolated severe cases and normalized the mental response."
+      ],
+      "es": [
+        "Apliqué contramedidas a los afectados y estabilicé el comportamiento colectivo.",
+        "Reduje la agitación con tratamiento rápido y detuve la progresión.",
+        "Aislé los casos graves y normalicé la respuesta mental."
+      ],
+      "ru": [
+        "Я применил меры лечения и стабилизировал коллективное поведение жителей.",
+        "Снизил возбуждение быстрым лечением и остановил развитие вспышки.",
+        "Изолировал тяжёлые случаи и нормализовал психическое состояние."
+      ],
+      "zh": [
+        "我对受影响居民实施应对治疗并稳定集体行为。",
+        "我快速处理躁动并阻止爆发加剧。",
+        "我隔离重症并恢复心理反应正常化。"
+      ],
+      "ja": [
+        "影響を受けた住人に対策を施し、集団の行動を安定させました。",
+        "迅速な処置で興奮を抑え、進行を止めました。",
+        "重症例を隔離し、精神反応を正常化しました。"
+      ]
+    },
+    "default": {
+      "pt": [
+        "Rastreei a origem no poço e identifiquei o agente que alterava a mente coletiva.",
+        "Coletei amostras da água e confirmei contaminação direcionada.",
+        "Isolei o ponto de entrada no poço e interrompi a exposição dos moradores."
+      ],
+      "en": [
+        "I traced the source to the well and identified the agent altering the collective mind.",
+        "I collected water samples and confirmed targeted contamination.",
+        "I isolated the well’s entry point and stopped further exposure."
+      ],
+      "es": [
+        "Rastreé el origen en el pozo e identifiqué el agente que alteraba la mente colectiva.",
+        "Recolecté muestras de agua y confirmé contaminación dirigida.",
+        "Aislé el punto de entrada del pozo y detuve la exposición."
+      ],
+      "ru": [
+        "Я отследил источник в колодце и выявил агент, влияющий на коллективный разум.",
+        "Взял пробы воды и подтвердил целенаправленное заражение.",
+        "Изолировал точку попадания в колодец и прекратил воздействие."
+      ],
+      "zh": [
+        "我追查到井口并识别影响集体意识的因素。",
+        "我采集水样并确认是定向污染。",
+        "我封控井中污染入口并停止进一步暴露。"
+      ],
+      "ja": [
+        "井戸に原因を追跡し、集団心理を乱す要因を特定しました。",
+        "水の採取で意図的な汚染を確認しました。",
+        "井戸の侵入点を遮断し、曝露を止めました。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "A contaminação do poço continuou e o surto se espalhou.",
+        "Não consegui estabilizar os moradores antes do agravamento.",
+        "A origem no poço não foi isolada a tempo."
+      ],
+      "en": [
+        "Well contamination persisted and the outbreak spread.",
+        "I failed to stabilize residents before escalation.",
+        "The source in the well was not isolated in time."
+      ],
+      "es": [
+        "La contaminación del pozo continuó y el brote se propagó.",
+        "No logré estabilizar a los habitantes antes de empeorar.",
+        "No se aisló el origen del pozo a tiempo."
+      ],
+      "ru": [
+        "Заражение колодца продолжилось, и вспышка распространилась.",
+        "Я не успел стабилизировать жителей до ухудшения.",
+        "Источник в колодце не удалось изолировать вовремя."
+      ],
+      "zh": [
+        "井水污染持续，爆发扩散。",
+        "未能在恶化前稳定居民。",
+        "未能及时封控井中源头。"
+      ],
+      "ja": [
+        "井戸の汚染が続き、発症が拡大しました。",
+        "悪化前に住人を安定させられませんでした。",
+        "井戸の原因を遮断できませんでした。"
+      ]
+    }
   }
+}
 }

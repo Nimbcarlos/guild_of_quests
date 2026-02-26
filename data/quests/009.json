@@ -53,33 +53,6 @@
   },
 "conclusion": {
   "success": {
-    "performance": {
-      "pt": [
-        "Conseguimos! No momento em que os ânimos se exaltaram, iniciamos um número musical tão impactante que os insultos foram perdidos na melodia. Criamos a cortina de fumaça perfeita para que o acordo avançasse.",
-        "Nossa sincronia artística salvou a noite. Conseguimos usar malabares e canções para manter os olhos dos nobres longe das discussões acaloradas, garantindo que o banquete continuasse em paz.",
-        "Transformamos a tensão em aplausos. Conseguimos abafar cada comentário sarcástico com acordes precisos, permitindo que a diplomacia seguisse seu curso sem interrupções violentas."
-      ],
-      "en": [
-        "We did it! At the moment tempers flared, we started such an impactful musical number that the insults were lost in the melody. We created the perfect smokescreen for the agreement to move forward.",
-        "Our artistic synchrony saved the night. We managed to use juggling and songs to keep the nobles' eyes away from heated discussions, ensuring the banquet continued in peace.",
-        "We turned tension into applause. We managed to drown out every sarcastic comment with precise chords, allowing diplomacy to take its course without violent interruptions."
-      ],
-      "ru": [
-        "Мы сделали это! В момент, когда страсти накалились, мы начали такое впечатляющее музыкальное выступление, что оскорбления утонули в мелодии. Мы создали идеальную дымовую завесу для продвижения соглашения.",
-        "Наша артистическая синхронность спасла вечер. Нам удалось с помощью жонглирования и песен отвлечь взгляды знати от жарких споров, обеспечив мирное продолжение банкета.",
-        "Мы превратили напряжение в аплодисменты. Нам удалось заглушить каждое саркастическое замечание точными аккордами, позволив дипломатии идти своим чередом без насильственных помех."
-      ],
-      "zh": [
-        "我们做到了！在情绪失控的时刻，我们开始了一场极具冲击力的音乐表演，让羞辱之词消失在旋律中。我们为协议的推进创造了完美的烟幕。",
-        "我们的艺术配合拯救了夜晚。我们成功地利用杂技和歌曲吸引了贵族们的注意力，让他们远离激烈的争论，确保宴会在和平中继续。",
-        "我们将紧张气氛转化为掌声。我们成功地用精准的和弦掩盖了每一个讽刺的评论，让外交活动在没有暴力干扰的情况下顺利进行。"
-      ],
-      "ja": [
-        "やりました！感情が爆発しそうになった瞬間、非常に印象的な演奏を始め、侮辱の言葉をメロディーの中に消し去りました。合意を進めるための完璧な煙幕を作ることができました。",
-        "私たちの芸術的な同調が夜を救いました。ジャグリングと歌を駆使して、貴族たちの目を激しい議論からそらし、晩餐会を平和に続けることができました。",
-        "緊張を拍手に変えました。的確なコードですべての皮肉なコメントをかき消し、暴力的な中断なしに外交が進むようにしました。"
-      ]
-    },
     "diplomacy": {
       "pt": [
         "Conseguimos mediar as conversas mais difíceis. Enquanto o salão estava distraído com o show, convencemos os patriarcas de que a paz seria mais lucrativa que a guerra. A trégua está selada.",
@@ -105,6 +78,33 @@
         "最も困難な会話を仲裁することができました。会場がショーに気を取られている間に、戦争よりも平和の方が利益になると家長たちを説得しました。休戦は成立しました。",
         "囁きと握手の中で交渉を進めました。言葉の罠をかわし、各家のリーダーたちを落ち着かせ、憎しみを形式的かつ必要な握手へと変えることができました。",
         "私たちの交渉は完璧でした。見世物のあらゆる隙を利用して条約の条件を強化し、どの貴族も署名せずに席を立つことがないようにしました。"
+      ]
+    },
+    "performance": {
+      "pt": [
+        "Conseguimos! No momento em que os ânimos se exaltaram, iniciamos um número musical tão impactante que os insultos foram perdidos na melodia. Criamos a cortina de fumaça perfeita para que o acordo avançasse.",
+        "Nossa sincronia artística salvou a noite. Conseguimos usar malabares e canções para manter os olhos dos nobres longe das discussões acaloradas, garantindo que o banquete continuasse em paz.",
+        "Transformamos a tensão em aplausos. Conseguimos abafar cada comentário sarcástico com acordes precisos, permitindo que a diplomacia seguisse seu curso sem interrupções violentas."
+      ],
+      "en": [
+        "We did it! At the moment tempers flared, we started such an impactful musical number that the insults were lost in the melody. We created the perfect smokescreen for the agreement to move forward.",
+        "Our artistic synchrony saved the night. We managed to use juggling and songs to keep the nobles' eyes away from heated discussions, ensuring the banquet continued in peace.",
+        "We turned tension into applause. We managed to drown out every sarcastic comment with precise chords, allowing diplomacy to take its course without violent interruptions."
+      ],
+      "ru": [
+        "Мы сделали это! В момент, когда страсти накалились, мы начали такое впечатляющее музыкальное выступление, что оскорбления утонули в мелодии. Мы создали идеальную дымовую завесу для продвижения соглашения.",
+        "Наша артистическая синхронность спасла вечер. Нам удалось с помощью жонглирования и песен отвлечь взгляды знати от жарких споров, обеспечив мирное продолжение банкета.",
+        "Мы превратили напряжение в аплодисменты. Нам удалось заглушить каждое саркастическое замечание точными аккордами, позволив дипломатии идти своим чередом без насильственных помех."
+      ],
+      "zh": [
+        "我们做到了！在情绪失控的时刻，我们开始了一场极具冲击力的音乐表演，让羞辱之词消失在旋律中。我们为协议的推进创造了完美的烟幕。",
+        "我们的艺术配合拯救了夜晚。我们成功地利用杂技和歌曲吸引了贵族们的注意力，让他们远离激烈的争论，确保宴会在和平中继续。",
+        "我们将紧张气氛转化为掌声。我们成功地用精准的和弦掩盖了每一个讽刺的评论，让外交活动在没有暴力干扰的情况下顺利进行。"
+      ],
+      "ja": [
+        "やりました！感情が爆発しそうになった瞬間、非常に印象的な演奏を始め、侮辱の言葉をメロディーの中に消し去りました。合意を進めるための完璧な煙幕を作ることができました。",
+        "私たちの芸術的な同調が夜を救いました。ジャグリングと歌を駆使して、貴族たちの目を激しい議論からそらし、晩餐会を平和に続けることができました。",
+        "緊張を拍手に変えました。的確なコードですべての皮肉なコメントをかき消し、暴力的な中断なしに外交が進むようにしました。"
       ]
     }
   },

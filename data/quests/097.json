@@ -49,5 +49,75 @@
       "zh": "遗嘱",
       "ja": "遺書"
     }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Infiltrei-me no arquivo, localizei o testamento e saí sem disparar alarmes.",
+          "Evitei a vigilância, substituí o lacre e recuperei o documento sem deixar rastros.",
+          "Movi-me pelas sombras, encontrei o testamento e abandonei o local sem ser detectado."
+        ],
+        "en": [
+          "I infiltrated the archive, secured the testament, and exited without triggering alarms.",
+          "I bypassed the guards, replaced the seal, and recovered the document without leaving traces.",
+          "I moved through the shadows, found the testament, and left undetected."
+        ],
+        "es": [
+          "Me infiltré en el archivo, aseguré el testamento y salí sin activar alarmas.",
+          "Evadí la vigilancia, reemplacé el sello y recuperé el documento sin dejar rastro.",
+          "Me moví entre las sombras, hallé el testamento y me retiré sin ser detectado."
+        ],
+        "ru": [
+          "Я проник в архив, забрал завещание и ушёл, не подняв тревоги.",
+          "Обошёл охрану, восстановил печать и вернул документ без следов.",
+          "Двигался как тень, нашёл завещание и покинул место незамеченным."
+        ],
+        "zh": [
+          "我潜入档案馆，取回遗嘱并未触发警报。",
+          "我绕过守卫，复原封印，悄无声息地带走文件。",
+          "我在阴影中行动，找到遗嘱后未被察觉地离开。"
+        ],
+        "ja": [
+          "文書庫に潜入し、遺書を回収して警報を鳴らさずに脱出しました。",
+          "警備をかいくぐり、封印を戻し、痕跡を残さず書類を持ち帰りました。",
+          "影のように動き、遺書を確保して気づかれずに去りました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Um alarme foi acionado antes que eu alcançasse o testamento.",
+          "Fui detectado durante a infiltração e precisei recuar sem o documento.",
+          "Deixei rastros no arquivo e o testamento permaneceu inacessível."
+        ],
+        "en": [
+          "An alarm was triggered before I could secure the testament.",
+          "I was detected during the infiltration and had to retreat without the document.",
+          "I left traces in the archive and the testament remained out of reach."
+        ],
+        "es": [
+          "Se activó una alarma antes de asegurar el testamento.",
+          "Fui detectado durante la infiltración y tuve que retirarme sin el documento.",
+          "Dejé rastros en el archivo y el testamento quedó inaccesible."
+        ],
+        "ru": [
+          "Тревога сработала до того, как я успел забрать завещание.",
+          "Меня обнаружили во время проникновения, и пришлось отступить.",
+          "Я оставил следы, и завещание осталось недоступным."
+        ],
+        "zh": [
+          "在取得遗嘱前警报被触发。",
+          "潜入时被发现，只能空手撤退。",
+          "留下了痕迹，遗嘱仍未取得。"
+        ],
+        "ja": [
+          "遺書を確保する前に警報が鳴りました。",
+          "潜入中に発見され、書類を持たずに撤退しました。",
+          "痕跡を残し、遺書は回収できませんでした。"
+        ]
+      }
+    }
   }
 }

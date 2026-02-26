@@ -50,5 +50,107 @@
       "zh": "同谋",
       "ja": "共犯者"
     }
+  },
+  "conclusion": {
+    "success": {
+      "investigation": {
+        "pt": [
+          "Cruzei as informações obtidas e confirmei o esconderijo da carga roubada.",
+          "Analisei as contradições do depoimento e localizei o ponto exato onde o grupo se reunia.",
+          "Usei os detalhes revelados para reconstruir a rota e recuperar o restante do roubo."
+        ],
+        "en": [
+          "I cross-checked the information and confirmed the stolen cargo’s hideout.",
+          "I analyzed inconsistencies in his statement and pinpointed the group’s meeting spot.",
+          "Using the revealed details, I reconstructed the route and recovered the remaining goods."
+        ],
+        "es": [
+          "Crucé la información obtenida y confirmé el escondite del cargamento robado.",
+          "Analicé contradicciones en su declaración y localicé el punto de reunión.",
+          "Con los detalles revelados, reconstruí la ruta y recuperé el resto del botín."
+        ],
+        "ru": [
+          "Сопоставил полученные данные и подтвердил тайник с грузом.",
+          "Проанализировал противоречия в показаниях и вычислил место встречи банды.",
+          "По раскрытым деталям восстановил маршрут и вернул оставшийся груз."
+        ],
+        "zh": [
+          "我核对了情报，确认了赃物的藏匿处。",
+          "分析供词中的矛盾，锁定了团伙的集合地点。",
+          "根据透露的细节重建路线，找回了剩余货物。"
+        ],
+        "ja": [
+          "得られた情報を照合し、盗品の隠し場所を特定しました。",
+          "証言の矛盾を分析し、連中の集合場所を突き止めました。",
+          "明かされた情報から経路を再構築し、残りの荷を回収しました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Quebrei o silêncio do cúmplice na prisão e ele revelou onde a carga estava escondida.",
+          "Usei o medo como ferramenta e o cúmplice confessou os nomes e o local do restante do roubo.",
+          "Após a pressão adequada, o cúmplice entregou o paradeiro da carga antes que fosse movida."
+        ],
+        "en": [
+          "I broke the accomplice’s silence in the prison and he revealed where the cargo was hidden.",
+          "I used fear as leverage and the accomplice confessed the names and the cargo’s location.",
+          "Under pressure, the accomplice disclosed the whereabouts of the remaining shipment before it was moved."
+        ],
+        "es": [
+          "Rompí el silencio del cómplice en la prisión y reveló dónde estaba escondida la carga.",
+          "Usé el miedo como herramienta y confesó los nombres y la ubicación del botín.",
+          "Bajo presión, el cómplice entregó el paradero del resto del cargamento antes de que fuera trasladado."
+        ],
+        "ru": [
+          "Я сломил молчание сообщника в тюрьме, и он выдал местонахождение груза.",
+          "Использовал страх, и он признался в именах и месте хранения добычи.",
+          "Под давлением сообщник раскрыл, где находится оставшаяся часть груза."
+        ],
+        "zh": [
+          "我在监狱中打破了同谋的沉默，他交代了货物藏匿地点。",
+          "我利用恐惧施压，他供出了同伙姓名和货物位置。",
+          "在压力下，同谋透露了剩余货物的下落。"
+        ],
+        "ja": [
+          "牢獄で共犯者の沈黙を破り、隠された積荷の場所を吐かせました。",
+          "恐怖を利用し、共犯者は仲間の名と積荷の所在を自白しました。",
+          "圧力の末、残りの荷の隠し場所を明かしました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "O cúmplice resistiu à pressão e não revelou nada útil.",
+          "A tentativa de intimidação falhou e a carga foi movida antes de ser localizada.",
+          "Sem informações concretas, o rastro do restante do roubo se perdeu."
+        ],
+        "en": [
+          "The accomplice resisted the pressure and revealed nothing useful.",
+          "The intimidation failed and the cargo was moved before it could be found.",
+          "Without solid information, the trail of the remaining shipment went cold."
+        ],
+        "es": [
+          "El cómplice resistió la presión y no reveló nada útil.",
+          "La intimidación fracasó y el cargamento fue trasladado antes de localizarlo.",
+          "Sin información concreta, el rastro del botín se perdió."
+        ],
+        "ru": [
+          "Сообщник выдержал давление и не выдал ничего полезного.",
+          "Попытка запугивания провалилась, и груз успели переместить.",
+          "Без точных данных след оставшейся добычи был утрачен."
+        ],
+        "zh": [
+          "同谋承受住了压力，没有透露有用信息。",
+          "威慑失败，货物在被找到前已被转移。",
+          "缺乏关键信息，剩余赃物的线索中断。"
+        ],
+        "ja": [
+          "共犯者は圧力に耐え、有益な情報を吐きませんでした。",
+          "脅しは失敗し、荷は見つかる前に移動されました。",
+          "確かな情報が得られず、残りの手がかりは途絶えました。"
+        ]
+      }
+    }
   }
 }

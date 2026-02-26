@@ -49,5 +49,75 @@
       "zh": "难民",
       "ja": "難民"
     }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Guiei os refugiados pela rota alternativa e todos cruzaram a cordilheira antes do inverno fechar as passagens.",
+          "Escolhi caminhos seguros entre neblina e encostas instáveis e levei o grupo inteiro ao outro lado sem perdas.",
+          "Coordenei a travessia em pontos críticos e os duzentos refugiados chegaram vivos antes das nevascas."
+        ],
+        "en": [
+          "I guided the refugees along the alternate route and everyone crossed the range before winter sealed the passes.",
+          "I picked safe lines through fog and unstable slopes and brought the entire group across without losses.",
+          "I managed the crossing at critical points and all two hundred refugees arrived alive before the snows."
+        ],
+        "es": [
+          "Guié a los refugiados por la ruta alternativa y todos cruzaron la cordillera antes de que el invierno cerrara los pasos.",
+          "Elegí trayectos seguros entre la niebla y las laderas inestables y llevé al grupo entero al otro lado sin pérdidas.",
+          "Coordiné la travesía en los puntos críticos y los doscientos refugiados llegaron vivos antes de las nevadas."
+        ],
+        "ru": [
+          "Я провёл беженцев по обходному пути, и все пересекли хребет до того, как зима закрыла перевалы.",
+          "Выбрал безопасные участки в тумане и на нестабильных склонах и вывел всю группу без потерь.",
+          "Организовал переход на критических участках, и все двести беженцев дошли живыми до снегопадов."
+        ],
+        "zh": [
+          "我带领难民走替代路线，在冬季封山前全员穿越山脉。",
+          "我在浓雾与不稳山坡中选定安全路线，带着整支队伍无伤抵达对岸。",
+          "我在关键险段组织穿越，两百名难民在大雪来临前全部活着到达。"
+        ],
+        "ja": [
+          "迂回路で難民を導き、冬が峠を閉ざす前に全員が山脈を越えました。",
+          "霧と不安定な斜面の中で安全な進路を選び、損失なく全員を反対側へ連れて行きました。",
+          "危険地点で渡り方を統率し、二百人全員が吹雪の前に生きて到達しました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Escolhi a rota errada e parte do grupo se perdeu na neblina da cordilheira.",
+          "Uma decisão mal calculada colocou os refugiados em zona de avalanche e a travessia foi interrompida com baixas.",
+          "O inverno chegou antes do previsto e a passagem foi fechada, deixando o grupo preso na montanha."
+        ],
+        "en": [
+          "I chose the wrong route and part of the group was lost in the mountain fog.",
+          "A misjudgment led the refugees into an avalanche zone and the crossing was halted with casualties.",
+          "Winter arrived early and the pass closed, trapping the group in the mountains."
+        ],
+        "es": [
+          "Elegí la ruta equivocada y parte del grupo se perdió en la niebla de la cordillera.",
+          "Un mal cálculo llevó a los refugiados a una zona de avalanchas y la travesía se detuvo con bajas.",
+          "El invierno llegó antes de lo esperado y el paso se cerró, dejando al grupo atrapado en la montaña."
+        ],
+        "ru": [
+          "Я выбрал неверный путь, и часть группы потерялась в горном тумане.",
+          "Ошибка в решении вывела беженцев в лавиноопасную зону, и переход сорвался с потерями.",
+          "Зима пришла раньше, перевал закрылся, и группа оказалась заперта в горах."
+        ],
+        "zh": [
+          "我选错了路线，部分难民在山脉浓雾中失踪。",
+          "一次误判让队伍进入雪崩区，穿越被迫中止并出现伤亡。",
+          "冬季提前到来，山口封闭，队伍被困在山中。"
+        ],
+        "ja": [
+          "進路判断を誤り、一部が山脈の濃霧で行方不明になりました。",
+          "誤った判断で雪崩地帯に踏み込み、犠牲者を出して越境は中断しました。",
+          "冬が予想より早く到来し、峠が閉ざされて一行は山中に取り残されました。"
+        ]
+      }
+    }
   }
 }

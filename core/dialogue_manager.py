@@ -15,7 +15,9 @@ class DialogueManager:
         self.language = language
 
     def _load_quest_dialogue(self, quest_id: str) -> dict:
-        path = os.path.join("data/quests", f"{quest_id}.json")
+        quest_id_formatted = str(quest_id).zfill(3)
+    
+        path = os.path.join("data/quests", f"{quest_id_formatted}.json")
         if not os.path.exists(path):
             print(f"[DialogueManager] Quest dialogue não encontrado: {path}")
             return {}

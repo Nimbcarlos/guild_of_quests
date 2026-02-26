@@ -52,7 +52,7 @@
   },
 "conclusion": {
   "success": {
-    "alchemy": {
+    "default": {
       "pt": [
         "Identifiquei um reagente funcionalmente equivalente e estabilizei a fórmula substituta antes da administração.",
         "Recalculei as proporções do antídoto e sintetizei um composto compatível.",

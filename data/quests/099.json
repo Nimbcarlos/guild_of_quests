@@ -47,5 +47,75 @@
       "zh": "帮派",
       "ja": "ギャング"
     }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Segui a gangue pelas vielas do distrito e identifiquei o esconderijo sem ser notado.",
+          "Memorizei rotas, pontos de encontro e saídas de fuga antes de retornar à Guilda.",
+          "Descobri onde a gangue se reúne e marquei todos os acessos discretamente."
+        ],
+        "en": [
+          "I followed the gang through the district alleys and located their hideout unnoticed.",
+          "I memorized routes, meeting spots, and escape paths before returning to the Guild.",
+          "I uncovered where the gang gathers and mapped every access point discreetly."
+        ],
+        "es": [
+          "Seguí a la pandilla por los callejones del distrito y localicé su escondite sin ser detectado.",
+          "Memoricé rutas, puntos de encuentro y vías de escape antes de regresar al Gremio.",
+          "Descubrí dónde se reúne la banda y marqué todos los accesos discretamente."
+        ],
+        "ru": [
+          "Я проследил за бандой по переулкам района и нашёл их убежище незамеченным.",
+          "Я запомнил маршруты, места встреч и пути отхода, прежде чем вернуться в Гильдию.",
+          "Я выяснил, где собирается банда, и отметил все входы и выходы."
+        ],
+        "zh": [
+          "我在区域的小巷中尾随帮派，未被察觉地找到了他们的藏身处。",
+          "我记下了路线、接头地点和逃生路径后返回公会。",
+          "我查明了帮派的聚集地，并悄然标记了所有出入口。"
+        ],
+        "ja": [
+          "地区の路地を尾行し、気付かれずに隠れ家を突き止めました。",
+          "動線や接触地点、逃走経路を記憶してギルドへ戻りました。",
+          "ギャングの集合場所を特定し、全ての出入口を把握しました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Fui percebido ao seguir a gangue e perdi o rastro antes de descobrir o esconderijo.",
+          "Um dos membros notou minha presença e a gangue mudou de rota imediatamente.",
+          "Perdi as trilhas na escuridão e retornei sem identificar o ponto de encontro."
+        ],
+        "en": [
+          "I was spotted while tailing the gang and lost them before finding their hideout.",
+          "One of them noticed my presence and the gang altered their route at once.",
+          "I lost the trail in the darkness and returned without locating their meeting point."
+        ],
+        "es": [
+          "Fui descubierto mientras seguía a la banda y perdí su rastro antes de hallar el escondite.",
+          "Uno de ellos notó mi presencia y cambiaron de ruta de inmediato.",
+          "Perdí las huellas en la oscuridad y regresé sin identificar el punto de reunión."
+        ],
+        "ru": [
+          "Меня заметили во время слежки, и я потерял их прежде чем найти убежище.",
+          "Один из них заметил меня, и банда сразу сменила маршрут.",
+          "Я потерял след в темноте и вернулся, не обнаружив место встречи."
+        ],
+        "zh": [
+          "我在尾随时被发现，在找到藏身处前失去了他们的踪迹。",
+          "其中一人察觉到我的存在，帮派立刻改变路线。",
+          "我在黑暗中失去了线索，未能找到他们的据点便返回。"
+        ],
+        "ja": [
+          "尾行中に気付かれ、隠れ家を見つける前に見失いました。",
+          "一人に存在を察知され、ギャングは即座に進路を変えました。",
+          "暗闇で足取りを失い、集合場所を特定できずに戻りました。"
+        ]
+      }
+    }
   }
 }

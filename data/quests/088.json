@@ -49,5 +49,75 @@
       "zh": "失踪的商队",
       "ja": "失われたキャラバン"
     }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Localizei a caravana soterrada entre as dunas e conduzi os sobreviventes até água segura.",
+          "Rastreei sinais mínimos sob a areia e resgatei a caravana antes que as provisões acabassem.",
+          "Encontrei o acampamento improvisado nas dunas e escoltei todos de volta em segurança."
+        ],
+        "en": [
+          "I located the caravan buried among the dunes and led the survivors to safe water.",
+          "I traced faint signs beneath the sand and rescued the caravan before supplies ran out.",
+          "I found the makeshift camp in the dunes and escorted everyone back safely."
+        ],
+        "es": [
+          "Localicé la caravana enterrada entre las dunas y guié a los sobrevivientes hacia agua segura.",
+          "Seguí señales casi invisibles bajo la arena y rescaté la caravana antes de que se agotaran las provisiones.",
+          "Encontré el campamento improvisado y escolté a todos de regreso con vida."
+        ],
+        "ru": [
+          "Я обнаружил караван, занесённый песком, и вывел выживших к безопасному источнику воды.",
+          "Проследил едва заметные следы под песком и спас караван до исчерпания запасов.",
+          "Нашёл временный лагерь в дюнах и сопроводил всех обратно живыми."
+        ],
+        "zh": [
+          "我在沙丘中找到被掩埋的商队，并将幸存者带到安全水源。",
+          "我追踪沙下微弱迹象，在补给耗尽前救出了商队。",
+          "我发现了临时营地，并护送所有人安全返回。"
+        ],
+        "ja": [
+          "砂丘に埋もれた商隊を発見し、生存者を安全な水場へ導きました。",
+          "砂の下のわずかな痕跡を辿り、補給が尽きる前に救出しました。",
+          "仮設の野営地を見つけ、全員を無事に帰還させました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Não encontrei a caravana antes que a desidratação os vencesse.",
+          "Perdi a direção nas dunas e retornei sem sobreviventes.",
+          "A tempestade apagou qualquer pista e a caravana foi declarada perdida."
+        ],
+        "en": [
+          "I failed to find the caravan before dehydration claimed them.",
+          "I lost my bearings in the dunes and returned without survivors.",
+          "The storm erased all traces and the caravan was declared lost."
+        ],
+        "es": [
+          "No encontré la caravana antes de que la deshidratación los venciera.",
+          "Perdí la orientación en las dunas y regresé sin sobrevivientes.",
+          "La tormenta borró toda pista y la caravana fue declarada perdida."
+        ],
+        "ru": [
+          "Я не успел найти караван до того, как их одолела жажда.",
+          "Потерял ориентиры в дюнах и вернулся без выживших.",
+          "Буря уничтожила все следы, и караван признан погибшим."
+        ],
+        "zh": [
+          "在脱水夺走他们生命前，我未能找到商队。",
+          "我在沙丘中迷失方向，空手而归。",
+          "风暴抹去了所有线索，商队被判定失踪。"
+        ],
+        "ja": [
+          "脱水に倒れる前に商隊を見つけられませんでした。",
+          "砂丘で道を失い、生存者なく帰還しました。",
+          "嵐が痕跡を消し、商隊は失われたと判断されました。"
+        ]
+      }
+    }
   }
 }

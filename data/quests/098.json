@@ -50,5 +50,107 @@
       "zh": "守卫",
       "ja": "警備員"
     }
+  },
+  "conclusion": {
+    "success": {
+      "stealth": {
+        "pt": [
+          "A distração funcionou e a infiltração foi concluída sem alerta.",
+          "Nenhum alarme foi disparado enquanto mantínhamos os guardas ocupados.",
+          "Criamos a cobertura perfeita e os aliados saíram sem serem notados."
+        ],
+        "en": [
+          "The distraction succeeded and the infiltration was completed without alarm.",
+          "No alert was raised while we kept the guards occupied.",
+          "We created the perfect cover and our allies exited unnoticed."
+        ],
+        "es": [
+          "La distracción funcionó y la infiltración se completó sin alarmas.",
+          "No se activó ninguna alerta mientras manteníamos ocupados a los guardias.",
+          "Creamos la cobertura perfecta y los aliados salieron sin ser detectados."
+        ],
+        "ru": [
+          "Отвлекающий манёвр сработал, и проникновение завершилось без тревоги.",
+          "Тревога не была поднята, пока стража была занята.",
+          "Мы создали идеальное прикрытие, и союзники ушли незамеченными."
+        ],
+        "zh": [
+          "分散注意成功，渗透行动未触发警报。",
+          "在守卫被吸引时，没有任何警报响起。",
+          "我们创造了完美掩护，盟友悄然撤离。"
+        ],
+        "ja": [
+          "陽動は成功し、警報なく潜入は完了しました。",
+          "警備員を引きつけている間、警報は鳴りませんでした。",
+          "完璧な隠れ蓑を作り、味方は気づかれずに去りました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Conduzi a apresentação diante da mansão e mantive os guardas completamente hipnotizados.",
+          "A música e a dança prenderam a atenção da rua inteira enquanto a infiltração ocorria acima.",
+          "Sustentei o espetáculo até o fim e nenhum guarda desviou o olhar das sombras dançantes."
+        ],
+        "en": [
+          "I led the performance before the mansion and kept the guards fully mesmerized.",
+          "The music and dance held the entire street’s attention while the infiltration unfolded above.",
+          "I sustained the spectacle to the end and not a single guard looked toward the windows."
+        ],
+        "es": [
+          "Dirigí la actuación frente a la mansión y mantuve a los guardias completamente hipnotizados.",
+          "La música y la danza capturaron la atención de todos mientras la infiltración ocurría arriba.",
+          "Sostuve el espectáculo hasta el final y ningún guardia miró hacia las ventanas."
+        ],
+        "ru": [
+          "Я провёл представление перед особняком и полностью заворожил стражу.",
+          "Музыка и танец удерживали внимание улицы, пока наверху шло проникновение.",
+          "Я довёл выступление до конца, и ни один стражник не взглянул на окна."
+        ],
+        "zh": [
+          "我在豪宅前主持表演，让守卫完全沉迷其中。",
+          "音乐与舞蹈吸引了整条街的注意力，楼上的行动无人察觉。",
+          "我维持演出至结束，没有守卫抬头看向窗户。"
+        ],
+        "ja": [
+          "邸宅前で演目を指揮し、警備員を完全に魅了しました。",
+          "音楽と舞で通りの視線を釘付けにし、その間に上階で任務が進みました。",
+          "最後まで演じ切り、窓に目を向ける者はいませんでした。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A apresentação falhou em prender a atenção e os guardas notaram movimento nas janelas.",
+          "Um dos guardas desconfiou e o alarme foi acionado antes do fim do espetáculo.",
+          "A distração não foi suficiente e a infiltração foi comprometida."
+        ],
+        "en": [
+          "The performance failed to captivate and the guards noticed movement in the windows.",
+          "A guard grew suspicious and the alarm was triggered before the show ended.",
+          "The distraction was insufficient and the infiltration was compromised."
+        ],
+        "es": [
+          "La actuación no logró cautivar y los guardias notaron movimiento en las ventanas.",
+          "Un guardia sospechó y se activó la alarma antes de terminar el espectáculo.",
+          "La distracción fue insuficiente y la infiltración quedó comprometida."
+        ],
+        "ru": [
+          "Представление не удержало внимание, и стража заметила движение в окнах.",
+          "Один из стражников заподозрил неладное, и тревога была поднята.",
+          "Отвлечение оказалось недостаточным, и операция сорвалась."
+        ],
+        "zh": [
+          "表演未能吸引守卫，他们注意到了窗户的动静。",
+          "一名守卫起疑，警报在演出结束前被触发。",
+          "分散注意失败，渗透行动暴露。"
+        ],
+        "ja": [
+          "演目は十分に惹きつけられず、窓の動きに気づかれました。",
+          "警備員が疑念を抱き、終演前に警報が鳴りました。",
+          "陽動は不十分で、潜入は露見しました。"
+        ]
+      }
+    }
   }
 }

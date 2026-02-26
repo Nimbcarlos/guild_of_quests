@@ -50,5 +50,107 @@
       "zh": "贵族",
       "ja": "貴族"
     }
+  },
+  "conclusion": {
+    "success": {
+      "intimidation": {
+        "pt": [
+          "Interrompi o duelo no local marcado e os nobres recuaram antes que as lâminas se cruzassem.",
+          "Deixei claro as consequências e os dois abandonaram o duelo ao amanhecer.",
+          "Minha presença foi suficiente para fazê-los guardar as espadas e cancelar o confronto."
+        ],
+        "en": [
+          "I halted the duel at the site and the nobles backed down before blades crossed.",
+          "I made the consequences clear and both abandoned the duel at dawn.",
+          "My presence alone was enough to make them sheathe their swords and cancel the fight."
+        ],
+        "es": [
+          "Interrumpí el duelo en el lugar acordado y los nobles retrocedieron antes de cruzar espadas.",
+          "Dejé claras las consecuencias y abandonaron el duelo al amanecer.",
+          "Mi presencia bastó para que envainaran sus espadas y cancelaran el combate."
+        ],
+        "ru": [
+          "Я остановил дуэль на месте встречи, и дворяне отступили до того, как скрестили клинки.",
+          "Я ясно обозначил последствия, и они отказались от поединка на рассвете.",
+          "Одного моего присутствия хватило, чтобы они убрали шпаги и отменили дуэль."
+        ],
+        "zh": [
+          "我在决斗地点制止了他们，贵族在刀剑相交前退却。",
+          "我说明后果，两人于黎明前放弃决斗。",
+          "我的威慑让他们收剑取消了对决。"
+        ],
+        "ja": [
+          "決闘の場所で制止し、刃が交わる前に貴族たちは退きました。",
+          "結果を示し、夜明けの決闘は中止されました。",
+          "威圧だけで剣を収めさせ、対決を取りやめさせました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Mediação firme evitou o confronto e as famílias aceitaram uma retratação formal.",
+          "Conduzi um acordo entre os dois e substituí o duelo por um pedido público de desculpas.",
+          "Transformei a ofensa em reconciliação e impedi que o conflito escalasse."
+        ],
+        "en": [
+          "Firm mediation prevented the clash and the families accepted a formal apology.",
+          "I brokered an agreement and replaced the duel with a public apology.",
+          "I turned the insult into reconciliation and stopped the conflict from escalating."
+        ],
+        "es": [
+          "Una mediación firme evitó el enfrentamiento y las familias aceptaron una disculpa formal.",
+          "Logré un acuerdo y el duelo fue reemplazado por una disculpa pública.",
+          "Convertí la ofensa en reconciliación y detuve la escalada del conflicto."
+        ],
+        "ru": [
+          "Твёрдое посредничество предотвратило бой, и семьи приняли официальные извинения.",
+          "Я достиг соглашения и заменил дуэль публичным извинением.",
+          "Я превратил обиду в примирение и остановил эскалацию конфликта."
+        ],
+        "zh": [
+          "坚定的调解避免了冲突，家族接受了正式道歉。",
+          "我促成协议，用公开道歉取代了决斗。",
+          "我将侮辱化为和解，阻止了事态升级。"
+        ],
+        "ja": [
+          "断固たる仲裁で衝突を防ぎ、両家は正式な謝罪を受け入れました。",
+          "合意を取り付け、決闘は公の謝罪に置き換えられました。",
+          "侮辱を和解へと変え、対立の拡大を防ぎました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Cheguei tarde demais e o duelo foi realizado ao amanhecer.",
+          "Minha intervenção não convenceu os nobres e as lâminas foram sacadas.",
+          "Falhei em dissuadi-los e o confronto ocorreu como planejado."
+        ],
+        "en": [
+          "I arrived too late and the duel took place at dawn.",
+          "My intervention failed to convince them and blades were drawn.",
+          "I failed to dissuade them and the confrontation proceeded as planned."
+        ],
+        "es": [
+          "Llegué demasiado tarde y el duelo se llevó a cabo al amanecer.",
+          "Mi intervención no los convenció y desenvainaron las espadas.",
+          "No logré disuadirlos y el enfrentamiento ocurrió como estaba previsto."
+        ],
+        "ru": [
+          "Я опоздал, и дуэль состоялась на рассвете.",
+          "Моё вмешательство не убедило их, и клинки были обнажены.",
+          "Мне не удалось их отговорить, и поединок прошёл по плану."
+        ],
+        "zh": [
+          "我来得太晚，决斗在黎明时进行。",
+          "我的干预未能说服他们，刀剑出鞘。",
+          "我未能阻止他们，冲突如期发生。"
+        ],
+        "ja": [
+          "到着が遅れ、夜明けに決闘は行われました。",
+          "介入は失敗し、剣が抜かれました。",
+          "説得できず、対決は予定通り実行されました。"
+        ]
+      }
+    }
   }
 }

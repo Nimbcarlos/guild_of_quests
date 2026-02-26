@@ -50,5 +50,107 @@
       "zh": "家族",
       "ja": "一族"
     }
+  },
+  "conclusion": {
+    "success": {
+      "religion": {
+        "pt": [
+          "Consagrei o rito final e assegurei a passagem espiritual do patriarca.",
+          "Purifiquei o espaço funerário e concluí o ritual sagrado conforme a tradição.",
+          "Sustentei o cântico até o encerramento e garanti que a alma fosse devidamente conduzida."
+        ],
+        "en": [
+          "I consecrated the final rite and secured the patriarch’s spiritual passage.",
+          "I purified the funeral grounds and completed the sacred ritual as tradition demands.",
+          "I upheld the chant to its end and ensured the soul was properly guided."
+        ],
+        "es": [
+          "Consagré el rito final y aseguré el tránsito espiritual del patriarca.",
+          "Purifiqué el espacio funerario y completé el ritual sagrado según la tradición.",
+          "Sostuve el canto hasta el final y aseguré que el alma fuera guiada correctamente."
+        ],
+        "ru": [
+          "Я освятил последний обряд и обеспечил духовный переход патриарха.",
+          "Очистил место погребения и завершил священный ритуал по традиции.",
+          "Поддержал песнопение до конца и гарантировал правильное сопровождение души."
+        ],
+        "zh": [
+          "我完成了最终圣礼，确保族长的灵魂顺利离去。",
+          "我净化了葬礼场地，并依传统完成神圣仪式。",
+          "我将哀歌持续至终，确保灵魂得到妥善引导。"
+        ],
+        "ja": [
+          "最終の儀を聖別し、家長の魂の旅立ちを確実なものにしました。",
+          "葬儀の場を清め、伝統通りに神聖な儀式を完遂しました。",
+          "詠唱を最後まで支え、魂が正しく導かれることを保証しました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Executei o cântico fúnebre sem falhas e a família reconheceu a honra preservada.",
+          "Mantive o tom, as palavras e os gestos exatos, evitando qualquer ofensa entre as casas.",
+          "Conduzi a cerimônia com precisão e o funeral terminou sem incidente político."
+        ],
+        "en": [
+          "I performed the funeral chant flawlessly and the family acknowledged the honor was preserved.",
+          "I maintained the exact tone, words, and gestures, avoiding any insult between the houses.",
+          "I led the ceremony precisely and the funeral ended without political incident."
+        ],
+        "es": [
+          "Interpreté el canto fúnebre sin errores y la familia reconoció el honor preservado.",
+          "Mantuve el tono, las palabras y los gestos exactos, evitando ofensas entre las casas.",
+          "Conduje la ceremonia con precisión y el funeral terminó sin incidente político."
+        ],
+        "ru": [
+          "Я безупречно исполнил погребальное песнопение, и семья признала сохранённую честь.",
+          "Соблюдал точный тон, слова и жесты, избежав оскорблений между домами.",
+          "Провёл церемонию точно, и похороны прошли без политических последствий."
+        ],
+        "zh": [
+          "我完美演绎了哀歌，家族承认仪式维护了荣誉。",
+          "我保持了准确的音调、词句与礼仪，避免了家族间的冒犯。",
+          "我精确主持了仪式，葬礼未引发任何政治风波。"
+        ],
+        "ja": [
+          "弔いの詠唱を完璧に執り行い、一族は名誉が守られたと認めました。",
+          "声の調子、言葉、所作を正確に保ち、家門間の侮辱を回避しました。",
+          "儀式を正確に導き、政治的な問題なく葬儀を終えました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Errei o tom do cântico e a família declarou ofensa formal.",
+          "Um gesto incorreto foi interpretado como desrespeito entre as casas.",
+          "A cerimônia foi interrompida após acusações de insulto político."
+        ],
+        "en": [
+          "I missed the chant’s tone and the family declared a formal offense.",
+          "A misplaced gesture was taken as disrespect between houses.",
+          "The ceremony was halted amid accusations of political insult."
+        ],
+        "es": [
+          "Fallé el tono del canto y la familia declaró ofensa formal.",
+          "Un gesto equivocado fue interpretado como falta de respeto.",
+          "La ceremonia fue interrumpida por acusaciones de insulto político."
+        ],
+        "ru": [
+          "Я ошибся в тоне, и семья заявила о формальном оскорблении.",
+          "Неверный жест был воспринят как неуважение между домами.",
+          "Церемонию прервали из-за обвинений в политическом оскорблении."
+        ],
+        "zh": [
+          "我唱错音调，家族提出正式指控。",
+          "一个错误的礼仪动作被视为对盟友的侮辱。",
+          "仪式因政治冒犯指控而被中断。"
+        ],
+        "ja": [
+          "詠唱の調子を誤り、一族は正式に侮辱と宣言しました。",
+          "所作の誤りが家門への不敬と受け取られました。",
+          "政治的侮辱の非難により、葬儀は中断されました。"
+        ]
+      }
+    }
   }
 }

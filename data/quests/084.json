@@ -50,5 +50,107 @@
       "zh": "仪式",
       "ja": "儀式"
     }
+  },
+  "conclusion": {
+    "success": {
+      "religion": {
+        "pt": [
+          "Purifiquei o círculo ritual e rompi o vínculo espiritual do culto.",
+          "Consagrei o espaço do festival e invalidei o ritual proibido.",
+          "Desviei a energia invocada e encerrei o ritual sem alarde."
+        ],
+        "en": [
+          "I purified the ritual circle and severed the cult’s spiritual link.",
+          "I consecrated the festival grounds and nullified the forbidden rite.",
+          "I redirected the invoked energy and quietly ended the ritual."
+        ],
+        "es": [
+          "Purifiqué el círculo ritual y rompí el vínculo espiritual del culto.",
+          "Consagré el espacio del festival y anulé el rito prohibido.",
+          "Desvié la energía invocada y terminé el ritual sin pánico."
+        ],
+        "ru": [
+          "Я очистил ритуальный круг и разорвал духовную связь культа.",
+          "Освятил территорию фестиваля и аннулировал запретный обряд.",
+          "Перенаправил призванную энергию и завершил ритуал без паники."
+        ],
+        "zh": [
+          "我净化了仪式法阵并切断了邪教的精神联系。",
+          "我祝圣了节日场地并使禁忌仪式失效。",
+          "我转移了被召唤的能量，悄然终止了仪式。"
+        ],
+        "ja": [
+          "儀式陣を浄化し、教団の霊的結びつきを断ちました。",
+          "祭りの場を聖別し、禁じられた儀式を無効化しました。",
+          "呼び出された力を逸らし、騒ぎなく儀式を終わらせました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Alterei a encenação do festival e descaracterizei o ritual diante da multidão.",
+          "Substituí os cânticos do culto por versos inofensivos e neutralizei o efeito do ritual.",
+          "Redirecionei o clímax da celebração e impedi a conclusão do ritual proibido."
+        ],
+        "en": [
+          "I altered the festival performance and stripped the ritual of its power before the crowd.",
+          "I replaced the cult’s chants with harmless verses and neutralized the ritual.",
+          "I redirected the celebration’s climax and prevented the forbidden ritual from completing."
+        ],
+        "es": [
+          "Alteré la puesta en escena del festival y anulé el ritual ante la multitud.",
+          "Sustituí los cánticos del culto y neutralicé el ritual.",
+          "Redirigí el clímax de la celebración e impedí que el ritual se completara."
+        ],
+        "ru": [
+          "Я изменил представление фестиваля и лишил ритуал силы на глазах у толпы.",
+          "Заменил культовые песнопения и нейтрализовал ритуал.",
+          "Перенаправил кульминацию праздника и не дал ритуалу завершиться."
+        ],
+        "zh": [
+          "我改变了节日表演的流程，当众削弱了仪式力量。",
+          "我替换了邪教的咒语并中和了仪式。",
+          "我改写庆典高潮，阻止了禁忌仪式完成。"
+        ],
+        "ja": [
+          "祭りの演出を変更し、群衆の前で儀式の力を無効化しました。",
+          "教団の詠唱を差し替え、儀式を無力化しました。",
+          "祝祭の頂点を操作し、禁じられた儀式の完遂を阻止しました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "O ritual foi concluído antes que eu pudesse interferir.",
+          "A multidão entrou em pânico quando tentei alterar a cerimônia.",
+          "O culto completou o ritual sob o disfarce do festival."
+        ],
+        "en": [
+          "The ritual was completed before I could intervene.",
+          "The crowd panicked when I attempted to alter the ceremony.",
+          "The cult finished the ritual under the cover of the festival."
+        ],
+        "es": [
+          "El ritual se completó antes de mi intervención.",
+          "La multitud entró en pánico cuando intenté alterar la ceremonia.",
+          "El culto completó el ritual bajo el disfraz del festival."
+        ],
+        "ru": [
+          "Ритуал завершился до моего вмешательства.",
+          "Толпа запаниковала при попытке изменить церемонию.",
+          "Культ завершил обряд под прикрытием фестиваля."
+        ],
+        "zh": [
+          "在我干预前，仪式已经完成。",
+          "当我试图改变仪式时，人群陷入恐慌。",
+          "邪教在节日掩护下完成了仪式。"
+        ],
+        "ja": [
+          "介入前に儀式は完遂されました。",
+          "儀式を変えようとした際に群衆が混乱しました。",
+          "祭りの最中に教団は儀式を完了しました。"
+        ]
+      }
+    }
   }
 }
