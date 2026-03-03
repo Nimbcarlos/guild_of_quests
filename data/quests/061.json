@@ -23,9 +23,9 @@
   "expired_at": 4,
   "available_from_turn": 24,
   "duration": 3,
-  "difficulty": 2.6,
+  "difficulty": 2.0,
   "rewards": {
-    "xp": 115
+    "xp": 60
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -50,74 +50,74 @@
       "ja": "顧問"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Identifiquei um reagente funcionalmente equivalente e estabilizei a fórmula substituta antes da administração.",
-        "Recalculei as proporções do antídoto e sintetizei um composto compatível.",
-        "Isoliei o agente tóxico e ativei a reação neutralizante com a nova base alquímica."
-      ],
-      "en": [
-        "I identified a functionally equivalent reagent and stabilized the substitute formula before administration.",
-        "I recalculated the antidote proportions and synthesized a compatible compound.",
-        "I isolated the toxic agent and triggered a neutralizing reaction using a new alchemical base."
-      ],
-      "es": [
-        "Identifiqué un reactivo funcionalmente equivalente y estabilicé la fórmula sustituta antes de administrarla.",
-        "Recalculé las proporciones del antídoto y sintetizé un compuesto compatible.",
-        "Aislé el agente tóxico y activé una reacción neutralizante con una nueva base alquímica."
-      ],
-      "ru": [
-        "Я нашёл функциональный эквивалент реагента и стабилизировал заменяющую формулу.",
-        "Пересчитал пропорции противоядия и синтезировал совместимый состав.",
-        "Изолировал токсин и запустил нейтрализующую реакцию на новой основе."
-      ],
-      "zh": [
-        "我找到功能等效的试剂并稳定替代配方后进行施用。",
-        "我重新计算解药比例并合成兼容化合物。",
-        "我分离毒素并以新的炼金基底触发中和反应。"
-      ],
-      "ja": [
-        "機能的に等価な試薬を特定し、代替処方を安定化させてから投与しました。",
-        "解毒剤の比率を再計算し、適合する化合物を合成しました。",
-        "毒素を分離し、新たな錬金基盤で中和反応を起動しました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "A substituição reagiu de forma instável durante a síntese.",
-        "A fórmula recalculada não neutralizou o composto tóxico.",
-        "A reação alquímica entrou em colapso antes da estabilização."
-      ],
-      "en": [
-        "The substitution reacted unstably during synthesis.",
-        "The recalculated formula failed to neutralize the toxin.",
-        "The alchemical reaction collapsed before stabilization."
-      ],
-      "es": [
-        "La sustitución reaccionó de forma inestable durante la síntesis.",
-        "La fórmula recalculada no neutralizó el tóxico.",
-        "La reacción alquímica colapsó antes de estabilizarse."
-      ],
-      "ru": [
-        "Замена повела себя нестабильно при синтезе.",
-        "Пересчитанная формула не нейтрализовала яд.",
-        "Алхимическая реакция разрушилась до стабилизации."
-      ],
-      "zh": [
-        "替代试剂在合成中产生不稳定反应。",
-        "重新计算的配方未能中和毒素。",
-        "炼金反应在稳定前崩溃。"
-      ],
-      "ja": [
-        "代替試薬が合成中に不安定化しました。",
-        "再計算した処方では毒を中和できませんでした。",
-        "安定化前に錬金反応が崩壊しました。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Identifiquei um reagente funcionalmente equivalente e estabilizei a fórmula substituta antes da administração.",
+          "Recalculei as proporções do antídoto e sintetizei um composto compatível.",
+          "Isoliei o agente tóxico e ativei a reação neutralizante com a nova base alquímica."
+        ],
+        "en": [
+          "I identified a functionally equivalent reagent and stabilized the substitute formula before administration.",
+          "I recalculated the antidote proportions and synthesized a compatible compound.",
+          "I isolated the toxic agent and triggered a neutralizing reaction using a new alchemical base."
+        ],
+        "es": [
+          "Identifiqué un reactivo funcionalmente equivalente y estabilicé la fórmula sustituta antes de administrarla.",
+          "Recalculé las proporciones del antídoto y sintetizé un compuesto compatible.",
+          "Aislé el agente tóxico y activé una reacción neutralizante con una nueva base alquímica."
+        ],
+        "ru": [
+          "Я нашёл функциональный эквивалент реагента и стабилизировал заменяющую формулу.",
+          "Пересчитал пропорции противоядия и синтезировал совместимый состав.",
+          "Изолировал токсин и запустил нейтрализующую реакцию на новой основе."
+        ],
+        "zh": [
+          "我找到功能等效的试剂并稳定替代配方后进行施用。",
+          "我重新计算解药比例并合成兼容化合物。",
+          "我分离毒素并以新的炼金基底触发中和反应。"
+        ],
+        "ja": [
+          "機能的に等価な試薬を特定し、代替処方を安定化させてから投与しました。",
+          "解毒剤の比率を再計算し、適合する化合物を合成しました。",
+          "毒素を分離し、新たな錬金基盤で中和反応を起動しました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A substituição reagiu de forma instável durante a síntese.",
+          "A fórmula recalculada não neutralizou o composto tóxico.",
+          "A reação alquímica entrou em colapso antes da estabilização."
+        ],
+        "en": [
+          "The substitution reacted unstably during synthesis.",
+          "The recalculated formula failed to neutralize the toxin.",
+          "The alchemical reaction collapsed before stabilization."
+        ],
+        "es": [
+          "La sustitución reaccionó de forma inestable durante la síntesis.",
+          "La fórmula recalculada no neutralizó el tóxico.",
+          "La reacción alquímica colapsó antes de estabilizarse."
+        ],
+        "ru": [
+          "Замена повела себя нестабильно при синтезе.",
+          "Пересчитанная формула не нейтрализовала яд.",
+          "Алхимическая реакция разрушилась до стабилизации."
+        ],
+        "zh": [
+          "替代试剂在合成中产生不稳定反应。",
+          "重新计算的配方未能中和毒素。",
+          "炼金反应在稳定前崩溃。"
+        ],
+        "ja": [
+          "代替試薬が合成中に不安定化しました。",
+          "再計算した処方では毒を中和できませんでした。",
+          "安定化前に錬金反応が崩壊しました。"
+        ]
+      }
     }
   }
-}
 }

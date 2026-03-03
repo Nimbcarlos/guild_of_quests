@@ -21,9 +21,9 @@
   "expired_at": 3,
   "available_from_turn": 52,
   "duration": 3,
-  "difficulty": 1.4,
+  "difficulty": 2.5,
   "rewards": {
-    "xp": 65
+    "xp": 70
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -48,74 +48,74 @@
       "ja": "火の精霊"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Utilizei um glifo de resfriamento para drenar a energia cinética da criatura. O elemental foi reduzido a uma pequena brasa estável e devolvido ao frasco de contenção do aprendiz.",
-        "Projetei uma barreira de umidade densa que forçou o elemental a se concentrar em um único ponto. Com a temperatura sob controle, recitei o contra-feitiço de banimento com sucesso.",
-        "Consegui atrair a criatura para uma armadilha de vácuo, isolando o oxigênio que alimentava sua forma física. O elemental adormeceu e foi capturado sem causar novos incêndios."
-      ],
-      "en": [
-        "I used a cooling glyph to drain the creature's kinetic energy. The elemental was reduced to a small, stable ember and returned to the apprentice's containment flask.",
-        "I projected a dense moisture barrier that forced the elemental to concentrate in a single spot. With the temperature under control, I successfully recited the banishment counter-spell.",
-        "I managed to lure the creature into a vacuum trap, isolating the oxygen that fueled its physical form. The elemental fell dormant and was captured without causing further fires."
-      ],
-      "es": [
-        "Utilicé un glifo de enfriamiento para drenar la energía de la criatura. El elemental se redujo a una pequeña brasa y fue devuelto al frasco de contención.",
-        "Proyecté una barrera de humedad que obligó al elemental a concentrarse en un solo punto. Con la temperatura controlada, recité el contrahechizo de destierro.",
-        "Logré atraer a la criatura a una trampa de vacío, aislando el oxígeno. El elemental se adormeció y fue capturado sin causar más incendios."
-      ],
-      "ru": [
-        "Я использовала глиф охлаждения, чтобы поглотить кинетическую энергию существа. Элементаль уменьшился до маленького стабильного уголька и был возвращен ученику.",
-        "Я создала плотный барьер влаги, заставив элементаля сжаться в одной точке. Контролируя температуру, я успешно произнесла заклинание изгнания.",
-        "Мне удалось заманить существо в вакуумную ловушку, перекрыв доступ кислорода. Элементаль уснул и был захвачен без новых возгораний."
-      ],
-      "zh": [
-        "我使用冷却符文吸收了该生物的动能。火元素被削弱成一团微小且稳定的余烬，并被送回学徒的收容瓶中。",
-        "我投射了一层致密的湿气屏障，迫使火元素聚集在一点。在温度得到控制后，我成功念出了放逐咒。",
-        "我成功地将该生物诱入真空陷阱，隔绝了维持其物理形态的氧气。火元素陷入休眠，并在未引发新火灾的情况下被捕获。"
-      ],
-      "ja": [
-        "冷却のグリフを使用して精霊の運動エネルギーを吸収しました。精霊は安定した小さな残り火の状態にまで縮小し、見習いの収容瓶に戻されました。",
-        "高密度の湿気障壁を展開し、精霊を一箇所に凝縮させました。温度を制御下に置いた上で、追放の逆呪文を唱えることに成功しました。",
-        "精霊を真空トラップに誘い込み、実体化を維持するための酸素を遮断しました。精霊は休眠状態に入り、新たな火災を起こすことなく回収されました。"
-      ]
-    }
-  },
-"failure": {
-    "default": {
-      "pt": [
-        "A criatura interpretou minhas tentativas de captura como uma brincadeira de 'pega-pega' e saltou para o distrito comercial. O incêndio resultante destruiu três depósitos de seda.",
-        "Minha barreira arcana rompeu sob a pressão térmica. O elemental se dividiu em fagulhas menores que se espalharam pelos telhados de palha, tornando a contenção impossível no momento.",
-        "O herói foi atingido por uma lufada de calor intenso ao tentar selar o elemental. A criatura fugiu para os esgotos, onde o gás inflamável causou uma explosão subterrânea."
-      ],
-      "en": [
-        "The creature interpreted my capture attempts as a game of tag and leaped into the commercial district. The resulting fire destroyed three silk warehouses.",
-        "My arcane barrier shattered under thermal pressure. The elemental split into smaller sparks that spread across thatched roofs, making containment impossible at the moment.",
-        "The hero was struck by a blast of intense heat while trying to seal the elemental. The creature fled into the sewers, where flammable gas caused an underground explosion."
-      ],
-      "es": [
-        "La criatura interpretó mis intentos como un juego y saltó al distrito comercial. El incendio resultante destruyó tres almacenes de seda.",
-        "Mi barrera arcana se rompió bajo la presión térmica. El elemental se dividió en chispas que se esparcieron por los tejados, haciendo la contención imposible.",
-        "El héroe fue alcanzado por una ráfaga de calor al intentar sellar al elemental. La criatura huyó a las alcantarillas, donde los gases causaron una explosión."
-      ],
-      "ru": [
-        "Существо восприняло попытки захвата как игру в «догонялки» и прыгнуло в торговый квартал. Пожар уничтожил три склада шелка.",
-        "Мой арканный барьер не выдержал теплового давления. Элементаль распался на мелкие искры, которые разлетелись по соломенным крышам.",
-        "Герой пострадал от мощного теплового удара при попытке запечатать элементаля. Существо сбежало в канализацию, где горючий газ вызвал взрыв."
-      ],
-      "zh": [
-        "该生物将我的捕捉尝试理解成了“捉迷藏”游戏，并跳进了商业区。随之而来的大火摧毁了三座丝绸仓库。",
-        "我的奥术屏障在热压下碎裂。火元素分裂成更小的火星，散布在草屋顶上，使得目前无法进行收容。",
-        "英雄在试图封印火元素时受到高温冲击。该生物逃入下水道，那里的易燃气体引发了地下爆炸。"
-      ],
-      "ja": [
-        "精霊は私の捕獲の試みを「鬼ごっこ」と勘違いし、商業地区へ飛び火しました。その結果、3つの絹倉庫が焼失しました。",
-        "熱圧によって秘術障壁が砕かれました。精霊は小さな火花に分裂して藁葺き屋根に広がり、現時点での封じ込めは不可能となりました。",
-        "封印を試みた際に英雄が激しい熱風にさらされました。精霊は下水道へ逃げ込み、可燃性ガスによる地下爆発を引き起こしました。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Utilizei um glifo de resfriamento para drenar a energia cinética da criatura. O elemental foi reduzido a uma pequena brasa estável e devolvido ao frasco de contenção do aprendiz.",
+          "Projetei uma barreira de umidade densa que forçou o elemental a se concentrar em um único ponto. Com a temperatura sob controle, recitei o contra-feitiço de banimento com sucesso.",
+          "Consegui atrair a criatura para uma armadilha de vácuo, isolando o oxigênio que alimentava sua forma física. O elemental adormeceu e foi capturado sem causar novos incêndios."
+        ],
+        "en": [
+          "I used a cooling glyph to drain the creature's kinetic energy. The elemental was reduced to a small, stable ember and returned to the apprentice's containment flask.",
+          "I projected a dense moisture barrier that forced the elemental to concentrate in a single spot. With the temperature under control, I successfully recited the banishment counter-spell.",
+          "I managed to lure the creature into a vacuum trap, isolating the oxygen that fueled its physical form. The elemental fell dormant and was captured without causing further fires."
+        ],
+        "es": [
+          "Utilicé un glifo de enfriamiento para drenar la energía de la criatura. El elemental se redujo a una pequeña brasa y fue devuelto al frasco de contención.",
+          "Proyecté una barrera de humedad que obligó al elemental a concentrarse en un solo punto. Con la temperatura controlada, recité el contrahechizo de destierro.",
+          "Logré atraer a la criatura a una trampa de vacío, aislando el oxígeno. El elemental se adormeció y fue capturado sin causar más incendios."
+        ],
+        "ru": [
+          "Я использовала глиф охлаждения, чтобы поглотить кинетическую энергию существа. Элементаль уменьшился до маленького стабильного уголька и был возвращен ученику.",
+          "Я создала плотный барьер влаги, заставив элементаля сжаться в одной точке. Контролируя температуру, я успешно произнесла заклинание изгнания.",
+          "Мне удалось заманить существо в вакуумную ловушку, перекрыв доступ кислорода. Элементаль уснул и был захвачен без новых возгораний."
+        ],
+        "zh": [
+          "我使用冷却符文吸收了该生物的动能。火元素被削弱成一团微小且稳定的余烬，并被送回学徒的收容瓶中。",
+          "我投射了一层致密的湿气屏障，迫使火元素聚集在一点。在温度得到控制后，我成功念出了放逐咒。",
+          "我成功地将该生物诱入真空陷阱，隔绝了维持其物理形态的氧气。火元素陷入休眠，并在未引发新火灾的情况下被捕获。"
+        ],
+        "ja": [
+          "冷却のグリフを使用して精霊の運動エネルギーを吸収しました。精霊は安定した小さな残り火の状態にまで縮小し、見習いの収容瓶に戻されました。",
+          "高密度の湿気障壁を展開し、精霊を一箇所に凝縮させました。温度を制御下に置いた上で、追放の逆呪文を唱えることに成功しました。",
+          "精霊を真空トラップに誘い込み、実体化を維持するための酸素を遮断しました。精霊は休眠状態に入り、新たな火災を起こすことなく回収されました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A criatura interpretou minhas tentativas de captura como uma brincadeira de 'pega-pega' e saltou para o distrito comercial. O incêndio resultante destruiu três depósitos de seda.",
+          "Minha barreira arcana rompeu sob a pressão térmica. O elemental se dividiu em fagulhas menores que se espalharam pelos telhados de palha, tornando a contenção impossível no momento.",
+          "O herói foi atingido por uma lufada de calor intenso ao tentar selar o elemental. A criatura fugiu para os esgotos, onde o gás inflamável causou uma explosão subterrânea."
+        ],
+        "en": [
+          "The creature interpreted my capture attempts as a game of tag and leaped into the commercial district. The resulting fire destroyed three silk warehouses.",
+          "My arcane barrier shattered under thermal pressure. The elemental split into smaller sparks that spread across thatched roofs, making containment impossible at the moment.",
+          "The hero was struck by a blast of intense heat while trying to seal the elemental. The creature fled into the sewers, where flammable gas caused an underground explosion."
+        ],
+        "es": [
+          "La criatura interpretó mis intentos como un juego y saltó al distrito comercial. El incendio resultante destruyó tres almacenes de seda.",
+          "Mi barrera arcana se rompió bajo la presión térmica. El elemental se dividió en chispas que se esparcieron por los tejados, haciendo la contención imposible.",
+          "El héroe fue alcanzado por una ráfaga de calor al intentar sellar al elemental. La criatura huyó a las alcantarillas, donde los gases causaron una explosión."
+        ],
+        "ru": [
+          "Существо восприняло попытки захвата как игру в «догонялки» и прыгнуло в торговый квартал. Пожар уничтожил три склада шелка.",
+          "Мой арканный барьер не выдержал теплового давления. Элементаль распался на мелкие искры, которые разлетелись по соломенным крышам.",
+          "Герой пострадал от мощного теплового удара при попытке запечатать элементаля. Существо сбежало в канализацию, где горючий газ вызвал взрыв."
+        ],
+        "zh": [
+          "该生物将我的捕捉尝试理解成了“捉迷藏”游戏，并跳进了商业区。随之而来的大火摧毁了三座丝绸仓库。",
+          "我的奥术屏障在热压下碎裂。火元素分裂成更小的火星，散布在草屋顶上，使得目前无法进行收容。",
+          "英雄在试图封印火元素时受到高温冲击。该生物逃入下水道，那里的易燃气体引发了地下爆炸。"
+        ],
+        "ja": [
+          "精霊は私の捕獲の試みを「鬼ごっこ」と勘違いし、商業地区へ飛び火しました。その結果、3つの絹倉庫が焼失しました。",
+          "熱圧によって秘術障壁が砕かれました。精霊は小さな火花に分裂して藁葺き屋根に広がり、現時点での封じ込めは不可能となりました。",
+          "封印を試みた際に英雄が激しい熱風にさらされました。精霊は下水道へ逃げ込み、可燃性ガスによる地下爆発を引き起こしました。"
+        ]
+      }
     }
   }
-}    
 }

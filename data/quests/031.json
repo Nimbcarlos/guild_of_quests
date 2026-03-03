@@ -21,9 +21,9 @@
   "expired_at": 4,
   "available_from_turn": 122,
   "duration": 3,
-  "difficulty": 1.6,
+  "difficulty": 3.5,
   "rewards": {
-    "xp": 80
+    "xp": 85
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -48,74 +48,74 @@
       "ja": "市民"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Utilizei uma técnica de drenagem de mana para interromper o fluxo transmutativo que alimentava o anel. Sem energia mágica, o objeto se tornou inerte e pôde ser removido, revertendo a petrificação do cidadão.",
-        "Projetei um campo de dissipação rúnica ao redor do dedo do portador, desfazendo o selo que prendia a maldição à sua carne. O anel rachou e a pele dourada recuperou sua textura humana original.",
-        "Sincronizei minha própria aura com a frequência do anel para 'enganar' a maldição e transferi-la temporariamente para um cristal de contenção. O cidadão foi liberado da influência agressiva e do peso do metal."
-      ],
-      "en": [
-        "I used a mana-draining technique to interrupt the transmutative flow fueling the ring. Without magical energy, the object became inert and could be removed, reversing the citizen's petrification.",
-        "I projected a runic dissipation field around the wearer's finger, undoing the seal that bound the curse to his flesh. The ring cracked, and the golden skin regained its original human texture.",
-        "I synchronized my own aura with the ring's frequency to 'trick' the curse, temporarily transferring it to a containment crystal. The citizen was released from the aggressive influence and the metal's weight."
-      ],
-      "es": [
-        "Utilicé una técnica de drenaje de maná para interrumpir el flujo transmutativo del anillo. Sin energía, el objeto se volvió inerte y pudo ser retirado, revirtiendo la petrificación.",
-        "Proyecté un campo de disipación rúnica alrededor del dedo, deshaciendo el sello de la maldición. El anillo se rompió y la piel dorada recuperó su textura humana original.",
-        "Sincronicé mi aura con la frecuencia del anillo para engañar a la maldición y transferirla a un cristal. El ciudadano fue liberado de la influencia agresiva y del peso del metal."
-      ],
-      "ru": [
-        "Я использовала технику истощения маны, чтобы прервать трансмутационный поток кольца. Без магической энергии объект стал инертным, что позволило снять его и обратить окаменение.",
-        "Я создала руническое поле рассеивания вокруг пальца, сняв печать, привязывавшую проклятие к плоти. Кольцо треснуло, и золотая кожа вернула свою человеческую текстуру.",
-        "Я синхронизировала свою ауру с частотой кольца, чтобы «обмануть» проклятие и перенести его в кристалл. Гражданин был избавлен от агрессии и тяжести металла."
-      ],
-      "zh": [
-        "我使用了法力抽取技术来中断维持戒指运作的转化流。在失去魔法能量后，该物体变得失去活性并被取下，逆转了市民的金化过程。",
-        "我在佩戴者的手指周围投射了一个符文消散场，解开了将诅咒束缚在血肉上的封印。戒指碎裂了，金色的皮肤恢复了原本的人类质感。",
-        "我将自己的光环与戒指的频率同步以“欺骗”诅咒，将其暂时转移到一颗收容水晶中。市民从暴躁的影响和金属的重量中解脱了出来。"
-      ],
-      "ja": [
-        "指輪に供給されていた変異の魔力の流れを断つため、マナドレインの技法を用いました。魔力が尽きた指輪は不活性化して外せるようになり、市民の金化も逆転しました。",
-        "着用者の指の周囲にルーンの霧散フィールドを展開し、呪いと肉体を結びつけていた封印を解除しました。指輪は砕け、黄金の肌は元の質感を取り戻しました。",
-        "自身のオーラを指輪の周波数に同期させて呪いを「欺き」、一時的に収容用のクリスタルへ移し替えました。市民は攻撃的な影響と金属の重みから解放されました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "A agressividade do cidadão impediu uma abordagem precisa. Antes que eu pudesse remover o anel, a transmutação atingiu o coração, transformando o homem em uma estátua de ouro sem vida.",
-        "Minha tentativa de neutralizar a magia causou um feedback violento. O anel fundiu-se permanentemente à carne petrificada, selando o destino do comprador como um adorno de luxo macabro.",
-        "O herói foi forçado a se defender dos ataques brutais do cidadão parcialmente dourado. No caos da luta, o anel completou seu ciclo, e a casa agora abriga apenas um monumento inerte à ganância."
-      ],
-      "en": [
-        "The citizen's aggression prevented a precise approach. Before I could remove the ring, the transmutation reached the heart, turning the man into a lifeless gold statue.",
-        "My attempt to neutralize the magic caused a violent feedback. The ring fused permanently to the petrified flesh, sealing the buyer's fate as a macabre luxury ornament.",
-        "The hero was forced to defend themselves from the partially golden citizen's brutal attacks. In the chaos of the fight, the ring completed its cycle, and the house now holds only an inert monument to greed."
-      ],
-      "es": [
-        "La agresividad del ciudadano impidió un enfoque preciso. Antes de poder quitar el anillo, la transmutación llegó al corazón, convirtiéndolo en una estatua de oro sin vida.",
-        "Mi intento de neutralizar la magia causó una reacción violenta. El anillo se fundió permanentemente a la carne, sellando el destino del comprador como un adorno macabro.",
-        "El héroe se vio obligado a defenderse de los ataques. En el caos, el anillo completó su ciclo y la casa ahora solo alberga un monumento inerte a la codicia."
-      ],
-      "ru": [
-        "Агрессия гражданина помешала точному вмешательству. Прежде чем я успела снять кольцо, трансмутация достигла сердца, превратив человека в безжизненную золотую статую.",
-        "Моя попытка нейтрализовать магию вызвала жестокую отдачу. Кольцо навсегда слилось с окаменевшей плотью, запечатав судьбу покупателя как макабрического украшения.",
-        "Герой был вынужден защищаться от атак позолоченного гражданина. В хаосе боя кольцо завершило цикл, и теперь в доме стоит лишь инертный монумент жадности."
-      ],
-      "zh": [
-        "市民的攻击行为阻碍了精准的操作。在我取下戒指前，转化已经到达心脏，使那个人变成了一尊毫无生气的金像。",
-        "我试图中和魔法却引发了剧烈的反噬。戒指永久地与金化的血肉融合，使买家沦为一件恐怖的奢侈装饰品。",
-        "英雄被迫对部分金化的市民进行自卫。在战斗的混乱中，戒指完成了周期，房子里现在只剩下一座死气沉沉的贪婪纪念碑。"
-      ],
-      "ja": [
-        "市民の攻撃性のために正確なアプローチが妨げられました。指輪を外す前に変容が心臓に達し、男は命なき黄金の像となってしまいました。",
-        "魔法を中和しようとする試みが激しいフィードバックを引き起こしました。指輪は金化した肉体と永久に融合し、買い手の運命は不気味な装飾品として封じられました。",
-        "英雄は半身黄金化した市民の攻撃から身を守ることを強いられました。混乱の中で指輪のサイクルが完了し、家には強欲の記念碑だけが残されました。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Utilizei uma técnica de drenagem de mana para interromper o fluxo transmutativo que alimentava o anel. Sem energia mágica, o objeto se tornou inerte e pôde ser removido, revertendo a petrificação do cidadão.",
+          "Projetei um campo de dissipação rúnica ao redor do dedo do portador, desfazendo o selo que prendia a maldição à sua carne. O anel rachou e a pele dourada recuperou sua textura humana original.",
+          "Sincronizei minha própria aura com a frequência do anel para 'enganar' a maldição e transferi-la temporariamente para um cristal de contenção. O cidadão foi liberado da influência agressiva e do peso do metal."
+        ],
+        "en": [
+          "I used a mana-draining technique to interrupt the transmutative flow fueling the ring. Without magical energy, the object became inert and could be removed, reversing the citizen's petrification.",
+          "I projected a runic dissipation field around the wearer's finger, undoing the seal that bound the curse to his flesh. The ring cracked, and the golden skin regained its original human texture.",
+          "I synchronized my own aura with the ring's frequency to 'trick' the curse, temporarily transferring it to a containment crystal. The citizen was released from the aggressive influence and the metal's weight."
+        ],
+        "es": [
+          "Utilicé una técnica de drenaje de maná para interrumpir el flujo transmutativo del anillo. Sin energía, el objeto se volvió inerte y pudo ser retirado, revirtiendo la petrificación.",
+          "Proyecté un campo de disipación rúnica alrededor del dedo, deshaciendo el sello de la maldición. El anillo se rompió y la piel dorada recuperó su textura humana original.",
+          "Sincronicé mi aura con la frecuencia del anillo para engañar a la maldición y transferirla a un cristal. El ciudadano fue liberado de la influencia agresiva y del peso del metal."
+        ],
+        "ru": [
+          "Я использовала технику истощения маны, чтобы прервать трансмутационный поток кольца. Без магической энергии объект стал инертным, что позволило снять его и обратить окаменение.",
+          "Я создала руническое поле рассеивания вокруг пальца, сняв печать, привязывавшую проклятие к плоти. Кольцо треснуло, и золотая кожа вернула свою человеческую текстуру.",
+          "Я синхронизировала свою ауру с частотой кольца, чтобы «обмануть» проклятие и перенести его в кристалл. Гражданин был избавлен от агрессии и тяжести металла."
+        ],
+        "zh": [
+          "我使用了法力抽取技术来中断维持戒指运作的转化流。在失去魔法能量后，该物体变得失去活性并被取下，逆转了市民的金化过程。",
+          "我在佩戴者的手指周围投射了一个符文消散场，解开了将诅咒束缚在血肉上的封印。戒指碎裂了，金色的皮肤恢复了原本的人类质感。",
+          "我将自己的光环与戒指的频率同步以“欺骗”诅咒，将其暂时转移到一颗收容水晶中。市民从暴躁的影响和金属的重量中解脱了出来。"
+        ],
+        "ja": [
+          "指輪に供給されていた変異の魔力の流れを断つため、マナドレインの技法を用いました。魔力が尽きた指輪は不活性化して外せるようになり、市民の金化も逆転しました。",
+          "着用者の指の周囲にルーンの霧散フィールドを展開し、呪いと肉体を結びつけていた封印を解除しました。指輪は砕け、黄金の肌は元の質感を取り戻しました。",
+          "自身のオーラを指輪の周波数に同期させて呪いを「欺き」、一時的に収容用のクリスタルへ移し替えました。市民は攻撃的な影響と金属の重みから解放されました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A agressividade do cidadão impediu uma abordagem precisa. Antes que eu pudesse remover o anel, a transmutação atingiu o coração, transformando o homem em uma estátua de ouro sem vida.",
+          "Minha tentativa de neutralizar a magia causou um feedback violento. O anel fundiu-se permanentemente à carne petrificada, selando o destino do comprador como um adorno de luxo macabro.",
+          "O herói foi forçado a se defender dos ataques brutais do cidadão parcialmente dourado. No caos da luta, o anel completou seu ciclo, e a casa agora abriga apenas um monumento inerte à ganância."
+        ],
+        "en": [
+          "The citizen's aggression prevented a precise approach. Before I could remove the ring, the transmutation reached the heart, turning the man into a lifeless gold statue.",
+          "My attempt to neutralize the magic caused a violent feedback. The ring fused permanently to the petrified flesh, sealing the buyer's fate as a macabre luxury ornament.",
+          "The hero was forced to defend themselves from the partially golden citizen's brutal attacks. In the chaos of the fight, the ring completed its cycle, and the house now holds only an inert monument to greed."
+        ],
+        "es": [
+          "La agresividad del ciudadano impidió un enfoque preciso. Antes de poder quitar el anillo, la transmutación llegó al corazón, convirtiéndolo en una estatua de oro sin vida.",
+          "Mi intento de neutralizar la magia causó una reacción violenta. El anillo se fundió permanentemente a la carne, sellando el destino del comprador como un adorno macabro.",
+          "El héroe se vio obligado a defenderse de los ataques. En el caos, el anillo completó su ciclo y la casa ahora solo alberga un monumento inerte a la codicia."
+        ],
+        "ru": [
+          "Агрессия гражданина помешала точному вмешательству. Прежде чем я успела снять кольцо, трансмутация достигла сердца, превратив человека в безжизненную золотую статую.",
+          "Моя попытка нейтрализовать магию вызвала жестокую отдачу. Кольцо навсегда слилось с окаменевшей плотью, запечатав судьбу покупателя как макабрического украшения.",
+          "Герой был вынужден защищаться от атак позолоченного гражданина. В хаосе боя кольцо завершило цикл, и теперь в доме стоит лишь инертный монумент жадности."
+        ],
+        "zh": [
+          "市民的攻击行为阻碍了精准的操作。在我取下戒指前，转化已经到达心脏，使那个人变成了一尊毫无生气的金像。",
+          "我试图中和魔法却引发了剧烈的反噬。戒指永久地与金化的血肉融合，使买家沦为一件恐怖的奢侈装饰品。",
+          "英雄被迫对部分金化的市民进行自卫。在战斗的混乱中，戒指完成了周期，房子里现在只剩下一座死气沉沉的贪婪纪念碑。"
+        ],
+        "ja": [
+          "市民の攻撃性のために正確なアプローチが妨げられました。指輪を外す前に変容が心臓に達し、男は命なき黄金の像となってしまいました。",
+          "魔法を中和しようとする試みが激しいフィードバックを引き起こしました。指輪は金化した肉体と永久に融合し、買い手の運命は不気味な装飾品として封じられました。",
+          "英雄は半身黄金化した市民の攻撃から身を守ることを強いられました。混乱の中で指輪のサイクルが完了し、家には強欲の記念碑だけが残されました。"
+        ]
+      }
     }
   }
-}
 }

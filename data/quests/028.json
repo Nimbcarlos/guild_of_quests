@@ -21,9 +21,9 @@
   "expired_at": 5,
   "available_from_turn": 78,
   "duration": 3,
-  "difficulty": 1.8,
+  "difficulty": 2.5,
   "rewards": {
-    "xp": 95
+    "xp": 70
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -48,74 +48,74 @@
       "ja": "魔法使い"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Estabeleci uma barreira de silêncio mental ao redor da torre de Vaelor e utilizei frequências harmônicas para suavizar as projeções. A cidade finalmente mergulhou em um sono sem sonhos, permitindo que o mago fosse tratado com segurança.",
-        "Sincronizei minha própria assinatura arcana com as ondas cerebrais de Vaelor e inseri um 'ponto de ancoragem' em seu pesadelo. A projeção ruiu de dentro para fora, restaurando a paz mental dos cidadãos.",
-        "Desenvolvi um filtro de mana para o reservatório de energia da cidade, impedindo que as emanações oníricas se propagassem. A epidemia de insônia foi contida e o subconsciente do mago foi isolado."
-      ],
-      "en": [
-        "I established a mental silence barrier around Vaelor's tower and used harmonic frequencies to soothe the projections. The city finally fell into a dreamless sleep, allowing the mage to be treated safely.",
-        "I synchronized my own arcane signature with Vaelor's brainwaves and inserted an 'anchor point' into his nightmare. The projection collapsed from the inside out, restoring the citizens' peace of mind.",
-        "I developed a mana filter for the city's energy reservoir, preventing the oneiric emanations from propagating. The insomnia epidemic was contained, and the mage's subconscious was isolated."
-      ],
-      "es": [
-        "Establecí una barrera de silencio mental alrededor de la torre de Vaelor y utilicé frecuencias armónicas. La ciudad finalmente cayó en un sueño sin sueños, permitiendo que el mago fuera tratado.",
-        "Sincronicé mi firma arcana con las ondas cerebrales de Vaelor e inserté un punto de anclaje en su pesadilla. La proyección colapsó, restaurando la paz mental de los ciudadanos.",
-        "Desarrollé un filtro de maná para evitar que las emanaciones oníricas se propagaran. La epidemia de insomnio fue contenida y el subconsciente del mago fue aislado."
-      ],
-      "ru": [
-        "Я установила барьер ментальной тишины вокруг башни Ваэлора и использовала гармонические частоты. Город наконец погрузился в сон без сновидений, что позволило безопасно лечить мага.",
-        "Я синхронизировала свою арканную подпись с мозговыми волнами Ваэлора и вставила «точку привязки» в его кошмар. Проекция рухнула изнутри, вернув горожанам душевный покой.",
-        "Я разработала фильтр маны для городского резервуара, предотвратив распространение онейрических эманаций. Эпидемия бессонницы была купирована."
-      ],
-      "zh": [
-        "我在瓦埃洛尔的塔周围建立了精神静默屏障，并使用和谐频率来平息投影。城市终于进入了无梦的睡眠，使法师能够得到安全治疗。",
-        "我将自己的奥术签名与瓦埃洛尔的脑电波同步，并在他的噩梦中插入了一个“锚点”。投影由内而外崩溃，恢复了市民的心灵平静。",
-        "我为城市的能量库开发了一个魔力过滤器，阻止了梦境辐射的传播。失眠瘟疫得到了控制，法师的潜意识被隔离。"
-      ],
-      "ja": [
-        "ワエロールの塔の周囲に精神的な静寂の障壁を築き、調和周波数を用いて投影を鎮めました。街はようやく夢のない眠りにつき、魔法使いを安全に治療することが可能になりました。",
-        "自身の秘術署名をワエロールの脳波に同期させ、彼の悪夢の中に「アンカーポイント」を挿入しました。投影は内側から崩壊し、市民の心の安らぎが回復しました。",
-        "街のエネルギー貯蔵庫にマナフィルターを開発し、夢の放射が伝播するのを防ぎました。不眠症の流行は抑え込まれ、魔法使いの潜在意識は隔離されました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "Minha intrusão mental causou uma reação de defesa no subconsciente de Vaelor. O pesadelo tornou-se lúcido e agressivo, manifestando fendas físicas pela cidade que exauriram a energia de todos.",
-        "Não consegui isolar as frequências oníricas a tempo. O herói também sucumbiu ao pesadelo e agora a guilda tem um membro a menos e uma cidade inteira à beira de um colapso nervoso.",
-        "A tentativa de acordar o mago abruptamente fragmentou sua psique. As projeções cessaram, mas Vaelor morreu e o trauma residual deixou os cidadãos incapazes de sonhar permanentemente."
-      ],
-      "en": [
-        "My mental intrusion triggered a defense reaction in Vaelor's subconscious. The nightmare became lucid and aggressive, manifesting physical rifts through the city that exhausted everyone's energy.",
-        "I failed to isolate the oneiric frequencies in time. The hero also succumbed to the nightmare, and now the guild has one fewer member and an entire city on the brink of a nervous breakdown.",
-        "The attempt to wake the mage abruptly fragmented his psyche. The projections ceased, but Vaelor died, and the residual trauma left the citizens permanently unable to dream."
-      ],
-      "es": [
-        "Mi intrusión mental activó una reacción de defensa. La pesadilla se volvió lúcida y agresiva, manifestando grietas físicas que agotaron la energía de todos.",
-        "No logré aislar las frecuencias a tiempo. El héroe también sucumbió a la pesadilla, dejando a la ciudad al borde de un colapso nervioso.",
-        "El intento de despertar al mago fragmentó su psique. Las proyecciones cesaron, pero Vaelor murió y el trauma dejó a los ciudadanos permanentemente incapaces de soñar."
-      ],
-      "ru": [
-        "Мое ментальное вторжение вызвало защитную реакцию. Кошмар стал осознанным и агрессивным, создавая в городе физические разломы, истощающие энергию жителей.",
-        "Мне не удалось вовремя изолировать онейрические частоты. Герой также поддался кошмару, и теперь весь город находится на грани нервного срыва.",
-        "Попытка резко разбудить мага фрагментировала его психику. Проекции прекратились, но Ваэлор умер, а остаточная травма лишила горожан способности видеть сны."
-      ],
-      "zh": [
-        "我的精神入侵引发了瓦埃洛尔潜意识的防御反应。噩梦变得清晰且具有攻击性，在城市中显现出物理裂缝，耗尽了每个人的精力。",
-        "我未能及时隔离梦境频率。英雄也屈服于噩梦，现在公会少了一名成员，整个城市正处于神经衰弱的边缘。",
-        "突然唤醒法师的尝试粉碎了他的精神。投影停止了，但瓦埃洛尔去世了，残留的创伤使市民永久失去了做梦的能力。"
-      ],
-      "ja": [
-        "精神的な介入がワエロールの潜在意識の防衛反応を誘発しました。悪夢は明晰かつ攻撃的になり、街中に物理的な裂け目となって現れ、全員のエネルギーを消耗させました。",
-        "夢の周波数を時間内に隔離することに失敗しました。英雄も悪夢に屈し、ギルドはメンバーを一人失い、街全体が神経衰弱の危機に瀕しています。",
-        "魔法使いを唐突に目覚めさせようとした試みが、彼の精神を断片化させました。投影は止まりましたが、ワエロールは死亡し、残留したトラウマにより市民は永久に夢を見ることができなくなりました。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Estabeleci uma barreira de silêncio mental ao redor da torre de Vaelor e utilizei frequências harmônicas para suavizar as projeções. A cidade finalmente mergulhou em um sono sem sonhos, permitindo que o mago fosse tratado com segurança.",
+          "Sincronizei minha própria assinatura arcana com as ondas cerebrais de Vaelor e inseri um 'ponto de ancoragem' em seu pesadelo. A projeção ruiu de dentro para fora, restaurando a paz mental dos cidadãos.",
+          "Desenvolvi um filtro de mana para o reservatório de energia da cidade, impedindo que as emanações oníricas se propagassem. A epidemia de insônia foi contida e o subconsciente do mago foi isolado."
+        ],
+        "en": [
+          "I established a mental silence barrier around Vaelor's tower and used harmonic frequencies to soothe the projections. The city finally fell into a dreamless sleep, allowing the mage to be treated safely.",
+          "I synchronized my own arcane signature with Vaelor's brainwaves and inserted an 'anchor point' into his nightmare. The projection collapsed from the inside out, restoring the citizens' peace of mind.",
+          "I developed a mana filter for the city's energy reservoir, preventing the oneiric emanations from propagating. The insomnia epidemic was contained, and the mage's subconscious was isolated."
+        ],
+        "es": [
+          "Establecí una barrera de silencio mental alrededor de la torre de Vaelor y utilicé frecuencias armónicas. La ciudad finalmente cayó en un sueño sin sueños, permitiendo que el mago fuera tratado.",
+          "Sincronicé mi firma arcana con las ondas cerebrales de Vaelor e inserté un punto de anclaje en su pesadilla. La proyección colapsó, restaurando la paz mental de los ciudadanos.",
+          "Desarrollé un filtro de maná para evitar que las emanaciones oníricas se propagaran. La epidemia de insomnio fue contenida y el subconsciente del mago fue aislado."
+        ],
+        "ru": [
+          "Я установила барьер ментальной тишины вокруг башни Ваэлора и использовала гармонические частоты. Город наконец погрузился в сон без сновидений, что позволило безопасно лечить мага.",
+          "Я синхронизировала свою арканную подпись с мозговыми волнами Ваэлора и вставила «точку привязки» в его кошмар. Проекция рухнула изнутри, вернув горожанам душевный покой.",
+          "Я разработала фильтр маны для городского резервуара, предотвратив распространение онейрических эманаций. Эпидемия бессонницы была купирована."
+        ],
+        "zh": [
+          "我在瓦埃洛尔的塔周围建立了精神静默屏障，并使用和谐频率来平息投影。城市终于进入了无梦的睡眠，使法师能够得到安全治疗。",
+          "我将自己的奥术签名与瓦埃洛尔的脑电波同步，并在他的噩梦中插入了一个“锚点”。投影由内而外崩溃，恢复了市民的心灵平静。",
+          "我为城市的能量库开发了一个魔力过滤器，阻止了梦境辐射的传播。失眠瘟疫得到了控制，法师的潜意识被隔离。"
+        ],
+        "ja": [
+          "ワエロールの塔の周囲に精神的な静寂の障壁を築き、調和周波数を用いて投影を鎮めました。街はようやく夢のない眠りにつき、魔法使いを安全に治療することが可能になりました。",
+          "自身の秘術署名をワエロールの脳波に同期させ、彼の悪夢の中に「アンカーポイント」を挿入しました。投影は内側から崩壊し、市民の心の安らぎが回復しました。",
+          "街のエネルギー貯蔵庫にマナフィルターを開発し、夢の放射が伝播するのを防ぎました。不眠症の流行は抑え込まれ、魔法使いの潜在意識は隔離されました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Minha intrusão mental causou uma reação de defesa no subconsciente de Vaelor. O pesadelo tornou-se lúcido e agressivo, manifestando fendas físicas pela cidade que exauriram a energia de todos.",
+          "Não consegui isolar as frequências oníricas a tempo. O herói também sucumbiu ao pesadelo e agora a guilda tem um membro a menos e uma cidade inteira à beira de um colapso nervoso.",
+          "A tentativa de acordar o mago abruptamente fragmentou sua psique. As projeções cessaram, mas Vaelor morreu e o trauma residual deixou os cidadãos incapazes de sonhar permanentemente."
+        ],
+        "en": [
+          "My mental intrusion triggered a defense reaction in Vaelor's subconscious. The nightmare became lucid and aggressive, manifesting physical rifts through the city that exhausted everyone's energy.",
+          "I failed to isolate the oneiric frequencies in time. The hero also succumbed to the nightmare, and now the guild has one fewer member and an entire city on the brink of a nervous breakdown.",
+          "The attempt to wake the mage abruptly fragmented his psyche. The projections ceased, but Vaelor died, and the residual trauma left the citizens permanently unable to dream."
+        ],
+        "es": [
+          "Mi intrusión mental activó una reacción de defensa. La pesadilla se volvió lúcida y agresiva, manifestando grietas físicas que agotaron la energía de todos.",
+          "No logré aislar las frecuencias a tiempo. El héroe también sucumbió a la pesadilla, dejando a la ciudad al borde de un colapso nervioso.",
+          "El intento de despertar al mago fragmentó su psique. Las proyecciones cesaron, pero Vaelor murió y el trauma dejó a los ciudadanos permanentemente incapaces de soñar."
+        ],
+        "ru": [
+          "Мое ментальное вторжение вызвало защитную реакцию. Кошмар стал осознанным и агрессивным, создавая в городе физические разломы, истощающие энергию жителей.",
+          "Мне не удалось вовремя изолировать онейрические частоты. Герой также поддался кошмару, и теперь весь город находится на грани нервного срыва.",
+          "Попытка резко разбудить мага фрагментировала его психику. Проекции прекратились, но Ваэлор умер, а остаточная травма лишила горожан способности видеть сны."
+        ],
+        "zh": [
+          "我的精神入侵引发了瓦埃洛尔潜意识的防御反应。噩梦变得清晰且具有攻击性，在城市中显现出物理裂缝，耗尽了每个人的精力。",
+          "我未能及时隔离梦境频率。英雄也屈服于噩梦，现在公会少了一名成员，整个城市正处于神经衰弱的边缘。",
+          "突然唤醒法师的尝试粉碎了他的精神。投影停止了，但瓦埃洛尔去世了，残留的创伤使市民永久失去了做梦的能力。"
+        ],
+        "ja": [
+          "精神的な介入がワエロールの潜在意識の防衛反応を誘発しました。悪夢は明晰かつ攻撃的になり、街中に物理的な裂け目となって現れ、全員のエネルギーを消耗させました。",
+          "夢の周波数を時間内に隔離することに失敗しました。英雄も悪夢に屈し、ギルドはメンバーを一人失い、街全体が神経衰弱の危機に瀕しています。",
+          "魔法使いを唐突に目覚めさせようとした試みが、彼の精神を断片化させました。投影は止まりましたが、ワエロールは死亡し、残留したトラウマにより市民は永久に夢を見ることができなくなりました。"
+        ]
+      }
     }
   }
-}
 }

@@ -24,9 +24,9 @@
   "expired_at": 4,
   "available_from_turn": 32,
   "duration": 3,
-  "difficulty": 1.6,
+  "difficulty": 2.0,
   "rewards": {
-    "xp": 55
+    "xp": 60
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -51,106 +51,106 @@
       "ja": "瓦礫"
     }
   },
-"conclusion": {
-  "success": {
-    "engineering": {
-      "pt": [
-        "Analisei os pontos de tensão do mármore caído. Instalei escoras hidráulicas e removi as peças certas para criar um túnel de resgate sem causar um novo desabamento. Todos foram retirados em segurança.",
-        "Não bastava força; era necessário entender o ângulo da queda. Criei um sistema de ventilação improvisado antes de abrir a passagem, garantindo que os fiéis tivessem ar enquanto eu estabilizava a entrada.",
-        "O pilar central era a chave da cúpula. Reforcei a estrutura adjacente e desloquei os blocos de mármore com precisão cirúrgica. O templo sofreu danos, mas as vidas foram salvas."
-      ],
-      "en": [
-        "I analyzed the stress points of the fallen marble. I installed hydraulic shores and removed the right pieces to create a rescue tunnel without causing a further collapse. Everyone was safely evacuated.",
-        "Strength alone wasn't enough; I had to understand the angle of the fall. I created an improvised ventilation system before opening the passage, ensuring the worshippers had air while I stabilized the entrance.",
-        "The central pillar was the key to the dome. I reinforced the adjacent structure and moved the marble blocks with surgical precision. The temple was damaged, but lives were saved."
-      ],
-      "es": [
-        "Analicé los puntos de tensión del mármol caído. Instalé puntales e hidraté las cuñas para remover las piezas correctas sin causar un nuevo derrumbe. Todos fueron rescatados a salvo.",
-        "No bastaba la fuerza; era necesario entender el ángulo de la caída. Creé un sistema de ventilación improvisado antes de abrir el paso, asegurando que los fieles tuvieran aire mientras estabilizaba la entrada.",
-        "El pilar central era la clave de la cúpula. Reforcé la estructura adyacente y desplacé los bloques de mármol con precisión quirúrgica. El templo sufrió daños, pero las vidas se salvaron."
-      ],
-      "ru": [
-        "Я проанализировала точки напряжения упавшего мрамора. Установив гидравлические распорки, я убрала нужные части, чтобы создать спасательный туннель, не вызвав нового обвала. Все были успешно эвакуированы.",
-        "Одной силы было недостаточно; нужно было понять угол падения. Я создала импровизированную систему вентиляции перед тем, как открыть проход, обеспечив верующих воздухом на время стабилизации входа.",
-        "Центральный столп был ключом к куполу. Я укрепила прилегающую конструкцию и переместила мраморные блоки с хирургической точностью. Храм пострадал, но жизни были спасены."
-      ],
-      "zh": [
-        "我分析了倒塌大理石的应力点。我安装了液压支撑并移除了正确的碎片，在不引发进一步坍塌的情况下建立了一条救援通道。所有人被安全疏散。",
-        "单纯依靠力量是不够的；我必须理解倒塌的角度。在打开通道之前，我制作了一个临时通风系统，确保信徒在我也在稳定入口时有空气呼吸。",
-        "中央支柱是圆顶的关键。我加固了相邻结构，并以极其精准的方式移动了大理石块。神殿受损了，但生命得以挽救。"
-      ],
-      "ja": [
-        "崩落した大理石の応力点を分析しました。油圧支柱を設置し、さらなる崩落を引き起こさないよう適切な破片を取り除いて救助トンネルを作成しました。全員が無事に避難しました。",
-        "力だけでは不十分でした。落下の角度を理解する必要がありました。通路を開く前に即席の換気システムを作り、入口を安定させている間も信者たちが空気を確保できるようにしました。",
-        "中央の柱はドームの要でした。隣接する構造を補強し、外科的な精度で大理石のブロックを移動させました。神殿は損傷しましたが、命は救われました。"
-      ]
+  "conclusion": {
+    "success": {
+      "engineering": {
+        "pt": [
+          "Analisei os pontos de tensão do mármore caído. Instalei escoras hidráulicas e removi as peças certas para criar um túnel de resgate sem causar um novo desabamento. Todos foram retirados em segurança.",
+          "Não bastava força; era necessário entender o ângulo da queda. Criei um sistema de ventilação improvisado antes de abrir a passagem, garantindo que os fiéis tivessem ar enquanto eu estabilizava a entrada.",
+          "O pilar central era a chave da cúpula. Reforcei a estrutura adjacente e desloquei os blocos de mármore com precisão cirúrgica. O templo sofreu danos, mas as vidas foram salvas."
+        ],
+        "en": [
+          "I analyzed the stress points of the fallen marble. I installed hydraulic shores and removed the right pieces to create a rescue tunnel without causing a further collapse. Everyone was safely evacuated.",
+          "Strength alone wasn't enough; I had to understand the angle of the fall. I created an improvised ventilation system before opening the passage, ensuring the worshippers had air while I stabilized the entrance.",
+          "The central pillar was the key to the dome. I reinforced the adjacent structure and moved the marble blocks with surgical precision. The temple was damaged, but lives were saved."
+        ],
+        "es": [
+          "Analicé los puntos de tensión del mármol caído. Instalé puntales e hidraté las cuñas para remover las piezas correctas sin causar un nuevo derrumbe. Todos fueron rescatados a salvo.",
+          "No bastaba la fuerza; era necesario entender el ángulo de la caída. Creé un sistema de ventilación improvisado antes de abrir el paso, asegurando que los fieles tuvieran aire mientras estabilizaba la entrada.",
+          "El pilar central era la clave de la cúpula. Reforcé la estructura adyacente y desplacé los bloques de mármol con precisión quirúrgica. El templo sufrió daños, pero las vidas se salvaron."
+        ],
+        "ru": [
+          "Я проанализировала точки напряжения упавшего мрамора. Установив гидравлические распорки, я убрала нужные части, чтобы создать спасательный туннель, не вызвав нового обвала. Все были успешно эвакуированы.",
+          "Одной силы было недостаточно; нужно было понять угол падения. Я создала импровизированную систему вентиляции перед тем, как открыть проход, обеспечив верующих воздухом на время стабилизации входа.",
+          "Центральный столп был ключом к куполу. Я укрепила прилегающую конструкцию и переместила мраморные блоки с хирургической точностью. Храм пострадал, но жизни были спасены."
+        ],
+        "zh": [
+          "我分析了倒塌大理石的应力点。我安装了液压支撑并移除了正确的碎片，在不引发进一步坍塌的情况下建立了一条救援通道。所有人被安全疏散。",
+          "单纯依靠力量是不够的；我必须理解倒塌的角度。在打开通道之前，我制作了一个临时通风系统，确保信徒在我也在稳定入口时有空气呼吸。",
+          "中央支柱是圆顶的关键。我加固了相邻结构，并以极其精准的方式移动了大理石块。神殿受损了，但生命得以挽救。"
+        ],
+        "ja": [
+          "崩落した大理石の応力点を分析しました。油圧支柱を設置し、さらなる崩落を引き起こさないよう適切な破片を取り除いて救助トンネルを作成しました。全員が無事に避難しました。",
+          "力だけでは不十分でした。落下の角度を理解する必要がありました。通路を開く前に即席の換気システムを作り、入口を安定させている間も信者たちが空気を確保できるようにしました。",
+          "中央の柱はドームの要でした。隣接する構造を補強し、外科的な精度で大理石のブロックを移動させました。神殿は損傷しましたが、命は救われました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Foi uma corrida contra o tempo. Meus músculos gritaram sob o peso do mármore sagrado, mas consegui remover as pedras a tempo de os fiéis saírem, tossindo mas vivos.",
+          "Não houve tempo para planos complexos. Usei minha força para erguer os blocos que selavam a porta. O ar estava pesado, mas consegui abrir uma brecha larga o suficiente para o resgate.",
+          "Sob os gritos desesperados vindos de dentro, superei meus próprios limites físicos. Cada pedaço de pilar movido era um suspiro de alívio dos sobreviventes."
+        ],
+        "en": [
+          "It was a race against time. My muscles screamed under the weight of the sacred marble, but I managed to remove the stones in time for the worshippers to get out, coughing but alive.",
+          "There was no time for complex plans. I used my strength to lift the blocks sealing the door. The air was thick, but I managed to clear a gap wide enough for the rescue.",
+          "Hearing the desperate cries from within, I pushed past my own physical limits. Every piece of the pillar moved brought a sigh of relief from the survivors."
+        ],
+        "es": [
+          "Fue una carrera contra el tiempo. Mis músculos gritaron bajo el peso del mármol sagrado, pero logré remover las piedras a tiempo para que los fieles salieran, tosiendo pero vivos.",
+          "No hubo tiempo para planes complejos. Usé mi fuerza para levantar los bloques que sellaban la puerta. El aire era pesado, pero logré abrir una brecha lo suficientemente ancha para el rescate.",
+          "Bajo los gritos desesperados que venían del interior, superé mis propios límites físicos. Cada trozo de pilar movido era un suspiro de alivio de los supervivientes."
+        ],
+        "ru": [
+          "Это была гонка на время. Мои мышцы стонали под весом священного мрамора, но я успела убрать камни вовремя, чтобы верующие вышли наружу — кашляя, но живыми.",
+          "Времени на сложные планы не было. Я использовала свою силу, чтобы поднять блоки, закрывающие дверь. Воздух был тяжелым, но мне удалось пробить брешь, достаточную для спасения.",
+          "Слыша отчаянные крики изнутри, я превзошла пределы своих физических возможностей. Каждый сдвинутый кусок столпа приносил облегчение выжившим."
+        ],
+        "zh": [
+          "这是一场与时间的赛跑。我的肌肉在神圣大理石的重压下嘶吼，但我还是及时移开了石块，让信徒们得以及时撤离，他们虽在咳嗽，但还活着。",
+          "没有时间制定复杂的计划。我用力量举起了封死大门的石块。空气很浑浊，但我成功清理出了一个足够救援的缺口。",
+          "听着里面传来的绝望哭喊，我突破了自己的体力极限。每移开一块柱子残骸，都换来幸存者们的一声宽慰。"
+        ],
+        "ja": [
+          "時間との戦いでした。聖なる大理石の重みに筋肉が悲鳴を上げましたが、信者たちが咳き込みながらも生きて脱出できるよう、間一髪で石を取り除きました。",
+          "複雑な計画を立てる時間はありませんでした。扉を塞いでいたブロックを力ずくで持ち上げました。空気は薄かったですが、救助に十分な隙間を空けることができました。",
+          "中からの絶望的な叫びを聞き、自分の肉体の限界を超えて力を振り絞りました。柱の破片を動かすたびに、生存者たちの安堵の吐息が漏れました。"
+        ]
+      }
     },
-"default": {
-      "pt": [
-        "Foi uma corrida contra o tempo. Meus músculos gritaram sob o peso do mármore sagrado, mas consegui remover as pedras a tempo de os fiéis saírem, tossindo mas vivos.",
-        "Não houve tempo para planos complexos. Usei minha força para erguer os blocos que selavam a porta. O ar estava pesado, mas consegui abrir uma brecha larga o suficiente para o resgate.",
-        "Sob os gritos desesperados vindos de dentro, superei meus próprios limites físicos. Cada pedaço de pilar movido era um suspiro de alívio dos sobreviventes."
-      ],
-      "en": [
-        "It was a race against time. My muscles screamed under the weight of the sacred marble, but I managed to remove the stones in time for the worshippers to get out, coughing but alive.",
-        "There was no time for complex plans. I used my strength to lift the blocks sealing the door. The air was thick, but I managed to clear a gap wide enough for the rescue.",
-        "Hearing the desperate cries from within, I pushed past my own physical limits. Every piece of the pillar moved brought a sigh of relief from the survivors."
-      ],
-      "es": [
-        "Fue una carrera contra el tiempo. Mis músculos gritaron bajo el peso del mármol sagrado, pero logré remover las piedras a tiempo para que los fieles salieran, tosiendo pero vivos.",
-        "No hubo tiempo para planes complejos. Usé mi fuerza para levantar los bloques que sellaban la puerta. El aire era pesado, pero logré abrir una brecha lo suficientemente ancha para el rescate.",
-        "Bajo los gritos desesperados que venían del interior, superé mis propios límites físicos. Cada trozo de pilar movido era un suspiro de alivio de los supervivientes."
-      ],
-      "ru": [
-        "Это была гонка на время. Мои мышцы стонали под весом священного мрамора, но я успела убрать камни вовремя, чтобы верующие вышли наружу — кашляя, но живыми.",
-        "Времени на сложные планы не было. Я использовала свою силу, чтобы поднять блоки, закрывающие дверь. Воздух был тяжелым, но мне удалось пробить брешь, достаточную для спасения.",
-        "Слыша отчаянные крики изнутри, я превзошла пределы своих физических возможностей. Каждый сдвинутый кусок столпа приносил облегчение выжившим."
-      ],
-      "zh": [
-        "这是一场与时间的赛跑。我的肌肉在神圣大理石的重压下嘶吼，但我还是及时移开了石块，让信徒们得以及时撤离，他们虽在咳嗽，但还活着。",
-        "没有时间制定复杂的计划。我用力量举起了封死大门的石块。空气很浑浊，但我成功清理出了一个足够救援的缺口。",
-        "听着里面传来的绝望哭喊，我突破了自己的体力极限。每移开一块柱子残骸，都换来幸存者们的一声宽慰。"
-      ],
-      "ja": [
-        "時間との戦いでした。聖なる大理石の重みに筋肉が悲鳴を上げましたが、信者たちが咳き込みながらも生きて脱出できるよう、間一髪で石を取り除きました。",
-        "複雑な計画を立てる時間はありませんでした。扉を塞いでいたブロックを力ずくで持ち上げました。空気は薄かったですが、救助に十分な隙間を空けることができました。",
-        "中からの絶望的な叫びを聞き、自分の肉体の限界を超えて力を振り絞りました。柱の破片を動かすたびに、生存者たちの安堵の吐息が漏れました。"
-      ]
-    }
-  },
-"failure": {
-    "default": {
-      "pt": [
-        "O mármore era denso demais e meus esforços causaram uma vibração que soterrou ainda mais a entrada. Quando o resgate finalmente chegou, o silêncio lá dentro era absoluto.",
-        "Não consegui mover o pilar central sem comprometer o resto do teto. O tempo esgotou e o ar se tornou insuficiente antes que eu pudesse fazer qualquer progresso real.",
-        "Tentei forçar a passagem de forma imprudente. O teto cedeu parcialmente, bloqueando o acesso de forma permanente e selando o destino de quem estava lá dentro."
-      ],
-      "en": [
-        "The marble was too dense, and my efforts caused vibrations that buried the entrance even further. When help finally arrived, the silence from within was absolute.",
-        "I couldn't move the central pillar without compromising the rest of the ceiling. Time ran out and the air became insufficient before I could make any real progress.",
-        "I tried to force the passage recklessly. The ceiling partially caved in, permanently blocking access and sealing the fate of those inside."
-      ],
-      "es": [
-        "El mármol era demasiado denso y mis esfuerzos causaron una vibración que enterró aún más la entrada. Cuando finalmente llegó el rescate, el silencio en el interior era absoluto.",
-        "No logré mover el pilar central sin comprometer el resto del techo. El tiempo se agotó y el aire fue insuficiente antes de que pudiera hacer cualquier progreso real.",
-        "Intenté forzar el paso de forma imprudente. El techo cedió parcialmente, bloqueando el acceso de forma permanente y sellando el destino de quienes estaban dentro."
-      ],
-      "ru": [
-        "Мрамор был слишком плотным, и мои усилия вызвали вибрацию, которая еще больше завалила вход. Когда помощь наконец прибыла, внутри воцарилась абсолютная тишина.",
-        "Я не смогла сдвинуть центральный столп, не повредив остальную часть потолка. Время вышло, и воздух закончился раньше, чем я достигла какого-либо прогресса.",
-        "Я попыталась пробиться неосторожно. Потолок частично обвалился, навсегда заблокировав доступ и решив судьбу тех, кто был внутри."
-      ],
-      "zh": [
-        "大理石过于致密，我的努力引起的震动反而进一步埋没了入口。当救援最终到达时，里面已陷入死寂。",
-        "我在不破坏天花板其余部分的情况下无法移动中央支柱。在我取得实质性进展之前，时间已耗尽，空气变得不足。",
-        "我草率地试图强行打开通路。天花板部分塌陷，永久封死了入口，也决定了里面人的命运。"
-      ],
-      "ja": [
-        "大理石はあまりに重厚で、私の試みはさらに入口を埋め戻すような振動を引き起こしてしまいました。救助が到着したとき、中からの音は絶えていました。",
-        "天井の他の部分を崩さずに中央柱を動かすことができませんでした。実質的な進展を得る前に時間が尽き、空気が足りなくなってしまいました。",
-        "無謀に道を開けようとしてしまいました。天井が部分的に崩落し、アクセスが永久に遮断され、中にいた人々の運命を決定づけてしまいました。"
-      ]
+    "failure": {
+      "default": {
+        "pt": [
+          "O mármore era denso demais e meus esforços causaram uma vibração que soterrou ainda mais a entrada. Quando o resgate finalmente chegou, o silêncio lá dentro era absoluto.",
+          "Não consegui mover o pilar central sem comprometer o resto do teto. O tempo esgotou e o ar se tornou insuficiente antes que eu pudesse fazer qualquer progresso real.",
+          "Tentei forçar a passagem de forma imprudente. O teto cedeu parcialmente, bloqueando o acesso de forma permanente e selando o destino de quem estava lá dentro."
+        ],
+        "en": [
+          "The marble was too dense, and my efforts caused vibrations that buried the entrance even further. When help finally arrived, the silence from within was absolute.",
+          "I couldn't move the central pillar without compromising the rest of the ceiling. Time ran out and the air became insufficient before I could make any real progress.",
+          "I tried to force the passage recklessly. The ceiling partially caved in, permanently blocking access and sealing the fate of those inside."
+        ],
+        "es": [
+          "El mármol era demasiado denso y mis esfuerzos causaron una vibración que enterró aún más la entrada. Cuando finalmente llegó el rescate, el silencio en el interior era absoluto.",
+          "No logré mover el pilar central sin comprometer el resto del techo. El tiempo se agotó y el aire fue insuficiente antes de que pudiera hacer cualquier progreso real.",
+          "Intenté forzar el paso de forma imprudente. El techo cedió parcialmente, bloqueando el acceso de forma permanente y sellando el destino de quienes estaban dentro."
+        ],
+        "ru": [
+          "Мрамор был слишком плотным, и мои усилия вызвали вибрацию, которая еще больше завалила вход. Когда помощь наконец прибыла, внутри воцарилась абсолютная тишина.",
+          "Я не смогла сдвинуть центральный столп, не повредив остальную часть потолка. Время вышло, и воздух закончился раньше, чем я достигла какого-либо прогресса.",
+          "Я попыталась пробиться неосторожно. Потолок частично обвалился, навсегда заблокировав доступ и решив судьбу тех, кто был внутри."
+        ],
+        "zh": [
+          "大理石过于致密，我的努力引起的震动反而进一步埋没了入口。当救援最终到达时，里面已陷入死寂。",
+          "我在不破坏天花板其余部分的情况下无法移动中央支柱。在我取得实质性进展之前，时间已耗尽，空气变得不足。",
+          "我草率地试图强行打开通路。天花板部分塌陷，永久封死了入口，也决定了里面人的命运。"
+        ],
+        "ja": [
+          "大理石はあまりに重厚で、私の試みはさらに入口を埋め戻すような振動を引き起こしてしまいました。救助が到着したとき、中からの音は絶えていました。",
+          "天井の他の部分を崩さずに中央柱を動かすことができませんでした。実質的な進展を得る前に時間が尽き、空気が足りなくなってしまいました。",
+          "無謀に道を開けようとしてしまいました。天井が部分的に崩落し、アクセスが永久に遮断され、中にいた人々の運命を決定づけてしまいました。"
+        ]
+      }
     }
   }
-}
 }

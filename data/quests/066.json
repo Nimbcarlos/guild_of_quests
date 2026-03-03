@@ -24,9 +24,9 @@
   "expired_at": 3,
   "available_from_turn": 19,
   "duration": 3,
-  "difficulty": 2.6,
+  "difficulty": 1.5,
   "rewards": {
-    "xp": 100
+    "xp": 50
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -51,106 +51,106 @@
       "ja": "使用人"
     }
   },
-"conclusion": {
-  "success": {
-    "cure": {
-      "pt": [
-        "Administrei tratamento emergencial aos servos ainda conscientes na mansão de Cassimir Dorneval, estabilizando sinais vitais.",
-        "Induzi vômito controlado e reduzi a febre antes que o veneno alcançasse falência sistêmica.",
-        "Estabeleci triagem imediata no salão do banquete e priorizei os casos mais críticos."
-      ],
-      "en": [
-        "I administered emergency care to the conscious servants in Cassimir Dorneval’s mansion, stabilizing vital signs.",
-        "I induced controlled purging and reduced fever before systemic failure.",
-        "I set up immediate triage in the feast hall and prioritized critical cases."
-      ],
-      "es": [
-        "Administré atención de emergencia a los sirvientes en la mansión, estabilizando signos vitales.",
-        "Induje purga controlada y reduje la fiebre antes del colapso sistémico.",
-        "Organicé triaje inmediato en el salón del banquete."
-      ],
-      "ru": [
-        "Я оказал экстренную помощь слугам в особняке, стабилизировав показатели.",
-        "Вызвал контролируемое очищение и снизил жар до системного отказа.",
-        "Организовал немедленную сортировку в зале банкета."
-      ],
-      "zh": [
-        "我在宅邸内对仆人实施紧急治疗，稳定生命体征。",
-        "我进行控制性排毒并在系统衰竭前降温。",
-        "我在宴会厅立即分诊并优先处理重症。"
-      ],
-      "ja": [
-        "邸宅内で使用人に緊急処置を施し、生命兆候を安定させました。",
-        "制御下の排出処置と解熱を行いました。",
-        "宴会場で即時トリアージを実施しました。"
-      ]
+  "conclusion": {
+    "success": {
+      "cure": {
+        "pt": [
+          "Administrei tratamento emergencial aos servos ainda conscientes na mansão de Cassimir Dorneval, estabilizando sinais vitais.",
+          "Induzi vômito controlado e reduzi a febre antes que o veneno alcançasse falência sistêmica.",
+          "Estabeleci triagem imediata no salão do banquete e priorizei os casos mais críticos."
+        ],
+        "en": [
+          "I administered emergency care to the conscious servants in Cassimir Dorneval’s mansion, stabilizing vital signs.",
+          "I induced controlled purging and reduced fever before systemic failure.",
+          "I set up immediate triage in the feast hall and prioritized critical cases."
+        ],
+        "es": [
+          "Administré atención de emergencia a los sirvientes en la mansión, estabilizando signos vitales.",
+          "Induje purga controlada y reduje la fiebre antes del colapso sistémico.",
+          "Organicé triaje inmediato en el salón del banquete."
+        ],
+        "ru": [
+          "Я оказал экстренную помощь слугам в особняке, стабилизировав показатели.",
+          "Вызвал контролируемое очищение и снизил жар до системного отказа.",
+          "Организовал немедленную сортировку в зале банкета."
+        ],
+        "zh": [
+          "我在宅邸内对仆人实施紧急治疗，稳定生命体征。",
+          "我进行控制性排毒并在系统衰竭前降温。",
+          "我在宴会厅立即分诊并优先处理重症。"
+        ],
+        "ja": [
+          "邸宅内で使用人に緊急処置を施し、生命兆候を安定させました。",
+          "制御下の排出処置と解熱を行いました。",
+          "宴会場で即時トリアージを実施しました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Sintetizei antídoto concentrado no próprio salão e neutralizei o veneno mais rápido que o composto comum.",
+          "Identifiquei o agente tóxico nas taças e preparei contrarreação imediata.",
+          "Reformulei o antídoto padrão para absorção acelerada e distribuí aos vinte servos."
+        ],
+        "en": [
+          "I synthesized a concentrated antidote in the hall, neutralizing the poison faster than the standard compound.",
+          "I identified the toxin in the goblets and prepared an immediate counterreaction.",
+          "I reformulated the common antidote for rapid absorption and administered it to the twenty servants."
+        ],
+        "es": [
+          "Sinteticé un antídoto concentrado en el salón y neutralicé el veneno con mayor rapidez.",
+          "Identifiqué la toxina en las copas y preparé una contrarreacción inmediata.",
+          "Reformulé el antídoto para absorción acelerada y lo distribuí."
+        ],
+        "ru": [
+          "Я синтезировал концентрированный антидот прямо в зале и быстрее нейтрализовал яд.",
+          "Выявил токсин в кубках и подготовил немедленную реакцию.",
+          "Модифицировал противоядие для быстрого усвоения и ввёл слугам."
+        ],
+        "zh": [
+          "我在宴会厅内合成高浓度解药并迅速中和毒素。",
+          "我识别酒杯中的毒素并立即制备反应剂。",
+          "我改良解药以加速吸收并分发给二十名仆人。"
+        ],
+        "ja": [
+          "宴会場で高濃度の解毒剤を合成し、毒を迅速に中和しました。",
+          "杯中の毒素を特定し、即座に対抗反応を準備しました。",
+          "吸収を早めた処方を二十人に投与しました。"
+        ]
+      }
     },
-    "default": {
-      "pt": [
-        "Sintetizei antídoto concentrado no próprio salão e neutralizei o veneno mais rápido que o composto comum.",
-        "Identifiquei o agente tóxico nas taças e preparei contrarreação imediata.",
-        "Reformulei o antídoto padrão para absorção acelerada e distribuí aos vinte servos."
-      ],
-      "en": [
-        "I synthesized a concentrated antidote in the hall, neutralizing the poison faster than the standard compound.",
-        "I identified the toxin in the goblets and prepared an immediate counterreaction.",
-        "I reformulated the common antidote for rapid absorption and administered it to the twenty servants."
-      ],
-      "es": [
-        "Sinteticé un antídoto concentrado en el salón y neutralicé el veneno con mayor rapidez.",
-        "Identifiqué la toxina en las copas y preparé una contrarreacción inmediata.",
-        "Reformulé el antídoto para absorción acelerada y lo distribuí."
-      ],
-      "ru": [
-        "Я синтезировал концентрированный антидот прямо в зале и быстрее нейтрализовал яд.",
-        "Выявил токсин в кубках и подготовил немедленную реакцию.",
-        "Модифицировал противоядие для быстрого усвоения и ввёл слугам."
-      ],
-      "zh": [
-        "我在宴会厅内合成高浓度解药并迅速中和毒素。",
-        "我识别酒杯中的毒素并立即制备反应剂。",
-        "我改良解药以加速吸收并分发给二十名仆人。"
-      ],
-      "ja": [
-        "宴会場で高濃度の解毒剤を合成し、毒を迅速に中和しました。",
-        "杯中の毒素を特定し、即座に対抗反応を準備しました。",
-        "吸収を早めた処方を二十人に投与しました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "O veneno agiu mais rápido que a intervenção na mansão.",
-        "O antídoto comum não reagiu a tempo para os vinte servos.",
-        "A origem do tóxico no banquete não foi identificada antes do colapso."
-      ],
-      "en": [
-        "The poison acted faster than intervention at the mansion.",
-        "The standard antidote failed to react in time for the twenty servants.",
-        "The toxin’s source at the feast was not identified before collapse."
-      ],
-      "es": [
-        "El veneno actuó más rápido que la intervención.",
-        "El antídoto común no reaccionó a tiempo.",
-        "La fuente del tóxico no fue identificada antes del colapso."
-      ],
-      "ru": [
-        "Яд подействовал быстрее вмешательства.",
-        "Обычный антидот не успел среагировать.",
-        "Источник токсина не был выявлен вовремя."
-      ],
-      "zh": [
-        "毒素作用快于干预速度。",
-        "常规解药未能及时生效。",
-        "未能及时确定毒源。"
-      ],
-      "ja": [
-        "毒の進行が介入より速かった。",
-        "通常の解毒剤は間に合わなかった。",
-        "毒の発生源を特定できなかった。"
-      ]
+    "failure": {
+      "default": {
+        "pt": [
+          "O veneno agiu mais rápido que a intervenção na mansão.",
+          "O antídoto comum não reagiu a tempo para os vinte servos.",
+          "A origem do tóxico no banquete não foi identificada antes do colapso."
+        ],
+        "en": [
+          "The poison acted faster than intervention at the mansion.",
+          "The standard antidote failed to react in time for the twenty servants.",
+          "The toxin’s source at the feast was not identified before collapse."
+        ],
+        "es": [
+          "El veneno actuó más rápido que la intervención.",
+          "El antídoto común no reaccionó a tiempo.",
+          "La fuente del tóxico no fue identificada antes del colapso."
+        ],
+        "ru": [
+          "Яд подействовал быстрее вмешательства.",
+          "Обычный антидот не успел среагировать.",
+          "Источник токсина не был выявлен вовремя."
+        ],
+        "zh": [
+          "毒素作用快于干预速度。",
+          "常规解药未能及时生效。",
+          "未能及时确定毒源。"
+        ],
+        "ja": [
+          "毒の進行が介入より速かった。",
+          "通常の解毒剤は間に合わなかった。",
+          "毒の発生源を特定できなかった。"
+        ]
+      }
     }
   }
-}
 }

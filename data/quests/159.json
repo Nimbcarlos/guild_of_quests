@@ -21,9 +21,9 @@
   "expired_at": 2,
   "available_from_turn": 77,
   "duration": 3,
-  "difficulty": 6,
+  "difficulty": 4.0,
   "rewards": {
-    "xp": 50
+    "xp": 210
   },
   "required_quests": [],
   "forbidden_quests": [],

@@ -21,9 +21,9 @@
   "expired_at": 5,
   "available_from_turn": 133,
   "duration": 3,
-  "difficulty": 2.3,
+  "difficulty": 3.5,
   "rewards": {
-    "xp": 95
+    "xp": 85
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -48,74 +48,74 @@
       "ja": "扉"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Abri as doze portas da câmara do tesouro dentro do intervalo de cinco minutos cada, sem acionar o reinício.",
-        "Adaptei a técnica a cada fechadura e mantive a sequência cronometrada intacta.",
-        "Concluí a décima segunda porta antes do limite, preservando o ciclo completo."
-      ],
-      "en": [
-        "I opened all twelve doors of the treasure chamber within the five-minute limit each, without triggering a reset.",
-        "I adapted technique to each lock and maintained the timed sequence.",
-        "I completed the twelfth door before the limit, preserving the full cycle."
-      ],
-      "es": [
-        "Abrí las doce puertas dentro del límite de cinco minutos cada una, sin reiniciar el sistema.",
-        "Adapté la técnica a cada cerradura y mantuve la secuencia cronometrada.",
-        "Completé la duodécima puerta antes del límite."
-      ],
-      "ru": [
-        "Я открыл все двенадцать дверей в пределах пяти минут на каждую, без перезапуска.",
-        "Адаптировал метод к каждому замку, сохранив последовательность.",
-        "Завершил двенадцатую дверь до истечения лимита."
-      ],
-      "zh": [
-        "我在每道门五分钟内开启了十二道门，未触发重置。",
-        "我针对不同锁型调整技术并保持顺序。",
-        "在时限内完成第十二道门。"
-      ],
-      "ja": [
-        "十二の扉を各五分以内に開錠し、リセットを回避しました。",
-        "錠前ごとに手法を変え、順序を維持しました。",
-        "制限時間内に十二番目の扉を突破しました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "Excedi cinco minutos em uma das portas e o sistema reiniciou.",
-        "A décima porta travou e reiniciou a sequência completa.",
-        "Uma fechadura resistiu além do limite e as doze portas retornaram ao início."
-      ],
-      "en": [
-        "I exceeded five minutes on one door and the system reset.",
-        "The tenth door stalled and restarted the full sequence.",
-        "A lock resisted past the limit and all twelve doors reset."
-      ],
-      "es": [
-        "Superé cinco minutos en una puerta y el sistema se reinició.",
-        "La décima puerta bloqueó y reinició la secuencia.",
-        "Una cerradura superó el límite y todo volvió al inicio."
-      ],
-      "ru": [
-        "Я превысил лимит на одной двери, и система перезапустилась.",
-        "Десятая дверь задержала процесс и сбросила последовательность.",
-        "Замок превысил лимит, и всё началось заново."
-      ],
-      "zh": [
-        "其中一道门超过五分钟，系统重置。",
-        "第十道门延误导致整个顺序重启。",
-        "某把锁超时，十二道门全部复位。"
-      ],
-      "ja": [
-        "一つの扉で五分を超え、全体がリセットされました。",
-        "十番目の扉で遅延し、順序が初期化されました。",
-        "制限超過で十二の扉が最初に戻りました。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Abri as doze portas da câmara do tesouro dentro do intervalo de cinco minutos cada, sem acionar o reinício.",
+          "Adaptei a técnica a cada fechadura e mantive a sequência cronometrada intacta.",
+          "Concluí a décima segunda porta antes do limite, preservando o ciclo completo."
+        ],
+        "en": [
+          "I opened all twelve doors of the treasure chamber within the five-minute limit each, without triggering a reset.",
+          "I adapted technique to each lock and maintained the timed sequence.",
+          "I completed the twelfth door before the limit, preserving the full cycle."
+        ],
+        "es": [
+          "Abrí las doce puertas dentro del límite de cinco minutos cada una, sin reiniciar el sistema.",
+          "Adapté la técnica a cada cerradura y mantuve la secuencia cronometrada.",
+          "Completé la duodécima puerta antes del límite."
+        ],
+        "ru": [
+          "Я открыл все двенадцать дверей в пределах пяти минут на каждую, без перезапуска.",
+          "Адаптировал метод к каждому замку, сохранив последовательность.",
+          "Завершил двенадцатую дверь до истечения лимита."
+        ],
+        "zh": [
+          "我在每道门五分钟内开启了十二道门，未触发重置。",
+          "我针对不同锁型调整技术并保持顺序。",
+          "在时限内完成第十二道门。"
+        ],
+        "ja": [
+          "十二の扉を各五分以内に開錠し、リセットを回避しました。",
+          "錠前ごとに手法を変え、順序を維持しました。",
+          "制限時間内に十二番目の扉を突破しました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Excedi cinco minutos em uma das portas e o sistema reiniciou.",
+          "A décima porta travou e reiniciou a sequência completa.",
+          "Uma fechadura resistiu além do limite e as doze portas retornaram ao início."
+        ],
+        "en": [
+          "I exceeded five minutes on one door and the system reset.",
+          "The tenth door stalled and restarted the full sequence.",
+          "A lock resisted past the limit and all twelve doors reset."
+        ],
+        "es": [
+          "Superé cinco minutos en una puerta y el sistema se reinició.",
+          "La décima puerta bloqueó y reinició la secuencia.",
+          "Una cerradura superó el límite y todo volvió al inicio."
+        ],
+        "ru": [
+          "Я превысил лимит на одной двери, и система перезапустилась.",
+          "Десятая дверь задержала процесс и сбросила последовательность.",
+          "Замок превысил лимит, и всё началось заново."
+        ],
+        "zh": [
+          "其中一道门超过五分钟，系统重置。",
+          "第十道门延误导致整个顺序重启。",
+          "某把锁超时，十二道门全部复位。"
+        ],
+        "ja": [
+          "一つの扉で五分を超え、全体がリセットされました。",
+          "十番目の扉で遅延し、順序が初期化されました。",
+          "制限超過で十二の扉が最初に戻りました。"
+        ]
+      }
     }
   }
-}
 }

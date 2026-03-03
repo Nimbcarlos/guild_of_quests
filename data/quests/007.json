@@ -24,9 +24,9 @@
   "expired_at": 4,
   "available_from_turn": 27,
   "duration": 3,
-  "difficulty": 1.5,
+  "difficulty": 2.0,
   "rewards": {
-    "xp": 50
+    "xp": 60
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -52,73 +52,73 @@
     }
   },
   "conclusion": {
-  "success": {
-    "engineering": {
-      "pt": [
-        "Tratei o portal como um circuito complexo. Substituí os cristais ressonantes desgastados por novos condutores, e o mecanismo voltou a operar em plena capacidade.",
-        "A base do portal estava desalinhada, causando a instabilidade. Calibrei os anéis giratórios e fixei a estrutura, permitindo que a magia fluísse sem obstruções.",
-        "Remontei o painel de controle das runas usando ferramentas de precisão. O sistema agora responde aos comandos de forma estável e eficiente."
-      ],
-      "en": [
-        "I treated the portal as a complex circuit. I replaced the worn resonant crystals with new conductors, and the mechanism returned to full capacity.",
-        "The portal's base was misaligned, causing the instability. I calibrated the rotating rings and secured the structure, allowing the magic to flow without obstruction.",
-        "I reassembled the rune control panel using precision tools. The system now responds to commands in a stable and efficient manner."
-      ],
-      "es": [
-        "Traté el portal como un circuito complejo. Reemplacé los cristales resonantes gastados por nuevos conductores, y el mecanismo volvió a operar a su capacidad máxima.",
-        "La base del portal estaba desalineada, causando la inestabilidad. Calibré los anillos giratorios y aseguré la estructura, permitiendo que la magia fluyera sin obstrucciones.",
-        "Reensamblé el panel de control de las runas usando herramientas de precisión. El sistema ahora responde a los comandos de forma estable y eficiente."
-      ],
-      "ru": [
-        "Я отнеслась к порталу как к сложной схеме. Заменив изношенные резонирующие кристаллы новыми проводниками, я вернула механизм в рабочее состояние.",
-        "Основание портала было смещено, что вызывало нестабильность. Я откалибровала вращающиеся кольца и закрепила структуру, позволив магии течь беспрепятственно.",
-        "Я заново собрала панель управления рунами, используя точные инструменты. Теперь система стабильно и эффективно реагирует на команды."
-      ],
-      "zh": [
-        "我将传送门视为一个复杂的电路。我用新的导体更换了磨损的共振水晶，机械装置恢复了满负荷运行。",
-        "传送门的基座偏移导致了不稳定。我校准了转环并加固了结构，让魔法流能够畅通无阻。",
-        "我使用精密工具重新组装了符文控制面板。现在系统能够稳定高效地响应指令。"
-      ],
-      "ja": [
-        "ポータルを複雑な回路として扱いました。摩耗した共鳴クリスタルを新しい導体に交換したことで、仕掛けはフル稼働状態に戻りました。",
-        "ポータルの土台がずれていたことが不安定の原因でした。回転リングを調整し、構造を固定したことで、魔法が滞りなく流れるようになりました。",
-        "精密機器を使用してルーンの制御パネルを再組み立てしました。システムは現在、安定かつ効率的にコマンドに反応しています。"
-      ]
+    "success": {
+      "engineering": {
+        "pt": [
+          "Tratei o portal como um circuito complexo. Substituí os cristais ressonantes desgastados por novos condutores, e o mecanismo voltou a operar em plena capacidade.",
+          "A base do portal estava desalinhada, causando a instabilidade. Calibrei os anéis giratórios e fixei a estrutura, permitindo que a magia fluísse sem obstruções.",
+          "Remontei o painel de controle das runas usando ferramentas de precisão. O sistema agora responde aos comandos de forma estável e eficiente."
+        ],
+        "en": [
+          "I treated the portal as a complex circuit. I replaced the worn resonant crystals with new conductors, and the mechanism returned to full capacity.",
+          "The portal's base was misaligned, causing the instability. I calibrated the rotating rings and secured the structure, allowing the magic to flow without obstruction.",
+          "I reassembled the rune control panel using precision tools. The system now responds to commands in a stable and efficient manner."
+        ],
+        "es": [
+          "Traté el portal como un circuito complejo. Reemplacé los cristales resonantes gastados por nuevos conductores, y el mecanismo volvió a operar a su capacidad máxima.",
+          "La base del portal estaba desalineada, causando la inestabilidad. Calibré los anillos giratorios y aseguré la estructura, permitiendo que la magia fluyera sin obstrucciones.",
+          "Reensamblé el panel de control de las runas usando herramientas de precisión. El sistema ahora responde a los comandos de forma estable y eficiente."
+        ],
+        "ru": [
+          "Я отнеслась к порталу как к сложной схеме. Заменив изношенные резонирующие кристаллы новыми проводниками, я вернула механизм в рабочее состояние.",
+          "Основание портала было смещено, что вызывало нестабильность. Я откалибровала вращающиеся кольца и закрепила структуру, позволив магии течь беспрепятственно.",
+          "Я заново собрала панель управления рунами, используя точные инструменты. Теперь система стабильно и эффективно реагирует на команды."
+        ],
+        "zh": [
+          "我将传送门视为一个复杂的电路。我用新的导体更换了磨损的共振水晶，机械装置恢复了满负荷运行。",
+          "传送门的基座偏移导致了不稳定。我校准了转环并加固了结构，让魔法流能够畅通无阻。",
+          "我使用精密工具重新组装了符文控制面板。现在系统能够稳定高效地响应指令。"
+        ],
+        "ja": [
+          "ポータルを複雑な回路として扱いました。摩耗した共鳴クリスタルを新しい導体に交換したことで、仕掛けはフル稼働状態に戻りました。",
+          "ポータルの土台がずれていたことが不安定の原因でした。回転リングを調整し、構造を固定したことで、魔法が滞りなく流れるようになりました。",
+          "精密機器を使用してルーンの制御パネルを再組み立てしました。システムは現在、安定かつ効率的にコマンドに反応しています。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Injetei mana nas runas apagadas, reconstruindo o fluxo de energia. O portal estabilizou com um brilho suave e a conexão com o destino foi restaurada com sucesso.",
+          "Decifrei a sintaxe mágica antiga dos Eldenreach. Após realinhar os focos de energia, o portal parou de oscilar e agora está pronto para uso seguro.",
+          "As runas estavam em um loop destrutivo. Consegui dissipar o excesso de energia e reescrever os selos de contenção, garantindo que o teleporte funcione sem riscos."
+        ],
+        "en": [
+          "I injected mana into the faded runes, rebuilding the energy flow. The portal stabilized with a soft glow, and the connection to the destination was successfully restored.",
+          "I deciphered the ancient magical syntax of Eldenreach. After realigning the energy focuses, the portal stopped oscillating and is now ready for safe use.",
+          "The runes were in a destructive loop. I managed to dissipate the excess energy and rewrite the containment seals, ensuring the teleport works without risk."
+        ],
+        "es": [
+          "Inyecté maná en las runas desvanecidas, reconstruyendo el flujo de energía. El portal se estabilizó con un brillo suave y la conexión con el destino se restauró con éxito.",
+          "Descifré la sintaxis mágica antigua de Eldenreach. Tras realinear los focos de energía, el portal dejó de oscilar y ahora está listo para un uso seguro.",
+          "Las runas estaban en un bucle destructivo. Logré disipar el exceso de energía y reescribir los sellos de contención, asegurando que el teletransporte funcione sin riesgos."
+        ],
+        "ru": [
+          "Я влила ману в стертые руны, восстановив поток энергии. Портал стабилизировался с мягким свечением, и связь с пунктом назначения была успешно восстановлена.",
+          "Я расшифровала древний магический синтаксис Элденрича. После перенастройки энергетических фокусов портал перестал вибрировать и теперь готов к безопасному использованию.",
+          "Руны находились в деструктивной петле. Мне удалось рассеять избыточную энергию и переписать сдерживающие печати, гарантируя работу телепорта без риска."
+        ],
+        "zh": [
+          "我向褪色的符文注入法力，重建了能量流。传送门发出柔和的光芒并趋于稳定，与目的地的连接已成功恢复。",
+          "我解读了埃尔登里奇古老的魔法语法。在重新对齐能量焦点后，传送门停止了震荡，现在可以安全使用了。",
+          "符文处于破坏性的循环中。我成功耗散了多余的能量并重写了封印，确保传送门在无风险的情况下工作。"
+        ],
+        "ja": [
+          "薄れたルーンにマナを注入し、エネルギーの流れを再構築しました。ポータルは穏やかな輝きとともに安定し、目的地との接続が正常に復元されました。",
+          "エルデンリーチの古代魔法の構文を解読しました。エネルギーの焦点を調整したことで、ポータルの振動が収まり、安全に使用できるようになりました。",
+          "ルーンが破壊的なループに陥っていました。余剰エネルギーを散らし、封印を書き換えたことで、テレポートがリスクなく機能するようになりました。"
+        ]
+      }
     },
-    "default": {
-      "pt": [
-        "Injetei mana nas runas apagadas, reconstruindo o fluxo de energia. O portal estabilizou com um brilho suave e a conexão com o destino foi restaurada com sucesso.",
-        "Decifrei a sintaxe mágica antiga dos Eldenreach. Após realinhar os focos de energia, o portal parou de oscilar e agora está pronto para uso seguro.",
-        "As runas estavam em um loop destrutivo. Consegui dissipar o excesso de energia e reescrever os selos de contenção, garantindo que o teleporte funcione sem riscos."
-      ],
-      "en": [
-        "I injected mana into the faded runes, rebuilding the energy flow. The portal stabilized with a soft glow, and the connection to the destination was successfully restored.",
-        "I deciphered the ancient magical syntax of Eldenreach. After realigning the energy focuses, the portal stopped oscillating and is now ready for safe use.",
-        "The runes were in a destructive loop. I managed to dissipate the excess energy and rewrite the containment seals, ensuring the teleport works without risk."
-      ],
-      "es": [
-        "Inyecté maná en las runas desvanecidas, reconstruyendo el flujo de energía. El portal se estabilizó con un brillo suave y la conexión con el destino se restauró con éxito.",
-        "Descifré la sintaxis mágica antigua de Eldenreach. Tras realinear los focos de energía, el portal dejó de oscilar y ahora está listo para un uso seguro.",
-        "Las runas estaban en un bucle destructivo. Logré disipar el exceso de energía y reescribir los sellos de contención, asegurando que el teletransporte funcione sin riesgos."
-      ],
-      "ru": [
-        "Я влила ману в стертые руны, восстановив поток энергии. Портал стабилизировался с мягким свечением, и связь с пунктом назначения была успешно восстановлена.",
-        "Я расшифровала древний магический синтаксис Элденрича. После перенастройки энергетических фокусов портал перестал вибрировать и теперь готов к безопасному использованию.",
-        "Руны находились в деструктивной петле. Мне удалось рассеять избыточную энергию и переписать сдерживающие печати, гарантируя работу телепорта без риска."
-      ],
-      "zh": [
-        "我向褪色的符文注入法力，重建了能量流。传送门发出柔和的光芒并趋于稳定，与目的地的连接已成功恢复。",
-        "我解读了埃尔登里奇古老的魔法语法。在重新对齐能量焦点后，传送门停止了震荡，现在可以安全使用了。",
-        "符文处于破坏性的循环中。我成功耗散了多余的能量并重写了封印，确保传送门在无风险的情况下工作。"
-      ],
-      "ja": [
-        "薄れたルーンにマナを注入し、エネルギーの流れを再構築しました。ポータルは穏やかな輝きとともに安定し、目的地との接続が正常に復元されました。",
-        "エルデンリーチの古代魔法の構文を解読しました。エネルギーの焦点を調整したことで、ポータルの振動が収まり、安全に使用できるようになりました。",
-        "ルーンが破壊的なループに陥っていました。余剰エネルギーを散らし、封印を書き換えたことで、テレポートがリスクなく機能するようになりました。"
-      ]
-    }
-    },
-  "failure": {
+    "failure": {
       "default": {
         "pt": [
           "As runas entraram em colapso enquanto eu tentava decifrá-las. Uma explosão de energia nos lançou longe e o portal agora é apenas um monte de pedras inúteis.",
@@ -153,4 +153,4 @@
       }
     }
   }
-}    
+}

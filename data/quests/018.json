@@ -21,9 +21,9 @@
   "expired_at": 7,
   "available_from_turn": 23,
   "duration": 3,
-  "difficulty": 1.7,
+  "difficulty": 2.0,
   "rewards": {
-    "xp": 90
+    "xp": 60
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -48,74 +48,74 @@
       "ja": "議会のメンバー"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Negociei apoios de bastidores e neutralizei as campanhas dos candidatos hostis. O aliado da Guilda foi eleito para o conselho, garantindo influência política e proteção para nossas operações futuras.",
-        "Analisei as fraquezas dos oponentes e apresentei o candidato favorável como a única opção de estabilidade para a cidade. A sucessão foi concluída conforme nossos interesses.",
-        "Articulei uma coalizão entre os membros votantes. O novo conselheiro assumiu o cargo ciente de sua dívida com a Guilda, assegurando que novas leis não prejudiquem nossas atividades."
-      ],
-      "en": [
-        "I negotiated backstage support and neutralized the campaigns of hostile candidates. The Guild's ally was elected to the council, securing political influence and protection for our future operations.",
-        "I analyzed the opponents' weaknesses and presented the favorable candidate as the only stable option for the city. The succession was completed according to our interests.",
-        "I articulated a coalition among the voting members. The new councilor took office aware of their debt to the Guild, ensuring new laws do not harm our activities."
-      ],
-      "es": [
-        "Negocié apoyos entre bastidores y neutralicé las campañas de los candidatos hostiles. El aliado del gremio fue elegido, asegurando influencia política y protección para nuestras operaciones.",
-        "Analicé las debilidades de los oponentes y presenté al candidato favorable como la única opción estable. La sucesión concluyó según nuestros intereses.",
-        "Articulé una coalición entre los votantes. El nuevo consejero asumió el cargo consciente de su deuda con el gremio, asegurando que las nuevas leyes no nos perjudiquen."
-      ],
-      "ru": [
-        "Я договорилась о поддержке за кулисами и нейтрализовала кампании враждебных кандидатов. Союзник Гильдии был избран в совет, обеспечив нам политическое влияние.",
-        "Я проанализировала слабости оппонентов и представила лояльного кандидата как единственный вариант стабильности. Наследование завершилось в наших интересах.",
-        "Я сформировала коалицию среди голосующих членов. Новый советник вступил в должность, осознавая свой долг перед Гильдией."
-      ],
-      "zh": [
-        "我进行了幕后斡旋，瓦解了敌对候选人的竞选活动。公会的盟友当选议员，为我们未来的行动确保了政治影响力和保护。",
-        "我分析了对手的弱点，并将有利的候选人塑造为城市唯一的稳定选项。继任流程完全符合我们的利益。",
-        "我在投票成员中促成了联盟。新议员带着对公会的欠债就职，确保新法律不会损害我们的活动。"
-      ],
-      "ja": [
-        "舞台裏で支持を取り付け、敵対的な候補者のキャンペーンを無力化しました。ギルドの味方が評議会に選出され、将来の活動に向けた政治的影響力と保護を確保しました。",
-        "対立候補の弱点を分析し、有利な候補者を唯一の安定した選択肢として提示しました。継承は我々の利益通りに完了しました。",
-        "投票メンバー間で連立をまとめました。新しい評議員はギルドへの恩義を自覚した上で就任し、我々の活動を妨げる新法が制定されないよう確約しました。"
-      ]
-    }
-  },
-"failure": {
-    "default": {
-      "pt": [
-        "Minha intervenção falhou em convencer os membros indecisos. Um candidato abertamente hostil à Guilda assumiu o posto, o que resultará em maior fiscalização e entraves políticos.",
-        "A estratégia de persuasão foi ineficaz contra a oposição. A eleição de um rival político enfraqueceu nossa posição no conselho e coloca nossas recompensas futuras em risco.",
-        "Não consegui conter as manobras políticas dos adversários. O novo conselheiro pretende restringir as atividades da Guilda na cidade como sua primeira medida oficial."
-      ],
-      "en": [
-        "My intervention failed to convince the undecided members. A candidate openly hostile to the Guild took the position, which will result in increased oversight and political hurdles.",
-        "The persuasion strategy was ineffective against the opposition. The election of a political rival weakened our position on the council and puts our future rewards at risk.",
-        "I was unable to contain the adversaries' political maneuvers. The new councilor intends to restrict the Guild's activities in the city as their first official measure."
-      ],
-      "es": [
-        "Mi intervención no convenció a los miembros indecisos. Un candidato hostil al gremio asumió el cargo, lo que resultará en mayor vigilancia y obstáculos políticos.",
-        "La estrategia de persuasão fue ineficaz. La elección de un rival político debilitó nuestra posición en el consejo y pone en riesgo futuras recompensas.",
-        "No pude contener las maniobras políticas de los adversarios. El nuevo consejero pretende restringir nuestras actividades como su primera medida oficial."
-      ],
-      "ru": [
-        "Мое вмешательство не убедило сомневающихся. Место занял кандидат, открыто враждебный Гильдии, что приведет к усилению надзора и политическим барьерам.",
-        "Стратегия убеждения оказалась неэффективной. Избрание политического соперника ослабило наши позиции в совете.",
-        "Мне не удалось сдержать политические маневры противников. Новый советник намерен ограничить деятельность Гильдии в качестве своей первой меры."
-      ],
-      "zh": [
-        "我的干预未能说服犹豫不决的成员。一名对公会持有公开敌意的候选人就职，这将导致监管加强和政治障碍。",
-        "说服策略对反对派无效。政治对手的当选削弱了我们在议会中的地位，使未来的奖励面临风险。",
-        "我未能遏制对手的政治手段。新议员打算将限制公会在城内的活动作为其第一项正式措施。"
-      ],
-      "ja": [
-        "中立派のメンバーを説得することに失敗しました。ギルドに公然と敵対する候補者が就任し、監視の強化や政治的障害が予想されます。",
-        "説得戦略は反対勢力に対して効果がありませんでした。政敵の当選により評議会における我々の地位は弱まり、将来の報酬が危ぶまれています。",
-        "敵対者の政治工作を抑え込むことができませんでした。新しい評議員は、最初の公式な措置としてギルドの活動を制限する構えです。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Negociei apoios de bastidores e neutralizei as campanhas dos candidatos hostis. O aliado da Guilda foi eleito para o conselho, garantindo influência política e proteção para nossas operações futuras.",
+          "Analisei as fraquezas dos oponentes e apresentei o candidato favorável como a única opção de estabilidade para a cidade. A sucessão foi concluída conforme nossos interesses.",
+          "Articulei uma coalizão entre os membros votantes. O novo conselheiro assumiu o cargo ciente de sua dívida com a Guilda, assegurando que novas leis não prejudiquem nossas atividades."
+        ],
+        "en": [
+          "I negotiated backstage support and neutralized the campaigns of hostile candidates. The Guild's ally was elected to the council, securing political influence and protection for our future operations.",
+          "I analyzed the opponents' weaknesses and presented the favorable candidate as the only stable option for the city. The succession was completed according to our interests.",
+          "I articulated a coalition among the voting members. The new councilor took office aware of their debt to the Guild, ensuring new laws do not harm our activities."
+        ],
+        "es": [
+          "Negocié apoyos entre bastidores y neutralicé las campañas de los candidatos hostiles. El aliado del gremio fue elegido, asegurando influencia política y protección para nuestras operaciones.",
+          "Analicé las debilidades de los oponentes y presenté al candidato favorable como la única opción estable. La sucesión concluyó según nuestros intereses.",
+          "Articulé una coalición entre los votantes. El nuevo consejero asumió el cargo consciente de su deuda con el gremio, asegurando que las nuevas leyes no nos perjudiquen."
+        ],
+        "ru": [
+          "Я договорилась о поддержке за кулисами и нейтрализовала кампании враждебных кандидатов. Союзник Гильдии был избран в совет, обеспечив нам политическое влияние.",
+          "Я проанализировала слабости оппонентов и представила лояльного кандидата как единственный вариант стабильности. Наследование завершилось в наших интересах.",
+          "Я сформировала коалицию среди голосующих членов. Новый советник вступил в должность, осознавая свой долг перед Гильдией."
+        ],
+        "zh": [
+          "我进行了幕后斡旋，瓦解了敌对候选人的竞选活动。公会的盟友当选议员，为我们未来的行动确保了政治影响力和保护。",
+          "我分析了对手的弱点，并将有利的候选人塑造为城市唯一的稳定选项。继任流程完全符合我们的利益。",
+          "我在投票成员中促成了联盟。新议员带着对公会的欠债就职，确保新法律不会损害我们的活动。"
+        ],
+        "ja": [
+          "舞台裏で支持を取り付け、敵対的な候補者のキャンペーンを無力化しました。ギルドの味方が評議会に選出され、将来の活動に向けた政治的影響力と保護を確保しました。",
+          "対立候補の弱点を分析し、有利な候補者を唯一の安定した選択肢として提示しました。継承は我々の利益通りに完了しました。",
+          "投票メンバー間で連立をまとめました。新しい評議員はギルドへの恩義を自覚した上で就任し、我々の活動を妨げる新法が制定されないよう確約しました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Minha intervenção falhou em convencer os membros indecisos. Um candidato abertamente hostil à Guilda assumiu o posto, o que resultará em maior fiscalização e entraves políticos.",
+          "A estratégia de persuasão foi ineficaz contra a oposição. A eleição de um rival político enfraqueceu nossa posição no conselho e coloca nossas recompensas futuras em risco.",
+          "Não consegui conter as manobras políticas dos adversários. O novo conselheiro pretende restringir as atividades da Guilda na cidade como sua primeira medida oficial."
+        ],
+        "en": [
+          "My intervention failed to convince the undecided members. A candidate openly hostile to the Guild took the position, which will result in increased oversight and political hurdles.",
+          "The persuasion strategy was ineffective against the opposition. The election of a political rival weakened our position on the council and puts our future rewards at risk.",
+          "I was unable to contain the adversaries' political maneuvers. The new councilor intends to restrict the Guild's activities in the city as their first official measure."
+        ],
+        "es": [
+          "Mi intervención no convenció a los miembros indecisos. Un candidato hostil al gremio asumió el cargo, lo que resultará en mayor vigilancia y obstáculos políticos.",
+          "La estrategia de persuasão fue ineficaz. La elección de un rival político debilitó nuestra posición en el consejo y pone en riesgo futuras recompensas.",
+          "No pude contener las maniobras políticas de los adversarios. El nuevo consejero pretende restringir nuestras actividades como su primera medida oficial."
+        ],
+        "ru": [
+          "Мое вмешательство не убедило сомневающихся. Место занял кандидат, открыто враждебный Гильдии, что приведет к усилению надзора и политическим барьерам.",
+          "Стратегия убеждения оказалась неэффективной. Избрание политического соперника ослабило наши позиции в совете.",
+          "Мне не удалось сдержать политические маневры противников. Новый советник намерен ограничить деятельность Гильдии в качестве своей первой меры."
+        ],
+        "zh": [
+          "我的干预未能说服犹豫不决的成员。一名对公会持有公开敌意的候选人就职，这将导致监管加强和政治障碍。",
+          "说服策略对反对派无效。政治对手的当选削弱了我们在议会中的地位，使未来的奖励面临风险。",
+          "我未能遏制对手的政治手段。新议员打算将限制公会在城内的活动作为其第一项正式措施。"
+        ],
+        "ja": [
+          "中立派のメンバーを説得することに失敗しました。ギルドに公然と敵対する候補者が就任し、監視の強化や政治的障害が予想されます。",
+          "説得戦略は反対勢力に対して効果がありませんでした。政敵の当選により評議会における我々の地位は弱まり、将来の報酬が危ぶまれています。",
+          "敵対者の政治工作を抑え込むことができませんでした。新しい評議員は、最初の公式な措置としてギルドの活動を制限する構えです。"
+        ]
+      }
     }
   }
-}  
 }

@@ -24,7 +24,7 @@
   "expired_at": 4,
   "available_from_turn": 12,
   "duration": 3,
-  "difficulty": 1.5,
+  "difficulty": 1.0,
   "rewards": {
     "xp": 50
   },
@@ -51,73 +51,73 @@
       "ja": "罠"
     }
   },
-"conclusion": {
-  "success": {
-    "engineering": {
-      "pt": [
-        "Analisei o mecanismo das armadilhas; eram projetadas para não apenas capturar, mas infligir o máximo de agonia. Desativei os gatilhos e o druida agora pode cuidar do bosque.",
-        "As armadilhas tinham uma engenharia cruel e incomum. Consegui travar as molas sem disparar as lâminas, salvando o que restava da fauna local.",
-        "Desmontei os dispositivos peça por peça. O druida ficou aliviado ao ver que o metal não contaminará mais as raízes da floresta."
-      ],
-      "en": [
-        "I analyzed the mechanism of the traps; they were designed not just to capture, but to inflict maximum agony. I disabled the triggers, and the druid can now tend to the woods.",
-        "The traps had a cruel and unusual engineering. I managed to lock the springs without triggering the blades, saving what remained of the local fauna.",
-        "I dismantled the devices piece by piece. The druid was relieved to see that the metal will no longer contaminate the forest roots."
-      ],
-      "es": [
-        "Analicé el mecanismo de las trampas; estaban diseñadas no solo para capturar, sino para infligir el máximo de agonía. Desactivé los gatillos y el druida ahora puede cuidar el bosque.",
-        "Las trampas tenían una ingeniería cruel e inusual. Logré bloquear los resortes sin activar las cuchillas, salvando lo que quedaba de la fauna local.",
-        "Desmonté los dispositivos pieza por pieza. El druida se sintió aliviado al ver que el metal ya no contaminará las raíces del bosque."
-      ],
-      "ru": [
-        "Я проанализировала механизм ловушек; они были созданы не просто для поимки, а для причинения максимальных мучений. Я отключила спусковые механизмы, и теперь друид может позаботиться о лесе.",
-        "Ловушки отличались жестокой и необычной инженерией. Мне удалось заблокировать пружины, не задев лезвия, сохранив то, что осталось от местной фауны.",
-        "Я разобрала устройства деталь за деталью. Друид испытал облегчение, увидев, что металл больше не будет загрязнять корни леса."
-      ],
-      "zh": [
-        "我分析了陷阱的机制；它们的设计不仅是为了捕捉，更是为了施加最大的痛苦。我解除了触发器，德鲁伊现在可以照料树林了。",
-        "这些陷阱采用了残忍且罕见的工程设计。我设法锁住了弹簧而没有触发刀刃，挽救了当地剩下的动物。",
-        "我逐件拆解了这些装置。德鲁伊看到金属不再污染森林的根部，感到十分欣慰。"
-      ],
-      "ja": [
-        "罠の仕組みを分析しました。それらは単に捕らえるだけでなく、最大限の苦痛を与えるように設計されていました。トリガーを無効化したので、ドルイドはもう森の世話をすることができます。",
-        "その罠には、残酷で特異な工学技術が使われていました。刃を作動させることなくバネを固定することに成功し、地元の動物たちの生き残りを救いました。",
-        "装置を一つずつ分解しました。金属がもう森の根を汚染することはないと知り、ドルイドは安堵していました。"
-      ]
+  "conclusion": {
+    "success": {
+      "engineering": {
+        "pt": [
+          "Analisei o mecanismo das armadilhas; eram projetadas para não apenas capturar, mas infligir o máximo de agonia. Desativei os gatilhos e o druida agora pode cuidar do bosque.",
+          "As armadilhas tinham uma engenharia cruel e incomum. Consegui travar as molas sem disparar as lâminas, salvando o que restava da fauna local.",
+          "Desmontei os dispositivos peça por peça. O druida ficou aliviado ao ver que o metal não contaminará mais as raízes da floresta."
+        ],
+        "en": [
+          "I analyzed the mechanism of the traps; they were designed not just to capture, but to inflict maximum agony. I disabled the triggers, and the druid can now tend to the woods.",
+          "The traps had a cruel and unusual engineering. I managed to lock the springs without triggering the blades, saving what remained of the local fauna.",
+          "I dismantled the devices piece by piece. The druid was relieved to see that the metal will no longer contaminate the forest roots."
+        ],
+        "es": [
+          "Analicé el mecanismo de las trampas; estaban diseñadas no solo para capturar, sino para infligir el máximo de agonía. Desactivé los gatillos y el druida ahora puede cuidar el bosque.",
+          "Las trampas tenían una ingeniería cruel e inusual. Logré bloquear los resortes sin activar las cuchillas, salvando lo que quedaba de la fauna local.",
+          "Desmonté los dispositivos pieza por pieza. El druida se sintió aliviado al ver que el metal ya no contaminará las raíces del bosque."
+        ],
+        "ru": [
+          "Я проанализировала механизм ловушек; они были созданы не просто для поимки, а для причинения максимальных мучений. Я отключила спусковые механизмы, и теперь друид может позаботиться о лесе.",
+          "Ловушки отличались жестокой и необычной инженерией. Мне удалось заблокировать пружины, не задев лезвия, сохранив то, что осталось от местной фауны.",
+          "Я разобрала устройства деталь за деталью. Друид испытал облегчение, увидев, что металл больше не будет загрязнять корни леса."
+        ],
+        "zh": [
+          "我分析了陷阱的机制；它们的设计不仅是为了捕捉，更是为了施加最大的痛苦。我解除了触发器，德鲁伊现在可以照料树林了。",
+          "这些陷阱采用了残忍且罕见的工程设计。我设法锁住了弹簧而没有触发刀刃，挽救了当地剩下的动物。",
+          "我逐件拆解了这些装置。德鲁伊看到金属不再污染森林的根部，感到十分欣慰。"
+        ],
+        "ja": [
+          "罠の仕組みを分析しました。それらは単に捕らえるだけでなく、最大限の苦痛を与えるように設計されていました。トリガーを無効化したので、ドルイドはもう森の世話をすることができます。",
+          "その罠には、残酷で特異な工学技術が使われていました。刃を作動させることなくバネを固定することに成功し、地元の動物たちの生き残りを救いました。",
+          "装置を一つずつ分解しました。金属がもう森の根を汚染することはないと知り、ドルイドは安堵していました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Com mãos firmes, desarmei cada gatilho escondido sob as folhas. O bosque está silencioso novamente, e o druida agradeceu a precisão do meu trabalho.",
+          "Minhas ferramentas encontraram os pontos de falha das armadilhas. Removi as ameaças e deixei o local antes que o druida tentasse me envolver em mais preces.",
+          "Foi um trabalho de paciência. Cada armadilha retirada é uma vida salva, e uma sombra a menos no solo do bosque."
+        ],
+        "en": [
+          "With steady hands, I disarmed every trigger hidden under the leaves. The woods are silent again, and the druid thanked the precision of my work.",
+          "My tools found the failure points of the traps. I removed the threats and left the site before the druid could try to involve me in more prayers.",
+          "It was a job of patience. Every trap removed is a life saved, and one less shadow on the forest floor."
+        ],
+        "es": [
+          "Con manos firmes, desarmé cada gatillo oculto bajo las hojas. El bosque está en silencio otra vez, y el druida agradeció la precisión de mi trabajo.",
+          "Mis herramientas encontraron los puntos de falla de las trampas. Eliminé las amenazas y me fui antes de que el druida intentara involucrarme en más oraciones.",
+          "Fue un trabajo de paciencia. Cada trampa retirada es una vida salvada, y una sombra menos en el suelo del bosque."
+        ],
+        "ru": [
+          "Твердой рукой я обезвредила каждый курок, спрятанный под листьями. В лесу снова тихо, и друид поблагодарил меня за точность работы.",
+          "Мои инструменты нашли слабые места ловушек. Я устранила угрозы и покинула это место до того, как друид попытался втянуть меня в свои молитвы.",
+          "Это была работа, требовавшая терпения. Каждая убранная ловушка — это спасенная жизнь и одной тенью меньше на лесной почве."
+        ],
+        "zh": [
+          "我用沉稳的手解除了隐藏在叶子下的每一个触发器。森林再次恢复了宁静，德鲁伊对我的精准工作表示感谢。",
+          "我的工具找到了陷阱的故障点。我清除了威胁，并在德鲁伊试图让我参与更多祈祷之前离开了现场。",
+          "这是一项需要耐心的工作。每一个被移除的陷阱都是一条被拯救的生命，森林地面上也少了一道阴影。"
+        ],
+        "ja": [
+          "震えることのない手で、落ち葉の下に隠されたすべてのトリガーを解除しました。森は再び静まり返り、ドルイドは私の仕事の正確さに感謝していました。",
+          "道具を使って罠の弱点を見つけました。脅威を取り除き、ドルイドがさらに祈りに私を巻き込もうとする前にその場を去りました。",
+          "忍耐のいる仕事でした。取り除かれた罠の一つひとつが救われた命であり、森の地面から消えた一つの影なのです。"
+        ]
+      }
     },
-    "default": {
-      "pt": [
-        "Com mãos firmes, desarmei cada gatilho escondido sob as folhas. O bosque está silencioso novamente, e o druida agradeceu a precisão do meu trabalho.",
-        "Minhas ferramentas encontraram os pontos de falha das armadilhas. Removi as ameaças e deixei o local antes que o druida tentasse me envolver em mais preces.",
-        "Foi um trabalho de paciência. Cada armadilha retirada é uma vida salva, e uma sombra a menos no solo do bosque."
-      ],
-      "en": [
-        "With steady hands, I disarmed every trigger hidden under the leaves. The woods are silent again, and the druid thanked the precision of my work.",
-        "My tools found the failure points of the traps. I removed the threats and left the site before the druid could try to involve me in more prayers.",
-        "It was a job of patience. Every trap removed is a life saved, and one less shadow on the forest floor."
-      ],
-      "es": [
-        "Con manos firmes, desarmé cada gatillo oculto bajo las hojas. El bosque está en silencio otra vez, y el druida agradeció la precisión de mi trabajo.",
-        "Mis herramientas encontraron los puntos de falla de las trampas. Eliminé las amenazas y me fui antes de que el druida intentara involucrarme en más oraciones.",
-        "Fue un trabajo de paciencia. Cada trampa retirada es una vida salvada, y una sombra menos en el suelo del bosque."
-      ],
-      "ru": [
-        "Твердой рукой я обезвредила каждый курок, спрятанный под листьями. В лесу снова тихо, и друид поблагодарил меня за точность работы.",
-        "Мои инструменты нашли слабые места ловушек. Я устранила угрозы и покинула это место до того, как друид попытался втянуть меня в свои молитвы.",
-        "Это была работа, требовавшая терпения. Каждая убранная ловушка — это спасенная жизнь и одной тенью меньше на лесной почве."
-      ],
-      "zh": [
-        "我用沉稳的手解除了隐藏在叶子下的每一个触发器。森林再次恢复了宁静，德鲁伊对我的精准工作表示感谢。",
-        "我的工具找到了陷阱的故障点。我清除了威胁，并在德鲁伊试图让我参与更多祈祷之前离开了现场。",
-        "这是一项需要耐心的工作。每一个被移除的陷阱都是一条被拯救的生命，森林地面上也少了一道阴影。"
-      ],
-      "ja": [
-        "震えることのない手で、落ち葉の下に隠されたすべてのトリガーを解除しました。森は再び静まり返り、ドルイドは私の仕事の正確さに感謝していました。",
-        "道具を使って罠の弱点を見つけました。脅威を取り除き、ドルイドがさらに祈りに私を巻き込もうとする前にその場を去りました。",
-        "忍耐のいる仕事でした。取り除かれた罠の一つひとつが救われた命であり、森の地面から消えた一つの影なのです。"
-      ]
-    }
-    },    
     "failure": {
       "default": {
         "pt": [

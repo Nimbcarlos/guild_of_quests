@@ -21,9 +21,9 @@
   "expired_at": 3,
   "available_from_turn": 18,
   "duration": 3,
-  "difficulty": 1.5,
+  "difficulty": 1.0,
   "rewards": {
-    "xp": 65
+    "xp": 50
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -49,73 +49,73 @@
     }
   },
   "conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Alcancei o balão sob a tempestade e prendi novas amarras antes que ele ganhasse altitude. O núcleo estabilizou e a barreira permaneceu ativa.",
-        "Agarrei a estrutura e usei meu peso para puxá-la de volta ao ponto de ancoragem. Reforcei as cordas e interrompi a subida.",
-        "Escalando contra o vento, fixei uma nova âncora na base e tensionei as linhas. O dispositivo voltou a operar de forma estável."
-      ],
-      "en": [
-        "I reached the balloon through the storm and secured new lines before it gained altitude. The core stabilized and the barrier held.",
-        "I grabbed the frame and used my weight to pull it back to the anchoring point. I reinforced the ropes and stopped the ascent.",
-        "Climbing against the wind, I fixed a new anchor at the base and tightened the lines. The device returned to stable operation."
-      ],
-      "es": [
-        "Alcancé el globo en medio de la tormenta y aseguré nuevas amarras antes de que ganara altura. El núcleo se estabilizó y la barrera resistió.",
-        "Sujeté la estructura y usé mi peso para devolverla al punto de anclaje. Reforcé las cuerdas y detuve el ascenso.",
-        "Escalando contra el viento, fijé una nueva ancla en la base y tensé las líneas. El dispositivo volvió a operar con estabilidad."
-      ],
-      "ru": [
-        "Я добрался до шара сквозь бурю и закрепил новые канаты до того, как он поднялся выше. Ядро стабилизировалось, барьер сохранился.",
-        "Я ухватился за конструкцию и своим весом вернул её к точке крепления. Усилил тросы и остановил подъём.",
-        "Поднимаясь против ветра, я закрепил новый якорь и натянул линии. Устройство вновь стало работать стабильно."
-      ],
-      "zh": [
-        "我在风暴中接近气球，在其继续上升前重新固定了系绳。核心恢复稳定，屏障得以维持。",
-        "我抓住结构，用体重将其拉回锚点。加固绳索后，气球停止上升。",
-        "顶着狂风攀爬，我在底部固定了新的锚点并拉紧绳索。装置重新稳定运作。"
-      ],
-      "ja": [
-        "嵐の中で気球に到達し、上昇する前に新しい係留索を固定しました。コアは安定し、結界は維持されました。",
-        "構造を掴み、自分の体重で係留地点へ引き戻しました。ロープを補強し、上昇を止めました。",
-        "強風に逆らって登り、新たなアンカーを固定して索を張り直しました。装置は再び安定しました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "Fui lançado para longe antes de alcançar a base. O balão subiu além do alcance e o núcleo ficou instável.",
-        "A nova amarra cedeu sob a rajada mais forte. Perdi o controle e tive que recuar.",
-        "Escorreguei na estrutura molhada e não consegui fixar a âncora. O dispositivo continuou a subir descontrolado."
-      ],
-      "en": [
-        "I was thrown back before reaching the base. The balloon rose out of reach and the core destabilized.",
-        "The new line snapped under a stronger gust. I lost control and had to retreat.",
-        "I slipped on the wet frame and failed to secure the anchor. The device kept rising uncontrollably."
-      ],
-      "es": [
-        "Fui arrojado antes de llegar a la base. El globo ascendió fuera de alcance y el núcleo se desestabilizó.",
-        "La nueva amarra cedió con una ráfaga más fuerte. Perdí el control y tuve que retirarme.",
-        "Resbalé en la estructura mojada y no logré fijar el ancla. El dispositivo siguió ascendiendo sin control."
-      ],
-      "ru": [
-        "Меня отбросило до того, как я добрался до основания. Шар поднялся вне досягаемости, ядро стало нестабильным.",
-        "Новый канат не выдержал сильного порыва. Я потерял контроль и отступил.",
-        "Я поскользнулся на мокрой конструкции и не смог закрепить якорь. Устройство продолжило бесконтрольный подъём."
-      ],
-      "zh": [
-        "在到达底部前我被狂风掀开。气球升到无法触及，核心开始失稳。",
-        "新的系绳在强风中断裂。我失去控制，被迫撤退。",
-        "我在湿滑的结构上滑倒，未能固定锚点。装置继续失控上升。"
-      ],
-      "ja": [
-        "基部に届く前に吹き飛ばされました。気球は手の届かない高さまで上昇し、コアは不安定になりました。",
-        "新しい索は強風で切れました。制御を失い、退避しました。",
-        "濡れた構造で滑り、アンカーを固定できませんでした。装置は制御不能のまま上昇しました。"
-      ]
+    "success": {
+      "default": {
+        "pt": [
+          "Alcancei o balão sob a tempestade e prendi novas amarras antes que ele ganhasse altitude. O núcleo estabilizou e a barreira permaneceu ativa.",
+          "Agarrei a estrutura e usei meu peso para puxá-la de volta ao ponto de ancoragem. Reforcei as cordas e interrompi a subida.",
+          "Escalando contra o vento, fixei uma nova âncora na base e tensionei as linhas. O dispositivo voltou a operar de forma estável."
+        ],
+        "en": [
+          "I reached the balloon through the storm and secured new lines before it gained altitude. The core stabilized and the barrier held.",
+          "I grabbed the frame and used my weight to pull it back to the anchoring point. I reinforced the ropes and stopped the ascent.",
+          "Climbing against the wind, I fixed a new anchor at the base and tightened the lines. The device returned to stable operation."
+        ],
+        "es": [
+          "Alcancé el globo en medio de la tormenta y aseguré nuevas amarras antes de que ganara altura. El núcleo se estabilizó y la barrera resistió.",
+          "Sujeté la estructura y usé mi peso para devolverla al punto de anclaje. Reforcé las cuerdas y detuve el ascenso.",
+          "Escalando contra el viento, fijé una nueva ancla en la base y tensé las líneas. El dispositivo volvió a operar con estabilidad."
+        ],
+        "ru": [
+          "Я добрался до шара сквозь бурю и закрепил новые канаты до того, как он поднялся выше. Ядро стабилизировалось, барьер сохранился.",
+          "Я ухватился за конструкцию и своим весом вернул её к точке крепления. Усилил тросы и остановил подъём.",
+          "Поднимаясь против ветра, я закрепил новый якорь и натянул линии. Устройство вновь стало работать стабильно."
+        ],
+        "zh": [
+          "我在风暴中接近气球，在其继续上升前重新固定了系绳。核心恢复稳定，屏障得以维持。",
+          "我抓住结构，用体重将其拉回锚点。加固绳索后，气球停止上升。",
+          "顶着狂风攀爬，我在底部固定了新的锚点并拉紧绳索。装置重新稳定运作。"
+        ],
+        "ja": [
+          "嵐の中で気球に到達し、上昇する前に新しい係留索を固定しました。コアは安定し、結界は維持されました。",
+          "構造を掴み、自分の体重で係留地点へ引き戻しました。ロープを補強し、上昇を止めました。",
+          "強風に逆らって登り、新たなアンカーを固定して索を張り直しました。装置は再び安定しました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Fui lançado para longe antes de alcançar a base. O balão subiu além do alcance e o núcleo ficou instável.",
+          "A nova amarra cedeu sob a rajada mais forte. Perdi o controle e tive que recuar.",
+          "Escorreguei na estrutura molhada e não consegui fixar a âncora. O dispositivo continuou a subir descontrolado."
+        ],
+        "en": [
+          "I was thrown back before reaching the base. The balloon rose out of reach and the core destabilized.",
+          "The new line snapped under a stronger gust. I lost control and had to retreat.",
+          "I slipped on the wet frame and failed to secure the anchor. The device kept rising uncontrollably."
+        ],
+        "es": [
+          "Fui arrojado antes de llegar a la base. El globo ascendió fuera de alcance y el núcleo se desestabilizó.",
+          "La nueva amarra cedió con una ráfaga más fuerte. Perdí el control y tuve que retirarme.",
+          "Resbalé en la estructura mojada y no logré fijar el ancla. El dispositivo siguió ascendiendo sin control."
+        ],
+        "ru": [
+          "Меня отбросило до того, как я добрался до основания. Шар поднялся вне досягаемости, ядро стало нестабильным.",
+          "Новый канат не выдержал сильного порыва. Я потерял контроль и отступил.",
+          "Я поскользнулся на мокрой конструкции и не смог закрепить якорь. Устройство продолжило бесконтрольный подъём."
+        ],
+        "zh": [
+          "在到达底部前我被狂风掀开。气球升到无法触及，核心开始失稳。",
+          "新的系绳在强风中断裂。我失去控制，被迫撤退。",
+          "我在湿滑的结构上滑倒，未能固定锚点。装置继续失控上升。"
+        ],
+        "ja": [
+          "基部に届く前に吹き飛ばされました。気球は手の届かない高さまで上昇し、コアは不安定になりました。",
+          "新しい索は強風で切れました。制御を失い、退避しました。",
+          "濡れた構造で滑り、アンカーを固定できませんでした。装置は制御不能のまま上昇しました。"
+        ]
+      }
     }
   }
-}
 }

@@ -23,9 +23,9 @@
   "expired_at": 5,
   "available_from_turn": 103,
   "duration": 3,
-  "difficulty": 2.6,
+  "difficulty": 3.0,
   "rewards": {
-    "xp": 110
+    "xp": 80
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -50,74 +50,74 @@
       "ja": "被害者"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Neutralizei o elixir falsificado no organismo das vítimas e interrompi a regressão.",
-        "Estabilizei o metabolismo acelerado e reverti o rejuvenescimento excessivo.",
-        "Recalibrei a fórmula no sangue das vítimas e restaurei idade biológica estável."
-      ],
-      "en": [
-        "I neutralized the fake elixir within the victims’ bodies and halted regression.",
-        "I stabilized the accelerated metabolism and reversed excessive rejuvenation.",
-        "I recalibrated the formula in their bloodstream and restored stable biological age."
-      ],
-      "es": [
-        "Neutralicé el elixir falsificado en el organismo de las víctimas y detuve la regresión.",
-        "Estabilicé el metabolismo acelerado y revertí el rejuvenecimiento excesivo.",
-        "Recalibré la fórmula en la sangre y restauré una edad biológica estable."
-      ],
-      "ru": [
-        "Я нейтрализовал поддельный эликсир в организме жертв и остановил регрессию.",
-        "Стабилизировал ускоренный метаболизм и обратил чрезмерное омоложение.",
-        "Перенастроил формулу в крови и восстановил стабильный биологический возраст."
-      ],
-      "zh": [
-        "我在受害者体内中和伪造灵药并阻止倒退。",
-        "我稳定加速的新陈代谢并逆转过度年轻化。",
-        "我重新校准血液中的配方并恢复稳定生理年龄。"
-      ],
-      "ja": [
-        "被害者の体内で偽薬を中和し、退行を停止しました。",
-        "加速した代謝を安定化させ、過度な若返りを逆転しました。",
-        "血中の配合を再調整し、生物学的年齢を安定させました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "A regressão biológica avançou além da reversão possível.",
-        "O metabolismo colapsou durante a tentativa de estabilização.",
-        "A transformação tornou-se permanente nas vítimas."
-      ],
-      "en": [
-        "Biological regression advanced beyond reversal.",
-        "Metabolism collapsed during stabilization attempts.",
-        "The transformation became permanent in the victims."
-      ],
-      "es": [
-        "La regresión biológica avanzó más allá de la reversión.",
-        "El metabolismo colapsó durante la estabilización.",
-        "La transformación se volvió permanente."
-      ],
-      "ru": [
-        "Биологическая регрессия вышла за пределы обратимости.",
-        "Метаболизм рухнул при попытке стабилизации.",
-        "Трансформация стала необратимой."
-      ],
-      "zh": [
-        "生理退化超出可逆范围。",
-        "稳定过程中代谢崩溃。",
-        "转变变为永久性。"
-      ],
-      "ja": [
-        "生物学的退行が不可逆域に達しました。",
-        "安定化中に代謝が崩壊しました。",
-        "変化が永続化しました。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Neutralizei o elixir falsificado no organismo das vítimas e interrompi a regressão.",
+          "Estabilizei o metabolismo acelerado e reverti o rejuvenescimento excessivo.",
+          "Recalibrei a fórmula no sangue das vítimas e restaurei idade biológica estável."
+        ],
+        "en": [
+          "I neutralized the fake elixir within the victims’ bodies and halted regression.",
+          "I stabilized the accelerated metabolism and reversed excessive rejuvenation.",
+          "I recalibrated the formula in their bloodstream and restored stable biological age."
+        ],
+        "es": [
+          "Neutralicé el elixir falsificado en el organismo de las víctimas y detuve la regresión.",
+          "Estabilicé el metabolismo acelerado y revertí el rejuvenecimiento excesivo.",
+          "Recalibré la fórmula en la sangre y restauré una edad biológica estable."
+        ],
+        "ru": [
+          "Я нейтрализовал поддельный эликсир в организме жертв и остановил регрессию.",
+          "Стабилизировал ускоренный метаболизм и обратил чрезмерное омоложение.",
+          "Перенастроил формулу в крови и восстановил стабильный биологический возраст."
+        ],
+        "zh": [
+          "我在受害者体内中和伪造灵药并阻止倒退。",
+          "我稳定加速的新陈代谢并逆转过度年轻化。",
+          "我重新校准血液中的配方并恢复稳定生理年龄。"
+        ],
+        "ja": [
+          "被害者の体内で偽薬を中和し、退行を停止しました。",
+          "加速した代謝を安定化させ、過度な若返りを逆転しました。",
+          "血中の配合を再調整し、生物学的年齢を安定させました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A regressão biológica avançou além da reversão possível.",
+          "O metabolismo colapsou durante a tentativa de estabilização.",
+          "A transformação tornou-se permanente nas vítimas."
+        ],
+        "en": [
+          "Biological regression advanced beyond reversal.",
+          "Metabolism collapsed during stabilization attempts.",
+          "The transformation became permanent in the victims."
+        ],
+        "es": [
+          "La regresión biológica avanzó más allá de la reversión.",
+          "El metabolismo colapsó durante la estabilización.",
+          "La transformación se volvió permanente."
+        ],
+        "ru": [
+          "Биологическая регрессия вышла за пределы обратимости.",
+          "Метаболизм рухнул при попытке стабилизации.",
+          "Трансформация стала необратимой."
+        ],
+        "zh": [
+          "生理退化超出可逆范围。",
+          "稳定过程中代谢崩溃。",
+          "转变变为永久性。"
+        ],
+        "ja": [
+          "生物学的退行が不可逆域に達しました。",
+          "安定化中に代謝が崩壊しました。",
+          "変化が永続化しました。"
+        ]
+      }
     }
   }
-}
 }

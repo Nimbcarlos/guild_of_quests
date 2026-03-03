@@ -21,7 +21,7 @@
   "expired_at": 1,
   "available_from_turn": 43,
   "duration": 3,
-  "difficulty": 1.4,
+  "difficulty": 2.0,
   "rewards": {
     "xp": 60
   },
@@ -48,74 +48,74 @@
       "ja": "バッター"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Escalei o paredão usando pontos firmes na rocha e alcancei o batedor. Desci com ele apoiado ao meu corpo até terreno seguro.",
-        "Avancei pela face instável, fixando apoios improvisados. Segurei o batedor e executei a descida controlada.",
-        "Subi sem depender de cordas comuns, garantindo três pontos de contato. Prendi o batedor a mim e retornamos pela rota mais estável."
-      ],
-      "en": [
-        "I climbed the wall using solid rock holds and reached the scout. I descended with him secured against me to safe ground.",
-        "I advanced along the unstable face, setting improvised supports. I secured the scout and performed a controlled descent.",
-        "I climbed without relying on ordinary ropes, maintaining three points of contact. I fastened the scout to me and returned by the most stable route."
-      ],
-      "es": [
-        "Escalé la pared usando apoyos firmes en la roca y alcancé al explorador. Descendí con él asegurado hasta terreno seguro.",
-        "Avancé por la cara inestable, fijando soportes improvisados. Aseguré al explorador y realicé un descenso controlado.",
-        "Subí sin depender de cuerdas comunes, manteniendo tres puntos de apoyo. Sujeté al explorador y regresamos por la ruta más estable."
-      ],
-      "ru": [
-        "Я поднялся по стене, используя прочные выступы, и добрался до разведчика. Спустился с ним к безопасной зоне.",
-        "Я продвигался по нестабильной поверхности, закрепляя опоры. Зафиксировал разведчика и выполнил контролируемый спуск.",
-        "Поднимался без обычных верёвок, удерживая три точки опоры. Закрепил разведчика и вернулся по наиболее устойчивому пути."
-      ],
-      "zh": [
-        "我利用岩壁稳固支点攀爬，抵达斥候身边，并将他固定在身上安全下撤。",
-        "我沿着不稳定岩面前进，设置临时支撑，固定斥候后进行控制下降。",
-        "我在保持三点接触的情况下攀登，将斥候固定在身上，从最稳固的路线返回。"
-      ],
-      "ja": [
-        "岩の確かな足場を使って登り、斥候に到達しました。身体に固定して安全地帯まで降下しました。",
-        "不安定な壁面を進み、即席の支点を確保しました。斥候を固定し、制御された下降を行いました。",
-        "通常のロープに頼らず三点支持を維持して登攀しました。斥候を結び、安全な経路で戻りました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "A rocha cedeu sob meu peso antes que eu alcançasse a saliência. Fui forçado a recuar.",
-        "Perdi um ponto de apoio durante a subida e não consegui alcançar o batedor com segurança.",
-        "O terreno instável impossibilitou a descida com carga adicional. Tive que abortar o resgate."
-      ],
-      "en": [
-        "The rock gave way under my weight before I reached the ledge. I was forced to retreat.",
-        "I lost a foothold during the climb and could not reach the scout safely.",
-        "The unstable terrain made descent with additional weight impossible. I had to abort the rescue."
-      ],
-      "es": [
-        "La roca cedió bajo mi peso antes de llegar a la cornisa. Me vi obligado a retirarme.",
-        "Perdí un punto de apoyo durante la subida y no logré alcanzar al explorador con seguridad.",
-        "El terreno inestable impidió el descenso con peso adicional. Tuve que abortar el rescate."
-      ],
-      "ru": [
-        "Порода обрушилась под моим весом до достижения выступа. Пришлось отступить.",
-        "Я потерял опору при подъёме и не смог безопасно добраться до разведчика.",
-        "Нестабильная поверхность не позволила спуститься с дополнительным весом. Операцию пришлось прервать."
-      ],
-      "zh": [
-        "在抵达平台前岩石塌陷，我被迫撤退。",
-        "攀登中失去支点，未能安全接近斥候。",
-        "地形不稳，无法在负重情况下下降，只能中止救援。"
-      ],
-      "ja": [
-        "棚に届く前に岩が崩れ、撤退を余儀なくされました。",
-        "登攀中に足場を失い、斥候に安全に到達できませんでした。",
-        "追加の重量での下降が不可能となり、救助を中止しました。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Escalei o paredão usando pontos firmes na rocha e alcancei o batedor. Desci com ele apoiado ao meu corpo até terreno seguro.",
+          "Avancei pela face instável, fixando apoios improvisados. Segurei o batedor e executei a descida controlada.",
+          "Subi sem depender de cordas comuns, garantindo três pontos de contato. Prendi o batedor a mim e retornamos pela rota mais estável."
+        ],
+        "en": [
+          "I climbed the wall using solid rock holds and reached the scout. I descended with him secured against me to safe ground.",
+          "I advanced along the unstable face, setting improvised supports. I secured the scout and performed a controlled descent.",
+          "I climbed without relying on ordinary ropes, maintaining three points of contact. I fastened the scout to me and returned by the most stable route."
+        ],
+        "es": [
+          "Escalé la pared usando apoyos firmes en la roca y alcancé al explorador. Descendí con él asegurado hasta terreno seguro.",
+          "Avancé por la cara inestable, fijando soportes improvisados. Aseguré al explorador y realicé un descenso controlado.",
+          "Subí sin depender de cuerdas comunes, manteniendo tres puntos de apoyo. Sujeté al explorador y regresamos por la ruta más estable."
+        ],
+        "ru": [
+          "Я поднялся по стене, используя прочные выступы, и добрался до разведчика. Спустился с ним к безопасной зоне.",
+          "Я продвигался по нестабильной поверхности, закрепляя опоры. Зафиксировал разведчика и выполнил контролируемый спуск.",
+          "Поднимался без обычных верёвок, удерживая три точки опоры. Закрепил разведчика и вернулся по наиболее устойчивому пути."
+        ],
+        "zh": [
+          "我利用岩壁稳固支点攀爬，抵达斥候身边，并将他固定在身上安全下撤。",
+          "我沿着不稳定岩面前进，设置临时支撑，固定斥候后进行控制下降。",
+          "我在保持三点接触的情况下攀登，将斥候固定在身上，从最稳固的路线返回。"
+        ],
+        "ja": [
+          "岩の確かな足場を使って登り、斥候に到達しました。身体に固定して安全地帯まで降下しました。",
+          "不安定な壁面を進み、即席の支点を確保しました。斥候を固定し、制御された下降を行いました。",
+          "通常のロープに頼らず三点支持を維持して登攀しました。斥候を結び、安全な経路で戻りました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A rocha cedeu sob meu peso antes que eu alcançasse a saliência. Fui forçado a recuar.",
+          "Perdi um ponto de apoio durante a subida e não consegui alcançar o batedor com segurança.",
+          "O terreno instável impossibilitou a descida com carga adicional. Tive que abortar o resgate."
+        ],
+        "en": [
+          "The rock gave way under my weight before I reached the ledge. I was forced to retreat.",
+          "I lost a foothold during the climb and could not reach the scout safely.",
+          "The unstable terrain made descent with additional weight impossible. I had to abort the rescue."
+        ],
+        "es": [
+          "La roca cedió bajo mi peso antes de llegar a la cornisa. Me vi obligado a retirarme.",
+          "Perdí un punto de apoyo durante la subida y no logré alcanzar al explorador con seguridad.",
+          "El terreno inestable impidió el descenso con peso adicional. Tuve que abortar el rescate."
+        ],
+        "ru": [
+          "Порода обрушилась под моим весом до достижения выступа. Пришлось отступить.",
+          "Я потерял опору при подъёме и не смог безопасно добраться до разведчика.",
+          "Нестабильная поверхность не позволила спуститься с дополнительным весом. Операцию пришлось прервать."
+        ],
+        "zh": [
+          "在抵达平台前岩石塌陷，我被迫撤退。",
+          "攀登中失去支点，未能安全接近斥候。",
+          "地形不稳，无法在负重情况下下降，只能中止救援。"
+        ],
+        "ja": [
+          "棚に届く前に岩が崩れ、撤退を余儀なくされました。",
+          "登攀中に足場を失い、斥候に安全に到達できませんでした。",
+          "追加の重量での下降が不可能となり、救助を中止しました。"
+        ]
+      }
     }
   }
-}
 }

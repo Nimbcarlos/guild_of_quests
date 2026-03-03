@@ -21,9 +21,9 @@
   "expired_at": 5,
   "available_from_turn": 60,
   "duration": 3,
-  "difficulty": 1.8,
+  "difficulty": 2.5,
   "rewards": {
-    "xp": 95
+    "xp": 70
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -49,73 +49,73 @@
     }
   },
   "conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Identifiquei que a 'consciência' era uma ressonância elemental causada por resíduos de mercúrio animado. Introduzi um agente estabilizador neutro que acalmou a fornalha, permitindo seu desligamento seguro e a purificação dos dutos.",
-        "Através da manipulação precisa de catalisadores, consegui satisfazer a 'fome' química da fornalha. Ela cessou as murmurações e retornou ao estado inerte, preservando a estrutura da oficina e os diários do mestre.",
-        "Neutralizei o núcleo de calor autônomo injetando sais gélidos diretamente na câmara de combustão. A fornalha parou de resistir aos comandos externos e a temperatura do laboratório finalmente estabilizou."
-      ],
-      "en": [
-        "I identified that the 'consciousness' was an elemental resonance caused by animated mercury residues. I introduced a neutral stabilizing agent that calmed the furnace, allowing its safe shutdown and duct purification.",
-        "Through precise manipulation of catalysts, I managed to satisfy the furnace's chemical 'hunger.' It ceased its murmurings and returned to an inert state, preserving the workshop structure and the master's journals.",
-        "I neutralized the autonomous heat core by injecting frost salts directly into the combustion chamber. The furnace stopped resisting external commands, and the laboratory temperature finally stabilized."
-      ],
-      "es": [
-        "Identifiqué que la 'conciencia' era una resonancia elemental causada por residuos de mercurio animado. Introduje un agente estabilizador que calmó el horno, permitiendo su apagado seguro.",
-        "Mediante la manipulación precisa de catalizadores, logré satisfacer el 'hambre' química del horno. Cesó sus murmullos y volvió a su estado inerte, preservando el taller.",
-        "Neutralicé el núcleo de calor autónomo inyectando sales gélidas en la cámara de combustión. El horno dejó de resistir los mandos externos y la temperatura se estabilizó."
-      ],
-      "ru": [
-        "Я определил, что «сознание» было элементарным резонансом, вызванным остатками живой ртути. Я ввел нейтральный стабилизатор, который успокоил печь, позволив безопасно ее выключить.",
-        "Благодаря точному манипулированию катализаторами мне удалось утолить химический «голод» печи. Она перестала бормотать и вернулась в инертное состояние, сохранив мастерскую.",
-        "Я нейтрализовал автономное тепловое ядро, впрыснув морозные соли в камеру сгорания. Печь перестала сопротивляться командам, и температура в лаборатории стабилизировалась."
-      ],
-      "zh": [
-        "我确认这种“意识”是由活性汞残留引起的元素共振。我引入了一种中性稳定剂，平息了熔炉，使其能够安全关闭并净化管道。",
-        "通过对催化剂的精准操作，我成功满足了熔炉的化学“饥饿”。它停止了嘟囔并恢复到惰性状态，保护了工作室结构和大师的日志。",
-        "我通过直接向燃烧室注入寒霜盐中和了自主发热核心。熔炉不再反抗外部指令，实验室温度终于稳定下来。"
-      ],
-      "ja": [
-        "「意識」の正体が活性水銀の残留物によるエレメンタル共鳴であることを特定しました。中和安定剤を投入して炉を鎮め、安全な停止とダクトの浄化に成功しました。",
-        "触媒を精密に操作することで、炉の化学的な「飢え」を満たすことに成功しました。炉はつぶやきをやめて不活性状態に戻り、工房と師の記録は守られました。",
-        "燃焼室に氷結塩を直接注入することで、自律的な熱核を無力化しました。炉は外部からの指令に抵抗するのをやめ、研究所の温度はようやく安定しました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "A fornalha interpretou o agente estabilizador como combustível. A temperatura subiu a níveis críticos, resultando em uma explosão alquímica que derreteu o laboratório e deixou o herói com queimaduras graves.",
-        "Não consegui decifrar as instruções murmuradas pela máquina a tempo. Ela selou suas próprias portas e entrou em um ciclo de superaquecimento perpétuo, tornando a área inacessível e perigosa.",
-        "A tentativa de desligamento forçado causou uma descarga de vapores tóxicos. O herói foi nocauteado pela fumaça enquanto a fornalha consumia o restante dos suprimentos raros da oficina."
-      ],
-      "en": [
-        "The furnace interpreted the stabilizing agent as fuel. The temperature rose to critical levels, resulting in an alchemical explosion that melted the lab and left the hero with severe burns.",
-        "I failed to decipher the instructions murmured by the machine in time. It sealed its own doors and entered a cycle of perpetual overheating, making the area inaccessible and dangerous.",
-        "The forced shutdown attempt caused a discharge of toxic vapors. The hero was knocked out by the fumes while the furnace consumed the rest of the workshop's rare supplies."
-      ],
-      "es": [
-        "El horno interpretó el estabilizador como combustible. La temperatura subió a niveles críticos, resultando en una explosión alquímica que derritió el laboratorio.",
-        "No logré descifrar las instrucciones de la máquina a tiempo. Selló sus propias puertas y entró en un ciclo de sobrecalentamiento perpetuo, volviendo el área peligrosa.",
-        "El intento de apagado forzado causó una descarga de vapores tóxicos. El héroe quedó inconsciente mientras el horno consumía los suministros raros."
-      ],
-      "ru": [
-        "Печь приняла стабилизатор за топливо. Температура поднялась до критического уровня, что привело к алхимическому взрыву, расплавившему лабораторию.",
-        "Мне не удалось вовремя расшифровать инструкции машины. Она заперла свои двери и вошла в цикл вечного перегрева, сделав территорию недоступной.",
-        "Попытка принудительного отключения вызвала выброс токсичных паров. Герой потерял сознание от дыма, пока печь пожирала редкие запасы мастерской."
-      ],
-      "zh": [
-        "熔炉将被稳定剂误认为燃料。温度升至临界水平，导致炼金爆炸，熔化了实验室并使英雄严重烧伤。",
-        "我未能及时解读机器嘟囔的指令。它封锁了自己的大门并进入了永久过热循环，使该区域变得无法进入且极度危险。",
-        "强制关闭的尝试导致了有毒蒸汽的释放。英雄被烟雾熏晕，而熔炉吞噬了办公室内剩余的所有稀有物资。"
-      ],
-      "ja": [
-        "炉が安定剤を燃料と誤認しました。温度が臨界点まで上昇し、研究所を融解させる錬金術的爆発が発生、英雄は重度の火傷を負いました。",
-        "機械がつぶやく指示を時間内に解読できませんでした。炉は自ら扉を封鎖し、永久的な過熱サイクルに入ったため、周辺は立ち入り禁止の危険地帯となりました。",
-        "強制停止の試みが毒性の蒸気を発生させました。英雄が煙に巻かれて倒れている間に、炉は工房の貴重な備蓄をすべて使い果たしました。"
-      ]
+    "success": {
+      "default": {
+        "pt": [
+          "Identifiquei que a 'consciência' era uma ressonância elemental causada por resíduos de mercúrio animado. Introduzi um agente estabilizador neutro que acalmou a fornalha, permitindo seu desligamento seguro e a purificação dos dutos.",
+          "Através da manipulação precisa de catalisadores, consegui satisfazer a 'fome' química da fornalha. Ela cessou as murmurações e retornou ao estado inerte, preservando a estrutura da oficina e os diários do mestre.",
+          "Neutralizei o núcleo de calor autônomo injetando sais gélidos diretamente na câmara de combustão. A fornalha parou de resistir aos comandos externos e a temperatura do laboratório finalmente estabilizou."
+        ],
+        "en": [
+          "I identified that the 'consciousness' was an elemental resonance caused by animated mercury residues. I introduced a neutral stabilizing agent that calmed the furnace, allowing its safe shutdown and duct purification.",
+          "Through precise manipulation of catalysts, I managed to satisfy the furnace's chemical 'hunger.' It ceased its murmurings and returned to an inert state, preserving the workshop structure and the master's journals.",
+          "I neutralized the autonomous heat core by injecting frost salts directly into the combustion chamber. The furnace stopped resisting external commands, and the laboratory temperature finally stabilized."
+        ],
+        "es": [
+          "Identifiqué que la 'conciencia' era una resonancia elemental causada por residuos de mercurio animado. Introduje un agente estabilizador que calmó el horno, permitiendo su apagado seguro.",
+          "Mediante la manipulación precisa de catalizadores, logré satisfacer el 'hambre' química del horno. Cesó sus murmullos y volvió a su estado inerte, preservando el taller.",
+          "Neutralicé el núcleo de calor autónomo inyectando sales gélidas en la cámara de combustión. El horno dejó de resistir los mandos externos y la temperatura se estabilizó."
+        ],
+        "ru": [
+          "Я определил, что «сознание» было элементарным резонансом, вызванным остатками живой ртути. Я ввел нейтральный стабилизатор, который успокоил печь, позволив безопасно ее выключить.",
+          "Благодаря точному манипулированию катализаторами мне удалось утолить химический «голод» печи. Она перестала бормотать и вернулась в инертное состояние, сохранив мастерскую.",
+          "Я нейтрализовал автономное тепловое ядро, впрыснув морозные соли в камеру сгорания. Печь перестала сопротивляться командам, и температура в лаборатории стабилизировалась."
+        ],
+        "zh": [
+          "我确认这种“意识”是由活性汞残留引起的元素共振。我引入了一种中性稳定剂，平息了熔炉，使其能够安全关闭并净化管道。",
+          "通过对催化剂的精准操作，我成功满足了熔炉的化学“饥饿”。它停止了嘟囔并恢复到惰性状态，保护了工作室结构和大师的日志。",
+          "我通过直接向燃烧室注入寒霜盐中和了自主发热核心。熔炉不再反抗外部指令，实验室温度终于稳定下来。"
+        ],
+        "ja": [
+          "「意識」の正体が活性水銀の残留物によるエレメンタル共鳴であることを特定しました。中和安定剤を投入して炉を鎮め、安全な停止とダクトの浄化に成功しました。",
+          "触媒を精密に操作することで、炉の化学的な「飢え」を満たすことに成功しました。炉はつぶやきをやめて不活性状態に戻り、工房と師の記録は守られました。",
+          "燃焼室に氷結塩を直接注入することで、自律的な熱核を無力化しました。炉は外部からの指令に抵抗するのをやめ、研究所の温度はようやく安定しました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A fornalha interpretou o agente estabilizador como combustível. A temperatura subiu a níveis críticos, resultando em uma explosão alquímica que derreteu o laboratório e deixou o herói com queimaduras graves.",
+          "Não consegui decifrar as instruções murmuradas pela máquina a tempo. Ela selou suas próprias portas e entrou em um ciclo de superaquecimento perpétuo, tornando a área inacessível e perigosa.",
+          "A tentativa de desligamento forçado causou uma descarga de vapores tóxicos. O herói foi nocauteado pela fumaça enquanto a fornalha consumia o restante dos suprimentos raros da oficina."
+        ],
+        "en": [
+          "The furnace interpreted the stabilizing agent as fuel. The temperature rose to critical levels, resulting in an alchemical explosion that melted the lab and left the hero with severe burns.",
+          "I failed to decipher the instructions murmured by the machine in time. It sealed its own doors and entered a cycle of perpetual overheating, making the area inaccessible and dangerous.",
+          "The forced shutdown attempt caused a discharge of toxic vapors. The hero was knocked out by the fumes while the furnace consumed the rest of the workshop's rare supplies."
+        ],
+        "es": [
+          "El horno interpretó el estabilizador como combustible. La temperatura subió a niveles críticos, resultando en una explosión alquímica que derritió el laboratorio.",
+          "No logré descifrar las instrucciones de la máquina a tiempo. Selló sus propias puertas y entró en un ciclo de sobrecalentamiento perpetuo, volviendo el área peligrosa.",
+          "El intento de apagado forzado causó una descarga de vapores tóxicos. El héroe quedó inconsciente mientras el horno consumía los suministros raros."
+        ],
+        "ru": [
+          "Печь приняла стабилизатор за топливо. Температура поднялась до критического уровня, что привело к алхимическому взрыву, расплавившему лабораторию.",
+          "Мне не удалось вовремя расшифровать инструкции машины. Она заперла свои двери и вошла в цикл вечного перегрева, сделав территорию недоступной.",
+          "Попытка принудительного отключения вызвала выброс токсичных паров. Герой потерял сознание от дыма, пока печь пожирала редкие запасы мастерской."
+        ],
+        "zh": [
+          "熔炉将被稳定剂误认为燃料。温度升至临界水平，导致炼金爆炸，熔化了实验室并使英雄严重烧伤。",
+          "我未能及时解读机器嘟囔的指令。它封锁了自己的大门并进入了永久过热循环，使该区域变得无法进入且极度危险。",
+          "强制关闭的尝试导致了有毒蒸汽的释放。英雄被烟雾熏晕，而熔炉吞噬了办公室内剩余的所有稀有物资。"
+        ],
+        "ja": [
+          "炉が安定剤を燃料と誤認しました。温度が臨界点まで上昇し、研究所を融解させる錬金術的爆発が発生、英雄は重度の火傷を負いました。",
+          "機械がつぶやく指示を時間内に解読できませんでした。炉は自ら扉を封鎖し、永久的な過熱サイクルに入ったため、周辺は立ち入り禁止の危険地帯となりました。",
+          "強制停止の試みが毒性の蒸気を発生させました。英雄が煙に巻かれて倒れている間に、炉は工房の貴重な備蓄をすべて使い果たしました。"
+        ]
+      }
     }
   }
-}
 }

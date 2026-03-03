@@ -21,7 +21,7 @@
   "expired_at": 3,
   "available_from_turn": 11,
   "duration": 3,
-  "difficulty": 1.5,
+  "difficulty": 1.0,
   "rewards": {
     "xp": 50
   },
@@ -54,6 +54,140 @@
       "ru": "слизи",
       "zh": "史莱姆们",
       "ja": "スライムたち"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "religion": {
+        "pt": [
+          "Consagrei o poço e purifiquei o slime com rito sagrado, dissipando sua corrupção.",
+          "Tracei selos de bênção na borda do poço e a criatura foi desfeita em luz.",
+          "Entoei a prece correta e o slime se desintegrou, deixando a água purificada."
+        ],
+        "en": [
+          "I consecrated the well and purified the slime through sacred rite, dispelling its corruption.",
+          "I traced blessed seals along the rim and the creature dissolved into light.",
+          "I recited the proper prayer and the slime disintegrated, leaving the water purified."
+        ],
+        "es": [
+          "Consagré el pozo y purifiqué al slime mediante rito sagrado, disipando su corrupción.",
+          "Trazé sellos benditos en el borde y la criatura se disolvió en luz.",
+          "Recité la plegaria adecuada y el slime se desintegró, dejando el agua purificada."
+        ],
+        "ru": [
+          "Я освятил колодец и очистил слизь священным обрядом, рассеяв её скверну.",
+          "Я начертал благословенные печати по краю, и существо растворилось в свете.",
+          "Я произнёс нужную молитву, и слизь распалась, оставив воду чистой."
+        ],
+        "zh": [
+          "我为水井进行祝圣仪式，用神圣之力净化了史莱姆。",
+          "我在井口刻下祝福印记，生物化为光芒消散。",
+          "我诵念祷文，史莱姆解体，井水恢复清洁。"
+        ],
+        "ja": [
+          "井戸を聖別し、聖なる儀式でスライムを浄化しました。",
+          "縁に祝福の印を刻み、スライムは光となって消えました。",
+          "正しい祈りを捧げ、スライムは浄化され、水は清まりました。"
+        ]
+      },
+      "arcana": {
+        "pt": [
+          "Desestabilizei a estrutura arcana do slime e neutralizei seus resíduos no fundo do poço.",
+          "Identifiquei o núcleo mágico da criatura e o dissipei com precisão.",
+          "Usei contenção arcana para impedir a regeneração e eliminei os vestígios contaminantes."
+        ],
+        "en": [
+          "I destabilized the slime’s arcane structure and neutralized its residue at the bottom of the well.",
+          "I identified the creature’s magical core and precisely dispelled it.",
+          "I applied arcane containment to prevent regeneration and eliminated the contaminating remnants."
+        ],
+        "es": [
+          "Desestabilicé la estructura arcana del slime y neutralicé sus residuos en el fondo del pozo.",
+          "Identifiqué el núcleo mágico de la criatura y lo disipé con precisión.",
+          "Apliqué contención arcana para evitar su regeneración y eliminé los restos contaminantes."
+        ],
+        "ru": [
+          "Я нарушил арканную структуру слизи и нейтрализовал её остатки на дне колодца.",
+          "Я обнаружил магическое ядро существа и точно рассеял его.",
+          "Я применил арканное сдерживание, предотвратил регенерацию и устранил загрязняющие остатки."
+        ],
+        "zh": [
+          "我破坏了史莱姆的奥术结构，并在井底中和了残留物。",
+          "我找到其魔法核心并精准驱散。",
+          "我施加奥术封锁，阻止再生并清除了污染残渣。"
+        ],
+        "ja": [
+          "スライムの魔術構造を崩し、井戸の底の残留物も無力化しました。",
+          "魔力の核を特定し、正確に解除しました。",
+          "再生を封じる術式を施し、汚染の残滓を完全に除去しました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Desci e eliminei os slimes na fonte, interrompendo o surgimento dos 'filhotes' ao redor do poço.",
+          "Limpei o fundo e destruí o foco que estava gerando novos slimes, estabilizando a área.",
+          "Contive os slimes no espaço estreito e finalizei todos antes que se espalhassem pela vila."
+        ],
+        "en": [
+          "I went down and eliminated the slimes at the source, stopping the 'offspring' from appearing around the well.",
+          "I cleared the bottom and destroyed the focus that was spawning new slimes, stabilizing the area.",
+          "I contained the slimes in the tight space and finished them all before they spread into the village."
+        ],
+        "es": [
+          "Bajé y eliminé a los slimes en el origen, deteniendo la aparición de las 'crías' alrededor del pozo.",
+          "Limpié el fondo y destruí el foco que estaba generando nuevos slimes, estabilizando la zona.",
+          "Contuve a los slimes en el espacio estrecho y los eliminé antes de que se extendieran por la aldea."
+        ],
+        "ru": [
+          "Я спустился вниз и уничтожил слизи у источника, остановив появление «детёнышей» вокруг колодца.",
+          "Я расчистил дно и разрушил очаг, порождавший новых слизней, стабилизировав ситуацию.",
+          "Я сдержал слизней в тесном пространстве и уничтожил всех, прежде чем они расползлись по деревне."
+        ],
+        "zh": [
+          "我下到井底在源头消灭了史莱姆，阻止了井口周围继续出现“幼崽”。",
+          "我清理了井底并摧毁了生成点，局势随之稳定下来。",
+          "我在狭窄空间内控制住史莱姆并逐一消灭，没让它们扩散到村里。"
+        ],
+        "ja": [
+          "井戸の底へ降り、発生源のスライムを排除して「仔」の出現を止めました。",
+          "底部を掃討し、新たなスライムを生む焦点を破壊して周辺を安定させました。",
+          "狭い空間でスライムを抑え込み、村へ広がる前に全て処理しました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Os slimes continuaram surgindo e não consegui cortar a origem a tempo.",
+          "Fui forçado a recuar do fundo do poço, e a gosma voltou a se espalhar nos arredores.",
+          "A infestação resistiu à contenção e os 'filhotes' continuaram aparecendo."
+        ],
+        "en": [
+          "The slimes kept appearing and I couldn’t cut off the source in time.",
+          "I was forced to retreat from the bottom of the well, and the goo spread again.",
+          "The infestation resisted containment and the 'offspring' kept showing up."
+        ],
+        "es": [
+          "Los slimes siguieron apareciendo y no pude cortar el origen a tiempo.",
+          "Tuve que retirarme del fondo del pozo y la baba volvió a extenderse.",
+          "La infestación resistió la contención y las 'crías' siguieron saliendo."
+        ],
+        "ru": [
+          "Слизи продолжали появляться, и я не успел перекрыть источник.",
+          "Мне пришлось отступить со дна колодца, и слизь снова расползлась вокруг.",
+          "Заражение не удалось сдержать, и «детёныши» продолжили появляться."
+        ],
+        "zh": [
+          "史莱姆仍在不断生成，我没能及时切断源头。",
+          "我被迫从井底撤退，粘液又开始在周围扩散。",
+          "我没能有效遏制虫害，“幼崽”依旧持续出现。"
+        ],
+        "ja": [
+          "スライムの発生が止まらず、源を断つのが間に合いませんでした。",
+          "井戸の底から撤退を余儀なくされ、粘液が再び周辺に広がりました。",
+          "封じ込めに失敗し、「仔」の出現が続きました。"
+        ]
+      }
     }
   }
 }

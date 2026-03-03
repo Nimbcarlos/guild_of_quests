@@ -23,7 +23,7 @@
   "expired_at": 3,
   "available_from_turn": 55,
   "duration": 3,
-  "difficulty": 2.2,
+  "difficulty": 2.5,
   "rewards": {
     "xp": 70
   },
@@ -50,74 +50,74 @@
       "ja": "負傷者"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Realizei cirurgia de emergência no local da emboscada e contive hemorragias críticas.",
-        "Removi projéteis e estabilizei os feridos antes de transporte.",
-        "Improvisei mesa cirúrgica no campo e fechei as incisões com sucesso."
-      ],
-      "en": [
-        "I performed emergency surgery at the ambush site and contained critical bleeding.",
-        "I removed projectiles and stabilized the wounded before transport.",
-        "I improvised a surgical station in the field and closed the incisions successfully."
-      ],
-      "es": [
-        "Realicé cirugía de emergencia en el lugar y contuve hemorragias críticas.",
-        "Extraje proyectiles y estabilicé a los heridos antes del traslado.",
-        "Improvisé una mesa quirúrgica y cerré las incisiones."
-      ],
-      "ru": [
-        "Я провёл экстренную операцию на месте засады и остановил кровотечение.",
-        "Извлёк осколки и стабилизировал раненых до транспортировки.",
-        "Оборудовал полевую операционную и зашил раны."
-      ],
-      "zh": [
-        "我在埋伏现场实施紧急手术并控制大出血。",
-        "我取出异物并在转运前稳定伤员。",
-        "我搭建临时手术台并完成缝合。"
-      ],
-      "ja": [
-        "奇襲現場で緊急手術を行い、重度出血を止めました。",
-        "弾片を除去し、搬送前に安定させました。",
-        "野戦で手術環境を整え、縫合を完了しました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "A hemorragia dos feridos superou os recursos disponíveis no local.",
-        "As condições do terreno impediram procedimento seguro.",
-        "Não consegui estabilizar os feridos antes do colapso."
-      ],
-      "en": [
-        "The wounded’s bleeding exceeded available field resources.",
-        "Terrain conditions prevented a safe procedure.",
-        "I failed to stabilize the wounded before collapse."
-      ],
-      "es": [
-        "La hemorragia superó los recursos disponibles.",
-        "El terreno impidió un procedimiento seguro.",
-        "No logré estabilizar a los heridos a tiempo."
-      ],
-      "ru": [
-        "Кровопотеря превысила возможности на месте.",
-        "Условия не позволили провести безопасную операцию.",
-        "Не удалось стабилизировать раненых вовремя."
-      ],
-      "zh": [
-        "伤员失血超过现场可控范围。",
-        "地形条件无法保证安全手术。",
-        "未能及时稳定伤员。"
-      ],
-      "ja": [
-        "出血が現場対応を上回りました。",
-        "地形条件で安全な処置が不可能でした。",
-        "安定化に間に合いませんでした。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Realizei cirurgia de emergência no local da emboscada e contive hemorragias críticas.",
+          "Removi projéteis e estabilizei os feridos antes de transporte.",
+          "Improvisei mesa cirúrgica no campo e fechei as incisões com sucesso."
+        ],
+        "en": [
+          "I performed emergency surgery at the ambush site and contained critical bleeding.",
+          "I removed projectiles and stabilized the wounded before transport.",
+          "I improvised a surgical station in the field and closed the incisions successfully."
+        ],
+        "es": [
+          "Realicé cirugía de emergencia en el lugar y contuve hemorragias críticas.",
+          "Extraje proyectiles y estabilicé a los heridos antes del traslado.",
+          "Improvisé una mesa quirúrgica y cerré las incisiones."
+        ],
+        "ru": [
+          "Я провёл экстренную операцию на месте засады и остановил кровотечение.",
+          "Извлёк осколки и стабилизировал раненых до транспортировки.",
+          "Оборудовал полевую операционную и зашил раны."
+        ],
+        "zh": [
+          "我在埋伏现场实施紧急手术并控制大出血。",
+          "我取出异物并在转运前稳定伤员。",
+          "我搭建临时手术台并完成缝合。"
+        ],
+        "ja": [
+          "奇襲現場で緊急手術を行い、重度出血を止めました。",
+          "弾片を除去し、搬送前に安定させました。",
+          "野戦で手術環境を整え、縫合を完了しました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A hemorragia dos feridos superou os recursos disponíveis no local.",
+          "As condições do terreno impediram procedimento seguro.",
+          "Não consegui estabilizar os feridos antes do colapso."
+        ],
+        "en": [
+          "The wounded’s bleeding exceeded available field resources.",
+          "Terrain conditions prevented a safe procedure.",
+          "I failed to stabilize the wounded before collapse."
+        ],
+        "es": [
+          "La hemorragia superó los recursos disponibles.",
+          "El terreno impidió un procedimiento seguro.",
+          "No logré estabilizar a los heridos a tiempo."
+        ],
+        "ru": [
+          "Кровопотеря превысила возможности на месте.",
+          "Условия не позволили провести безопасную операцию.",
+          "Не удалось стабилизировать раненых вовремя."
+        ],
+        "zh": [
+          "伤员失血超过现场可控范围。",
+          "地形条件无法保证安全手术。",
+          "未能及时稳定伤员。"
+        ],
+        "ja": [
+          "出血が現場対応を上回りました。",
+          "地形条件で安全な処置が不可能でした。",
+          "安定化に間に合いませんでした。"
+        ]
+      }
     }
   }
-}  
 }

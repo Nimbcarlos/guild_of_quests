@@ -21,7 +21,7 @@
   "expired_at": 3,
   "available_from_turn": 2,
   "duration": 3,
-  "difficulty": 1.5,
+  "difficulty": 1.0,
   "rewards": {
     "xp": 50
   },
@@ -46,6 +46,140 @@
       "ru": "слизь",
       "zh": "史莱姆",
       "ja": "スライム"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "religion": {
+        "pt": [
+          "Consagrei o poço e purifiquei o slime com rito sagrado, dissipando sua corrupção.",
+          "Tracei selos de bênção na borda do poço e a criatura foi desfeita em luz.",
+          "Entoei a prece correta e o slime se desintegrou, deixando a água purificada."
+        ],
+        "en": [
+          "I consecrated the well and purified the slime through sacred rite, dispelling its corruption.",
+          "I traced blessed seals along the rim and the creature dissolved into light.",
+          "I recited the proper prayer and the slime disintegrated, leaving the water purified."
+        ],
+        "es": [
+          "Consagré el pozo y purifiqué al slime mediante rito sagrado, disipando su corrupción.",
+          "Trazé sellos benditos en el borde y la criatura se disolvió en luz.",
+          "Recité la plegaria adecuada y el slime se desintegró, dejando el agua purificada."
+        ],
+        "ru": [
+          "Я освятил колодец и очистил слизь священным обрядом, рассеяв её скверну.",
+          "Я начертал благословенные печати по краю, и существо растворилось в свете.",
+          "Я произнёс нужную молитву, и слизь распалась, оставив воду чистой."
+        ],
+        "zh": [
+          "我为水井进行祝圣仪式，用神圣之力净化了史莱姆。",
+          "我在井口刻下祝福印记，生物化为光芒消散。",
+          "我诵念祷文，史莱姆解体，井水恢复清洁。"
+        ],
+        "ja": [
+          "井戸を聖別し、聖なる儀式でスライムを浄化しました。",
+          "縁に祝福の印を刻み、スライムは光となって消えました。",
+          "正しい祈りを捧げ、スライムは浄化され、水は清まりました。"
+        ]
+      },
+      "arcana": {
+        "pt": [
+          "Desestabilizei a estrutura arcana do slime e neutralizei seus resíduos no fundo do poço.",
+          "Identifiquei o núcleo mágico da criatura e o dissipei com precisão.",
+          "Usei contenção arcana para impedir a regeneração e eliminei os vestígios contaminantes."
+        ],
+        "en": [
+          "I destabilized the slime’s arcane structure and neutralized its residue at the bottom of the well.",
+          "I identified the creature’s magical core and precisely dispelled it.",
+          "I applied arcane containment to prevent regeneration and eliminated the contaminating remnants."
+        ],
+        "es": [
+          "Desestabilicé la estructura arcana del slime y neutralicé sus residuos en el fondo del pozo.",
+          "Identifiqué el núcleo mágico de la criatura y lo disipé con precisión.",
+          "Apliqué contención arcana para evitar su regeneración y eliminé los restos contaminantes."
+        ],
+        "ru": [
+          "Я нарушил арканную структуру слизи и нейтрализовал её остатки на дне колодца.",
+          "Я обнаружил магическое ядро существа и точно рассеял его.",
+          "Я применил арканное сдерживание, предотвратил регенерацию и устранил загрязняющие остатки."
+        ],
+        "zh": [
+          "我破坏了史莱姆的奥术结构，并在井底中和了残留物。",
+          "我找到其魔法核心并精准驱散。",
+          "我施加奥术封锁，阻止再生并清除了污染残渣。"
+        ],
+        "ja": [
+          "スライムの魔術構造を崩し、井戸の底の残留物も無力化しました。",
+          "魔力の核を特定し、正確に解除しました。",
+          "再生を封じる術式を施し、汚染の残滓を完全に除去しました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Atrai o slime pela borda do poço e destruí a criatura antes que voltasse ao fundo.",
+          "Mantive o slime preso no alcance e o finalizei sem precisar descer no poço.",
+          "Usei vibrações controladas para puxar o slime até a superfície e acabei com ele."
+        ],
+        "en": [
+          "I lured the slime to the well’s edge and destroyed it before it sank back down.",
+          "I kept the slime within reach and finished it without going down into the well.",
+          "I used controlled vibrations to draw the slime up and ended it."
+        ],
+        "es": [
+          "Atraí al slime hasta el borde del pozo y lo destruí antes de que volviera al fondo.",
+          "Mantuve al slime al alcance y lo eliminé sin bajar al pozo.",
+          "Usé vibraciones controladas para sacarlo a la superficie y acabar con él."
+        ],
+        "ru": [
+          "Я выманил слизь к краю колодца и уничтожил её, прежде чем она ушла обратно вниз.",
+          "Я удерживал слизь в зоне досягаемости и добил её, не спускаясь в колодец.",
+          "Я использовал контролируемые вибрации, чтобы поднять слизь к поверхности, и уничтожил её."
+        ],
+        "zh": [
+          "我在井口引诱史莱姆上来，并在它沉回井底前将其消灭。",
+          "我让史莱姆一直处在可攻击范围内，不用下井就解决了它。",
+          "我用可控的震动把史莱姆引到井口，然后彻底消灭。"
+        ],
+        "ja": [
+          "井戸の縁へ誘い出し、底へ戻る前にスライムを仕留めました。",
+          "スライムを射程内に留め、井戸へ降りずに討伐しました。",
+          "振動を調整してスライムを引き上げ、その場で排除しました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "O slime recuou para o fundo do poço e não consegui finalizá-lo a tempo.",
+          "Perdi o controle da atração e o slime ficou fora de alcance, mantendo o poço contaminado.",
+          "A tentativa de puxá-lo falhou e a criatura se dispersou no fundo antes do golpe final."
+        ],
+        "en": [
+          "The slime retreated to the bottom of the well and I couldn’t finish it in time.",
+          "I lost control of the lure and the slime stayed out of reach, keeping the well contaminated.",
+          "My attempt to draw it up failed and it dispersed below before the final blow."
+        ],
+        "es": [
+          "El slime se retiró al fondo del pozo y no pude rematarlo a tiempo.",
+          "Perdí el control de la distracción y el slime quedó fuera de alcance, manteniendo el pozo contaminado.",
+          "El intento de atraerlo falló y la criatura se dispersó abajo antes del golpe final."
+        ],
+        "ru": [
+          "Слизь ушла на дно колодца, и я не успел её добить.",
+          "Я потерял контроль над приманкой, и слизь осталась вне досягаемости, продолжая загрязнять колодец.",
+          "Попытка выманить её провалилась: существо распалось внизу прежде, чем я нанёс решающий удар."
+        ],
+        "zh": [
+          "史莱姆退回井底，我没能及时解决它。",
+          "我没控制好引诱节奏，史莱姆始终够不着，水井仍被污染。",
+          "引上来的尝试失败，史莱姆在井底分散开来，躲过了最后一击。"
+        ],
+        "ja": [
+          "スライムが井戸の底へ退き、時間内に仕留めきれませんでした。",
+          "誘導の制御を失い、スライムが射程外に留まり、汚染が続きました。",
+          "引き上げに失敗し、決定打の前に底で散ってしまいました。"
+        ]
+      }
     }
   }
 }

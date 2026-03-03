@@ -24,9 +24,9 @@
   "expired_at": 5,
   "available_from_turn": 17,
   "duration": 3,
-  "difficulty": 2.2,
+  "difficulty": 2.0,
   "rewards": {
-    "xp": 110
+    "xp": 100
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -51,96 +51,96 @@
       "ja": "宴会"
     }
   },
-"conclusion": {
-  "success": {
-    "diplomacy": {
-      "pt": [
-        "Conseguimos mediar as conversas mais difíceis. Enquanto o salão estava distraído com o show, convencemos os patriarcas de que a paz seria mais lucrativa que a guerra. A trégua está selada.",
-        "Trabalhamos nos sussurros e nos apertos de mão. Conseguimos desviar de armadilhas verbais e acalmar os líderes das casas, transformando o ódio em um aperto de mão formal e necessário.",
-        "Nossa negociação foi impecável. Conseguimos aproveitar cada brecha no espetáculo para reforçar os termos do tratado, garantindo que nenhum nobre deixasse a mesa sem assinar o documento."
-      ],
-      "en": [
-        "We managed to mediate the most difficult conversations. While the hall was distracted by the show, we convinced the patriarchs that peace would be more profitable than war. The truce is sealed.",
-        "We worked in whispers and handshakes. We managed to dodge verbal traps and calm the house leaders, turning hatred into a formal and necessary handshake.",
-        "Our negotiation was flawless. We managed to take advantage of every gap in the show to reinforce the treaty terms, ensuring that no noble left the table without signing the document."
-      ],
-      "ru": [
-        "Нам удалось провести самые сложные переговоры. Пока зал был отвлечен шоу, мы убедили патриархов, что мир будет выгоднее войны. Перемирие скреплено.",
-        "Мы работали шепотом и рукопожатиями. Нам удалось избежать словесных ловушек и успокоить лидеров домов, превратив ненависть в формальное и необходимое рукопожатие.",
-        " Наши переговоры были безупречны. Нам удалось использовать каждую паузу в представлении, чтобы подкрепить условия договора, гарантируя, что ни один дворянин не покинет стол, не подписав документ."
-      ],
-      "zh": [
-        "我们成功调解了最困难的对话。当大厅被演出吸引时，我们说服了家主们，和平将比战争更有利可图。停战协议达成了。",
-        "我们在低语和握手中努力。我们成功避开了言语陷阱，安抚了家族领袖，将仇恨化为正式且必要的握手。",
-        "我们的谈判无懈可击。我们成功利用演出的每一个间隙来强化条约条款，确保没有一位贵族在未签署文件的情况下离开桌子。"
-      ],
-      "ja": [
-        "最も困難な会話を仲裁することができました。会場がショーに気を取られている間に、戦争よりも平和の方が利益になると家長たちを説得しました。休戦は成立しました。",
-        "囁きと握手の中で交渉を進めました。言葉の罠をかわし、各家のリーダーたちを落ち着かせ、憎しみを形式的かつ必要な握手へと変えることができました。",
-        "私たちの交渉は完璧でした。見世物のあらゆる隙を利用して条約の条件を強化し、どの貴族も署名せずに席を立つことがないようにしました。"
-      ]
+  "conclusion": {
+    "success": {
+      "diplomacy": {
+        "pt": [
+          "Conseguimos mediar as conversas mais difíceis. Enquanto o salão estava distraído com o show, convencemos os patriarcas de que a paz seria mais lucrativa que a guerra. A trégua está selada.",
+          "Trabalhamos nos sussurros e nos apertos de mão. Conseguimos desviar de armadilhas verbais e acalmar os líderes das casas, transformando o ódio em um aperto de mão formal e necessário.",
+          "Nossa negociação foi impecável. Conseguimos aproveitar cada brecha no espetáculo para reforçar os termos do tratado, garantindo que nenhum nobre deixasse a mesa sem assinar o documento."
+        ],
+        "en": [
+          "We managed to mediate the most difficult conversations. While the hall was distracted by the show, we convinced the patriarchs that peace would be more profitable than war. The truce is sealed.",
+          "We worked in whispers and handshakes. We managed to dodge verbal traps and calm the house leaders, turning hatred into a formal and necessary handshake.",
+          "Our negotiation was flawless. We managed to take advantage of every gap in the show to reinforce the treaty terms, ensuring that no noble left the table without signing the document."
+        ],
+        "ru": [
+          "Нам удалось провести самые сложные переговоры. Пока зал был отвлечен шоу, мы убедили патриархов, что мир будет выгоднее войны. Перемирие скреплено.",
+          "Мы работали шепотом и рукопожатиями. Нам удалось избежать словесных ловушек и успокоить лидеров домов, превратив ненависть в формальное и необходимое рукопожатие.",
+          " Наши переговоры были безупречны. Нам удалось использовать каждую паузу в представлении, чтобы подкрепить условия договора, гарантируя, что ни один дворянин не покинет стол, не подписав документ."
+        ],
+        "zh": [
+          "我们成功调解了最困难的对话。当大厅被演出吸引时，我们说服了家主们，和平将比战争更有利可图。停战协议达成了。",
+          "我们在低语和握手中努力。我们成功避开了言语陷阱，安抚了家族领袖，将仇恨化为正式且必要的握手。",
+          "我们的谈判无懈可击。我们成功利用演出的每一个间隙来强化条约条款，确保没有一位贵族在未签署文件的情况下离开桌子。"
+        ],
+        "ja": [
+          "最も困難な会話を仲裁することができました。会場がショーに気を取られている間に、戦争よりも平和の方が利益になると家長たちを説得しました。休戦は成立しました。",
+          "囁きと握手の中で交渉を進めました。言葉の罠をかわし、各家のリーダーたちを落ち着かせ、憎しみを形式的かつ必要な握手へと変えることができました。",
+          "私たちの交渉は完璧でした。見世物のあらゆる隙を利用して条約の条件を強化し、どの貴族も署名せずに席を立つことがないようにしました。"
+        ]
+      },
+      "performance": {
+        "pt": [
+          "Conseguimos! No momento em que os ânimos se exaltaram, iniciamos um número musical tão impactante que os insultos foram perdidos na melodia. Criamos a cortina de fumaça perfeita para que o acordo avançasse.",
+          "Nossa sincronia artística salvou a noite. Conseguimos usar malabares e canções para manter os olhos dos nobres longe das discussões acaloradas, garantindo que o banquete continuasse em paz.",
+          "Transformamos a tensão em aplausos. Conseguimos abafar cada comentário sarcástico com acordes precisos, permitindo que a diplomacia seguisse seu curso sem interrupções violentas."
+        ],
+        "en": [
+          "We did it! At the moment tempers flared, we started such an impactful musical number that the insults were lost in the melody. We created the perfect smokescreen for the agreement to move forward.",
+          "Our artistic synchrony saved the night. We managed to use juggling and songs to keep the nobles' eyes away from heated discussions, ensuring the banquet continued in peace.",
+          "We turned tension into applause. We managed to drown out every sarcastic comment with precise chords, allowing diplomacy to take its course without violent interruptions."
+        ],
+        "ru": [
+          "Мы сделали это! В момент, когда страсти накалились, мы начали такое впечатляющее музыкальное выступление, что оскорбления утонули в мелодии. Мы создали идеальную дымовую завесу для продвижения соглашения.",
+          "Наша артистическая синхронность спасла вечер. Нам удалось с помощью жонглирования и песен отвлечь взгляды знати от жарких споров, обеспечив мирное продолжение банкета.",
+          "Мы превратили напряжение в аплодисменты. Нам удалось заглушить каждое саркастическое замечание точными аккордами, позволив дипломатии идти своим чередом без насильственных помех."
+        ],
+        "zh": [
+          "我们做到了！在情绪失控的时刻，我们开始了一场极具冲击力的音乐表演，让羞辱之词消失在旋律中。我们为协议的推进创造了完美的烟幕。",
+          "我们的艺术配合拯救了夜晚。我们成功地利用杂技和歌曲吸引了贵族们的注意力，让他们远离激烈的争论，确保宴会在和平中继续。",
+          "我们将紧张气氛转化为掌声。我们成功地用精准的和弦掩盖了每一个讽刺的评论，让外交活动在没有暴力干扰的情况下顺利进行。"
+        ],
+        "ja": [
+          "やりました！感情が爆発しそうになった瞬間、非常に印象的な演奏を始め、侮辱の言葉をメロディーの中に消し去りました。合意を進めるための完璧な煙幕を作ることができました。",
+          "私たちの芸術的な同調が夜を救いました。ジャグリングと歌を駆使して、貴族たちの目を激しい議論からそらし、晩餐会を平和に続けることができました。",
+          "緊張を拍手に変えました。的確なコードですべての皮肉なコメントをかき消し、暴力的な中断なしに外交が進むようにしました。"
+        ]
+      }
     },
-    "performance": {
-      "pt": [
-        "Conseguimos! No momento em que os ânimos se exaltaram, iniciamos um número musical tão impactante que os insultos foram perdidos na melodia. Criamos a cortina de fumaça perfeita para que o acordo avançasse.",
-        "Nossa sincronia artística salvou a noite. Conseguimos usar malabares e canções para manter os olhos dos nobres longe das discussões acaloradas, garantindo que o banquete continuasse em paz.",
-        "Transformamos a tensão em aplausos. Conseguimos abafar cada comentário sarcástico com acordes precisos, permitindo que a diplomacia seguisse seu curso sem interrupções violentas."
-      ],
-      "en": [
-        "We did it! At the moment tempers flared, we started such an impactful musical number that the insults were lost in the melody. We created the perfect smokescreen for the agreement to move forward.",
-        "Our artistic synchrony saved the night. We managed to use juggling and songs to keep the nobles' eyes away from heated discussions, ensuring the banquet continued in peace.",
-        "We turned tension into applause. We managed to drown out every sarcastic comment with precise chords, allowing diplomacy to take its course without violent interruptions."
-      ],
-      "ru": [
-        "Мы сделали это! В момент, когда страсти накалились, мы начали такое впечатляющее музыкальное выступление, что оскорбления утонули в мелодии. Мы создали идеальную дымовую завесу для продвижения соглашения.",
-        "Наша артистическая синхронность спасла вечер. Нам удалось с помощью жонглирования и песен отвлечь взгляды знати от жарких споров, обеспечив мирное продолжение банкета.",
-        "Мы превратили напряжение в аплодисменты. Нам удалось заглушить каждое саркастическое замечание точными аккордами, позволив дипломатии идти своим чередом без насильственных помех."
-      ],
-      "zh": [
-        "我们做到了！在情绪失控的时刻，我们开始了一场极具冲击力的音乐表演，让羞辱之词消失在旋律中。我们为协议的推进创造了完美的烟幕。",
-        "我们的艺术配合拯救了夜晚。我们成功地利用杂技和歌曲吸引了贵族们的注意力，让他们远离激烈的争论，确保宴会在和平中继续。",
-        "我们将紧张气氛转化为掌声。我们成功地用精准的和弦掩盖了每一个讽刺的评论，让外交活动在没有暴力干扰的情况下顺利进行。"
-      ],
-      "ja": [
-        "やりました！感情が爆発しそうになった瞬間、非常に印象的な演奏を始め、侮辱の言葉をメロディーの中に消し去りました。合意を進めるための完璧な煙幕を作ることができました。",
-        "私たちの芸術的な同調が夜を救いました。ジャグリングと歌を駆使して、貴族たちの目を激しい議論からそらし、晩餐会を平和に続けることができました。",
-        "緊張を拍手に変えました。的確なコードですべての皮肉なコメントをかき消し、暴力的な中断なしに外交が進むようにしました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "Falhamos em manter a ordem. Uma nota errada na música permitiu que um insulto fosse ouvido, e a diplomacia não foi rápida o suficiente para evitar que pratos começassem a voar. A trégua ruiu.",
-        "Não conseguimos a sincronia necessária. O espetáculo não distraiu o suficiente e as negociações nos bastidores esquentaram até que os guardas de ambas as casas desembainhassem as espadas.",
-        "O banquete terminou em desastre. Enquanto tentávamos mediar a paz, o entretenimento falhou em aliviar o clima pesado. Saímos de lá antes que a guerra civil recomeçasse no próprio salão."
-      ],
-      "en": [
-        "We failed to maintain order. A wrong note in the music allowed an insult to be heard, and diplomacy wasn't fast enough to stop plates from flying. The truce collapsed.",
-        "We couldn't achieve the necessary synchrony. The show didn't distract enough and the backstage negotiations heated up until guards from both houses drew their swords.",
-        "The banquet ended in disaster. While we tried to mediate peace, the entertainment failed to lighten the heavy mood. We left before civil war broke out in the hall itself."
-      ],
-      "es": [
-        "Fracasamos en mantener el orden. Una nota falsa permitió que se oyera un insulto y la diplomacia no fue lo suficientemente rápida para evitar que los platos volaran. La tregua se derrumbó.",
-        "No logramos la sincronía necesaria. El espectáculo no distrajo lo suficiente y las negociaciones se calentaron hasta que los guardias desenvainaron sus espadas.",
-        "El banquete terminó en desastre. Mientras intentábamos mediar la paz, el entretenimiento no logró aliviar el ambiente pesado. Nos retiramos antes de que estallara la violencia."
-      ],
-      "ru": [
-        "Нам не удалось сохранить порядок. Фальшивая нота позволила услышать оскорбление, а дипломатия оказалась недостаточно быстрой, чтобы остановить летящие тарелки. Перемирие рухнуло.",
-        "Мы не достигли нужной синхронности. Шоу недостаточно отвлекало, и переговоры накалились до того, что стража обоих домов обнажила мечи.",
-        "Пир закончился катастрофой. Пока мы пытались наладить мир, развлечения не смогли разрядить тяжелую атмосферу. Мы ушли до того, как в зале вспыхнула гражданская война."
-      ],
-      "zh": [
-        "我们未能维持秩序。音乐中的一个错音让羞辱之词被听见，外交手段没能快到阻止盘子乱飞。停战宣告失败。",
-        "我们没能达到必要的同步。演出分心程度不够，幕后谈判升温，直到两家的卫兵都拔出了剑。",
-        "宴会以灾难告终。当我们试图调解和平时，娱乐活动未能缓解沉重的气氛。在会场内爆发内战之前，我们离开了。"
-      ],
-      "ja": [
-        "秩序を維持することに失敗しました。音楽の音程が外れた瞬間に侮辱が聞こえてしまい、外交も皿が飛び交うのを止めるほど速くはありませんでした。休戦は崩壊しました。",
-        "必要な同調が得られませんでした。余興が十分に注意を引けず、舞台裏の交渉は両家の衛兵が剣を抜くほどに加熱してしまいました。",
-        "晩餐会は悲惨な結果に終わりました。和平を調停しようとする間、余興は重苦しい雰囲気を和らげることができませんでした。広間で内戦が始まる前に私たちは撤退しました。"
-      ]
+    "failure": {
+      "default": {
+        "pt": [
+          "Falhamos em manter a ordem. Uma nota errada na música permitiu que um insulto fosse ouvido, e a diplomacia não foi rápida o suficiente para evitar que pratos começassem a voar. A trégua ruiu.",
+          "Não conseguimos a sincronia necessária. O espetáculo não distraiu o suficiente e as negociações nos bastidores esquentaram até que os guardas de ambas as casas desembainhassem as espadas.",
+          "O banquete terminou em desastre. Enquanto tentávamos mediar a paz, o entretenimento falhou em aliviar o clima pesado. Saímos de lá antes que a guerra civil recomeçasse no próprio salão."
+        ],
+        "en": [
+          "We failed to maintain order. A wrong note in the music allowed an insult to be heard, and diplomacy wasn't fast enough to stop plates from flying. The truce collapsed.",
+          "We couldn't achieve the necessary synchrony. The show didn't distract enough and the backstage negotiations heated up until guards from both houses drew their swords.",
+          "The banquet ended in disaster. While we tried to mediate peace, the entertainment failed to lighten the heavy mood. We left before civil war broke out in the hall itself."
+        ],
+        "es": [
+          "Fracasamos en mantener el orden. Una nota falsa permitió que se oyera un insulto y la diplomacia no fue lo suficientemente rápida para evitar que los platos volaran. La tregua se derrumbó.",
+          "No logramos la sincronía necesaria. El espectáculo no distrajo lo suficiente y las negociaciones se calentaron hasta que los guardias desenvainaron sus espadas.",
+          "El banquete terminó en desastre. Mientras intentábamos mediar la paz, el entretenimiento no logró aliviar el ambiente pesado. Nos retiramos antes de que estallara la violencia."
+        ],
+        "ru": [
+          "Нам не удалось сохранить порядок. Фальшивая нота позволила услышать оскорбление, а дипломатия оказалась недостаточно быстрой, чтобы остановить летящие тарелки. Перемирие рухнуло.",
+          "Мы не достигли нужной синхронности. Шоу недостаточно отвлекало, и переговоры накалились до того, что стража обоих домов обнажила мечи.",
+          "Пир закончился катастрофой. Пока мы пытались наладить мир, развлечения не смогли разрядить тяжелую атмосферу. Мы ушли до того, как в зале вспыхнула гражданская война."
+        ],
+        "zh": [
+          "我们未能维持秩序。音乐中的一个错音让羞辱之词被听见，外交手段没能快到阻止盘子乱飞。停战宣告失败。",
+          "我们没能达到必要的同步。演出分心程度不够，幕后谈判升温，直到两家的卫兵都拔出了剑。",
+          "宴会以灾难告终。当我们试图调解和平时，娱乐活动未能缓解沉重的气氛。在会场内爆发内战之前，我们离开了。"
+        ],
+        "ja": [
+          "秩序を維持することに失敗しました。音楽の音程が外れた瞬間に侮辱が聞こえてしまい、外交も皿が飛び交うのを止めるほど速くはありませんでした。休戦は崩壊しました。",
+          "必要な同調が得られませんでした。余興が十分に注意を引けず、舞台裏の交渉は両家の衛兵が剣を抜くほどに加熱してしまいました。",
+          "晩餐会は悲惨な結果に終わりました。和平を調停しようとする間、余興は重苦しい雰囲気を和らげることができませんでした。広間で内戦が始まる前に私たちは撤退しました。"
+        ]
+      }
     }
   }
-}
 }

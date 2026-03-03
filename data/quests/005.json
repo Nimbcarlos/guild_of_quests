@@ -24,7 +24,7 @@
   "expired_at": 4,
   "available_from_turn": 6,
   "duration": 3,
-  "difficulty": 1.5,
+  "difficulty": 1.0,
   "rewards": {
     "xp": 50
   },
@@ -51,74 +51,74 @@
       "ja": "石"
     }
   },
-"conclusion": {
-  "success": {
-    "engineering": {
-      "pt": [
-        "Identifiquei o ponto de equilíbrio da pedra principal. Usando alavancas improvisadas e os ângulos certos, fiz com que o peso da montanha trabalhasse a nosso favor, desobstruindo o caminho com o mínimo de esforço.",
-        "Analisei a estabilidade do entulho e instalei reforços antes de mover a rocha central. A passagem agora está segura e não corre risco de novos deslizamentos imediatos.",
-        "Em vez de força bruta, utilizei contrapesos para deslocar o bloqueio. Os vilarejos agora podem retomar o comércio graças a essa intervenção técnica."
-      ],
-      "en": [
-        "I identified the main boulder's balance point. Using improvised levers and the right angles, I made the mountain's weight work in our favor, clearing the path with minimal effort.",
-        "I analyzed the rubble's stability and installed reinforcements before moving the central rock. The passage is now safe and at no risk of immediate further slides.",
-        "Instead of brute strength, I used counterweights to shift the blockage. The villages can now resume trade thanks to this technical intervention."
-      ],
-      "es": [
-        "Identifiqué el punto de equilibrio de la piedra principal. Usando palancas improvisadas y los ángulos correctos, hice que el peso de la montaña trabajara a nuestro favor, despejando el camino con el mínimo esfuerzo.",
-        "Analicé la estabilidad de los escombros e instalé refuerzos antes de mover la roca central. El paso ahora es seguro y no corre riesgo de nuevos deslizamientos inmediatos.",
-        "En lugar de fuerza bruta, utilicé contrapesos para desplazar el bloqueo. Los pueblos ahora pueden retomar el comercio gracias a esta intervención técnica."
-      ],
-      "ru": [
-        "Я определила точку равновесия главного валуна. Используя импровизированные рычаги и правильные углы, я заставила вес горы работать на нас, расчистив путь с минимальными усилиями.",
-        "Я проанализировала устойчивость обломков и установила укрепления, прежде чем сдвинуть центральный камень. Теперь проход безопасен и нет риска немедленных новых оползней.",
-        "Вместо грубой силы я использовала противовесы, чтобы сместить завал. Теперь деревни могут возобновить торговлю благодаря этому техническому вмешательству."
-      ],
-      "zh": [
-        "我找到了主巨石的平衡点。通过即兴发挥的杠杆原理和精准的角度，我让大山自身的重量为我们所用，以最小的代价清理了道路。",
-        "在移动中心岩石之前，我分析了碎石的稳定性并安装了加固装置。现在通道很安全，没有再次发生即时滑坡的风险。",
-        "我没有使用蛮力，而是利用配重移开了堵塞物。多亏了这次技术干预，村庄之间现在可以恢复贸易了。"
-      ],
-      "ja": [
-        "巨大な岩の重心を特定しました。即席のテコと適切な角度を利用することで、山の重みを逆利用し、最小限の労力で道を切り開きました。",
-        "中央の岩を動かす前に、瓦礫の安定性を分析し補強を施しました。通路は現在安全で、すぐに再崩落する危険はありません。",
-        "腕力に頼る代わりに、カウンターウェイト（分銅）を使用して塞いでいた岩を動かしました。この技術的な介入のおかげで、村々は貿易を再開できます。"
-      ]
-    },  
-"default": {
-      "pt": [
-        "Foi um trabalho exaustivo, mas consegui empurrar a pedra principal para o precipício. O suor e o esforço valeram a pena; a rota entre os vilarejos está finalmente aberta.",
-        "Removi os escombros menores e, com um esforço final, desloquei a rocha que bloqueava a passagem. Os moradores locais celebraram a reabertura do caminho.",
-        "A pedra era pesada, mas minha persistência foi maior. Limpei o caminho e garanti que as caravanas pudessem passar sem dificuldades novamente."
-      ],
-      "en": [
-        "It was grueling work, but I managed to push the main boulder into the precipice. The sweat and effort were worth it; the route between the villages is finally open.",
-        "I removed the smaller debris and, with a final push, displaced the rock blocking the passage. The local residents celebrated the reopening of the path.",
-        "The stone was heavy, but my persistence was greater. I cleared the way and ensured that caravans could pass without difficulty again."
-      ],
-      "es": [
-        "Fue un trabajo agotador, pero logré empujar la piedra principal hacia el precipicio. El sudor y el esfuerzo valieron la pena; la ruta entre las aldeas finalmente está abierta.",
-        "Retiré los escombros menores y, con un esfuerzo final, desplacé la roca que bloqueaba el paso. Los residentes locales celebraron la reapertura del camino.",
-        "La piedra era pesada, pero mi persistencia fue mayor. Despejé el camino y aseguré que las caravanas pudieran pasar sin dificultades nuevamente."
-      ],
-      "ru": [
-        "Это была изнурительная работа, но мне удалось столкнуть главный валун в пропасть. Пот и усилия того стоили; путь между деревнями наконец открыт.",
-        "Я убрала мелкие обломки и последним рывком сдвинула скалу, преграждавшую путь. Местные жители отпраздновали открытие дороги.",
-        "Камень был тяжелым, но моя настойчивость оказалась сильнее. Я расчистила путь и гарантировала, что караваны снова смогут проходить без труда."
-      ],
-      "zh": [
-        "这是一项艰苦的工作，但我成功地将主巨石推下了深渊。汗水和努力没有白费；村庄之间的航线终于打通了。",
-        "我清理了较小的碎片，并在最后一次冲刺中移开了堵塞通道的岩石。当地居民庆祝道路重新开放。",
-        "石头很重，但我的毅力更强。我清理了道路，确保商队可以再次毫无困难地通过。"
-      ],
-      "ja": [
-        "過酷な作業でしたが、主要な岩を崖の下に突き落とすことができました。汗と努力の甲斐あって、村々の間のルートがついに開通しました。",
-        "小さな瓦礫を取り除き、最後の一押しで通路を塞いでいた岩を動かしました。地元住民は道の再開を祝いました。",
-        "石は重かったですが、私の執念が勝りました。道を清掃し、キャラバンが再び支障なく通行できることを確認しました。"
-      ]
-    }
+  "conclusion": {
+    "success": {
+      "engineering": {
+        "pt": [
+          "Identifiquei o ponto de equilíbrio da pedra principal. Usando alavancas improvisadas e os ângulos certos, fiz com que o peso da montanha trabalhasse a nosso favor, desobstruindo o caminho com o mínimo de esforço.",
+          "Analisei a estabilidade do entulho e instalei reforços antes de mover a rocha central. A passagem agora está segura e não corre risco de novos deslizamentos imediatos.",
+          "Em vez de força bruta, utilizei contrapesos para deslocar o bloqueio. Os vilarejos agora podem retomar o comércio graças a essa intervenção técnica."
+        ],
+        "en": [
+          "I identified the main boulder's balance point. Using improvised levers and the right angles, I made the mountain's weight work in our favor, clearing the path with minimal effort.",
+          "I analyzed the rubble's stability and installed reinforcements before moving the central rock. The passage is now safe and at no risk of immediate further slides.",
+          "Instead of brute strength, I used counterweights to shift the blockage. The villages can now resume trade thanks to this technical intervention."
+        ],
+        "es": [
+          "Identifiqué el punto de equilibrio de la piedra principal. Usando palancas improvisadas y los ángulos correctos, hice que el peso de la montaña trabajara a nuestro favor, despejando el camino con el mínimo esfuerzo.",
+          "Analicé la estabilidad de los escombros e instalé refuerzos antes de mover la roca central. El paso ahora es seguro y no corre riesgo de nuevos deslizamientos inmediatos.",
+          "En lugar de fuerza bruta, utilicé contrapesos para desplazar el bloqueo. Los pueblos ahora pueden retomar el comercio gracias a esta intervención técnica."
+        ],
+        "ru": [
+          "Я определила точку равновесия главного валуна. Используя импровизированные рычаги и правильные углы, я заставила вес горы работать на нас, расчистив путь с минимальными усилиями.",
+          "Я проанализировала устойчивость обломков и установила укрепления, прежде чем сдвинуть центральный камень. Теперь проход безопасен и нет риска немедленных новых оползней.",
+          "Вместо грубой силы я использовала противовесы, чтобы сместить завал. Теперь деревни могут возобновить торговлю благодаря этому техническому вмешательству."
+        ],
+        "zh": [
+          "我找到了主巨石的平衡点。通过即兴发挥的杠杆原理和精准的角度，我让大山自身的重量为我们所用，以最小的代价清理了道路。",
+          "在移动中心岩石之前，我分析了碎石的稳定性并安装了加固装置。现在通道很安全，没有再次发生即时滑坡的风险。",
+          "我没有使用蛮力，而是利用配重移开了堵塞物。多亏了这次技术干预，村庄之间现在可以恢复贸易了。"
+        ],
+        "ja": [
+          "巨大な岩の重心を特定しました。即席のテコと適切な角度を利用することで、山の重みを逆利用し、最小限の労力で道を切り開きました。",
+          "中央の岩を動かす前に、瓦礫の安定性を分析し補強を施しました。通路は現在安全で、すぐに再崩落する危険はありません。",
+          "腕力に頼る代わりに、カウンターウェイト（分銅）を使用して塞いでいた岩を動かしました。この技術的な介入のおかげで、村々は貿易を再開できます。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Foi um trabalho exaustivo, mas consegui empurrar a pedra principal para o precipício. O suor e o esforço valeram a pena; a rota entre os vilarejos está finalmente aberta.",
+          "Removi os escombros menores e, com um esforço final, desloquei a rocha que bloqueava a passagem. Os moradores locais celebraram a reabertura do caminho.",
+          "A pedra era pesada, mas minha persistência foi maior. Limpei o caminho e garanti que as caravanas pudessem passar sem dificuldades novamente."
+        ],
+        "en": [
+          "It was grueling work, but I managed to push the main boulder into the precipice. The sweat and effort were worth it; the route between the villages is finally open.",
+          "I removed the smaller debris and, with a final push, displaced the rock blocking the passage. The local residents celebrated the reopening of the path.",
+          "The stone was heavy, but my persistence was greater. I cleared the way and ensured that caravans could pass without difficulty again."
+        ],
+        "es": [
+          "Fue un trabajo agotador, pero logré empujar la piedra principal hacia el precipicio. El sudor y el esfuerzo valieron la pena; la ruta entre las aldeas finalmente está abierta.",
+          "Retiré los escombros menores y, con un esfuerzo final, desplacé la roca que bloqueaba el paso. Los residentes locales celebraron la reapertura del camino.",
+          "La piedra era pesada, pero mi persistencia fue mayor. Despejé el camino y aseguré que las caravanas pudieran pasar sin dificultades nuevamente."
+        ],
+        "ru": [
+          "Это была изнурительная работа, но мне удалось столкнуть главный валун в пропасть. Пот и усилия того стоили; путь между деревнями наконец открыт.",
+          "Я убрала мелкие обломки и последним рывком сдвинула скалу, преграждавшую путь. Местные жители отпраздновали открытие дороги.",
+          "Камень был тяжелым, но моя настойчивость оказалась сильнее. Я расчистила путь и гарантировала, что караваны снова смогут проходить без труда."
+        ],
+        "zh": [
+          "这是一项艰苦的工作，但我成功地将主巨石推下了深渊。汗水和努力没有白费；村庄之间的航线终于打通了。",
+          "我清理了较小的碎片，并在最后一次冲刺中移开了堵塞通道的岩石。当地居民庆祝道路重新开放。",
+          "石头很重，但我的毅力更强。我清理了道路，确保商队可以再次毫无困难地通过。"
+        ],
+        "ja": [
+          "過酷な作業でしたが、主要な岩を崖の下に突き落とすことができました。汗と努力の甲斐あって、村々の間のルートがついに開通しました。",
+          "小さな瓦礫を取り除き、最後の一押しで通路を塞いでいた岩を動かしました。地元住民は道の再開を祝いました。",
+          "石は重かったですが、私の執念が勝りました。道を清掃し、キャラバンが再び支障なく通行できることを確認しました。"
+        ]
+      }
     },
-"failure": {
+    "failure": {
       "default": {
         "pt": [
           "A pedra é muito maior do que o relatado. Meus esforços apenas causaram pequenos tremores que tornaram o local ainda mais instável. Tive que recuar por segurança.",
@@ -135,22 +135,22 @@
           "Los escombros cedieron de forma incorrecta, enterrando aún más la entrada del paso. Sin herramientas pesadas o más brazos, es imposible continuar.",
           "Agoté mis energías intentando mover el bloqueo sin éxito. Los pueblos seguirán aislados hasta que se encuentre una solución más drástica."
         ],
-     "ru": [
-        "Валун гораздо больше, чем сообщалось. Мои усилия вызвали лишь небольшие толчки, которые сделали место еще более неустойчивым. Мне пришлось отступить в целях безопасности.",
-        "Обломки обрушились не в ту сторону, еще больше засыпав вход в проход. Без тяжелых инструментов или лишних рук продолжать невозможно.",
-        "Я исчерпала все силы, пытаясь сдвинуть завал, но безрезультатно. Деревни останутся изолированными, пока не будет найдено более радикальное решение."
-      ],
-      "zh": [
-        "巨石比报道的要大得多。我的努力只引起了轻微的震动，使现场变得更加不稳定。为了安全起见，我不得不撤退。",
-        "碎石塌落的方向不对，进一步埋没了通道入口。如果没有重型工具或更多的人手，是不可能继续下去的。",
-        "我耗尽了精力尝试移动堵塞物，但没有成功。在找到更彻底的解决方案之前，这些村庄将继续处于隔绝状态。"
-      ],
-      "ja": [
-        "岩は報告されていたよりもはるかに巨大でした。私の試みはわずかな震動を引き起こしただけで、現場をさらに不安定にしてしまいました。安全のために撤退せざるを得ませんでした。",
-        "瓦礫が誤った方向に崩れ、通路の入り口をさらに埋めてしまいました。重機やより多くの人手なしでは、これ以上進むことは不可能です。",
-        "障壁を動かそうとして力を使い果たしましたが、成功しませんでした。より抜本的な解決策が見つかるまで、村々は孤立したままになるでしょう。"
-      ]
-       }
+        "ru": [
+          "Валун гораздо больше, чем сообщалось. Мои усилия вызвали лишь небольшие толчки, которые сделали место еще более неустойчивым. Мне пришлось отступить в целях безопасности.",
+          "Обломки обрушились не в ту сторону, еще больше засыпав вход в проход. Без тяжелых инструментов или лишних рук продолжать невозможно.",
+          "Я исчерпала все силы, пытаясь сдвинуть завал, но безрезультатно. Деревни останутся изолированными, пока не будет найдено более радикальное решение."
+        ],
+        "zh": [
+          "巨石比报道的要大得多。我的努力只引起了轻微的震动，使现场变得更加不稳定。为了安全起见，我不得不撤退。",
+          "碎石塌落的方向不对，进一步埋没了通道入口。如果没有重型工具或更多的人手，是不可能继续下去的。",
+          "我耗尽了精力尝试移动堵塞物，但没有成功。在找到更彻底的解决方案之前，这些村庄将继续处于隔绝状态。"
+        ],
+        "ja": [
+          "岩は報告されていたよりもはるかに巨大でした。私の試みはわずかな震動を引き起こしただけで、現場をさらに不安定にしてしまいました。安全のために撤退せざるを得ませんでした。",
+          "瓦礫が誤った方向に崩れ、通路の入り口をさらに埋めてしまいました。重機やより多くの人手なしでは、これ以上進むことは不可能です。",
+          "障壁を動かそうとして力を使い果たしましたが、成功しませんでした。より抜本的な解決策が見つかるまで、村々は孤立したままになるでしょう。"
+        ]
+      }
     }
   }
 }

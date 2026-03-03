@@ -21,9 +21,9 @@
   "expired_at": 6,
   "available_from_turn": 13,
   "duration": 3,
-  "difficulty": 1.7,
+  "difficulty": 1.0,
   "rewards": {
-    "xp": 90
+    "xp": 50
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -48,74 +48,74 @@
       "ja": "古いオーク"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Descobri que a árvore estava sendo sufocada por um fungo parasita invisível nas raízes profundas. Utilizei resina natural de árvores irmãs para fortalecer sua imunidade, restaurando a circulação da seiva e a cor das folhas.",
-        "Percebi que o fluxo de energia vital da floresta foi desviado por uma alteração no lençol freático. Ao reorganizar as pedras do riacho e guiar as raízes para novas fontes de água, o carvalho despertou de seu definhamento.",
-        "Identifiquei que o carvalho sofria pela ausência de sua fauna simbionte. Ao atrair de volta os pássaros e insetos que habitavam sua copa, restabeleci o ciclo de nutrientes e a árvore milenar voltou a florescer."
-      ],
-      "en": [
-        "I discovered the tree was being suffocated by an invisible parasitic fungus in its deep roots. I used natural resin from sister trees to bolster its immunity, restoring sap circulation and leaf color.",
-        "I noticed the forest's vital energy flow was diverted by a change in the water table. By rearranging the stream's rocks and guiding the roots to new water sources, the oak awoke from its withering.",
-        "I identified that the oak was suffering from the absence of its symbiotic fauna. By drawing back the birds and insects that once inhabited its canopy, I restored the nutrient cycle, and the ancient tree flourished again."
-      ],
-      "es": [
-        "Descubrí que el árbol estaba siendo asfixiado por un hongo parásito en sus raíces. Utilicé resina natural de árboles hermanos para fortalecer su inmunidad y restaurar la circulación de la savia.",
-        "Noté que el flujo de energía vital fue desviado por un cambio en el agua subterránea. Al reorganizar las piedras del arroyo, el roble despertó de su marchitamiento.",
-        "Identifiqué que el roble sufría por la ausencia de su fauna simbionte. Al atraer de vuelta a las aves e insectos, restablecí el ciclo de nutrientes y el árbol volvió a florecer."
-      ],
-      "ru": [
-        "Я обнаружила, что дерево задыхается от невидимого грибка-паразита в глубоких корнях. Я использовала природную смолу соседних деревьев, чтобы укрепить его иммунитет и вернуть цвет листьям.",
-        "Я заметила, что поток жизненной энергии леса был нарушен изменением уровня грунтовых вод. Переставив камни в ручье и направив корни к новым источникам, я пробудила дуб.",
-        "Я поняла, что дуб страдает от отсутствия своей симбиотической фауны. Вернув птиц и насекомых в его крону, я восстановила питательный цикл, и древнее дерево снова расцвело."
-      ],
-      "zh": [
-        "我发现古树正被深根处一种看不见的寄生真菌窒息。我利用姐妹树的天然树脂增强了它的免疫力，恢复了树液循环和叶片的颜色。",
-        "我注意到森林的生命能量流因地下水位的变化而偏移。通过重新排列溪流中的石头并引导根部寻找新水源，古橡树从枯萎中苏醒。",
-        "我确认古橡树因共生动物群的缺失而痛苦。通过引回曾经栖息在其树冠上的鸟类和昆虫，我恢复了养分循环，千年古树再次焕发生机。"
-      ],
-      "ja": [
-        "大樹が根の深い部分で目に見えない寄生菌に蝕まれているのを発見しました。周囲の樹木の天然樹脂を使って免疫力を高めることで、樹液の循環と葉の色を回復させました。",
-        "地下水脈の変化により、森の生命エネルギーの流れが滞っていることに気づきました。小川の岩を整え、根を新しい水源へ導くことで、大樹は枯死の淵から目覚めました。",
-        "大樹が共生関係にある動物たちの不在に苦しんでいることを突き止めました。かつて梢に住んでいた鳥や虫たちを呼び戻すことで栄養循環を回復させ、千年の樹は再び花を咲かせました。"
-      ]
-    }
-  },
-"failure": {
-    "default": {
-      "pt": [
-        "O definhamento provou ser uma corrupção profunda demais para ser tratada a tempo. O carvalho secou completamente, e sua queda causou um efeito dominó que enfraqueceu toda a flora ao redor.",
-        "Minha intervenção nas raízes foi invasiva e apressada. O choque térmico acelerou a morte da árvore, deixando a floresta em um luto silencioso e os druidas profundamente ressentidos.",
-        "Enquanto eu buscava a causa, a podridão se espalhou para as árvores vizinhas. O carvalho tornou-se um monumento de madeira morta, e a região agora enfrenta um desequilíbrio ecológico sem precedentes."
-      ],
-      "en": [
-        "The withering proved to be a corruption too deep to be treated in time. The oak dried up completely, and its fall caused a domino effect that weakened all surrounding flora.",
-        "My intervention in the roots was invasive and rushed. The thermal shock accelerated the tree's death, leaving the forest in silent mourning and the druids deeply resentful.",
-        "While I searched for the cause, the rot spread to neighboring trees. The oak became a monument of dead wood, and the region now faces an unprecedented ecological imbalance."
-      ],
-      "es": [
-        "El marchitamiento resultó ser una corrupción demasiado profunda. El roble se secó por completo y su caída debilitó a toda la flora circundante.",
-        "Mi intervención fue invasiva y apresurada. El choque aceleró la muerte del árbol, dejando el bosque en un luto silencioso y a los druidas resentidos.",
-        "Mientras buscaba la causa, la podredumbre se extendió a los árboles vecinos. El roble se convirtió en un monumento de madera muerta y la región enfrenta un gran desequilibrio."
-      ],
-      "ru": [
-        "Увядание оказалось слишком глубоким, чтобы его можно было вылечить вовремя. Дуб полностью высох, и его гибель вызвала эффект домино, ослабив всю окружающую флору.",
-        "Мое вмешательство в корни было слишком поспешным. Шоковое состояние ускорило смерть дерева, оставив лес в безмолвном трауре, а друидов — в глубокой обиде.",
-        "Пока я искала причину, гниль перекинулась на соседние деревья. Дуб превратился в памятник мертвой древесине, и регион столкнулся с беспрецедентным экологическим дисбалансом."
-      ],
-      "zh": [
-        "事实证明，这种枯萎是一种无法及时治疗的深度腐化。古橡树完全干枯，它的倒下引发了连锁反应，削弱了周围所有的植物。",
-        "我对根部的干预过于冒进且草率。热冲击加速了古树的死亡，森林陷入了沉默的哀悼，德鲁伊们对此深感愤恨。",
-        "在我寻找原因时，腐烂蔓延到了邻近的树木。古橡树变成了一座枯木纪念碑，该地区现在面临着前所未有的生态失衡。"
-      ],
-      "ja": [
-        "衰えの原因は、時間内に治療するには深すぎる腐敗でした。大樹は完全に枯れ果て、その崩壊は周囲の植物すべてを弱体化させるドミノ倒しのような影響を及ぼしました。",
-        "根への介入が侵襲的で性急すぎました。そのショックが大樹の死を早めてしまい、森は静かな喪に服し、ドルイドたちは深い恨みを抱くことになりました。",
-        "原因を探している間に、腐敗が周囲の木々にまで広がってしまいました。大樹は枯れ木の記念碑となり、この地域はかつてない生態系の不均衡に直面しています。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Descobri que a árvore estava sendo sufocada por um fungo parasita invisível nas raízes profundas. Utilizei resina natural de árvores irmãs para fortalecer sua imunidade, restaurando a circulação da seiva e a cor das folhas.",
+          "Percebi que o fluxo de energia vital da floresta foi desviado por uma alteração no lençol freático. Ao reorganizar as pedras do riacho e guiar as raízes para novas fontes de água, o carvalho despertou de seu definhamento.",
+          "Identifiquei que o carvalho sofria pela ausência de sua fauna simbionte. Ao atrair de volta os pássaros e insetos que habitavam sua copa, restabeleci o ciclo de nutrientes e a árvore milenar voltou a florescer."
+        ],
+        "en": [
+          "I discovered the tree was being suffocated by an invisible parasitic fungus in its deep roots. I used natural resin from sister trees to bolster its immunity, restoring sap circulation and leaf color.",
+          "I noticed the forest's vital energy flow was diverted by a change in the water table. By rearranging the stream's rocks and guiding the roots to new water sources, the oak awoke from its withering.",
+          "I identified that the oak was suffering from the absence of its symbiotic fauna. By drawing back the birds and insects that once inhabited its canopy, I restored the nutrient cycle, and the ancient tree flourished again."
+        ],
+        "es": [
+          "Descubrí que el árbol estaba siendo asfixiado por un hongo parásito en sus raíces. Utilicé resina natural de árboles hermanos para fortalecer su inmunidad y restaurar la circulación de la savia.",
+          "Noté que el flujo de energía vital fue desviado por un cambio en el agua subterránea. Al reorganizar las piedras del arroyo, el roble despertó de su marchitamiento.",
+          "Identifiqué que el roble sufría por la ausencia de su fauna simbionte. Al atraer de vuelta a las aves e insectos, restablecí el ciclo de nutrientes y el árbol volvió a florecer."
+        ],
+        "ru": [
+          "Я обнаружила, что дерево задыхается от невидимого грибка-паразита в глубоких корнях. Я использовала природную смолу соседних деревьев, чтобы укрепить его иммунитет и вернуть цвет листьям.",
+          "Я заметила, что поток жизненной энергии леса был нарушен изменением уровня грунтовых вод. Переставив камни в ручье и направив корни к новым источникам, я пробудила дуб.",
+          "Я поняла, что дуб страдает от отсутствия своей симбиотической фауны. Вернув птиц и насекомых в его крону, я восстановила питательный цикл, и древнее дерево снова расцвело."
+        ],
+        "zh": [
+          "我发现古树正被深根处一种看不见的寄生真菌窒息。我利用姐妹树的天然树脂增强了它的免疫力，恢复了树液循环和叶片的颜色。",
+          "我注意到森林的生命能量流因地下水位的变化而偏移。通过重新排列溪流中的石头并引导根部寻找新水源，古橡树从枯萎中苏醒。",
+          "我确认古橡树因共生动物群的缺失而痛苦。通过引回曾经栖息在其树冠上的鸟类和昆虫，我恢复了养分循环，千年古树再次焕发生机。"
+        ],
+        "ja": [
+          "大樹が根の深い部分で目に見えない寄生菌に蝕まれているのを発見しました。周囲の樹木の天然樹脂を使って免疫力を高めることで、樹液の循環と葉の色を回復させました。",
+          "地下水脈の変化により、森の生命エネルギーの流れが滞っていることに気づきました。小川の岩を整え、根を新しい水源へ導くことで、大樹は枯死の淵から目覚めました。",
+          "大樹が共生関係にある動物たちの不在に苦しんでいることを突き止めました。かつて梢に住んでいた鳥や虫たちを呼び戻すことで栄養循環を回復させ、千年の樹は再び花を咲かせました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "O definhamento provou ser uma corrupção profunda demais para ser tratada a tempo. O carvalho secou completamente, e sua queda causou um efeito dominó que enfraqueceu toda a flora ao redor.",
+          "Minha intervenção nas raízes foi invasiva e apressada. O choque térmico acelerou a morte da árvore, deixando a floresta em um luto silencioso e os druidas profundamente ressentidos.",
+          "Enquanto eu buscava a causa, a podridão se espalhou para as árvores vizinhas. O carvalho tornou-se um monumento de madeira morta, e a região agora enfrenta um desequilíbrio ecológico sem precedentes."
+        ],
+        "en": [
+          "The withering proved to be a corruption too deep to be treated in time. The oak dried up completely, and its fall caused a domino effect that weakened all surrounding flora.",
+          "My intervention in the roots was invasive and rushed. The thermal shock accelerated the tree's death, leaving the forest in silent mourning and the druids deeply resentful.",
+          "While I searched for the cause, the rot spread to neighboring trees. The oak became a monument of dead wood, and the region now faces an unprecedented ecological imbalance."
+        ],
+        "es": [
+          "El marchitamiento resultó ser una corrupción demasiado profunda. El roble se secó por completo y su caída debilitó a toda la flora circundante.",
+          "Mi intervención fue invasiva y apresurada. El choque aceleró la muerte del árbol, dejando el bosque en un luto silencioso y a los druidas resentidos.",
+          "Mientras buscaba la causa, la podredumbre se extendió a los árboles vecinos. El roble se convirtió en un monumento de madera muerta y la región enfrenta un gran desequilibrio."
+        ],
+        "ru": [
+          "Увядание оказалось слишком глубоким, чтобы его можно было вылечить вовремя. Дуб полностью высох, и его гибель вызвала эффект домино, ослабив всю окружающую флору.",
+          "Мое вмешательство в корни было слишком поспешным. Шоковое состояние ускорило смерть дерева, оставив лес в безмолвном трауре, а друидов — в глубокой обиде.",
+          "Пока я искала причину, гниль перекинулась на соседние деревья. Дуб превратился в памятник мертвой древесине, и регион столкнулся с беспрецедентным экологическим дисбалансом."
+        ],
+        "zh": [
+          "事实证明，这种枯萎是一种无法及时治疗的深度腐化。古橡树完全干枯，它的倒下引发了连锁反应，削弱了周围所有的植物。",
+          "我对根部的干预过于冒进且草率。热冲击加速了古树的死亡，森林陷入了沉默的哀悼，德鲁伊们对此深感愤恨。",
+          "在我寻找原因时，腐烂蔓延到了邻近的树木。古橡树变成了一座枯木纪念碑，该地区现在面临着前所未有的生态失衡。"
+        ],
+        "ja": [
+          "衰えの原因は、時間内に治療するには深すぎる腐敗でした。大樹は完全に枯れ果て、その崩壊は周囲の植物すべてを弱体化させるドミノ倒しのような影響を及ぼしました。",
+          "根への介入が侵襲的で性急すぎました。そのショックが大樹の死を早めてしまい、森は静かな喪に服し、ドルイドたちは深い恨みを抱くことになりました。",
+          "原因を探している間に、腐敗が周囲の木々にまで広がってしまいました。大樹は枯れ木の記念碑となり、この地域はかつてない生態系の不均衡に直面しています。"
+        ]
+      }
     }
   }
-}  
 }

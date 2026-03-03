@@ -21,9 +21,9 @@
   "expired_at": 4,
   "available_from_turn": 127,
   "duration": 3,
-  "difficulty": 1.5,
+  "difficulty": 3.5,
   "rewards": {
-    "xp": 70
+    "xp": 85
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -48,74 +48,74 @@
       "ja": "瓦礫"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Removi os blocos maiores usando alavancagem e força direta. O acesso ao altar foi liberado.",
-        "Desloquei o mármore por partes, abrindo um corredor estável até o altar.",
-        "Empilhei os escombros fora da área ritual e estabilizei as peças soltas. O caminho ficou seguro."
-      ],
-      "en": [
-        "I removed the largest blocks using leverage and direct force. Access to the altar was restored.",
-        "I shifted the marble piece by piece, opening a stable passage to the altar.",
-        "I stacked the rubble away from the ritual area and secured loose slabs. The path was cleared."
-      ],
-      "es": [
-        "Retiré los bloques más grandes usando palanca y fuerza directa. El acceso al altar fue restaurado.",
-        "Desplacé el mármol por partes, abriendo un paso estable hacia el altar.",
-        "Apilé los escombros fuera del área ritual y aseguré las piezas sueltas. El camino quedó libre."
-      ],
-      "ru": [
-        "Я убрал самые крупные глыбы, используя рычаг и силу. Доступ к алтарю был восстановлен.",
-        "Переместил мрамор по частям, открыв устойчивый проход к алтарю.",
-        "Сложил обломки вне ритуальной зоны и закрепил нестабильные плиты. Путь стал безопасным."
-      ],
-      "zh": [
-        "我利用杠杆和力量移开最大的大理石块，重新打通了通往祭坛的道路。",
-        "我逐块移动石料，开辟出稳定通道。",
-        "我将废墟堆放至仪式区外，并固定松动石板，道路恢复畅通。"
-      ],
-      "ja": [
-        "梃子と力で大きな大理石を取り除き、祭壇への道を確保しました。",
-        "石材を分割して移動し、安定した通路を開きました。",
-        "瓦礫を儀式区域の外へ積み上げ、不安定な石板を固定しました。通路は安全になりました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "O peso excedeu minha capacidade e os blocos permaneceram no lugar.",
-        "Uma placa instável deslizou durante a remoção, obrigando-me a interromper o trabalho.",
-        "A estrutura remanescente mostrou risco de colapso. O acesso continuou bloqueado."
-      ],
-      "en": [
-        "The weight exceeded my capacity and the blocks remained in place.",
-        "An unstable slab shifted during removal, forcing me to halt the effort.",
-        "The remaining structure showed risk of collapse. Access stayed blocked."
-      ],
-      "es": [
-        "El peso superó mi capacidad y los bloques permanecieron en su lugar.",
-        "Una losa inestable se desplazó durante la retirada, obligándome a detener el trabajo.",
-        "La estructura restante presentaba riesgo de colapso. El acceso siguió bloqueado."
-      ],
-      "ru": [
-        "Вес превысил мои возможности, и глыбы остались на месте.",
-        "Нестабильная плита сместилась во время работ, пришлось остановиться.",
-        "Оставшаяся конструкция грозила обрушением. Доступ остался перекрыт."
-      ],
-      "zh": [
-        "重量超出能力，石块未能移动。",
-        "清理过程中不稳石板滑落，被迫停止。",
-        "剩余结构存在坍塌风险，通道仍被封堵。"
-      ],
-      "ja": [
-        "重量が限界を超え、石は動きませんでした。",
-        "撤去中に不安定な石板がずれ、作業を中断しました。",
-        "残存構造に崩落の危険があり、通路は依然として塞がれたままでした。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Removi os blocos maiores usando alavancagem e força direta. O acesso ao altar foi liberado.",
+          "Desloquei o mármore por partes, abrindo um corredor estável até o altar.",
+          "Empilhei os escombros fora da área ritual e estabilizei as peças soltas. O caminho ficou seguro."
+        ],
+        "en": [
+          "I removed the largest blocks using leverage and direct force. Access to the altar was restored.",
+          "I shifted the marble piece by piece, opening a stable passage to the altar.",
+          "I stacked the rubble away from the ritual area and secured loose slabs. The path was cleared."
+        ],
+        "es": [
+          "Retiré los bloques más grandes usando palanca y fuerza directa. El acceso al altar fue restaurado.",
+          "Desplacé el mármol por partes, abriendo un paso estable hacia el altar.",
+          "Apilé los escombros fuera del área ritual y aseguré las piezas sueltas. El camino quedó libre."
+        ],
+        "ru": [
+          "Я убрал самые крупные глыбы, используя рычаг и силу. Доступ к алтарю был восстановлен.",
+          "Переместил мрамор по частям, открыв устойчивый проход к алтарю.",
+          "Сложил обломки вне ритуальной зоны и закрепил нестабильные плиты. Путь стал безопасным."
+        ],
+        "zh": [
+          "我利用杠杆和力量移开最大的大理石块，重新打通了通往祭坛的道路。",
+          "我逐块移动石料，开辟出稳定通道。",
+          "我将废墟堆放至仪式区外，并固定松动石板，道路恢复畅通。"
+        ],
+        "ja": [
+          "梃子と力で大きな大理石を取り除き、祭壇への道を確保しました。",
+          "石材を分割して移動し、安定した通路を開きました。",
+          "瓦礫を儀式区域の外へ積み上げ、不安定な石板を固定しました。通路は安全になりました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "O peso excedeu minha capacidade e os blocos permaneceram no lugar.",
+          "Uma placa instável deslizou durante a remoção, obrigando-me a interromper o trabalho.",
+          "A estrutura remanescente mostrou risco de colapso. O acesso continuou bloqueado."
+        ],
+        "en": [
+          "The weight exceeded my capacity and the blocks remained in place.",
+          "An unstable slab shifted during removal, forcing me to halt the effort.",
+          "The remaining structure showed risk of collapse. Access stayed blocked."
+        ],
+        "es": [
+          "El peso superó mi capacidad y los bloques permanecieron en su lugar.",
+          "Una losa inestable se desplazó durante la retirada, obligándome a detener el trabajo.",
+          "La estructura restante presentaba riesgo de colapso. El acceso siguió bloqueado."
+        ],
+        "ru": [
+          "Вес превысил мои возможности, и глыбы остались на месте.",
+          "Нестабильная плита сместилась во время работ, пришлось остановиться.",
+          "Оставшаяся конструкция грозила обрушением. Доступ остался перекрыт."
+        ],
+        "zh": [
+          "重量超出能力，石块未能移动。",
+          "清理过程中不稳石板滑落，被迫停止。",
+          "剩余结构存在坍塌风险，通道仍被封堵。"
+        ],
+        "ja": [
+          "重量が限界を超え、石は動きませんでした。",
+          "撤去中に不安定な石板がずれ、作業を中断しました。",
+          "残存構造に崩落の危険があり、通路は依然として塞がれたままでした。"
+        ]
+      }
     }
   }
-}
 }

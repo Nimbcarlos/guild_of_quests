@@ -24,9 +24,9 @@
   "expired_at": 6,
   "available_from_turn": 33,
   "duration": 3,
-  "difficulty": 2.4,
+  "difficulty": 2.0,
   "rewards": {
-    "xp": 85
+    "xp": 60
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -51,106 +51,106 @@
       "ja": "村人"
     }
   },
-"conclusion": {
-  "success": {
-    "cure": {
-      "pt": [
-        "Administrei sedação leve aos aldeões mais afetados e restabeleci ciclos de descanso na vila.",
-        "Reduzi os surtos de paranoia e estabilizei os casos de alucinação.",
-        "Organizei turnos de vigilância para permitir que os aldeões dormissem com segurança."
-      ],
-      "en": [
-        "I administered mild sedation to the most affected villagers and restored rest cycles in the village.",
-        "I reduced paranoia outbreaks and stabilized hallucination cases.",
-        "I organized watch rotations so the villagers could sleep safely."
-      ],
-      "es": [
-        "Administré sedación leve a los aldeanos más afectados y restablecí el descanso.",
-        "Reduje los brotes de paranoia y estabilicé las alucinaciones.",
-        "Organicé turnos de vigilancia para que pudieran dormir."
-      ],
-      "ru": [
-        "Я ввёл лёгкую седацию наиболее пострадавшим и восстановил цикл сна.",
-        "Снизил вспышки паранойи и стабилизировал галлюцинации.",
-        "Организовал дежурства, чтобы жители смогли уснуть."
-      ],
-      "zh": [
-        "我为症状严重的村民实施轻度镇静并恢复睡眠周期。",
-        "我控制偏执与幻觉发作。",
-        "我安排轮班守夜，让村民安全入睡。"
-      ],
-      "ja": [
-        "重症の村人に軽い鎮静を施し、睡眠周期を回復させました。",
-        "被害妄想と幻覚を安定させました。",
-        "見張り体制を整え、村人が眠れる環境を作りました。"
-      ]
+  "conclusion": {
+    "success": {
+      "cure": {
+        "pt": [
+          "Administrei sedação leve aos aldeões mais afetados e restabeleci ciclos de descanso na vila.",
+          "Reduzi os surtos de paranoia e estabilizei os casos de alucinação.",
+          "Organizei turnos de vigilância para permitir que os aldeões dormissem com segurança."
+        ],
+        "en": [
+          "I administered mild sedation to the most affected villagers and restored rest cycles in the village.",
+          "I reduced paranoia outbreaks and stabilized hallucination cases.",
+          "I organized watch rotations so the villagers could sleep safely."
+        ],
+        "es": [
+          "Administré sedación leve a los aldeanos más afectados y restablecí el descanso.",
+          "Reduje los brotes de paranoia y estabilicé las alucinaciones.",
+          "Organicé turnos de vigilancia para que pudieran dormir."
+        ],
+        "ru": [
+          "Я ввёл лёгкую седацию наиболее пострадавшим и восстановил цикл сна.",
+          "Снизил вспышки паранойи и стабилизировал галлюцинации.",
+          "Организовал дежурства, чтобы жители смогли уснуть."
+        ],
+        "zh": [
+          "我为症状严重的村民实施轻度镇静并恢复睡眠周期。",
+          "我控制偏执与幻觉发作。",
+          "我安排轮班守夜，让村民安全入睡。"
+        ],
+        "ja": [
+          "重症の村人に軽い鎮静を施し、睡眠周期を回復させました。",
+          "被害妄想と幻覚を安定させました。",
+          "見張り体制を整え、村人が眠れる環境を作りました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Conduzi ritual coletivo na vila para romper a maldição da insônia.",
+          "Purifiquei as casas dos aldeões e abençoei os leitos.",
+          "Estabeleci selo espiritual no centro da vila para restaurar o sono."
+        ],
+        "en": [
+          "I conducted a collective rite in the village to break the insomnia curse.",
+          "I purified the villagers’ homes and blessed their beds.",
+          "I placed a spiritual seal at the village center to restore sleep."
+        ],
+        "es": [
+          "Realicé un rito colectivo para romper la maldición del insomnio.",
+          "Purifiqué las casas y bendije los lechos.",
+          "Coloqué un sello espiritual en el centro de la aldea."
+        ],
+        "ru": [
+          "Я провёл общий обряд для снятия проклятия бессонницы.",
+          "Очистил дома и благословил ложа.",
+          "Установил духовную печать в центре деревни."
+        ],
+        "zh": [
+          "我在村中举行集体仪式解除失眠诅咒。",
+          "我净化村民住宅并祝福床铺。",
+          "我在村中心设下灵性封印恢复睡眠。"
+        ],
+        "ja": [
+          "村で集団儀式を行い、不眠の呪いを断ちました。",
+          "家々を清め、寝床を祝福しました。",
+          "村の中心に霊的封印を施しました。"
+        ]
+      }
     },
-    "default": {
-      "pt": [
-        "Conduzi ritual coletivo na vila para romper a maldição da insônia.",
-        "Purifiquei as casas dos aldeões e abençoei os leitos.",
-        "Estabeleci selo espiritual no centro da vila para restaurar o sono."
-      ],
-      "en": [
-        "I conducted a collective rite in the village to break the insomnia curse.",
-        "I purified the villagers’ homes and blessed their beds.",
-        "I placed a spiritual seal at the village center to restore sleep."
-      ],
-      "es": [
-        "Realicé un rito colectivo para romper la maldición del insomnio.",
-        "Purifiqué las casas y bendije los lechos.",
-        "Coloqué un sello espiritual en el centro de la aldea."
-      ],
-      "ru": [
-        "Я провёл общий обряд для снятия проклятия бессонницы.",
-        "Очистил дома и благословил ложа.",
-        "Установил духовную печать в центре деревни."
-      ],
-      "zh": [
-        "我在村中举行集体仪式解除失眠诅咒。",
-        "我净化村民住宅并祝福床铺。",
-        "我在村中心设下灵性封印恢复睡眠。"
-      ],
-      "ja": [
-        "村で集団儀式を行い、不眠の呪いを断ちました。",
-        "家々を清め、寝床を祝福しました。",
-        "村の中心に霊的封印を施しました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "A exaustão coletiva impediu a realização completa do ritual.",
-        "Os aldeões recusaram tratamento e a paranoia se intensificou.",
-        "A maldição persistiu após a primeira tentativa."
-      ],
-      "en": [
-        "Collective exhaustion disrupted the ritual.",
-        "The villagers refused treatment and paranoia intensified.",
-        "The curse persisted after the first attempt."
-      ],
-      "es": [
-        "El agotamiento colectivo interrumpió el ritual.",
-        "Los aldeanos rechazaron tratamiento y la paranoia aumentó.",
-        "La maldición persistió tras el primer intento."
-      ],
-      "ru": [
-        "Общее истощение сорвало обряд.",
-        "Жители отказались от лечения, и паранойя усилилась.",
-        "Проклятие не исчезло после первой попытки."
-      ],
-      "zh": [
-        "集体疲惫打断了仪式。",
-        "村民拒绝治疗，偏执加剧。",
-        "第一次尝试后诅咒仍然存在。"
-      ],
-      "ja": [
-        "集団の疲労で儀式が中断されました。",
-        "村人が治療を拒否し、妄想が悪化しました。",
-        "最初の試みでは呪いは解けませんでした。"
-      ]
+    "failure": {
+      "default": {
+        "pt": [
+          "A exaustão coletiva impediu a realização completa do ritual.",
+          "Os aldeões recusaram tratamento e a paranoia se intensificou.",
+          "A maldição persistiu após a primeira tentativa."
+        ],
+        "en": [
+          "Collective exhaustion disrupted the ritual.",
+          "The villagers refused treatment and paranoia intensified.",
+          "The curse persisted after the first attempt."
+        ],
+        "es": [
+          "El agotamiento colectivo interrumpió el ritual.",
+          "Los aldeanos rechazaron tratamiento y la paranoia aumentó.",
+          "La maldición persistió tras el primer intento."
+        ],
+        "ru": [
+          "Общее истощение сорвало обряд.",
+          "Жители отказались от лечения, и паранойя усилилась.",
+          "Проклятие не исчезло после первой попытки."
+        ],
+        "zh": [
+          "集体疲惫打断了仪式。",
+          "村民拒绝治疗，偏执加剧。",
+          "第一次尝试后诅咒仍然存在。"
+        ],
+        "ja": [
+          "集団の疲労で儀式が中断されました。",
+          "村人が治療を拒否し、妄想が悪化しました。",
+          "最初の試みでは呪いは解けませんでした。"
+        ]
+      }
     }
   }
-}  
 }

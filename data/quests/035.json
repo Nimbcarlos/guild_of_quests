@@ -21,9 +21,9 @@
   "expired_at": 4,
   "available_from_turn": 25,
   "duration": 3,
-  "difficulty": 1.4,
+  "difficulty": 2.0,
   "rewards": {
-    "xp": 65
+    "xp": 60
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -48,74 +48,74 @@
       "ja": "蜂の巣"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Utilizei fumaça de ervas calmantes para sedar a colmeia e, com a ajuda de feromônios de uma rainha silvestre, guiei o enxame para um carvalho oco na floresta. O celeiro foi limpo e as abelhas continuam polinizando a região.",
-        "Convenci os agricultores de que o mel produzido por essa espécie é um catalisador raro. Implementamos um sistema de coleta segura que mantém a colmeia intacta e gera uma nova fonte de renda para a vila.",
-        "Criei um rastro de pólen floral específico que atraiu a colmeia para fora do celeiro de forma pacífica. As abelhas se estabeleceram em um novo local adequado, e o celeiro foi devolvido aos donos sem uma única picada."
-      ],
-      "en": [
-        "I used calming herbal smoke to sedate the hive and, with the help of wild queen pheromones, guided the swarm to a hollow oak in the forest. The barn was cleared, and the bees continue pollinating the region.",
-        "I convinced the farmers that the honey produced by this species is a rare catalyst. We implemented a safe harvesting system that keeps the hive intact and generates a new income source for the village.",
-        "I created a specific floral pollen trail that peacefully lured the hive out of the barn. The bees settled in a suitable new location, and the barn was returned to its owners without a single sting."
-      ],
-      "es": [
-        "Utilicé humo de hierbas calmantes para sedar la colmena y guié al enjambre hacia un roble hueco en el bosque. El granero fue limpiado y las abejas siguen polinizando la región.",
-        "Convencí a los granjeros de que la miel es un catalizador raro. Implementamos un sistema de recolección segura que mantiene la colmena y genera ingresos para la aldea.",
-        "Creé un rastro de polen floral que atrajo a la colmena fuera del granero pacíficamente. Las abejas se establecieron en un nuevo lugar y el granero fue devuelto sin picaduras."
-      ],
-      "ru": [
-        "Я использовала успокаивающий травяной дым, чтобы усыпить улей, и с помощью феромонов дикой матки увела рой в дуплистый дуб в лесу. Амбар чист, а пчелы продолжают опылять регион.",
-        "Я убедила фермеров, что мед этого вида — редкий катализатор. Мы внедрили систему безопасного сбора, которая сохраняет улей и приносит деревне доход.",
-        "Я создала след из цветочной пыльцы, который мирно выманил рой из амбара. Пчелы обосновались в подходящем новом месте, и амбар вернули владельцам без единого укуса."
-      ],
-      "zh": [
-        "我使用舒缓草药烟雾镇静了蜂群，并在野生蜂后信息素的帮助下，将蜂群引导至森林中的一棵空心橡树。谷仓被清理干净，蜜蜂继续为该地区授粉。",
-        "我让农民相信这种蜜蜂产下的蜂蜜是稀有的催化剂。我们建立了一套安全的采收系统，既保持了蜂巢完整，又为村庄创造了新的收入来源。",
-        "我制造了一条特定的花粉路径，和平地将蜂群诱出谷仓。蜜蜂在合适的新地点安了家，谷仓归还给主人时没有发生任何蜇伤事件。"
-      ],
-      "ja": [
-        "鎮静効果のあるハーブの煙で巣を落ち着かせ、野生の女王蜂のフェロモンを使って群れを森の空洞のオークの木へ誘導しました。納屋は片付き、蜂たちは地域での受粉を続けています。",
-        "この種が作る蜜は希少な触媒であることを農民に納得させました。巣を壊さずに採集する安全なシステムを導入し、村に新たな収入源をもたらしました。",
-        "特定の花粉の跡を作ることで、蜂の巣を納屋から平和的に誘い出しました。蜂たちは適切な新しい場所に定着し、納屋は刺される者もなく持ち主に返されました。"
-      ]
-    }
-  },
-"failure": {
-    "default": {
-      "pt": [
-        "Os agricultores, impacientes, atearam fogo ao celeiro antes da conclusão do manejo. O enxame enfurecido atacou a vila, e o herói foi forçado a recuar sob uma nuvem de ferroadas venenosas.",
-        "Minha tentativa de mover a rainha falhou, causando um pânico coletivo nas abelhas. O herói sofreu um choque anafilático e a colmeia foi destruída brutalmente pelos camponeses, prejudicando a fauna local.",
-        "O uso de fumaça inadequada tornou as abelhas agressivas. O celeiro acabou sendo incendiado durante o caos, destruindo as colheitas estocadas e matando um polinizador essencial para a região."
-      ],
-      "en": [
-        "Impatient farmers set fire to the barn before the management was complete. The enraged swarm attacked the village, and the hero was forced to retreat under a cloud of venomous stings.",
-        "My attempt to move the queen failed, causing collective panic in the bees. The hero suffered anaphylactic shock, and the hive was brutally destroyed by the peasants, harming local wildlife.",
-        "The use of improper smoke made the bees aggressive. The barn ended up being burned down during the chaos, destroying stored crops and killing an essential pollinator for the region."
-      ],
-      "es": [
-        "Los granjeros impacientes prendieron fuego al granero antes de tiempo. El enjambre enfurecido atacó la aldea y el héroe tuvo que retirarse bajo una nube de picaduras venenosas.",
-        "Mi intento de mover a la reina falló, causando pánico en las abejas. El héroe sufrió un choque anafiláctico y la colmena fue destruida brutalmente por los campesinos.",
-        "El uso de humo inadecuado volvió a las abejas agresivas. El granero terminó incendiado, destruyendo las cosechas y matando a un polinizador esencial."
-      ],
-      "ru": [
-        "Нетерпеливые фермеры подожгли амбар до завершения работы. Разъяренный рой напал на деревню, и герою пришлось отступить под градом ядовитых укусов.",
-        "Попытка перенести матку провалилась, вызвав панику у пчел. Герой получил анафилактический шок, а улей был жестоко уничтожен крестьянами, что нанесло вред природе.",
-        "Использование неподходящего дыма разозлило пчел. В хаосе амбар сгорел, уничтожив запасы урожая и погубив важнейших для региона опылителей."
-      ],
-      "zh": [
-        "失去耐心的农民在管理完成前放火烧了谷仓。愤怒的蜂群袭击了村庄，英雄在大片毒蜇的攻击下被迫撤退。",
-        "我转移蜂后的尝试失败了，引起了蜜蜂的集体恐慌。英雄遭受了过敏性休克，蜂巢被农民残忍摧毁，损害了当地生态。",
-        "使用了不恰当的烟雾导致蜜蜂变得暴躁。谷仓在混乱中被焚毁，摧毁了储存的农作物，并杀死了该地区至关重要的传粉者。"
-      ],
-      "ja": [
-        "しびれを切らした農民が、処置が終わる前に納屋に火を放ちました。激昂した群れが村を襲い、英雄は毒針の雲の下で撤退を余儀なくされました。",
-        "女王蜂を移す試みが失敗し、蜂たちがパニックに陥りました。英雄はアナフィラキシーショックを起こし、巣は農民たちによって無残に破壊され、地域の野生動物に悪影響を与えました。",
-        "不適切な煙の使用が蜂を攻撃的にさせました。混乱の中で納屋は焼き払われ、貯蔵されていた作物は失われ、地域の重要な受粉媒介者が失われました。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Utilizei fumaça de ervas calmantes para sedar a colmeia e, com a ajuda de feromônios de uma rainha silvestre, guiei o enxame para um carvalho oco na floresta. O celeiro foi limpo e as abelhas continuam polinizando a região.",
+          "Convenci os agricultores de que o mel produzido por essa espécie é um catalisador raro. Implementamos um sistema de coleta segura que mantém a colmeia intacta e gera uma nova fonte de renda para a vila.",
+          "Criei um rastro de pólen floral específico que atraiu a colmeia para fora do celeiro de forma pacífica. As abelhas se estabeleceram em um novo local adequado, e o celeiro foi devolvido aos donos sem uma única picada."
+        ],
+        "en": [
+          "I used calming herbal smoke to sedate the hive and, with the help of wild queen pheromones, guided the swarm to a hollow oak in the forest. The barn was cleared, and the bees continue pollinating the region.",
+          "I convinced the farmers that the honey produced by this species is a rare catalyst. We implemented a safe harvesting system that keeps the hive intact and generates a new income source for the village.",
+          "I created a specific floral pollen trail that peacefully lured the hive out of the barn. The bees settled in a suitable new location, and the barn was returned to its owners without a single sting."
+        ],
+        "es": [
+          "Utilicé humo de hierbas calmantes para sedar la colmena y guié al enjambre hacia un roble hueco en el bosque. El granero fue limpiado y las abejas siguen polinizando la región.",
+          "Convencí a los granjeros de que la miel es un catalizador raro. Implementamos un sistema de recolección segura que mantiene la colmena y genera ingresos para la aldea.",
+          "Creé un rastro de polen floral que atrajo a la colmena fuera del granero pacíficamente. Las abejas se establecieron en un nuevo lugar y el granero fue devuelto sin picaduras."
+        ],
+        "ru": [
+          "Я использовала успокаивающий травяной дым, чтобы усыпить улей, и с помощью феромонов дикой матки увела рой в дуплистый дуб в лесу. Амбар чист, а пчелы продолжают опылять регион.",
+          "Я убедила фермеров, что мед этого вида — редкий катализатор. Мы внедрили систему безопасного сбора, которая сохраняет улей и приносит деревне доход.",
+          "Я создала след из цветочной пыльцы, который мирно выманил рой из амбара. Пчелы обосновались в подходящем новом месте, и амбар вернули владельцам без единого укуса."
+        ],
+        "zh": [
+          "我使用舒缓草药烟雾镇静了蜂群，并在野生蜂后信息素的帮助下，将蜂群引导至森林中的一棵空心橡树。谷仓被清理干净，蜜蜂继续为该地区授粉。",
+          "我让农民相信这种蜜蜂产下的蜂蜜是稀有的催化剂。我们建立了一套安全的采收系统，既保持了蜂巢完整，又为村庄创造了新的收入来源。",
+          "我制造了一条特定的花粉路径，和平地将蜂群诱出谷仓。蜜蜂在合适的新地点安了家，谷仓归还给主人时没有发生任何蜇伤事件。"
+        ],
+        "ja": [
+          "鎮静効果のあるハーブの煙で巣を落ち着かせ、野生の女王蜂のフェロモンを使って群れを森の空洞のオークの木へ誘導しました。納屋は片付き、蜂たちは地域での受粉を続けています。",
+          "この種が作る蜜は希少な触媒であることを農民に納得させました。巣を壊さずに採集する安全なシステムを導入し、村に新たな収入源をもたらしました。",
+          "特定の花粉の跡を作ることで、蜂の巣を納屋から平和的に誘い出しました。蜂たちは適切な新しい場所に定着し、納屋は刺される者もなく持ち主に返されました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Os agricultores, impacientes, atearam fogo ao celeiro antes da conclusão do manejo. O enxame enfurecido atacou a vila, e o herói foi forçado a recuar sob uma nuvem de ferroadas venenosas.",
+          "Minha tentativa de mover a rainha falhou, causando um pânico coletivo nas abelhas. O herói sofreu um choque anafilático e a colmeia foi destruída brutalmente pelos camponeses, prejudicando a fauna local.",
+          "O uso de fumaça inadequada tornou as abelhas agressivas. O celeiro acabou sendo incendiado durante o caos, destruindo as colheitas estocadas e matando um polinizador essencial para a região."
+        ],
+        "en": [
+          "Impatient farmers set fire to the barn before the management was complete. The enraged swarm attacked the village, and the hero was forced to retreat under a cloud of venomous stings.",
+          "My attempt to move the queen failed, causing collective panic in the bees. The hero suffered anaphylactic shock, and the hive was brutally destroyed by the peasants, harming local wildlife.",
+          "The use of improper smoke made the bees aggressive. The barn ended up being burned down during the chaos, destroying stored crops and killing an essential pollinator for the region."
+        ],
+        "es": [
+          "Los granjeros impacientes prendieron fuego al granero antes de tiempo. El enjambre enfurecido atacó la aldea y el héroe tuvo que retirarse bajo una nube de picaduras venenosas.",
+          "Mi intento de mover a la reina falló, causando pánico en las abejas. El héroe sufrió un choque anafiláctico y la colmena fue destruida brutalmente por los campesinos.",
+          "El uso de humo inadecuado volvió a las abejas agresivas. El granero terminó incendiado, destruyendo las cosechas y matando a un polinizador esencial."
+        ],
+        "ru": [
+          "Нетерпеливые фермеры подожгли амбар до завершения работы. Разъяренный рой напал на деревню, и герою пришлось отступить под градом ядовитых укусов.",
+          "Попытка перенести матку провалилась, вызвав панику у пчел. Герой получил анафилактический шок, а улей был жестоко уничтожен крестьянами, что нанесло вред природе.",
+          "Использование неподходящего дыма разозлило пчел. В хаосе амбар сгорел, уничтожив запасы урожая и погубив важнейших для региона опылителей."
+        ],
+        "zh": [
+          "失去耐心的农民在管理完成前放火烧了谷仓。愤怒的蜂群袭击了村庄，英雄在大片毒蜇的攻击下被迫撤退。",
+          "我转移蜂后的尝试失败了，引起了蜜蜂的集体恐慌。英雄遭受了过敏性休克，蜂巢被农民残忍摧毁，损害了当地生态。",
+          "使用了不恰当的烟雾导致蜜蜂变得暴躁。谷仓在混乱中被焚毁，摧毁了储存的农作物，并杀死了该地区至关重要的传粉者。"
+        ],
+        "ja": [
+          "しびれを切らした農民が、処置が終わる前に納屋に火を放ちました。激昂した群れが村を襲い、英雄は毒針の雲の下で撤退を余儀なくされました。",
+          "女王蜂を移す試みが失敗し、蜂たちがパニックに陥りました。英雄はアナフィラキシーショックを起こし、巣は農民たちによって無残に破壊され、地域の野生動物に悪影響を与えました。",
+          "不適切な煙の使用が蜂を攻撃的にさせました。混乱の中で納屋は焼き払われ、貯蔵されていた作物は失われ、地域の重要な受粉媒介者が失われました。"
+        ]
+      }
     }
   }
-}  
 }

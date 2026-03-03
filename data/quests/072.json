@@ -23,9 +23,9 @@
   "expired_at": 3,
   "available_from_turn": 135,
   "duration": 3,
-  "difficulty": 2.3,
+  "difficulty": 3.5,
   "rewards": {
-    "xp": 80
+    "xp": 85
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -50,74 +50,74 @@
       "ja": "作業員"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Imobilizei as fraturas múltiplas e estabilizei os trabalhadores no canteiro de obras.",
-        "Realinhei ossos deslocados e contive hemorragias internas.",
-        "Apliquei contenção rígida e garanti transporte seguro dos trabalhadores."
-      ],
-      "en": [
-        "I immobilized multiple fractures and stabilized the workers at the construction site.",
-        "I realigned displaced bones and contained internal bleeding.",
-        "I applied rigid stabilization and secured safe transport."
-      ],
-      "es": [
-        "Inmovilicé las fracturas múltiples y estabilicé a los trabajadores.",
-        "Realineé huesos desplazados y contuve hemorragias internas.",
-        "Apliqué contención rígida y aseguré el traslado seguro."
-      ],
-      "ru": [
-        "Я обездвижил множественные переломы и стабилизировал рабочих.",
-        "Вправил смещённые кости и остановил внутреннее кровотечение.",
-        "Наложил жёсткую фиксацию и обеспечил безопасную транспортировку."
-      ],
-      "zh": [
-        "我固定多处骨折并稳定工人生命体征。",
-        "我复位错位骨骼并控制内出血。",
-        "我实施刚性固定并确保安全转运。"
-      ],
-      "ja": [
-        "多発骨折を固定し、作業員の状態を安定させました。",
-        "転位した骨を整復し、内出血を抑えました。",
-        "強固に固定し、安全に搬送しました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "As fraturas agravaram-se durante a tentativa de estabilização.",
-        "Não consegui conter as hemorragias internas a tempo.",
-        "A movimentação provocou colapso fatal."
-      ],
-      "en": [
-        "Fractures worsened during stabilization attempts.",
-        "I failed to contain internal bleeding in time.",
-        "Movement triggered fatal collapse."
-      ],
-      "es": [
-        "Las fracturas se agravaron durante la estabilización.",
-        "No logré contener la hemorragia interna a tiempo.",
-        "El movimiento provocó colapso fatal."
-      ],
-      "ru": [
-        "Переломы усугубились при попытке стабилизации.",
-        "Не удалось вовремя остановить внутреннее кровотечение.",
-        "Движение вызвало смертельный коллапс."
-      ],
-      "zh": [
-        "在固定过程中骨折恶化。",
-        "未能及时控制内出血。",
-        "移动导致致命性崩溃。"
-      ],
-      "ja": [
-        "固定中に骨折が悪化しました。",
-        "内出血を止められませんでした。",
-        "移動により致命的な悪化が発生しました。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Imobilizei as fraturas múltiplas e estabilizei os trabalhadores no canteiro de obras.",
+          "Realinhei ossos deslocados e contive hemorragias internas.",
+          "Apliquei contenção rígida e garanti transporte seguro dos trabalhadores."
+        ],
+        "en": [
+          "I immobilized multiple fractures and stabilized the workers at the construction site.",
+          "I realigned displaced bones and contained internal bleeding.",
+          "I applied rigid stabilization and secured safe transport."
+        ],
+        "es": [
+          "Inmovilicé las fracturas múltiples y estabilicé a los trabajadores.",
+          "Realineé huesos desplazados y contuve hemorragias internas.",
+          "Apliqué contención rígida y aseguré el traslado seguro."
+        ],
+        "ru": [
+          "Я обездвижил множественные переломы и стабилизировал рабочих.",
+          "Вправил смещённые кости и остановил внутреннее кровотечение.",
+          "Наложил жёсткую фиксацию и обеспечил безопасную транспортировку."
+        ],
+        "zh": [
+          "我固定多处骨折并稳定工人生命体征。",
+          "我复位错位骨骼并控制内出血。",
+          "我实施刚性固定并确保安全转运。"
+        ],
+        "ja": [
+          "多発骨折を固定し、作業員の状態を安定させました。",
+          "転位した骨を整復し、内出血を抑えました。",
+          "強固に固定し、安全に搬送しました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "As fraturas agravaram-se durante a tentativa de estabilização.",
+          "Não consegui conter as hemorragias internas a tempo.",
+          "A movimentação provocou colapso fatal."
+        ],
+        "en": [
+          "Fractures worsened during stabilization attempts.",
+          "I failed to contain internal bleeding in time.",
+          "Movement triggered fatal collapse."
+        ],
+        "es": [
+          "Las fracturas se agravaron durante la estabilización.",
+          "No logré contener la hemorragia interna a tiempo.",
+          "El movimiento provocó colapso fatal."
+        ],
+        "ru": [
+          "Переломы усугубились при попытке стабилизации.",
+          "Не удалось вовремя остановить внутреннее кровотечение.",
+          "Движение вызвало смертельный коллапс."
+        ],
+        "zh": [
+          "在固定过程中骨折恶化。",
+          "未能及时控制内出血。",
+          "移动导致致命性崩溃。"
+        ],
+        "ja": [
+          "固定中に骨折が悪化しました。",
+          "内出血を止められませんでした。",
+          "移動により致命的な悪化が発生しました。"
+        ]
+      }
     }
   }
-}
 }

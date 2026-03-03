@@ -24,9 +24,9 @@
   "expired_at": 4,
   "available_from_turn": 34,
   "duration": 3,
-  "difficulty": 1.5,
+  "difficulty": 2.0,
   "rewards": {
-    "xp": 50
+    "xp": 60
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -51,72 +51,72 @@
       "ja": "対立"
     }
   },
-"conclusion": {
-  "success": {
-    "investigation": {
-      "pt": [
-        "Enquanto os líderes discutiam, analisei os rastros dos roubos. As pegadas e marcas não pertenciam a nenhuma das tribos, mas a mercenários profissionais. Alguém externo está alimentando esse ódio.",
-        "Notei inconsistências nos relatos: os suprimentos 'roubados' foram na verdade escondidos em uma caverna neutra. Encontrei um selo do mensageiro real caído no local. Há um terceiro ator manipulando as tribos.",
-        "Investiguei o local dos ataques e descobri que os danos foram forjados para parecerem rituais tribais. Alguém quer que eles se matem para fragilizar a região. O conflito é uma encenação externa."
-      ],
-      "en": [
-        "While the leaders argued, I analyzed the tracks from the thefts. The footprints and marks belonged to neither tribe, but to professional mercenaries. Someone from the outside is fueling this hatred.",
-        "I noticed inconsistencies in the reports: the 'stolen' supplies were actually hidden in a neutral cave. I found a royal messenger's seal at the site. A third party is manipulating the tribes.",
-        "I investigated the attack sites and discovered the damage was forged to look like tribal rituals. Someone wants them to kill each other to weaken the region. The conflict is an external setup."
-      ],
-      "es": [
-        "Mientras los líderes discutían, analicé los rastros de los robos. Las huellas no pertenecían a ninguna de las tribus, sino a mercenarios profesionales. Alguien externo está alimentando este odio.",
-        "Noté inconsistencias en los relatos: los suministros 'robados' estaban escondidos en una cueva neutra. Encontré un sello del mensajero real en el lugar. Un tercer actor está manipulando a las tribus.",
-        "Investigué el lugar de los ataques y descubrí que los daños fueron forjados para parecer ritos tribales. Alguien quiere que se maten para debilitar la región. El conflicto es una farsa externa."
-      ],
-      "ru": [
-        "Пока вожди спорили, я изучила следы краж. Отпечатки не принадлежали ни одному из племен — это были профессиональные наемники. Кто-то извне разжигает эту ненависть.",
-        "Я заметила несостыковки в рассказах: «украденные» припасы были спрятаны в нейтральной пещере. Я нашла там печать королевского посланника. Третья сторона манипулирует племенами.",
-        "Я осмотрела места нападений и обнаружила, что улики были подделаны под племенные ритуалы. Кто-то хочет, чтобы они перебили друг друга для ослабления региона."
-      ],
-      "zh": [
-        "当首领们争论不休时，我分析了失窃现场的痕迹。那些脚印和标记不属于任何一个部落，而是属于专业雇佣兵。有外人在助长这种仇恨。",
-        "我注意到报告中的矛盾之处：“被盗”的物资实际上被藏在一个中立的洞穴里。我在现场发现了一枚皇家信使的印章。有第三方在操纵这些部落。",
-        "我调查了袭击现场，发现破坏是伪造成部落仪式的样子。有人想让他们自相残杀以削弱该地区。冲突是由外部精心策划的。"
-      ],
-      "ja": [
-        "リーダーたちが争っている間、盗難の痕跡を分析しました。足跡や痕跡はどちらの部族のものでもなく、プロの傭兵のものでした。外部の誰かがこの憎しみを煽っています。",
-        "報告の矛盾に気づきました。「盗まれた」物資は、実は中立の洞窟に隠されていました。現場で王室の使者の印章を見つけました。第三者が部族を操っています。",
-        "襲撃現場を調査したところ、部族の儀式に見せかけた偽装工作を発見しました。誰かがこの地域を弱体化させるために、彼らを共食いさせようとしています。この対立は外部による仕掛けです。"
-      ]
-    },
-    "default": {
-      "pt": [
-        "Consegui estabelecer um cessar-fogo temporário. Os Urmir e os Tavak prometeram não se atacar por enquanto, embora a desconfiança ainda paire no ar.",
-        "Usei minha autoridade para forçar um acordo de paz. As tribos devolveram parte do que restava e o conflito foi contido, conforme o mensageiro solicitou.",
-        "Após longas discussões, as aldeias aceitaram dividir os prejuízos. O derramamento de sangue foi evitado, e a paz retornou, mesmo que de forma frágil."
-      ],
-      "en": [
-        "I managed to establish a temporary ceasefire. The Urmir and Tavak promised not to attack each other for now, though distrust still hangs in the air.",
-        "I used my authority to force a peace agreement. The tribes returned part of what remained, and the conflict was contained, as the messenger requested.",
-        "After long discussions, the villages agreed to share the losses. Bloodshed was avoided, and peace has returned, albeit fragile."
-      ],
-      "es": [
-        "Logré establecer un alto al fuego temporal. Los Urmir y Tavak prometieron no atacarse por ahora, aunque la desconfiança aún flota en el aire.",
-        "Usé mi autoridad para forzar un acuerdo de paz. Las tribus devolvieron parte de lo que quedaba y el conflicto fue contenido, como solicitó el mensajero.",
-        "Tras largas discusiones, las aldeas aceptaron dividir las pérdidas. Se evitó el derramamiento de sangre y la paz regresó, aunque de forma frágil."
-      ],
-      "ru": [
-        "Мне удалось добиться временного прекращения огня. Урмир и Тавак пообещали пока не нападать друг на друга, хотя недоверие все еще витает в воздухе.",
-        "Я использовала свой авторитет, чтобы навязать мирное соглашение. Племена вернули часть того, что осталось, и конфликт был улажен, как и просил посланник.",
-        "После долгих дискуссий деревни согласились разделить убытки. Кровопролития удалось избежать, и мир вернулся, пусть и хрупкий."
-      ],
-      "zh": [
-        "我设法达成了临时停火。乌尔米尔和塔瓦克承诺暂时互不进攻，尽管空气中仍弥漫着不信任。",
-        "我利用自己的权威强加了一项和平协议。部落归还了部分剩余物资，冲突按信使的要求得到了遏制。",
-        "经过长时间的讨论，村庄同意共同承担损失。流血冲突得以避免，和平重新降临，尽管它很脆弱。"
-      ],
-      "ja": [
-        "一時的な停戦を確立することができました。ウルミルとタヴァクは当面の間、互いに攻撃しないことを約束しましたが、不信感はまだ漂っています。",
-        "権威を使って和平合意を強行しました。部族は残った物資の一部を返還し、使者の要求通りに対立は収束しました。",
-        "長い議論の末、村々は損失を分担することに同意しました。流血の事態は回避され、脆弱ではありますが平和が戻りました。"
-      ]
-    }
+  "conclusion": {
+    "success": {
+      "investigation": {
+        "pt": [
+          "Enquanto os líderes discutiam, analisei os rastros dos roubos. As pegadas e marcas não pertenciam a nenhuma das tribos, mas a mercenários profissionais. Alguém externo está alimentando esse ódio.",
+          "Notei inconsistências nos relatos: os suprimentos 'roubados' foram na verdade escondidos em uma caverna neutra. Encontrei um selo do mensageiro real caído no local. Há um terceiro ator manipulando as tribos.",
+          "Investiguei o local dos ataques e descobri que os danos foram forjados para parecerem rituais tribais. Alguém quer que eles se matem para fragilizar a região. O conflito é uma encenação externa."
+        ],
+        "en": [
+          "While the leaders argued, I analyzed the tracks from the thefts. The footprints and marks belonged to neither tribe, but to professional mercenaries. Someone from the outside is fueling this hatred.",
+          "I noticed inconsistencies in the reports: the 'stolen' supplies were actually hidden in a neutral cave. I found a royal messenger's seal at the site. A third party is manipulating the tribes.",
+          "I investigated the attack sites and discovered the damage was forged to look like tribal rituals. Someone wants them to kill each other to weaken the region. The conflict is an external setup."
+        ],
+        "es": [
+          "Mientras los líderes discutían, analicé los rastros de los robos. Las huellas no pertenecían a ninguna de las tribus, sino a mercenarios profesionales. Alguien externo está alimentando este odio.",
+          "Noté inconsistencias en los relatos: los suministros 'robados' estaban escondidos en una cueva neutra. Encontré un sello del mensajero real en el lugar. Un tercer actor está manipulando a las tribus.",
+          "Investigué el lugar de los ataques y descubrí que los daños fueron forjados para parecer ritos tribales. Alguien quiere que se maten para debilitar la región. El conflicto es una farsa externa."
+        ],
+        "ru": [
+          "Пока вожди спорили, я изучила следы краж. Отпечатки не принадлежали ни одному из племен — это были профессиональные наемники. Кто-то извне разжигает эту ненависть.",
+          "Я заметила несостыковки в рассказах: «украденные» припасы были спрятаны в нейтральной пещере. Я нашла там печать королевского посланника. Третья сторона манипулирует племенами.",
+          "Я осмотрела места нападений и обнаружила, что улики были подделаны под племенные ритуалы. Кто-то хочет, чтобы они перебили друг друга для ослабления региона."
+        ],
+        "zh": [
+          "当首领们争论不休时，我分析了失窃现场的痕迹。那些脚印和标记不属于任何一个部落，而是属于专业雇佣兵。有外人在助长这种仇恨。",
+          "我注意到报告中的矛盾之处：“被盗”的物资实际上被藏在一个中立的洞穴里。我在现场发现了一枚皇家信使的印章。有第三方在操纵这些部落。",
+          "我调查了袭击现场，发现破坏是伪造成部落仪式的样子。有人想让他们自相残杀以削弱该地区。冲突是由外部精心策划的。"
+        ],
+        "ja": [
+          "リーダーたちが争っている間、盗難の痕跡を分析しました。足跡や痕跡はどちらの部族のものでもなく、プロの傭兵のものでした。外部の誰かがこの憎しみを煽っています。",
+          "報告の矛盾に気づきました。「盗まれた」物資は、実は中立の洞窟に隠されていました。現場で王室の使者の印章を見つけました。第三者が部族を操っています。",
+          "襲撃現場を調査したところ、部族の儀式に見せかけた偽装工作を発見しました。誰かがこの地域を弱体化させるために、彼らを共食いさせようとしています。この対立は外部による仕掛けです。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Consegui estabelecer um cessar-fogo temporário. Os Urmir e os Tavak prometeram não se atacar por enquanto, embora a desconfiança ainda paire no ar.",
+          "Usei minha autoridade para forçar um acordo de paz. As tribos devolveram parte do que restava e o conflito foi contido, conforme o mensageiro solicitou.",
+          "Após longas discussões, as aldeias aceitaram dividir os prejuízos. O derramamento de sangue foi evitado, e a paz retornou, mesmo que de forma frágil."
+        ],
+        "en": [
+          "I managed to establish a temporary ceasefire. The Urmir and Tavak promised not to attack each other for now, though distrust still hangs in the air.",
+          "I used my authority to force a peace agreement. The tribes returned part of what remained, and the conflict was contained, as the messenger requested.",
+          "After long discussions, the villages agreed to share the losses. Bloodshed was avoided, and peace has returned, albeit fragile."
+        ],
+        "es": [
+          "Logré establecer un alto al fuego temporal. Los Urmir y Tavak prometieron no atacarse por ahora, aunque la desconfiança aún flota en el aire.",
+          "Usé mi autoridad para forzar un acuerdo de paz. Las tribus devolvieron parte de lo que quedaba y el conflicto fue contenido, como solicitó el mensajero.",
+          "Tras largas discusiones, las aldeas aceptaron dividir las pérdidas. Se evitó el derramamiento de sangre y la paz regresó, aunque de forma frágil."
+        ],
+        "ru": [
+          "Мне удалось добиться временного прекращения огня. Урмир и Тавак пообещали пока не нападать друг на друга, хотя недоверие все еще витает в воздухе.",
+          "Я использовала свой авторитет, чтобы навязать мирное соглашение. Племена вернули часть того, что осталось, и конфликт был улажен, как и просил посланник.",
+          "После долгих дискуссий деревни согласились разделить убытки. Кровопролития удалось избежать, и мир вернулся, пусть и хрупкий."
+        ],
+        "zh": [
+          "我设法达成了临时停火。乌尔米尔和塔瓦克承诺暂时互不进攻，尽管空气中仍弥漫着不信任。",
+          "我利用自己的权威强加了一项和平协议。部落归还了部分剩余物资，冲突按信使的要求得到了遏制。",
+          "经过长时间的讨论，村庄同意共同承担损失。流血冲突得以避免，和平重新降临，尽管它很脆弱。"
+        ],
+        "ja": [
+          "一時的な停戦を確立することができました。ウルミルとタヴァクは当面の間、互いに攻撃しないことを約束しましたが、不信感はまだ漂っています。",
+          "権威を使って和平合意を強行しました。部族は残った物資の一部を返還し、使者の要求通りに対立は収束しました。",
+          "長い議論の末、村々は損失を分担することに同意しました。流血の事態は回避され、脆弱ではありますが平和が戻りました。"
+        ]
+      }
     },
     "failure": {
       "default": {
@@ -153,4 +153,4 @@
       }
     }
   }
-}        
+}

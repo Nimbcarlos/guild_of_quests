@@ -23,9 +23,9 @@
   "expired_at": 6,
   "available_from_turn": 59,
   "duration": 3,
-  "difficulty": 2.8,
+  "difficulty": 2.5,
   "rewards": {
-    "xp": 140
+    "xp": 70
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -50,74 +50,74 @@
       "ja": "見習い"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Isolei o aprendiz e reverti a reação de transmutação ao toque.",
-        "Estabilizei a matriz alquímica e encerrei a conversão em chumbo.",
-        "Reverti vítimas parcialmente afetadas e neutralizei o efeito residual."
-      ],
-      "en": [
-        "I isolated the apprentice and reversed the touch-triggered transmutation.",
-        "I stabilized the alchemical matrix and stopped the lead conversion.",
-        "I restored partially affected victims and neutralized residual effects."
-      ],
-      "es": [
-        "Aislé al aprendiz y revertí la transmutación por contacto.",
-        "Estabilicé la matriz alquímica y detuve la conversión en plomo.",
-        "Restauré a las víctimas parcialmente afectadas y neutralicé el residuo."
-      ],
-      "ru": [
-        "Я изолировал ученика и обратил трансмутацию прикосновения.",
-        "Стабилизировал алхимическую матрицу и остановил превращение в свинец.",
-        "Восстановил частично затронутых и нейтрализовал остаточный эффект."
-      ],
-      "zh": [
-        "我隔离学徒并逆转接触触发的转化。",
-        "我稳定炼金结构并终止铅化反应。",
-        "我恢复部分受影响者并消除残留效果。"
-      ],
-      "ja": [
-        "見習いを隔離し、接触による変成を逆転させました。",
-        "錬金術式を安定化させ、鉛化を停止しました。",
-        "部分的に影響を受けた者を回復させ、残留効果を除去しました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "A transmutação continuou ativa após a contenção.",
-        "Não consegui estabilizar a matriz alquímica a tempo.",
-        "O efeito de chumbo se espalhou além do laboratório."
-      ],
-      "en": [
-        "The transmutation remained active after containment.",
-        "I failed to stabilize the alchemical matrix in time.",
-        "The lead effect spread beyond the laboratory."
-      ],
-      "es": [
-        "La transmutación continuó activa tras la contención.",
-        "No logré estabilizar la matriz a tiempo.",
-        "El efecto de plomo se extendió más allá del laboratorio."
-      ],
-      "ru": [
-        "Трансмутация продолжилась после изоляции.",
-        "Не удалось вовремя стабилизировать матрицу.",
-        "Эффект свинца распространился за пределы лаборатории."
-      ],
-      "zh": [
-        "转化在控制后仍然持续。",
-        "未能及时稳定炼金结构。",
-        "铅化效果扩散至实验室之外。"
-      ],
-      "ja": [
-        "封じ込め後も変成が継続しました。",
-        "術式を時間内に安定化できませんでした。",
-        "鉛化が実験室外へ拡大しました。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Isolei o aprendiz e reverti a reação de transmutação ao toque.",
+          "Estabilizei a matriz alquímica e encerrei a conversão em chumbo.",
+          "Reverti vítimas parcialmente afetadas e neutralizei o efeito residual."
+        ],
+        "en": [
+          "I isolated the apprentice and reversed the touch-triggered transmutation.",
+          "I stabilized the alchemical matrix and stopped the lead conversion.",
+          "I restored partially affected victims and neutralized residual effects."
+        ],
+        "es": [
+          "Aislé al aprendiz y revertí la transmutación por contacto.",
+          "Estabilicé la matriz alquímica y detuve la conversión en plomo.",
+          "Restauré a las víctimas parcialmente afectadas y neutralicé el residuo."
+        ],
+        "ru": [
+          "Я изолировал ученика и обратил трансмутацию прикосновения.",
+          "Стабилизировал алхимическую матрицу и остановил превращение в свинец.",
+          "Восстановил частично затронутых и нейтрализовал остаточный эффект."
+        ],
+        "zh": [
+          "我隔离学徒并逆转接触触发的转化。",
+          "我稳定炼金结构并终止铅化反应。",
+          "我恢复部分受影响者并消除残留效果。"
+        ],
+        "ja": [
+          "見習いを隔離し、接触による変成を逆転させました。",
+          "錬金術式を安定化させ、鉛化を停止しました。",
+          "部分的に影響を受けた者を回復させ、残留効果を除去しました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A transmutação continuou ativa após a contenção.",
+          "Não consegui estabilizar a matriz alquímica a tempo.",
+          "O efeito de chumbo se espalhou além do laboratório."
+        ],
+        "en": [
+          "The transmutation remained active after containment.",
+          "I failed to stabilize the alchemical matrix in time.",
+          "The lead effect spread beyond the laboratory."
+        ],
+        "es": [
+          "La transmutación continuó activa tras la contención.",
+          "No logré estabilizar la matriz a tiempo.",
+          "El efecto de plomo se extendió más allá del laboratorio."
+        ],
+        "ru": [
+          "Трансмутация продолжилась после изоляции.",
+          "Не удалось вовремя стабилизировать матрицу.",
+          "Эффект свинца распространился за пределы лаборатории."
+        ],
+        "zh": [
+          "转化在控制后仍然持续。",
+          "未能及时稳定炼金结构。",
+          "铅化效果扩散至实验室之外。"
+        ],
+        "ja": [
+          "封じ込め後も変成が継続しました。",
+          "術式を時間内に安定化できませんでした。",
+          "鉛化が実験室外へ拡大しました。"
+        ]
+      }
     }
   }
-}
 }

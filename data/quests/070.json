@@ -24,9 +24,9 @@
   "expired_at": 10,
   "available_from_turn": 114,
   "duration": 3,
-  "difficulty": 2.7,
+  "difficulty": 3.5,
   "rewards": {
-    "xp": 150
+    "xp": 85
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -51,106 +51,106 @@
       "ja": "復活した妻"
     }
   },
-"conclusion": {
-  "success": {
-    "cure": {
-      "pt": [
-        "Unifiquei os fragmentos mentais e estabilizei a consciência.",
-        "Reorganizei memórias dispersas e eliminei surtos dissociativos.",
-        "Restabeleci identidade contínua e resposta emocional coerente."
-      ],
-      "en": [
-        "I unified the mental fragments and stabilized her consciousness.",
-        "I reorganized scattered memories and eliminated dissociative episodes.",
-        "I restored continuous identity and coherent emotional response."
-      ],
-      "es": [
-        "Unifiqué los fragmentos mentales y estabilicé su conciencia.",
-        "Reorganicé memorias dispersas y eliminé episodios disociativos.",
-        "Restablecí identidad continua y respuesta emocional coherente."
-      ],
-      "ru": [
-        "Я объединил фрагменты сознания и стабилизировал её разум.",
-        "Собрал разрозненные воспоминания и устранил диссоциацию.",
-        "Восстановил целостность личности и эмоциональную стабильность."
-      ],
-      "zh": [
-        "我整合精神碎片并稳定意识。",
-        "我重组记忆并消除解离。",
-        "我恢复完整人格与情绪连贯。"
-      ],
-      "ja": [
-        "精神の断片を統合し、意識を安定させました。",
-        "散逸した記憶を再構築し、解離を排除しました。",
-        "人格の連続性と感情の安定を回復しました。"
-      ]
+  "conclusion": {
+    "success": {
+      "cure": {
+        "pt": [
+          "Unifiquei os fragmentos mentais e estabilizei a consciência.",
+          "Reorganizei memórias dispersas e eliminei surtos dissociativos.",
+          "Restabeleci identidade contínua e resposta emocional coerente."
+        ],
+        "en": [
+          "I unified the mental fragments and stabilized her consciousness.",
+          "I reorganized scattered memories and eliminated dissociative episodes.",
+          "I restored continuous identity and coherent emotional response."
+        ],
+        "es": [
+          "Unifiqué los fragmentos mentales y estabilicé su conciencia.",
+          "Reorganicé memorias dispersas y eliminé episodios disociativos.",
+          "Restablecí identidad continua y respuesta emocional coherente."
+        ],
+        "ru": [
+          "Я объединил фрагменты сознания и стабилизировал её разум.",
+          "Собрал разрозненные воспоминания и устранил диссоциацию.",
+          "Восстановил целостность личности и эмоциональную стабильность."
+        ],
+        "zh": [
+          "我整合精神碎片并稳定意识。",
+          "我重组记忆并消除解离。",
+          "我恢复完整人格与情绪连贯。"
+        ],
+        "ja": [
+          "精神の断片を統合し、意識を安定させました。",
+          "散逸した記憶を再構築し、解離を排除しました。",
+          "人格の連続性と感情の安定を回復しました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Reintegrei a alma ao corpo e encerrei a instabilidade espiritual.",
+          "Sellei as fissuras da ressurreição e restaurei o fluxo vital.",
+          "Purifiquei a alma incompleta e estabilizei sua presença."
+        ],
+        "en": [
+          "I reintegrated her soul into the body and ended spiritual instability.",
+          "I sealed the fractures of resurrection and restored vital flow.",
+          "I purified the incomplete soul and stabilized her presence."
+        ],
+        "es": [
+          "Reintegré el alma al cuerpo y detuve la inestabilidad espiritual.",
+          "Sellé las fracturas de la resurrección y restauré el flujo vital.",
+          "Purifiqué el alma incompleta y estabilicé su presencia."
+        ],
+        "ru": [
+          "Я воссоединил душу с телом и устранил духовную нестабильность.",
+          "Запечатал трещины воскрешения и восстановил жизненный поток.",
+          "Очистил неполную душу и стабилизировал её сущность."
+        ],
+        "zh": [
+          "我将灵魂重新整合入肉体并终止灵性失衡。",
+          "我封印复活裂痕并恢复生命流动。",
+          "我净化不完整灵魂并稳定存在。"
+        ],
+        "ja": [
+          "魂を肉体へ再統合し、霊的不安定を終わらせました。",
+          "復活の亀裂を封じ、生命の流れを回復しました。",
+          "不完全な魂を浄化し、存在を安定させました。"
+        ]
+      }
     },
-    "default": {
-      "pt": [
-        "Reintegrei a alma ao corpo e encerrei a instabilidade espiritual.",
-        "Sellei as fissuras da ressurreição e restaurei o fluxo vital.",
-        "Purifiquei a alma incompleta e estabilizei sua presença."
-      ],
-      "en": [
-        "I reintegrated her soul into the body and ended spiritual instability.",
-        "I sealed the fractures of resurrection and restored vital flow.",
-        "I purified the incomplete soul and stabilized her presence."
-      ],
-      "es": [
-        "Reintegré el alma al cuerpo y detuve la inestabilidad espiritual.",
-        "Sellé las fracturas de la resurrección y restauré el flujo vital.",
-        "Purifiqué el alma incompleta y estabilicé su presencia."
-      ],
-      "ru": [
-        "Я воссоединил душу с телом и устранил духовную нестабильность.",
-        "Запечатал трещины воскрешения и восстановил жизненный поток.",
-        "Очистил неполную душу и стабилизировал её сущность."
-      ],
-      "zh": [
-        "我将灵魂重新整合入肉体并终止灵性失衡。",
-        "我封印复活裂痕并恢复生命流动。",
-        "我净化不完整灵魂并稳定存在。"
-      ],
-      "ja": [
-        "魂を肉体へ再統合し、霊的不安定を終わらせました。",
-        "復活の亀裂を封じ、生命の流れを回復しました。",
-        "不完全な魂を浄化し、存在を安定させました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "Os fragmentos mentais permaneceram desorganizados.",
-        "A alma não se consolidou após o ritual.",
-        "A instabilidade espiritual se intensificou."
-      ],
-      "en": [
-        "The mental fragments remained disorganized.",
-        "The soul did not consolidate after the ritual.",
-        "Spiritual instability intensified."
-      ],
-      "es": [
-        "Los fragmentos mentales permanecieron desorganizados.",
-        "El alma no se consolidó tras el rito.",
-        "La inestabilidad espiritual se intensificó."
-      ],
-      "ru": [
-        "Фрагменты сознания остались разрозненными.",
-        "Душа не восстановилась после обряда.",
-        "Духовная нестабильность усилилась."
-      ],
-      "zh": [
-        "精神碎片仍未整合。",
-        "仪式后灵魂未能稳定。",
-        "灵性失衡加剧。"
-      ],
-      "ja": [
-        "精神の断片は統合されませんでした。",
-        "儀式後も魂は安定しませんでした。",
-        "霊的不安定が悪化しました。"
-      ]
+    "failure": {
+      "default": {
+        "pt": [
+          "Os fragmentos mentais permaneceram desorganizados.",
+          "A alma não se consolidou após o ritual.",
+          "A instabilidade espiritual se intensificou."
+        ],
+        "en": [
+          "The mental fragments remained disorganized.",
+          "The soul did not consolidate after the ritual.",
+          "Spiritual instability intensified."
+        ],
+        "es": [
+          "Los fragmentos mentales permanecieron desorganizados.",
+          "El alma no se consolidó tras el rito.",
+          "La inestabilidad espiritual se intensificó."
+        ],
+        "ru": [
+          "Фрагменты сознания остались разрозненными.",
+          "Душа не восстановилась после обряда.",
+          "Духовная нестабильность усилилась."
+        ],
+        "zh": [
+          "精神碎片仍未整合。",
+          "仪式后灵魂未能稳定。",
+          "灵性失衡加剧。"
+        ],
+        "ja": [
+          "精神の断片は統合されませんでした。",
+          "儀式後も魂は安定しませんでした。",
+          "霊的不安定が悪化しました。"
+        ]
+      }
     }
   }
-}
 }

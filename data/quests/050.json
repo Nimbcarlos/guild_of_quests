@@ -21,9 +21,9 @@
   "expired_at": 3,
   "available_from_turn": 131,
   "duration": 3,
-  "difficulty": 1.8,
+  "difficulty": 3.5,
   "rewards": {
-    "xp": 95
+    "xp": 85
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -48,74 +48,74 @@
       "ja": "クリスタル"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Avancei saltando entre as plataformas instáveis e alcancei os cristais antes do colapso térmico. Retornei pelo trajeto mais curto.",
-        "Mantive ritmo constante sobre a pedra superaquecida e resgatei a carga intacta.",
-        "Usei pontos firmes no terreno para cruzar o setor rapidamente e retirar os cristais da zona de calor."
-      ],
-      "en": [
-        "I advanced by leaping across unstable platforms and reached the crystals before thermal failure. I returned by the shortest path.",
-        "I kept a steady pace over overheated stone and recovered the cargo intact.",
-        "I used solid footholds to cross the sector quickly and remove the crystals from the heat zone."
-      ],
-      "es": [
-        "Avancé saltando entre plataformas inestables y alcancé los cristales antes del colapso térmico. Regresé por la ruta más corta.",
-        "Mantuve un ritmo constante sobre la piedra sobrecalentada y rescaté la carga intacta.",
-        "Usé apoyos firmes para cruzar el sector rápidamente y retirar los cristales de la zona de calor."
-      ],
-      "ru": [
-        "Я продвигался прыжками по нестабильным платформам и добрался до кристаллов до перегрева. Вернулся кратчайшим путём.",
-        "Сохранял стабильный темп по раскалённому камню и спас груз целым.",
-        "Использовал устойчивые точки опоры, чтобы быстро пройти сектор и вывести кристаллы из зоны жара."
-      ],
-      "zh": [
-        "我在不稳平台间跳跃前进，在热崩溃前抵达水晶，并从最短路线撤回。",
-        "我在过热岩石上保持稳定节奏，成功带回完好的货物。",
-        "我利用稳固落脚点快速穿越区域，将水晶带离高温区。"
-      ],
-      "ja": [
-        "不安定な足場を跳び越え、熱崩壊前にクリスタルへ到達しました。最短経路で帰還しました。",
-        "過熱した石の上を一定の速度で進み、貨物を無事回収しました。",
-        "確かな足場を使い素早く突破し、クリスタルを熱域から搬出しました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "Uma plataforma cedeu durante a travessia e não consegui alcançar os cristais a tempo.",
-        "O calor excessivo forçou recuo antes da recuperação da carga.",
-        "Perdi estabilidade no setor superaquecido e fui obrigado a abandonar a tentativa."
-      ],
-      "en": [
-        "A platform gave way during the crossing and I failed to reach the crystals in time.",
-        "Excessive heat forced a retreat before the cargo could be secured.",
-        "I lost footing in the overheated sector and had to abandon the attempt."
-      ],
-      "es": [
-        "Una plataforma cedió durante el cruce y no logré alcanzar los cristales a tiempo.",
-        "El calor excesivo obligó a retirarme antes de asegurar la carga.",
-        "Perdí estabilidad en la zona sobrecalentada y tuve que abandonar el intento."
-      ],
-      "ru": [
-        "Платформа обрушилась во время перехода, и я не успел добраться до кристаллов.",
-        "Сильный жар вынудил отступить до спасения груза.",
-        "Я потерял устойчивость в перегретом секторе и прекратил попытку."
-      ],
-      "zh": [
-        "穿越时平台塌陷，未能及时抵达水晶。",
-        "高温迫使我在取回货物前撤退。",
-        "在过热区域失去稳定，只能放弃行动。"
-      ],
-      "ja": [
-        "渡る途中で足場が崩れ、クリスタルに間に合いませんでした。",
-        "過度の熱で回収前に撤退しました。",
-        "過熱区域で足を取られ、任務を断念しました。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Avancei saltando entre as plataformas instáveis e alcancei os cristais antes do colapso térmico. Retornei pelo trajeto mais curto.",
+          "Mantive ritmo constante sobre a pedra superaquecida e resgatei a carga intacta.",
+          "Usei pontos firmes no terreno para cruzar o setor rapidamente e retirar os cristais da zona de calor."
+        ],
+        "en": [
+          "I advanced by leaping across unstable platforms and reached the crystals before thermal failure. I returned by the shortest path.",
+          "I kept a steady pace over overheated stone and recovered the cargo intact.",
+          "I used solid footholds to cross the sector quickly and remove the crystals from the heat zone."
+        ],
+        "es": [
+          "Avancé saltando entre plataformas inestables y alcancé los cristales antes del colapso térmico. Regresé por la ruta más corta.",
+          "Mantuve un ritmo constante sobre la piedra sobrecalentada y rescaté la carga intacta.",
+          "Usé apoyos firmes para cruzar el sector rápidamente y retirar los cristales de la zona de calor."
+        ],
+        "ru": [
+          "Я продвигался прыжками по нестабильным платформам и добрался до кристаллов до перегрева. Вернулся кратчайшим путём.",
+          "Сохранял стабильный темп по раскалённому камню и спас груз целым.",
+          "Использовал устойчивые точки опоры, чтобы быстро пройти сектор и вывести кристаллы из зоны жара."
+        ],
+        "zh": [
+          "我在不稳平台间跳跃前进，在热崩溃前抵达水晶，并从最短路线撤回。",
+          "我在过热岩石上保持稳定节奏，成功带回完好的货物。",
+          "我利用稳固落脚点快速穿越区域，将水晶带离高温区。"
+        ],
+        "ja": [
+          "不安定な足場を跳び越え、熱崩壊前にクリスタルへ到達しました。最短経路で帰還しました。",
+          "過熱した石の上を一定の速度で進み、貨物を無事回収しました。",
+          "確かな足場を使い素早く突破し、クリスタルを熱域から搬出しました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Uma plataforma cedeu durante a travessia e não consegui alcançar os cristais a tempo.",
+          "O calor excessivo forçou recuo antes da recuperação da carga.",
+          "Perdi estabilidade no setor superaquecido e fui obrigado a abandonar a tentativa."
+        ],
+        "en": [
+          "A platform gave way during the crossing and I failed to reach the crystals in time.",
+          "Excessive heat forced a retreat before the cargo could be secured.",
+          "I lost footing in the overheated sector and had to abandon the attempt."
+        ],
+        "es": [
+          "Una plataforma cedió durante el cruce y no logré alcanzar los cristales a tiempo.",
+          "El calor excesivo obligó a retirarme antes de asegurar la carga.",
+          "Perdí estabilidad en la zona sobrecalentada y tuve que abandonar el intento."
+        ],
+        "ru": [
+          "Платформа обрушилась во время перехода, и я не успел добраться до кристаллов.",
+          "Сильный жар вынудил отступить до спасения груза.",
+          "Я потерял устойчивость в перегретом секторе и прекратил попытку."
+        ],
+        "zh": [
+          "穿越时平台塌陷，未能及时抵达水晶。",
+          "高温迫使我在取回货物前撤退。",
+          "在过热区域失去稳定，只能放弃行动。"
+        ],
+        "ja": [
+          "渡る途中で足場が崩れ、クリスタルに間に合いませんでした。",
+          "過度の熱で回収前に撤退しました。",
+          "過熱区域で足を取られ、任務を断念しました。"
+        ]
+      }
     }
   }
-}
 }

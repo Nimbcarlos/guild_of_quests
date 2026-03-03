@@ -24,9 +24,9 @@
   "expired_at": 5,
   "available_from_turn": 70,
   "duration": 3,
-  "difficulty": 1.2,
+  "difficulty": 2.5,
   "rewards": {
-    "xp": 60
+    "xp": 70
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -51,106 +51,106 @@
       "ja": "宗教者たち"
     }
   },
-"conclusion": {
-  "success": {
-    "diplomacy": {
-      "pt": [
-        "Negociei um escalonamento de horários entre os dois grupos. O primeiro festival ocorrerá ao amanhecer e o segundo ao pôr do sol, garantindo a utilização do local sem sobreposição.",
-        "Propus uma cerimônia conjunta focada nos elementos comuns de ambas as fés. Os líderes aceitaram a cooperação em vez da disputa, e o festival ocorreu sem incidentes.",
-        "Dividi o local sagrado em setores distintos para cada grupo. Com a delimitação clara de espaço, ambas as religiões realizaram seus ritos simultaneamente e em ordem."
-      ],
-      "en": [
-        "I negotiated a staggered schedule between the two groups. The first festival will take place at dawn and the second at sunset, ensuring the site's use without overlap.",
-        "I proposed a joint ceremony focused on common elements of both faiths. The leaders accepted cooperation over dispute, and the festival occurred without incident.",
-        "I divided the sacred site into distinct sectors for each group. With clear spatial delimitation, both religions performed their rites simultaneously and in order."
-      ],
-      "es": [
-        "Negocié un horario escalonado. El primer festival ocurrirá al amanecer y el segundo al atardecer, garantizando el uso del lugar sin solapamientos.",
-        "Propuse una ceremonia conjunta basada en elementos comunes. Los líderes aceptaron cooperar y el festival transcurrió sin incidentes.",
-        "Dividí el lugar sagrado en sectores distintos. Con una delimitación clara, ambas religiones realizaron sus ritos simultáneamente y en orden."
-      ],
-      "ru": [
-        "Я договорилась о раздельном графике для обеих групп. Первый фестиваль пройдет на рассвете, второй — на закате, что исключает накладки.",
-        "Я предложила совместную церемонию, основанную на общих элементах обеих вер. Лидеры выбрали сотрудничество вместо спора.",
-        "Я разделила священное место на отдельные секторы. Благодаря четкому разграничению пространства обе группы провели свои ритуалы одновременно."
-      ],
-      "zh": [
-        "我协商了两组之间的错峰时间表。第一个节日在黎明举行，第二个在日落举行，确保了场地使用不重叠。",
-        "我提议举行一场聚焦于两种信仰共同元素的联合仪式。领导者们接受了合作而非争端，节日顺利举行。",
-        "我将圣地划分为不同的区域。通过明确的空间界定，两种宗教同时且有序地完成了各自的仪式。"
-      ],
-      "ja": [
-        "二つのグループ間で時間差を利用したスケジュールを交渉しました。最初の祭りは夜明けに、二つ目は日没に行うことで、重複を避けました。",
-        "双方の信仰に共通する要素に焦点を当てた合同式典を提案しました。指導者たちは対立よりも協力を受け入れ、祭りは無事に執り行われました。",
-        "聖地をグループごとに区画分けしました。明確な空間分断により、両宗教は同時かつ秩序立って儀式を完了しました。"
-      ]
+  "conclusion": {
+    "success": {
+      "diplomacy": {
+        "pt": [
+          "Negociei um escalonamento de horários entre os dois grupos. O primeiro festival ocorrerá ao amanhecer e o segundo ao pôr do sol, garantindo a utilização do local sem sobreposição.",
+          "Propus uma cerimônia conjunta focada nos elementos comuns de ambas as fés. Os líderes aceitaram a cooperação em vez da disputa, e o festival ocorreu sem incidentes.",
+          "Dividi o local sagrado em setores distintos para cada grupo. Com a delimitação clara de espaço, ambas as religiões realizaram seus ritos simultaneamente e em ordem."
+        ],
+        "en": [
+          "I negotiated a staggered schedule between the two groups. The first festival will take place at dawn and the second at sunset, ensuring the site's use without overlap.",
+          "I proposed a joint ceremony focused on common elements of both faiths. The leaders accepted cooperation over dispute, and the festival occurred without incident.",
+          "I divided the sacred site into distinct sectors for each group. With clear spatial delimitation, both religions performed their rites simultaneously and in order."
+        ],
+        "es": [
+          "Negocié un horario escalonado. El primer festival ocurrirá al amanecer y el segundo al atardecer, garantizando el uso del lugar sin solapamientos.",
+          "Propuse una ceremonia conjunta basada en elementos comunes. Los líderes aceptaron cooperar y el festival transcurrió sin incidentes.",
+          "Dividí el lugar sagrado en sectores distintos. Con una delimitación clara, ambas religiones realizaron sus ritos simultáneamente y en orden."
+        ],
+        "ru": [
+          "Я договорилась о раздельном графике для обеих групп. Первый фестиваль пройдет на рассвете, второй — на закате, что исключает накладки.",
+          "Я предложила совместную церемонию, основанную на общих элементах обеих вер. Лидеры выбрали сотрудничество вместо спора.",
+          "Я разделила священное место на отдельные секторы. Благодаря четкому разграничению пространства обе группы провели свои ритуалы одновременно."
+        ],
+        "zh": [
+          "我协商了两组之间的错峰时间表。第一个节日在黎明举行，第二个在日落举行，确保了场地使用不重叠。",
+          "我提议举行一场聚焦于两种信仰共同元素的联合仪式。领导者们接受了合作而非争端，节日顺利举行。",
+          "我将圣地划分为不同的区域。通过明确的空间界定，两种宗教同时且有序地完成了各自的仪式。"
+        ],
+        "ja": [
+          "二つのグループ間で時間差を利用したスケジュールを交渉しました。最初の祭りは夜明けに、二つ目は日没に行うことで、重複を避けました。",
+          "双方の信仰に共通する要素に焦点を当てた合同式典を提案しました。指導者たちは対立よりも協力を受け入れ、祭りは無事に執り行われました。",
+          "聖地をグループごとに区画分けしました。明確な空間分断により、両宗教は同時かつ秩序立って儀式を完了しました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Interpretei os textos sagrados de ambas as fés para provar que a presença do outro grupo no mesmo dia era, na verdade, um sinal auspicioso. A disputa foi convertida em respeito mútuo.",
+          "Realizei um ritual de purificação rápida entre as transições dos festivais. A garantia de que o solo permaneceria sagrado para ambos foi suficiente para encerrar o conflito.",
+          "Utilizei meu conhecimento teológico para mediar a santidade do local. Estabeleci um protocolo litúrgico que permitiu a coexistência pacífica durante as celebrações."
+        ],
+        "en": [
+          "I interpreted the sacred texts of both faiths to prove that the other group's presence on the same day was actually an auspicious sign. The dispute was converted into mutual respect.",
+          "I performed a quick purification ritual between festival transitions. The guarantee that the ground would remain sacred for both was enough to end the conflict.",
+          "I used my theological knowledge to mediate the site's sanctity. I established a liturgical protocol that allowed peaceful coexistence during the celebrations."
+        ],
+        "es": [
+          "Interpreté los textos sagrados para demostrar que la presencia del otro grupo era una señal de buen augurio. La disputa se convirtió en respeto mutuo.",
+          "Realicé un ritual de purificación rápida entre las transiciones. La garantía de que el suelo seguiría siendo sagrado para ambos fue suficiente para terminar el conflicto.",
+          "Utilicé mi conocimiento teológico para mediar en la santidad del lugar. Establecí un protocolo litúrgico que permitió la coexistencia pacífica."
+        ],
+        "ru": [
+          "Я истолковала священные тексты так, чтобы доказать: присутствие другой группы в тот же день — благоприятный знак. Спор перерос в уважение.",
+          "Я провела быстрый ритуал очищения между празднествами. Гарантии того, что земля останется священной для обоих, хватило для прекращения конфликта.",
+          "Я использовала богословские знания, чтобы подтвердить святость места. Я установила литургический протокол, позволивший мирно сосуществовать."
+        ],
+        "zh": [
+          "我解读了两种信仰的圣典，证明另一方在同一天出现实际上是吉兆。争端转化为了相互尊重。",
+          "在节日转换期间，我执行了快速净化仪式。确保土地对双方都保持神圣，这足以结束冲突。",
+          "我利用神学知识调解了圣地的神圣性。我建立了一套礼拜协议，允许在庆祝活动期间和平共处。"
+        ],
+        "ja": [
+          "両者の聖典を解釈し、同じ日に他グループが存在することは実は吉兆であると証明しました。争いは相互尊重へと変わりました。",
+          "祭りの交代時間に迅速な浄化の儀式を行いました。地が双方にとって神聖であり続ける保証を得たことで、衝突は終結しました。",
+          "神学の知識を用いて聖地の神聖さを仲裁しました。祝典中の平和的な共存を可能にする典礼プロトコルを確立しました。"
+        ]
+      }
     },
-"default": {
-      "pt": [
-        "Interpretei os textos sagrados de ambas as fés para provar que a presença do outro grupo no mesmo dia era, na verdade, um sinal auspicioso. A disputa foi convertida em respeito mútuo.",
-        "Realizei um ritual de purificação rápida entre as transições dos festivais. A garantia de que o solo permaneceria sagrado para ambos foi suficiente para encerrar o conflito.",
-        "Utilizei meu conhecimento teológico para mediar a santidade do local. Estabeleci um protocolo litúrgico que permitiu a coexistência pacífica durante as celebrações."
-      ],
-      "en": [
-        "I interpreted the sacred texts of both faiths to prove that the other group's presence on the same day was actually an auspicious sign. The dispute was converted into mutual respect.",
-        "I performed a quick purification ritual between festival transitions. The guarantee that the ground would remain sacred for both was enough to end the conflict.",
-        "I used my theological knowledge to mediate the site's sanctity. I established a liturgical protocol that allowed peaceful coexistence during the celebrations."
-      ],
-      "es": [
-        "Interpreté los textos sagrados para demostrar que la presencia del otro grupo era una señal de buen augurio. La disputa se convirtió en respeto mutuo.",
-        "Realicé un ritual de purificación rápida entre las transiciones. La garantía de que el suelo seguiría siendo sagrado para ambos fue suficiente para terminar el conflicto.",
-        "Utilicé mi conocimiento teológico para mediar en la santidad del lugar. Establecí un protocolo litúrgico que permitió la coexistencia pacífica."
-      ],
-      "ru": [
-        "Я истолковала священные тексты так, чтобы доказать: присутствие другой группы в тот же день — благоприятный знак. Спор перерос в уважение.",
-        "Я провела быстрый ритуал очищения между празднествами. Гарантии того, что земля останется священной для обоих, хватило для прекращения конфликта.",
-        "Я использовала богословские знания, чтобы подтвердить святость места. Я установила литургический протокол, позволивший мирно сосуществовать."
-      ],
-      "zh": [
-        "我解读了两种信仰的圣典，证明另一方在同一天出现实际上是吉兆。争端转化为了相互尊重。",
-        "在节日转换期间，我执行了快速净化仪式。确保土地对双方都保持神圣，这足以结束冲突。",
-        "我利用神学知识调解了圣地的神圣性。我建立了一套礼拜协议，允许在庆祝活动期间和平共处。"
-      ],
-      "ja": [
-        "両者の聖典を解釈し、同じ日に他グループが存在することは実は吉兆であると証明しました。争いは相互尊重へと変わりました。",
-        "祭りの交代時間に迅速な浄化の儀式を行いました。地が双方にとって神聖であり続ける保証を得たことで、衝突は終結しました。",
-        "神学の知識を用いて聖地の神聖さを仲裁しました。祝典中の平和的な共存を可能にする典礼プロトコルを確立しました。"
-      ]
-    }
-  }, 
-"failure": {
-    "default": {
-      "pt": [
-        "Nenhuma das partes aceitou ceder. O conflito escalou para uma briga generalizada no local sagrado, resultando em profanação e no cancelamento de ambos os festivais.",
-        "Minha mediação foi ignorada. Os religiosos entraram em confronto físico pelo controle do altar, causando danos estruturais ao local e ferimentos graves em diversos fiéis.",
-        "A tentativa de conciliação foi vista como uma ofensa teológica por ambos os lados. O impasse gerou uma divisão religiosa na cidade que a guilda não conseguiu conter."
-      ],
-      "en": [
-        "Neither party agreed to yield. The conflict escalated into a generalized brawl at the sacred site, resulting in profanation and the cancellation of both festivals.",
-        "My mediation was ignored. The religious groups engaged in physical confrontation over the altar's control, causing structural damage and serious injuries.",
-        "The conciliation attempt was seen as a theological offense by both sides. The deadlock created a religious divide in the city that the guild could not contain."
-      ],
-      "es": [
-        "Ninguna de las partes cedió. El conflicto escaló a una pelea generalizada, resultando en la profanación y cancelación de ambos festivales.",
-        "Mi mediación fue ignorada. Los grupos religiosos se enfrentaron físicamente por el control del altar, causando daños estructurales y heridos graves.",
-        "El intento de conciliación fue visto como una ofensa teológica. El estancamiento generó una división religiosa en la ciudad que el gremio no pudo contener."
-      ],
-      "ru": [
-        "Ни одна из сторон не пошла на уступки. Конфликт перерос в массовую драку, что привело к осквернению места и отмене обоих фестивалей.",
-        "Мое посредничество было проигнорировано. Группы вступили в столкновение за контроль над алтарем, что привело к повреждениям и травмам.",
-        "Попытка примирения была воспринята как теологическое оскорбление обеими сторонами. Тупик создал религиозный раскол в городе."
-      ],
-      "zh": [
-        "双方均不肯让步。冲突在圣地升级为大规模斗殴，导致圣地被亵渎，两个节日都被取消。",
-        "我的调解被无视。宗教团体为争夺祭坛控制权发生肢体冲突，造成结构性损坏和多名信徒重伤。",
-        "和解尝试被双方都视为神学上的冒犯。僵局导致城市出现宗教分裂，公会无法遏制。"
-      ],
-      "ja": [
-        "双方が譲歩を拒否しました。衝突は聖地での乱闘に発展し、冒涜行為と祭りの中止を招く結果となりました。",
-        "仲裁は無視されました。宗教団体が祭壇の占拠を巡って物理的に衝突し、建造物の損壊と多数の負傷者を出しました。",
-        "和解の試みは双方から神学的な侮辱と見なされました。この行き詰まりは街に宗教的分断を生み、ギルドの手に負えない事態となりました。"
-      ]
+    "failure": {
+      "default": {
+        "pt": [
+          "Nenhuma das partes aceitou ceder. O conflito escalou para uma briga generalizada no local sagrado, resultando em profanação e no cancelamento de ambos os festivais.",
+          "Minha mediação foi ignorada. Os religiosos entraram em confronto físico pelo controle do altar, causando danos estruturais ao local e ferimentos graves em diversos fiéis.",
+          "A tentativa de conciliação foi vista como uma ofensa teológica por ambos os lados. O impasse gerou uma divisão religiosa na cidade que a guilda não conseguiu conter."
+        ],
+        "en": [
+          "Neither party agreed to yield. The conflict escalated into a generalized brawl at the sacred site, resulting in profanation and the cancellation of both festivals.",
+          "My mediation was ignored. The religious groups engaged in physical confrontation over the altar's control, causing structural damage and serious injuries.",
+          "The conciliation attempt was seen as a theological offense by both sides. The deadlock created a religious divide in the city that the guild could not contain."
+        ],
+        "es": [
+          "Ninguna de las partes cedió. El conflicto escaló a una pelea generalizada, resultando en la profanación y cancelación de ambos festivales.",
+          "Mi mediación fue ignorada. Los grupos religiosos se enfrentaron físicamente por el control del altar, causando daños estructurales y heridos graves.",
+          "El intento de conciliación fue visto como una ofensa teológica. El estancamiento generó una división religiosa en la ciudad que el gremio no pudo contener."
+        ],
+        "ru": [
+          "Ни одна из сторон не пошла на уступки. Конфликт перерос в массовую драку, что привело к осквернению места и отмене обоих фестивалей.",
+          "Мое посредничество было проигнорировано. Группы вступили в столкновение за контроль над алтарем, что привело к повреждениям и травмам.",
+          "Попытка примирения была воспринята как теологическое оскорбление обеими сторонами. Тупик создал религиозный раскол в городе."
+        ],
+        "zh": [
+          "双方均不肯让步。冲突在圣地升级为大规模斗殴，导致圣地被亵渎，两个节日都被取消。",
+          "我的调解被无视。宗教团体为争夺祭坛控制权发生肢体冲突，造成结构性损坏和多名信徒重伤。",
+          "和解尝试被双方都视为神学上的冒犯。僵局导致城市出现宗教分裂，公会无法遏制。"
+        ],
+        "ja": [
+          "双方が譲歩を拒否しました。衝突は聖地での乱闘に発展し、冒涜行為と祭りの中止を招く結果となりました。",
+          "仲裁は無視されました。宗教団体が祭壇の占拠を巡って物理的に衝突し、建造物の損壊と多数の負傷者を出しました。",
+          "和解の試みは双方から神学的な侮辱と見なされました。この行き詰まりは街に宗教的分断を生み、ギルドの手に負えない事態となりました。"
+        ]
+      }
     }
   }
-}     
 }

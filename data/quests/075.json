@@ -23,9 +23,9 @@
   "expired_at": 6,
   "available_from_turn": 63,
   "duration": 3,
-  "difficulty": 2.8,
+  "difficulty": 2.5,
   "rewards": {
-    "xp": 140
+    "xp": 70
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -50,74 +50,74 @@
       "ja": "炉"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Desativei a fornalha e interrompi o fluxo de transmutação ativa.",
-        "Reescrevi o padrão alquímico na fornalha e reverti a conversão em chumbo.",
-        "Purguei a energia instável da fornalha e encerrei o efeito ao toque."
-      ],
-      "en": [
-        "I shut down the furnace and halted the active transmutation flow.",
-        "I rewrote the alchemical pattern within the furnace and reversed the lead conversion.",
-        "I purged unstable energy from the furnace and ended the touch effect."
-      ],
-      "es": [
-        "Desactivé el horno y detuve la transmutación activa.",
-        "Reescribí el patrón alquímico del horno y revertí la conversión en plomo.",
-        "Purgé la energía inestable del horno y eliminé el efecto al contacto."
-      ],
-      "ru": [
-        "Я отключил печь и остановил активную трансмутацию.",
-        "Переписал алхимический узор в печи и обратил свинцовую конверсию.",
-        "Удалил нестабильную энергию из печи и прекратил эффект прикосновения."
-      ],
-      "zh": [
-        "我关闭熔炉并停止活跃的转化流。",
-        "我重构熔炉内的炼金结构并逆转铅化反应。",
-        "我清除熔炉不稳定能量并终止接触效果。"
-      ],
-      "ja": [
-        "炉を停止し、進行中の変成を遮断しました。",
-        "炉内の錬金術式を書き換え、鉛化を逆転させました。",
-        "炉の不安定な力を除去し、接触効果を終わらせました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "A fornalha entrou em sobrecarga e intensificou a transmutação.",
-        "Não consegui estabilizar o núcleo da fornalha a tempo.",
-        "O efeito de chumbo se expandiu além da oficina."
-      ],
-      "en": [
-        "The furnace overloaded and intensified the transmutation.",
-        "I failed to stabilize the furnace core in time.",
-        "The lead effect expanded beyond the workshop."
-      ],
-      "es": [
-        "El horno se sobrecargó y agravó la transmutación.",
-        "No logré estabilizar el núcleo del horno.",
-        "El efecto de plomo se extendió fuera del taller."
-      ],
-      "ru": [
-        "Печь перегрузилась и усилила трансмутацию.",
-        "Не удалось стабилизировать ядро печи.",
-        "Свинцовый эффект распространился за пределы мастерской."
-      ],
-      "zh": [
-        "熔炉过载并强化了转化反应。",
-        "未能及时稳定熔炉核心。",
-        "铅化效果扩散至工坊之外。"
-      ],
-      "ja": [
-        "炉が暴走し、変成が加速しました。",
-        "炉心を安定化できませんでした。",
-        "鉛化が工房外へ拡大しました。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Desativei a fornalha e interrompi o fluxo de transmutação ativa.",
+          "Reescrevi o padrão alquímico na fornalha e reverti a conversão em chumbo.",
+          "Purguei a energia instável da fornalha e encerrei o efeito ao toque."
+        ],
+        "en": [
+          "I shut down the furnace and halted the active transmutation flow.",
+          "I rewrote the alchemical pattern within the furnace and reversed the lead conversion.",
+          "I purged unstable energy from the furnace and ended the touch effect."
+        ],
+        "es": [
+          "Desactivé el horno y detuve la transmutación activa.",
+          "Reescribí el patrón alquímico del horno y revertí la conversión en plomo.",
+          "Purgé la energía inestable del horno y eliminé el efecto al contacto."
+        ],
+        "ru": [
+          "Я отключил печь и остановил активную трансмутацию.",
+          "Переписал алхимический узор в печи и обратил свинцовую конверсию.",
+          "Удалил нестабильную энергию из печи и прекратил эффект прикосновения."
+        ],
+        "zh": [
+          "我关闭熔炉并停止活跃的转化流。",
+          "我重构熔炉内的炼金结构并逆转铅化反应。",
+          "我清除熔炉不稳定能量并终止接触效果。"
+        ],
+        "ja": [
+          "炉を停止し、進行中の変成を遮断しました。",
+          "炉内の錬金術式を書き換え、鉛化を逆転させました。",
+          "炉の不安定な力を除去し、接触効果を終わらせました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A fornalha entrou em sobrecarga e intensificou a transmutação.",
+          "Não consegui estabilizar o núcleo da fornalha a tempo.",
+          "O efeito de chumbo se expandiu além da oficina."
+        ],
+        "en": [
+          "The furnace overloaded and intensified the transmutation.",
+          "I failed to stabilize the furnace core in time.",
+          "The lead effect expanded beyond the workshop."
+        ],
+        "es": [
+          "El horno se sobrecargó y agravó la transmutación.",
+          "No logré estabilizar el núcleo del horno.",
+          "El efecto de plomo se extendió fuera del taller."
+        ],
+        "ru": [
+          "Печь перегрузилась и усилила трансмутацию.",
+          "Не удалось стабилизировать ядро печи.",
+          "Свинцовый эффект распространился за пределы мастерской."
+        ],
+        "zh": [
+          "熔炉过载并强化了转化反应。",
+          "未能及时稳定熔炉核心。",
+          "铅化效果扩散至工坊之外。"
+        ],
+        "ja": [
+          "炉が暴走し、変成が加速しました。",
+          "炉心を安定化できませんでした。",
+          "鉛化が工房外へ拡大しました。"
+        ]
+      }
     }
   }
-}
 }

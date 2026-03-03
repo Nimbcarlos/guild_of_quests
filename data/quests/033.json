@@ -21,9 +21,9 @@
   "expired_at": 4,
   "available_from_turn": 4,
   "duration": 3,
-  "difficulty": 1.4,
+  "difficulty": 1.0,
   "rewards": {
-    "xp": 60
+    "xp": 50
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -48,74 +48,74 @@
       "ja": "虫"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Identifiquei que os insetos foram atraídos por uma alteração no solo. Utilizei feromônios naturais para conduzir a nuvem para longe das plantações e reintroduzi predadores locais para manter a população sob controle.",
-        "Rastreei a origem da praga até um ninho subterrâneo em expansão. Ao isolar a rainha e mimetizar o odor de um território hostil, forcei a migração da colônia para as florestas distantes, salvando a colheita.",
-        "Percebi que os insetos reagiam a certas plantas invasoras. Ao coordenar a remoção dessas plantas e fortalecer as defesas naturais das mudas, a praga se dissipou sem a necessidade de intervenções agressivas."
-      ],
-      "en": [
-        "I identified that the insects were attracted by a change in the soil. I used natural pheromones to lead the swarm away from the plantations and reintroduced local predators to keep the population in check.",
-        "I tracked the blight's origin to an expanding underground nest. By isolating the queen and mimicking the scent of a hostile territory, I forced the colony to migrate to distant forests, saving the harvest.",
-        "I noticed the insects reacted to certain invasive plants. By coordinating the removal of these plants and strengthening the seedlings' natural defenses, the blight dissipated without the need for aggressive interventions."
-      ],
-      "es": [
-        "Identifiqué que los insectos fueron atraídos por una alteración en el suelo. Utilicé feromonas naturales para alejarlos y reintroduje depredadores locales para controlar la población.",
-        "Rastreé el origen hasta un nido subterráneo. Al aislar a la reina y mimetizar el olor de un territorio hostil, forcé la migración de la colonia hacia bosques distantes.",
-        "Noté que los insectos reaccionaban a plantas invasoras. Al coordinar su eliminación y fortalecer las defensas naturales de los cultivos, la plaga se disipó."
-      ],
-      "ru": [
-        "Я выяснила, что насекомых привлекли изменения в почве. Я использовала природные феромоны, чтобы увести рой от полей, и вернула местных хищников для контроля популяции.",
-        "Я выследила источник порчи до расширяющегося подземного гнезда. Изолировав королеву и имитировав запах враждебной территории, я заставила колонию мигрировать в леса.",
-        "Я заметила, что насекомые реагируют на сорняки. Координируя их удаление и укрепляя естественную защиту саженцев, я добилась исчезновения вредителей без агрессивного вмешательства."
-      ],
-      "zh": [
-        "我确认昆虫是被土壤变化吸引而来的。我利用天然信息素将虫群引导离开农田，并重新引入当地天敌以控制其数量。",
-        "我追踪到瘟灾源于一个正在扩张的地下巢穴。通过隔离蚁后并模拟敌对领地的气味，我迫使族群迁徙到远方的森林，挽救了收成。",
-        "我注意到昆虫对某些入侵植物有反应。通过协调移除这些植物并加强幼苗的自然防御，瘟灾在无需剧烈干预的情况下消散了。"
-      ],
-      "ja": [
-        "土壌の変化が虫を惹きつけていることを突き止めました。天然のフェロモンを使って群れを農地から誘導し、天敵を再導入することで個体数を抑制しました。",
-        "疫病の源が拡大中の地下の巣であることを突き止めました。女王を隔離し、敵対的な縄張りの臭いを模倣することで、コロニーを遠方の森へ移動させ、収穫を守りました。",
-        "特定の外来植物に虫が反応していることに気づきました。それらの除去を指揮し、苗の自然な防御力を強化することで、攻撃的な介入なしに疫病を鎮めました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "A nuvem de insetos provou ser mais resiliente do que o esperado. Minhas tentativas de redirecionamento falharam e a plantação foi reduzida a pó em poucas horas, garantindo um inverno de escassez.",
-        "Subestimei a velocidade de reprodução da praga. Enquanto eu buscava a origem, os insetos se espalharam para os silos de armazenamento, destruindo até as reservas de sementes para o próximo ano.",
-        "O herói foi cercado por uma variante agressiva da praga que se defendia com ferrões venenosos. Forçado a recuar, assisti à destruição completa das terras enquanto os agricultores abandonavam a região."
-      ],
-      "en": [
-        "The insect swarm proved more resilient than expected. My redirection attempts failed, and the plantation was reduced to dust within hours, ensuring a winter of scarcity.",
-        "I underestimated the blight's reproduction speed. While searching for the origin, the insects spread to the storage silos, destroying even the seed reserves for next year.",
-        "The hero was surrounded by an aggressive variant of the blight that defended itself with venomous stingers. Forced to retreat, I watched the complete destruction of the lands as farmers fled the region."
-      ],
-      "es": [
-        "El enjambre resultó más resistente de lo esperado. Mis intentos fallaron y la plantación quedó reducida a polvo en pocas horas, asegurando un invierno de escasez.",
-        "Subestimé la velocidad de reproducción. Mientras buscaba el origen, los insectos se extendieron a los silos, destruyendo incluso las reservas de semillas.",
-        "El héroe fue rodeado por una variante agresiva con aguijones venenosos. Forzado a retirarme, vi la destrucción total de las tierras mientras los agricultores huían."
-      ],
-      "ru": [
-        "Рой насекомых оказался устойчивее, чем ожидалось. Мои попытки увести их провалились, и поля превратились в пыль за считанные часы, обрекая регион на голодную зиму.",
-        "Я недооценила скорость размножения вредителей. Пока я искала источник, насекомые проникли в хранилища, уничтожив даже семенной фонд на следующий год.",
-        "Герой был окружен агрессивным видом насекомых с ядовитыми жалами. Вынужденная отступить, я наблюдала за полным уничтожением земель, пока фермеры покидали регион."
-      ],
-      "zh": [
-        "事实证明虫群比预期的更顽强。我的引导尝试失败了，农田在几小时内化为尘土，确保了冬天的饥荒。",
-        "我低估了瘟灾的繁殖速度。在寻找源头时，昆虫蔓延到了储藏室，甚至摧毁了明年的种子储备。",
-        "英雄被一种带有毒刺的攻击性变种包围。被迫撤退后，我目睹了土地的彻底荒废，农民们也纷纷逃离该地区。"
-      ],
-      "ja": [
-        "虫の群れは予想以上に回復力が強かった。誘導の試みは失敗し、農地は数時間で塵と化し、飢えた冬が確定してしまいました。",
-        "疫病の繁殖速度を過小評価していました。源を探している間に虫は貯蔵庫にまで広がり、来年用の種子の備蓄さえも破壊されました。",
-        "毒針で自衛する攻撃的な変種に囲まれました。撤退を余儀なくされ、農民たちが地域を去る中、土地が完全に荒廃していくのをただ見守ることしかできませんでした。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Identifiquei que os insetos foram atraídos por uma alteração no solo. Utilizei feromônios naturais para conduzir a nuvem para longe das plantações e reintroduzi predadores locais para manter a população sob controle.",
+          "Rastreei a origem da praga até um ninho subterrâneo em expansão. Ao isolar a rainha e mimetizar o odor de um território hostil, forcei a migração da colônia para as florestas distantes, salvando a colheita.",
+          "Percebi que os insetos reagiam a certas plantas invasoras. Ao coordenar a remoção dessas plantas e fortalecer as defesas naturais das mudas, a praga se dissipou sem a necessidade de intervenções agressivas."
+        ],
+        "en": [
+          "I identified that the insects were attracted by a change in the soil. I used natural pheromones to lead the swarm away from the plantations and reintroduced local predators to keep the population in check.",
+          "I tracked the blight's origin to an expanding underground nest. By isolating the queen and mimicking the scent of a hostile territory, I forced the colony to migrate to distant forests, saving the harvest.",
+          "I noticed the insects reacted to certain invasive plants. By coordinating the removal of these plants and strengthening the seedlings' natural defenses, the blight dissipated without the need for aggressive interventions."
+        ],
+        "es": [
+          "Identifiqué que los insectos fueron atraídos por una alteración en el suelo. Utilicé feromonas naturales para alejarlos y reintroduje depredadores locales para controlar la población.",
+          "Rastreé el origen hasta un nido subterráneo. Al aislar a la reina y mimetizar el olor de un territorio hostil, forcé la migración de la colonia hacia bosques distantes.",
+          "Noté que los insectos reaccionaban a plantas invasoras. Al coordinar su eliminación y fortalecer las defensas naturales de los cultivos, la plaga se disipó."
+        ],
+        "ru": [
+          "Я выяснила, что насекомых привлекли изменения в почве. Я использовала природные феромоны, чтобы увести рой от полей, и вернула местных хищников для контроля популяции.",
+          "Я выследила источник порчи до расширяющегося подземного гнезда. Изолировав королеву и имитировав запах враждебной территории, я заставила колонию мигрировать в леса.",
+          "Я заметила, что насекомые реагируют на сорняки. Координируя их удаление и укрепляя естественную защиту саженцев, я добилась исчезновения вредителей без агрессивного вмешательства."
+        ],
+        "zh": [
+          "我确认昆虫是被土壤变化吸引而来的。我利用天然信息素将虫群引导离开农田，并重新引入当地天敌以控制其数量。",
+          "我追踪到瘟灾源于一个正在扩张的地下巢穴。通过隔离蚁后并模拟敌对领地的气味，我迫使族群迁徙到远方的森林，挽救了收成。",
+          "我注意到昆虫对某些入侵植物有反应。通过协调移除这些植物并加强幼苗的自然防御，瘟灾在无需剧烈干预的情况下消散了。"
+        ],
+        "ja": [
+          "土壌の変化が虫を惹きつけていることを突き止めました。天然のフェロモンを使って群れを農地から誘導し、天敵を再導入することで個体数を抑制しました。",
+          "疫病の源が拡大中の地下の巣であることを突き止めました。女王を隔離し、敵対的な縄張りの臭いを模倣することで、コロニーを遠方の森へ移動させ、収穫を守りました。",
+          "特定の外来植物に虫が反応していることに気づきました。それらの除去を指揮し、苗の自然な防御力を強化することで、攻撃的な介入なしに疫病を鎮めました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A nuvem de insetos provou ser mais resiliente do que o esperado. Minhas tentativas de redirecionamento falharam e a plantação foi reduzida a pó em poucas horas, garantindo um inverno de escassez.",
+          "Subestimei a velocidade de reprodução da praga. Enquanto eu buscava a origem, os insetos se espalharam para os silos de armazenamento, destruindo até as reservas de sementes para o próximo ano.",
+          "O herói foi cercado por uma variante agressiva da praga que se defendia com ferrões venenosos. Forçado a recuar, assisti à destruição completa das terras enquanto os agricultores abandonavam a região."
+        ],
+        "en": [
+          "The insect swarm proved more resilient than expected. My redirection attempts failed, and the plantation was reduced to dust within hours, ensuring a winter of scarcity.",
+          "I underestimated the blight's reproduction speed. While searching for the origin, the insects spread to the storage silos, destroying even the seed reserves for next year.",
+          "The hero was surrounded by an aggressive variant of the blight that defended itself with venomous stingers. Forced to retreat, I watched the complete destruction of the lands as farmers fled the region."
+        ],
+        "es": [
+          "El enjambre resultó más resistente de lo esperado. Mis intentos fallaron y la plantación quedó reducida a polvo en pocas horas, asegurando un invierno de escasez.",
+          "Subestimé la velocidad de reproducción. Mientras buscaba el origen, los insectos se extendieron a los silos, destruyendo incluso las reservas de semillas.",
+          "El héroe fue rodeado por una variante agresiva con aguijones venenosos. Forzado a retirarme, vi la destrucción total de las tierras mientras los agricultores huían."
+        ],
+        "ru": [
+          "Рой насекомых оказался устойчивее, чем ожидалось. Мои попытки увести их провалились, и поля превратились в пыль за считанные часы, обрекая регион на голодную зиму.",
+          "Я недооценила скорость размножения вредителей. Пока я искала источник, насекомые проникли в хранилища, уничтожив даже семенной фонд на следующий год.",
+          "Герой был окружен агрессивным видом насекомых с ядовитыми жалами. Вынужденная отступить, я наблюдала за полным уничтожением земель, пока фермеры покидали регион."
+        ],
+        "zh": [
+          "事实证明虫群比预期的更顽强。我的引导尝试失败了，农田在几小时内化为尘土，确保了冬天的饥荒。",
+          "我低估了瘟灾的繁殖速度。在寻找源头时，昆虫蔓延到了储藏室，甚至摧毁了明年的种子储备。",
+          "英雄被一种带有毒刺的攻击性变种包围。被迫撤退后，我目睹了土地的彻底荒废，农民们也纷纷逃离该地区。"
+        ],
+        "ja": [
+          "虫の群れは予想以上に回復力が強かった。誘導の試みは失敗し、農地は数時間で塵と化し、飢えた冬が確定してしまいました。",
+          "疫病の繁殖速度を過小評価していました。源を探している間に虫は貯蔵庫にまで広がり、来年用の種子の備蓄さえも破壊されました。",
+          "毒針で自衛する攻撃的な変種に囲まれました。撤退を余儀なくされ、農民たちが地域を去る中、土地が完全に荒廃していくのをただ見守ることしかできませんでした。"
+        ]
+      }
     }
   }
-}
 }

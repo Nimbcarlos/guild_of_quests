@@ -23,9 +23,9 @@
   "expired_at": 5,
   "available_from_turn": 112,
   "duration": 3,
-  "difficulty": 2.8,
+  "difficulty": 3.5,
   "rewards": {
-    "xp": 150
+    "xp": 85
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -50,74 +50,74 @@
       "ja": "生きた金属"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Isolei o metal vivo da forja e interrompi sua absorção de armas.",
-        "Reverti a consciência emergente da liga e estabilizei sua estrutura.",
-        "Separei o núcleo ativo do metal vivo e contive sua expansão."
-      ],
-      "en": [
-        "I isolated the living metal from the forge and stopped it from absorbing weapons.",
-        "I reversed the alloy’s emerging consciousness and stabilized its structure.",
-        "I extracted the active core of the living metal and contained its expansion."
-      ],
-      "es": [
-        "Aislé el metal vivo de la forja y detuve la absorción de armas.",
-        "Revertí la conciencia emergente de la aleación y estabilicé su estructura.",
-        "Separé el núcleo activo del metal vivo y contuve su expansión."
-      ],
-      "ru": [
-        "Я изолировал живой металл в кузнице и остановил поглощение оружия.",
-        "Обратил зарождающееся сознание сплава и стабилизировал его структуру.",
-        "Извлёк активное ядро живого металла и сдержал его рост."
-      ],
-      "zh": [
-        "我将活金属从锻造厂中隔离并阻止其吸收武器。",
-        "我逆转了合金产生的意识并稳定了其结构。",
-        "我分离了活金属的核心并遏制了其扩张。"
-      ],
-      "ja": [
-        "生きた金属を鍛冶場から隔離し、武器の吸収を止めました。",
-        "合金の自我の発生を逆転させ、構造を安定化しました。",
-        "生きた金属の中核を分離し、増殖を封じ込めました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "O metal vivo assimilou toda a forja antes de ser contido.",
-        "A liga expandiu-se além do controle e absorveu novas estruturas.",
-        "A consciência do metal consolidou-se e tornou a contenção impossível."
-      ],
-      "en": [
-        "The living metal assimilated the entire forge before containment.",
-        "The alloy expanded beyond control and absorbed new structures.",
-        "The metal’s consciousness solidified, making containment impossible."
-      ],
-      "es": [
-        "El metal vivo asimiló toda la forja antes de ser contenido.",
-        "La aleación se expandió sin control y absorbió nuevas estructuras.",
-        "La conciencia del metal se consolidó y la contención fue imposible."
-      ],
-      "ru": [
-        "Живой металл поглотил всю кузницу до попытки сдерживания.",
-        "Сплав вышел из-под контроля и впитал новые конструкции.",
-        "Сознание металла укрепилось, сделав сдерживание невозможным."
-      ],
-      "zh": [
-        "活金属在被控制前吞噬了整个锻造厂。",
-        "合金失控扩张并吸收更多结构。",
-        "金属意识完全形成，已无法遏制。"
-      ],
-      "ja": [
-        "生きた金属は封じ込め前に鍛冶場をすべて飲み込みました。",
-        "合金は制御不能に拡大し、新たな構造物を吸収しました。",
-        "金属の意識が確立され、封じ込めは不可能となりました。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Isolei o metal vivo da forja e interrompi sua absorção de armas.",
+          "Reverti a consciência emergente da liga e estabilizei sua estrutura.",
+          "Separei o núcleo ativo do metal vivo e contive sua expansão."
+        ],
+        "en": [
+          "I isolated the living metal from the forge and stopped it from absorbing weapons.",
+          "I reversed the alloy’s emerging consciousness and stabilized its structure.",
+          "I extracted the active core of the living metal and contained its expansion."
+        ],
+        "es": [
+          "Aislé el metal vivo de la forja y detuve la absorción de armas.",
+          "Revertí la conciencia emergente de la aleación y estabilicé su estructura.",
+          "Separé el núcleo activo del metal vivo y contuve su expansión."
+        ],
+        "ru": [
+          "Я изолировал живой металл в кузнице и остановил поглощение оружия.",
+          "Обратил зарождающееся сознание сплава и стабилизировал его структуру.",
+          "Извлёк активное ядро живого металла и сдержал его рост."
+        ],
+        "zh": [
+          "我将活金属从锻造厂中隔离并阻止其吸收武器。",
+          "我逆转了合金产生的意识并稳定了其结构。",
+          "我分离了活金属的核心并遏制了其扩张。"
+        ],
+        "ja": [
+          "生きた金属を鍛冶場から隔離し、武器の吸収を止めました。",
+          "合金の自我の発生を逆転させ、構造を安定化しました。",
+          "生きた金属の中核を分離し、増殖を封じ込めました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "O metal vivo assimilou toda a forja antes de ser contido.",
+          "A liga expandiu-se além do controle e absorveu novas estruturas.",
+          "A consciência do metal consolidou-se e tornou a contenção impossível."
+        ],
+        "en": [
+          "The living metal assimilated the entire forge before containment.",
+          "The alloy expanded beyond control and absorbed new structures.",
+          "The metal’s consciousness solidified, making containment impossible."
+        ],
+        "es": [
+          "El metal vivo asimiló toda la forja antes de ser contenido.",
+          "La aleación se expandió sin control y absorbió nuevas estructuras.",
+          "La conciencia del metal se consolidó y la contención fue imposible."
+        ],
+        "ru": [
+          "Живой металл поглотил всю кузницу до попытки сдерживания.",
+          "Сплав вышел из-под контроля и впитал новые конструкции.",
+          "Сознание металла укрепилось, сделав сдерживание невозможным."
+        ],
+        "zh": [
+          "活金属在被控制前吞噬了整个锻造厂。",
+          "合金失控扩张并吸收更多结构。",
+          "金属意识完全形成，已无法遏制。"
+        ],
+        "ja": [
+          "生きた金属は封じ込め前に鍛冶場をすべて飲み込みました。",
+          "合金は制御不能に拡大し、新たな構造物を吸収しました。",
+          "金属の意識が確立され、封じ込めは不可能となりました。"
+        ]
+      }
     }
   }
-}  
 }

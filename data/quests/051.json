@@ -21,9 +21,9 @@
   "expired_at": 4,
   "available_from_turn": 5,
   "duration": 3,
-  "difficulty": 1.7,
+  "difficulty": 1.0,
   "rewards": {
-    "xp": 90
+    "xp": 50
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -48,74 +48,74 @@
       "ja": "防衛"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Contornei as patrulhas e alcancei o tesouro sem acionar alarmes. Deixei uma marca visível e saí pelo mesmo trajeto.",
-        "Mapeei os pontos cegos das defesas e infiltrei-me até a câmara principal. A marca foi deixada sem detecção.",
-        "Neutralizei sensores e atravessei os corredores em silêncio. A prova da invasão ficou no cofre."
-      ],
-      "en": [
-        "I bypassed patrols and reached the treasury without triggering alarms. I left a visible mark and exited along the same route.",
-        "I mapped blind spots in the defenses and infiltrated the main chamber. The mark was placed undetected.",
-        "I disabled sensors and crossed the corridors silently. Proof of intrusion was left inside the vault."
-      ],
-      "es": [
-        "Evadí las patrullas y llegué al tesoro sin activar alarmas. Dejé una marca visible y salí por la misma ruta.",
-        "Identifiqué puntos ciegos y me infiltré hasta la cámara principal. La marca quedó sin detección.",
-        "Neutralicé sensores y avancé en silencio. La prueba quedó en el cofre."
-      ],
-      "ru": [
-        "Я обошёл патрули и добрался до сокровищницы без срабатывания тревоги. Оставил заметный знак и вышел тем же путём.",
-        "Выявил слепые зоны защиты и проник в главную камеру. След был оставлен незамеченным.",
-        "Отключил датчики и прошёл коридоры бесшумно. Доказательство осталось в хранилище."
-      ],
-      "zh": [
-        "我绕过巡逻，未触发警报进入宝库，留下清晰标记后原路撤离。",
-        "我找出防御盲点潜入主室，未被发现地留下标记。",
-        "我关闭感应装置，安静穿过走廊，在金库中留下入侵证明。"
-      ],
-      "ja": [
-        "巡回を避け、警報を作動させず宝物庫に到達しました。明確な印を残し同経路で退出しました。",
-        "防衛の死角を把握し主室へ潜入しました。印は発見されませんでした。",
-        "感知装置を無効化し静かに進入。侵入の証を金庫内に残しました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "Uma patrulha alterou o trajeto e fui detectado antes de alcançar o tesouro.",
-        "Um mecanismo oculto acionou o alarme durante a infiltração.",
-        "Não consegui contornar todas as defesas e tive que abandonar a missão."
-      ],
-      "en": [
-        "A patrol changed route and I was detected before reaching the treasury.",
-        "A hidden mechanism triggered the alarm during infiltration.",
-        "I failed to bypass all defenses and had to abort the mission."
-      ],
-      "es": [
-        "Una patrulla cambió su ruta y fui detectado antes de llegar al tesoro.",
-        "Un mecanismo oculto activó la alarma durante la infiltración.",
-        "No logré superar todas las defensas y tuve que abortar."
-      ],
-      "ru": [
-        "Патруль изменил маршрут, и меня обнаружили до входа в сокровищницу.",
-        "Скрытый механизм активировал тревогу во время проникновения.",
-        "Я не смог обойти всю защиту и прервал задание."
-      ],
-      "zh": [
-        "巡逻路线改变，我在抵达宝库前被发现。",
-        "潜入过程中隐藏机关触发警报。",
-        "未能绕过全部防御，只能中止任务。"
-      ],
-      "ja": [
-        "巡回経路が変わり、宝物庫到達前に発見されました。",
-        "潜入中に隠された仕掛けが警報を作動させました。",
-        "全ての防衛を突破できず、任務を中断しました。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Contornei as patrulhas e alcancei o tesouro sem acionar alarmes. Deixei uma marca visível e saí pelo mesmo trajeto.",
+          "Mapeei os pontos cegos das defesas e infiltrei-me até a câmara principal. A marca foi deixada sem detecção.",
+          "Neutralizei sensores e atravessei os corredores em silêncio. A prova da invasão ficou no cofre."
+        ],
+        "en": [
+          "I bypassed patrols and reached the treasury without triggering alarms. I left a visible mark and exited along the same route.",
+          "I mapped blind spots in the defenses and infiltrated the main chamber. The mark was placed undetected.",
+          "I disabled sensors and crossed the corridors silently. Proof of intrusion was left inside the vault."
+        ],
+        "es": [
+          "Evadí las patrullas y llegué al tesoro sin activar alarmas. Dejé una marca visible y salí por la misma ruta.",
+          "Identifiqué puntos ciegos y me infiltré hasta la cámara principal. La marca quedó sin detección.",
+          "Neutralicé sensores y avancé en silencio. La prueba quedó en el cofre."
+        ],
+        "ru": [
+          "Я обошёл патрули и добрался до сокровищницы без срабатывания тревоги. Оставил заметный знак и вышел тем же путём.",
+          "Выявил слепые зоны защиты и проник в главную камеру. След был оставлен незамеченным.",
+          "Отключил датчики и прошёл коридоры бесшумно. Доказательство осталось в хранилище."
+        ],
+        "zh": [
+          "我绕过巡逻，未触发警报进入宝库，留下清晰标记后原路撤离。",
+          "我找出防御盲点潜入主室，未被发现地留下标记。",
+          "我关闭感应装置，安静穿过走廊，在金库中留下入侵证明。"
+        ],
+        "ja": [
+          "巡回を避け、警報を作動させず宝物庫に到達しました。明確な印を残し同経路で退出しました。",
+          "防衛の死角を把握し主室へ潜入しました。印は発見されませんでした。",
+          "感知装置を無効化し静かに進入。侵入の証を金庫内に残しました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Uma patrulha alterou o trajeto e fui detectado antes de alcançar o tesouro.",
+          "Um mecanismo oculto acionou o alarme durante a infiltração.",
+          "Não consegui contornar todas as defesas e tive que abandonar a missão."
+        ],
+        "en": [
+          "A patrol changed route and I was detected before reaching the treasury.",
+          "A hidden mechanism triggered the alarm during infiltration.",
+          "I failed to bypass all defenses and had to abort the mission."
+        ],
+        "es": [
+          "Una patrulla cambió su ruta y fui detectado antes de llegar al tesoro.",
+          "Un mecanismo oculto activó la alarma durante la infiltración.",
+          "No logré superar todas las defensas y tuve que abortar."
+        ],
+        "ru": [
+          "Патруль изменил маршрут, и меня обнаружили до входа в сокровищницу.",
+          "Скрытый механизм активировал тревогу во время проникновения.",
+          "Я не смог обойти всю защиту и прервал задание."
+        ],
+        "zh": [
+          "巡逻路线改变，我在抵达宝库前被发现。",
+          "潜入过程中隐藏机关触发警报。",
+          "未能绕过全部防御，只能中止任务。"
+        ],
+        "ja": [
+          "巡回経路が変わり、宝物庫到達前に発見されました。",
+          "潜入中に隠された仕掛けが警報を作動させました。",
+          "全ての防衛を突破できず、任務を中断しました。"
+        ]
+      }
     }
   }
-}
 }

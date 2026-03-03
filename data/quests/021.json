@@ -22,9 +22,9 @@
   "expired_at": 5,
   "available_from_turn": 117,
   "duration": 3,
-  "difficulty": 2.2,
+  "difficulty": 3.5,
   "rewards": {
-    "xp": 80
+    "xp": 85
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -49,74 +49,74 @@
       "ja": "罠たち"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Identifiquei os gatilhos de pressão e os nós rúnicos antes da ativação. Mapeei a rota segura e desativei os mecanismos de lâminas ocultas, garantindo o acesso futuro sem alertar as criaturas.",
-        "Utilizei ferramentas de precisão para neutralizar os fios de detecção invisíveis. O mapeamento do labirinto foi concluído e as armadilhas mais letais foram desarmadas com sucesso.",
-        "Mantive o silêncio absoluto enquanto manipulava os mecanismos internos das portas seladas. A masmorra agora possui um caminho seguro documentado e livre de gatilhos mágicos."
-      ],
-      "en": [
-        "I identified pressure triggers and runic nodes before activation. I mapped a safe route and deactivated hidden blade mechanisms, ensuring future access without alerting the creatures.",
-        "I used precision tools to neutralize invisible detection wires. The labyrinth mapping was completed, and the most lethal traps were successfully disarmed.",
-        "I maintained absolute silence while manipulating the internal mechanisms of sealed doors. The dungeon now has a documented safe path free of magical triggers."
-      ],
-      "es": [
-        "Identifiqué los activadores de presión y los nodos rúnicos antes de su activación. Mapeé la ruta segura y desactivé las cuchillas ocultas, garantizando el acceso futuro.",
-        "Utilicé herramientas de precisión para neutralizar los hilos de detección invisibles. El mapeo del laberinto finalizó y las trampas más letais fueron desactivadas con éxito.",
-        "Mantuve el silencio absoluto mientras manipulaba los mecanismos internos de las puertas selladas. La mazmorra cuenta ahora con un camino seguro documentado."
-      ],
-      "ru": [
-        "Я определила нажимные пластины и рунические узлы до их активации. Нанесла на карту безопасный маршрут и отключила механизмы скрытых лезвий.",
-        "Я использовала прецизионные инструменты для нейтрализации невидимых нитей-датчиков. Картирование лабиринта завершено, самые опасные ловушки обезврежены.",
-        "Я соблюдала абсолютную тишину, манипулируя внутренними механизмами запечатанных дверей. Теперь в подземелье есть задокументированный безопасный путь."
-      ],
-      "zh": [
-        "我在压力触发器和符文节点激活前识别了它们。我规划了安全路线并解除了隐藏的刀片装置，确保了未来进入时不惊动怪物。",
-        "我使用精密工具中和了不可见的感应线。迷宫地图绘制完成，最致命的陷阱已被成功拆除。",
-        "在操作封闭门的内部机制时，我保持了绝对的静默。地下城现在有了一条记录在册、无魔法触发器的安全路径。"
-      ],
-      "ja": [
-        "作動前に圧力式トリガーとルーンの結節点を特定しました。安全なルートをマッピングし、隠された刃の仕掛けを解除して、魔物に気づかれずに進入できる経路を確保しました。",
-        "精密機器を使用して見えない検知ワイヤーを無効化しました。迷宮のマッピングは完了し、最も致命的な罠はすべて解除されました。",
-        "封印された扉の内部機構を操作する間、絶対的な静寂を維持しました。ダンジョンには現在、魔法のトリガーがない記録された安全な道が存在します。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "Um erro de milímetros ao desarmar um sensor rúnico causou o colapso do corredor. O herói não conseguiu escapar da armadilha de contenção a tempo. Perda total da unidade confirmada.",
-        "A detecção de uma armadilha mecânica falhou. O mecanismo foi acionado silenciosamente, selando o destino do herói antes que o mapeamento pudesse ser entregue à guilda.",
-        "O herói foi detectado por um sistema de vigilância mágica invisível. Sem capacidade de combate contra os guardiões internos, a retirada foi impossível. A missão terminou em fatalidade."
-      ],
-      "en": [
-        "A millimeter error while disarming a runic sensor caused the corridor to collapse. The hero failed to escape the containment trap in time. Total unit loss confirmed.",
-        "The detection of a mechanical trap failed. The mechanism was triggered silently, sealing the hero's fate before the mapping could be delivered to the guild.",
-        "The hero was detected by an invisible magical surveillance system. Lacking the combat capacity to face the internal guardians, retreat was impossible. The mission ended in fatality."
-      ],
-      "es": [
-        "Un error milimétrico al desactivar un sensor rúnico provocó el colapso del pasillo. El héroe no pudo escapar de la trampa a tiempo. Pérdida total confirmada.",
-        "La detección de una trampa mecánica falló. El mecanismo se activó silenciosamente, sellando el destino del héroe antes de poder entregar el mapa al gremio.",
-        "El héroe fue detectado por un sistema de vigilancia mágica invisible. Sin capacidad de combate contra los guardianes, la retirada fue imposible. Fatalidad confirmada."
-      ],
-      "ru": [
-        "Миллиметровая ошибка при обезвреживании рунического сенсора вызвала обрушение коридора. Герой не успел спастись. Подтверждена полная гибель оперативника.",
-        "Обнаружение механической ловушки не удалось. Механизм сработал бесшумно, решив судьбу героя до того, как карта была доставлена в гильдию.",
-        "Герой был обнаружен невидимой магической системой наблюдения. Из-за невозможности сражаться с хранителями отступление стало невозможным. Летальный исход."
-      ],
-      "zh": [
-        "解除符文感应器时一毫米的误差导致走廊坍塌。英雄未能及时逃脱围困陷阱。确认该单位完全损失。",
-        "机械陷阱检测失败。机构静默触发，在地图送达公会前就决定了英雄的命运。",
-        "英雄被隐形的魔法监视系统发现。由于缺乏对抗内部守卫的战斗能力，撤退已无可能。任务以阵亡告终。"
-      ],
-      "ja": [
-        "ルーンセンサーの解除中に生じたわずか1ミリの誤差が、通路の崩落を引き起こしました。英雄は閉じ込められ、脱出に失敗しました。戦力の完全喪失が確認されました。",
-        "機械的な罠の検知に失敗しました。仕掛けが静かに作動し、マッピングをギルドに届ける前に英雄の運命は尽きました。",
-        "不可視の魔法監視システムに探知されました。内部の守護者に立ち向かう戦闘能力がなく、撤退は不可能でした。任務は致命的な結果に終わりました。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Identifiquei os gatilhos de pressão e os nós rúnicos antes da ativação. Mapeei a rota segura e desativei os mecanismos de lâminas ocultas, garantindo o acesso futuro sem alertar as criaturas.",
+          "Utilizei ferramentas de precisão para neutralizar os fios de detecção invisíveis. O mapeamento do labirinto foi concluído e as armadilhas mais letais foram desarmadas com sucesso.",
+          "Mantive o silêncio absoluto enquanto manipulava os mecanismos internos das portas seladas. A masmorra agora possui um caminho seguro documentado e livre de gatilhos mágicos."
+        ],
+        "en": [
+          "I identified pressure triggers and runic nodes before activation. I mapped a safe route and deactivated hidden blade mechanisms, ensuring future access without alerting the creatures.",
+          "I used precision tools to neutralize invisible detection wires. The labyrinth mapping was completed, and the most lethal traps were successfully disarmed.",
+          "I maintained absolute silence while manipulating the internal mechanisms of sealed doors. The dungeon now has a documented safe path free of magical triggers."
+        ],
+        "es": [
+          "Identifiqué los activadores de presión y los nodos rúnicos antes de su activación. Mapeé la ruta segura y desactivé las cuchillas ocultas, garantizando el acceso futuro.",
+          "Utilicé herramientas de precisión para neutralizar los hilos de detección invisibles. El mapeo del laberinto finalizó y las trampas más letais fueron desactivadas con éxito.",
+          "Mantuve el silencio absoluto mientras manipulaba los mecanismos internos de las puertas selladas. La mazmorra cuenta ahora con un camino seguro documentado."
+        ],
+        "ru": [
+          "Я определила нажимные пластины и рунические узлы до их активации. Нанесла на карту безопасный маршрут и отключила механизмы скрытых лезвий.",
+          "Я использовала прецизионные инструменты для нейтрализации невидимых нитей-датчиков. Картирование лабиринта завершено, самые опасные ловушки обезврежены.",
+          "Я соблюдала абсолютную тишину, манипулируя внутренними механизмами запечатанных дверей. Теперь в подземелье есть задокументированный безопасный путь."
+        ],
+        "zh": [
+          "我在压力触发器和符文节点激活前识别了它们。我规划了安全路线并解除了隐藏的刀片装置，确保了未来进入时不惊动怪物。",
+          "我使用精密工具中和了不可见的感应线。迷宫地图绘制完成，最致命的陷阱已被成功拆除。",
+          "在操作封闭门的内部机制时，我保持了绝对的静默。地下城现在有了一条记录在册、无魔法触发器的安全路径。"
+        ],
+        "ja": [
+          "作動前に圧力式トリガーとルーンの結節点を特定しました。安全なルートをマッピングし、隠された刃の仕掛けを解除して、魔物に気づかれずに進入できる経路を確保しました。",
+          "精密機器を使用して見えない検知ワイヤーを無効化しました。迷宮のマッピングは完了し、最も致命的な罠はすべて解除されました。",
+          "封印された扉の内部機構を操作する間、絶対的な静寂を維持しました。ダンジョンには現在、魔法のトリガーがない記録された安全な道が存在します。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Um erro de milímetros ao desarmar um sensor rúnico causou o colapso do corredor. O herói não conseguiu escapar da armadilha de contenção a tempo. Perda total da unidade confirmada.",
+          "A detecção de uma armadilha mecânica falhou. O mecanismo foi acionado silenciosamente, selando o destino do herói antes que o mapeamento pudesse ser entregue à guilda.",
+          "O herói foi detectado por um sistema de vigilância mágica invisível. Sem capacidade de combate contra os guardiões internos, a retirada foi impossível. A missão terminou em fatalidade."
+        ],
+        "en": [
+          "A millimeter error while disarming a runic sensor caused the corridor to collapse. The hero failed to escape the containment trap in time. Total unit loss confirmed.",
+          "The detection of a mechanical trap failed. The mechanism was triggered silently, sealing the hero's fate before the mapping could be delivered to the guild.",
+          "The hero was detected by an invisible magical surveillance system. Lacking the combat capacity to face the internal guardians, retreat was impossible. The mission ended in fatality."
+        ],
+        "es": [
+          "Un error milimétrico al desactivar un sensor rúnico provocó el colapso del pasillo. El héroe no pudo escapar de la trampa a tiempo. Pérdida total confirmada.",
+          "La detección de una trampa mecánica falló. El mecanismo se activó silenciosamente, sellando el destino del héroe antes de poder entregar el mapa al gremio.",
+          "El héroe fue detectado por un sistema de vigilancia mágica invisible. Sin capacidad de combate contra los guardianes, la retirada fue imposible. Fatalidad confirmada."
+        ],
+        "ru": [
+          "Миллиметровая ошибка при обезвреживании рунического сенсора вызвала обрушение коридора. Герой не успел спастись. Подтверждена полная гибель оперативника.",
+          "Обнаружение механической ловушки не удалось. Механизм сработал бесшумно, решив судьбу героя до того, как карта была доставлена в гильдию.",
+          "Герой был обнаружен невидимой магической системой наблюдения. Из-за невозможности сражаться с хранителями отступление стало невозможным. Летальный исход."
+        ],
+        "zh": [
+          "解除符文感应器时一毫米的误差导致走廊坍塌。英雄未能及时逃脱围困陷阱。确认该单位完全损失。",
+          "机械陷阱检测失败。机构静默触发，在地图送达公会前就决定了英雄的命运。",
+          "英雄被隐形的魔法监视系统发现。由于缺乏对抗内部守卫的战斗能力，撤退已无可能。任务以阵亡告终。"
+        ],
+        "ja": [
+          "ルーンセンサーの解除中に生じたわずか1ミリの誤差が、通路の崩落を引き起こしました。英雄は閉じ込められ、脱出に失敗しました。戦力の完全喪失が確認されました。",
+          "機械的な罠の検知に失敗しました。仕掛けが静かに作動し、マッピングをギルドに届ける前に英雄の運命は尽きました。",
+          "不可視の魔法監視システムに探知されました。内部の守護者に立ち向かう戦闘能力がなく、撤退は不可能でした。任務は致命的な結果に終わりました。"
+        ]
+      }
     }
   }
-}
 }

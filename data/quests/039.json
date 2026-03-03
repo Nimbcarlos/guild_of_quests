@@ -24,9 +24,9 @@
   "expired_at": 5,
   "available_from_turn": 80,
   "duration": 3,
-  "difficulty": 1.5,
+  "difficulty": 2.5,
   "rewards": {
-    "xp": 75
+    "xp": 70
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -51,74 +51,74 @@
       "ja": "ドルイド"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Utilizei um tom autoritário para conter a fúria dos druidas, enquanto negociei um exílio perpétuo para os caçadores envolvidos. O bosque permanecerá em paz, mas o ressentimento contra os forasteiros agora é uma ferida aberta.",
-        "Convenci os caçadores a entregarem seus espólios e armas como reparação simbólica, sob ameaça de expulsão da guilda. Os druidas aceitaram a oferta após um ritual de purificação, embora o equilíbrio entre a cidade e a floresta tenha se tornado frágil.",
-        "Mediei um acordo onde os caçadores servirão como protetores do bosque por três colheitas. A imposição dessa punição acalmou os druidas e evitou um conflito armado que teria dizimado ambos os lados."
-      ],
-      "en": [
-        "I used an authoritative tone to restrain the druids' fury while negotiating perpetual exile for the hunters involved. The grove remains at peace, but resentment against outsiders is now an open wound.",
-        "I convinced the hunters to surrender their spoils and weapons as symbolic reparation, under threat of guild expulsion. The druids accepted the offer after a purification ritual, though the balance between city and forest has grown fragile.",
-        "I mediated an agreement where the hunters will serve as protectors of the grove for three harvests. Imposing this punishment calmed the druids and avoided an armed conflict that would have decimated both sides."
-      ],
-      "es": [
-        "Utilicé un tono autoritario para contener la furia de los druidas, mientras negociaba el exilio de los cazadores. El bosque permanece en paz, pero el resentimiento es una herida abierta.",
-        "Convencí a los cazadores de entregar sus armas como reparación simbólica. Los druidas aceptaron tras un ritual, aunque el equilibrio es ahora muy frágil.",
-        "Medié un acuerdo donde los cazadores servirán como protectores del bosque. Esta punición calmó a los druidas y evitó un conflicto armado."
-      ],
-      "ru": [
-        "Я использовала властный тон, чтобы сдержать ярость друидов, и договорилась о вечном изгнании охотников. В роще воцарился мир, но обида на чужаков осталась открытой раной.",
-        "Я убедила охотников сдать добычу и оружие в качестве символического возмещения под угрозой исключения из гильдии. Друиды приняли это, но баланс между городом и лесом стал хрупким.",
-        "Я заключила соглашение, по которому охотники станут защитниками рощи на три урожая. Это наказание успокоило друидов и предотвратило вооруженный конфликт."
-      ],
-      "zh": [
-        "我用威严的语气克制了德鲁伊的愤怒，同时协商将涉案猎人永久放逐。丛林恢复了平静，但对外界的怨恨已成为一道无法愈合的伤口。",
-        "在以驱逐出公会为威胁下，我说服猎人交出猎物和武器作为象征性赔偿。德鲁伊在净化仪式后接受了这一提议，尽管城市与森林间的平衡已变得脆弱。",
-        "我促成了一项协议，让猎人在接下来的三次收获期中担任丛林守护者。这项惩罚平息了德鲁伊的怒火，避免了一场可能导致两败俱伤的武装冲突。"
-      ],
-      "ja": [
-        "威圧的な態度でドルイドの怒りを抑えつつ、関与した狩人たちの永久追放を交渉しました。森に平和は戻りましたが、よそ者への恨みは深い傷跡として残りました。",
-        "ギルド追放を盾に、狩人たちに獲物と武器を償いとして差し出させました。儀式を経てドルイドはこれを受け入れましたが、街と森の均衡は危ういものとなりました。",
-        "狩人たちが3回の収穫期の間、森の守護者として奉仕する合意を取り付けました。この罰によってドルイドは沈静化し、双方に甚大な被害が出るはずだった武力衝突は回避されました。"
-      ]
-    }
-  },
-"failure": {
-    "default": {
-      "pt": [
-        "Minha mediação foi vista como um insulto pelos druidas. Em retaliação, eles convocaram as raízes da floresta para bloquear a principal estrada comercial, isolando a cidade e causando uma crise de suprimentos.",
-        "Os caçadores se recusaram a cooperar e os ânimos explodiram. O herói foi pego no fogo cruzado de um ataque druídico violento, e o sangue derramado no bosque sagrado agora clama por guerra.",
-        "Tentei intimidar os druidas, mas eles desapareceram nas sombras, lançando uma maldição sobre a guilda. A partir de hoje, qualquer herói que entrar na floresta será caçado pelas próprias árvores."
-      ],
-      "en": [
-        "My mediation was seen as an insult by the druids. In retaliation, they summoned the forest roots to block the main trade road, isolating the city and causing a supply crisis.",
-        "The hunters refused to cooperate, and tempers flared. The hero was caught in the crossfire of a violent druidic attack, and the blood spilled in the sacred grove now cries out for war.",
-        "I tried to intimidate the druids, but they vanished into the shadows, casting a curse upon the guild. From now on, any hero who enters the forest will be hunted by the trees themselves."
-      ],
-      "es": [
-        "Mi mediación fue vista como un insulto. En represalia, los druidas bloquearon la carretera comercial con raíces, aislando la ciudad y causando una crisis.",
-        "Los cazadores se negaron a cooperar y el héroe quedó atrapado en un ataque violento. La sangre derramada en el bosque ahora clama guerra.",
-        "Intenté intimidar a los druidas, pero desaparecieron lanzando una maldición. A partir de hoy, cualquier héroe en el bosque será cazado por los árboles."
-      ],
-      "ru": [
-        "Мое посредничество друиды сочли оскорблением. В ответ они призвали корни леса перекрыть торговый тракт, изолировав город и вызвав кризис снабжения.",
-        "Охотники отказались сотрудничать, и конфликт обострился. Герой попал под удар яростной атаки друидов, и кровь, пролитая в священной роще, теперь взывает к войне.",
-        "Я пыталась запугать друидов, но они исчезли, наложив проклятие на гильдию. Отныне любого героя в лесу будут преследовать сами деревья."
-      ],
-      "zh": [
-        "我的调解被德鲁伊视为侮辱。作为报复，他们召唤森林根须封锁了主要的贸易路线，使城市陷入孤立并引发了物资危机。",
-        "猎人们拒绝配合，情绪失控。英雄卷入了德鲁伊猛烈攻击的交火中，神圣丛林中流下的血现在正呼唤战争。",
-        "我试图恐吓德鲁伊，但他们消失在阴影中并对公会施加了诅咒。从今天起，任何进入森林的英雄都将遭到树木本身的猎杀。"
-      ],
-      "ja": [
-        "仲裁がドルイドへの侮辱と受け取られました。報復として彼らは森の根を召喚して主要な交易路を封鎖し、街を孤立させて補給危機を引き起こしました。",
-        "狩人たちが協力を拒み、事態は爆発しました。英雄はドルイドの激しい攻撃の板挟みとなり、聖なる森に流された血は今や戦争を求めています。",
-        "ドルイドを脅そうとしましたが、彼らは影に消え、ギルドに呪いをかけました。今日以降、森に入る英雄は木々そのものに狩られることになるでしょう。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Utilizei um tom autoritário para conter a fúria dos druidas, enquanto negociei um exílio perpétuo para os caçadores envolvidos. O bosque permanecerá em paz, mas o ressentimento contra os forasteiros agora é uma ferida aberta.",
+          "Convenci os caçadores a entregarem seus espólios e armas como reparação simbólica, sob ameaça de expulsão da guilda. Os druidas aceitaram a oferta após um ritual de purificação, embora o equilíbrio entre a cidade e a floresta tenha se tornado frágil.",
+          "Mediei um acordo onde os caçadores servirão como protetores do bosque por três colheitas. A imposição dessa punição acalmou os druidas e evitou um conflito armado que teria dizimado ambos os lados."
+        ],
+        "en": [
+          "I used an authoritative tone to restrain the druids' fury while negotiating perpetual exile for the hunters involved. The grove remains at peace, but resentment against outsiders is now an open wound.",
+          "I convinced the hunters to surrender their spoils and weapons as symbolic reparation, under threat of guild expulsion. The druids accepted the offer after a purification ritual, though the balance between city and forest has grown fragile.",
+          "I mediated an agreement where the hunters will serve as protectors of the grove for three harvests. Imposing this punishment calmed the druids and avoided an armed conflict that would have decimated both sides."
+        ],
+        "es": [
+          "Utilicé un tono autoritario para contener la furia de los druidas, mientras negociaba el exilio de los cazadores. El bosque permanece en paz, pero el resentimiento es una herida abierta.",
+          "Convencí a los cazadores de entregar sus armas como reparación simbólica. Los druidas aceptaron tras un ritual, aunque el equilibrio es ahora muy frágil.",
+          "Medié un acuerdo donde los cazadores servirán como protectores del bosque. Esta punición calmó a los druidas y evitó un conflicto armado."
+        ],
+        "ru": [
+          "Я использовала властный тон, чтобы сдержать ярость друидов, и договорилась о вечном изгнании охотников. В роще воцарился мир, но обида на чужаков осталась открытой раной.",
+          "Я убедила охотников сдать добычу и оружие в качестве символического возмещения под угрозой исключения из гильдии. Друиды приняли это, но баланс между городом и лесом стал хрупким.",
+          "Я заключила соглашение, по которому охотники станут защитниками рощи на три урожая. Это наказание успокоило друидов и предотвратило вооруженный конфликт."
+        ],
+        "zh": [
+          "我用威严的语气克制了德鲁伊的愤怒，同时协商将涉案猎人永久放逐。丛林恢复了平静，但对外界的怨恨已成为一道无法愈合的伤口。",
+          "在以驱逐出公会为威胁下，我说服猎人交出猎物和武器作为象征性赔偿。德鲁伊在净化仪式后接受了这一提议，尽管城市与森林间的平衡已变得脆弱。",
+          "我促成了一项协议，让猎人在接下来的三次收获期中担任丛林守护者。这项惩罚平息了德鲁伊的怒火，避免了一场可能导致两败俱伤的武装冲突。"
+        ],
+        "ja": [
+          "威圧的な態度でドルイドの怒りを抑えつつ、関与した狩人たちの永久追放を交渉しました。森に平和は戻りましたが、よそ者への恨みは深い傷跡として残りました。",
+          "ギルド追放を盾に、狩人たちに獲物と武器を償いとして差し出させました。儀式を経てドルイドはこれを受け入れましたが、街と森の均衡は危ういものとなりました。",
+          "狩人たちが3回の収穫期の間、森の守護者として奉仕する合意を取り付けました。この罰によってドルイドは沈静化し、双方に甚大な被害が出るはずだった武力衝突は回避されました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Minha mediação foi vista como um insulto pelos druidas. Em retaliação, eles convocaram as raízes da floresta para bloquear a principal estrada comercial, isolando a cidade e causando uma crise de suprimentos.",
+          "Os caçadores se recusaram a cooperar e os ânimos explodiram. O herói foi pego no fogo cruzado de um ataque druídico violento, e o sangue derramado no bosque sagrado agora clama por guerra.",
+          "Tentei intimidar os druidas, mas eles desapareceram nas sombras, lançando uma maldição sobre a guilda. A partir de hoje, qualquer herói que entrar na floresta será caçado pelas próprias árvores."
+        ],
+        "en": [
+          "My mediation was seen as an insult by the druids. In retaliation, they summoned the forest roots to block the main trade road, isolating the city and causing a supply crisis.",
+          "The hunters refused to cooperate, and tempers flared. The hero was caught in the crossfire of a violent druidic attack, and the blood spilled in the sacred grove now cries out for war.",
+          "I tried to intimidate the druids, but they vanished into the shadows, casting a curse upon the guild. From now on, any hero who enters the forest will be hunted by the trees themselves."
+        ],
+        "es": [
+          "Mi mediación fue vista como un insulto. En represalia, los druidas bloquearon la carretera comercial con raíces, aislando la ciudad y causando una crisis.",
+          "Los cazadores se negaron a cooperar y el héroe quedó atrapado en un ataque violento. La sangre derramada en el bosque ahora clama guerra.",
+          "Intenté intimidar a los druidas, pero desaparecieron lanzando una maldición. A partir de hoy, cualquier héroe en el bosque será cazado por los árboles."
+        ],
+        "ru": [
+          "Мое посредничество друиды сочли оскорблением. В ответ они призвали корни леса перекрыть торговый тракт, изолировав город и вызвав кризис снабжения.",
+          "Охотники отказались сотрудничать, и конфликт обострился. Герой попал под удар яростной атаки друидов, и кровь, пролитая в священной роще, теперь взывает к войне.",
+          "Я пыталась запугать друидов, но они исчезли, наложив проклятие на гильдию. Отныне любого героя в лесу будут преследовать сами деревья."
+        ],
+        "zh": [
+          "我的调解被德鲁伊视为侮辱。作为报复，他们召唤森林根须封锁了主要的贸易路线，使城市陷入孤立并引发了物资危机。",
+          "猎人们拒绝配合，情绪失控。英雄卷入了德鲁伊猛烈攻击的交火中，神圣丛林中流下的血现在正呼唤战争。",
+          "我试图恐吓德鲁伊，但他们消失在阴影中并对公会施加了诅咒。从今天起，任何进入森林的英雄都将遭到树木本身的猎杀。"
+        ],
+        "ja": [
+          "仲裁がドルイドへの侮辱と受け取られました。報復として彼らは森の根を召喚して主要な交易路を封鎖し、街を孤立させて補給危機を引き起こしました。",
+          "狩人たちが協力を拒み、事態は爆発しました。英雄はドルイドの激しい攻撃の板挟みとなり、聖なる森に流された血は今や戦争を求めています。",
+          "ドルイドを脅そうとしましたが、彼らは影に消え、ギルドに呪いをかけました。今日以降、森に入る英雄は木々そのものに狩られることになるでしょう。"
+        ]
+      }
     }
   }
-}
 }

@@ -24,9 +24,9 @@
   "expired_at": 2,
   "available_from_turn": 132,
   "duration": 3,
-  "difficulty": 1.8,
+  "difficulty": 4.5,
   "rewards": {
-    "xp": 100
+    "xp": 170
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -51,106 +51,106 @@
       "ja": "溶岩"
     }
   },
-"conclusion": {
-  "success": {
-    "engineering": {
-      "pt": [
-        "Identifiquei a linha de menor resistência e ergui um desvio com rocha sólida. O fluxo foi redirecionado para uma área segura.",
-        "Montei uma barreira angular para alterar a pressão do fluxo. A lava mudou de curso antes de alcançar o orfanato.",
-        "Usei blocos naturais para formar um canal auxiliar. A corrente principal seguiu pelo novo leito."
-      ],
-      "en": [
-        "I identified the weakest line and built a solid stone diversion. The flow was redirected to a safe area.",
-        "I assembled an angled barrier to alter the pressure path. The lava shifted course before reaching the orphanage.",
-        "I used natural blocks to form an auxiliary channel. The main current followed the new path."
-      ],
-      "es": [
-        "Identifiqué la línea más débil y levanté un desvío de roca sólida. El flujo fue redirigido a una zona segura.",
-        "Construí una barrera angular para alterar la presión. La lava cambió de curso antes de llegar al orfanato.",
-        "Usé bloques naturales para crear un canal auxiliar. La corriente principal siguió el nuevo cauce."
-      ],
-      "ru": [
-        "Я определил линию наименьшего сопротивления и возвёл каменный отвод. Поток был перенаправлен в безопасную зону.",
-        "Я собрал угловой барьер, изменив давление потока. Лава сменила направление до приюта.",
-        "Использовал природные блоки, чтобы создать вспомогательный канал. Основной поток пошёл по новому руслу."
-      ],
-      "zh": [
-        "我判断了最薄弱的路径，用岩石构建了引流结构。熔岩被引向安全区域。",
-        "我搭建了倾斜屏障改变流动压力。熔岩在抵达孤儿院前改变了方向。",
-        "我利用天然岩块形成辅助通道。主流沿着新路径流动。"
-      ],
-      "ja": [
-        "抵抗の弱いラインを見極め、岩で迂回路を築きました。溶岩は安全地帯へ流れました。",
-        "角度をつけた障壁で圧力を変えました。溶岩は孤児院に届く前に進路を変えました。",
-        "自然の岩を使って補助水路を形成しました。主流は新しい経路へ流れました。"
-      ]
+  "conclusion": {
+    "success": {
+      "engineering": {
+        "pt": [
+          "Identifiquei a linha de menor resistência e ergui um desvio com rocha sólida. O fluxo foi redirecionado para uma área segura.",
+          "Montei uma barreira angular para alterar a pressão do fluxo. A lava mudou de curso antes de alcançar o orfanato.",
+          "Usei blocos naturais para formar um canal auxiliar. A corrente principal seguiu pelo novo leito."
+        ],
+        "en": [
+          "I identified the weakest line and built a solid stone diversion. The flow was redirected to a safe area.",
+          "I assembled an angled barrier to alter the pressure path. The lava shifted course before reaching the orphanage.",
+          "I used natural blocks to form an auxiliary channel. The main current followed the new path."
+        ],
+        "es": [
+          "Identifiqué la línea más débil y levanté un desvío de roca sólida. El flujo fue redirigido a una zona segura.",
+          "Construí una barrera angular para alterar la presión. La lava cambió de curso antes de llegar al orfanato.",
+          "Usé bloques naturales para crear un canal auxiliar. La corriente principal siguió el nuevo cauce."
+        ],
+        "ru": [
+          "Я определил линию наименьшего сопротивления и возвёл каменный отвод. Поток был перенаправлен в безопасную зону.",
+          "Я собрал угловой барьер, изменив давление потока. Лава сменила направление до приюта.",
+          "Использовал природные блоки, чтобы создать вспомогательный канал. Основной поток пошёл по новому руслу."
+        ],
+        "zh": [
+          "我判断了最薄弱的路径，用岩石构建了引流结构。熔岩被引向安全区域。",
+          "我搭建了倾斜屏障改变流动压力。熔岩在抵达孤儿院前改变了方向。",
+          "我利用天然岩块形成辅助通道。主流沿着新路径流动。"
+        ],
+        "ja": [
+          "抵抗の弱いラインを見極め、岩で迂回路を築きました。溶岩は安全地帯へ流れました。",
+          "角度をつけた障壁で圧力を変えました。溶岩は孤児院に届く前に進路を変えました。",
+          "自然の岩を使って補助水路を形成しました。主流は新しい経路へ流れました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Empurrei blocos incandescentes para abrir um novo caminho. A lava seguiu o desnível criado.",
+          "Usei força bruta para deslocar rochas e formar um dique improvisado. O fluxo desviou.",
+          "Avancei contra o calor e empilhei pedra sobre pedra até forçar a corrente a mudar de direção."
+        ],
+        "en": [
+          "I pushed molten blocks aside to open a new path. The lava followed the created slope.",
+          "I used brute force to move rocks and form a makeshift dam. The flow diverted.",
+          "I advanced through the heat and stacked stone upon stone until the current shifted direction."
+        ],
+        "es": [
+          "Empujé bloques ardientes para abrir un nuevo camino. La lava siguió el desnivel creado.",
+          "Usé fuerza bruta para mover rocas y formar un dique improvisado. El flujo se desvió.",
+          "Avancé entre el calor y apilé piedra sobre piedra hasta forzar el cambio de dirección."
+        ],
+        "ru": [
+          "Я отталкивал раскалённые глыбы, открывая новый путь. Лава пошла по созданному уклону.",
+          "Грубой силой сдвинул камни и создал импровизированную дамбу. Поток отклонился.",
+          "Я продвигался сквозь жар и складывал камень на камень, пока течение не сменило направление."
+        ],
+        "zh": [
+          "我推开炽热岩块，开辟新路径。熔岩沿着新的坡度流动。",
+          "我用蛮力移动岩石，形成临时堤坝。熔岩被迫改道。",
+          "我顶着高温堆叠岩石，直到迫使熔岩改变方向。"
+        ],
+        "ja": [
+          "焼けた岩を押しのけ、新たな流路を作りました。溶岩はその傾斜へ流れました。",
+          "怪力で岩を動かし即席の堤を築きました。流れは逸れました。",
+          "熱の中で石を積み上げ、流れが変わるまで押し続けました。"
+        ]
+      }
     },
-    "default": {
-      "pt": [
-        "Empurrei blocos incandescentes para abrir um novo caminho. A lava seguiu o desnível criado.",
-        "Usei força bruta para deslocar rochas e formar um dique improvisado. O fluxo desviou.",
-        "Avancei contra o calor e empilhei pedra sobre pedra até forçar a corrente a mudar de direção."
-      ],
-      "en": [
-        "I pushed molten blocks aside to open a new path. The lava followed the created slope.",
-        "I used brute force to move rocks and form a makeshift dam. The flow diverted.",
-        "I advanced through the heat and stacked stone upon stone until the current shifted direction."
-      ],
-      "es": [
-        "Empujé bloques ardientes para abrir un nuevo camino. La lava siguió el desnivel creado.",
-        "Usé fuerza bruta para mover rocas y formar un dique improvisado. El flujo se desvió.",
-        "Avancé entre el calor y apilé piedra sobre piedra hasta forzar el cambio de dirección."
-      ],
-      "ru": [
-        "Я отталкивал раскалённые глыбы, открывая новый путь. Лава пошла по созданному уклону.",
-        "Грубой силой сдвинул камни и создал импровизированную дамбу. Поток отклонился.",
-        "Я продвигался сквозь жар и складывал камень на камень, пока течение не сменило направление."
-      ],
-      "zh": [
-        "我推开炽热岩块，开辟新路径。熔岩沿着新的坡度流动。",
-        "我用蛮力移动岩石，形成临时堤坝。熔岩被迫改道。",
-        "我顶着高温堆叠岩石，直到迫使熔岩改变方向。"
-      ],
-      "ja": [
-        "焼けた岩を押しのけ、新たな流路を作りました。溶岩はその傾斜へ流れました。",
-        "怪力で岩を動かし即席の堤を築きました。流れは逸れました。",
-        "熱の中で石を積み上げ、流れが変わるまで押し続けました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "A pressão do fluxo superou a barreira improvisada. A lava continuou avançando.",
-        "Subestimei o volume e o desvio rompeu-se sob o calor. Fui forçado a recuar.",
-        "O terreno cedeu antes que o canal estivesse pronto. O fluxo manteve o curso original."
-      ],
-      "en": [
-        "The pressure overwhelmed the improvised barrier. The lava kept advancing.",
-        "I underestimated the volume and the diversion collapsed under heat. I was forced to retreat.",
-        "The ground gave way before the channel was complete. The flow kept its original course."
-      ],
-      "es": [
-        "La presión superó la barrera improvisada. La lava siguió avanzando.",
-        "Subestimé el volumen y el desvío cedió bajo el calor. Tuve que retirarme.",
-        "El terreno cedió antes de terminar el canal. El flujo mantuvo su curso original."
-      ],
-      "ru": [
-        "Давление потока разрушило импровизированную преграду. Лава продолжила движение.",
-        "Я недооценил объём, и отвод не выдержал жара. Пришлось отступить.",
-        "Почва осела до завершения канала. Поток сохранил прежнее направление."
-      ],
-      "zh": [
-        "流体压力冲破了临时屏障。熔岩继续前进。",
-        "我低估了体量，引流结构在高温下崩塌。我被迫撤退。",
-        "通道尚未完成地面便塌陷。熔岩保持原有方向。"
-      ],
-      "ja": [
-        "流れの圧力が即席の障壁を突破しました。溶岩は進み続けました。",
-        "量を見誤り、迂回路は熱で崩れました。撤退を余儀なくされました。",
-        "水路完成前に地面が崩れました。流れは元の進路を維持しました。"
-      ]
+    "failure": {
+      "default": {
+        "pt": [
+          "A pressão do fluxo superou a barreira improvisada. A lava continuou avançando.",
+          "Subestimei o volume e o desvio rompeu-se sob o calor. Fui forçado a recuar.",
+          "O terreno cedeu antes que o canal estivesse pronto. O fluxo manteve o curso original."
+        ],
+        "en": [
+          "The pressure overwhelmed the improvised barrier. The lava kept advancing.",
+          "I underestimated the volume and the diversion collapsed under heat. I was forced to retreat.",
+          "The ground gave way before the channel was complete. The flow kept its original course."
+        ],
+        "es": [
+          "La presión superó la barrera improvisada. La lava siguió avanzando.",
+          "Subestimé el volumen y el desvío cedió bajo el calor. Tuve que retirarme.",
+          "El terreno cedió antes de terminar el canal. El flujo mantuvo su curso original."
+        ],
+        "ru": [
+          "Давление потока разрушило импровизированную преграду. Лава продолжила движение.",
+          "Я недооценил объём, и отвод не выдержал жара. Пришлось отступить.",
+          "Почва осела до завершения канала. Поток сохранил прежнее направление."
+        ],
+        "zh": [
+          "流体压力冲破了临时屏障。熔岩继续前进。",
+          "我低估了体量，引流结构在高温下崩塌。我被迫撤退。",
+          "通道尚未完成地面便塌陷。熔岩保持原有方向。"
+        ],
+        "ja": [
+          "流れの圧力が即席の障壁を突破しました。溶岩は進み続けました。",
+          "量を見誤り、迂回路は熱で崩れました。撤退を余儀なくされました。",
+          "水路完成前に地面が崩れました。流れは元の進路を維持しました。"
+        ]
+      }
     }
   }
-}
 }

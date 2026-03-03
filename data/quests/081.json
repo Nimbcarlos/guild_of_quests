@@ -23,9 +23,9 @@
   "expired_at": 3,
   "available_from_turn": 115,
   "duration": 3,
-  "difficulty": 2.7,
+  "difficulty": 3.5,
   "rewards": {
-    "xp": 135
+    "xp": 85
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -50,74 +50,74 @@
       "ja": "錬金術の雲"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Dispersei as nuvens alquímicas e neutralizei a chuva corrosiva sobre as fazendas.",
-        "Altere i a composição das nuvens e interrompi a precipitação negra.",
-        "Redirecionei as correntes atmosféricas e dissipei as formações alquímicas."
-      ],
-      "en": [
-        "I dispersed the alchemical clouds and neutralized the corrosive rain over the farms.",
-        "I altered the clouds’ composition and halted the black precipitation.",
-        "I redirected the atmospheric currents and dissolved the alchemical formations."
-      ],
-      "es": [
-        "Dispersé las nubes alquímicas y neutralicé la lluvia corrosiva sobre las granjas.",
-        "Alteré la composición de las nubes y detuve la precipitación negra.",
-        "Redirigí las corrientes atmosféricas y disolví las formaciones alquímicas."
-      ],
-      "ru": [
-        "Я рассеял алхимические облака и нейтрализовал едкий дождь над фермами.",
-        "Изменил состав облаков и остановил чёрные осадки.",
-        "Перенаправил атмосферные потоки и растворил алхимические образования."
-      ],
-      "zh": [
-        "我驱散了炼金云层并中和了降在农场上的腐蚀性黑雨。",
-        "我改变了云层成分并停止了黑色降水。",
-        "我引导气流并消散了炼金形成物。"
-      ],
-      "ja": [
-        "錬金術の雲を散らし、農場に降る腐食性の黒い雨を中和しました。",
-        "雲の組成を変化させ、黒い降雨を止めました。",
-        "大気の流れを操作し、錬金術的な雲を消散させました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "As nuvens alquímicas se intensificaram e a chuva negra devastou as colheitas.",
-        "A precipitação corrosiva ultrapassou as fazendas e alcançou os arredores da cidade.",
-        "A reação atmosférica saiu do controle e ampliou a área contaminada."
-      ],
-      "en": [
-        "The alchemical clouds intensified and the black rain devastated the harvests.",
-        "The corrosive rainfall spread beyond the farms toward the city outskirts.",
-        "The atmospheric reaction spiraled out of control and expanded the contamination."
-      ],
-      "es": [
-        "Las nubes alquímicas se intensificaron y la lluvia negra devastó las cosechas.",
-        "La precipitación corrosiva superó las granjas y avanzó hacia la ciudad.",
-        "La reacción atmosférica se salió de control y amplió la zona contaminada."
-      ],
-      "ru": [
-        "Алхимические облака усилились, и чёрный дождь уничтожил урожай.",
-        "Едкие осадки вышли за пределы ферм и приблизились к городу.",
-        "Атмосферная реакция вышла из-под контроля и расширила зону заражения."
-      ],
-      "zh": [
-        "炼金云层加剧，黑雨摧毁了庄稼。",
-        "腐蚀性降雨越过农场，逼近城市外围。",
-        "大气反应失控并扩大了污染范围。"
-      ],
-      "ja": [
-        "錬金術の雲が激化し、黒い雨が収穫を壊滅させました。",
-        "腐食性の雨が農場を越え、街の外縁に迫りました。",
-        "大気反応が制御不能となり、汚染域が拡大しました。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Dispersei as nuvens alquímicas e neutralizei a chuva corrosiva sobre as fazendas.",
+          "Altere i a composição das nuvens e interrompi a precipitação negra.",
+          "Redirecionei as correntes atmosféricas e dissipei as formações alquímicas."
+        ],
+        "en": [
+          "I dispersed the alchemical clouds and neutralized the corrosive rain over the farms.",
+          "I altered the clouds’ composition and halted the black precipitation.",
+          "I redirected the atmospheric currents and dissolved the alchemical formations."
+        ],
+        "es": [
+          "Dispersé las nubes alquímicas y neutralicé la lluvia corrosiva sobre las granjas.",
+          "Alteré la composición de las nubes y detuve la precipitación negra.",
+          "Redirigí las corrientes atmosféricas y disolví las formaciones alquímicas."
+        ],
+        "ru": [
+          "Я рассеял алхимические облака и нейтрализовал едкий дождь над фермами.",
+          "Изменил состав облаков и остановил чёрные осадки.",
+          "Перенаправил атмосферные потоки и растворил алхимические образования."
+        ],
+        "zh": [
+          "我驱散了炼金云层并中和了降在农场上的腐蚀性黑雨。",
+          "我改变了云层成分并停止了黑色降水。",
+          "我引导气流并消散了炼金形成物。"
+        ],
+        "ja": [
+          "錬金術の雲を散らし、農場に降る腐食性の黒い雨を中和しました。",
+          "雲の組成を変化させ、黒い降雨を止めました。",
+          "大気の流れを操作し、錬金術的な雲を消散させました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "As nuvens alquímicas se intensificaram e a chuva negra devastou as colheitas.",
+          "A precipitação corrosiva ultrapassou as fazendas e alcançou os arredores da cidade.",
+          "A reação atmosférica saiu do controle e ampliou a área contaminada."
+        ],
+        "en": [
+          "The alchemical clouds intensified and the black rain devastated the harvests.",
+          "The corrosive rainfall spread beyond the farms toward the city outskirts.",
+          "The atmospheric reaction spiraled out of control and expanded the contamination."
+        ],
+        "es": [
+          "Las nubes alquímicas se intensificaron y la lluvia negra devastó las cosechas.",
+          "La precipitación corrosiva superó las granjas y avanzó hacia la ciudad.",
+          "La reacción atmosférica se salió de control y amplió la zona contaminada."
+        ],
+        "ru": [
+          "Алхимические облака усилились, и чёрный дождь уничтожил урожай.",
+          "Едкие осадки вышли за пределы ферм и приблизились к городу.",
+          "Атмосферная реакция вышла из-под контроля и расширила зону заражения."
+        ],
+        "zh": [
+          "炼金云层加剧，黑雨摧毁了庄稼。",
+          "腐蚀性降雨越过农场，逼近城市外围。",
+          "大气反应失控并扩大了污染范围。"
+        ],
+        "ja": [
+          "錬金術の雲が激化し、黒い雨が収穫を壊滅させました。",
+          "腐食性の雨が農場を越え、街の外縁に迫りました。",
+          "大気反応が制御不能となり、汚染域が拡大しました。"
+        ]
+      }
     }
   }
-}
 }

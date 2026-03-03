@@ -24,9 +24,9 @@
   "expired_at": 7,
   "available_from_turn": 137,
   "duration": 3,
-  "difficulty": 2.1,
+  "difficulty": 3.5,
   "rewards": {
-    "xp": 65
+    "xp": 85
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -51,106 +51,106 @@
       "ja": "生存者"
     }
   },
-"conclusion": {
-  "success": {
-    "cure": {
-      "pt": [
-        "Estabeleci contato gradual e conduzi os sobreviventes por exercícios de estabilização mental. O estado coletivo foi normalizado.",
-        "Apliquei técnicas de respiração e ancoragem para reduzir episódios agudos.",
-        "Organizei atendimento individual e restabeleci rotinas básicas no acampamento."
-      ],
-      "en": [
-        "I established gradual contact and guided the survivors through stabilization exercises. The collective state was normalized.",
-        "I applied breathing and grounding techniques to reduce acute episodes.",
-        "I organized individual care and restored basic routines within the camp."
-      ],
-      "es": [
-        "Establecí contacto gradual y guié ejercicios de estabilización. El estado colectivo se normalizó.",
-        "Apliqué técnicas de respiración y anclaje para reducir episodios agudos.",
-        "Organicé atención individual y restablecí rutinas básicas en el campamento."
-      ],
-      "ru": [
-        "Я наладил постепенный контакт и провёл упражнения по стабилизации. Общее состояние нормализовалось.",
-        "Применил техники дыхания и заземления для снижения острых реакций.",
-        "Организовал индивидуальную помощь и восстановил базовые распорядки."
-      ],
-      "zh": [
-        "我逐步建立接触并引导稳定训练，整体状态得到缓和。",
-        "我运用呼吸与锚定技巧减少急性反应。",
-        "我组织个别辅导并恢复营地基本秩序。"
-      ],
-      "ja": [
-        "段階的に接触し、安定化訓練を実施しました。集団状態は落ち着きました。",
-        "呼吸法とグラウンディングで急性反応を軽減しました。",
-        "個別対応を整え、基本的な生活リズムを回復しました。"
-      ]
+  "conclusion": {
+    "success": {
+      "cure": {
+        "pt": [
+          "Estabeleci contato gradual e conduzi os sobreviventes por exercícios de estabilização mental. O estado coletivo foi normalizado.",
+          "Apliquei técnicas de respiração e ancoragem para reduzir episódios agudos.",
+          "Organizei atendimento individual e restabeleci rotinas básicas no acampamento."
+        ],
+        "en": [
+          "I established gradual contact and guided the survivors through stabilization exercises. The collective state was normalized.",
+          "I applied breathing and grounding techniques to reduce acute episodes.",
+          "I organized individual care and restored basic routines within the camp."
+        ],
+        "es": [
+          "Establecí contacto gradual y guié ejercicios de estabilización. El estado colectivo se normalizó.",
+          "Apliqué técnicas de respiración y anclaje para reducir episodios agudos.",
+          "Organicé atención individual y restablecí rutinas básicas en el campamento."
+        ],
+        "ru": [
+          "Я наладил постепенный контакт и провёл упражнения по стабилизации. Общее состояние нормализовалось.",
+          "Применил техники дыхания и заземления для снижения острых реакций.",
+          "Организовал индивидуальную помощь и восстановил базовые распорядки."
+        ],
+        "zh": [
+          "我逐步建立接触并引导稳定训练，整体状态得到缓和。",
+          "我运用呼吸与锚定技巧减少急性反应。",
+          "我组织个别辅导并恢复营地基本秩序。"
+        ],
+        "ja": [
+          "段階的に接触し、安定化訓練を実施しました。集団状態は落ち着きました。",
+          "呼吸法とグラウンディングで急性反応を軽減しました。",
+          "個別対応を整え、基本的な生活リズムを回復しました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Conduzi um rito coletivo de luto e encerramento simbólico.",
+          "Estabeleci um espaço sagrado para memória e reconciliação.",
+          "Reforcei laços comunitários por meio de oração estruturada."
+        ],
+        "en": [
+          "I conducted a collective rite of mourning and symbolic closure.",
+          "I established a sacred space for remembrance and reconciliation.",
+          "I reinforced communal bonds through structured prayer."
+        ],
+        "es": [
+          "Realicé un rito colectivo de duelo y cierre simbólico.",
+          "Establecí un espacio sagrado para memoria y reconciliación.",
+          "Reforcé los lazos comunitarios mediante oración estructurada."
+        ],
+        "ru": [
+          "Я провёл коллективный обряд скорби и символического завершения.",
+          "Создал священное пространство для памяти и примирения.",
+          "Укрепил общинные связи через структурированную молитву."
+        ],
+        "zh": [
+          "我主持集体悼念仪式与象征性告别。",
+          "我建立神圣空间用于纪念与和解。",
+          "我通过结构化祈祷强化社区纽带。"
+        ],
+        "ja": [
+          "集団の追悼儀式と象徴的な区切りを執り行いました。",
+          "記憶と和解のための聖域を設けました。",
+          "体系的な祈りで共同体の結束を強化しました。"
+        ]
+      }
     },
-    "default": {
-      "pt": [
-        "Conduzi um rito coletivo de luto e encerramento simbólico.",
-        "Estabeleci um espaço sagrado para memória e reconciliação.",
-        "Reforcei laços comunitários por meio de oração estruturada."
-      ],
-      "en": [
-        "I conducted a collective rite of mourning and symbolic closure.",
-        "I established a sacred space for remembrance and reconciliation.",
-        "I reinforced communal bonds through structured prayer."
-      ],
-      "es": [
-        "Realicé un rito colectivo de duelo y cierre simbólico.",
-        "Establecí un espacio sagrado para memoria y reconciliación.",
-        "Reforcé los lazos comunitarios mediante oración estructurada."
-      ],
-      "ru": [
-        "Я провёл коллективный обряд скорби и символического завершения.",
-        "Создал священное пространство для памяти и примирения.",
-        "Укрепил общинные связи через структурированную молитву."
-      ],
-      "zh": [
-        "我主持集体悼念仪式与象征性告别。",
-        "我建立神圣空间用于纪念与和解。",
-        "我通过结构化祈祷强化社区纽带。"
-      ],
-      "ja": [
-        "集団の追悼儀式と象徴的な区切りを執り行いました。",
-        "記憶と和解のための聖域を設けました。",
-        "体系的な祈りで共同体の結束を強化しました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "Os sobreviventes recusaram qualquer aproximação.",
-        "Um surto coletivo interrompeu a intervenção.",
-        "Não consegui estabelecer confiança suficiente para iniciar o processo."
-      ],
-      "en": [
-        "The survivors refused any approach.",
-        "A collective breakdown interrupted the intervention.",
-        "I failed to establish enough trust to begin the process."
-      ],
-      "es": [
-        "Los sobrevivientes rechazaron cualquier acercamiento.",
-        "Un colapso colectivo interrumpió la intervención.",
-        "No logré generar suficiente confianza para iniciar el proceso."
-      ],
-      "ru": [
-        "Выжившие отказались от контакта.",
-        "Коллективный срыв прервал вмешательство.",
-        "Мне не удалось установить достаточное доверие."
-      ],
-      "zh": [
-        "幸存者拒绝任何接触。",
-        "一次集体失控打断了干预。",
-        "未能建立足够信任启动过程。"
-      ],
-      "ja": [
-        "生存者は接触を拒否しました。",
-        "集団的混乱で介入が中断されました。",
-        "開始に十分な信頼を築けませんでした。"
-      ]
+    "failure": {
+      "default": {
+        "pt": [
+          "Os sobreviventes recusaram qualquer aproximação.",
+          "Um surto coletivo interrompeu a intervenção.",
+          "Não consegui estabelecer confiança suficiente para iniciar o processo."
+        ],
+        "en": [
+          "The survivors refused any approach.",
+          "A collective breakdown interrupted the intervention.",
+          "I failed to establish enough trust to begin the process."
+        ],
+        "es": [
+          "Los sobrevivientes rechazaron cualquier acercamiento.",
+          "Un colapso colectivo interrumpió la intervención.",
+          "No logré generar suficiente confianza para iniciar el proceso."
+        ],
+        "ru": [
+          "Выжившие отказались от контакта.",
+          "Коллективный срыв прервал вмешательство.",
+          "Мне не удалось установить достаточное доверие."
+        ],
+        "zh": [
+          "幸存者拒绝任何接触。",
+          "一次集体失控打断了干预。",
+          "未能建立足够信任启动过程。"
+        ],
+        "ja": [
+          "生存者は接触を拒否しました。",
+          "集団的混乱で介入が中断されました。",
+          "開始に十分な信頼を築けませんでした。"
+        ]
+      }
     }
   }
-}
 }

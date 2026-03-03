@@ -23,9 +23,9 @@
   "expired_at": 6,
   "available_from_turn": 107,
   "duration": 3,
-  "difficulty": 2.5,
+  "difficulty": 3.0,
   "rewards": {
-    "xp": 100
+    "xp": 80
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -50,74 +50,74 @@
       "ja": "剣闘士"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Identifiquei a composição da poção e neutralizei seus efeitos nos gladiadores.",
-        "Interrompi a dependência química e estabilizei os órgãos comprometidos.",
-        "Confisquei o lote adulterado e reverti os surtos provocados pela substância."
-      ],
-      "en": [
-        "I identified the potion’s composition and neutralized its effects in the gladiators.",
-        "I halted the chemical dependency and stabilized failing organs.",
-        "I confiscated the tainted batch and reversed the substance-induced outbursts."
-      ],
-      "es": [
-        "Identifiqué la composición de la poción y neutralicé sus efectos en los gladiadores.",
-        "Interrumpí la dependencia química y estabilicé los órganos afectados.",
-        "Confisqué el lote adulterado y revertí los brotes causados por la sustancia."
-      ],
-      "ru": [
-        "Я определил состав зелья и нейтрализовал его воздействие на гладиаторов.",
-        "Остановил химическую зависимость и стабилизировал поврежденные органы.",
-        "Конфисковал отравленную партию и обратил вспышки, вызванные веществом."
-      ],
-      "zh": [
-        "我识别了药剂成分并中和其对角斗士的影响。",
-        "我阻断了成瘾反应并稳定了受损器官。",
-        "我没收了问题批次并逆转了药物引发的暴力失控。"
-      ],
-      "ja": [
-        "ポーションの成分を特定し、剣闘士への影響を中和しました。",
-        "依存反応を断ち切り、損傷した臓器を安定させました。",
-        "不正なロットを押収し、薬剤による暴走を逆転させました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "A falência de órgãos avançou além de qualquer reversão possível.",
-        "A dependência desencadeou um surto incontrolável na arena.",
-        "Os gladiadores sucumbiram aos efeitos acumulados da poção."
-      ],
-      "en": [
-        "Organ failure progressed beyond possible reversal.",
-        "Addiction triggered an uncontrollable outbreak in the arena.",
-        "The gladiators succumbed to the accumulated effects of the potion."
-      ],
-      "es": [
-        "La falla orgánica avanzó más allá de cualquier reversión.",
-        "La adicción provocó un brote incontrolable en la arena.",
-        "Los gladiadores sucumbieron a los efectos acumulados de la poción."
-      ],
-      "ru": [
-        "Отказ органов стал необратимым.",
-        "Зависимость вызвала неконтролируемую вспышку на арене.",
-        "Гладиаторы пали жертвами накопленного действия зелья."
-      ],
-      "zh": [
-        "器官衰竭已无法逆转。",
-        "成瘾引发了竞技场的失控暴动。",
-        "角斗士们倒在药剂的累积效应之下。"
-      ],
-      "ja": [
-        "臓器不全は回復不能な段階に達しました。",
-        "依存が闘技場で制御不能の暴走を引き起こしました。",
-        "剣闘士たちは薬の蓄積効果に屈しました。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Identifiquei a composição da poção e neutralizei seus efeitos nos gladiadores.",
+          "Interrompi a dependência química e estabilizei os órgãos comprometidos.",
+          "Confisquei o lote adulterado e reverti os surtos provocados pela substância."
+        ],
+        "en": [
+          "I identified the potion’s composition and neutralized its effects in the gladiators.",
+          "I halted the chemical dependency and stabilized failing organs.",
+          "I confiscated the tainted batch and reversed the substance-induced outbursts."
+        ],
+        "es": [
+          "Identifiqué la composición de la poción y neutralicé sus efectos en los gladiadores.",
+          "Interrumpí la dependencia química y estabilicé los órganos afectados.",
+          "Confisqué el lote adulterado y revertí los brotes causados por la sustancia."
+        ],
+        "ru": [
+          "Я определил состав зелья и нейтрализовал его воздействие на гладиаторов.",
+          "Остановил химическую зависимость и стабилизировал поврежденные органы.",
+          "Конфисковал отравленную партию и обратил вспышки, вызванные веществом."
+        ],
+        "zh": [
+          "我识别了药剂成分并中和其对角斗士的影响。",
+          "我阻断了成瘾反应并稳定了受损器官。",
+          "我没收了问题批次并逆转了药物引发的暴力失控。"
+        ],
+        "ja": [
+          "ポーションの成分を特定し、剣闘士への影響を中和しました。",
+          "依存反応を断ち切り、損傷した臓器を安定させました。",
+          "不正なロットを押収し、薬剤による暴走を逆転させました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A falência de órgãos avançou além de qualquer reversão possível.",
+          "A dependência desencadeou um surto incontrolável na arena.",
+          "Os gladiadores sucumbiram aos efeitos acumulados da poção."
+        ],
+        "en": [
+          "Organ failure progressed beyond possible reversal.",
+          "Addiction triggered an uncontrollable outbreak in the arena.",
+          "The gladiators succumbed to the accumulated effects of the potion."
+        ],
+        "es": [
+          "La falla orgánica avanzó más allá de cualquier reversión.",
+          "La adicción provocó un brote incontrolable en la arena.",
+          "Los gladiadores sucumbieron a los efectos acumulados de la poción."
+        ],
+        "ru": [
+          "Отказ органов стал необратимым.",
+          "Зависимость вызвала неконтролируемую вспышку на арене.",
+          "Гладиаторы пали жертвами накопленного действия зелья."
+        ],
+        "zh": [
+          "器官衰竭已无法逆转。",
+          "成瘾引发了竞技场的失控暴动。",
+          "角斗士们倒在药剂的累积效应之下。"
+        ],
+        "ja": [
+          "臓器不全は回復不能な段階に達しました。",
+          "依存が闘技場で制御不能の暴走を引き起こしました。",
+          "剣闘士たちは薬の蓄積効果に屈しました。"
+        ]
+      }
     }
   }
-}
 }

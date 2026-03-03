@@ -21,7 +21,7 @@
   "expired_at": 6,
   "available_from_turn": 60,
   "duration": 3,
-  "difficulty": 1.4,
+  "difficulty": 2.5,
   "rewards": {
     "xp": 70
   },
@@ -48,74 +48,74 @@
       "ja": "遊牧民"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Negociei termos de coexistência temporária entre o clã e as autoridades locais. Os nômades concordaram em prestar serviços de vigia em troca de suprimentos, dissipando a hostilidade dos moradores.",
-        "Estabeleci um cronograma para a partida dos nômades e garanti que o acampamento não interferisse nas rotas comerciais. A tensão foi reduzida e a ordem pública mantida sem o uso de força.",
-        "Demonstrei aos moradores a utilidade prática do comércio com o clã Adagas Voadoras. O preconceito foi substituído por uma trégua comercial monitorada pela guilda."
-      ],
-      "en": [
-        "I negotiated terms for temporary coexistence between the clan and local authorities. The nomads agreed to provide watch services in exchange for supplies, dissipating local hostility.",
-        "I established a schedule for the nomads' departure and ensured the camp did not interfere with trade routes. Tension was reduced and public order maintained without force.",
-        "I demonstrated to the locals the practical utility of trading with the Flying Daggers clan. Prejudice was replaced by a commercial truce monitored by the guild."
-      ],
-      "es": [
-        "Negocié términos de coexistencia temporal. Los nómadas acordaron prestar servicios de vigilancia a cambio de suministros, disipando la hostilidad de los lugareños.",
-        "Establecí un cronograma para la partida de los nómadas y aseguré que el campamento no interfiriera con el comercio. La tensión se redujo sin usar la fuerza.",
-        "Demostré a los locales la utilidad práctica del comercio con el clan. El prejuicio fue sustituido por una tregua comercial monitoreada por el gremio."
-      ],
-      "ru": [
-        "Я договорилась о временном сосуществовании клана и местных властей. Кочевники согласились нести караульную службу в обмен на припасы, что погасило враждебность.",
-        "Я установила график отбытия кочевников и обеспечила, чтобы лагерь не мешал торговым путям. Напряженность снизилась без применения силы.",
-        "Я доказала жителям практическую выгоду торговли с кланом. Предрассудки сменились торговым перемирием под надзором гильдии."
-      ],
-      "zh": [
-        "我协商了部族与地方当局之间临时共存的条款。游牧民同意提供守卫服务以换取物资，消解了当地人的敌意。",
-        "我制定了游牧民撤离的时间表，并确保营地不会干扰贸易路线。在不动武的情况下降低了紧张局势并维持了公共秩序。",
-        "我向当地人展示了与飞刃部族贸易的实际用途。偏见被公会监管下的商业停战所取代。"
-      ],
-      "ja": [
-        "一族と地方当局との間の一時的な共存条件を交渉しました。遊牧民は物資と引き換えに監視任務に就くことに同意し、住民の敵意は和らぎました。",
-        "遊牧民の出発スケジュールを策定し、野営地が交易路を妨げないよう確約しました。武力を行使することなく緊張を緩和し、公序良俗を維持しました。",
-        "地元住民に対し、「飛ぶ短剣」一族との交易の実用的な利点を示しました。偏見はギルドが監視する商業的休戦に取って代わられました。"
-      ]
-    }
-  },
-"failure": {
-    "default": {
-      "pt": [
-        "A mediação falhou devido à desconfiança mútua. Um confronto físico entre moradores e nômades resultou em feridos, forçando o clã a se retirar com promessas de retaliação.",
-        "Não consegui estabelecer um terreno comum. Os nômades sentiram-se insultados pelas exigências e a cidade permanece em alerta contra possíveis sabotagens do clã.",
-        "As tentativas de diálogo apenas inflamaram o preconceito local. A guilda perdeu credibilidade na região e os nômades foram expulsos violentamente pela milícia."
-      ],
-      "en": [
-        "Mediation failed due to mutual distrust. A physical confrontation between locals and nomads resulted in injuries, forcing the clan to retreat with promises of retaliation.",
-        "I failed to establish common ground. The nomads felt insulted by the demands, and the city remains on alert against possible clan sabotage.",
-        "Dialogue attempts only inflamed local prejudice. The guild lost credibility in the region, and the nomads were violently expelled by the militia."
-      ],
-      "es": [
-        "La mediación falló debido a la desconfianza mutua. Un enfrentamiento físico entre locales y nómadas resultó en heridos, forzando la retirada del clan con amenazas.",
-        "No logré establecer un terreno común. Los nómadas se sintieron insultados y la ciudad permanece en alerta ante posibles sabotajes.",
-        "Los intentos de diálogo inflamaron el prejuicio local. El gremio perdió credibilidad y los nómadas fueron expulsados violentamente por la milicia."
-      ],
-      "ru": [
-        "Посредничество провалилось из-за взаимного недоверия. Столкновение между жителями и кочевниками привело к ранениям, клан отступил, обещая отомстить.",
-        "Мне не удалось найти общий язык. Кочевники сочли требования оскорбительными, и город остается в режиме тревоги из-за возможного саботажа.",
-        "Попытки диалога лишь усилили предрассудки. Гильдия потеряла доверие в регионе, а кочевники были насильно изгнаны ополчением."
-      ],
-      "zh": [
-        "由于相互不信任，调解失败。当地人与游牧民之间的肢体冲突导致人员受伤，迫使部族撤离并扬言报复。",
-        "我未能建立共识。游牧民对这些要求感到受辱，城市仍对该部族可能的破坏活动保持警惕。",
-        "对话的尝试反而加剧了当地的偏见。公会在该地区的信誉受损，游牧民被民兵暴力驱逐。"
-      ],
-      "ja": [
-        "相互不信により仲裁は失敗しました。住民と遊牧民の物理的衝突で負傷者が出、一族は報復を誓って撤退する結果となりました。",
-        "妥協点を見出すことができませんでした。遊牧民は要求を侮辱と受け止め、街は一族による妨害工作に警戒を続けています。",
-        "対話の試みは地元住民の偏見を煽るだけに終わりました。ギルドはこの地域での信頼を失い、遊牧民は民兵によって暴力的に追放されました。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Negociei termos de coexistência temporária entre o clã e as autoridades locais. Os nômades concordaram em prestar serviços de vigia em troca de suprimentos, dissipando a hostilidade dos moradores.",
+          "Estabeleci um cronograma para a partida dos nômades e garanti que o acampamento não interferisse nas rotas comerciais. A tensão foi reduzida e a ordem pública mantida sem o uso de força.",
+          "Demonstrei aos moradores a utilidade prática do comércio com o clã Adagas Voadoras. O preconceito foi substituído por uma trégua comercial monitorada pela guilda."
+        ],
+        "en": [
+          "I negotiated terms for temporary coexistence between the clan and local authorities. The nomads agreed to provide watch services in exchange for supplies, dissipating local hostility.",
+          "I established a schedule for the nomads' departure and ensured the camp did not interfere with trade routes. Tension was reduced and public order maintained without force.",
+          "I demonstrated to the locals the practical utility of trading with the Flying Daggers clan. Prejudice was replaced by a commercial truce monitored by the guild."
+        ],
+        "es": [
+          "Negocié términos de coexistencia temporal. Los nómadas acordaron prestar servicios de vigilancia a cambio de suministros, disipando la hostilidad de los lugareños.",
+          "Establecí un cronograma para la partida de los nómadas y aseguré que el campamento no interfiriera con el comercio. La tensión se redujo sin usar la fuerza.",
+          "Demostré a los locales la utilidad práctica del comercio con el clan. El prejuicio fue sustituido por una tregua comercial monitoreada por el gremio."
+        ],
+        "ru": [
+          "Я договорилась о временном сосуществовании клана и местных властей. Кочевники согласились нести караульную службу в обмен на припасы, что погасило враждебность.",
+          "Я установила график отбытия кочевников и обеспечила, чтобы лагерь не мешал торговым путям. Напряженность снизилась без применения силы.",
+          "Я доказала жителям практическую выгоду торговли с кланом. Предрассудки сменились торговым перемирием под надзором гильдии."
+        ],
+        "zh": [
+          "我协商了部族与地方当局之间临时共存的条款。游牧民同意提供守卫服务以换取物资，消解了当地人的敌意。",
+          "我制定了游牧民撤离的时间表，并确保营地不会干扰贸易路线。在不动武的情况下降低了紧张局势并维持了公共秩序。",
+          "我向当地人展示了与飞刃部族贸易的实际用途。偏见被公会监管下的商业停战所取代。"
+        ],
+        "ja": [
+          "一族と地方当局との間の一時的な共存条件を交渉しました。遊牧民は物資と引き換えに監視任務に就くことに同意し、住民の敵意は和らぎました。",
+          "遊牧民の出発スケジュールを策定し、野営地が交易路を妨げないよう確約しました。武力を行使することなく緊張を緩和し、公序良俗を維持しました。",
+          "地元住民に対し、「飛ぶ短剣」一族との交易の実用的な利点を示しました。偏見はギルドが監視する商業的休戦に取って代わられました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A mediação falhou devido à desconfiança mútua. Um confronto físico entre moradores e nômades resultou em feridos, forçando o clã a se retirar com promessas de retaliação.",
+          "Não consegui estabelecer um terreno comum. Os nômades sentiram-se insultados pelas exigências e a cidade permanece em alerta contra possíveis sabotagens do clã.",
+          "As tentativas de diálogo apenas inflamaram o preconceito local. A guilda perdeu credibilidade na região e os nômades foram expulsos violentamente pela milícia."
+        ],
+        "en": [
+          "Mediation failed due to mutual distrust. A physical confrontation between locals and nomads resulted in injuries, forcing the clan to retreat with promises of retaliation.",
+          "I failed to establish common ground. The nomads felt insulted by the demands, and the city remains on alert against possible clan sabotage.",
+          "Dialogue attempts only inflamed local prejudice. The guild lost credibility in the region, and the nomads were violently expelled by the militia."
+        ],
+        "es": [
+          "La mediación falló debido a la desconfianza mutua. Un enfrentamiento físico entre locales y nómadas resultó en heridos, forzando la retirada del clan con amenazas.",
+          "No logré establecer un terreno común. Los nómadas se sintieron insultados y la ciudad permanece en alerta ante posibles sabotajes.",
+          "Los intentos de diálogo inflamaron el prejuicio local. El gremio perdió credibilidad y los nómadas fueron expulsados violentamente por la milicia."
+        ],
+        "ru": [
+          "Посредничество провалилось из-за взаимного недоверия. Столкновение между жителями и кочевниками привело к ранениям, клан отступил, обещая отомстить.",
+          "Мне не удалось найти общий язык. Кочевники сочли требования оскорбительными, и город остается в режиме тревоги из-за возможного саботажа.",
+          "Попытки диалога лишь усилили предрассудки. Гильдия потеряла доверие в регионе, а кочевники были насильно изгнаны ополчением."
+        ],
+        "zh": [
+          "由于相互不信任，调解失败。当地人与游牧民之间的肢体冲突导致人员受伤，迫使部族撤离并扬言报复。",
+          "我未能建立共识。游牧民对这些要求感到受辱，城市仍对该部族可能的破坏活动保持警惕。",
+          "对话的尝试反而加剧了当地的偏见。公会在该地区的信誉受损，游牧民被民兵暴力驱逐。"
+        ],
+        "ja": [
+          "相互不信により仲裁は失敗しました。住民と遊牧民の物理的衝突で負傷者が出、一族は報復を誓って撤退する結果となりました。",
+          "妥協点を見出すことができませんでした。遊牧民は要求を侮辱と受け止め、街は一族による妨害工作に警戒を続けています。",
+          "対話の試みは地元住民の偏見を煽るだけに終わりました。ギルドはこの地域での信頼を失い、遊牧民は民兵によって暴力的に追放されました。"
+        ]
+      }
     }
   }
-}
 }

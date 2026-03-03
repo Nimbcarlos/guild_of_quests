@@ -24,9 +24,9 @@
   "expired_at": 6,
   "available_from_turn": 56,
   "duration": 3,
-  "difficulty": 1.7,
+  "difficulty": 2.5,
   "rewards": {
-    "xp": 90
+    "xp": 70
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -51,74 +51,74 @@
       "ja": "異常な移動"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Identifiquei que depósitos de minério magnetizado foram expostos por erosão, confundindo o sentido de direção dos animais. Isolei as emanações com camadas de solo orgânico e guiei os líderes dos bandos de volta à rota correta.",
-        "Descobri que uma planta exótica, florescendo fora de época devido ao calor anômalo, estava emitindo esporos alucinógenos. Ao conter a floração e restaurar o microclima local, os animais recuperaram o discernimento.",
-        "Através da observação do comportamento das aves, localizei um artefato antigo que vibrava em baixa frequência, interferindo nos instintos. Desativei o objeto através de métodos naturais de abafamento, normalizando a migração."
-      ],
-      "en": [
-        "I identified that magnetized ore deposits were exposed by erosion, confusing the animals' sense of direction. I isolated the emanations with layers of organic soil and guided the flock leaders back to the correct route.",
-        "I discovered that an exotic plant, blooming out of season due to anomalous heat, was emitting hallucinogenic spores. By containing the bloom and restoring the local microclimate, the animals regained their senses.",
-        "Through observation of bird behavior, I located an ancient artifact vibrating at a low frequency, interfering with instincts. I deactivated the object using natural dampening methods, normalizing the migration."
-      ],
-      "es": [
-        "Identifiqué que depósitos de mineral magnetizado quedaron expuestos, confundiendo el sentido de dirección de los animales. Aislé las emanaciones con suelo orgánico y guié a los líderes a la ruta correcta.",
-        "Descubrí que una planta exótica, floreciendo fuera de época, emitía esporas alucinógenas. Al contener la floración y restaurar el microclima, los animales recuperaron el juicio.",
-        "Mediante la observación, localicé un artefacto antiguo que vibraba en baja frecuencia. Desactivé el objeto usando métodos naturales de amortiguación, normalizando la migración."
-      ],
-      "ru": [
-        "Я установила, что залежи намагниченной руды обнажились в результате эрозии, сбивая животных с толку. Я изолировала излучение слоями почвы и вывела вожаков обратно на верный путь.",
-        "Я обнаружила, что экзотическое растение, зацвевшее вне сезона, выделяло галлюциногенные споры. Локализовав цветение и восстановив микроклимат, я вернула животным ясность восприятия.",
-        "Наблюдая за птицами, я нашла древний артефакт, вибрирующий на низкой частоте. Я деактивировала его с помощью природных методов глушения, нормализовав миграцию."
-      ],
-      "zh": [
-        "我确认侵蚀导致磁化矿床露出，干扰了动物的方向感。我用有机土壤层隔离了发射源，并将兽群的首领引回了正确路线。",
-        "我发现由于异常高温而反季节开花的异域植物正在释放幻觉孢子。通过控制花期并恢复局部微气候，动物们恢复了理智。",
-        "通过观察鸟类行为，我找到了一个低频振动的古代遗物，它干扰了动物本能。我利用自然缓冲法禁用了该物体，使迁徙恢复正常。"
-      ],
-      "ja": [
-        "浸食によって磁化された鉱床が露出し、動物たちの方向感覚を狂わせていることを特定しました。有機土壌で放射を遮断し、群れのリーダーたちを正しいルートへ誘導しました。",
-        "異常な熱気で季節外れに開花した外来植物が幻覚性の胞子を放出しているのを発見しました。開花を抑え、局所的な微気候を修復することで、動物たちは正気を取り戻しました。",
-        "鳥の行動を観察することで、本能を妨害する低周波を発する古代の遺物を特定しました。自然な減衰法を用いて遺物を無力化し、渡りを正常化させました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "Não consegui identificar a fonte da desorientação a tempo. Milhares de aves morreram de exaustão ao voar para o norte gelado, causando uma quebra severa na cadeia alimentar da região.",
-        "Minha tentativa de guiar os animais à força causou pânico e debandadas em direção às vilas próximas. O caos resultou em danos às propriedades e na perda de espécies raras.",
-        "A investigação foi inconclusiva e o herói acabou perdido na natureza, sofrendo com os ciclos alterados. A migração ao contrário continuou, deixando a região vulnerável a pragas que essas aves deveriam controlar."
-      ],
-      "en": [
-        "I failed to identify the source of disorientation in time. Thousands of birds died of exhaustion flying into the frozen north, causing a severe break in the region's food chain.",
-        "My attempt to forcibly guide the animals caused panic and stampedes toward nearby villages. The chaos resulted in property damage and the loss of rare species.",
-        "The investigation was inconclusive, and the hero ended up lost in nature, suffering from the altered cycles. The backward migration continued, leaving the region vulnerable to pests these birds should control."
-      ],
-      "es": [
-        "No logré identificar la fuente a tiempo. Miles de aves murieron de agotamiento al volar hacia el norte helado, rompiendo la cadena alimentaria de la región.",
-        "Mi intento de guiar a los animales por la fuerza causó pánico y estampidas hacia las aldeas. El caos resultó en daños materiales y la pérdida de especies raras.",
-        "La investigación no fue concluyente y el héroe terminó perdido. La migración invertida continuou, dejando la región vulnerable a plagas que las aves deberían controlar."
-      ],
-      "ru": [
-        "Мне не удалось вовремя найти источник дезориентации. Тысячи птиц погибли от истощения, улетев на морозный север, что привело к серьезному разрыву в пищевой цепи региона.",
-        "Попытка насильно увести животных вызвала панику и бегство в сторону ближайших деревень. Хаос привел к разрушениям и гибели редких видов.",
-        "Расследование не дало результатов, и герой сам заблудился, страдая от нарушенных циклов. Обратная миграция продолжилась, оставив регион без защиты от вредителей."
-      ],
-      "zh": [
-        "我未能及时查明迷失方向的源头。数千只鸟在飞往寒冷的北方时精疲力竭而死，导致该地区食物链严重断裂。",
-        "我强行引导动物的尝试引发了惊恐，导致它们向附近的村庄冲撞。混乱造成了财产损失和珍稀物种的灭绝。",
-        "调查没有结果，英雄最终在自然界中迷路，受困于紊乱的周期。逆向迁徙仍在继续，使该地区极易遭受这些鸟类本应控制的虫害。"
-      ],
-      "ja": [
-        "方向喪失の原因を時間内に特定できませんでした。数千羽の鳥が凍てつく北へ向かって飛び、疲弊して命を落としたため、地域の食物連鎖が深刻に断絶しました。",
-        "動物を強引に誘導しようとした試みがパニックを引き起こし、近隣の村への暴走を招きました。この混乱により家財が破壊され、希少種が失われました。",
-        "調査は結論に至らず、英雄自身も狂ったサイクルの中で遭難してしまいました。逆の渡りは続き、地域は鳥たちが抑制するはずだった害虫の脅威にさらされています。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Identifiquei que depósitos de minério magnetizado foram expostos por erosão, confundindo o sentido de direção dos animais. Isolei as emanações com camadas de solo orgânico e guiei os líderes dos bandos de volta à rota correta.",
+          "Descobri que uma planta exótica, florescendo fora de época devido ao calor anômalo, estava emitindo esporos alucinógenos. Ao conter a floração e restaurar o microclima local, os animais recuperaram o discernimento.",
+          "Através da observação do comportamento das aves, localizei um artefato antigo que vibrava em baixa frequência, interferindo nos instintos. Desativei o objeto através de métodos naturais de abafamento, normalizando a migração."
+        ],
+        "en": [
+          "I identified that magnetized ore deposits were exposed by erosion, confusing the animals' sense of direction. I isolated the emanations with layers of organic soil and guided the flock leaders back to the correct route.",
+          "I discovered that an exotic plant, blooming out of season due to anomalous heat, was emitting hallucinogenic spores. By containing the bloom and restoring the local microclimate, the animals regained their senses.",
+          "Through observation of bird behavior, I located an ancient artifact vibrating at a low frequency, interfering with instincts. I deactivated the object using natural dampening methods, normalizing the migration."
+        ],
+        "es": [
+          "Identifiqué que depósitos de mineral magnetizado quedaron expuestos, confundiendo el sentido de dirección de los animales. Aislé las emanaciones con suelo orgánico y guié a los líderes a la ruta correcta.",
+          "Descubrí que una planta exótica, floreciendo fuera de época, emitía esporas alucinógenas. Al contener la floración y restaurar el microclima, los animales recuperaron el juicio.",
+          "Mediante la observación, localicé un artefacto antiguo que vibraba en baja frecuencia. Desactivé el objeto usando métodos naturales de amortiguación, normalizando la migración."
+        ],
+        "ru": [
+          "Я установила, что залежи намагниченной руды обнажились в результате эрозии, сбивая животных с толку. Я изолировала излучение слоями почвы и вывела вожаков обратно на верный путь.",
+          "Я обнаружила, что экзотическое растение, зацвевшее вне сезона, выделяло галлюциногенные споры. Локализовав цветение и восстановив микроклимат, я вернула животным ясность восприятия.",
+          "Наблюдая за птицами, я нашла древний артефакт, вибрирующий на низкой частоте. Я деактивировала его с помощью природных методов глушения, нормализовав миграцию."
+        ],
+        "zh": [
+          "我确认侵蚀导致磁化矿床露出，干扰了动物的方向感。我用有机土壤层隔离了发射源，并将兽群的首领引回了正确路线。",
+          "我发现由于异常高温而反季节开花的异域植物正在释放幻觉孢子。通过控制花期并恢复局部微气候，动物们恢复了理智。",
+          "通过观察鸟类行为，我找到了一个低频振动的古代遗物，它干扰了动物本能。我利用自然缓冲法禁用了该物体，使迁徙恢复正常。"
+        ],
+        "ja": [
+          "浸食によって磁化された鉱床が露出し、動物たちの方向感覚を狂わせていることを特定しました。有機土壌で放射を遮断し、群れのリーダーたちを正しいルートへ誘導しました。",
+          "異常な熱気で季節外れに開花した外来植物が幻覚性の胞子を放出しているのを発見しました。開花を抑え、局所的な微気候を修復することで、動物たちは正気を取り戻しました。",
+          "鳥の行動を観察することで、本能を妨害する低周波を発する古代の遺物を特定しました。自然な減衰法を用いて遺物を無力化し、渡りを正常化させました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Não consegui identificar a fonte da desorientação a tempo. Milhares de aves morreram de exaustão ao voar para o norte gelado, causando uma quebra severa na cadeia alimentar da região.",
+          "Minha tentativa de guiar os animais à força causou pânico e debandadas em direção às vilas próximas. O caos resultou em danos às propriedades e na perda de espécies raras.",
+          "A investigação foi inconclusiva e o herói acabou perdido na natureza, sofrendo com os ciclos alterados. A migração ao contrário continuou, deixando a região vulnerável a pragas que essas aves deveriam controlar."
+        ],
+        "en": [
+          "I failed to identify the source of disorientation in time. Thousands of birds died of exhaustion flying into the frozen north, causing a severe break in the region's food chain.",
+          "My attempt to forcibly guide the animals caused panic and stampedes toward nearby villages. The chaos resulted in property damage and the loss of rare species.",
+          "The investigation was inconclusive, and the hero ended up lost in nature, suffering from the altered cycles. The backward migration continued, leaving the region vulnerable to pests these birds should control."
+        ],
+        "es": [
+          "No logré identificar la fuente a tiempo. Miles de aves murieron de agotamiento al volar hacia el norte helado, rompiendo la cadena alimentaria de la región.",
+          "Mi intento de guiar a los animales por la fuerza causó pánico y estampidas hacia las aldeas. El caos resultó en daños materiales y la pérdida de especies raras.",
+          "La investigación no fue concluyente y el héroe terminó perdido. La migración invertida continuou, dejando la región vulnerable a plagas que las aves deberían controlar."
+        ],
+        "ru": [
+          "Мне не удалось вовремя найти источник дезориентации. Тысячи птиц погибли от истощения, улетев на морозный север, что привело к серьезному разрыву в пищевой цепи региона.",
+          "Попытка насильно увести животных вызвала панику и бегство в сторону ближайших деревень. Хаос привел к разрушениям и гибели редких видов.",
+          "Расследование не дало результатов, и герой сам заблудился, страдая от нарушенных циклов. Обратная миграция продолжилась, оставив регион без защиты от вредителей."
+        ],
+        "zh": [
+          "我未能及时查明迷失方向的源头。数千只鸟在飞往寒冷的北方时精疲力竭而死，导致该地区食物链严重断裂。",
+          "我强行引导动物的尝试引发了惊恐，导致它们向附近的村庄冲撞。混乱造成了财产损失和珍稀物种的灭绝。",
+          "调查没有结果，英雄最终在自然界中迷路，受困于紊乱的周期。逆向迁徙仍在继续，使该地区极易遭受这些鸟类本应控制的虫害。"
+        ],
+        "ja": [
+          "方向喪失の原因を時間内に特定できませんでした。数千羽の鳥が凍てつく北へ向かって飛び、疲弊して命を落としたため、地域の食物連鎖が深刻に断絶しました。",
+          "動物を強引に誘導しようとした試みがパニックを引き起こし、近隣の村への暴走を招きました。この混乱により家財が破壊され、希少種が失われました。",
+          "調査は結論に至らず、英雄自身も狂ったサイクルの中で遭難してしまいました。逆の渡りは続き、地域は鳥たちが抑制するはずだった害虫の脅威にさらされています。"
+        ]
+      }
     }
   }
-}
 }

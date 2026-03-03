@@ -24,9 +24,9 @@
   "expired_at": 6,
   "available_from_turn": 121,
   "duration": 3,
-  "difficulty": 2.6,
+  "difficulty": 3.5,
   "rewards": {
-    "xp": 90
+    "xp": 85
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -51,106 +51,106 @@
       "ja": "致命的な金庫"
     }
   },
-"conclusion": {
-  "success": {
-    "engineering": {
-      "pt": [
-        "Desmontei parcialmente o invólucro e isolei o sistema de disparo antes de acessar o núcleo.",
-        "Redirecionei a tensão interna do mecanismo para um canal de segurança e abri o cofre.",
-        "Instalei travas de contenção nos trilhos das agulhas e neutralizei o sistema."
-      ],
-      "en": [
-        "I partially dismantled the casing and isolated the firing system before accessing the core.",
-        "I redirected the internal tension of the mechanism into a safety channel and opened the chest.",
-        "I installed containment locks on the needle tracks and neutralized the system."
-      ],
-      "es": [
-        "Desmonté parcialmente la carcasa y aislé el sistema de disparo antes de acceder al núcleo.",
-        "Redirigí la tensión interna a un canal de seguridad y abrí el cofre.",
-        "Instalé bloqueos de contención en los rieles de las agujas y neutralicé el sistema."
-      ],
-      "ru": [
-        "Я частично разобрал корпус и изолировал систему выстрела.",
-        "Перенаправил внутреннее напряжение механизма в безопасный канал.",
-        "Установил фиксаторы на направляющих игл и обезвредил систему."
-      ],
-      "zh": [
-        "我部分拆解外壳并隔离发射系统。",
-        "我将内部张力引导至安全通道后开启金库。",
-        "我在针轨上安装限制装置并解除机制。"
-      ],
-      "ja": [
-        "外装を部分解体し、発射機構を隔離しました。",
-        "内部張力を安全経路へ転送して開封しました。",
-        "針の軌道に拘束装置を設置し、機構を無力化しました。"
-      ]
+  "conclusion": {
+    "success": {
+      "engineering": {
+        "pt": [
+          "Desmontei parcialmente o invólucro e isolei o sistema de disparo antes de acessar o núcleo.",
+          "Redirecionei a tensão interna do mecanismo para um canal de segurança e abri o cofre.",
+          "Instalei travas de contenção nos trilhos das agulhas e neutralizei o sistema."
+        ],
+        "en": [
+          "I partially dismantled the casing and isolated the firing system before accessing the core.",
+          "I redirected the internal tension of the mechanism into a safety channel and opened the chest.",
+          "I installed containment locks on the needle tracks and neutralized the system."
+        ],
+        "es": [
+          "Desmonté parcialmente la carcasa y aislé el sistema de disparo antes de acceder al núcleo.",
+          "Redirigí la tensión interna a un canal de seguridad y abrí el cofre.",
+          "Instalé bloqueos de contención en los rieles de las agujas y neutralicé el sistema."
+        ],
+        "ru": [
+          "Я частично разобрал корпус и изолировал систему выстрела.",
+          "Перенаправил внутреннее напряжение механизма в безопасный канал.",
+          "Установил фиксаторы на направляющих игл и обезвредил систему."
+        ],
+        "zh": [
+          "我部分拆解外壳并隔离发射系统。",
+          "我将内部张力引导至安全通道后开启金库。",
+          "我在针轨上安装限制装置并解除机制。"
+        ],
+        "ja": [
+          "外装を部分解体し、発射機構を隔離しました。",
+          "内部張力を安全経路へ転送して開封しました。",
+          "針の軌道に拘束装置を設置し、機構を無力化しました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Identifiquei o padrão microscópico de disparo e interrompi a sequência antes da ativação completa. O cofre foi aberto sem acionamento.",
+          "Travei os microgatilhos internos com precisão milimétrica e neutralizei o disparo das agulhas.",
+          "Sincronizei a abertura com a pausa mínima entre ciclos e liberei o mecanismo central."
+        ],
+        "en": [
+          "I identified the microscopic firing pattern and interrupted the sequence before full activation. The chest was opened without discharge.",
+          "I locked the internal micro-triggers with millimetric precision and neutralized the needle release.",
+          "I synchronized the opening with the minimal gap between cycles and released the central mechanism."
+        ],
+        "es": [
+          "Identifiqué el patrón microscópico de disparo e interrumpí la secuencia antes de la activación completa. El cofre se abrió sin disparo.",
+          "Bloqueé los microdisparadores internos con precisión milimétrica y neutralicé las agujas.",
+          "Sincronicé la apertura con la pausa mínima entre ciclos y liberé el mecanismo central."
+        ],
+        "ru": [
+          "Я выявил микроскопическую последовательность и прервал её до полной активации. Сундук открыт без выстрела.",
+          "Заблокировал внутренние микроспусковые механизмы с точностью до миллиметра.",
+          "Синхронизировал вскрытие с минимальной паузой цикла и освободил центральный механизм."
+        ],
+        "zh": [
+          "我识别微观发射模式并在完全启动前中断序列，成功无触发开启。",
+          "我以毫米级精度锁定内部微触发器，解除毒针机制。",
+          "我在循环最小间隙中同步开启并释放核心结构。"
+        ],
+        "ja": [
+          "微細な発射パターンを特定し、完全作動前に遮断しました。無発射で開封しました。",
+          "内部マイクロトリガーを精密固定し、針の発射を無効化しました。",
+          "最小周期の隙間に同期して中央機構を解放しました。"
+        ]
+      }
     },
-    "default": {
-      "pt": [
-        "Identifiquei o padrão microscópico de disparo e interrompi a sequência antes da ativação completa. O cofre foi aberto sem acionamento.",
-        "Travei os microgatilhos internos com precisão milimétrica e neutralizei o disparo das agulhas.",
-        "Sincronizei a abertura com a pausa mínima entre ciclos e liberei o mecanismo central."
-      ],
-      "en": [
-        "I identified the microscopic firing pattern and interrupted the sequence before full activation. The chest was opened without discharge.",
-        "I locked the internal micro-triggers with millimetric precision and neutralized the needle release.",
-        "I synchronized the opening with the minimal gap between cycles and released the central mechanism."
-      ],
-      "es": [
-        "Identifiqué el patrón microscópico de disparo e interrumpí la secuencia antes de la activación completa. El cofre se abrió sin disparo.",
-        "Bloqueé los microdisparadores internos con precisión milimétrica y neutralicé las agujas.",
-        "Sincronicé la apertura con la pausa mínima entre ciclos y liberé el mecanismo central."
-      ],
-      "ru": [
-        "Я выявил микроскопическую последовательность и прервал её до полной активации. Сундук открыт без выстрела.",
-        "Заблокировал внутренние микроспусковые механизмы с точностью до миллиметра.",
-        "Синхронизировал вскрытие с минимальной паузой цикла и освободил центральный механизм."
-      ],
-      "zh": [
-        "我识别微观发射模式并在完全启动前中断序列，成功无触发开启。",
-        "我以毫米级精度锁定内部微触发器，解除毒针机制。",
-        "我在循环最小间隙中同步开启并释放核心结构。"
-      ],
-      "ja": [
-        "微細な発射パターンを特定し、完全作動前に遮断しました。無発射で開封しました。",
-        "内部マイクロトリガーを精密固定し、針の発射を無効化しました。",
-        "最小周期の隙間に同期して中央機構を解放しました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "A sequência microscópica foi acionada antes da interrupção completa.",
-        "Um microgatilho residual disparou o mecanismo interno.",
-        "O sistema de contenção falhou durante a tentativa de abertura."
-      ],
-      "en": [
-        "The microscopic sequence activated before full interruption.",
-        "A residual micro-trigger discharged the internal mechanism.",
-        "The containment system failed during the opening attempt."
-      ],
-      "es": [
-        "La secuencia microscópica se activó antes de la interrupción total.",
-        "Un microdisparador residual activó el mecanismo.",
-        "El sistema de contención falló durante la apertura."
-      ],
-      "ru": [
-        "Микроскопическая последовательность сработала до полной остановки.",
-        "Остаточный микроспусковой механизм активировался.",
-        "Система сдерживания не выдержала при вскрытии."
-      ],
-      "zh": [
-        "微观序列在完全中断前启动。",
-        "残余微触发器引发内部机制。",
-        "在开启过程中限制系统失效。"
-      ],
-      "ja": [
-        "完全遮断前に微細機構が作動しました。",
-        "残留マイクロトリガーが発動しました。",
-        "開封中に拘束機構が失敗しました。"
-      ]
+    "failure": {
+      "default": {
+        "pt": [
+          "A sequência microscópica foi acionada antes da interrupção completa.",
+          "Um microgatilho residual disparou o mecanismo interno.",
+          "O sistema de contenção falhou durante a tentativa de abertura."
+        ],
+        "en": [
+          "The microscopic sequence activated before full interruption.",
+          "A residual micro-trigger discharged the internal mechanism.",
+          "The containment system failed during the opening attempt."
+        ],
+        "es": [
+          "La secuencia microscópica se activó antes de la interrupción total.",
+          "Un microdisparador residual activó el mecanismo.",
+          "El sistema de contención falló durante la apertura."
+        ],
+        "ru": [
+          "Микроскопическая последовательность сработала до полной остановки.",
+          "Остаточный микроспусковой механизм активировался.",
+          "Система сдерживания не выдержала при вскрытии."
+        ],
+        "zh": [
+          "微观序列在完全中断前启动。",
+          "残余微触发器引发内部机制。",
+          "在开启过程中限制系统失效。"
+        ],
+        "ja": [
+          "完全遮断前に微細機構が作動しました。",
+          "残留マイクロトリガーが発動しました。",
+          "開封中に拘束機構が失敗しました。"
+        ]
+      }
     }
   }
-}
 }

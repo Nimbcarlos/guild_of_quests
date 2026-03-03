@@ -21,9 +21,9 @@
   "expired_at": 4,
   "available_from_turn": 36,
   "duration": 3,
-  "difficulty": 1.7,
+  "difficulty": 2.0,
   "rewards": {
-    "xp": 85
+    "xp": 60
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -48,74 +48,74 @@
       "ja": "ポータル"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Utilizei pedras rúnicas não-metálicas para ancorar as bordas do portal e colapsar sua singularidade. O vácuo foi selado antes que pudesse consumir o estoque de armas da guarnição local.",
-        "Inverti a polaridade do fluxo arcano, criando uma repulsão temporária que fechou a fenda de dentro para fora. O mercado está seguro e os itens metálicos pararam de vibrar.",
-        "Tecendo uma rede de contenção feita de energia puramente orgânica, consegui isolar o portal e forçar sua dissipação natural. Recuperei parte dos artefatos que estavam presos na borda do evento."
-      ],
-      "en": [
-        "I used non-metallic runic stones to anchor the portal's edges and collapse its singularity. The void was sealed before it could consume the local garrison's weapon stock.",
-        "I inverted the arcane flow's polarity, creating a temporary repulsion that closed the rift from the inside out. The market is safe, and metallic items have stopped vibrating.",
-        "Weaving a containment net made of purely organic energy, I managed to isolate the portal and force its natural dissipation. I recovered some of the artifacts that were trapped at the event horizon."
-      ],
-      "es": [
-        "Utilicé piedras rúnicas no metálicas para anclar los bordes del portal y colapsar su singularidad. El vacío fue sellado antes de consumir las armas de la ciudad.",
-        "Invertí la polaridad del flujo arcano, cerrando la brecha desde dentro hacia fuera. El mercado está a salvo y los objetos metálicos dejaron de vibrar.",
-        "Tejiendo una red de energía orgánica, logré aislar el portal y forzar su disipación. Recuperé parte de los artefactos atrapados en el borde."
-      ],
-      "ru": [
-        "Я использовала неметаллические рунные камни, чтобы закрепить края портала и схлопнуть его сингулярность. Вакуум был запечатан до того, как он поглотил арсенал стражи.",
-        "Я инвертировала полярность арканного потока, создав временное отталкивание, которое закрыло разлом изнутри. Рынок в безопасности, металл перестал вибрировать.",
-        "Сплетя сеть из чисто органической энергии, я изолировала портал и заставила его рассеяться. Удалось спасти часть артефактов, застрявших на горизонте событий."
-      ],
-      "zh": [
-        "我使用非金属符文石锚定了传送门的边缘并坍缩了其奇点。在虚空吞噬当地守军的武器库之前，它被成功封印。",
-        "我反转了奥术流的极性，产生了一种暂时的排斥力，由内而外关闭了裂隙。市场现在很安全，金属物品也不再震动。",
-        "我编织了一张纯有机能量构成的隔离网，成功孤立了传送门并促使其自然消散。我还找回了部分卡在事件视界边缘的法器。"
-      ],
-      "ja": [
-        "非金属のルーン石を使用してポータルの端を固定し、その特異点を崩壊させました。駐屯地の武器庫が飲み込まれる前に虚無は封印されました。",
-        "秘術の流れの極性を反転させ、内側から裂け目を閉じる一時的な反発力を生み出しました。市場は安全になり、金属製品の震えも収まりました。",
-        "純粋な有機エネルギーの拘束網を編み、ポータルを隔離して自然消滅させました。事象の地平線に捕らわれていたいくつかの遺物を回収することに成功しました。"
-      ]
-    }
-  },
-"failure": {
-    "default": {
-      "pt": [
-        "O portal tornou-se instável demais e sugou o equipamento mágico do herói. A fenda fechou-se subitamente após o consumo, deixando o mercado devastado e o herói desarmado.",
-        "Minha tentativa de selamento foi superada pela força de atração do vácuo. Vários mercadores perderam seus estoques de ferro e bronze, e o portal apenas mudou de local na cidade.",
-        "Ao tentar usar magia direta, alimentei acidentalmente o portal. A explosão de feedback arcano arremessou o herói para longe, enquanto o vácuo se expandia para a ala vizinha."
-      ],
-      "en": [
-        "The portal became too unstable and sucked in the hero's magical equipment. The rift closed suddenly after consumption, leaving the market devastated and the hero disarmed.",
-        "My sealing attempt was overwhelmed by the vacuum's gravitational pull. Several merchants lost their iron and bronze stocks, and the portal simply relocated within the city.",
-        "By attempting to use direct magic, I accidentally fed the portal. The arcane feedback blast threw the hero aside while the vacuum expanded into the neighboring wing."
-      ],
-      "es": [
-        "El portal se volvió inestable y absorbió el equipo mágico del héroe. La brecha se cerró tras el consumo, dejando el mercado devastado y al héroe desarmado.",
-        "Mi intento de sellado fue superado por la atracción del vacío. Los mercaderes perdieron sus mercancías y el portal simplemente se movió de lugar.",
-        "Al intentar usar magia directa, alimenté el portal. La explosão de retroalimentación lanzó al héroe lejos mientras el vacío se expandía a la siguiente zona."
-      ],
-      "ru": [
-        "Портал стал слишком нестабильным и засосал магическое снаряжение героя. Разлом внезапно закрылся после поглощения, оставив рынок в руинах, а героя — без оружия.",
-        "Моя попытка запечатывания не удалась из-за силы притяжения вакуума. Торговцы лишились товаров, а портал просто переместился в другое место города.",
-        "Попытка использовать прямую магию лишь напитала портал. Вспышка обратной связи отбросила героя, в то время как вакуум расширился на соседний квартал."
-      ],
-      "zh": [
-        "传送门变得过于不稳定，吸走了英雄的魔法装备。裂隙在吞噬后突然关闭，留下了一片狼藉的市场和失去武装的英雄。",
-        "我的封印尝试被虚空的引力击败。几名商人失去了他们的铁制和青铜货物，传送门只是转移到了城市内的其他位置。",
-        "由于试图使用直接魔法，我不小心“喂养”了传送门。奥术反馈爆发将英雄弹开，而虚空则扩张到了相邻的区域。"
-      ],
-      "ja": [
-        "ポータルが不安定になりすぎ、英雄の魔法装備を吸い込みました。消費後に裂け目は突如閉じ、市場は荒廃し、英雄は武装解除された状態で残されました。",
-        "封印の試みは虚無の吸引力に屈しました。数人の商人が鉄や青銅の在庫を失い、ポータルは街の別の場所へ移動しただけでした。",
-        "直接魔法を使おうとして、誤ってポータルにエネルギーを与えてしまいました。秘術のフィードバックにより英雄は吹き飛ばされ、虚無は隣の地区へと拡大しました。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Utilizei pedras rúnicas não-metálicas para ancorar as bordas do portal e colapsar sua singularidade. O vácuo foi selado antes que pudesse consumir o estoque de armas da guarnição local.",
+          "Inverti a polaridade do fluxo arcano, criando uma repulsão temporária que fechou a fenda de dentro para fora. O mercado está seguro e os itens metálicos pararam de vibrar.",
+          "Tecendo uma rede de contenção feita de energia puramente orgânica, consegui isolar o portal e forçar sua dissipação natural. Recuperei parte dos artefatos que estavam presos na borda do evento."
+        ],
+        "en": [
+          "I used non-metallic runic stones to anchor the portal's edges and collapse its singularity. The void was sealed before it could consume the local garrison's weapon stock.",
+          "I inverted the arcane flow's polarity, creating a temporary repulsion that closed the rift from the inside out. The market is safe, and metallic items have stopped vibrating.",
+          "Weaving a containment net made of purely organic energy, I managed to isolate the portal and force its natural dissipation. I recovered some of the artifacts that were trapped at the event horizon."
+        ],
+        "es": [
+          "Utilicé piedras rúnicas no metálicas para anclar los bordes del portal y colapsar su singularidad. El vacío fue sellado antes de consumir las armas de la ciudad.",
+          "Invertí la polaridad del flujo arcano, cerrando la brecha desde dentro hacia fuera. El mercado está a salvo y los objetos metálicos dejaron de vibrar.",
+          "Tejiendo una red de energía orgánica, logré aislar el portal y forzar su disipación. Recuperé parte de los artefactos atrapados en el borde."
+        ],
+        "ru": [
+          "Я использовала неметаллические рунные камни, чтобы закрепить края портала и схлопнуть его сингулярность. Вакуум был запечатан до того, как он поглотил арсенал стражи.",
+          "Я инвертировала полярность арканного потока, создав временное отталкивание, которое закрыло разлом изнутри. Рынок в безопасности, металл перестал вибрировать.",
+          "Сплетя сеть из чисто органической энергии, я изолировала портал и заставила его рассеяться. Удалось спасти часть артефактов, застрявших на горизонте событий."
+        ],
+        "zh": [
+          "我使用非金属符文石锚定了传送门的边缘并坍缩了其奇点。在虚空吞噬当地守军的武器库之前，它被成功封印。",
+          "我反转了奥术流的极性，产生了一种暂时的排斥力，由内而外关闭了裂隙。市场现在很安全，金属物品也不再震动。",
+          "我编织了一张纯有机能量构成的隔离网，成功孤立了传送门并促使其自然消散。我还找回了部分卡在事件视界边缘的法器。"
+        ],
+        "ja": [
+          "非金属のルーン石を使用してポータルの端を固定し、その特異点を崩壊させました。駐屯地の武器庫が飲み込まれる前に虚無は封印されました。",
+          "秘術の流れの極性を反転させ、内側から裂け目を閉じる一時的な反発力を生み出しました。市場は安全になり、金属製品の震えも収まりました。",
+          "純粋な有機エネルギーの拘束網を編み、ポータルを隔離して自然消滅させました。事象の地平線に捕らわれていたいくつかの遺物を回収することに成功しました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "O portal tornou-se instável demais e sugou o equipamento mágico do herói. A fenda fechou-se subitamente após o consumo, deixando o mercado devastado e o herói desarmado.",
+          "Minha tentativa de selamento foi superada pela força de atração do vácuo. Vários mercadores perderam seus estoques de ferro e bronze, e o portal apenas mudou de local na cidade.",
+          "Ao tentar usar magia direta, alimentei acidentalmente o portal. A explosão de feedback arcano arremessou o herói para longe, enquanto o vácuo se expandia para a ala vizinha."
+        ],
+        "en": [
+          "The portal became too unstable and sucked in the hero's magical equipment. The rift closed suddenly after consumption, leaving the market devastated and the hero disarmed.",
+          "My sealing attempt was overwhelmed by the vacuum's gravitational pull. Several merchants lost their iron and bronze stocks, and the portal simply relocated within the city.",
+          "By attempting to use direct magic, I accidentally fed the portal. The arcane feedback blast threw the hero aside while the vacuum expanded into the neighboring wing."
+        ],
+        "es": [
+          "El portal se volvió inestable y absorbió el equipo mágico del héroe. La brecha se cerró tras el consumo, dejando el mercado devastado y al héroe desarmado.",
+          "Mi intento de sellado fue superado por la atracción del vacío. Los mercaderes perdieron sus mercancías y el portal simplemente se movió de lugar.",
+          "Al intentar usar magia directa, alimenté el portal. La explosão de retroalimentación lanzó al héroe lejos mientras el vacío se expandía a la siguiente zona."
+        ],
+        "ru": [
+          "Портал стал слишком нестабильным и засосал магическое снаряжение героя. Разлом внезапно закрылся после поглощения, оставив рынок в руинах, а героя — без оружия.",
+          "Моя попытка запечатывания не удалась из-за силы притяжения вакуума. Торговцы лишились товаров, а портал просто переместился в другое место города.",
+          "Попытка использовать прямую магию лишь напитала портал. Вспышка обратной связи отбросила героя, в то время как вакуум расширился на соседний квартал."
+        ],
+        "zh": [
+          "传送门变得过于不稳定，吸走了英雄的魔法装备。裂隙在吞噬后突然关闭，留下了一片狼藉的市场和失去武装的英雄。",
+          "我的封印尝试被虚空的引力击败。几名商人失去了他们的铁制和青铜货物，传送门只是转移到了城市内的其他位置。",
+          "由于试图使用直接魔法，我不小心“喂养”了传送门。奥术反馈爆发将英雄弹开，而虚空则扩张到了相邻的区域。"
+        ],
+        "ja": [
+          "ポータルが不安定になりすぎ、英雄の魔法装備を吸い込みました。消費後に裂け目は突如閉じ、市場は荒廃し、英雄は武装解除された状態で残されました。",
+          "封印の試みは虚無の吸引力に屈しました。数人の商人が鉄や青銅の在庫を失い、ポータルは街の別の場所へ移動しただけでした。",
+          "直接魔法を使おうとして、誤ってポータルにエネルギーを与えてしまいました。秘術のフィードバックにより英雄は吹き飛ばされ、虚無は隣の地区へと拡大しました。"
+        ]
+      }
     }
   }
-}  
 }

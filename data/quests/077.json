@@ -23,9 +23,9 @@
   "expired_at": 4,
   "available_from_turn": 94,
   "duration": 3,
-  "difficulty": 2.7,
+  "difficulty": 3.0,
   "rewards": {
-    "xp": 125
+    "xp": 80
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -50,74 +50,74 @@
       "ja": "菌類"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Selhei o fungo em campo hermético e interrompi a liberação de esporos.",
-        "Inertei a matriz biológica do fungo e cessei o consumo de matéria.",
-        "Reagi os esporos antes da oxigenação e eliminei a propagação."
-      ],
-      "en": [
-        "I sealed the fungus in an airtight field and stopped spore release.",
-        "I rendered the biological matrix inert and halted material consumption.",
-        "I reacted the spores before oxygenation and eliminated spread."
-      ],
-      "es": [
-        "Sellé el hongo en un campo hermético y detuve la liberación de esporas.",
-        "Volví inerte su matriz biológica y detuve el consumo de materia.",
-        "Reaccioné las esporas antes de la oxigenación y eliminé la propagación."
-      ],
-      "ru": [
-        "Я изолировал гриб в герметичном поле и остановил выброс спор.",
-        "Сделал биологическую матрицу инертной и прекратил поглощение материи.",
-        "Нейтрализовал споры до контакта с воздухом и остановил распространение."
-      ],
-      "zh": [
-        "我以密闭场封存真菌并阻止孢子释放。",
-        "我使其生物结构失活并停止物质吞噬。",
-        "我在氧化前反应孢子并终止扩散。"
-      ],
-      "ja": [
-        "菌類を気密領域で封鎖し、胞子の放出を止めました。",
-        "生体構造を不活性化し、物質の侵食を停止しました。",
-        "酸素接触前に胞子を反応させ、拡散を遮断しました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "Os esporos reagiram ao ar e amplificaram a contaminação.",
-        "O fungo rompeu a contenção e expandiu-se pelo laboratório.",
-        "Não consegui neutralizar a matriz antes da explosão de esporos."
-      ],
-      "en": [
-        "The spores reacted to air and amplified contamination.",
-        "The fungus breached containment and spread through the laboratory.",
-        "I failed to neutralize the matrix before spore detonation."
-      ],
-      "es": [
-        "Las esporas reaccionaron al aire y amplificaron la contaminación.",
-        "El hongo rompió la contención y se expandió por el laboratorio.",
-        "No logré neutralizar la matriz antes de la detonación."
-      ],
-      "ru": [
-        "Споры вступили в реакцию с воздухом и усилили заражение.",
-        "Гриб прорвал изоляцию и распространился по лаборатории.",
-        "Не удалось нейтрализовать матрицу до взрыва спор."
-      ],
-      "zh": [
-        "孢子与空气反应并加剧污染。",
-        "真菌突破封锁并蔓延至实验室。",
-        "未能在孢子爆发前失活其结构。"
-      ],
-      "ja": [
-        "胞子が空気と反応し、汚染が拡大しました。",
-        "菌類が封鎖を破り、実験室へ拡散しました。",
-        "胞子爆発前に構造を無力化できませんでした。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Selhei o fungo em campo hermético e interrompi a liberação de esporos.",
+          "Inertei a matriz biológica do fungo e cessei o consumo de matéria.",
+          "Reagi os esporos antes da oxigenação e eliminei a propagação."
+        ],
+        "en": [
+          "I sealed the fungus in an airtight field and stopped spore release.",
+          "I rendered the biological matrix inert and halted material consumption.",
+          "I reacted the spores before oxygenation and eliminated spread."
+        ],
+        "es": [
+          "Sellé el hongo en un campo hermético y detuve la liberación de esporas.",
+          "Volví inerte su matriz biológica y detuve el consumo de materia.",
+          "Reaccioné las esporas antes de la oxigenación y eliminé la propagación."
+        ],
+        "ru": [
+          "Я изолировал гриб в герметичном поле и остановил выброс спор.",
+          "Сделал биологическую матрицу инертной и прекратил поглощение материи.",
+          "Нейтрализовал споры до контакта с воздухом и остановил распространение."
+        ],
+        "zh": [
+          "我以密闭场封存真菌并阻止孢子释放。",
+          "我使其生物结构失活并停止物质吞噬。",
+          "我在氧化前反应孢子并终止扩散。"
+        ],
+        "ja": [
+          "菌類を気密領域で封鎖し、胞子の放出を止めました。",
+          "生体構造を不活性化し、物質の侵食を停止しました。",
+          "酸素接触前に胞子を反応させ、拡散を遮断しました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Os esporos reagiram ao ar e amplificaram a contaminação.",
+          "O fungo rompeu a contenção e expandiu-se pelo laboratório.",
+          "Não consegui neutralizar a matriz antes da explosão de esporos."
+        ],
+        "en": [
+          "The spores reacted to air and amplified contamination.",
+          "The fungus breached containment and spread through the laboratory.",
+          "I failed to neutralize the matrix before spore detonation."
+        ],
+        "es": [
+          "Las esporas reaccionaron al aire y amplificaron la contaminación.",
+          "El hongo rompió la contención y se expandió por el laboratorio.",
+          "No logré neutralizar la matriz antes de la detonación."
+        ],
+        "ru": [
+          "Споры вступили в реакцию с воздухом и усилили заражение.",
+          "Гриб прорвал изоляцию и распространился по лаборатории.",
+          "Не удалось нейтрализовать матрицу до взрыва спор."
+        ],
+        "zh": [
+          "孢子与空气反应并加剧污染。",
+          "真菌突破封锁并蔓延至实验室。",
+          "未能在孢子爆发前失活其结构。"
+        ],
+        "ja": [
+          "胞子が空気と反応し、汚染が拡大しました。",
+          "菌類が封鎖を破り、実験室へ拡散しました。",
+          "胞子爆発前に構造を無力化できませんでした。"
+        ]
+      }
     }
   }
-}
 }

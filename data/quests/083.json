@@ -21,9 +21,9 @@
   "expired_at": 6,
   "available_from_turn": 92,
   "duration": 3,
-  "difficulty": 2.6,
+  "difficulty": 3.0,
   "rewards": {
-    "xp": 110
+    "xp": 80
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -48,74 +48,74 @@
       "ja": "劇団"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Descobri os espiões infiltrados na trupe e identifiquei seus contatos estrangeiros.",
-        "Revelei o código usado nas falas da peça e confirmei a espionagem.",
-        "Exponho os membros da trupe envolvidos e entreguei provas às autoridades."
-      ],
-      "en": [
-        "I uncovered the spies within the troupe and identified their foreign contacts.",
-        "I deciphered the coded dialogue in the play and confirmed the espionage.",
-        "I exposed the members involved and delivered proof to the authorities."
-      ],
-      "es": [
-        "Descubrí a los espías dentro de la compañía e identifiqué sus contactos extranjeros.",
-        "Descifré los diálogos codificados y confirmé el espionaje.",
-        "Expuse a los implicados y entregué pruebas a las autoridades."
-      ],
-      "ru": [
-        "Я выявил шпионов в труппе и установил их иностранные контакты.",
-        "Расшифровал закодированные реплики и подтвердил факт шпионажа.",
-        "Разоблачил участников и передал доказательства властям."
-      ],
-      "zh": [
-        "我找出了剧团中的间谍并确认了他们的外国联络人。",
-        "我破解了戏剧中的暗语并证实了间谍行为。",
-        "我揭露了涉案成员并将证据交给当局。"
-      ],
-      "ja": [
-        "劇団内のスパイを特定し、外国の連絡先を突き止めました。",
-        "舞台の暗号を解読し、諜報活動を確認しました。",
-        "関与者を暴き、証拠を当局に提出しました。"
-      ]
-    }
-  },
-  "failure": {
-    "default": {
-      "pt": [
-        "Não consegui identificar os espiões e a trupe deixou a cidade.",
-        "As provas desapareceram antes que eu pudesse confirmá-las.",
-        "As suspeitas permaneceram sem confirmação."
-      ],
-      "en": [
-        "I failed to identify the spies and the troupe left the city.",
-        "The evidence vanished before I could confirm it.",
-        "The suspicions remained unproven."
-      ],
-      "es": [
-        "No logré identificar a los espías y la compañía abandonó la ciudad.",
-        "Las pruebas desaparecieron antes de confirmarlas.",
-        "Las sospechas quedaron sin confirmar."
-      ],
-      "ru": [
-        "Мне не удалось выявить шпионов, и труппа покинула город.",
-        "Доказательства исчезли до подтверждения.",
-        "Подозрения остались недоказанными."
-      ],
-      "zh": [
-        "我未能找出间谍，剧团已离开城市。",
-        "证据在确认前消失。",
-        "怀疑未被证实。"
-      ],
-      "ja": [
-        "スパイを特定できず、劇団は街を去りました。",
-        "証拠は確認前に消失しました。",
-        "疑惑は証明されませんでした。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Descobri os espiões infiltrados na trupe e identifiquei seus contatos estrangeiros.",
+          "Revelei o código usado nas falas da peça e confirmei a espionagem.",
+          "Exponho os membros da trupe envolvidos e entreguei provas às autoridades."
+        ],
+        "en": [
+          "I uncovered the spies within the troupe and identified their foreign contacts.",
+          "I deciphered the coded dialogue in the play and confirmed the espionage.",
+          "I exposed the members involved and delivered proof to the authorities."
+        ],
+        "es": [
+          "Descubrí a los espías dentro de la compañía e identifiqué sus contactos extranjeros.",
+          "Descifré los diálogos codificados y confirmé el espionaje.",
+          "Expuse a los implicados y entregué pruebas a las autoridades."
+        ],
+        "ru": [
+          "Я выявил шпионов в труппе и установил их иностранные контакты.",
+          "Расшифровал закодированные реплики и подтвердил факт шпионажа.",
+          "Разоблачил участников и передал доказательства властям."
+        ],
+        "zh": [
+          "我找出了剧团中的间谍并确认了他们的外国联络人。",
+          "我破解了戏剧中的暗语并证实了间谍行为。",
+          "我揭露了涉案成员并将证据交给当局。"
+        ],
+        "ja": [
+          "劇団内のスパイを特定し、外国の連絡先を突き止めました。",
+          "舞台の暗号を解読し、諜報活動を確認しました。",
+          "関与者を暴き、証拠を当局に提出しました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Não consegui identificar os espiões e a trupe deixou a cidade.",
+          "As provas desapareceram antes que eu pudesse confirmá-las.",
+          "As suspeitas permaneceram sem confirmação."
+        ],
+        "en": [
+          "I failed to identify the spies and the troupe left the city.",
+          "The evidence vanished before I could confirm it.",
+          "The suspicions remained unproven."
+        ],
+        "es": [
+          "No logré identificar a los espías y la compañía abandonó la ciudad.",
+          "Las pruebas desaparecieron antes de confirmarlas.",
+          "Las sospechas quedaron sin confirmar."
+        ],
+        "ru": [
+          "Мне не удалось выявить шпионов, и труппа покинула город.",
+          "Доказательства исчезли до подтверждения.",
+          "Подозрения остались недоказанными."
+        ],
+        "zh": [
+          "我未能找出间谍，剧团已离开城市。",
+          "证据在确认前消失。",
+          "怀疑未被证实。"
+        ],
+        "ja": [
+          "スパイを特定できず、劇団は街を去りました。",
+          "証拠は確認前に消失しました。",
+          "疑惑は証明されませんでした。"
+        ]
+      }
     }
   }
-}  
 }

@@ -21,9 +21,9 @@
   "expired_at": 4,
   "available_from_turn": 65,
   "duration": 3,
-  "difficulty": 1.6,
+  "difficulty": 2.5,
   "rewards": {
-    "xp": 80
+    "xp": 70
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -48,74 +48,74 @@
       "ja": "植物"
     }
   },
-"conclusion": {
-  "success": {
-    "default": {
-      "pt": [
-        "Identifiquei que a consciência das plantas era uma resposta a um fertilizante contaminado. Utilizei uma solução de solo neutralizante e frequências vibratórias suaves para induzir um estado de dormência, permitindo o resgate dos visitantes e a purificação do jardim.",
-        "Percebi que as plantas estavam reagindo ao estresse por falta de polinizadores específicos. Ao mimetizar o som desses insetos e equilibrar a umidade do ar, a agressividade cessou e as plantas voltaram ao seu comportamento passivo de preservação.",
-        "Consegui isolar a planta 'líder' que estava enviando sinais químicos de ataque para as demais. Através de uma poda cuidadosa de seus nós sensoriais e do ajuste dos nutrientes, o jardim botânico recuperou a paz sem a perda de nenhuma espécie rara."
-      ],
-      "en": [
-        "I identified that the plants' awareness was a response to contaminated fertilizer. I used a neutralizing soil solution and soft vibratory frequencies to induce a state of dormancy, allowing the rescue of visitors and the purification of the garden.",
-        "I realized the plants were reacting to stress caused by a lack of specific pollinators. By mimicking the sound of these insects and balancing air humidity, the aggression ceased and the plants returned to their passive preservation behavior.",
-        "I managed to isolate the 'leader' plant that was sending chemical attack signals to the others. Through careful pruning of its sensory nodes and nutrient adjustment, the botanical garden regained peace without the loss of any rare species."
-      ],
-      "es": [
-        "Identifiqué que la conciencia de las plantas era una respuesta a un fertilizante contaminado. Utilicé una solución de suelo neutralizante para inducir un estado de dormancia, permitiendo el rescate de los visitantes.",
-        "Me di cuenta de que las plantas reaccionaban al estrés. Al equilibrar la humedad y mimetizar polinizadores, la agresividad cesó y las plantas volvieron a su comportamiento pasivo.",
-        "Logré aislar a la planta 'líder' que enviaba señales de ataque. Mediante una poda cuidadosa, el jardín recuperó la paz sin la pérdida de ninguna especie rara."
-      ],
-      "ru": [
-        "Я установила, что осознанность растений была реакцией на загрязненное удобрение. Я использовала нейтрализующий раствор для почвы и мягкие вибрации, чтобы ввести их в состояние покоя, позволив спасти посетителей.",
-        "Я поняла, что растения реагировали на стресс. Имитируя звуки опылителей и сбалансировав влажность воздуха, я добилась прекращения агрессии, и сад вернулся к пассивному состоянию.",
-        "Мне удалось изолировать растение-лидера, которое посылало химические сигналы атаки остальным. Благодаря осторожной обрезке сенсорных узлов сад снова стал безопасным."
-      ],
-      "zh": [
-        "我确认植物的意识是对受污染肥料的反应。我使用了中和土壤溶液和柔和的振动频率诱导植物进入休眠状态，从而营救了游客并净化了花园。",
-        "我意识到植物因缺乏特定的传粉者而产生压力反应。通过模拟这些昆虫的声音并平衡空气湿度，攻击行为停止了，植物恢复了被动的保护状态。",
-        "我成功孤立了向其他植物发送化学攻击信号的“领头”植物。通过对其感官节点的精心修剪和养分调整，植物园恢复了平静，且没有损失任何稀有物种。"
-      ],
-      "ja": [
-        "植物の意識化が汚染された肥料への反応であることを特定しました。中和土壌溶液と穏やかな振動周波数を用いて休眠状態を誘発し、来訪者の救助と庭園の浄化に成功しました。",
-        "特定の受粉媒介者の不足によるストレスが原因だと気づきました。それらの虫の音を模倣し、空気の湿度を調整することで、攻撃性は収まり、植物は受動的な状態に戻りました。",
-        "他の植物に化学的な攻撃信号を送っていた「リーダー」植物を特定し、隔離しました。感覚結節の丁寧な剪定と栄養調整により、希少種を失うことなく庭園に平和を取り戻しました。"
-      ]
-    }
-  },
-"failure": {
-    "default": {
-      "pt": [
-        "As videiras e espinhos provaram-se rápidos demais para uma abordagem pacífica. O herói foi forçado a fugir enquanto o jardim se tornava uma zona de exclusão perigosa, totalmente dominada por flora hostil.",
-        "Minha tentativa de neutralizar os sinais químicos causou uma reação alérgica violenta nas plantas. Elas liberaram esporos tóxicos que deixaram o herói inconsciente, resultando no fechamento permanente do setor de pesquisa.",
-        "A agressividade das plantas escalou antes que eu pudesse agir. Visitantes ficaram presos em casulos vegetais e a guilda agora precisará enviar uma equipe de combate para incinerar o que deveria ser preservado."
-      ],
-      "en": [
-        "The vines and thorns proved too fast for a peaceful approach. The hero was forced to flee as the garden became a dangerous exclusion zone, fully dominated by hostile flora.",
-        "My attempt to neutralize the chemical signals caused a violent allergic reaction in the plants. They released toxic spores that left the hero unconscious, resulting in the permanent closure of the research sector.",
-        "The plants' aggression escalated before I could act. Visitors became trapped in vegetable cocoons, and the guild will now need to send a combat team to incinerate what should have been preserved."
-      ],
-      "es": [
-        "Las enredaderas resultaron ser demasiado rápidas. El héroe se vio obligado a huir mientras el jardín se convertía en una zona de exclusión peligrosa dominada por flora hostil.",
-        "Mi intento de neutralizar las señales causó una reacción alérgica violenta. Las plantas liberaron esporas que dejaron al héroe inconsciente, cerrando el sector de investigación.",
-        "La agresividad escaló demasiado rápido. Los visitantes quedaron atrapados y ahora el gremio deberá enviar un equipo de combate para incinerar el lugar."
-      ],
-      "ru": [
-        "Лианы и шипы оказались слишком быстрыми для мирного подхода. Герою пришлось бежать, так как сад превратился в опасную зону отчуждения, полностью захваченную враждебной флорой.",
-        "Попытка нейтрализовать химические сигналы вызвала бурную аллергическую реакцию у растений. Они выпустили токсичные споры, и герой потерял сознание.",
-        "Агрессия растений возросла быстрее, чем я успела предпринять меры. Посетители оказались в ловушке растительных коконов, и теперь гильдии придется сжечь то, что нужно было сохранить."
-      ],
-      "zh": [
-        "事实证明，藤蔓和荆棘的反应速度太快，无法和平解决。由于花园变成了一个被敌对植物完全占据的危险禁区，英雄被迫逃离。",
-        "我中和化学信号的尝试引起了植物剧烈的过敏反应。它们释放出毒性孢子使英雄失去知觉，导致研究部门被永久关闭。",
-        "在采取行动前，植物的攻击行为急剧升级。游客被困在植物茧中，公会现在需要派遣战斗小队来焚毁本该被保护的一切。"
-      ],
-      "ja": [
-        "蔦と刺の動きが速すぎて、平和的な解決は不可能でした。庭園は敵対的な植物に完全に支配された危険な立入禁止区域となり、英雄は退却を余余儀なくされました。",
-        "化学信号を中和しようとする試みが、植物の激しいアレルギー反応を引き起こしました。放出された毒性胞子によって英雄は意識を失い、研究セクターは永久閉鎖に追い込まれました。",
-        "こちらの行動が間に合わないほど、植物の攻撃性が急速に高まりました。来訪者は植物の繭に閉じ込められ、ギルドは保存すべき対象を焼き払うために戦闘部隊を派遣せざるを得なくなりました。"
-      ]
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Identifiquei que a consciência das plantas era uma resposta a um fertilizante contaminado. Utilizei uma solução de solo neutralizante e frequências vibratórias suaves para induzir um estado de dormência, permitindo o resgate dos visitantes e a purificação do jardim.",
+          "Percebi que as plantas estavam reagindo ao estresse por falta de polinizadores específicos. Ao mimetizar o som desses insetos e equilibrar a umidade do ar, a agressividade cessou e as plantas voltaram ao seu comportamento passivo de preservação.",
+          "Consegui isolar a planta 'líder' que estava enviando sinais químicos de ataque para as demais. Através de uma poda cuidadosa de seus nós sensoriais e do ajuste dos nutrientes, o jardim botânico recuperou a paz sem a perda de nenhuma espécie rara."
+        ],
+        "en": [
+          "I identified that the plants' awareness was a response to contaminated fertilizer. I used a neutralizing soil solution and soft vibratory frequencies to induce a state of dormancy, allowing the rescue of visitors and the purification of the garden.",
+          "I realized the plants were reacting to stress caused by a lack of specific pollinators. By mimicking the sound of these insects and balancing air humidity, the aggression ceased and the plants returned to their passive preservation behavior.",
+          "I managed to isolate the 'leader' plant that was sending chemical attack signals to the others. Through careful pruning of its sensory nodes and nutrient adjustment, the botanical garden regained peace without the loss of any rare species."
+        ],
+        "es": [
+          "Identifiqué que la conciencia de las plantas era una respuesta a un fertilizante contaminado. Utilicé una solución de suelo neutralizante para inducir un estado de dormancia, permitiendo el rescate de los visitantes.",
+          "Me di cuenta de que las plantas reaccionaban al estrés. Al equilibrar la humedad y mimetizar polinizadores, la agresividad cesó y las plantas volvieron a su comportamiento pasivo.",
+          "Logré aislar a la planta 'líder' que enviaba señales de ataque. Mediante una poda cuidadosa, el jardín recuperó la paz sin la pérdida de ninguna especie rara."
+        ],
+        "ru": [
+          "Я установила, что осознанность растений была реакцией на загрязненное удобрение. Я использовала нейтрализующий раствор для почвы и мягкие вибрации, чтобы ввести их в состояние покоя, позволив спасти посетителей.",
+          "Я поняла, что растения реагировали на стресс. Имитируя звуки опылителей и сбалансировав влажность воздуха, я добилась прекращения агрессии, и сад вернулся к пассивному состоянию.",
+          "Мне удалось изолировать растение-лидера, которое посылало химические сигналы атаки остальным. Благодаря осторожной обрезке сенсорных узлов сад снова стал безопасным."
+        ],
+        "zh": [
+          "我确认植物的意识是对受污染肥料的反应。我使用了中和土壤溶液和柔和的振动频率诱导植物进入休眠状态，从而营救了游客并净化了花园。",
+          "我意识到植物因缺乏特定的传粉者而产生压力反应。通过模拟这些昆虫的声音并平衡空气湿度，攻击行为停止了，植物恢复了被动的保护状态。",
+          "我成功孤立了向其他植物发送化学攻击信号的“领头”植物。通过对其感官节点的精心修剪和养分调整，植物园恢复了平静，且没有损失任何稀有物种。"
+        ],
+        "ja": [
+          "植物の意識化が汚染された肥料への反応であることを特定しました。中和土壌溶液と穏やかな振動周波数を用いて休眠状態を誘発し、来訪者の救助と庭園の浄化に成功しました。",
+          "特定の受粉媒介者の不足によるストレスが原因だと気づきました。それらの虫の音を模倣し、空気の湿度を調整することで、攻撃性は収まり、植物は受動的な状態に戻りました。",
+          "他の植物に化学的な攻撃信号を送っていた「リーダー」植物を特定し、隔離しました。感覚結節の丁寧な剪定と栄養調整により、希少種を失うことなく庭園に平和を取り戻しました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "As videiras e espinhos provaram-se rápidos demais para uma abordagem pacífica. O herói foi forçado a fugir enquanto o jardim se tornava uma zona de exclusão perigosa, totalmente dominada por flora hostil.",
+          "Minha tentativa de neutralizar os sinais químicos causou uma reação alérgica violenta nas plantas. Elas liberaram esporos tóxicos que deixaram o herói inconsciente, resultando no fechamento permanente do setor de pesquisa.",
+          "A agressividade das plantas escalou antes que eu pudesse agir. Visitantes ficaram presos em casulos vegetais e a guilda agora precisará enviar uma equipe de combate para incinerar o que deveria ser preservado."
+        ],
+        "en": [
+          "The vines and thorns proved too fast for a peaceful approach. The hero was forced to flee as the garden became a dangerous exclusion zone, fully dominated by hostile flora.",
+          "My attempt to neutralize the chemical signals caused a violent allergic reaction in the plants. They released toxic spores that left the hero unconscious, resulting in the permanent closure of the research sector.",
+          "The plants' aggression escalated before I could act. Visitors became trapped in vegetable cocoons, and the guild will now need to send a combat team to incinerate what should have been preserved."
+        ],
+        "es": [
+          "Las enredaderas resultaron ser demasiado rápidas. El héroe se vio obligado a huir mientras el jardín se convertía en una zona de exclusión peligrosa dominada por flora hostil.",
+          "Mi intento de neutralizar las señales causó una reacción alérgica violenta. Las plantas liberaron esporas que dejaron al héroe inconsciente, cerrando el sector de investigación.",
+          "La agresividad escaló demasiado rápido. Los visitantes quedaron atrapados y ahora el gremio deberá enviar un equipo de combate para incinerar el lugar."
+        ],
+        "ru": [
+          "Лианы и шипы оказались слишком быстрыми для мирного подхода. Герою пришлось бежать, так как сад превратился в опасную зону отчуждения, полностью захваченную враждебной флорой.",
+          "Попытка нейтрализовать химические сигналы вызвала бурную аллергическую реакцию у растений. Они выпустили токсичные споры, и герой потерял сознание.",
+          "Агрессия растений возросла быстрее, чем я успела предпринять меры. Посетители оказались в ловушке растительных коконов, и теперь гильдии придется сжечь то, что нужно было сохранить."
+        ],
+        "zh": [
+          "事实证明，藤蔓和荆棘的反应速度太快，无法和平解决。由于花园变成了一个被敌对植物完全占据的危险禁区，英雄被迫逃离。",
+          "我中和化学信号的尝试引起了植物剧烈的过敏反应。它们释放出毒性孢子使英雄失去知觉，导致研究部门被永久关闭。",
+          "在采取行动前，植物的攻击行为急剧升级。游客被困在植物茧中，公会现在需要派遣战斗小队来焚毁本该被保护的一切。"
+        ],
+        "ja": [
+          "蔦と刺の動きが速すぎて、平和的な解決は不可能でした。庭園は敵対的な植物に完全に支配された危険な立入禁止区域となり、英雄は退却を余余儀なくされました。",
+          "化学信号を中和しようとする試みが、植物の激しいアレルギー反応を引き起こしました。放出された毒性胞子によって英雄は意識を失い、研究セクターは永久閉鎖に追い込まれました。",
+          "こちらの行動が間に合わないほど、植物の攻撃性が急速に高まりました。来訪者は植物の繭に閉じ込められ、ギルドは保存すべき対象を焼き払うために戦闘部隊を派遣せざるを得なくなりました。"
+        ]
+      }
     }
   }
-}  
 }
