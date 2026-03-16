@@ -3,15 +3,7 @@
   "name": "Mina",
   "last_name": "Gravebloom",
   "role": "dps",
-  "hero_class": {
-    "en": "Necromancer",
-    "pt": "Necromante",
-    "es": "Necromante",
-    "zh": "死灵法师",
-    "ja": "ネクロマンサー",
-    "ru": "Некромант",
-    "kr": "네크로맨서"
-  },
+  "hero_class": "Necromancer",
   "status": {
     "en": "Healthy",
     "pt": "Saudável",

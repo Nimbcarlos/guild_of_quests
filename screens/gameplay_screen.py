@@ -240,8 +240,9 @@ class GameplayScreen(Screen):
             size_hint_y=None,
             height=28
         ))
+ 
+        type_text = ", ".join(self.lm.t(qtype) for qtype in quest_types)
 
-        type_text = " + ".join(quest_types)
         container.add_widget(Label(
             text=f"{self.lm.t('type_label')}: {type_text} | "
                 f"{self.lm.t('difficulty_label')}: {quest.difficulty}",

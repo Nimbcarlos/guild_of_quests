@@ -3,15 +3,7 @@
   "name": "Gaela",
   "last_name": "Stoneecho",
   "role": "dps",
-  "hero_class": {
-    "en": "Geomancer",
-    "pt": "Geomante",
-    "es": "Geomante",
-    "zh": "地占师",
-    "ja": "ジオマンサー",
-    "ru": "Геомант",
-    "kr": "지오맨서"
-  },
+  "hero_class": "Geomancer",
   "status": {
     "en": "Healthy",
     "pt": "Saudável",
@@ -44,7 +36,7 @@
   "photo_url": "assets/img/gaela.png",
   "photo_body_url": "assets/img/gaelafullbody.png",
   "unlock_by_quest": [],
-  "available_from_turn": 1,
+  "available_from_turn": 999,
   "leave_on_quest": [],
   "growth_curve": {
     "1": { "strength": 1, "dexterity": 1, "intelligence": 2, "wisdom": 2 },

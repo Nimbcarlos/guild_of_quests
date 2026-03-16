@@ -3,15 +3,7 @@
     "name": "Nyx",
     "last_name": "Varrow",
     "role": "dps",
-    "hero_class": {
-      "en": "Assassin",
-      "pt": "Assassina",
-      "es": "Asesina",
-      "zh": "刺客",
-      "ja": "暗殺者",
-      "ru": "Ассасин",
-      "kr": "암살자"
-    },
+    "hero_class": "Assassin",
     "status": {
       "en": "Healthy",
       "pt": "Saudável",

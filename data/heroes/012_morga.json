@@ -3,15 +3,7 @@
     "name": "Morga",
     "last_name": "Sixfold",
     "role": "dps",
-    "hero_class": {
-      "en": "Barbarian",
-      "pt": "Bárbara",
-      "es": "Bárbara",
-      "zh": "野蛮人",
-      "ja": "バーバリアン",
-      "ru": "Варвар",
-      "kr": "야만인"
-    },
+    "hero_class": "Barbarian",
     "status": {
       "en": "Healthy",
       "pt": "Saudável",

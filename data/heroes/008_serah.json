@@ -3,15 +3,7 @@
   "name": "Serah",
   "last_name": "Korr",
   "role": "dps",
-  "hero_class": {
-    "en": "Monk",
-    "pt": "Monja",
-    "es": "Monja",
-    "zh": "修女",
-    "ja": "修道女",
-    "ru": "Монахиня",
-    "kr": "수녀"
-  },
+  "hero_class": "Monk",
   "status": {
     "en": "Healthy",
     "pt": "Saudável",
@@ -42,7 +34,7 @@
   "photo_url": "assets/img/serah.png",
   "photo_body_url": "assets/img/serahfullbody.png",
   "unlock_by_quest": [],
-  "available_from_turn": 1,
+  "available_from_turn": 999,
   "leave_on_quest": [],
   "growth_curve": {
       "1": { "strength": 2, "dexterity": 1, "intelligence": 1, "wisdom": 2 },

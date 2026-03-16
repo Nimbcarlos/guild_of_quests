@@ -3,15 +3,7 @@
   "name": "Leona",
   "last_name": "Valmor",
   "role": "dps",
-  "hero_class": {
-    "en": "Mage",
-    "pt": "Mago",
-    "es": "Mago",
-    "zh": "法师",
-    "ja": "魔導士",
-    "ru": "Маг",
-    "kr": "마법사 (Mabeopsa)"
-  },
+  "hero_class": "Mage",
   "status": {
     "en": "Healthy",
     "pt": "Saudável",
@@ -19,7 +11,7 @@
     "zh": "健康",
     "ja": "健康",
     "ru": "Здоров",
-    "kr": "건강함 (Geongangham)"
+    "kr": "건강함"
   },
   "perks": ["arcana", "investigation", "alchemy"],
   "defects": {
@@ -30,7 +22,7 @@
       "zh": "过度专注",
       "ja": "過集中",
       "ru": "Гиперфокус",
-      "kr": "과도한 집중 (Gwadohan Jipjung)"
+      "kr": "과도한 집중"
     }
   },
   "story": {
