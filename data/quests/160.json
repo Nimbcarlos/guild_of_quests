@@ -28,7 +28,7 @@
   "required_quests": [],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -46,6 +46,84 @@
       "ru": "пауки",
       "zh": "蜘蛛",
       "ja": "クモ"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "arcana": {
+        "pt": [
+          "A análise das glândulas fiadeiras revelou que a seda não era proteica, mas sim um subproduto de mana condensada que pulsava em um tom violeta doentio sob a luz das tochas.",
+          "Ao examinar as múltiplas oculares da criatura, percebi que a retina refletia rimas rúnicas de um rito de crescimento, indicando que sua anatomia foi expandida artificialmente por forças externas.",
+          "O fluxo de poder que sustentava aquele peso massivo cessou com a morte, fazendo com que as cerdas quitinosas, antes duras como aço, se tornassem quebradiças e sem vida instantaneamente."
+        ],
+        "en": [
+          "Analysis of the spinneret glands revealed the silk was not protein-based, but a byproduct of condensed mana pulsing in a sickly violet hue under torchlight.",
+          "Examining the creature's multiple oculars, I noticed the retinas reflected runic rhymes of a growth rite, indicating its anatomy was artificially expanded by external forces.",
+          "The power flow sustaining that massive weight ceased upon death, causing the chitinous bristles, once hard as steel, to become instantly brittle and lifeless."
+        ],
+        "es": [
+          "El análisis de las glándulas hileras reveló que la seda no era proteica, sino un subproducto de maná condensado que pulsaba en un tono violeta enfermizo.",
+          "Al examinar los múltiples ojos, noté que las retinas reflejaban rimas rúnicas de un rito de crecimiento, indicando que su anatomía fue expandida artificialmente.",
+          "El flujo de poder que sostenia ese peso masivo cesó al morir, haciendo que las cerdas de quitina, antes duras como el acero, se volvieran quebradizas al instante."
+        ],
+        "ru": [
+          "Анализ паутинных желез показал, что шелк состоял не из белка, а из конденсированной маны, пульсирующей болезненным фиолетовым светом.",
+          "Изучив многочисленные глаза, я заметила, что на сетчатке отражались рунические формулы ритуала роста, указывая на искусственное расширение анатомии.",
+          "Поток силы, поддерживавший этот огромный вес, иссяк после смерти, из-за чего хитиновые щетинки, прежде твердые как сталь, мгновенно стали хрупкими."
+        ],
+        "zh": [
+          "对丝腺的分析表明，这些丝并非蛋白质构成，而是浓缩魔力的副产品，在火光下闪烁着病态的紫光。",
+          "检查该生物的多只眼睛时，我发现视网膜反射出成长期仪式的符文韵律，表明其解剖结构被外部力量人为扩张。",
+          "维持那庞大体重的力量流在死亡时停止了，导致原本硬如钢铁的几丁质刚毛瞬间变得脆弱无光。"
+        ],
+        "ja": [
+          "出糸腺を分析した結果、糸はタンパク質ではなく、松明の光の下で病的な紫色に脈打つ凝縮されたマナの副産物であることが判明しました。",
+          "複眼を調査すると、網膜に成長儀式のルーンが反映されており、その解剖学的構造が外部勢力によって人工的に拡張されたことが示されていました。",
+          "巨体を支えていた力の奔流は死と共に途絶え、かつて鋼のように硬かったキチン質の剛毛は、瞬時に脆く命を失った質感へと変わりました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "O embate foi decidido quando as articulações das patas motoras foram rompidas, fazendo com que a carapaça pesada colapsasse contra o solo pedregoso da rota.",
+          "A investida final perfurou o abdômen distendido, liberando uma névoa acre e esverdeada que dissolveu as teias próximas, permitindo o resgate imediato dos prisioneiros.",
+          "Após desviar das quelíceras que gotejavam um veneno corrosivo, um golpe certeiro partiu o cefalotórax ao meio, silenciando o estalar metálico que a besta emitia ao se mover."
+        ],
+        "en": [
+          "The struggle was decided when the leg joints were severed, causing the heavy carapace to collapse against the stony ground of the route.",
+          "The final thrust pierced the distended abdomen, releasing an acrid, greenish mist that dissolved nearby webs, allowing the immediate rescue of the prisoners.",
+          "After dodging chelicerae dripping with corrosive venom, a precise strike split the cephalothorax in two, silencing the metallic clicking the beast made while moving."
+        ],
+        "es": [
+          "El combate se decidió cuando las articulaciones de las patas fueron rotas, haciendo que el pesado caparazón colapsara contra el suelo pedregoso.",
+          "La estocada final perforó el abdomen distendido, liberando una niebla acre y verdosa que disolvió las telas cercanas para el rescate de los prisioneiros.",
+          "Tras esquivar los quelíceros que goteaban veneno corrosivo, un golpe certero partió el cefalotórax, silenciando el chasquido metálico que emitía al moverse."
+        ],
+        "ru": [
+          "Исход схватки решился, когда суставы лап были перебиты, из-за чего тяжелый панцирь рухнул на каменистую почву дороги.",
+          "Финальный выпад пронзил раздутое брюшко, выпустив едкий зеленоватый туман, который растворил ближайшую паутину, позволив освободить пленных.",
+          "Уклонившись от хелицер, с которых капал едкий яд, точный удар расколол головогрудь пополам, заставив умолкнуть металлический щелчок при движении."
+        ],
+        "zh": [
+          "当腿部关节被斩断时，战斗尘埃落定，沉重的外壳崩塌在道路的石地上。",
+          "最后一击刺穿了膨胀的腹部，释放出一种刺鼻的绿色雾气，溶解了附近的蛛网，从而立即解救了被困者。",
+          "在躲过滴落腐蚀性毒液的螯肢后，精准的一击将头胸部劈成两半，平息了该生物移动时发出的金属咔哒声。"
+        ],
+        "ja": [
+          "足の関節を断ち切ったことで決着がつき、重厚な甲殻が街道の石地に崩れ落ちました。",
+          "とどめの一撃が膨張した腹部を貫くと、刺激臭のある緑色の霧が噴出し、周囲の網を溶かして囚われの身の人々を即座に救出できました。",
+          "腐食性の毒が滴る上顎をかわし、的確な一撃で頭胸部を真っ二つに割り、移動の際に発せられていた金属的なきしみを沈黙させました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": ["A densidade das fibras pegajosas impediu o avanço, forçando um recuo enquanto novas camadas de seda eram tecidas sobre a estrada."],
+        "en": ["The density of the sticky fibers blocked the path, forcing a retreat as new layers of silk were woven over the road."],
+        "es": ["La densidad de las fibras pegajosas impidió el avance, forzando una retirada mientras nuevas capas de seda cubrían el camino."],
+        "ru": ["Плотность липких волокон преградила путь, вынудив отступить, пока новые слои шелка окутывали дорогу."],
+        "zh": ["粘稠纤维的密度阻碍了前进，随着新的丝层织满道路，只能被迫撤退。"],
+        "ja": ["粘着性の高い繊維の密度に阻まれ、道が新たな糸の層で覆われていく中、撤退を余儀なくされました。"]
+      }
     }
   }
 }

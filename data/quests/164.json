@@ -32,7 +32,7 @@
   ],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -50,6 +50,76 @@
       "ru": "тела существ",
       "zh": "生物的尸体",
       "ja": "生物の死体"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "A autópsia espiritual revelou algo perturbador: os corpos ainda carregavam ecos claros de identidades humanas. Não eram simples feras alteradas — eram pessoas presas dentro de formas distorcidas.",
+          "Durante o exame espiritual surgiram fragmentos de memória que não pertenciam a criaturas. Pensamentos humanos, confusos e fragmentados, ainda permaneciam presos àquelas carcaças.",
+          "A análise confirmou o pior cenário. As marcas espirituais indicavam que aquelas criaturas haviam sido pessoas, transformadas e aprisionadas em corpos que não lhes pertenciam."
+        ],
+        "en": [
+          "The spiritual autopsy revealed something disturbing: the bodies still carried echoes of human identities. These were not merely altered beasts — they were people trapped inside twisted forms.",
+          "During the spiritual examination, fragments of memory surfaced that did not belong to beasts. Human thoughts, fractured and confused, were still bound to those bodies.",
+          "The analysis confirmed the worst possibility. The spiritual marks indicated that the creatures had once been people, transformed and imprisoned within bodies that were not their own."
+        ],
+        "es": [
+          "La autopsia espiritual reveló algo perturbador: los cuerpos aún conservaban ecos de identidades humanas. No eran simples bestias alteradas, sino personas atrapadas en formas distorsionadas.",
+          "Durante el examen espiritual surgieron fragmentos de memoria que no pertenecían a criaturas. Pensamientos humanos, confusos y fragmentados, seguían ligados a esos cuerpos.",
+          "El análisis confirmó el peor escenario. Las marcas espirituales indicaban que las criaturas habían sido personas transformadas y aprisionadas en cuerpos que no les pertenecían."
+        ],
+        "ru": [
+          "Духовное вскрытие выявило нечто тревожное: в телах сохранились отголоски человеческих личностей. Это были не просто изменённые звери — это были люди, запертые в искажённых формах.",
+          "Во время духовного исследования проявились фрагменты памяти, не принадлежащие зверям. Человеческие мысли, спутанные и разорванные, всё ещё были привязаны к этим телам.",
+          "Анализ подтвердил худшее предположение. Духовные следы показали, что существа когда-то были людьми, превращёнными и заключёнными в чужие тела."
+        ],
+        "zh": [
+          "灵魂解剖揭示了令人不安的事实：这些尸体仍残留着人类身份的回响。这些并不是被改变的野兽，而是被困在扭曲形态中的人。",
+          "在灵性检验中浮现出不属于野兽的记忆碎片。混乱而破碎的人类思想仍然束缚在这些身体之中。",
+          "分析证实了最糟糕的可能性。这些灵性痕迹表明，这些生物曾经是人，被转化并囚禁在不属于自己的躯体里。"
+        ],
+        "ja": [
+          "霊的解剖の結果、恐ろしい事実が明らかになった。遺体には人間の人格の残響がまだ残っていた。単なる変異した獣ではなく、歪んだ姿に閉じ込められた人間だった。",
+          "霊的調査の中で、獣のものではない記憶の断片が浮かび上がった。混乱した人間の思考が、いまだその身体に縛られていた。",
+          "分析は最悪の可能性を示した。霊的痕跡は、それらの生物がかつて人間であり、別の身体に変えられて閉じ込められたことを示していた。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Os vestígios espirituais estavam tão corrompidos que qualquer identidade anterior se perdeu.",
+          "Fragmentos de consciência surgiram durante o ritual, mas estavam tão distorcidos que nenhuma memória pôde ser compreendida.",
+          "A análise espiritual revelou apenas sofrimento e ruído espiritual — qualquer traço claro de identidade havia sido destruído."
+        ],
+        "en": [
+          "The spiritual traces were so corrupted that any previous identity had been lost.",
+          "Fragments of consciousness surfaced during the ritual, but they were too distorted to understand.",
+          "The analysis revealed only spiritual anguish and noise — any clear identity had already been destroyed."
+        ],
+        "es": [
+          "Los rastros espirituales estaban tan corrompidos que cualquier identidad anterior se había perdido.",
+          "Fragmentos de conciencia aparecieron durante el ritual, pero estaban demasiado distorsionados para comprenderlos.",
+          "El análisis reveló solo sufrimiento espiritual y ruido — cualquier identidad clara había sido destruida."
+        ],
+        "ru": [
+          "Духовные следы были настолько искажены, что прежняя личность оказалась утрачена.",
+          "Фрагменты сознания проявились во время ритуала, но были слишком искажены, чтобы их понять.",
+          "Анализ показал лишь духовные страдания и хаос — любая ясная личность уже была уничтожена."
+        ],
+        "zh": [
+          "这些灵性痕迹已经被腐化到无法辨认，原本的身份早已消失。",
+          "在仪式中出现了意识碎片，但它们已经扭曲得无法理解。",
+          "分析只揭示出精神上的痛苦与混乱——任何清晰的身份早已被摧毁。"
+        ],
+        "ja": [
+          "霊的痕跡はあまりにも腐敗しており、元の人格はすでに失われていた。",
+          "儀式の中で意識の断片が現れたが、歪みすぎて理解することはできなかった。",
+          "調査で確認できたのは霊的な苦痛と混乱だけで、人格の痕跡はすでに消えていた。"
+        ]
+      }
     }
   }
 }

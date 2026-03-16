@@ -30,7 +30,7 @@
     121
   ],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -49,5 +49,139 @@
       "zh": "哥布林",
       "ja": "ゴブリン"
     }
+  },
+  "conclusion": {
+    "success": {
+      "survival": {
+        "pt": [
+          "A emboscada aconteceu como esperado na Estrada Velha. Depois de eliminar os goblins, examinei o terreno e encontrei mais pegadas do que os inimigos abatidos.",
+          "O ataque foi repelido e os goblins foram derrotados. Ao rastrear o local, identifiquei trilhas adicionais que indicavam a presença de mais goblins na área.",
+          "Após derrotar os goblins da emboscada, segui os rastros deixados na estrada e percebi que o número de pegadas excedia o grupo enfrentado."
+        ],
+        "en": [
+          "The ambush happened as expected on the Old Road. After eliminating the goblins, I examined the ground and found more footprints than the enemies defeated.",
+          "The attack was repelled and the goblins were slain. While tracking the area, I identified additional trails suggesting more goblins nearby.",
+          "After defeating the goblins from the ambush, I followed the tracks and realized the number of footprints exceeded the group encountered."
+        ],
+        "es": [
+          "La emboscada ocurrió como se esperaba en el Camino Viejo. Tras eliminar a los goblins, examiné el terreno y encontré más huellas que enemigos abatidos.",
+          "El ataque fue repelido y los goblins fueron derrotados. Al rastrear el lugar, identifiqué senderos adicionales que indicaban más goblins en la zona.",
+          "Después de vencer a los goblins de la emboscada, seguí los rastros y noté que las huellas superaban al grupo enfrentado."
+        ],
+        "ru": [
+          "Засада произошла на Старой дороге, как и ожидалось. После уничтожения гоблинов я осмотрел землю и обнаружил больше следов, чем было врагов.",
+          "Атаку удалось отбить, гоблины были уничтожены. При изучении следов я заметил дополнительные тропы, указывающие на присутствие других гоблинов.",
+          "После победы над гоблинами я проследил следы и понял, что их больше, чем у встреченной группы."
+        ],
+        "zh": [
+          "伏击如预期在老路发生。击败哥布林后，我检查地面，发现脚印数量多于被消灭的敌人。",
+          "袭击被击退，哥布林被消灭。在追踪现场时，我发现了额外的踪迹，表明附近还有更多哥布林。",
+          "在击败伏击的哥布林后，我沿着足迹检查，发现脚印数量超过遇到的那一群。"
+        ],
+        "ja": [
+          "古い道で予想通り待ち伏せが起きた。ゴブリンを倒した後、地面を調べると倒した数より多くの足跡が残っていた。",
+          "襲撃は撃退され、ゴブリンは排除された。周囲を追跡すると、さらに多くのゴブリンを示す追加の足跡が見つかった。",
+          "待ち伏せしてきたゴブリンを倒した後、足跡を確認すると遭遇した数以上の痕跡が残っていた。"
+        ]
+      },
+      "investigation": {
+        "pt": [
+          "A emboscada foi enfrentada e os goblins foram eliminados. Ao examinar o local com cuidado, identifiquei pegadas adicionais que não pertenciam ao grupo abatido.",
+          "Depois do combate na Estrada Velha, analisei os rastros e encontrei marcas indicando que mais goblins participaram da operação.",
+          "Os goblins foram derrotados, mas a análise das pegadas revelou que o grupo envolvido era maior do que o encontrado."
+        ],
+        "en": [
+          "The ambush was confronted and the goblins were eliminated. Examining the area carefully, I identified additional footprints not belonging to the defeated group.",
+          "After the fight on the Old Road, I analyzed the tracks and found marks indicating more goblins were involved.",
+          "The goblins were defeated, but analysis of the footprints revealed the group was larger than encountered."
+        ],
+        "es": [
+          "La emboscada fue enfrentada y los goblins eliminados. Al examinar el lugar, encontré huellas adicionales que no pertenecían al grupo abatido.",
+          "Tras el combate en el Camino Viejo, analicé los rastros y hallé marcas que indicaban más goblins involucrados.",
+          "Los goblins fueron derrotados, pero el análisis de las huellas mostró que el grupo era mayor."
+        ],
+        "ru": [
+          "Засада была отражена, гоблины уничтожены. Осматривая место, я обнаружил дополнительные следы, не принадлежащие уничтоженной группе.",
+          "После боя на Старой дороге анализ следов показал, что гоблинов было больше.",
+          "Гоблины были побеждены, но исследование следов показало, что группа была крупнее."
+        ],
+        "zh": [
+          "伏击被击退，哥布林被消灭。仔细检查现场后，我发现了不属于那群敌人的额外脚印。",
+          "在老路战斗结束后，我分析了踪迹，发现迹象表明还有更多哥布林参与。",
+          "哥布林被击败，但对足迹的分析显示参与的数量更大。"
+        ],
+        "ja": [
+          "待ち伏せを撃退しゴブリンを排除した。現場を詳しく調べると、倒した集団とは一致しない追加の足跡が見つかった。",
+          "古い道での戦闘後、痕跡を分析するとさらに多くのゴブリンが関与していた形跡があった。",
+          "ゴブリンは倒されたが、足跡の分析から実際の集団はもっと大きかったと分かった。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "A emboscada na Estrada Velha aconteceu como previsto. Os goblins foram enfrentados e eliminados.",
+          "Os goblins atacaram durante a escolta, mas o confronto terminou com o grupo derrotado.",
+          "A tentativa de emboscada foi repelida e os goblins foram abatidos."
+        ],
+        "en": [
+          "The ambush on the Old Road happened as expected. The goblins were confronted and eliminated.",
+          "The goblins attacked during the escort, but the fight ended with them defeated.",
+          "The ambush attempt was repelled and the goblins were slain."
+        ],
+        "es": [
+          "La emboscada en el Camino Viejo ocurrió como se esperaba. Los goblins fueron enfrentados y eliminados.",
+          "Los goblins atacaron durante la escolta, pero el combate terminó con ellos derrotados.",
+          "El intento de emboscada fue repelido y los goblins abatidos."
+        ],
+        "ru": [
+          "Засада на Старой дороге произошла, как и ожидалось. Гоблины были уничтожены.",
+          "Гоблины атаковали во время сопровождения, но бой закончился их поражением.",
+          "Попытка засады была отражена, гоблины ликвидированы."
+        ],
+        "zh": [
+          "老路上的伏击如预期发生。哥布林被击败并消灭。",
+          "哥布林在护送途中发动攻击，但战斗以它们的失败结束。",
+          "伏击被击退，哥布林被消灭。"
+        ],
+        "ja": [
+          "古い道で予想通り待ち伏せが起きたが、ゴブリンは排除された。",
+          "護衛中にゴブリンが襲ってきたが、戦闘は彼らの敗北で終わった。",
+          "待ち伏せは撃退され、ゴブリンは倒された。"
+        ]
+      }
+    },
+"failure": {
+  "default": {
+    "pt": [
+      "Os goblins dispersaram antes que pudessem ser eliminados completamente, desaparecendo pela região.",
+      "O confronto se tornou desfavorável e foi necessário recuar antes de concluir a missão.",
+      "O combate chamou reforços goblins e a operação teve de ser interrompida."
+    ],
+    "en": [
+      "The goblins scattered before they could be fully eliminated, disappearing into the surroundings.",
+      "The fight turned unfavorable and a retreat was necessary before the task could be completed.",
+      "The clash drew additional goblin reinforcements and the operation had to be aborted."
+    ],
+    "es": [
+      "Los goblins se dispersaron antes de poder ser eliminados por completo.",
+      "El combate se volvió desfavorable y fue necesario retirarse.",
+      "El enfrentamiento atrajo refuerzos goblins y la operación tuvo que ser cancelada."
+    ],
+    "ru": [
+      "Гоблины рассеялись до того, как их удалось уничтожить полностью.",
+      "Сражение стало неблагоприятным, и пришлось отступить.",
+      "Столкновение привлекло подкрепление гоблинов, и операцию пришлось прекратить."
+    ],
+    "zh": [
+      "哥布林在被完全消灭前四散逃离。",
+      "战斗局势变得不利，被迫撤退。",
+      "战斗吸引了更多哥布林增援，行动被迫中止。"
+    ],
+    "ja": [
+      "ゴブリンは完全に排除される前に散り散りになって逃げた。",
+      "戦況が不利になり、任務の継続は断念された。",
+      "戦闘がゴブリンの増援を呼び寄せ、作戦は中断された。"
+    ]
+  }
+}
   }
 }

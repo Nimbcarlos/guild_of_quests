@@ -30,7 +30,7 @@
   ],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -41,6 +41,83 @@
       "zh": "哥布林洞穴",
       "ja": "ゴブリンの洞窟"
     },
-    "enemy": {}
+    "enemy": {
+      "pt": "os goblins",
+      "en": "the goblins",
+      "es": "los goblins",
+      "ru": "гоблины",
+      "zh": "哥布林",
+      "ja": "ゴブリン"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "A patrulha de goblins que guardava os túneis iniciais foi eliminada sem levantar alarme. Mais adiante foi possível observar um goblin gigantesco enquanto vários goblins de aparência xamânica conduziam um ritual ao redor dele. Diante da situação, foi decidido recuar e reportar o que foi visto antes de avançar sem preparo.",
+          "Os goblins que patrulhavam a passagem foram neutralizados e o caminho pelos túneis estreitos ficou livre. Em uma câmara mais profunda foi avistado um goblin de tamanho anormal cercado por xamãs realizando algum tipo de ritual. A infiltração foi interrompida para retornar e preparar uma ofensiva adequada.",
+          "Após eliminar os guardas goblins da entrada, a infiltração prosseguiu pelos corredores da caverna. Mais adiante foi identificado um goblin imenso enquanto outros goblins realizavam um ritual ao redor da criatura. Foi considerado imprudente avançar sem reforços, então a retirada foi feita para relatar a descoberta."
+        ],
+        "en": [
+          "The goblin patrol guarding the first tunnels was eliminated without raising an alarm. Further inside, an enormous goblin was observed while several goblin shamans conducted a ritual around it. The decision was made to withdraw and report the discovery rather than advance unprepared.",
+          "The goblins patrolling the passage were neutralized, clearing the narrow tunnels ahead. In a deeper chamber, an abnormally large goblin was spotted surrounded by shamans performing some kind of ritual. The infiltration was halted to return and prepare a proper assault.",
+          "After eliminating the goblin guards near the entrance, the infiltration continued through the cave corridors. Deeper inside, a massive goblin was seen while other goblins performed a ritual around it. Advancing without reinforcements was deemed unwise, so a withdrawal was made to report the findings."
+        ],
+        "es": [
+          "La patrulla goblin que vigilaba los primeros túneles fue eliminada sin levantar alarma. Más adelante se observó un goblin gigantesco rodeado por chamanes que realizaban un ritual. Se decidió retirarse y reportar el hallazgo antes de avanzar sin preparación.",
+          "Los goblins que patrullaban el paso fueron neutralizados, despejando los túneles estrechos. En una cámara más profunda se avistó un goblin de tamaño anormal rodeado por chamanes realizando algún tipo de ritual. La infiltración se interrumpió para regresar y preparar un ataque adecuado.",
+          "Tras eliminar a los guardias goblins de la entrada, la infiltración continuó por la cueva. Más adentro se identificó un goblin gigantesco mientras otros realizaban un ritual a su alrededor. Avanzar sin refuerzos se consideró imprudente, por lo que se decidió retirarse e informar."
+        ],
+        "ru": [
+          "Патруль гоблинов у первых туннелей был устранён без поднятия тревоги. В глубине пещеры был замечен огромный гоблин, вокруг которого несколько шаманов проводили ритуал. Было решено отступить и доложить о находке, прежде чем продолжать без подготовки.",
+          "Гоблины, патрулировавшие проход, были нейтрализованы, и путь по узким туннелям оказался свободен. В глубокой камере был замечен гоблин необычайного размера, окружённый шаманами, совершающими ритуал. Проникновение было остановлено, чтобы вернуться и подготовить полноценное нападение.",
+          "После устранения стражей у входа проникновение продолжилось по коридорам пещеры. Глубже был замечен гигантский гоблин, вокруг которого другие гоблины проводили ритуал. Продолжать без подкрепления было рискованно, поэтому было принято решение отступить и доложить."
+        ],
+        "zh": [
+          "守卫最初隧道的哥布林巡逻队被消灭，没有触发警报。深入洞穴后发现一只巨大的哥布林，而数名类似萨满的哥布林正在其周围进行仪式。考虑到风险，决定撤退并报告这一发现。",
+          "巡逻通道的哥布林被清除，狭窄的隧道被打开。更深处的洞室中发现一只异常巨大的哥布林，周围有几名萨满正在进行某种仪式。潜入行动因此中止，以便返回并准备更充分的进攻。",
+          "在消灭入口附近的哥布林守卫后继续深入洞穴。更深处发现一只巨大的哥布林，其他哥布林围绕它进行仪式。贸然前进风险过大，因此选择撤退并报告情况。"
+        ],
+        "ja": [
+          "最初のトンネルを巡回していたゴブリンの警備隊は排除された。洞窟の奥では巨大なゴブリンが確認され、その周囲で数体のゴブリンの呪術師が儀式を行っていた。準備なしに進むのは危険と判断し、一度撤退して報告することにした。",
+          "通路を巡回していたゴブリンは排除され、狭いトンネルは通行可能になった。さらに奥の空洞では異常な大きさのゴブリンが確認され、シャーマンたちが儀式を行っていた。潜入はそこで中断され、準備を整えるために撤退した。",
+          "入口付近の警備を排除した後、洞窟の奥へ進んだ。深部では巨大なゴブリンが確認され、周囲で他のゴブリンが儀式を行っていた。無理に進むのは危険と判断し、状況を報告するため撤退した。"
+        ]
+      }
+    },
+  "failure": {
+      "default": {
+        "pt": [
+          "A patrulha goblin percebeu a infiltração antes de ser abatida, e o alerta se espalhou pela caverna.",
+          "Os túneis estreitos impediram um avanço seguro, e a aproximação foi interrompida antes de alcançar a câmara principal.",
+          "O confronto com os goblins da passagem chamou reforços, tornando impossível continuar a infiltração sem expor a presença no interior da caverna."
+        ],
+        "en": [
+          "The goblin patrol detected the infiltration before being put down, and the alarm spread through the cave.",
+          "The narrow tunnels prevented a safe advance, and the approach was halted before reaching the main chamber.",
+          "The clash with the goblins in the passage drew reinforcements, making it impossible to continue the infiltration without exposing the presence inside the cave."
+        ],
+        "es": [
+          "La patrulla goblin detectó la infiltración antes de caer, y la alarma se extendió por la cueva.",
+          "Los túneles estrechos impidieron un avance seguro, y la aproximación se interrumpió antes de llegar a la cámara principal.",
+          "El enfrentamiento con los goblins del pasaje atrajo refuerzos, haciendo imposible continuar sin revelar la presencia dentro de la cueva."
+        ],
+        "ru": [
+          "Патруль гоблинов заметил проникновение до того, как был уничтожен, и тревога распространилась по всей пещере.",
+          "Узкие туннели не позволили безопасно продвинуться, и продвижение было остановлено до достижения главной камеры.",
+          "Столкновение с гоблинами в проходе привлекло подкрепление, и дальнейшее проникновение стало невозможным без раскрытия присутствия."
+        ],
+        "zh": [
+          "哥布林巡逻队在被消灭前察觉了潜入，警报迅速传遍洞穴。",
+          "狭窄隧道阻碍了安全推进，在抵达主洞室前行动被迫中止。",
+          "与通道中的哥布林交战引来了增援，继续潜入将不可避免地暴露行踪。"
+        ],
+        "ja": [
+          "巡回していたゴブリンに潜入を察知され、倒し切る前に警戒が洞窟中へ広がった。",
+          "狭いトンネルのせいで安全に前進できず、主空洞へ辿り着く前に進行は中断された。",
+          "通路のゴブリンとの戦闘で増援を呼ばれ、洞窟内部で存在を隠したまま進むことは不可能になった。"
+        ]
+      }
+    }
   }
 }

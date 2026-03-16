@@ -31,7 +31,7 @@
   ],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -49,6 +49,76 @@
       "ru": "древние надписи",
       "zh": "古老的铭文",
       "ja": "古代の刻印"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "As inscrições antigas da câmara foram analisadas com cuidado. Entre os glifos havia instruções ocultas que revelaram o mecanismo para abrir uma passagem secreta na parede. O corredor levou a um compartimento escondido onde foi encontrado um livro dedicado a estudos de magia profana.",
+          "A leitura dos glifos revelou que parte das inscrições descrevia um ritual de abertura. Ao seguir as indicações, uma passagem secreta foi liberada dentro da câmara. No interior havia um pequeno compartimento contendo um tomo antigo sobre magia profana.",
+          "Durante a análise das inscrições da câmara subterrânea, alguns glifos indicaram um mecanismo oculto. A ativação revelou uma passagem secreta. No espaço escondido foi encontrado um livro antigo dedicado a práticas de magia profana."
+        ],
+        "en": [
+          "The chamber's ancient inscriptions were carefully studied. Among the glyphs were hidden instructions that revealed a mechanism to open a concealed passage in the wall. The corridor led to a hidden compartment where a book on profane magic was discovered.",
+          "Reading the glyphs revealed that part of the inscriptions described an opening ritual. Following the instructions unlocked a secret passage within the chamber. Inside was a small compartment containing an old tome about profane magic.",
+          "While examining the inscriptions in the underground chamber, certain glyphs indicated a concealed mechanism. Activating it revealed a secret passage. Within the hidden space an ancient book dedicated to profane magic was found."
+        ],
+        "es": [
+          "Las antiguas inscripciones de la cámara fueron analizadas cuidadosamente. Entre los glifos había instrucciones ocultas que revelaban un mecanismo para abrir un pasaje secreto en la pared. El corredor condujo a un compartimento oculto donde se encontró un libro dedicado a la magia profana.",
+          "La lectura de los glifos reveló que parte de las inscripciones describía un ritual de apertura. Siguiendo las indicaciones se desbloqueó un pasaje secreto dentro de la cámara. En su interior había un pequeño compartimento con un antiguo tomo sobre magia profana.",
+          "Durante el análisis de las inscripciones de la cámara subterránea, algunos glifos indicaron la existencia de un mecanismo oculto. Al activarlo se reveló un pasaje secreto. En el espacio escondido se encontró un libro antiguo dedicado a prácticas de magia profana."
+        ],
+        "ru": [
+          "Древние надписи в камере были внимательно изучены. Среди глифов скрывались указания, раскрывающие механизм открытия тайного прохода в стене. Коридор привёл к скрытому отсеку, где была обнаружена книга о запретной магии.",
+          "Чтение глифов показало, что часть надписей описывает ритуал открытия. Следуя этим указаниям, удалось открыть скрытый проход в камере. Внутри находился небольшой тайник с древним томом о запретной магии.",
+          "Во время изучения надписей в подземной камере некоторые глифы указали на скрытый механизм. Его активация открыла тайный проход. В скрытом пространстве была найдена древняя книга, посвящённая запретной магии."
+        ],
+        "zh": [
+          "对密室中的古老铭文进行了仔细研究。在这些符文中隐藏着开启墙壁暗道的指示。通道通向一个隐藏的隔间，在那里发现了一本关于禁忌魔法的书籍。",
+          "解读这些符文后发现，其中一部分描述了开启通道的仪式。按照指示操作后，密室中打开了一条秘密通道。里面有一个隐藏的小空间，其中存放着一本关于禁忌魔法的古书。",
+          "在研究地下密室的铭文时，一些符文暗示了隐藏的机关。启动机关后出现了一条秘密通道。在隐藏空间中发现了一本记载禁忌魔法的古老书籍。"
+        ],
+        "ja": [
+          "地下の部屋に刻まれた古い刻印を慎重に調べたところ、壁の中に隠された通路を開く仕組みを示すグリフが見つかった。その通路の先には隠された小部屋があり、そこから邪悪な魔術に関する書物が発見された。",
+          "刻印を解読すると、その一部が通路を開くための手順を示していることが分かった。指示に従うと部屋の中に秘密の通路が開いた。内部の小さな空間には邪悪な魔法について記された古い書物が保管されていた。",
+          "地下室の刻印を調査する中で、隠された仕掛けを示すグリフが確認された。仕掛けを作動させると秘密の通路が現れた。その奥の空間には、邪悪な魔術を扱った古い書物が残されていた。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "As inscrições da câmara foram examinadas, mas o significado completo dos glifos não pôde ser compreendido.",
+          "Apesar da análise das inscrições antigas, nenhum mecanismo oculto foi identificado na câmara.",
+          "Os glifos da câmara permaneceram indecifráveis, impedindo qualquer descoberta adicional."
+        ],
+        "en": [
+          "The chamber's inscriptions were examined, but the full meaning of the glyphs could not be understood.",
+          "Despite analyzing the ancient inscriptions, no hidden mechanism was identified within the chamber.",
+          "The glyphs remained indecipherable, preventing any further discoveries."
+        ],
+        "es": [
+          "Las inscripciones de la cámara fueron examinadas, pero no se pudo comprender el significado completo de los glifos.",
+          "A pesar del análisis de las inscripciones antiguas, no se identificó ningún mecanismo oculto en la cámara.",
+          "Los glifos permanecieron indescifrables, impidiendo cualquier descubrimiento adicional."
+        ],
+        "ru": [
+          "Надписи в камере были изучены, но их полный смысл так и не удалось понять.",
+          "Несмотря на анализ древних глифов, скрытых механизмов обнаружить не удалось.",
+          "Глифы остались нерасшифрованными, что не позволило сделать дальнейшие открытия."
+        ],
+        "zh": [
+          "虽然对密室铭文进行了研究，但仍无法完全理解这些符文的含义。",
+          "尽管分析了古老铭文，但没有发现任何隐藏机关。",
+          "这些符文仍然无法被完全解读，因此没有进一步发现。"
+        ],
+        "ja": [
+          "部屋の刻印は調査されたが、その意味を完全に解読することはできなかった。",
+          "古代の刻印を分析したものの、隠された仕掛けは見つからなかった。",
+          "刻印は解読できず、それ以上の発見には至らなかった。"
+        ]
+      }
     }
   }
 }

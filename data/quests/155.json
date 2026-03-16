@@ -28,7 +28,7 @@
   "required_quests": [],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -46,6 +46,108 @@
       "ru": "сова",
       "zh": "猫头鹰",
       "ja": "フクロウ"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "arcana": {
+        "pt": [
+          "Após o embate, a besta foi vencida. Ao examinar o cadáver, ficou claro que havia energia arcana impregnada em seus tecidos, sugerindo que fora nutrida por magia.",
+          "A batalha encerrou com a queda do espécime. Mesmo após a morte, resíduos de poder místico ainda pulsavam em suas penas.",
+          "Depois de subjugar a criatura, algo insólito foi notado: um fluxo sutil de feitiçaria parecia ter moldado sua anatomia além do natural."
+        ],
+        "en": [
+          "After the clash, the beast was vanquished. Examining the carcass revealed that arcane energy had seeped deep into its tissues, suggesting it was nurtured by magic.",
+          "The struggle ended with the specimen's fall. Even in death, traces of mystic power still pulsed within its feathers.",
+          "Once the creature was subdued, something unusual became apparent: a subtle current of sorcery seemed to have shaped its anatomy beyond natural limits."
+        ],
+        "es": [
+          "Tras el embate, la bestia fue vencida. Al examinar el cadáver quedó claro que la energía arcana se había filtrado en sus tejidos, sugiriendo que fue nutrida por magia.",
+          "La lucha terminó con la caída del espécimen. Incluso tras morir, restos de poder místico aún pulsaban en sus plumas.",
+          "Después de subyugar a la criatura, se percibió algo insólito: un sutil flujo de hechicería parecía haber moldeado su anatomía más allá de lo natural."
+        ],
+        "ru": [
+          "После схватки зверь был повержен. Осмотр туши показал, что его ткани были пропитаны арканической энергией, будто его питали магией.",
+          "Сражение завершилось падением особи. Даже после смерти в его перьях всё еще пульсировали остатки мистической силы.",
+          "После победы над существом обнаружилось нечто необычное: тонкий поток чародейства, похоже, изменил его анатомию вопреки законам природы."
+        ],
+        "zh": [
+          "冲突结束后，这头猛兽被降伏。检查残骸时发现，奥术能量已深深刻入它的组织，暗示它曾受魔力滋养。",
+          "战斗以该样本的倒下告终。即便死亡之后，它的羽毛中仍有神秘力量在波动。",
+          "制服这头生物后，人们发现了一件异事：一种微妙的法术流向似乎重塑了它的构造，使之超脱自然。"
+        ],
+        "ja": [
+          "衝突の末、獣は打ち倒された。残骸を調べると、その組織に魔力が深く浸透しており、魔法によって育まれたことが伺えた。",
+          "戦いはその個体の敗北で幕を閉じた。死後もなお、羽の中には神秘的な力が脈打っていた。",
+          "生き物を制圧した後、奇妙な事実が浮き彫りになった。微かな妖術の流れが、その形態を不自然なまでに変えていたようだった。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Após um embate intenso, a fera foi eliminada e os ataques cessaram.",
+          "A luta terminou com a queda do espécime, encerrando o perigo para os viajantes.",
+          "Depois de um combate breve, a ameaça foi neutralizada."
+        ],
+        "en": [
+          "After a fierce struggle, the beast was eliminated and the raids stopped.",
+          "The fight ended with the specimen's fall, ending the danger to travelers.",
+          "After a brief engagement, the threat was neutralized."
+        ],
+        "es": [
+          "Tras una lucha intensa, la fiera fue eliminada y los ataques cesaron.",
+          "El combate terminó con la caída del espécimen, terminando con el peligro para los viajeros.",
+          "Después de una breve escaramuza, la amenaza fue neutralizada."
+        ],
+        "ru": [
+          "После яростной схватки зверь был уничтожен, и нападения прекратились.",
+          "Бой завершился падением особи, устранив угрозу для странников.",
+          "После короткого столкновения угроза была нейтрализована."
+        ],
+        "zh": [
+          "经过激烈的拼杀，猛兽被铲除，袭击也随之停止。",
+          "战斗以该样本的倒下结束，旅行者的危机随之化解。",
+          "经过短暂的交火，威胁被清除了。"
+        ],
+        "ja": [
+          "激闘の末、猛獣は排除され、襲撃は止まった。",
+          "戦いはその個体の敗北で終わり、旅人への危険は去った。",
+          "短い交戦の後、脅威は無害化された。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A besta conseguiu fugir pela escuridão após o embate.",
+          "A investida não foi o bastante para deter o espécime.",
+          "Mesmo após a tentativa de extermínio, a ameaça continuou à espreita."
+        ],
+        "en": [
+          "The beast managed to flee through the darkness after the clash.",
+          "The assault was not enough to halt the specimen.",
+          "Despite the extermination attempt, the threat remained lurking."
+        ],
+        "es": [
+          "La bestia logró huir por la oscuridad tras el embate.",
+          "La embestida no fue suficiente para detener al espécimen.",
+          "A pesar del intento de exterminio, la amenaza continuó acechando."
+        ],
+        "ru": [
+          "Зверь сумел скрыться во тьме после схватки.",
+          "Натиска оказалось недостаточно, чтобы остановить особь.",
+          "Несмотря на попытку истребления, угроза осталась затаившейся."
+        ],
+        "zh": [
+          "猛兽在冲突后设法遁入黑暗。",
+          "这次强攻不足以阻挡这个样本。",
+          "尽管尝试了剿灭，威胁依然潜伏在侧。"
+        ],
+        "ja": [
+          "衝突の後、獣は暗闇の中へと逃げ延びた。",
+          "猛攻もその個体を止めるには至らなかった。",
+          "討伐の試みにもかかわらず、脅威は潜伏し続けた。"
+        ]
+      }
     }
   }
 }

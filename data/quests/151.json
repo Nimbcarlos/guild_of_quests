@@ -28,7 +28,7 @@
   "required_quests": [],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -46,6 +46,108 @@
       "ru": "гигантские насекомые",
       "zh": "巨大的昆虫",
       "ja": "巨大な昆虫"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "arcana": {
+        "pt": [
+          "Os insetos gigantes que infestavam os campos foram eliminados antes que destruíssem a colheita. Durante a inspeção dos corpos, um leve fluxo de mana pôde ser sentido emanando deles, algo incomum para criaturas desse tipo.",
+          "Após enfrentar os insetos gigantes nos campos de cultivo, as criaturas foram abatidas. Ao examinar os restos, vestígios de energia arcana puderam ser percebidos, como se alguma força mágica tivesse alterado seu crescimento.",
+          "Os insetos gigantes foram derrotados e os campos ficaram seguros. No entanto, os corpos revelaram algo estranho: uma fraca presença de mana parecia permanecer nas carapaças das criaturas."
+        ],
+        "en": [
+          "The giant insects infesting the fields were eliminated before they could destroy the harvest. While inspecting the bodies, a faint flow of mana could be sensed emanating from them, something unusual for creatures like these.",
+          "After confronting the giant insects in the fields, the creatures were slain. Examining their remains revealed traces of arcane energy, as if some magical force had altered their growth.",
+          "The giant insects were defeated and the fields secured. However, something unusual was noticed in the bodies: a faint presence of mana lingered within the creatures' shells."
+        ],
+        "es": [
+          "Los insectos gigantes que infestaban los campos fueron eliminados antes de que destruyeran la cosecha. Al inspeccionar los cuerpos, se pudo percibir un leve flujo de maná emanando de ellos, algo inusual para criaturas de este tipo.",
+          "Tras enfrentar a los insectos gigantes en los campos, las criaturas fueron abatidas. Al examinar los restos, se detectaron rastros de energía arcana, como si alguna fuerza mágica hubiera alterado su crecimiento.",
+          "Los insectos gigantes fueron derrotados y los campos quedaron seguros. Sin embargo, algo extraño se notó en los cuerpos: una débil presencia de maná permanecía en los caparazones."
+        ],
+        "ru": [
+          "Гигантские насекомые, заполонившие поля, были уничтожены прежде, чем смогли уничтожить урожай. При осмотре тел ощущался слабый поток маны, исходящий от них, что необычно для таких существ.",
+          "После боя на полях гигантские насекомые были уничтожены. Осмотр их останков показал следы арканической энергии, словно на их рост повлияла магия.",
+          "Гигантские насекомые были побеждены, и поля снова стали безопасными. Однако в их панцирях ощущались слабые остатки маны."
+        ],
+        "zh": [
+          "侵扰农田的巨型昆虫被消灭，收成得以保全。在检查尸体时，可以感觉到一股微弱的魔力从它们体内散发出来，这对这种生物来说并不寻常。",
+          "在田地中击败这些巨型昆虫后，在它们的残骸中发现了微弱的奥术能量痕迹，仿佛某种魔法力量改变了它们的成长。",
+          "巨型昆虫被消灭，农田恢复了安全。但在它们的外壳中仍能感到一丝微弱的魔力残留。"
+        ],
+        "ja": [
+          "畑に群がっていた巨大な昆虫はすべて倒され、収穫は守られた。死体を調べると、そこから微かな魔力が感じられ、この種の生き物には珍しい現象だった。",
+          "耕作地で巨大な昆虫を倒した後、残骸を調べると弱い魔力の痕跡が見つかった。何らかの魔法がその成長に影響していた可能性がある。",
+          "巨大な昆虫は排除され、畑は安全になった。しかし、殻の中にはわずかな魔力の残滓が残っていた。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Os insetos gigantes foram abatidos nos campos antes que destruíssem a colheita.",
+          "Após enfrentar as criaturas nos campos de cultivo, os insetos gigantes foram eliminados e as plantações ficaram protegidas.",
+          "Os campos foram limpos depois de derrotar os insetos gigantes que infestavam a área."
+        ],
+        "en": [
+          "The giant insects were slain in the fields before they could destroy the harvest.",
+          "After confronting the creatures in the cultivation fields, the giant insects were eliminated and the crops were protected.",
+          "The fields were cleared after defeating the giant insects that infested the area."
+        ],
+        "es": [
+          "Los insectos gigantes fueron abatidos en los campos antes de que destruyeran la cosecha.",
+          "Tras enfrentar a las criaturas en los campos de cultivo, los insectos gigantes fueron eliminados y las plantaciones quedaron protegidas.",
+          "Los campos quedaron limpios después de derrotar a los insectos gigantes que infestaban el área."
+        ],
+        "ru": [
+          "Гигантские насекомые были уничтожены на полях прежде, чем успели уничтожить урожай.",
+          "После столкновения с существами на полях гигантские насекомые были ликвидированы, и посевы были защищены.",
+          "Поля были очищены после уничтожения гигантских насекомых, заполонивших местность."
+        ],
+        "zh": [
+          "巨型昆虫在田地中被消灭，收成得以保护。",
+          "在农田中击败这些生物后，巨型昆虫被清除，庄稼得以保全。",
+          "击败入侵的巨型昆虫后，农田恢复了安全。"
+        ],
+        "ja": [
+          "巨大な昆虫は畑で倒され、収穫は守られた。",
+          "耕作地での戦闘の末、巨大な昆虫は排除され、作物は守られた。",
+          "畑に発生していた巨大な昆虫はすべて排除された。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Os insetos gigantes continuaram infestando os campos e parte da colheita foi perdida.",
+          "As criaturas não puderam ser contidas e permaneceram nos campos de cultivo.",
+          "A infestação de insetos gigantes não foi eliminada e as plantações permaneceram ameaçadas."
+        ],
+        "en": [
+          "The giant insects continued to infest the fields and part of the harvest was lost.",
+          "The creatures could not be contained and remained within the cultivation fields.",
+          "The infestation of giant insects was not eliminated and the crops remained threatened."
+        ],
+        "es": [
+          "Los insectos gigantes continuaron infestando los campos y parte de la cosecha se perdió.",
+          "Las criaturas no pudieron ser contenidas y permanecieron en los campos de cultivo.",
+          "La infestación de insectos gigantes no fue eliminada y las plantaciones siguieron amenazadas."
+        ],
+        "ru": [
+          "Гигантские насекомые продолжили заражать поля, и часть урожая была потеряна.",
+          "Существ не удалось сдержать, и они остались на полях.",
+          "Нашествие гигантских насекомых не было остановлено, и посевы остались под угрозой."
+        ],
+        "zh": [
+          "巨型昆虫继续侵扰农田，部分收成被毁。",
+          "这些生物未能被控制，仍然留在耕地中。",
+          "巨型昆虫的入侵没有被消灭，庄稼仍然处于危险之中。"
+        ],
+        "ja": [
+          "巨大な昆虫は畑に残り続け、収穫の一部が失われた。",
+          "クリーチャーは抑え込めず、耕作地に残ったままだった。",
+          "巨大な昆虫の被害は止められず、作物は依然として危険にさらされている。"
+        ]
+      }
     }
   }
 }

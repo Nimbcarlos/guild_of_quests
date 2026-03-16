@@ -30,7 +30,7 @@
   ],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -49,5 +49,75 @@
       "zh": "阻挡入口的石头",
       "ja": "入口を塞ぐ石"
     }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "A pedra que bloqueava a entrada foi movida, revelando uma passagem estreita que levava para dentro da caverna.",
+          "Depois de remover a rocha que selava a entrada, um túnel apertado apareceu logo atrás dela.",
+          "A pedra foi deslocada e expôs um túnel estreito escondido na entrada da caverna."
+        ],
+        "en": [
+          "The stone blocking the entrance was moved, revealing a narrow passage leading into the cave.",
+          "After removing the rock sealing the entrance, a tight tunnel appeared behind it.",
+          "The boulder was shifted aside, exposing a narrow tunnel hidden at the cave entrance."
+        ],
+        "es": [
+          "La piedra que bloqueaba la entrada fue movida, revelando un pasaje estrecho que conducía al interior de la cueva.",
+          "Tras retirar la roca que sellaba la entrada, apareció un túnel angosto detrás de ella.",
+          "La piedra fue desplazada y dejó al descubierto un túnel estrecho oculto en la entrada de la cueva."
+        ],
+        "ru": [
+          "Камень, перекрывающий вход, был сдвинут, открыв узкий проход внутрь пещеры.",
+          "После того как валун был убран, за ним обнаружился тесный туннель.",
+          "Сдвинутый камень открыл узкий проход, скрытый у входа в пещеру."
+        ],
+        "zh": [
+          "堵住入口的石头被移开，露出了一条通向洞穴内部的狭窄通道。",
+          "移开封住入口的岩石后，后面出现了一条狭窄的隧道。",
+          "巨石被推开后，洞口露出了一条隐藏的狭窄通道。"
+        ],
+        "ja": [
+          "入口を塞いでいた岩を動かすと、洞窟の奥へ続く細い通路が現れた。",
+          "入口を封いでいた岩を取り除くと、その奥に狭いトンネルが現れた。",
+          "岩をどかすと、洞窟の入口に隠されていた細い通路が露出した。"
+        ]
+      }
+    },
+"failure": {
+  "default": {
+    "pt": [
+      "A pedra permaneceu imóvel e a passagem da caverna continuou selada.",
+      "Não foi possível deslocar a rocha o bastante para abrir acesso ao interior.",
+      "A tentativa de mover a pedra falhou, e a entrada da caverna permaneceu bloqueada."
+    ],
+    "en": [
+      "The stone remained unmoved and the cave passage stayed sealed.",
+      "It was not possible to shift the rock far enough to open access inside.",
+      "The attempt to move the stone failed, and the cave entrance remained blocked."
+    ],
+    "es": [
+      "La piedra permaneció inmóvil y el paso de la cueva siguió sellado.",
+      "No fue posible mover la roca lo suficiente para abrir acceso al interior.",
+      "El intento de mover la piedra falló y la entrada de la cueva permaneció bloqueada."
+    ],
+    "ru": [
+      "Камень остался на месте, и проход в пещеру так и остался запечатанным.",
+      "Не удалось сдвинуть валун достаточно, чтобы открыть путь внутрь.",
+      "Попытка убрать камень провалилась, и вход в пещеру остался заблокирован."
+    ],
+    "zh": [
+      "石头纹丝不动，洞穴通道仍然被封住。",
+      "未能将岩石移开到足以打开内部通路的程度。",
+      "移开石头的尝试失败了，洞穴入口依旧被堵住。"
+    ],
+    "ja": [
+      "岩は動かず、洞窟の通路は封じられたままだった。",
+      "内部へ入るほど十分に岩を動かすことはできなかった。",
+      "岩を動かす試みは失敗し、洞窟の入口は塞がれたままだった。"
+    ]
+  }
+}
   }
 }

@@ -19,7 +19,7 @@ import core.save_manager as save
 import re
 from screens.gameplay.hero_popup import show_hero_details
 from core.music_manager import get_music_manager
-
+from screens.gameplay.spinner_button import InfoMenuSpinner
 
 class GameplayScreen(Screen):
     active_quests_label = StringProperty()
@@ -46,6 +46,7 @@ class GameplayScreen(Screen):
         self.dm = DialogueManager(language=self.lm.language)
 
         self.dialog_box = DialogueBox(self.dm)
+        self.info_menu = InfoMenuSpinner(manager_instance=self)
 
     # 🚀 Atualiza o assistant já existente do QuestManager
         if self.qm.assistant:
@@ -192,14 +193,10 @@ class GameplayScreen(Screen):
             )
 
         self.ids.completed_quests.clear_widgets()
-        self.ids.completed_quests.add_widget(
-            Button(
-                text=self.lm.t("completed_quests_title"),
-                size_hint_y=None,
-                height=40,
-                on_release=self.show_completed_quests_popup
-            )
-        )
+        
+        # Cria o spinner e adiciona diretamente
+        info_spinner = self.info_menu.create_menu_spinner()
+        self.ids.completed_quests.add_widget(info_spinner)
 
     def show_quest_details(self, quest, *_):
         """
@@ -396,39 +393,17 @@ class GameplayScreen(Screen):
             ))
 
         # Nome
+        role_key = f"role_{hero.role}"
         row.add_widget(Label(
-            text=hero.name,
+            text=(
+                f"{hero.name}" +
+                (f" | {self.lm.t(role_key)}: " if is_combat else f" | {self.lm.t('lvl_prefix')} {getattr(hero, 'level', 1)}") +
+                f"\n{self.lm.t('class')}: " + self.lm.t(hero.hero_class)
+            ),
             color=(0, 0, 0, 1),
             halign="left",
             valign="middle"
         ))
-
-        # Classe
-        row.add_widget(Label(
-            text=f"{self.lm.t('class')}: {getattr(hero, 'hero_class', 'Unknown')}",
-            color=(0, 0, 0, 1),
-            halign="left",
-            valign="middle"
-        ))
-
-        # 🔹 NOVO: Mostra role se for combate
-        if is_combat:
-            roles = getattr(hero, "role", [])
-            row.add_widget(Label(
-                text=f"{self.lm.t('role')}: {roles}",
-                color=(0, 0, 0, 1),
-                halign="left",
-                valign="middle",
-                size_hint_x=0.8
-            ))
-        else:
-            # Level
-            row.add_widget(Label(
-                text=f"{self.lm.t('lvl_prefix')} {getattr(hero, 'level', 1)}",
-                color=(0, 0, 0, 1),
-                halign="left",
-                valign="middle"
-            ))
 
         # Botão de detalhes
         row.add_widget(Button(
@@ -724,7 +699,10 @@ class GameplayScreen(Screen):
         self.pause_popup = Popup(title=self.lm.t("pause_menu_title"),
                                 content=content, 
                                 size_hint=(None, None),
-                                size=(300, 360)
+                                size=(300, 360),
+                                background="assets/background.png",
+                                separator_height=0,
+                                title_color=(0, 0, 0, 1)
                                 )
         self.pause_popup.open()
 

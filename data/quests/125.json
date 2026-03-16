@@ -30,7 +30,7 @@
     121
   ],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -49,5 +49,139 @@
       "zh": "哥布林",
       "ja": "ゴブリン"
     }
+  },
+  "conclusion": {
+    "success": {
+      "survival": {
+        "pt": [
+          "Os goblins foram encontrados caçando na floresta e foram eliminados antes que causassem mais danos. Ao examinar os rastros no chão, percebi que havia mais pegadas do que os inimigos derrotados.",
+          "O grupo de goblins foi enfrentado entre as árvores e derrotado. Seguindo as trilhas deixadas no solo, identifiquei rastros adicionais indicando a presença de mais goblins na região.",
+          "Depois de conter os caçadores goblins, analisei as marcas deixadas na terra e notei que o número de pegadas superava o grupo encontrado."
+        ],
+        "en": [
+          "The goblins were found hunting in the forest and were eliminated before causing further harm. Examining the tracks on the ground, I noticed more footprints than enemies defeated.",
+          "The goblin hunters were confronted among the trees and defeated. Following the tracks in the soil, I identified additional trails suggesting more goblins nearby.",
+          "After stopping the goblin hunters, I analyzed the tracks and realized the number of footprints exceeded the group encountered."
+        ],
+        "es": [
+          "Los goblins fueron encontrados cazando en el bosque y eliminados antes de causar más daño. Al examinar las huellas, noté que había más rastros que enemigos abatidos.",
+          "Los cazadores goblins fueron enfrentados entre los árboles y derrotados. Siguiendo las huellas, identifiqué rastros adicionales que indicaban más goblins en la zona.",
+          "Tras detener a los goblins, analicé las marcas en el suelo y vi que las huellas superaban al grupo encontrado."
+        ],
+        "ru": [
+          "Гоблины были найдены охотящимися в лесу и уничтожены. Осмотрев следы на земле, я заметил, что их больше, чем у побежденных врагов.",
+          "Гоблинские охотники были остановлены среди деревьев. Изучая следы, я обнаружил дополнительные тропы, указывающие на других гоблинов.",
+          "После того как гоблины были уничтожены, анализ следов показал, что их было больше."
+        ],
+        "zh": [
+          "哥布林在森林中狩猎时被发现并被消灭。我检查地面的足迹时发现脚印数量多于被击败的敌人。",
+          "哥布林猎人在树林中被击败。沿着踪迹检查时，我发现还有更多脚印，说明附近还有其他哥布林。",
+          "在消灭这些哥布林后，我分析了足迹，发现数量超过遇到的那一群。"
+        ],
+        "ja": [
+          "森で狩りをしていたゴブリンを見つけて排除した。地面を調べると、倒した数より多くの足跡が残っていた。",
+          "木々の間でゴブリンの狩人を迎え撃ち、倒した。足跡を追うと、さらに多くのゴブリンを示す痕跡が見つかった。",
+          "ゴブリンを排除した後、足跡を分析すると遭遇した数以上の痕跡が確認できた。"
+        ]
+      },
+      "investigation": {
+        "pt": [
+          "Os goblins foram derrotados na floresta. Ao examinar cuidadosamente os rastros deixados no local, identifiquei pegadas adicionais que não pertenciam ao grupo abatido.",
+          "O confronto terminou com os goblins eliminados. Analisando as marcas no solo, concluí que mais goblins participaram da caça na região.",
+          "Após derrotar os caçadores goblins, investiguei os rastros e percebi que o grupo envolvido era maior do que o encontrado."
+        ],
+        "en": [
+          "The goblins were defeated in the forest. Examining the tracks carefully, I identified additional footprints not belonging to the defeated group.",
+          "The confrontation ended with the goblins eliminated. Studying the marks in the soil, I concluded more goblins had been involved.",
+          "After defeating the goblin hunters, I investigated the tracks and realized the group was larger than encountered."
+        ],
+        "es": [
+          "Los goblins fueron derrotados en el bosque. Al examinar los rastros, encontré huellas adicionales que no pertenecían al grupo abatido.",
+          "El combate terminó con los goblins eliminados. Analizando las marcas, concluí que más goblins participaron.",
+          "Tras derrotar a los goblins, investigué los rastros y vi que el grupo era mayor."
+        ],
+        "ru": [
+          "Гоблины были уничтожены в лесу. Осматривая следы, я обнаружил дополнительные отпечатки.",
+          "Бой закончился победой, но анализ следов показал участие большего числа гоблинов.",
+          "После боя исследование следов показало, что группа была крупнее."
+        ],
+        "zh": [
+          "哥布林在森林中被击败。我检查现场时发现了额外的脚印。",
+          "战斗结束后，通过分析踪迹发现还有更多哥布林参与。",
+          "在调查足迹后，我确认实际数量比遇到的更多。"
+        ],
+        "ja": [
+          "森でゴブリンを排除した。現場を調べると、倒した集団とは一致しない追加の足跡が見つかった。",
+          "戦闘は勝利で終わったが、痕跡を分析するとさらに多くのゴブリンが関与していたことが分かった。",
+          "戦闘後に足跡を調査し、実際の集団はもっと大きかったと判断した。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Os goblins que caçavam na floresta foram encontrados e eliminados.",
+          "O grupo de goblins foi localizado entre as árvores e derrotado.",
+          "A ameaça dos goblins à fauna da floresta foi encerrada após o combate."
+        ],
+        "en": [
+          "The goblins hunting in the forest were found and eliminated.",
+          "The goblin group was located among the trees and defeated.",
+          "The goblin threat to the forest fauna ended after the fight."
+        ],
+        "es": [
+          "Los goblins que cazaban en el bosque fueron encontrados y eliminados.",
+          "El grupo de goblins fue localizado entre los árboles y derrotado.",
+          "La amenaza de los goblins a la fauna del bosque terminó tras el combate."
+        ],
+        "ru": [
+          "Гоблины, охотившиеся в лесу, были найдены и уничтожены.",
+          "Группа гоблинов была обнаружена среди деревьев и побеждена.",
+          "Угроза гоблинов для фауны леса была устранена."
+        ],
+        "zh": [
+          "在森林中狩猎的哥布林被发现并消灭。",
+          "这群哥布林在树林中被找到并击败。",
+          "哥布林对森林动物的威胁被消除。"
+        ],
+        "ja": [
+          "森で狩りをしていたゴブリンは発見され排除された。",
+          "木々の間でゴブリンの集団を見つけ、倒した。",
+          "ゴブリンによる森林の動物への脅威は戦闘で終わった。"
+        ]
+      }
+    },
+"failure": {
+  "default": {
+    "pt": [
+      "Os goblins dispersaram antes que pudessem ser eliminados completamente, desaparecendo pela região.",
+      "O confronto se tornou desfavorável e foi necessário recuar antes de concluir a missão.",
+      "O combate chamou reforços goblins e a operação teve de ser interrompida."
+    ],
+    "en": [
+      "The goblins scattered before they could be fully eliminated, disappearing into the surroundings.",
+      "The fight turned unfavorable and a retreat was necessary before the task could be completed.",
+      "The clash drew additional goblin reinforcements and the operation had to be aborted."
+    ],
+    "es": [
+      "Los goblins se dispersaron antes de poder ser eliminados por completo.",
+      "El combate se volvió desfavorable y fue necesario retirarse.",
+      "El enfrentamiento atrajo refuerzos goblins y la operación tuvo que ser cancelada."
+    ],
+    "ru": [
+      "Гоблины рассеялись до того, как их удалось уничтожить полностью.",
+      "Сражение стало неблагоприятным, и пришлось отступить.",
+      "Столкновение привлекло подкрепление гоблинов, и операцию пришлось прекратить."
+    ],
+    "zh": [
+      "哥布林在被完全消灭前四散逃离。",
+      "战斗局势变得不利，被迫撤退。",
+      "战斗吸引了更多哥布林增援，行动被迫中止。"
+    ],
+    "ja": [
+      "ゴブリンは完全に排除される前に散り散りになって逃げた。",
+      "戦況が不利になり、任務の継続は断念された。",
+      "戦闘がゴブリンの増援を呼び寄せ、作戦は中断された。"
+    ]
+  }
+}
   }
 }

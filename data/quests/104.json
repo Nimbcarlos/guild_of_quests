@@ -28,7 +28,7 @@
   "required_quests": [],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -46,6 +46,76 @@
       "ru": "кислотная слизь",
       "zh": "酸性史莱姆",
       "ja": "酸スライム"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Localizei o slime ácido à beira da estrada e o destruí antes que pudesse corroer mais equipamentos.",
+          "Evitei contato direto com a gosma corrosiva e neutralizei a criatura com golpes precisos.",
+          "Mantive distância da secreção ácida e acabei com o slime antes que escapasse para a mata."
+        ],
+        "en": [
+          "I located the acid slime along the road and destroyed it before it could corrode more gear.",
+          "Avoiding direct contact with the corrosive goo, I neutralized the creature with precise strikes.",
+          "Keeping distance from the acidic secretion, I finished the slime before it could escape into the wild."
+        ],
+        "es": [
+          "Localicé al slime ácido en el camino y lo destruí antes de que pudiera corroer más equipo.",
+          "Evitando el contacto con la baba corrosiva, neutralicé a la criatura con golpes precisos.",
+          "Manteniendo distancia de la secreción ácida, eliminé al slime antes de que escapara al bosque."
+        ],
+        "ru": [
+          "Я обнаружил кислотного слизня у дороги и уничтожил его, прежде чем он успел разъесть ещё больше снаряжения.",
+          "Избегая контакта с едкой слизью, я нейтрализовал существо точными ударами.",
+          "Держа дистанцию от кислоты, я добил слизня до того, как он скрылся в чаще."
+        ],
+        "zh": [
+          "我在路边找到了酸性史莱姆，并在它腐蚀更多装备前将其消灭。",
+          "避免接触腐蚀粘液，我用精准攻击解决了它。",
+          "我保持距离，在它逃入荒野前将其击败。"
+        ],
+        "ja": [
+          "道沿いで酸性スライムを発見し、装備をさらに腐食させる前に排除した。",
+          "腐食する粘液との接触を避け、正確な攻撃で仕留めた。",
+          "酸の飛沫から距離を保ち、逃げ出す前に倒した。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A corrosão destruiu meu equipamento antes que eu pudesse eliminar o slime.",
+          "O slime escapou pela vegetação após corroer minhas armas.",
+          "Não consegui lidar com a secreção ácida e fui forçado a recuar."
+        ],
+        "en": [
+          "The corrosion destroyed my gear before I could eliminate the slime.",
+          "The slime escaped into the vegetation after corroding my weapons.",
+          "I could not withstand the acidic secretion and was forced to retreat."
+        ],
+        "es": [
+          "La corrosión destruyó mi equipo antes de que pudiera eliminar al slime.",
+          "El slime escapó hacia la vegetación tras corroer mis armas.",
+          "No pude soportar la secreción ácida y tuve que retirarme."
+        ],
+        "ru": [
+          "Кислота уничтожила моё снаряжение, прежде чем я смог добить слизня.",
+          "Слизень скрылся в растительности после того, как разъел моё оружие.",
+          "Я не смог противостоять кислотной слизи и был вынужден отступить."
+        ],
+        "zh": [
+          "腐蚀破坏了我的装备，我未能消灭史莱姆。",
+          "史莱姆腐蚀武器后逃进了植被。",
+          "我无法应对酸性分泌物，被迫撤退。"
+        ],
+        "ja": [
+          "腐食によって装備が損傷し、スライムを倒しきれなかった。",
+          "武器が溶かされ、スライムは草むらへ逃げた。",
+          "酸性の粘液に対処できず、撤退を余儀なくされた。"
+        ]
+      }
     }
   }
 }

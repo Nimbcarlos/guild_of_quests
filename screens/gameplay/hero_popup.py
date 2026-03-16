@@ -37,7 +37,7 @@ def show_hero_details(screen_instance, hero, parent_size):
 
     # ── Nome
     content.add_widget(Label(
-        text=f"[b]{hero.name}[/b]",
+        text=f"[b]{hero.name} {hero.last_name}[/b]",
         markup=True,
         font_size=max(38, int(frame_height * 0.0335)),
         color=(0, 0, 0, 1),
@@ -50,7 +50,16 @@ def show_hero_details(screen_instance, hero, parent_size):
     # ── Classe + Role
     role_text = lm.t(f"role_{hero.role}") if hero.role else "—"
     content.add_widget(Label(
-        text=f"{hero.hero_class} • {role_text}",
+        text=f"{lm.t(hero.hero_class)} • {role_text}",
+        font_size=max(22, int(frame_height * 0.0295)),
+        color=(0, 0, 0, 1),
+        size_hint_y=None,
+        height=24,
+        halign="left",
+        valign="middle"
+    ))
+    content.add_widget(Label(
+        text=f"{lm.t("level_label")}: {hero.level} ",
         font_size=max(22, int(frame_height * 0.0295)),
         color=(0, 0, 0, 1),
         size_hint_y=None,

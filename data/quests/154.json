@@ -29,7 +29,7 @@
   "required_quests": [],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -47,6 +47,108 @@
       "ru": "выдра",
       "zh": "獾",
       "ja": "カワウソ"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "religion": {
+        "pt": [
+          "Após um confronto difícil, a criatura foi finalmente abatida. No instante final, algo incomum pôde ser sentido — um fraco eco de consciência humana parecia aprisionado dentro dela.",
+          "O combate terminou com a queda da criatura. Durante os últimos momentos, uma sensação espiritual perturbadora revelou que algo mais habitava aquele corpo.",
+          "Depois de derrotar a besta, uma presença espiritual momentânea foi percebida, como se parte de uma mente humana estivesse presa dentro da criatura."
+        ],
+        "en": [
+          "After a difficult confrontation, the creature was finally brought down. In its final moments, something unusual could be sensed — a faint echo of human consciousness seemed trapped within it.",
+          "The battle ended with the creature's fall. In its final moments, a disturbing spiritual presence revealed that something more inhabited that body.",
+          "Once the beast was defeated, a brief spiritual presence could be felt, as if part of a human mind had been imprisoned inside the creature."
+        ],
+        "es": [
+          "Tras un enfrentamiento difícil, la criatura finalmente cayó. En su último momento se percibió algo extraño: un débil eco de conciencia humana parecía atrapado en su interior.",
+          "El combate terminó con la caída de la criatura. En sus últimos instantes se sintió una presencia espiritual perturbadora, como si algo más habitara en ese cuerpo.",
+          "Después de derrotar a la bestia, se percibió una presencia espiritual momentánea, como si una mente humana hubiera estado aprisionada dentro de ella."
+        ],
+        "ru": [
+          "После тяжёлого боя существо было наконец повержено. В последние мгновения ощущался странный отголосок — будто внутри было заключено человеческое сознание.",
+          "Сражение закончилось падением существа. В его последних движениях чувствовалось тревожное духовное присутствие, словно в нём обитало нечто большее.",
+          "После победы над зверем на мгновение ощущалось духовное эхо, как будто человеческий разум был заключён внутри этого тела."
+        ],
+        "zh": [
+          "经过艰难的战斗，这头生物终于被击倒。在它倒下的瞬间，可以感觉到一种奇怪的气息——仿佛有一丝人类意识被困在其中。",
+          "战斗随着这头生物的倒下而结束。在最后时刻，人们感觉到一种令人不安的灵性存在，好像有什么东西寄居在那个身体里。",
+          "击败这头野兽后，短暂地感受到一种灵性回响，就像一部分人类意识曾被困在其中。"
+        ],
+        "ja": [
+          "激しい戦闘の末、その生き物はついに倒された。しかし最後の瞬間、奇妙な気配が感じられた。微かな人間の意識がその中に閉じ込められているようだった。",
+          "戦いはその生き物の敗北で終わった。最後の動きの中で、不穏な霊的な気配が感じられ、その身体の中に別の存在がいるかのようだった。",
+          "その獣を倒した後、一瞬だけ霊的な残響が感じられた。人の意識の一部がその中に囚われていたかのようだった。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Após um combate difícil, a criatura foi finalmente abatida. Durante o confronto ficou evidente que seus movimentos não eram os de um animal comum.",
+          "A batalha terminou com a queda da criatura. Seus ataques seguiam padrões estranhos, quase como se houvesse intenção por trás de cada investida.",
+          "Depois de um confronto violento, a besta foi derrotada. Mesmo assim, algo chamou atenção: suas ações pareciam calculadas demais para simples instinto animal."
+        ],
+        "en": [
+          "After a difficult battle, the creature was finally slain. During the fight it became clear that its movements were unlike those of a normal animal.",
+          "The battle ended with the creature's fall. Its attacks followed strange patterns, almost as if intention guided each strike.",
+          "After a violent confrontation, the beast was defeated. Even so, something stood out: its actions seemed far too deliberate for mere animal instinct."
+        ],
+        "es": [
+          "Tras una batalla difícil, la criatura fue finalmente abatida. Durante el combate quedó claro que sus movimientos no eran los de un animal común.",
+          "La lucha terminó con la caída de la criatura. Sus ataques seguían patrones extraños, casi como si hubiera intención detrás de cada embestida.",
+          "Después de un enfrentamiento violento, la bestia fue derrotada. Aun así, algo llamó la atención: sus acciones parecían demasiado calculadas para ser puro instinto animal."
+        ],
+        "ru": [
+          "После тяжёлой битвы существо было повержено. Во время боя стало ясно, что его движения не были типичны для обычного зверя.",
+          "Сражение закончилось падением существа. Его атаки следовали странным шаблонам, будто за ними стоял расчёт.",
+          "После жестокого столкновения зверь был уничтожен. Однако его действия казались слишком продуманными для простого инстинкта."
+        ],
+        "zh": [
+          "经过一场艰难的战斗，这头生物终于被击败。在战斗中可以看出，它的行动方式并不像普通的动物。",
+          "战斗以这头生物的倒下结束。它的攻击呈现出奇怪的规律，就像每一次行动都带有某种意图。",
+          "在激烈对抗后，这头野兽被击败。但它的行动显得过于刻意，不像单纯的动物本能。"
+        ],
+        "ja": [
+          "激しい戦闘の末、その生き物は倒された。しかし戦いの中で、その動きは普通の動物とは思えないものだった。",
+          "戦闘はその生き物の敗北で終わった。攻撃には奇妙な規則性があり、まるで意図を持っているかのようだった。",
+          "激しい衝突の末、その獣は倒された。しかし行動はあまりにも計算されたもので、単なる本能とは思えなかった。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A criatura conseguiu escapar após o confronto.",
+          "O combate não foi suficiente para deter a besta.",
+          "Mesmo após o confronto, a ameaça permaneceu ativa."
+        ],
+        "en": [
+          "The creature managed to escape after the confrontation.",
+          "The clash was not enough to stop the beast.",
+          "Even after the fight, the threat remained active."
+        ],
+        "es": [
+          "La criatura logró escapar tras el enfrentamiento.",
+          "El combate no fue suficiente para detener a la bestia.",
+          "Incluso después de la lucha, la amenaza continuó."
+        ],
+        "ru": [
+          "Существо сумело уйти после столкновения.",
+          "Сражение оказалось недостаточным, чтобы остановить зверя.",
+          "Даже после боя угроза осталась."
+        ],
+        "zh": [
+          "这头生物在战斗后逃脱了。",
+          "战斗不足以阻止这头野兽。",
+          "即使战斗结束，威胁仍然存在。"
+        ],
+        "ja": [
+          "その生き物は戦闘の後に逃げ去った。",
+          "戦いだけでは獣を止めることはできなかった。",
+          "戦闘の後も脅威は残ったままだった。"
+        ]
+      }
     }
   }
 }

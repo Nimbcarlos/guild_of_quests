@@ -34,7 +34,7 @@
   ],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -52,6 +52,76 @@
       "ru": "следы, оставленные изменёнными существами",
       "zh": "变异生物留下的痕迹",
       "ja": "変異した獣が残した痕跡"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Seguindo os rastros deixados pelas criaturas, foi possível identificar um padrão claro de deslocamento. Todos convergiam para o mesmo ponto nas colinas: uma enorme mansão cercada por muros e guardas, curiosamente sem qualquer bandeira ou símbolo.",
+          "A análise das pegadas revelou rotas repetidas partindo de um mesmo lugar. No fim do trajeto encontramos uma propriedade vasta e fortemente protegida — uma mansão isolada, sem brasões ou estandartes que indicassem seu dono.",
+          "Os rastros não eram aleatórios. Cada trilha levava na mesma direção até alcançar uma grande mansão bem guardada. Nenhuma bandeira, nenhum sinal de família ou ordem. Apenas silêncio e vigilância."
+        ],
+        "en": [
+          "By following the creatures' tracks, a clear movement pattern emerged. All paths converged toward the same location in the hills: a massive mansion surrounded by walls and guards, curiously bearing no banner or crest.",
+          "The tracks revealed repeated routes originating from the same place. At the end of the trail stood a vast and well-protected estate — an isolated mansion with no flags or heraldry indicating its owner.",
+          "The trails were not random. Each one eventually led to the same destination: a large, heavily guarded mansion. No banners, no symbols of house or order — only silence and watchful guards."
+        ],
+        "es": [
+          "Siguiendo los rastros de las criaturas fue posible identificar un patrón claro de movimiento. Todos convergían hacia el mismo punto en las colinas: una enorme mansión rodeada de muros y guardias, curiosamente sin ninguna bandera o símbolo.",
+          "Las huellas revelaron rutas repetidas que partían del mismo lugar. Al final del trayecto encontramos una extensa propiedad bien protegida: una mansión aislada sin estandartes ni escudos que indicaran a su dueño.",
+          "Los rastros no eran aleatorios. Cada sendero conducía finalmente al mismo destino: una gran mansión fuertemente vigilada. Ninguna bandera ni emblema familiar, solo silencio y vigilancia."
+        ],
+        "ru": [
+          "Проследив следы существ, удалось выявить чёткую схему перемещения. Все они сходились к одной точке в холмах — огромному особняку, окружённому стенами и стражей, но без каких-либо флагов или символов.",
+          "Следы показали повторяющиеся маршруты, ведущие из одного и того же места. В конце пути находилось большое и хорошо охраняемое поместье — изолированный особняк без гербов или знамён.",
+          "Следы были не случайными. Каждая тропа вела к одному месту — большому особняку под сильной охраной. Ни флагов, ни знаков принадлежности, только тишина и стража."
+        ],
+        "zh": [
+          "沿着这些生物留下的踪迹追踪后，可以看出明显的移动规律。所有路线都汇聚到山丘中的同一地点：一座巨大的宅邸，被围墙和守卫保护着，却没有任何旗帜或徽记。",
+          "这些足迹显示出重复的路线，都来自同一个地方。追踪的终点是一处规模庞大且戒备森严的庄园——一座孤立的宅邸，没有任何标志表明其主人。",
+          "这些痕迹并非偶然。每一条路径最终都指向同一个地方：一座守卫严密的巨大宅邸。没有旗帜，没有家族徽记，只有沉默与警戒。"
+        ],
+        "ja": [
+          "獣の痕跡を追跡した結果、明確な移動パターンが判明した。すべての足跡は丘の同じ地点へと収束しており、そこには壁と警備に守られた巨大な邸宅があった。しかし旗や紋章は一切掲げられていなかった。",
+          "足跡は同じ場所から繰り返し伸びていることがわかった。追跡の終点には広大で厳重に守られた屋敷があり、所有者を示す旗や家紋は見当たらなかった。",
+          "痕跡は偶然ではなかった。すべての道は最終的に同じ場所へと続いていた。そこには重い警備に守られた大きな邸宅があり、旗も紋章もなく、ただ静寂と監視だけがあった。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Os rastros se perderam após algum tempo de perseguição, desaparecendo em terreno rochoso.",
+          "As trilhas eram confusas e sobrepostas demais para determinar um ponto de origem confiável.",
+          "Apesar da investigação, os rastros acabaram se dissipando antes que qualquer destino comum pudesse ser identificado."
+        ],
+        "en": [
+          "The tracks were eventually lost over rocky terrain before a clear destination could be identified.",
+          "The trails overlapped too heavily to determine a reliable point of origin.",
+          "Despite the investigation, the tracks faded before any common destination could be confirmed."
+        ],
+        "es": [
+          "Los rastros se perdieron entre terreno rocoso antes de poder identificar un destino claro.",
+          "Las huellas estaban demasiado mezcladas como para determinar un punto de origen fiable.",
+          "A pesar de la investigación, los rastros desaparecieron antes de poder confirmar un destino común."
+        ],
+        "ru": [
+          "Следы затерялись среди каменистой местности, прежде чем удалось определить направление.",
+          "Тропы оказались слишком перепутанными, чтобы установить точку происхождения.",
+          "Несмотря на расследование, следы исчезли прежде, чем удалось выявить общий источник."
+        ],
+        "zh": [
+          "这些踪迹在岩石地带逐渐消失，未能确定明确的目的地。",
+          "这些足迹过于混乱重叠，无法确定可靠的来源点。",
+          "尽管进行了调查，这些踪迹仍在找到共同目的地之前消散了。"
+        ],
+        "ja": [
+          "痕跡は岩場に入ったところで途切れ、明確な行き先を特定できなかった。",
+          "足跡が重なりすぎており、信頼できる出発点を特定することはできなかった。",
+          "調査を行ったものの、共通の目的地を確認する前に痕跡は消えてしまった。"
+        ]
+      }
     }
   }
 }

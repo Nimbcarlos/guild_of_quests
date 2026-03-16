@@ -28,7 +28,7 @@
   "required_quests": [],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -46,6 +46,108 @@
       "ru": "крокодил",
       "zh": "鳄鱼",
       "ja": "ワニ"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "arcana": {
+        "pt": [
+          "Após o embate nas margens, o predador foi neutralizado. Ao periciar o couro, notei que algo insólito alterou sua couraça — energia arcana fluía como sangue sob as placas dérmicas.",
+          "A luta terminou com o réptil finalmente vencido após seu bote desesperado. Mesmo imóvel, um brilho místico residual pulsava entre as fendas de suas escamas endurecidas.",
+          "Depois de subjugar o espécime e evitar suas mandíbulas esmagadoras, ficou evidente: uma corrente de poder arcano reforçou sua estrutura óssea além dos limites naturais."
+        ],
+        "en": [
+          "After the clash on the banks, the predator was neutralized. Examining the hide revealed something unusual—arcane energy flowed like blood beneath its dermal plates.",
+          "The struggle ended with the reptile finally vanquished after its desperate lunge. Even still, a residual mystic glow pulsed between the cracks of its hardened scales.",
+          "After subduing the specimen and avoiding its bone-crushing jaws, it became evident: a current of arcane power had reinforced its skeletal structure beyond natural limits."
+        ],
+        "es": [
+          "Tras el embate en las orillas, el depredador fue neutralizado. Al periciar el cuero, noté algo insólito: energía arcana fluía como sangre bajo sus placas dérmicas.",
+          "La lucha terminó con el reptil vencido tras su ataque desesperado. Incluso inmóvil, un brillo místico residual pulsaba entre las grietas de sus escamas endurecidas.",
+          "Después de subyugar al espécimen y evitar sus mandíbulas trituradoras, quedó claro: una corriente de poder arcano reforzó su estructura ósea más allá de lo natural."
+        ],
+        "ru": [
+          "После схватки на берегу хищник был нейтрализован. Осмотр шкуры показал нечто необычное: арканическая энергия текла словно кровь под костяными пластинами.",
+          "Битва закончилась, когда рептилия была наконец повержена после отчаянного броска. Даже бездыханное, тело испускало мистическое сияние сквозь щели в чешуе.",
+          "После победы над особью и уклонения от сокрушительных челюстей стало очевидно: поток чародейской силы укрепил его костяк сверх естественных пределов."
+        ],
+        "zh": [
+          "在岸边的较量后，这头掠食者被制服。检查皮革时发现，某种异样的东西改变了它的甲壳——奥术能量如血液般在皮下流动。",
+          "战斗随着这头爬行动物在绝望的扑击后被击败而告终。即使一动不动，残余的神秘光芒仍在坚硬鳞片的缝隙间波动。",
+          "在制服这个样本并躲过它足以碎骨的咬击后，事实显而易见：一股奥术电流强化了它的骨骼结构，超出了自然极限。"
+        ],
+        "ja": [
+          "岸辺での攻防の末、捕食者は無害化された。皮を調べると、その装甲に異変が起きていた。魔力が皮膚の下で血のように流れていたのだ。",
+          "爬虫類が必死の突進の末に打ち倒され、戦いは終わった。動かなくなった後も、硬化した鱗の間から神秘的な残光が脈打っていた。",
+          "個体を制圧し、骨を砕くような顎を避けた後、明白な事実が浮かび上がった。魔力の奔流が、その骨格を自然の限界を超えて強化していたのだ。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Após um embate nas margens, a fera foi eliminada antes que pudesse mergulhar em segurança.",
+          "A luta encerrou quando o anfíbio foi atingido durante um bote, interrompendo sua agressão.",
+          "Depois de esquivar de botes e investidas aquáticas, o monstro escamoso foi finalmente derrotado."
+        ],
+        "en": [
+          "After a struggle on the banks, the beast was eliminated before it could dive to safety.",
+          "The fight ended when the amphibian was struck during a lunge, halting its aggression.",
+          "After dodging lunges and aquatic charges, the scaled monster was finally defeated."
+        ],
+        "es": [
+          "Tras una lucha en la orilla, la fiera fue eliminada antes de que pudiera sumergirse a salvo.",
+          "El combate terminó cuando el anfibio fue golpeado durante un ataque, deteniendo su agresión.",
+          "Después de esquivar embestidas y ataques acuáticos, el monstruo escamoso fue finalmente derrotado."
+        ],
+        "ru": [
+          "После борьбы на берегу зверь был уничтожен, прежде чем успел нырнуть в безопасное место.",
+          "Бой закончился, когда амфибия была поражена во время броска, что прервало её атаку.",
+          "Уклонившись от множества укусов и водных атак, чешуйчатый монстр был наконец повержен."
+        ],
+        "zh": [
+          "经过岸边的拼杀，猛兽在潜入深水前被铲除。",
+          "战斗在这头两栖类在扑击中被击中时结束，中断了它的攻势。",
+          "在躲过多次来自水面的扑咬后，这头鳞甲怪物终于被击败。"
+        ],
+        "ja": [
+          "岸辺での死闘の末、猛獣が安全な水中に逃げ込む前に排除した。",
+          "両生類が突撃中に強打され、その攻撃が止まったことで戦いは幕を閉じた。",
+          "水中からの突進や噛みつきを幾度もかわした末、鱗に覆われた怪物をようやく仕留めた。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "O escamoso submergiu rapidamente e sumiu nas profundezas.",
+          "O embate não foi contundente o suficiente para deter o predador.",
+          "O monstro buscou refúgio no fundo do lago após a tentativa de combate."
+        ],
+        "en": [
+          "The scaled one submerged quickly and vanished into the depths.",
+          "The clash was not decisive enough to halt the predator.",
+          "The monster sought refuge at the bottom of the lake after the combat attempt."
+        ],
+        "es": [
+          "El ser escamoso se sumergió rápidamente y desapareció en las profundidades.",
+          "El embate no fue lo suficientemente contundente para detener al depredador.",
+          "El monstruo buscó refugio en el fondo del lago tras el intento de combate."
+        ],
+        "ru": [
+          "Чешуйчатая тварь быстро погрузилась в воду и скрылась в глубине.",
+          "Схватки оказалось недостаточно, чтобы остановить хищника.",
+          "Монстр нашел убежище на дне озера после попытки сражения."
+        ],
+        "zh": [
+          "那头鳞甲生物迅速潜入水中，消失在深处。",
+          "这次冲突不足以制止这头掠食者。",
+          "在战斗尝试后，怪物在湖底找到了避难所。"
+        ],
+        "ja": [
+          "鱗を持つその個体は素早く潜水し、深淵へと姿を消した。",
+          "攻防はその捕食者を止めるには決定打に欠けていた。",
+          "戦闘の試みの後、怪物は湖の底へと逃げ場を求めた。"
+        ]
+      }
     }
   }
 }

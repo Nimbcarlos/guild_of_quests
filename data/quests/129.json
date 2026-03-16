@@ -30,7 +30,7 @@
     122
   ],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -49,5 +49,75 @@
       "zh": "哥布林冠军",
       "ja": "ゴブリンチャンピオン"
     }
+  },
+"conclusion": {
+  "success": {
+    "default": {
+      "pt": [
+        "O Campeão Goblin foi interceptado na estrada antes de alcançar as muralhas. Os magos que o escoltavam foram abatidos e, após um combate duro, o campeão também foi derrubado.",
+        "A escolta goblin foi enfrentada antes de chegar à cidade. Os magos foram eliminados primeiro e, sem o apoio do ritual, o Campeão Goblin acabou derrotado.",
+        "O avanço do Campeão Goblin foi interrompido na estrada. Após eliminar os magos que o acompanhavam, a criatura foi finalmente abatida antes que pudesse alcançar os portões da cidade."
+      ],
+      "en": [
+        "The Goblin Champion was intercepted on the road before reaching the city walls. The escorting goblin mages were slain and, after a hard fight, the champion was brought down as well.",
+        "The goblin escort was confronted before reaching the city. The mages were eliminated first and, without their support, the Goblin Champion was eventually defeated.",
+        "The Goblin Champion's march was stopped on the road. After eliminating the accompanying mages, the creature was finally slain before it could reach the city gates."
+      ],
+      "es": [
+        "El Campeón Goblin fue interceptado en el camino antes de llegar a las murallas. Los magos que lo escoltaban fueron eliminados y, tras un combate duro, el campeón también cayó.",
+        "La escolta goblin fue enfrentada antes de alcanzar la ciudad. Los magos fueron abatidos primero y, sin su apoyo, el Campeón Goblin fue derrotado.",
+        "El avance del Campeón Goblin fue detenido en el camino. Tras eliminar a los magos que lo acompañaban, la criatura fue abatida antes de llegar a las puertas de la ciudad."
+      ],
+      "ru": [
+        "Чемпион гоблинов был перехвачен на дороге до того, как достиг городских стен. Маги сопровождения были уничтожены, и после тяжёлого боя пал и сам чемпион.",
+        "Гоблинский эскорт был атакован до прибытия к городу. Сначала были устранены маги, и без их поддержки Чемпион гоблинов был побеждён.",
+        "Марш Чемпиона гоблинов был остановлен на дороге. После уничтожения сопровождающих магов существо было повержено до того, как достигло городских ворот."
+      ],
+      "zh": [
+        "哥布林冠军在抵达城墙前被拦截。护卫它的哥布林法师被消灭，在一场艰难的战斗后冠军也被击败。",
+        "哥布林护卫队在抵达城市前被阻击。法师首先被击倒，失去支持后哥布林冠军最终被击败。",
+        "哥布林冠军的行军在通往城市的道路上被阻止。消灭随行法师后，这个生物在抵达城门前被击杀。"
+      ],
+      "ja": [
+        "ゴブリンのチャンピオンは城壁に到達する前に街道で迎撃された。護衛していた魔術師たちは倒され、激しい戦闘の末チャンピオンも討たれた。",
+        "街へ到達する前にゴブリンの一団を迎撃した。まず魔術師を排除し、その支援を失ったチャンピオンは最終的に倒された。",
+        "ゴブリンのチャンピオンの進軍は街道で止められた。同行していた魔術師を倒した後、その怪物は城門へ到達する前に討ち取られた。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "O Campeão Goblin avançou pela estrada com força esmagadora. O confronto foi interrompido antes que pudesse ser derrotado.",
+        "A escolta de magos manteve o campeão protegido durante o combate, e o grupo acabou forçado a recuar.",
+        "A força do Campeão Goblin e de seus magos superou a tentativa de interceptação, obrigando uma retirada antes da batalha ser concluída."
+      ],
+      "en": [
+        "The Goblin Champion advanced along the road with overwhelming force. The clash had to be abandoned before the creature could be defeated.",
+        "The escorting mages kept the champion protected during the battle, forcing a retreat.",
+        "The strength of the Goblin Champion and its mages overwhelmed the interception attempt, forcing a withdrawal."
+      ],
+      "es": [
+        "El Campeón Goblin avanzó por el camino con una fuerza abrumadora. El combate tuvo que ser abandonado.",
+        "Los magos escolta mantuvieron protegido al campeón durante la batalla, obligando la retirada.",
+        "La fuerza del Campeón Goblin y sus magos superó el intento de interceptación."
+      ],
+      "ru": [
+        "Чемпион гоблинов продолжил марш по дороге с подавляющей силой. Сражение пришлось прекратить.",
+        "Маги сопровождения защищали чемпиона во время боя, вынудив отступление.",
+        "Сила Чемпиона гоблинов и его магов сорвала попытку перехвата."
+      ],
+      "zh": [
+        "哥布林冠军以压倒性的力量继续前进，战斗被迫中止。",
+        "护卫法师在战斗中持续保护冠军，迫使队伍撤退。",
+        "哥布林冠军及其法师的力量压倒了拦截行动。"
+      ],
+      "ja": [
+        "ゴブリンのチャンピオンは圧倒的な力で街道を進み続けた。戦闘は途中で中断された。",
+        "護衛の魔術師が戦闘中チャンピオンを守り続け、撤退を余儀なくされた。",
+        "ゴブリンのチャンピオンと魔術師たちの力により迎撃は失敗した。"
+      ]
+    }
   }
+}
 }

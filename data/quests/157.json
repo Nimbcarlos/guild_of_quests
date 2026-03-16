@@ -28,7 +28,7 @@
   "required_quests": [],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -46,6 +46,108 @@
       "ru": "лось",
       "zh": "驼鹿",
       "ja": "モース"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "religion": {
+        "pt": [
+          "Após um confronto perigoso, a criatura foi finalmente abatida. Nos últimos instantes, algo perturbador pôde ser sentido — um eco fraco de consciência humana parecia preso por trás daqueles olhos.",
+          "A batalha terminou quando as enormes galhadas em forma de lâmina finalmente tombaram no chão. No momento final, uma presença espiritual estranha surgiu, como se uma mente humana estivesse aprisionada ali.",
+          "Depois de derrubar a criatura e escapar das investidas de suas galhadas afiadas, uma sensação inquietante apareceu por um breve instante — algo humano parecia ter lutado dentro daquele corpo."
+        ],
+        "en": [
+          "After a dangerous clash, the creature was finally slain. In its final moments, something disturbing could be sensed — a faint echo of human consciousness seemed trapped behind those eyes.",
+          "The battle ended when the enormous blade-like antlers finally collapsed to the ground. In that moment, a strange spiritual presence appeared, as if a human mind had been imprisoned there.",
+          "After bringing the creature down and surviving the strikes of its razor-like antlers, an unsettling sensation appeared for a brief moment — something human seemed to have struggled within that body."
+        ],
+        "es": [
+          "Tras un enfrentamiento peligroso, la criatura finalmente cayó. En su último momento se percibió algo inquietante: un débil eco de conciencia humana parecía atrapado detrás de sus ojos.",
+          "La batalla terminó cuando las enormes astas en forma de cuchilla finalmente se desplomaron. En ese instante surgió una extraña presencia espiritual, como si una mente humana hubiera estado prisionera allí.",
+          "Después de derribar a la criatura y esquivar sus astas afiladas, se sintió algo perturbador por un instante: algo humano parecía haber luchado dentro de ese cuerpo."
+        ],
+        "ru": [
+          "После опасного боя существо наконец было повержено. В последние мгновения ощущался тревожный отголосок — будто человеческое сознание было заключено за этими глазами.",
+          "Сражение закончилось, когда огромные рога, похожие на лезвия, рухнули на землю. В этот момент возникло странное духовное присутствие, словно человеческий разум был заключён внутри.",
+          "После того как существо было повержено и удалось уклониться от его острых рогов, на мгновение возникло тревожное чувство — будто внутри него боролось что-то человеческое."
+        ],
+        "zh": [
+          "经过一场危险的战斗，这头生物终于被击败。在它倒下的瞬间，可以感觉到一种不安的气息——仿佛有一丝人类意识被困在它的眼睛之后。",
+          "战斗在那对如刀刃般的巨大鹿角倒下时结束。就在那一刻，一种奇怪的灵性存在显现出来，仿佛有人类的心智曾被囚禁其中。",
+          "在躲过那锋利鹿角的攻击并将其击倒后，一瞬间感到一种令人不安的感觉——似乎有什么人类意识曾在那个身体里挣扎。"
+        ],
+        "ja": [
+          "危険な戦闘の末、その生き物はついに倒された。最後の瞬間、不気味な気配が感じられた。人の意識の残響がその目の奥に閉じ込められているようだった。",
+          "刃のような巨大な枝角が地面に崩れ落ちた時、戦いは終わった。その瞬間、奇妙な霊的な気配が現れ、まるで人の心が囚われていたかのようだった。",
+          "鋭い枝角の突進をかわしながらその生き物を倒した後、一瞬だけ不穏な感覚が走った。何か人間の意識がその中で抗っていたようだった。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Após um confronto intenso, a criatura foi finalmente abatida. Suas galhadas eram afiadas como lâminas e cada investida poderia ter atravessado uma armadura.",
+          "A batalha terminou quando as enormes galhadas da criatura ficaram presas no solo durante uma investida, permitindo o golpe final.",
+          "Depois de escapar de vários ataques das galhadas cortantes, a criatura foi derrubada e a ameaça terminou."
+        ],
+        "en": [
+          "After a fierce clash, the creature was finally slain. Its antlers were sharp like blades, and every charge could have pierced armor.",
+          "The battle ended when the creature's massive antlers became lodged in the ground during a charge, allowing the final strike.",
+          "After avoiding several strikes from the razor-like antlers, the creature was brought down and the threat ended."
+        ],
+        "es": [
+          "Tras un enfrentamiento intenso, la criatura fue finalmente abatida. Sus astas eran afiladas como cuchillas y cada embestida podía atravesar una armadura.",
+          "La batalla terminó cuando las enormes astas quedaron atrapadas en el suelo durante una carga, permitiendo el golpe final.",
+          "Después de esquivar varios ataques de las astas cortantes, la criatura cayó y la amenaza terminó."
+        ],
+        "ru": [
+          "После напряжённой битвы существо было повержено. Его рога были остры как лезвия, и каждая атака могла пробить доспех.",
+          "Сражение закончилось, когда во время очередного рывка огромные рога застряли в земле, открыв возможность для решающего удара.",
+          "Уклоняясь от нескольких ударов острых рогов, удалось повалить зверя и положить конец угрозе."
+        ],
+        "zh": [
+          "经过激烈的战斗，这头生物被击败。它的鹿角如同刀刃，每一次冲撞都足以刺穿盔甲。",
+          "战斗在它的一次冲锋中结束，那对巨大的鹿角插入地面，使得最后一击成为可能。",
+          "在躲过多次锋利鹿角的攻击后，这头野兽终于被击倒，威胁随之结束。"
+        ],
+        "ja": [
+          "激しい戦闘の末、その生き物は倒された。枝角は刃のように鋭く、突進の一撃は鎧さえ貫きかねなかった。",
+          "戦闘は、突進した際に巨大な枝角が地面に突き刺さったことで終わり、その隙に決定打を与えた。",
+          "鋭い枝角の攻撃を何度もかわした末、その獣は倒され、脅威は消えた。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A criatura conseguiu romper o confronto e desaparecer entre as árvores.",
+          "Mesmo após o combate, a criatura continuou avançando pela floresta.",
+          "A agressividade da criatura forçou uma retirada antes que pudesse ser abatida."
+        ],
+        "en": [
+          "The creature broke through the clash and vanished among the trees.",
+          "Even after the fight, the creature continued moving through the forest.",
+          "The creature's aggression forced a retreat before it could be slain."
+        ],
+        "es": [
+          "La criatura logró romper el combate y desaparecer entre los árboles.",
+          "Incluso después de la lucha, la criatura siguió avanzando por el bosque.",
+          "La agresividad de la criatura obligó a retirarse antes de abatirla."
+        ],
+        "ru": [
+          "Существо прорвалось и исчезло среди деревьев.",
+          "Даже после боя зверь продолжил движение по лесу.",
+          "Агрессивность существа вынудила отступить."
+        ],
+        "zh": [
+          "这头生物突破战斗并消失在树林之中。",
+          "即使战斗结束，这头生物仍继续在森林中行动。",
+          "它的凶猛迫使队伍撤退。"
+        ],
+        "ja": [
+          "その生き物は戦闘を突破して木々の間へ消えた。",
+          "戦闘の後も、その獣は森の中を進み続けた。",
+          "激しい攻撃により撤退を余儀なくされた。"
+        ]
+      }
     }
   }
 }

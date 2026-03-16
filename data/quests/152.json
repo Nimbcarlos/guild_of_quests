@@ -28,7 +28,7 @@
   "required_quests": [],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -46,6 +46,108 @@
       "ru": "злобные псы",
       "zh": "恶犬",
       "ja": "ダイアドッグ"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "arcana": {
+        "pt": [
+          "Os predadores foram abatidos após um confronto rápido contra a matilha. Ao examinar os corpos, foi possível perceber um leve fluxo de mana, algo incomum para animais desse tipo.",
+          "A matilha foi eliminada depois de um combate intenso. Durante a inspeção dos cadáveres, vestígios de energia arcana puderam ser sentidos, como se alguma influência mágica tivesse alterado seu comportamento.",
+          "Após derrotar os animais, algo estranho foi notado nos corpos: um fraco resquício de mana parecia permanecer neles, sugerindo interferência mágica recente."
+        ],
+        "en": [
+          "The predators were slain after a swift clash with the pack. While examining the bodies, a faint flow of mana could be sensed, something unusual for creatures like these.",
+          "The pack was eliminated after a fierce fight. During inspection of the corpses, traces of arcane energy could be felt, as if some magical influence had altered their behavior.",
+          "After defeating the animals, something unusual was noticed in the bodies: a faint residue of mana lingered within them, suggesting recent magical interference."
+        ],
+        "es": [
+          "Los depredadores fueron abatidos tras un rápido enfrentamiento con la manada. Al examinar los cuerpos se percibió un leve flujo de maná, algo inusual en criaturas de este tipo.",
+          "La manada fue eliminada después de un combate intenso. Durante la inspección de los cadáveres se detectaron rastros de energía arcana, como si alguna influencia mágica hubiera alterado su comportamiento.",
+          "Tras derrotar a los animales, se notó algo extraño en los cuerpos: un débil residuo de maná parecía permanecer en ellos, sugiriendo una interferencia mágica reciente."
+        ],
+        "ru": [
+          "Хищники были уничтожены после быстрого столкновения со стаей. При осмотре тел ощущался слабый поток маны, что необычно для подобных существ.",
+          "Стая была ликвидирована после напряжённого боя. Во время осмотра тел ощущались следы арканической энергии, словно на животных повлияла магия.",
+          "После победы над животными стало заметно нечто странное: в их телах ощущались слабые остатки маны, указывающие на возможное магическое воздействие."
+        ],
+        "zh": [
+          "这些捕食者在短暂的战斗后被消灭。在检查尸体时，可以感觉到一股微弱的魔力流动，这对这种生物来说并不寻常。",
+          "这群动物在激烈战斗后被消灭。在检查尸体时发现了微弱的奥术能量痕迹，仿佛某种魔法影响了它们的行为。",
+          "击败这些动物后，人们发现了一件奇怪的事情：它们体内残留着微弱的魔力，暗示最近可能受到过魔法干扰。"
+        ],
+        "ja": [
+          "群れとの戦闘の末、捕食者たちは倒された。死体を調べたところ、そこから微かな魔力が感じられ、この種の動物には珍しい現象だった。",
+          "群れは激しい戦闘の末に排除された。死体を確認すると、弱い魔力の痕跡が感じられ、何らかの魔法が行動に影響していた可能性があった。",
+          "動物を倒した後、奇妙な点が見つかった。死体には微かな魔力の残滓が残っており、最近魔法の干渉を受けた可能性が示唆された。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "A matilha foi enfrentada e abatida após um confronto direto.",
+          "Após combater os predadores, a ameaça foi eliminada.",
+          "Os ataques cessaram depois que os animais foram derrotados."
+        ],
+        "en": [
+          "The pack was confronted and slain after a direct clash.",
+          "After fighting the predators, the threat was eliminated.",
+          "The attacks ceased once the animals were defeated."
+        ],
+        "es": [
+          "La manada fue enfrentada y abatida tras un enfrentamiento directo.",
+          "Tras combatir a los depredadores, la amenaza fue eliminada.",
+          "Los ataques cesaron después de que los animales fueran derrotados."
+        ],
+        "ru": [
+          "Стая была уничтожена после прямого столкновения.",
+          "После боя с хищниками угроза была устранена.",
+          "Нападения прекратились после уничтожения животных."
+        ],
+        "zh": [
+          "在正面交战后，这群捕食者被消灭。",
+          "在击败这些动物后，威胁被消除了。",
+          "当这些动物被击败后，袭击也随之停止。"
+        ],
+        "ja": [
+          "群れは直接の戦闘の末に倒された。",
+          "捕食者との戦闘の後、脅威は排除された。",
+          "動物が倒されたことで襲撃は止まった。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Os ataques continuaram após o confronto.",
+          "A matilha não pôde ser contida.",
+          "A ameaça permaneceu ativa."
+        ],
+        "en": [
+          "The attacks continued after the confrontation.",
+          "The pack could not be contained.",
+          "The threat remained active."
+        ],
+        "es": [
+          "Los ataques continuaron tras el enfrentamiento.",
+          "La manada no pudo ser contenida.",
+          "La amenaza permaneció activa."
+        ],
+        "ru": [
+          "Нападения продолжились после столкновения.",
+          "Стаю не удалось сдержать.",
+          "Угроза осталась активной."
+        ],
+        "zh": [
+          "战斗后袭击仍在继续。",
+          "这群动物未能被控制。",
+          "威胁仍然存在。"
+        ],
+        "ja": [
+          "戦闘の後も襲撃は続いた。",
+          "群れは抑え込めなかった。",
+          "脅威は残ったままだった。"
+        ]
+      }
     }
   }
 }

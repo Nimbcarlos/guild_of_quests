@@ -32,7 +32,7 @@
   ],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [
+  "required_perks": [
     4
   ],
   "forbidden_heroes": [],
@@ -52,6 +52,76 @@
       "ru": "тела существ",
       "zh": "生物的尸体",
       "ja": "生物の死体"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "A autópsia revelou que os órgãos das criaturas estavam saturados por resíduos de energia arcana, algo impossível de ocorrer por mutação natural.",
+          "Durante a análise dos corpos foi identificado um padrão incomum: a magia parecia ter sido inserida diretamente nos tecidos, como se algo estivesse alimentando as criaturas com energia arcana.",
+          "O exame confirmou que as alterações não eram naturais. Vestígios de mana concentrada foram encontrados ao redor do coração e do sistema nervoso das criaturas."
+        ],
+        "en": [
+          "The autopsy revealed that the creatures' organs were saturated with traces of arcane energy, something impossible to occur through natural mutation.",
+          "During the examination of the bodies, an unusual pattern was identified: the magic appeared to have been infused directly into the tissues.",
+          "The analysis confirmed the alterations were not natural. Concentrated traces of mana were found around the creatures' hearts and nervous systems."
+        ],
+        "es": [
+          "La autopsia reveló que los órganos de las criaturas estaban saturados con residuos de energía arcana, algo imposible en una mutación natural.",
+          "Durante el análisis se identificó un patrón extraño: la magia parecía haber sido infundida directamente en los tejidos.",
+          "El examen confirmó que las alteraciones no eran naturales. Se encontraron rastros concentrados de maná alrededor del corazón y del sistema nervioso."
+        ],
+        "ru": [
+          "Вскрытие показало, что органы существ пропитаны следами арканической энергии, что невозможно при естественной мутации.",
+          "Во время исследования тел был выявлен странный паттерн: магия словно была внедрена непосредственно в ткани.",
+          "Анализ подтвердил, что изменения не были естественными. Концентрированные следы маны обнаружены вокруг сердца и нервной системы."
+        ],
+        "zh": [
+          "解剖结果显示，这些生物的器官被奥术能量残留所浸透，这种情况不可能通过自然变异产生。",
+          "在对尸体进行分析时发现一种异常模式：魔力似乎被直接注入到组织之中。",
+          "检查确认这些变化并非自然产生。在心脏与神经系统周围发现了高度集中的魔力痕迹。"
+        ],
+        "ja": [
+          "解剖の結果、生物の臓器が秘術エネルギーの残滓で満たされていることが判明した。これは自然変異では説明できない。",
+          "遺体の分析中、奇妙なパターンが確認された。魔力が組織の内部に直接注ぎ込まれていたようだった。",
+          "調査の結果、この変化は自然なものではないと判明した。心臓や神経系の周囲に高濃度のマナの痕跡が見つかった。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A energia presente nos corpos reagiu de forma instável durante a análise, impossibilitando concluir o exame.",
+          "Os tecidos começaram a se deteriorar rapidamente sob a influência da magia residual, impedindo um estudo completo.",
+          "A instabilidade arcana presente nos corpos interrompeu o processo de autópsia antes que resultados confiáveis pudessem ser obtidos."
+        ],
+        "en": [
+          "The energy within the bodies reacted violently during the analysis, preventing the examination from being completed.",
+          "The tissues deteriorated rapidly under the influence of residual magic, stopping the study prematurely.",
+          "Arcane instability within the bodies interrupted the autopsy before reliable results could be obtained."
+        ],
+        "es": [
+          "La energía presente en los cuerpos reaccionó violentamente durante el análisis, impidiendo completar el examen.",
+          "Los tejidos comenzaron a deteriorarse rápidamente bajo la influencia de la magia residual.",
+          "La inestabilidad arcana interrumpió la autopsia antes de obtener resultados concluyentes."
+        ],
+        "ru": [
+          "Энергия внутри тел нестабильно отреагировала во время анализа, не позволив завершить исследование.",
+          "Ткани начали быстро разрушаться под воздействием остаточной магии.",
+          "Арканическая нестабильность прервала вскрытие до получения достоверных результатов."
+        ],
+        "zh": [
+          "尸体中的能量在分析过程中发生剧烈反应，使解剖无法继续。",
+          "组织在残余魔力的影响下迅速分解，研究被迫中止。",
+          "奥术不稳定性导致解剖过程提前终止。"
+        ],
+        "ja": [
+          "遺体に残っていた魔力が分析中に不安定に反応し、解剖を続けることができなかった。",
+          "残留する魔力の影響で組織が急速に崩壊し、研究は中断された。",
+          "秘術的不安定性により、信頼できる結果を得る前に解剖は停止した。"
+        ]
+      }
     }
   }
 }

@@ -30,7 +30,7 @@
   ],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [
+  "required_perks": [
     1,
     2
   ],
@@ -54,6 +54,76 @@
       "ru": "Король Слизней",
       "zh": "史莱姆王",
       "ja": "スライムキング"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "O núcleo regenerativo foi exposto sob pressão constante e destruído, fazendo com que o Rei Slime perdesse coesão e colapsasse.",
+          "A estrutura externa foi rompida até revelar o centro pulsante, que foi esmagado e encerrou completamente a regeneração.",
+          "A massa foi forçada à instabilidade, permitindo atingir o ponto vital; o núcleo foi aniquilado e o corpo se dissolveu em matéria inerte."
+        ],
+        "en": [
+          "The regenerative core was exposed under sustained pressure and destroyed, causing the Slime King to lose cohesion and collapse.",
+          "The outer structure was breached until the pulsing center was revealed and crushed, ending regeneration completely.",
+          "The mass was forced into instability, allowing the vital point to be struck; the core was annihilated and the body dissolved into inert matter."
+        ],
+        "es": [
+          "El núcleo regenerativo fue expuesto bajo presión constante y destruido, provocando que el Rey Slime perdiera cohesión y colapsara.",
+          "La estructura externa fue perforada hasta revelar el centro pulsante, que fue aplastado y puso fin a la regeneración.",
+          "La masa fue llevada a la inestabilidad, permitiendo atacar el punto vital; el núcleo fue aniquilado y el cuerpo se disolvió."
+        ],
+        "ru": [
+          "Регенеративное ядро было обнажено под постоянным давлением и уничтожено, после чего Король Слизней утратил форму и рухнул.",
+          "Внешняя структура была разрушена, пульсирующий центр раскрыт и сокрушён, что полностью остановило регенерацию.",
+          "Масса была доведена до нестабильности, жизненно важная точка поражена, ядро уничтожено, тело распалось."
+        ],
+        "zh": [
+          "再生核心在持续压制下被暴露并摧毁，史莱姆王随之失去凝聚并崩塌。",
+          "外层结构被破开，脉动中心被击碎，彻底终止了再生。",
+          "整体被逼至不稳定状态，命核被摧毁，巨体化为无活性的残渣。"
+        ],
+        "ja": [
+          "再生核が圧力の下で露出し破壊され、スライムキングは形を保てず崩壊した。",
+          "外殻が破られ脈打つ中心が露出し粉砕され、再生は完全に止まった。",
+          "質量が不安定化させられ、要となる核が破壊され、体は不活性な残滓となった。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "O núcleo não foi destruído e a regeneração manteve a estrutura ativa.",
+          "A exposição do ponto vital não foi suficiente para interromper o ciclo regenerativo.",
+          "A massa recuperou coesão antes da destruição completa do núcleo."
+        ],
+        "en": [
+          "The core was not destroyed and regeneration maintained the structure.",
+          "The exposed vital point was insufficient to interrupt the regenerative cycle.",
+          "The mass regained cohesion before the core could be fully destroyed."
+        ],
+        "es": [
+          "El núcleo no fue destruido y la regeneración mantuvo la estructura activa.",
+          "La exposición del punto vital no fue suficiente para interrumpir el ciclo regenerativo.",
+          "La masa recuperó cohesión antes de que el núcleo fuera destruido por completo."
+        ],
+        "ru": [
+          "Ядро не было уничтожено, и регенерация сохранила структуру.",
+          "Поражение жизненно важной точки оказалось недостаточным для остановки цикла восстановления.",
+          "Масса восстановила целостность до полного уничтожения ядра."
+        ],
+        "zh": [
+          "核心未被摧毁，再生维持了整体结构。",
+          "暴露的关键点不足以中断再生循环。",
+          "在核心被彻底破坏前，整体重新凝聚。"
+        ],
+        "ja": [
+          "核は破壊されず、再生が構造を維持した。",
+          "露出した要所への攻撃では再生を止められなかった。",
+          "核が完全に破壊される前に質量は再結束した。"
+        ]
+      }
     }
   }
 }

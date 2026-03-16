@@ -117,7 +117,7 @@ class QuestEditor(BoxLayout):
             "required_quests": [],
             "forbidden_quests": [],
             "required_fail_quests": [],
-            "required_heroes": [],
+            "required_perks": [],
             "forbidden_heroes": [],
             "_file": f"quest_{next_id}.json"
         }
@@ -174,7 +174,7 @@ class QuestEditor(BoxLayout):
         self.add_list_field('Required Quests', quest_data['required_quests'], 'required_quests', 'quest')
         self.add_list_field('Forbidden Quests', quest_data['forbidden_quests'], 'forbidden_quests', 'quest')
         self.add_list_field('Required Fail Quests', quest_data['required_fail_quests'], 'required_fail_quests', 'quest')
-        self.add_list_field('Required Heroes', quest_data['required_heroes'], 'required_heroes', 'hero')
+        self.add_list_field('Required Heroes', quest_data['required_perks'], 'required_perks', 'hero')
         self.add_list_field('Forbidden Heroes', quest_data['forbidden_heroes'], 'forbidden_heroes', 'hero')
         
         # Botões de ação

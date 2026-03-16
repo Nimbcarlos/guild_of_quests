@@ -29,7 +29,7 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "return_on_fail": false,
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -48,5 +48,139 @@
       "zh": "哥布林",
       "ja": "ゴブリン"
     }
+  },
+  "conclusion": {
+    "success": {
+      "survival": {
+        "pt": [
+          "Segui os rastros dos goblins pelas proximidades das vilas e percebi algo estranho: havia mais pegadas do que os inimigos encontrados.",
+          "Analisei as trilhas deixadas na terra e notei marcas demais para o pequeno grupo abatido.",
+          "Ao rastrear o caminho pela vegetação, ficou claro que mais goblins passaram por ali do que os que enfrentei."
+        ],
+        "en": [
+          "I followed the goblin tracks near the villages and noticed something odd: there were more footprints than enemies encountered.",
+          "Studying the tracks in the soil, I found far more footprints than the small group defeated.",
+          "Tracking the path through the brush made it clear that more goblins had passed through than the ones I fought."
+        ],
+        "es": [
+          "Seguí los rastros de los goblins cerca de las aldeas y noté algo extraño: había más huellas que enemigos encontrados.",
+          "Al analizar las marcas en la tierra, descubrí más huellas de las que justificaba el grupo abatido.",
+          "Siguiendo el rastro por la vegetación, quedó claro que habían pasado más goblins por allí."
+        ],
+        "ru": [
+          "Я проследил следы гоблинов возле деревень и заметил странность: следов оказалось больше, чем встреченных врагов.",
+          "Изучая отпечатки на земле, я обнаружил, что их значительно больше, чем у уничтоженной группы.",
+          "По следам в зарослях стало ясно, что здесь проходило больше гоблинов."
+        ],
+        "zh": [
+          "我追踪哥布林在村庄附近留下的足迹，却发现异常：脚印数量多于遇到的敌人。",
+          "通过检查地面的痕迹，我发现脚印远多于被消灭的那一小群。",
+          "沿着灌木中的踪迹追查后，很明显经过这里的哥布林数量更多。"
+        ],
+        "ja": [
+          "村の郊外でゴブリンの足跡を追ったところ、不自然な点に気付いた。倒した数より足跡の方が多かった。",
+          "地面の痕跡を調べると、討伐した集団よりはるかに多くの足跡が残っていた。",
+          "草むらの跡を追ううちに、遭遇した数以上のゴブリンが通ったことが明らかになった。"
+        ]
+      },
+      "investigation": {
+        "pt": [
+          "Examinei o local do confronto e identifiquei pegadas adicionais que não pertenciam aos goblins abatidos.",
+          "Observando as marcas no terreno, concluí que havia mais movimento do que o pequeno grupo encontrado.",
+          "A análise do terreno revelou trilhas extras indicando que outros goblins passaram por ali recentemente."
+        ],
+        "en": [
+          "Examining the battle site, I identified additional footprints that did not belong to the goblins slain.",
+          "Observing the marks on the ground, I concluded there had been more movement than the small group encountered.",
+          "My analysis of the terrain revealed extra tracks showing that other goblins had recently passed through."
+        ],
+        "es": [
+          "Examiné el lugar del combate y encontré huellas adicionales que no pertenecían a los goblins abatidos.",
+          "Observando las marcas en el suelo, concluí que hubo más movimiento que el pequeño grupo encontrado.",
+          "El análisis del terreno reveló rastros extra que indican que otros goblins pasaron por allí."
+        ],
+        "ru": [
+          "Осмотрев место боя, я обнаружил дополнительные следы, не принадлежащие уничтоженным гоблинам.",
+          "По отметинам на земле стало ясно, что здесь двигалось больше существ, чем найденная группа.",
+          "Анализ местности показал дополнительные следы, указывающие на других гоблинов."
+        ],
+        "zh": [
+          "检查战斗现场时，我发现了不属于被击败哥布林的额外脚印。",
+          "从地面的痕迹判断，这里曾有比遇到的那群更多的活动。",
+          "对地形的分析显示还有额外的足迹，说明还有其他哥布林经过。"
+        ],
+        "ja": [
+          "戦闘地点を調べると、倒したゴブリンとは一致しない追加の足跡が見つかった。",
+          "地面の痕跡から、小さな集団以上の動きがあったと判断した。",
+          "地形を詳しく確認すると、他のゴブリンが通過した追加の跡が残っていた。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Encontrei o grupo de goblins nas proximidades das vilas e os eliminei antes que pudessem causar novos ataques.",
+          "Interceptei os goblins na estrada e terminei o combate rapidamente.",
+          "Localizei o pequeno bando e o derrotei antes que voltasse a ameaçar os moradores."
+        ],
+        "en": [
+          "I found the goblin group near the villages and eliminated them before they could attack again.",
+          "I intercepted the goblins on the road and ended the fight quickly.",
+          "I located the small band and defeated them before they threatened the villagers again."
+        ],
+        "es": [
+          "Encontré al grupo de goblins cerca de las aldeas y los eliminé antes de que atacaran de nuevo.",
+          "Intercepté a los goblins en el camino y terminé el combate rápidamente.",
+          "Localicé a la pequeña banda y la derroté antes de que amenazara a los aldeanos."
+        ],
+        "ru": [
+          "Я нашёл группу гоблинов возле деревень и уничтожил их до новых нападений.",
+          "Я перехватил гоблинов на дороге и быстро завершил бой.",
+          "Я обнаружил небольшую банду и победил её, прежде чем она снова угрожала жителям."
+        ],
+        "zh": [
+          "我在村庄附近找到了那群哥布林，并在它们再次袭击前将其消灭。",
+          "我在道路上拦截了哥布林，很快结束了战斗。",
+          "我找到这支小队并击败了它们，避免再次威胁村民。"
+        ],
+        "ja": [
+          "村の郊外でゴブリンの集団を見つけ、再び襲撃する前に排除した。",
+          "道でゴブリンを迎え撃ち、短時間で戦闘を終わらせた。",
+          "小さな群れを発見し、村人を脅かす前に倒した。"
+        ]
+      }
+    },
+"failure": {
+  "default": {
+    "pt": [
+      "Os goblins dispersaram antes que pudessem ser eliminados completamente, desaparecendo pela região.",
+      "O confronto se tornou desfavorável e foi necessário recuar antes de concluir a missão.",
+      "O combate chamou reforços goblins e a operação teve de ser interrompida."
+    ],
+    "en": [
+      "The goblins scattered before they could be fully eliminated, disappearing into the surroundings.",
+      "The fight turned unfavorable and a retreat was necessary before the task could be completed.",
+      "The clash drew additional goblin reinforcements and the operation had to be aborted."
+    ],
+    "es": [
+      "Los goblins se dispersaron antes de poder ser eliminados por completo.",
+      "El combate se volvió desfavorable y fue necesario retirarse.",
+      "El enfrentamiento atrajo refuerzos goblins y la operación tuvo que ser cancelada."
+    ],
+    "ru": [
+      "Гоблины рассеялись до того, как их удалось уничтожить полностью.",
+      "Сражение стало неблагоприятным, и пришлось отступить.",
+      "Столкновение привлекло подкрепление гоблинов, и операцию пришлось прекратить."
+    ],
+    "zh": [
+      "哥布林在被完全消灭前四散逃离。",
+      "战斗局势变得不利，被迫撤退。",
+      "战斗吸引了更多哥布林增援，行动被迫中止。"
+    ],
+    "ja": [
+      "ゴブリンは完全に排除される前に散り散りになって逃げた。",
+      "戦況が不利になり、任務の継続は断念された。",
+      "戦闘がゴブリンの増援を呼び寄せ、作戦は中断された。"
+    ]
+  }
+}
   }
 }

@@ -30,7 +30,7 @@
   ],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [
     3
   ],
@@ -50,6 +50,76 @@
       "ru": "нечестивые",
       "zh": "亡灵",
       "ja": "アンデッド"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Ao chegar ao assentamento, vários corpos haviam se levantado como mortos-vivos durante a noite. As criaturas foram enfrentadas e destruídas antes que pudessem alcançar os sobreviventes da tribo.",
+          "Os mortos-vivos que emergiram entre os corpos foram abatidos após um confronto intenso. Os poucos membros da tribo que restavam conseguiram se abrigar enquanto a ameaça era eliminada.",
+          "A origem dos mortos-vivos não pôde ser determinada, mas as criaturas foram destruídas antes que o assentamento fosse completamente tomado. Os sobreviventes foram protegidos."
+        ],
+        "en": [
+          "Upon reaching the settlement, several of the fallen had risen as undead during the night. The creatures were confronted and destroyed before they could reach the tribe's survivors.",
+          "The undead that emerged among the bodies were put down after a fierce confrontation. The remaining tribe members managed to take shelter while the threat was eliminated.",
+          "The origin of the undead could not be determined, but the creatures were destroyed before the settlement could be overrun. The survivors were protected."
+        ],
+        "es": [
+          "Al llegar al asentamiento, varios de los cuerpos se habían levantado como no-muertos durante la noche. Las criaturas fueron enfrentadas y destruidas antes de que alcanzaran a los sobrevivientes de la tribu.",
+          "Los no-muertos que surgieron entre los cuerpos fueron abatidos tras un combate intenso. Los pocos miembros de la tribu que quedaban lograron refugiarse mientras la amenaza era eliminada.",
+          "El origen de los no-muertos no pudo determinarse, pero las criaturas fueron destruidas antes de que el asentamiento fuera tomado. Los sobrevivientes fueron protegidos."
+        ],
+        "ru": [
+          "Когда было достигнуто поселение, несколько павших уже поднялись как нежить. Существа были уничтожены прежде, чем смогли добраться до выживших членов племени.",
+          "Нежить, поднявшаяся среди тел, была уничтожена после тяжёлого боя. Оставшиеся члены племени смогли укрыться, пока угроза устранялась.",
+          "Источник появления нежити установить не удалось, но существа были уничтожены до того, как поселение оказалось захвачено. Выжившие были защищены."
+        ],
+        "zh": [
+          "抵达定居点时，部分尸体在夜间已经化为亡灵。那些生物在接近部落幸存者之前就被消灭了。",
+          "从尸体中出现的亡灵在激烈的战斗后被击败。剩下的部落成员得以躲藏并幸存下来。",
+          "亡灵出现的原因尚未确定，但它们在定居点被彻底吞没之前就被消灭了。幸存者得到了保护。"
+        ],
+        "ja": [
+          "集落に到着した時、倒れていた者たちの一部が夜の間にアンデッドとして蘇っていた。生存者に近づく前にそれらは倒された。",
+          "死体の中から現れたアンデッドは激しい戦闘の末に撃破された。残っていた部族の者たちは避難することができた。",
+          "アンデッドが現れた原因は特定できなかったが、集落が完全に制圧される前にすべて排除された。生存者は守られた。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Os mortos-vivos que surgiram entre os corpos avançaram pelo assentamento antes que pudessem ser contidos.",
+          "O número de mortos-vivos que emergiu durante a noite superou a capacidade de defesa do local.",
+          "A presença dos mortos-vivos forçou uma retirada antes que os sobreviventes pudessem ser completamente protegidos."
+        ],
+        "en": [
+          "The undead that rose among the bodies spread through the settlement before they could be contained.",
+          "The number of undead that emerged during the night overwhelmed the defenses of the site.",
+          "The presence of the undead forced a withdrawal before the survivors could be fully protected."
+        ],
+        "es": [
+          "Los no-muertos que surgieron entre los cuerpos se extendieron por el asentamiento antes de poder ser contenidos.",
+          "El número de no-muertos que apareció durante la noche superó la defensa del lugar.",
+          "La presencia de los no-muertos obligó a retirarse antes de que los sobrevivientes pudieran ser protegidos."
+        ],
+        "ru": [
+          "Нежить, поднявшаяся среди тел, распространилась по поселению прежде, чем её удалось сдержать.",
+          "Количество нежити, появившейся ночью, превысило возможности защиты поселения.",
+          "Присутствие нежити вынудило отступить до того, как удалось полностью защитить выживших."
+        ],
+        "zh": [
+          "从尸体中复苏的亡灵在被控制之前已经扩散到整个定居点。",
+          "夜间出现的亡灵数量超过了防御能力。",
+          "亡灵的出现迫使队伍撤退，幸存者未能得到完全保护。"
+        ],
+        "ja": [
+          "死体から現れたアンデッドは、制御される前に集落へ広がった。",
+          "夜の間に現れたアンデッドの数は、防衛能力を上回っていた。",
+          "アンデッドの出現により、生存者を完全に守る前に撤退を余儀なくされた。"
+        ]
+      }
     }
   }
 }

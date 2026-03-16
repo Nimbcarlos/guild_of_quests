@@ -28,7 +28,7 @@
   "required_quests": [],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -46,6 +46,140 @@
       "ru": "члены племени",
       "zh": "部落成员",
       "ja": "部族のメンバー"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "stealth": {
+        "pt": [
+          "Foi possível entrar no assentamento sem levantar alarme e encontrar o filho do nobre entre as tendas. O jovem foi retirado discretamente do local. Estranhamente, ele não parecia estar sendo mantido como refém.",
+          "A aproximação foi feita pelas sombras e o jovem foi localizado no interior do assentamento. O resgate ocorreu sem confronto, embora algo chamasse atenção: o rapaz não parecia um prisioneiro.",
+          "O assentamento foi infiltrado e o filho do nobre foi retirado sem que a tribo percebesse. Mesmo assim, a impressão permaneceu — ele não parecia estar ali contra a própria vontade."
+        ],
+        "en": [
+          "The settlement was infiltrated without raising an alarm and the noble's son was located among the tents. He was quietly extracted. Strangely, he did not seem to be held as a hostage.",
+          "The approach was made through the shadows and the young man was found inside the settlement. The extraction succeeded without a fight, though something felt off: he did not appear to be a prisoner.",
+          "The settlement was infiltrated and the noble's son was removed unnoticed. Even so, the impression remained — he did not seem to be there against his will."
+        ],
+        "es": [
+          "Fue posible entrar al asentamiento sin alarmas y encontrar al hijo del noble entre las tiendas. El joven fue extraído discretamente. Extrañamente, no parecía estar como rehén.",
+          "El acercamiento fue por las sombras y el joven fue localizado dentro del asentamiento. El rescate ocurrió sin combate, aunque algo llamó la atención: no parecía un prisionero.",
+          "Se infiltró el asentamiento y el hijo del noble fue retirado sin que la tribu lo notara. Aun así, quedó la impresión de que no estaba allí contra su voluntad."
+        ],
+        "ru": [
+          "Удалось проникнуть в поселение без тревоги и найти сына дворянина среди паток. Юношу незаметно вывели. Странно, но он не был похож на заложника.",
+          "Приближение было совершено через тени, и юноша был обнаружен внутри поселения. Спасение прошло без боя, но кое-что привлекло внимание: он не выглядел как узник.",
+          "В поселение удалось проникнуть, и сын дворянина был выведен незаметно для племени. Тем не менее, осталось впечатление — он находился там не против своей воли."
+        ],
+        "zh": [
+          "成功潜入定居点且未惊动任何人，在帐篷间找到了贵族之子。年轻人被悄悄带离。奇怪的是，他看起来并不像被当作人质。",
+          "通过阴影靠近并在定居点内部找到了年轻人。救援在没有战斗的情况下完成，但有一点引起了注意：他看起来不像个囚犯。",
+          "潜入了定居点并在部落未察觉的情况下带走了贵族之子。即便如此，印象依然存在——他似乎并非违背意愿留在那里。"
+        ],
+        "ja": [
+          "警報を鳴らさずに集落へ侵入し、テントの間で貴族の息子を見つけました。若者は密かに連れ出されましたが、奇妙なことに、人質にされているようには見えませんでした。",
+          "影に乗じて接近し、集落内で若者を発見しました。戦闘なしで救出できましたが、彼は囚人のようには見えず、どこか違和感がありました。",
+          "集落に潜入し、部族に気づかれずに貴族の息子を連れ出しました。それでも、彼は自分の意志に反してそこにいたわけではないという印象が残りました。"
+        ]
+      },
+      "diplomacy": {
+        "pt": [
+          "Após conversar com os membros da tribo, o jovem foi entregue sem resistência. Ainda assim, ficou a impressão de que ele não estava sendo mantido ali como refém.",
+          "A tensão foi resolvida por diálogo e a tribo permitiu que o filho do nobre partisse. Curiosamente, o rapaz não parecia um prisioneiro entre eles.",
+          "Os membros da tribo aceitaram entregar o jovem após negociação. Durante a conversa ficou claro que a situação parecia diferente de um sequestro."
+        ],
+        "en": [
+          "After speaking with the tribesmen, the young man was handed over without resistance. Even so, the impression remained that he had not been held hostage.",
+          "The tension was resolved through dialogue and the tribe allowed the noble's son to leave. Curiously, the young man did not appear to be a prisoner among them.",
+          "The tribe agreed to return the young man after negotiation. During the exchange it became clear the situation did not resemble a kidnapping."
+        ],
+        "es": [
+            "Tras hablar con la tribu, el joven fue entregado sin resistencia. Aun así, quedó la impresión de que no estaba allí como rehén.",
+            "La tensión se resolvió mediante el diálogo y la tribu permitió que el hijo del noble partiera. Curiosamente, el muchacho no parecía un prisionero entre ellos.",
+            "Los miembros de la tribu aceptaron entregar al joven tras negociar. Durante la charla quedó claro que la situación no parecía un secuestro."
+          ],
+          "ru": [
+            "После разговора с членами племени юноша был передан без сопротивления. Тем не менее, сложилось впечатление, что его не держали в заложниках.",
+            "Напряженность была разрешена путем диалога, и племя позволило сыну дворянина уйти. Любопытно, но юноша не выглядел среди них узником.",
+            "Члены племени согласились выдать юношу после переговоров. Во время беседы стало ясно, что ситуация совсем не похожа на похищение."
+          ],
+          "zh": [
+            "在与部落成员交谈后，年轻人被毫无抵抗地交了出来。尽管如此，给人的印象是他并未被当作人质扣押。",
+            "通过对话化解了紧张局势，部落允许贵族之子离开。奇怪的是，他在他们中间看起来并不像个囚犯。",
+            "部落成员在谈判后同意交出年轻人。在交谈中，显而易见的情况并不像是一场绑架。"
+          ],
+          "ja": [
+            "部族の者たちと話し合った後、若者は抵抗なく引き渡されました。それでも、彼が人質として拘束されていたようには見えませんでした。",
+            "対話によって緊張は解消され、部族は貴族の息子が去ることを許可しました。奇妙なことに、彼は彼らの中で囚人のようには見えませんでした。",
+            "交渉の結果、部族は若者を引き渡すことに同意しました。話し合いの中で、状況が誘拐とは異なることが明らかになりました。"
+          ]
+      },
+      "default": {
+        "pt": [
+          "Os guerreiros da tribo tentaram impedir o resgate e o confronto foi inevitável. Após a luta, o jovem foi recuperado. Mesmo assim, algo parecia estranho: ele não demonstrava ter sido mantido como refém.",
+          "A aproximação levou a combate aberto no assentamento. Os guerreiros da tribo foram derrotados e o filho do nobre foi recuperado, embora sua atitude não lembrasse a de alguém recém-libertado.",
+          "O confronto no assentamento terminou com os guerreiros da tribo abatidos. O jovem foi levado de volta, mas a impressão permaneceu — ele não parecia ter sido um prisioneiro."
+        ],
+        "en": [
+          "The tribesmen resisted the rescue and the situation escalated into open combat. After the fighting ended, the noble's son was recovered. Still, something felt odd: he did not act like a rescued hostage.",
+          "The approach turned into open battle within the settlement. The tribal warriors were defeated and the noble's son was retrieved, though he did not behave like someone recently freed.",
+          "The clash in the settlement ended with the tribal warriors slain. The young man was taken back, but the impression remained — he did not seem to have been a prisoner."
+        ],
+        "es": [
+            "Los guerreros de la tribu intentaron impedir el rescate y el combate fue inevitable. Tras la lucha, el joven fue recuperado. Aun así, algo parecía extraño: no actuaba como un rehén.",
+            "El acercamiento llevó a un combate abierto. Los guerreros fueron derrotados y el hijo del noble recuperado, aunque su actitud no era la de alguien recién liberado.",
+            "El enfrentamiento terminó con los guerreros abatidos. El joven fue llevado de vuelta, pero quedó la impresión de que no había sido un prisionero."
+          ],
+          "ru": [
+            "Воины племени пытались помешать спасению, и столкновение стало неизбежным. После боя юноша был возвращен. И все же что-то казалось странным: он не вел себя как заложник.",
+            "Приближение привело к открытому бою. Воины племени были повержены, а сын дворянина возвращен, хотя его поведение не было похоже на поведение только что освобожденного человека.",
+            "Столкновение закончилось гибелью воинов племени. Юношу забрали обратно, но осталось впечатление — он не был похож на пленника."
+          ],
+          "zh": [
+            "部落战士试图阻止营救，冲突不可避免。战斗结束后，贵族之子被救回。即便如此，事情还是有些奇怪：他并没有表现出被人质对待的样子。",
+            "靠近演变成了公开战斗。部落战士被击败，贵族之子被找回，尽管他的态度并不像是一个刚获得自由的人。",
+            "定居点的冲突以部落战士被击杀告终。年轻人被带了回去，但印象依然存在——他看起来并不像是个囚犯。"
+          ],
+          "ja": [
+            "部族の戦士たちが救出を阻もうとし、衝突は避けられませんでした。戦いの後、若者は回収されました。それでも、人質にされていたにしては彼の様子は奇妙でした。",
+            "接近が集落内での戦闘に発展しました。戦士たちは敗北し、貴族の息子は取り戻されましたが、彼の態度は解放されたばかりの者のようではありませんでした。",
+            "集落での衝突は部族の戦士たちの死で終わりました。若者は連れ戻されましたが、彼が囚人であったようには見えないという印象が残りました。"
+          ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A presença dos heróis foi percebida cedo demais e a tentativa de resgate teve de ser abandonada.",
+          "A situação no assentamento se tornou hostil e não foi possível recuperar o jovem.",
+          "A resistência da tribo forçou uma retirada antes que o filho do nobre pudesse ser localizado."
+        ],
+        "en": [
+          "The heroes were detected too early and the rescue attempt had to be abandoned.",
+          "The situation in the settlement turned hostile and the young man could not be recovered.",
+          "Tribal resistance forced a withdrawal before the noble's son could be secured."
+        ],
+        "es": [
+          "La presencia de los héroes fue detectada demasiado pronto y el intento de rescate tuvo que ser abandonado.",
+          "La situación en el asentamiento se volvió hostil y no fue posible recuperar al joven.",
+          "La resistencia de la tribu forzó una retirada antes de que el hijo del noble pudiera ser localizado."
+        ],
+        "ru": [
+          "Присутствие героев было замечено слишком рано, и попытку спасения пришлось оставить.",
+          "Ситуация в поселении стала враждебной, и вернуть юношу не удалось.",
+          "Сопротивление племени вынудило отступить до того, как сын дворянина был найден."
+        ],
+        "zh": [
+          "英雄们的踪迹过早被发现，救援行动不得不放弃。",
+          "定居点的情况变得敌对，无法救回年轻人。",
+          "部落的抵抗迫使在找到贵族之子前就撤退了。"
+        ],
+        "ja": [
+          "英雄たちの存在が早くに見つかり、救出作戦は断念せざるを得ませんでした。",
+          "集落の状況が険悪になり、若者を回収することはできませんでした。",
+          "部族の抵抗により、貴族の息子を特定する前に撤退を余儀なくされました。"
+        ]
+      }
     }
   }
 }

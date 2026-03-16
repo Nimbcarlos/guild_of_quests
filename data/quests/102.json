@@ -28,7 +28,7 @@
   "required_quests": [],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -46,6 +46,76 @@
       "ru": "маленькие слизи",
       "zh": "小史莱姆",
       "ja": "小さなスライム"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Avancei pelo milharal e eliminei os slimes um a um até que não restasse mais movimento entre as plantações.",
+          "Atraí os grupos maiores para terreno aberto e os destruí antes que pudessem se dispersar novamente.",
+          "Varri o campo inteiro, esmagando cada criatura viscosa até que o milharal ficasse livre da infestação."
+        ],
+        "en": [
+          "I advanced through the cornfield and eliminated the slimes one by one until nothing moved among the crops.",
+          "I lured the larger clusters into open ground and destroyed them before they could scatter again.",
+          "I swept the entire field, crushing every viscous creature until the infestation was cleared."
+        ],
+        "es": [
+          "Avancé por el maizal y eliminé a los slimes uno por uno hasta que nada volvió a moverse entre las plantas.",
+          "Atraje a los grupos más grandes a terreno abierto y los destruí antes de que pudieran dispersarse.",
+          "Barrí todo el campo, aplastando cada criatura viscosa hasta limpiar la infestación."
+        ],
+        "ru": [
+          "Я продвинулся по полю и уничтожил слизней одного за другим, пока среди посевов не осталось движения.",
+          "Я выманил крупные группы на открытое место и уничтожил их до того, как они смогли рассеяться.",
+          "Я прочесал всё поле, раздавив каждое вязкое существо и очистив урожай."
+        ],
+        "zh": [
+          "我穿过玉米地，逐一消灭史莱姆，直到田间不再有任何动静。",
+          "我将较大的群体引到开阔地带，在它们分散前将其消灭。",
+          "我清扫整片农田，粉碎每一只粘液生物，彻底解除侵扰。"
+        ],
+        "ja": [
+          "トウモロコシ畑を進み、動くものがなくなるまで一体ずつ排除した。",
+          "大きな群れを開けた場所へ誘導し、散開する前に殲滅した。",
+          "畑全体を踏破し、すべての粘性生物を潰して被害を終わらせた。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Não consegui conter o número de slimes e parte do milharal foi consumida.",
+          "Fui forçado a recuar antes de eliminar toda a infestação.",
+          "Os slimes se dispersaram e continuaram a devorar a plantação."
+        ],
+        "en": [
+          "I failed to contain their numbers and part of the field was consumed.",
+          "I was forced to withdraw before eliminating the entire infestation.",
+          "The slimes scattered and continued devouring the crops."
+        ],
+        "es": [
+          "No logré contener su número y parte del maizal fue consumido.",
+          "Me vi obligado a retirarme antes de eliminar toda la infestación.",
+          "Los slimes se dispersaron y continuaron devorando la plantación."
+        ],
+        "ru": [
+          "Мне не удалось сдержать их численность, и часть поля была уничтожена.",
+          "Мне пришлось отступить до полного устранения угрозы.",
+          "Слизни рассеялись и продолжили пожирать посевы."
+        ],
+        "zh": [
+          "我未能控制数量，部分农田被吞噬。",
+          "在彻底清除前被迫撤退。",
+          "史莱姆分散开来，继续吞食庄稼。"
+        ],
+        "ja": [
+          "数を抑えきれず、畑の一部が食い荒らされた。",
+          "完全に排除する前に撤退を余儀なくされた。",
+          "スライムは散開し、作物を食べ続けた。"
+        ]
+      }
     }
   }
 }

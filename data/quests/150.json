@@ -28,7 +28,7 @@
   "required_quests": [],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -46,6 +46,108 @@
       "ru": "гигантские крысы",
       "zh": "巨大的老鼠",
       "ja": "巨大なネズミ"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "arcana": {
+        "pt": [
+          "Os ratos gigantes foram abatidos dentro do celeiro antes que destruíssem os mantimentos. Durante a inspeção dos corpos, foi possível sentir um leve fluxo de mana emanando deles, algo incomum para criaturas desse tipo.",
+          "O celeiro foi limpo após eliminar os ratos gigantes. Ao examinar os cadáveres, uma presença arcana fraca pôde ser percebida, como se alguma energia mágica tivesse influenciado as criaturas.",
+          "Após derrotar os ratos gigantes, os corpos revelaram algo estranho: um resquício de mana parecia emanar deles, sugerindo alguma interferência mágica recente."
+        ],
+        "en": [
+          "The giant rats were slain inside the barn before they could destroy the stored food. While inspecting the bodies, a faint flow of mana could be sensed emanating from them, something unusual for creatures like these.",
+          "The barn was cleared after eliminating the giant rats. Examining the corpses revealed a weak arcane presence, as if some magical energy had influenced the creatures.",
+          "After defeating the giant rats, something unusual was noticed: traces of mana seemed to emanate from their bodies, suggesting recent magical interference."
+        ],
+        "es": [
+          "Las ratas gigantes fueron abatidas dentro del granero antes de que destruyeran los alimentos. Al inspeccionar los cuerpos, se pudo percibir un leve flujo de maná emanando de ellos, algo inusual para criaturas de este tipo.",
+          "El granero fue despejado tras eliminar a las ratas gigantes. Al examinar los cadáveres se percibió una débil presencia arcana, como si alguna energía mágica hubiera influido en las criaturas.",
+          "Tras derrotar a las ratas gigantes, los cuerpos revelaron algo extraño: restos de maná parecían emanar de ellos, sugiriendo alguna interferencia mágica reciente."
+        ],
+        "ru": [
+          "Гигантские крысы были уничтожены в амбаре прежде, чем смогли уничтожить запасы пищи. При осмотре тел ощущался слабый поток маны, исходящий от них, что необычно для таких существ.",
+          "Амбар был очищен после уничтожения гигантских крыс. Осмотр тел показал слабое арканическое присутствие, словно на существ повлияла некая магическая энергия.",
+          "После уничтожения гигантских крыс стало заметно нечто странное: от их тел исходили остатки маны, что может указывать на недавнее магическое воздействие."
+        ],
+        "zh": [
+          "巨型老鼠在谷仓中被消灭，食物得以保存。在检查尸体时，可以感觉到一股微弱的魔力从它们体内散发出来，这对这种生物来说并不寻常。",
+          "清理完谷仓里的巨型老鼠后，在检查尸体时发现了一种微弱的奥术气息，仿佛这些生物曾受到某种魔法影响。",
+          "在击败这些巨型老鼠后，发现了一件奇怪的事情：它们的尸体中似乎残留着微弱的魔力，暗示最近可能受过魔法干扰。"
+        ],
+        "ja": [
+          "巨大なネズミは納屋の中で倒され、食料が守られた。死体を調べた際、それらから微かな魔力が漂っていることに気づいたが、この種の生き物には珍しい現象だった。",
+          "巨大なネズミを排除した後、納屋は安全になった。死体を確認すると、弱い魔力の痕跡が感じられ、何らかの魔法が影響していた可能性があった。",
+          "巨大なネズミを倒した後、奇妙なことが判明した。死体からわずかな魔力が漏れており、最近魔法の干渉を受けた可能性が示唆された。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Os ratos gigantes foram abatidos dentro do celeiro antes que destruíssem os alimentos armazenados.",
+          "Após enfrentar as criaturas no interior do celeiro, os ratos gigantes foram eliminados e os mantimentos ficaram protegidos.",
+          "O celeiro foi limpo após derrotar os ratos gigantes que infestavam o local."
+        ],
+        "en": [
+          "The giant rats were slain inside the barn before they could destroy the stored food.",
+          "After confronting the creatures inside the barn, the giant rats were eliminated and the supplies were secured.",
+          "The barn was cleared after defeating the giant rats that had infested the place."
+        ],
+        "es": [
+          "Las ratas gigantes fueron abatidas dentro del granero antes de que destruyeran los alimentos almacenados.",
+          "Tras enfrentar a las criaturas en el interior del granero, las ratas gigantes fueron eliminadas y los suministros quedaron protegidos.",
+          "El granero fue limpiado después de derrotar a las ratas gigantes que infestaban el lugar."
+        ],
+        "ru": [
+          "Гигантские крысы были уничтожены в амбаре прежде, чем успели уничтожить запасы пищи.",
+          "После столкновения с существами внутри амбара гигантские крысы были ликвидированы, и запасы были сохранены.",
+          "Амбар был очищен после уничтожения гигантских крыс, заполонивших его."
+        ],
+        "zh": [
+          "巨型老鼠在谷仓中被消灭，储存的食物得以保全。",
+          "在谷仓内与这些生物交战后，巨型老鼠被消灭，粮食得以保护。",
+          "清理完入侵的巨型老鼠后，谷仓重新恢复了安全。"
+        ],
+        "ja": [
+          "巨大なネズミは納屋の中で倒され、保存されていた食料は守られた。",
+          "納屋の中で戦闘の末、巨大なネズミは排除され、物資は安全に保たれた。",
+          "納屋に巣食っていた巨大なネズミはすべて排除された。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Os ratos gigantes continuaram infestando o celeiro e parte dos mantimentos foi destruída.",
+          "As criaturas não puderam ser contidas e permaneceram dentro do celeiro.",
+          "A infestação de ratos gigantes não foi eliminada e os alimentos permaneceram ameaçados."
+        ],
+        "en": [
+          "The giant rats continued to infest the barn and part of the stored food was destroyed.",
+          "The creatures could not be contained and remained inside the barn.",
+          "The infestation of giant rats was not eliminated and the food supplies remained threatened."
+        ],
+        "es": [
+          "Las ratas gigantes continuaron infestando el granero y parte de los alimentos fue destruida.",
+          "Las criaturas no pudieron ser contenidas y permanecieron dentro del granero.",
+          "La infestación de ratas gigantes no fue eliminada y los alimentos siguieron en peligro."
+        ],
+        "ru": [
+          "Гигантские крысы продолжили заражать амбар, и часть запасов была уничтожена.",
+          "Существ не удалось сдержать, и они остались внутри амбара.",
+          "Нашествие гигантских крыс не было остановлено, и запасы пищи остались под угрозой."
+        ],
+        "zh": [
+          "巨型老鼠继续在谷仓中肆虐，部分粮食被破坏。",
+          "这些生物未能被控制，仍然留在谷仓中。",
+          "巨型老鼠的入侵没有被消灭，食物仍然处于危险之中。"
+        ],
+        "ja": [
+          "巨大なネズミは納屋に残り続け、食料の一部が破壊された。",
+          "クリーチャーは抑え込めず、納屋の中に残ったままだった。",
+          "巨大なネズミの被害は止められず、食料は依然として危険にさらされている。"
+        ]
+      }
     }
   }
 }

@@ -1,21 +1,21 @@
 {
   "id": 132,
   "name": {
-    "pt": "Presença Sagrada",
-    "en": "The Mystery of the Hidden Sanctuary",
-    "es": "El Misterio del Santuario Oculto",
-    "ru": "Тайна Скрытого Святилища",
-    "zh": "隐藏圣所之谜",
-    "ja": "隠された聖域の謎",
-    "kr": "신성한 현존"
+    "pt": "Presença Ancestral",
+    "en": "The Mystery of the Hidden Presence",
+    "es": "El Misterio de la Presencia Oculta",
+    "ru": "Тайна Скрытого Присутствия",
+    "zh": "隐藏存在之谜",
+    "ja": "隠された存在の謎",
+    "kr": "고대의 현존"
   },
   "description": {
-    "pt": "Após o relatório sobre a presença 'sagrada' emanando do solo do assentamento da tribo Ashal’Kai, os heróis devem retornar ao local e investigar a origem dessa energia.",
-    "en": "Following the report of a 'sacred' presence emanating from the ground of the Ashal’Kai tribal settlement, the heroes must return to the site and investigate the source of this energy.",
-    "es": "Tras el informe sobre una presencia 'sagrada' emanando del suelo del asentamiento tribal Ashal’Kai, los héroes deben regresar al lugar e investigar la fuente de esta energía.",
-    "ru": "После сообщения о 'священном' присутствии, исходящем из земли племенного поселения Ашал'Кай, героям необходимо вернуться на место и расследовать источник этой энергии.",
-    "zh": "在关于从Ashal’Kai部落定居点的地面散发出“神圣”存在的报告之后，英雄们必须返回现场调查这种能量的来源。",
-    "ja": "Ashal’Kai部族の集落の地面から発せられる「神聖な」存在の報告を受けて、英雄たちは現場に戻り、このエネルギーの源を調査しなければなりません。"
+    "pt": "Após o relatório sobre uma presença emanando do solo do assentamento da tribo Ashal’Kai, os heróis devem retornar ao local e investigar a origem dessa energia.",
+    "en": "Following the report of a presence emanating from the ground of the Ashal’Kai tribal settlement, the heroes must return to the site and investigate the source of this energy.",
+    "es": "Tras el informe sobre una presencia emanando del suelo del asentamiento tribal Ashal’Kai, los héroes deben regresar al lugar e investigar la fuente de esta energía.",
+    "ru": "После сообщения о присутствии, исходящем из земли племенного поселения Ашал'Кай, героям необходимо вернуться на место и расследовать источник этой энергии.",
+    "zh": "在关于从Ashal’Kai部落定居点的地面散发出某种存在的报告之后，英雄们必须返回现场调查这种能量的来源。",
+    "ja": "Ashal’Kai部族の集落の地面から発せられる存在の報告を受けて、英雄たちは現場に戻り、このエネルギーの源を調査しなければなりません。"
   },
   "type": [
     "religion",
@@ -34,7 +34,7 @@
   ],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -46,12 +46,114 @@
       "ja": "集落"
     },
     "challenge": {
-      "pt": "a presença sagrada",
-      "en": "the sacred presence",
-      "es": "la presencia sagrada",
-      "ru": "священное присутствие",
-      "zh": "神圣的存在",
-      "ja": "神聖な存在"
+      "pt": "a presença emanante",
+      "en": "the emanating presence",
+      "es": "la presencia emanante",
+      "ru": "исходящее присутствие",
+      "zh": "散发出的存在",
+      "ja": "放たれる存在"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "religion": {
+        "pt": [
+          "Seguindo a presença sob o assentamento, foi encontrada uma câmara oculta abaixo do solo. No interior havia um lich selado, claramente enfraquecido, envolto por antigos símbolos de contenção. Diante da descoberta, a decisão foi retornar e convocar reforços antes de romper o selo ou avançar mais fundo.",
+          "A origem da presença levou a uma câmara subterrânea esquecida. Nela repousava um lich preso por antigos selos sagrados, mas ainda ativo o bastante para ser sentido. Sem meios adequados para enfrentá-lo naquele momento, a retirada foi feita para buscar apoio.",
+          "A investigação revelou que a energia vinha de uma câmara selada sob o assentamento. Lá foi identificado um lich enfraquecido, mantido em contenção por símbolos antigos. A descoberta foi reportada e o retorno foi feito para reunir reforços."
+        ],
+        "en": [
+          "Following the presence beneath the settlement led to a hidden chamber underground. Inside stood a sealed lich, clearly weakened, bound by ancient wards. Faced with the discovery, the decision was made to withdraw and call for reinforcements before advancing further.",
+          "The source of the presence led to a forgotten subterranean chamber. There rested a lich held by old sacred seals, still active enough to be felt. Lacking the means to confront it safely, a retreat was made to seek support.",
+          "The investigation revealed that the energy came from a sealed chamber beneath the settlement. There, a weakened lich was found held in containment by ancient symbols. The discovery was reported and the return was made to gather reinforcements."
+        ],
+        "es": [
+          "Siguiendo la presencia bajo el asentamiento, se encontró una cámara oculta bajo tierra. En su interior había un lich sellado, claramente debilitado, contenido por antiguos símbolos. Ante el hallazgo, se decidió retirarse y buscar refuerzos antes de avanzar más.",
+          "El origen de la presencia condujo a una cámara subterránea olvidada. Allí descansaba un lich atrapado por antiguos sellos sagrados, todavía lo bastante activo como para sentirse. Sin medios adecuados para enfrentarlo, se optó por regresar en busca de apoyo.",
+          "La investigación reveló que la energía provenía de una cámara sellada bajo el asentamiento. Allí fue identificado un lich debilitado, mantenido en contención por símbolos antiguos. El hallazgo fue reportado y se regresó para reunir refuerzos."
+        ],
+        "ru": [
+          "Следуя за присутствием под поселением, удалось обнаружить скрытую подземную камеру. Внутри находился запечатанный лич, явно ослабленный и удерживаемый древними знаками сдерживания. После этого было решено отступить и призвать подкрепление.",
+          "Источник присутствия привёл к забытой подземной камере. Там покоился лич, заключённый в старые священные печати, но всё ещё достаточно активный, чтобы ощущаться. Не имея возможности безопасно сразиться с ним, пришлось вернуться за поддержкой.",
+          "Расследование показало, что энергия исходила из запечатанной камеры под поселением. Там был обнаружен ослабленный лич, удерживаемый древними символами. Об открытии было доложено, после чего последовало отступление за подкреплением."
+        ],
+        "zh": [
+          "沿着定居点下方散发出的存在继续追查，最终发现了一间隐藏在地下的密室。里面封印着一名明显虚弱的巫妖，被古老的封印符号束缚着。面对这一发现，决定先撤退并召集增援，而不是贸然深入。",
+          "这股存在的源头通向一间被遗忘的地下密室。那里有一名被古老神圣封印困住的巫妖，虽然虚弱，却仍能被感知到。由于当时无力安全对抗，只能先返回寻求支援。",
+          "调查表明，这股能量来自定居点下方的一间封印密室。在那里发现了一名被古老符号压制的虚弱巫妖。发现被记录后，先行返回以召集增援。"
+        ],
+        "ja": [
+          "集落の地下から放たれる気配を辿った結果、地下に隠された部屋が見つかった。そこには古い封印に縛られ、明らかに弱ったリッチが存在していた。この発見を受け、さらに進むのではなく、一度戻って増援を呼ぶ判断が取られた。",
+          "気配の源は忘れられた地下の部屋へと続いていた。そこには古い聖なる封印に囚われたリッチが眠っており、弱ってはいてもなお存在感を放っていた。その場で対処するには危険が大きく、支援を求めて撤退することになった。",
+          "調査の結果、この力は集落の下にある封印された部屋から発せられていた。内部では古い印に拘束された弱体化したリッチが確認された。この発見は報告され、増援を集めるために引き返した。"
+        ]
+      },
+      "arcana": {
+        "pt": [
+          "Seguindo o fluxo arcano sob o assentamento, foi encontrada uma câmara oculta nas profundezas. No centro dela havia um lich selado e enfraquecido, ainda sustentado por um arranjo antigo de contenção. A situação foi considerada grave demais para prosseguir sem apoio, e o retorno foi feito para reunir reforços.",
+          "A energia arcana levou a uma câmara subterrânea esquecida. Lá foi identificado um lich preso por selos antigos, claramente debilitado, mas ainda capaz de irradiar poder. Em vez de arriscar o rompimento da contenção, a decisão foi recuar e preparar uma ofensiva adequada.",
+          "A origem da emanação revelou uma câmara abaixo do assentamento. Dentro dela, um lich enfraquecido permanecia selado por estruturas arcanas muito antigas. A descoberta foi registrada, e a retirada ocorreu para chamar reforços antes de qualquer confronto."
+        ],
+        "en": [
+          "Following the arcane current beneath the settlement led to a hidden chamber deep below. At its center stood a sealed and weakened lich, still sustained by an ancient containment lattice. The situation was judged too dangerous to press on without support, and a withdrawal was made to gather reinforcements.",
+          "The arcane energy led to a forgotten subterranean chamber. There, a lich was identified bound by ancient seals, clearly weakened yet still radiating power. Rather than risk breaking the containment, the decision was made to retreat and prepare a proper assault.",
+          "The source of the emanation revealed a chamber beneath the settlement. Inside, a weakened lich remained sealed by very old arcane structures. The discovery was recorded, and a withdrawal followed in order to call for reinforcements before any confrontation."
+        ],
+        "es": [
+          "Siguiendo la corriente arcana bajo el asentamiento, se encontró una cámara oculta en las profundidades. En su centro había un lich sellado y debilitado, aún contenido por una antigua red de contención. La situación fue considerada demasiado peligrosa para continuar sin apoyo, por lo que se decidió regresar en busca de refuerzos.",
+          "La energía arcana condujo a una cámara subterránea olvidada. Allí fue identificado un lich atrapado por sellos antiguos, claramente debilitado pero todavía irradiando poder. En lugar de arriesgar la ruptura de la contención, se optó por retirarse y preparar una ofensiva adecuada.",
+          "El origen de la emanación reveló una cámara bajo el asentamiento. En su interior, un lich debilitado permanecía sellado por estructuras arcanas muy antiguas. El hallazgo fue registrado y se regresó para reunir refuerzos antes de cualquier enfrentamiento."
+        ],
+        "ru": [
+          "Следуя за арканическим потоком под поселением, удалось найти скрытую камеру в глубине. В её центре находился запечатанный и ослабленный лич, всё ещё удерживаемый древней системой сдерживания. Ситуация была признана слишком опасной для продолжения без поддержки, и пришлось отступить за подкреплением.",
+          "Арканическая энергия привела к забытой подземной камере. Там был обнаружен лич, скованный древними печатями, явно ослабленный, но всё ещё излучающий силу. Чтобы не рисковать нарушением печати, было решено отступить и подготовить полноценную атаку.",
+          "Источник эманации указал на камеру под поселением. Внутри находился ослабленный лич, запечатанный очень древними арканическими структурами. Об открытии было доложено, после чего последовало отступление за подкреплением."
+        ],
+        "zh": [
+          "沿着定居点下方的奥术流动继续追查，最终在深处发现了一间隐藏密室。其中心封印着一名虚弱的巫妖，仍被古老的封锁结构维系着。局势过于危险，无法在没有支援的情况下继续深入，因此选择先撤退并召集增援。",
+          "奥术能量将调查引向一间被遗忘的地下密室。在那里发现了一名被古老封印束缚的巫妖，虽然明显虚弱，却仍在散发力量。为了避免破坏封印，只能先撤退并准备更充分的进攻。",
+          "能量源头指向定居点下方的一间密室。里面有一名被极其古老的奥术结构封印着的虚弱巫妖。发现被记录后，先行撤退，以便在任何正面对抗前召集增援。"
+        ],
+        "ja": [
+          "集落の地下を流れる魔力を辿った結果、深部に隠された部屋が見つかった。その中央には、古い封印構造によって辛うじて拘束された弱体化したリッチが存在していた。支援なしで進むには危険が大きすぎると判断され、増援を集めるために撤退した。",
+          "魔力の流れは忘れられた地下の部屋へと続いていた。そこでは、古代の封印に縛られたリッチが確認され、弱ってはいてもなお力を放っていた。封印を不用意に崩す危険を避けるため、一度退いて準備を整えることになった。",
+          "放たれていた力の源は、集落の下にある部屋だった。内部には、非常に古い魔術構造で封じられた弱ったリッチが残されていた。この発見は記録され、正面から対処する前に増援を呼ぶため撤退した。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A origem da presença não pôde ser seguida até o fim, e nenhuma passagem segura foi encontrada sob o assentamento.",
+          "Os sinais se dispersaram antes que a fonte da energia pudesse ser localizada com precisão.",
+          "A investigação não conseguiu alcançar a origem da presença, e a energia permaneceu oculta sob o assentamento."
+        ],
+        "en": [
+          "The source of the presence could not be followed to its end, and no safe passage was found beneath the settlement.",
+          "The traces scattered before the source of the energy could be precisely located.",
+          "The investigation failed to reach the source of the presence, and the energy remained hidden beneath the settlement."
+        ],
+        "es": [
+          "No fue posible seguir el origen de la presencia hasta el final, y no se encontró un paso seguro bajo el asentamiento.",
+          "Las señales se dispersaron antes de que la fuente de la energía pudiera localizarse con precisión.",
+          "La investigación no logró alcanzar el origen de la presencia, y la energía permaneció oculta bajo el asentamiento."
+        ],
+        "ru": [
+          "Не удалось проследить источник присутствия до конца, и безопасного прохода под поселением найдено не было.",
+          "Следы рассеялись до того, как источник энергии удалось точно определить.",
+          "Расследование не привело к источнику присутствия, и энергия осталась скрытой под поселением."
+        ],
+        "zh": [
+          "未能将这股存在追查到底，也没有在定居点下方找到安全通路。",
+          "线索在能量源被准确定位前便中断了。",
+          "调查未能抵达这股存在的源头，这股能量依旧隐藏在定居点下方。"
+        ],
+        "ja": [
+          "気配の源を最後まで辿ることはできず、集落の下へ通じる安全な道も見つからなかった。",
+          "手がかりは途中で途絶え、力の源を正確に特定できなかった。",
+          "調査は存在の源へ到達できず、その力はなお集落の下に隠されたままだった。"
+        ]
+      }
     }
   }
 }

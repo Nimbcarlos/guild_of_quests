@@ -28,7 +28,7 @@
   "required_quests": [],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -46,6 +46,108 @@
       "ru": "летучая мышь",
       "zh": "蝙蝠",
       "ja": "コウモリ"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "religion": {
+        "pt": [
+          "Após um confronto difícil, a criatura foi abatida enquanto suas asas ainda ecoavam com um último grito sônico. No instante final, algo perturbador foi sentido — um fraco eco de consciência humana parecia preso por trás daquele olhar vazio.",
+          "A batalha terminou quando a criatura caiu após uma última tentativa de mergulho. No momento da morte, uma presença espiritual breve surgiu, como se uma mente humana tivesse estado aprisionada dentro daquele corpo.",
+          "Depois de resistir às ondas sonoras e derrubar a criatura, uma sensação inquietante surgiu por um instante. Algo humano parecia ter lutado para escapar de dentro da besta."
+        ],
+        "en": [
+          "After a difficult clash, the creature was slain while its wings still echoed with a final sonic scream. In its last moment, something disturbing was sensed — a faint trace of human consciousness seemed trapped behind its gaze.",
+          "The battle ended when the creature fell after one last diving attack. At the moment of death, a brief spiritual presence appeared, as if a human mind had once been imprisoned inside it.",
+          "After enduring the sonic waves and bringing the creature down, an unsettling feeling appeared for a brief moment. Something human seemed to have struggled inside the beast."
+        ],
+        "es": [
+          "Tras un combate difícil, la criatura cayó mientras sus alas aún resonaban con un último chillido sónico. En su último instante se percibió algo inquietante: un débil eco de conciencia humana parecía atrapado en su mirada.",
+          "La batalla terminó cuando la criatura cayó tras un último ataque en picado. En el momento de su muerte apareció una breve presencia espiritual, como si una mente humana hubiera estado prisionera en su interior.",
+          "Después de resistir las ondas sonoras y derribar a la criatura, una sensación perturbadora apareció por un instante. Algo humano parecía haber luchado dentro de la bestia."
+        ],
+        "ru": [
+          "После тяжёлого боя существо было повержено, а его крылья ещё отдавались эхом последнего звукового крика. В последние мгновения ощущался тревожный след — будто человеческое сознание было заключено в этом теле.",
+          "Сражение закончилось, когда существо рухнуло после последнего пикирования. В момент смерти возникло странное духовное ощущение, словно внутри него когда-то был человеческий разум.",
+          "Пережив звуковые волны и повалив существо, на мгновение возникло тревожное чувство — будто что-то человеческое боролось внутри этой твари."
+        ],
+        "zh": [
+          "经过艰难战斗，这头生物终于被击败，它的翅膀仍回荡着最后一声尖啸。在倒下的一刻，人们感到一种不安——仿佛有一丝人类意识被困在其中。",
+          "战斗在这头生物最后一次俯冲失败后结束。在它死亡的瞬间，一种短暂的灵性存在浮现，就像曾有人的心智被囚禁在体内。",
+          "在承受住声波攻击并将其击倒之后，一瞬间出现了令人不安的感觉——似乎有什么人类意识曾在那具身体中挣扎。"
+        ],
+        "ja": [
+          "激しい戦闘の末、その生き物は倒された。翼は最後の超音波の叫びを響かせていた。その瞬間、不気味な気配が感じられ、人の意識の残響が閉じ込められているようだった。",
+          "戦闘は最後の急降下の後、その生き物が地面に落ちたことで終わった。死の瞬間、短い霊的な気配が現れ、人の心が囚われていたかのようだった。",
+          "音波の衝撃に耐えながらその生き物を倒した後、一瞬だけ不穏な感覚が走った。何か人間の意識がその中で抗っていたようだった。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Após um confronto intenso, a criatura foi abatida enquanto tentava lançar mais um grito capaz de rachar madeira e pedra.",
+          "A batalha terminou quando uma das asas da criatura foi atingida durante um mergulho, fazendo-a perder o controle e cair.",
+          "Depois de suportar várias ondas sonoras que fizeram o ar vibrar, a criatura foi finalmente derrubada."
+        ],
+        "en": [
+          "After a fierce clash, the creature was slain as it attempted to unleash another scream capable of cracking wood and stone.",
+          "The battle ended when one of the creature's wings was struck during a dive, sending it crashing down.",
+          "After enduring several sonic bursts that made the air tremble, the creature was finally brought down."
+        ],
+        "es": [
+          "Tras un enfrentamiento intenso, la criatura fue abatida mientras intentaba lanzar otro grito capaz de agrietar madera y piedra.",
+          "La batalla terminó cuando una de sus alas fue alcanzada durante un ataque en picado, haciéndola caer sin control.",
+          "Después de soportar varias ondas sonoras que hicieron vibrar el aire, la criatura finalmente cayó."
+        ],
+        "ru": [
+          "После ожесточённого боя существо было повержено, когда пыталось издать ещё один крик, способный расколоть дерево и камень.",
+          "Сражение закончилось, когда во время пикирования было повреждено одно из крыльев, и существо рухнуло вниз.",
+          "Пережив несколько звуковых волн, заставивших воздух дрожать, удалось наконец повалить эту тварь."
+        ],
+        "zh": [
+          "经过激烈战斗，这头生物在试图再次发出能震裂木石的尖啸时被击败。",
+          "战斗在它俯冲时一侧翅膀被击中后结束，它失去控制坠落。",
+          "在承受了多次震动空气的声波攻击后，这头生物终于被击倒。"
+        ],
+        "ja": [
+          "激しい戦闘の末、その生き物は木や石を裂くほどの叫びを放とうとした瞬間に倒された。",
+          "戦闘は急降下の最中に翼の一つが打たれ、制御を失って落下したことで終わった。",
+          "空気を震わせる音波の衝撃を何度も耐えた末、その生き物はついに倒された。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A criatura desapareceu na escuridão após liberar um grito que fez o ar vibrar.",
+          "Mesmo após o confronto, a criatura continuou sobrevoando a região.",
+          "A força das ondas sonoras obrigou uma retirada antes que a criatura pudesse ser abatida."
+        ],
+        "en": [
+          "The creature vanished into the darkness after unleashing a scream that shook the air.",
+          "Even after the clash, the creature continued circling above the region.",
+          "The power of the sonic waves forced a retreat before the creature could be slain."
+        ],
+        "es": [
+          "La criatura desapareció en la oscuridad tras liberar un grito que hizo vibrar el aire.",
+          "Incluso después del combate, la criatura siguió sobrevolando la región.",
+          "La fuerza de las ondas sonoras obligó a retirarse antes de abatirla."
+        ],
+        "ru": [
+          "Существо исчезло во тьме после крика, заставившего воздух содрогнуться.",
+          "Даже после боя тварь продолжала кружить над регионом.",
+          "Сила звуковых волн вынудила отступить."
+        ],
+        "zh": [
+          "这头生物在发出震动空气的尖啸后消失在黑暗中。",
+          "即使战斗结束，这头生物仍在上空盘旋。",
+          "声波的力量迫使队伍撤退。"
+        ],
+        "ja": [
+          "その生き物は空気を震わせる叫びの後、闇の中へ消えた。",
+          "戦闘の後も、その生き物は上空を旋回し続けた。",
+          "音波の衝撃により撤退を余儀なくされた。"
+        ]
+      }
     }
   }
 }

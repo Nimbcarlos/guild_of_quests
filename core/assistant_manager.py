@@ -9,6 +9,7 @@ class AssistantManager:
 
         self.id = "assistant"
         self.name = "Lyria"
+        self.last_name = "Bloodseeker"
         self.portrait = "assets/img/assistant.png"
 
         # humores possíveis
@@ -18,6 +19,7 @@ class AssistantManager:
         self.fake_hero = Hero(
             id=self.id,
             name=self.name,
+            last_name=self.last_name,
             role="Assistant",
             hero_class='Assistant',
             status="assistant_only",
@@ -33,6 +35,7 @@ class AssistantManager:
         )
 
         self.commentary_quests = {
+            "0": "assistant_0",
             "997": "assistant_997",
             "998": "assistant_998",
             "999": "assistant_999"

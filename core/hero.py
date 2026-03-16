@@ -18,6 +18,7 @@ class Hero:
         self,
         id: int,
         name,
+        last_name,
         role,
         hero_class,
         status: str,
@@ -40,6 +41,7 @@ class Hero:
 
         # Campos que podem ser multilíngues
         self.name = self._get_lang_value(name)
+        self.last_name = self._get_lang_value(last_name)
         self.role = self._get_lang_value(role)
         self.hero_class = self._get_lang_value(hero_class)
         self.story = self._get_lang_value(story)
@@ -95,6 +97,7 @@ class Hero:
         return (
             f"--- Ficha do Herói ---\n"
             f"Nome: {self.name}\n"
+            f"Sobrenome: {self.last_name}\n"
             f"Classe: {self.hero_class}\n"
             f"Nível: {self.level} (XP: {self.xp})\n"
             f"Perks: {', '.join(self.perks) if self.perks else '—'}\n"

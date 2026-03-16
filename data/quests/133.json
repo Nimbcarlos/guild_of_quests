@@ -31,7 +31,7 @@
   ],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -49,6 +49,76 @@
       "ru": "лич",
       "zh": "巫妖",
       "ja": "リッチ"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "A câmara selada foi aberta e o Lich enfrentado diretamente. Mesmo enfraquecido pelos selos antigos, a criatura ainda possuía poder suficiente para tornar o confronto longo e perigoso. Após uma batalha intensa, sua forma foi finalmente destruída.",
+          "O confronto com o Lich revelou que os selos haviam limitado seu poder, mas não o suficiente para torná-lo inofensivo. A batalha exigiu esforço conjunto até que a criatura fosse finalmente derrotada dentro da câmara.",
+          "Os selos antigos haviam enfraquecido o Lich, mas ainda restava poder suficiente para resistir ferozmente. Após um combate árduo dentro da câmara, a entidade foi destruída e a ameaça encerrada."
+        ],
+        "en": [
+          "The sealed chamber was opened and the Lich confronted directly. Though weakened by ancient wards, the creature still possessed enough power to make the battle long and dangerous. After an intense struggle, its form was finally destroyed.",
+          "The confrontation revealed that the seals had limited the Lich's strength, but not enough to render it harmless. The battle demanded coordinated effort until the creature was finally defeated inside the chamber.",
+          "The ancient seals had weakened the Lich, yet enough power remained for it to resist fiercely. After a difficult fight within the chamber, the entity was destroyed and the threat ended."
+        ],
+        "es": [
+          "La cámara sellada fue abierta y el Lich enfrentado directamente. Aunque debilitado por los sellos antiguos, la criatura aún poseía suficiente poder para que la batalla fuera larga y peligrosa. Tras un combate intenso, su forma fue finalmente destruida.",
+          "El enfrentamiento reveló que los sellos habían limitado el poder del Lich, pero no lo suficiente para hacerlo inofensivo. La batalla requirió un gran esfuerzo hasta que la criatura fue finalmente derrotada dentro de la cámara.",
+          "Los sellos antiguos habían debilitado al Lich, pero aún conservaba suficiente poder para resistir con ferocidad. Tras una dura batalla dentro de la cámara, la entidad fue destruida y la amenaza terminó."
+        ],
+        "ru": [
+          "Запечатанная камера была вскрыта, и Личу пришлось противостоять напрямую. Несмотря на ослабление древними печатями, у существа всё ещё было достаточно силы, чтобы сделать бой долгим и опасным. После тяжёлой битвы его форма была окончательно уничтожена.",
+          "Столкновение показало, что печати ограничили силу Лича, но не сделали его безвредным. Битва потребовала значительных усилий, прежде чем существо было окончательно уничтожено в камере.",
+          "Древние печати ослабили Лича, но оставшейся силы хватило для яростного сопротивления. После трудного боя в камере сущность была уничтожена, и угроза исчезла."
+        ],
+        "zh": [
+          "封印的密室被打开，巫妖被直接迎战。尽管古老的封印削弱了它的力量，但它仍然足够强大，使战斗变得漫长而危险。经过激烈的战斗，它的形体最终被摧毁。",
+          "战斗表明封印确实限制了巫妖的力量，但远不足以让它变得无害。经过艰难的战斗，巫妖最终在密室中被击败。",
+          "古老的封印削弱了巫妖，但它仍然拥有足够的力量顽强抵抗。经过一场艰苦的战斗，这个存在被摧毁，威胁终于结束。"
+        ],
+        "ja": [
+          "封印された部屋が開かれ、リッチと直接対峙することになった。古い封印によって弱体化していたとはいえ、その力は依然として強く、戦いは長く危険なものとなった。激しい戦闘の末、その存在はついに破壊された。",
+          "戦闘により、封印がリッチの力を弱めていたことは明らかだったが、無力化するほどではなかった。協力して戦い続けた末、ついに部屋の中で打ち倒された。",
+          "古い封印はリッチを弱めていたが、それでもなお激しく抵抗する力を残していた。困難な戦闘の末、その存在は破壊され、脅威は終わった。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A tentativa de enfrentar o Lich na câmara terminou em retirada após o poder restante da criatura se mostrar maior do que o esperado.",
+          "Mesmo enfraquecido pelos selos, o Lich ainda demonstrou força suficiente para impedir a destruição naquele momento.",
+          "O confronto na câmara selada não pôde ser concluído, e a retirada foi necessária diante da resistência da criatura."
+        ],
+        "en": [
+          "The attempt to confront the Lich in the chamber ended in withdrawal as the creature's remaining power proved greater than expected.",
+          "Even weakened by the seals, the Lich still showed enough strength to prevent its destruction at that moment.",
+          "The battle in the sealed chamber could not be concluded, and retreat became necessary in the face of the creature's resistance."
+        ],
+        "es": [
+          "El intento de enfrentar al Lich en la cámara terminó en retirada cuando el poder restante de la criatura resultó mayor de lo esperado.",
+          "Incluso debilitado por los sellos, el Lich aún mostró suficiente fuerza para impedir su destrucción en ese momento.",
+          "El combate en la cámara sellada no pudo completarse y fue necesario retirarse ante la resistencia de la criatura."
+        ],
+        "ru": [
+          "Попытка сразиться с Личом в камере закончилась отступлением, когда оказалось, что его оставшаяся сила больше ожидаемой.",
+          "Даже ослабленный печатями, Лич всё ещё обладал достаточной мощью, чтобы предотвратить своё уничтожение.",
+          "Битву в запечатанной камере завершить не удалось, и перед лицом сопротивления существа пришлось отступить."
+        ],
+        "zh": [
+          "在密室中对抗巫妖的尝试以撤退告终，因为它残余的力量比预想的更强。",
+          "即使被封印削弱，巫妖仍然展现出足以阻止其被摧毁的力量。",
+          "在封印密室中的战斗未能完成，面对巫妖的抵抗只能选择撤退。"
+        ],
+        "ja": [
+          "部屋でリッチと戦おうとしたが、残された力が予想以上に強く、撤退を余儀なくされた。",
+          "封印によって弱っていたとはいえ、リッチにはまだ破壊を阻むだけの力が残っていた。",
+          "封印された部屋での戦闘は決着に至らず、激しい抵抗を前に撤退することになった。"
+        ]
+      }
     }
   }
 }

@@ -30,7 +30,7 @@
   ],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -48,6 +48,76 @@
       "ru": "стражники",
       "zh": "守卫",
       "ja": "警備員"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Os guardas impediram qualquer acesso à propriedade. Após ouvir a solicitação da Guilda, informaram que o local está oficialmente sob a proteção de Lord Weycroft e que nenhuma entrada seria autorizada.",
+          "A tentativa de inspeção terminou diante dos portões fechados. Os guardas afirmaram que a residência está sob a proteção direta de Lord Weycroft e recusaram permitir qualquer investigação.",
+          "Apesar da autoridade apresentada, os guardas mantiveram os portões lacrados. Segundo eles, a propriedade pertence a interesses protegidos por Lord Weycroft e não pode ser inspecionada."
+        ],
+        "en": [
+          "The guards denied any access to the property. After hearing the Guild's request, they stated that the estate is officially under the protection of Lord Weycroft and no entry would be granted.",
+          "The attempt to inspect the estate ended at the sealed gates. The guards declared that the residence is under the direct protection of Lord Weycroft and refused to allow any investigation.",
+          "Despite presenting Guild authority, the guards kept the gates closed. According to them, the property falls under the protection of Lord Weycroft and cannot be inspected."
+        ],
+        "es": [
+          "Los guardias negaron cualquier acceso a la propiedad. Tras escuchar la solicitud del Gremio, informaron que el lugar está oficialmente bajo la protección de Lord Weycroft y que no se permitirá la entrada.",
+          "El intento de inspección terminó ante los portones cerrados. Los guardias afirmaron que la residencia está bajo la protección directa de Lord Weycroft y rechazaron permitir cualquier investigación.",
+          "A pesar de presentar la autoridad del Gremio, los guardias mantuvieron los portones cerrados. Según ellos, la propiedad está protegida por Lord Weycroft y no puede ser inspeccionada."
+        ],
+        "ru": [
+          "Стражники отказали в доступе к поместью. Выслушав запрос Гильдии, они сообщили, что владение находится под защитой лорда Вейкрофта и вход не будет разрешён.",
+          "Попытка осмотреть поместье закончилась у закрытых ворот. Стража заявила, что резиденция находится под прямой защитой лорда Вейкрофта и отказалась впустить кого-либо.",
+          "Несмотря на предъявленную власть Гильдии, ворота остались закрытыми. По словам стражников, собственность находится под покровительством лорда Вейкрофта и не подлежит проверке."
+        ],
+        "zh": [
+          "守卫拒绝了进入这处地产的请求。在听取公会的要求后，他们表示这座庄园正式受到韦克罗夫特领主的保护，任何人都不得进入。",
+          "检查请求在紧闭的大门前被阻止。守卫说明这座宅邸受到韦克罗夫特领主的直接保护，并拒绝任何调查。",
+          "即使出示了公会的权威，守卫仍然没有打开大门。他们表示这处地产属于韦克罗夫特领主的保护范围，无法接受检查。"
+        ],
+        "ja": [
+          "警備兵は邸宅への立ち入りを拒否した。ギルドの要請を聞いた後、この屋敷はウェイクロフト卿の保護下にあるため、いかなる入場も許可されないと告げられた。",
+          "調査の試みは閉ざされた門の前で止められた。警備兵は、この邸宅がウェイクロフト卿の直接的な保護下にあると主張し、調査を拒否した。",
+          "ギルドの権威を示したにもかかわらず、門は開かれなかった。警備兵によれば、この所有地はウェイクロフト卿の保護対象であり、立ち入り調査は認められないという。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Os guardas recusaram qualquer diálogo e mantiveram os portões fechados.",
+          "A aproximação foi interrompida antes mesmo que a solicitação pudesse ser apresentada.",
+          "Sem cooperação dos guardas, a investigação não pôde avançar."
+        ],
+        "en": [
+          "The guards refused any discussion and kept the gates closed.",
+          "The approach was halted before the request could even be presented.",
+          "Without the guards' cooperation, the investigation could not proceed."
+        ],
+        "es": [
+          "Los guardias se negaron a dialogar y mantuvieron los portones cerrados.",
+          "El acercamiento fue detenido antes de que pudiera presentarse la solicitud.",
+          "Sin cooperación de los guardias, la investigación no pudo avanzar."
+        ],
+        "ru": [
+          "Стражники отказались обсуждать что-либо и оставили ворота закрытыми.",
+          "Подойти ближе не позволили ещё до того, как был озвучен запрос.",
+          "Без сотрудничества стражи расследование не смогло продолжиться."
+        ],
+        "zh": [
+          "守卫拒绝交谈，并始终保持大门关闭。",
+          "在请求提出之前，接近就被阻止了。",
+          "没有守卫的合作，调查无法继续。"
+        ],
+        "ja": [
+          "警備兵は会話を拒否し、門を閉ざしたままだった。",
+          "要請を伝える前に接近を止められた。",
+          "警備兵の協力が得られず、調査は進められなかった。"
+        ]
+      }
     }
   }
 }

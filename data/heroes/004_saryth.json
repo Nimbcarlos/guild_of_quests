@@ -1,16 +1,9 @@
 {
   "id": 4,
-  "name": "Saryth Moonsong",
+  "name": "Saryth",
+  "last_name": "Moonsong",
   "role": "healer",
-  "hero_class": {
-    "en": "Shaman",
-    "pt": "Xamã",
-    "es": "Chamán",
-    "zh": "萨满",
-    "ja": "シャーマン",
-    "ru": "Шаман",
-    "kr": "주술사"
-  },
+  "hero_class": "Shaman",
   "status": {
     "en": "Healthy",
     "pt": "Saudável",
@@ -46,15 +39,15 @@
   "available_from_turn": 1,
   "leave_on_quest": [],
   "growth_curve": {
-    "1": { "strength": 1, "dexterity": 1, "intelligence": 1, "wisdom": 3 },
-    "2": { "strength": 1, "dexterity": 1, "intelligence": 1, "wisdom": 4 },
-    "3": { "strength": 1, "dexterity": 1, "intelligence": 1, "wisdom": 5 },
-    "4": { "strength": 1, "dexterity": 1, "intelligence": 1, "wisdom": 6 },
-    "5": { "strength": 1, "dexterity": 1, "intelligence": 1, "wisdom": 7 },
-    "6": { "strength": 2, "dexterity": 2, "intelligence": 2, "wisdom": 7 },
-    "7": { "strength": 2, "dexterity": 2, "intelligence": 2, "wisdom": 8 },
-    "8": { "strength": 2, "dexterity": 2, "intelligence": 2, "wisdom": 9 },
-    "9": { "strength": 2, "dexterity": 2, "intelligence": 2, "wisdom": 10 },
-    "10": { "strength": 2, "dexterity": 2, "intelligence": 2, "wisdom": 11 }
+    "1": { "strength": 1, "dexterity": 2, "intelligence": 1, "wisdom": 2 },
+    "2": { "strength": 1, "dexterity": 2, "intelligence": 1, "wisdom": 2 },
+    "3": { "strength": 1, "dexterity": 3, "intelligence": 1, "wisdom": 3 },
+    "4": { "strength": 1, "dexterity": 3, "intelligence": 1, "wisdom": 3 },
+    "5": { "strength": 1, "dexterity": 4, "intelligence": 1, "wisdom": 4 },
+    "6": { "strength": 2, "dexterity": 4, "intelligence": 2, "wisdom": 4 },
+    "7": { "strength": 2, "dexterity": 5, "intelligence": 2, "wisdom": 5 },
+    "8": { "strength": 2, "dexterity": 5, "intelligence": 2, "wisdom": 5 },
+    "9": { "strength": 2, "dexterity": 6, "intelligence": 2, "wisdom": 6 },
+    "10": { "strength": 2, "dexterity": 6, "intelligence": 2, "wisdom": 6 }
   }
 }

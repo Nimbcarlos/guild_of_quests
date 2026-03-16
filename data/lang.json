@@ -1593,5 +1593,230 @@
   "ru": "Нет",
   "zh": "否",
   "ja": "いいえ"
-}
+},
+"Monk": {
+  "en": "Monk",
+  "pt": "Monja",
+  "es": "Monja",
+  "zh": "修女",
+  "ja": "修道女",
+  "ru": "Монахиня",
+  "kr": "수녀"
+},
+"Warrior": {
+  "en": "Warrior",
+  "pt": "Guerreira",
+  "es": "Guerrera",
+  "zh": "战士",
+  "ja": "戦士",
+  "ru": "Воительница",
+  "kr": "전사"
+},
+"Paladin": {
+  "en": "Paladin",
+  "pt": "Paladina",
+  "es": "Paladina",
+  "zh": "圣骑士",
+  "ja": "聖騎士",
+  "ru": "Паладин",
+  "kr": "성기사"
+},
+"Druid": {
+  "en": "Druid",
+  "pt": "Druida",
+  "es": "Druida",
+  "zh": "德鲁伊",
+  "ja": "ドルイド",
+  "ru": "Друид",
+  "kr": "드루이드"  
+},
+"Shaman": {
+  "en": "Shaman",
+  "pt": "Xamã",
+  "es": "Chamán",
+  "zh": "萨满",
+  "ja": "シャーマン",
+  "ru": "Шаман",
+  "kr": "주술사"
+},
+"Bard": {
+  "en": "Bard",
+  "pt": "Barda",
+  "es": "Barda",
+  "zh": "吟游诗人",
+  "ja": "吟遊詩人",
+  "ru": "Бард",
+  "kr": "바드"
+},
+"Cleric": {
+  "en": "Cleric",
+  "pt": "Clériga",
+  "es": "Clériga",
+  "zh": "牧师 (Mùshī)",
+  "ja": "聖職者 (Seishokusha)",
+  "ru": "Жрица",
+  "kr": "성직자 (Seongjikja)"
+},
+"Mage": {
+  "en": "Mage",
+  "pt": "Mago",
+  "es": "Mago",
+  "zh": "法师",
+  "ja": "魔導士",
+  "ru": "Маг",
+  "kr": "마법사 (Mabeopsa)"
+},
+"Alchemist": {
+  "en": "Alchemist",
+  "pt": "Alquimista",
+  "es": "Alquimista",
+  "zh": "炼金术士",
+  "ja": "錬金術師",
+  "ru": "Алхимик",
+  "kr": "연금술사"
+},
+"Rogue": {
+  "en": "Rogue",
+  "pt": "Ladina",
+  "es": "Pícara",
+  "zh": "游荡者 (Yóudàngzhě)",
+  "ja": "盗賊 (Tōzoku)",
+  "ru": "Плутовка",
+  "kr": "도적 (Dojeok)"
+},
+"Assassin": {
+  "en": "Assassin",
+  "pt": "Assassina",
+  "es": "Asesina",
+  "zh": "刺客",
+  "ja": "暗殺者",
+  "ru": "Ассасин",
+  "kr": "암살자"
+},
+"Barbarian": {
+  "en": "Barbarian",
+  "pt": "Bárbara",
+  "es": "Bárbara",
+  "zh": "野蛮人",
+  "ja": "バーバリアン",
+  "ru": "Варвар",
+  "kr": "야만인"
+},
+"Necromancer": {
+  "en": "Necromancer",
+  "pt": "Necromante",
+  "es": "Necromante",
+  "zh": "死灵法师",
+  "ja": "ネクロマンサー",
+  "ru": "Некромант",
+  "kr": "네크로맨서"
+},
+"Engineer": {
+  "en": "Engineer",
+  "pt": "Engenhoqueira",
+  "es": "Ingeniera",
+  "zh": "工程师",
+  "ja": "エンジニア",
+  "ru": "Инженер",
+  "kr": "엔지니어"
+},
+"Geomancer": {
+  "en": "Geomancer",
+  "pt": "Geomante",
+  "es": "Geomante",
+  "zh": "地占师",
+  "ja": "ジオマンサー",
+  "ru": "Геомант",
+  "kr": "지오맨서"
+},
+"assistant_166_fail": {
+  "pt": {
+    "normal": "Eles voltaram sem saber de nada, mas o Lorde Weycroft enviou um aviso bem claro: a mansão é território proibido. Quando um nobre 'sugere' distância, ele está polindo as algemas.",
+    "happy": "Os heróis não viram nada, mas o Lorde enviou um bilhetinho! Ele quer a gente bem longe da mansão. Hehe, parece que alguém ficou nervoso!",
+    "ironic": "Ótimo trabalho. Eles não descobriram nada e agora temos um aviso do Lorde Weycroft pedindo 'gentilmente' para sumirmos. Um sucesso diplomático, sem dúvida.",
+    "dark": "O fracasso trouxe o silêncio dos heróis e o rosnado do Lorde. Weycroft mandou nos afastarmos. O que ele esconde naquela mansão agora tem dentes e um selo oficial.",
+    "bipolar_up": "Eles não acharam nada! Mas olha, recebemos uma carta do Lorde! Ele disse para ficarmos longe! Uhu, somos oficialmente indesejados pela elite!",
+    "bipolar_down": "Fracassaram. Weycroft mandou um aviso para a Guilda se afastar. A mansão vai continuar com seus segredos... e nós com nossas dívidas."
+  },
+  "en": {
+    "normal": "They returned knowing nothing, but Lord Weycroft sent a very clear warning: the manor is forbidden territory. When a noble 'suggests' distance, he's polishing the shackles.",
+    "happy": "The heroes saw nothing, but the Lord sent a little note! He wants us far away from the manor. Hehe, looks like someone got nervous!",
+    "ironic": "Great job. They found out nothing and now we have a warning from Lord Weycroft 'kindly' asking us to vanish. A diplomatic success, no doubt.",
+    "dark": "Failure brought the heroes' silence and the Lord's growl. Weycroft told us to back off. Whatever he's hiding in that manor now has teeth and an official seal.",
+    "bipolar_up": "They found nothing! But look, we got a letter from the Lord! He said to stay away! Woohoo, we're officially unwanted by the elite!",
+    "bipolar_down": "They failed. Weycroft sent a warning for the Guild to back off. The manor keeps its secrets... and we keep our debts."
+  },
+  "es": {
+    "normal": "Regresaron sin saber nada, pero Lord Weycroft envió una advertencia clara: la mansión es territorio prohibido. Cuando un noble 'sugiere' distancia, está puliendo los grilletes.",
+    "happy": "¡Los héroes no vieron nada, pero el Lord envió una cartita! Nos quiere lejos de la mansión. ¡Hehe, parece que alguien se puso nervioso!",
+    "ironic": "Excelente trabajo. No descubrieron nada y ahora tenemos un aviso de Lord Weycroft pidiendo 'amablemente' que nos larguemos. Un éxito diplomático, sin duda.",
+    "dark": "El fracaso trajo el silencio de los héroes y el gruñido del Lord. Weycroft nos ordenó alejarnos. Lo que esconde en esa mansión ahora tiene dientes y un sello oficial.",
+    "bipolar_up": "¡No encontraron nada! ¡Pero mira, recibimos una carta del Lord! ¡Dijo que nos alejáramos! ¡Uhu, oficialmente no somos bienvenidos por la élite!",
+    "bipolar_down": "Fracasaron. Weycroft envió un aviso para que el Gremio se aleje. La mansión conservará sus secretos... y nosotros nuestras deudas."
+  },
+  "ru": {
+    "normal": "Они вернулись ни с чем, но лорд Уэйкрофт прислал четкое предупреждение: поместье — запретная зона. Когда дворянин «советует» держаться подальше, он полирует кандалы.",
+    "happy": "Герои ничего не узнали, зато лорд прислал записочку! Он хочет, чтобы мы держались подальше от поместья. Хе-хе, кто-то занервничал!",
+    "ironic": " Отличная работа. Они ничего не выяснили, и теперь у нас есть предупреждение от лорда Уэйкрофта с «просьбой» исчезнуть. Несомненный дипломатический успех.",
+    "dark": "Провал принес молчание героев и рычание лорда. Уэйкрофт велел нам отступить. То, что он прячет в поместье, теперь имеет зубы и официальную печать.",
+    "bipolar_up": "Они ничего не нашли! Но смотрите, письмо от лорда! Он сказал держаться подальше! Уху, мы официально в черном списке у элиты!",
+    "bipolar_down": "Они провалились. Уэйкрофт прислал предупреждение Гильдии отойти в сторону. Поместье сохранит свои тайны... а мы — свои долги."
+  },
+  "zh": {
+    "normal": "他们一无所知地回来了，但韦克罗夫特领主发出了明确的警告：庄园是禁区。当贵族“建议”保持距离时，他已经在打磨枷锁了。",
+    "happy": "英雄们什么也没发现，但领主寄来了一封信！他想让我们离庄园远点。呵呵，看来有人紧张了！",
+    "ironic": "做得好。他们什么都没发现，现在我们收到了韦克罗夫特领主的警告，“委婉地”要求我们滚开。毫无疑问，这是一次外交胜利。",
+    "dark": "失败带来了英雄的沉默和领主的咆哮。韦克罗夫特告诉我们退后。他在庄园里隐藏的东西现在有了牙齿和官方印章。",
+    "bipolar_up": "他们什么也没发现！但瞧，领主来信了！他说让我们离远点！呜呼，我们正式被精英阶层讨厌了！",
+    "bipolar_down": "他们失败了。韦克罗夫特警告公会退后。庄园将保留它的秘密……而我们保留债务。"
+  },
+  "ja": {
+    "normal": "彼らは何も知らずに戻ったが、ウェイクロフト卿からはっきりとした警告が届いた。屋敷は禁足地だ。貴族が距離を置くよう「提案」する時、彼は手枷を磨いている。",
+    "happy": "英雄たちは何も見つけられなかったけど、卿からお手紙が届いたよ！屋敷には近づくなってさ。へへ、誰かさんが焦ってるみたい！",
+    "ironic": "お見事。彼らは何も突き止められず、ウェイクロフト卿からは「丁重に」消えろという警告が届いた。外交的成功としか言いようがないね。",
+    "dark": "失敗は英雄の沈黙と卿の唸り声を招いた。ウェイクロフトは我々に手を引けと言っている。彼が屋敷に隠しているものは、今や牙と公式な印章を帯びている。",
+    "bipolar_up": "何も見つからなかった！でも見て、卿から手紙だよ！離れていろってさ！やった、公式にエリートから嫌われちゃった！",
+    "bipolar_down": "失敗だ。ウェイクロフトはギルドに手を引くよう警告してきた。屋敷は秘密を守り…我々は借金を抱え続ける。"
+  }
+},
+  "menu_select": {
+    "pt": "Informações",
+    "en": "Information",
+    "es": "Información",
+    "ru": "Информация",
+    "zh": "信息",
+    "ja": "情報"
+  },
+  "menu_info": {
+    "pt": "Informações",
+    "en": "Information",
+    "es": "Información",
+    "ru": "Информация",
+    "zh": "信息",
+    "ja": "情報"
+  },
+  "hero_details_title": {
+    "pt": "Detalhes dos Heróis",
+    "en": "Hero Details",
+    "es": "Detalles de Héroes",
+    "ru": "Подробности о героях",
+    "zh": "英雄详情",
+    "ja": "ヒーローの詳細"
+  },
+  "select_hero": {
+    "pt": "Selecione um Herói:",
+    "en": "Select a Hero:",
+    "es": "Selecciona un Héroe:",
+    "ru": "Выберите героя:",
+    "zh": "选择英雄：",
+    "ja": "ヒーローを選択："
+  },
+  "guild_stats_title": {
+    "pt": "Estatísticas da Guilda",
+    "en": "Guild Statistics",
+    "es": "Estadísticas del Gremio",
+    "ru": "Статистика гильдии",
+    "zh": "公会统计数据",
+    "ja": "ギルド統計"
+  }
 }

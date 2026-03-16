@@ -28,7 +28,7 @@
   "required_quests": [],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -46,6 +46,76 @@
       "ru": "слизи, которые размножаются",
       "zh": "会繁殖的史莱姆",
       "ja": "増殖するスライム"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "Adaptei os golpes para evitar a divisão e destruí os slimes por completo antes que pudessem se multiplicar.",
+          "Controlei o ritmo do combate, isolando cada criatura e eliminando-a sem permitir novas ramificações.",
+          "Impedindo cortes bruscos, neutralizei os núcleos de cada slime até que a floresta ficasse livre da ameaça."
+        ],
+        "en": [
+          "I adjusted my strikes to prevent division and destroyed the slimes completely before they could multiply.",
+          "I controlled the pace of the fight, isolating each creature and eliminating it without allowing further splits.",
+          "Avoiding crude blows, I neutralized each slime’s core until the forest was cleared of the threat."
+        ],
+        "es": [
+          "Ajusté mis golpes para evitar la división y destruí los slimes antes de que pudieran multiplicarse.",
+          "Controlé el ritmo del combate, aislando cada criatura y eliminándola sin permitir nuevas divisiones.",
+          "Evitando impactos bruscos, neutralicé el núcleo de cada slime hasta liberar el bosque."
+        ],
+        "ru": [
+          "Я изменил удары, чтобы предотвратить деление, и полностью уничтожил слизней до их размножения.",
+          "Я контролировал ход боя, изолируя каждое существо и уничтожая его без новых разделений.",
+          "Избегая грубых ударов, я нейтрализовал ядра слизней и очистил лес."
+        ],
+        "zh": [
+          "我调整攻击方式，避免分裂，在它们繁殖前彻底消灭。",
+          "我控制战斗节奏，逐个隔离并清除，不给分裂机会。",
+          "避免粗暴打击，我破坏每个史莱姆的核心，使森林恢复安全。"
+        ],
+        "ja": [
+          "分裂を防ぐよう攻撃を調整し、増える前に完全に排除した。",
+          "戦闘の流れを制御し、一体ずつ隔離して増殖を許さず処理した。",
+          "不用意な打撃を避け、各スライムの核を破壊して森を解放した。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Os golpes causaram novas divisões e o número de slimes saiu do controle.",
+          "Não consegui impedir a multiplicação e a infestação se espalhou pela floresta.",
+          "A divisão constante superou minha capacidade de contenção."
+        ],
+        "en": [
+          "My strikes triggered further splits and their numbers spiraled out of control.",
+          "I failed to prevent multiplication and the infestation spread through the forest.",
+          "Constant division overwhelmed my ability to contain them."
+        ],
+        "es": [
+          "Mis golpes provocaron nuevas divisiones y su número se salió de control.",
+          "No logré impedir la multiplicación y la plaga se extendió por el bosque.",
+          "La división constante superó mi capacidad de contención."
+        ],
+        "ru": [
+          "Мои удары вызвали новые разделения, и численность вышла из-под контроля.",
+          "Мне не удалось остановить размножение, и заражение распространилось по лесу.",
+          "Постоянное деление превысило мои возможности сдерживания."
+        ],
+        "zh": [
+          "攻击导致更多分裂，数量失控。",
+          "未能阻止繁殖，威胁蔓延至森林。",
+          "持续分裂超出了控制能力。"
+        ],
+        "ja": [
+          "攻撃がさらなる分裂を招き、数が制御不能になった。",
+          "増殖を止められず、森に広がった。",
+          "分裂の連鎖に対処しきれなかった。"
+        ]
+      }
     }
   }
 }

@@ -30,7 +30,7 @@
   ],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [
+  "required_perks": [
     1,
     2
   ],
@@ -54,6 +54,140 @@
       "ru": "слизи",
       "zh": "史莱姆们",
       "ja": "スライムたち"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "religion": {
+        "pt": [
+          "Consagrei o terreno ao redor da poça e a pulsação cessou sob rito sagrado.",
+          "Tracei selos de purificação e a gosma perdeu sua força geradora.",
+          "Entoei a liturgia adequada e a poça foi santificada, impedindo novos surgimentos."
+        ],
+        "en": [
+          "I consecrated the ground around the puddle and its pulse ceased under sacred rite.",
+          "I traced purification seals and the goo lost its generative force.",
+          "I chanted the proper liturgy and sanctified the puddle, preventing further emergence."
+        ],
+        "es": [
+          "Consagré el terreno alrededor del charco y su pulso cesó bajo rito sagrado.",
+          "Trazé sellos de purificación y la baba perdió su fuerza generadora.",
+          "Recité la liturgia adecuada y el charco quedó santificado, impidiendo nuevos brotes."
+        ],
+        "ru": [
+          "Я освятил землю вокруг лужи, и её пульсация прекратилась.",
+          "Я начертал печати очищения, и слизь утратила способность порождать новых существ.",
+          "Я произнёс священный обряд, и явление было остановлено."
+        ],
+        "zh": [
+          "我为水洼周围进行祝圣仪式，使其脉动停止。",
+          "我刻下净化印记，粘液失去了生成能力。",
+          "我诵念圣仪，使水洼被净化，阻止新的史莱姆出现。"
+        ],
+        "ja": [
+          "水たまりの周囲を聖別し、脈動を止めました。",
+          "浄化の印を刻み、粘液の生成力を奪いました。",
+          "正しい典礼を行い、新たな出現を封じました。"
+        ]
+      },
+      "arcana": {
+        "pt": [
+          "Identifiquei o fluxo arcano que alimentava a poça e o interrompi com precisão.",
+          "Desmontei o núcleo mágico instável e neutralizei os resíduos ativos.",
+          "Implementei contenção arcana permanente e cessei o ciclo de geração."
+        ],
+        "en": [
+          "I identified the arcane flow feeding the puddle and precisely severed it.",
+          "I dismantled the unstable magical core and neutralized the active residue.",
+          "I established permanent arcane containment and ended the spawning cycle."
+        ],
+        "es": [
+          "Identifiqué el flujo arcano que alimentaba el charco y lo interrumpí con precisión.",
+          "Desmantelé el núcleo mágico inestable y neutralicé los residuos activos.",
+          "Establecí contención arcana permanente y detuve el ciclo de generación."
+        ],
+        "ru": [
+          "Я обнаружил арканный поток, питающий лужу, и точно его прервал.",
+          "Я разобрал нестабильное магическое ядро и нейтрализовал остатки.",
+          "Я установил постоянное арканное сдерживание и остановил цикл порождения."
+        ],
+        "zh": [
+          "我识别并切断了滋养水洼的奥术能量流。",
+          "我拆解了不稳定的魔法核心并中和残留。",
+          "我建立了永久奥术封锁，终止了生成循环。"
+        ],
+        "ja": [
+          "水たまりを支える魔力の流れを断ちました。",
+          "不安定な魔力核を解体し、残滓を無力化しました。",
+          "恒久的な術式封鎖を施し、生成の循環を止めました。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Contive os slimes que emergiam da poça e impedi que alcançassem o vilarejo.",
+          "Mantive a linha defensiva e eliminei cada criatura antes que se estabilizasse.",
+          "Controlei as ondas sucessivas de slimes até que a poça cessasse a expulsão por ora."
+        ],
+        "en": [
+          "I contained the slimes emerging from the puddle and prevented them from reaching the village.",
+          "I held the defensive line and eliminated each creature before it could stabilize.",
+          "I controlled the successive waves until the puddle temporarily stopped expelling them."
+        ],
+        "es": [
+          "Contuve a los slimes que emergían del charco e impedí que alcanzaran la aldea.",
+          "Mantuve la línea defensiva y eliminé cada criatura antes de que se estabilizara.",
+          "Controlé las oleadas sucesivas hasta que el charco dejó de expulsarlos por el momento."
+        ],
+        "ru": [
+          "Я сдержал слизней, выходящих из лужи, и не позволил им добраться до деревни.",
+          "Я удержал оборону и уничтожил каждое существо до его стабилизации.",
+          "Я контролировал волны слизней, пока лужа временно не прекратила их выбрасывать."
+        ],
+        "zh": [
+          "我控制住从水洼中出现的史莱姆，阻止它们进入村庄。",
+          "我稳住防线，在它们稳定前逐一消灭。",
+          "我压制了多次涌出的史莱姆，直到水洼暂时停止喷吐。"
+        ],
+        "ja": [
+          "水たまりから現れるスライムを抑え、村への侵入を防ぎました。",
+          "防衛線を維持し、安定する前に全て排除しました。",
+          "連続する出現を制圧し、水たまりが一時的に静まりました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Os slimes romperam a contenção e a poça continuou crescendo.",
+          "Fui sobrecarregado pelas ondas sucessivas e a infestação avançou.",
+          "A defesa falhou e novas criaturas escaparam em direção ao vilarejo."
+        ],
+        "en": [
+          "The slimes broke containment and the puddle continued to grow.",
+          "I was overwhelmed by successive waves and the infestation advanced.",
+          "The defense failed and new creatures escaped toward the village."
+        ],
+        "es": [
+          "Los slimes rompieron la contención y el charco siguió creciendo.",
+          "Fui superado por las oleadas sucesivas y la infestación avanzó.",
+          "La defensa falló y nuevas criaturas escaparon hacia la aldea."
+        ],
+        "ru": [
+          "Слизи прорвали сдерживание, и лужа продолжила расти.",
+          "Меня захлестнули волны, и заражение распространилось.",
+          "Оборона провалилась, и новые существа направились к деревне."
+        ],
+        "zh": [
+          "史莱姆突破封锁，水洼继续扩大。",
+          "我被多次涌出的浪潮压制，污染扩散。",
+          "防线失败，新生物向村庄蔓延。"
+        ],
+        "ja": [
+          "封じ込めが破られ、水たまりは拡大しました。",
+          "連続する波に押され、被害が広がりました。",
+          "防衛が崩れ、新たなスライムが村へ向かいました。"
+        ]
+      }
     }
   }
 }

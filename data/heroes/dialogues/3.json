@@ -129,28 +129,888 @@
       }
     }
   },
-  "quests": { 
-    "0": {
-      "success": {
-        "text": {
-          "pt": [ "Maelis, successo teste" ],
-          "en": [ "Maelis, success test" ]
-        },
-        "1": {
-          "pt": [ "Maelis, teste de sucesso lyra" ],
-          "en": [ "Maelis, lyra success test" ]
-        }
+  "dialogue_blocks": {
+    "arrived": {
+      "alone": {
+        "pt": [
+        "Estive n{location}. O solo vibrava e as raízes observavam meus passos.",
+        "Cheguei n{location}. O silêncio da mata me distraiu, mas minha casca estava pronta.",
+        "Senti n{location} sob meus pés. Fiquei lá, firme como um carvalho antigo.",
+        "Estive n{location}. O vento sussurrou segredos que quase me fizeram esquecer o dever.",
+        "Entrei n{location}. Minha pele endureceu como casca... a natureza exigia cautela.",
+        "N{location} parecia em desequilíbrio. Permaneci em guarda até o tronco ceder.",
+        "Avancei n{location}. Me perdi olhando as formigas, mas meu escudo estava posto.",
+        "Sozinha n{location}. O peso da terra me guiou enquanto aguardava o primeiro golpe.",
+        "Cheguei n{location}. Não precisei de palavras quando o solo falava tão alto.",
+        "Posicionada n{location}. Fui a rocha que o rio contorna. Não saí dali."
+      ],
+      "en": [
+        "I was at {location}. The ground vibrated and the roots watched my steps.",
+        "I reached {location}. The forest's silence distracted me, but my bark was ready.",
+        "I felt {location} beneath my feet. I stood there, firm as an ancient oak.",
+        "I was at {location}. The wind whispered secrets that almost made me forget my duty.",
+        "I entered {location}. My skin hardened like bark... nature demanded caution.",
+        "At {location}, things felt unbalanced. I remained on guard until the trunk gave way.",
+        "I moved through {location}. I lost myself watching the ants, but my shield was set.",
+        "Alone at {location}. The weight of the earth guided me as I awaited the first blow.",
+        "I reached {location}. I needed no words when the ground spoke so loudly.",
+        "Positioned at {location}. I was the rock the river flows around. I did not move."
+      ],
+      "es": [
+        "Estuve en {location}. El suelo vibraba y las raíces observaban mis pasos.",
+        "Llegué a {location}. El silencio del bosque me distrajo, pero mi corteza estaba lista.",
+        "Sentí {location} bajo mis pies. Me quedé allí, firme como un roble antiguo.",
+        "Estuve en {location}. El viento susurró secretos que casi me hicieron olvidar el deber.",
+        "Entré en {location}. Mi piel se endureció como corteza... la naturaleza exigía cautela.",
+        "{location} parecía en desequilibrio. Permanecí en guardia hasta que el tronco cedió.",
+        "Avancé en {location}. Me perdí mirando a las hormigas, pero mi escudo estaba puesto.",
+        "Sola en {location}. El peso de la tierra me guio mientras esperaba el primer golpe.",
+        "Llegué a {location}. No necesité palabras cuando el suelo hablaba tan fuerte.",
+        "Posicionada en {location}. Fui la roca que el río rodea. No me moví de allí."
+      ],
+      "ru": [
+        "Я была в {location}. Почва дрожала, и корни следили за моими шагами.",
+        "Я пришла в {location}. Тишина леса отвлекла меня, но моя кора была готова.",
+        "Я чувствовала {location} под ногами. Я стояла там, твердая как древний дуб.",
+        "Я была в {location}. Ветер шептал тайны, которые чуть не заставили меня забыть о долге.",
+        "Я вошла в {location}. Моя кожа огрубела, как кора... природа требовала осторожности.",
+        "В {location} чувствовался разлад. Я оставалась на страже, пока ствол не поддался.",
+        "Я шла по {location}. Я засмотрелась на муравьев, но мой щит был на месте.",
+        "Одна в {location}. Вес земли вел меня, пока я ждала первого удара.",
+        "Я добралась до {location}. Слова были не нужны, когда земля говорила так громко.",
+        "На позиции в {location}. Я была скалой, которую огибает река. Я не сдвинулась."
+      ],
+      "zh": [
+        "我在 {location}。大地在震动，树根在注视着我的脚步。",
+        "我抵达了 {location}。林间的寂静令我分神，但我的树皮已经准备就绪。",
+        "我感受到脚下的 {location}。我伫立在那里，坚如古老的橡木。",
+        "我曾身处 {location}。风轻声耳语着秘密，险些让我忘记了职责。",
+        "我进入了 {location}。我的皮肤变得像树皮一样坚硬……大自然要求谨慎。",
+        "{location} 似乎失去了平衡。我一直严阵以待，直到树干倾倒。",
+        "我在 {location} 前进。我因观察蚂蚁而失神，但我的护盾并未松懈。",
+        "独自在 {location}。大地的重量引导着我，等待着第一击的降临。",
+        "我到达了 {location}。大地之声如此响亮，我已无需言语。",
+        "在 {location} 就位。我是那岩石，任凭河水绕流，我自岿然不动。"
+      ],
+      "ja": [
+        "{location} にいた。大地は震え、根が私の足跡を見守っていた。",
+        "{location} に着いた。森の静寂に気を取られたが、私の「皮」は準備できていた。",
+        "足元に {location} を感じた。古木のように毅然として、そこに立ち続けた。",
+        "{location} にいた。風が囁く秘密に、使命を忘れそうになったほどだ。",
+        "{location} に入った。肌は樹皮のように硬くなった…自然は警戒を求めている。",
+        "{location} は均衡を失っているようだ。幹が屈するまで、私は警戒を解かなかった。",
+        "{location} を進んだ。蟻に見入ってしまったが、盾は構えたままだ。",
+        "{location} で独り。大地の重みが私を導き、最初の一撃を待った。",
+        "{location} に着いた。大地がこれほど雄弁なら、言葉は必要ない。",
+        "{location} に配置。川が避けて通る岩のように、そこから動かなかった。"
+      ]
+    },
+    "group": {
+      "ja": [
+        "{location} に着いた。私が先頭に立つ。この体は群れの盾だ。",
+        "{location} は皆のおかげで賑やかだったが、私は皆を守る樹木であり続けた。",
+        "{location} に入った。皆には私の後ろに下がるよう言った。私は強靭な繊維と忍耐でできている。",
+        "{location} にいた。皆の言葉は聞き逃したが、どこに根を張るべきかは分かっていた。",
+        "皆と {location} に踏み込んだ。危険が迫った時、私は折れない幹となった。",
+        "{location} が我々を迎えた。皆が動けるよう、私が一撃を受け止めた。",
+        "着いたぞ… {location} は妙な臭いがした。皆は近くにいた、私が衝撃を耐え抜いた。",
+        "{location} へ進んだ。皆が葉なら、私はそれを支える根だ。",
+        "もう {location} だ。花に気を取られたが、皆のために警戒は怠らなかった。",
+        "{location} にいた。奴らの鋼が触れたのは、私の硬い樹皮だけだった。"
+      ],
+      "zh": [
+          "我们到达了 {location}。我走在最前面；我的身体是族群的护盾。",
+          "{location} 因为有你们而喧闹，但我仍是那棵庇护全队的树。",
+          "我们进入了 {location}。我让他们待在后方；我由坚韧的纤维和耐心铸成。",
+          "我们曾在 {location}。我没听清他们说了什么，但我知道该在哪里扎根。",
+          "我和其他人一同踏入 {location}。危险来临时，我是那绝不折断的树干。",
+          "{location} 接纳了我们。我抵挡了所有攻击，以便你们采取行动。",
+          "我们到了…… {location} 有股奇怪的气味。他们紧跟着我，我承受了冲击。",
+          "我们向 {location} 进发。如果队伍是枝叶，我便是那维持生命的根基。",
+          "已在 {location}。我被一朵花吸引了注意力，但为了你们，我的警惕从未放松。",
+          "我们曾在 {location}。他们的钢铁只撞上了我树皮般的坚硬身躯。"
+        ],
+      "pt": [
+        "Chegamos n{location}. Fiquei à frente; meu corpo foi o escudo da nossa matilha.",
+        "N{location} era barulhento com vocês, mas fui a árvore que abrigou o grupo.",
+        "Entramos n{location}. Pedi que ficassem atrás de mim, sou feita de fibra e paciência.",
+        "Estivemos n{location}. Perdi o que disseram, mas soube onde devia me plantar.",
+        "Pisei n{location} com os outros. Quando o perigo veio, fui o tronco que não quebra.",
+        "N{location} nos recebeu. Absorvi os golpes para que vocês pudessem agir.",
+        "Chegamos... n{location} tinha um cheiro estranho. Ficaram perto, eu aguentei o impacto.",
+        "Avançamos até n{location}. O grupo era a folhagem, eu fui a raiz que sustentou.",
+        "Já n{location}. Me distraí com uma flor, mas minha guarda continuou alta por vocês.",
+        "Estivemos n{location}. O aço deles encontrou apenas a dureza da minha casca."
+      ],
+      "ru": [
+        "Мы пришли в {location}. Я встала впереди; мое тело стало щитом для нашей стаи.",
+        "В {location} с вами было шумно, но я была деревом, укрывшим группу.",
+        "Мы вошли в {location}. Я попросила их встать за мной; я создана из волокон и терпения.",
+        "Мы были в {location}. Я прослушала их слова, но знала, где должна пустить корни.",
+        "Я ступила в {location} с остальными. Когда пришла беда, я была стволом, который не ломается.",
+        "{location} встретило нас. Я принимала удары на себя, чтобы вы могли действовать.",
+        "Мы на месте... в {location} был странный запах. Они держались рядом, я выдержала удар.",
+        "Мы дошли до {location}. Группа была листвой, я же была корнем, что давал опору.",
+        "Уже в {location}. Я отвлеклась на цветок, но ради вас не теряла бдительности.",
+        "Мы были в {location}. Их сталь встретила лишь твердость моей коры."
+      ],
+      "es": [
+        "Llegamos a {location}. Me puse al frente; mi cuerpo fue el escudo de nuestra manada.",
+        "{location} era ruidoso con ustedes, pero fui el árbol que dio refugio al grupo.",
+        "Entramos en {location}. Les pedí que se quedaran detrás de mí; soy de fibra y paciencia.",
+        "Estuvimos en {location}. Me perdí lo que dijeron, pero supe dónde debía plantarme.",
+        "Pisé {location} con los demás. Cuando vino el peligro, fui el tronco que no se quiebra.",
+        "{location} nos recibió. Absorbí los golpes para que ustedes pudieran actuar.",
+        "Llegamos... {location} olía raro. Se quedaron cerca, yo aguanté el impacto.",
+        "Avanzamos hasta {location}. El grupo era el follaje, yo fui la raíz que sostuvo todo.",
+        "Ya en {location}. Me distraje con una flor, pero mi guardia siguió alta por ustedes.",
+        "Estuvimos en {location}. Su acero solo encontró la dureza de mi corteza."
+      ],
+      "en": [
+        "We reached {location}. I took the lead; my body was the shield for our pack.",
+        "{location} was noisy with you, but I was the tree that sheltered the group.",
+        "We entered {location}. I asked them to stay behind me; I am made of fiber and patience.",
+        "We were at {location}. I missed what they said, but I knew where I had to plant myself.",
+        "I stepped into {location} with the others. When danger came, I was the trunk that does not break.",
+        "{location} welcomed us. I absorbed the blows so you could act.",
+        "We arrived... {location} had a strange smell. They stayed close; I endured the impact.",
+        "We advanced to {location}. The group was the foliage, I was the root that sustained us.",
+        "Now at {location}. A flower distracted me, but my guard remained high for you.",
+        "We were at {location}. Their steel found only the hardness of my bark."
+      ]
+    }
+    },
+    "action": {
+      "fight": {
+        "alone": {
+          "pt": [
+            "Bati no meu escudo de carvalho e chamei a atenção de {enemy}.",
+            "Minha pele endureceu como casca antes de eu investir contra {enemy}.",
+            "Forcei o confronto direto; {enemy} não passaria pela minha raiz.",
+            "Ataquei {enemy} com o peso de uma árvore secular caindo.",
+            "Rosnei baixo, como um urso, e obriguei {enemy} a lutar comigo.",
+            "Golpeei o solo e desafiei {enemy} enquanto as flores tremiam.",
+            "Respirei fundo, esqueci os pássaros e avancei pesado contra {enemy}.",
+            "Me tornei rocha e tronco diante da investida de {enemy}.",
+            "Ergui meu escudo orgânico e pressionei {enemy} com toda minha fibra.",
+            "Travei combate com {enemy}; o equilíbrio não seria quebrado hoje."
+        ],
+        "en": [
+          "I struck my oak shield and drew {enemy}'s attention.",
+          "My skin hardened like bark before I charged at {enemy}.",
+          "I forced a direct confrontation; {enemy} would not get past my roots.",
+          "I attacked {enemy} with the weight of a centuries-old tree falling.",
+          "I growled low, like a bear, and forced {enemy} to fight me.",
+          "I struck the ground and challenged {enemy} while the flowers trembled.",
+          "I took a deep breath, forgot the birds, and advanced heavily against {enemy}.",
+          "I became rock and trunk before {enemy}'s onslaught.",
+          "I raised my organic shield and pressed {enemy} with all my fiber.",
+          "I engaged in combat with {enemy}; the balance would not be broken today."
+        ],
+        "es": [
+          "Golpeé mi escudo de roble y llamé la atención de {enemy}.",
+          "Mi piel se endureció como corteza antes de embestir a {enemy}.",
+          "Forcé el enfrentamiento directo; {enemy} no pasaría por encima de mi raíz.",
+          "Ataqué a {enemy} con el peso de un árbol centenario cayendo.",
+          "Gruñí bajo, como un oso, y obligué a {enemy} a luchar conmigo.",
+          "Golpeé el suelo y desafié a {enemy} mientras las flores temblaban.",
+          "Respiré hondo, olvidé a los pájaros y avancé pesado contra {enemy}.",
+          "Me volví roca y tronco ante la embestida de {enemy}.",
+          "Alcé mi escudo orgánico y presioné a {enemy} con toda mi fibra.",
+          "Trabe combate con {enemy}; el equilibrio no se rompería hoy."
+        ],
+        "ru": [
+          "Я ударила в свой дубовый щит и привлекла внимание {enemy}.",
+          "Моя кожа огрубела, как кора, прежде чем я бросилась на {enemy}.",
+          "Я навязала прямой бой; {enemy} не пройдет сквозь мои корни.",
+          "Я обрушилась на {enemy} всей тяжестью векового падающего дерева.",
+          "Я низко зарычала, как медведь, и заставила {enemy} сражаться со мной.",
+          "Я ударила по земле и бросила вызов {enemy}, отчего задрожали цветы.",
+          "Я глубоко вздохнула, забыла о птицах и тяжело пошла на {enemy}.",
+          "Я стала камнем и стволом перед натиском {enemy}.",
+          "Я подняла свой органический щит и надавила на {enemy} всей своей силой.",
+          "Я вступила в схватку с {enemy}; равновесие сегодня не будет нарушено."
+        ],
+        "zh": [
+          "我敲击橡木盾，吸引了 {enemy} 的注意。",
+          "在冲向 {enemy} 之前，我的皮肤变得像树皮一样坚硬。",
+          "我强迫正面交锋；{enemy} 绝无法越过我的根须。",
+          "我以百年古树倾倒之势攻击 {enemy}。",
+          "我像熊一样低吼，迫使 {enemy} 与我搏斗。",
+          "我击打地面向 {enemy} 挑战，花朵随之震颤。",
+          "我深吸一口气，忘却鸟鸣，沉重地向 {enemy} 逼近。",
+          "在 {location} 的冲击面前，我化作磐石与巨干。",
+          "我举起有机的护盾，用全身的韧劲压制 {enemy}。",
+          "我与 {enemy} 展开激战；平衡在今天绝不会被打破。"
+        ],
+        "ja": [
+          "オークの盾を叩き、{enemy} の注意を引いた。",
+          "{enemy} に突撃する前、私の肌は樹皮のように硬くなった。",
+          "直接対決を強いた。私の「根」を越えて {enemy} は進ませない。",
+          "百年越えの古木が倒れるような重みで {enemy} に打ちかかった。",
+          "熊のように低く唸り、{enemy} に私と戦うよう強いた。",
+          "大地を叩いて {enemy} に挑んだ。花々が震えていた。",
+          "深く息を吸い、鳥の声を忘れ、{enemy} に向かって重く踏み出した。",
+          "{enemy} の猛攻を前に、私は岩となり、幹となった。",
+          "有機の盾を掲げ、全繊維の力を込めて {enemy} を押し返した。",
+          "{enemy} と刃を交えた。今日、調和が壊れることはない。"
+        ]
       },
-      "failure": {
-        "text": {
-          "pt": [ "Maelis, falha teste" ],
-          "en": [ "Maelis, failure test" ]
-        },
-        "1": {
-          "pt": [ "Maelis, teste de falha lyra" ],
-          "en": [ "Maelis, lyra failure test" ]
-        }
+      "group": {
+        "pt": [
+          "Me plantei na frente do grupo e atraí a fúria de {enemy}.",
+          "Protegi meus aliados; {enemy} teve que lidar com a minha casca primeiro.",
+          "Enquanto eles atacavam, eu absorvi cada golpe de {enemy}.",
+          "Grudei em {enemy} para que ninguém mais fosse ferido.",
+          "Fui o escudo da matilha; {enemy} não conseguiu alcançar os outros.",
+          "Virei o alvo de {enemy} para manter o grupo em segurança.",
+          "Deixei que {enemy} me batesse; meu corpo aguenta o que eles não podem.",
+          "Avancei entre o grupo e {enemy}, sentindo a terra me sustentar.",
+          "Mantive a guarda alta enquanto {enemy} tentava romper nossa linha.",
+          "O grupo recuou e eu me tornei a muralha contra {enemy}."
+        ],
+        "ja": [
+          "仲間の前に立ち、{enemy} の怒りを自分に向けさせた。",
+          "味方を守り抜いた。{enemy} はまず私の樹皮を相手にするしかなかった。",
+          "皆が攻撃する間、私は {enemy} の一撃をすべて受け止めた。",
+          "他の誰も傷つかないよう、{enemy} に張り付いた。",
+          "群れの盾となった。{enemy} は他の者には届かない。",
+          "仲間を安全に保つため、私が {enemy} の標的になった。",
+          "{enemy} に打たれるがままにした。私の体は、皆が耐えられぬ一撃も耐えうる。",
+          "仲間と {enemy} の間に進み出た。大地が私を支えるのを感じる。",
+          "{enemy} が戦列を崩そうとする中、私はガードを高く保ち続けた。",
+          "皆が下がり、私が {enemy} に対する防壁となった。"
+        ],
+        "zh": [
+          "我伫立在队伍前，吸引了 {enemy} 的怒火。",
+          "我守护着盟友；{enemy} 必须先应付我的树皮护甲。",
+          "在他们进攻时，我承受了 {enemy} 的每一次打击。",
+          "我死死缠住 {enemy}，不让其他人受伤。",
+          "我是族群的护盾；{enemy} 无法触及其他同伴。",
+          "我成了 {enemy} 的目标，以确保队伍的安全。",
+          "我任由 {enemy} 击打；我的身体能抗下他们无法承受的伤害。",
+          "我挡在队伍与 {enemy} 之间，感受着大地的支撑。",
+          "在 {enemy} 试图突破防线时，我始终保持警惕。",
+          "队伍后撤，我成了阻挡 {enemy} 的高墙。"
+        ],
+        "ru": [
+          "Я встала перед группой и приняла на себя ярость {enemy}.",
+          "Я защитила союзников; {enemy} пришлось сначала столкнуться с моей корой.",
+          "Пока они атаковали, я впитывала каждый удар {enemy}.",
+          "Я приклеилась к {enemy}, чтобы больше никто не пострадал.",
+          "Я была щитом стаи; {enemy} не смог добраться до остальных.",
+          "Я стала мишенью для {enemy}, чтобы сохранить группу в безопасности.",
+          "Я позволила {enemy} бить меня; мое тело выдержит то, что не под силу им.",
+          "Я встала между группой и {enemy}, чувствуя поддержку земли.",
+          "Я держала стражу, пока {enemy} пытался прорвать наш строй.",
+          "Группа отступила, и я стала стеной на пути {enemy}."
+        ],
+        "es": [
+          "Me planté frente al grupo y atraje la furia de {enemy}.",
+          "Protegí a mis aliados; {enemy} tuvo que lidiar con mi corteza primero.",
+          "Mientras ellos atacaban, yo absorbía cada golpe de {enemy}.",
+          "Me pegué a {enemy} para que nadie más resultara herido.",
+          "Fui el escudo de la manada; {enemy} no pudo alcanzar a los otros.",
+          "Me volví el objetivo de {enemy} para mantener al grupo a salvo.",
+          "Dejé que {enemy} me golpeara; mi cuerpo aguanta lo que ellos no pueden.",
+          "Avancé entre el grupo y {enemy}, sintiendo que la tierra me sostenía.",
+          "Mantuve la guardia alta mientras {enemy} intentaba romper nuestra línea.",
+          "El grupo retrocedió y yo me convertí en la muralla contra {enemy}."
+        ],
+        "en": [
+          "I planted myself in front of the group and drew {enemy}'s fury.",
+          "I protected my allies; {enemy} had to deal with my bark first.",
+          "While they attacked, I absorbed every blow from {enemy}.",
+          "I stuck to {enemy} so that no one else would be harmed.",
+          "I was the pack's shield; {enemy} couldn't reach the others.",
+          "I became {enemy}'s target to keep the group safe.",
+          "I let {enemy} strike me; my body can take what they cannot.",
+          "I stepped between the group and {enemy}, feeling the earth sustain me.",
+          "I kept my guard high while {enemy} tried to break our line.",
+          "The group fell back and I became the wall against {enemy}."
+        ]
       }
+      },
+      "survival": {
+        "alone": {
+        "pt": [
+          "Analisei os rastros silenciosos de {challenge}.",
+          "Busquei por sinais ocultos de {challenge} na terra.",
+          "Estudei as marcas que {challenge} deixou no caminho."
+        ],
+      "en": [
+        "I analyzed the silent tracks of {challenge}.",
+        "I searched the earth for hidden signs of {challenge}.",
+        "I studied the marks that {challenge} left on the path."
+      ],
+      "es": [
+        "Analicé los rastros silenciosos de {challenge}.",
+        "Busqué señales ocultas de {challenge} en la tierra.",
+        "Estudié las marcas que {challenge} dejó en el camino."
+      ],
+      "ru": [
+        "Я изучила безмолвные следы {challenge}.",
+        "Я искала в земле скрытые знаки {challenge}.",
+        "Я изучала отметины, которые {challenge} оставил на пути."
+      ],
+      "zh": [
+        "我分析了 {challenge} 留下的无声足迹。",
+        "我在大地中寻找 {challenge} 隐藏的迹象。",
+        "我研究了 {challenge} 在小径上留下的痕迹。"
+      ],
+      "ja": [
+        "{challenge} の静かな痕跡を分析した。",
+        "大地に隠された {challenge} の兆候を探した。",
+        "{challenge} が道に残した跡を調べた。"
+      ]
+      }
+      },
+      "nature": {
+        "alone": {
+        "pt": [
+          "Tentei ouvir o que a floresta dizia sobre {challenge}.",
+          "Busquei o equilíbrio natural diante de {challenge}.",
+          "Observei como o ciclo da vida agia em {challenge}."
+        ],
+      "en": [
+        "I tried to hear what the forest was saying about {challenge}.",
+        "I sought natural balance in the face of {challenge}.",
+        "I observed how the cycle of life acted upon {challenge}."
+      ],
+     "es": [
+        "Intenté escuchar lo que el bosque decía sobre {challenge}.",
+        "Busqué el equilibrio natural ante {challenge}.",
+        "Observé cómo el ciclo de la vida actuaba en {challenge}."
+      ],
+      "ru": [
+        "Я пыталась услышать, что лес говорит о {challenge}.",
+        "Я искала природное равновесие перед лицом {challenge}.",
+        "Я наблюдала за тем, как цикл жизни действует на {challenge}."
+      ],
+      "zh": [
+        "我试着倾听森林关于 {challenge} 的低语。",
+        "在 {challenge} 面前，我寻求着自然的平衡。",
+        "我观察着生命的轮回如何作用于 {challenge}。"
+      ],
+      "ja": [
+        "森林が {challenge} について何を語っているのか聞こうとした。",
+        "{challenge} を前に、自然の調和を求めた。",
+        "生命の循環が {challenge} にどのように作用しているか観察した。"
+      ]
+      }
+      },
+      "athletics": {
+        "alone": {
+        "pt": [
+          "Preparei meu corpo para a resistência de {challenge}.",
+          "Forcei meus músculos contra a inércia de {challenge}.",
+          "Medi minha força física perante {challenge}."
+        ],
+      "en": [
+        "I prepared my body for the endurance of {challenge}.",
+        "I strained my muscles against the inertia of {challenge}.",
+        "I measured my physical strength against {challenge}."
+      ],
+      "es": [
+        "Preparé mi cuerpo para la resistencia de {challenge}.",
+        "Forcé mis músculos contra la inercia de {challenge}.",
+        "Medí mi fuerza física ante {challenge}."
+      ],
+      "ru": [
+        "Я готовила свое тело к стойкости перед {challenge}.",
+        "Я напрягла мышцы против инерции {challenge}.",
+        "Я измерила свою физическую силу перед лицом {challenge}."
+      ],
+      "zh": [
+        "我让身体做好准备，以应对 {challenge} 的考验。",
+        "我使出全身力气，对抗 {challenge} 的惯性。",
+        "在 {challenge} 面前，我衡量了自己的体能。"
+      ],
+      "ja": [
+        "{challenge} の抵抗に備え、体を作り直した。",
+        "{challenge} の慣性に抗い、筋肉を駆使した。",
+        "{challenge} に対し、己の身体能力を推し量った。"
+      ]
+      }
+      }
+    },
+  "others": {
+    "1": {
+      "group": {
+        "pt": [
+          "Lyra era como uma tempestade súbita; eu admirava seu grito selvagem no passado.",
+          "O silêncio dela me confortava, até que a espada Vorpal dela acordava a fera.",
+          "Ela não falava muito, mas no combate, o espírito dela rugia como o vento."
+        ],
+        "en": [
+          "Lyra was like a sudden storm; I admired her wild scream in the past.",
+          "Her silence comforted me, until her Vorpal sword awakened the beast.",
+          "She didn't speak much, but in combat, her spirit roared like the wind."
+        ],
+        "es": [
+          "Lyra era como una tormenta súbita; admiraba su grito salvaje en el pasado.",
+          "Su silencio me reconfortaba, hasta que su espada Vorpal despertaba a la bestia.",
+          "No hablaba mucho, pero en combate, su espíritu rugía como el viento."
+        ],
+        "ru": [
+          "Лира была как внезапная буря; раньше я восхищалась её диким криком.",
+          "Её молчание успокаивало меня, пока её меч Ворпал не пробуждал зверя.",
+          "Она была немногословна, но в бою её дух ревел, подобно ветру."
+        ],
+        "zh": [
+          "莱拉就像一场突如其来的暴风雨；我曾仰慕她那野性的呐喊。",
+          "她的沉默曾让我感到宽慰，直到她的沃帕尔之剑唤醒了猛兽。",
+          "她话语不多，但在战斗中，她的灵魂如风般怒吼。"
+        ],
+        "ja": [
+          "ライラは突然の嵐のようだった。かつての彼女の野生的な叫びを私は称賛していた。",
+          "彼女の沈黙は心地よかった。ヴォーパルの剣が獣を呼び覚ますまでは。",
+          "彼女は多くを語らなかったが、戦いの中では、その魂は風のように咆哮していた。"
+        ]
+      }
+    },
+    "2": {
+      "group": {
+        "pt": [
+          "Aureth tinha fé no aço, enquanto eu tinha na terra. Éramos pilares diferentes.",
+          "Ela resmungava de sermões, mas sua presença era firme como uma rocha antiga.",
+          "Protegemos a matilha juntas; ela com sua doutrina, eu com minha casca."
+        ],
+        "en": [
+          "Aureth had faith in steel, while I had it in the earth. We were different pillars.",
+          "She grumbled about sermons, but her presence was firm as an ancient rock.",
+          "We protected the pack together; she with her doctrine, I with my bark."
+        ],
+        "es": [
+          "Aureth tenía fe en el acero, mientras que yo la tenía en la tierra. Éramos pilares diferentes.",
+          "Refunfuñaba por los sermones, pero su presencia era firme como una roca antigua.",
+          "Protegimos a la manada juntas; ella con su doctrina, yo con mi corteza."
+        ],
+        "ru": [
+          "Аурет верила в сталь, а я — в землю. Мы были разными столпами.",
+          "Она ворчала на проповеди, но её присутствие было незыблемым, как древняя скала.",
+          "Мы вместе защищали стаю: она — своей доктриной, я — своей корой."
+        ],
+        "zh": [
+          "奥莱丝信仰钢铁，而我信仰大地。我们是不同的支柱。",
+          "她抱怨着布道，但她的存在如古老的岩石般坚定。",
+          "我们共同守护着族群；她依靠教义，我依靠我的树皮。"
+        ],
+        "ja": [
+          "オーレスは鋼を信じ、私は大地を信じていた。我々は異なる柱だった。",
+          "彼女は説教に不平を言っていたが、その存在は古の岩のように揺るぎなかった。",
+          "我々は共に群れを守った。彼女は教義で、私は樹皮で。"
+        ]
+      }
+    },
+  "4": {
+    "group": {
+      "pt": [
+        "Saryth e seu Pacto achavam que a natureza precisava de barulho; meu Círculo discordava.",
+        "Havia uma rivalidade em nossos ritos; ela buscava o palco, eu buscava a quietude.",
+        "Os espíritos dela eram inquietos demais para quem foi criada no silêncio Thornwake."
+      ],
+      "en": [
+        "Saryth and her Pact thought nature needed noise; my Circle disagreed.",
+        "There was a rivalry in our rites; she sought the stage, I sought stillness.",
+        "Her spirits were too restless for someone raised in the Thornwake silence."
+      ],
+      "es": [
+        "Saryth y su Pacto pensaban que la naturaleza necesitaba ruido; mi Círculo no estaba de acuerdo.",
+        "Había una rivalidad en nuestros ritos; ella buscaba el escenario, yo buscaba la quietud.",
+        "Sus espíritus eran demasiado inquietos para alguien criada en el silencio de Thornwake."
+      ],
+      "ru": [
+        "Сарит и её Пакт считали, что природе нужен шум; мой Круг был не согласен.",
+        "В наших обрядах было соперничество: она искала сцену, я — тишину.",
+        "Её духи были слишком беспокойны для того, кто вырос в тишине Торнвейка."
+      ],
+      "zh": [
+        "萨丽丝和她的契约认为自然需要喧闹；我的圆环对此并不认同。",
+        "我们的仪式中存在着竞争；她追逐舞台，而我寻求静谧。",
+        "对于在桑威克沉默中长大的人来说，她的英灵们实在太过躁动了。"
+      ],
+      "ja": [
+        "サリスとその盟約は自然に騒音が必要だと考えていたが、私の円環は同意しなかった。",
+        "我々の儀式には対立があった。彼女は舞台を求め、私は静寂を求めた。",
+        "ソーンウェイクの静寂の中で育った者にとって、彼女の精霊たちは落ち着きがなさすぎた。"
+      ]
+    }
+  },
+  "5": {
+    "group": {
+      "pt": [
+        "Nyssa cantava sobre a dor. As canções dela eram como folhas secas caindo.",
+        "A música dela não prometia cura, mas dava a força de uma raiz que resiste.",
+        "Eu me perdia nas notas dela, sentindo que a melodia aceitava nossas cicatrizes."
+      ],
+      "en": [
+        "Nyssa sang about pain. Her songs were like dry leaves falling.",
+        "Her music didn't promise healing, but it gave the strength of a root that endures.",
+        "I lost myself in her notes, feeling that the melody accepted our scars."
+      ],
+      "es": [
+        "Nyssa cantaba sobre el dolor. Sus canciones eran como hojas secas cayendo.",
+        "Su música no prometía curación, pero daba la fuerza de una raíz que resiste.",
+        "Me perdía en sus notas, sintiendo que la melodía aceptaba nuestras cicatrices."
+      ],
+      "ru": [
+        "Нисса пела о боли. Её песни были подобны падающим сухим листьям.",
+        "Её музыка не обещала исцеления, но давала силу корню, что не сдаётся.",
+        "Я терялась в её нотах, чувствуя, что мелодия принимает наши шрамы."
+      ],
+      "zh": [
+        "尼莎歌唱着痛苦。她的歌声就像枯叶飘落。",
+        "她的音乐并不承诺治愈，却赋予了根须坚韧不拔的力量。",
+        "我沉浸在她的音符中，感觉到那旋律接纳了我们的伤痕。"
+      ],
+      "ja": [
+        "ニッサは苦しみについて歌っていた。彼女の歌は枯れ葉が舞い落ちるようだった。",
+        "彼女の音楽は癒やしを約束しなかったが、耐え忍ぶ根のような強さを与えてくれた。",
+        "私は彼女の旋律に身を委ね、その調べが我々の傷跡を受け入れてくれるのを感じていた。"
+      ]
+    }
+  },
+  "6": {
+    "group": {
+      "pt": [
+        "Kaela ouvia vozes constantes... eu não gostaria de escutar o que ela escutava.",
+        "Ela dizia ser o coral do universo, mas eu preferia o silêncio das profundezas.",
+        "Tentei entender os sussurros que a seguiam, mas as vozes me deixavam confusa."
+      ],
+      "en": [
+        "Kaela heard constant voices... I wouldn't want to hear what she heard.",
+        "She claimed to be the universe's choir, but I preferred the silence of the depths.",
+        "I tried to understand the whispers that followed her, but the voices left me confused."
+      ],
+      "es": [
+        "Kaela escuchaba voces constantes... no me gustaría escuchar lo que ella oía.",
+        "Decía ser el coro del universo, pero yo prefería el silencio de las profundidades.",
+        "Intenté entender los susurros que la seguían, pero las voces me dejaban confundida."
+      ],
+      "ru": [
+        "Каэла слышала постоянные голоса... я бы не хотела слышать то, что слышала она.",
+        "Она называла себя хором вселенной, но я предпочитала тишину глубин.",
+        "Я пыталась понять шёпот, что преследовал её, но эти голоса только сбивали меня с толку."
+      ],
+      "zh": [
+        "凯拉总能听到不断的声音……我并不想听到她所听到的那些。",
+        "她自称是宇宙的合唱团，但我更喜欢深处的寂静。",
+        "我试着去理解追随她的那些窃窃私语，但那些声音让我感到困惑。"
+      ],
+      "ja": [
+        "カエラには絶えず声が聞こえていた…彼女が聞いていたものを私は聞きたくない。",
+        "彼女は自らを宇宙の合唱団だと言っていたが、私は深淵の静寂を好んだ。",
+        "彼女に付きまとう囁きを理解しようとしたが、その声は私を混乱させるだけだった。"
+      ]
+    }
+  },
+  "7": {
+    "group": {
+      "pt": [
+        "Leona via lógica e padrões onde eu via apenas o crescimento caótico da vida.",
+        "O relâmpago dela seguia caminhos que minha mente lenta demorava a processar.",
+        "Ela era a mente afiada, eu era o tronco que suportava o peso do mundo."
+      ],
+      "en": [
+        "Leona saw logic and patterns where I saw only the chaotic growth of life.",
+        "Her lightning followed paths that my slow mind took time to process.",
+        "She was the sharp mind, I was the trunk that supported the weight of the world."
+      ],
+      "es": [
+        "Leona veía lógica y patrones donde yo solo veía el crecimiento caótico de la vida.",
+        "Su relámpago seguía caminos que mi mente lenta tardaba en procesar.",
+        "Ella era la mente afilada, yo era el tronco que soportaba el peso del mundo."
+      ],
+      "ru": [
+        "Леона видела логику и закономерности там, где я видела лишь хаотичный рост жизни.",
+        "Её молнии следовали путями, которые мой медлительный разум осознавал не сразу.",
+        "Она была острым умом, а я — стволом, выдерживающим тяжесть мира."
+      ],
+      "zh": [
+        "蕾欧娜在只能看到生命疯狂生长的地方看到了逻辑和模式。",
+        "她的闪电遵循着路径，而我迟钝的思想需要时间来消化处理。",
+        "她是锋利的心智，而我是支撑世界重量的树干。"
+      ],
+      "ja": [
+        "レオナは、私がただ生命の混沌とした成長しか見ない場所に、論理と法則を見出していた。",
+        "彼女の稲妻が辿る道を、私の遅い思考が理解するには時間がかかった。",
+        "彼女は鋭い知性であり、私は世界の重みを支える幹だった。"
+      ]
+    }
+  },
+  "8": {
+    "group": {
+      "pt": [
+        "Serah tinha afinidade com a dor; ela a entregava com a rapidez de um bote.",
+        "Éramos o escudo e a lança; ela focada no golpe, eu focada em aguentar.",
+        "Enquanto ela se movia com precisão ríspida, eu apenas enraizava e observava."
+      ],
+      "en": [
+        "Serah had an affinity for pain; she delivered it with the speed of a strike.",
+        "We were the shield and the spear; she focused on the blow, I focused on enduring.",
+        "While she moved with sharp precision, I simply took root and observed."
+      ],
+      "es": [
+        "Serah tenía afinidad con el dolor; lo entregaba con la rapidez de una estocada.",
+        "Éramos el escudo y la lanza; ella enfocada en el golpe, yo enfocada en aguantar.",
+        "Mientras ella se movía con precisión ruda, yo simplemente echaba raíces y observaba."
+      ],
+      "ru": [
+        "Сера была близка с болью; она наносила её со скоростью броска змеи.",
+        "Мы были щитом и копьем: она была сосредоточена на ударе, а я — на стойкости.",
+        "Пока она двигалась с резкой точностью, я просто пускала корни и наблюдала."
+      ],
+      "zh": [
+        "塞拉对痛苦有着敏锐的洞察力；她出手的速度快如毒蛇出击。",
+        "我们是盾与矛；她专注于进攻，而我专注于承受。",
+        "当她以凌厉的精准度移动时，我只是扎根于此，静静观察。"
+      ],
+      "ja": [
+        "セラは苦痛に精通していた。彼女は獲物を狙う蛇のような速さでそれを与えた。",
+        "我々は盾と槍だった。彼女は打撃に集中し、私は耐えることに集中した。",
+        "彼女が鋭い正確さで動く間、私はただ根を張り、見守っていた。"
+      ]
+    }
+  },
+  "9": {
+    "group": {
+      "pt": [
+        "Seraphine dizia que tudo era química. Eu sentia que era apenas a vida fluindo.",
+        "Ela olhava as feridas com frieza, enquanto eu sentia a seiva estancar o sangue.",
+        "Suas misturas funcionavam, mas o cheiro dos reagentes me distraía da floresta."
+      ],
+      "en": [
+        "Seraphine said everything was chemistry. I felt it was just life flowing.",
+        "She looked at wounds with coldness, while I felt the sap stanching the blood.",
+        "Her mixtures worked, but the smell of the reagents distracted me from the forest."
+      ],
+      "es": [
+        "Seraphine decía que todo era química. Yo sentía que era solo la vida fluyendo.",
+        "Ella miraba las heridas con frialdad, mientras yo sentía la savia deteniendo la sangre.",
+        "Sus mezclas funcionaban, pero el olor de los reactivos me distraía del bosque."
+      ],
+      "ru": [
+        "Серафина говорила, что всё есть химия. Я же чувствовала, что это просто течение жизни.",
+        "Она смотрела на раны с холодностью, пока я чувствовала, как сок останавливает кровь.",
+        "Её смеси работали, но запах реагентов отвлекал меня от леса."
+      ],
+      "zh": [
+        "塞拉菲娜说一切皆是化学。而我觉得那只是生命的流动。",
+        "她冷漠地注视着伤口，而我感受到汁液在止住鲜血。",
+        "她的药剂很有效，但反应剂的味道总让我无法专注于森林。"
+      ],
+      "ja": [
+        "セラフィーンはすべてが化学だと言った。私はそれがただ生命の流転であると感じていた。",
+        "彼女は冷淡に傷口を見ていたが、私は樹液が血を止めるのを感じていた。",
+        "彼女の調合はうまくいったが、試薬の臭いが森の気配を削いでいた。"
+      ]
+    }
+  },
+  "10": {
+    "group": {
+      "pt": [
+        "Elara tinha afinidade com as sombras; ela se movia sem quebrar um único galho.",
+        "Eu era a muralha barulhenta para que ela pudesse encontrar o caminho em paz.",
+        "Ela buscava a verdade nas trilhas, assim como eu buscava o equilíbrio no solo."
+      ],
+      "en": [
+        "Elara had an affinity for shadows; she moved without breaking a single twig.",
+        "I was the noisy wall so that she could find the path in peace.",
+        "She sought truth on the trails, just as I sought balance in the soil."
+      ],
+      "es": [
+        "Elara tenía afinidad con las sombras; se movía sin romper ni una sola rama.",
+        "Yo era la muralla ruidosa para que ella pudiera encontrar el camino en paz.",
+        "Ella buscaba la verdad en los senderos, tal como yo buscava el equilibrio en el suelo."
+      ],
+      "ru": [
+        "Элара была близка с тенями; она двигалась, не сломав ни единой веточки.",
+        "Я была шумной стеной, чтобы она могла спокойно искать путь.",
+        "Она искала истину на тропах, так же как я искала равновесие в почве."
+      ],
+      "zh": [
+        "艾拉拉与阴影相伴；她移动时连一根细枝都不会折断。",
+        "我是一堵嘈杂的墙，好让她能平静地寻找到道路。",
+        "她在小径上探寻真相，正如我在土壤中寻求平衡。"
+      ],
+      "ja": [
+        "エララは影と親しみ、小枝ひとつ折ることなく移動した。",
+        "彼女が安らかに道を見つけられるよう、私は騒がしい壁となった。",
+        "私が土に調和を求めるように、彼女は小道に真実を求めていた。"
+      ]
+    }
+  },
+  "11": {
+    "group": {
+      "pt": [
+        "Nyx era o pesadelo das feras, mas para mim, ela era apenas uma sombra solitária.",
+        "Ela não queria deixar fantasmas. Eu sentia que a terra a perdoava pelo medo.",
+        "No escuro, she se movia como uma pantera; eu apenas permanecia firme como árvore."
+      ],
+      "en": [
+        "Nyx was the nightmare of beasts, but to me, she was just a lonely shadow.",
+        "She didn't want to leave ghosts behind. I felt the earth forgave her for the fear.",
+        "In the dark, she moved like a panther; I simply remained firm as a tree."
+      ],
+      "es": [
+        "Nyx era la pesadilla de las bestias, pero para mí, solo era una sombra solitaria.",
+        "No quería dejar fantasmas. Sentía que la tierra la perdonaba por el miedo.",
+        "En la oscuridad, se movía como una pantera; yo simplemente permanecía firme como un árbol."
+      ],
+      "ru": [
+        "Никс была кошмаром для зверей, но для меня она была лишь одинокой тенью.",
+        "Она не хотела оставлять призраков. Я чувствовала, что земля прощает её за этот страх.",
+        "Во тьме она двигалась как пантера; я же просто стояла крепко, как дерево."
+      ],
+      "zh": [
+        "尼克斯是猛兽的噩梦，但在我眼中，她只是一个孤独的身影。",
+        "她不想留下任何鬼魂。我感觉到大地因那恐惧而宽恕了她。",
+        "在黑暗中，她像豹子一样行动；而我只是像树木一样屹立不摇。"
+      ],
+      "ja": [
+        "ニクスは獣たちの悪夢だったが、私にとってはただの孤独な影に過ぎなかった。",
+        "彼女は亡霊を残すことを望まなかった。大地がその恐怖ゆえに彼女を許しているのを感じた。",
+        "暗闇の中、彼女は豹のように動いた。私はただ木のように揺るぎなくそこにいた。"
+      ]
+    }
+  },
+  "12": {
+    "group": {
+      "pt": [
+        "Morga buscava simetria no abate. Eu via apenas o ciclo natural da morte.",
+        "Seis golpes, sempre seis. A contagem dela me distraía dos sons do vento.",
+        "Ela era precisa e terrível; eu era apenas a paciência que esperava o fim."
+      ],
+      "en": [
+        "Morga sought symmetry in the slaughter. I saw only the natural cycle of death.",
+        "Six strikes, always six. Her counting distracted me from the sounds of the wind.",
+        "She was precise and terrible; I was just the patience waiting for the end."
+      ],
+      "es": [
+        "Morga buscaba simetría en la matanza. Yo solo veía el ciclo natural de la muerte.",
+        "Seis golpes, siempre seis. Su cuenta me distraía de los sonidos del viento.",
+        "Ella era precisa y terrible; yo solo era la paciencia que esperaba el final."
+      ],
+      "ru": [
+        "Морга искала симметрию в убийстве. Я же видела лишь естественный цикл смерти.",
+        "Шесть ударов, всегда шесть. Её счёт отвлекал меня от шума ветра.",
+        "Она была точной и ужасающей; я была лишь терпением, ожидающим конца."
+      ],
+      "zh": [
+        "摩加在屠戮中寻求对称。而我只看到了死亡的自然循环。",
+        "六击，永远是六击。她的计数声让我无法专注于风的声音。",
+        "她是精准而可怕的；我只是等待结局的那份耐心。"
+      ],
+      "ja": [
+        "モルガは屠殺に均整を求めていた。私はただ、死の自然な循環を見ていた。",
+        "六撃、いつも六撃。彼女の数え上げる声が、風の音から私をそらせた。",
+        "彼女は正確で恐ろしかった。私はただ、終わりを待つ忍耐そのものだった。"
+      ]
+    }
+  },
+  "13": {
+    "group": {
+      "pt": [
+        "Mina falava com ossos... eu não gostaria de escutar vozes como ela escutava.",
+        "Ela dizia que os mortos eram tímidos; para mim, o silêncio deles era sagrado.",
+        "As vozes que ela ouvia vinham debaixo da terra, mas não eram as raízes."
+      ],
+      "en": [
+        "Mina spoke with bones... I wouldn't want to hear voices like the ones she heard.",
+        "She said the dead were shy; to me, their silence was sacred.",
+        "The voices she heard came from beneath the earth, but they weren't the roots."
+      ],
+      "es": [
+        "Mina hablaba con los huesos... no me gustaría escuchar voces como las que ella oía.",
+        "Decía que los muertos eran tímidos; para mí, su silencio era sagrado.",
+        "Las voces que oía venían de debajo de la tierra, pero no eran las raíces."
+      ],
+      "ru": [
+        "Мина говорила с костями... я бы не хотела слышать такие голоса, какие слышала она.",
+        "Она говорила, что мертвецы застенчивы; для меня же их молчание было священным.",
+        "Голоса, которые она слышала, доносились из-под земли, но это были не корни."
+      ],
+      "zh": [
+        "米娜与白骨交谈……我并不想听到像她听到的那种声音。",
+        "她说死者是害羞的；对我来说，他们的沉默是神圣的。",
+        "她听到的声音来自地下，但那并不是树根发出的。"
+      ],
+      "ja": [
+        "ミーナは骨と語り合っていた…彼女が聞いていたような声は聞きたくない。",
+        "彼女は死者は内気だと言ったが、私にとって彼らの沈黙は神聖なものだった。",
+        "彼女が聞く声は地中から届いていたが、それは根の声ではなかった。"
+      ]
+    }
+  },
+  "14": {
+    "group": {
+      "pt": [
+        "Raska falava de máquinas e colapsos. Eu só entendia o que era orgânico.",
+        "As palavras dela escapavam como faíscas, mas eu preferia o murmúrio das águas.",
+        "Ela consertava o que ia quebrar; eu apenas endurecia para que nada cedesse."
+      ],
+      "en": [
+        "Raska spoke of machines and collapses. I only understood what was organic.",
+        "Her words escaped like sparks, but I preferred the murmur of the waters.",
+        "She fixed what was going to break; I simply hardened so that nothing would give way."
+      ],
+      "es": [
+        "Raska hablaba de máquinas y colapsos. Yo solo entendía lo que era orgánico.",
+        "Sus palabras escapaban como chispas, pero yo prefería el murmullo de las aguas.",
+        "Ella arreglaba lo que se iba a romper; yo simplemente me endurecía para que nada cediera."
+      ],
+      "ru": [
+        "Раска говорила о машинах и коллапсах. Я же понимала только органику.",
+        "Её слова вылетали, как искры, но я предпочитала шепот воды.",
+        "Она чинила то, что должно было сломаться; я же просто каменела, чтобы ничто не поддалось."
+      ],
+      "zh": [
+        "拉斯卡谈论着机器和崩溃。我只理解有机的事物。",
+        "她的言语像火星一样迸发，但我更喜欢水的低语。",
+        "她修补将要损坏的东西；而我只是让自己变得坚硬，以免任何事物坍塌。"
+      ],
+      "ja": [
+        "ラスカは機械や崩壊について語っていた。私に理解できるのは有機的なものだけだった。",
+        "彼女の言葉は火花のように飛び散ったが、私は水のせせらぎの方を好んだ。",
+        "彼女は壊れゆくものを修理し、私は何も屈しないようにただ自らを硬くした。"
+      ]
+    }
+  },
+  "15": {
+    "group": {
+      "pt": [
+        "Gaela falava a língua da pedra. Eu e ela entendíamos o valor da espera.",
+        "Ela pedia à terra e a terra respondia. Éramos filhas do mesmo silêncio.",
+        "A gagueira dela era o ritmo das montanhas; eu me sentia em casa ao lado dela."
+      ],
+      "en": [
+        "Gaela spoke the language of stone. She and I understood the value of waiting.",
+        "She asked the earth and the earth answered. We were daughters of the same silence.",
+        "Her stutter was the rhythm of the mountains; I felt at home by her side."
+      ],
+      "es": [
+        "Gaela hablaba la lengua de la piedra. Ella y yo entendíamos el valor de la espera.",
+        "Ella le pedía a la tierra y la tierra respondía. Éramos hijas del mismo silencio.",
+        "Su tartamudeo era el ritmo de las montañas; me sentía como en casa a su lado."
+      ],
+      "ru": [
+        "Гаэла говорила на языке камня. Мы с ней понимали ценность ожидания.",
+        "Она просила землю, и земля отвечала. Мы были дочерьми одного и того же молчания.",
+        "Её заикание было ритмом гор; рядом с ней я чувствовала себя как дома."
+      ],
+      "zh": [
+        "盖拉说着石头的语言。我和她都明白等待的价值。",
+        "她向大地祈求，大地便给予回应。我们是同一种沉默的女儿。",
+        "她的结巴是山脉的节奏；待在她身边让我感到如在家般自在。"
+      ],
+      "ja": [
+        "ガエラは石の言葉を話した。彼女と私は待つことの価値を理解していた。",
+        "彼女が地に乞えば、地が応えた。我々は同じ静寂の娘だった。",
+        "彼女の吃音は山のリズムのようだった。彼女の傍にいると、我が家にいるように感じた。"
+      ]
     }
   }
+}
+}
 }

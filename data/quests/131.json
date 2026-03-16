@@ -30,7 +30,7 @@
   ],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [
+  "required_perks": [
     3
   ],
   "forbidden_heroes": [],
@@ -50,6 +50,140 @@
       "ru": "наемники",
       "zh": "雇佣兵",
       "ja": "傭兵"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "religion": {
+        "pt": [
+          "Os mercenários que cercavam o assentamento foram enfrentados e abatidos antes que o ataque pudesse começar. Durante o confronto, uma presença incomum pôde ser sentida vindo do solo do assentamento, algo que lembrava um eco espiritual antigo.",
+          "O confronto terminou com os mercenários derrotados. Embora ninguém tenha revelado quem os enviou, algo no local parecia errado — uma presença espiritual estranha parecia emanar do chão.",
+          "Após eliminar os mercenários, ficou claro que algo mais estava presente naquele lugar. Uma sensação espiritual incomum parecia surgir do próprio solo do assentamento."
+        ],
+        "en": [
+          "The mercenaries surrounding the settlement were slain before the attack could begin. During the battle, an unusual presence could be felt emanating from the ground beneath the settlement.",
+          "The clash ended with the mercenaries defeated. Although none revealed who sent them, something about the place felt wrong — a strange spiritual presence seemed to linger beneath the ground.",
+          "After eliminating the mercenaries, it became clear that something else was present there. A faint spiritual presence seemed to rise from the soil of the settlement."
+        ],
+        "es": [
+          "Los mercenarios que rodeaban el asentamiento fueron abatidos antes de que comenzara el ataque. Durante el combate se pudo sentir una presencia inusual proveniente del suelo del asentamiento, como un antiguo eco espiritual.",
+          "El enfrentamiento terminó con los mercenarios derrotados. Aunque ninguno reveló quién los había enviado, algo en el lugar se sentía extraño: una presencia espiritual parecía emanar del suelo.",
+          "Tras eliminar a los mercenarios, quedó claro que algo más estaba presente allí. Una extraña sensación espiritual parecía surgir desde la tierra del asentamiento."
+        ],
+        "ru": [
+          "Наемники, окружавшие поселение, были уничтожены до начала атаки. Во время боя ощущалось необычное присутствие, исходящее из земли под поселением, словно древний духовный отклик.",
+          "Сражение закончилось победой над наемниками. Хотя никто из них не раскрыл, кто их послал, в этом месте чувствовалось что-то странное — из земли исходило необычное духовное присутствие.",
+          "После уничтожения наемников стало ясно, что в этом месте есть нечто ещё. Из почвы поселения исходило слабое, но ощутимое духовное присутствие."
+        ],
+        "zh": [
+          "包围定居点的雇佣兵在攻击开始前被击败。在战斗中，可以感觉到一种异常的存在从定居点的土地中散发出来，仿佛是某种古老的灵性回响。",
+          "战斗以雇佣兵被击败而结束。虽然没有人透露是谁派他们来的，但这个地方显得不太对劲——一种奇怪的灵性气息似乎从地下弥漫出来。",
+          "在消灭雇佣兵之后，人们意识到这里还有别的东西存在。一种微弱而奇异的灵性气息似乎正从定居点的土地中升起。"
+        ],
+        "ja": [
+          "集落を包囲していた傭兵は攻撃を開始する前に倒された。戦闘の最中、集落の地面の下から奇妙な気配が感じられ、まるで古い霊的な残響のようだった。",
+          "戦闘は傭兵の敗北で終わった。誰が彼らを送り込んだのかは分からなかったが、この場所には何かがおかしい気配があった。地面の下から奇妙な霊的存在が感じられた。",
+          "傭兵を排除した後、この場所には他にも何かがあると気づいた。集落の土の下から、弱いが確かな霊的な気配が漂っていた。"
+        ]
+      },
+      "arcana": {
+        "pt": [
+          "Os mercenários foram derrotados antes que pudessem iniciar o ataque ao assentamento. Durante o confronto, uma energia mágica muito antiga pôde ser sentida emanando do solo do local.",
+          "Após eliminar os invasores, uma sensação estranha permaneceu no ar. Vestígios de energia arcana pareciam surgir de algum ponto sob o assentamento.",
+          "Com os mercenários abatidos, a investigação do local revelou algo inesperado: um fluxo arcano fraco, mas antigo, parecia vir das profundezas do solo."
+        ],
+        "en": [
+          "The mercenaries were defeated before their attack on the settlement could begin. During the clash, traces of an ancient magical energy could be felt emanating from the ground.",
+          "After eliminating the invaders, a strange sensation remained. Faint arcane traces seemed to rise from somewhere beneath the settlement.",
+          "With the mercenaries slain, something unexpected became apparent: a weak but ancient arcane current seemed to flow from deep below the settlement."
+        ],
+        "es": [
+          "Los mercenarios fueron derrotados antes de que pudieran iniciar su ataque al asentamiento. Durante el combate se percibió una energía mágica muy antigua emanando del suelo.",
+          "Tras eliminar a los invasores, quedó una extraña sensación en el aire. Rastros de energía arcana parecían surgir desde algún punto bajo el asentamiento.",
+          "Con los mercenarios abatidos, la investigación reveló algo inesperado: una débil pero antigua corriente arcana parecía provenir de las profundidades del suelo."
+        ],
+        "ru": [
+          "Наемники были побеждены до того, как смогли начать атаку на поселение. Во время боя ощущалась очень древняя магическая энергия, исходящая из земли.",
+          "После уничтожения захватчиков в воздухе осталась странная атмосфера. Следы арканической энергии, казалось, поднимались из-под земли поселения.",
+          "Когда наемники были уничтожены, стало ясно нечто неожиданное: слабый, но древний поток арканической энергии исходил из глубин земли."
+        ],
+        "zh": [
+          "雇佣兵在发动攻击之前就被击败。在战斗中可以感觉到一种非常古老的魔法能量从土地中散发出来。",
+          "在消灭入侵者后，空气中仍残留着一种奇怪的感觉。微弱的奥术能量似乎从定居点地下某处升起。",
+          "随着雇佣兵被击败，一个意外的发现出现了：一股微弱但古老的奥术能量似乎从地下深处流出。"
+        ],
+        "ja": [
+          "傭兵は集落への攻撃を開始する前に倒された。戦闘の最中、地面の下から非常に古い魔力の気配が感じられた。",
+          "侵入者を排除した後も、奇妙な感覚が残った。集落の地下のどこかから微かな魔力の痕跡が漂っていた。",
+          "傭兵を倒した後、予想外の事実が明らかになった。地中の深い場所から、弱いが非常に古い魔力の流れが感じられた。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Os mercenários que cercavam o assentamento foram enfrentados e abatidos antes que o ataque pudesse começar. Nenhum deles revelou quem os havia enviado.",
+          "O confronto com os invasores terminou com os mercenários derrotados. Apesar da vitória, não foi possível descobrir quem havia contratado o grupo.",
+          "A tentativa de ataque ao assentamento foi interrompida após eliminar os mercenários. Nenhuma explicação foi obtida sobre a origem da missão."
+        ],
+        "en": [
+          "The mercenaries surrounding the settlement were confronted and slain before the attack could begin. None revealed who had sent them.",
+          "The clash with the invaders ended with the mercenaries defeated. Despite the victory, it was impossible to learn who had hired them.",
+          "The attack on the settlement was stopped after eliminating the mercenaries. No explanation was obtained regarding who ordered the mission."
+        ],
+        "es": [
+          "Los mercenarios que rodeaban el asentamiento fueron derrotados antes de que el ataque comenzara. Ninguno reveló quién los había enviado.",
+          "El enfrentamiento terminó con los mercenarios abatidos. A pesar de la victoria, no se pudo descubrir quién los había contratado.",
+          "El intento de ataque al asentamiento fue detenido tras eliminar a los mercenarios. No se obtuvo información sobre quién ordenó la misión."
+        ],
+        "ru": [
+          "Наемники, окружавшие поселение, были уничтожены до начала атаки. Никто из них не раскрыл, кто их послал.",
+          "Столкновение закончилось поражением наемников. Несмотря на победу, выяснить, кто их нанял, не удалось.",
+          "Попытка нападения на поселение была остановлена после уничтожения наемников. Никаких сведений о заказчике получено не было."
+        ],
+        "zh": [
+          "包围定居点的雇佣兵被击败，攻击在开始前就被阻止。但他们没有透露是谁派他们来的。",
+          "入侵者被消灭，定居点得以保全。然而仍无法得知是谁雇佣了这些人。",
+          "在消灭雇佣兵后，袭击被阻止。但没有得到任何关于雇主的信息。"
+        ],
+        "ja": [
+          "集落を包囲していた傭兵は攻撃を開始する前に倒された。しかし、誰が彼らを送り込んだのかは明らかにならなかった。",
+          "侵入者との戦闘は傭兵の敗北で終わったが、誰が彼らを雇ったのかは分からなかった。",
+          "傭兵を排除したことで集落への攻撃は阻止されたが、依頼主についての情報は得られなかった。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "Os mercenários conseguiram manter a posição ao redor do assentamento, impedindo a defesa da tribo.",
+          "O confronto com os invasores terminou em retirada antes que o cerco pudesse ser quebrado.",
+          "A pressão dos mercenários forçou uma retirada antes que o assentamento pudesse ser protegido."
+        ],
+        "en": [
+          "The mercenaries held their ground around the settlement, preventing the tribe from being defended.",
+          "The clash with the invaders ended in withdrawal before the siege could be broken.",
+          "Pressure from the mercenaries forced a retreat before the settlement could be secured."
+        ],
+        "es": [
+          "Los mercenarios mantuvieron su posición alrededor del asentamiento, impidiendo su defensa.",
+          "El enfrentamiento terminó en retirada antes de romper el cerco.",
+          "La presión de los mercenarios obligó a retirarse antes de proteger el asentamiento."
+        ],
+        "ru": [
+          "Наемники удержали позиции вокруг поселения, не позволив защитить племя.",
+          "Сражение закончилось отступлением до того, как удалось прорвать окружение.",
+          "Давление наемников вынудило отступить до защиты поселения."
+        ],
+        "zh": [
+          "雇佣兵保持包围阵地，阻止了对部落的防御。",
+          "战斗被迫撤退，未能打破包围。",
+          "雇佣兵的压力迫使队伍撤退，未能保护定居点。"
+        ],
+        "ja": [
+          "傭兵は集落の周囲を維持し、防衛は失敗した。",
+          "戦闘は包囲を破る前に撤退となった。",
+          "傭兵の圧力により、集落を守る前に撤退を余儀なくされた。"
+        ]
+      }
     }
   }
 }

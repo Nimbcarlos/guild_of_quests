@@ -30,7 +30,7 @@
   ],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -49,5 +49,75 @@
       "zh": "哥布林冠军",
       "ja": "ゴブリンチャンピオン"
     }
+  },
+"conclusion": {
+  "success": {
+    "default": {
+      "pt": [
+        "A Câmara Escura foi invadida antes que o ritual pudesse ser concluído. Os magos goblins foram eliminados e o Campeão Goblin caiu logo em seguida, encerrando a ameaça na caverna.",
+        "Os conjuradores goblins foram abatidos e o ritual foi interrompido. Sem o apoio dos magos, o Campeão Goblin foi enfrentado e derrotado na própria câmara.",
+        "O ritual foi quebrado ao eliminar os magos que o conduziam. Privado da proteção arcana, o Campeão Goblin foi abatido e a câmara ficou silenciosa novamente."
+      ],
+      "en": [
+        "The Dark Chamber was breached before the ritual could be completed. The goblin mages were slain and the Goblin Champion soon fell, ending the threat within the cave.",
+        "The goblin casters were eliminated and the ritual was disrupted. Without the mages' support, the Goblin Champion was confronted and defeated inside the chamber.",
+        "The ritual collapsed once the goblin mages were killed. Stripped of arcane protection, the Goblin Champion was brought down and the chamber fell silent."
+      ],
+      "es": [
+        "La Cámara Oscura fue irrumpida antes de que el ritual se completara. Los magos goblin fueron eliminados y el Campeón Goblin cayó poco después.",
+        "Los conjuradores goblin fueron abatidos y el ritual se interrumpió. Sin el apoyo de los magos, el Campeón Goblin fue enfrentado y derrotado.",
+        "El ritual se rompió al eliminar a los magos que lo conducían. Sin su protección arcana, el Campeón Goblin fue abatido."
+      ],
+      "ru": [
+        "Тёмная камера была атакована до завершения ритуала. Гоблины-маги были уничтожены, а Чемпион гоблинов вскоре пал.",
+        "Заклинатели гоблинов были ликвидированы, и ритуал был прерван. Без поддержки магов Чемпион гоблинов был повержен.",
+        "Ритуал разрушился после уничтожения гоблинов-магов. Лишённый магической защиты, Чемпион гоблинов был убит."
+      ],
+      "zh": [
+        "在仪式完成前突入了黑暗密室。哥布林法师被消灭，随后哥布林冠军也被击败。",
+        "哥布林施法者被击倒，仪式被打断。失去法师的支持后，哥布林冠军被击败。",
+        "随着哥布林法师被消灭，仪式崩溃。失去魔法保护的哥布林冠军被击杀。"
+      ],
+      "ja": [
+        "儀式が完了する前に暗黒の部屋へ突入した。ゴブリンの魔術師は排除され、その後ゴブリンのチャンピオンも倒された。",
+        "ゴブリンの呪術師を倒して儀式を中断させた。魔術師の支援を失ったチャンピオンはその場で討たれた。",
+        "儀式は魔術師を排除したことで崩壊した。魔法の加護を失ったゴブリンのチャンピオンは倒された。"
+      ]
+    }
+  },
+  "failure": {
+    "default": {
+      "pt": [
+        "A resistência na Câmara Escura foi maior que o esperado e o avanço teve de ser interrompido antes de alcançar o Campeão Goblin.",
+        "Os magos goblins mantiveram o ritual ativo enquanto reforços chegavam à câmara, tornando impossível continuar o confronto.",
+        "A pressão dos goblins na caverna forçou uma retirada antes que o ritual pudesse ser interrompido."
+      ],
+      "en": [
+        "Resistance inside the Dark Chamber was stronger than expected and the advance had to be halted before reaching the Goblin Champion.",
+        "The goblin mages kept the ritual active while reinforcements flooded the chamber, making the fight impossible to continue.",
+        "Pressure from the goblins inside the cave forced a retreat before the ritual could be stopped."
+      ],
+      "es": [
+        "La resistencia en la Cámara Oscura fue mayor de lo esperado y el avance tuvo que detenerse antes de alcanzar al Campeón Goblin.",
+        "Los magos goblin mantuvieron el ritual mientras llegaban refuerzos, haciendo imposible continuar el combate.",
+        "La presión de los goblins obligó a retirarse antes de poder interrumpir el ritual."
+      ],
+      "ru": [
+        "Сопротивление в Тёмной камере оказалось сильнее ожидаемого, и продвижение пришлось остановить.",
+        "Гоблины-маги продолжали ритуал, пока в камеру прибывало подкрепление.",
+        "Давление гоблинов в пещере вынудило отступить до прерывания ритуала."
+      ],
+      "zh": [
+        "黑暗密室中的抵抗比预期更强，推进被迫停止。",
+        "哥布林法师维持着仪式，同时增援不断涌入密室。",
+        "洞穴中的哥布林压力迫使队伍在打断仪式前撤退。"
+      ],
+      "ja": [
+        "暗黒の部屋での抵抗は予想以上に激しく、前進は止められた。",
+        "ゴブリンの魔術師は儀式を維持し続け、増援が部屋へ集まった。",
+        "洞窟内のゴブリンの圧力により、儀式を止める前に撤退を余儀なくされた。"
+      ]
+    }
   }
+}
 }

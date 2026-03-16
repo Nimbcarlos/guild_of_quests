@@ -30,7 +30,7 @@
   ],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -48,6 +48,76 @@
       "ru": "орды нечестивых",
       "zh": "亡灵大军",
       "ja": "アンデッドの大群"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "default": {
+        "pt": [
+          "As hordas de mortos-vivos que avançavam pelas estradas foram enfrentadas e contidas antes que alcançassem as vilas próximas. O confronto foi intenso, mas as criaturas foram destruídas enquanto a Guilda da Espada de Prata enfrentava o Lich em outro ponto.",
+          "Os mortos-vivos foram interceptados nas estradas e impedidos de alcançar os assentamentos da região. A batalha foi prolongada, mas a linha foi mantida até que a ameaça principal fosse enfrentada pela guilda.",
+          "A marcha dos mortos-vivos foi interrompida nas estradas próximas ao assentamento. Após um combate difícil, as criaturas foram abatidas e a região permaneceu protegida enquanto o Lich era enfrentado pela Guilda da Espada de Prata."
+        ],
+        "en": [
+          "The undead hordes advancing along the roads were confronted and contained before reaching the nearby villages. The battle was fierce, but the creatures were destroyed while the Silver Sword Guild faced the Lich elsewhere.",
+          "The undead were intercepted on the roads and prevented from reaching the settlements of the region. The fight was long, but the line was held until the main threat was confronted by the guild.",
+          "The march of the undead was halted along the roads near the settlement. After a difficult battle, the creatures were destroyed and the region remained protected while the Lich was engaged by the Silver Sword Guild."
+        ],
+        "es": [
+          "Las hordas de no-muertos que avanzaban por las carreteras fueron enfrentadas y contenidas antes de llegar a las aldeas cercanas. El combate fue intenso, pero las criaturas fueron destruidas mientras la Guilda de la Espada de Plata enfrentaba al Lich en otro lugar.",
+          "Los no-muertos fueron interceptados en las carreteras e impedidos de alcanzar los asentamientos de la región. La batalla fue prolongada, pero la línea se mantuvo hasta que la amenaza principal fue enfrentada por la guilda.",
+          "La marcha de los no-muertos fue detenida en las carreteras cercanas al asentamiento. Tras un combate difícil, las criaturas fueron abatidas y la región permaneció protegida mientras el Lich era enfrentado por la Guilda de la Espada de Plata."
+        ],
+        "ru": [
+          "Орды нежити, продвигающиеся по дорогам, были перехвачены и сдержаны прежде, чем достигли ближайших деревень. Битва была ожесточённой, но существа были уничтожены, пока гильдия «Серебряный Меч» сражалась с Личом в другом месте.",
+          "Нежить была остановлена на дорогах и не смогла достичь поселений региона. Сражение оказалось долгим, но оборона удерживалась, пока основная угроза не была встречена гильдией.",
+          "Марш нежити был остановлен на дорогах возле поселения. После тяжёлого боя существа были уничтожены, и регион остался защищённым, пока Лич сражался с гильдией «Серебряный Меч»."
+        ],
+        "zh": [
+          "沿道路前进的亡灵大军在抵达附近村庄之前被拦截并遏制。战斗十分激烈，但这些生物被逐一消灭，而“银剑”公会则在别处与巫妖交战。",
+          "亡灵在道路上被拦截，未能进入附近的定居点。战斗持续了很久，但防线始终被守住，直到公会面对主要威胁。",
+          "亡灵的推进在通往村庄的道路上被阻止。经过艰苦的战斗，这些生物被消灭，而“银剑”公会则与巫妖展开对决。"
+        ],
+        "ja": [
+          "道路を進んでいたアンデッドの大群は、近くの村へ到達する前に迎撃され、食い止められた。戦闘は激しかったが、その間にシルバースウォード・ギルドが別の場所でリッチと戦っていた。",
+          "アンデッドは道路で迎撃され、周辺の集落へ到達することを阻止された。戦いは長引いたが、ギルドが主な脅威に対処するまで防衛線は維持された。",
+          "アンデッドの進軍は集落近くの道路で止められた。困難な戦闘の末、クリーチャーは排除され、その間にシルバースウォード・ギルドがリッチと対峙した。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "As hordas de mortos-vivos avançaram pelas estradas sem serem totalmente contidas, alcançando vilas próximas.",
+          "O número de mortos-vivos superou a capacidade de defesa das estradas da região.",
+          "A pressão das hordas forçou uma retirada antes que a região pudesse ser totalmente protegida."
+        ],
+        "en": [
+          "The undead hordes advanced along the roads without being fully contained, reaching nearby villages.",
+          "The number of undead exceeded the ability to defend the region's roads.",
+          "Pressure from the hordes forced a withdrawal before the region could be fully protected."
+        ],
+        "es": [
+          "Las hordas de no-muertos avanzaron por las carreteras sin ser completamente contenidas, alcanzando aldeas cercanas.",
+          "El número de no-muertos superó la capacidad de defensa de las carreteras de la región.",
+          "La presión de las hordas obligó a retirarse antes de que la región pudiera ser completamente protegida."
+        ],
+        "ru": [
+          "Орды нежити продвинулись по дорогам и не были полностью сдержаны, достигнув ближайших деревень.",
+          "Число нежити превысило возможности обороны дорог региона.",
+          "Давление орд вынудило отступить до того, как регион удалось полностью защитить."
+        ],
+        "zh": [
+          "亡灵大军沿道路推进，未能被完全遏制，并抵达了附近的村庄。",
+          "亡灵的数量超过了道路防御能力。",
+          "亡灵大军的压力迫使队伍撤退，未能完全保护该地区。"
+        ],
+        "ja": [
+          "アンデッドの大群は完全には食い止められず、道路を進んで近くの村へ到達した。",
+          "アンデッドの数は地域の防衛能力を上回っていた。",
+          "大群の圧力により、地域を守りきる前に撤退を余儀なくされた。"
+        ]
+      }
     }
   }
 }

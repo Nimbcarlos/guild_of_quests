@@ -21,7 +21,7 @@ class Quest:
         required_fail_quests: List[str] = None,
         return_on_fail: bool = False,
         is_repeatable: int = None,
-        required_heroes: List[str] = None,
+        required_perks: List[str] = None,
         forbidden_heroes: List[str] = None,
         available_since_turn=None,
         language: str = "en",
@@ -47,7 +47,7 @@ class Quest:
         self.required_fail_quests = required_fail_quests
         self.return_on_fail = return_on_fail
         self.is_repeatable = is_repeatable
-        self.required_heroes = required_heroes or []
+        self.required_perks = required_perks or []
         self.forbidden_heroes = forbidden_heroes or []
         self.available_since_turn = available_since_turn
 
@@ -84,7 +84,9 @@ class Quest:
             f"Pré-requisitos: {', '.join(str(q) for q in self.required_quests) if self.required_quests else 'Nenhum'}"
             f"\nforbidden_quests: {', '.join(str(q) for q in self.forbidden_quests) if self.forbidden_quests else 'Nenhum'}"
             f"\nFailed Quests: {', '.join(str(q) for q in self.required_fail_quests) if self.required_fail_quests else 'Nenhum'}"
-            f"\nRequired Heroes: {', '.join(str(q) for q in self.required_heroes) if self.required_heroes else 'Nenhum'}"
+            f"\nRequired Heroes: {', '.join(str(q) for q in self.required_perks
+) if self.required_perks
+ else 'Nenhum'}"
             f"\nForbidden Heroes: {', '.join(str(q) for q in self.forbidden_heroes) if self.forbidden_heroes else 'Nenhum'}"
             f"\nIniciada no turno: {self.available_since_turn}"
         )

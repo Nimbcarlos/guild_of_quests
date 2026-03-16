@@ -28,7 +28,7 @@
   "required_quests": [],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [],
+  "required_perks": [],
   "forbidden_heroes": [],
   "context": {
     "location": {
@@ -46,6 +46,84 @@
       "ru": "змея с черной чешуей",
       "zh": "黑鳞蛇",
       "ja": "黒い鱗の蛇"
+    }
+  },
+  "conclusion": {
+    "success": {
+      "religion": {
+        "pt": [
+          "Ao analisar as poças de toxina, percebi que o ácido não corroía apenas a matéria, mas deixava cicatrizes etéreas no solo, indicando que o veneno era alimentado por fragmentos de uma alma em sofrimento.",
+          "O brilho nas escamas de obsidiana revelou-se um padrão de contenção arcana; o réptil não nasceu assim, sua forma foi distorcida para servir como um receptáculo vivo de energia negativa concentrada.",
+          "Sob a luz mística, as pupilas verticais da besta mostraram-se trêmulas e instáveis, como se uma consciência estranha lutasse para retomar o controle de um corpo que derretia de dentro para fora."
+        ],
+        "en": [
+          "Analyzing the toxin pools, I realized the acid didn't just corrode matter, but left ethereal scars on the ground, indicating the venom was fed by fragments of a suffering soul.",
+          "The shimmer on the obsidian scales revealed itself as an arcane containment pattern; the reptile wasn't born this way, its form was distorted to serve as a living vessel for concentrated negative energy.",
+          "Under mystic light, the beast's vertical pupils appeared trembling and unstable, as if a foreign consciousness struggled to regain control of a body melting from the inside out."
+        ],
+        "es": [
+          "Al analizar el veneno, noté que el ácido no solo corría la materia, sino que dejaba cicatrices etéreas, indicando que la toxina se alimentaba de fragmentos de un alma sufriente.",
+          "El brillo en las escamas de obsidiana resultó ser un patrón de contención arcana; la forma del reptil fue distorsionada para servir como recipiente de energía negativa.",
+          "Bajo la luz mística, las pupilas verticales se mostraron inestables, como si una conciencia extraña luchara por retomar el control de un cuerpo que se derretía por dentro."
+        ],
+        "ru": [
+          "Анализируя лужи токсина, я поняла, что кислота разъедает не только материю, но и оставляет эфирные шрамы, указывая на то, что яд питался фрагментами страдающей души.",
+          "Блеск обсидиановой чешуи оказался магическим сдерживающим узором; форма рептилии была искажена, чтобы служить живым сосудом для концентрированной негативной энергии.",
+          "Под мистическим светом вертикальные зрачки зверя казались дрожащими, будто чужое сознание пыталось вернуть контроль над телом, тающим изнутри."
+        ],
+        "zh": [
+          "在分析毒液池时，我发现这种酸液不仅腐蚀物质，还在地面上留下了以太伤痕，表明毒液是由受苦灵魂的碎片滋养的。",
+          "黑曜石鳞片上的光泽显示出一种奥术束缚图案；这只爬行动物并非天生如此，其形态被扭曲以充当浓缩负能量的活体容器。",
+          "在神秘光芒下，猛兽的垂直瞳孔显得颤抖而不稳定，仿佛一个外来意识正努力夺回一个正从内部融化的身体的控制权。"
+        ],
+        "ja": [
+          "毒の溜まりを分析すると、その酸は物質を腐食させるだけでなく、地面に霊的な傷跡を残していました。これは毒が苦しむ魂の断片によって供給されていることを示しています。",
+          "黒曜石の鱗の輝きは、魔術的な拘束パターンであることが判明しました。この爬虫類は生まれつきこうだったのではなく、負のエネルギーの器として歪められたのです。",
+          "神秘的な光の下で、獣の垂直な瞳は不安定に震えていました。まるで異質な意識が、内側から溶けゆく肉体の制御を取り戻そうと抗っているかのようでした。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "O combate foi tenso devido aos vapores corrosivos. O golpe final separou a cabeça da serpente, interrompendo o fluxo de ácido que já começava a liquefazer a vegetação ao redor.",
+          "Aproveitei o momento em que o predador se preparava para destilar seu veneno e perfurei sua garganta inchada, fazendo com que a substância espiritual se dissipasse antes de atingir o solo.",
+          "A carapaça de escamas negras era dura como vidro vulcânico, mas uma investida certeira entre as vértebras imobilizou a besta, silenciando o sibilo doloroso que parecia um lamento humano."
+        ],
+        "en": [
+          "The fight was tense due to corrosive vapors. The final blow severed the serpent's head, stopping the flow of acid that was already beginning to liquefy the surrounding vegetation.",
+          "I took advantage of the moment the predator prepared to distill its venom and pierced its swollen throat, causing the spiritual substance to dissipate before hitting the ground.",
+          "The black-scaled hide was hard as volcanic glass, but a precise thrust between the vertebrae immobilized the beast, silencing the painful hiss that sounded like a human wail."
+        ],
+        "es": [
+          "El combate fue tenso por los vapores corrosivos. El golpe final separó la cabeza de la serpiente, deteniendo el flujo de ácido que ya licuaba la vegetación cercana.",
+          "Aproveché cuando el depredador se preparaba para escupir su veneno y perforé su garganta, haciendo que la sustancia espiritual se disipara antes de tocar el suelo.",
+          "La piel de escamas negras era dura como vidrio volcánico, pero una estocada entre las vértebras inmovilizó a la bestia, silenciando el silbido que parecía un lamento humano."
+        ],
+        "ru": [
+          "Бой был напряженным из-за едких паров. Последний удар отсек голову змеи, остановив поток кислоты, которая уже начала превращать окружающую зелень в жижу.",
+          "Я воспользовалась моментом, когда хищник готовился выплеснуть яд, и пронзила его раздутое горло, заставив духовную субстанцию рассеяться, не коснувшись земли.",
+          "Черная чешуя была твердой, как вулканическое стекло, но точный выпад между позвонками обездвижил тварь, заставив умолкнуть шипение, похожее на человеческий стон."
+        ],
+        "zh": [
+          "由于腐蚀性蒸汽的影响，战斗非常紧张。最后一击斩断了蛇头，制止了已经开始液化周围植被的酸液流。",
+          "我趁着掠食者准备分泌毒液的瞬间刺穿了它肿胀的喉咙，使这种精神物质在落地前就消散了。",
+          "黑鳞外皮坚硬如火山玻璃，但在脊椎间的精准一击制服了这头猛兽，平息了那听起来像人类哀鸣的痛苦嘶声。"
+        ],
+        "ja": [
+          "腐食性の蒸気により、戦いは緊迫したものとなりました。最後の一撃で蛇の首を切り落とし、周囲の植生を溶かし始めていた酸の流れを止めました。",
+          "捕食者が毒を精製しようとした瞬間を突き、腫れ上がった喉を貫きました。これにより霊的な物質は地面に触れる前に霧散しました。",
+          "黒い鱗は火山ガラスのように硬かったが、脊椎の間への的確な一撃が獣を無力化し、人間の呻き声のように聞こえた苦痛に満ちた威嚇音を沈黙させました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": ["A criatura deslizou por entre a lama ácida, deixando um rastro de solo queimado que impediu qualquer perseguição imediata."],
+        "en": ["The creature slithered through the acidic mud, leaving a trail of scorched earth that prevented any immediate pursuit."],
+        "es": ["La criatura se deslizó por el lodo ácido, dejando un rastro de tierra quemada que impidió cualquier persecución inmediata."],
+        "ru": ["Существо скользнуло сквозь кислую грязь, оставив за собой след выжженной земли, что сделало преследование невозможным."],
+        "zh": ["这只生物滑过酸性泥浆，留下一道焦黑的土地印记，阻止了任何立即的追击。"],
+        "ja": ["その生き物は酸の泥の中をすり抜け、焼け焦げた跡を残していったため、追跡することは不可能でした。"]
+      }
     }
   }
 }

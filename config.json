@@ -2,8 +2,8 @@
     "language": "pt",
     "screen_mode": "Janela",
     "screen_size": [
-        800,
-        600
+        1366,
+        768
     ],
     "music_muted": false,
     "ui_muted": false,

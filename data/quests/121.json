@@ -33,7 +33,7 @@
   ],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_heroes": [
+  "required_perks": [
     2
   ],
   "forbidden_heroes": [],
@@ -54,5 +54,107 @@
       "zh": "哥布林的足迹",
       "ja": "ゴブリンの足跡"
     }
+  },
+  "conclusion": {
+    "success": {
+      "athletics": {
+        "pt": [
+          "Segui os rastros pela floresta até encontrar uma grande pedra bloqueando a entrada de uma caverna. Consegui movê-la e revelei um túnel estreito escondido atrás dela.",
+          "Os rastros terminaram diante de uma pedra pesada na entrada de uma caverna. Empurrei a rocha e encontrei um túnel estreito oculto.",
+          "Localizei a origem dos rastros na entrada de uma caverna bloqueada por uma pedra. Depois de movê-la, descobri um túnel apertado usado como passagem."
+        ],
+        "en": [
+          "I followed the tracks through the forest until I found a large stone blocking a cave entrance. Moving it revealed a narrow tunnel behind it.",
+          "The tracks ended at a heavy rock sealing a cave entrance. I pushed it aside and uncovered a tight tunnel hidden behind it.",
+          "Tracing the source of the tracks led to a stone blocking a cave. After moving it, I discovered a narrow tunnel passage."
+        ],
+        "es": [
+          "Seguí los rastros por el bosque hasta encontrar una gran piedra bloqueando la entrada de una cueva. Al moverla apareció un túnel estrecho.",
+          "Las huellas terminaban frente a una roca pesada en la entrada de una cueva. La empujé y revelé un túnel oculto.",
+          "El rastro conducía a una cueva bloqueada por una piedra. Tras moverla, descubrí un pasaje angosto."
+        ],
+        "ru": [
+          "Я проследила следы через лес и нашла большой камень, закрывающий вход в пещеру. Сдвинув его, я обнаружила узкий тоннель.",
+          "Следы заканчивались у тяжёлого камня у входа в пещеру. Я отодвинула его и открыла скрытый узкий проход.",
+          "Следы привели к пещере, вход которой перекрывала скала. После того как я её сдвинула, обнаружился узкий туннель."
+        ],
+        "zh": [
+          "我沿着森林中的足迹追踪，发现一块巨石堵住了洞穴入口。移开后露出一条狭窄的隧道。",
+          "足迹在洞口前的一块大石头处结束。我把石头推开，发现后面隐藏着一条狭窄通道。",
+          "追踪源头时，我发现洞穴入口被岩石挡住。移开之后出现了一条狭窄的隧道。"
+        ],
+        "ja": [
+          "森の中で足跡を追跡すると、洞窟の入口を塞ぐ大きな岩を見つけた。動かすと、その奥に細いトンネルが現れた。",
+          "足跡は洞窟入口の重い岩で途切れていた。岩を押しのけると、狭い通路が現れた。",
+          "足跡の源を辿ると岩で塞がれた洞窟に行き着いた。岩を動かすと細いトンネルが見つかった。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "Segui os rastros até a entrada de uma caverna parcialmente escondida por uma grande pedra.",
+          "Os rastros terminaram diante de uma pedra pesada na entrada de uma caverna.",
+          "Localizei a origem das pegadas: uma caverna cuja entrada está bloqueada por uma grande pedra."
+        ],
+        "en": [
+          "I followed the tracks to a cave entrance partially hidden by a large stone.",
+          "The tracks ended at a heavy rock blocking a cave entrance.",
+          "I located the source of the tracks: a cave whose entrance is sealed by a large stone."
+        ],
+        "es": [
+          "Seguí los rastros hasta la entrada de una cueva parcialmente cubierta por una gran piedra.",
+          "Las huellas terminaban frente a una roca pesada que bloqueaba la entrada de una cueva.",
+          "Localicé el origen de las huellas: una cueva cuya entrada está bloqueada por una gran piedra."
+        ],
+        "ru": [
+          "Я проследила следы до входа в пещеру, частично скрытого большим камнем.",
+          "Следы заканчивались у тяжёлого камня, закрывающего вход в пещеру.",
+          "Я нашла источник следов: пещеру, вход в которую перекрыт большой скалой."
+        ],
+        "zh": [
+          "我沿着足迹追踪到一个被巨石部分遮住的洞穴入口。",
+          "足迹在一块堵住洞口的巨石前结束。",
+          "我找到了足迹的源头：一个被巨石挡住入口的洞穴。"
+        ],
+        "ja": [
+          "足跡を追うと、大きな岩で半ば隠された洞窟の入口に辿り着いた。",
+          "足跡は洞窟入口を塞ぐ重い岩の前で途切れていた。",
+          "足跡の発生源は、大きな岩で塞がれた洞窟だった。"
+        ]
+      }
+    },
+"failure": {
+  "default": {
+    "pt": [
+      "As trilhas paralelas ficaram confusas demais e não consegui confirmar a origem dos rastros na floresta.",
+      "Perdi a continuidade das pegadas antes de localizar o ponto exato de onde os goblins vinham.",
+      "Os rastros se dispersaram entre caminhos falsos e a origem permaneceu oculta."
+    ],
+    "en": [
+      "The parallel trails became too confusing and I could not confirm the source of the tracks in the forest.",
+      "I lost the continuity of the footprints before locating the exact point the goblins were coming from.",
+      "The tracks scattered among false paths and the source remained hidden."
+    ],
+    "es": [
+      "Los senderos paralelos se volvieron demasiado confusos y no pude confirmar el origen de los rastros en el bosque.",
+      "Perdí la continuidad de las huellas antes de localizar el punto exacto del que venían los goblins.",
+      "Los rastros se dispersaron entre caminos falsos y el origen permaneció oculto."
+    ],
+    "ru": [
+      "Параллельные тропы оказались слишком запутанными, и мне не удалось установить источник следов в лесу.",
+      "Я потеряла цепочку следов, прежде чем нашла точное место, откуда выходили гоблины.",
+      "Следы разошлись по ложным путям, и источник так и остался скрыт."
+    ],
+    "zh": [
+      "并行的小径过于混乱，我没能确认森林中这些踪迹的源头。",
+      "在找到哥布林来路的确切地点前，我失去了脚印的连续性。",
+      "足迹散入多条误导路线，源头仍然隐藏着。"
+    ],
+    "ja": [
+      "並行する道があまりにも複雑で、森の足跡の発生源を特定できなかった。",
+      "ゴブリンの来た正確な地点に辿り着く前に、足跡の連続性を見失った。",
+      "足跡は偽の道へ散り、発生源はついに特定できなかった。"
+    ]
+  }
+}
   }
 }

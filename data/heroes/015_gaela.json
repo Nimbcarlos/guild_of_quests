@@ -1,6 +1,7 @@
 {
   "id": 15,
-  "name": "Gaela Stoneecho",
+  "name": "Gaela",
+  "last_name": "Stoneecho",
   "role": "dps",
   "hero_class": {
     "en": "Geomancer",
@@ -46,15 +47,15 @@
   "available_from_turn": 1,
   "leave_on_quest": [],
   "growth_curve": {
-    "1": { "strength": 2, "dexterity": 1, "intelligence": 2, "wisdom": 2 },
-    "2": { "strength": 2, "dexterity": 1, "intelligence": 3, "wisdom": 2 },
-    "3": { "strength": 2, "dexterity": 1, "intelligence": 4, "wisdom": 2 },
-    "4": { "strength": 2, "dexterity": 1, "intelligence": 5, "wisdom": 2 },
-    "5": { "strength": 2, "dexterity": 1, "intelligence": 6, "wisdom": 2 },
-    "6": { "strength": 3, "dexterity": 2, "intelligence": 6, "wisdom": 3 },
-    "7": { "strength": 3, "dexterity": 2, "intelligence": 7, "wisdom": 3 },
-    "8": { "strength": 3, "dexterity": 2, "intelligence": 8, "wisdom": 3 },
-    "9": { "strength": 3, "dexterity": 2, "intelligence": 9, "wisdom": 3 },
-    "10": { "strength": 3, "dexterity": 2, "intelligence": 10, "wisdom": 3 }
+    "1": { "strength": 1, "dexterity": 1, "intelligence": 2, "wisdom": 2 },
+    "2": { "strength": 1, "dexterity": 1, "intelligence": 2, "wisdom": 2 },
+    "3": { "strength": 1, "dexterity": 1, "intelligence": 3, "wisdom": 3 },
+    "4": { "strength": 1, "dexterity": 1, "intelligence": 3, "wisdom": 3 },
+    "5": { "strength": 1, "dexterity": 1, "intelligence": 4, "wisdom": 4 },
+    "6": { "strength": 2, "dexterity": 2, "intelligence": 4, "wisdom": 4 },
+    "7": { "strength": 2, "dexterity": 2, "intelligence": 5, "wisdom": 5 },
+    "8": { "strength": 2, "dexterity": 2, "intelligence": 5, "wisdom": 5 },
+    "9": { "strength": 2, "dexterity": 2, "intelligence": 6, "wisdom": 6 },
+    "10": { "strength": 2, "dexterity": 2, "intelligence": 6, "wisdom": 6 }
   }
 }
