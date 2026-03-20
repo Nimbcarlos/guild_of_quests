@@ -23,7 +23,7 @@
   "duration": 3,
   "difficulty": 3.5,
   "rewards": {
-    "xp": 140
+    "xp": 180
   },
   "required_quests": [
     122
@@ -85,7 +85,7 @@
         ]
       }
     },
-  "failure": {
+    "failure": {
       "default": {
         "pt": [
           "A patrulha goblin percebeu a infiltração antes de ser abatida, e o alerta se espalhou pela caverna.",

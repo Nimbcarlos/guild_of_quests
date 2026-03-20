@@ -224,3 +224,7 @@ def get_save_info(filename):
     except Exception as e:
         print(f"Erro ao ler info do save '{filename}': {e}")
         return None
+
+def get_latest_save():
+    saves = list_saves()
+    return saves[0] if saves else None

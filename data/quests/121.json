@@ -23,7 +23,7 @@
   "duration": 3,
   "difficulty": 2.5,
   "rewards": {
-    "xp": 70
+    "xp": 90
   },
   "required_quests": [
     120,
@@ -34,7 +34,8 @@
   "forbidden_quests": [],
   "required_fail_quests": [],
   "required_perks": [
-    2
+    "survival",
+    "investigation"
   ],
   "forbidden_heroes": [],
   "context": {
@@ -122,39 +123,39 @@
         ]
       }
     },
-"failure": {
-  "default": {
-    "pt": [
-      "As trilhas paralelas ficaram confusas demais e não consegui confirmar a origem dos rastros na floresta.",
-      "Perdi a continuidade das pegadas antes de localizar o ponto exato de onde os goblins vinham.",
-      "Os rastros se dispersaram entre caminhos falsos e a origem permaneceu oculta."
-    ],
-    "en": [
-      "The parallel trails became too confusing and I could not confirm the source of the tracks in the forest.",
-      "I lost the continuity of the footprints before locating the exact point the goblins were coming from.",
-      "The tracks scattered among false paths and the source remained hidden."
-    ],
-    "es": [
-      "Los senderos paralelos se volvieron demasiado confusos y no pude confirmar el origen de los rastros en el bosque.",
-      "Perdí la continuidad de las huellas antes de localizar el punto exacto del que venían los goblins.",
-      "Los rastros se dispersaron entre caminos falsos y el origen permaneció oculto."
-    ],
-    "ru": [
-      "Параллельные тропы оказались слишком запутанными, и мне не удалось установить источник следов в лесу.",
-      "Я потеряла цепочку следов, прежде чем нашла точное место, откуда выходили гоблины.",
-      "Следы разошлись по ложным путям, и источник так и остался скрыт."
-    ],
-    "zh": [
-      "并行的小径过于混乱，我没能确认森林中这些踪迹的源头。",
-      "在找到哥布林来路的确切地点前，我失去了脚印的连续性。",
-      "足迹散入多条误导路线，源头仍然隐藏着。"
-    ],
-    "ja": [
-      "並行する道があまりにも複雑で、森の足跡の発生源を特定できなかった。",
-      "ゴブリンの来た正確な地点に辿り着く前に、足跡の連続性を見失った。",
-      "足跡は偽の道へ散り、発生源はついに特定できなかった。"
-    ]
-  }
-}
+    "failure": {
+      "default": {
+        "pt": [
+          "As trilhas paralelas ficaram confusas demais e não consegui confirmar a origem dos rastros na floresta.",
+          "Perdi a continuidade das pegadas antes de localizar o ponto exato de onde os goblins vinham.",
+          "Os rastros se dispersaram entre caminhos falsos e a origem permaneceu oculta."
+        ],
+        "en": [
+          "The parallel trails became too confusing and I could not confirm the source of the tracks in the forest.",
+          "I lost the continuity of the footprints before locating the exact point the goblins were coming from.",
+          "The tracks scattered among false paths and the source remained hidden."
+        ],
+        "es": [
+          "Los senderos paralelos se volvieron demasiado confusos y no pude confirmar el origen de los rastros en el bosque.",
+          "Perdí la continuidad de las huellas antes de localizar el punto exacto del que venían los goblins.",
+          "Los rastros se dispersaron entre caminos falsos y el origen permaneció oculto."
+        ],
+        "ru": [
+          "Параллельные тропы оказались слишком запутанными, и мне не удалось установить источник следов в лесу.",
+          "Я потеряла цепочку следов, прежде чем нашла точное место, откуда выходили гоблины.",
+          "Следы разошлись по ложным путям, и источник так и остался скрыт."
+        ],
+        "zh": [
+          "并行的小径过于混乱，我没能确认森林中这些踪迹的源头。",
+          "在找到哥布林来路的确切地点前，我失去了脚印的连续性。",
+          "足迹散入多条误导路线，源头仍然隐藏着。"
+        ],
+        "ja": [
+          "並行する道があまりにも複雑で、森の足跡の発生源を特定できなかった。",
+          "ゴブリンの来た正確な地点に辿り着く前に、足跡の連続性を見失った。",
+          "足跡は偽の道へ散り、発生源はついに特定できなかった。"
+        ]
+      }
+    }
   }
 }

@@ -42,6 +42,7 @@ class SettingsScreen(Screen):
         # Pausa a música
         music = get_music_manager()
         music.pause()
+        Window.bind(on_keyboard=self._on_keyboard)
 
     def on_leave(self):
         """Quando sai da tela de settings"""
@@ -50,11 +51,6 @@ class SettingsScreen(Screen):
         if not music.is_playing and music.current_sound:
             music.resume()
 
-    def go_back(self, *args):
-        """Volta para a tela anterior"""
-        # Remove a lógica de toggle_mute daqui, pois on_leave já cuida da música
-        self.manager.current = self.previous_screen
-
     # ---------------- CONFIG ----------------
     def load_config(self):
         if os.path.exists(CONFIG_FILE):
@@ -62,13 +58,13 @@ class SettingsScreen(Screen):
                 return json.load(f)
         else:
             default = {
-                "language": "pt",
-                "screen_mode": "Janela",
+                "language": "en",
+                "screen_mode": "Window",
                 "screen_size": [800, 600],
                 "music_muted": False,
                 "ui_muted": False,
-                "music_volume": 100.0,
-                "ui_volume": 100.0,
+                "music_volume": 50.0,
+                "ui_volume": 50.0,
             }
             with open(CONFIG_FILE, "w", encoding="utf-8") as f:
                 json.dump(default, f, indent=4)
@@ -148,8 +144,8 @@ class SettingsScreen(Screen):
             size_hint_y=None, height=25
         ))
         mode_spinner = Spinner(
-            text=self.config.get("screen_mode", "Janela"),
-            values=["Janela", "Fullscreen"],
+            text=self.config.get("screen_mode", "Window"),
+            values=["Window", "Fullscreen"],
             size_hint_y=None, height=40
         )
         mode_spinner.bind(text=self.set_screen_mode)
@@ -358,3 +354,12 @@ class SettingsScreen(Screen):
             music.toggle_mute()
         elif not is_muted and music.is_muted:
             music.toggle_mute()
+
+    def on_leave(self):
+        Window.unbind(on_keyboard=self._on_keyboard)
+
+    def _on_keyboard(self, window, key, scancode, codepoint, modifiers):
+        if key == 27:  # ESC / botão voltar
+            self.go_back()
+            return True  # impede o fechamento da janela
+        return False

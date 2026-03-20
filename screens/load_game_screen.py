@@ -14,6 +14,8 @@ from core.music_manager import get_music_manager
 import core.save_manager as save
 from core.language_manager import LanguageManager
 from kivy.properties import StringProperty
+from kivy.core.window import Window
+
 
 SAVE_DIR = "saves"
 
@@ -30,6 +32,7 @@ class LoadGameScreen(Screen):
         self.lm = LanguageManager()  # recarrega idioma atualizado
         self.refresh_saves()
         self.build_ui()
+        Window.bind(on_keyboard=self._on_keyboard)
 
     def build_ui(self):
         """Cria toda a UI em Python, zero dependência de .kv"""
@@ -234,3 +237,12 @@ class LoadGameScreen(Screen):
             
             print(f"Voltando para a tela: {target_screen}")
             self.manager.current = target_screen
+
+    def on_leave(self):
+        Window.unbind(on_keyboard=self._on_keyboard)
+
+    def _on_keyboard(self, window, key, scancode, codepoint, modifiers):
+        if key == 27:  # ESC / botão voltar
+            self.go_back()
+            return True  # impede o fechamento da janela
+        return False

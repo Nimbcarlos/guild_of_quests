@@ -23,7 +23,7 @@
   "duration": 3,
   "difficulty": 3.0,
   "rewards": {
-    "xp": 80
+    "xp": 100
   },
   "required_quests": [
     153,
@@ -32,7 +32,9 @@
   ],
   "forbidden_quests": [],
   "required_fail_quests": [],
-  "required_perks": [],
+  "required_perks": [
+    "religion"
+  ],
   "forbidden_heroes": [],
   "context": {
     "location": {

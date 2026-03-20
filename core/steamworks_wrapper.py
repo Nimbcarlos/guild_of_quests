@@ -42,15 +42,12 @@ class STEAMWORKS:
                 
                 # Carrega com caminho completo
                 self.steam_api = ctypes.CDLL(lib_path, winmode=0)
-                print(f"[Steamworks] ✅ Steam API carregada!")
                 
             elif system == "Linux":
                 self.steam_api = ctypes.CDLL("./libsteam_api.so")
-                print("[Steamworks] libsteam_api.so carregada")
                 
             elif system == "Darwin":
                 self.steam_api = ctypes.CDLL("./libsteam_api.dylib")
-                print("[Steamworks] libsteam_api.dylib carregada")
             
         except Exception as e:
             print(f"[Steamworks] ❌ Erro ao carregar Steam API: {e}")
@@ -74,16 +71,7 @@ class STEAMWORKS:
             
             result = init_func()
             self.loaded = result
-            
-            if result:
-                print("[Steamworks] ✅ Steam inicializado com sucesso!")
-            else:
-                print("[Steamworks] ❌ Falha ao inicializar")
-                print("Verifique:")
-                print("  1. Steam está rodando?")
-                print("  2. steam_appid.txt existe? (use 480 para testes)")
-                print("  3. Você está logado no Steam?")
-            
+           
             return result
             
         except Exception as e:
@@ -201,7 +189,27 @@ class STEAMWORKS:
             except Exception as e:
                 print(f"[Steamworks] Erro StoreStats: {e}")
                 return False
-    
+
+        @staticmethod
+        def RequestCurrentStats(steamworks_instance):
+            if not steamworks_instance.loaded:
+                return False
+
+            try:
+                func = steamworks_instance.steam_api.SteamAPI_ISteamUserStats_RequestCurrentStats
+                func.argtypes = [ctypes.c_void_p]
+                func.restype = ctypes.c_bool
+
+                user_stats = steamworks_instance._get_user_stats()
+                if not user_stats:
+                    return False
+
+                return func(user_stats)
+
+            except Exception as e:
+                print(f"[Steamworks] Erro RequestCurrentStats: {e}")
+                return False
+
     # ==================== USER (Steam ID) ====================
     class Users:
         @staticmethod
@@ -225,6 +233,54 @@ class STEAMWORKS:
                 print(f"[Steamworks] Erro GetSteamID: {e}")
                 return 0
 
+        @staticmethod
+        def SetStatInt(steamworks_instance, stat_name, value):
+            """Define uma stat inteira"""
+            if not steamworks_instance.loaded:
+                return False
+
+            try:
+                func = steamworks_instance.steam_api.SteamAPI_ISteamUserStats_SetStatInt32
+                func.argtypes = [ctypes.c_void_p, ctypes.c_char_p, ctypes.c_int32]
+                func.restype = ctypes.c_bool
+
+                user_stats = steamworks_instance._get_user_stats()
+                if not user_stats:
+                    print("[Steamworks] UserStats não disponível")
+                    return False
+
+                return func(user_stats, stat_name.encode("utf-8"), int(value))
+
+            except Exception as e:
+                print(f"[Steamworks] Erro SetStatInt: {e}")
+                return False
+
+        @staticmethod
+        def GetStatInt(steamworks_instance, stat_name):
+            """Lê uma stat inteira"""
+            if not steamworks_instance.loaded:
+                return 0
+
+            try:
+                func = steamworks_instance.steam_api.SteamAPI_ISteamUserStats_GetStatInt32
+                func.argtypes = [ctypes.c_void_p, ctypes.c_char_p, ctypes.POINTER(ctypes.c_int32)]
+                func.restype = ctypes.c_bool
+
+                user_stats = steamworks_instance._get_user_stats()
+                if not user_stats:
+                    print("[Steamworks] UserStats não disponível")
+                    return 0
+
+                value = ctypes.c_int32()
+                ok = func(user_stats, stat_name.encode("utf-8"), ctypes.byref(value))
+
+                if ok:
+                    return value.value
+                return 0
+
+            except Exception as e:
+                print(f"[Steamworks] Erro GetStatInt: {e}")
+                return 0
 
 # Teste rápido
 if __name__ == "__main__":

@@ -432,6 +432,7 @@
         }
       },
       "thievery": {
+        "alone": {
         "pt": [
           "Eu deslizava meus dedos sentindo {challenge} ceder sob minha perícia.",
           "Eu manipulava as ferramentas com leveza, focando na resistência d{challenge} enquanto o suor frio escorria.",
@@ -462,8 +463,10 @@
           "冷や汗が流れる中、{challenge}の抵抗に集中しながら、軽やかに道具を操りました。",
           "迫りくる成功の金属音を聞くために周囲の世界を無視し、{challenge}のテンションを確かめました。"
         ]
+      }
       },
       "stealth": {
+        "alone": {
         "pt": [
           "Eu me tornava uma mancha indistinguível nas paredes d{location}, deslizando para contornar o {challenge} sem emitir som.",
           "Eu cronometrava minha respiração com o vento d{location}, movendo-me centímetro a centímetro para que o {challenge} não percebesse minha sombra.",
@@ -494,8 +497,10 @@
           "{challenge}に影を悟られないよう、{location}の風に合わせて呼吸を整え、一歩一寸ずつ移動しました。",
           "自らを隠すために{location}のあらゆる凹凸を利用し、危険なほど短い距離から{challenge}を観察しました。"
         ]
+        }
       },
       "intimidation": {
+        "alone": {
         "pt": [
           "Eu emergia da penumbra com o aço frio tocando {challenge}, deixando que o medo fizesse o trabalho pesado.",
           "Eu sussurrava promessas de dor no ouvido do {challenge}, garantindo que ele entendesse que não sou uma heroína bondosa.",
@@ -526,6 +531,7 @@
           "自分が慈悲深い英雄ではないことを理解させるために、{challenge}の耳元で苦痛の約束を囁きました。",
           "{challenge}に対して殺気を放ち、沈黙と虚ろな眼差しで相手を動揺させました。"
         ]
+      }
       }
     },
     "others": {

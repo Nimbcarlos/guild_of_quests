@@ -48,12 +48,14 @@ def check_required_quests(quest, manager) -> bool:
         perk_met = False
 
         for hero_id in completed_by_all:
-            hero = manager.hero_manager.get(hero_id)
+            # ✅ CORRIGIDO: Usa get_hero_by_id() ao invés de get()
+            hero = manager.hero_manager.get_hero_by_id(hero_id)
             if not hero:
                 continue
 
             # Se o herói tiver QUALQUER perk exigido → passa
             if any(perk in hero.perks for perk in required_perks):
+                print(required_perks)
                 perk_met = True
                 break
 

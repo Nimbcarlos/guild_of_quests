@@ -23,7 +23,7 @@
   "duration": 3,
   "difficulty": 4.5,
   "rewards": {
-    "xp": 160
+    "xp": 200
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -117,12 +117,24 @@
     },
     "failure": {
       "default": {
-        "pt": ["A densidade das fibras pegajosas impediu o avanço, forçando um recuo enquanto novas camadas de seda eram tecidas sobre a estrada."],
-        "en": ["The density of the sticky fibers blocked the path, forcing a retreat as new layers of silk were woven over the road."],
-        "es": ["La densidad de las fibras pegajosas impidió el avance, forzando una retirada mientras nuevas capas de seda cubrían el camino."],
-        "ru": ["Плотность липких волокон преградила путь, вынудив отступить, пока новые слои шелка окутывали дорогу."],
-        "zh": ["粘稠纤维的密度阻碍了前进，随着新的丝层织满道路，只能被迫撤退。"],
-        "ja": ["粘着性の高い繊維の密度に阻まれ、道が新たな糸の層で覆われていく中、撤退を余儀なくされました。"]
+        "pt": [
+          "A densidade das fibras pegajosas impediu o avanço, forçando um recuo enquanto novas camadas de seda eram tecidas sobre a estrada."
+        ],
+        "en": [
+          "The density of the sticky fibers blocked the path, forcing a retreat as new layers of silk were woven over the road."
+        ],
+        "es": [
+          "La densidad de las fibras pegajosas impidió el avance, forzando una retirada mientras nuevas capas de seda cubrían el camino."
+        ],
+        "ru": [
+          "Плотность липких волокон преградила путь, вынудив отступить, пока новые слои шелка окутывали дорогу."
+        ],
+        "zh": [
+          "粘稠纤维的密度阻碍了前进，随着新的丝层织满道路，只能被迫撤退。"
+        ],
+        "ja": [
+          "粘着性の高い繊維の密度に阻まれ、道が新たな糸の層で覆われていく中、撤退を余儀なくされました。"
+        ]
       }
     }
   }

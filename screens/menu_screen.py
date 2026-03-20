@@ -21,7 +21,13 @@ class MenuScreen(Screen):
         self.name = "menu"
         self.language_manager = None  # ✅ Será setado pelo app
         self.build_ui()
-    
+
+    def on_enter(self):
+        latest_save = save.get_latest_save()
+
+        self.continue_btn.disabled = latest_save is None
+        self.continue_btn.opacity = 0.5 if latest_save is None else 1
+
     def build_ui(self):
         """Constrói toda a interface do menu em Python puro."""
         # FloatLayout principal
@@ -89,17 +95,30 @@ class MenuScreen(Screen):
         # ═══════════════════════════════════════════════════════
         buttons_box = BoxLayout(
             orientation="vertical",
-            spacing=15,
-            size_hint_x=0.55,
+            center_x=5,
+            spacing=5,
+            size_hint_x=0.35,
             padding=[0, 50, 0, 0]
         )
-        
+
+        self.continue_btn = Button(
+            background_normal="assets/buttons/continue.png",
+            background_down="assets/buttons/continue.png",
+            size_hint=(None, None),
+            width=300,
+            height=65,
+            border=(0, 0, 0, 0)
+        )
+        self.continue_btn.bind(on_release=self.continue_game)
+        buttons_box.add_widget(self.continue_btn)
+
         # New Game Button
         new_game_btn = Button(
             background_normal="assets/buttons/new_game.png",
             background_down="assets/buttons/new_game.png",
-            size_hint=(1, None),
-            height=90,
+            size_hint=(None, None),
+            width=300,
+            height=65,
             border=(0, 0, 0, 0)
         )
         new_game_btn.bind(on_release=self.new_game)
@@ -109,8 +128,9 @@ class MenuScreen(Screen):
         load_game_btn = Button(
             background_normal="assets/buttons/load_game.png",
             background_down="assets/buttons/load_game.png",
-            size_hint=(1, None),
-            height=90,
+            size_hint=(None, None),
+            width=300,
+            height=65,
             border=(0, 0, 0, 0)
         )
         load_game_btn.bind(on_release=self.open_load_game)
@@ -120,8 +140,9 @@ class MenuScreen(Screen):
         settings_btn = Button(
             background_normal="assets/buttons/settings.png",
             background_down="assets/buttons/settings.png",
-            size_hint=(1, None),
-            height=90,
+            size_hint=(None, None),
+            width=300,
+            height=65,
             border=(0, 0, 0, 0)
         )
         settings_btn.bind(on_release=self.open_settings)
@@ -131,8 +152,9 @@ class MenuScreen(Screen):
         exit_btn = Button(
             background_normal="assets/buttons/exit.png",
             background_down="assets/buttons/exit.png",
-            size_hint=(1, None),
-            height=90,
+            size_hint=(None, None),
+            width=300,
+            height=65,
             border=(0, 0, 0, 0)
         )
         exit_btn.bind(on_release=self.exit_game)  # ✅ Agora vai abrir o popup
@@ -223,3 +245,64 @@ class MenuScreen(Screen):
             print(f"[MenuScreen] Save carregado: {filename}")
         
         self.manager.current = "gameplay"
+
+    def continue_game(self, *args):
+        """Carrega o último save e vai para gameplay."""
+        # ──────────────────────────────────────────────────────
+        # 1. Pega o último save
+        # ──────────────────────────────────────────────────────
+        latest_save_path = save.get_latest_save()
+        
+        if not latest_save_path:
+            print("[MenuScreen] ❌ Nenhum save encontrado")
+            return
+        
+        # Extrai apenas o nome do arquivo
+        filename = os.path.basename(latest_save_path)
+        
+        print(f"[MenuScreen] 🔄 Carregando: {filename}")
+        
+        try:
+            # ──────────────────────────────────────────────────────
+            # 2. ✅ IMPORTANTE: Cria QuestManager NOVO primeiro
+            # ──────────────────────────────────────────────────────
+            new_qm = QuestManager()
+            
+            # ──────────────────────────────────────────────────────
+            # 3. Carrega o save nele
+            # ──────────────────────────────────────────────────────
+            success = save.load_game(new_qm, filename)
+            
+            if not success:
+                print(f"[MenuScreen] ❌ Erro ao carregar '{filename}'")
+                return
+            
+            print(f"[MenuScreen] ✅ Save carregado!")
+            
+            # ──────────────────────────────────────────────────────
+            # 4. Atualiza o QuestManager global
+            # ──────────────────────────────────────────────────────
+            self.manager.quest_manager = new_qm
+            
+            # ──────────────────────────────────────────────────────
+            # 5. Remove tela antiga de gameplay
+            # ──────────────────────────────────────────────────────
+            if self.manager.has_screen("gameplay"):
+                old_screen = self.manager.get_screen("gameplay")
+                self.manager.remove_widget(old_screen)
+            
+            # ──────────────────────────────────────────────────────
+            # 6. Cria tela NOVA de gameplay
+            # ──────────────────────────────────────────────────────
+            new_gameplay = GameplayScreen(name="gameplay")
+            self.manager.add_widget(new_gameplay)
+            
+            # ──────────────────────────────────────────────────────
+            # 7. Vai para gameplay
+            # ──────────────────────────────────────────────────────
+            self.manager.current = "gameplay"
+        
+        except Exception as e:
+            print(f"[MenuScreen] ❌ Erro: {e}")
+            import traceback
+            traceback.print_exc()

@@ -613,10 +613,10 @@
     "kr": "완료된 미션"
   },
   "no_completed_quests": {
-    "pt": "Nenhuma missão completada",
-    "en": "No completed quests",
-    "es": "No hay misiones completadas",
-    "ru": "Нет завершённых заданий",
+    "pt": "\nNenhuma \nmissão \ncompletada",
+    "en": "No completed \nquests",
+    "es": "No hay \nmisiones \ncompletadas",
+    "ru": "Нет \nзавершённых \nзаданий",
     "zh": "没有已完成的任务",
     "ja": "完了したクエストはありません",
     "kr": "완료된 미션 없음"
@@ -1102,7 +1102,7 @@
       "happy": "Yesss! {hero} reached level {level}! Amazing!",
       "ironic": "Well well… {hero} is level {level} now. Fascinating.",
       "dark": "{hero} rises to level {level}… closer to the abyss.",
-      "bipolar_up": "A{hero} LEVELED UP!! LEVEL {level}!!! WOOO!!",
+      "bipolar_up": "{hero} LEVELED UP!! LEVEL {level}!!! WOOO!!",
       "bipolar_down": "{hero} is level {level}… not that it matters."
     },
     "es": {
@@ -1332,9 +1332,9 @@
     "kr": "절도 기술"
   },
   "arcana": {
-    "en": "arcana",
-    "pt": "arcanismo",
-    "es": "arcanismo",
+    "en": "Arcana",
+    "pt": "Arcanismo",
+    "es": "Arcanismo",
     "zh": "奥术",
     "ja": "アルカナ",
     "ru": "арканум",
@@ -1826,5 +1826,70 @@
     "ru": "Битва",
     "zh": "战斗",
     "ja": "戦闘"
-  }
+  },
+  "existing_saves": {
+    "pt": "Jogos Existentes",
+    "en": "Existing Saves",
+    "es": "Partidas Guardadas",
+    "ru": "Существующие сохранения",
+    "zh": "现有存档",
+    "ja": "既存のセーブデータ"
+  },
+  "turns_played": {
+    "pt": "Turnos jogados",
+    "en": "Turns played",
+    "es": "Turnos jugados",
+    "ru": "Ходы сыграны",
+    "zh": "已进行回合",
+    "ja": "経過ターン数"
+  },
+  "quests_completed": {
+    "pt": "Quests concluídas",
+    "en": "Quests completed",
+    "es": "Misiones completadas",
+    "ru": "Задания выполнены",
+    "zh": "已完成任务",
+    "ja": "完了したクエスト"
+  },
+  "heroes_recruited": {
+    "pt": "Heróis recrutados",
+    "en": "Heroes recruited",
+    "es": "Héroes reclutados",
+    "ru": "Нанятые герои",
+    "zh": "已招募英雄",
+    "ja": "雇用したヒーロー"
+  },
+  "average_hero_level": {
+    "pt": "Nível médio dos heróis",
+    "en": "Average hero level",
+    "es": "Nivel promedio de los héroes",
+    "ru": "Средний уровень героев",
+    "zh": "英雄平均等级",
+    "ja": "ヒーローの平均レベル"
+  },
+  "chapter_complete": {
+    "pt": "Fim do Capítulo {chapter}",
+    "en": "End of Chapter {chapter}",
+    "es": "Fin del Capítulo {chapter}",
+    "ru": "Конец главы {chapter}",
+    "zh": "第{chapter}章结束",
+    "ja": "第{chapter}章の終了"
+  },
+  "chapter_1_complete": {
+    "pt": "Capítulo 1 Concluído",
+    "en": "Chapter 1 Complete",
+    "es": "Capítulo 1 Completado",
+    "ru": "Глава 1 завершена",
+    "zh": "第一章 已完成",
+    "ja": "第1章 完了"
+  },
+"chapter_1_summary": {
+  "pt": ["Os heróis cumpriram dezenas de contratos. Monstros foram abatidos. A região parece mais segura. Mas algumas portas permaneceram fechadas. E algumas verdades continuam escondidas."],
+  "en": ["The heroes have fulfilled dozens of contracts. Monsters were slain. The region seems safer. But some doors remained closed. And some truths remain hidden."],
+  "es": ["Los héroes cumplieron decenas de contratos. Los monstruos fueron abatidos. La región parece más segura. Pero algunas puertas permanecieron cerradas. Y algunas verdades siguen escondidas."],
+  "ru": ["Герои выполнили десятки контрактов. Монстры повержены. В регионе стало спокойнее. Но некоторые двери остались заперты. И некоторые истины все еще скрыты."],
+  "zh": ["英雄们完成了数十项契约。怪物已被讨伐。该地区似乎变得更安全了。 但有些门依然紧锁。 而有些真相，依旧深藏不露。"],
+  "ja": ["英雄たちは数十もの契約を果たした。魔物は討たれ、地域には平穏が訪れたかに見えた。 しかし、いくつかの扉は閉ざされたままだった。 そして、ある真実は今もなお、闇の中に隠されている。"]
+}
+
 }

@@ -23,7 +23,7 @@
   "duration": 3,
   "difficulty": 5.0,
   "rewards": {
-    "xp": 240
+    "xp": 300
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -50,80 +50,92 @@
   },
   "conclusion": {
     "success": {
-"religion": {
-  "pt": [
-    "Ao canalizar energia para dissipar a névoa mental, percebi que o olhar da besta não era instintivo; havia um brilho de desespero humano em suas múltiplas pupilas, sugerindo uma transmutação forçada.",
-    "O exame do fluido cefalorraquidiano revelou traços de uma poção de consciência. A criatura tentava articular sons através de suas quelíceras, indicando que uma mente racional estava presa naquele corpo aracnídeo.",
-    "Notei que o padrão das teias formava glifos de proteção rudimentares. O ser não estava apenas caçando, mas tentando desesperadamente comunicar sua agonia através de uma geometria mágica distorcida."
-  ],
-  "en": [
-    "By channeling energy to dispel the mental mist, I realized the beast's gaze was not instinctive; there was a glimmer of human despair in its multiple pupils, suggesting a forced transmutation.",
-    "Examination of the cerebrospinal fluid revealed traces of a consciousness potion. The creature was trying to articulate sounds through its chelicerae, indicating a rational mind was trapped in that arachnid body.",
-    "I noticed the web patterns formed rudimentary protection glyphs. The being wasn't just hunting, but desperately trying to communicate its agony through a distorted magical geometry."
-  ],
-  "es": [
-    "Al canalizar energía, me di cuenta de que la mirada de la bestia no era instintiva; había un brillo de desesperación humana en sus pupilas, sugiriendo una transmutación forzada.",
-    "El examen del fluido reveló rastros de una poción de conciencia. La criatura intentaba articular sonidos, indicando que una mente racional estaba atrapada en ese cuerpo arácnido.",
-    "Noté que los patrones de las telas formaban glifos de protección rudimentarios. El ser no solo cazaba, sino que intentaba comunicar su agonía a través de una geometría mágica distorsionada."
-  ],
-  "ru": [
-    "Направляя энергию на рассеивание ментального тумана, я поняла, что взгляд зверя не был инстинктивным; в его зрачках читалось человеческое отчаяние, намекающее на насильственную трансмутацию.",
-    "Анализ спинномозговой жидкости выявил следы зелья сознания. Существо пыталось издавать членораздельные звуки, что указывало на разум, заточенный в этом паучьем теле.",
-    "Я заметила, что узоры паутины образовывали зачаточные защитные глифы. Существо не просто охотилось, оно отчаянно пыталось сообщить о своих страданиях через искаженную магическую геометрию."
-  ],
-  "zh": [
-    "通过引导能量驱散精神迷雾，我意识到这头猛兽的眼神并非出于本能；在它的多重瞳孔中闪烁着人类的绝望，暗示这是一种被迫的形体转变。",
-    "对脑脊液的检查发现了意识药剂的痕迹。这只生物正试图通过螯肢发出声音，表明一个理性的头脑被困在了那具蛛形纲的身体里。",
-    "我注意到蛛网的图案构成了初步的保护符文。这个生命不仅是在狩猎，它还在拼命通过扭曲的魔法几何结构来传达内心的痛苦。"
-  ],
-  "ja": [
-    "精神の霧を払うためにエネルギーを注ぎ込むと、獣の眼差しが本能的なものではないことに気づきました。無数の瞳には人間の絶望が宿っており、強制的な変異を示唆していました。",
-    "脳脊髄液を調査したところ、意識の薬の痕跡が見つかりました。その生物は上顎を通じて言葉を発しようとしており、理性的な精神が蜘蛛の肉体に閉じ込められていることを示していました。",
-    "巣の模様が初歩的な保護文字を形成していることに気づきました。その存在は単に狩りをしていたのではなく、歪んだ魔法幾何学を通じて自らの苦悶を必死に伝えようとしていたのです。"
-  ]
-},
-"default": {
-  "pt": [
-    "O embate foi perturbador, pois o adversário hesitava antes de atacar, como se lutasse contra os próprios impulsos. Um golpe preciso no esterno finalmente encerrou aquele sofrimento antinatural.",
-    "Derrubamos a criatura após ela recuar diante de uma chama, demonstrando um medo racional que animais comuns não possuem. O corte final liberou um suspiro quase humano de alívio.",
-    "A carapaça rígida foi rompida com esforço coordenado. Ao ser atingida, a besta não rugiu, mas emitiu um lamento agudo que ecoou pelas paredes úmidas antes de seu corpo finalmente relaxar."
-  ],
-  "en": [
-    "The clash was disturbing, as the opponent hesitated before attacking, as if fighting its own impulses. A precise blow to the sternum finally ended that unnatural suffering.",
-    "We brought down the creature after it flinched before a flame, showing a rational fear common animals lack. The final strike released an almost human sigh of relief.",
-    "The rigid shell was shattered with coordinated effort. Upon being hit, the beast didn't roar, but emitted a high-pitched wail that echoed off the damp walls before its body finally went limp."
-  ],
-  "es": [
-    "El embate fue perturbador; el adversario dudaba antes de atacar, como si luchara contra sus impulsos. Un golpe preciso en el esternón puso fin a ese sufrimiento antinatural.",
-    "Derribamos a la criatura tras verla retroceder ante el fuego, mostrando un miedo racional. El corte final liberó un suspiro de alivio casi humano.",
-    "El caparazón rígido se rompió con esfuerzo coordinado. Al ser golpeada, la bestia no rugió, sino que emitió un lamento agudo antes de que su cuerpo finalmente se relajara."
-  ],
-  "ru": [
-    "Схватка была тревожной, так как противник колебался перед атакой, будто борясь с собственными импульсами. Точный удар в грудину наконец прекратил эти противоестественные страдания.",
-    "Мы повалили существо после того, как оно отпрянуло от пламени, проявив рациональный страх, не свойственный обычным животным. Последний удар высвободил почти человеческий вздох облегчения.",
-    "Жесткий панцирь был пробит скоординированным усилием. При ударе зверь не взревел, а издал пронзительный стон, который эхом разнесся по сырым стенам, прежде чем тело наконец обмякло."
-  ],
-  "zh": [
-    "这场战斗令人不安，因为对手在进攻前犹豫不决，仿佛在对抗自己的本能。对着胸骨的精准一击终于结束了那不自然的痛苦。",
-    "在这头生物畏缩在火焰前时，我们将其击倒，表现出普通动物所不具备的理智恐惧。最后一击释放出了一声近乎人类的解脱叹息。",
-    "经过通力协作，坚硬的外壳被击碎。被击中时，猛兽没有咆哮，而是发出了一声尖锐的哀鸣，在潮湿的墙壁间回荡，随后它的身体终于松弛了下来。"
-  ],
-  "ja": [
-    "敵が攻撃の前に躊躇し、自らの衝動と戦っているかのような様子に、戦いは困惑を極めました。胸部への的確な一撃が、その不自然な苦しみにようやく終止符を打ちました。",
-    "炎を前にひるむという、通常の動物にはない理性的な恐怖を見せたところを仕留めました。最後の一撃と共に、安堵したような、人間によく似た吐息が漏れました。",
-    "連携した攻撃で硬い殻を打ち砕きました。打撃を受けた際、獣は咆哮するのではなく、湿った壁に響き渡るような悲鳴を上げ、その後にようやく肉体から力が抜けました。"
-  ]
-}
-},
-"failure": {
-  "default": {
-    "pt": ["A astúcia da criatura superou as táticas de combate, permitindo que ela se retirasse para as fendas profundas onde os golpes não podiam alcançá-la."],
-    "en": ["The creature's cunning outmatched the combat tactics, allowing it to retreat into deep crevices where strikes could not reach it."],
-    "es": ["La astucia de la criatura superó las tácticas, permitiéndole retirarse a grietas profundas donde los golpes no podían alcanzarla."],
-    "ru": ["Хитрость существа превзошла тактику боя, позволив ему отступить в глубокие расщелины, где удары не могли его достать."],
-    "zh": ["这头生物的狡黠超出了战斗策略，使它得以退入深处的裂缝中，攻击无法触及。"],
-    "ja": ["その生物の狡猾さが戦闘戦術を上回り、攻撃の届かない深い裂け目へと退却を許してしまいました。"]
+      "religion": {
+        "pt": [
+          "Ao canalizar energia para dissipar a névoa mental, percebi que o olhar da besta não era instintivo; havia um brilho de desespero humano em suas múltiplas pupilas, sugerindo uma transmutação forçada.",
+          "O exame do fluido cefalorraquidiano revelou traços de uma poção de consciência. A criatura tentava articular sons através de suas quelíceras, indicando que uma mente racional estava presa naquele corpo aracnídeo.",
+          "Notei que o padrão das teias formava glifos de proteção rudimentares. O ser não estava apenas caçando, mas tentando desesperadamente comunicar sua agonia através de uma geometria mágica distorcida."
+        ],
+        "en": [
+          "By channeling energy to dispel the mental mist, I realized the beast's gaze was not instinctive; there was a glimmer of human despair in its multiple pupils, suggesting a forced transmutation.",
+          "Examination of the cerebrospinal fluid revealed traces of a consciousness potion. The creature was trying to articulate sounds through its chelicerae, indicating a rational mind was trapped in that arachnid body.",
+          "I noticed the web patterns formed rudimentary protection glyphs. The being wasn't just hunting, but desperately trying to communicate its agony through a distorted magical geometry."
+        ],
+        "es": [
+          "Al canalizar energía, me di cuenta de que la mirada de la bestia no era instintiva; había un brillo de desesperación humana en sus pupilas, sugiriendo una transmutación forzada.",
+          "El examen del fluido reveló rastros de una poción de conciencia. La criatura intentaba articular sonidos, indicando que una mente racional estaba atrapada en ese cuerpo arácnido.",
+          "Noté que los patrones de las telas formaban glifos de protección rudimentarios. El ser no solo cazaba, sino que intentaba comunicar su agonía a través de una geometría mágica distorsionada."
+        ],
+        "ru": [
+          "Направляя энергию на рассеивание ментального тумана, я поняла, что взгляд зверя не был инстинктивным; в его зрачках читалось человеческое отчаяние, намекающее на насильственную трансмутацию.",
+          "Анализ спинномозговой жидкости выявил следы зелья сознания. Существо пыталось издавать членораздельные звуки, что указывало на разум, заточенный в этом паучьем теле.",
+          "Я заметила, что узоры паутины образовывали зачаточные защитные глифы. Существо не просто охотилось, оно отчаянно пыталось сообщить о своих страданиях через искаженную магическую геометрию."
+        ],
+        "zh": [
+          "通过引导能量驱散精神迷雾，我意识到这头猛兽的眼神并非出于本能；在它的多重瞳孔中闪烁着人类的绝望，暗示这是一种被迫的形体转变。",
+          "对脑脊液的检查发现了意识药剂的痕迹。这只生物正试图通过螯肢发出声音，表明一个理性的头脑被困在了那具蛛形纲的身体里。",
+          "我注意到蛛网的图案构成了初步的保护符文。这个生命不仅是在狩猎，它还在拼命通过扭曲的魔法几何结构来传达内心的痛苦。"
+        ],
+        "ja": [
+          "精神の霧を払うためにエネルギーを注ぎ込むと、獣の眼差しが本能的なものではないことに気づきました。無数の瞳には人間の絶望が宿っており、強制的な変異を示唆していました。",
+          "脳脊髄液を調査したところ、意識の薬の痕跡が見つかりました。その生物は上顎を通じて言葉を発しようとしており、理性的な精神が蜘蛛の肉体に閉じ込められていることを示していました。",
+          "巣の模様が初歩的な保護文字を形成していることに気づきました。その存在は単に狩りをしていたのではなく、歪んだ魔法幾何学を通じて自らの苦悶を必死に伝えようとしていたのです。"
+        ]
+      },
+      "default": {
+        "pt": [
+          "O embate foi perturbador, pois o adversário hesitava antes de atacar, como se lutasse contra os próprios impulsos. Um golpe preciso no esterno finalmente encerrou aquele sofrimento antinatural.",
+          "Derrubamos a criatura após ela recuar diante de uma chama, demonstrando um medo racional que animais comuns não possuem. O corte final liberou um suspiro quase humano de alívio.",
+          "A carapaça rígida foi rompida com esforço coordenado. Ao ser atingida, a besta não rugiu, mas emitiu um lamento agudo que ecoou pelas paredes úmidas antes de seu corpo finalmente relaxar."
+        ],
+        "en": [
+          "The clash was disturbing, as the opponent hesitated before attacking, as if fighting its own impulses. A precise blow to the sternum finally ended that unnatural suffering.",
+          "We brought down the creature after it flinched before a flame, showing a rational fear common animals lack. The final strike released an almost human sigh of relief.",
+          "The rigid shell was shattered with coordinated effort. Upon being hit, the beast didn't roar, but emitted a high-pitched wail that echoed off the damp walls before its body finally went limp."
+        ],
+        "es": [
+          "El embate fue perturbador; el adversario dudaba antes de atacar, como si luchara contra sus impulsos. Un golpe preciso en el esternón puso fin a ese sufrimiento antinatural.",
+          "Derribamos a la criatura tras verla retroceder ante el fuego, mostrando un miedo racional. El corte final liberó un suspiro de alivio casi humano.",
+          "El caparazón rígido se rompió con esfuerzo coordinado. Al ser golpeada, la bestia no rugió, sino que emitió un lamento agudo antes de que su cuerpo finalmente se relajara."
+        ],
+        "ru": [
+          "Схватка была тревожной, так как противник колебался перед атакой, будто борясь с собственными импульсами. Точный удар в грудину наконец прекратил эти противоестественные страдания.",
+          "Мы повалили существо после того, как оно отпрянуло от пламени, проявив рациональный страх, не свойственный обычным животным. Последний удар высвободил почти человеческий вздох облегчения.",
+          "Жесткий панцирь был пробит скоординированным усилием. При ударе зверь не взревел, а издал пронзительный стон, который эхом разнесся по сырым стенам, прежде чем тело наконец обмякло."
+        ],
+        "zh": [
+          "这场战斗令人不安，因为对手在进攻前犹豫不决，仿佛在对抗自己的本能。对着胸骨的精准一击终于结束了那不自然的痛苦。",
+          "在这头生物畏缩在火焰前时，我们将其击倒，表现出普通动物所不具备的理智恐惧。最后一击释放出了一声近乎人类的解脱叹息。",
+          "经过通力协作，坚硬的外壳被击碎。被击中时，猛兽没有咆哮，而是发出了一声尖锐的哀鸣，在潮湿的墙壁间回荡，随后它的身体终于松弛了下来。"
+        ],
+        "ja": [
+          "敵が攻撃の前に躊躇し、自らの衝動と戦っているかのような様子に、戦いは困惑を極めました。胸部への的確な一撃が、その不自然な苦しみにようやく終止符を打ちました。",
+          "炎を前にひるむという、通常の動物にはない理性的な恐怖を見せたところを仕留めました。最後の一撃と共に、安堵したような、人間によく似た吐息が漏れました。",
+          "連携した攻撃で硬い殻を打ち砕きました。打撃を受けた際、獣は咆哮するのではなく、湿った壁に響き渡るような悲鳴を上げ、その後にようやく肉体から力が抜けました。"
+        ]
+      }
+    },
+    "failure": {
+      "default": {
+        "pt": [
+          "A astúcia da criatura superou as táticas de combate, permitindo que ela se retirasse para as fendas profundas onde os golpes não podiam alcançá-la."
+        ],
+        "en": [
+          "The creature's cunning outmatched the combat tactics, allowing it to retreat into deep crevices where strikes could not reach it."
+        ],
+        "es": [
+          "La astucia de la criatura superó las tácticas, permitiéndole retirarse a grietas profundas donde los golpes no podían alcanzarla."
+        ],
+        "ru": [
+          "Хитрость существа превзошла тактику боя, позволив ему отступить в глубокие расщелины, где удары не могли его достать."
+        ],
+        "zh": [
+          "这头生物的狡黠超出了战斗策略，使它得以退入深处的裂缝中，攻击无法触及。"
+        ],
+        "ja": [
+          "その生物の狡猾さが戦闘戦術を上回り、攻撃の届かない深い裂け目へと退却を許してしまいました。"
+        ]
+      }
+    }
   }
-}
-}
 }

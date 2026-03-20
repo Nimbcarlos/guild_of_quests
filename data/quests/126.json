@@ -23,7 +23,7 @@
   "duration": 3,
   "difficulty": 2.5,
   "rewards": {
-    "xp": 70
+    "xp": 90
   },
   "required_quests": [],
   "forbidden_quests": [
@@ -149,39 +149,39 @@
         ]
       }
     },
-"failure": {
-  "default": {
-    "pt": [
-      "Os goblins dispersaram antes que pudessem ser eliminados completamente, desaparecendo pela região.",
-      "O confronto se tornou desfavorável e foi necessário recuar antes de concluir a missão.",
-      "O combate chamou reforços goblins e a operação teve de ser interrompida."
-    ],
-    "en": [
-      "The goblins scattered before they could be fully eliminated, disappearing into the surroundings.",
-      "The fight turned unfavorable and a retreat was necessary before the task could be completed.",
-      "The clash drew additional goblin reinforcements and the operation had to be aborted."
-    ],
-    "es": [
-      "Los goblins se dispersaron antes de poder ser eliminados por completo.",
-      "El combate se volvió desfavorable y fue necesario retirarse.",
-      "El enfrentamiento atrajo refuerzos goblins y la operación tuvo que ser cancelada."
-    ],
-    "ru": [
-      "Гоблины рассеялись до того, как их удалось уничтожить полностью.",
-      "Сражение стало неблагоприятным, и пришлось отступить.",
-      "Столкновение привлекло подкрепление гоблинов, и операцию пришлось прекратить."
-    ],
-    "zh": [
-      "哥布林在被完全消灭前四散逃离。",
-      "战斗局势变得不利，被迫撤退。",
-      "战斗吸引了更多哥布林增援，行动被迫中止。"
-    ],
-    "ja": [
-      "ゴブリンは完全に排除される前に散り散りになって逃げた。",
-      "戦況が不利になり、任務の継続は断念された。",
-      "戦闘がゴブリンの増援を呼び寄せ、作戦は中断された。"
-    ]
-  }
-}
+    "failure": {
+      "default": {
+        "pt": [
+          "Os goblins dispersaram antes que pudessem ser eliminados completamente, desaparecendo pela região.",
+          "O confronto se tornou desfavorável e foi necessário recuar antes de concluir a missão.",
+          "O combate chamou reforços goblins e a operação teve de ser interrompida."
+        ],
+        "en": [
+          "The goblins scattered before they could be fully eliminated, disappearing into the surroundings.",
+          "The fight turned unfavorable and a retreat was necessary before the task could be completed.",
+          "The clash drew additional goblin reinforcements and the operation had to be aborted."
+        ],
+        "es": [
+          "Los goblins se dispersaron antes de poder ser eliminados por completo.",
+          "El combate se volvió desfavorable y fue necesario retirarse.",
+          "El enfrentamiento atrajo refuerzos goblins y la operación tuvo que ser cancelada."
+        ],
+        "ru": [
+          "Гоблины рассеялись до того, как их удалось уничтожить полностью.",
+          "Сражение стало неблагоприятным, и пришлось отступить.",
+          "Столкновение привлекло подкрепление гоблинов, и операцию пришлось прекратить."
+        ],
+        "zh": [
+          "哥布林在被完全消灭前四散逃离。",
+          "战斗局势变得不利，被迫撤退。",
+          "战斗吸引了更多哥布林增援，行动被迫中止。"
+        ],
+        "ja": [
+          "ゴブリンは完全に排除される前に散り散りになって逃げた。",
+          "戦況が不利になり、任務の継続は断念された。",
+          "戦闘がゴブリンの増援を呼び寄せ、作戦は中断された。"
+        ]
+      }
+    }
   }
 }

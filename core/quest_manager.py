@@ -278,9 +278,7 @@ class QuestManager:
             except KeyError:
                 pass
 
-        # 🔹 NOVO: Salva o jogo UMA VEZ no final, com tudo resolvido
-        if to_resolve:  # Só salva se teve alguma quest resolvida
-            save_game(self, self.save_file)
+        save_game(self, self.save_file)
 
     # def fail_quest(self, quest_id):
     #     print("fail quest")

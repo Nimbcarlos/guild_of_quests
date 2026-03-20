@@ -133,16 +133,16 @@
     "arrived": {
       "alone": {
         "pt": [
-          "Eu e o **Edgar** caminhávamos silenciosamente em direção d{location} enquanto os galhos estalavam sob nossos pés.",
+          "Eu e o Edgar caminhávamos silenciosamente em direção d{location} enquanto os galhos estalavam sob nossos pés.",
           "O vento soprava frio enquanto eu me aproximava d{location}, pedindo licença aos sussurros que vinham do chão.",
           "Eu atravessava os limites d{location}, sentindo o peso das memórias que ainda flutuavam pelo ar.",
           "Meus passos ecoavam enquanto eu explorava as sombras d{location}, observando cada canto onde o sol não alcançava.",
           "Eu parava diante d{location} e ajustava meu cajado, sentindo a energia antiga que emanava da terra.",
-          "Eu e o **Beto** contornávamos os arredores d{location}, sentindo o cheiro de terra úmida e segredos guardados.",
-          "O sol se punha enquanto eu e o **Nilo** observávamos a entrada d{location}, esperando o momento certo de entrar.",
-          "Eu segurava a lanterna enquanto o **Igor** abria caminho entre a vegetação d{location} com seus dedos pálidos.",
-          "Meus passos eram leves enquanto eu e o **Otto** percorríamos o corredor principal d{location}, ouvindo os estalos das paredes.",
-          "Eu sentia o frio subir pelas minhas pernas enquanto eu e o **Hugo** explorávamos os limites d{location} sob a luz da lua."
+          "Eu e o Beto contornávamos os arredores d{location}, sentindo o cheiro de terra úmida e segredos guardados.",
+          "O sol se punha enquanto eu e o Nilo observávamos a entrada d{location}, esperando o momento certo de entrar.",
+          "Eu segurava a lanterna enquanto o Igor abria caminho entre a vegetação d{location} com seus dedos pálidos.",
+          "Meus passos eram leves enquanto eu e o Otto percorríamos o corredor principal d{location}, ouvindo os estalos das paredes.",
+          "Eu sentia o frio subir pelas minhas pernas enquanto eu e o Hugo explorávamos os limites d{location} sob a luz da lua."
         ],
         "en": [
           "Edgar and I walked silently toward {location} while the branches snapped under our feet.",
@@ -212,11 +212,11 @@
           "Nós percorríamos o terreno d{location}, tentando decifrar o que os antigos moradores haviam deixado para trás.",
           "Enquanto caminhávamos pelas entranhas d{location}, eu ia contando aos outros as histórias que as pedras tentavam me dizer.",
           "Nós cruzávamos o portal d{location} em silêncio, sentindo o ar mudar conforme nossos pés tocavam o solo sagrado.",
-          "Nós seguíamos a trilha que levava d{location}, enquanto a **Lara** ia na frente garantindo que o caminho estava livre.",
-          "O grupo avançava lentamente pelas ruínas d{location}, e eu pedia para a **Mia** não se afastar muito de mim.",
-          "Nós investigávamos cada detalhe d{location}, enquanto a **Dora** sussurrava avisos sobre o que o vento trazia.",
-          "Enquanto cruzávamos o centro d{location}, eu e a **Rosa** trocávamos olhares sobre as marcas deixadas no chão.",
-          "Nós subíamos a encosta d{location}, mantendo a formação enquanto a **Luna** vigiava nossa retaguarda com paciência."
+          "Nós seguíamos a trilha que levava d{location}, enquanto a Lara ia na frente garantindo que o caminho estava livre.",
+          "O grupo avançava lentamente pelas ruínas d{location}, e eu pedia para a Mia não se afastar muito de mim.",
+          "Nós investigávamos cada detalhe d{location}, enquanto a Dora sussurrava avisos sobre o que o vento trazia.",
+          "Enquanto cruzávamos o centro d{location}, eu e a Rosa trocávamos olhares sobre as marcas deixadas no chão.",
+          "Nós subíamos a encosta d{location}, mantendo a formação enquanto a Luna vigiava nossa retaguarda com paciência."
         ],
         "en": [
           "We advanced cautiously along the edges of {location}, while I asked the boys not to make so much noise with their armor.",
@@ -285,15 +285,15 @@
         "alone": {
           "pt": [
             "Eu soprava brasas de agonia enquanto minhas caveiras flamejantes voavam em direção ao {enemy}.",
-            "O **Beto** avançava com seus punhos pesados contra o {enemy} enquanto eu conjurava um brilho pálido.",
-            "Eu e o **Nilo** cercávamos o {enemy}, enquanto eu lançava chamas fátuas que iluminavam as sombras.",
-            "O **Igor** saltava sobre o {enemy} com seus dedos gélidos enquanto eu preparava outra explosão de luz sombria.",
+            "O Beto avançava com seus punhos pesados contra o {enemy} enquanto eu conjurava um brilho pálido.",
+            "Eu e o Nilo cercávamos o {enemy}, enquanto eu lançava chamas fátuas que iluminavam as sombras.",
+            "O Igor saltava sobre o {enemy} com seus dedos gélidos enquanto eu preparava outra explosão de luz sombria.",
             "Eu girava meu cajado, enviando caveiras ardentes que perseguiam o {enemy} sem descanso.",
-            "O **Otto** bloqueava os avanços do {enemy} enquanto eu concentrava minha energia em um turbilhão de fogo azul.",
-            "Eu e o **Hugo** avançávamos contra o {enemy}, alternando entre golpes físicos e rajadas de energia espiritual.",
-            "Minhas mãos brilhavam enquanto eu lançava projéteis de alma no {enemy}, enquanto o **Beto** mantinha a linha de frente.",
-            "Eu recuava um passo para conjurar uma chuva de faíscas fúnebres sobre o {enemy} enquanto o **Nilo** distraía o alvo.",
-            "O **Igor** rugia silenciosamente enquanto investia contra o {enemy}, sob a proteção das minhas caveiras orbitantes."
+            "O Otto bloqueava os avanços do {enemy} enquanto eu concentrava minha energia em um turbilhão de fogo azul.",
+            "Eu e o Hugo avançávamos contra o {enemy}, alternando entre golpes físicos e rajadas de energia espiritual.",
+            "Minhas mãos brilhavam enquanto eu lançava projéteis de alma no {enemy}, enquanto o Beto mantinha a linha de frente.",
+            "Eu recuava um passo para conjurar uma chuva de faíscas fúnebres sobre o {enemy} enquanto o Nilo distraía o alvo.",
+            "O Igor rugia silenciosamente enquanto investia contra o {enemy}, sob a proteção das minhas caveiras orbitantes."
           ],
           "en": [
             "I blew embers of agony as my flaming skulls flew toward the {enemy}.",
@@ -358,16 +358,16 @@
         },
         "group": {
           "pt": [
-            "Nós coordenávamos nossos ataques contra o {enemy}, enquanto a **Lara** abria brechas para minhas magias.",
-            "Enquanto o grupo flanqueava o {enemy}, eu e a **Mia** enviávamos rajadas de fogo e gelo sepulcral.",
-            "Nós avançávamos em bloco, e eu pedia para a **Dora** proteger o flanco enquanto eu bombardeava o {enemy}.",
-            "A **Rosa** avançava destemida contra o {enemy}, enquanto eu cobria seu avanço com caveiras flamejantes.",
-            "Nós mantínhamos a pressão sobre o {enemy}, com a **Luna** atacando pelas costas enquanto eu conjurava luzes cegantes.",
-            "O grupo se espalhava para cercar o {enemy}, e eu sentia a **Lara** esperando meu sinal para atacar.",
-            "Nós lutávamos lado a lado, com a **Mia** derrubando as defesas do {enemy} para que meu fogo o atingisse.",
-            "Eu lançava ordens silenciosas enquanto a **Dora** e o grupo pressionavam o {enemy} contra as paredes.",
-            "Nós enfrentávamos o {enemy} com determinação, enquanto a **Rosa** cortava o ar com lâminas banhadas em minha magia.",
-            "O combate se intensificava enquanto a **Luna** e os outros heróis criavam a distração perfeita para minhas caveiras."
+            "Nós coordenávamos nossos ataques contra o {enemy}, enquanto a Lara abria brechas para minhas magias.",
+            "Enquanto o grupo flanqueava o {enemy}, eu e a Mia enviávamos rajadas de fogo e gelo sepulcral.",
+            "Nós avançávamos em bloco, e eu pedia para a Dora proteger o flanco enquanto eu bombardeava o {enemy}.",
+            "A Rosa avançava destemida contra o {enemy}, enquanto eu cobria seu avanço com caveiras flamejantes.",
+            "Nós mantínhamos a pressão sobre o {enemy}, com a Luna atacando pelas costas enquanto eu conjurava luzes cegantes.",
+            "O grupo se espalhava para cercar o {enemy}, e eu sentia a Lara esperando meu sinal para atacar.",
+            "Nós lutávamos lado a lado, com a Mia derrubando as defesas do {enemy} para que meu fogo o atingisse.",
+            "Eu lançava ordens silenciosas enquanto a Dora e o grupo pressionavam o {enemy} contra as paredes.",
+            "Nós enfrentávamos o {enemy} com determinação, enquanto a Rosa cortava o ar com lâminas banhadas em minha magia.",
+            "O combate se intensificava enquanto a Luna e os outros heróis criavam a distração perfeita para minhas caveiras."
           ],
           "en": [
             "We coordinated our attacks against the {enemy}, while Lara opened gaps for my spells.",
@@ -432,10 +432,11 @@
         }
       },
       "arcana": {
+        "alone": {
           "pt": [
-            "Eu e o **Dante** traçávamos glifos pálidos no ar para tentar sintonizar a energia contida n**{challenge}**.",
-            "Enquanto eu canalizava um brilho azulado nas palmas, o **Beto** mantinha **{challenge}** firme para minha análise.",
-            "Eu consultava os sussurros do plano espiritual enquanto a **Lara** observava as oscilações mágicas vindas d**{challenge}**."
+            "Eu e o Dante traçávamos glifos pálidos no ar para tentar sintonizar a energia contida n{challenge}.",
+            "Enquanto eu canalizava um brilho azulado nas palmas, o Beto mantinha {challenge} firme para minha análise.",
+            "Eu consultava os sussurros do plano espiritual enquanto a Lara observava as oscilações mágicas vindas d{challenge}."
           ],
           "en": [
             "Dante and I traced pale glyphs in the air to try and tune the energy contained within {challenge}.",
@@ -462,12 +463,14 @@
             "私が手のひらに青みがかった輝きを集中させている間、ベトは私の分析のために{challenge}をしっかりと固定しました。",
             "私が精神世界の囁きに耳を傾ける間、ララは{challenge}から生じる魔力の揺らぎを観察していました。"
           ]
+          }
         },
         "diplomacy": {
+        "alone": {
           "pt": [
-            "Eu tentava encontrar um meio-termo com **{challenge}** enquanto o **Nilo** gesticulava de forma calma ao meu lado.",
-            "A **Mia** inclinava a cabeça enquanto eu usava palavras suaves para tentar acalmar a tensão gerada pel**{challenge}**.",
-            "Eu buscava entender as motivações por trás d**{challenge}** enquanto a **Dora** permanecia em uma postura pacífica atrás de mim."
+            "Eu tentava encontrar um meio-termo com {challenge} enquanto o Nilo gesticulava de forma calma ao meu lado.",
+            "A Mia inclinava a cabeça enquanto eu usava palavras suaves para tentar acalmar a tensão gerada pel{challenge}.",
+            "Eu buscava entender as motivações por trás d{challenge} enquanto a Dora permanecia em uma postura pacífica atrás de mim."
           ],
           "en": [
             "I tried to find a middle ground with {challenge} while Nilo gestured calmly by my side.",
@@ -494,12 +497,14 @@
             "{challenge}によって生じた緊張を和らげるために私が穏やかな言葉を使う間、ミアは首をかしげて聞いていました。",
             "ドラが私の後ろで平和的な姿勢を保つ中、私は{challenge}の背後にある動機を理解しようと努めました。"
           ]
+        }
         },
         "religion": {
+        "alone": {
           "pt": [
-            "Eu entoava cânticos antigos para purificar a aura d**{challenge}** enquanto o **Igor** segurava o incensário de ossos.",
-            "A **Rosa** se ajoelhava comigo em silêncio enquanto eu desenhava símbolos de proteção ao redor d**{challenge}**.",
-            "Eu pedia a bênção dos que vieram antes para lidar com **{challenge}** sob o olhar atento do **Otto**."
+            "Eu entoava cânticos antigos para purificar a aura d{challenge} enquanto o Igor segurava o incensário de ossos.",
+            "A Rosa se ajoelhava comigo em silêncio enquanto eu desenhava símbolos de proteção ao redor d{challenge}.",
+            "Eu pedia a bênção dos que vieram antes para lidar com {challenge} sob o olhar atento do Otto."
           ],
           "en": [
             "I chanted ancient hymns to purify the aura of {challenge} while Igor held the bone censer.",
@@ -527,14 +532,15 @@
             "オットーの見守る中、{challenge}に対処するために先人たちの加護を求めました。"
           ]
         }
+      }
     },
     "others": {
       "1": {
         "group": {
           "pt": [
-            "Eu observava a **Lyra** em silêncio; ela me lembra muito o **Igor**, que também só encontrava sua voz quando o aço batia no osso.",
-            "A quietude da **Lyra** não me assusta, pois eu e o **Nilo** sabemos que o silêncio dela é apenas o ensaio para um grito de batalha.",
-            "Acompanhar a **Lyra** é como caminhar ao lado de uma tempestade adormecida, e o **Beto** sempre se afasta um pouco quando ela segura a espada."
+            "Eu observava a Lyra em silêncio; ela me lembra muito o Igor, que também só encontrava sua voz quando o aço batia no osso.",
+            "A quietude da Lyra não me assusta, pois eu e o Nilo sabemos que o silêncio dela é apenas o ensaio para um grito de batalha.",
+            "Acompanhar a Lyra é como caminhar ao lado de uma tempestade adormecida, e o Beto sempre se afasta um pouco quando ela segura a espada."
           ],
           "en": [
             "I watched Lyra in silence; she reminds me a lot of Igor, who also only found his voice when steel struck bone.",
@@ -566,9 +572,9 @@
       "2": {
         "group": {
           "pt": [
-            "A **Aureth** tem um jeito cínico que faz o **Dante** rir; ele também se cansou de sermões muito antes de perder a pele.",
-            "Eu sinto o cansaço na fé da **Aureth**, então pedi para o **Otto** não brilhar tanto os ossos hoje para não irritá-la.",
-            "Nós seguíamos a **Aureth** e sua armadura pesada, imaginando quantas preces vazias ela já teve que ouvir antes de decidir apenas lutar."
+            "A Aureth tem um jeito cínico que faz o Dante rir; ele também se cansou de sermões muito antes de perder a pele.",
+            "Eu sinto o cansaço na fé da Aureth, então pedi para o Otto não brilhar tanto os ossos hoje para não irritá-la.",
+            "Nós seguíamos a Aureth e sua armadura pesada, imaginando quantas preces vazias ela já teve que ouvir antes de decidir apenas lutar."
           ],
           "en": [
             "Aureth has a cynical way that makes Dante laugh; he also grew tired of sermons long before he lost his skin.",
@@ -600,9 +606,9 @@
       "3": {
         "group": {
           "pt": [
-            "A **Maelis** parece ouvir as raízes, enquanto eu e o **Igor** ouvimos o que está abaixo delas; somos todos parte da mesma terra, afinal.",
-            "Eu gosto de como a **Maelis** não precisa falar; o **Nilo** diz que a paciência dela é tão antiga quanto as montanhas que nos cercam.",
-            "Caminhar com a **Maelis** é calmo, pois ela entende que a vida e a morte são apenas estações, algo que a **Rosa** sempre tenta me explicar."
+            "A Maelis parece ouvir as raízes, enquanto eu e o Igor ouvimos o que está abaixo delas; somos todos parte da mesma terra, afinal.",
+            "Eu gosto de como a Maelis não precisa falar; o Nilo diz que a paciência dela é tão antiga quanto as montanhas que nos cercam.",
+            "Caminhar com a Maelis é calmo, pois ela entende que a vida e a morte são apenas estações, algo que a Rosa sempre tenta me explicar."
           ],
           "en": [
             "Maelis seems to hear the roots, while Igor and I hear what is below them; we are all part of the same earth, after all.",
@@ -634,9 +640,9 @@
       "4": {
         "group": {
           "pt": [
-            "A **Saryth** faz um espetáculo para os espíritos, e o **Beto** fica fascinado observando como ela chama nomes que o vento costuma esquecer.",
-            "Eu e a **Saryth** cuidamos dos nossos convidados de formas diferentes; ela usa luz e dança, eu uso o silêncio e a memória.",
-            "O **Dante** acha a performance da **Saryth** um pouco exagerada, mas eu sei que os espíritos adoram um pouco de atenção de vez em quando."
+            "A Saryth faz um espetáculo para os espíritos, e o Beto fica fascinado observando como ela chama nomes que o vento costuma esquecer.",
+            "Eu e a Saryth cuidamos dos nossos convidados de formas diferentes; ela usa luz e dança, eu uso o silêncio e a memória.",
+            "O Dante acha a performance da Saryth um pouco exagerada, mas eu sei que os espíritos adoram um pouco de atenção de vez em quando."
           ],
           "en": [
             "Saryth puts on a show for the spirits, and Beto is fascinated watching how she calls names that the wind usually forgets.",
@@ -668,9 +674,9 @@
       "5": {
         "group": {
           "pt": [
-            "A música da **Nyssa** é honesta demais para os vivos, mas a **Mia** diz que é a melodia perfeita para quem já não tem mais pressa.",
-            "Eu via como a canção da **Nyssa** sustentava o grupo, enquanto o **Otto** batia o compasso discretamente contra o próprio fêmur.",
-            "Nós ouvíamos a **Nyssa** cantar sobre perdas, e eu sentia meus amigos se aproximarem de mim, confortados por alguém que aceita as cicatrizes."
+            "A música da Nyssa é honesta demais para os vivos, mas a Mia diz que é a melodia perfeita para quem já não tem mais pressa.",
+            "Eu via como a canção da Nyssa sustentava o grupo, enquanto o Otto batia o compasso discretamente contra o próprio fêmur.",
+            "Nós ouvíamos a Nyssa cantar sobre perdas, e eu sentia meus amigos se aproximarem de mim, confortados por alguém que aceita as cicatrizes."
           ],
           "en": [
             "Nyssa's music is too honest for the living, but Mia says it is the perfect melody for those who are no longer in a hurry.",
@@ -702,9 +708,9 @@
       "6": {
         "group": {
           "pt": [
-            "A **Kaela** ouve o coral do universo, mas eu perguntei a ela se os risos invisíveis que ela escuta são tão teimosos quanto o meu querido **Beto**.",
-            "Nós duas caminhávamos ouvindo o que ninguém mais ouve; eu expliquei para a **Kaela** que as minhas vozes só precisam de um nome para parar de gritar.",
-            "Enquanto a **Kaela** tentava decifrar os sussurros do divino, o **Nilo** sussurrou de volta que o caos dela e o meu silêncio são quase a mesma música."
+            "A Kaela ouve o coral do universo, mas eu perguntei a ela se os risos invisíveis que ela escuta são tão teimosos quanto o meu querido Beto.",
+            "Nós duas caminhávamos ouvindo o que ninguém mais ouve; eu expliquei para a Kaela que as minhas vozes só precisam de um nome para parar de gritar.",
+            "Enquanto a Kaela tentava decifrar os sussurros do divino, o Nilo sussurrou de volta que o caos dela e o meu silêncio são quase a mesma música."
           ],
           "en": [
             "Kaela hears the chorus of the universe, but I asked her if the invisible laughter she hears is as stubborn as my dear Beto.",
@@ -736,9 +742,9 @@
       "7": {
         "group": {
           "pt": [
-            "A **Leona** vê padrões e lógica em tudo, mas o **Igor** ficou curioso para saber se ela consegue calcular a matemática de uma alma que se recusa a partir.",
-            "Eu observava a **Leona** desvendar o mundo com eletricidade, enquanto a **Rosa** tentava entender se o brilho dos raios dela dói tanto quanto o sol.",
-            "Caminhar com a **Leona** é interessante; ela organiza o caos com mente afiada, enquanto eu apenas peço por favor para o caos se sentar e esperar."
+            "A Leona vê padrões e lógica em tudo, mas o Igor ficou curioso para saber se ela consegue calcular a matemática de uma alma que se recusa a partir.",
+            "Eu observava a Leona desvendar o mundo com eletricidade, enquanto a Rosa tentava entender se o brilho dos raios dela dói tanto quanto o sol.",
+            "Caminhar com a Leona é interessante; ela organiza o caos com mente afiada, enquanto eu apenas peço por favor para o caos se sentar e esperar."
           ],
           "en": [
             "Leona sees patterns and logic in everything, but Igor was curious to know if she can calculate the mathematics of a soul that refuses to depart.",
@@ -770,9 +776,9 @@
       "8": {
         "group": {
           "pt": [
-            "A **Serah** é ríspida como uma lápide recém-cortada, e o **Beto** prefere não ficar no caminho dela quando a dor começa a ditar o ritmo.",
-            "Eu via a tensão na **Serah** e desejei que ela pudesse descansar um pouco, como a **Lara** faz quando a batalha finalmente termina.",
-            "Nós seguíamos o foco terrível da **Serah**, enquanto o **Nilo** comentava como ela entrega a dor com uma precisão quase... fúnebre."
+            "A Serah é ríspida como uma lápide recém-cortada, e o Beto prefere não ficar no caminho dela quando a dor começa a ditar o ritmo.",
+            "Eu via a tensão na Serah e desejei que ela pudesse descansar um pouco, como a Lara faz quando a batalha finalmente termina.",
+            "Nós seguíamos o foco terrível da Serah, enquanto o Nilo comentava como ela entrega a dor com uma precisão quase... fúnebre."
           ],
           "en": [
             "Serah is as harsh as a freshly cut gravestone, and Beto prefers not to stand in her way when pain begins to dictate the rhythm.",
@@ -804,9 +810,9 @@
       "9": {
         "group": {
           "pt": [
-            "A **Seraphine** diz que a vida é química, mas o **Dante** quer saber qual mistura ela usaria para colar uma costela que insiste em cair.",
-            "Eu ouvia os comentários secos da **Seraphine** e pensava que, se a química falhar, eu e o **Hugo** estaremos aqui para oferecer uma alternativa.",
-            "Nós observávamos a precisão clínica da **Seraphine**, enquanto a **Mia** se perguntava se existe uma poção para curar a saudade que os mortos sentem."
+            "A Seraphine diz que a vida é química, mas o Dante quer saber qual mistura ela usaria para colar uma costela que insiste em cair.",
+            "Eu ouvia os comentários secos da Seraphine e pensava que, se a química falhar, eu e o Hugo estaremos aqui para oferecer uma alternativa.",
+            "Nós observávamos a precisão clínica da Seraphine, enquanto a Mia se perguntava se existe uma poção para curar a saudade que os mortos sentem."
           ],
           "en": [
             "Seraphine says life is chemistry, but Dante wants to know what mixture she would use to glue a rib that insists on falling off.",
@@ -838,9 +844,9 @@
       "10": {
         "group": {
           "pt": [
-            "A **Elara** busca a verdade com mãos ágeis, e o **Otto** ficou impressionado com a honestidade dela em um mundo cheio de sombras enganosas.",
-            "Eu via a **Elara** mapear o perigo para nos proteger, e pedi para o **Nilo** sinalizar se visse algum segredo que a luz dela não pudesse alcançar.",
-            "Caminhar com a **Elara** é reconfortante; ela faz o que é certo pela mãe, e eu faço o que é certo por aqueles que não têm mais ninguém."
+            "A Elara busca a verdade com mãos ágeis, e o Otto ficou impressionado com a honestidade dela em um mundo cheio de sombras enganosas.",
+            "Eu via a Elara mapear o perigo para nos proteger, e pedi para o Nilo sinalizar se visse algum segredo que a luz dela não pudesse alcançar.",
+            "Caminhar com a Elara é reconfortante; ela faz o que é certo pela mãe, e eu faço o que é certo por aqueles que não têm mais ninguém."
           ],
           "en": [
             "Elara seeks the truth with agile hands, and Otto was impressed by her honesty in a world full of deceitful shadows.",
@@ -872,9 +878,9 @@
       "11": {
         "group": {
           "pt": [
-            "A **Nyx** evita assombrar os humanos, o que o **Beto** achou muito gentil da parte dela, já que ele sabe o peso de ser um fantasma.",
-            "Eu sentia a presença da **Nyx** nas sombras e pedia para a **Lara** não se assustar; ela só está caçando pesadelos que merecem o fim.",
-            "Nós e a **Nyx** compartilhamos o escuro, mas enquanto ela traz o medo para os monstros, eu trago apenas companhia para os esquecidos."
+            "A Nyx evita assombrar os humanos, o que o Beto achou muito gentil da parte dela, já que ele sabe o peso de ser um fantasma.",
+            "Eu sentia a presença da Nyx nas sombras e pedia para a Lara não se assustar; ela só está caçando pesadelos que merecem o fim.",
+            "Nós e a Nyx compartilhamos o escuro, mas enquanto ela traz o medo para os monstros, eu trago apenas companhia para os esquecidos."
           ],
           "en": [
             "Nyx avoids haunting humans, which Beto found very kind of her, as he knows the weight of being a ghost.",
@@ -906,9 +912,9 @@
       "12": {
         "group": {
           "pt": [
-            "A **Morga** e sua obsessão pelo número seis fazem o **Dante** querer contar cada osso do seu próprio corpo só para garantir a simetria.",
-            "Eu observava a precisão terrível da **Morga** e pensava que a fúria dela é, de certa forma, uma obra de arte muito bem organizada.",
-            "Nós acompanhávamos o abate preciso da **Morga**, enquanto a **Rosa** se perguntava se seis golpes são suficientes para silenciar uma alma inquieta."
+            "A Morga e sua obsessão pelo número seis fazem o Dante querer contar cada osso do seu próprio corpo só para garantir a simetria.",
+            "Eu observava a precisão terrível da Morga e pensava que a fúria dela é, de certa forma, uma obra de arte muito bem organizada.",
+            "Nós acompanhávamos o abate preciso da Morga, enquanto a Rosa se perguntava se seis golpes são suficientes para silenciar uma alma inquieta."
           ],
           "en": [
             "Morga and her obsession with the number six make Dante want to count every bone in his own body just to ensure symmetry.",
@@ -940,9 +946,9 @@
       "14": {
         "group": {
           "pt": [
-            "A **Raska** diz que máquinas são honestas, e o **Igor** concorda; afinal, um esqueleto também é uma máquina de alavancas e dobradiças que raramente mente.",
-            "Eu ouvia as palavras da **Raska** escaparem como faíscas e pedi para o **Otto** segurar bem o cajado para que nada quebrasse sob a vigília dela.",
-            "Nós observávamos a **Raska** reforçar nossas defesas, enquanto o **Nilo** admirava a forma como ela entende os pontos de falha antes mesmo deles existirem."
+            "A Raska diz que máquinas são honestas, e o Igor concorda; afinal, um esqueleto também é uma máquina de alavancas e dobradiças que raramente mente.",
+            "Eu ouvia as palavras da Raska escaparem como faíscas e pedi para o Otto segurar bem o cajado para que nada quebrasse sob a vigília dela.",
+            "Nós observávamos a Raska reforçar nossas defesas, enquanto o Nilo admirava a forma como ela entende os pontos de falha antes mesmo deles existirem."
           ],
           "en": [
             "Raska says machines are honest, and Igor agrees; after all, a skeleton is also a machine of levers and hinges that rarely lies.",
@@ -974,9 +980,9 @@
       "15": {
         "group": {
           "pt": [
-            "A **Gaela** fala com a pedra, e eu e o **Beto** ficamos parados ouvindo o eco, pois sabemos que a terra guarda as histórias mais profundas.",
-            "Eu entendo a gagueira da **Gaela**; às vezes o que sentimos é tão pesado quanto uma montanha e não cabe em palavras pequenas.",
-            "Nós caminhávamos com a **Gaela** sentindo o chão tremer, enquanto a **Mia** pedia para a terra ser gentil com nossos pés cansados."
+            "A Gaela fala com a pedra, e eu e o Beto ficamos parados ouvindo o eco, pois sabemos que a terra guarda as histórias mais profundas.",
+            "Eu entendo a gagueira da Gaela; às vezes o que sentimos é tão pesado quanto uma montanha e não cabe em palavras pequenas.",
+            "Nós caminhávamos com a Gaela sentindo o chão tremer, enquanto a Mia pedia para a terra ser gentil com nossos pés cansados."
           ],
           "en": [
             "Gaela speaks to the stone, and Beto and I stand still listening to the echo, for we know that the earth keeps the deepest stories.",

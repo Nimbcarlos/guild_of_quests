@@ -20,6 +20,7 @@ import re
 from screens.gameplay.hero_popup import show_hero_details
 from core.music_manager import get_music_manager
 from screens.gameplay.spinner_button import InfoMenuSpinner
+from screens.gameplay.chapter_end_popup import show_chapter_end_popup
 
 class GameplayScreen(Screen):
     active_quests_label = StringProperty()
@@ -57,7 +58,6 @@ class GameplayScreen(Screen):
         
         self.active_quests_label = self.lm.t("active_quests")
         self.available_quests_label = self.lm.t("available_quests")
-        self.completed_quests_label = self.lm.t("completed_quests")
         self.log_messages = self.lm.t("log_messages")
 
         # 🔹 CORRIGIDO: Lógica de mensagens da assistente
@@ -144,6 +144,14 @@ class GameplayScreen(Screen):
     def advance_turn(self, *_):
         # avança o turno no manager
         self.qm.advance_turn()
+        self.ids.quest_details.clear_widgets()
+
+        chapter_turn_limit = 150
+
+        if self.qm.current_turn > chapter_turn_limit:
+            self.chapter_end_shown = True
+            show_chapter_end_popup(self, chapter_name=self.lm.t("chapter_1_complete"))
+            return
 
         # e se usar o ids.log_box:
         if "log_box" in self.ids:
@@ -160,7 +168,6 @@ class GameplayScreen(Screen):
         # Atualiza UI que depende do estado do jogo
         self.update_sidebar()
         self.turn_bar()  # atualiza contador do turno
-
 
     def update_sidebar(self):
         qm = self.manager.quest_manager
@@ -198,11 +205,19 @@ class GameplayScreen(Screen):
         info_spinner = self.info_menu.create_menu_spinner()
         self.ids.completed_quests.add_widget(info_spinner)
 
+        gear_btn = Button(
+            text="",
+            size_hint=(None, None),
+            size=(40, 40),
+            background_normal="assets/buttons/gear.png",
+            background_down="assets/buttons/gear.png",
+            background_disabled_normal="assets/buttons/gear.png",
+            border=(0, 0, 0, 0),
+            on_release=lambda *_: self.open_pause_menu()
+        )
+        self.ids.completed_quests.add_widget(gear_btn)
+
     def show_quest_details(self, quest, *_):
-        """
-        Mostra painel com detalhes da quest e opções de heróis.
-        Combate é escalável por quantidade, não por composição fixa.
-        """
         container = self.ids.quest_details
         container.clear_widgets()
 
@@ -489,8 +504,11 @@ class GameplayScreen(Screen):
         container.add_widget(Label(
             text=quest.description,
             color=(0, 0, 0, 1),
+            halign="left",
+            valign="top",
+            text_size=(container.width * 0.95, None),
             size_hint_y=None,
-            height=60
+            font_size=max(16, int(container.width * 0.024)),
         ))
 
         # Lista de heróis na missão
@@ -708,7 +726,6 @@ class GameplayScreen(Screen):
         self.pause_popup.open()
 
     def save_and_close_popup(self, *args):
-        # Fecha o popup de pausa, se existir
         if getattr(self, "pause_popup", None):
             try:
                 self.pause_popup.dismiss()
@@ -716,48 +733,80 @@ class GameplayScreen(Screen):
                 pass
             self.pause_popup = None
 
-        # Popup reduzido e simples
-        box = BoxLayout(orientation="vertical", spacing=5, padding=10)
+        box = BoxLayout(orientation="vertical", spacing=8, padding=10)
 
         input_name = TextInput(
             hint_text=self.lm.t("save_name_hint"),
             multiline=False,
             size_hint_y=None,
             height=40,
-            input_filter=self.safe_input_filter  # 🔹 permite só caracteres válidos
+            input_filter=self.safe_input_filter
         )
         box.add_widget(input_name)
 
+        existing_saves = save.list_saves()
+
+        if existing_saves:
+            box.add_widget(Label(
+                text=self.lm.t("existing_saves"),
+                size_hint_y=None,
+                height=25
+            ))
+
+            saves_scroll = ScrollView(size_hint=(1, 1))
+            saves_box = BoxLayout(orientation="vertical", size_hint_y=None, spacing=5)
+            saves_box.bind(minimum_height=saves_box.setter("height"))
+
+            for save_name in existing_saves:
+                btn = Button(
+                    text=save_name,
+                    size_hint_y=None,
+                    height=40,
+                    on_release=lambda btn, name=save_name: setattr(
+                        input_name, "text", name.replace(".json", "")
+                    )
+                )
+                saves_box.add_widget(btn)
+
+            saves_scroll.add_widget(saves_box)
+            box.add_widget(saves_scroll)
+
         btns = BoxLayout(size_hint_y=None, height=35, spacing=5)
-        btns.add_widget(Button(text=self.lm.t("save"),
-                               on_release=lambda *_: self.confirm_save(input_name.text)))
-        btns.add_widget(Button(text=self.lm.t("cancel"),
-                               on_release=lambda *_: popup.dismiss()))
+        btns.add_widget(Button(
+            text=self.lm.t("save"),
+            on_release=lambda *_: self.confirm_save(input_name.text)
+        ))
+        btns.add_widget(Button(
+            text=self.lm.t("cancel"),
+            on_release=lambda *_: popup.dismiss()
+        ))
         box.add_widget(btns)
 
         popup = Popup(
             title=self.lm.t("save_game"),
             content=box,
-            size_hint=(0.5, 0.3),  # 🔹 menor que antes
+            size_hint=(0.6, 0.6),
             auto_dismiss=False
         )
         popup.open()
         self.save_popup = popup
 
     def confirm_save(self, filename):
-        # 🔹 Apenas letras, números e underscore
         if not re.match(r"^[A-Za-z0-9_]+$", filename):
             self.qm._log(self.lm.t("invalid_name"))
             return
 
-        filename = f"{filename}.json"
+        save_exists = filename in save.list_saves()
+        filename_json = f"{filename}.json"
 
         qm = self.manager.quest_manager
-        save.save_game(qm, filename)
+        save.save_game(qm, filename_json)
 
-        qm._log(self.lm.t("game_saved").format(filename=filename))
+        if save_exists:
+            self.qm._log(self.lm.t("game_overwritten").format(filename=filename_json))
+        else:
+            self.qm._log(self.lm.t("game_saved").format(filename=filename_json))
 
-        # Fecha o popup
         if getattr(self, "save_popup", None):
             try:
                 self.save_popup.dismiss()
@@ -820,14 +869,6 @@ class GameplayScreen(Screen):
     def safe_input_filter(substring, from_undo):
         # Permite apenas letras, números e underline
         return re.sub(r'[^A-Za-z0-9_]', '', substring)
-
-    def advance_turn(self):
-        self.qm.advance_turn()
-        # atualiza o texto do widget fixo
-        self.qm._log(self.lm.t("turn_advanced").format(turn=self.qm.current_turn))
-        self.update_sidebar()
-        self.turn_bar()
-
 
     def update_ui(self):
         """Atualiza todas as partes visuais ligadas ao estado do jogo."""
@@ -922,8 +963,11 @@ class GameplayScreen(Screen):
                 heroes_text = ""
             
             # Atualiza os detalhes
+            quest_types = quest.type if isinstance(quest.type, list) else [quest.type]
+            type_text = ", ".join(self.lm.t(qtype) for qtype in quest_types)
+
             details_label.text = (
-                f"[b]{self.lm.t('type_label')}:[/b] {quest.type}\n"
+                f"[b]{self.lm.t('type_label')}:[/b] {type_text}\n"
                 f"[b]{self.lm.t('difficulty_label')}:[/b] {quest.difficulty}\n\n"
                 f"{heroes_text}"
                 f"{quest.description}"
@@ -937,7 +981,7 @@ class GameplayScreen(Screen):
                 text=self.lm.t("no_completed_quests"),
                 color=(0, 0, 0, 1),
                 size_hint_y=None,
-                height=30
+                height=30,
             ))
         else:
             for qid in completed:
@@ -948,7 +992,6 @@ class GameplayScreen(Screen):
                         size_hint_y=None,
                         height=50,
                         background_color=(0.9, 0.85, 0.7, 1),
-                        color=(0, 0, 0, 1),
                         on_release=lambda *_, quest=q: show_details(quest)
                     )
                     quest_list_box.add_widget(btn)
@@ -958,9 +1001,10 @@ class GameplayScreen(Screen):
             title=self.lm.t("completed_quests_title"),
             content=main_layout,
             size_hint=(None, None),
-            size=(500, 500),
+            size=(550, 550),
             auto_dismiss=True,
             background="assets/background.png",
-            separator_color=(0, 0, 0, 0)
+            separator_height=0,
+            title_color=(0, 0, 0, 1)
         )
         popup.open()

@@ -23,7 +23,7 @@
   "duration": 3,
   "difficulty": 4.5,
   "rewards": {
-    "xp": 160
+    "xp": 200
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -94,25 +94,25 @@
           "The tribe agreed to return the young man after negotiation. During the exchange it became clear the situation did not resemble a kidnapping."
         ],
         "es": [
-            "Tras hablar con la tribu, el joven fue entregado sin resistencia. Aun así, quedó la impresión de que no estaba allí como rehén.",
-            "La tensión se resolvió mediante el diálogo y la tribu permitió que el hijo del noble partiera. Curiosamente, el muchacho no parecía un prisionero entre ellos.",
-            "Los miembros de la tribu aceptaron entregar al joven tras negociar. Durante la charla quedó claro que la situación no parecía un secuestro."
-          ],
-          "ru": [
-            "После разговора с членами племени юноша был передан без сопротивления. Тем не менее, сложилось впечатление, что его не держали в заложниках.",
-            "Напряженность была разрешена путем диалога, и племя позволило сыну дворянина уйти. Любопытно, но юноша не выглядел среди них узником.",
-            "Члены племени согласились выдать юношу после переговоров. Во время беседы стало ясно, что ситуация совсем не похожа на похищение."
-          ],
-          "zh": [
-            "在与部落成员交谈后，年轻人被毫无抵抗地交了出来。尽管如此，给人的印象是他并未被当作人质扣押。",
-            "通过对话化解了紧张局势，部落允许贵族之子离开。奇怪的是，他在他们中间看起来并不像个囚犯。",
-            "部落成员在谈判后同意交出年轻人。在交谈中，显而易见的情况并不像是一场绑架。"
-          ],
-          "ja": [
-            "部族の者たちと話し合った後、若者は抵抗なく引き渡されました。それでも、彼が人質として拘束されていたようには見えませんでした。",
-            "対話によって緊張は解消され、部族は貴族の息子が去ることを許可しました。奇妙なことに、彼は彼らの中で囚人のようには見えませんでした。",
-            "交渉の結果、部族は若者を引き渡すことに同意しました。話し合いの中で、状況が誘拐とは異なることが明らかになりました。"
-          ]
+          "Tras hablar con la tribu, el joven fue entregado sin resistencia. Aun así, quedó la impresión de que no estaba allí como rehén.",
+          "La tensión se resolvió mediante el diálogo y la tribu permitió que el hijo del noble partiera. Curiosamente, el muchacho no parecía un prisionero entre ellos.",
+          "Los miembros de la tribu aceptaron entregar al joven tras negociar. Durante la charla quedó claro que la situación no parecía un secuestro."
+        ],
+        "ru": [
+          "После разговора с членами племени юноша был передан без сопротивления. Тем не менее, сложилось впечатление, что его не держали в заложниках.",
+          "Напряженность была разрешена путем диалога, и племя позволило сыну дворянина уйти. Любопытно, но юноша не выглядел среди них узником.",
+          "Члены племени согласились выдать юношу после переговоров. Во время беседы стало ясно, что ситуация совсем не похожа на похищение."
+        ],
+        "zh": [
+          "在与部落成员交谈后，年轻人被毫无抵抗地交了出来。尽管如此，给人的印象是他并未被当作人质扣押。",
+          "通过对话化解了紧张局势，部落允许贵族之子离开。奇怪的是，他在他们中间看起来并不像个囚犯。",
+          "部落成员在谈判后同意交出年轻人。在交谈中，显而易见的情况并不像是一场绑架。"
+        ],
+        "ja": [
+          "部族の者たちと話し合った後、若者は抵抗なく引き渡されました。それでも、彼が人質として拘束されていたようには見えませんでした。",
+          "対話によって緊張は解消され、部族は貴族の息子が去ることを許可しました。奇妙なことに、彼は彼らの中で囚人のようには見えませんでした。",
+          "交渉の結果、部族は若者を引き渡すことに同意しました。話し合いの中で、状況が誘拐とは異なることが明らかになりました。"
+        ]
       },
       "default": {
         "pt": [
@@ -126,25 +126,25 @@
           "The clash in the settlement ended with the tribal warriors slain. The young man was taken back, but the impression remained — he did not seem to have been a prisoner."
         ],
         "es": [
-            "Los guerreros de la tribu intentaron impedir el rescate y el combate fue inevitable. Tras la lucha, el joven fue recuperado. Aun así, algo parecía extraño: no actuaba como un rehén.",
-            "El acercamiento llevó a un combate abierto. Los guerreros fueron derrotados y el hijo del noble recuperado, aunque su actitud no era la de alguien recién liberado.",
-            "El enfrentamiento terminó con los guerreros abatidos. El joven fue llevado de vuelta, pero quedó la impresión de que no había sido un prisionero."
-          ],
-          "ru": [
-            "Воины племени пытались помешать спасению, и столкновение стало неизбежным. После боя юноша был возвращен. И все же что-то казалось странным: он не вел себя как заложник.",
-            "Приближение привело к открытому бою. Воины племени были повержены, а сын дворянина возвращен, хотя его поведение не было похоже на поведение только что освобожденного человека.",
-            "Столкновение закончилось гибелью воинов племени. Юношу забрали обратно, но осталось впечатление — он не был похож на пленника."
-          ],
-          "zh": [
-            "部落战士试图阻止营救，冲突不可避免。战斗结束后，贵族之子被救回。即便如此，事情还是有些奇怪：他并没有表现出被人质对待的样子。",
-            "靠近演变成了公开战斗。部落战士被击败，贵族之子被找回，尽管他的态度并不像是一个刚获得自由的人。",
-            "定居点的冲突以部落战士被击杀告终。年轻人被带了回去，但印象依然存在——他看起来并不像是个囚犯。"
-          ],
-          "ja": [
-            "部族の戦士たちが救出を阻もうとし、衝突は避けられませんでした。戦いの後、若者は回収されました。それでも、人質にされていたにしては彼の様子は奇妙でした。",
-            "接近が集落内での戦闘に発展しました。戦士たちは敗北し、貴族の息子は取り戻されましたが、彼の態度は解放されたばかりの者のようではありませんでした。",
-            "集落での衝突は部族の戦士たちの死で終わりました。若者は連れ戻されましたが、彼が囚人であったようには見えないという印象が残りました。"
-          ]
+          "Los guerreros de la tribu intentaron impedir el rescate y el combate fue inevitable. Tras la lucha, el joven fue recuperado. Aun así, algo parecía extraño: no actuaba como un rehén.",
+          "El acercamiento llevó a un combate abierto. Los guerreros fueron derrotados y el hijo del noble recuperado, aunque su actitud no era la de alguien recién liberado.",
+          "El enfrentamiento terminó con los guerreros abatidos. El joven fue llevado de vuelta, pero quedó la impresión de que no había sido un prisionero."
+        ],
+        "ru": [
+          "Воины племени пытались помешать спасению, и столкновение стало неизбежным. После боя юноша был возвращен. И все же что-то казалось странным: он не вел себя как заложник.",
+          "Приближение привело к открытому бою. Воины племени были повержены, а сын дворянина возвращен, хотя его поведение не было похоже на поведение только что освобожденного человека.",
+          "Столкновение закончилось гибелью воинов племени. Юношу забрали обратно, но осталось впечатление — он не был похож на пленника."
+        ],
+        "zh": [
+          "部落战士试图阻止营救，冲突不可避免。战斗结束后，贵族之子被救回。即便如此，事情还是有些奇怪：他并没有表现出被人质对待的样子。",
+          "靠近演变成了公开战斗。部落战士被击败，贵族之子被找回，尽管他的态度并不像是一个刚获得自由的人。",
+          "定居点的冲突以部落战士被击杀告终。年轻人被带了回去，但印象依然存在——他看起来并不像是个囚犯。"
+        ],
+        "ja": [
+          "部族の戦士たちが救出を阻もうとし、衝突は避けられませんでした。戦いの後、若者は回収されました。それでも、人質にされていたにしては彼の様子は奇妙でした。",
+          "接近が集落内での戦闘に発展しました。戦士たちは敗北し、貴族の息子は取り戻されましたが、彼の態度は解放されたばかりの者のようではありませんでした。",
+          "集落での衝突は部族の戦士たちの死で終わりました。若者は連れ戻されましたが、彼が囚人であったようには見えないという印象が残りました。"
+        ]
       }
     },
     "failure": {

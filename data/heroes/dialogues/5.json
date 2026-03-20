@@ -347,8 +347,110 @@
               "I sustained their souls, being the light that they could no longer see."
                ]
           }
-        }
         },
+    "thievery": {
+      "alone": {
+        "pt": [
+          "Eu movia meus dedos com precisão contra {challenge}, sentindo que estava a um passo de quebrar algo que não teria conserto.",
+          "Eu agia nas sombras, manipulando {challenge} enquanto o som da minha própria respiração parecia um grito de alerta.",
+          "Meus movimentos eram rápidos sobre {challenge}, como se eu estivesse tentando roubar tempo de um destino que já me condenou."
+        ],
+        "es": [
+          "Movía mis dedos con precisión contra {challenge}, sintiendo que estaba a un paso de romper algo que no tendría reparación.",
+          "Actuaba en las sombras, manipulando {challenge} mientras el sonido de mi propia respiración parecía un grito de alerta.",
+          "Mis movimientos eran rápidos sobre {challenge}, como si estuviera tratando de robar tiempo de un destino que ya me condenó."
+        ],
+        "ru": [
+          "Я двигал пальцами с точностью против {challenge}, чувствуя, что я на шаг от того, чтобы сломать что-то, что не подлежит ремонту.",
+          "Я действовал в тенях, манипулируя {challenge}, в то время как звук моего собственного дыхания казался криком тревоги.",
+          "Мои движения были быстрыми над {challenge}, как будто я пытался украсть время у судьбы, которая уже меня осудила."
+        ],
+        "zh": [
+          "我以精确的动作对抗{challenge}，感觉自己正处于打破某些无法修复的东西的边缘。",
+          "我在阴影中行动，操纵着{challenge}，而我自己的呼吸声听起来像是警报的尖叫。",
+          "我的动作在{challenge}上迅速，就好像我在试图从一个已经注定要惩罚我的命运中偷取时间一样。"
+        ],
+        "ja": [
+          "私は{challenge}に対して正確に指を動かし、修復できない何かを壊す一歩手前にいると感じていました。",
+          "私は影の中で行動し、{challenge}を操作していましたが、自分の呼吸の音が警告の叫びのように聞こえていました。",
+          "私の動きは{challenge}の上で速く、まるですでに私を裁いている運命から時間を盗もうとしているかのようでした。"
+         ],
+         "en": [
+          "I moved my fingers with precision against {challenge}, feeling like I was one step away from breaking something that wouldn't be repairable.",
+          "I acted in the shadows, manipulating {challenge} while the sound of my own breathing felt like a scream of alert.",
+          "My movements were quick over {challenge}, as if I was trying to steal time from a fate that already condemned me."
+           ]
+      }
+    },
+    "diplomacy": {
+      "alone": {
+        "pt": [
+          "Eu lançava minhas palavras para desarmar {challenge}, tentando segurar o caos por mais alguns minutos antes do fim.",
+          "Minha voz saía calma diante d{challenge}, mas por dentro eu contava os segundos para que aquela paz frágil se estilhaçasse.",
+          "Eu tentava convencer os envolvidos n{challenge} usando verdades amargas, sabendo que a compreensão deles era apenas uma ilusão."
+        ],
+        "es": [
+          "Lanzaba mis palabras para desarmar {challenge}, tratando de mantener el caos a raya por unos minutos más antes del final.",
+          "Mi voz salía calmada frente a {challenge}, pero por dentro contaba los segundos para que esa frágil paz se hiciera añicos.",
+          "Intentaba convencer a los involucrados en {challenge} usando verdades amargas, sabiendo que su comprensión era solo una ilusión."
+        ],
+        "ru": [
+          "Я бросал свои слова, чтобы обезоружить {challenge}, пытаясь удержать хаос на расстоянии еще несколько минут до конца.",
+          "Мой голос звучал спокойно перед {challenge}, но внутри я считал секунды, чтобы эта хрупкая мирная обстановка разбилась вдребезги.",
+          "Я пытался убедить вовлеченных в {challenge}, используя горькие истины, зная, что их понимание - это всего лишь иллюзия."
+        ],
+        "zh": [
+          "我抛出我的话语来解除{challenge}的武装，试图在结束之前再保持混乱几分钟。",
+          "我的声音在{challenge}面前显得平静，但内心却在数着秒数，等待那脆弱的和平被打碎。",
+          "我试图用苦涩的真相来说服{challenge}中涉及的人，知道他们的理解只是一个幻觉。"
+        ],
+        "ja": [
+          "私は{challenge}を無力化するために言葉を投げかけ、終わりの前にもう少し混乱を抑えようとしました。",
+          "私の声は{challenge}の前で冷静に出ましたが、内心ではその脆い平和が粉々になるまで秒数を数えていました。",
+          "私は苦い真実を使って{challenge}に関与する人々を説得しようとしましたが、彼らの理解はただの幻想だと知っていました。"
+         ],
+         "en": [
+          "I threw out my words to disarm {challenge}, trying to hold the chaos at bay for a few more minutes before the end.",
+          "My voice came out calm in front of {challenge}, but inside I was counting the seconds for that fragile peace to shatter.",
+          "I tried to convince those involved in {challenge} using bitter truths, knowing that their understanding was just an illusion."
+           ]
+      }
+    },
+    "performance": {
+      "alone": {
+        "pt": [
+          "Eu deixava a música fluir para ocultar {challenge}, criando uma cortina de som para esconder a feiura do que acontecia.",
+          "Minha apresentação era um hino fúnebre para distrair {challenge}, uma nota de entretenimento em um mundo que não suporta a verdade.",
+          "Eu tocava cada nota com o peso de mil decepções, forçando todos a ignorarem {challenge} enquanto o resto desmoronava em silêncio."
+        ],
+        "es": [
+          "Dejaba que la música fluyera para ocultar {challenge}, creando una cortina de sonido para esconder la fealdad de lo que estaba sucediendo.",
+          "Mi presentación era un himno fúnebre para distraer {challenge}, una nota de entretenimiento en un mundo que no soporta la verdad.",
+          "Tocaba cada nota con el peso de mil decepciones, obligando a todos a ignorar {challenge} mientras el resto se desmoronaba en silencio."
+        ],
+        "ru": [
+          "Я позволял музыке течь, чтобы скрыть {challenge}, создавая звуковой занавес, чтобы скрыть уродство происходящего.",
+          "Мое выступление было траурным гимном, чтобы отвлечь {challenge}, нотой развлечения в мире, который не выдерживает правды.",
+          "Я играл каждую ноту с тяжестью тысячи разочарований, заставляя всех игнорировать {challenge}, пока остальное тихо рушилось."
+        ],
+        "zh": [
+          "我让音乐流动来掩盖{challenge}，创造一个声音的帷幕来隐藏正在发生的丑陋。",
+          "我的表演是一个哀悼的赞歌，用来分散{challenge}的注意力，在一个无法承受真相的世界里提供娱乐。",
+          "我以千次失望的重量演奏每个音符，迫使所有人忽视{challenge}，同时其他部分默默崩溃。"
+        ],
+        "ja": [
+          "私は{challenge}を隠すために音楽を流し、起こっている醜さを隠すための音のカーテンを作りました。",
+          "私のパフォーマンスは{challenge}を気晴らしするための葬送の賛歌であり、真実に耐えられない世界でのエンターテイメントの一環でした。",
+          "私は千の失望の重みで各ノートを演奏し、残りが静かに崩壊する間、すべての人が{challenge}を無視するように強いました。"
+         ],
+          "en": [
+            "I let the music flow to hide {challenge}, creating a curtain of sound to hide the ugliness of what was happening.",
+            "My performance was a funeral hymn to distract {challenge}, a note of entertainment in a world that can't handle the truth.",
+            "I played each note with the weight of a thousand disappointments, forcing everyone to ignore {challenge} while the rest quietly collapsed."
+          ]
+        }
+      }
+      },
       "others": {
         "1": {
           "group": {
@@ -825,108 +927,6 @@
               "I hold Gaela steady while the rock responds to her call; in the end, we're just dust trying not to go back to the ground."
                ]
           }
-        }
-      },
-    "thievery": {
-      "alone": {
-        "pt": [
-          "Eu movia meus dedos com precisão contra {challenge}, sentindo que estava a um passo de quebrar algo que não teria conserto.",
-          "Eu agia nas sombras, manipulando {challenge} enquanto o som da minha própria respiração parecia um grito de alerta.",
-          "Meus movimentos eram rápidos sobre {challenge}, como se eu estivesse tentando roubar tempo de um destino que já me condenou."
-        ],
-        "es": [
-          "Movía mis dedos con precisión contra {challenge}, sintiendo que estaba a un paso de romper algo que no tendría reparación.",
-          "Actuaba en las sombras, manipulando {challenge} mientras el sonido de mi propia respiración parecía un grito de alerta.",
-          "Mis movimientos eran rápidos sobre {challenge}, como si estuviera tratando de robar tiempo de un destino que ya me condenó."
-        ],
-        "ru": [
-          "Я двигал пальцами с точностью против {challenge}, чувствуя, что я на шаг от того, чтобы сломать что-то, что не подлежит ремонту.",
-          "Я действовал в тенях, манипулируя {challenge}, в то время как звук моего собственного дыхания казался криком тревоги.",
-          "Мои движения были быстрыми над {challenge}, как будто я пытался украсть время у судьбы, которая уже меня осудила."
-        ],
-        "zh": [
-          "我以精确的动作对抗{challenge}，感觉自己正处于打破某些无法修复的东西的边缘。",
-          "我在阴影中行动，操纵着{challenge}，而我自己的呼吸声听起来像是警报的尖叫。",
-          "我的动作在{challenge}上迅速，就好像我在试图从一个已经注定要惩罚我的命运中偷取时间一样。"
-        ],
-        "ja": [
-          "私は{challenge}に対して正確に指を動かし、修復できない何かを壊す一歩手前にいると感じていました。",
-          "私は影の中で行動し、{challenge}を操作していましたが、自分の呼吸の音が警告の叫びのように聞こえていました。",
-          "私の動きは{challenge}の上で速く、まるですでに私を裁いている運命から時間を盗もうとしているかのようでした。"
-         ],
-         "en": [
-          "I moved my fingers with precision against {challenge}, feeling like I was one step away from breaking something that wouldn't be repairable.",
-          "I acted in the shadows, manipulating {challenge} while the sound of my own breathing felt like a scream of alert.",
-          "My movements were quick over {challenge}, as if I was trying to steal time from a fate that already condemned me."
-           ]
-      }
-    },
-    "diplomacy": {
-      "alone": {
-        "pt": [
-          "Eu lançava minhas palavras para desarmar {challenge}, tentando segurar o caos por mais alguns minutos antes do fim.",
-          "Minha voz saía calma diante d{challenge}, mas por dentro eu contava os segundos para que aquela paz frágil se estilhaçasse.",
-          "Eu tentava convencer os envolvidos n{challenge} usando verdades amargas, sabendo que a compreensão deles era apenas uma ilusão."
-        ],
-        "es": [
-          "Lanzaba mis palabras para desarmar {challenge}, tratando de mantener el caos a raya por unos minutos más antes del final.",
-          "Mi voz salía calmada frente a {challenge}, pero por dentro contaba los segundos para que esa frágil paz se hiciera añicos.",
-          "Intentaba convencer a los involucrados en {challenge} usando verdades amargas, sabiendo que su comprensión era solo una ilusión."
-        ],
-        "ru": [
-          "Я бросал свои слова, чтобы обезоружить {challenge}, пытаясь удержать хаос на расстоянии еще несколько минут до конца.",
-          "Мой голос звучал спокойно перед {challenge}, но внутри я считал секунды, чтобы эта хрупкая мирная обстановка разбилась вдребезги.",
-          "Я пытался убедить вовлеченных в {challenge}, используя горькие истины, зная, что их понимание - это всего лишь иллюзия."
-        ],
-        "zh": [
-          "我抛出我的话语来解除{challenge}的武装，试图在结束之前再保持混乱几分钟。",
-          "我的声音在{challenge}面前显得平静，但内心却在数着秒数，等待那脆弱的和平被打碎。",
-          "我试图用苦涩的真相来说服{challenge}中涉及的人，知道他们的理解只是一个幻觉。"
-        ],
-        "ja": [
-          "私は{challenge}を無力化するために言葉を投げかけ、終わりの前にもう少し混乱を抑えようとしました。",
-          "私の声は{challenge}の前で冷静に出ましたが、内心ではその脆い平和が粉々になるまで秒数を数えていました。",
-          "私は苦い真実を使って{challenge}に関与する人々を説得しようとしましたが、彼らの理解はただの幻想だと知っていました。"
-         ],
-         "en": [
-          "I threw out my words to disarm {challenge}, trying to hold the chaos at bay for a few more minutes before the end.",
-          "My voice came out calm in front of {challenge}, but inside I was counting the seconds for that fragile peace to shatter.",
-          "I tried to convince those involved in {challenge} using bitter truths, knowing that their understanding was just an illusion."
-           ]
-      }
-    },
-    "performance": {
-      "alone": {
-        "pt": [
-          "Eu deixava a música fluir para ocultar {challenge}, criando uma cortina de som para esconder a feiura do que acontecia.",
-          "Minha apresentação era um hino fúnebre para distrair {challenge}, uma nota de entretenimento em um mundo que não suporta a verdade.",
-          "Eu tocava cada nota com o peso de mil decepções, forçando todos a ignorarem {challenge} enquanto o resto desmoronava em silêncio."
-        ],
-        "es": [
-          "Dejaba que la música fluyera para ocultar {challenge}, creando una cortina de sonido para esconder la fealdad de lo que estaba sucediendo.",
-          "Mi presentación era un himno fúnebre para distraer {challenge}, una nota de entretenimiento en un mundo que no soporta la verdad.",
-          "Tocaba cada nota con el peso de mil decepciones, obligando a todos a ignorar {challenge} mientras el resto se desmoronaba en silencio."
-        ],
-        "ru": [
-          "Я позволял музыке течь, чтобы скрыть {challenge}, создавая звуковой занавес, чтобы скрыть уродство происходящего.",
-          "Мое выступление было траурным гимном, чтобы отвлечь {challenge}, нотой развлечения в мире, который не выдерживает правды.",
-          "Я играл каждую ноту с тяжестью тысячи разочарований, заставляя всех игнорировать {challenge}, пока остальное тихо рушилось."
-        ],
-        "zh": [
-          "我让音乐流动来掩盖{challenge}，创造一个声音的帷幕来隐藏正在发生的丑陋。",
-          "我的表演是一个哀悼的赞歌，用来分散{challenge}的注意力，在一个无法承受真相的世界里提供娱乐。",
-          "我以千次失望的重量演奏每个音符，迫使所有人忽视{challenge}，同时其他部分默默崩溃。"
-        ],
-        "ja": [
-          "私は{challenge}を隠すために音楽を流し、起こっている醜さを隠すための音のカーテンを作りました。",
-          "私のパフォーマンスは{challenge}を気晴らしするための葬送の賛歌であり、真実に耐えられない世界でのエンターテイメントの一環でした。",
-          "私は千の失望の重みで各ノートを演奏し、残りが静かに崩壊する間、すべての人が{challenge}を無視するように強いました。"
-         ],
-          "en": [
-            "I let the music flow to hide {challenge}, creating a curtain of sound to hide the ugliness of what was happening.",
-            "My performance was a funeral hymn to distract {challenge}, a note of entertainment in a world that can't handle the truth.",
-            "I played each note with the weight of a thousand disappointments, forcing everyone to ignore {challenge} while the rest quietly collapsed."
-          ]
         }
       }
     }

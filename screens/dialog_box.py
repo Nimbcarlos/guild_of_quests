@@ -6,6 +6,7 @@ from kivy.uix.scrollview import ScrollView
 from kivy.clock import Clock
 from collections import deque
 from kivy.core.window import Window
+import time
 
 class DialogueBox:
     def __init__(self, dialogue_manager):
@@ -24,6 +25,14 @@ class DialogueBox:
         self.full_text = ""
         self.typing_event = None
         self.heroes = []
+        
+        # ════════════════════════════════════════════════════════════
+        # ✅ PROTEÇÕES CONTRA CLIQUES RÁPIDOS
+        # ════════════════════════════════════════════════════════════
+        self.is_transitioning = False  # Bloqueia durante transições de popup
+        self.is_closing = False        # Impede múltiplas chamadas de dismiss()
+        self.last_click_time = 0       # Timestamp do último clique
+        self.click_cooldown = 0.15     # Cooldown de 150ms entre cliques
 
     def show_dialogue(self, heroes, quest_id, result, parent_size, quest_type=None, context=None):
         """
@@ -48,14 +57,21 @@ class DialogueBox:
                 quest_type,
                 context=context
             )        
+        
         # Adiciona na fila
         self.queue.append((heroes, quest_id, dialogues, parent_size))
         
-        # Se não tem popup aberto, processa imediatamente
-        if not self.popup:
+        # ✅ CORRIGIDO: Só processa se não tem popup E não está transitando
+        if not self.popup and not self.is_transitioning:
             self._process_next()
             
     def _process_next(self):
+        """Processa próximo diálogo da fila."""
+        # ✅ PROTEÇÃO: Se está transitando, agenda para tentar depois
+        if self.is_transitioning:
+            Clock.schedule_once(lambda dt: self._process_next(), 0.15)
+            return
+        
         if not self.queue:
             return
             
@@ -78,7 +94,18 @@ class DialogueBox:
         self.heroes = heroes
         self.current_index = 0
         self.char_index = 0
+        
+        # ✅ MARCA COMO TRANSITANDO antes de abrir
+        self.is_transitioning = True
+        
         self._open_popup()
+        
+        # ✅ LIBERA TRANSIÇÃO após pequeno delay (garante que popup abriu)
+        Clock.schedule_once(lambda dt: self._unlock_transition(), 0.3)
+    
+    def _unlock_transition(self):
+        """Libera flag de transição."""
+        self.is_transitioning = False
 
     def _open_popup(self):
         from kivy.uix.anchorlayout import AnchorLayout
@@ -117,7 +144,6 @@ class DialogueBox:
         )
 
         # ----- BOX DO SPEAKER -----
-        # Aumentamos a altura para não sufocar o nome
         speaker_height = max(5, int(popup_height * 0.05)) 
         speaker_box = BoxLayout(
             orientation='vertical',
@@ -127,7 +153,6 @@ class DialogueBox:
         
         self.speaker_label = Label(
             text="",
-            # Ajustado de 0.0035 para 0.1 (ex: 250 * 0.1 = 25px)
             font_size=max(22, int(popup_height * 0.1)), 
             bold=True,
             color=(0.16, 0.09, 0.06, 1),
@@ -141,7 +166,7 @@ class DialogueBox:
         speaker_box.add_widget(self.speaker_label)
         text_layout.add_widget(speaker_box)
 
-        # O ScrollView ocupará o espaço restante (0.65 do popup)
+        # ScrollView
         self.scroll = ScrollView(
             size_hint=(1, None),
             height=popup_height * 0.65,
@@ -158,12 +183,11 @@ class DialogueBox:
             valign="top",
             color=(0.16, 0.09, 0.06, 1),
             markup=True,
-            size_hint_y=None # Crucial para o ScrollView funcionar
+            size_hint_y=None
         )
         
-        # Ajusta a largura do texto e a altura do Label dinamicamente
         def update_label_height(instance, size):
-            instance.text_size = (size[0], None) # Trava a largura
+            instance.text_size = (size[0], None)
             
         def update_texture_height(instance, texture_size):
             instance.height = max(instance.parent.height if instance.parent else 0, texture_size[1])
@@ -198,24 +222,24 @@ class DialogueBox:
         self.popup.pos_hint = {"center_x": 0.5, "y": y_position}
         self.popup.separator_color = (0, 0, 0, 0)
         
+        # ✅ Bind com proteção
         self.popup.bind(on_touch_down=self._on_touch_next)
         self.popup.open()
+        
+        # ✅ Reseta flag de fechamento
+        self.is_closing = False
         
         self._show_current_line()
 
     def _show_current_line(self):
+        """Mostra a linha atual do diálogo."""
+        # ✅ PROTEÇÃO: Se está fechando, ignora
+        if self.is_closing:
+            return
         
+        # ✅ PROTEÇÃO: Checa índice válido
         if self.current_index >= len(self.dialogues):
-            if self.popup:
-                try:
-                    self.popup.dismiss()
-                except Exception as e:
-                    print(f"[DialogueBox] Aviso: tentativa de fechar popup inexistente ({e})")
-                finally:
-                    self.popup = None
-
-            # ✅ Pequeno atraso garante que evento de scroll antigo não interfira
-            Clock.schedule_once(lambda dt: self._process_next(), 0.1)
+            self._close_and_next()
             return
 
         line = self.dialogues[self.current_index]
@@ -252,10 +276,10 @@ class DialogueBox:
         self.typing_event = Clock.schedule_interval(self._typewriter_effect, 0.05)
         
     def _typewriter_effect(self, dt):
+        """Efeito de digitação."""
         if self.char_index < len(self.full_text):
             self.dialogue_label.text += self.full_text[self.char_index]
             self.char_index += 1
-
             self.scroll.scroll_y = 0
         else:
             if self.typing_event:
@@ -264,10 +288,94 @@ class DialogueBox:
             return False
 
     def _on_touch_next(self, instance, touch):
+        """Handler de clique COM PROTEÇÕES contra spam."""
+        # ════════════════════════════════════════════════════════════
+        # ✅ PROTEÇÃO 1: Ignora se está transitando
+        # ════════════════════════════════════════════════════════════
+        if self.is_transitioning:
+            return True  # Consome evento
+        
+        # ════════════════════════════════════════════════════════════
+        # ✅ PROTEÇÃO 2: Ignora se está fechando
+        # ════════════════════════════════════════════════════════════
+        if self.is_closing:
+            return True  # Consome evento
+        
+        # ════════════════════════════════════════════════════════════
+        # ✅ PROTEÇÃO 3: Debounce (cooldown entre cliques)
+        # ════════════════════════════════════════════════════════════
+        current_time = time.time()
+        time_since_last_click = current_time - self.last_click_time
+        
+        if time_since_last_click < self.click_cooldown:
+            return True  # Consome evento
+        
+        # ✅ Atualiza timestamp
+        self.last_click_time = current_time
+        
+        # ════════════════════════════════════════════════════════════
+        # ✅ LÓGICA PRINCIPAL
+        # ════════════════════════════════════════════════════════════
+        
+        # Se está digitando, completa o texto
         if self.typing_event:
             self.dialogue_label.text = self.full_text
-            self.typing_event.cancel()
+            if self.typing_event:
+                self.typing_event.cancel()
             self.typing_event = None
         else:
+            # Avança para próxima linha
             self.current_index += 1
             self._show_current_line()
+        
+        return True  # ✅ CONSOME O EVENTO (importante!)
+    
+    def _close_and_next(self):
+        """Fecha popup atual e processa próximo da fila."""
+        # ════════════════════════════════════════════════════════════
+        # ✅ PROTEÇÃO: Evita fechar múltiplas vezes
+        # ════════════════════════════════════════════════════════════
+        if self.is_closing:
+            return
+        
+        self.is_closing = True
+        
+        # ════════════════════════════════════════════════════════════
+        # ✅ CANCELA TYPING SE ESTIVER ATIVO
+        # ════════════════════════════════════════════════════════════
+        if self.typing_event:
+            self.typing_event.cancel()
+            self.typing_event = None
+        
+        # ════════════════════════════════════════════════════════════
+        # ✅ FECHA POPUP
+        # ════════════════════════════════════════════════════════════
+        if self.popup:
+            try:
+                # ✅ UNBIND antes de dismiss (evita eventos fantasma)
+                self.popup.unbind(on_touch_down=self._on_touch_next)
+                
+                # ✅ Dismiss
+                self.popup.dismiss()
+                
+            except Exception as e:
+                print(f"[DialogueBox] ⚠️  Erro ao fechar popup: {e}")
+            
+            finally:
+                self.popup = None
+        
+        # ════════════════════════════════════════════════════════════
+        # ✅ DELAY ANTES DE PROCESSAR PRÓXIMO
+        # ════════════════════════════════════════════════════════════
+        # Isso garante que o popup foi completamente destruído
+        # e evita race conditions ao abrir o próximo
+        Clock.schedule_once(self._delayed_process_next, 0.2)
+    
+    def _delayed_process_next(self, dt):
+        """Processa próximo diálogo após delay (evita race condition)."""
+        
+        # ✅ Reseta flag de fechamento
+        self.is_closing = False
+        
+        # ✅ Processa próximo da fila
+        self._process_next()

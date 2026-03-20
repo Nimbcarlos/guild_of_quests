@@ -72,6 +72,7 @@
                         orientation: "vertical"
                         size_hint_y: 0.2
                         valign: "top"
+                        padding: 0, 0, 0, 5
                         canvas.before:
                             Rectangle:
                                 source: "assets/background_ls.png"
@@ -156,7 +157,7 @@
                         
                         BoxLayout:
                             id: completed_quests
-                            orientation: "vertical"
+                            orientation: "horizontal"
                             size_hint_y: None
                             height: self.minimum_height
 

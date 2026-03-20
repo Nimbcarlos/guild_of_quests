@@ -21,9 +21,9 @@
   "expired_at": 3,
   "available_from_turn": 87,
   "duration": 3,
-  "difficulty": 3.5,
+  "difficulty": 3.0,
   "rewards": {
-    "xp": 80
+    "xp": 100
   },
   "required_quests": [],
   "forbidden_quests": [],
@@ -117,12 +117,24 @@
     },
     "failure": {
       "default": {
-        "pt": ["A criatura deslizou por entre a lama ácida, deixando um rastro de solo queimado que impediu qualquer perseguição imediata."],
-        "en": ["The creature slithered through the acidic mud, leaving a trail of scorched earth that prevented any immediate pursuit."],
-        "es": ["La criatura se deslizó por el lodo ácido, dejando un rastro de tierra quemada que impidió cualquier persecución inmediata."],
-        "ru": ["Существо скользнуло сквозь кислую грязь, оставив за собой след выжженной земли, что сделало преследование невозможным."],
-        "zh": ["这只生物滑过酸性泥浆，留下一道焦黑的土地印记，阻止了任何立即的追击。"],
-        "ja": ["その生き物は酸の泥の中をすり抜け、焼け焦げた跡を残していったため、追跡することは不可能でした。"]
+        "pt": [
+          "A criatura deslizou por entre a lama ácida, deixando um rastro de solo queimado que impediu qualquer perseguição imediata."
+        ],
+        "en": [
+          "The creature slithered through the acidic mud, leaving a trail of scorched earth that prevented any immediate pursuit."
+        ],
+        "es": [
+          "La criatura se deslizó por el lodo ácido, dejando un rastro de tierra quemada que impidió cualquier persecución inmediata."
+        ],
+        "ru": [
+          "Существо скользнуло сквозь кислую грязь, оставив за собой след выжженной земли, что сделало преследование невозможным."
+        ],
+        "zh": [
+          "这只生物滑过酸性泥浆，留下一道焦黑的土地印记，阻止了任何立即的追击。"
+        ],
+        "ja": [
+          "その生き物は酸の泥の中をすり抜け、焼け焦げた跡を残していったため、追跡することは不可能でした。"
+        ]
       }
     }
   }

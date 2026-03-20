@@ -69,38 +69,7 @@ class DialogueManager:
         quest_type: str = "fight",
         context: dict | None = None
     ) -> list:
-        for i in heroes:
-            print(i.perks)
-        """
-        Monta as falas da party para qualquer tipo de quest.
 
-        Estrutura esperada no JSON do herói:
-        {
-            "dialogue_blocks": {
-                "arrived":  { "alone": { "en": [...] }, "group": { "en": [...] } },
-                "action": {
-                    "fight":    { "alone": { "en": [...] }, "group": { "en": [...] } },
-                    "stealth":  { "alone": { "en": [...] }, "group": { "en": [...] } },
-                    "trade":    { ... },
-                    ...
-                },
-                "others": {
-                    "<other_hero_id>": { "alone": { "en": [...] }, "group": { "en": [...] } }
-                }
-            }
-        }
-
-        Estrutura esperada no JSON da quest:
-        {
-            "conclusion": {
-                "success": {
-                    "default":   { "en": [...] },
-                    "<perk>":    { "en": [...] }
-                },
-                "failure": { ... }
-            }
-        }
-        """
         quest_id  = str(quest_id)
         result    = result.lower()
 

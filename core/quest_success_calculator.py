@@ -164,10 +164,6 @@ class QuestSuccessCalculator:
                     
         base_chance *= synergy_multiplier
 
-        # Debug opcional
-        print(f"Total Rating: {total_rating:.2f} | Diff: {quest.difficulty:.2f}")
-        print(f"Synergy Multiplier: {synergy_multiplier:.3f} | Raw chance: {base_chance*100:.1f}%")
-
         return max(0.05, min(0.95, base_chance))
 
 def run_mission_roll(success_chance: float) -> str:

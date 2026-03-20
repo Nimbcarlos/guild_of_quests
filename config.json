@@ -1,12 +1,12 @@
 {
     "language": "pt",
-    "screen_mode": "Janela",
+    "screen_mode": "Window",
     "screen_size": [
         1366,
         768
     ],
     "music_muted": false,
-    "ui_muted": false,
+    "ui_muted": true,
     "music_volume": 30.405431031213254,
     "ui_volume": 100.0
 }
