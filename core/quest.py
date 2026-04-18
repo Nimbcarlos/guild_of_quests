@@ -51,7 +51,7 @@ class Quest:
         self.forbidden_heroes = forbidden_heroes or []
         self.available_since_turn = available_since_turn
 
-        self.remaining_turns = duration
+        self.remaining_turns = None
         self.conclusion = conclusion or {}
         self.context = context or {}
 
@@ -96,19 +96,15 @@ class Quest:
             return False
         return (current_turn - self.available_since_turn) >= self.expired_at
 
+    def add_travel_delay(self, extra_turns: int, reason: str = "") -> None:
+        if extra_turns > 0:
+            self.remaining_turns += extra_turns
+            if reason:
+                print(f"⏳ [{self.name}] +{extra_turns} turnos: {reason}")
+
     # 🔹 Carrega quests de acordo com o idioma
     @staticmethod
     def load_quests(language="en", quests_folder="data/quests") -> List["Quest"]:
-        """
-        Carrega todos os heróis da pasta especificada.
-        
-        Args:
-            language: Idioma para carregar (pt, en, es, etc)
-            quests_folder: Pasta onde estão os arquivos JSON dos heróis
-            
-        Returns:
-            Lista de objetos Hero carregados
-        """
         folder_path = Path(quests_folder)
         
         if not folder_path.exists():
@@ -132,17 +128,6 @@ class Quest:
                 continue
         
         return quests
-
-    # def load_quests(language="en") -> list["Quest"]:
-    #     """Carrega todos os heróis com o idioma especificado."""
-    #     file_path = Path("data/quests.json")
-    #     if not file_path.exists():
-    #         raise FileNotFoundError(f"Arquivo {file_path} não encontrado.")
-
-    #     with open(file_path, "r", encoding="utf-8") as f:
-    #         data = json.load(f)
-
-    #     return [Quest(language=language, **quest_data ) for quest_data in data]
 
     @staticmethod
     def get_quest_by_name(name: str, language: str = "en") -> Optional["Quest"]:

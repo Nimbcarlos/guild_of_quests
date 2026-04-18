@@ -81,8 +81,6 @@ class HeroManager:
         from core.hero import Hero
         self.language = language
         self.heroes = Hero.load_heroes(language)
-        print(f"🦸 Heróis carregados no idioma: {language}")
-
 
 if __name__ == "__main__":
     manager = HeroManager(language="en")

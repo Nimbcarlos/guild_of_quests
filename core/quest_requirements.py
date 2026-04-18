@@ -55,7 +55,6 @@ def check_required_quests(quest, manager) -> bool:
 
             # Se o herói tiver QUALQUER perk exigido → passa
             if any(perk in hero.perks for perk in required_perks):
-                print(required_perks)
                 perk_met = True
                 break
 
@@ -105,7 +104,7 @@ def check_not_active(quest, manager) -> bool:
 def process_expired_quests(manager):
     """Processa a lista inteira e move quests expiradas para failed."""
     expired = []
-    for quest in manager.quests:
+    for quest in manager.quest_registry.values():
         if quest.id in manager.active_quests or \
            quest.id in manager.completed_quests or \
            quest.id in manager.failed_quests:

@@ -1,3 +1,5 @@
+import random
+
 from core.hero_manager import HeroManager
 from core.quest import Quest
 from core.quest_success_calculator import calculate_success_chance, run_mission_roll
@@ -16,7 +18,7 @@ from core.quest_requirements import (
     check_available_turn,
     process_expired_quests,
 )
-
+from core.quest_gen import ProceduralQuestSystem
 
 class QuestManager:
     def __init__(self, save_file="auto_save.json"):
@@ -29,72 +31,93 @@ class QuestManager:
             check_not_active,
             check_expired_quests,
             check_available_turn,
-            # adicionar outros futuramente
         ]
 
-        # Language manager (opcional). Deve ter método t(key) -> str
         self.lm = LanguageManager()
-
-        # HeroManager gerencia todos os heróis e desbloqueio
         self.hero_manager = HeroManager(language=self.lm.language)
+        self.quest_registry = {}  # {quest_id: Quest}
 
-        # Carrega quests
         self.quests = Quest.load_quests(language=self.lm.language)
+        for quest in self.quests:
+            quest.origin = "handcrafted"
+            self.quest_registry[quest.id] = quest
+        self.procedural_pool = {}  # {seed: Quest}
 
-        # Sets para progresso
+        self.proc_gen = ProceduralQuestSystem(
+            language=self.lm.language,
+            data_file="data/quest_data.json"
+        )
+
         self.completed_quests = defaultdict(set)
         self.failed_quests = set()
-        self.active_quests = {}  # dicionário: quest_id -> {"heroes": [...], "turns_left": n}
+        self.active_quests = {}     # {quest_id: {"heroes": [...], "turns_left": n}}
         self.current_turn = 1
 
-        # Callback de log (injetado pelo GameplayScreen)
         self.log_callback = None
-
-        # Callback de diálogo / UI
         self.dialog_callback = None
         self.ui_callback = None
 
         self.assistant = AssistantManager(self.lm)
         self.steam = SteamManager()
 
+    # ──────────────────────────────────────────────────────────────────────────
+    # UI / Callbacks
+    # ──────────────────────────────────────────────────────────────────────────
 
-    # -------------------- UI Log --------------------
     def set_log_callback(self, callback):
-        """Registra função de log (ex: atualizar mission_log no Kivy)."""
         self.log_callback = callback
 
     def _log(self, message: str):
-        """Envia mensagem para o log da UI, se existir."""
         if self.log_callback:
             self.log_callback(message)
 
     def set_dialog_callback(self, callback):
-        """Registra função de diálogo (ex: abrir DialogueBox no Kivy)."""
         self.dialog_callback = callback
 
-    # -------------------- Heróis --------------------
+    def set_ui_callback(self, callback):
+        self.ui_callback = callback
+
+    # ──────────────────────────────────────────────────────────────────────────
+    # Heróis
+    # ──────────────────────────────────────────────────────────────────────────
+
     def get_hero(self, hero_id: str):
-        """Retorna o herói pelo ID via HeroManager"""
         return self.hero_manager.get_hero_by_id(hero_id)
 
-    # -------------------- Quests --------------------
-    def get_quest(self, quest_id: str):
-        """Retorna a quest pelo ID"""
-        for quest in self.quests:
-            if quest.id == quest_id:
+    # ──────────────────────────────────────────────────────────────────────────
+    # Quests — Acesso
+    # ──────────────────────────────────────────────────────────────────────────
+
+    def get_quest(self, quest_id):
+        quest = self.quest_registry.get(quest_id)
+
+        if quest:
+            return quest
+
+        # fallback procedural
+        if isinstance(quest_id, int):
+            try:
+                quest_data = self.proc_gen.reconstruct_quest_from_seed(quest_id)
+                quest = self.proc_gen.to_quest_object(quest_data)
+                quest.origin = "procedural"
+
+                self.quest_registry[quest_id] = quest
                 return quest
+            except Exception as e:
+                print(f"[QM] erro: {e}")
+
         return None
 
-    def send_heroes_on_quest(self, quest_id: int, hero_ids: list[str]):
-        """
-        Envia heróis para a quest e agenda sua conclusão após os turnos.
-        """
-        quest = self.get_quest(quest_id)
-        if not quest:
-            msg = self.lm.t("quest_not_found").format(id=quest_id)
-            return msg
+    # ──────────────────────────────────────────────────────────────────────────
+    # Quests — Envio
+    # ──────────────────────────────────────────────────────────────────────────
 
-        # Filtra heróis inválidos e pega os objetos
+    def send_heroes_on_quest(self, quest_id: int, hero_ids: list[str]):
+        quest = self.get_quest(quest_id)
+
+        if not quest:
+            return self.lm.t("quest_not_found").format(id=quest_id)
+
         selected_heroes = [self.get_hero(hid) for hid in hero_ids if self.get_hero(hid)]
         if not selected_heroes:
             return self.lm.t("no_valid_hero_selected")
@@ -102,27 +125,28 @@ class QuestManager:
         for hero in selected_heroes:
             hero.status = "on_mission"
 
-        # Agenda a quest como "ativa" no dicionário
         self.active_quests[quest_id] = {
             "heroes": selected_heroes,
-            "turns_left": quest.duration  # usa o campo duration do JSON
+            "turns_left": quest.duration
         }
 
         self._log(self.lm.t("heroes_sent").format(name=quest.name, turns=quest.duration))
-        # self._log(self.lm.t("heroes_list").format(list=", ".join(h.name for h in selected_heroes)))
 
-        # Diálogo inicial, se existir callback
         if self.dialog_callback:
             self.dialog_callback(selected_heroes, quest.id, "start", quest.type, quest.context)
 
-        if hasattr(self, "ui_callback") and self.ui_callback:
+        if self.ui_callback:
             self.ui_callback()
 
         return self.lm.t("mission_started")
 
+    # ──────────────────────────────────────────────────────────────────────────
+    # Quests — Resolução
+    # ──────────────────────────────────────────────────────────────────────────
+
     def resolve_quest(self, quest_id: int, data):
         self.pending_level_ups = []
-        
+
         heroes = data["heroes"]
         quest = self.get_quest(quest_id)
 
@@ -134,7 +158,7 @@ class QuestManager:
         result = run_mission_roll(success_chance)
         self.steam.on_quest_resolved(quest, heroes, result)
 
-        if result is "success":
+        if result == "success":
             result_key = self.lm.t(result)
             self._log(self.lm.t("quest_completed").format(name=quest.name, result=result_key))
             self.assistant.speak(
@@ -142,7 +166,6 @@ class QuestManager:
                 name=quest.name,
                 result=result_key
             )
-
 
             if quest.id not in self.completed_quests:
                 self.completed_quests[quest.id] = set()
@@ -153,34 +176,23 @@ class QuestManager:
                 xp_reward = quest.rewards.get("xp", 0)
 
             for hero in heroes:
-                # Guarda o nível antes de ganhar XP
                 old_level = hero.level
-
                 self._log(
-                    self.lm.t("hero_gained_xp").format(
-                        hero=hero.name,
-                        xp=xp_reward
-                    )
+                    self.lm.t("hero_gained_xp").format(hero=hero.name, xp=xp_reward)
                 )
-
-                # Adiciona XP
                 hero.add_xp(xp_reward)
                 new_level = hero.level
 
-                # 🔥 Se subiu de nível
                 if new_level > old_level:
-                    self._log(self.lm.t("hero_leveled_up").format(hero=hero.name, level=new_level))
-                    self.pending_level_ups.append((hero.name, new_level))  # <<< guarda pra depois
+                    self._log(self.lm.t("hero_leveled_up").format(
+                        hero=hero.name, level=new_level
+                    ))
+                    self.pending_level_ups.append((hero.name, new_level))
 
-                # Marca como completado
                 self.completed_quests[quest.id].add(hero.id)
 
-
         else:
-            self.assistant.speak(
-                "assistant_quest_failed",
-                name=quest.name
-            )
+            self.assistant.speak("assistant_quest_failed", name=quest.name)
             self._log(self.lm.t("quest_failed").format(name=quest.name))
 
             if quest.return_on_fail:
@@ -188,14 +200,12 @@ class QuestManager:
             else:
                 self.failed_quests.add(quest.id)
 
-        # Reseta status dos heróis
         for hero in heroes:
             try:
                 hero.status = "idle"
             except Exception:
                 pass
 
-        # Callback de diálogo (resultado pós-quest)
         if self.dialog_callback:
             self.dialog_callback(heroes, quest.id, result, quest.type, quest.context)
             self.assistant.on_quest_resolved(quest, result)
@@ -203,30 +213,39 @@ class QuestManager:
                 for hero_name, level in self.pending_level_ups:
                     self.assistant.speak("assistant_level_up", hero=hero_name, level=level)
 
-    # -------------------- Quests Disponíveis --------------------
+    # ──────────────────────────────────────────────────────────────────────────
+    # Quests — Disponibilidade
+    # ──────────────────────────────────────────────────────────────────────────
+
     def available_quests(self):
-        """Retorna lista de quests disponíveis (passando em todos os requisitos)."""
-        # Primeiro, processa e remove quests expiradas antes de calcular as disponíveis
         process_expired_quests(self)
 
         quests_list = []
         new_quests = 0
 
-        for q in self.quests:
-            # Ignora se já estiver concluída, falhada ou ativa
-            if q.id in self.completed_quests or q.id in self.failed_quests or q.id in self.active_quests:
+        all_quests = list(self.quest_registry.values())
+
+        for quest in all_quests:
+            if (quest.id in self.completed_quests or
+                    quest.id in self.failed_quests or
+                    quest.id in self.active_quests):
                 continue
 
-            # Passa em todos os requisitos?
-            if all(check(q, self) for check in self.requirement_checks):
-                # Primeira vez que ficou disponível — registra o turno
-                if getattr(q, "available_since_turn", None) is None:
-                    q.available_since_turn = self.current_turn
-                    new_quests += 1  # conta como nova quest liberada
+            self._handle_quest_map_impact(quest)
 
-                quests_list.append(q)
+            passes_requirements = all(
+                check(quest, self) for check in self.requirement_checks
+            )
+            if not passes_requirements:
+                continue
 
-        # 🚨 Chama assistente se houver novas quests liberadas
+            # Marca o turno de nascimento — uma vez, para sempre
+            if getattr(quest, "available_since_turn", None) is None:
+                quest.available_since_turn = self.current_turn
+                new_quests += 1
+
+            quests_list.append(quest)
+
         if new_quests > 0 and self.assistant:
             if self.assistant.dialogue_box:
                 self.assistant.on_new_quests(new_quests)
@@ -236,72 +255,135 @@ class QuestManager:
         return quests_list
 
     def get_active_quests(self):
-        """Retorna objetos Quest ativos, não apenas IDs."""
         return [self.get_quest(qid) for qid in self.active_quests if self.get_quest(qid)]
 
     def get_available_quests(self):
-        """Retorna as quests disponíveis (usa a lógica já existente)"""
         return self.available_quests()
 
-    # dentro de core/quest_manager.py (método advance_turn)
+    # ──────────────────────────────────────────────────────────────────────────
+    # Turno
+    # ──────────────────────────────────────────────────────────────────────────
+
     def advance_turn(self):
         self.current_turn += 1
+        self._ensure_procedural_pool()
 
-        # coleciona quests que precisam ser resolvidas (evita modificar dict durante iteração)
+        # Notifica expiração de procedurais que não foram aceitas
+        for quest in self.procedural_pool.values():
+            if (quest.id not in self.active_quests and
+                    quest.id not in self.completed_quests and
+                    quest.id not in self.failed_quests and
+                    hasattr(quest, 'is_expired') and
+                    quest.is_expired(self.current_turn)):
+                self._log(f"⌛ {quest.name} expirou sem ser aceita.")
+                # self.assistant.speak("assistant_quest_expired", name=quest.name)
+
+        # Resolve quests ativas cujo prazo encerrou
         to_resolve = []
         for qid, data in list(self.active_quests.items()):
-            # decrementa
-            data["turns_left"] = data.get("turns_left", 0) - 1
-            # se chegou a zero, agenda resolução
+            data["turns_left"] -= 1
             if data["turns_left"] <= 0:
                 to_resolve.append((qid, data))
 
-        # resolve separadamente
         for qid, data in to_resolve:
-            quest = self.get_quest(qid)
-            if quest is None:
-                # quest não existe no catálogo atual: remove e loga
-                self._log(self.lm.t("quest_not_found_on_resolve").format(id=qid))
-                try:
-                    del self.active_quests[qid]
-                except KeyError:
-                    pass
-                continue
-
-            # notifica que foi concluída (mensagem geral)
-            # self._log(self.lm.t("quest_auto_complete").format(name=quest.name))
-            # chama sua função que aplica XP e marca completada/falhada
             self.resolve_quest(qid, data)
-            # remove da lista de ativas
-            try:
-                del self.active_quests[qid]
-            except KeyError:
-                pass
+            self.active_quests.pop(qid, None)
 
         save_game(self, self.save_file)
 
-    # def fail_quest(self, quest_id):
-    #     print("fail quest")
-    #     quest = self.get_quest(quest_id)
-    #     if not quest:
-    #         return
-    #     self.failed_quests.add(quest_id)
-    #     if quest_id in self.active_quests:
-    #         del self.active_quests[quest_id]
-    #     self._log(self.lm.t("quest_failed_timeout").format(name=quest.name))
+    # ──────────────────────────────────────────────────────────────────────────
+    # Geração Procedural
+    # ──────────────────────────────────────────────────────────────────────────
 
-    def set_ui_callback(self, callback):
-        self.ui_callback = callback
+    def _ensure_procedural_pool(self):
+        # Heróis desbloqueados E disponíveis (idle) — quem pode aceitar quests agora
+        available_heroes = self.hero_manager.get_available_heroes()
+        available_count = len(available_heroes)
 
-    def reset_game_state(self):
-        self.current_turn = 1
-        self.active_quests = {}
-        self.completed_quests = set()
-        self.failed_quests = set()
+        if available_count == 0:
+            return  # Ninguém livre, não adianta gerar quests
 
-        # zera o estado das quests
-        for quest in self.quests:
-            quest.available_since_turn = None
+        active_procedural_count = sum(
+            1 for qid in self.active_quests
+            if qid in self.procedural_pool
+        )
+
+        available_procedural = [
+            q for q in self.procedural_pool.values()
+            if (q.id not in self.completed_quests and
+                q.id not in self.failed_quests and
+                q.id not in self.active_quests and
+                not (hasattr(q, 'is_expired') and q.is_expired(self.current_turn)))
+        ]
+
+        in_play = len(available_procedural) + active_procedural_count
+
+        # Teto: total em jogo não pode passar do número de heróis disponíveis
+        headroom = max(0, available_count - in_play)
+
+        # Delta fixo por turno: metade dos disponíveis, limitado pelo headroom
+        to_generate = min(available_count // 2, headroom)
+
+        for _ in range(to_generate):
+            quest = self._generate_new_procedural()
+            if quest:
+                self.quest_registry[quest.id] = quest
+            else:
+                break
+
+    def _get_average_hero_level(self) -> int:
+        unlocked = [
+            hero for hero in self.hero_manager.all_heroes
+            if hero.id in self.hero_manager.unlocked_heroes
+        ]
+        if not unlocked:
+            return 1
+        total = sum(h.level for h in unlocked)
+        return max(1, total // len(unlocked))
+
+    # ──────────────────────────────────────────────────────────────────────────
+    # Pontes / Acessibilidade
+    # ──────────────────────────────────────────────────────────────────────────
+
+    def _handle_quest_map_impact(self, quest):
+        sub_location_key = quest.context.get("sub_location_key", "")
+        location_type = quest.context.get("location_type", "")
+        location_key = quest.context.get("location_key", "")
+
+        if not location_key:
+            return
+
+        map_graph = self.proc_gen.map_graph
+
+        # 1. distância original
+        original_distance = map_graph.get_distance_to(location_key)
+
+        # 2. bloqueia ponte (se for)
+        if location_type == "bridge":
+            map_graph.block_bridge(sub_location_key)
+
+        # 3. nova distância
+        new_distance = map_graph.get_distance_to(location_key)
+
+        print(f"📍 {location_key}: {original_distance} → {new_distance}")
+
+        # 4. calcula desvio REAL
+        if original_distance > 0 and new_distance > 0:
+            detour = new_distance - original_distance
+
+            if detour > 0:
+                print(f"⏳ +{detour} turnos (desvio real)")
+                quest.duration += detour
+
+                if quest.id in self.active_quests:
+                    self.active_quests[quest.id]["turns_left"] += detour
+
+        elif new_distance == -1:
+            self._log(f"⚠️ Alvo {location_key} tornou-se inalcançável!")
+
+    # ──────────────────────────────────────────────────────────────────────────
+    # Utilitários
+    # ──────────────────────────────────────────────────────────────────────────
 
     def load_quests(self, language: str = "pt"):
         from core.quest import Quest
@@ -310,10 +392,6 @@ class QuestManager:
         print(f"📜 Quests carregadas no idioma: {language}")
 
     def _revalidate_available_quests(self):
-        """
-        Revalida todas as quests após carregar um save.
-        Remove quests que não deveriam estar disponíveis baseado nos requisitos.
-        """
         from core.quest_requirements import (
             check_available_turn,
             check_required_quests,
@@ -339,3 +417,70 @@ class QuestManager:
                 
                 # Se NÃO deveria estar disponível, reseta o available_since_turn
                 quest.available_since_turn = None
+
+    def reset_game_state(self):
+        self.current_turn = 1
+        self.active_quests = {}
+        self.completed_quests = defaultdict(set)
+        self.failed_quests = set()
+        self.procedural_pool = {}
+
+        for quest in self.quests:
+            quest.available_since_turn = None
+
+    def _get_latest_quest_in_location(self, sub_location_key):
+        latest_turn = -1
+        latest_quest = None
+
+        for quest in self.quest_registry.values():
+            if quest.id in self.completed_quests or quest.id in self.failed_quests:
+                continue
+
+            if quest.context.get("sub_location_key", "") != sub_location_key:
+                continue
+
+            start = getattr(quest, "available_since_turn", 0)
+            duration = getattr(quest, "duration", 1)
+            end = start + duration
+
+            if end > latest_turn:
+                latest_turn = end
+                latest_quest = quest
+
+        return latest_quest, latest_turn
+
+    def _generate_new_procedural(self) -> Quest:
+        avg_lvl = self._get_average_hero_level()
+        quest = self.proc_gen.generate_quest_of_type("fight", avg_lvl)
+
+        location = quest.context.get("sub_location_key", "")
+
+        latest_quest, latest_end = self._get_latest_quest_in_location(location)
+
+        if latest_quest:
+            buffer = random.randint(2, 3)
+            quest.available_since_turn = latest_end + buffer
+        else:
+            quest.available_since_turn = self.current_turn
+
+        queue_size = self._count_queued_in_location(location)
+
+        if queue_size >= 3:
+            return None  # 👈 segura geração
+
+        return quest
+
+    def _count_queued_in_location(self, sub_location_key):
+        count = 0
+
+        for quest in self.quest_registry.values():
+            if quest.id in self.completed_quests or quest.id in self.failed_quests:
+                continue
+
+            if quest.context.get("sub_location_key", "") != sub_location_key:
+                continue
+
+            if getattr(quest, "available_since_turn", 0) > self.current_turn:
+                count += 1
+
+        return count

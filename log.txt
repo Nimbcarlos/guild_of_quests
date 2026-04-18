@@ -1,20 +1,14 @@
 
 ============================================================
-Erro em: 2026-03-19 23:06:36.748963
+Erro em: 2026-04-14 16:28:19.201712
 Exception: AttributeError
-Arquivo: kivy\\properties.pyx
-Linha: 964
-Função: kivy.properties.ObservableDict.__getattr__
-Mensagem: 'super' object has no attribute '__getattr__'
-Código: 
+Arquivo: d:\Python\Jogo\core\quest.py
+Linha: 112
+Função: calculate_duration
+Mensagem: 'int' object has no attribute 'get_distance_to'
+Código: distance = map_graph.get_distance_to(location_key)
 
 --- Traceback completo ---
-Traceback (most recent call last):
-  File "kivy\\properties.pyx", line 961, in kivy.properties.ObservableDict.__getattr__
-KeyError: 'active_quests'
-
-During handling of the above exception, another exception occurred:
-
 Traceback (most recent call last):
   File "d:\Python\Jogo\main.py", line 95, in <module>
     GameApp().run()
@@ -57,30 +51,34 @@ Traceback (most recent call last):
   File "d:\Python\Jogo\screens\gameplay_screen.py", line 72, in on_enter
     self.update_sidebar()
     ~~~~~~~~~~~~~~~~~~~^^
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 176, in update_sidebar
-    self.ids.active_quests.clear_widgets()
-    ^^^^^^^^^^^^^^^^^^^^^^
-  File "kivy\\properties.pyx", line 964, in kivy.properties.ObservableDict.__getattr__
-AttributeError: 'super' object has no attribute '__getattr__'. Did you mean: '__setattr__'?
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 192, in update_sidebar
+    for quest in qm.get_available_quests():
+                 ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\core\quest_manager.py", line 259, in get_available_quests
+    return self.available_quests()
+           ~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\core\quest_manager.py", line 232, in available_quests
+    self._handle_quest_map_impact(quest)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "d:\Python\Jogo\core\quest_manager.py", line 378, in _handle_quest_map_impact
+    additional_turns = quest.calculate_duration(distance)
+  File "d:\Python\Jogo\core\quest.py", line 112, in calculate_duration
+    distance = map_graph.get_distance_to(location_key)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'get_distance_to'
 
 ============================================================
 
 ============================================================
-Erro em: 2026-03-19 23:07:01.045148
+Erro em: 2026-04-15 19:15:47.407590
 Exception: AttributeError
-Arquivo: kivy\\properties.pyx
-Linha: 964
-Função: kivy.properties.ObservableDict.__getattr__
-Mensagem: 'super' object has no attribute '__getattr__'
-Código: 
+Arquivo: d:\Python\Jogo\core\quest_manager.py
+Linha: 471
+Função: _generate_new_procedural
+Mensagem: 'QuestManager' object has no attribute '_update_quest_accessibility'
+Código: self._update_quest_accessibility(quest)
 
 --- Traceback completo ---
-Traceback (most recent call last):
-  File "kivy\\properties.pyx", line 961, in kivy.properties.ObservableDict.__getattr__
-KeyError: 'active_quests'
-
-During handling of the above exception, another exception occurred:
-
 Traceback (most recent call last):
   File "d:\Python\Jogo\main.py", line 95, in <module>
     GameApp().run()
@@ -94,39 +92,36 @@ Traceback (most recent call last):
   File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 339, in mainloop
     self.idle()
     ~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 379, in idle
-    Clock.tick()
-    ~~~~~~~~~~^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 733, in tick
-    self.post_idle(ts, self.idle())
-    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\clock.py", line 776, in post_idle
-    self._process_events()
-    ~~~~~~~~~~~~~~~~~~~~^^
-  File "kivy\\_clock.pyx", line 620, in kivy._clock.CyClockBase._process_events
-  File "kivy\\_clock.pyx", line 653, in kivy._clock.CyClockBase._process_events
-  File "kivy\\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
-  File "kivy\\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 370, in _update
-    self.stop(widget)
-    ~~~~~~~~~^^^^^^^^
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\animation.py", line 236, in stop
-    self.dispatch('on_complete', widget)
-    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 383, in idle
+    self.dispatch_input()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 334, in dispatch_input
+    post_dispatch_input(*pop(0))
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\base.py", line 302, in post_dispatch_input
+    wid.dispatch('on_touch_up', me)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\behaviors\button.py", line 179, in on_touch_up
+    self.dispatch('on_release')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^
   File "kivy\\_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
   File "kivy\\_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
   File "kivy\\_event.pyx", line 1231, in kivy._event.EventObservers._dispatch
-  File "D:\Python\Jogo\venv\Lib\site-packages\kivy\uix\screenmanager.py", line 419, in _on_complete
-    self.screen_in.dispatch('on_enter')
-    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
-  File "kivy\\_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 72, in on_enter
-    self.update_sidebar()
-    ~~~~~~~~~~~~~~~~~~~^^
-  File "d:\Python\Jogo\screens\gameplay_screen.py", line 176, in update_sidebar
-    self.ids.active_quests.clear_widgets()
-    ^^^^^^^^^^^^^^^^^^^^^^
-  File "kivy\\properties.pyx", line 964, in kivy.properties.ObservableDict.__getattr__
-AttributeError: 'super' object has no attribute '__getattr__'. Did you mean: '__setattr__'?
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 140, in <lambda>
+    on_release=lambda *_: self.advance_turn()
+                          ~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\screens\gameplay_screen.py", line 146, in advance_turn
+    self.qm.advance_turn()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\core\quest_manager.py", line 268, in advance_turn
+    self._ensure_procedural_pool()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "d:\Python\Jogo\core\quest_manager.py", line 327, in _ensure_procedural_pool
+    quest = self._generate_new_procedural()
+  File "d:\Python\Jogo\core\quest_manager.py", line 471, in _generate_new_procedural
+    self._update_quest_accessibility(quest)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QuestManager' object has no attribute '_update_quest_accessibility'
 
 ============================================================
